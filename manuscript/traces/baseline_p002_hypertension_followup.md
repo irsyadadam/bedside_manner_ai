@@ -1,6 +1,6 @@
 # Naive LLM baseline — `p002_hypertension_followup`
 
-_Mode: **mock**  ·  generated: 2026-05-19T21:59:20+00:00_
+_Mode: **real** · 2026-05-19T23:34:39+00:00_
 
 ## System prompt
 
@@ -20,4 +20,17 @@ _Mode: **mock**  ·  generated: 2026-05-19T21:59:20+00:00_
 
 ## Model response
 
-> Thank you for sharing what's been going on — I can tell this has been a lot to carry. From what you described ("I'm here for my blood pressure check, but I want to be straight with you — I hav..."), the right next step is to start with some basic workup so we can figure out what's contributing. I'd suggest we do some bloodwork and a focused exam, and then follow up in a couple of weeks to go over the results together. In the meantime, please reach out if anything gets worse or if new symptoms come up, and we'll handle it from there.
+> Okay, so I'm trying to figure out how to respond to this patient. They came in for a blood pressure check but are honest about not taking their lisinopril consistently. They mentioned forgetting, especially in the mornings when they're busy, and a persistent dry cough that's bothering them at night. They also experience some dizziness when standing up quickly.
+> 
+> First, I need to acknowledge their honesty and frustrations. It's important they feel heard. I should express understanding that managing medications can be tough, especially with a busy schedule. The dry cough is a known side effect of lisinopril, so I should mention that and consider alternatives.
+> 
+> They mentioned wanting fewer pills, so I should think about other treatment options, like lifestyle changes or different medications that don't cause the cough. Maybe diuretics or other blood pressure meds could be an option. I should also encourage them to continue with their exercise, as they have an Apple Watch, which seems to be helping.
+> 
+> I need to address their concerns about being around for their kids, so emphasizing the importance of managing blood pressure to prevent future health issues is key. I should suggest strategies to help them remember their meds, like setting reminders or taking them at a more convenient time.
+> 
+> I should also check if they're experiencing any other symptoms, but they've already listed most, so maybe just confirm that there's no chest pain or other severe issues. Finally, I should propose next steps, like adjusting their medication or discussing lifestyle changes, and reassure them that we'll work together to find a solution.
+> 
+> I need to keep the tone empathetic, supportive, and clear, avoiding any medical jargon. The response should be concise, maybe two paragraphs, to cover all these points without overwhelming them.
+> </think>
+> 
+> I understand how challenging it can be to stick to a medication routine, especially when you're juggling a busy schedule and feeling fine most of the time. The dry cough from lisinopril can be really frustrating, and I'm sorry you're dealing with that. It's completely valid to want a solution that works better for you. Let's explore other options together, like different medications or lifestyle changes, to manage your blood pressure without the side effects. We can also discuss strategies to help you remember your meds, like setting reminders. Your health and being there for your kids are important, and we'll work together to find a plan that suits you best.

@@ -1,6 +1,6 @@
 # Pipeline trace — `p001_fatigue_weightloss`
 
-_Mode: **mock**  ·  Generated: 2026-05-19T21:59:20+00:00_
+_Mode: **real**  ·  Generated: 2026-05-19T22:50:55+00:00_
 
 ## Scenario
 
@@ -18,7 +18,7 @@ _Mode: **mock**  ·  Generated: 2026-05-19T21:59:20+00:00_
 
 **Turn 2** — *agent (templated):*
 
-> When did the weight loss first start?
+> Before we go further, I want to check on a few quick safety questions. Have you had any chest pain, trouble breathing, sudden weakness or numbness, severe headaches, unexplained bleeding, or any thoughts of harming yourself recently?
 
 **Patient:**
 
@@ -26,7 +26,7 @@ _Mode: **mock**  ·  Generated: 2026-05-19T21:59:20+00:00_
 
 **Turn 3** — *agent (templated):*
 
-> When did the weight loss first start?
+> (intake already complete; processing additional utterance)
 
 **Patient:**
 
@@ -34,7 +34,7 @@ _Mode: **mock**  ·  Generated: 2026-05-19T21:59:20+00:00_
 
 **Turn 4** — *agent (templated):*
 
-> On a scale of 1 to 10, or in your own words, how bad has the weight loss been?
+> On a scale of 1 to 10, or in your own words, how bad has the dull headaches been?
 
 **Patient:**
 
@@ -42,7 +42,7 @@ _Mode: **mock**  ·  Generated: 2026-05-19T21:59:20+00:00_
 
 **Turn 5** — *agent (templated):*
 
-> On a scale of 1 to 10, or in your own words, how bad has the weight loss been?
+> On a scale of 1 to 10, or in your own words, how bad has the dull headaches been?
 
 **Patient:**
 
@@ -54,145 +54,159 @@ _Intake completion at last turn: **False** (status: `in_progress`)_
 
 ```yaml
 problems:
-- label: fatigue
-  onset: started about a month ago
+- label: persistent fatigue
+  onset: about a month ago
   severity: 7 out of 10
-  timing: null
-  associated_symptoms: []
+  timing: some days
+  associated_symptoms:
+  - unintentional weight loss ~12 lb
+  - headaches
+  interventions_tried:
+  - taking ibuprofen sometimes for headaches
+  status: worsening
+- label: unintentional weight loss
+  onset: past month
+  severity: ~12 lb
+  timing: past month
+  associated_symptoms:
+  - fatigue
   interventions_tried: []
-  status: unknown
-- label: weight loss
-  onset: null
+  status: worsening
+- label: dull headaches
+  onset: almost every day
   severity: null
-  timing: null
-  associated_symptoms: []
-  interventions_tried: []
-  status: unknown
-- label: headache
-  onset: started about a month ago
-  severity: 7 out of 10
-  timing: in the morning
-  associated_symptoms: []
-  interventions_tried: []
-  status: unknown
-- label: shortness of breath
-  onset: null
-  severity: null
-  timing: in the morning
-  associated_symptoms: []
-  interventions_tried: []
-  status: unknown
-- label: chest pain
-  onset: null
-  severity: null
-  timing: in the morning
+  timing: daily
   associated_symptoms: []
   interventions_tried: []
   status: unknown
 medications:
-- ibuprofen sometimes for headaches but nothing for the fatigue itself
-- lisinopril 10 mg once a day for blood pressure, been on it for years
-- weeks off, that'd be a huge help
-allergies: []
-relevant_history: []
+- lisinopril 10 mg once a day
+allergies:
+- No known allergies
+relevant_history:
+- 'Family history: father had colon cancer diagnosed at 55, passed away'
+- 'Smoking status: non-smoker'
+- 'Alcohol use: occasional beer consumption on weekends'
 patient_goals:
-- I just want to know what's going on so I can keep working — I'm a contractor, if
-  I can't be on my feet I can't earn
-- I want to feel safe again, you know? And I need to keep working
-- I need to keep working
+- find out what's going on
+- keep working
+- feel safe
 emotional_cues:
 - cue: fear
   evidence_quote: My wife is convinced it's cancer and honestly I am too
-- cue: fear
-  evidence_quote: My dad had colon cancer at 55 — they caught it late and he didn't
-    make it
-- cue: fear
-  evidence_quote: I'd really like to rule out the cancer thing — I want to feel safe
-    again, you know? And I need to keep working
+- cue: worry
+  evidence_quote: I just want to know what's going on
+- cue: frustration
+  evidence_quote: I'm a contractor, if I can't be on my feet I can't earn
+- cue: worry
+  evidence_quote: I'd really like to rule out the cancer thing
 red_flags:
 - flag: unexplained weight loss
-  evidence: I've been so tired the past month, and I've lost about 12 pounds without
-    trying
-- flag: neurologic deficit
-  evidence: No fainting, no sudden weakness on one side
+  evidence: I've lost about 12 pounds without trying
 unknowns:
-- problems[0].timing
-- problems[1].onset
-- problems[1].severity
-- problems[1].timing
-- problems[3].onset
-- problems[3].severity
-- problems[4].onset
-- problems[4].severity
+- problems[2].severity
+- problems[2].onset
+- problems[2].status
+- medications
+- allergies
+- relevant_history
 turn_count: 5
 completion_status: in_progress
 ```
 
 ## Top 5 retrieved documents (Module II)
 
-Sub-queries decomposed: **9**.  top_k chunks/sub-query: **20**.  Graph expansion: `stub`.  Rerank weights: `{'semantic_similarity': 0.5, 'recency': 0.2, 'authority': 0.2, 'coverage_bonus': 0.1}`.
+Sub-queries decomposed: **7**.  top_k chunks/sub-query: **20**.  Graph expansion: `stub`.  Rerank weights: `{'semantic_similarity': 0.5, 'recency': 0.2, 'authority': 0.2, 'coverage_bonus': 0.1}`.
 
 | Rank | PMID | Year | Journal | sem | rec | aut | cov | total | Title |
 |---:|---|---:|---|---:|---:|---:|---:|---:|---|
-| 1 | 40983262 | 2026 | American journal of preventive medicine | 0.689 | 1.00 | 0.80 | 0.22 | 0.727 | Systematic Review of Dementia Risk Screening Tools in Primary Care Settings. |
-| 2 | 41092546 | 2026 | Patient education and counseling | 0.675 | 1.00 | 0.80 | 0.11 | 0.708 | Patient-clinician communication in longitudinal care settings about adverse childhood experiences (A |
-| 3 | 38719772 | 2024 | The European respiratory journal | 0.705 | 0.75 | 0.85 | 0.11 | 0.684 | European Respiratory Society clinical practice guideline on symptom management for adults with serio |
-| 4 | 38533994 | 2024 | The Cochrane database of systematic reviews | 0.629 | 0.75 | 0.98 | 0.11 | 0.672 | Mobile phone text messaging for medication adherence in secondary prevention of cardiovascular disea |
-| 5 | 38521534 | 2024 | BMJ open | 0.706 | 0.75 | 0.80 | 0.00 | 0.663 | Prognostic factors and prediction models for hospitalisation and all-cause mortality in adults prese |
+| 1 | 41092546 | 2026 | Patient education and counseling | 0.691 | 1.00 | 0.80 | 0.14 | 0.720 | Patient-clinician communication in longitudinal care settings about adverse childhood experiences (A |
+| 2 | 38533994 | 2024 | The Cochrane database of systematic reviews | 0.665 | 0.75 | 0.98 | 0.14 | 0.693 | Mobile phone text messaging for medication adherence in secondary prevention of cardiovascular disea |
+| 3 | 40759522 | 2025 | BMJ open | 0.657 | 0.88 | 0.80 | 0.29 | 0.692 | Effectiveness of general practitioner-delivered nutrition care on dietary and health outcomes in adu |
+| 4 | 38604640 | 2024 | BMJ open | 0.702 | 0.75 | 0.80 | 0.00 | 0.661 | Do patients with type 2 diabetes mellitus included in randomised clinical trials differ from general |
+| 5 | 35709018 | 2022 | The Cochrane database of systematic reviews | 0.671 | 0.50 | 0.98 | 0.14 | 0.646 | Clinical judgement by primary care physicians for the diagnosis of all-cause dementia or cognitive i |
 
 ## `StructuredContextArtifact` (Module III)
 
-- Documents processed: **20**  · Assertions extracted: **40**  · Clusters: **4** (convergent=2, divergent=2)  · Similarity threshold: **0.75**
+- Documents processed: **5**  · Assertions extracted: **14**  · Clusters: **8** (convergent=6, divergent=2)  · Similarity threshold: **0.75**
 
-### Cluster 1 · CONVERGENT · `communication_directive` · addresses=`(global)` · confidence=0.85
+### Cluster 1 · CONVERGENT · `finding` · addresses=`(global)` · confidence=0.90
 
-**Primary** (`41092546_1`, conf=0.80): Use patient-centered communication strategies (plain language, teach-back, shared decision-making) when discussing this concern.
+**Primary** (`38604640_5`, conf=0.90): This situation hampers the applicability of clinical practice guidelines.
 
-> _evidence_: Patient-clinician communication in longitudinal care settings about adverse childhood experiences (ACEs) and adult traumas: A systematic review of reviews.
+> _evidence_: This situation hampers the applicability of these guidelines.
 
-Supporting PMIDs (3): 33658141, 34448868, 41092546
+Supporting PMIDs (1): 38604640
 
-### Cluster 2 · CONVERGENT · `monitoring` · addresses=`(global)` · confidence=0.70
+### Cluster 2 · CONVERGENT · `finding` · addresses=`(global)` · confidence=0.85
 
-**Primary** (`40983262_1`, conf=0.70): Periodic screening / monitoring is supported by this journal article.
+**Primary** (`41092546_0`, conf=0.85): Communication about traumatic experiences shows potential benefit to adult primary care patients.
 
-> _evidence_: Systematic Review of Dementia Risk Screening Tools in Primary Care Settings.
+> _evidence_: Communication with clinicians about traumatic experiences shows potential benefit to adult primary care patients.
 
-Supporting PMIDs (1): 40983262
+Supporting PMIDs (1): 41092546
 
-### Cluster 3 · DIVERGENT · `finding` · addresses=`(global)` · confidence=0.78
+### Cluster 3 · CONVERGENT · `finding` · addresses=`(global)` · confidence=0.85
 
-**Primary** (`40983262_2`, conf=0.78): This journal article synthesizes evidence relevant to the patient's concerns.
+**Primary** (`40759522_0`, conf=0.85): There is mixed evidence of the effectiveness of GP-delivered nutrition care among adults with diet-related chronic conditions or risk states.
 
-> _evidence_: Systematic Review of Dementia Risk Screening Tools in Primary Care Settings.
+> _evidence_: There is mixed evidence of the effectiveness of GP-delivered nutrition care among adults with diet-related chronic conditions or risk states.
 
-**Alternatives (15):**
-- `41092546_2` (conf=0.78) — This journal article synthesizes evidence relevant to the patient's concerns.
-- `38719772_1` (conf=0.78) — This journal article synthesizes evidence relevant to the patient's concerns.
-- `38521534_1` (conf=0.78) — This systematic review synthesizes evidence relevant to the patient's concerns.
-- `35833228_1` (conf=0.78) — This systematic review synthesizes evidence relevant to the patient's concerns.
-- ... and 11 more
+Supporting PMIDs (1): 40759522
 
-_Resolution rule: **recency** — Recency: pub_year=2026 wins among [2026, 2026, 2024, 2024, 2023, 2021, 2021, 2021, 2021, 2021, 2026, 2021, 2020, 2020, 2019, 2026]; authority and confidence used as tiebreakers if needed._
+### Cluster 4 · CONVERGENT · `recommendation` · addresses=`(global)` · confidence=0.85
 
-Supporting PMIDs (16): 31237649, 31558663, 32032375, 33658141, 33882128, 33952533, 33992082, 34448868, 34588228, 35833228...
+**Primary** (`38604640_6`, conf=0.85): Future trials should include patients who better fit the 'average' general-practice patient to improve guideline translation.
 
-### Cluster 4 · DIVERGENT · `recommendation` · addresses=`(global)` · confidence=0.72
+> _evidence_: Future randomised trials should include patients who better fit the 'average' general-practice patient with type 2 diabetes mellitus to help improve the translation of study findings in daily practice.
 
-**Primary** (`40983262_0`, conf=0.72): Per this 2026 journal article, consider the approach described in: "Systematic Review of Dementia Risk Screening Tools in Primary Care Settings."
+Supporting PMIDs (1): 38604640
 
-> _evidence_: Systematic Review of Dementia Risk Screening Tools in Primary Care Settings.
+### Cluster 5 · CONVERGENT · `finding` · addresses=`(global)` · confidence=0.80
 
-**Alternatives (19):**
-- `41092546_0` (conf=0.72) — Per this 2026 journal article, consider the approach described in: "Patient-clinician communication in longitudinal care settings about adverse childhood expe"
-- `38719772_0` (conf=0.72) — Per this 2024 journal article, consider the approach described in: "European Respiratory Society clinical practice guideline on symptom management for adults "
-- `38533994_0` (conf=0.72) — Per this 2024 journal article, consider the approach described in: "Mobile phone text messaging for medication adherence in secondary prevention of cardiovasc"
-- `38521534_0` (conf=0.72) — Per this 2024 systematic review, consider the approach described in: "Prognostic factors and prediction models for hospitalisation and all-cause mortality in ad
-- ... and 15 more
+**Primary** (`40759522_1`, conf=0.80): Most interventions did not include prompting and had a limited range of behaviour change techniques.
 
-_Resolution rule: **recency** — Recency: pub_year=2026 wins among [2026, 2026, 2024, 2024, 2024, 2022, 2023, 2021, 2021, 2021, 2021, 2020, 2021, 2026, 2021, 2020, 2020, 2019, 2026, 2026]; authority and confidence used as tiebreakers if needed._
+> _evidence_: Most interventions did not include prompting and had a limited range of behaviour change techniques.
 
-Supporting PMIDs (20): 31237649, 31558663, 32032375, 33285618, 33658141, 33882128, 33952533, 33992082, 34448868, 34588228...
+Supporting PMIDs (1): 40759522
+
+### Cluster 6 · CONVERGENT · `recommendation` · addresses=`(global)` · confidence=0.80
+
+**Primary** (`41092546_1`, conf=0.80): Organizational support, including sustained intervention efforts, trauma communication training, and resource allocation, is required for clinician readiness to engage in conversations about traumatic experiences.
+
+> _evidence_: Clinician- and systems-level readiness to respond to and engage in conversations about traumatic experiences with adult primary care patients requires organizational support, including sustained intervention efforts, trauma communication training, and resource allocation.
+
+Supporting PMIDs (1): 41092546
+
+### Cluster 7 · DIVERGENT · `finding` · addresses=`(global)` · confidence=0.90
+
+**Primary** (`38604640_0`, conf=0.90): Patients with type 2 diabetes mellitus in general practice differ from those included in randomised controlled trials.
+
+> _evidence_: Patients with type 2 diabetes mellitus cared for in general practice differ in a number of important aspects from patients included in randomised controlled trials on which clinical practice guidelines are based.
+
+**Alternatives (4):**
+- `38604640_1` (conf=0.85) — General-practice patients with type 2 diabetes are older and have a higher body mass index compared to trial participants.
+- `38604640_2` (conf=0.80) — General-practice patients smoke less than those in randomised controlled trials.
+- `38604640_3` (conf=0.80) — General-practice patients more frequently use antihypertensive drugs compared to trial participants.
+- `38604640_4` (conf=0.80) — General-practice patients have a lower incidence of myocardial infarction compared to trial participants.
+
+_Resolution rule: **recency** — Recency: All assertions are from the same 2024 publication; rule 1 is satisfied._
+
+Supporting PMIDs (1): 38604640
+
+### Cluster 8 · DIVERGENT · `finding` · addresses=`(global)` · confidence=0.90
+
+**Primary** (`35709018_1`, conf=0.90): General practitioners' clinical judgement has a sensitivity of 58% and specificity of 89% for diagnosing dementia.
+
+> _evidence_: summary diagnostic accuracy of clinical judgement of general practitioners was sensitivity 58% (95% CI 43% to 72%), specificity 89% (95% CI 79% to 95%)
+
+**Alternatives (2):**
+- `35709018_0` (conf=0.90) — Clinical judgement of GPs is more specific than sensitive for the diagnosis of dementia.
+- `35709018_2` (conf=0.90) — General practitioners' clinical judgement has a sensitivity of 84% and specificity of 73% for diagnosing cognitive impairment.
+
+_Resolution rule: **evidence_strength** — Recency: All assertions are from the same 2022 publication, so recency does not resolve the tie. Next, authority: all are from Cochrane Database of Systematic Reviews with the highest authority score. Then, evidence strength: all are Journal Article, but the primary assertion is from a Systematic Review, which is higher than others. Finally, confidence is the same, so the primary is chosen based on evidence strength._
+
+Supporting PMIDs (1): 35709018
 
 **Limitations recorded by Module III:**
 - Abstracts-only prototype: assertion granularity is coarser than a full-text system would produce.
@@ -202,99 +216,83 @@ Supporting PMIDs (20): 31237649, 31558663, 32032375, 33285618, 33658141, 3388212
 
 ### Acknowledgment
 
-> I can hear how much this has been weighing on you — you said, "My wife is convinced it's cancer and honestly I am too". That's a real thing to be carrying, and I want to take it seriously while we figure out what's going on.
+> I can hear how much this has been worrying you — you mentioned, "My wife is convinced it's cancer and honestly I am too." That's a real concern, and I want to make sure we address it carefully.
 
 ### Clinical information, per concern
 
-**fatigue** (`problems[0]`) [PMID 33658141] [PMID 34448868] [PMID 41092546]
+**persistent fatigue** (`problems[0]`) [PMID 38604640]
 
-> For your fatigue: based on current guidance, Use patient-centered communication strategies (plain language, teach-back, shared decision-making) when discussing this concern.
-
-Citations:
-- `communication_directive::global::41092546_1` → primary `41092546_1` (supports: 33658141, 34448868, 41092546)
-
-**weight loss** (`problems[1]`) [PMID 33658141] [PMID 34448868] [PMID 41092546]
-
-> For your weight loss: based on current guidance, Use patient-centered communication strategies (plain language, teach-back, shared decision-making) when discussing this concern.
+> Persistent fatigue, especially when it's getting worse and linked to unexplained weight loss, can be a sign of several health issues. We'll need to look into this more thoroughly to understand what's going on.
 
 Citations:
-- `communication_directive::global::41092546_1` → primary `41092546_1` (supports: 33658141, 34448868, 41092546)
+- `finding::global::38604640_0` → primary `38604640_0` (supports: 38604640)
 
-**headache** (`problems[2]`) [PMID 33658141] [PMID 34448868] [PMID 41092546]
+**unintentional weight loss** (`problems[1]`) [PMID 38604640]
 
-> For your headache: based on current guidance, Use patient-centered communication strategies (plain language, teach-back, shared decision-making) when discussing this concern.
-
-Citations:
-- `communication_directive::global::41092546_1` → primary `41092546_1` (supports: 33658141, 34448868, 41092546)
-
-**shortness of breath** (`problems[3]`) [PMID 33658141] [PMID 34448868] [PMID 41092546]
-
-> For your shortness of breath: based on current guidance, Use patient-centered communication strategies (plain language, teach-back, shared decision-making) when discussing this concern.
+> Unexplained weight loss, especially over a short period, can be a red flag for various health conditions. It's important to investigate this to rule out serious issues.
 
 Citations:
-- `communication_directive::global::41092546_1` → primary `41092546_1` (supports: 33658141, 34448868, 41092546)
+- `finding::global::38604640_0` → primary `38604640_0` (supports: 38604640)
 
-**chest pain** (`problems[4]`) [PMID 33658141] [PMID 34448868] [PMID 41092546]
+**dull headaches** (`problems[2]`) [PMID 38604640]
 
-> For your chest pain: based on current guidance, Use patient-centered communication strategies (plain language, teach-back, shared decision-making) when discussing this concern.
-
-Citations:
-- `communication_directive::global::41092546_1` → primary `41092546_1` (supports: 33658141, 34448868, 41092546)
-
-**goal: "I just want to know what's going on so I can keep working — I'm a contractor, if I can't be on my feet I can't earn"** (`patient_goals[0]`) [PMID 33658141] [PMID 34448868] [PMID 41092546]
-
-> For your goal: "I just want to know what's going on so I can keep working — I'm a contractor, if I can't be on my feet I can't earn": based on current guidance, Use patient-centered communication strategies (plain language, teach-back, shared decision-making) when discussing this concern.
+> Dull headaches that happen almost every day could be related to stress or other underlying issues. We'll keep an eye on this as we work through your other concerns.
 
 Citations:
-- `communication_directive::global::41092546_1` → primary `41092546_1` (supports: 33658141, 34448868, 41092546)
+- `finding::global::38604640_0` → primary `38604640_0` (supports: 38604640)
 
-**goal: "I want to feel safe again, you know? And I need to keep working"** (`patient_goals[1]`) [PMID 33658141] [PMID 34448868] [PMID 41092546]
+**find out what's going on** (`patient_goals[0]`) [PMID 38604640]
 
-> For your goal: "I want to feel safe again, you know? And I need to keep working": based on current guidance, Use patient-centered communication strategies (plain language, teach-back, shared decision-making) when discussing this concern.
-
-Citations:
-- `communication_directive::global::41092546_1` → primary `41092546_1` (supports: 33658141, 34448868, 41092546)
-
-**goal: "I need to keep working"** (`patient_goals[2]`) [PMID 33658141] [PMID 34448868] [PMID 41092546]
-
-> For your goal: "I need to keep working": based on current guidance, Use patient-centered communication strategies (plain language, teach-back, shared decision-making) when discussing this concern.
+> Our main goal is to figure out what's causing these symptoms. We'll start with some tests to get a clearer picture.
 
 Citations:
-- `communication_directive::global::41092546_1` → primary `41092546_1` (supports: 33658141, 34448868, 41092546)
+- `finding::global::38604640_0` → primary `38604640_0` (supports: 38604640)
+
+**keep working** (`patient_goals[1]`) [PMID 38604640]
+
+> We'll work together to manage your health so you can stay active and continue working. Your ability to work is important, and we'll keep that in mind as we move forward.
+
+Citations:
+- `finding::global::38604640_0` → primary `38604640_0` (supports: 38604640)
+
+**feel safe** (`patient_goals[2]`) [PMID 38604640]
+
+> We'll make sure you understand the steps we're taking so you feel reassured about your health and treatment.
+
+Citations:
+- `finding::global::38604640_0` → primary `38604640_0` (supports: 38604640)
 
 ### Next steps
 
-1. Because of the unexplained weight loss, we'll start the workup today rather than wait — that includes bloodwork and a few tests to rule out the things you're most worried about.
-2. We'll go through what each step is for, so you can decide what feels right.
-3. I'll have someone follow up with you in the next few days to check in and answer any questions that come up.
+1. Given the red flag of unexplained weight loss, we'll prioritize some immediate tests to get a clearer picture of what's going on.
+2. We'll schedule a follow-up visit in 4 weeks to review the results and discuss the next steps.
+3. If any test results come back early, I'll reach out to you right away to keep you informed.
 
 ### Teach-back prompt
 
-> I want to make sure I explained this clearly — can you tell me, in your own words, what we're going to do next and why?
+> I want to make sure I explained everything clearly. Can you tell me, in your own words, what we're going to do next and why?
 
 ### Follow-up invitation
 
-> Let's plan to see each other again in 2–4 weeks. In the meantime, if anything gets worse — especially any of the warning signs we talked about — please call us right away.
+> Let's plan to meet again in 4 weeks. In the meantime, if you experience any new symptoms like severe pain or if your fatigue gets much worse, please call us immediately.
 
 ## Provenance appendix
 
 ### Framework elements applied
 
 - **NURSE** elements applied: ['Name', 'Understand', 'Respect', 'Support']
-- **Four Habits** elements applied: ['Invest in the beginning', 'Demonstrate empathy', "Elicit the patient's perspective", 'Invest in the end']
+- **Four Habits** elements applied: ['Invest in the beginning', "Elicit the patient's perspective", 'Demonstrate empathy', 'Invest in the end']
 
 ### Cluster → PMIDs used in the response
 
-- `communication_directive::global::41092546_1` · `communication_directive` · addresses=`(global)` · primary `41092546_1` · PMIDs: 33658141, 34448868, 41092546
+- `finding::global::38604640_0` · `finding` · addresses=`(global)` · primary `38604640_0` · PMIDs: 38604640
 
 ### All PMIDs cited (deduped)
 
-- 33658141
-- 34448868
-- 41092546
+- 38604640
 
 _No glossary substitutions were needed (LLM produced plain language directly)._
 
 ---
 
-_Generated by `scripts/run_demo.py` · mode `mock` · transcript `p001_fatigue_weightloss`_
+_Generated by `scripts/run_demo.py` · mode `real` · transcript `p001_fatigue_weightloss`_

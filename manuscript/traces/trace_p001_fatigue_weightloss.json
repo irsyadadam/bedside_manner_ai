@@ -16,19 +16,174 @@
       "profile_after": {
         "problems": [
           {
-            "label": "fatigue",
-            "onset": null,
+            "label": "persistent fatigue",
+            "onset": "about 1 month ago",
             "severity": null,
-            "timing": null,
-            "associated_symptoms": [],
+            "timing": "ongoing daily",
+            "associated_symptoms": [
+              "unintentional weight loss ~12 lb"
+            ],
             "interventions_tried": [],
             "status": "unknown"
           },
           {
-            "label": "weight loss",
-            "onset": null,
+            "label": "unintentional weight loss",
+            "onset": "past month",
+            "severity": "~12 lb",
+            "timing": "past month",
+            "associated_symptoms": [
+              "fatigue"
+            ],
+            "interventions_tried": [],
+            "status": "worsening"
+          }
+        ],
+        "medications": [],
+        "allergies": [],
+        "relevant_history": [],
+        "patient_goals": [
+          "find out what's going on",
+          "keep working"
+        ],
+        "emotional_cues": [
+          {
+            "cue": "fear",
+            "evidence_quote": "My wife is convinced it's cancer and honestly I am too"
+          },
+          {
+            "cue": "worry",
+            "evidence_quote": "I just want to know what's going on"
+          },
+          {
+            "cue": "frustration",
+            "evidence_quote": "I'm a contractor, if I can't be on my feet I can't earn"
+          }
+        ],
+        "red_flags": [
+          {
+            "flag": "unexplained weight loss",
+            "evidence": "I've lost about 12 pounds without trying"
+          }
+        ],
+        "unknowns": [
+          "problems[0].severity",
+          "problems[0].status",
+          "problems[1].status",
+          "red_flag_screen_complete",
+          "allergies",
+          "medications",
+          "relevant_history"
+        ],
+        "turn_count": 1,
+        "completion_status": "in_progress"
+      },
+      "complete": false
+    },
+    {
+      "turn": 2,
+      "agent_prompt": "Before we go further, I want to check on a few quick safety questions. Have you had any chest pain, trouble breathing, sudden weakness or numbness, severe headaches, unexplained bleeding, or any thoughts of harming yourself recently?",
+      "patient_utterance": "It started about a month ago. Some days I feel a 7 out of 10 tired — I can barely get through my shifts. I'm taking ibuprofen sometimes for headaches but nothing for the fatigue itself. Sleep is okay but I'm not waking up rested.",
+      "profile_after": {
+        "problems": [
+          {
+            "label": "persistent fatigue",
+            "onset": "about a month ago",
+            "severity": "7 out of 10",
+            "timing": "some days",
+            "associated_symptoms": [
+              "unintentional weight loss ~12 lb",
+              "headaches"
+            ],
+            "interventions_tried": [
+              "taking ibuprofen sometimes for headaches"
+            ],
+            "status": "worsening"
+          },
+          {
+            "label": "unintentional weight loss",
+            "onset": "past month",
+            "severity": "~12 lb",
+            "timing": "past month",
+            "associated_symptoms": [
+              "fatigue"
+            ],
+            "interventions_tried": [],
+            "status": "worsening"
+          }
+        ],
+        "medications": [],
+        "allergies": [],
+        "relevant_history": [],
+        "patient_goals": [
+          "find out what's going on",
+          "keep working"
+        ],
+        "emotional_cues": [
+          {
+            "cue": "fear",
+            "evidence_quote": "My wife is convinced it's cancer and honestly I am too"
+          },
+          {
+            "cue": "worry",
+            "evidence_quote": "I just want to know what's going on"
+          },
+          {
+            "cue": "frustration",
+            "evidence_quote": "I'm a contractor, if I can't be on my feet I can't earn"
+          }
+        ],
+        "red_flags": [
+          {
+            "flag": "unexplained weight loss",
+            "evidence": "I've lost about 12 pounds without trying"
+          }
+        ],
+        "unknowns": [
+          "medications",
+          "allergies",
+          "relevant_history"
+        ],
+        "turn_count": 2,
+        "completion_status": "in_progress"
+      },
+      "complete": true
+    },
+    {
+      "turn": 3,
+      "agent_prompt": "(intake already complete; processing additional utterance)",
+      "patient_utterance": "No chest pain, no shortness of breath, nothing like that. No fainting, no sudden weakness on one side. But I have been getting these dull headaches in the morning, almost every day. No fevers, no blood in stool that I've seen — I'd have noticed.",
+      "profile_after": {
+        "problems": [
+          {
+            "label": "persistent fatigue",
+            "onset": "about a month ago",
+            "severity": "7 out of 10",
+            "timing": "some days",
+            "associated_symptoms": [
+              "unintentional weight loss ~12 lb",
+              "headaches"
+            ],
+            "interventions_tried": [
+              "taking ibuprofen sometimes for headaches"
+            ],
+            "status": "worsening"
+          },
+          {
+            "label": "unintentional weight loss",
+            "onset": "past month",
+            "severity": "~12 lb",
+            "timing": "past month",
+            "associated_symptoms": [
+              "fatigue"
+            ],
+            "interventions_tried": [],
+            "status": "worsening"
+          },
+          {
+            "label": "dull headaches",
+            "onset": "almost every day",
             "severity": null,
-            "timing": null,
+            "timing": "daily",
             "associated_symptoms": [],
             "interventions_tried": [],
             "status": "unknown"
@@ -38,185 +193,36 @@
         "allergies": [],
         "relevant_history": [],
         "patient_goals": [
-          "I just want to know what's going on so I can keep working — I'm a contractor, if I can't be on my feet I can't earn"
+          "find out what's going on",
+          "keep working"
         ],
         "emotional_cues": [
           {
             "cue": "fear",
             "evidence_quote": "My wife is convinced it's cancer and honestly I am too"
+          },
+          {
+            "cue": "worry",
+            "evidence_quote": "I just want to know what's going on"
+          },
+          {
+            "cue": "frustration",
+            "evidence_quote": "I'm a contractor, if I can't be on my feet I can't earn"
           }
         ],
         "red_flags": [
           {
             "flag": "unexplained weight loss",
-            "evidence": "I've been so tired the past month, and I've lost about 12 pounds without trying"
+            "evidence": "I've lost about 12 pounds without trying"
           }
         ],
         "unknowns": [
-          "problems[0].onset",
-          "problems[0].severity",
-          "problems[0].timing",
-          "problems[1].onset",
-          "problems[1].severity",
-          "problems[1].timing",
-          "medications"
-        ],
-        "turn_count": 1,
-        "completion_status": "in_progress"
-      },
-      "complete": false
-    },
-    {
-      "turn": 2,
-      "agent_prompt": "When did the weight loss first start?",
-      "patient_utterance": "It started about a month ago. Some days I feel a 7 out of 10 tired — I can barely get through my shifts. I'm taking ibuprofen sometimes for headaches but nothing for the fatigue itself. Sleep is okay but I'm not waking up rested.",
-      "profile_after": {
-        "problems": [
-          {
-            "label": "fatigue",
-            "onset": "started about a month ago",
-            "severity": "7 out of 10",
-            "timing": null,
-            "associated_symptoms": [],
-            "interventions_tried": [],
-            "status": "unknown"
-          },
-          {
-            "label": "weight loss",
-            "onset": null,
-            "severity": null,
-            "timing": null,
-            "associated_symptoms": [],
-            "interventions_tried": [],
-            "status": "unknown"
-          },
-          {
-            "label": "headache",
-            "onset": "started about a month ago",
-            "severity": "7 out of 10",
-            "timing": null,
-            "associated_symptoms": [],
-            "interventions_tried": [],
-            "status": "unknown"
-          }
-        ],
-        "medications": [
-          "ibuprofen sometimes for headaches but nothing for the fatigue itself"
-        ],
-        "allergies": [],
-        "relevant_history": [],
-        "patient_goals": [
-          "I just want to know what's going on so I can keep working — I'm a contractor, if I can't be on my feet I can't earn"
-        ],
-        "emotional_cues": [
-          {
-            "cue": "fear",
-            "evidence_quote": "My wife is convinced it's cancer and honestly I am too"
-          }
-        ],
-        "red_flags": [
-          {
-            "flag": "unexplained weight loss",
-            "evidence": "I've been so tired the past month, and I've lost about 12 pounds without trying"
-          }
-        ],
-        "unknowns": [
-          "problems[0].timing",
-          "problems[1].onset",
-          "problems[1].severity",
-          "problems[1].timing",
-          "problems[2].timing"
-        ],
-        "turn_count": 2,
-        "completion_status": "in_progress"
-      },
-      "complete": false
-    },
-    {
-      "turn": 3,
-      "agent_prompt": "When did the weight loss first start?",
-      "patient_utterance": "No chest pain, no shortness of breath, nothing like that. No fainting, no sudden weakness on one side. But I have been getting these dull headaches in the morning, almost every day. No fevers, no blood in stool that I've seen — I'd have noticed.",
-      "profile_after": {
-        "problems": [
-          {
-            "label": "fatigue",
-            "onset": "started about a month ago",
-            "severity": "7 out of 10",
-            "timing": null,
-            "associated_symptoms": [],
-            "interventions_tried": [],
-            "status": "unknown"
-          },
-          {
-            "label": "weight loss",
-            "onset": null,
-            "severity": null,
-            "timing": null,
-            "associated_symptoms": [],
-            "interventions_tried": [],
-            "status": "unknown"
-          },
-          {
-            "label": "headache",
-            "onset": "started about a month ago",
-            "severity": "7 out of 10",
-            "timing": "in the morning",
-            "associated_symptoms": [],
-            "interventions_tried": [],
-            "status": "unknown"
-          },
-          {
-            "label": "shortness of breath",
-            "onset": null,
-            "severity": null,
-            "timing": "in the morning",
-            "associated_symptoms": [],
-            "interventions_tried": [],
-            "status": "unknown"
-          },
-          {
-            "label": "chest pain",
-            "onset": null,
-            "severity": null,
-            "timing": "in the morning",
-            "associated_symptoms": [],
-            "interventions_tried": [],
-            "status": "unknown"
-          }
-        ],
-        "medications": [
-          "ibuprofen sometimes for headaches but nothing for the fatigue itself"
-        ],
-        "allergies": [],
-        "relevant_history": [],
-        "patient_goals": [
-          "I just want to know what's going on so I can keep working — I'm a contractor, if I can't be on my feet I can't earn"
-        ],
-        "emotional_cues": [
-          {
-            "cue": "fear",
-            "evidence_quote": "My wife is convinced it's cancer and honestly I am too"
-          }
-        ],
-        "red_flags": [
-          {
-            "flag": "unexplained weight loss",
-            "evidence": "I've been so tired the past month, and I've lost about 12 pounds without trying"
-          },
-          {
-            "flag": "neurologic deficit",
-            "evidence": "No fainting, no sudden weakness on one side"
-          }
-        ],
-        "unknowns": [
-          "problems[0].timing",
-          "problems[1].onset",
-          "problems[1].severity",
-          "problems[1].timing",
-          "problems[3].onset",
-          "problems[3].severity",
-          "problems[4].onset",
-          "problems[4].severity"
+          "problems[2].severity",
+          "problems[2].onset",
+          "problems[2].status",
+          "medications",
+          "allergies",
+          "relevant_history"
         ],
         "turn_count": 3,
         "completion_status": "in_progress"
@@ -225,64 +231,59 @@
     },
     {
       "turn": 4,
-      "agent_prompt": "On a scale of 1 to 10, or in your own words, how bad has the weight loss been?",
+      "agent_prompt": "On a scale of 1 to 10, or in your own words, how bad has the dull headaches been?",
       "patient_utterance": "I'm on lisinopril 10 mg once a day for blood pressure, been on it for years. No allergies that I know of. My dad had colon cancer at 55 — they caught it late and he didn't make it. I don't smoke. Maybe a beer or two on the weekends.",
       "profile_after": {
         "problems": [
           {
-            "label": "fatigue",
-            "onset": "started about a month ago",
+            "label": "persistent fatigue",
+            "onset": "about a month ago",
             "severity": "7 out of 10",
-            "timing": null,
-            "associated_symptoms": [],
-            "interventions_tried": [],
-            "status": "unknown"
+            "timing": "some days",
+            "associated_symptoms": [
+              "unintentional weight loss ~12 lb",
+              "headaches"
+            ],
+            "interventions_tried": [
+              "taking ibuprofen sometimes for headaches"
+            ],
+            "status": "worsening"
           },
           {
-            "label": "weight loss",
-            "onset": null,
+            "label": "unintentional weight loss",
+            "onset": "past month",
+            "severity": "~12 lb",
+            "timing": "past month",
+            "associated_symptoms": [
+              "fatigue"
+            ],
+            "interventions_tried": [],
+            "status": "worsening"
+          },
+          {
+            "label": "dull headaches",
+            "onset": "almost every day",
             "severity": null,
-            "timing": null,
-            "associated_symptoms": [],
-            "interventions_tried": [],
-            "status": "unknown"
-          },
-          {
-            "label": "headache",
-            "onset": "started about a month ago",
-            "severity": "7 out of 10",
-            "timing": "in the morning",
-            "associated_symptoms": [],
-            "interventions_tried": [],
-            "status": "unknown"
-          },
-          {
-            "label": "shortness of breath",
-            "onset": null,
-            "severity": null,
-            "timing": "in the morning",
-            "associated_symptoms": [],
-            "interventions_tried": [],
-            "status": "unknown"
-          },
-          {
-            "label": "chest pain",
-            "onset": null,
-            "severity": null,
-            "timing": "in the morning",
+            "timing": "daily",
             "associated_symptoms": [],
             "interventions_tried": [],
             "status": "unknown"
           }
         ],
         "medications": [
-          "ibuprofen sometimes for headaches but nothing for the fatigue itself",
-          "lisinopril 10 mg once a day for blood pressure, been on it for years"
+          "lisinopril 10 mg once a day"
         ],
-        "allergies": [],
-        "relevant_history": [],
+        "allergies": [
+          "No known allergies"
+        ],
+        "relevant_history": [
+          "Family history: father had colon cancer diagnosed at 55, passed away",
+          "Smoking status: non-smoker",
+          "Alcohol use: occasional beer consumption on weekends"
+        ],
         "patient_goals": [
-          "I just want to know what's going on so I can keep working — I'm a contractor, if I can't be on my feet I can't earn"
+          "find out what's going on",
+          "keep working"
         ],
         "emotional_cues": [
           {
@@ -290,29 +291,27 @@
             "evidence_quote": "My wife is convinced it's cancer and honestly I am too"
           },
           {
-            "cue": "fear",
-            "evidence_quote": "My dad had colon cancer at 55 — they caught it late and he didn't make it"
+            "cue": "worry",
+            "evidence_quote": "I just want to know what's going on"
+          },
+          {
+            "cue": "frustration",
+            "evidence_quote": "I'm a contractor, if I can't be on my feet I can't earn"
           }
         ],
         "red_flags": [
           {
             "flag": "unexplained weight loss",
-            "evidence": "I've been so tired the past month, and I've lost about 12 pounds without trying"
-          },
-          {
-            "flag": "neurologic deficit",
-            "evidence": "No fainting, no sudden weakness on one side"
+            "evidence": "I've lost about 12 pounds without trying"
           }
         ],
         "unknowns": [
-          "problems[0].timing",
-          "problems[1].onset",
-          "problems[1].severity",
-          "problems[1].timing",
-          "problems[3].onset",
-          "problems[3].severity",
-          "problems[4].onset",
-          "problems[4].severity"
+          "problems[2].severity",
+          "problems[2].onset",
+          "problems[2].status",
+          "medications",
+          "allergies",
+          "relevant_history"
         ],
         "turn_count": 4,
         "completion_status": "in_progress"
@@ -321,67 +320,60 @@
     },
     {
       "turn": 5,
-      "agent_prompt": "On a scale of 1 to 10, or in your own words, how bad has the weight loss been?",
+      "agent_prompt": "On a scale of 1 to 10, or in your own words, how bad has the dull headaches been?",
       "patient_utterance": "I'd really like to rule out the cancer thing — I want to feel safe again, you know? And I need to keep working. If we can do whatever's needed without me taking weeks off, that'd be a huge help.",
       "profile_after": {
         "problems": [
           {
-            "label": "fatigue",
-            "onset": "started about a month ago",
+            "label": "persistent fatigue",
+            "onset": "about a month ago",
             "severity": "7 out of 10",
-            "timing": null,
-            "associated_symptoms": [],
-            "interventions_tried": [],
-            "status": "unknown"
+            "timing": "some days",
+            "associated_symptoms": [
+              "unintentional weight loss ~12 lb",
+              "headaches"
+            ],
+            "interventions_tried": [
+              "taking ibuprofen sometimes for headaches"
+            ],
+            "status": "worsening"
           },
           {
-            "label": "weight loss",
-            "onset": null,
+            "label": "unintentional weight loss",
+            "onset": "past month",
+            "severity": "~12 lb",
+            "timing": "past month",
+            "associated_symptoms": [
+              "fatigue"
+            ],
+            "interventions_tried": [],
+            "status": "worsening"
+          },
+          {
+            "label": "dull headaches",
+            "onset": "almost every day",
             "severity": null,
-            "timing": null,
-            "associated_symptoms": [],
-            "interventions_tried": [],
-            "status": "unknown"
-          },
-          {
-            "label": "headache",
-            "onset": "started about a month ago",
-            "severity": "7 out of 10",
-            "timing": "in the morning",
-            "associated_symptoms": [],
-            "interventions_tried": [],
-            "status": "unknown"
-          },
-          {
-            "label": "shortness of breath",
-            "onset": null,
-            "severity": null,
-            "timing": "in the morning",
-            "associated_symptoms": [],
-            "interventions_tried": [],
-            "status": "unknown"
-          },
-          {
-            "label": "chest pain",
-            "onset": null,
-            "severity": null,
-            "timing": "in the morning",
+            "timing": "daily",
             "associated_symptoms": [],
             "interventions_tried": [],
             "status": "unknown"
           }
         ],
         "medications": [
-          "ibuprofen sometimes for headaches but nothing for the fatigue itself",
-          "lisinopril 10 mg once a day for blood pressure, been on it for years",
-          "weeks off, that'd be a huge help"
+          "lisinopril 10 mg once a day"
         ],
-        "allergies": [],
-        "relevant_history": [],
+        "allergies": [
+          "No known allergies"
+        ],
+        "relevant_history": [
+          "Family history: father had colon cancer diagnosed at 55, passed away",
+          "Smoking status: non-smoker",
+          "Alcohol use: occasional beer consumption on weekends"
+        ],
         "patient_goals": [
-          "I just want to know what's going on so I can keep working — I'm a contractor, if I can't be on my feet I can't earn",
-          "I want to feel safe again, you know? And I need to keep working",
-          "I need to keep working"
+          "find out what's going on",
+          "keep working",
+          "feel safe"
         ],
         "emotional_cues": [
           {
@@ -389,33 +381,31 @@
             "evidence_quote": "My wife is convinced it's cancer and honestly I am too"
           },
           {
-            "cue": "fear",
-            "evidence_quote": "My dad had colon cancer at 55 — they caught it late and he didn't make it"
+            "cue": "worry",
+            "evidence_quote": "I just want to know what's going on"
           },
           {
-            "cue": "fear",
-            "evidence_quote": "I'd really like to rule out the cancer thing — I want to feel safe again, you know? And I need to keep working"
+            "cue": "frustration",
+            "evidence_quote": "I'm a contractor, if I can't be on my feet I can't earn"
+          },
+          {
+            "cue": "worry",
+            "evidence_quote": "I'd really like to rule out the cancer thing"
           }
         ],
         "red_flags": [
           {
             "flag": "unexplained weight loss",
-            "evidence": "I've been so tired the past month, and I've lost about 12 pounds without trying"
-          },
-          {
-            "flag": "neurologic deficit",
-            "evidence": "No fainting, no sudden weakness on one side"
+            "evidence": "I've lost about 12 pounds without trying"
           }
         ],
         "unknowns": [
-          "problems[0].timing",
-          "problems[1].onset",
-          "problems[1].severity",
-          "problems[1].timing",
-          "problems[3].onset",
-          "problems[3].severity",
-          "problems[4].onset",
-          "problems[4].severity"
+          "problems[2].severity",
+          "problems[2].onset",
+          "problems[2].status",
+          "medications",
+          "allergies",
+          "relevant_history"
         ],
         "turn_count": 5,
         "completion_status": "in_progress"
@@ -426,62 +416,55 @@
   "profile": {
     "problems": [
       {
-        "label": "fatigue",
-        "onset": "started about a month ago",
+        "label": "persistent fatigue",
+        "onset": "about a month ago",
         "severity": "7 out of 10",
-        "timing": null,
-        "associated_symptoms": [],
-        "interventions_tried": [],
-        "status": "unknown"
+        "timing": "some days",
+        "associated_symptoms": [
+          "unintentional weight loss ~12 lb",
+          "headaches"
+        ],
+        "interventions_tried": [
+          "taking ibuprofen sometimes for headaches"
+        ],
+        "status": "worsening"
       },
       {
-        "label": "weight loss",
-        "onset": null,
+        "label": "unintentional weight loss",
+        "onset": "past month",
+        "severity": "~12 lb",
+        "timing": "past month",
+        "associated_symptoms": [
+          "fatigue"
+        ],
+        "interventions_tried": [],
+        "status": "worsening"
+      },
+      {
+        "label": "dull headaches",
+        "onset": "almost every day",
         "severity": null,
-        "timing": null,
-        "associated_symptoms": [],
-        "interventions_tried": [],
-        "status": "unknown"
-      },
-      {
-        "label": "headache",
-        "onset": "started about a month ago",
-        "severity": "7 out of 10",
-        "timing": "in the morning",
-        "associated_symptoms": [],
-        "interventions_tried": [],
-        "status": "unknown"
-      },
-      {
-        "label": "shortness of breath",
-        "onset": null,
-        "severity": null,
-        "timing": "in the morning",
-        "associated_symptoms": [],
-        "interventions_tried": [],
-        "status": "unknown"
-      },
-      {
-        "label": "chest pain",
-        "onset": null,
-        "severity": null,
-        "timing": "in the morning",
+        "timing": "daily",
         "associated_symptoms": [],
         "interventions_tried": [],
         "status": "unknown"
       }
     ],
     "medications": [
-      "ibuprofen sometimes for headaches but nothing for the fatigue itself",
-      "lisinopril 10 mg once a day for blood pressure, been on it for years",
-      "weeks off, that'd be a huge help"
+      "lisinopril 10 mg once a day"
     ],
-    "allergies": [],
-    "relevant_history": [],
+    "allergies": [
+      "No known allergies"
+    ],
+    "relevant_history": [
+      "Family history: father had colon cancer diagnosed at 55, passed away",
+      "Smoking status: non-smoker",
+      "Alcohol use: occasional beer consumption on weekends"
+    ],
     "patient_goals": [
-      "I just want to know what's going on so I can keep working — I'm a contractor, if I can't be on my feet I can't earn",
-      "I want to feel safe again, you know? And I need to keep working",
-      "I need to keep working"
+      "find out what's going on",
+      "keep working",
+      "feel safe"
     ],
     "emotional_cues": [
       {
@@ -489,33 +472,31 @@
         "evidence_quote": "My wife is convinced it's cancer and honestly I am too"
       },
       {
-        "cue": "fear",
-        "evidence_quote": "My dad had colon cancer at 55 — they caught it late and he didn't make it"
+        "cue": "worry",
+        "evidence_quote": "I just want to know what's going on"
       },
       {
-        "cue": "fear",
-        "evidence_quote": "I'd really like to rule out the cancer thing — I want to feel safe again, you know? And I need to keep working"
+        "cue": "frustration",
+        "evidence_quote": "I'm a contractor, if I can't be on my feet I can't earn"
+      },
+      {
+        "cue": "worry",
+        "evidence_quote": "I'd really like to rule out the cancer thing"
       }
     ],
     "red_flags": [
       {
         "flag": "unexplained weight loss",
-        "evidence": "I've been so tired the past month, and I've lost about 12 pounds without trying"
-      },
-      {
-        "flag": "neurologic deficit",
-        "evidence": "No fainting, no sudden weakness on one side"
+        "evidence": "I've lost about 12 pounds without trying"
       }
     ],
     "unknowns": [
-      "problems[0].timing",
-      "problems[1].onset",
-      "problems[1].severity",
-      "problems[1].timing",
-      "problems[3].onset",
-      "problems[3].severity",
-      "problems[4].onset",
-      "problems[4].severity"
+      "problems[2].severity",
+      "problems[2].onset",
+      "problems[2].status",
+      "medications",
+      "allergies",
+      "relevant_history"
     ],
     "turn_count": 5,
     "completion_status": "in_progress"
@@ -526,94 +507,46 @@
         "source": "problem",
         "source_index": 0,
         "addresses": "problems[0]",
-        "text": "Adult primary care: fatigue | onset started about a month ago | severity 7 out of 10. What guideline-based assessment, workup, or management is recommended?"
+        "text": "Adult primary care: persistent fatigue | onset about a month ago | severity 7 out of 10 | timing some days | associated with unintentional weight loss ~12 lb, headaches | tried taking ibuprofen sometimes for headaches. What guideline-based assessment, workup, or management is recommended?"
       },
       {
         "source": "problem",
         "source_index": 1,
         "addresses": "problems[1]",
-        "text": "Adult primary care: weight loss | red flag: unexplained weight loss. What guideline-based assessment, workup, or management is recommended?"
+        "text": "Adult primary care: unintentional weight loss | onset past month | severity ~12 lb | timing past month | associated with fatigue. What guideline-based assessment, workup, or management is recommended?"
       },
       {
         "source": "problem",
         "source_index": 2,
         "addresses": "problems[2]",
-        "text": "Adult primary care: headache | onset started about a month ago | severity 7 out of 10 | timing in the morning. What guideline-based assessment, workup, or management is recommended?"
-      },
-      {
-        "source": "problem",
-        "source_index": 3,
-        "addresses": "problems[3]",
-        "text": "Adult primary care: shortness of breath | timing in the morning. What guideline-based assessment, workup, or management is recommended?"
-      },
-      {
-        "source": "problem",
-        "source_index": 4,
-        "addresses": "problems[4]",
-        "text": "Adult primary care: chest pain | timing in the morning. What guideline-based assessment, workup, or management is recommended?"
+        "text": "Adult primary care: dull headaches | onset almost every day | timing daily. What guideline-based assessment, workup, or management is recommended?"
       },
       {
         "source": "goal",
         "source_index": 0,
         "addresses": "patient_goals[0]",
-        "text": "Patient goal: \"I just want to know what's going on so I can keep working — I'm a contractor, if I can't be on my feet I can't earn\". What clinician communication, shared decision-making, or counseling guidance addresses this goal?"
+        "text": "Patient goal: \"find out what's going on\". What clinician communication, shared decision-making, or counseling guidance addresses this goal?"
       },
       {
         "source": "goal",
         "source_index": 1,
         "addresses": "patient_goals[1]",
-        "text": "Patient goal: \"I want to feel safe again, you know? And I need to keep working\". What clinician communication, shared decision-making, or counseling guidance addresses this goal?"
+        "text": "Patient goal: \"keep working\". What clinician communication, shared decision-making, or counseling guidance addresses this goal?"
       },
       {
         "source": "goal",
         "source_index": 2,
         "addresses": "patient_goals[2]",
-        "text": "Patient goal: \"I need to keep working\". What clinician communication, shared decision-making, or counseling guidance addresses this goal?"
+        "text": "Patient goal: \"feel safe\". What clinician communication, shared decision-making, or counseling guidance addresses this goal?"
       },
       {
         "source": "global_context",
         "source_index": 0,
         "addresses": null,
-        "text": "Patient context — medications: ibuprofen sometimes for headaches but nothing for the fatigue itself; lisinopril 10 mg once a day for blood pressure, been on it for years; weeks off, that'd be a huge help | red flags: neurologic deficit"
+        "text": "Patient context — medications: lisinopril 10 mg once a day | allergies: No known allergies | history: Family history: father had colon cancer diagnosed at 55, passed away; Smoking status: non-smoker; Alcohol use: occasional beer consumption on weekends | red flags: unexplained weight loss"
       }
     ],
     "documents": [
-      {
-        "pmid": "40983262",
-        "title": "Systematic Review of Dementia Risk Screening Tools in Primary Care Settings.",
-        "journal": "American journal of preventive medicine",
-        "pub_year": 2026,
-        "pub_date": "2026-03",
-        "pub_types": [
-          "Journal Article",
-          "Systematic Review",
-          "Review"
-        ],
-        "issuing_body": null,
-        "chunks": [
-          {
-            "chunk_id": "40983262_001",
-            "pmid": "40983262",
-            "section_label": "METHODS",
-            "text": "Inclusion criteria were studies of dementia risk screening methods applied or designed for use in primary care or derived or validated with primary care data for use with community-dwelling adults (aged ≥18 years) without dementia/cognitive impairment. Articles were limited to full-text peer-reviewed studies published in English. Searches were conducted from database inception until September 21, 2021/September 22, 2021 (updated on September 4, 2022 and September 16, 2024) in PubMed, MEDLINE, EMBASE, PsycINFO, and COCHRANE with backwards snowballing. Risk of bias was assessed using the Newcastle-Ottawa Scale for nonrandomized studies, the Cochrane risk of bias tool for randomized trials-V2, and the Critical Appraisal Skills Program qualitative checklist.",
-            "semantic_similarity": 0.688828706741333,
-            "matched_sub_query_indices": [
-              0,
-              2
-            ]
-          }
-        ],
-        "full_text": "INTRODUCTION: This preregistered (PROSPERO identification 272529) systematic review analyzed the reliability, validity, acceptability, and feasibility of methods to screen and identify primary care patients at increased risk for dementia.\n\nMETHODS: Inclusion criteria were studies of dementia risk screening methods applied or designed for use in primary care or derived or validated with primary care data for use with community-dwelling adults (aged ≥18 years) without dementia/cognitive impairment. Articles were limited to full-text peer-reviewed studies published in English. Searches were conducted from database inception until September 21, 2021/September 22, 2021 (updated on September 4, 2022 and September 16, 2024) in PubMed, MEDLINE, EMBASE, PsycINFO, and COCHRANE with backwards snowballing. Risk of bias was assessed using the Newcastle-Ottawa Scale for nonrandomized studies, the Cochrane risk of bias tool for randomized trials-V2, and the Critical Appraisal Skills Program qualitative checklist.\n\nRESULTS: Eleven validated tools and scores were investigated in 34 studies. Participant numbers ranged from 100 to 94,000,000. Tools and scores were used or validated in 1 (6 tools) to 13 studies (1 tool). Most studies were from higher-income countries. Risk of bias was low in most studies. C-statistics were most commonly used (range=0.52-0.86). Tools and scores generally had acceptable prediction but performed poorly in samples differing from the derivation sample. The Cardiovascular Risk Factors, Aging, and Dementia and Lifestyle for Brain Health demonstrated acceptable validity in midlife samples, and the Lifestyle for Brain Health demonstrated acceptable validity in older samples (aged <80 years).\n\nDISCUSSION: The Cardiovascular Risk Factors, Aging, and Dementia and Lifestyle for Brain Health are recommended for midlife and older adults aged <80 years, but further research is needed for adults aged ≥80 years and lower-middle income countries.",
-        "addresses_concerns": [
-          "sub_query[0]",
-          "sub_query[2]"
-        ],
-        "semantic_similarity": 0.688828706741333,
-        "recency_score": 1.0,
-        "authority_score": 0.8,
-        "coverage_bonus": 0.2222222222222222,
-        "total_score": 0.7266365755928887
-      },
       {
         "pmid": "41092546",
         "title": "Patient-clinician communication in longitudinal care settings about adverse childhood experiences (ACEs) and adult traumas: A systematic review of reviews.",
@@ -631,19 +564,9 @@
             "pmid": "41092546",
             "section_label": "OBJECTIVE",
             "text": "Synthesize the literature on strategies for clinician communication or relationship-building during longitudinal care visits with adult patients who have had adverse childhood experiences (ACEs) and/or other traumas later in life.",
-            "semantic_similarity": 0.6747030019760132,
+            "semantic_similarity": 0.6905226707458496,
             "matched_sub_query_indices": [
-              6
-            ]
-          },
-          {
-            "chunk_id": "41092546_003",
-            "pmid": "41092546",
-            "section_label": "CONCLUSION",
-            "text": "Communication with clinicians about traumatic experiences shows potential benefit to adult primary care patients. Future research rigorously evaluating training on and implementation of best practices in trauma communication is needed.",
-            "semantic_similarity": 0.663192868232727,
-            "matched_sub_query_indices": [
-              6
+              5
             ]
           },
           {
@@ -651,64 +574,31 @@
             "pmid": "41092546",
             "section_label": "METHODS",
             "text": "Systematic searches of literature reviews from 2012 to 2022 using CINAHL, PubMed, Cochrane Database, and Web of Science and Sociological Abstracts. Search terms reflected three key concepts: 1) Trauma (i.e., trauma, interpersonal violence, adverse childhood experiences), 2) Patient-provider communication/relationship-building (i.e., communication), and 3) Longitudinal patient care (primary care). Three researchers independently reviewed each title, abstract, and article to determine relevance and completed methodological quality appraisal using the AMSTAR-2 framework. Thematic analysis was used to identify key learning points and gaps in the literature.",
-            "semantic_similarity": 0.6559032201766968,
+            "semantic_similarity": 0.68330979347229,
             "matched_sub_query_indices": [
-              6
+              5
             ]
           },
           {
-            "chunk_id": "41092546_004",
+            "chunk_id": "41092546_003",
             "pmid": "41092546",
-            "section_label": "PRACTICE IMPLICATIONS",
-            "text": "Clinician- and systems-level readiness to respond to and engage in conversations about traumatic experiences with adult primary care patients requires organizational support, including sustained intervention efforts, trauma communication training, and resource allocation.",
-            "semantic_similarity": 0.6532149314880371,
+            "section_label": "CONCLUSION",
+            "text": "Communication with clinicians about traumatic experiences shows potential benefit to adult primary care patients. Future research rigorously evaluating training on and implementation of best practices in trauma communication is needed.",
+            "semantic_similarity": 0.6741472482681274,
             "matched_sub_query_indices": [
-              6
+              5
             ]
           }
         ],
         "full_text": "OBJECTIVE: Synthesize the literature on strategies for clinician communication or relationship-building during longitudinal care visits with adult patients who have had adverse childhood experiences (ACEs) and/or other traumas later in life.\n\nMETHODS: Systematic searches of literature reviews from 2012 to 2022 using CINAHL, PubMed, Cochrane Database, and Web of Science and Sociological Abstracts. Search terms reflected three key concepts: 1) Trauma (i.e., trauma, interpersonal violence, adverse childhood experiences), 2) Patient-provider communication/relationship-building (i.e., communication), and 3) Longitudinal patient care (primary care). Three researchers independently reviewed each title, abstract, and article to determine relevance and completed methodological quality appraisal using the AMSTAR-2 framework. Thematic analysis was used to identify key learning points and gaps in the literature.\n\nRESULTS: We screened 1158 articles and included 39 manuscripts: 15 % (n = 6) of the manuscripts discussed ACEs, 49 % (n = 19) discussed adult traumas, and 36 % (n = 14) discussed trauma-informed care (TIC) approaches with both or no age determination of exposure to trauma. Themes related to the role of screening, strategies to optimize communication, the importance of resources and institutional support, and associated health outcomes. According to the AMSTAR-2, most of the studies had low or critically low methodological quality.\n\nCONCLUSION: Communication with clinicians about traumatic experiences shows potential benefit to adult primary care patients. Future research rigorously evaluating training on and implementation of best practices in trauma communication is needed.\n\nPRACTICE IMPLICATIONS: Clinician- and systems-level readiness to respond to and engage in conversations about traumatic experiences with adult primary care patients requires organizational support, including sustained intervention efforts, trauma communication training, and resource allocation.",
         "addresses_concerns": [
-          "sub_query[6]"
+          "sub_query[5]"
         ],
-        "semantic_similarity": 0.6747030019760132,
+        "semantic_similarity": 0.6905226707458496,
         "recency_score": 1.0,
         "authority_score": 0.8,
-        "coverage_bonus": 0.1111111111111111,
-        "total_score": 0.7084626120991177
-      },
-      {
-        "pmid": "38719772",
-        "title": "European Respiratory Society clinical practice guideline on symptom management for adults with serious respiratory illness.",
-        "journal": "The European respiratory journal",
-        "pub_year": 2024,
-        "pub_date": "2024-06",
-        "pub_types": [
-          "Journal Article",
-          "Practice Guideline"
-        ],
-        "issuing_body": null,
-        "chunks": [
-          {
-            "chunk_id": "38719772_000",
-            "pmid": "38719772",
-            "section_label": null,
-            "text": "Respiratory symptoms are ubiquitous and impair health-related quality of life in people with respiratory disease. This European Respiratory Society (ERS) task force aimed to provide recommendations for symptomatic treatment in people with serious respiratory illness. The ERS task force comprised 16 members, including representatives of people with serious respiratory illness and informal caregivers. Seven questions were formulated, six in the PICO (Population, Intervention, Comparison, Outcome) format, which were addressed with full systematic reviews and evidence assessed using GRADE (Grading of Recommendations Assessment, Development and Evaluation). One question was addressed narratively. An \"evidence-to-decision\" framework was used to formulate recommendations. To treat symptoms in people with serious respiratory illness, the task force suggests the use of graded exercise therapy (conditional recommendation, low certainty of evidence); and suggests the use of a multicomponent services, handheld fan and breathing techniques (conditional recommendations, very low certainty of evidence). The task force suggests not to use opioids (conditional recommendation, very low certainty of evidence); and suggests either administering or not administering supplemental oxygen therapy (conditional recommendation, low certainty of evidence). The task force suggests that needs assessment tools may be used as part of a comprehensive needs assessment, but do not replace patient-centred care and shared decision making (conditional recommendation, low certainty of evidence). The low certainty of evidence, modest impact of interventions on patient-centred outcomes, and absence of effective strategies to ameliorate cough highlight the need for new approaches to reduce symptoms and enhance wellbeing for individuals who live with serious respiratory illness.",
-            "semantic_similarity": 0.7052686214447021,
-            "matched_sub_query_indices": [
-              3
-            ]
-          }
-        ],
-        "full_text": "Respiratory symptoms are ubiquitous and impair health-related quality of life in people with respiratory disease. This European Respiratory Society (ERS) task force aimed to provide recommendations for symptomatic treatment in people with serious respiratory illness. The ERS task force comprised 16 members, including representatives of people with serious respiratory illness and informal caregivers. Seven questions were formulated, six in the PICO (Population, Intervention, Comparison, Outcome) format, which were addressed with full systematic reviews and evidence assessed using GRADE (Grading of Recommendations Assessment, Development and Evaluation). One question was addressed narratively. An \"evidence-to-decision\" framework was used to formulate recommendations. To treat symptoms in people with serious respiratory illness, the task force suggests the use of graded exercise therapy (conditional recommendation, low certainty of evidence); and suggests the use of a multicomponent services, handheld fan and breathing techniques (conditional recommendations, very low certainty of evidence). The task force suggests not to use opioids (conditional recommendation, very low certainty of evidence); and suggests either administering or not administering supplemental oxygen therapy (conditional recommendation, low certainty of evidence). The task force suggests that needs assessment tools may be used as part of a comprehensive needs assessment, but do not replace patient-centred care and shared decision making (conditional recommendation, low certainty of evidence). The low certainty of evidence, modest impact of interventions on patient-centred outcomes, and absence of effective strategies to ameliorate cough highlight the need for new approaches to reduce symptoms and enhance wellbeing for individuals who live with serious respiratory illness.",
-        "addresses_concerns": [
-          "sub_query[3]"
-        ],
-        "semantic_similarity": 0.7052686214447021,
-        "recency_score": 0.75,
-        "authority_score": 0.85,
-        "coverage_bonus": 0.1111111111111111,
-        "total_score": 0.6837454218334622
+        "coverage_bonus": 0.14285714285714285,
+        "total_score": 0.719547049658639
       },
       {
         "pmid": "38533994",
@@ -728,85 +618,90 @@
             "pmid": "38533994",
             "section_label": "DATA COLLECTION AND ANALYSIS",
             "text": "We used standard Cochrane methods. Our primary outcomes were medication adherence, fatal cardiovascular events, non-fatal cardiovascular events, and combined CVD event. Secondary outcomes were low-density lipoprotein cholesterol for the effect of statins, blood pressure for antihypertensive drugs, heart rate for the effect of beta-blockers, urinary 11-dehydrothromboxane B2 for the antiplatelet effects of aspirin, adverse effects, and patient-reported experience. We used GRADE to assess the certainty of the evidence for each outcome.",
-            "semantic_similarity": 0.6293636560440063,
+            "semantic_similarity": 0.664588212966919,
             "matched_sub_query_indices": [
-              8
+              6
             ]
           }
         ],
         "full_text": "BACKGROUND: Cardiovascular diseases (CVDs) are the leading cause of death globally, accounting for almost 18 million deaths annually. People with CVDs have a five times greater chance of suffering a recurrent cardiovascular event than people without known CVDs. Although drug interventions have been shown to be cost-effective in reducing the risk of recurrent cardiovascular events, adherence to medication remains suboptimal. As a scalable and cost-effective approach, mobile phone text messaging presents an opportunity to convey health information, deliver electronic reminders, and encourage behaviour change. However, it is uncertain whether text messaging can improve medication adherence and clinical outcomes. This is an update of a Cochrane review published in 2017.\n\nOBJECTIVES: To evaluate the benefits and harms of mobile phone text messaging for improving medication adherence in people with CVDs compared to usual care.\n\nSEARCH METHODS: We searched CENTRAL, MEDLINE, Embase, four other databases, and two trial registers. We also checked the reference lists of all primary included studies and relevant systematic reviews and meta-analyses. The date of the latest search was 30 August 2023.\n\nSELECTION CRITERIA: We included randomised controlled trials (RCTs) with participants with established arterial occlusive events. We included trials investigating interventions using short message service (SMS) or multimedia messaging service (MMS) with the aim of improving adherence to medication for the secondary prevention of cardiovascular events. The comparator was usual care. We excluded cluster-RCTs and quasi-RCTs.\n\nDATA COLLECTION AND ANALYSIS: We used standard Cochrane methods. Our primary outcomes were medication adherence, fatal cardiovascular events, non-fatal cardiovascular events, and combined CVD event. Secondary outcomes were low-density lipoprotein cholesterol for the effect of statins, blood pressure for antihypertensive drugs, heart rate for the effect of beta-blockers, urinary 11-dehydrothromboxane B2 for the antiplatelet effects of aspirin, adverse effects, and patient-reported experience. We used GRADE to assess the certainty of the evidence for each outcome.\n\nMAIN RESULTS: We included 18 RCTs involving a total of 8136 participants with CVDs. We identified 11 new studies in the review update and seven studies in the previous version of the review. Participants had various CVDs including acute coronary syndrome, coronary heart disease, stroke, myocardial infarction, and angina. All studies were conducted in middle- and high-income countries, with no studies conducted in low-income countries. The mean age of participants was 53 to 64 years. Participants were recruited from hospitals or cardiac rehabilitation facilities. Follow-up ranged from one to 12 months. There was variation in the characteristics of text messages amongst studies (e.g. delivery method, frequency, theoretical grounding, content used, personalisation, and directionality). The content of text messages varied across studies, but generally included medication reminders and healthy lifestyle information such as diet, physical activity, and weight loss. Text messages offered advice, motivation, social support, and health education to promote behaviour changes and regular medication-taking. We assessed risk of bias for all studies as high, as all studies had at least one domain at unclear or high risk of bias. Medication adherence Due to different evaluation score systems and inconsistent definitions applied for the measurement of medication adherence, we did not conduct meta-analysis for medication adherence. Ten out of 18 studies showed a beneficial effect of mobile phone text messaging for medication adherence compared to usual care, whereas the other eight studies showed either a reduction or no difference in medication adherence with text messaging compared to usual care. Overall, the evidence is very uncertain about the effects of mobile phone text messaging for medication adherence when compared to usual care. Fatal cardiovascular events Text messaging may have little to no effect on fatal cardiovascular events compared to usual care (odds ratio 0.83, 95% confidence interval (CI) 0.47 to 1.45; 4 studies, 1654 participants; low-certainty evidence). Non-fatal cardiovascular events We found very low-certainty evidence that text messaging may have little to no effect on non-fatal cardiovascular events. Two studies reported non-fatal cardiovascular events, neither of which found evidence of a difference between groups. Combined CVD events We found very low-certainty evidence that text messaging may have little to no effect on combined CVD events. Only one study reported combined CVD events, and did not find evidence of a difference between groups. Low-density lipoprotein cholesterol Text messaging may have little to no effect on low-density lipoprotein cholesterol compared to usual care (mean difference (MD) -1.79 mg/dL, 95% CI -4.71 to 1.12; 8 studies, 4983 participants; very low-certainty evidence). Blood pressure Text messaging may have little to no effect on systolic blood pressure (MD -0.93 mmHg, 95% CI -3.55 to 1.69; 8 studies, 5173 participants; very low-certainty evidence) and diastolic blood pressure (MD -1.00 mmHg, 95% CI -2.49 to 0.50; 5 studies, 3137 participants; very low-certainty evidence) when compared to usual care. Heart rate Text messaging may have little to no effect on heart rate compared to usual care (MD -0.46 beats per minute, 95% CI -1.74 to 0.82; 4 studies, 2946 participants; very low-certainty evidence).\n\nAUTHORS' CONCLUSIONS: Due to limited evidence, we are uncertain if text messaging reduces medication adherence, fatal and non-fatal cardiovascular events, and combined cardiovascular events in people with cardiovascular diseases when compared to usual care. Furthermore, text messaging may result in little or no effect on low-density lipoprotein cholesterol, blood pressure, and heart rate compared to usual care. The included studies were of low methodological quality, and no studies assessed the effects of text messaging in low-income countries or beyond the 12-month follow-up. Long-term and high-quality randomised trials are needed, particularly in low-income countries.",
         "addresses_concerns": [
-          "sub_query[8]"
+          "sub_query[6]"
         ],
-        "semantic_similarity": 0.6293636560440063,
+        "semantic_similarity": 0.664588212966919,
         "recency_score": 0.75,
         "authority_score": 0.98,
-        "coverage_bonus": 0.1111111111111111,
-        "total_score": 0.6717929391331143
+        "coverage_bonus": 0.14285714285714285,
+        "total_score": 0.6925798207691738
       },
       {
-        "pmid": "38521534",
-        "title": "Prognostic factors and prediction models for hospitalisation and all-cause mortality in adults presenting to primary care with a lower respiratory tract infection: a systematic review.",
+        "pmid": "40759522",
+        "title": "Effectiveness of general practitioner-delivered nutrition care on dietary and health outcomes in adults with chronic conditions: a systematic review.",
         "journal": "BMJ open",
-        "pub_year": 2024,
-        "pub_date": "2024-03-23",
+        "pub_year": 2025,
+        "pub_date": "2025-08-04",
         "pub_types": [
-          "Systematic Review",
           "Journal Article",
-          "Research Support, Non-U.S. Gov't"
+          "Systematic Review"
         ],
         "issuing_body": null,
         "chunks": [
           {
-            "chunk_id": "38521534_002",
-            "pmid": "38521534",
-            "section_label": "METHODS",
-            "text": "Systematic searches of MEDLINE, Embase and the Cochrane Library were performed. All PF and PM studies on the risk of hospitalisation or all-cause mortality within 90 days in adult primary care LRTI patients were included. The risk of bias was assessed using the Quality in Prognostic Studies tool and Prediction Model Risk Of Bias Assessment Tool tools for PF and PM studies, respectively. The results of included PF and PM studies were descriptively summarised.",
-            "semantic_similarity": 0.7056853771209717,
-            "matched_sub_query_indices": [
-              3
-            ]
-          },
-          {
-            "chunk_id": "38521534_004",
-            "pmid": "38521534",
+            "chunk_id": "40759522_006",
+            "pmid": "40759522",
             "section_label": "CONCLUSIONS",
-            "text": "Implementation of existing models for individualised risk prediction of 90-day hospitalisation or mortality in primary care LRTI patients in everyday practice is hampered by incomplete assessment of model performance. The identified candidate predictors provide useful information for clinicians and warrant consideration when developing or updating PMs using state-of-the-art development and validation techniques.",
-            "semantic_similarity": 0.6951074600219727,
+            "text": "There is mixed evidence of the effectiveness of GP-delivered nutrition care among adults with diet-related chronic conditions or risk states. Additionally, most interventions did not include prompting and had a limited range of behaviour change techniques. The effectiveness of nutrition care delivered by GPs is an understudied area that warrants greater experimental investigation and requires more robust methods and reporting.",
+            "semantic_similarity": 0.6574133634567261,
             "matched_sub_query_indices": [
-              3
-            ]
-          },
-          {
-            "chunk_id": "38521534_000",
-            "pmid": "38521534",
-            "section_label": "OBJECTIVE",
-            "text": "To identify and synthesise relevant existing prognostic factors (PF) and prediction models (PM) for hospitalisation and all-cause mortality within 90 days in primary care patients with acute lower respiratory tract infections (LRTI).",
-            "semantic_similarity": 0.680687427520752,
-            "matched_sub_query_indices": [
-              3
-            ]
-          },
-          {
-            "chunk_id": "38521534_003",
-            "pmid": "38521534",
-            "section_label": "RESULTS",
-            "text": "Of 2799 unique records identified, 16 were included: 9 PF studies, 6 PM studies and 1 combination of both. The risk of bias was judged high for all studies, mainly due to limitations in the analysis domain. Based on reported multivariable associations in PF studies, increasing age, sex, current smoking, diabetes, a history of stroke, cancer or heart failure, previous hospitalisation, influenza vaccination (negative association), current use of systemic corticosteroids, recent antibiotic use, respiratory rate ≥25/min and diagnosis of pneumonia were identified as most promising candidate predictors. One newly developed PM was externally validated (c statistic 0.74, 95% CI 0.71 to 0.78) whereas the previously hospital-derived CRB-65 was externally validated in primary care in five studies (c statistic ranging from 0.72 (95% CI 0.63 to 0.81) to 0.79 (95% CI 0.65 to 0.92)). None of the PM studies reported measures of model calibration.",
-            "semantic_similarity": 0.6805868744850159,
-            "matched_sub_query_indices": [
-              3
+              0,
+              1
             ]
           }
         ],
-        "full_text": "OBJECTIVE: To identify and synthesise relevant existing prognostic factors (PF) and prediction models (PM) for hospitalisation and all-cause mortality within 90 days in primary care patients with acute lower respiratory tract infections (LRTI).\n\nDESIGN: Systematic review.\n\nMETHODS: Systematic searches of MEDLINE, Embase and the Cochrane Library were performed. All PF and PM studies on the risk of hospitalisation or all-cause mortality within 90 days in adult primary care LRTI patients were included. The risk of bias was assessed using the Quality in Prognostic Studies tool and Prediction Model Risk Of Bias Assessment Tool tools for PF and PM studies, respectively. The results of included PF and PM studies were descriptively summarised.\n\nRESULTS: Of 2799 unique records identified, 16 were included: 9 PF studies, 6 PM studies and 1 combination of both. The risk of bias was judged high for all studies, mainly due to limitations in the analysis domain. Based on reported multivariable associations in PF studies, increasing age, sex, current smoking, diabetes, a history of stroke, cancer or heart failure, previous hospitalisation, influenza vaccination (negative association), current use of systemic corticosteroids, recent antibiotic use, respiratory rate ≥25/min and diagnosis of pneumonia were identified as most promising candidate predictors. One newly developed PM was externally validated (c statistic 0.74, 95% CI 0.71 to 0.78) whereas the previously hospital-derived CRB-65 was externally validated in primary care in five studies (c statistic ranging from 0.72 (95% CI 0.63 to 0.81) to 0.79 (95% CI 0.65 to 0.92)). None of the PM studies reported measures of model calibration.\n\nCONCLUSIONS: Implementation of existing models for individualised risk prediction of 90-day hospitalisation or mortality in primary care LRTI patients in everyday practice is hampered by incomplete assessment of model performance. The identified candidate predictors provide useful information for clinicians and warrant consideration when developing or updating PMs using state-of-the-art development and validation techniques.\n\nPROSPERO REGISTRATION NUMBER: CRD42022341233.",
+        "full_text": "OBJECTIVES: To evaluate the effectiveness of nutrition care delivered by general practitioners (GPs) compared with usual or no care on dietary and health outcomes in adults with diet-related chronic conditions or risk states and to examine which intervention components are associated with effectiveness.\n\nSTUDY DESIGN: A systematic review of randomised controlled trials (RCTs).\n\nDATA SOURCES: CINAHL, Embase, MEDLINE and ProQuest Nursing and Allied Health databases were searched in October 2021 and updated in February 2024 for articles related to GPs, nutrition care and diet-related health outcomes.\n\nELIGIBILITY CRITERIA: Published RCTs were included according to the following criteria: adults with or at risk of diet-related chronic conditions; nutrition care delivered by GPs in the primary care setting; usual or no care as comparators; and dietary and/or health outcomes with a minimum 3-month follow-up. No restriction was placed on the date of publication.\n\nDATA EXTRACTION AND SYNTHESIS: Duplicates were reconciled in EndNote. Two reviewers independently screened the titles, abstracts and full texts in Covidence. Two independent reviewers completed the critical appraisal and data extraction. Disagreements were resolved through discussion or with a third reviewer. The Motivation Actions and Prompts (MAP) framework was used to analyse the behaviour change components of study interventions. Results were reported using narrative synthesis and certainty in findings was summarised using GRADEpro GDT software.\n\nRESULTS: Seven RCTs met the inclusion criteria (5744 patients). The trials were conducted in Australia, Italy and the USA from 1991 to 2013, with follow-up periods from 3 to 12 months. A consistent effect in favour of the intervention was found for diet scores (2 RCTs, 3038 participants). Other outcomes had mixed effects: (1) fat intake (2 RCTs, 2299 participants) - one study with an effect in favour of the intervention and one with mixed effects; (2) blood pressure (3 RCTs, 3063 participants) - one study with mixed effects and two with no effect; (3) body mass index (6 RCTs, 5538 participants) - two studies with an effect in favour of the intervention, two with no effect and two reporting no between group differences; (4) body weight (2 RCTs, 511 participants) - one study with an effect in favour of the intervention and one with no effect and (5) cholesterol (4 RCTs, 2505 participants) - one study with an effect in favour of the intervention and three with mixed effects and/or limited reporting. All studies had a motivation and action route to behaviour change and two had a prompted component, according to the MAP framework. The interventions spanned nine behaviour change groupings and 16 behaviour change techniques. There was a very low certainty of findings in all cases and the studies were of low to moderate methodological quality.\n\nCONCLUSIONS: There is mixed evidence of the effectiveness of GP-delivered nutrition care among adults with diet-related chronic conditions or risk states. Additionally, most interventions did not include prompting and had a limited range of behaviour change techniques. The effectiveness of nutrition care delivered by GPs is an understudied area that warrants greater experimental investigation and requires more robust methods and reporting.\n\nPROSPERO REGISTRATION NUMBER: CRD42021289011.",
         "addresses_concerns": [
-          "sub_query[3]"
+          "sub_query[0]",
+          "sub_query[1]"
         ],
-        "semantic_similarity": 0.7056853771209717,
+        "semantic_similarity": 0.6574133634567261,
+        "recency_score": 0.875,
+        "authority_score": 0.8,
+        "coverage_bonus": 0.2857142857142857,
+        "total_score": 0.6922781102997917
+      },
+      {
+        "pmid": "38604640",
+        "title": "Do patients with type 2 diabetes mellitus included in randomised clinical trials differ from general-practice patients? A cross-sectional comparative study.",
+        "journal": "BMJ open",
+        "pub_year": 2024,
+        "pub_date": "2024-04-11",
+        "pub_types": [
+          "Journal Article",
+          "Comparative Study",
+          "Systematic Review"
+        ],
+        "issuing_body": null,
+        "chunks": [
+          {
+            "chunk_id": "38604640_005",
+            "pmid": "38604640",
+            "section_label": "RESULTS",
+            "text": "General-practice patients were older than randomised controlled trial patients (mean (SD) 68.8 (1.1) vs 59.9 years (standardised difference 0.8)) and had a higher body mass index (mean (SD) 31.5 (6.9) vs 28.2 kg/m2 (standardised difference 0.5)) but smoked less (11.0% vs 29.3% (standardised difference -0.6)). They more frequently used antihypertensive drugs (82.1% vs 37.5% (standardised difference 1.2)) but less frequently had a myocardial infarction (7.6% vs 23.1% (standardised difference -1.1)).",
+            "semantic_similarity": 0.7017741203308105,
+            "matched_sub_query_indices": [
+              6
+            ]
+          }
+        ],
+        "full_text": "OBJECTIVES: To compare the characteristics of patients with type 2 diabetes mellitus in general practice and those included in randomised controlled trials on which clinical practice guidelines are based.\n\nDESIGN: Cross-sectional comparative study.\n\nSETTING: We asked 45 general practitioners from three French Departments to identify the 15 patients with type 2 diabetes mellitus they most recently saw in consultation. In parallel, we selected randomised controlled trials included in the Cochrane systematic review on which the clinical practice guidelines for type 2 diabetes mellitus were based.\n\nPARTICIPANTS: We included 675 patients with type 2 diabetes mellitus, and data were collected from 23 randomised controlled trials, corresponding to 36 059 patients.\n\nOUTCOME MEASURES: Characteristics of general-practice patients were extracted from medical records by a unique observer. The same baseline characteristics of patients included in randomised controlled trials from the Cochrane systematic review were extracted and meta-analysed. We assessed standardised differences between these two series of baseline characteristics. A difference greater than 0.10 in absolute value was considered meaningful.\n\nRESULTS: General-practice patients were older than randomised controlled trial patients (mean (SD) 68.8 (1.1) vs 59.9 years (standardised difference 0.8)) and had a higher body mass index (mean (SD) 31.5 (6.9) vs 28.2 kg/m2 (standardised difference 0.5)) but smoked less (11.0% vs 29.3% (standardised difference -0.6)). They more frequently used antihypertensive drugs (82.1% vs 37.5% (standardised difference 1.2)) but less frequently had a myocardial infarction (7.6% vs 23.1% (standardised difference -1.1)).\n\nCONCLUSIONS: Patients with type 2 diabetes mellitus cared for in general practice differ in a number of important aspects from patients included in randomised controlled trials on which clinical practice guidelines are based. This situation hampers the applicability of these guidelines. Future randomised trials should include patients who better fit the 'average' general-practice patient with type 2 diabetes mellitus to help improve the translation of study findings in daily practice.",
+        "addresses_concerns": [
+          "sub_query[6]"
+        ],
+        "semantic_similarity": 0.7017741203308105,
         "recency_score": 0.75,
         "authority_score": 0.8,
         "coverage_bonus": 0.0,
-        "total_score": 0.6628426885604859
+        "total_score": 0.6608870601654053
       },
       {
         "pmid": "35709018",
@@ -823,11 +718,21 @@
         "issuing_body": null,
         "chunks": [
           {
-            "chunk_id": "35709018_006",
+            "chunk_id": "35709018_003",
             "pmid": "35709018",
-            "section_label": "MAIN RESULTS",
-            "text": "individual studies sensitivity ranged from 58% to 97% and specificity ranged from 40% to 88%. The summary diagnostic accuracy of clinical judgement of general practitioners in four studies in which a total of 594 of 1497 participants had cognitive impairment was sensitivity 84% (95% CI 60% to 95%), specificity 73% (95% CI 50% to 88%), positive likelihood ratio 3.1 (95% CI 1.4 to 4.7), and negative likelihood ratio 0.23 (95% CI 0.06 to 0.40). It was impossible to draw firm conclusions in the analysis of heterogeneity because there were small numbers of studies. For specificity we found the data were compatible with studies that used ICD-10, or applied retrospective judgement, had higher reported specificity compared to studies with DSM definitions or using prospective judgement. In contrast for sensitivity, we found studies that used a prospective index test may have had higher sensitivity than studies that used a retrospective index test.",
-            "semantic_similarity": 0.6561039090156555,
+            "section_label": "SELECTION CRITERIA",
+            "text": "We selected cross-sectional and cohort studies from primary care where clinical judgement was determined by a GP either prospectively (after consulting with a patient who has presented to a specific encounter with the doctor) or retrospectively (based on knowledge of the patient and review of the medical notes, but not relating to a specific encounter with the patient). The target conditions were dementia and cognitive impairment (mild cognitive impairment and dementia) and we included studies with any appropriate reference standard such as the Diagnostic and Statistical Manual of Mental Disorders (DSM), International Classification of Diseases (ICD), aetiological definitions, or expert clinical diagnosis.",
+            "semantic_similarity": 0.671164870262146,
+            "matched_sub_query_indices": [
+              2
+            ]
+          },
+          {
+            "chunk_id": "35709018_001",
+            "pmid": "35709018",
+            "section_label": "OBJECTIVES",
+            "text": "To determine the diagnostic accuracy of GPs' clinical judgement for diagnosing cognitive impairment and dementia in symptomatic people presenting to primary care. To investigate the heterogeneity of test accuracy in the included studies.",
+            "semantic_similarity": 0.6689600944519043,
             "matched_sub_query_indices": [
               2
             ]
@@ -837,536 +742,11 @@
         "addresses_concerns": [
           "sub_query[2]"
         ],
-        "semantic_similarity": 0.6561039090156555,
+        "semantic_similarity": 0.671164870262146,
         "recency_score": 0.5,
         "authority_score": 0.98,
-        "coverage_bonus": 0.0,
-        "total_score": 0.6240519545078278
-      },
-      {
-        "pmid": "35833228",
-        "title": "Guidelines for the management of male urinary tract infections in primary care: a lack of international consensus-a systematic review of the literature.",
-        "journal": "Family practice",
-        "pub_year": 2023,
-        "pub_date": "2023-02-09",
-        "pub_types": [
-          "Systematic Review",
-          "Journal Article"
-        ],
-        "issuing_body": null,
-        "chunks": [
-          {
-            "chunk_id": "35833228_000",
-            "pmid": "35833228",
-            "section_label": "BACKGROUND",
-            "text": "The management of adult male urinary tract infections (mUTIs) in primary care lacks international consensus. The main objective of this study was to describe the different guidelines for the diagnosis and management of mUTIs in primary care, to assess their methodological quality, and to describe their evidence-based strength of recommendation (SoR).",
-            "semantic_similarity": 0.6589069366455078,
-            "matched_sub_query_indices": [
-              2
-            ]
-          }
-        ],
-        "full_text": "BACKGROUND: The management of adult male urinary tract infections (mUTIs) in primary care lacks international consensus. The main objective of this study was to describe the different guidelines for the diagnosis and management of mUTIs in primary care, to assess their methodological quality, and to describe their evidence-based strength of recommendation (SoR).\n\nMETHODS: An international systematic literature review of the electronic databases Medline (PubMed) and EMBASE, and gray-literature guideline-focused databases was performed in 2021. The Appraisal of Guidelines for Research and Evaluation (AGREE II) assessment tool was used by 2 independent reviewers to appraise each guideline.\n\nRESULTS: From 1,678 records identified, 1,558 were screened, 134 assessed for eligibility, and 29 updated guidelines met the inclusion criteria (13 from Medline, 0 from EMBASE, and 16 from gray literature). Quality assessment revealed 14 (48%) guidelines with high-quality methodology. A grading system methodology was used in 18 (62%) guidelines. Different classifications of mUTIs are described, underlining a lack of international consensus: an anatomic classification (cystitis, prostatitis, pyelonephritis) and a symptomatic classification (approach based on the intensity and tolerance of symptoms). The duration of antibiotic treatment for febrile mUTIs has been gradually reduced over the last 20 years from 28 days to 10-14 days of fluoroquinolones (FQ), which has become the international gold standard. Guidelines from Scandinavian countries propose short courses (3-5 days) of FQ-sparing treatments: pivmecillinam, nitrofurantoin, or trimethoprim. Guidelines from French-speaking countries use a watchful waiting approach and suggest treating mUTIs with FQ, regardless of fever.\n\nCONCLUSIONS: This lack of scientific evidence leads to consensus and disagreement: 14 days of FQ for febrile mUTIs is accepted despite a high risk of antimicrobial resistance, but FQ-sparing treatment and/or short treatment for afebrile mUTIs is not. The definition of afebrile UTIs/cystitis is debated and influences the type and duration of antibiotic treatment recommended.",
-        "addresses_concerns": [
-          "sub_query[2]"
-        ],
-        "semantic_similarity": 0.6589069366455078,
-        "recency_score": 0.625,
-        "authority_score": 0.75,
-        "coverage_bonus": 0.0,
-        "total_score": 0.6044534683227539
-      },
-      {
-        "pmid": "33952533",
-        "title": "Systematic review on the instruments used for measuring the association of the level of multimorbidity and clinically important outcomes.",
-        "journal": "BMJ open",
-        "pub_year": 2021,
-        "pub_date": "2021-05-05",
-        "pub_types": [
-          "Journal Article",
-          "Research Support, Non-U.S. Gov't",
-          "Systematic Review"
-        ],
-        "issuing_body": null,
-        "chunks": [
-          {
-            "chunk_id": "33952533_001",
-            "pmid": "33952533",
-            "section_label": "METHODS",
-            "text": "We conducted the review according to the Preferred Reporting Items for Systematic Reviews and Meta-Analyses guidelines (PROSPERO registration number: CRD42018105297). We searched MEDLINE, Embase and CINAHL electronic databases published in English and manually searched the Journal of Comorbidity between 1 January 2010 and 23 October 2020 inclusive. Studies also had to select adult patients from primary care or general population and had at least one specified outcome variable. Two authors screened the titles, abstracts and full texts independently. Disagreements were resolved with a third author. The modified Newcastle-Ottawa Scale was used for quality assessment.",
-            "semantic_similarity": 0.712409496307373,
-            "matched_sub_query_indices": [
-              0,
-              2,
-              3
-            ]
-          }
-        ],
-        "full_text": "OBJECTIVES: There are multiple instruments for measuring multimorbidity. The main objective of this systematic review was to provide a list of instruments that are suitable for use in studies aiming to measure the association of a specific outcome with different levels of multimorbidity as the main independent variable in community-dwelling individuals. The secondary objective was to provide details of the requirements, strengths and limitations of these instruments, and the chosen outcomes.\n\nMETHODS: We conducted the review according to the Preferred Reporting Items for Systematic Reviews and Meta-Analyses guidelines (PROSPERO registration number: CRD42018105297). We searched MEDLINE, Embase and CINAHL electronic databases published in English and manually searched the Journal of Comorbidity between 1 January 2010 and 23 October 2020 inclusive. Studies also had to select adult patients from primary care or general population and had at least one specified outcome variable. Two authors screened the titles, abstracts and full texts independently. Disagreements were resolved with a third author. The modified Newcastle-Ottawa Scale was used for quality assessment.\n\nRESULTS: Ninety-six studies were identified, with 69 of them rated to have a low risk of bias. In total, 33 unique instruments were described. Disease Count and weighted indices like Charlson Comorbidity Index were commonly used. Other approaches included pharmaceutical-based instruments. Disease Count was the common instrument used for measuring all three essential core outcomes of multimorbidity research: mortality, mental health and quality of life. There was a rise in the development of novel weighted indices by using prognostic models. The data obtained for measuring multimorbidity were from sources including medical records, patient self-reports and large administrative databases.\n\nCONCLUSIONS: We listed the details of 33 instruments for measuring the level of multimorbidity as a resource for investigators interested in the measurement of multimorbidity for its association with or prediction of a specific outcome.",
-        "addresses_concerns": [
-          "sub_query[0]",
-          "sub_query[2]",
-          "sub_query[3]"
-        ],
-        "semantic_similarity": 0.712409496307373,
-        "recency_score": 0.375,
-        "authority_score": 0.8,
-        "coverage_bonus": 0.0,
-        "total_score": 0.5912047481536866
-      },
-      {
-        "pmid": "33658141",
-        "title": "Communicating with older adults with long-term conditions about self-management goals: A systematic review and thematic synthesis.",
-        "journal": "Patient education and counseling",
-        "pub_year": 2021,
-        "pub_date": "2021-10",
-        "pub_types": [
-          "Journal Article",
-          "Research Support, Non-U.S. Gov't",
-          "Systematic Review"
-        ],
-        "issuing_body": null,
-        "chunks": [
-          {
-            "chunk_id": "33658141_004",
-            "pmid": "33658141",
-            "section_label": "PRACTICE IMPLICATIONS",
-            "text": "We encourage HCPs to prepare older adults to engage actively with SDM and the goal setting process by employing patient-centred communication resources. These could assist with identifying different types of goals that are realistic and relevant to patients in daily life.",
-            "semantic_similarity": 0.6678653359413147,
-            "matched_sub_query_indices": [
-              5,
-              6,
-              7
-            ]
-          },
-          {
-            "chunk_id": "33658141_000",
-            "pmid": "33658141",
-            "section_label": "OBJECTIVE",
-            "text": "To synthesise a body of fine-grained observational research on communication between healthcare professionals (HCPs), older adults, and carers regarding self-management goals and actions.",
-            "semantic_similarity": 0.6649894714355469,
-            "matched_sub_query_indices": [
-              7
-            ]
-          }
-        ],
-        "full_text": "OBJECTIVE: To synthesise a body of fine-grained observational research on communication between healthcare professionals (HCPs), older adults, and carers regarding self-management goals and actions.\n\nMETHODS: We conducted a systematic review, searching nine electronic databases and the grey literature. Two reviewers independently selected for inclusion following a two-stage process and studies and discrepancies were resolved through consultation with the review team.\n\nRESULTS: 898 records were retrieved, and eight studies were included in the review. Aggregative thematic analysis resulted in 13 categories of communication practices across three decision-making domains: (1) initiating: actions occurring prior to the commitment point; (2) proposing: putting forward a course of action; and (3) committing and closing: committing (or not) to the course of action.\n\nCONCLUSIONS: Despite an increasing emphasis on the importance of personalised care planning and shared decision-making (SDM) to support older people's health and wellbeing, HCPs did not consistently practice this approach and, in some cases, worked in opposition to it.\n\nPRACTICE IMPLICATIONS: We encourage HCPs to prepare older adults to engage actively with SDM and the goal setting process by employing patient-centred communication resources. These could assist with identifying different types of goals that are realistic and relevant to patients in daily life.",
-        "addresses_concerns": [
-          "sub_query[5]",
-          "sub_query[6]",
-          "sub_query[7]"
-        ],
-        "semantic_similarity": 0.6678653359413147,
-        "recency_score": 0.375,
-        "authority_score": 0.8,
-        "coverage_bonus": 0.2222222222222222,
-        "total_score": 0.5911548901928797
-      },
-      {
-        "pmid": "33882128",
-        "title": "Obesity management in primary care: systematic review exploring the influence of therapeutic alliance.",
-        "journal": "Family practice",
-        "pub_year": 2021,
-        "pub_date": "2021-09-25",
-        "pub_types": [
-          "Journal Article",
-          "Systematic Review"
-        ],
-        "issuing_body": null,
-        "chunks": [
-          {
-            "chunk_id": "33882128_001",
-            "pmid": "33882128",
-            "section_label": "METHOD",
-            "text": "Systematic review of randomized controlled trials of primary care interventions for adult patients living with obesity. Comprehensive search strategy using the terms 'obesity', 'primary care' and 'intervention' of seven databases from 1 January 1998 to March 2018. Primary outcome was difference in weight loss in interventions where a therapeutic alliance was present.",
-            "semantic_similarity": 0.7040086984634399,
-            "matched_sub_query_indices": [
-              0,
-              1,
-              2
-            ]
-          }
-        ],
-        "full_text": "PURPOSE: To identify the influence of the therapeutic alliance on the effectiveness of obesity interventions delivered in primary care.\n\nMETHOD: Systematic review of randomized controlled trials of primary care interventions for adult patients living with obesity. Comprehensive search strategy using the terms 'obesity', 'primary care' and 'intervention' of seven databases from 1 January 1998 to March 2018. Primary outcome was difference in weight loss in interventions where a therapeutic alliance was present.\n\nRESULTS: From 10 636 studies, 11 (3955 patients) were eligible. Only one study had interventions that reported all aspects of therapeutic alliance, including bond, goals and tasks. Meta-analysis was not included due to high statistical heterogeneity and low numbers of trials; as per our protocol, we proceeded to narrative synthesis. Some interventions included the regular primary care practitioner in management; very few included collaborative goal setting and most used prescriptive protocols to direct care.\n\nCONCLUSIONS: We were surprised that so few trials reported the inclusion of elements of the therapeutic alliance when relational aspects of primary care are critical for effectiveness. Interventions could be developed to maximize therapeutic relationships and research reports should describe interventions comprehensively.\n\nSYSTEMATIC REVIEW REGISTRATION NUMBER: CRD42018091338 in PROSPERO (International prospective register of systematic reviews).",
-        "addresses_concerns": [
-          "sub_query[0]",
-          "sub_query[1]",
-          "sub_query[2]"
-        ],
-        "semantic_similarity": 0.7040086984634399,
-        "recency_score": 0.375,
-        "authority_score": 0.75,
-        "coverage_bonus": 0.1111111111111111,
-        "total_score": 0.5881154603428311
-      },
-      {
-        "pmid": "34588228",
-        "title": "Practical and validated tool to assess falls risk in the primary care setting: a systematic review.",
-        "journal": "BMJ open",
-        "pub_year": 2021,
-        "pub_date": "2021-09-29",
-        "pub_types": [
-          "Journal Article",
-          "Research Support, Non-U.S. Gov't",
-          "Systematic Review"
-        ],
-        "issuing_body": null,
-        "chunks": [
-          {
-            "chunk_id": "34588228_000",
-            "pmid": "34588228",
-            "section_label": "OBJECTIVE",
-            "text": "Although several falls risk assessment tools are available, it is unclear which have been validated and which would be most suitable for primary care practices. This systematic review aims to identify the most suitable falls risk assessment tool for the primary care setting (ie, requires limited time, no expensive equipment and no additional space) and that has good predictive performance in the assessment of falls risk among older people living independently.",
-            "semantic_similarity": 0.6818758845329285,
-            "matched_sub_query_indices": [
-              3
-            ]
-          }
-        ],
-        "full_text": "OBJECTIVE: Although several falls risk assessment tools are available, it is unclear which have been validated and which would be most suitable for primary care practices. This systematic review aims to identify the most suitable falls risk assessment tool for the primary care setting (ie, requires limited time, no expensive equipment and no additional space) and that has good predictive performance in the assessment of falls risk among older people living independently.\n\nDESIGN: A systematic review based on prospective studies.\n\nMETHODS: An extensive search was conducted in the following databases: PubMed, Embase, CINAHL, Cochrane and PsycINFO. Tools were excluded if they required expensive and/or advanced software that is not usually available in primary care units and if they had not been validated in at least three different studies. Of 2492 articles published between January 2000 and July 2020, 27 were included.\n\nRESULTS: Six falls risk assessment tools were identified: Timed Up and Go (TUG) test, Gait Speed test, Berg Balance Scale, Performance Oriented Mobility Assessment, Functional Reach test and falls history. Most articles reported area under the curve (AUC) values ranging from 0.5 to 0.7 for these tools. Sensitivity and specificity varied substantially across studies (eg, TUG, sensitivity:10%-83.3%, specificity:28.4%-96.6%).\n\nCONCLUSIONS: Given that none of the falls risk assessment tools had sufficient predictive performance (AUC <0.7), other ways of assessing high falls risk among independently living older people in primary care should be investigated. For now, the most suitable way to assess falls risk in the primary care setting appears to involve asking patients about their falls history. Compared with the other five tools, the falls history requires the least amount of time, no expensive equipment, no training and no spatial adjustments. The clinical judgement of healthcare professionals continues to be most important, as it enables the identification of high falls risk even for patients with no falls history.\n\nTRIAL REGISTRAION NUMBER: The Netherlands Trial Register, NL7917; Pre-results.",
-        "addresses_concerns": [
-          "sub_query[3]"
-        ],
-        "semantic_similarity": 0.6818758845329285,
-        "recency_score": 0.375,
-        "authority_score": 0.8,
-        "coverage_bonus": 0.0,
-        "total_score": 0.5759379422664643
-      },
-      {
-        "pmid": "33285618",
-        "title": "Interventions to increase patient and family involvement in escalation of care for acute life-threatening illness in community health and hospital settings.",
-        "journal": "The Cochrane database of systematic reviews",
-        "pub_year": 2020,
-        "pub_date": "2020-12-08",
-        "pub_types": [
-          "Journal Article",
-          "Research Support, Non-U.S. Gov't",
-          "Systematic Review"
-        ],
-        "issuing_body": null,
-        "chunks": [
-          {
-            "chunk_id": "33285618_005",
-            "pmid": "33285618",
-            "section_label": "MAIN RESULTS",
-            "text": "We included nine studies involving 436,684 patients and family members and one ongoing study. The published studies focused on patients with specific conditions such as coronary artery disease, ischaemic stroke, and asthma, as well as pregnant women, inpatients on medical surgical wards, older adults and high-risk patients with a history of poor self-management. While all studies tested interventions versus usual care, for four studies the usual care group also received educational or information strategies. Seven of the interventions involved face-to-face, interactional education/coaching sessions aimed at patients/families while two provided multi-component education programmes which included components targeted at staff as well as patients/families. All of the interventions included: (1) an educational component about the acute condition and preparedness for future events such as stroke or change in fetal movements: (2) an engagement element (self-monitoring, action plans); while two additionally focused on shared language or communication skills. We had concerns about risk of bias for all but one of the included studies in respect of one or more criteria, particularly regarding blinding of participants and personnel. Our confidence in results regarding the effectiveness of interventions was moderate to low. Low-certainty evidence suggests that there may be moderate improvement in patients' knowledge of acute life-threatening conditions, danger signs, appropriate care-seeking responses, and preparedness capacity between interactional patient-facing interventions and multi-component programmes and usual care at 12 months (MD 4.20, 95% CI 2.44 to 5.97, 2 studies, 687 participants). Four studies in total assessed knowledge (3,086 participants) but we were unable to include two other studies in the pooled analysis due to differences in the way outcome measures were reported. One found no improvement in knowledge but higher symptom preparedness at 12 months. The other study found an improvement in patients' knowledge about symptoms and appropriate care-seeking responses in the intervention group at 18 months",
-            "semantic_similarity": 0.6578042507171631,
-            "matched_sub_query_indices": [
-              2
-            ]
-          },
-          {
-            "chunk_id": "33285618_000",
-            "pmid": "33285618",
-            "section_label": "BACKGROUND",
-            "text": "There is now a rising commitment to acknowledge the role patients and families play in contributing to their safety. This review focuses on one type of involvement in safety - patient and family involvement in escalation of care for serious life-threatening conditions i.e. helping secure a step-up to urgent or emergency care - which has been receiving increasing policy and practice attention. This review was concerned with the negotiation work that patient and family members undertake across the emergency care escalation pathway, once contact has been made with healthcare staff. It includes interventions aiming to improve detection of symptoms, communication of concerns and staff response to these concerns.",
-            "semantic_similarity": 0.6572070121765137,
-            "matched_sub_query_indices": [
-              6
-            ]
-          }
-        ],
-        "full_text": "BACKGROUND: There is now a rising commitment to acknowledge the role patients and families play in contributing to their safety. This review focuses on one type of involvement in safety - patient and family involvement in escalation of care for serious life-threatening conditions i.e. helping secure a step-up to urgent or emergency care - which has been receiving increasing policy and practice attention. This review was concerned with the negotiation work that patient and family members undertake across the emergency care escalation pathway, once contact has been made with healthcare staff. It includes interventions aiming to improve detection of symptoms, communication of concerns and staff response to these concerns.\n\nOBJECTIVES: To assess the effects of interventions designed to increase patient and family involvement in escalation of care for acute life-threatening illness on patient and family outcomes, treatment outcomes, clinical outcomes, patient and family experience and adverse events.\n\nSEARCH METHODS: We searched the Cochrane Central Register of Controlled Trials (CENTRAL, MEDLINE (OvidSP), Embase (OvidSP), PsycINFO (OvidSP) ClinicalTrials.gov and the World Health Organization (WHO) International Clinical Trials Registry Platform from 1 Jan 2000 to 24 August 2018. The search was updated on 21 October 2019.\n\nSELECTION CRITERIA: We included randomised controlled trials (RCTs) and cluster-randomised controlled trials where the intervention focused on patients and families working with healthcare professionals to ensure care received for acute deterioration was timely and appropriate. A key criterion was to include an interactive element of rehearsal, role play, modelling, shared language, group work etc. to the intervention to help patients and families have agency in the process of escalation of care. The interventions included components such as enabling patients and families to detect changes in patients' conditions and to speak up about these changes to staff. We also included studies where the intervention included a component targeted at enabling staff response.\n\nDATA COLLECTION AND ANALYSIS: Seven of the eight authors were involved in screening; two review authors independently extracted data and assessed the risk of bias of included studies, with any disagreements resolved by discussion to reach consensus. Primary outcomes included patient and family outcomes, treatment outcomes, clinical outcomes, patient and family experience and adverse events. Our advisory group (four users and four providers) ensured that the review was of relevance and could inform policy and practice.\n\nMAIN RESULTS: We included nine studies involving 436,684 patients and family members and one ongoing study. The published studies focused on patients with specific conditions such as coronary artery disease, ischaemic stroke, and asthma, as well as pregnant women, inpatients on medical surgical wards, older adults and high-risk patients with a history of poor self-management. While all studies tested interventions versus usual care, for four studies the usual care group also received educational or information strategies. Seven of the interventions involved face-to-face, interactional education/coaching sessions aimed at patients/families while two provided multi-component education programmes which included components targeted at staff as well as patients/families. All of the interventions included: (1) an educational component about the acute condition and preparedness for future events such as stroke or change in fetal movements: (2) an engagement element (self-monitoring, action plans); while two additionally focused on shared language or communication skills. We had concerns about risk of bias for all but one of the included studies in respect of one or more criteria, particularly regarding blinding of participants and personnel. Our confidence in results regarding the effectiveness of interventions was moderate to low. Low-certainty evidence suggests that there may be moderate improvement in patients' knowledge of acute life-threatening conditions, danger signs, appropriate care-seeking responses, and preparedness capacity between interactional patient-facing interventions and multi-component programmes and usual care at 12 months (MD 4.20, 95% CI 2.44 to 5.97, 2 studies, 687 participants). Four studies in total assessed knowledge (3,086 participants) but we were unable to include two other studies in the pooled analysis due to differences in the way outcome measures were reported. One found no improvement in knowledge but higher symptom preparedness at 12 months. The other study found an improvement in patients' knowledge about symptoms and appropriate care-seeking responses in the intervention group at 18 months compared with usual care. Low-certainty evidence from two studies, each using a different measure, meant that we were unable to determine the effects of patient-based interventions on self-efficacy. Self-efficacy was higher in the intervention group in one study but there was no difference in the other compared with usual care. We are uncertain whether interactional patient-facing and multi-component programmes improve time from the start of patient symptoms to treatment due to low-certainty evidence for this outcome. We were unable to combine the data due to differences in outcome measures. Three studies found that arrival times or prehospital delay time was no different between groups. One found that delay time was shorter in the intervention group. Moderate-certainty evidence suggests that multi-component interventions probably have little or no impact on mortality rates. Only one study on a pregnant population was eligible for inclusion in the review, which found no difference between groups in rates of stillbirth. In terms of unintended events, we found that interactional patient-facing interventions to increase patient and family involvement in escalation of care probably have few adverse effects on patient's anxiety levels (moderate-certainty evidence). None of the studies measured or reported patient and family perceptions of involvement in escalation of care or patient and family experience of patient care. Reported outcomes related to healthcare professionals were also not reported in any studies.\n\nAUTHORS' CONCLUSIONS: Our review identified that interactional patient-facing interventions and multi-component programmes (including staff) to increase patient and family involvement in escalation of care for acute life-threatening illness may improve patient and family knowledge about danger signs and care-seeking responses, and probably have few adverse effects on patient's anxiety levels when compared to usual care. Multi-component interventions probably have little impact on mortality rates. Further high-quality trials are required using multi-component interventions and a focus on relational elements of care. Cognitive and behavioural outcomes should be included at patient and staff level.",
-        "addresses_concerns": [
-          "sub_query[2]",
-          "sub_query[6]"
-        ],
-        "semantic_similarity": 0.6578042507171631,
-        "recency_score": 0.25,
-        "authority_score": 0.98,
-        "coverage_bonus": 0.0,
-        "total_score": 0.5749021253585815
-      },
-      {
-        "pmid": "34448868",
-        "title": "Interventions to Improve Communication at Hospital Discharge and Rates of Readmission: A Systematic Review and Meta-analysis.",
-        "journal": "JAMA network open",
-        "pub_year": 2021,
-        "pub_date": "2021-08-02",
-        "pub_types": [
-          "Journal Article",
-          "Meta-Analysis",
-          "Research Support, Non-U.S. Gov't",
-          "Systematic Review"
-        ],
-        "issuing_body": null,
-        "chunks": [
-          {
-            "chunk_id": "34448868_006",
-            "pmid": "34448868",
-            "section_label": "RESULTS",
-            "text": "We included 60 randomized clinical trials with a total of 16 070 patients for the qualitative synthesis and 19 trials with a total of 3953 patients for the quantitative synthesis of the primary outcome. Of these, 11 trials had low risk of bias, 6 trials had high risk of bias, and 2 trials had unclear risk of bias. Communication interventions at discharge were significantly associated with lower readmission rates (179 of 1959 patients [9.1%] in intervention groups vs 270 of 1994 patients [13.5%] in control groups; RR, 0.69; 95% CI, 0.56-0.84), higher adherence to treatment regimen (1729 of 2009 patients [86.1%] in intervention groups vs 1599 of 2024 patients [79.0%] in control groups; RR, 1.24; 95% CI, 1.13-1.37), and higher patient satisfaction (1187 of 1949 patients [60.9%] in intervention groups vs 991 of 2002 patients [49.5%] in control groups; RR, 1.41; 95% CI, 1.20-1.66).",
-            "semantic_similarity": 0.6658947467803955,
-            "matched_sub_query_indices": [
-              7
-            ]
-          }
-        ],
-        "full_text": "IMPORTANCE: Shortcomings in the education of patients at hospital discharge are associated with higher risks for treatment failure and hospital readmission. Whether improving communication at discharge through specific interventions has an association with patient-relevant outcomes remains unclear.\n\nOBJECTIVE: To conduct a systematic review and meta-analysis on the association of communication interventions at hospital discharge with readmission rates and other patient-relevant outcomes.\n\nDATA SOURCES: PubMed, EMBASE, PsycINFO, and CINAHL were systematically searched from the inception of each database to February 28, 2021.\n\nSTUDY SELECTION: Randomized clinical trials that randomized patients to receiving a discharge communication intervention or a control group were included.\n\nDATA EXTRACTION AND SYNTHESIS: Two independent reviewers extracted data on outcomes and trial and patient characteristics. Risk of bias was assessed using the Cochrane Risk of Bias Tool. Data were pooled using a random-effects model, and risk ratios (RRs) with corresponding 95% CIs are reported. This study followed the Preferred Reporting Items for Systematic Reviews and Meta-analyses (PRISMA) reporting guideline.\n\nMAIN OUTCOMES AND MEASURES: The primary outcome was hospital readmission, and secondary outcomes included adherence to treatment regimen, patient satisfaction, mortality, and emergency department reattendance 30 days after hospital discharge.\n\nRESULTS: We included 60 randomized clinical trials with a total of 16 070 patients for the qualitative synthesis and 19 trials with a total of 3953 patients for the quantitative synthesis of the primary outcome. Of these, 11 trials had low risk of bias, 6 trials had high risk of bias, and 2 trials had unclear risk of bias. Communication interventions at discharge were significantly associated with lower readmission rates (179 of 1959 patients [9.1%] in intervention groups vs 270 of 1994 patients [13.5%] in control groups; RR, 0.69; 95% CI, 0.56-0.84), higher adherence to treatment regimen (1729 of 2009 patients [86.1%] in intervention groups vs 1599 of 2024 patients [79.0%] in control groups; RR, 1.24; 95% CI, 1.13-1.37), and higher patient satisfaction (1187 of 1949 patients [60.9%] in intervention groups vs 991 of 2002 patients [49.5%] in control groups; RR, 1.41; 95% CI, 1.20-1.66).\n\nCONCLUSIONS AND RELEVANCE: These findings suggest that communication interventions at discharge are significantly associated with fewer hospital readmissions, higher treatment adherence, and higher patient satisfaction and thus are important to facilitate the transition of care.",
-        "addresses_concerns": [
-          "sub_query[7]"
-        ],
-        "semantic_similarity": 0.6658947467803955,
-        "recency_score": 0.375,
-        "authority_score": 0.82,
-        "coverage_bonus": 0.0,
-        "total_score": 0.5719473733901977
-      },
-      {
-        "pmid": "41274792",
-        "title": "A systematic review of structured weight loss programs and their association with HbA1c reduction in adults with prediabetes managed in primary care.",
-        "journal": "Primary care diabetes",
-        "pub_year": 2026,
-        "pub_date": "2026-04",
-        "pub_types": [
-          "Journal Article",
-          "Systematic Review",
-          "Review"
-        ],
-        "issuing_body": null,
-        "chunks": [
-          {
-            "chunk_id": "41274792_001",
-            "pmid": "41274792",
-            "section_label": "METHODS",
-            "text": "Following PRISMA 2020 and SWiM guidelines, we searched six databases (PubMed, EMBASE, Cochrane CENTRAL, Scopus, CINAHL, Web of Science) through July 10, 2025, for studies evaluating structured weight-loss interventions delivered in primary care. Eligible studies included adults (≥18 years) with prediabetes and used randomized trials, cohort designs, or pilot interventions reporting HbA1c as a primary outcome. Risk of bias was assessed using the original Cochrane RoB tool for randomized studies. Narrative synthesis was conducted due to substantial heterogeneity in design, intervention intensity, and analytical approaches.",
-            "semantic_similarity": 0.7335218191146851,
-            "matched_sub_query_indices": [
-              1
-            ]
-          },
-          {
-            "chunk_id": "41274792_003",
-            "pmid": "41274792",
-            "section_label": "CONCLUSION",
-            "text": "Structured weight loss programs in primary care are associated with modest-to-moderate HbA1c reductions. However, study heterogeneity, analytical methods and inconsistent adherence reporting limit definitive conclusions. Future research should prioritize standardized reporting, long-term outcomes, and diverse populations to enhance generalizability.",
-            "semantic_similarity": 0.6915000677108765,
-            "matched_sub_query_indices": [
-              1
-            ]
-          }
-        ],
-        "full_text": "BACKGROUND: Prediabetes, marked by elevated blood glucose levels below the type 2 diabetes mellitus (T2DM) threshold, is a growing public health concern due to its rising prevalence and risk of progression to diabetes and cardiovascular issues. Structured weight loss programs in primary care show promise for improving glycemic control, yet their impact on HbA1c remains underexplored. This systematic review evaluates their effectiveness in reducing HbA1c in adults with prediabetes.\n\nMETHODS: Following PRISMA 2020 and SWiM guidelines, we searched six databases (PubMed, EMBASE, Cochrane CENTRAL, Scopus, CINAHL, Web of Science) through July 10, 2025, for studies evaluating structured weight-loss interventions delivered in primary care. Eligible studies included adults (≥18 years) with prediabetes and used randomized trials, cohort designs, or pilot interventions reporting HbA1c as a primary outcome. Risk of bias was assessed using the original Cochrane RoB tool for randomized studies. Narrative synthesis was conducted due to substantial heterogeneity in design, intervention intensity, and analytical approaches.\n\nRESULTS: Six studies (n = 45-2818) showed HbA1c reductions, with high-intensity (frequent behavioral sessions) and digital interventions (low-carbohydrate apps) yielding the largest effects. Weight loss (up to 4.08 kg), BMI, and lipid profiles also improved. Adherence and intervention intensity were key factors, though inconsistent reporting limited comparisons.\n\nCONCLUSION: Structured weight loss programs in primary care are associated with modest-to-moderate HbA1c reductions. However, study heterogeneity, analytical methods and inconsistent adherence reporting limit definitive conclusions. Future research should prioritize standardized reporting, long-term outcomes, and diverse populations to enhance generalizability.",
-        "addresses_concerns": [
-          "sub_query[1]"
-        ],
-        "semantic_similarity": 0.7335218191146851,
-        "recency_score": 1.0,
-        "authority_score": 0.0,
-        "coverage_bonus": 0.0,
-        "total_score": 0.5667609095573425
-      },
-      {
-        "pmid": "33992082",
-        "title": "Contemporary treatment of anxiety in primary care: a systematic review and meta-analysis of outcomes in countries with universal healthcare.",
-        "journal": "BMC family practice",
-        "pub_year": 2021,
-        "pub_date": "2021-05-15",
-        "pub_types": [
-          "Journal Article",
-          "Meta-Analysis",
-          "Research Support, Non-U.S. Gov't",
-          "Systematic Review"
-        ],
-        "issuing_body": null,
-        "chunks": [
-          {
-            "chunk_id": "33992082_001",
-            "pmid": "33992082",
-            "section_label": "METHOD",
-            "text": "PubMed, Cochrane, PsycINFO, CINAHL, and Scopus were searched in April 2017 for controlled studies of evidence-based anxiety treatment in adults in primary care, published in English since 1997. Searches were repeated in April 2020. We synthesised results using a combination of meta-analysis and narrative methods. Meta-analysis was conducted using a random-effects multi-level model to account for intercorrelation between effects contributed different treatment arms of the same study. Moderator variables were explored using meta-regression analyses.",
-            "semantic_similarity": 0.6884263157844543,
-            "matched_sub_query_indices": [
-              0,
-              2,
-              4
-            ]
-          }
-        ],
-        "full_text": "BACKGROUND: Anxiety disorders are highly prevalent mental health conditions and are managed predominantly in primary care. We conducted a systematic review and meta-analysis of psychological and pharmacological treatments in countries with universal healthcare, and investigated the influence of treatment provider on the efficacy of psychological treatment.\n\nMETHOD: PubMed, Cochrane, PsycINFO, CINAHL, and Scopus were searched in April 2017 for controlled studies of evidence-based anxiety treatment in adults in primary care, published in English since 1997. Searches were repeated in April 2020. We synthesised results using a combination of meta-analysis and narrative methods. Meta-analysis was conducted using a random-effects multi-level model to account for intercorrelation between effects contributed different treatment arms of the same study. Moderator variables were explored using meta-regression analyses.\n\nRESULTS: In total, 19 articles (from an initial 2,247) reporting 18 studies were included. Meta-analysis including ten studies (n = 1,308) found a pooled effect size of g = 1.16 (95%CI = 0.63 - 1.69) for psychological treatment compared to waitlist control, and no significant effect compared to care as usual (p = .225). Substantial heterogeneity was present (I2 = 81.25). Specialist treatment produced large effects compared to both waitlist control (g = 1.46, 95%CI = 0.96 - 1.96) and care as usual (g = 0.76, 95%CI = 0.27 - 1.25). Treatment provided by non-specialists was only superior to waitlist control (g = 0.80, 95%CI = 0.31 - 1.28). We identified relatively few studies (n = 4) of medications, which reported small to moderate effects for SSRI/SNRI medications and hydroxyzine. The quality of included studies was variable and most studies had at least \"unclear\" risk of bias in one or more key domains.\n\nCONCLUSIONS: Psychological treatments for anxiety are effective in primary care and are more effective when provided by a specialist (psychologist or clinical psychologist) than a non-specialist (GP, nurse, trainee). However, non-specialists provide effective treatment compared with no care at all. Limited research into the efficacy of pharmacological treatments in primary care needs to be considered carefully by prescribers TRIAL REGISTRATION: PROSPERO registration number CRD42018050659.",
-        "addresses_concerns": [
-          "sub_query[0]",
-          "sub_query[2]",
-          "sub_query[4]"
-        ],
-        "semantic_similarity": 0.6884263157844543,
-        "recency_score": 0.375,
-        "authority_score": 0.68,
-        "coverage_bonus": 0.1111111111111111,
-        "total_score": 0.5663242690033383
-      },
-      {
-        "pmid": "31558663",
-        "title": "European Respiratory Society guideline on long-term management of children with bronchopulmonary dysplasia.",
-        "journal": "The European respiratory journal",
-        "pub_year": 2020,
-        "pub_date": "2020-01",
-        "pub_types": [
-          "Journal Article",
-          "Research Support, Non-U.S. Gov't",
-          "Systematic Review",
-          "Practice Guideline"
-        ],
-        "issuing_body": null,
-        "chunks": [
-          {
-            "chunk_id": "31558663_000",
-            "pmid": "31558663",
-            "section_label": null,
-            "text": "This document provides recommendations for monitoring and treatment of children in whom bronchopulmonary dysplasia (BPD) has been established and who have been discharged from the hospital, or who were >36 weeks of postmenstrual age. The guideline was based on predefined Population, Intervention, Comparison and Outcomes (PICO) questions relevant for clinical care, a systematic review of the literature and assessment of the evidence using the Grading of Recommendations, Assessment, Development and Evaluation (GRADE) approach. After considering the balance of desirable (benefits) and undesirable (burden, adverse effects) consequences of the intervention, the certainty of the evidence, and values, the task force made conditional recommendations for monitoring and treatment of BPD based on very low to low quality of evidence. We suggest monitoring with lung imaging using ionising radiation in a subgroup only, for example severe BPD or recurrent hospitalisations, and monitoring with lung function in all children. We suggest to give individual advice to parents regarding daycare attendance. With regards to treatment, we suggest the use of bronchodilators in a subgroup only, for example asthma-like symptoms, or reversibility in lung function; no treatment with inhaled or systemic corticosteroids; natural weaning of diuretics by the relative decrease in dose with increasing weight gain if diuretics are started in the neonatal period; and treatment with supplemental oxygen with a saturation target range of 90-95%. A multidisciplinary approach for children with established severe BPD after the neonatal period into adulthood is preferable. These recommendations should be considered until new and urgently needed evidence becomes available.",
-            "semantic_similarity": 0.6841281652450562,
-            "matched_sub_query_indices": [
-              3
-            ]
-          }
-        ],
-        "full_text": "This document provides recommendations for monitoring and treatment of children in whom bronchopulmonary dysplasia (BPD) has been established and who have been discharged from the hospital, or who were >36 weeks of postmenstrual age. The guideline was based on predefined Population, Intervention, Comparison and Outcomes (PICO) questions relevant for clinical care, a systematic review of the literature and assessment of the evidence using the Grading of Recommendations, Assessment, Development and Evaluation (GRADE) approach. After considering the balance of desirable (benefits) and undesirable (burden, adverse effects) consequences of the intervention, the certainty of the evidence, and values, the task force made conditional recommendations for monitoring and treatment of BPD based on very low to low quality of evidence. We suggest monitoring with lung imaging using ionising radiation in a subgroup only, for example severe BPD or recurrent hospitalisations, and monitoring with lung function in all children. We suggest to give individual advice to parents regarding daycare attendance. With regards to treatment, we suggest the use of bronchodilators in a subgroup only, for example asthma-like symptoms, or reversibility in lung function; no treatment with inhaled or systemic corticosteroids; natural weaning of diuretics by the relative decrease in dose with increasing weight gain if diuretics are started in the neonatal period; and treatment with supplemental oxygen with a saturation target range of 90-95%. A multidisciplinary approach for children with established severe BPD after the neonatal period into adulthood is preferable. These recommendations should be considered until new and urgently needed evidence becomes available.",
-        "addresses_concerns": [
-          "sub_query[3]"
-        ],
-        "semantic_similarity": 0.6841281652450562,
-        "recency_score": 0.25,
-        "authority_score": 0.85,
-        "coverage_bonus": 0.0,
-        "total_score": 0.562064082622528
-      },
-      {
-        "pmid": "32032375",
-        "title": "Primary care interventions to address physical frailty among community-dwelling adults aged 60 years or older: A meta-analysis.",
-        "journal": "PloS one",
-        "pub_year": 2020,
-        "pub_date": "2020",
-        "pub_types": [
-          "Journal Article",
-          "Meta-Analysis",
-          "Research Support, Non-U.S. Gov't"
-        ],
-        "issuing_body": null,
-        "chunks": [
-          {
-            "chunk_id": "32032375_000",
-            "pmid": "32032375",
-            "section_label": "INTRODUCTION",
-            "text": "The best interventions to address frailty among older adults have not yet been fully defined, and the diversity of interventions and outcome measures makes this process challenging. Consequently, there is a lack of guidance for clinicians and researchers regarding which interventions are most likely to help older persons remain robust and independent. This paper uses meta-analysis to assess effectiveness of primary care interventions for physical frailty among community-dwelling adults aged 60+ and provides an up-to-date synthesis of literature in this area.",
-            "semantic_similarity": 0.6951464414596558,
-            "matched_sub_query_indices": [
-              0
-            ]
-          }
-        ],
-        "full_text": "INTRODUCTION: The best interventions to address frailty among older adults have not yet been fully defined, and the diversity of interventions and outcome measures makes this process challenging. Consequently, there is a lack of guidance for clinicians and researchers regarding which interventions are most likely to help older persons remain robust and independent. This paper uses meta-analysis to assess effectiveness of primary care interventions for physical frailty among community-dwelling adults aged 60+ and provides an up-to-date synthesis of literature in this area.\n\nMETHODS: PubMed, CINAHL, Cochrane Register of Controlled Trials, and PEDro databases were searched, and RCTs, controlled pilot studies, or trials with similar study designs addressing frailty in the primary care setting among persons aged 60+ were chosen. Study data was abstracted following PRISMA guidelines, then meta-analysis was performed using the random effects model.\n\nRESULTS: 31 studies with a total of 4794 participants were analysed. Interventions using predominantly resistance-based exercise and nutrition supplementation seemed to improve frailty status versus control (RR = 0.62 (CI 0.48-0.79), I2 = 0%). Exercise plus nutrition education also reduced frailty (RR = 0.69 (CI 0.58-0.82), I2 = 0%). Exercise alone seemed effective in reducing frailty (RR = 0.63 (CI 0.47-0.84), I2 = 0%) and improving physical performance (RR = 0.43 (CI 0.18-0.67), I2 = 0%). Exercise alone also appeared superior to control in improving gait speed (SMD = 0.36 (CI 0.10-0.61, I2 = 74%), leg strength (SMD = 0.61 (CI 0.09-1.13), I2 = 87%), and grip strength (Mean Difference = 1.08 (CI 0.02-2.15), I2 = 71%) though a high degree of heterogeneity was observed. Comprehensive geriatric assessment (RR = 0.77 (CI 0.64-0.93), I2 = 0%) also seemed superior to control in reducing frailty.\n\nCONCLUSION: Exercise alone or with nutrition supplementation or education, and comprehensive geriatric assessment, may reduce physical frailty. Individual-level factors and health systems resource availability will likely determine configuration of future interventions.",
-        "addresses_concerns": [
-          "sub_query[0]"
-        ],
-        "semantic_similarity": 0.6951464414596558,
-        "recency_score": 0.25,
-        "authority_score": 0.8,
-        "coverage_bonus": 0.0,
-        "total_score": 0.5575732207298278
-      },
-      {
-        "pmid": "31237649",
-        "title": "Did This Patient Have Cardiac Syncope?: The Rational Clinical Examination Systematic Review.",
-        "journal": "JAMA",
-        "pub_year": 2019,
-        "pub_date": "2019-06-25",
-        "pub_types": [
-          "Case Reports",
-          "Journal Article",
-          "Systematic Review"
-        ],
-        "issuing_body": null,
-        "chunks": [
-          {
-            "chunk_id": "31237649_006",
-            "pmid": "31237649",
-            "section_label": "RESULTS",
-            "text": "[95% CI, 0%-5%]; specificity, 89% [95% CI, 85%-93%]; LR, 0.16 [95% CI, 0.06-0.64]), or headache (n = 323; sensitivity, 3% [95% CI, 0%-7%]; specificity, 80% [95% CI, 75%-85%]; LR, 0.17 [95% CI, 0.06-0.55]). Cyanosis witnessed during the episode was associated with higher likelihood of cardiac syncope (n = 323; sensitivity, 8% [95% CI, 2%-14%]; specificity, 99% [95% CI, 98%-100%]; LR, 6.2 [95% CI, 1.6-24]). Mood changes after syncope (n = 323; sensitivity, 3% [95% CI, 0%-7%]; specificity, 83% [95% CI, 78%-88%]; LR, 0.21 [95% CI, 0.06-0.65]) and inability to remember behavior prior to syncope (n = 323; sensitivity, 5% [95% CI, 0%-9%]; specificity, 82% [95% CI, 77%-87%]; LR, 0.25, [95% CI, 0.09-0.69]) were associated with lower likelihood of cardiac syncope. Two studies prospectively validated the accuracy of the multivariable Evaluation of Guidelines in Syncope Study (EGSYS) score, which is based on 6 clinical variables. An EGSYS score of less than 3 was associated with lower likelihood of cardiac syncope (n = 456; range of sensitivity, 89%-91%, range of specificity, 69",
-            "semantic_similarity": 0.6642067432403564,
-            "matched_sub_query_indices": [
-              2
-            ]
-          }
-        ],
-        "full_text": "IMPORTANCE: Syncope can result from a reduction in cardiac output from serious cardiac conditions, such as arrhythmias or structural heart disease (cardiac syncope), or other causes, such as vasovagal syncope or orthostatic hypotension.\n\nOBJECTIVE: To perform a systematic review of studies of the accuracy of the clinical examination for identifying patients with cardiac syncope.\n\nSTUDY SELECTION: Studies of adults presenting to primary care, emergency departments, or referred to specialty clinics.\n\nDATA EXTRACTION AND SYNTHESIS: Relevant data were abstracted from articles in databases through April 9, 2019, and methodologic quality was assessed. Included studies had an independent comparison to a reference standard.\n\nMAIN OUTCOMES AND MEASURES: Sensitivity, specificity, and likelihood ratios (LRs).\n\nRESULTS: Eleven studies of cardiac syncope (N = 4317) were included. Age at first syncope of at least 35 years was associated with greater likelihood of cardiac syncope (n = 323; sensitivity, 91% [95% CI, 85%-97%]; specificity, 72% [95% CI, 66%-78%]; LR, 3.3 [95% CI, 2.6-4.1]), while age younger than 35 years was associated with a lower likelihood (LR, 0.13 [95% CI, 0.06-0.25]). A history of atrial fibrillation or flutter (n = 323; sensitivity, 13% [95% CI, 6%-20%]; specificity, 98% [95% CI, 96%-100%]; LR, 7.3 [95% CI, 2.4-22]), or known severe structural heart disease (n = 222; range of sensitivity, 35%-51%, range of specificity, 84%-93%; range of LR, 3.3-4.8; 2 studies) were associated with greater likelihood of cardiac syncope. Symptoms prior to syncope that were associated with lower likelihood of cardiac syncope were mood change or prodromal preoccupation with details (n = 323; sensitivity, 2% [95% CI, 0%-5%]; specificity, 76% [95% CI, 71%-81%]; LR, 0.09 [95% CI, 0.02-0.38]), feeling cold (n = 412; sensitivity, 2% [95% CI, 0%-5%]; specificity, 89% [95% CI, 85%-93%]; LR, 0.16 [95% CI, 0.06-0.64]), or headache (n = 323; sensitivity, 3% [95% CI, 0%-7%]; specificity, 80% [95% CI, 75%-85%]; LR, 0.17 [95% CI, 0.06-0.55]). Cyanosis witnessed during the episode was associated with higher likelihood of cardiac syncope (n = 323; sensitivity, 8% [95% CI, 2%-14%]; specificity, 99% [95% CI, 98%-100%]; LR, 6.2 [95% CI, 1.6-24]). Mood changes after syncope (n = 323; sensitivity, 3% [95% CI, 0%-7%]; specificity, 83% [95% CI, 78%-88%]; LR, 0.21 [95% CI, 0.06-0.65]) and inability to remember behavior prior to syncope (n = 323; sensitivity, 5% [95% CI, 0%-9%]; specificity, 82% [95% CI, 77%-87%]; LR, 0.25, [95% CI, 0.09-0.69]) were associated with lower likelihood of cardiac syncope. Two studies prospectively validated the accuracy of the multivariable Evaluation of Guidelines in Syncope Study (EGSYS) score, which is based on 6 clinical variables. An EGSYS score of less than 3 was associated with lower likelihood of cardiac syncope (n = 456; range of sensitivity, 89%-91%, range of specificity, 69%-73%; range of LR, 0.12-0.17; 2 studies). Cardiac biomarkers show promising diagnostic accuracy for cardiac syncope, but diagnostic thresholds require validation.\n\nCONCLUSIONS AND RELEVANCE: The clinical examination, including the electrocardiogram as part of multivariable scores, can accurately identify patients with and without cardiac syncope.",
-        "addresses_concerns": [
-          "sub_query[2]"
-        ],
-        "semantic_similarity": 0.6642067432403564,
-        "recency_score": 0.125,
-        "authority_score": 1.0,
-        "coverage_bonus": 0.0,
-        "total_score": 0.5571033716201783
-      },
-      {
-        "pmid": "40720582",
-        "title": "Full spectrum of symptoms associated with heart failure: a mixed method systematic review and narrative synthesis.",
-        "journal": "European journal of cardiovascular nursing",
-        "pub_year": 2026,
-        "pub_date": "2026-04-29",
-        "pub_types": [
-          "Journal Article",
-          "Systematic Review"
-        ],
-        "issuing_body": null,
-        "chunks": [
-          {
-            "chunk_id": "40720582_001",
-            "pmid": "40720582",
-            "section_label": "METHODS AND RESULTS",
-            "text": "Mixed-method systematic review and narrative synthesis through six electronic databases. Quality was assessed using Joanna Briggs Institute critical appraisal checklists. Symptoms were grouped into ESC (typical/less typical) and non-ESC symptoms. Differences in ESC typical and less typical symptoms were investigated in hospital vs. community, <65 vs. ≥65 years old age, and men vs. women. Fifty-eight papers (43 quantitative, 11 qualitative, and 4 mixed-method) were included. Fifty-six out of fifty-eight studies observed at least one of the ESC typical and/or less typical symptoms. Some of the 'less typical symptoms' were rarely reported (e.g. wheezing in three and bendopnea in one). Thirty-eight non-ESC symptoms were observed in 58 studies. Some non-ESC symptoms were commonly observed [e.g. chest pain/discomfort (37/58), difficulty sleeping (32/58), and nausea/vomiting/indigestion (30/58)]. Cough, palpitations, and dizziness were observed more in community than hospital whereas wheezing was observed more in hospital. Typical symptoms (orthopnoea/paroxysmal nocturnal dyspnoea/swelling) were more often observed in cohorts ≥65 (than <65) years of age. Due to the paucity of women in studies, there was little information available to compare symptoms of men and women.",
-            "semantic_similarity": 0.7129385471343994,
-            "matched_sub_query_indices": [
-              3
-            ]
-          }
-        ],
-        "full_text": "AIMS: To investigate European Society of Cardiology (ESC) guideline-defined 'typical' and 'less typical' heart failure (HF) symptoms, as well as non-ESC symptoms, and to explore how ESC-defined symptoms vary by care setting, age, and sex.\n\nMETHODS AND RESULTS: Mixed-method systematic review and narrative synthesis through six electronic databases. Quality was assessed using Joanna Briggs Institute critical appraisal checklists. Symptoms were grouped into ESC (typical/less typical) and non-ESC symptoms. Differences in ESC typical and less typical symptoms were investigated in hospital vs. community, <65 vs. ≥65 years old age, and men vs. women. Fifty-eight papers (43 quantitative, 11 qualitative, and 4 mixed-method) were included. Fifty-six out of fifty-eight studies observed at least one of the ESC typical and/or less typical symptoms. Some of the 'less typical symptoms' were rarely reported (e.g. wheezing in three and bendopnea in one). Thirty-eight non-ESC symptoms were observed in 58 studies. Some non-ESC symptoms were commonly observed [e.g. chest pain/discomfort (37/58), difficulty sleeping (32/58), and nausea/vomiting/indigestion (30/58)]. Cough, palpitations, and dizziness were observed more in community than hospital whereas wheezing was observed more in hospital. Typical symptoms (orthopnoea/paroxysmal nocturnal dyspnoea/swelling) were more often observed in cohorts ≥65 (than <65) years of age. Due to the paucity of women in studies, there was little information available to compare symptoms of men and women.\n\nCONCLUSION: There is a more diverse range of symptoms among HF population than has previously been described. There is need for comprehensive, person-centred symptom assessment protocol and more inclusive clinical guidelines, highlighting symptom variability in HF population across different demographic and clinical variations.\n\nREGISTRATION: PROSPERO CRD42020185786.",
-        "addresses_concerns": [
-          "sub_query[3]"
-        ],
-        "semantic_similarity": 0.7129385471343994,
-        "recency_score": 1.0,
-        "authority_score": 0.0,
-        "coverage_bonus": 0.0,
-        "total_score": 0.5564692735671997
-      },
-      {
-        "pmid": "41389198",
-        "title": "Comprehensive geriatric assessment and primary care based interventions for managing frailty in older adults: An evidence map.",
-        "journal": "The Journal of frailty & aging",
-        "pub_year": 2026,
-        "pub_date": "2026-02",
-        "pub_types": [
-          "Journal Article",
-          "Systematic Review",
-          "Review"
-        ],
-        "issuing_body": null,
-        "chunks": [
-          {
-            "chunk_id": "41389198_001",
-            "pmid": "41389198",
-            "section_label": "METHODS",
-            "text": "This review mapped evidence to evaluate systematic reviews of randomized controlled trials in older adults (≥60 years) on primary care-based interventions for managing frailty. Data were extracted from databases including MEDLINE, Embase, CINAHL, PsycINFO, and Cochrane CENTRAL, covering publications up to September 11, 2024. Interventions in primary care, community-based, or home-based settings were included, excluding hospitalized or bedridden individuals. The AMSTAR 2 tool assessed review quality, and interventions were categorized by type, setting, and effectiveness.",
-            "semantic_similarity": 0.712246298789978,
-            "matched_sub_query_indices": [
-              0,
-              3
-            ]
-          }
-        ],
-        "full_text": "BACKGROUND: Frailty is a geriatric syndrome leading to adverse health outcomes, but can be managed through targeted interventions and potentially reversed. Primary care settings play a pivotal role in identifying and addressing frailty. This review aims to assess the effective primary care interventions and strategies to manage frailty.\n\nMETHODS: This review mapped evidence to evaluate systematic reviews of randomized controlled trials in older adults (≥60 years) on primary care-based interventions for managing frailty. Data were extracted from databases including MEDLINE, Embase, CINAHL, PsycINFO, and Cochrane CENTRAL, covering publications up to September 11, 2024. Interventions in primary care, community-based, or home-based settings were included, excluding hospitalized or bedridden individuals. The AMSTAR 2 tool assessed review quality, and interventions were categorized by type, setting, and effectiveness.\n\nRESULTS: From the 3152 studies extracted, 17 systematic reviews met the inclusion criteria. Interventions were classified into physical, nutritional, pharmacological, e-health/telemedicine, and multicomponent approaches. Multicomponent interventions, combining physical, nutritional, and cognitive strategies, demonstrated effectiveness, with significant benefits reported in 15 reviews. Community and home-based settings dominated, emphasizing accessibility. However, the quality of evidence varied, with seven reviews rated as critically low and six as high. Most studies were conducted in high-income countries, limiting their generalizability to LMICs.\n\nCONCLUSION: Multicomponent interventions delivered in community settings show significant promise for managing frailty in older adults. However, evidence gaps suggest the need for context-specific research to adapt these interventions into primary care, which can improve the health status and quality of life for ageing populations globally.",
-        "addresses_concerns": [
-          "sub_query[0]",
-          "sub_query[3]"
-        ],
-        "semantic_similarity": 0.712246298789978,
-        "recency_score": 1.0,
-        "authority_score": 0.0,
-        "coverage_bonus": 0.0,
-        "total_score": 0.556123149394989
+        "coverage_bonus": 0.14285714285714285,
+        "total_score": 0.6458681494167873
       }
     ],
     "rerank_weights": {
@@ -1382,480 +762,256 @@
   "structured_context": {
     "clusters": [
       {
-        "cluster_id": "communication_directive::global::41092546_1",
-        "assertion_type": "communication_directive",
+        "cluster_id": "finding::global::38604640_5",
+        "assertion_type": "finding",
         "addresses_concern": null,
         "primary_assertion": {
-          "assertion_id": "41092546_1",
-          "assertion_text": "Use patient-centered communication strategies (plain language, teach-back, shared decision-making) when discussing this concern.",
-          "assertion_type": "communication_directive",
-          "confidence": 0.8,
+          "assertion_id": "38604640_5",
+          "assertion_text": "This situation hampers the applicability of clinical practice guidelines.",
+          "assertion_type": "finding",
+          "confidence": 0.9,
+          "source_pmid": "38604640",
+          "source_chunk_id": null,
+          "addresses_concern": null,
+          "evidence_quote": "This situation hampers the applicability of these guidelines."
+        },
+        "supporting_pmids": [
+          "38604640"
+        ],
+        "alternative_assertions": [],
+        "convergent": true,
+        "confidence": 0.9,
+        "resolution_rule": null,
+        "resolution_rationale": null
+      },
+      {
+        "cluster_id": "finding::global::41092546_0",
+        "assertion_type": "finding",
+        "addresses_concern": null,
+        "primary_assertion": {
+          "assertion_id": "41092546_0",
+          "assertion_text": "Communication about traumatic experiences shows potential benefit to adult primary care patients.",
+          "assertion_type": "finding",
+          "confidence": 0.85,
           "source_pmid": "41092546",
           "source_chunk_id": null,
           "addresses_concern": null,
-          "evidence_quote": "Patient-clinician communication in longitudinal care settings about adverse childhood experiences (ACEs) and adult traumas: A systematic review of reviews."
+          "evidence_quote": "Communication with clinicians about traumatic experiences shows potential benefit to adult primary care patients."
         },
         "supporting_pmids": [
-          "33658141",
-          "34448868",
           "41092546"
         ],
         "alternative_assertions": [],
         "convergent": true,
-        "confidence": 0.8500000000000002,
+        "confidence": 0.85,
         "resolution_rule": null,
         "resolution_rationale": null
       },
       {
-        "cluster_id": "monitoring::global::40983262_1",
-        "assertion_type": "monitoring",
-        "addresses_concern": null,
-        "primary_assertion": {
-          "assertion_id": "40983262_1",
-          "assertion_text": "Periodic screening / monitoring is supported by this journal article.",
-          "assertion_type": "monitoring",
-          "confidence": 0.7,
-          "source_pmid": "40983262",
-          "source_chunk_id": null,
-          "addresses_concern": null,
-          "evidence_quote": "Systematic Review of Dementia Risk Screening Tools in Primary Care Settings."
-        },
-        "supporting_pmids": [
-          "40983262"
-        ],
-        "alternative_assertions": [],
-        "convergent": true,
-        "confidence": 0.7,
-        "resolution_rule": null,
-        "resolution_rationale": null
-      },
-      {
-        "cluster_id": "finding::global::40983262_2",
+        "cluster_id": "finding::global::40759522_0",
         "assertion_type": "finding",
         "addresses_concern": null,
         "primary_assertion": {
-          "assertion_id": "40983262_2",
-          "assertion_text": "This journal article synthesizes evidence relevant to the patient's concerns.",
+          "assertion_id": "40759522_0",
+          "assertion_text": "There is mixed evidence of the effectiveness of GP-delivered nutrition care among adults with diet-related chronic conditions or risk states.",
           "assertion_type": "finding",
-          "confidence": 0.78,
-          "source_pmid": "40983262",
+          "confidence": 0.85,
+          "source_pmid": "40759522",
           "source_chunk_id": null,
           "addresses_concern": null,
-          "evidence_quote": "Systematic Review of Dementia Risk Screening Tools in Primary Care Settings."
+          "evidence_quote": "There is mixed evidence of the effectiveness of GP-delivered nutrition care among adults with diet-related chronic conditions or risk states."
         },
         "supporting_pmids": [
-          "31237649",
-          "31558663",
-          "32032375",
-          "33658141",
-          "33882128",
-          "33952533",
-          "33992082",
-          "34448868",
-          "34588228",
-          "35833228",
-          "38521534",
-          "38719772",
-          "40720582",
-          "40983262",
-          "41092546",
-          "41274792"
+          "40759522"
         ],
-        "alternative_assertions": [
-          {
-            "assertion_id": "41092546_2",
-            "assertion_text": "This journal article synthesizes evidence relevant to the patient's concerns.",
-            "assertion_type": "finding",
-            "confidence": 0.78,
-            "source_pmid": "41092546",
-            "source_chunk_id": null,
-            "addresses_concern": null,
-            "evidence_quote": "Patient-clinician communication in longitudinal care settings about adverse childhood experiences (ACEs) and adult traumas: A systematic review of reviews."
-          },
-          {
-            "assertion_id": "38719772_1",
-            "assertion_text": "This journal article synthesizes evidence relevant to the patient's concerns.",
-            "assertion_type": "finding",
-            "confidence": 0.78,
-            "source_pmid": "38719772",
-            "source_chunk_id": null,
-            "addresses_concern": null,
-            "evidence_quote": "European Respiratory Society clinical practice guideline on symptom management for adults with serious respiratory illness."
-          },
-          {
-            "assertion_id": "38521534_1",
-            "assertion_text": "This systematic review synthesizes evidence relevant to the patient's concerns.",
-            "assertion_type": "finding",
-            "confidence": 0.78,
-            "source_pmid": "38521534",
-            "source_chunk_id": null,
-            "addresses_concern": null,
-            "evidence_quote": "Prognostic factors and prediction models for hospitalisation and all-cause mortality in adults presenting to primary care with a lower respiratory tract infection: a systematic review."
-          },
-          {
-            "assertion_id": "35833228_1",
-            "assertion_text": "This systematic review synthesizes evidence relevant to the patient's concerns.",
-            "assertion_type": "finding",
-            "confidence": 0.78,
-            "source_pmid": "35833228",
-            "source_chunk_id": null,
-            "addresses_concern": null,
-            "evidence_quote": "Guidelines for the management of male urinary tract infections in primary care: a lack of international consensus-a systematic review of the literature."
-          },
-          {
-            "assertion_id": "33952533_1",
-            "assertion_text": "This journal article synthesizes evidence relevant to the patient's concerns.",
-            "assertion_type": "finding",
-            "confidence": 0.78,
-            "source_pmid": "33952533",
-            "source_chunk_id": null,
-            "addresses_concern": null,
-            "evidence_quote": "Systematic review on the instruments used for measuring the association of the level of multimorbidity and clinically important outcomes."
-          },
-          {
-            "assertion_id": "33658141_2",
-            "assertion_text": "This journal article synthesizes evidence relevant to the patient's concerns.",
-            "assertion_type": "finding",
-            "confidence": 0.78,
-            "source_pmid": "33658141",
-            "source_chunk_id": null,
-            "addresses_concern": null,
-            "evidence_quote": "Communicating with older adults with long-term conditions about self-management goals: A systematic review and thematic synthesis."
-          },
-          {
-            "assertion_id": "33882128_1",
-            "assertion_text": "This journal article synthesizes evidence relevant to the patient's concerns.",
-            "assertion_type": "finding",
-            "confidence": 0.78,
-            "source_pmid": "33882128",
-            "source_chunk_id": null,
-            "addresses_concern": null,
-            "evidence_quote": "Obesity management in primary care: systematic review exploring the influence of therapeutic alliance."
-          },
-          {
-            "assertion_id": "34588228_1",
-            "assertion_text": "This journal article synthesizes evidence relevant to the patient's concerns.",
-            "assertion_type": "finding",
-            "confidence": 0.78,
-            "source_pmid": "34588228",
-            "source_chunk_id": null,
-            "addresses_concern": null,
-            "evidence_quote": "Practical and validated tool to assess falls risk in the primary care setting: a systematic review."
-          },
-          {
-            "assertion_id": "34448868_2",
-            "assertion_text": "This journal article synthesizes evidence relevant to the patient's concerns.",
-            "assertion_type": "finding",
-            "confidence": 0.78,
-            "source_pmid": "34448868",
-            "source_chunk_id": null,
-            "addresses_concern": null,
-            "evidence_quote": "Interventions to Improve Communication at Hospital Discharge and Rates of Readmission: A Systematic Review and Meta-analysis."
-          },
-          {
-            "assertion_id": "41274792_1",
-            "assertion_text": "This journal article synthesizes evidence relevant to the patient's concerns.",
-            "assertion_type": "finding",
-            "confidence": 0.78,
-            "source_pmid": "41274792",
-            "source_chunk_id": null,
-            "addresses_concern": null,
-            "evidence_quote": "A systematic review of structured weight loss programs and their association with HbA1c reduction in adults with prediabetes managed in primary care."
-          },
-          {
-            "assertion_id": "33992082_1",
-            "assertion_text": "This journal article synthesizes evidence relevant to the patient's concerns.",
-            "assertion_type": "finding",
-            "confidence": 0.78,
-            "source_pmid": "33992082",
-            "source_chunk_id": null,
-            "addresses_concern": null,
-            "evidence_quote": "Contemporary treatment of anxiety in primary care: a systematic review and meta-analysis of outcomes in countries with universal healthcare."
-          },
-          {
-            "assertion_id": "31558663_1",
-            "assertion_text": "This journal article synthesizes evidence relevant to the patient's concerns.",
-            "assertion_type": "finding",
-            "confidence": 0.78,
-            "source_pmid": "31558663",
-            "source_chunk_id": null,
-            "addresses_concern": null,
-            "evidence_quote": "European Respiratory Society guideline on long-term management of children with bronchopulmonary dysplasia."
-          },
-          {
-            "assertion_id": "32032375_1",
-            "assertion_text": "This journal article synthesizes evidence relevant to the patient's concerns.",
-            "assertion_type": "finding",
-            "confidence": 0.78,
-            "source_pmid": "32032375",
-            "source_chunk_id": null,
-            "addresses_concern": null,
-            "evidence_quote": "Primary care interventions to address physical frailty among community-dwelling adults aged 60 years or older: A meta-analysis."
-          },
-          {
-            "assertion_id": "31237649_1",
-            "assertion_text": "This case reports synthesizes evidence relevant to the patient's concerns.",
-            "assertion_type": "finding",
-            "confidence": 0.78,
-            "source_pmid": "31237649",
-            "source_chunk_id": null,
-            "addresses_concern": null,
-            "evidence_quote": "Did This Patient Have Cardiac Syncope?: The Rational Clinical Examination Systematic Review."
-          },
-          {
-            "assertion_id": "40720582_1",
-            "assertion_text": "This journal article synthesizes evidence relevant to the patient's concerns.",
-            "assertion_type": "finding",
-            "confidence": 0.78,
-            "source_pmid": "40720582",
-            "source_chunk_id": null,
-            "addresses_concern": null,
-            "evidence_quote": "Full spectrum of symptoms associated with heart failure: a mixed method systematic review and narrative synthesis."
-          }
-        ],
-        "convergent": false,
-        "confidence": 0.78,
-        "resolution_rule": "recency",
-        "resolution_rationale": "Recency: pub_year=2026 wins among [2026, 2026, 2024, 2024, 2023, 2021, 2021, 2021, 2021, 2021, 2026, 2021, 2020, 2020, 2019, 2026]; authority and confidence used as tiebreakers if needed."
+        "alternative_assertions": [],
+        "convergent": true,
+        "confidence": 0.85,
+        "resolution_rule": null,
+        "resolution_rationale": null
       },
       {
-        "cluster_id": "recommendation::global::40983262_0",
+        "cluster_id": "recommendation::global::38604640_6",
         "assertion_type": "recommendation",
         "addresses_concern": null,
         "primary_assertion": {
-          "assertion_id": "40983262_0",
-          "assertion_text": "Per this 2026 journal article, consider the approach described in: \"Systematic Review of Dementia Risk Screening Tools in Primary Care Settings.\"",
+          "assertion_id": "38604640_6",
+          "assertion_text": "Future trials should include patients who better fit the 'average' general-practice patient to improve guideline translation.",
           "assertion_type": "recommendation",
-          "confidence": 0.72,
-          "source_pmid": "40983262",
+          "confidence": 0.85,
+          "source_pmid": "38604640",
           "source_chunk_id": null,
           "addresses_concern": null,
-          "evidence_quote": "Systematic Review of Dementia Risk Screening Tools in Primary Care Settings."
+          "evidence_quote": "Future randomised trials should include patients who better fit the 'average' general-practice patient with type 2 diabetes mellitus to help improve the translation of study findings in daily practice."
         },
         "supporting_pmids": [
-          "31237649",
-          "31558663",
-          "32032375",
-          "33285618",
-          "33658141",
-          "33882128",
-          "33952533",
-          "33992082",
-          "34448868",
-          "34588228",
-          "35709018",
-          "35833228",
-          "38521534",
-          "38533994",
-          "38719772",
-          "40720582",
-          "40983262",
-          "41092546",
-          "41274792",
-          "41389198"
+          "38604640"
+        ],
+        "alternative_assertions": [],
+        "convergent": true,
+        "confidence": 0.85,
+        "resolution_rule": null,
+        "resolution_rationale": null
+      },
+      {
+        "cluster_id": "finding::global::40759522_1",
+        "assertion_type": "finding",
+        "addresses_concern": null,
+        "primary_assertion": {
+          "assertion_id": "40759522_1",
+          "assertion_text": "Most interventions did not include prompting and had a limited range of behaviour change techniques.",
+          "assertion_type": "finding",
+          "confidence": 0.8,
+          "source_pmid": "40759522",
+          "source_chunk_id": null,
+          "addresses_concern": null,
+          "evidence_quote": "Most interventions did not include prompting and had a limited range of behaviour change techniques."
+        },
+        "supporting_pmids": [
+          "40759522"
+        ],
+        "alternative_assertions": [],
+        "convergent": true,
+        "confidence": 0.8,
+        "resolution_rule": null,
+        "resolution_rationale": null
+      },
+      {
+        "cluster_id": "recommendation::global::41092546_1",
+        "assertion_type": "recommendation",
+        "addresses_concern": null,
+        "primary_assertion": {
+          "assertion_id": "41092546_1",
+          "assertion_text": "Organizational support, including sustained intervention efforts, trauma communication training, and resource allocation, is required for clinician readiness to engage in conversations about traumatic experiences.",
+          "assertion_type": "recommendation",
+          "confidence": 0.8,
+          "source_pmid": "41092546",
+          "source_chunk_id": null,
+          "addresses_concern": null,
+          "evidence_quote": "Clinician- and systems-level readiness to respond to and engage in conversations about traumatic experiences with adult primary care patients requires organizational support, including sustained intervention efforts, trauma communication training, and resource allocation."
+        },
+        "supporting_pmids": [
+          "41092546"
+        ],
+        "alternative_assertions": [],
+        "convergent": true,
+        "confidence": 0.8,
+        "resolution_rule": null,
+        "resolution_rationale": null
+      },
+      {
+        "cluster_id": "finding::global::38604640_0",
+        "assertion_type": "finding",
+        "addresses_concern": null,
+        "primary_assertion": {
+          "assertion_id": "38604640_0",
+          "assertion_text": "Patients with type 2 diabetes mellitus in general practice differ from those included in randomised controlled trials.",
+          "assertion_type": "finding",
+          "confidence": 0.9,
+          "source_pmid": "38604640",
+          "source_chunk_id": null,
+          "addresses_concern": null,
+          "evidence_quote": "Patients with type 2 diabetes mellitus cared for in general practice differ in a number of important aspects from patients included in randomised controlled trials on which clinical practice guidelines are based."
+        },
+        "supporting_pmids": [
+          "38604640"
         ],
         "alternative_assertions": [
           {
-            "assertion_id": "41092546_0",
-            "assertion_text": "Per this 2026 journal article, consider the approach described in: \"Patient-clinician communication in longitudinal care settings about adverse childhood expe\"",
-            "assertion_type": "recommendation",
-            "confidence": 0.72,
-            "source_pmid": "41092546",
+            "assertion_id": "38604640_1",
+            "assertion_text": "General-practice patients with type 2 diabetes are older and have a higher body mass index compared to trial participants.",
+            "assertion_type": "finding",
+            "confidence": 0.85,
+            "source_pmid": "38604640",
             "source_chunk_id": null,
             "addresses_concern": null,
-            "evidence_quote": "Patient-clinician communication in longitudinal care settings about adverse childhood experiences (ACEs) and adult traumas: A systematic review of reviews."
+            "evidence_quote": "General-practice patients were older than randomised controlled trial patients [...] and had a higher body mass index."
           },
           {
-            "assertion_id": "38719772_0",
-            "assertion_text": "Per this 2024 journal article, consider the approach described in: \"European Respiratory Society clinical practice guideline on symptom management for adults \"",
-            "assertion_type": "recommendation",
-            "confidence": 0.72,
-            "source_pmid": "38719772",
+            "assertion_id": "38604640_2",
+            "assertion_text": "General-practice patients smoke less than those in randomised controlled trials.",
+            "assertion_type": "finding",
+            "confidence": 0.8,
+            "source_pmid": "38604640",
             "source_chunk_id": null,
             "addresses_concern": null,
-            "evidence_quote": "European Respiratory Society clinical practice guideline on symptom management for adults with serious respiratory illness."
+            "evidence_quote": "they smoked less (11.0% vs 29.3%)"
           },
           {
-            "assertion_id": "38533994_0",
-            "assertion_text": "Per this 2024 journal article, consider the approach described in: \"Mobile phone text messaging for medication adherence in secondary prevention of cardiovasc\"",
-            "assertion_type": "recommendation",
-            "confidence": 0.72,
-            "source_pmid": "38533994",
+            "assertion_id": "38604640_3",
+            "assertion_text": "General-practice patients more frequently use antihypertensive drugs compared to trial participants.",
+            "assertion_type": "finding",
+            "confidence": 0.8,
+            "source_pmid": "38604640",
             "source_chunk_id": null,
             "addresses_concern": null,
-            "evidence_quote": "Mobile phone text messaging for medication adherence in secondary prevention of cardiovascular disease."
+            "evidence_quote": "they more frequently used antihypertensive drugs (82.1% vs 37.5%)"
           },
           {
-            "assertion_id": "38521534_0",
-            "assertion_text": "Per this 2024 systematic review, consider the approach described in: \"Prognostic factors and prediction models for hospitalisation and all-cause mortality in ad\"",
-            "assertion_type": "recommendation",
-            "confidence": 0.72,
-            "source_pmid": "38521534",
+            "assertion_id": "38604640_4",
+            "assertion_text": "General-practice patients have a lower incidence of myocardial infarction compared to trial participants.",
+            "assertion_type": "finding",
+            "confidence": 0.8,
+            "source_pmid": "38604640",
             "source_chunk_id": null,
             "addresses_concern": null,
-            "evidence_quote": "Prognostic factors and prediction models for hospitalisation and all-cause mortality in adults presenting to primary care with a lower respiratory tract infection: a systematic review."
-          },
-          {
-            "assertion_id": "35709018_0",
-            "assertion_text": "Per this 2022 journal article, consider the approach described in: \"Clinical judgement by primary care physicians for the diagnosis of all-cause dementia or c\"",
-            "assertion_type": "recommendation",
-            "confidence": 0.72,
-            "source_pmid": "35709018",
-            "source_chunk_id": null,
-            "addresses_concern": null,
-            "evidence_quote": "Clinical judgement by primary care physicians for the diagnosis of all-cause dementia or cognitive impairment in symptomatic people."
-          },
-          {
-            "assertion_id": "35833228_0",
-            "assertion_text": "Per this 2023 systematic review, consider the approach described in: \"Guidelines for the management of male urinary tract infections in primary care: a lack of \"",
-            "assertion_type": "recommendation",
-            "confidence": 0.72,
-            "source_pmid": "35833228",
-            "source_chunk_id": null,
-            "addresses_concern": null,
-            "evidence_quote": "Guidelines for the management of male urinary tract infections in primary care: a lack of international consensus-a systematic review of the literature."
-          },
-          {
-            "assertion_id": "33952533_0",
-            "assertion_text": "Per this 2021 journal article, consider the approach described in: \"Systematic review on the instruments used for measuring the association of the level of mu\"",
-            "assertion_type": "recommendation",
-            "confidence": 0.72,
-            "source_pmid": "33952533",
-            "source_chunk_id": null,
-            "addresses_concern": null,
-            "evidence_quote": "Systematic review on the instruments used for measuring the association of the level of multimorbidity and clinically important outcomes."
-          },
-          {
-            "assertion_id": "33658141_0",
-            "assertion_text": "Per this 2021 journal article, consider the approach described in: \"Communicating with older adults with long-term conditions about self-management goals: A s\"",
-            "assertion_type": "recommendation",
-            "confidence": 0.72,
-            "source_pmid": "33658141",
-            "source_chunk_id": null,
-            "addresses_concern": null,
-            "evidence_quote": "Communicating with older adults with long-term conditions about self-management goals: A systematic review and thematic synthesis."
-          },
-          {
-            "assertion_id": "33882128_0",
-            "assertion_text": "Per this 2021 journal article, consider the approach described in: \"Obesity management in primary care: systematic review exploring the influence of therapeut\"",
-            "assertion_type": "recommendation",
-            "confidence": 0.72,
-            "source_pmid": "33882128",
-            "source_chunk_id": null,
-            "addresses_concern": null,
-            "evidence_quote": "Obesity management in primary care: systematic review exploring the influence of therapeutic alliance."
-          },
-          {
-            "assertion_id": "34588228_0",
-            "assertion_text": "Per this 2021 journal article, consider the approach described in: \"Practical and validated tool to assess falls risk in the primary care setting: a systemati\"",
-            "assertion_type": "recommendation",
-            "confidence": 0.72,
-            "source_pmid": "34588228",
-            "source_chunk_id": null,
-            "addresses_concern": null,
-            "evidence_quote": "Practical and validated tool to assess falls risk in the primary care setting: a systematic review."
-          },
-          {
-            "assertion_id": "33285618_0",
-            "assertion_text": "Per this 2020 journal article, consider the approach described in: \"Interventions to increase patient and family involvement in escalation of care for acute l\"",
-            "assertion_type": "recommendation",
-            "confidence": 0.72,
-            "source_pmid": "33285618",
-            "source_chunk_id": null,
-            "addresses_concern": null,
-            "evidence_quote": "Interventions to increase patient and family involvement in escalation of care for acute life-threatening illness in community health and hospital settings."
-          },
-          {
-            "assertion_id": "34448868_0",
-            "assertion_text": "Per this 2021 journal article, consider the approach described in: \"Interventions to Improve Communication at Hospital Discharge and Rates of Readmission: A S\"",
-            "assertion_type": "recommendation",
-            "confidence": 0.72,
-            "source_pmid": "34448868",
-            "source_chunk_id": null,
-            "addresses_concern": null,
-            "evidence_quote": "Interventions to Improve Communication at Hospital Discharge and Rates of Readmission: A Systematic Review and Meta-analysis."
-          },
-          {
-            "assertion_id": "41274792_0",
-            "assertion_text": "Per this 2026 journal article, consider the approach described in: \"A systematic review of structured weight loss programs and their association with HbA1c re\"",
-            "assertion_type": "recommendation",
-            "confidence": 0.72,
-            "source_pmid": "41274792",
-            "source_chunk_id": null,
-            "addresses_concern": null,
-            "evidence_quote": "A systematic review of structured weight loss programs and their association with HbA1c reduction in adults with prediabetes managed in primary care."
-          },
-          {
-            "assertion_id": "33992082_0",
-            "assertion_text": "Per this 2021 journal article, consider the approach described in: \"Contemporary treatment of anxiety in primary care: a systematic review and meta-analysis o\"",
-            "assertion_type": "recommendation",
-            "confidence": 0.72,
-            "source_pmid": "33992082",
-            "source_chunk_id": null,
-            "addresses_concern": null,
-            "evidence_quote": "Contemporary treatment of anxiety in primary care: a systematic review and meta-analysis of outcomes in countries with universal healthcare."
-          },
-          {
-            "assertion_id": "31558663_0",
-            "assertion_text": "Per this 2020 journal article, consider the approach described in: \"European Respiratory Society guideline on long-term management of children with bronchopul\"",
-            "assertion_type": "recommendation",
-            "confidence": 0.72,
-            "source_pmid": "31558663",
-            "source_chunk_id": null,
-            "addresses_concern": null,
-            "evidence_quote": "European Respiratory Society guideline on long-term management of children with bronchopulmonary dysplasia."
-          },
-          {
-            "assertion_id": "32032375_0",
-            "assertion_text": "Per this 2020 journal article, consider the approach described in: \"Primary care interventions to address physical frailty among community-dwelling adults age\"",
-            "assertion_type": "recommendation",
-            "confidence": 0.72,
-            "source_pmid": "32032375",
-            "source_chunk_id": null,
-            "addresses_concern": null,
-            "evidence_quote": "Primary care interventions to address physical frailty among community-dwelling adults aged 60 years or older: A meta-analysis."
-          },
-          {
-            "assertion_id": "31237649_0",
-            "assertion_text": "Per this 2019 case reports, consider the approach described in: \"Did This Patient Have Cardiac Syncope?: The Rational Clinical Examination Systematic Revie\"",
-            "assertion_type": "recommendation",
-            "confidence": 0.72,
-            "source_pmid": "31237649",
-            "source_chunk_id": null,
-            "addresses_concern": null,
-            "evidence_quote": "Did This Patient Have Cardiac Syncope?: The Rational Clinical Examination Systematic Review."
-          },
-          {
-            "assertion_id": "40720582_0",
-            "assertion_text": "Per this 2026 journal article, consider the approach described in: \"Full spectrum of symptoms associated with heart failure: a mixed method systematic review \"",
-            "assertion_type": "recommendation",
-            "confidence": 0.72,
-            "source_pmid": "40720582",
-            "source_chunk_id": null,
-            "addresses_concern": null,
-            "evidence_quote": "Full spectrum of symptoms associated with heart failure: a mixed method systematic review and narrative synthesis."
-          },
-          {
-            "assertion_id": "41389198_0",
-            "assertion_text": "Per this 2026 journal article, consider the approach described in: \"Comprehensive geriatric assessment and primary care based interventions for managing frail\"",
-            "assertion_type": "recommendation",
-            "confidence": 0.72,
-            "source_pmid": "41389198",
-            "source_chunk_id": null,
-            "addresses_concern": null,
-            "evidence_quote": "Comprehensive geriatric assessment and primary care based interventions for managing frailty in older adults: An evidence map."
+            "evidence_quote": "less frequently had a myocardial infarction (7.6% vs 23.1%)"
           }
         ],
         "convergent": false,
-        "confidence": 0.72,
+        "confidence": 0.9,
         "resolution_rule": "recency",
-        "resolution_rationale": "Recency: pub_year=2026 wins among [2026, 2026, 2024, 2024, 2024, 2022, 2023, 2021, 2021, 2021, 2021, 2020, 2021, 2026, 2021, 2020, 2020, 2019, 2026, 2026]; authority and confidence used as tiebreakers if needed."
+        "resolution_rationale": "Recency: All assertions are from the same 2024 publication; rule 1 is satisfied."
+      },
+      {
+        "cluster_id": "finding::global::35709018_0",
+        "assertion_type": "finding",
+        "addresses_concern": null,
+        "primary_assertion": {
+          "assertion_id": "35709018_1",
+          "assertion_text": "General practitioners' clinical judgement has a sensitivity of 58% and specificity of 89% for diagnosing dementia.",
+          "assertion_type": "finding",
+          "confidence": 0.9,
+          "source_pmid": "35709018",
+          "source_chunk_id": null,
+          "addresses_concern": null,
+          "evidence_quote": "summary diagnostic accuracy of clinical judgement of general practitioners was sensitivity 58% (95% CI 43% to 72%), specificity 89% (95% CI 79% to 95%)"
+        },
+        "supporting_pmids": [
+          "35709018"
+        ],
+        "alternative_assertions": [
+          {
+            "assertion_id": "35709018_0",
+            "assertion_text": "Clinical judgement of GPs is more specific than sensitive for the diagnosis of dementia.",
+            "assertion_type": "finding",
+            "confidence": 0.9,
+            "source_pmid": "35709018",
+            "source_chunk_id": null,
+            "addresses_concern": null,
+            "evidence_quote": "Clinical judgement of GPs is more specific than sensitive for the diagnosis of dementia."
+          },
+          {
+            "assertion_id": "35709018_2",
+            "assertion_text": "General practitioners' clinical judgement has a sensitivity of 84% and specificity of 73% for diagnosing cognitive impairment.",
+            "assertion_type": "finding",
+            "confidence": 0.9,
+            "source_pmid": "35709018",
+            "source_chunk_id": null,
+            "addresses_concern": null,
+            "evidence_quote": "summary diagnostic accuracy of clinical judgement of general practitioners in four studies in which a total of 594 of 1497 participants had cognitive impairment was sensitivity 84% (95% CI 60% to 95%), specificity 73% (95% CI 50% to 88%)"
+          }
+        ],
+        "convergent": false,
+        "confidence": 0.9,
+        "resolution_rule": "evidence_strength",
+        "resolution_rationale": "Recency: All assertions are from the same 2022 publication, so recency does not resolve the tie. Next, authority: all are from Cochrane Database of Systematic Reviews with the highest authority score. Then, evidence strength: all are Journal Article, but the primary assertion is from a Systematic Review, which is higher than others. Finally, confidence is the same, so the primary is chosen based on evidence strength."
       }
     ],
-    "n_documents_processed": 20,
-    "n_assertions_extracted": 40,
-    "n_clusters": 4,
-    "n_convergent_clusters": 2,
+    "n_documents_processed": 5,
+    "n_assertions_extracted": 14,
+    "n_clusters": 8,
+    "n_convergent_clusters": 6,
     "n_divergent_clusters": 2,
     "cluster_similarity_threshold": 0.75,
     "notes": [
@@ -1864,144 +1020,100 @@
     ]
   },
   "response": {
-    "acknowledgment": "I can hear how much this has been weighing on you — you said, \"My wife is convinced it's cancer and honestly I am too\". That's a real thing to be carrying, and I want to take it seriously while we figure out what's going on.",
+    "acknowledgment": "I can hear how much this has been worrying you — you mentioned, \"My wife is convinced it's cancer and honestly I am too.\" That's a real concern, and I want to make sure we address it carefully.",
     "clinical_information_per_concern": [
       {
-        "concern_label": "fatigue",
+        "concern_label": "persistent fatigue",
         "profile_path": "problems[0]",
-        "explanation": "For your fatigue: based on current guidance, Use patient-centered communication strategies (plain language, teach-back, shared decision-making) when discussing this concern.",
+        "explanation": "Persistent fatigue, especially when it's getting worse and linked to unexplained weight loss, can be a sign of several health issues. We'll need to look into this more thoroughly to understand what's going on.",
         "citations": [
           {
-            "cluster_id": "communication_directive::global::41092546_1",
-            "primary_assertion_id": "41092546_1",
+            "cluster_id": "finding::global::38604640_0",
+            "primary_assertion_id": "38604640_0",
             "pmids": [
-              "33658141",
-              "34448868",
-              "41092546"
+              "38604640"
             ]
           }
         ]
       },
       {
-        "concern_label": "weight loss",
+        "concern_label": "unintentional weight loss",
         "profile_path": "problems[1]",
-        "explanation": "For your weight loss: based on current guidance, Use patient-centered communication strategies (plain language, teach-back, shared decision-making) when discussing this concern.",
+        "explanation": "Unexplained weight loss, especially over a short period, can be a red flag for various health conditions. It's important to investigate this to rule out serious issues.",
         "citations": [
           {
-            "cluster_id": "communication_directive::global::41092546_1",
-            "primary_assertion_id": "41092546_1",
+            "cluster_id": "finding::global::38604640_0",
+            "primary_assertion_id": "38604640_0",
             "pmids": [
-              "33658141",
-              "34448868",
-              "41092546"
+              "38604640"
             ]
           }
         ]
       },
       {
-        "concern_label": "headache",
+        "concern_label": "dull headaches",
         "profile_path": "problems[2]",
-        "explanation": "For your headache: based on current guidance, Use patient-centered communication strategies (plain language, teach-back, shared decision-making) when discussing this concern.",
+        "explanation": "Dull headaches that happen almost every day could be related to stress or other underlying issues. We'll keep an eye on this as we work through your other concerns.",
         "citations": [
           {
-            "cluster_id": "communication_directive::global::41092546_1",
-            "primary_assertion_id": "41092546_1",
+            "cluster_id": "finding::global::38604640_0",
+            "primary_assertion_id": "38604640_0",
             "pmids": [
-              "33658141",
-              "34448868",
-              "41092546"
+              "38604640"
             ]
           }
         ]
       },
       {
-        "concern_label": "shortness of breath",
-        "profile_path": "problems[3]",
-        "explanation": "For your shortness of breath: based on current guidance, Use patient-centered communication strategies (plain language, teach-back, shared decision-making) when discussing this concern.",
-        "citations": [
-          {
-            "cluster_id": "communication_directive::global::41092546_1",
-            "primary_assertion_id": "41092546_1",
-            "pmids": [
-              "33658141",
-              "34448868",
-              "41092546"
-            ]
-          }
-        ]
-      },
-      {
-        "concern_label": "chest pain",
-        "profile_path": "problems[4]",
-        "explanation": "For your chest pain: based on current guidance, Use patient-centered communication strategies (plain language, teach-back, shared decision-making) when discussing this concern.",
-        "citations": [
-          {
-            "cluster_id": "communication_directive::global::41092546_1",
-            "primary_assertion_id": "41092546_1",
-            "pmids": [
-              "33658141",
-              "34448868",
-              "41092546"
-            ]
-          }
-        ]
-      },
-      {
-        "concern_label": "goal: \"I just want to know what's going on so I can keep working — I'm a contractor, if I can't be on my feet I can't earn\"",
+        "concern_label": "find out what's going on",
         "profile_path": "patient_goals[0]",
-        "explanation": "For your goal: \"I just want to know what's going on so I can keep working — I'm a contractor, if I can't be on my feet I can't earn\": based on current guidance, Use patient-centered communication strategies (plain language, teach-back, shared decision-making) when discussing this concern.",
+        "explanation": "Our main goal is to figure out what's causing these symptoms. We'll start with some tests to get a clearer picture.",
         "citations": [
           {
-            "cluster_id": "communication_directive::global::41092546_1",
-            "primary_assertion_id": "41092546_1",
+            "cluster_id": "finding::global::38604640_0",
+            "primary_assertion_id": "38604640_0",
             "pmids": [
-              "33658141",
-              "34448868",
-              "41092546"
+              "38604640"
             ]
           }
         ]
       },
       {
-        "concern_label": "goal: \"I want to feel safe again, you know? And I need to keep working\"",
+        "concern_label": "keep working",
         "profile_path": "patient_goals[1]",
-        "explanation": "For your goal: \"I want to feel safe again, you know? And I need to keep working\": based on current guidance, Use patient-centered communication strategies (plain language, teach-back, shared decision-making) when discussing this concern.",
+        "explanation": "We'll work together to manage your health so you can stay active and continue working. Your ability to work is important, and we'll keep that in mind as we move forward.",
         "citations": [
           {
-            "cluster_id": "communication_directive::global::41092546_1",
-            "primary_assertion_id": "41092546_1",
+            "cluster_id": "finding::global::38604640_0",
+            "primary_assertion_id": "38604640_0",
             "pmids": [
-              "33658141",
-              "34448868",
-              "41092546"
+              "38604640"
             ]
           }
         ]
       },
       {
-        "concern_label": "goal: \"I need to keep working\"",
+        "concern_label": "feel safe",
         "profile_path": "patient_goals[2]",
-        "explanation": "For your goal: \"I need to keep working\": based on current guidance, Use patient-centered communication strategies (plain language, teach-back, shared decision-making) when discussing this concern.",
+        "explanation": "We'll make sure you understand the steps we're taking so you feel reassured about your health and treatment.",
         "citations": [
           {
-            "cluster_id": "communication_directive::global::41092546_1",
-            "primary_assertion_id": "41092546_1",
+            "cluster_id": "finding::global::38604640_0",
+            "primary_assertion_id": "38604640_0",
             "pmids": [
-              "33658141",
-              "34448868",
-              "41092546"
+              "38604640"
             ]
           }
         ]
       }
     ],
     "next_steps": [
-      "Because of the unexplained weight loss, we'll start the workup today rather than wait — that includes bloodwork and a few tests to rule out the things you're most worried about.",
-      "We'll go through what each step is for, so you can decide what feels right.",
-      "I'll have someone follow up with you in the next few days to check in and answer any questions that come up."
+      "Given the red flag of unexplained weight loss, we'll prioritize some immediate tests to get a clearer picture of what's going on.",
+      "We'll schedule a follow-up visit in 4 weeks to review the results and discuss the next steps.",
+      "If any test results come back early, I'll reach out to you right away to keep you informed."
     ],
-    "teach_back_prompt": "I want to make sure I explained this clearly — can you tell me, in your own words, what we're going to do next and why?",
-    "follow_up_invitation": "Let's plan to see each other again in 2–4 weeks. In the meantime, if anything gets worse — especially any of the warning signs we talked about — please call us right away.",
+    "teach_back_prompt": "I want to make sure I explained everything clearly. Can you tell me, in your own words, what we're going to do next and why?",
+    "follow_up_invitation": "Let's plan to meet again in 4 weeks. In the meantime, if you experience any new symptoms like severe pain or if your fatigue gets much worse, please call us immediately.",
     "nurse_elements_applied": [
       "Name",
       "Understand",
@@ -2010,19 +1122,24 @@
     ],
     "four_habits_elements_applied": [
       "Invest in the beginning",
-      "Demonstrate empathy",
       "Elicit the patient's perspective",
+      "Demonstrate empathy",
       "Invest in the end"
     ],
     "all_cluster_ids_used": [
-      "communication_directive::global::41092546_1"
+      "finding::global::38604640_0"
     ],
     "all_pmids_used": [
-      "33658141",
-      "34448868",
-      "41092546"
+      "38604640"
     ],
     "glossary_substitutions": []
   },
-  "mode": "mock"
+  "mode": "real",
+  "module_timings_ms": {
+    "module_1_intake": 91170.48449069262,
+    "module_2_retrieval": 409.71530228853226,
+    "module_3_reasoning": 46700.67723840475,
+    "module_4_response": 42054.75851148367,
+    "total_ms": 180335.63554286957
+  }
 }

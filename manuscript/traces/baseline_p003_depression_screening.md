@@ -1,6 +1,6 @@
 # Naive LLM baseline — `p003_depression_screening`
 
-_Mode: **mock**  ·  generated: 2026-05-19T21:59:20+00:00_
+_Mode: **real** · 2026-05-19T23:35:05+00:00_
 
 ## System prompt
 
@@ -20,4 +20,25 @@ _Mode: **mock**  ·  generated: 2026-05-19T21:59:20+00:00_
 
 ## Model response
 
-> Thank you for sharing what's been going on — I can tell this has been a lot to carry. From what you described ("I don't know if I should be here for this. I'm just tired all the time, my sleep..."), the right next step is to start with some basic workup so we can figure out what's contributing. I'd suggest we do some bloodwork and a focused exam, and then follow up in a couple of weeks to go over the results together. In the meantime, please reach out if anything gets worse or if new symptoms come up, and we'll handle it from there.
+> Okay, so I'm trying to figure out how to respond to this patient. They've been feeling really tired, their sleep is all over the place, and they're not eating much. They lost some weight without trying, which is concerning. They also mention not feeling joy anymore and even having thoughts about self-harm, though they don't act on them. Their last bloodwork was fine, but they're still worried something's wrong.
+> 
+> First, I need to acknowledge their feelings. They seem to be going through a tough time, so empathy is key. I should validate their symptoms and let them know it's okay to feel this way. They mentioned not wanting to be on pills long-term, so I should consider non-medical options first, like lifestyle changes or therapy.
+> 
+> They have a history of depression in the family, which might be relevant. Their past use of Lexapro suggests they've dealt with mental health before, but they're looking for alternatives now. I should explore other treatment options, maybe starting with therapy or lifestyle adjustments before considering medication again.
+> 
+> Their partner brought them in, so support systems are in place. That's a positive point. I should encourage them to lean on their partner and family. Also, their loss of interest in activities they used to enjoy points towards depression, so that's something to consider.
+> 
+> I need to address their sleep issues specifically. Maybe suggest some sleep hygiene practices. They mentioned using melatonin, so perhaps we can talk about other strategies to improve sleep without medication.
+> 
+> They expressed a desire to feel like themselves again, so setting realistic goals for improvement is important. I should reassure them that with the right support, they can feel better. It's also crucial to take their concerns seriously, even though their bloodwork is normal, because mental health can have physical symptoms.
+> 
+> I should structure the response to first empathize, then discuss possible steps, and end with encouragement and next steps. Keep it supportive and understanding, avoiding any medical jargon. Make sure they feel heard and that we're working together on this.
+> </think>
+> 
+> I'm really sorry to hear you're going through this tough time. It sounds like you're feeling overwhelmed, exhausted, and disconnected from the things you used to enjoy. I want to acknowledge how strong you are for reaching out and being honest about your feelings, even though it's been hard. It's completely valid to feel this way, and you're not alone in this.
+> 
+> Given your symptoms—constant fatigue, disrupted sleep, loss of appetite, and a lack of joy—it’s important to explore what might be contributing to how you're feeling. While your bloodwork came back normal, we can still look into other areas, like your mental health, to see if there's a way to help you feel better. Since you’ve mentioned a history of depression in your family and your own experience with Lexapro in the past, we might consider whether depression is playing a role here. 
+> 
+> I understand you’re hesitant about long-term medication, and that’s okay. Let’s start by exploring other options, like lifestyle changes, therapy, or other non-medical approaches, to see if they can help you get back to feeling like yourself. We can also work on improving your sleep and energy levels, as these are key to your overall well-being. 
+> 
+> You’re doing the right thing by leaning on your partner and mom, and I encourage you to continue to rely on them for support. Together, we’ll take small steps toward helping you feel more like yourself again. Let’s schedule a time to talk more about your goals and what feels like the right path forward for you. You’ve already taken a brave step by being here, and I’m here to support you through this.

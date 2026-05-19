@@ -1,6 +1,6 @@
 # Pipeline trace — `p002_hypertension_followup`
 
-_Mode: **mock**  ·  Generated: 2026-05-19T21:59:20+00:00_
+_Mode: **real**  ·  Generated: 2026-05-19T22:53:27+00:00_
 
 ## Scenario
 
@@ -34,7 +34,7 @@ _Mode: **mock**  ·  Generated: 2026-05-19T21:59:20+00:00_
 
 **Turn 4** — *agent (templated):*
 
-> When did the depressed mood first start?
+> When did the high blood pressure first start?
 
 **Patient:**
 
@@ -42,7 +42,7 @@ _Mode: **mock**  ·  Generated: 2026-05-19T21:59:20+00:00_
 
 **Turn 5** — *agent (templated):*
 
-> When did the depressed mood first start?
+> When did the high blood pressure first start?
 
 **Patient:**
 
@@ -54,143 +54,161 @@ _Intake completion at last turn: **False** (status: `in_progress`)_
 
 ```yaml
 problems:
-- label: cough
-  onset: started maybe two months in and hasn't gone awa
-  severity: null
-  timing: null
-  associated_symptoms: []
-  interventions_tried: []
-  status: unknown
-- label: headache
+- label: high blood pressure
   onset: null
   severity: null
-  timing: null
-  associated_symptoms: []
-  interventions_tried: []
-  status: unknown
-- label: chest pain
-  onset: null
-  severity: null
-  timing: null
-  associated_symptoms: []
-  interventions_tried: []
-  status: unknown
-- label: depressed mood
-  onset: null
-  severity: null
-  timing: null
-  associated_symptoms: []
-  interventions_tried: []
+  timing: about four days a week
+  associated_symptoms:
+  - dry cough
+  - dizziness upon standing
+  interventions_tried:
+  - lisinopril
   status: unknown
 medications:
-- the pills
-- it maybe four days out of seven if I'm being generous
-- it
-allergies: []
-relevant_history: []
+- lisinopril (20 mg, daily)
+allergies:
+- No known allergies
+relevant_history:
+- 'Family history: mother on blood pressure pills, father had heart attack at 62 (smoker)'
+- 'Lifestyle: non-smoker, trying to increase physical activity with Apple Watch'
 patient_goals:
-- I want to be straight with you — I haven't been good about taking the pills
-- I need to be around
+- manage blood pressure
+- increase physical activity
+- fewer medications
+- avoid hospitalization
 emotional_cues:
-- cue: worry
-  evidence_quote: No vision changes — that I'd be more worried about
+- cue: frustration
+  evidence_quote: I take it maybe four days out of seven if I'm being generous. Mornings
+    are the worst — I'm getting ready, the kids are losing it, and it just slips.
+- cue: frustration
+  evidence_quote: the lisinopril gives me this dry cough that drives me crazy at night
 - cue: frustration
   evidence_quote: I'm frustrated, not depressed
-- cue: sadness
-  evidence_quote: If there's a way to get my numbers down without the cough, I'd take
-    that
-red_flags:
-- flag: suicidal ideation
-  evidence: And no — definitely no thoughts of hurting myself or anything like that
+- cue: worry
+  evidence_quote: I don't want to do something stupid that ends with me in a hospital
+    bed — I have two kids in elementary school. I need to be around.
+red_flags: []
 unknowns:
+- problems[0].onset
 - problems[0].severity
-- problems[0].timing
-- problems[1].onset
-- problems[1].severity
-- problems[1].timing
-- problems[2].onset
-- problems[2].severity
-- problems[2].timing
-- problems[3].onset
-- problems[3].severity
-- problems[3].timing
+- red_flag_screen_complete
 turn_count: 5
 completion_status: in_progress
 ```
 
 ## Top 5 retrieved documents (Module II)
 
-Sub-queries decomposed: **7**.  top_k chunks/sub-query: **20**.  Graph expansion: `stub`.  Rerank weights: `{'semantic_similarity': 0.5, 'recency': 0.2, 'authority': 0.2, 'coverage_bonus': 0.1}`.
+Sub-queries decomposed: **6**.  top_k chunks/sub-query: **20**.  Graph expansion: `stub`.  Rerank weights: `{'semantic_similarity': 0.5, 'recency': 0.2, 'authority': 0.2, 'coverage_bonus': 0.1}`.
 
 | Rank | PMID | Year | Journal | sem | rec | aut | cov | total | Title |
 |---:|---|---:|---|---:|---:|---:|---:|---:|---|
-| 1 | 41092546 | 2026 | Patient education and counseling | 0.655 | 1.00 | 0.80 | 0.29 | 0.716 | Patient-clinician communication in longitudinal care settings about adverse childhood experiences (A |
-| 2 | 41466386 | 2025 | BMC primary care | 0.734 | 0.88 | 0.68 | 0.29 | 0.707 | Screening tools for ruling out mood and anxiety disorders in adults in primary care: a rapid systema |
-| 3 | 38719772 | 2024 | The European respiratory journal | 0.687 | 0.75 | 0.85 | 0.14 | 0.678 | European Respiratory Society clinical practice guideline on symptom management for adults with serio |
-| 4 | 39366124 | 2025 | Patient education and counseling | 0.670 | 0.88 | 0.80 | 0.00 | 0.670 | Roles and contributions of companions in healthcare professional-older patient interaction: A system |
-| 5 | 38367963 | 2024 | BMJ open | 0.685 | 0.75 | 0.80 | 0.00 | 0.652 | Triadic communication with teenagers and young adults with cancer: a systematic literature review -  |
+| 1 | 40577011 | 2025 | JAMA network open | 0.704 | 0.88 | 0.82 | 0.17 | 0.707 | Interventions to Address Potentially Inappropriate Prescribing for Older Primary Care Patients: A Sy |
+| 2 | 38533994 | 2024 | The Cochrane database of systematic reviews | 0.665 | 0.75 | 0.98 | 0.17 | 0.695 | Mobile phone text messaging for medication adherence in secondary prevention of cardiovascular disea |
+| 3 | 38604640 | 2024 | BMJ open | 0.651 | 0.75 | 0.80 | 0.17 | 0.652 | Do patients with type 2 diabetes mellitus included in randomised clinical trials differ from general |
+| 4 | 33658141 | 2021 | Patient education and counseling | 0.713 | 0.38 | 0.80 | 0.50 | 0.642 | Communicating with older adults with long-term conditions about self-management goals: A systematic  |
+| 5 | 33464342 | 2021 | JAMA | 0.639 | 0.38 | 1.00 | 0.00 | 0.595 | Interventions for Tobacco Cessation in Adults, Including Pregnant Persons: Updated Evidence Report a |
 
 ## `StructuredContextArtifact` (Module III)
 
-- Documents processed: **20**  · Assertions extracted: **38**  · Clusters: **5** (convergent=3, divergent=2)  · Similarity threshold: **0.75**
+- Documents processed: **5**  · Assertions extracted: **19**  · Clusters: **9** (convergent=5, divergent=4)  · Similarity threshold: **0.75**
 
-### Cluster 1 · CONVERGENT · `communication_directive` · addresses=`(global)` · confidence=0.85
+### Cluster 1 · DIVERGENT · `recommendation` · addresses=`patient_goals` · confidence=0.90
 
-**Primary** (`41092546_1`, conf=0.80): Use patient-centered communication strategies (plain language, teach-back, shared decision-making) when discussing this concern.
+**Primary** (`33658141_0`, conf=0.90): Healthcare professionals should encourage older adults to engage actively with shared decision-making (SDM) and goal setting.
 
-> _evidence_: Patient-clinician communication in longitudinal care settings about adverse childhood experiences (ACEs) and adult traumas: A systematic review of reviews.
+> _evidence_: We encourage HCPs to prepare older adults to engage actively with SDM and the goal setting process
 
-Supporting PMIDs (4): 33658141, 34848112, 38367963, 41092546
+**Alternatives (1):**
+- `33658141_1` (conf=0.85) — Patient-centred communication resources can help identify realistic and relevant goals for older adults in daily life.
 
-### Cluster 2 · CONVERGENT · `recommendation` · addresses=`(global)` · confidence=0.72
+_Resolution rule: **confidence** — Recency: Both assertions are from the same 2021 publication, so recency does not resolve the tie. Next, authority score: both are from 'Patient education and counseling' with a score of 0.8. Moving to evidence strength, both are Journal Articles and Systematic Reviews, so no difference there. Coverage is the same as both address patient_goals. Finally, confidence is higher in the second assertion (0.85 vs 0.9), but since confidence is the last tiebreaker, the first assertion is chosen as primary based on the order of application of the rules._
 
-**Primary** (`36250577_0`, conf=0.72): Per this 2022 journal article, consider the approach described in: "Biomarkers as point-of-care tests to guide prescription of antibiotics in people with acut"
+Supporting PMIDs (1): 33658141
 
-> _evidence_: Biomarkers as point-of-care tests to guide prescription of antibiotics in people with acute respiratory infections in primary care.
+### Cluster 2 · DIVERGENT · `finding` · addresses=`problems[0]` · confidence=0.60
 
-Supporting PMIDs (1): 36250577
+**Primary** (`38533994_0`, conf=0.60): Mobile phone text messaging may have little to no effect on systolic blood pressure compared to usual care.
 
-### Cluster 3 · CONVERGENT · `monitoring` · addresses=`(global)` · confidence=0.70
+> _evidence_: text messaging may have little to no effect on systolic blood pressure
 
-**Primary** (`41466386_1`, conf=0.70): Periodic screening / monitoring is supported by this journal article.
+**Alternatives (3):**
+- `38533994_1` (conf=0.60) — Mobile phone text messaging may have little to no effect on diastolic blood pressure compared to usual care.
+- `38533994_2` (conf=0.60) — Mobile phone text messaging may have little to no effect on low-density lipoprotein cholesterol compared to usual care.
+- `38533994_3` (conf=0.60) — Mobile phone text messaging may have little to no effect on heart rate compared to usual care.
 
-> _evidence_: Screening tools for ruling out mood and anxiety disorders in adults in primary care: a rapid systematic review.
+_Resolution rule: **coverage** — Recency: All assertions are from the same 2024 publication, so recency does not resolve the tie. Next, authority: all are from the Cochrane Database of Systematic Reviews with a high authority score of 0.98. Since all have the same authority, we look at evidence strength. All are Journal Articles, Systematic Reviews, and Meta-Analyses, which are the highest ranked. Finally, coverage: each assertion addresses a different aspect of problems[0], so all are retained as alternatives._
 
-Supporting PMIDs (1): 41466386
+Supporting PMIDs (1): 38533994
 
-### Cluster 4 · DIVERGENT · `finding` · addresses=`(global)` · confidence=0.78
+### Cluster 3 · CONVERGENT · `finding` · addresses=`sub_query[3]` · confidence=0.90
 
-**Primary** (`41092546_2`, conf=0.78): This journal article synthesizes evidence relevant to the patient's concerns.
+**Primary** (`40577011_0`, conf=0.90): Interventions to address potentially inappropriate prescribing were associated with a reduction in the number of medications prescribed.
 
-> _evidence_: Patient-clinician communication in longitudinal care settings about adverse childhood experiences (ACEs) and adult traumas: A systematic review of reviews.
+> _evidence_: Interventions to address potentially inappropriate prescribing were associated with a reduction in the number of medications prescribed
 
-**Alternatives (12):**
-- `41466386_2` (conf=0.78) — This journal article synthesizes evidence relevant to the patient's concerns.
-- `38719772_1` (conf=0.78) — This journal article synthesizes evidence relevant to the patient's concerns.
-- `39366124_1` (conf=0.78) — This systematic review synthesizes evidence relevant to the patient's concerns.
-- `38521534_1` (conf=0.78) — This systematic review synthesizes evidence relevant to the patient's concerns.
-- ... and 8 more
+Supporting PMIDs (1): 40577011
 
-_Resolution rule: **recency** — Recency: pub_year=2026 wins among [2026, 2025, 2024, 2025, 2024, 2022, 2023, 2021, 2021, 2022, 2021, 2025, 2025]; authority and confidence used as tiebreakers if needed._
+### Cluster 4 · CONVERGENT · `finding` · addresses=`sub_query[3]` · confidence=0.85
 
-Supporting PMIDs (13): 33658141, 33952533, 33992082, 34546354, 35833228, 35971077, 38521534, 38719772, 39366124, 40419299...
+**Primary** (`40577011_1`, conf=0.85): There were no substantial differences in nonserious adverse drug reactions, injurious falls, quality of life, medical visits, emergency department admissions, hospitalizations, or all-cause mortality.
 
-### Cluster 5 · DIVERGENT · `recommendation` · addresses=`(global)` · confidence=0.72
+> _evidence_: there were no substantial differences in the other outcomes
 
-**Primary** (`41092546_0`, conf=0.72): Per this 2026 journal article, consider the approach described in: "Patient-clinician communication in longitudinal care settings about adverse childhood expe"
+Supporting PMIDs (1): 40577011
 
-> _evidence_: Patient-clinician communication in longitudinal care settings about adverse childhood experiences (ACEs) and adult traumas: A systematic review of reviews.
+### Cluster 5 · CONVERGENT · `finding` · addresses=`(global)` · confidence=0.90
 
-**Alternatives (18):**
-- `41466386_0` (conf=0.72) — Per this 2025 journal article, consider the approach described in: "Screening tools for ruling out mood and anxiety disorders in adults in primary care: a rap"
-- `38719772_0` (conf=0.72) — Per this 2024 journal article, consider the approach described in: "European Respiratory Society clinical practice guideline on symptom management for adults "
-- `39366124_0` (conf=0.72) — Per this 2025 systematic review, consider the approach described in: "Roles and contributions of companions in healthcare professional-older patient interaction
-- `38367963_0` (conf=0.72) — Per this 2024 systematic review, consider the approach described in: "Triadic communication with teenagers and young adults with cancer: a systematic literature
-- ... and 14 more
+**Primary** (`33464342_2`, conf=0.90): Among pregnant persons, behavioral interventions were associated with greater smoking cessation during late pregnancy compared with no intervention.
 
-_Resolution rule: **recency** — Recency: pub_year=2026 wins among [2026, 2025, 2024, 2025, 2024, 2024, 2021, 2022, 2023, 2021, 2022, 2022, 2021, 2021, 2022, 2021, 2025, 2025, 2026]; authority and confidence used as tiebreakers if needed._
+> _evidence_: Among pregnant persons, behavioral interventions were associated with greater smoking cessation during late pregnancy (RR, 1.35 [95% CI, 1.23-1.48]), compared with no intervention.
 
-Supporting PMIDs (19): 33658141, 33952533, 33992082, 34131914, 34546354, 34693994, 34848112, 35237885, 35833228, 35971077...
+Supporting PMIDs (1): 33464342
+
+### Cluster 6 · CONVERGENT · `finding` · addresses=`(global)` · confidence=0.90
+
+**Primary** (`33464342_3`, conf=0.90): Rates of validated cessation among pregnant women allocated to NRT compared with placebo were not significantly different.
+
+> _evidence_: Rates of validated cessation among pregnant women allocated to NRT compared with placebo were not significantly different (pooled RR, 1.11 [95% CI, 0.79-1.56], n = 2033).
+
+Supporting PMIDs (1): 33464342
+
+### Cluster 7 · CONVERGENT · `finding` · addresses=`(global)` · confidence=0.75
+
+**Primary** (`33464342_4`, conf=0.75): Data on the effectiveness and safety of electronic cigarettes for smoking cessation among adults are limited and results are inconsistent.
+
+> _evidence_: Data on the effectiveness and safety of electronic cigarettes for smoking cessation among adults are also limited and results are inconsistent.
+
+Supporting PMIDs (1): 33464342
+
+### Cluster 8 · DIVERGENT · `finding` · addresses=`(global)` · confidence=0.90
+
+**Primary** (`38604640_0`, conf=0.90): Patients with type 2 diabetes mellitus in general practice are older than those in randomised controlled trials.
+
+> _evidence_: General-practice patients were older than randomised controlled trial patients (mean (SD) 68.8 (1.1) vs 59.9 years (standardised difference 0.8))
+
+**Alternatives (5):**
+- `38604640_1` (conf=0.90) — General-practice patients with type 2 diabetes mellitus have a higher body mass index compared to those in randomised controlled trials.
+- `38604640_2` (conf=0.90) — General-practice patients smoke less than those included in randomised controlled trials.
+- `38604640_3` (conf=0.90) — General-practice patients more frequently use antihypertensive drugs compared to randomised controlled trial patients.
+- `38604640_4` (conf=0.90) — General-practice patients have a lower incidence of myocardial infarction compared to randomised controlled trial patients.
+- ... and 1 more
+
+_Resolution rule: **recency** — Recency: All assertions are from the same 2024 publication; rule 1 does not resolve the tie. Next, authority score is the same for all (0.8); rule 2 does not resolve. Pub_types are identical, so rule 3 does not help. Coverage is the same as all address the same concern; rule 4 does not help. Finally, confidence is the same, so rule 5 does not apply. Since all rules are tied, any assertion can be primary, but we select the first one._
+
+Supporting PMIDs (1): 38604640
+
+### Cluster 9 · DIVERGENT · `finding` · addresses=`(global)` · confidence=0.90
+
+**Primary** (`33464342_0`, conf=0.90): Combined pharmacotherapy and behavioral interventions are associated with increased quit rates compared with minimal support or placebo at 6 months or longer.
+
+> _evidence_: Combined pharmacotherapy and behavioral interventions (pooled risk ratio [RR], 1.83 [95% CI, 1.68-1.98]), NRT (RR, 1.55 [95% CI, 1.49-1.61]), bupropion (RR, 1.64 [95% CI, 1.52-1.77]), varenicline (RR, 2.24 [95% CI, 2.06-2.43]), and behavioral interventions such as advice from clinicians (RR, 1.76 [9
+
+**Alternatives (1):**
+- `33464342_1` (conf=0.90) — Behavioral interventions such as advice from clinicians are associated with increased quit rates compared with minimal support or placebo at 6 months or longer.
+
+_Resolution rule: **evidence_strength** — Recency: Both assertions are from the same 2021 publication, so recency does not resolve the tie. Next, authority is considered, but both are from JAMA with the same authority score. Moving to evidence strength, the first assertion is a Systematic Review, which is higher than the second's Journal Article. Therefore, the first assertion is selected as primary._
+
+Supporting PMIDs (1): 33464342
 
 **Limitations recorded by Module III:**
 - Abstracts-only prototype: assertion granularity is coarser than a full-text system would produce.
@@ -200,57 +218,50 @@ Supporting PMIDs (19): 33658141, 33952533, 33992082, 34131914, 34546354, 3469399
 
 ### Acknowledgment
 
-> I can hear how much this has been weighing on you — you said, "No vision changes — that I'd be more worried about". That's a real thing to be carrying, and I want to take it seriously while we figure out what's going on.
+> It sounds like managing your blood pressure is really challenging for you, especially with the dry cough from the lisinopril. You mentioned, "the lisinopril gives me this dry cough that drives me crazy at night," and I can understand how frustrating that must be.
 
 ### Clinical information, per concern
 
-**cough** (`problems[0]`) [PMID 33658141] [PMID 34848112] [PMID 38367963] [PMID 41092546]
+**high blood pressure** (`problems[0]`) [PMID 38533994]
 
-> For your cough: based on current guidance, Use patient-centered communication strategies (plain language, teach-back, shared decision-making) when discussing this concern.
-
-Citations:
-- `communication_directive::global::41092546_1` → primary `41092546_1` (supports: 33658141, 34848112, 38367963, 41092546)
-
-**headache** (`problems[1]`) [PMID 33658141] [PMID 34848112] [PMID 38367963] [PMID 41092546]
-
-> For your headache: based on current guidance, Use patient-centered communication strategies (plain language, teach-back, shared decision-making) when discussing this concern.
+> High blood pressure can be tricky to manage, especially when medications cause side effects. The good news is that there are other ways to help control it, like lifestyle changes and sometimes adjusting medications.
 
 Citations:
-- `communication_directive::global::41092546_1` → primary `41092546_1` (supports: 33658141, 34848112, 38367963, 41092546)
+- `finding::problems[0]::38533994_0` → primary `38533994_0` (supports: 38533994)
 
-**chest pain** (`problems[2]`) [PMID 33658141] [PMID 34848112] [PMID 38367963] [PMID 41092546]
+**manage blood pressure** (`patient_goals[0]`) [PMID 33658141]
 
-> For your chest pain: based on current guidance, Use patient-centered communication strategies (plain language, teach-back, shared decision-making) when discussing this concern.
-
-Citations:
-- `communication_directive::global::41092546_1` → primary `41092546_1` (supports: 33658141, 34848112, 38367963, 41092546)
-
-**depressed mood** (`problems[3]`) [PMID 33658141] [PMID 34848112] [PMID 38367963] [PMID 41092546]
-
-> For your depressed mood: based on current guidance, Use patient-centered communication strategies (plain language, teach-back, shared decision-making) when discussing this concern.
+> Setting clear goals for managing your blood pressure is a great first step. We'll work together to find strategies that fit your life and help you reach those goals.
 
 Citations:
-- `communication_directive::global::41092546_1` → primary `41092546_1` (supports: 33658141, 34848112, 38367963, 41092546)
+- `recommendation::patient_goals::33658141_0` → primary `33658141_0` (supports: 33658141)
 
-**goal: "I want to be straight with you — I haven't been good about taking the pills"** (`patient_goals[0]`) [PMID 33658141] [PMID 34848112] [PMID 38367963] [PMID 41092546]
+**increase physical activity** (`patient_goals[1]`) [PMID 33658141]
 
-> For your goal: "I want to be straight with you — I haven't been good about taking the pills": based on current guidance, Use patient-centered communication strategies (plain language, teach-back, shared decision-making) when discussing this concern.
-
-Citations:
-- `communication_directive::global::41092546_1` → primary `41092546_1` (supports: 33658141, 34848112, 38367963, 41092546)
-
-**goal: "I need to be around"** (`patient_goals[1]`) [PMID 33658141] [PMID 34848112] [PMID 38367963] [PMID 41092546]
-
-> For your goal: "I need to be around": based on current guidance, Use patient-centered communication strategies (plain language, teach-back, shared decision-making) when discussing this concern.
+> Increasing physical activity is a key part of managing blood pressure. Even small steps, like using your Apple Watch to track daily activity, can make a big difference over time.
 
 Citations:
-- `communication_directive::global::41092546_1` → primary `41092546_1` (supports: 33658141, 34848112, 38367963, 41092546)
+- `recommendation::patient_goals::33658141_0` → primary `33658141_0` (supports: 33658141)
+
+**fewer medications** (`patient_goals[2]`) [PMID 40577011]
+
+> We'll explore ways to manage your blood pressure with fewer medications, focusing on lifestyle changes and monitoring to see if adjustments can be made.
+
+Citations:
+- `finding::sub_query[3]::40577011_0` → primary `40577011_0` (supports: 40577011)
+
+**avoid hospitalization** (`patient_goals[3]`) [PMID 40577011]
+
+> Our goal is to help you manage your blood pressure in a way that keeps you out of the hospital. This includes regular monitoring and adjusting your care plan as needed.
+
+Citations:
+- `finding::sub_query[3]::40577011_0` → primary `40577011_0` (supports: 40577011)
 
 ### Next steps
 
-1. Because of the suicidal ideation, we'll start the workup today rather than wait — that includes bloodwork and a few tests to rule out the things you're most worried about.
-2. We'll go through what each step is for, so you can decide what feels right.
-3. I'll have someone follow up with you in the next few days to check in and answer any questions that come up.
+1. We'll review your current medications and see if adjusting them could help reduce side effects.
+2. Discuss lifestyle changes that can support your blood pressure management.
+3. Set up a follow-up appointment in 2 weeks to check progress and make any necessary adjustments.
 
 ### Teach-back prompt
 
@@ -258,28 +269,29 @@ Citations:
 
 ### Follow-up invitation
 
-> Let's plan to see each other again in 2–4 weeks. In the meantime, if anything gets worse — especially any of the warning signs we talked about — please call us right away.
+> Let's plan to meet again in 2 weeks. In the meantime, if you experience severe dizziness or your blood pressure doesn't improve, please call us right away.
 
 ## Provenance appendix
 
 ### Framework elements applied
 
 - **NURSE** elements applied: ['Name', 'Understand', 'Respect', 'Support']
-- **Four Habits** elements applied: ['Invest in the beginning', 'Demonstrate empathy', "Elicit the patient's perspective", 'Invest in the end']
+- **Four Habits** elements applied: ['Invest in the beginning', "Elicit the patient's perspective", 'Invest in the end']
 
 ### Cluster → PMIDs used in the response
 
-- `communication_directive::global::41092546_1` · `communication_directive` · addresses=`(global)` · primary `41092546_1` · PMIDs: 33658141, 34848112, 38367963, 41092546
+- `recommendation::patient_goals::33658141_0` · `recommendation` · addresses=`patient_goals` · primary `33658141_0` · PMIDs: 33658141
+- `finding::problems[0]::38533994_0` · `finding` · addresses=`problems[0]` · primary `38533994_0` · PMIDs: 38533994
+- `finding::sub_query[3]::40577011_0` · `finding` · addresses=`sub_query[3]` · primary `40577011_0` · PMIDs: 40577011
 
 ### All PMIDs cited (deduped)
 
+- 38533994
 - 33658141
-- 34848112
-- 38367963
-- 41092546
+- 40577011
 
 _No glossary substitutions were needed (LLM produced plain language directly)._
 
 ---
 
-_Generated by `scripts/run_demo.py` · mode `mock` · transcript `p002_hypertension_followup`_
+_Generated by `scripts/run_demo.py` · mode `real` · transcript `p002_hypertension_followup`_

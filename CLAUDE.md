@@ -51,49 +51,126 @@ on RTX 6000 Ada.
 
 ## What's next — Phase 13: external dataset evaluation
 
-The user explicitly asked to extend evaluation to:
+The user explicitly asked to extend evaluation to three primary datasets.
+Each plays a **different evaluation role** — don't treat them as
+interchangeable:
 
 - **PriMock57** (primary, START HERE) — 57 mock primary-care
-  consultations with reference clinician notes. https://github.com/babylonhealth/primock57
+  consultations with reference clinician notes.
+  https://github.com/babylonhealth/primock57
+  **Best for end-to-end pipeline validation.** Real-clinician dialogue
+  patterns + reference notes serve as a holistic "did the pipeline
+  produce something clinically reasonable?" check. Smallest n, so
+  cheapest to iterate on.
+
+- **MTS-Dialog** — 1,700 short clinical conversations with
+  **section-labeled summaries** (MEDIQA-Chat 2023).
+  **THIS IS THE KEY DATASET FOR MODULE I ACCURACY.** Each conversation
+  has a labeled summary with section headers like HPI, PMH, MEDICATIONS,
+  ALLERGIES, FAMILY_HISTORY, SOCIAL_HISTORY, REVIEW_OF_SYSTEMS,
+  PHYSICAL_EXAM, ASSESSMENT, PLAN, GENHX, DIAGNOSIS, EDCOURSE, etc.
+  These map almost 1:1 to fields in `PatientConcernProfile`:
+      HPI                 -> problems[].label + onset + timing
+      PMH                 -> relevant_history
+      MEDICATIONS         -> medications
+      ALLERGIES           -> allergies
+      FAMILY_HISTORY      -> relevant_history (annotated)
+      ASSESSMENT          -> can score against Module III primaries
+  So MTS-Dialog gives Table 8 (Module I extraction accuracy with
+  precision/recall/F1 per field) **for free, with no hand-annotation
+  required**. This is the dataset that unlocks the strongest "the
+  pipeline actually extracts what a clinician would" quantitative
+  claim for the manuscript. Subsample to n=300 for the paper unless
+  you want the full 24-h run.
+
 - **ACI-Bench** — 207 doctor-patient encounters paired with full SOAP
   notes (MEDIQA-Chat 2023).
-- **MTS-Dialog** — 1,700 short clinical conversations with
-  section-labeled summaries (MEDIQA-Chat 2023).
+  **Best for Module IV response-quality comparison.** Full SOAP notes
+  (Subjective/Objective/Assessment/Plan) let you score the generated
+  `PatientResponse` against a clinician-written response on the same
+  encounter via ROUGE-L, BERTScore, and the same NURSE/Four-Habits
+  rubric we already have. Medium n; 10 h real-LLM wall-clock.
+
 - **NoteChat** (supplementary) — note-grounded synthetic dialogues at
   scale; stratified subsample for robustness.
 - **MedSynth** (supplementary) — synthetic medical dialogues.
 
-### Recommended phasing (~3 days of work)
+**Recommended ordering of which dataset to attack first** has changed
+slightly given the MTS insight: PriMock57 still goes first for the
+end-to-end story, but **MTS-Dialog is the highest-value second dataset**
+(not third) because it lets you fill in Table 8 with no human labeling
+effort.
 
-1. **Day 1 — PriMock57 adapter + first pass.**
+### Recommended phasing (~4 days of work; revised after the MTS insight)
+
+1. **Day 1 — PriMock57 adapter + first pass (end-to-end story).**
      - Add `clinicomm/datasets/__init__.py` + `clinicomm/datasets/base.py`
        with an `ExternalTranscript` dataclass: `id, scenario, turns,
-       gold_note, raw_format`.
+       gold_note, gold_sections, raw_format`. (`gold_sections` is a
+       dict[section_label, text] — populated by MTS adapter, may be
+       empty for PriMock/ACI.)
      - Add `clinicomm/datasets/primock57.py` to clone/load the dataset
        and convert each consultation to `ExternalTranscript`.
-     - Add `scripts/eval_on_dataset.py --dataset primock57 --limit N
-       --max-reasoning-docs 5` writing `manuscript/traces_external/primock57/
-       trace_<id>.{md,json}`.
+     - Add `scripts/eval_on_dataset.py --dataset {primock57|mts|aci}
+       --limit N --max-reasoning-docs 5` writing
+       `manuscript/traces_external/<dataset>/trace_<id>.{md,json}`.
      - **Speaker handling default = "middle" option** (see decision below).
-     - Run on n=57; eyeball outputs in 10 transcripts to catch failure modes.
+     - Run PriMock57 (n=57); eyeball outputs in 10 transcripts to catch
+       failure modes.
 
-2. **Day 2 — eval against gold notes.**
-     - Add `clinicomm/external_metrics.py` with field-level F1 (problems
-       in extracted `PatientConcernProfile` vs. HPI/PMH/Meds extracted
-       from the gold note via simple regex or a separate cheap LLM call),
-       and ROUGE-L + BERTScore on the full PatientResponse vs. the gold
-       note's narrative.
-     - Add `scripts/eval_against_gold.py` that reads
-       `manuscript/traces_external/<dataset>/trace_*.json` and writes
-       `manuscript/tables_draft/table7_external_eval_{primock57,aci,mts}.{md,tex}`.
+2. **Day 2 — MTS-Dialog adapter + Module I extraction accuracy
+   (Table 8 unlocked).**
+     - Add `clinicomm/datasets/mts_dialog.py`. The dataset's gold
+       summaries are themselves section-labeled (HPI / PMH / MEDICATIONS
+       / ALLERGIES / FAMILY_HISTORY / SOCIAL_HISTORY / ASSESSMENT /
+       PLAN / GENHX / etc.). Parse them into `gold_sections`.
+     - Add `clinicomm/external_metrics.py::field_level_extraction_f1()`
+       which maps section labels to `PatientConcernProfile` fields:
 
-3. **Day 3 — ACI-Bench + MTS-Dialog adapters; write manuscript prose.**
-     - Same adapter pattern. For MTS at n=1,700, default to a
-       stratified subsample of n=300 unless we want the full 24-hour
-       run.
-     - Regenerate Figs 7 + 11 with PriMock57 + ACI numbers as additional
-       conditions in the radar/bars.
+           HPI            -> problems[].label / onset / timing
+           PMH            -> relevant_history
+           MEDICATIONS    -> medications
+           ALLERGIES      -> allergies
+           FAMILY_HISTORY -> relevant_history (substring-matched)
+           ASSESSMENT     -> Module III cluster primaries (for Table 7)
+
+       For each field, tokenize / set-ify the gold vs. extracted values
+       and compute precision/recall/F1. Where the gold is free text
+       (HPI is a paragraph), use a lightweight semantic match (token
+       overlap with stemming or a cheap LLM-as-judge call).
+     - Run the pipeline on a stratified subsample of n=300 MTS
+       conversations (~5 h real-LLM).
+     - Emit `manuscript/tables_draft/table8_mts_extraction_accuracy.{md,tex}`
+       with per-field precision/recall/F1 + aggregate macro-F1. This is
+       the table the manuscript hangs the "Module I extracts what a
+       clinician would" claim on, no hand-annotation required.
+
+3. **Day 3 — ACI-Bench adapter + Module IV response-quality eval
+   (Table 9).**
+     - Add `clinicomm/datasets/aci_bench.py`. ACI-Bench's reference
+       notes are full SOAP notes — use them as gold for the
+       `PatientResponse` text.
+     - Extend `external_metrics.py` with:
+           ROUGE-L (response vs. gold note Subjective+Assessment+Plan
+                   sections, since Module IV does not produce an
+                   Objective/exam section)
+           BERTScore on the same comparison
+           Per-section presence: does the generated response cover the
+                   topics the gold note covers? (Topic-keyword overlap
+                   per section.)
+     - Run pipeline on all 207 ACI-Bench encounters (~10 h).
+     - Emit `manuscript/tables_draft/table9_aci_response_quality.{md,tex}`.
+
+4. **Day 4 — Manuscript prose + figure refresh + cross-dataset table.**
+     - Regenerate Figs 7 + 11 + Table 5 to include three new conditions
+       (or just three new sub-rows in the existing Table 5 for the same
+       4-way ablation, one block per dataset).
+     - Add `Table 10 — Cross-dataset summary` aggregating
+       {PriMock57, MTS-Dialog, ACI-Bench} headline metrics in one place.
      - Append a "Phase 13 — External evaluation" section to README.
+     - Update CLAUDE.md (this file!) to mark Phase 13 done and propose
+       Phase 14 (full-text retrieval? clinician rubric scoring?
+       supervised fine-tuning on NoteChat-derived data?).
 
 ### Speaker-handling decision (already discussed; default = middle)
 

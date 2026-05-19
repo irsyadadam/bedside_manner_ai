@@ -1,293 +1,208 @@
 {
-  "generated_utc": "2026-05-19T22:40:57+00:00",
+  "generated_utc": "2026-05-19T23:14:11+00:00",
   "paraphrase_threshold": 0.55,
-  "n_claims_total": 20,
+  "n_claims_total": 17,
   "overall": {
-    "paraphrased": 20
+    "supported": 17
   },
   "by_trace": {
     "p001_fatigue_weightloss": {
-      "paraphrased": 8
+      "supported": 6
     },
     "p002_hypertension_followup": {
-      "paraphrased": 6
+      "supported": 5
     },
     "p003_depression_screening": {
-      "paraphrased": 6
+      "supported": 6
     }
   },
   "per_claim": [
     {
       "trace": "p001_fatigue_weightloss",
-      "cluster_id": "communication_directive::global::41092546_1",
-      "primary_assertion_id": "41092546_1",
+      "cluster_id": "finding::global::38604640_0",
+      "primary_assertion_id": "38604640_0",
       "concern": "problems[0]",
       "pmids": [
-        "33658141",
-        "34448868",
-        "41092546"
+        "38604640"
       ],
-      "classification": "paraphrased",
-      "overlap_score": 0.882
+      "classification": "supported",
+      "overlap_score": 1.0
     },
     {
       "trace": "p001_fatigue_weightloss",
-      "cluster_id": "communication_directive::global::41092546_1",
-      "primary_assertion_id": "41092546_1",
+      "cluster_id": "finding::global::38604640_0",
+      "primary_assertion_id": "38604640_0",
       "concern": "problems[1]",
       "pmids": [
-        "33658141",
-        "34448868",
-        "41092546"
+        "38604640"
       ],
-      "classification": "paraphrased",
-      "overlap_score": 0.882
+      "classification": "supported",
+      "overlap_score": 1.0
     },
     {
       "trace": "p001_fatigue_weightloss",
-      "cluster_id": "communication_directive::global::41092546_1",
-      "primary_assertion_id": "41092546_1",
+      "cluster_id": "finding::global::38604640_0",
+      "primary_assertion_id": "38604640_0",
       "concern": "problems[2]",
       "pmids": [
-        "33658141",
-        "34448868",
-        "41092546"
+        "38604640"
       ],
-      "classification": "paraphrased",
-      "overlap_score": 0.882
+      "classification": "supported",
+      "overlap_score": 1.0
     },
     {
       "trace": "p001_fatigue_weightloss",
-      "cluster_id": "communication_directive::global::41092546_1",
-      "primary_assertion_id": "41092546_1",
-      "concern": "problems[3]",
-      "pmids": [
-        "33658141",
-        "34448868",
-        "41092546"
-      ],
-      "classification": "paraphrased",
-      "overlap_score": 0.882
-    },
-    {
-      "trace": "p001_fatigue_weightloss",
-      "cluster_id": "communication_directive::global::41092546_1",
-      "primary_assertion_id": "41092546_1",
-      "concern": "problems[4]",
-      "pmids": [
-        "33658141",
-        "34448868",
-        "41092546"
-      ],
-      "classification": "paraphrased",
-      "overlap_score": 0.882
-    },
-    {
-      "trace": "p001_fatigue_weightloss",
-      "cluster_id": "communication_directive::global::41092546_1",
-      "primary_assertion_id": "41092546_1",
+      "cluster_id": "finding::global::38604640_0",
+      "primary_assertion_id": "38604640_0",
       "concern": "patient_goals[0]",
       "pmids": [
-        "33658141",
-        "34448868",
-        "41092546"
+        "38604640"
       ],
-      "classification": "paraphrased",
-      "overlap_score": 0.882
+      "classification": "supported",
+      "overlap_score": 1.0
     },
     {
       "trace": "p001_fatigue_weightloss",
-      "cluster_id": "communication_directive::global::41092546_1",
-      "primary_assertion_id": "41092546_1",
+      "cluster_id": "finding::global::38604640_0",
+      "primary_assertion_id": "38604640_0",
       "concern": "patient_goals[1]",
       "pmids": [
-        "33658141",
-        "34448868",
-        "41092546"
+        "38604640"
       ],
-      "classification": "paraphrased",
-      "overlap_score": 0.882
+      "classification": "supported",
+      "overlap_score": 1.0
     },
     {
       "trace": "p001_fatigue_weightloss",
-      "cluster_id": "communication_directive::global::41092546_1",
-      "primary_assertion_id": "41092546_1",
+      "cluster_id": "finding::global::38604640_0",
+      "primary_assertion_id": "38604640_0",
       "concern": "patient_goals[2]",
       "pmids": [
-        "33658141",
-        "34448868",
-        "41092546"
+        "38604640"
       ],
-      "classification": "paraphrased",
-      "overlap_score": 0.882
+      "classification": "supported",
+      "overlap_score": 1.0
     },
     {
       "trace": "p002_hypertension_followup",
-      "cluster_id": "communication_directive::global::41092546_1",
-      "primary_assertion_id": "41092546_1",
+      "cluster_id": "finding::problems[0]::38533994_0",
+      "primary_assertion_id": "38533994_0",
       "concern": "problems[0]",
       "pmids": [
-        "33658141",
-        "34848112",
-        "38367963",
-        "41092546"
+        "38533994"
       ],
-      "classification": "paraphrased",
-      "overlap_score": 0.882
+      "classification": "supported",
+      "overlap_score": 1.0
     },
     {
       "trace": "p002_hypertension_followup",
-      "cluster_id": "communication_directive::global::41092546_1",
-      "primary_assertion_id": "41092546_1",
-      "concern": "problems[1]",
-      "pmids": [
-        "33658141",
-        "34848112",
-        "38367963",
-        "41092546"
-      ],
-      "classification": "paraphrased",
-      "overlap_score": 0.882
-    },
-    {
-      "trace": "p002_hypertension_followup",
-      "cluster_id": "communication_directive::global::41092546_1",
-      "primary_assertion_id": "41092546_1",
-      "concern": "problems[2]",
-      "pmids": [
-        "33658141",
-        "34848112",
-        "38367963",
-        "41092546"
-      ],
-      "classification": "paraphrased",
-      "overlap_score": 0.882
-    },
-    {
-      "trace": "p002_hypertension_followup",
-      "cluster_id": "communication_directive::global::41092546_1",
-      "primary_assertion_id": "41092546_1",
-      "concern": "problems[3]",
-      "pmids": [
-        "33658141",
-        "34848112",
-        "38367963",
-        "41092546"
-      ],
-      "classification": "paraphrased",
-      "overlap_score": 0.882
-    },
-    {
-      "trace": "p002_hypertension_followup",
-      "cluster_id": "communication_directive::global::41092546_1",
-      "primary_assertion_id": "41092546_1",
+      "cluster_id": "recommendation::patient_goals::33658141_0",
+      "primary_assertion_id": "33658141_0",
       "concern": "patient_goals[0]",
       "pmids": [
-        "33658141",
-        "34848112",
-        "38367963",
-        "41092546"
+        "33658141"
       ],
-      "classification": "paraphrased",
-      "overlap_score": 0.882
+      "classification": "supported",
+      "overlap_score": 1.0
     },
     {
       "trace": "p002_hypertension_followup",
-      "cluster_id": "communication_directive::global::41092546_1",
-      "primary_assertion_id": "41092546_1",
+      "cluster_id": "recommendation::patient_goals::33658141_0",
+      "primary_assertion_id": "33658141_0",
       "concern": "patient_goals[1]",
       "pmids": [
-        "33658141",
-        "34848112",
-        "38367963",
-        "41092546"
+        "33658141"
       ],
-      "classification": "paraphrased",
-      "overlap_score": 0.882
+      "classification": "supported",
+      "overlap_score": 1.0
     },
     {
-      "trace": "p003_depression_screening",
-      "cluster_id": "communication_directive::global::41092546_1",
-      "primary_assertion_id": "41092546_1",
-      "concern": "problems[0]",
-      "pmids": [
-        "32284167",
-        "33658141",
-        "34448868",
-        "41092546"
-      ],
-      "classification": "paraphrased",
-      "overlap_score": 0.882
-    },
-    {
-      "trace": "p003_depression_screening",
-      "cluster_id": "communication_directive::global::41092546_1",
-      "primary_assertion_id": "41092546_1",
-      "concern": "problems[1]",
-      "pmids": [
-        "32284167",
-        "33658141",
-        "34448868",
-        "41092546"
-      ],
-      "classification": "paraphrased",
-      "overlap_score": 0.882
-    },
-    {
-      "trace": "p003_depression_screening",
-      "cluster_id": "communication_directive::global::41092546_1",
-      "primary_assertion_id": "41092546_1",
-      "concern": "problems[2]",
-      "pmids": [
-        "32284167",
-        "33658141",
-        "34448868",
-        "41092546"
-      ],
-      "classification": "paraphrased",
-      "overlap_score": 0.882
-    },
-    {
-      "trace": "p003_depression_screening",
-      "cluster_id": "communication_directive::global::41092546_1",
-      "primary_assertion_id": "41092546_1",
-      "concern": "patient_goals[0]",
-      "pmids": [
-        "32284167",
-        "33658141",
-        "34448868",
-        "41092546"
-      ],
-      "classification": "paraphrased",
-      "overlap_score": 0.882
-    },
-    {
-      "trace": "p003_depression_screening",
-      "cluster_id": "communication_directive::global::41092546_1",
-      "primary_assertion_id": "41092546_1",
-      "concern": "patient_goals[1]",
-      "pmids": [
-        "32284167",
-        "33658141",
-        "34448868",
-        "41092546"
-      ],
-      "classification": "paraphrased",
-      "overlap_score": 0.882
-    },
-    {
-      "trace": "p003_depression_screening",
-      "cluster_id": "communication_directive::global::41092546_1",
-      "primary_assertion_id": "41092546_1",
+      "trace": "p002_hypertension_followup",
+      "cluster_id": "finding::sub_query[3]::40577011_0",
+      "primary_assertion_id": "40577011_0",
       "concern": "patient_goals[2]",
       "pmids": [
-        "32284167",
-        "33658141",
-        "34448868",
+        "40577011"
+      ],
+      "classification": "supported",
+      "overlap_score": 1.0
+    },
+    {
+      "trace": "p002_hypertension_followup",
+      "cluster_id": "finding::sub_query[3]::40577011_0",
+      "primary_assertion_id": "40577011_0",
+      "concern": "patient_goals[3]",
+      "pmids": [
+        "40577011"
+      ],
+      "classification": "supported",
+      "overlap_score": 1.0
+    },
+    {
+      "trace": "p003_depression_screening",
+      "cluster_id": "finding::global::41031717_1",
+      "primary_assertion_id": "41031717_1",
+      "concern": "problems[0]",
+      "pmids": [
+        "41031717"
+      ],
+      "classification": "supported",
+      "overlap_score": 1.0
+    },
+    {
+      "trace": "p003_depression_screening",
+      "cluster_id": "finding::global::41031717_1",
+      "primary_assertion_id": "41031717_1",
+      "concern": "patient_goals[0]",
+      "pmids": [
+        "41031717"
+      ],
+      "classification": "supported",
+      "overlap_score": 1.0
+    },
+    {
+      "trace": "p003_depression_screening",
+      "cluster_id": "finding::global::41092546_0",
+      "primary_assertion_id": "41092546_0",
+      "concern": "patient_goals[1]",
+      "pmids": [
         "41092546"
       ],
-      "classification": "paraphrased",
-      "overlap_score": 0.882
+      "classification": "supported",
+      "overlap_score": 1.0
+    },
+    {
+      "trace": "p003_depression_screening",
+      "cluster_id": "finding::global::41031717_1",
+      "primary_assertion_id": "41031717_1",
+      "concern": "patient_goals[2]",
+      "pmids": [
+        "41031717"
+      ],
+      "classification": "supported",
+      "overlap_score": 1.0
+    },
+    {
+      "trace": "p003_depression_screening",
+      "cluster_id": "finding::global::41031717_1",
+      "primary_assertion_id": "41031717_1",
+      "concern": "patient_goals[3]",
+      "pmids": [
+        "41031717"
+      ],
+      "classification": "supported",
+      "overlap_score": 1.0
+    },
+    {
+      "trace": "p003_depression_screening",
+      "cluster_id": "finding::global::41031717_1",
+      "primary_assertion_id": "41031717_1",
+      "concern": "patient_goals[4]",
+      "pmids": [
+        "41031717"
+      ],
+      "classification": "supported",
+      "overlap_score": 1.0
     }
   ]
 }

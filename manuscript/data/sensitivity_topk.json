@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-19T22:31:30+00:00",
+  "generated_utc": "2026-05-19T23:14:10+00:00",
   "anchor_transcript": "p001_fatigue_weightloss",
   "n_sub_queries": 9,
   "panel_b": [
@@ -31,7 +31,7 @@
       "top_k": 30,
       "n_sub_queries": 9,
       "n_candidate_chunks": 270,
-      "n_candidate_documents": 132,
+      "n_candidate_documents": 133,
       "n_returned_documents": 20,
       "sub_queries_covered": 9
     },

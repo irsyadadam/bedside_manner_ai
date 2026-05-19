@@ -1,75 +1,66 @@
-% Table 1 — Corpus. Auto-generated; do not edit by hand.
-\begin{table}[t]
+% Table 1 — Corpus characteristics. Auto-generated.
+% Requires: \usepackage{booktabs,siunitx,multirow}
+\begin{table*}[t]
 \centering
-\caption{Corpus summary.}
+\caption{Corpus summary. PubMed records retrieved via a MeSH-based query filtered to systematic reviews, meta-analyses, practice guidelines, and consensus statements in English (2018--2026), then normalized, chunked, and embedded with BAAI/bge-large-en-v1.5 into a Chroma vector index. Documents may carry multiple publication types and MeSH descriptors; percentages in panels~B and~D are computed relative to the total of \num{1751} documents.}
 \label{tab:corpus}
 \small
-\begin{tabular}{lr}
+\sisetup{group-separator={,},group-minimum-digits=4}
+\begin{tabular}{@{}lS[table-format=7.0]S[table-format=3.1]@{}}
 \toprule
-Metric & Value \\
+\multicolumn{3}{l}{\textbf{A. Corpus-level summary}} \\
 \midrule
-Total documents & 1751 \\
-Date range (publication year) & 2018--2026 \\
-Structured abstracts & 1277 (72.9\%) \\
-Mean abstract length (characters) & 1,896 \\
-Documents with DOI & 1738 \\
-Documents with issuing-body & 49 \\
-Total chunks & 6,880 \\
-Total chunk tokens & 672,953 \\
+Documents (parsed)                 & {1751}      & {--} \\
+Publication years                  & \multicolumn{2}{r}{2018--2026} \\
+Documents with structured abstract & {1277} & 72.9 \\
+Documents with DOI                 & {1738} & 99.3 \\
+Documents with issuing body        & {49} & {--} \\
+Mean abstract length (characters)  & {1896}    & {--} \\
+Total chunks                       & {6880} & {--} \\
+Total chunk tokens                 & {672953} & {--} \\
+\addlinespace
+\multicolumn{3}{l}{\textbf{B. Publication types} \textnormal{(top~8; Research-Support tags omitted)}} \\
+\cmidrule(lr){1-3}
+Publication type & {n} & {\% of corpus} \\
+\midrule
+Journal Article & {1749} & 99.9 \\
+Systematic Review & {1513} & 86.4 \\
+Meta-Analysis & {536} & 30.6 \\
+Practice Guideline & {88} & 5.0 \\
+Review & {81} & 4.6 \\
+Case Reports & {80} & 4.6 \\
+Comparative Study & {17} & 1.0 \\
+Network Meta-Analysis & {7} & 0.4 \\
+\addlinespace
+\multicolumn{3}{l}{\textbf{C. Source journals} \textnormal{(top~10)}} \\
+\cmidrule(lr){1-3}
+Journal & {n} & \\
+\midrule
+The Cochrane database of systematic reviews & {40} & \\
+PloS one & {39} & \\
+BMJ open & {32} & \\
+Journal of advanced nursing & {28} & \\
+BMC geriatrics & {27} & \\
+Journal of medical Internet research & {21} & \\
+International journal of environmental research and public health & {21} & \\
+JAMA & {19} & \\
+Patient education and counseling & {18} & \\
+Medicine & {17} & \\
+\addlinespace
+\multicolumn{3}{l}{\textbf{D. MeSH descriptors} \textnormal{(top~10)}} \\
+\cmidrule(lr){1-3}
+MeSH descriptor & {n} & {\% of corpus} \\
+\midrule
+Humans & {1751} & 100.0 \\
+Adult & {1098} & 62.7 \\
+Female & {722} & 41.2 \\
+Aged & {681} & 38.9 \\
+Male & {623} & 35.6 \\
+Middle Aged & {452} & 25.8 \\
+Adolescent & {318} & 18.2 \\
+Young Adult & {282} & 16.1 \\
+Child & {278} & 15.9 \\
+Primary Health Care & {240} & 13.7 \\
 \bottomrule
 \end{tabular}
-
-\bigskip
-\begin{tabular}{lr}
-\toprule
-Publication type (top 10) & Count \\
-\midrule
-Journal Article & 1749 \\
-Systematic Review & 1513 \\
-Meta-Analysis & 536 \\
-Research Support, Non-U.S. Gov't & 486 \\
-Practice Guideline & 88 \\
-Review & 81 \\
-Case Reports & 80 \\
-Research Support, N.I.H., Extramural & 72 \\
-Comparative Study & 17 \\
-Research Support, U.S. Gov't, P.H.S. & 14 \\
-\bottomrule
-\end{tabular}
-
-\bigskip
-\begin{tabular}{lr}
-\toprule
-Journal (top 10) & Count \\
-\midrule
-The Cochrane database of systematic reviews & 40 \\
-PloS one & 39 \\
-BMJ open & 32 \\
-Journal of advanced nursing & 28 \\
-BMC geriatrics & 27 \\
-Journal of medical Internet research & 21 \\
-International journal of environmental research and public health & 21 \\
-JAMA & 19 \\
-Patient education and counseling & 18 \\
-Medicine & 17 \\
-\bottomrule
-\end{tabular}
-
-\bigskip
-\begin{tabular}{lr}
-\toprule
-MeSH descriptor (top 10) & Count \\
-\midrule
-Humans & 1751 \\
-Adult & 1098 \\
-Female & 722 \\
-Aged & 681 \\
-Male & 623 \\
-Middle Aged & 452 \\
-Adolescent & 318 \\
-Young Adult & 282 \\
-Child & 278 \\
-Primary Health Care & 240 \\
-\bottomrule
-\end{tabular}
-\end{table}
+\end{table*}

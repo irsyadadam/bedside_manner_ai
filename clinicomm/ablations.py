@@ -144,6 +144,7 @@ def retrieval_only_response(
     patient_utterances: list[str],
     transcript_id: str,
     top_n_docs: int = 5,
+    sentence_model=None,  # pass an existing SentenceTransformer to avoid re-loading
 ) -> tuple[PatientResponse, PatientConcernProfile, RankedDocumentSet]:
     """Module I → Module II → stub-context → Module IV.
 
@@ -163,7 +164,7 @@ def retrieval_only_response(
     profile, _ = agent.run_intake(patient_utterances)
 
     # ---- Module II ----
-    retriever = Retriever(cfg)
+    retriever = Retriever(cfg, sentence_model=sentence_model)
     ranked = retriever.retrieve(profile)
 
     # ---- stub context ----

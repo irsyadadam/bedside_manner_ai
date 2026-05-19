@@ -1,23 +1,28 @@
 % Table 2 — Communication directives. Auto-generated.
+% Requires: \usepackage{booktabs,multirow,tabularx}
 \begin{table*}[t]
 \centering
-\caption{Communication directives applied by Module IV.}
+\caption{Communication directives applied by Module IV (response generation). The NURSE empathy template addresses the patient's affective state with verbatim quoting; the Four Habits Model structures visit flow from opener through teach-back. Each row is a deterministic rule: when the trigger condition evaluates true against the patient profile or structured context, Module IV emits the indicated generation rule and records the (framework, element) pair in \texttt{nurse\_elements\_applied} or \texttt{four\_habits\_elements\_applied} for audit. Parsed verbatim from the \texttt{DIRECTIVES} block of \texttt{response\_generation.txt} (5 NURSE + 4 Four-Habits rows).}
 \label{tab:directives}
 \small
-\begin{tabular}{llp{4.5cm}p{6cm}}
+\begin{tabular}{@{}llp{4.2cm}p{6.5cm}@{}}
 \toprule
 Framework & Element & Trigger condition & Generation rule \\
 \midrule
-NURSE | Four Habits & short name & when this directive applies & what the response must do when triggered \\
-NURSE & Name & profile.emotional\_cues contains any cue & Open with one sentence naming the emotion the patient expressed, quoting their wording (e.g., "It sounds like this has been worrying you."). \\
-NURSE & Understand & profile.emotional\_cues contains a cue tied to a specific concern & Acknowledge the lived experience tied to the concern before giving clinical content ("That kind of fatigue would make daily life harder."). \\
-NURSE & Respect & profile.patient\_goals is non-empty & Affirm the patient's effort or values in pursuing their stated goal, without flattery. \\
-NURSE & Support & always & State explicitly that you (the clinician) will continue to work with them on this, and what the next contact point is. \\
-NURSE & Explore & profile.unknowns is non-empty & Ask ONE focused follow-up question targeting the highest-priority unknown — do not stack multiple questions. \\
-Four Habits & Invest in the beginning & always & First section (acknowledgment) restates the patient's concerns in their own words before introducing any clinical content. \\
-Four Habits & Elicit the patient's perspective & profile.patient\_goals or profile.emotional\_cues populated & Reference the patient's stated goals and feelings when framing recommendations, not only the clinical findings. \\
-Four Habits & Demonstrate empathy & any red\_flag OR any high-distress emotional\_cue & Validate the difficulty of the situation BEFORE describing next steps; never lead with a directive when distress is present. \\
-Four Habits & Invest in the end & always & Close with (a) a teach-back prompt asking the patient to summarize the plan in their own words, and (b) a concrete follow-up invitation with a timeframe. \\
+\multirow{5}{*}{\textsc{NURSE}}
+  & Name & profile.emotional\_cues contains any cue & Open with one sentence naming the emotion the patient expressed, quoting their wording (e.g., "It sounds like this has been worrying you."). \\
+    & Understand & profile.emotional\_cues contains a cue tied to a specific concern & Acknowledge the lived experience tied to the concern before giving clinical content ("That kind of fatigue would make daily life harder."). \\
+    & Respect & profile.patient\_goals is non-empty & Affirm the patient's effort or values in pursuing their stated goal, without flattery. \\
+    & Support & always & State explicitly that you (the clinician) will continue to work with them on this, and what the next contact point is. \\
+    & Explore & profile.unknowns is non-empty & Ask ONE focused follow-up question targeting the highest-priority unknown — do not stack multiple questions. \\
+\addlinespace[2pt]
+\cmidrule(l){2-4}
+\addlinespace[2pt]
+\multirow{4}{*}{\textsc{Four Habits}}
+  & Invest in the beginning & always & First section (acknowledgment) restates the patient's concerns in their own words before introducing any clinical content. \\
+    & Elicit the patient's perspective & profile.patient\_goals or profile.emotional\_cues populated & Reference the patient's stated goals and feelings when framing recommendations, not only the clinical findings. \\
+    & Demonstrate empathy & any red\_flag OR any high-distress emotional\_cue & Validate the difficulty of the situation BEFORE describing next steps; never lead with a directive when distress is present. \\
+    & Invest in the end & always & Close with (a) a teach-back prompt asking the patient to summarize the plan in their own words, and (b) a concrete follow-up invitation with a timeframe. \\
 \bottomrule
 \end{tabular}
 \end{table*}

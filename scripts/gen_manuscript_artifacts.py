@@ -93,6 +93,7 @@ def table1_corpus_md_tex(cfg: dict) -> tuple[str, str] | None:
     docs_with_issuing = sum(1 for r in rows if r.get("issuing_body"))
     total_chunks = sum(r.get("n_chunks") or 0 for r in rows)
     total_tokens = sum(r.get("chunk_token_total") or 0 for r in rows)
+    doi_pct = (docs_with_doi / total * 100) if total else 0.0
 
     pubtype_ct: Counter[str] = Counter()
     journal_ct: Counter[str] = Counter()
@@ -104,105 +105,139 @@ def table1_corpus_md_tex(cfg: dict) -> tuple[str, str] | None:
             journal_ct[r["journal"]] += 1
         for d in r.get("mesh_descriptors") or []:
             mesh_ct[d] += 1
-    pubtypes_top = pubtype_ct.most_common(10)
+    # For pub types, only include clinically-relevant kinds (drop the
+    # "Research Support, ..." NIH-classification noise from the top list).
+    NOISY_PUBTYPES = {
+        pt for pt in pubtype_ct
+        if pt.startswith("Research Support")
+    }
+    pubtypes_top = [
+        (pt, c) for pt, c in pubtype_ct.most_common()
+        if pt not in NOISY_PUBTYPES
+    ][:8]
     journals_top = journal_ct.most_common(10)
     mesh_top = mesh_ct.most_common(10)
 
-    # -------- Markdown --------
+    caption = (
+        "Corpus summary. PubMed records retrieved via a MeSH-based query "
+        "filtered to systematic reviews, meta-analyses, practice guidelines, "
+        "and consensus statements in English (2018--2026), then normalized, "
+        "chunked, and embedded with BAAI/bge-large-en-v1.5 into a Chroma "
+        "vector index. Documents may carry multiple publication types and "
+        "MeSH descriptors; percentages in panels~B and~D are computed "
+        "relative to the total of \\num{" + str(total) + "} documents."
+    )
+
+    # ---------------- Markdown (sectioned, polished) ----------------
     md: list[str] = []
-    md.append("# Table 1 — Corpus")
+    md.append("# Table 1. Corpus characteristics")
     md.append("")
-    md.append(f"_Auto-generated from `{manifest_path}` "
-              f"({datetime.now(timezone.utc).isoformat(timespec='seconds')})_")
+    md.append(
+        f"*PubMed records retrieved via a MeSH-based query (systematic "
+        f"reviews, meta-analyses, practice guidelines, and consensus "
+        f"statements; English; {year_min}–{year_max}), normalized, "
+        f"chunked, and embedded with BAAI/bge-large-en-v1.5.*"
+    )
     md.append("")
-    md.append("## Top-level counts")
+    md.append("**A. Corpus-level summary**")
     md.append("")
-    md.append("| Metric | Value |")
-    md.append("|---|---|")
-    md.append(f"| Total documents | {total} |")
-    md.append(f"| Date range (publication year) | {year_min}–{year_max} |")
-    md.append(f"| Structured abstracts | {structured} ({structured_pct:.1f}%) |")
+    md.append("| Property | Value |")
+    md.append("|:---|---:|")
+    md.append(f"| Documents (parsed) | {total:,} |")
+    md.append(f"| Publication years | {year_min}–{year_max} |")
+    md.append(
+        f"| Documents with structured abstract | "
+        f"{structured:,} ({structured_pct:.1f}%) |"
+    )
+    md.append(f"| Documents with DOI | {docs_with_doi:,} ({doi_pct:.1f}%) |")
+    md.append(f"| Documents with issuing body | {docs_with_issuing:,} |")
     md.append(f"| Mean abstract length (characters) | {mean_chars:,.0f} |")
-    md.append(f"| Documents with DOI | {docs_with_doi} |")
-    md.append(f"| Documents with issuing-body (collective author) | {docs_with_issuing} |")
-    md.append(f"| Total chunks | {total_chunks:,} |")
+    md.append(f"| Total chunks (Phase 4) | {total_chunks:,} |")
     md.append(f"| Total chunk tokens | {total_tokens:,} |")
     md.append("")
-    md.append("## Publication types (top 10)")
+    md.append("**B. Publication types** (top 8; \"Research Support …\" "
+              "MeSH-funding tags omitted)")
     md.append("")
-    md.append("| Pub type | Count |")
-    md.append("|---|---:|")
+    md.append("| Publication type | n | % of corpus |")
+    md.append("|:---|---:|---:|")
     for pt, c in pubtypes_top:
-        md.append(f"| {pt} | {c} |")
+        md.append(f"| {pt} | {c:,} | {c / total * 100:.1f}% |")
     md.append("")
-    md.append("## Journals (top 10)")
+    md.append("**C. Source journals** (top 10)")
     md.append("")
-    md.append("| Journal | Count |")
-    md.append("|---|---:|")
+    md.append("| Journal | n |")
+    md.append("|:---|---:|")
     for j, c in journals_top:
-        md.append(f"| {j} | {c} |")
+        md.append(f"| {j} | {c:,} |")
     md.append("")
-    md.append("## MeSH descriptors (top 10)")
+    md.append("**D. MeSH descriptors** (top 10; documents may carry multiple)")
     md.append("")
-    md.append("| Descriptor | Count |")
-    md.append("|---|---:|")
+    md.append("| MeSH descriptor | n | % of corpus |")
+    md.append("|:---|---:|---:|")
     for d, c in mesh_top:
-        md.append(f"| {d} | {c} |")
+        md.append(f"| {d} | {c:,} | {c / total * 100:.1f}% |")
+    md.append("")
+    md.append(
+        f"<small>Auto-generated from `{manifest_path}` on "
+        f"{datetime.now(timezone.utc).isoformat(timespec='seconds')}.</small>"
+    )
     md_text = "\n".join(md) + "\n"
 
-    # -------- LaTeX (booktabs) --------
+    # ---------------- LaTeX (sectioned, booktabs) ----------------
     tex: list[str] = []
-    tex.append(r"% Table 1 — Corpus. Auto-generated; do not edit by hand.")
-    tex.append(r"\begin{table}[t]")
+    tex.append(r"% Table 1 — Corpus characteristics. Auto-generated.")
+    tex.append(r"% Requires: \usepackage{booktabs,siunitx,multirow}")
+    tex.append(r"\begin{table*}[t]")
     tex.append(r"\centering")
-    tex.append(r"\caption{Corpus summary.}")
+    tex.append(rf"\caption{{{caption}}}")
     tex.append(r"\label{tab:corpus}")
     tex.append(r"\small")
-    tex.append(r"\begin{tabular}{lr}")
+    tex.append(r"\sisetup{group-separator={,},group-minimum-digits=4}")
+    tex.append(r"\begin{tabular}{@{}lS[table-format=7.0]S[table-format=3.1]@{}}")
     tex.append(r"\toprule")
-    tex.append(r"Metric & Value \\")
+    tex.append(r"\multicolumn{3}{l}{\textbf{A. Corpus-level summary}} \\")
     tex.append(r"\midrule")
-    tex.append(rf"Total documents & {total} \\")
-    tex.append(rf"Date range (publication year) & {year_min}--{year_max} \\")
-    tex.append(rf"Structured abstracts & {structured} ({structured_pct:.1f}\%) \\")
-    tex.append(rf"Mean abstract length (characters) & {mean_chars:,.0f} \\")
-    tex.append(rf"Documents with DOI & {docs_with_doi} \\")
-    tex.append(rf"Documents with issuing-body & {docs_with_issuing} \\")
-    tex.append(rf"Total chunks & {total_chunks:,} \\")
-    tex.append(rf"Total chunk tokens & {total_tokens:,} \\")
-    tex.append(r"\bottomrule")
-    tex.append(r"\end{tabular}")
-    tex.append("")
-    tex.append(r"\bigskip")
-    tex.append(r"\begin{tabular}{lr}")
-    tex.append(r"\toprule")
-    tex.append(r"Publication type (top 10) & Count \\")
+    tex.append(rf"Documents (parsed)                 & {{{total}}}      & {{--}} \\")
+    tex.append(rf"Publication years                  & \multicolumn{{2}}{{r}}{{{year_min}--{year_max}}} \\")
+    tex.append(
+        rf"Documents with structured abstract & {{{structured}}} & {structured_pct:.1f} \\"
+    )
+    tex.append(
+        rf"Documents with DOI                 & {{{docs_with_doi}}} & {doi_pct:.1f} \\"
+    )
+    tex.append(rf"Documents with issuing body        & {{{docs_with_issuing}}} & {{--}} \\")
+    tex.append(rf"Mean abstract length (characters)  & {{{mean_chars:.0f}}}    & {{--}} \\")
+    tex.append(rf"Total chunks                       & {{{total_chunks}}} & {{--}} \\")
+    tex.append(rf"Total chunk tokens                 & {{{total_tokens}}} & {{--}} \\")
+    tex.append(r"\addlinespace")
+    tex.append(
+        r"\multicolumn{3}{l}{\textbf{B. Publication types}"
+        r" \textnormal{(top~8; Research-Support tags omitted)}} \\"
+    )
+    tex.append(r"\cmidrule(lr){1-3}")
+    tex.append(r"Publication type & {n} & {\% of corpus} \\")
     tex.append(r"\midrule")
     for pt, c in pubtypes_top:
-        tex.append(rf"{_tex_escape(pt)} & {c} \\")
-    tex.append(r"\bottomrule")
-    tex.append(r"\end{tabular}")
-    tex.append("")
-    tex.append(r"\bigskip")
-    tex.append(r"\begin{tabular}{lr}")
-    tex.append(r"\toprule")
-    tex.append(r"Journal (top 10) & Count \\")
+        tex.append(rf"{_tex_escape(pt)} & {{{c}}} & {c / total * 100:.1f} \\")
+    tex.append(r"\addlinespace")
+    tex.append(r"\multicolumn{3}{l}{\textbf{C. Source journals} \textnormal{(top~10)}} \\")
+    tex.append(r"\cmidrule(lr){1-3}")
+    tex.append(r"Journal & {n} & \\")
     tex.append(r"\midrule")
     for j, c in journals_top:
-        tex.append(rf"{_tex_escape(j)} & {c} \\")
-    tex.append(r"\bottomrule")
-    tex.append(r"\end{tabular}")
-    tex.append("")
-    tex.append(r"\bigskip")
-    tex.append(r"\begin{tabular}{lr}")
-    tex.append(r"\toprule")
-    tex.append(r"MeSH descriptor (top 10) & Count \\")
+        tex.append(rf"{_tex_escape(j)} & {{{c}}} & \\")
+    tex.append(r"\addlinespace")
+    tex.append(
+        r"\multicolumn{3}{l}{\textbf{D. MeSH descriptors} \textnormal{(top~10)}} \\"
+    )
+    tex.append(r"\cmidrule(lr){1-3}")
+    tex.append(r"MeSH descriptor & {n} & {\% of corpus} \\")
     tex.append(r"\midrule")
     for d, c in mesh_top:
-        tex.append(rf"{_tex_escape(d)} & {c} \\")
+        tex.append(rf"{_tex_escape(d)} & {{{c}}} & {c / total * 100:.1f} \\")
     tex.append(r"\bottomrule")
     tex.append(r"\end{tabular}")
-    tex.append(r"\end{table}")
+    tex.append(r"\end{table*}")
     tex_text = "\n".join(tex) + "\n"
 
     return md_text, tex_text
@@ -215,13 +250,15 @@ def table1_corpus_md_tex(cfg: dict) -> tuple[str, str] | None:
 
 def _parse_directives_block(text: str) -> list[dict]:
     """Parse the block between DIRECTIVES_START and DIRECTIVES_END.
-    Returns a list of {framework, element, trigger, rule}."""
+    Returns a list of {framework, element, trigger, rule}. Skips the
+    documentation header inside the block (a comment row that itself
+    spells out the format) by rejecting framework values containing "|"
+    or matching obvious placeholders."""
     m = re.search(r"^DIRECTIVES_START\s*$.+?^DIRECTIVES_END\s*$", text, re.S | re.M)
     if not m:
         return []
     block = m.group(0)
     out: list[dict] = []
-    # Each row begins with "- framework: <value>".
     for chunk in re.split(r"\n(?=- framework:)", block):
         if "framework:" not in chunk:
             continue
@@ -231,10 +268,18 @@ def _parse_directives_block(text: str) -> list[dict]:
         ru = re.search(r"rule:\s*(.+(?:\n\s{4,}.+)*)", chunk)
         if not (fw and el and tr and ru):
             continue
+        framework = fw.group(1).strip()
+        # Skip the format-documentation row at the top of the DIRECTIVES
+        # block (values like "NURSE | Four Habits", "short name").
+        if "|" in framework:
+            continue
+        element = el.group(1).strip()
+        if element in {"short name"}:
+            continue
         out.append(
             {
-                "framework": fw.group(1).strip(),
-                "element": el.group(1).strip(),
+                "framework": framework,
+                "element": element,
                 "trigger": tr.group(1).strip(),
                 "rule": " ".join(ru.group(1).strip().split()),
             }
@@ -253,37 +298,98 @@ def table2_directives_md_tex(cfg: dict) -> tuple[str, str] | None:
         log.warning("table2: DIRECTIVES_START/END block empty — skipping")
         return None
 
+    # Group rows by framework for visual hierarchy; preserve their order
+    # within each group.
+    grouped: dict[str, list[dict]] = {}
+    for r in rows:
+        grouped.setdefault(r["framework"], []).append(r)
+    # Canonical display order
+    framework_order = ["NURSE", "Four Habits"]
+    for fw in list(grouped):
+        if fw not in framework_order:
+            framework_order.append(fw)
+
+    n_nurse = len(grouped.get("NURSE", []))
+    n_habits = len(grouped.get("Four Habits", []))
+
+    caption = (
+        "Communication directives applied by Module IV (response "
+        "generation). The NURSE empathy template addresses the patient's "
+        "affective state with verbatim quoting; the Four Habits Model "
+        "structures visit flow from opener through teach-back. Each row "
+        "is a deterministic rule: when the trigger condition evaluates "
+        "true against the patient profile or structured context, Module "
+        "IV emits the indicated generation rule and records the "
+        "(framework, element) pair in \\texttt{nurse\\_elements\\_applied} "
+        "or \\texttt{four\\_habits\\_elements\\_applied} for audit. "
+        f"Parsed verbatim from the \\texttt{{DIRECTIVES}} block of "
+        f"\\texttt{{response\\_generation.txt}} ({n_nurse} NURSE + "
+        f"{n_habits} Four-Habits rows)."
+    )
+
+    # ---------------- Markdown ----------------
     md: list[str] = []
-    md.append("# Table 2 — Communication directives")
+    md.append("# Table 2. Communication directives")
     md.append("")
-    md.append(f"_Auto-generated from `{prompt_path}` "
-              f"({datetime.now(timezone.utc).isoformat(timespec='seconds')})_")
+    md.append(
+        "*Module IV applies each directive when its trigger evaluates "
+        "true against the patient profile (Module I) or the structured "
+        "context (Module III). NURSE governs affective response with "
+        "verbatim quoting; Four Habits structures visit flow.*"
+    )
     md.append("")
     md.append("| Framework | Element | Trigger condition | Generation rule |")
-    md.append("|---|---|---|---|")
-    for r in rows:
-        md.append(
-            f"| {_md_escape(r['framework'])} | {_md_escape(r['element'])} | "
-            f"{_md_escape(r['trigger'])} | {_md_escape(r['rule'])} |"
-        )
+    md.append("|:---|:---|:---|:---|")
+    for fw in framework_order:
+        if fw not in grouped:
+            continue
+        rs = grouped[fw]
+        # First row of the group prints the framework label; subsequent rows blank
+        for i, r in enumerate(rs):
+            fw_cell = f"**{_md_escape(fw)}**" if i == 0 else ""
+            md.append(
+                f"| {fw_cell} | {_md_escape(r['element'])} | "
+                f"{_md_escape(r['trigger'])} | {_md_escape(r['rule'])} |"
+            )
+        # Blank row between groups for visual separation in GitHub render
+        if fw != framework_order[-1]:
+            md.append("| &nbsp; | | | |")
+    md.append("")
+    md.append(
+        f"<small>Auto-generated from `{prompt_path}` on "
+        f"{datetime.now(timezone.utc).isoformat(timespec='seconds')}.</small>"
+    )
     md_text = "\n".join(md) + "\n"
 
+    # ---------------- LaTeX ----------------
     tex: list[str] = []
     tex.append(r"% Table 2 — Communication directives. Auto-generated.")
+    tex.append(r"% Requires: \usepackage{booktabs,multirow,tabularx}")
     tex.append(r"\begin{table*}[t]")
     tex.append(r"\centering")
-    tex.append(r"\caption{Communication directives applied by Module IV.}")
+    tex.append(rf"\caption{{{caption}}}")
     tex.append(r"\label{tab:directives}")
     tex.append(r"\small")
-    tex.append(r"\begin{tabular}{llp{4.5cm}p{6cm}}")
+    tex.append(r"\begin{tabular}{@{}llp{4.2cm}p{6.5cm}@{}}")
     tex.append(r"\toprule")
     tex.append(r"Framework & Element & Trigger condition & Generation rule \\")
     tex.append(r"\midrule")
-    for r in rows:
-        tex.append(
-            rf"{_tex_escape(r['framework'])} & {_tex_escape(r['element'])} "
-            rf"& {_tex_escape(r['trigger'])} & {_tex_escape(r['rule'])} \\"
-        )
+    for idx, fw in enumerate(framework_order):
+        if fw not in grouped:
+            continue
+        rs = grouped[fw]
+        # Use \multirow so the framework label spans its rows.
+        tex.append(rf"\multirow{{{len(rs)}}}{{*}}{{\textsc{{{_tex_escape(fw)}}}}}")
+        for i, r in enumerate(rs):
+            prefix = "" if i == 0 else "  "
+            tex.append(
+                rf"{prefix}  & {_tex_escape(r['element'])} & "
+                rf"{_tex_escape(r['trigger'])} & {_tex_escape(r['rule'])} \\"
+            )
+        if idx < len(framework_order) - 1:
+            tex.append(r"\addlinespace[2pt]")
+            tex.append(r"\cmidrule(l){2-4}")
+            tex.append(r"\addlinespace[2pt]")
     tex.append(r"\bottomrule")
     tex.append(r"\end{tabular}")
     tex.append(r"\end{table*}")
@@ -305,56 +411,87 @@ def table3_retrieval_sanity_md_tex(cfg: dict) -> tuple[str, str] | None:
         return None
     latest = candidates[-1]
     data = json.loads(latest.read_text(encoding="utf-8"))
+    queries = data.get("queries") or []
+    if not queries:
+        log.warning("table3: sanity_query JSON has no queries")
+        return None
 
+    model = data.get("model", "?")
+    coll = data.get("collection", "?")
+    coll_size = data.get("collection_size", 0)
+
+    caption = (
+        "Retrieval sanity check (appendix). Top-5 documents returned by "
+        f"Module II for each of {len(queries)} fixed primary-care queries. "
+        f"Embedded with {model}; cosine search over a Chroma index of "
+        f"{coll_size:,} abstract chunks (top-$k=20$ per sub-query, "
+        "reranked by $0.5\\cdot$sim + $0.2\\cdot$recency + $0.2\\cdot$"
+        "authority + $0.1\\cdot$coverage). Similarity reported as "
+        "$1-\\text{cosine distance}$."
+    )
+
+    # ---------------- Markdown ----------------
     md: list[str] = []
-    md.append("# Table 3 — Retrieval sanity (appendix)")
+    md.append("# Table 3. Retrieval sanity check (appendix)")
     md.append("")
-    md.append(f"_Auto-generated from `{latest}` "
-              f"({datetime.now(timezone.utc).isoformat(timespec='seconds')})_")
+    md.append(
+        f"*Top-5 documents for each of {len(queries)} primary-care queries "
+        f"against a Chroma index of {coll_size:,} abstract chunks "
+        f"(embeddings: `{model}`). Similarity = 1 − cosine distance.*"
+    )
     md.append("")
-    md.append(f"Model: `{data.get('model')}`  ·  "
-              f"collection: `{data.get('collection')}` "
-              f"(size {data.get('collection_size')}).")
-    md.append("")
-
-    for q in data.get("queries") or []:
-        md.append(f"## Query: \"{q['query']}\"")
-        md.append("")
-        md.append("| Rank | PMID | Sim | Title |")
-        md.append("|---:|---|---:|---|")
+    md.append("| Rank | PMID | Sim. | Title |")
+    md.append("|---:|:---|---:|:---|")
+    for qi, q in enumerate(queries):
+        md.append(f"| **Q{qi + 1}.** | \"{_md_escape(q['query'])}\" | | |")
         for r in q.get("results") or []:
-            title = (r.get("title") or "")[:90].replace("|", "\\|")
+            title = (r.get("title") or "").strip().rstrip(".")
+            title = title[:110] + ("…" if len(title) > 110 else "")
             md.append(
-                f"| {r['rank']} | {r['pmid']} | {r['similarity']:.3f} | {title} |"
+                f"| {r['rank']} | {r['pmid']} | {r['similarity']:.3f} "
+                f"| {_md_escape(title)} |"
             )
-        md.append("")
+        if qi < len(queries) - 1:
+            md.append("| &nbsp; | | | |")
+    md.append("")
+    md.append(
+        f"<small>Auto-generated from `{latest}` on "
+        f"{datetime.now(timezone.utc).isoformat(timespec='seconds')}.</small>"
+    )
     md_text = "\n".join(md) + "\n"
 
+    # ---------------- LaTeX ----------------
     tex: list[str] = []
-    tex.append(r"% Table 3 — Retrieval sanity. Auto-generated. Appendix.")
+    tex.append(r"% Table 3 — Retrieval sanity. Auto-generated; appendix-bound.")
+    tex.append(r"% Requires: \usepackage{booktabs}")
     tex.append(r"\begin{table*}[t]")
     tex.append(r"\centering")
-    tex.append(r"\caption{Retrieval sanity check — top-5 documents for each of "
-               r"five fixed primary-care queries.}")
+    tex.append(rf"\caption{{{caption}}}")
     tex.append(r"\label{tab:retrieval-sanity}")
     tex.append(r"\small")
-    tex.append(r"\begin{tabular}{lllrl}")
+    tex.append(r"\begin{tabular}{@{}rlrp{9cm}@{}}")
     tex.append(r"\toprule")
-    tex.append(r"Query & Rank & PMID & Sim & Title \\")
+    tex.append(r"Rank & PMID & {Sim.} & Title \\")
     tex.append(r"\midrule")
-    for q in data.get("queries") or []:
-        for i, r in enumerate(q.get("results") or []):
-            q_label = _tex_escape(q["query"]) if i == 0 else ""
+    for qi, q in enumerate(queries):
+        tex.append(
+            rf"\multicolumn{{4}}{{@{{}}l}}{{"
+            rf"\textbf{{Q{qi + 1}.}} ``{_tex_escape(q['query'])}''}} \\"
+        )
+        tex.append(r"\addlinespace[1pt]")
+        for r in q.get("results") or []:
+            title = (r.get("title") or "").strip().rstrip(".")
+            if len(title) > 100:
+                title = title[:97] + "..."
             tex.append(
-                rf"{q_label} & {r['rank']} & {r['pmid']} & "
-                rf"{r['similarity']:.3f} & {_tex_escape((r.get('title') or '')[:80])} \\"
+                rf"{r['rank']} & {r['pmid']} & {r['similarity']:.3f} "
+                rf"& {_tex_escape(title)} \\"
             )
-        tex.append(r"\midrule")
-    # Replace the trailing midrule with a bottomrule.
-    if tex and tex[-1] == r"\midrule":
-        tex[-1] = r"\bottomrule"
-    else:
-        tex.append(r"\bottomrule")
+        if qi < len(queries) - 1:
+            tex.append(r"\addlinespace[3pt]")
+            tex.append(r"\cmidrule(l){1-4}")
+            tex.append(r"\addlinespace[3pt]")
+    tex.append(r"\bottomrule")
     tex.append(r"\end{tabular}")
     tex.append(r"\end{table*}")
     tex_text = "\n".join(tex) + "\n"

@@ -330,6 +330,7 @@ def main() -> None:
             patient_utterances=utterances,
             transcript_id=pid,
             top_n_docs=5,
+            sentence_model=embed_model,  # share with the main pipeline run
         )
         m_c = metrics_for_structured_response(
             response=ro_response, profile=profile,

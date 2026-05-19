@@ -1,0 +1,47 @@
+{
+  "generated_utc": "2026-05-19T22:31:30+00:00",
+  "anchor_transcript": "p001_fatigue_weightloss",
+  "n_sub_queries": 9,
+  "panel_b": [
+    {
+      "top_k": 5,
+      "n_sub_queries": 9,
+      "n_candidate_chunks": 45,
+      "n_candidate_documents": 33,
+      "n_returned_documents": 20,
+      "sub_queries_covered": 9
+    },
+    {
+      "top_k": 10,
+      "n_sub_queries": 9,
+      "n_candidate_chunks": 90,
+      "n_candidate_documents": 52,
+      "n_returned_documents": 20,
+      "sub_queries_covered": 9
+    },
+    {
+      "top_k": 20,
+      "n_sub_queries": 9,
+      "n_candidate_chunks": 180,
+      "n_candidate_documents": 97,
+      "n_returned_documents": 20,
+      "sub_queries_covered": 9
+    },
+    {
+      "top_k": 30,
+      "n_sub_queries": 9,
+      "n_candidate_chunks": 270,
+      "n_candidate_documents": 132,
+      "n_returned_documents": 20,
+      "sub_queries_covered": 9
+    },
+    {
+      "top_k": 50,
+      "n_sub_queries": 9,
+      "n_candidate_chunks": 450,
+      "n_candidate_documents": 198,
+      "n_returned_documents": 20,
+      "sub_queries_covered": 9
+    }
+  ]
+}

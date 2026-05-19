@@ -316,11 +316,17 @@ class IntakeAgent:
 
 
 def _strip_code_fences(s: str) -> str:
-    """Defensive: remove ```json ... ``` if the LLM wraps despite instructions."""
+    """Defensive: remove <think>...</think> + ```json ... ``` wraps."""
     s = s.strip()
+    s = re.sub(r"<think>.*?</think>", "", s, flags=re.DOTALL).strip()
     if s.startswith("```"):
         s = re.sub(r"^```(?:json)?\s*", "", s)
         s = re.sub(r"\s*```$", "", s)
+    # If there's prose around a JSON object, extract the outermost {...}.
+    if not s.startswith("{") and not s.startswith("["):
+        m = re.search(r"\{.*\}", s, flags=re.DOTALL)
+        if m:
+            s = m.group(0)
     return s.strip()
 
 

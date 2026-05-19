@@ -95,20 +95,47 @@ class Responder:
 
         # Validate cluster_ids referenced in citations actually exist in
         # the structured context. The prompt forbids invented ids; defend
-        # against drift anyway.
+        # against drift anyway. R1-distill in particular tends to copy
+        # cluster_ids and PMIDs from the worked example in the prompt.
         valid_cluster_ids = {c.cluster_id for c in context.clusters}
+        valid_pmids_by_cluster = {c.cluster_id: set(c.supporting_pmids) for c in context.clusters}
+        n_dropped_clusters = 0
+        n_dropped_pmids = 0
+        for section in response.clinical_information_per_concern:
+            kept_citations = []
+            for cite in section.citations:
+                if cite.cluster_id not in valid_cluster_ids:
+                    n_dropped_clusters += 1
+                    continue
+                # Even within a valid cluster, the LLM might list PMIDs
+                # that aren't actually in that cluster's supporting_pmids.
+                allowed_pmids = valid_pmids_by_cluster[cite.cluster_id]
+                kept_pmids = [p for p in cite.pmids if p in allowed_pmids]
+                n_dropped_pmids += len(cite.pmids) - len(kept_pmids)
+                cite.pmids = kept_pmids
+                kept_citations.append(cite)
+            section.citations = kept_citations
+        if n_dropped_clusters or n_dropped_pmids:
+            log.warning(
+                "response validator: dropped %d invalid cluster citations and "
+                "%d invalid PMID references",
+                n_dropped_clusters,
+                n_dropped_pmids,
+            )
+
+        # Re-derive aggregate fields from the (filtered) section citations
+        # so all_cluster_ids_used / all_pmids_used can't carry hallucinated ids.
+        unique_clusters: list[str] = []
+        unique_pmids: list[str] = []
         for section in response.clinical_information_per_concern:
             for cite in section.citations:
-                if cite.cluster_id and cite.cluster_id not in valid_cluster_ids:
-                    log.warning(
-                        "response cited unknown cluster_id=%r in section %r; "
-                        "stripping the invalid citation but keeping the section.",
-                        cite.cluster_id,
-                        section.profile_path,
-                    )
-            section.citations = [
-                c for c in section.citations if c.cluster_id in valid_cluster_ids
-            ]
+                if cite.cluster_id and cite.cluster_id not in unique_clusters:
+                    unique_clusters.append(cite.cluster_id)
+                for p in cite.pmids:
+                    if p not in unique_pmids:
+                        unique_pmids.append(p)
+        response.all_cluster_ids_used = unique_clusters
+        response.all_pmids_used = unique_pmids
 
         # Post-generation glossary pass.
         response = self._apply_glossary(response)
@@ -178,10 +205,15 @@ class Responder:
 
 def _safe_json_loads(raw: str, *, context: str) -> dict | None:
     s = (raw or "").strip()
+    s = re.sub(r"<think>.*?</think>", "", s, flags=re.DOTALL).strip()
     if s.startswith("```"):
         s = re.sub(r"^```(?:json)?\s*", "", s)
         s = re.sub(r"\s*```$", "", s)
         s = s.strip()
+    if not s.startswith("{") and not s.startswith("["):
+        m = re.search(r"\{.*\}", s, flags=re.DOTALL)
+        if m:
+            s = m.group(0)
     try:
         return json.loads(s)
     except json.JSONDecodeError as e:

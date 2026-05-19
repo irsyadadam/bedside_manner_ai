@@ -34,6 +34,7 @@ CLI:
 from __future__ import annotations
 
 import argparse
+import asyncio
 import json
 import logging
 import re
@@ -103,11 +104,9 @@ class Reasoner:
 
     # ---- extraction (one LLM call per doc) ------------------------------
 
-    def extract_assertions(
-        self,
-        doc: RankedDocument,
-        profile: PatientConcernProfile,
-    ) -> list[ClinicalAssertion]:
+    def _build_extract_payload(
+        self, doc: RankedDocument, profile: PatientConcernProfile
+    ) -> str:
         meta = {
             "pmid": doc.pmid,
             "title": doc.title,
@@ -118,20 +117,16 @@ class Reasoner:
             "issuing_body": doc.issuing_body,
         }
         candidates = doc.addresses_concerns
-        # Trim full_text to keep prompt bounded (most abstracts <2k chars).
         text = doc.full_text[:8000]
-        user_payload = (
+        return (
             f"DOCUMENT_METADATA:\n{json.dumps(meta, ensure_ascii=False)}\n\n"
             f"DOCUMENT_TEXT:\n{text}\n\n"
             f"PATIENT_PROFILE:\n{profile.model_dump_json(indent=2)}\n\n"
             f"ADDRESSES_CONCERN_CANDIDATES:\n{json.dumps(candidates)}\n"
         )
-        raw = self.llm.complete(
-            system=self.assertion_prompt,
-            user=user_payload,
-            response_format_json=True,
-        )
-        data = _safe_json_loads(raw, context=f"extract({doc.pmid})")
+
+    def _parse_assertions(self, raw: str, pmid: str) -> list[ClinicalAssertion]:
+        data = _safe_json_loads(raw, context=f"extract({pmid})")
         if not data:
             return []
         out: list[ClinicalAssertion] = []
@@ -141,12 +136,36 @@ class Reasoner:
             except ValidationError as e:
                 log.warning(
                     "skipping malformed assertion from pmid=%s: %s",
-                    doc.pmid,
+                    pmid,
                     e.errors()[0]["msg"] if e.errors() else str(e),
                 )
                 continue
             out.append(a)
         return out
+
+    def extract_assertions(
+        self,
+        doc: RankedDocument,
+        profile: PatientConcernProfile,
+    ) -> list[ClinicalAssertion]:
+        raw = self.llm.complete(
+            system=self.assertion_prompt,
+            user=self._build_extract_payload(doc, profile),
+            response_format_json=True,
+        )
+        return self._parse_assertions(raw, doc.pmid)
+
+    async def extract_assertions_async(
+        self,
+        doc: RankedDocument,
+        profile: PatientConcernProfile,
+    ) -> list[ClinicalAssertion]:
+        raw = await self.llm.complete_async(
+            system=self.assertion_prompt,
+            user=self._build_extract_payload(doc, profile),
+            response_format_json=True,
+        )
+        return self._parse_assertions(raw, doc.pmid)
 
     # ---- clustering (purely local, embedding-based) ---------------------
 
@@ -249,14 +268,9 @@ class Reasoner:
             )
 
         # Divergent -> LLM call.
-        cluster_payload = self._cluster_payload(cluster, doc_lookup)
-        user_payload = (
-            f"CLUSTER:\n{json.dumps(cluster_payload, ensure_ascii=False)}\n\n"
-            f"AUTHORITY_TABLE:\n{json.dumps(AUTHORITY_TABLE, ensure_ascii=False)}\n"
-        )
         raw = self.llm.complete(
             system=self.conflict_prompt,
-            user=user_payload,
+            user=self._build_resolve_payload(cluster, doc_lookup),
             response_format_json=True,
         )
         data = _safe_json_loads(raw, context=f"resolve({cluster_id})")
@@ -315,6 +329,88 @@ class Reasoner:
             resolution_rationale=data.get("primary_rationale"),
         )
 
+    def _build_resolve_payload(
+        self,
+        cluster: list[ClinicalAssertion],
+        doc_lookup: dict[str, RankedDocument],
+    ) -> str:
+        return (
+            f"CLUSTER:\n{json.dumps(self._cluster_payload(cluster, doc_lookup), ensure_ascii=False)}\n\n"
+            f"AUTHORITY_TABLE:\n{json.dumps(AUTHORITY_TABLE, ensure_ascii=False)}\n"
+        )
+
+    async def _resolve_cluster_async(
+        self,
+        cluster: list[ClinicalAssertion],
+        doc_lookup: dict[str, RankedDocument],
+    ) -> AssertionCluster:
+        """Async path used only for divergent clusters. Convergent
+        clusters go through resolve_cluster() (no LLM)."""
+        atype = cluster[0].assertion_type
+        addresses = cluster[0].addresses_concern
+        cluster_id = f"{atype}::{addresses or 'global'}::{cluster[0].assertion_id}"
+
+        raw = await self.llm.complete_async(
+            system=self.conflict_prompt,
+            user=self._build_resolve_payload(cluster, doc_lookup),
+            response_format_json=True,
+        )
+        data = _safe_json_loads(raw, context=f"resolve({cluster_id})")
+        primary_id = (data or {}).get("primary_assertion_id") or ""
+        primary = next((a for a in cluster if a.assertion_id == primary_id), None)
+        if primary is None:
+            log.warning(
+                "conflict resolver returned unknown primary_id=%r for cluster %s; "
+                "falling back to recency + confidence tiebreak.",
+                primary_id, cluster_id,
+            )
+            primary = max(
+                cluster,
+                key=lambda a: (
+                    doc_lookup.get(a.source_pmid).pub_year or 0
+                    if a.source_pmid in doc_lookup else 0,
+                    a.confidence,
+                ),
+            )
+            data = {
+                "primary_rationale": "Fallback: most-recent + highest-confidence",
+                "resolution_rule": "recency",
+                "alternatives": [
+                    {"assertion_id": a.assertion_id, "retain_reason": "(auto) non-primary"}
+                    for a in cluster if a.assertion_id != primary.assertion_id
+                ],
+            }
+        alt_ids = {alt["assertion_id"] for alt in data.get("alternatives", []) or []}
+        alternatives = [a for a in cluster if a.assertion_id in alt_ids]
+        missing = [
+            a for a in cluster
+            if a.assertion_id != primary.assertion_id and a.assertion_id not in alt_ids
+        ]
+        if missing:
+            log.warning("conflict resolver dropped %d non-primary; re-attaching", len(missing))
+            alternatives.extend(missing)
+
+        return AssertionCluster(
+            cluster_id=cluster_id,
+            assertion_type=atype,
+            addresses_concern=addresses,
+            primary_assertion=primary,
+            supporting_pmids=sorted({a.source_pmid for a in cluster}),
+            alternative_assertions=alternatives,
+            convergent=False,
+            confidence=primary.confidence,
+            resolution_rule=data.get("resolution_rule"),
+            resolution_rationale=data.get("primary_rationale"),
+        )
+
+    async def _gather_resolve(
+        self,
+        divergent_groups: list[list[ClinicalAssertion]],
+        doc_lookup: dict[str, RankedDocument],
+    ) -> list[AssertionCluster]:
+        coros = [self._resolve_cluster_async(g, doc_lookup) for g in divergent_groups]
+        return await asyncio.gather(*coros)
+
     def _cluster_payload(
         self,
         cluster: list[ClinicalAssertion],
@@ -343,6 +439,26 @@ class Reasoner:
 
     # ---- top-level driver -----------------------------------------------
 
+    async def _gather_extract(
+        self,
+        retrieval: RankedDocumentSet,
+        profile: PatientConcernProfile,
+    ) -> list[ClinicalAssertion]:
+        """Concurrent per-doc extraction. vLLM's continuous batching
+        kicks in as soon as multiple requests are in flight."""
+        coros = [
+            self.extract_assertions_async(doc, profile)
+            for doc in retrieval.documents
+        ]
+        log.info("dispatching %d extraction calls concurrently ...", len(coros))
+        results = await asyncio.gather(*coros, return_exceptions=False)
+        out: list[ClinicalAssertion] = []
+        for i, (doc, assertions) in enumerate(zip(retrieval.documents, results), 1):
+            log.info("  [%d/%d] pmid=%s -> %d assertions",
+                     i, len(retrieval.documents), doc.pmid, len(assertions))
+            out.extend(assertions)
+        return out
+
     def reason(
         self,
         retrieval: RankedDocumentSet,
@@ -350,20 +466,35 @@ class Reasoner:
     ) -> StructuredContextArtifact:
         doc_lookup: dict[str, RankedDocument] = {d.pmid: d for d in retrieval.documents}
         log.info("extracting assertions from %d documents", len(retrieval.documents))
-        all_assertions: list[ClinicalAssertion] = []
-        for i, doc in enumerate(retrieval.documents, 1):
-            assertions = self.extract_assertions(doc, profile)
-            log.info("  [%d/%d] pmid=%s -> %d assertions",
-                     i, len(retrieval.documents), doc.pmid, len(assertions))
-            all_assertions.extend(assertions)
+        all_assertions: list[ClinicalAssertion] = asyncio.run(
+            self._gather_extract(retrieval, profile)
+        )
 
         log.info("total assertions extracted: %d", len(all_assertions))
         groups = self.cluster_assertions(all_assertions)
         log.info("clusters formed: %d", len(groups))
 
-        resolved: list[AssertionCluster] = []
+        # Split convergent (no LLM call) and divergent (LLM call) so we
+        # can issue divergent resolutions concurrently.
+        sync_resolved: list[AssertionCluster] = []
+        divergent_groups: list[list[ClinicalAssertion]] = []
         for group in groups:
-            resolved.append(self.resolve_cluster(group, doc_lookup))
+            if len(group) == 1 or len({
+                re.sub(r"\s+", " ", a.assertion_text.strip().lower()) for a in group
+            }) == 1:
+                sync_resolved.append(self.resolve_cluster(group, doc_lookup))
+            else:
+                divergent_groups.append(group)
+
+        if divergent_groups:
+            log.info("dispatching %d divergent-cluster LLM resolutions concurrently ...",
+                     len(divergent_groups))
+            resolved_divergent = asyncio.run(
+                self._gather_resolve(divergent_groups, doc_lookup)
+            )
+        else:
+            resolved_divergent = []
+        resolved = sync_resolved + resolved_divergent
 
         # Order: convergent first within each addresses_concern bucket,
         # then divergent. Stable within each.
@@ -401,10 +532,20 @@ class Reasoner:
 
 def _safe_json_loads(raw: str, *, context: str) -> dict | None:
     s = (raw or "").strip()
+    # R1-distill reasoning models emit <think>...</think> before the
+    # actual answer. Strip those (vLLM 0.8.x with enable_reasoning=False
+    # passes them through verbatim).
+    s = re.sub(r"<think>.*?</think>", "", s, flags=re.DOTALL).strip()
     if s.startswith("```"):
         s = re.sub(r"^```(?:json)?\s*", "", s)
         s = re.sub(r"\s*```$", "", s)
         s = s.strip()
+    # Some models add prose before/after the JSON object. Extract the
+    # outermost JSON object via brace matching.
+    if not s.startswith("{") and not s.startswith("["):
+        m = re.search(r"\{.*\}", s, flags=re.DOTALL)
+        if m:
+            s = m.group(0)
     try:
         return json.loads(s)
     except json.JSONDecodeError as e:

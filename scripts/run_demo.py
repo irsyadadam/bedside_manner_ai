@@ -344,6 +344,7 @@ def _run_one(
     pipeline: Pipeline,
     transcript_path: Path,
     out_dir: Path,
+    max_reasoning_docs: int | None = None,
 ) -> tuple[Path, PipelineResult]:
     pid, scenario, utterances = load_transcript(transcript_path)
     if not utterances:
@@ -355,6 +356,7 @@ def _run_one(
         utterances,
         transcript_id=pid,
         scenario=scenario,
+        max_reasoning_docs=max_reasoning_docs,
     )
     md = render_markdown(result)
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -374,6 +376,7 @@ def _run_one(
                 "structured_context": result.structured_context.model_dump(),
                 "response": result.response.model_dump(),
                 "mode": result.mode,
+                "module_timings_ms": result.module_timings_ms or {},
             },
             indent=2,
             ensure_ascii=False,
@@ -408,6 +411,14 @@ def main() -> None:
         help="Where to write trace_<id>.md (default: manuscript/traces/).",
     )
     p.add_argument("--config", default="config/pipeline.yaml")
+    p.add_argument(
+        "--max-reasoning-docs",
+        type=int,
+        default=None,
+        help="Cap docs going into Module III. Use 5 with the real LLM to "
+        "keep R1-distill's reasoning chains tractable (~10 min/transcript). "
+        "Default = no cap (use all of Module II's ranked output).",
+    )
     args = p.parse_args()
 
     cfg = load_config(args.config)
@@ -473,7 +484,7 @@ def main() -> None:
         targets.append(args.transcript)
 
     for tp in targets:
-        out_path, result = _run_one(pipeline, tp, args.out_dir)
+        out_path, result = _run_one(pipeline, tp, args.out_dir, args.max_reasoning_docs)
         console.print(
             f"Wrote [cyan]{out_path}[/cyan]  "
             f"(problems={len(result.profile.problems)}, "

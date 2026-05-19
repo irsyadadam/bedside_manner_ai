@@ -32,6 +32,31 @@ class LLMClient(Protocol):
         response_format_json: bool = False,
     ) -> str: ...
 
+    # Optional async variant. Implementations that don't override it
+    # fall back to wrapping the sync complete() via asyncio.to_thread
+    # (the default below). Used by Module III's concurrent extraction.
+    async def complete_async(
+        self,
+        system: str,
+        user: str,
+        *,
+        max_tokens: int | None = None,
+        temperature: float | None = None,
+        response_format_json: bool = False,
+    ) -> str: ...
+
+
+async def _sync_to_async(
+    client,
+    system: str,
+    user: str,
+    **kwargs,
+) -> str:
+    """Default async wrapper for sync-only clients (mocks, mostly)."""
+    import asyncio
+
+    return await asyncio.to_thread(client.complete, system, user, **kwargs)
+
 
 # --------------------------------------------------------------------------
 # vLLM (production)
@@ -41,14 +66,17 @@ class LLMClient(Protocol):
 class VLLMClient:
     """Talks to a running vLLM OpenAI-compatible server.
 
-    Construct with the llm: block from pipeline.yaml.
+    Construct with the llm: block from pipeline.yaml. Exposes BOTH a
+    sync `complete()` (used by Module I and IV's single calls) and an
+    async `complete_async()` (used by Module III to issue all
+    per-document extraction calls concurrently via asyncio.gather).
     """
 
     def __init__(self, cfg: dict) -> None:
         # Lazy import so MockLLMClient users don't need openai installed
         # (though we ship it anyway for parity).
         try:
-            from openai import OpenAI
+            from openai import AsyncOpenAI, OpenAI
         except ImportError as e:  # noqa: BLE001
             raise RuntimeError(
                 "openai package is required for VLLMClient; "
@@ -59,20 +87,23 @@ class VLLMClient:
             base_url=cfg["base_url"],
             api_key=cfg.get("api_key") or "EMPTY",
         )
+        self.async_client = AsyncOpenAI(
+            base_url=cfg["base_url"],
+            api_key=cfg.get("api_key") or "EMPTY",
+        )
         self.model = cfg["model"]
         self.default_max_tokens = int(cfg.get("max_tokens", 4096))
         self.default_temperature = float(cfg.get("temperature", 0.2))
         self.default_top_p = float(cfg.get("top_p", 0.95))
 
-    def complete(
+    def _build_kwargs(
         self,
         system: str,
         user: str,
-        *,
-        max_tokens: int | None = None,
-        temperature: float | None = None,
-        response_format_json: bool = False,
-    ) -> str:
+        max_tokens: int | None,
+        temperature: float | None,
+        response_format_json: bool,
+    ) -> dict:
         kwargs = {
             "model": self.model,
             "messages": [
@@ -86,9 +117,35 @@ class VLLMClient:
             "top_p": self.default_top_p,
         }
         if response_format_json:
-            # vLLM honors OpenAI's response_format for guided JSON.
             kwargs["response_format"] = {"type": "json_object"}
-        resp = self.client.chat.completions.create(**kwargs)
+        return kwargs
+
+    def complete(
+        self,
+        system: str,
+        user: str,
+        *,
+        max_tokens: int | None = None,
+        temperature: float | None = None,
+        response_format_json: bool = False,
+    ) -> str:
+        resp = self.client.chat.completions.create(
+            **self._build_kwargs(system, user, max_tokens, temperature, response_format_json)
+        )
+        return resp.choices[0].message.content or ""
+
+    async def complete_async(
+        self,
+        system: str,
+        user: str,
+        *,
+        max_tokens: int | None = None,
+        temperature: float | None = None,
+        response_format_json: bool = False,
+    ) -> str:
+        resp = await self.async_client.chat.completions.create(
+            **self._build_kwargs(system, user, max_tokens, temperature, response_format_json)
+        )
         return resp.choices[0].message.content or ""
 
 
@@ -299,6 +356,9 @@ class MockLLMClient:
             self._state["completion_status"] = "in_progress"
 
         return json.dumps(self._state)
+
+    async def complete_async(self, system, user, **kw):  # noqa: D401
+        return self.complete(system, user, **kw)
 
 
 # --------------------------------------------------------------------------
@@ -519,6 +579,9 @@ class MockReasoningLLM:
             }
         )
 
+    async def complete_async(self, system, user, **kw):  # noqa: D401
+        return self.complete(system, user, **kw)
+
 
 # --------------------------------------------------------------------------
 # Mock for Module IV (Phase 10): response generation
@@ -555,6 +618,9 @@ class MockResponseLLM:
         if "RESPONSE COMPOSER" not in system:
             return "{}"
         return self._mock_response(user)
+
+    async def complete_async(self, system, user, **kw):  # noqa: D401
+        return self.complete(system, user, **kw)
 
     @staticmethod
     def _parse_user(user: str) -> dict:
@@ -787,3 +853,6 @@ class MockBaselineLLM:
             "gets worse or if new symptoms come up, and we'll handle "
             "it from there."
         )
+
+    async def complete_async(self, system, user, **kw):  # noqa: D401
+        return self.complete(system, user, **kw)

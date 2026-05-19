@@ -69,6 +69,10 @@ class PipelineResult:
     response: PatientResponse
     # Mode tag so the Markdown report can note whether mocks were used.
     mode: str = "real"  # "real" or "mock"
+    # Per-module wall-clock latency in milliseconds — populated by
+    # Pipeline.run(). Empty dict before instrumentation runs. Phase 12
+    # Fig 11 plots this.
+    module_timings_ms: dict[str, float] | None = None
 
 
 # --------------------------------------------------------------------------
@@ -167,7 +171,10 @@ class Pipeline:
         *,
         transcript_id: str,
         scenario: str,
+        max_reasoning_docs: int | None = None,
     ) -> PipelineResult:
+        import time
+
         utterances = list(patient_utterances)
         log.info(
             "pipeline.run transcript=%s mode=%s utterances=%d",
@@ -190,9 +197,13 @@ class Pipeline:
         )
         responder = Responder(response_llm, self._response_prompt)
 
+        timings: dict[str, float] = {}
+
         # ---- Module I: Intake ------------------------------------------
         log.info("[M1] running intake (%d turns) ...", len(utterances))
+        _t = time.perf_counter()
         profile, intake_trace = intake_agent.run_intake(utterances)
+        timings["module_1_intake"] = (time.perf_counter() - _t) * 1000.0
         log.info(
             "[M1] done. problems=%d emotional_cues=%d red_flags=%d goals=%d complete=%s",
             len(profile.problems),
@@ -204,7 +215,9 @@ class Pipeline:
 
         # ---- Module II: Retrieval --------------------------------------
         log.info("[M2] running retrieval ...")
+        _t = time.perf_counter()
         ranked = self.retriever.retrieve(profile)
+        timings["module_2_retrieval"] = (time.perf_counter() - _t) * 1000.0
         log.info(
             "[M2] done. sub_queries=%d ranked_docs=%d",
             len(ranked.sub_queries),
@@ -212,8 +225,14 @@ class Pipeline:
         )
 
         # ---- Module III: Reasoning -------------------------------------
-        log.info("[M3] running reasoning ...")
+        if max_reasoning_docs is not None and max_reasoning_docs < len(ranked.documents):
+            log.info("[M3] capping docs at %d (was %d)",
+                     max_reasoning_docs, len(ranked.documents))
+            ranked.documents = ranked.documents[:max_reasoning_docs]
+        log.info("[M3] running reasoning over %d docs ...", len(ranked.documents))
+        _t = time.perf_counter()
         context = reasoner.reason(ranked, profile)
+        timings["module_3_reasoning"] = (time.perf_counter() - _t) * 1000.0
         log.info(
             "[M3] done. assertions=%d clusters=%d (conv=%d div=%d)",
             context.n_assertions_extracted,
@@ -224,12 +243,23 @@ class Pipeline:
 
         # ---- Module IV: Response ---------------------------------------
         log.info("[M4] running response generation ...")
+        _t = time.perf_counter()
         response = responder.generate(profile, context)
+        timings["module_4_response"] = (time.perf_counter() - _t) * 1000.0
         log.info(
             "[M4] done. nurse=%s habits=%s glossary_subs=%d",
             response.nurse_elements_applied,
             response.four_habits_elements_applied,
             len(response.glossary_substitutions),
+        )
+        timings["total_ms"] = sum(timings.values())
+        log.info(
+            "[timings ms] m1=%.0f  m2=%.0f  m3=%.0f  m4=%.0f  total=%.0f",
+            timings["module_1_intake"],
+            timings["module_2_retrieval"],
+            timings["module_3_reasoning"],
+            timings["module_4_response"],
+            timings["total_ms"],
         )
 
         return PipelineResult(
@@ -242,6 +272,7 @@ class Pipeline:
             structured_context=context,
             response=response,
             mode=self.mode,
+            module_timings_ms=timings,
         )
 
 

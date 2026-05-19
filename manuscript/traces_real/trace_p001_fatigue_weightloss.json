@@ -1,0 +1,1145 @@
+{
+  "transcript_id": "p001_fatigue_weightloss",
+  "scenario": "52-year-old male contractor presenting with 1-month fatigue and unintentional ~12-pound weight loss. Father had colon cancer diagnosed late at 55. Patient and his wife both fear cancer. Wants to keep working.",
+  "patient_utterances": [
+    "I've been so tired the past month, and I've lost about 12 pounds without trying. My wife is convinced it's cancer and honestly I am too. I just want to know what's going on so I can keep working — I'm a contractor, if I can't be on my feet I can't earn.",
+    "It started about a month ago. Some days I feel a 7 out of 10 tired — I can barely get through my shifts. I'm taking ibuprofen sometimes for headaches but nothing for the fatigue itself. Sleep is okay but I'm not waking up rested.",
+    "No chest pain, no shortness of breath, nothing like that. No fainting, no sudden weakness on one side. But I have been getting these dull headaches in the morning, almost every day. No fevers, no blood in stool that I've seen — I'd have noticed.",
+    "I'm on lisinopril 10 mg once a day for blood pressure, been on it for years. No allergies that I know of. My dad had colon cancer at 55 — they caught it late and he didn't make it. I don't smoke. Maybe a beer or two on the weekends.",
+    "I'd really like to rule out the cancer thing — I want to feel safe again, you know? And I need to keep working. If we can do whatever's needed without me taking weeks off, that'd be a huge help."
+  ],
+  "intake_trace": [
+    {
+      "turn": 1,
+      "agent_prompt": "What brings you in today? Take your time and tell me what's been going on.",
+      "patient_utterance": "I've been so tired the past month, and I've lost about 12 pounds without trying. My wife is convinced it's cancer and honestly I am too. I just want to know what's going on so I can keep working — I'm a contractor, if I can't be on my feet I can't earn.",
+      "profile_after": {
+        "problems": [
+          {
+            "label": "persistent fatigue",
+            "onset": "about 1 month ago",
+            "severity": null,
+            "timing": "ongoing daily",
+            "associated_symptoms": [
+              "unintentional weight loss ~12 lb"
+            ],
+            "interventions_tried": [],
+            "status": "unknown"
+          },
+          {
+            "label": "unintentional weight loss",
+            "onset": "past month",
+            "severity": "~12 lb",
+            "timing": "past month",
+            "associated_symptoms": [
+              "fatigue"
+            ],
+            "interventions_tried": [],
+            "status": "worsening"
+          }
+        ],
+        "medications": [],
+        "allergies": [],
+        "relevant_history": [],
+        "patient_goals": [
+          "find out what's going on",
+          "keep working"
+        ],
+        "emotional_cues": [
+          {
+            "cue": "fear",
+            "evidence_quote": "My wife is convinced it's cancer and honestly I am too"
+          },
+          {
+            "cue": "worry",
+            "evidence_quote": "I just want to know what's going on"
+          },
+          {
+            "cue": "frustration",
+            "evidence_quote": "I'm a contractor, if I can't be on my feet I can't earn"
+          }
+        ],
+        "red_flags": [
+          {
+            "flag": "unexplained weight loss",
+            "evidence": "I've lost about 12 pounds without trying"
+          }
+        ],
+        "unknowns": [
+          "problems[0].severity",
+          "problems[0].status",
+          "problems[1].status",
+          "red_flag_screen_complete",
+          "allergies",
+          "medications",
+          "relevant_history"
+        ],
+        "turn_count": 1,
+        "completion_status": "in_progress"
+      },
+      "complete": false
+    },
+    {
+      "turn": 2,
+      "agent_prompt": "Before we go further, I want to check on a few quick safety questions. Have you had any chest pain, trouble breathing, sudden weakness or numbness, severe headaches, unexplained bleeding, or any thoughts of harming yourself recently?",
+      "patient_utterance": "It started about a month ago. Some days I feel a 7 out of 10 tired — I can barely get through my shifts. I'm taking ibuprofen sometimes for headaches but nothing for the fatigue itself. Sleep is okay but I'm not waking up rested.",
+      "profile_after": {
+        "problems": [
+          {
+            "label": "persistent fatigue",
+            "onset": "about a month ago",
+            "severity": "7 out of 10",
+            "timing": "some days",
+            "associated_symptoms": [
+              "unintentional weight loss ~12 lb",
+              "headaches"
+            ],
+            "interventions_tried": [
+              "taking ibuprofen sometimes for headaches"
+            ],
+            "status": "worsening"
+          },
+          {
+            "label": "unintentional weight loss",
+            "onset": "past month",
+            "severity": "~12 lb",
+            "timing": "past month",
+            "associated_symptoms": [
+              "fatigue"
+            ],
+            "interventions_tried": [],
+            "status": "worsening"
+          }
+        ],
+        "medications": [],
+        "allergies": [],
+        "relevant_history": [],
+        "patient_goals": [
+          "find out what's going on",
+          "keep working"
+        ],
+        "emotional_cues": [
+          {
+            "cue": "fear",
+            "evidence_quote": "My wife is convinced it's cancer and honestly I am too"
+          },
+          {
+            "cue": "worry",
+            "evidence_quote": "I just want to know what's going on"
+          },
+          {
+            "cue": "frustration",
+            "evidence_quote": "I'm a contractor, if I can't be on my feet I can't earn"
+          }
+        ],
+        "red_flags": [
+          {
+            "flag": "unexplained weight loss",
+            "evidence": "I've lost about 12 pounds without trying"
+          }
+        ],
+        "unknowns": [
+          "medications",
+          "allergies",
+          "relevant_history"
+        ],
+        "turn_count": 2,
+        "completion_status": "in_progress"
+      },
+      "complete": true
+    },
+    {
+      "turn": 3,
+      "agent_prompt": "(intake already complete; processing additional utterance)",
+      "patient_utterance": "No chest pain, no shortness of breath, nothing like that. No fainting, no sudden weakness on one side. But I have been getting these dull headaches in the morning, almost every day. No fevers, no blood in stool that I've seen — I'd have noticed.",
+      "profile_after": {
+        "problems": [
+          {
+            "label": "persistent fatigue",
+            "onset": "about a month ago",
+            "severity": "7 out of 10",
+            "timing": "some days",
+            "associated_symptoms": [
+              "unintentional weight loss ~12 lb",
+              "headaches"
+            ],
+            "interventions_tried": [
+              "taking ibuprofen sometimes for headaches"
+            ],
+            "status": "worsening"
+          },
+          {
+            "label": "unintentional weight loss",
+            "onset": "past month",
+            "severity": "~12 lb",
+            "timing": "past month",
+            "associated_symptoms": [
+              "fatigue"
+            ],
+            "interventions_tried": [],
+            "status": "worsening"
+          },
+          {
+            "label": "dull headaches",
+            "onset": "almost every day",
+            "severity": null,
+            "timing": "daily",
+            "associated_symptoms": [],
+            "interventions_tried": [],
+            "status": "unknown"
+          }
+        ],
+        "medications": [],
+        "allergies": [],
+        "relevant_history": [],
+        "patient_goals": [
+          "find out what's going on",
+          "keep working"
+        ],
+        "emotional_cues": [
+          {
+            "cue": "fear",
+            "evidence_quote": "My wife is convinced it's cancer and honestly I am too"
+          },
+          {
+            "cue": "worry",
+            "evidence_quote": "I just want to know what's going on"
+          },
+          {
+            "cue": "frustration",
+            "evidence_quote": "I'm a contractor, if I can't be on my feet I can't earn"
+          }
+        ],
+        "red_flags": [
+          {
+            "flag": "unexplained weight loss",
+            "evidence": "I've lost about 12 pounds without trying"
+          }
+        ],
+        "unknowns": [
+          "problems[2].severity",
+          "problems[2].onset",
+          "problems[2].status",
+          "medications",
+          "allergies",
+          "relevant_history"
+        ],
+        "turn_count": 3,
+        "completion_status": "in_progress"
+      },
+      "complete": false
+    },
+    {
+      "turn": 4,
+      "agent_prompt": "On a scale of 1 to 10, or in your own words, how bad has the dull headaches been?",
+      "patient_utterance": "I'm on lisinopril 10 mg once a day for blood pressure, been on it for years. No allergies that I know of. My dad had colon cancer at 55 — they caught it late and he didn't make it. I don't smoke. Maybe a beer or two on the weekends.",
+      "profile_after": {
+        "problems": [
+          {
+            "label": "persistent fatigue",
+            "onset": "about a month ago",
+            "severity": "7 out of 10",
+            "timing": "some days",
+            "associated_symptoms": [
+              "unintentional weight loss ~12 lb",
+              "headaches"
+            ],
+            "interventions_tried": [
+              "taking ibuprofen sometimes for headaches"
+            ],
+            "status": "worsening"
+          },
+          {
+            "label": "unintentional weight loss",
+            "onset": "past month",
+            "severity": "~12 lb",
+            "timing": "past month",
+            "associated_symptoms": [
+              "fatigue"
+            ],
+            "interventions_tried": [],
+            "status": "worsening"
+          },
+          {
+            "label": "dull headaches",
+            "onset": "almost every day",
+            "severity": null,
+            "timing": "daily",
+            "associated_symptoms": [],
+            "interventions_tried": [],
+            "status": "unknown"
+          }
+        ],
+        "medications": [
+          "lisinopril 10 mg once a day"
+        ],
+        "allergies": [
+          "No known allergies"
+        ],
+        "relevant_history": [
+          "Family history: father had colon cancer diagnosed at 55, passed away",
+          "Smoking status: non-smoker",
+          "Alcohol use: occasional beer consumption on weekends"
+        ],
+        "patient_goals": [
+          "find out what's going on",
+          "keep working"
+        ],
+        "emotional_cues": [
+          {
+            "cue": "fear",
+            "evidence_quote": "My wife is convinced it's cancer and honestly I am too"
+          },
+          {
+            "cue": "worry",
+            "evidence_quote": "I just want to know what's going on"
+          },
+          {
+            "cue": "frustration",
+            "evidence_quote": "I'm a contractor, if I can't be on my feet I can't earn"
+          }
+        ],
+        "red_flags": [
+          {
+            "flag": "unexplained weight loss",
+            "evidence": "I've lost about 12 pounds without trying"
+          }
+        ],
+        "unknowns": [
+          "problems[2].severity",
+          "problems[2].onset",
+          "problems[2].status",
+          "medications",
+          "allergies",
+          "relevant_history"
+        ],
+        "turn_count": 4,
+        "completion_status": "in_progress"
+      },
+      "complete": false
+    },
+    {
+      "turn": 5,
+      "agent_prompt": "On a scale of 1 to 10, or in your own words, how bad has the dull headaches been?",
+      "patient_utterance": "I'd really like to rule out the cancer thing — I want to feel safe again, you know? And I need to keep working. If we can do whatever's needed without me taking weeks off, that'd be a huge help.",
+      "profile_after": {
+        "problems": [
+          {
+            "label": "persistent fatigue",
+            "onset": "about a month ago",
+            "severity": "7 out of 10",
+            "timing": "some days",
+            "associated_symptoms": [
+              "unintentional weight loss ~12 lb",
+              "headaches"
+            ],
+            "interventions_tried": [
+              "taking ibuprofen sometimes for headaches"
+            ],
+            "status": "worsening"
+          },
+          {
+            "label": "unintentional weight loss",
+            "onset": "past month",
+            "severity": "~12 lb",
+            "timing": "past month",
+            "associated_symptoms": [
+              "fatigue"
+            ],
+            "interventions_tried": [],
+            "status": "worsening"
+          },
+          {
+            "label": "dull headaches",
+            "onset": "almost every day",
+            "severity": null,
+            "timing": "daily",
+            "associated_symptoms": [],
+            "interventions_tried": [],
+            "status": "unknown"
+          }
+        ],
+        "medications": [
+          "lisinopril 10 mg once a day"
+        ],
+        "allergies": [
+          "No known allergies"
+        ],
+        "relevant_history": [
+          "Family history: father had colon cancer diagnosed at 55, passed away",
+          "Smoking status: non-smoker",
+          "Alcohol use: occasional beer consumption on weekends"
+        ],
+        "patient_goals": [
+          "find out what's going on",
+          "keep working",
+          "feel safe"
+        ],
+        "emotional_cues": [
+          {
+            "cue": "fear",
+            "evidence_quote": "My wife is convinced it's cancer and honestly I am too"
+          },
+          {
+            "cue": "worry",
+            "evidence_quote": "I just want to know what's going on"
+          },
+          {
+            "cue": "frustration",
+            "evidence_quote": "I'm a contractor, if I can't be on my feet I can't earn"
+          },
+          {
+            "cue": "worry",
+            "evidence_quote": "I'd really like to rule out the cancer thing"
+          }
+        ],
+        "red_flags": [
+          {
+            "flag": "unexplained weight loss",
+            "evidence": "I've lost about 12 pounds without trying"
+          }
+        ],
+        "unknowns": [
+          "problems[2].severity",
+          "problems[2].onset",
+          "problems[2].status",
+          "medications",
+          "allergies",
+          "relevant_history"
+        ],
+        "turn_count": 5,
+        "completion_status": "in_progress"
+      },
+      "complete": false
+    }
+  ],
+  "profile": {
+    "problems": [
+      {
+        "label": "persistent fatigue",
+        "onset": "about a month ago",
+        "severity": "7 out of 10",
+        "timing": "some days",
+        "associated_symptoms": [
+          "unintentional weight loss ~12 lb",
+          "headaches"
+        ],
+        "interventions_tried": [
+          "taking ibuprofen sometimes for headaches"
+        ],
+        "status": "worsening"
+      },
+      {
+        "label": "unintentional weight loss",
+        "onset": "past month",
+        "severity": "~12 lb",
+        "timing": "past month",
+        "associated_symptoms": [
+          "fatigue"
+        ],
+        "interventions_tried": [],
+        "status": "worsening"
+      },
+      {
+        "label": "dull headaches",
+        "onset": "almost every day",
+        "severity": null,
+        "timing": "daily",
+        "associated_symptoms": [],
+        "interventions_tried": [],
+        "status": "unknown"
+      }
+    ],
+    "medications": [
+      "lisinopril 10 mg once a day"
+    ],
+    "allergies": [
+      "No known allergies"
+    ],
+    "relevant_history": [
+      "Family history: father had colon cancer diagnosed at 55, passed away",
+      "Smoking status: non-smoker",
+      "Alcohol use: occasional beer consumption on weekends"
+    ],
+    "patient_goals": [
+      "find out what's going on",
+      "keep working",
+      "feel safe"
+    ],
+    "emotional_cues": [
+      {
+        "cue": "fear",
+        "evidence_quote": "My wife is convinced it's cancer and honestly I am too"
+      },
+      {
+        "cue": "worry",
+        "evidence_quote": "I just want to know what's going on"
+      },
+      {
+        "cue": "frustration",
+        "evidence_quote": "I'm a contractor, if I can't be on my feet I can't earn"
+      },
+      {
+        "cue": "worry",
+        "evidence_quote": "I'd really like to rule out the cancer thing"
+      }
+    ],
+    "red_flags": [
+      {
+        "flag": "unexplained weight loss",
+        "evidence": "I've lost about 12 pounds without trying"
+      }
+    ],
+    "unknowns": [
+      "problems[2].severity",
+      "problems[2].onset",
+      "problems[2].status",
+      "medications",
+      "allergies",
+      "relevant_history"
+    ],
+    "turn_count": 5,
+    "completion_status": "in_progress"
+  },
+  "ranked_docs": {
+    "sub_queries": [
+      {
+        "source": "problem",
+        "source_index": 0,
+        "addresses": "problems[0]",
+        "text": "Adult primary care: persistent fatigue | onset about a month ago | severity 7 out of 10 | timing some days | associated with unintentional weight loss ~12 lb, headaches | tried taking ibuprofen sometimes for headaches. What guideline-based assessment, workup, or management is recommended?"
+      },
+      {
+        "source": "problem",
+        "source_index": 1,
+        "addresses": "problems[1]",
+        "text": "Adult primary care: unintentional weight loss | onset past month | severity ~12 lb | timing past month | associated with fatigue. What guideline-based assessment, workup, or management is recommended?"
+      },
+      {
+        "source": "problem",
+        "source_index": 2,
+        "addresses": "problems[2]",
+        "text": "Adult primary care: dull headaches | onset almost every day | timing daily. What guideline-based assessment, workup, or management is recommended?"
+      },
+      {
+        "source": "goal",
+        "source_index": 0,
+        "addresses": "patient_goals[0]",
+        "text": "Patient goal: \"find out what's going on\". What clinician communication, shared decision-making, or counseling guidance addresses this goal?"
+      },
+      {
+        "source": "goal",
+        "source_index": 1,
+        "addresses": "patient_goals[1]",
+        "text": "Patient goal: \"keep working\". What clinician communication, shared decision-making, or counseling guidance addresses this goal?"
+      },
+      {
+        "source": "goal",
+        "source_index": 2,
+        "addresses": "patient_goals[2]",
+        "text": "Patient goal: \"feel safe\". What clinician communication, shared decision-making, or counseling guidance addresses this goal?"
+      },
+      {
+        "source": "global_context",
+        "source_index": 0,
+        "addresses": null,
+        "text": "Patient context — medications: lisinopril 10 mg once a day | allergies: No known allergies | history: Family history: father had colon cancer diagnosed at 55, passed away; Smoking status: non-smoker; Alcohol use: occasional beer consumption on weekends | red flags: unexplained weight loss"
+      }
+    ],
+    "documents": [
+      {
+        "pmid": "41092546",
+        "title": "Patient-clinician communication in longitudinal care settings about adverse childhood experiences (ACEs) and adult traumas: A systematic review of reviews.",
+        "journal": "Patient education and counseling",
+        "pub_year": 2026,
+        "pub_date": "2026-01",
+        "pub_types": [
+          "Journal Article",
+          "Systematic Review"
+        ],
+        "issuing_body": null,
+        "chunks": [
+          {
+            "chunk_id": "41092546_000",
+            "pmid": "41092546",
+            "section_label": "OBJECTIVE",
+            "text": "Synthesize the literature on strategies for clinician communication or relationship-building during longitudinal care visits with adult patients who have had adverse childhood experiences (ACEs) and/or other traumas later in life.",
+            "semantic_similarity": 0.6905226707458496,
+            "matched_sub_query_indices": [
+              5
+            ]
+          },
+          {
+            "chunk_id": "41092546_001",
+            "pmid": "41092546",
+            "section_label": "METHODS",
+            "text": "Systematic searches of literature reviews from 2012 to 2022 using CINAHL, PubMed, Cochrane Database, and Web of Science and Sociological Abstracts. Search terms reflected three key concepts: 1) Trauma (i.e., trauma, interpersonal violence, adverse childhood experiences), 2) Patient-provider communication/relationship-building (i.e., communication), and 3) Longitudinal patient care (primary care). Three researchers independently reviewed each title, abstract, and article to determine relevance and completed methodological quality appraisal using the AMSTAR-2 framework. Thematic analysis was used to identify key learning points and gaps in the literature.",
+            "semantic_similarity": 0.68330979347229,
+            "matched_sub_query_indices": [
+              5
+            ]
+          },
+          {
+            "chunk_id": "41092546_003",
+            "pmid": "41092546",
+            "section_label": "CONCLUSION",
+            "text": "Communication with clinicians about traumatic experiences shows potential benefit to adult primary care patients. Future research rigorously evaluating training on and implementation of best practices in trauma communication is needed.",
+            "semantic_similarity": 0.6741472482681274,
+            "matched_sub_query_indices": [
+              5
+            ]
+          }
+        ],
+        "full_text": "OBJECTIVE: Synthesize the literature on strategies for clinician communication or relationship-building during longitudinal care visits with adult patients who have had adverse childhood experiences (ACEs) and/or other traumas later in life.\n\nMETHODS: Systematic searches of literature reviews from 2012 to 2022 using CINAHL, PubMed, Cochrane Database, and Web of Science and Sociological Abstracts. Search terms reflected three key concepts: 1) Trauma (i.e., trauma, interpersonal violence, adverse childhood experiences), 2) Patient-provider communication/relationship-building (i.e., communication), and 3) Longitudinal patient care (primary care). Three researchers independently reviewed each title, abstract, and article to determine relevance and completed methodological quality appraisal using the AMSTAR-2 framework. Thematic analysis was used to identify key learning points and gaps in the literature.\n\nRESULTS: We screened 1158 articles and included 39 manuscripts: 15 % (n = 6) of the manuscripts discussed ACEs, 49 % (n = 19) discussed adult traumas, and 36 % (n = 14) discussed trauma-informed care (TIC) approaches with both or no age determination of exposure to trauma. Themes related to the role of screening, strategies to optimize communication, the importance of resources and institutional support, and associated health outcomes. According to the AMSTAR-2, most of the studies had low or critically low methodological quality.\n\nCONCLUSION: Communication with clinicians about traumatic experiences shows potential benefit to adult primary care patients. Future research rigorously evaluating training on and implementation of best practices in trauma communication is needed.\n\nPRACTICE IMPLICATIONS: Clinician- and systems-level readiness to respond to and engage in conversations about traumatic experiences with adult primary care patients requires organizational support, including sustained intervention efforts, trauma communication training, and resource allocation.",
+        "addresses_concerns": [
+          "sub_query[5]"
+        ],
+        "semantic_similarity": 0.6905226707458496,
+        "recency_score": 1.0,
+        "authority_score": 0.8,
+        "coverage_bonus": 0.14285714285714285,
+        "total_score": 0.719547049658639
+      },
+      {
+        "pmid": "38533994",
+        "title": "Mobile phone text messaging for medication adherence in secondary prevention of cardiovascular disease.",
+        "journal": "The Cochrane database of systematic reviews",
+        "pub_year": 2024,
+        "pub_date": "2024-03-27",
+        "pub_types": [
+          "Journal Article",
+          "Systematic Review",
+          "Meta-Analysis"
+        ],
+        "issuing_body": null,
+        "chunks": [
+          {
+            "chunk_id": "38533994_004",
+            "pmid": "38533994",
+            "section_label": "DATA COLLECTION AND ANALYSIS",
+            "text": "We used standard Cochrane methods. Our primary outcomes were medication adherence, fatal cardiovascular events, non-fatal cardiovascular events, and combined CVD event. Secondary outcomes were low-density lipoprotein cholesterol for the effect of statins, blood pressure for antihypertensive drugs, heart rate for the effect of beta-blockers, urinary 11-dehydrothromboxane B2 for the antiplatelet effects of aspirin, adverse effects, and patient-reported experience. We used GRADE to assess the certainty of the evidence for each outcome.",
+            "semantic_similarity": 0.664588212966919,
+            "matched_sub_query_indices": [
+              6
+            ]
+          }
+        ],
+        "full_text": "BACKGROUND: Cardiovascular diseases (CVDs) are the leading cause of death globally, accounting for almost 18 million deaths annually. People with CVDs have a five times greater chance of suffering a recurrent cardiovascular event than people without known CVDs. Although drug interventions have been shown to be cost-effective in reducing the risk of recurrent cardiovascular events, adherence to medication remains suboptimal. As a scalable and cost-effective approach, mobile phone text messaging presents an opportunity to convey health information, deliver electronic reminders, and encourage behaviour change. However, it is uncertain whether text messaging can improve medication adherence and clinical outcomes. This is an update of a Cochrane review published in 2017.\n\nOBJECTIVES: To evaluate the benefits and harms of mobile phone text messaging for improving medication adherence in people with CVDs compared to usual care.\n\nSEARCH METHODS: We searched CENTRAL, MEDLINE, Embase, four other databases, and two trial registers. We also checked the reference lists of all primary included studies and relevant systematic reviews and meta-analyses. The date of the latest search was 30 August 2023.\n\nSELECTION CRITERIA: We included randomised controlled trials (RCTs) with participants with established arterial occlusive events. We included trials investigating interventions using short message service (SMS) or multimedia messaging service (MMS) with the aim of improving adherence to medication for the secondary prevention of cardiovascular events. The comparator was usual care. We excluded cluster-RCTs and quasi-RCTs.\n\nDATA COLLECTION AND ANALYSIS: We used standard Cochrane methods. Our primary outcomes were medication adherence, fatal cardiovascular events, non-fatal cardiovascular events, and combined CVD event. Secondary outcomes were low-density lipoprotein cholesterol for the effect of statins, blood pressure for antihypertensive drugs, heart rate for the effect of beta-blockers, urinary 11-dehydrothromboxane B2 for the antiplatelet effects of aspirin, adverse effects, and patient-reported experience. We used GRADE to assess the certainty of the evidence for each outcome.\n\nMAIN RESULTS: We included 18 RCTs involving a total of 8136 participants with CVDs. We identified 11 new studies in the review update and seven studies in the previous version of the review. Participants had various CVDs including acute coronary syndrome, coronary heart disease, stroke, myocardial infarction, and angina. All studies were conducted in middle- and high-income countries, with no studies conducted in low-income countries. The mean age of participants was 53 to 64 years. Participants were recruited from hospitals or cardiac rehabilitation facilities. Follow-up ranged from one to 12 months. There was variation in the characteristics of text messages amongst studies (e.g. delivery method, frequency, theoretical grounding, content used, personalisation, and directionality). The content of text messages varied across studies, but generally included medication reminders and healthy lifestyle information such as diet, physical activity, and weight loss. Text messages offered advice, motivation, social support, and health education to promote behaviour changes and regular medication-taking. We assessed risk of bias for all studies as high, as all studies had at least one domain at unclear or high risk of bias. Medication adherence Due to different evaluation score systems and inconsistent definitions applied for the measurement of medication adherence, we did not conduct meta-analysis for medication adherence. Ten out of 18 studies showed a beneficial effect of mobile phone text messaging for medication adherence compared to usual care, whereas the other eight studies showed either a reduction or no difference in medication adherence with text messaging compared to usual care. Overall, the evidence is very uncertain about the effects of mobile phone text messaging for medication adherence when compared to usual care. Fatal cardiovascular events Text messaging may have little to no effect on fatal cardiovascular events compared to usual care (odds ratio 0.83, 95% confidence interval (CI) 0.47 to 1.45; 4 studies, 1654 participants; low-certainty evidence). Non-fatal cardiovascular events We found very low-certainty evidence that text messaging may have little to no effect on non-fatal cardiovascular events. Two studies reported non-fatal cardiovascular events, neither of which found evidence of a difference between groups. Combined CVD events We found very low-certainty evidence that text messaging may have little to no effect on combined CVD events. Only one study reported combined CVD events, and did not find evidence of a difference between groups. Low-density lipoprotein cholesterol Text messaging may have little to no effect on low-density lipoprotein cholesterol compared to usual care (mean difference (MD) -1.79 mg/dL, 95% CI -4.71 to 1.12; 8 studies, 4983 participants; very low-certainty evidence). Blood pressure Text messaging may have little to no effect on systolic blood pressure (MD -0.93 mmHg, 95% CI -3.55 to 1.69; 8 studies, 5173 participants; very low-certainty evidence) and diastolic blood pressure (MD -1.00 mmHg, 95% CI -2.49 to 0.50; 5 studies, 3137 participants; very low-certainty evidence) when compared to usual care. Heart rate Text messaging may have little to no effect on heart rate compared to usual care (MD -0.46 beats per minute, 95% CI -1.74 to 0.82; 4 studies, 2946 participants; very low-certainty evidence).\n\nAUTHORS' CONCLUSIONS: Due to limited evidence, we are uncertain if text messaging reduces medication adherence, fatal and non-fatal cardiovascular events, and combined cardiovascular events in people with cardiovascular diseases when compared to usual care. Furthermore, text messaging may result in little or no effect on low-density lipoprotein cholesterol, blood pressure, and heart rate compared to usual care. The included studies were of low methodological quality, and no studies assessed the effects of text messaging in low-income countries or beyond the 12-month follow-up. Long-term and high-quality randomised trials are needed, particularly in low-income countries.",
+        "addresses_concerns": [
+          "sub_query[6]"
+        ],
+        "semantic_similarity": 0.664588212966919,
+        "recency_score": 0.75,
+        "authority_score": 0.98,
+        "coverage_bonus": 0.14285714285714285,
+        "total_score": 0.6925798207691738
+      },
+      {
+        "pmid": "40759522",
+        "title": "Effectiveness of general practitioner-delivered nutrition care on dietary and health outcomes in adults with chronic conditions: a systematic review.",
+        "journal": "BMJ open",
+        "pub_year": 2025,
+        "pub_date": "2025-08-04",
+        "pub_types": [
+          "Journal Article",
+          "Systematic Review"
+        ],
+        "issuing_body": null,
+        "chunks": [
+          {
+            "chunk_id": "40759522_006",
+            "pmid": "40759522",
+            "section_label": "CONCLUSIONS",
+            "text": "There is mixed evidence of the effectiveness of GP-delivered nutrition care among adults with diet-related chronic conditions or risk states. Additionally, most interventions did not include prompting and had a limited range of behaviour change techniques. The effectiveness of nutrition care delivered by GPs is an understudied area that warrants greater experimental investigation and requires more robust methods and reporting.",
+            "semantic_similarity": 0.6574133634567261,
+            "matched_sub_query_indices": [
+              0,
+              1
+            ]
+          }
+        ],
+        "full_text": "OBJECTIVES: To evaluate the effectiveness of nutrition care delivered by general practitioners (GPs) compared with usual or no care on dietary and health outcomes in adults with diet-related chronic conditions or risk states and to examine which intervention components are associated with effectiveness.\n\nSTUDY DESIGN: A systematic review of randomised controlled trials (RCTs).\n\nDATA SOURCES: CINAHL, Embase, MEDLINE and ProQuest Nursing and Allied Health databases were searched in October 2021 and updated in February 2024 for articles related to GPs, nutrition care and diet-related health outcomes.\n\nELIGIBILITY CRITERIA: Published RCTs were included according to the following criteria: adults with or at risk of diet-related chronic conditions; nutrition care delivered by GPs in the primary care setting; usual or no care as comparators; and dietary and/or health outcomes with a minimum 3-month follow-up. No restriction was placed on the date of publication.\n\nDATA EXTRACTION AND SYNTHESIS: Duplicates were reconciled in EndNote. Two reviewers independently screened the titles, abstracts and full texts in Covidence. Two independent reviewers completed the critical appraisal and data extraction. Disagreements were resolved through discussion or with a third reviewer. The Motivation Actions and Prompts (MAP) framework was used to analyse the behaviour change components of study interventions. Results were reported using narrative synthesis and certainty in findings was summarised using GRADEpro GDT software.\n\nRESULTS: Seven RCTs met the inclusion criteria (5744 patients). The trials were conducted in Australia, Italy and the USA from 1991 to 2013, with follow-up periods from 3 to 12 months. A consistent effect in favour of the intervention was found for diet scores (2 RCTs, 3038 participants). Other outcomes had mixed effects: (1) fat intake (2 RCTs, 2299 participants) - one study with an effect in favour of the intervention and one with mixed effects; (2) blood pressure (3 RCTs, 3063 participants) - one study with mixed effects and two with no effect; (3) body mass index (6 RCTs, 5538 participants) - two studies with an effect in favour of the intervention, two with no effect and two reporting no between group differences; (4) body weight (2 RCTs, 511 participants) - one study with an effect in favour of the intervention and one with no effect and (5) cholesterol (4 RCTs, 2505 participants) - one study with an effect in favour of the intervention and three with mixed effects and/or limited reporting. All studies had a motivation and action route to behaviour change and two had a prompted component, according to the MAP framework. The interventions spanned nine behaviour change groupings and 16 behaviour change techniques. There was a very low certainty of findings in all cases and the studies were of low to moderate methodological quality.\n\nCONCLUSIONS: There is mixed evidence of the effectiveness of GP-delivered nutrition care among adults with diet-related chronic conditions or risk states. Additionally, most interventions did not include prompting and had a limited range of behaviour change techniques. The effectiveness of nutrition care delivered by GPs is an understudied area that warrants greater experimental investigation and requires more robust methods and reporting.\n\nPROSPERO REGISTRATION NUMBER: CRD42021289011.",
+        "addresses_concerns": [
+          "sub_query[0]",
+          "sub_query[1]"
+        ],
+        "semantic_similarity": 0.6574133634567261,
+        "recency_score": 0.875,
+        "authority_score": 0.8,
+        "coverage_bonus": 0.2857142857142857,
+        "total_score": 0.6922781102997917
+      },
+      {
+        "pmid": "38604640",
+        "title": "Do patients with type 2 diabetes mellitus included in randomised clinical trials differ from general-practice patients? A cross-sectional comparative study.",
+        "journal": "BMJ open",
+        "pub_year": 2024,
+        "pub_date": "2024-04-11",
+        "pub_types": [
+          "Journal Article",
+          "Comparative Study",
+          "Systematic Review"
+        ],
+        "issuing_body": null,
+        "chunks": [
+          {
+            "chunk_id": "38604640_005",
+            "pmid": "38604640",
+            "section_label": "RESULTS",
+            "text": "General-practice patients were older than randomised controlled trial patients (mean (SD) 68.8 (1.1) vs 59.9 years (standardised difference 0.8)) and had a higher body mass index (mean (SD) 31.5 (6.9) vs 28.2 kg/m2 (standardised difference 0.5)) but smoked less (11.0% vs 29.3% (standardised difference -0.6)). They more frequently used antihypertensive drugs (82.1% vs 37.5% (standardised difference 1.2)) but less frequently had a myocardial infarction (7.6% vs 23.1% (standardised difference -1.1)).",
+            "semantic_similarity": 0.7017741203308105,
+            "matched_sub_query_indices": [
+              6
+            ]
+          }
+        ],
+        "full_text": "OBJECTIVES: To compare the characteristics of patients with type 2 diabetes mellitus in general practice and those included in randomised controlled trials on which clinical practice guidelines are based.\n\nDESIGN: Cross-sectional comparative study.\n\nSETTING: We asked 45 general practitioners from three French Departments to identify the 15 patients with type 2 diabetes mellitus they most recently saw in consultation. In parallel, we selected randomised controlled trials included in the Cochrane systematic review on which the clinical practice guidelines for type 2 diabetes mellitus were based.\n\nPARTICIPANTS: We included 675 patients with type 2 diabetes mellitus, and data were collected from 23 randomised controlled trials, corresponding to 36 059 patients.\n\nOUTCOME MEASURES: Characteristics of general-practice patients were extracted from medical records by a unique observer. The same baseline characteristics of patients included in randomised controlled trials from the Cochrane systematic review were extracted and meta-analysed. We assessed standardised differences between these two series of baseline characteristics. A difference greater than 0.10 in absolute value was considered meaningful.\n\nRESULTS: General-practice patients were older than randomised controlled trial patients (mean (SD) 68.8 (1.1) vs 59.9 years (standardised difference 0.8)) and had a higher body mass index (mean (SD) 31.5 (6.9) vs 28.2 kg/m2 (standardised difference 0.5)) but smoked less (11.0% vs 29.3% (standardised difference -0.6)). They more frequently used antihypertensive drugs (82.1% vs 37.5% (standardised difference 1.2)) but less frequently had a myocardial infarction (7.6% vs 23.1% (standardised difference -1.1)).\n\nCONCLUSIONS: Patients with type 2 diabetes mellitus cared for in general practice differ in a number of important aspects from patients included in randomised controlled trials on which clinical practice guidelines are based. This situation hampers the applicability of these guidelines. Future randomised trials should include patients who better fit the 'average' general-practice patient with type 2 diabetes mellitus to help improve the translation of study findings in daily practice.",
+        "addresses_concerns": [
+          "sub_query[6]"
+        ],
+        "semantic_similarity": 0.7017741203308105,
+        "recency_score": 0.75,
+        "authority_score": 0.8,
+        "coverage_bonus": 0.0,
+        "total_score": 0.6608870601654053
+      },
+      {
+        "pmid": "35709018",
+        "title": "Clinical judgement by primary care physicians for the diagnosis of all-cause dementia or cognitive impairment in symptomatic people.",
+        "journal": "The Cochrane database of systematic reviews",
+        "pub_year": 2022,
+        "pub_date": "2022-06-16",
+        "pub_types": [
+          "Journal Article",
+          "Meta-Analysis",
+          "Research Support, Non-U.S. Gov't",
+          "Systematic Review"
+        ],
+        "issuing_body": null,
+        "chunks": [
+          {
+            "chunk_id": "35709018_003",
+            "pmid": "35709018",
+            "section_label": "SELECTION CRITERIA",
+            "text": "We selected cross-sectional and cohort studies from primary care where clinical judgement was determined by a GP either prospectively (after consulting with a patient who has presented to a specific encounter with the doctor) or retrospectively (based on knowledge of the patient and review of the medical notes, but not relating to a specific encounter with the patient). The target conditions were dementia and cognitive impairment (mild cognitive impairment and dementia) and we included studies with any appropriate reference standard such as the Diagnostic and Statistical Manual of Mental Disorders (DSM), International Classification of Diseases (ICD), aetiological definitions, or expert clinical diagnosis.",
+            "semantic_similarity": 0.671164870262146,
+            "matched_sub_query_indices": [
+              2
+            ]
+          },
+          {
+            "chunk_id": "35709018_001",
+            "pmid": "35709018",
+            "section_label": "OBJECTIVES",
+            "text": "To determine the diagnostic accuracy of GPs' clinical judgement for diagnosing cognitive impairment and dementia in symptomatic people presenting to primary care. To investigate the heterogeneity of test accuracy in the included studies.",
+            "semantic_similarity": 0.6689600944519043,
+            "matched_sub_query_indices": [
+              2
+            ]
+          }
+        ],
+        "full_text": "BACKGROUND: In primary care, general practitioners (GPs) unavoidably reach a clinical judgement about a patient as part of their encounter with patients, and so clinical judgement can be an important part of the diagnostic evaluation. Typically clinical decision making about what to do next for a patient incorporates clinical judgement about the diagnosis with severity of symptoms and patient factors, such as their ideas and expectations for treatment. When evaluating patients for dementia, many GPs report using their own judgement to evaluate cognition, using information that is immediately available at the point of care, to decide whether someone has or does not have dementia, rather than more formal tests.\n\nOBJECTIVES: To determine the diagnostic accuracy of GPs' clinical judgement for diagnosing cognitive impairment and dementia in symptomatic people presenting to primary care. To investigate the heterogeneity of test accuracy in the included studies.\n\nSEARCH METHODS: We searched MEDLINE (Ovid SP), Embase (Ovid SP), PsycINFO (Ovid SP), Web of Science Core Collection (ISI Web of Science), and LILACs (BIREME) on 16 September 2021.\n\nSELECTION CRITERIA: We selected cross-sectional and cohort studies from primary care where clinical judgement was determined by a GP either prospectively (after consulting with a patient who has presented to a specific encounter with the doctor) or retrospectively (based on knowledge of the patient and review of the medical notes, but not relating to a specific encounter with the patient). The target conditions were dementia and cognitive impairment (mild cognitive impairment and dementia) and we included studies with any appropriate reference standard such as the Diagnostic and Statistical Manual of Mental Disorders (DSM), International Classification of Diseases (ICD), aetiological definitions, or expert clinical diagnosis.\n\nDATA COLLECTION AND ANALYSIS: Two review authors screened titles and abstracts for relevant articles and extracted data separately with differences resolved by consensus discussion. We used QUADAS-2 to evaluate the risk of bias and concerns about applicability in each study using anchoring statements. We performed meta-analysis using the bivariate method.\n\nMAIN RESULTS: We identified 18,202 potentially relevant articles, of which 12,427 remained after de-duplication. We assessed 57 full-text articles and extracted data on 11 studies (17 papers), of which 10 studies had quantitative data. We included eight studies in the meta-analysis for the target condition dementia and four studies for the target condition cognitive impairment. Most studies were at low risk of bias as assessed with the QUADAS-2 tool, except for the flow and timing domain where four studies were at high risk of bias, and the reference standard domain where two studies were at high risk of bias. Most studies had low concern about applicability to the review question in all QUADAS-2 domains. Average age ranged from 73 years to 83 years (weighted average 77 years). The percentage of female participants in studies ranged from 47% to 100%. The percentage of people with a final diagnosis of dementia was between 2% and 56% across studies (a weighted average of 21%). For the target condition dementia, in individual studies sensitivity ranged from 34% to 91% and specificity ranged from 58% to 99%. In the meta-analysis for dementia as the target condition, in eight studies in which a total of 826 of 2790 participants had dementia, the summary diagnostic accuracy of clinical judgement of general practitioners was sensitivity 58% (95% confidence interval (CI) 43% to 72%), specificity 89% (95% CI 79% to 95%), positive likelihood ratio 5.3 (95% CI 2.4 to 8.2), and negative likelihood ratio 0.47 (95% CI 0.33 to 0.61). For the target condition cognitive impairment, in individual studies sensitivity ranged from 58% to 97% and specificity ranged from 40% to 88%. The summary diagnostic accuracy of clinical judgement of general practitioners in four studies in which a total of 594 of 1497 participants had cognitive impairment was sensitivity 84% (95% CI 60% to 95%), specificity 73% (95% CI 50% to 88%), positive likelihood ratio 3.1 (95% CI 1.4 to 4.7), and negative likelihood ratio 0.23 (95% CI 0.06 to 0.40). It was impossible to draw firm conclusions in the analysis of heterogeneity because there were small numbers of studies. For specificity we found the data were compatible with studies that used ICD-10, or applied retrospective judgement, had higher reported specificity compared to studies with DSM definitions or using prospective judgement. In contrast for sensitivity, we found studies that used a prospective index test may have had higher sensitivity than studies that used a retrospective index test.\n\nAUTHORS' CONCLUSIONS: Clinical judgement of GPs is more specific than sensitive for the diagnosis of dementia. It would be necessary to use additional tests to confirm the diagnosis for either target condition, or to confirm the absence of the target conditions, but clinical judgement may inform the choice of further testing. Many people who a GP judges as having dementia will have the condition. People with false negative diagnoses are likely to have less severe disease and some could be identified by using more formal testing in people who GPs judge as not having dementia. Some false positives may require similar practical support to those with dementia, but some - such as some people with depression - may suffer delayed intervention for an alternative treatable pathology.",
+        "addresses_concerns": [
+          "sub_query[2]"
+        ],
+        "semantic_similarity": 0.671164870262146,
+        "recency_score": 0.5,
+        "authority_score": 0.98,
+        "coverage_bonus": 0.14285714285714285,
+        "total_score": 0.6458681494167873
+      }
+    ],
+    "rerank_weights": {
+      "semantic_similarity": 0.5,
+      "recency": 0.2,
+      "authority": 0.2,
+      "coverage_bonus": 0.1
+    },
+    "top_k_chunks_per_query": 20,
+    "final_n_documents": 20,
+    "expansion_used": "stub"
+  },
+  "structured_context": {
+    "clusters": [
+      {
+        "cluster_id": "finding::global::38604640_5",
+        "assertion_type": "finding",
+        "addresses_concern": null,
+        "primary_assertion": {
+          "assertion_id": "38604640_5",
+          "assertion_text": "This situation hampers the applicability of clinical practice guidelines.",
+          "assertion_type": "finding",
+          "confidence": 0.9,
+          "source_pmid": "38604640",
+          "source_chunk_id": null,
+          "addresses_concern": null,
+          "evidence_quote": "This situation hampers the applicability of these guidelines."
+        },
+        "supporting_pmids": [
+          "38604640"
+        ],
+        "alternative_assertions": [],
+        "convergent": true,
+        "confidence": 0.9,
+        "resolution_rule": null,
+        "resolution_rationale": null
+      },
+      {
+        "cluster_id": "finding::global::41092546_0",
+        "assertion_type": "finding",
+        "addresses_concern": null,
+        "primary_assertion": {
+          "assertion_id": "41092546_0",
+          "assertion_text": "Communication about traumatic experiences shows potential benefit to adult primary care patients.",
+          "assertion_type": "finding",
+          "confidence": 0.85,
+          "source_pmid": "41092546",
+          "source_chunk_id": null,
+          "addresses_concern": null,
+          "evidence_quote": "Communication with clinicians about traumatic experiences shows potential benefit to adult primary care patients."
+        },
+        "supporting_pmids": [
+          "41092546"
+        ],
+        "alternative_assertions": [],
+        "convergent": true,
+        "confidence": 0.85,
+        "resolution_rule": null,
+        "resolution_rationale": null
+      },
+      {
+        "cluster_id": "finding::global::40759522_0",
+        "assertion_type": "finding",
+        "addresses_concern": null,
+        "primary_assertion": {
+          "assertion_id": "40759522_0",
+          "assertion_text": "There is mixed evidence of the effectiveness of GP-delivered nutrition care among adults with diet-related chronic conditions or risk states.",
+          "assertion_type": "finding",
+          "confidence": 0.85,
+          "source_pmid": "40759522",
+          "source_chunk_id": null,
+          "addresses_concern": null,
+          "evidence_quote": "There is mixed evidence of the effectiveness of GP-delivered nutrition care among adults with diet-related chronic conditions or risk states."
+        },
+        "supporting_pmids": [
+          "40759522"
+        ],
+        "alternative_assertions": [],
+        "convergent": true,
+        "confidence": 0.85,
+        "resolution_rule": null,
+        "resolution_rationale": null
+      },
+      {
+        "cluster_id": "recommendation::global::38604640_6",
+        "assertion_type": "recommendation",
+        "addresses_concern": null,
+        "primary_assertion": {
+          "assertion_id": "38604640_6",
+          "assertion_text": "Future trials should include patients who better fit the 'average' general-practice patient to improve guideline translation.",
+          "assertion_type": "recommendation",
+          "confidence": 0.85,
+          "source_pmid": "38604640",
+          "source_chunk_id": null,
+          "addresses_concern": null,
+          "evidence_quote": "Future randomised trials should include patients who better fit the 'average' general-practice patient with type 2 diabetes mellitus to help improve the translation of study findings in daily practice."
+        },
+        "supporting_pmids": [
+          "38604640"
+        ],
+        "alternative_assertions": [],
+        "convergent": true,
+        "confidence": 0.85,
+        "resolution_rule": null,
+        "resolution_rationale": null
+      },
+      {
+        "cluster_id": "finding::global::40759522_1",
+        "assertion_type": "finding",
+        "addresses_concern": null,
+        "primary_assertion": {
+          "assertion_id": "40759522_1",
+          "assertion_text": "Most interventions did not include prompting and had a limited range of behaviour change techniques.",
+          "assertion_type": "finding",
+          "confidence": 0.8,
+          "source_pmid": "40759522",
+          "source_chunk_id": null,
+          "addresses_concern": null,
+          "evidence_quote": "Most interventions did not include prompting and had a limited range of behaviour change techniques."
+        },
+        "supporting_pmids": [
+          "40759522"
+        ],
+        "alternative_assertions": [],
+        "convergent": true,
+        "confidence": 0.8,
+        "resolution_rule": null,
+        "resolution_rationale": null
+      },
+      {
+        "cluster_id": "recommendation::global::41092546_1",
+        "assertion_type": "recommendation",
+        "addresses_concern": null,
+        "primary_assertion": {
+          "assertion_id": "41092546_1",
+          "assertion_text": "Organizational support, including sustained intervention efforts, trauma communication training, and resource allocation, is required for clinician readiness to engage in conversations about traumatic experiences.",
+          "assertion_type": "recommendation",
+          "confidence": 0.8,
+          "source_pmid": "41092546",
+          "source_chunk_id": null,
+          "addresses_concern": null,
+          "evidence_quote": "Clinician- and systems-level readiness to respond to and engage in conversations about traumatic experiences with adult primary care patients requires organizational support, including sustained intervention efforts, trauma communication training, and resource allocation."
+        },
+        "supporting_pmids": [
+          "41092546"
+        ],
+        "alternative_assertions": [],
+        "convergent": true,
+        "confidence": 0.8,
+        "resolution_rule": null,
+        "resolution_rationale": null
+      },
+      {
+        "cluster_id": "finding::global::38604640_0",
+        "assertion_type": "finding",
+        "addresses_concern": null,
+        "primary_assertion": {
+          "assertion_id": "38604640_0",
+          "assertion_text": "Patients with type 2 diabetes mellitus in general practice differ from those included in randomised controlled trials.",
+          "assertion_type": "finding",
+          "confidence": 0.9,
+          "source_pmid": "38604640",
+          "source_chunk_id": null,
+          "addresses_concern": null,
+          "evidence_quote": "Patients with type 2 diabetes mellitus cared for in general practice differ in a number of important aspects from patients included in randomised controlled trials on which clinical practice guidelines are based."
+        },
+        "supporting_pmids": [
+          "38604640"
+        ],
+        "alternative_assertions": [
+          {
+            "assertion_id": "38604640_1",
+            "assertion_text": "General-practice patients with type 2 diabetes are older and have a higher body mass index compared to trial participants.",
+            "assertion_type": "finding",
+            "confidence": 0.85,
+            "source_pmid": "38604640",
+            "source_chunk_id": null,
+            "addresses_concern": null,
+            "evidence_quote": "General-practice patients were older than randomised controlled trial patients [...] and had a higher body mass index."
+          },
+          {
+            "assertion_id": "38604640_2",
+            "assertion_text": "General-practice patients smoke less than those in randomised controlled trials.",
+            "assertion_type": "finding",
+            "confidence": 0.8,
+            "source_pmid": "38604640",
+            "source_chunk_id": null,
+            "addresses_concern": null,
+            "evidence_quote": "they smoked less (11.0% vs 29.3%)"
+          },
+          {
+            "assertion_id": "38604640_3",
+            "assertion_text": "General-practice patients more frequently use antihypertensive drugs compared to trial participants.",
+            "assertion_type": "finding",
+            "confidence": 0.8,
+            "source_pmid": "38604640",
+            "source_chunk_id": null,
+            "addresses_concern": null,
+            "evidence_quote": "they more frequently used antihypertensive drugs (82.1% vs 37.5%)"
+          },
+          {
+            "assertion_id": "38604640_4",
+            "assertion_text": "General-practice patients have a lower incidence of myocardial infarction compared to trial participants.",
+            "assertion_type": "finding",
+            "confidence": 0.8,
+            "source_pmid": "38604640",
+            "source_chunk_id": null,
+            "addresses_concern": null,
+            "evidence_quote": "less frequently had a myocardial infarction (7.6% vs 23.1%)"
+          }
+        ],
+        "convergent": false,
+        "confidence": 0.9,
+        "resolution_rule": "recency",
+        "resolution_rationale": "Recency: All assertions are from the same 2024 publication; rule 1 is satisfied."
+      },
+      {
+        "cluster_id": "finding::global::35709018_0",
+        "assertion_type": "finding",
+        "addresses_concern": null,
+        "primary_assertion": {
+          "assertion_id": "35709018_1",
+          "assertion_text": "General practitioners' clinical judgement has a sensitivity of 58% and specificity of 89% for diagnosing dementia.",
+          "assertion_type": "finding",
+          "confidence": 0.9,
+          "source_pmid": "35709018",
+          "source_chunk_id": null,
+          "addresses_concern": null,
+          "evidence_quote": "summary diagnostic accuracy of clinical judgement of general practitioners was sensitivity 58% (95% CI 43% to 72%), specificity 89% (95% CI 79% to 95%)"
+        },
+        "supporting_pmids": [
+          "35709018"
+        ],
+        "alternative_assertions": [
+          {
+            "assertion_id": "35709018_0",
+            "assertion_text": "Clinical judgement of GPs is more specific than sensitive for the diagnosis of dementia.",
+            "assertion_type": "finding",
+            "confidence": 0.9,
+            "source_pmid": "35709018",
+            "source_chunk_id": null,
+            "addresses_concern": null,
+            "evidence_quote": "Clinical judgement of GPs is more specific than sensitive for the diagnosis of dementia."
+          },
+          {
+            "assertion_id": "35709018_2",
+            "assertion_text": "General practitioners' clinical judgement has a sensitivity of 84% and specificity of 73% for diagnosing cognitive impairment.",
+            "assertion_type": "finding",
+            "confidence": 0.9,
+            "source_pmid": "35709018",
+            "source_chunk_id": null,
+            "addresses_concern": null,
+            "evidence_quote": "summary diagnostic accuracy of clinical judgement of general practitioners in four studies in which a total of 594 of 1497 participants had cognitive impairment was sensitivity 84% (95% CI 60% to 95%), specificity 73% (95% CI 50% to 88%)"
+          }
+        ],
+        "convergent": false,
+        "confidence": 0.9,
+        "resolution_rule": "evidence_strength",
+        "resolution_rationale": "Recency: All assertions are from the same 2022 publication, so recency does not resolve the tie. Next, authority: all are from Cochrane Database of Systematic Reviews with the highest authority score. Then, evidence strength: all are Journal Article, but the primary assertion is from a Systematic Review, which is higher than others. Finally, confidence is the same, so the primary is chosen based on evidence strength."
+      }
+    ],
+    "n_documents_processed": 5,
+    "n_assertions_extracted": 14,
+    "n_clusters": 8,
+    "n_convergent_clusters": 6,
+    "n_divergent_clusters": 2,
+    "cluster_similarity_threshold": 0.75,
+    "notes": [
+      "Abstracts-only prototype: assertion granularity is coarser than a full-text system would produce.",
+      "Module II graph expansion is stubbed in v0 (flat vector retrieval). See clinicomm.modules.m2_retrieval.expand_neighborhood."
+    ]
+  },
+  "response": {
+    "acknowledgment": "I can hear how much this has been worrying you — you mentioned, \"My wife is convinced it's cancer and honestly I am too.\" That's a real concern, and I want to make sure we address it carefully.",
+    "clinical_information_per_concern": [
+      {
+        "concern_label": "persistent fatigue",
+        "profile_path": "problems[0]",
+        "explanation": "Persistent fatigue, especially when it's getting worse and linked to unexplained weight loss, can be a sign of several health issues. We'll need to look into this more thoroughly to understand what's going on.",
+        "citations": [
+          {
+            "cluster_id": "finding::global::38604640_0",
+            "primary_assertion_id": "38604640_0",
+            "pmids": [
+              "38604640"
+            ]
+          }
+        ]
+      },
+      {
+        "concern_label": "unintentional weight loss",
+        "profile_path": "problems[1]",
+        "explanation": "Unexplained weight loss, especially over a short period, can be a red flag for various health conditions. It's important to investigate this to rule out serious issues.",
+        "citations": [
+          {
+            "cluster_id": "finding::global::38604640_0",
+            "primary_assertion_id": "38604640_0",
+            "pmids": [
+              "38604640"
+            ]
+          }
+        ]
+      },
+      {
+        "concern_label": "dull headaches",
+        "profile_path": "problems[2]",
+        "explanation": "Dull headaches that happen almost every day could be related to stress or other underlying issues. We'll keep an eye on this as we work through your other concerns.",
+        "citations": [
+          {
+            "cluster_id": "finding::global::38604640_0",
+            "primary_assertion_id": "38604640_0",
+            "pmids": [
+              "38604640"
+            ]
+          }
+        ]
+      },
+      {
+        "concern_label": "find out what's going on",
+        "profile_path": "patient_goals[0]",
+        "explanation": "Our main goal is to figure out what's causing these symptoms. We'll start with some tests to get a clearer picture.",
+        "citations": [
+          {
+            "cluster_id": "finding::global::38604640_0",
+            "primary_assertion_id": "38604640_0",
+            "pmids": [
+              "38604640"
+            ]
+          }
+        ]
+      },
+      {
+        "concern_label": "keep working",
+        "profile_path": "patient_goals[1]",
+        "explanation": "We'll work together to manage your health so you can stay active and continue working. Your ability to work is important, and we'll keep that in mind as we move forward.",
+        "citations": [
+          {
+            "cluster_id": "finding::global::38604640_0",
+            "primary_assertion_id": "38604640_0",
+            "pmids": [
+              "38604640"
+            ]
+          }
+        ]
+      },
+      {
+        "concern_label": "feel safe",
+        "profile_path": "patient_goals[2]",
+        "explanation": "We'll make sure you understand the steps we're taking so you feel reassured about your health and treatment.",
+        "citations": [
+          {
+            "cluster_id": "finding::global::38604640_0",
+            "primary_assertion_id": "38604640_0",
+            "pmids": [
+              "38604640"
+            ]
+          }
+        ]
+      }
+    ],
+    "next_steps": [
+      "Given the red flag of unexplained weight loss, we'll prioritize some immediate tests to get a clearer picture of what's going on.",
+      "We'll schedule a follow-up visit in 4 weeks to review the results and discuss the next steps.",
+      "If any test results come back early, I'll reach out to you right away to keep you informed."
+    ],
+    "teach_back_prompt": "I want to make sure I explained everything clearly. Can you tell me, in your own words, what we're going to do next and why?",
+    "follow_up_invitation": "Let's plan to meet again in 4 weeks. In the meantime, if you experience any new symptoms like severe pain or if your fatigue gets much worse, please call us immediately.",
+    "nurse_elements_applied": [
+      "Name",
+      "Understand",
+      "Respect",
+      "Support"
+    ],
+    "four_habits_elements_applied": [
+      "Invest in the beginning",
+      "Elicit the patient's perspective",
+      "Demonstrate empathy",
+      "Invest in the end"
+    ],
+    "all_cluster_ids_used": [
+      "finding::global::38604640_0"
+    ],
+    "all_pmids_used": [
+      "38604640"
+    ],
+    "glossary_substitutions": []
+  },
+  "mode": "real",
+  "module_timings_ms": {
+    "module_1_intake": 91170.48449069262,
+    "module_2_retrieval": 409.71530228853226,
+    "module_3_reasoning": 46700.67723840475,
+    "module_4_response": 42054.75851148367,
+    "total_ms": 180335.63554286957
+  }
+}

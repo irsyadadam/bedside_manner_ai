@@ -729,11 +729,36 @@ def main() -> None:
         _write(trace_dir / f"comparison_{pid}.md", cmp_md)
         console.print(f"  [green]OK[/green] comparison_{pid}.md")
 
+    # ---- 5. Phase-12-extras orchestration (new) ----------------------
+    # Delegate Tables 4/5/6 + Figs 7/8/9/11/12 to dedicated scripts.
+    import subprocess
+
+    extras_cmds = [
+        ["uv", "run", "python", "scripts/eval_ablations.py"]
+            + (["--demo"] if args.demo else ["--reuse-traces-from", str(trace_dir)]),
+        ["uv", "run", "python", "scripts/sensitivity_sweep.py"],
+        ["uv", "run", "python", "scripts/provenance_audit.py",
+         "--traces-dir", str(trace_dir)],
+        ["uv", "run", "python", "scripts/render_figures.py",
+         "--traces-dir", str(trace_dir)],
+    ]
+    console.rule("[bold]Phase 12 extras — Tables 4-6, Figs 7-12[/bold]")
+    for cmd in extras_cmds:
+        console.print(f"  $ {' '.join(cmd)}")
+        try:
+            subprocess.run(cmd, check=True, capture_output=True, text=True)
+            console.print(f"    [green]OK[/green]")
+        except subprocess.CalledProcessError as e:
+            console.print(f"    [red]FAILED[/red] (exit {e.returncode})")
+            console.print(f"    stderr (last 200 chars): {e.stderr[-200:]}")
+
     console.rule("[bold]Done[/bold]")
     console.print(f"All artifacts under:\n"
-                  f"  • figures: {fig_dir}/\n"
-                  f"  • tables:  {tab_dir}/\n"
-                  f"  • traces:  {trace_dir}/")
+                  f"  • figures (ASCII):    {fig_dir}/\n"
+                  f"  • figures (SVG):      manuscript/figures/\n"
+                  f"  • tables:             {tab_dir}/\n"
+                  f"  • traces:             {trace_dir}/\n"
+                  f"  • data sidecars:      manuscript/data/")
 
 
 if __name__ == "__main__":

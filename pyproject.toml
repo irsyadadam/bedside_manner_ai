@@ -24,8 +24,15 @@ dependencies = [
     # [tool.uv.sources] below). 2.6.x is the latest series that ships
     # cu124 wheels and is compatible with vLLM 0.7–0.10.
     "torch==2.6.0",
+    # vLLM 0.8.x was built against transformers 4.x. The Qwen2Tokenizer
+    # API used by vLLM was removed in transformers 5.x, so pin <5.
+    "transformers>=4.45,<5",
     # OpenAI-compatible HTTP client to talk to the local vLLM server.
     "openai>=1.40",
+    # Phase 12 ablation + figures: SVG publication plots and FK grade.
+    "matplotlib>=3.8",
+    "seaborn>=0.13",
+    "textstat>=0.7",
 ]
 
 [build-system]

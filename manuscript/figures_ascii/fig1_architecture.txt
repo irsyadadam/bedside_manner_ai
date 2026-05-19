@@ -1,0 +1,61 @@
+# fig1_architecture.txt — clinicomm pipeline overview
+# Manuscript: main text, "System overview" subsection.
+# Polish target: TikZ horizontal flowchart with labeled artifact arrows.
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                       clinicomm pipeline (Modules I–IV)                      ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+   Patient transcript (multi-turn, free text)
+        │
+        │ patient_utterances : list[str]
+        ▼
+   ┌──────────────────────────────────────────────────┐
+   │  Module I — Initial Screening Conversation        │
+   │  · one LLM call per turn (update_profile)         │
+   │  · templated next_prompt (NO LLM; constrained)    │
+   │  · red-flag safety screen                         │
+   │  · withholds clinical responses during intake     │
+   └──────────────────────────────────────────────────┘
+        │
+        │  PatientConcernProfile           ← sole input to Module II
+        ▼
+   ┌──────────────────────────────────────────────────┐        ┌────────────────┐
+   │  Module II — Clinical Guideline Lookup            │ ◄────  │ Literature DB  │
+   │  · decompose_profile → sub-queries                │ top-k  │   (Chroma)     │
+   │  · BGE encode (1024-d, normalized)                │ chunks │ 6,880 chunks   │
+   │  · flat vector retrieval (graph expand. STUBBED)  │ cosine │ 1,751 docs     │
+   │  · rerank: 0.5·sem + 0.2·rec + 0.2·aut + 0.1·cov  │        │ BGE-large v1.5 │
+   └──────────────────────────────────────────────────┘        └────────────────┘
+        │
+        │  RankedDocumentSet
+        ▼
+   ┌──────────────────────────────────────────────────┐
+   │  Module III — Graph-RAG Reasoning                 │
+   │  · one LLM call per document → ClinicalAssertion  │
+   │  · cluster by (type, addresses_concern) + cosine  │
+   │       similarity ≥ 0.75 (single-link union-find)  │
+   │  · convergent → primary = highest-confidence      │
+   │  · divergent  → LLM conflict_resolution call      │
+   │       (recency → authority → evidence → coverage) │
+   └──────────────────────────────────────────────────┘
+        │
+        │  StructuredContextArtifact
+        ▼
+   ┌──────────────────────────────────────────────────┐
+   │  Module IV — Patient-Centric Empathy-Aware        │
+   │              Response                              │
+   │  · ONE LLM call w/ NURSE + Four Habits directives │
+   │       (DIRECTIVES_START / DIRECTIVES_END block)   │
+   │  · per-claim provenance → cluster_id → PMIDs      │
+   │  · post-generation plain-language glossary pass   │
+   └──────────────────────────────────────────────────┘
+        │
+        │  PatientResponse  (acknowledgment ▸ per-concern ▸
+        │                    next_steps ▸ teach_back ▸ follow_up)
+        ▼
+   Patient-facing reply  +  full provenance trace
+
+  Phase 12 manuscript artifacts read state from:
+    db/manifest.jsonl, logs/sanity_query_*.json, logs/m{1,2,3,4}_*,
+    manuscript/traces/trace_<patient>.{md,json}.

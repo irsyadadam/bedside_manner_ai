@@ -1,0 +1,70 @@
+# fig5_reasoning.txt — Module III assertion extraction + clustering
+# Manuscript: Methods, "Graph-RAG Reasoning" subsection.
+# Polish target: TikZ three-column layout (docs → assertions → clusters)
+# with the resolution rule rendered as a labeled diamond on the
+# divergent cluster's arrow.
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║          Module III — Assertion extraction → clustering → resolution          ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+      RETRIEVED DOCS              ASSERTIONS               CLUSTERS
+                              (type | text snippet)
+
+  ┌──────────────────┐    ┌─────────────────────────┐
+  │ Doc A             │    │ A0  recommendation       │
+  │ PMID 12345        │ ─► │   "Screen with PHQ-9"   │ ─┐
+  │ BMJ 2022 (SR)     │    │ A1  monitoring          │  │
+  │                   │ ─► │   "Recheck in 2 weeks"  │  │
+  └──────────────────┘    └─────────────────────────┘  │
+                                                        │
+                                                        ▼
+  ┌──────────────────┐    ┌─────────────────────────┐  ┌──────────────────────┐
+  │ Doc B             │    │ B0  recommendation       │  │ CLUSTER 1            │
+  │ PMID 67890        │ ─► │   "Screen with PHQ-9"   │ ─►│ CONVERGENT           │
+  │ Annals IM 2024    │    │                          │  │ type:    recom.      │
+  │                   │    │                          │  │ concern: problems[0] │
+  └──────────────────┘    └─────────────────────────┘  │ primary:             │
+                                                        │  "Screen with PHQ-9" │
+                                                        │ supporting: 12345,   │
+                                                        │            67890     │
+                                                        │ no LLM call needed   │
+                                                        └──────────────────────┘
+
+
+  ┌──────────────────┐    ┌─────────────────────────┐
+  │ Doc C             │    │ C0  recommendation       │
+  │ PMID 98765        │ ─► │   "Target SBP < 140"     │ ─┐
+  │ CMAJ 2019 (SR)    │    │                          │  │
+  └──────────────────┘    └─────────────────────────┘  │
+                                                        │
+                                                        ▼
+  ┌──────────────────┐    ┌─────────────────────────┐  ┌──────────────────────┐
+  │ Doc D             │    │ D0  recommendation       │  │ CLUSTER 2            │
+  │ PMID 11223        │ ─► │   "Target SBP < 130"     │ ─►│ DIVERGENT            │
+  │ CMAJ 2025         │    │                          │  │ type:    recom.      │
+  │ (Pract Guideline) │    │                          │  │ concern: problems[1] │
+  └──────────────────┘    └─────────────────────────┘  │                      │
+                                                        │ conflict_resolution  │
+                                                        │   LLM call →         │
+                                                        │   primary  = D0      │
+                                                        │   rule     = recency │
+                                                        │   alts     = [C0]    │
+                                                        │     retain_reason:   │
+                                                        │     "older 2019 SR;  │
+                                                        │      superseded by   │
+                                                        │      2025 guideline" │
+                                                        └──────────────────────┘
+
+
+   Clustering rule:
+     group by (assertion_type, addresses_concern)
+     within each group, single-link union-find on
+       cosine( BGE(assertion_text), BGE(other_text) ) ≥ 0.75
+
+   Resolution rule  (only when len(cluster) > 1 AND texts disagree):
+     1. recency  →  2. authority  →  3. evidence_strength
+     →  4. coverage  →  5. confidence
+     (first rule that produces a unique winner stops the chain;
+      every non-primary assertion is retained as an alternative
+      with retain_reason — the prompt forbids dropping any)

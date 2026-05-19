@@ -1,0 +1,66 @@
+# fig2_intake_state_machine.txt — Module I control flow
+# Manuscript: Methods, "Initial Screening Conversation" subsection.
+# Polish target: TikZ state-machine diagram with self-loops on AWAITING_TURN.
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                      Module I — Intake state machine                         ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+                ┌─────────────────────────┐
+                │      AWAITING_TURN      │ ◄─────────────────────────┐
+                │ (no clinical response;  │                            │
+                │  conversation paused)   │                            │
+                └─────────────────────────┘                            │
+                              │                                         │
+                  new patient │ utterance                                │
+                              ▼                                         │
+                ┌─────────────────────────┐                             │
+                │   UPDATING_PROFILE       │                             │
+                │  (ONE LLM call:          │                             │
+                │   intake_system prompt  │                             │
+                │   + running profile     │                             │
+                │   + latest turn)         │                             │
+                └─────────────────────────┘                             │
+                              │                                         │
+                              ▼                                         │
+                ┌─────────────────────────┐                             │
+                │  CHECKING_COMPLETION    │                             │
+                │  (no LLM; Python rule)  │                             │
+                │  gates:                  │                             │
+                │   A. every problem has  │                             │
+                │      onset+sev+timing   │                             │
+                │   B. red-flag screen    │                             │
+                │      performed ≥ 1×     │                             │
+                │   C. ≥ 1 patient_goal   │                             │
+                └─────────────────────────┘                             │
+                       │              │                                  │
+                  all  │              │  ≥ 1 gate                        │
+                 gates │              │   failed                         │
+                  met  ▼              ▼                                  │
+   ┌──────────────────────┐    ┌──────────────────────────────────┐    │
+   │  EMITTING_PROFILE     │    │  SELECTING_NEXT_PROMPT            │    │
+   │  (handoff to          │    │  (NO LLM; constrained template    │    │
+   │   Module II)          │    │   bank, branching by unknowns)    │    │
+   └──────────────────────┘    │   priority:                       │    │
+                                │     1. opener (no problems yet)   │    │
+                                │     2. red_flag_screen pending    │    │
+                                │     3. per-problem               │    │
+                                │        (onset → severity → time) │    │
+                                │     4. associated_symptoms /     │    │
+                                │        interventions_tried       │    │
+                                │     5. patient_goals             │    │
+                                │     6. meds / allergies / hx     │    │
+                                │   circuit-breaker:               │    │
+                                │     skip template if asked_count │    │
+                                │     ≥ max_attempts (default 2)   │    │
+                                └──────────────────────────────────┘    │
+                                                  │                      │
+                                                  └──────────────────────┘
+                                            (emit templated question,
+                                             return to AWAITING_TURN)
+
+
+  Note: clinical responses are explicitly WITHHELD until EMITTING_PROFILE.
+  The patient only ever sees templated text — never LLM-generated prose —
+  during intake. This is what the proposal calls "withholding responses
+  during this phase".

@@ -1,0 +1,74 @@
+# fig3_schema_illustration.txt — PatientConcernProfile, populated
+# Manuscript: Methods, "PatientConcernProfile schema" subsection.
+# Polish target: TikZ tree diagram, or LaTeX listing with highlighting
+# of the verbatim quote fields.
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║         PatientConcernProfile  (concrete example — patient p001)             ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+PatientConcernProfile
+│
+├─ problems[0]
+│    ├─ label                : "persistent fatigue"
+│    ├─ onset                : "about 1 month ago"
+│    ├─ severity             : "7/10"
+│    ├─ timing               : "daily, worse in the afternoons"
+│    ├─ associated_symptoms  : ["unintentional weight loss ~12 lb"]
+│    ├─ interventions_tried  : []
+│    └─ status               : "worsening"
+│
+├─ problems[1]
+│    ├─ label                : "unintentional weight loss"
+│    ├─ onset                : "about 1 month ago"
+│    ├─ severity             : "~12 lb"
+│    ├─ timing               : "past month"
+│    ├─ associated_symptoms  : ["fatigue"]
+│    ├─ interventions_tried  : []
+│    └─ status               : "worsening"
+│
+├─ problems[2]
+│    ├─ label                : "morning headache"
+│    ├─ onset                : "past few weeks"
+│    ├─ severity             : "dull, ~4/10"
+│    ├─ timing               : "most mornings"
+│    ├─ associated_symptoms  : []
+│    ├─ interventions_tried  : ["ibuprofen PRN"]
+│    └─ status               : "stable"
+│
+├─ medications        : ["lisinopril 10 mg daily", "ibuprofen PRN"]
+├─ allergies          : ["NKDA"]
+├─ relevant_history   : ["father with colon cancer at age 55"]
+├─ patient_goals      : ["find out what's going on",
+│                         "keep working",
+│                         "feel safe again"]
+│
+├─ emotional_cues[0]
+│    ├─ cue            : "fear"
+│    └─ evidence_quote : "My wife is convinced it's cancer and honestly I am too"
+│       ▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲ VERBATIM from the patient's turn 1;
+│                         Module IV's NURSE 'Name' element quotes this back.
+│
+├─ emotional_cues[1]
+│    ├─ cue            : "worry"
+│    └─ evidence_quote : "I just want to know what's going on"
+│
+├─ red_flags[0]
+│    ├─ flag           : "unexplained weight loss"
+│    └─ evidence       : "I've lost about 12 pounds without trying"
+│       ▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲ VERBATIM; triggers Four Habits 'Demonstrate empathy'
+│                         BEFORE any urgent next-step directive in Module IV.
+│
+├─ unknowns           : []                  ← all completion gates passed
+├─ turn_count         : 4
+└─ completion_status  : "ready_for_handoff" ← M-II accepts only when this flips
+
+
+  Highlighted properties:
+    • Every emotional_cue carries a VERBATIM patient quote — never a
+      paraphrase. NURSE empathy in Module IV depends on this.
+    • red_flags drive an explicit safety-precedence rule in the response
+      prompt: empathy must lead, then urgency, never the reverse.
+    • patient_goals are the *patient's own framing* (preserved as-is),
+      not the clinician's restatement. Four Habits "Elicit the patient's
+      perspective" cites this list.

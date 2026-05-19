@@ -1,0 +1,1826 @@
+{
+  "transcript_id": "p002_hypertension_followup",
+  "scenario": "41-year-old female teacher returning for a hypertension follow-up. Openly admits inconsistent adherence to lisinopril 20 mg (~4/7 days), bothered by ACE-inhibitor cough, mildly worried about lightheadedness on standing. Has two young kids, father had MI at 62 (lifelong smoker), wants to avoid more medications if possible.",
+  "patient_utterances": [
+    "I'm here for my blood pressure check, but I want to be straight with you — I haven't been good about taking the pills. Some weeks I just forget, and honestly when I feel fine I don't see the point. Plus the lisinopril gives me this dry cough that drives me crazy at night.",
+    "I take it maybe four days out of seven if I'm being generous. Mornings are the worst — I'm getting ready, the kids are losing it, and it just slips. The cough started maybe two months in and hasn't gone away. I've also had a little dizziness when I stand up fast — not bad, just a moment.",
+    "No chest pain. No vision changes — that I'd be more worried about. I get those dizzy moments standing up but nothing where I almost fell or anything. No leg swelling. No real headaches. And no — definitely no thoughts of hurting myself or anything like that. I'm frustrated, not depressed.",
+    "Just the lisinopril 20 mg in the morning when I take it. No other prescriptions. No allergies. My mom was on blood pressure pills for years and did okay, my dad had a heart attack at 62 but he smoked his whole life. I don't smoke. I'm trying to walk more — got an Apple Watch and it nags me, which is kind of working.",
+    "Honestly? I want fewer pills, not more. If there's a way to get my numbers down without the cough, I'd take that. But I also don't want to do something stupid that ends with me in a hospital bed — I have two kids in elementary school. I need to be around."
+  ],
+  "intake_trace": [
+    {
+      "turn": 1,
+      "agent_prompt": "What brings you in today? Take your time and tell me what's been going on.",
+      "patient_utterance": "I'm here for my blood pressure check, but I want to be straight with you — I haven't been good about taking the pills. Some weeks I just forget, and honestly when I feel fine I don't see the point. Plus the lisinopril gives me this dry cough that drives me crazy at night.",
+      "profile_after": {
+        "problems": [
+          {
+            "label": "cough",
+            "onset": null,
+            "severity": null,
+            "timing": null,
+            "associated_symptoms": [],
+            "interventions_tried": [],
+            "status": "unknown"
+          }
+        ],
+        "medications": [
+          "the pills"
+        ],
+        "allergies": [],
+        "relevant_history": [],
+        "patient_goals": [
+          "I want to be straight with you — I haven't been good about taking the pills"
+        ],
+        "emotional_cues": [],
+        "red_flags": [],
+        "unknowns": [
+          "problems[0].onset",
+          "problems[0].severity",
+          "problems[0].timing",
+          "red_flag_screen_complete"
+        ],
+        "turn_count": 1,
+        "completion_status": "in_progress"
+      },
+      "complete": false
+    },
+    {
+      "turn": 2,
+      "agent_prompt": "Before we go further, I want to check on a few quick safety questions. Have you had any chest pain, trouble breathing, sudden weakness or numbness, severe headaches, unexplained bleeding, or any thoughts of harming yourself recently?",
+      "patient_utterance": "I take it maybe four days out of seven if I'm being generous. Mornings are the worst — I'm getting ready, the kids are losing it, and it just slips. The cough started maybe two months in and hasn't gone away. I've also had a little dizziness when I stand up fast — not bad, just a moment.",
+      "profile_after": {
+        "problems": [
+          {
+            "label": "cough",
+            "onset": "started maybe two months in and hasn't gone awa",
+            "severity": null,
+            "timing": null,
+            "associated_symptoms": [],
+            "interventions_tried": [],
+            "status": "unknown"
+          }
+        ],
+        "medications": [
+          "the pills",
+          "it maybe four days out of seven if I'm being generous"
+        ],
+        "allergies": [],
+        "relevant_history": [],
+        "patient_goals": [
+          "I want to be straight with you — I haven't been good about taking the pills"
+        ],
+        "emotional_cues": [],
+        "red_flags": [],
+        "unknowns": [
+          "problems[0].severity",
+          "problems[0].timing",
+          "red_flag_screen_complete"
+        ],
+        "turn_count": 2,
+        "completion_status": "in_progress"
+      },
+      "complete": false
+    },
+    {
+      "turn": 3,
+      "agent_prompt": "Before we go further, I want to check on a few quick safety questions. Have you had any chest pain, trouble breathing, sudden weakness or numbness, severe headaches, unexplained bleeding, or any thoughts of harming yourself recently?",
+      "patient_utterance": "No chest pain. No vision changes — that I'd be more worried about. I get those dizzy moments standing up but nothing where I almost fell or anything. No leg swelling. No real headaches. And no — definitely no thoughts of hurting myself or anything like that. I'm frustrated, not depressed.",
+      "profile_after": {
+        "problems": [
+          {
+            "label": "cough",
+            "onset": "started maybe two months in and hasn't gone awa",
+            "severity": null,
+            "timing": null,
+            "associated_symptoms": [],
+            "interventions_tried": [],
+            "status": "unknown"
+          },
+          {
+            "label": "headache",
+            "onset": null,
+            "severity": null,
+            "timing": null,
+            "associated_symptoms": [],
+            "interventions_tried": [],
+            "status": "unknown"
+          },
+          {
+            "label": "chest pain",
+            "onset": null,
+            "severity": null,
+            "timing": null,
+            "associated_symptoms": [],
+            "interventions_tried": [],
+            "status": "unknown"
+          },
+          {
+            "label": "depressed mood",
+            "onset": null,
+            "severity": null,
+            "timing": null,
+            "associated_symptoms": [],
+            "interventions_tried": [],
+            "status": "unknown"
+          }
+        ],
+        "medications": [
+          "the pills",
+          "it maybe four days out of seven if I'm being generous"
+        ],
+        "allergies": [],
+        "relevant_history": [],
+        "patient_goals": [
+          "I want to be straight with you — I haven't been good about taking the pills"
+        ],
+        "emotional_cues": [
+          {
+            "cue": "worry",
+            "evidence_quote": "No vision changes — that I'd be more worried about"
+          },
+          {
+            "cue": "frustration",
+            "evidence_quote": "I'm frustrated, not depressed"
+          }
+        ],
+        "red_flags": [
+          {
+            "flag": "suicidal ideation",
+            "evidence": "And no — definitely no thoughts of hurting myself or anything like that"
+          }
+        ],
+        "unknowns": [
+          "problems[0].severity",
+          "problems[0].timing",
+          "problems[1].onset",
+          "problems[1].severity",
+          "problems[1].timing",
+          "problems[2].onset",
+          "problems[2].severity",
+          "problems[2].timing",
+          "problems[3].onset",
+          "problems[3].severity",
+          "problems[3].timing"
+        ],
+        "turn_count": 3,
+        "completion_status": "in_progress"
+      },
+      "complete": false
+    },
+    {
+      "turn": 4,
+      "agent_prompt": "When did the depressed mood first start?",
+      "patient_utterance": "Just the lisinopril 20 mg in the morning when I take it. No other prescriptions. No allergies. My mom was on blood pressure pills for years and did okay, my dad had a heart attack at 62 but he smoked his whole life. I don't smoke. I'm trying to walk more — got an Apple Watch and it nags me, which is kind of working.",
+      "profile_after": {
+        "problems": [
+          {
+            "label": "cough",
+            "onset": "started maybe two months in and hasn't gone awa",
+            "severity": null,
+            "timing": null,
+            "associated_symptoms": [],
+            "interventions_tried": [],
+            "status": "unknown"
+          },
+          {
+            "label": "headache",
+            "onset": null,
+            "severity": null,
+            "timing": null,
+            "associated_symptoms": [],
+            "interventions_tried": [],
+            "status": "unknown"
+          },
+          {
+            "label": "chest pain",
+            "onset": null,
+            "severity": null,
+            "timing": null,
+            "associated_symptoms": [],
+            "interventions_tried": [],
+            "status": "unknown"
+          },
+          {
+            "label": "depressed mood",
+            "onset": null,
+            "severity": null,
+            "timing": null,
+            "associated_symptoms": [],
+            "interventions_tried": [],
+            "status": "unknown"
+          }
+        ],
+        "medications": [
+          "the pills",
+          "it maybe four days out of seven if I'm being generous",
+          "it"
+        ],
+        "allergies": [],
+        "relevant_history": [],
+        "patient_goals": [
+          "I want to be straight with you — I haven't been good about taking the pills"
+        ],
+        "emotional_cues": [
+          {
+            "cue": "worry",
+            "evidence_quote": "No vision changes — that I'd be more worried about"
+          },
+          {
+            "cue": "frustration",
+            "evidence_quote": "I'm frustrated, not depressed"
+          }
+        ],
+        "red_flags": [
+          {
+            "flag": "suicidal ideation",
+            "evidence": "And no — definitely no thoughts of hurting myself or anything like that"
+          }
+        ],
+        "unknowns": [
+          "problems[0].severity",
+          "problems[0].timing",
+          "problems[1].onset",
+          "problems[1].severity",
+          "problems[1].timing",
+          "problems[2].onset",
+          "problems[2].severity",
+          "problems[2].timing",
+          "problems[3].onset",
+          "problems[3].severity",
+          "problems[3].timing"
+        ],
+        "turn_count": 4,
+        "completion_status": "in_progress"
+      },
+      "complete": false
+    },
+    {
+      "turn": 5,
+      "agent_prompt": "When did the depressed mood first start?",
+      "patient_utterance": "Honestly? I want fewer pills, not more. If there's a way to get my numbers down without the cough, I'd take that. But I also don't want to do something stupid that ends with me in a hospital bed — I have two kids in elementary school. I need to be around.",
+      "profile_after": {
+        "problems": [
+          {
+            "label": "cough",
+            "onset": "started maybe two months in and hasn't gone awa",
+            "severity": null,
+            "timing": null,
+            "associated_symptoms": [],
+            "interventions_tried": [],
+            "status": "unknown"
+          },
+          {
+            "label": "headache",
+            "onset": null,
+            "severity": null,
+            "timing": null,
+            "associated_symptoms": [],
+            "interventions_tried": [],
+            "status": "unknown"
+          },
+          {
+            "label": "chest pain",
+            "onset": null,
+            "severity": null,
+            "timing": null,
+            "associated_symptoms": [],
+            "interventions_tried": [],
+            "status": "unknown"
+          },
+          {
+            "label": "depressed mood",
+            "onset": null,
+            "severity": null,
+            "timing": null,
+            "associated_symptoms": [],
+            "interventions_tried": [],
+            "status": "unknown"
+          }
+        ],
+        "medications": [
+          "the pills",
+          "it maybe four days out of seven if I'm being generous",
+          "it"
+        ],
+        "allergies": [],
+        "relevant_history": [],
+        "patient_goals": [
+          "I want to be straight with you — I haven't been good about taking the pills",
+          "I need to be around"
+        ],
+        "emotional_cues": [
+          {
+            "cue": "worry",
+            "evidence_quote": "No vision changes — that I'd be more worried about"
+          },
+          {
+            "cue": "frustration",
+            "evidence_quote": "I'm frustrated, not depressed"
+          },
+          {
+            "cue": "sadness",
+            "evidence_quote": "If there's a way to get my numbers down without the cough, I'd take that"
+          }
+        ],
+        "red_flags": [
+          {
+            "flag": "suicidal ideation",
+            "evidence": "And no — definitely no thoughts of hurting myself or anything like that"
+          }
+        ],
+        "unknowns": [
+          "problems[0].severity",
+          "problems[0].timing",
+          "problems[1].onset",
+          "problems[1].severity",
+          "problems[1].timing",
+          "problems[2].onset",
+          "problems[2].severity",
+          "problems[2].timing",
+          "problems[3].onset",
+          "problems[3].severity",
+          "problems[3].timing"
+        ],
+        "turn_count": 5,
+        "completion_status": "in_progress"
+      },
+      "complete": false
+    }
+  ],
+  "profile": {
+    "problems": [
+      {
+        "label": "cough",
+        "onset": "started maybe two months in and hasn't gone awa",
+        "severity": null,
+        "timing": null,
+        "associated_symptoms": [],
+        "interventions_tried": [],
+        "status": "unknown"
+      },
+      {
+        "label": "headache",
+        "onset": null,
+        "severity": null,
+        "timing": null,
+        "associated_symptoms": [],
+        "interventions_tried": [],
+        "status": "unknown"
+      },
+      {
+        "label": "chest pain",
+        "onset": null,
+        "severity": null,
+        "timing": null,
+        "associated_symptoms": [],
+        "interventions_tried": [],
+        "status": "unknown"
+      },
+      {
+        "label": "depressed mood",
+        "onset": null,
+        "severity": null,
+        "timing": null,
+        "associated_symptoms": [],
+        "interventions_tried": [],
+        "status": "unknown"
+      }
+    ],
+    "medications": [
+      "the pills",
+      "it maybe four days out of seven if I'm being generous",
+      "it"
+    ],
+    "allergies": [],
+    "relevant_history": [],
+    "patient_goals": [
+      "I want to be straight with you — I haven't been good about taking the pills",
+      "I need to be around"
+    ],
+    "emotional_cues": [
+      {
+        "cue": "worry",
+        "evidence_quote": "No vision changes — that I'd be more worried about"
+      },
+      {
+        "cue": "frustration",
+        "evidence_quote": "I'm frustrated, not depressed"
+      },
+      {
+        "cue": "sadness",
+        "evidence_quote": "If there's a way to get my numbers down without the cough, I'd take that"
+      }
+    ],
+    "red_flags": [
+      {
+        "flag": "suicidal ideation",
+        "evidence": "And no — definitely no thoughts of hurting myself or anything like that"
+      }
+    ],
+    "unknowns": [
+      "problems[0].severity",
+      "problems[0].timing",
+      "problems[1].onset",
+      "problems[1].severity",
+      "problems[1].timing",
+      "problems[2].onset",
+      "problems[2].severity",
+      "problems[2].timing",
+      "problems[3].onset",
+      "problems[3].severity",
+      "problems[3].timing"
+    ],
+    "turn_count": 5,
+    "completion_status": "in_progress"
+  },
+  "ranked_docs": {
+    "sub_queries": [
+      {
+        "source": "problem",
+        "source_index": 0,
+        "addresses": "problems[0]",
+        "text": "Adult primary care: cough | onset started maybe two months in and hasn't gone awa. What guideline-based assessment, workup, or management is recommended?"
+      },
+      {
+        "source": "problem",
+        "source_index": 1,
+        "addresses": "problems[1]",
+        "text": "Adult primary care: headache. What guideline-based assessment, workup, or management is recommended?"
+      },
+      {
+        "source": "problem",
+        "source_index": 2,
+        "addresses": "problems[2]",
+        "text": "Adult primary care: chest pain. What guideline-based assessment, workup, or management is recommended?"
+      },
+      {
+        "source": "problem",
+        "source_index": 3,
+        "addresses": "problems[3]",
+        "text": "Adult primary care: depressed mood. What guideline-based assessment, workup, or management is recommended?"
+      },
+      {
+        "source": "goal",
+        "source_index": 0,
+        "addresses": "patient_goals[0]",
+        "text": "Patient goal: \"I want to be straight with you — I haven't been good about taking the pills\". What clinician communication, shared decision-making, or counseling guidance addresses this goal?"
+      },
+      {
+        "source": "goal",
+        "source_index": 1,
+        "addresses": "patient_goals[1]",
+        "text": "Patient goal: \"I need to be around\". What clinician communication, shared decision-making, or counseling guidance addresses this goal?"
+      },
+      {
+        "source": "global_context",
+        "source_index": 0,
+        "addresses": null,
+        "text": "Patient context — medications: the pills; it maybe four days out of seven if I'm being generous; it | red flags: suicidal ideation"
+      }
+    ],
+    "documents": [
+      {
+        "pmid": "41092546",
+        "title": "Patient-clinician communication in longitudinal care settings about adverse childhood experiences (ACEs) and adult traumas: A systematic review of reviews.",
+        "journal": "Patient education and counseling",
+        "pub_year": 2026,
+        "pub_date": "2026-01",
+        "pub_types": [
+          "Journal Article",
+          "Systematic Review"
+        ],
+        "issuing_body": null,
+        "chunks": [
+          {
+            "chunk_id": "41092546_000",
+            "pmid": "41092546",
+            "section_label": "OBJECTIVE",
+            "text": "Synthesize the literature on strategies for clinician communication or relationship-building during longitudinal care visits with adult patients who have had adverse childhood experiences (ACEs) and/or other traumas later in life.",
+            "semantic_similarity": 0.6546553373336792,
+            "matched_sub_query_indices": [
+              4,
+              5
+            ]
+          }
+        ],
+        "full_text": "OBJECTIVE: Synthesize the literature on strategies for clinician communication or relationship-building during longitudinal care visits with adult patients who have had adverse childhood experiences (ACEs) and/or other traumas later in life.\n\nMETHODS: Systematic searches of literature reviews from 2012 to 2022 using CINAHL, PubMed, Cochrane Database, and Web of Science and Sociological Abstracts. Search terms reflected three key concepts: 1) Trauma (i.e., trauma, interpersonal violence, adverse childhood experiences), 2) Patient-provider communication/relationship-building (i.e., communication), and 3) Longitudinal patient care (primary care). Three researchers independently reviewed each title, abstract, and article to determine relevance and completed methodological quality appraisal using the AMSTAR-2 framework. Thematic analysis was used to identify key learning points and gaps in the literature.\n\nRESULTS: We screened 1158 articles and included 39 manuscripts: 15 % (n = 6) of the manuscripts discussed ACEs, 49 % (n = 19) discussed adult traumas, and 36 % (n = 14) discussed trauma-informed care (TIC) approaches with both or no age determination of exposure to trauma. Themes related to the role of screening, strategies to optimize communication, the importance of resources and institutional support, and associated health outcomes. According to the AMSTAR-2, most of the studies had low or critically low methodological quality.\n\nCONCLUSION: Communication with clinicians about traumatic experiences shows potential benefit to adult primary care patients. Future research rigorously evaluating training on and implementation of best practices in trauma communication is needed.\n\nPRACTICE IMPLICATIONS: Clinician- and systems-level readiness to respond to and engage in conversations about traumatic experiences with adult primary care patients requires organizational support, including sustained intervention efforts, trauma communication training, and resource allocation.",
+        "addresses_concerns": [
+          "sub_query[4]",
+          "sub_query[5]"
+        ],
+        "semantic_similarity": 0.6546553373336792,
+        "recency_score": 1.0,
+        "authority_score": 0.8,
+        "coverage_bonus": 0.2857142857142857,
+        "total_score": 0.7158990972382682
+      },
+      {
+        "pmid": "41466386",
+        "title": "Screening tools for ruling out mood and anxiety disorders in adults in primary care: a rapid systematic review.",
+        "journal": "BMC primary care",
+        "pub_year": 2025,
+        "pub_date": "2025-12-30",
+        "pub_types": [
+          "Journal Article",
+          "Systematic Review"
+        ],
+        "issuing_body": null,
+        "chunks": [
+          {
+            "chunk_id": "41466386_001",
+            "pmid": "41466386",
+            "section_label": "OBJECTIVES",
+            "text": "Identify screening tools that are valid and reliable for ruling out mood and anxiety disorders in adults in primary care settings.",
+            "semantic_similarity": 0.6972888708114624,
+            "matched_sub_query_indices": [
+              1,
+              3
+            ]
+          },
+          {
+            "chunk_id": "41466386_000",
+            "pmid": "41466386",
+            "section_label": "BACKGROUND",
+            "text": "Patients with mood and anxiety disorders commonly visit primary care providers in Canada. Screening tools can support providers in identifying patients who need further mental health care.",
+            "semantic_similarity": 0.7338718175888062,
+            "matched_sub_query_indices": [
+              3
+            ]
+          },
+          {
+            "chunk_id": "41466386_005",
+            "pmid": "41466386",
+            "section_label": "CONCLUSIONS",
+            "text": "The PHQ-2, PHQ-9, HADS-D, 15-item GDS, QIDS-SR16, GAD-2, and GAD-7 are brief, valid tools with strong rule-out performance for depression and anxiety in primary care. Future research should evaluate reliability and performance in diverse providers and patients, including non-physician settings and underserved communities.",
+            "semantic_similarity": 0.7258177995681763,
+            "matched_sub_query_indices": [
+              3
+            ]
+          }
+        ],
+        "full_text": "BACKGROUND: Patients with mood and anxiety disorders commonly visit primary care providers in Canada. Screening tools can support providers in identifying patients who need further mental health care.\n\nOBJECTIVES: Identify screening tools that are valid and reliable for ruling out mood and anxiety disorders in adults in primary care settings.\n\nDATA SOURCES: Our rapid review searched MEDLINE, Embase and PsycInfo from January 1, 2006, to May 27, 2025.\n\nSTUDY SELECTION: A single reviewer conducted screening, critical appraisal and data extraction. Low risk-of-bias studies were included. Sensitivity, specificity, and negative likelihood ratios (NLRs) with 95% confidence intervals were extracted or calculated. A threshold of NLR < 0.1 was used to interpret strong rule-out performance.\n\nSYNTHESIS: We included 11 low risk-of-bias studies evaluating validity in 13 tools. No reliability studies were included due to high risk-of-bias. The Patient Health Questionnaire (PHQ)-2 (≥ 1/7), PHQ-9 (≥ 10/17), Generalised Anxiety Disorder (GAD)-2 (≥ 2/6), and GAD-7 (≥ 5/21) demonstrated the strongest evidence for ruling out depression and anxiety (NLR < 0.1).\n\nCONCLUSIONS: The PHQ-2, PHQ-9, HADS-D, 15-item GDS, QIDS-SR16, GAD-2, and GAD-7 are brief, valid tools with strong rule-out performance for depression and anxiety in primary care. Future research should evaluate reliability and performance in diverse providers and patients, including non-physician settings and underserved communities.",
+        "addresses_concerns": [
+          "sub_query[1]",
+          "sub_query[3]"
+        ],
+        "semantic_similarity": 0.7338718175888062,
+        "recency_score": 0.875,
+        "authority_score": 0.68,
+        "coverage_bonus": 0.2857142857142857,
+        "total_score": 0.7065073373658317
+      },
+      {
+        "pmid": "38719772",
+        "title": "European Respiratory Society clinical practice guideline on symptom management for adults with serious respiratory illness.",
+        "journal": "The European respiratory journal",
+        "pub_year": 2024,
+        "pub_date": "2024-06",
+        "pub_types": [
+          "Journal Article",
+          "Practice Guideline"
+        ],
+        "issuing_body": null,
+        "chunks": [
+          {
+            "chunk_id": "38719772_000",
+            "pmid": "38719772",
+            "section_label": null,
+            "text": "Respiratory symptoms are ubiquitous and impair health-related quality of life in people with respiratory disease. This European Respiratory Society (ERS) task force aimed to provide recommendations for symptomatic treatment in people with serious respiratory illness. The ERS task force comprised 16 members, including representatives of people with serious respiratory illness and informal caregivers. Seven questions were formulated, six in the PICO (Population, Intervention, Comparison, Outcome) format, which were addressed with full systematic reviews and evidence assessed using GRADE (Grading of Recommendations Assessment, Development and Evaluation). One question was addressed narratively. An \"evidence-to-decision\" framework was used to formulate recommendations. To treat symptoms in people with serious respiratory illness, the task force suggests the use of graded exercise therapy (conditional recommendation, low certainty of evidence); and suggests the use of a multicomponent services, handheld fan and breathing techniques (conditional recommendations, very low certainty of evidence). The task force suggests not to use opioids (conditional recommendation, very low certainty of evidence); and suggests either administering or not administering supplemental oxygen therapy (conditional recommendation, low certainty of evidence). The task force suggests that needs assessment tools may be used as part of a comprehensive needs assessment, but do not replace patient-centred care and shared decision making (conditional recommendation, low certainty of evidence). The low certainty of evidence, modest impact of interventions on patient-centred outcomes, and absence of effective strategies to ameliorate cough highlight the need for new approaches to reduce symptoms and enhance wellbeing for individuals who live with serious respiratory illness.",
+            "semantic_similarity": 0.686724066734314,
+            "matched_sub_query_indices": [
+              0
+            ]
+          }
+        ],
+        "full_text": "Respiratory symptoms are ubiquitous and impair health-related quality of life in people with respiratory disease. This European Respiratory Society (ERS) task force aimed to provide recommendations for symptomatic treatment in people with serious respiratory illness. The ERS task force comprised 16 members, including representatives of people with serious respiratory illness and informal caregivers. Seven questions were formulated, six in the PICO (Population, Intervention, Comparison, Outcome) format, which were addressed with full systematic reviews and evidence assessed using GRADE (Grading of Recommendations Assessment, Development and Evaluation). One question was addressed narratively. An \"evidence-to-decision\" framework was used to formulate recommendations. To treat symptoms in people with serious respiratory illness, the task force suggests the use of graded exercise therapy (conditional recommendation, low certainty of evidence); and suggests the use of a multicomponent services, handheld fan and breathing techniques (conditional recommendations, very low certainty of evidence). The task force suggests not to use opioids (conditional recommendation, very low certainty of evidence); and suggests either administering or not administering supplemental oxygen therapy (conditional recommendation, low certainty of evidence). The task force suggests that needs assessment tools may be used as part of a comprehensive needs assessment, but do not replace patient-centred care and shared decision making (conditional recommendation, low certainty of evidence). The low certainty of evidence, modest impact of interventions on patient-centred outcomes, and absence of effective strategies to ameliorate cough highlight the need for new approaches to reduce symptoms and enhance wellbeing for individuals who live with serious respiratory illness.",
+        "addresses_concerns": [
+          "sub_query[0]"
+        ],
+        "semantic_similarity": 0.686724066734314,
+        "recency_score": 0.75,
+        "authority_score": 0.85,
+        "coverage_bonus": 0.14285714285714285,
+        "total_score": 0.6776477476528713
+      },
+      {
+        "pmid": "39366124",
+        "title": "Roles and contributions of companions in healthcare professional-older patient interaction: A systematic review.",
+        "journal": "Patient education and counseling",
+        "pub_year": 2025,
+        "pub_date": "2025-01",
+        "pub_types": [
+          "Systematic Review",
+          "Journal Article"
+        ],
+        "issuing_body": null,
+        "chunks": [
+          {
+            "chunk_id": "39366124_000",
+            "pmid": "39366124",
+            "section_label": "OBJECTIVES",
+            "text": "Companions commonly participate in medical visits to facilitate the interactions between healthcare professionals (HCPs) and older patients. Multiple studies have investigated the contributions and roles of companions in these triadic interactions. However, no review has synthesized these studies. Therefore, a systematic review was conducted to synthesize the contributions and roles of companions in medical interactions between HCPs and older patients.",
+            "semantic_similarity": 0.6700042486190796,
+            "matched_sub_query_indices": [
+              5
+            ]
+          }
+        ],
+        "full_text": "OBJECTIVES: Companions commonly participate in medical visits to facilitate the interactions between healthcare professionals (HCPs) and older patients. Multiple studies have investigated the contributions and roles of companions in these triadic interactions. However, no review has synthesized these studies. Therefore, a systematic review was conducted to synthesize the contributions and roles of companions in medical interactions between HCPs and older patients.\n\nMETHODS: The review adhered to the PRISMA guidelines. Peer-reviewed studies published prior to August 17, 2023 were included if they concentrated on the contributions and roles of companions in medical interactions between HCPs and older patients. Thirteen eligible studies were identified through database and manual searches. The findings of these studies were synthesized using thematic analysis.\n\nRESULTS: Four themes emerged: (1) facilitating the delivery of patient information to HCPs; (2) advocating for older patients; (3) taking an active role in medical consultations; and (4) neglecting/excluding older patients from medical consultations.\n\nCONCLUSION: The review highlighted the valuable support and potential challenges that companion participation brings to interactions between HCPs and older patients. These findings underscore the importance of enhancing HCPs' communication skills in such triadic consultations.",
+        "addresses_concerns": [
+          "sub_query[5]"
+        ],
+        "semantic_similarity": 0.6700042486190796,
+        "recency_score": 0.875,
+        "authority_score": 0.8,
+        "coverage_bonus": 0.0,
+        "total_score": 0.6700021243095399
+      },
+      {
+        "pmid": "38367963",
+        "title": "Triadic communication with teenagers and young adults with cancer: a systematic literature review - 'make me feel like I'm not the third person'.",
+        "journal": "BMJ open",
+        "pub_year": 2024,
+        "pub_date": "2024-02-17",
+        "pub_types": [
+          "Systematic Review",
+          "Journal Article",
+          "Research Support, Non-U.S. Gov't"
+        ],
+        "issuing_body": null,
+        "chunks": [
+          {
+            "chunk_id": "38367963_000",
+            "pmid": "38367963",
+            "section_label": "OBJECTIVES",
+            "text": "Clinical communication needs of teenagers and young adults with cancer (TYACs) are increasingly recognised to differ significantly from younger children and older adults. We sought to understand who is present with TYACs, TYACs' experiences of triadic communication and its impact. We generated three research questions to focus this review: (1) Who is present with TYACs in healthcare consultations/communication?, (2) What are TYACs' experiences of communication with the supporter present? and (3) What is the impact of a TYAC's supporter being present in the communication?",
+            "semantic_similarity": 0.6848253607749939,
+            "matched_sub_query_indices": [
+              5
+            ]
+          }
+        ],
+        "full_text": "OBJECTIVES: Clinical communication needs of teenagers and young adults with cancer (TYACs) are increasingly recognised to differ significantly from younger children and older adults. We sought to understand who is present with TYACs, TYACs' experiences of triadic communication and its impact. We generated three research questions to focus this review: (1) Who is present with TYACs in healthcare consultations/communication?, (2) What are TYACs' experiences of communication with the supporter present? and (3) What is the impact of a TYAC's supporter being present in the communication?\n\nDESIGN: Systematic review with narrative synthesis.\n\nDATA SOURCES: The search was conducted across six databases: Medline, CINAHL, Embase, PsycINFO, Web of Science and AMED for all publications up to December 2023.\n\nELIGIBILITY CRITERIA FOR SELECTING STUDIES: Included papers were empirical research published after 2005; participants had malignant disease, diagnosed aged 13-24 years (for over 50% of participants); the research addressed any area of clinical communication.\n\nDATA EXTRACTION AND SYNTHESIS: Three independent reviewers undertook full-text screening. A review-specific data extraction form was used to record participant characteristics and methods from each included paper and results relevant to the three review questions.\n\nRESULTS: A total of 8480 studies were identified in the search, of which 36 fulfilled the inclusion criteria. We found that mothers were the most common supporter present in clinical communication encounters. TYACs' experiences of triadic communication are paradoxical in nature-the supporter can help or hinder the involvement of the young person in care-related communication. Overall, young people are not included in clinical communication and decisions at their preferred level.\n\nCONCLUSION: Triadic communication in TYACs' care is common, complex and dynamic. Due to the degree of challenge and nuances raised, healthcare professionals need further training on effective triadic communication.\n\nPROSPERO REGISTRATION NUMBER: CRD42022374528.",
+        "addresses_concerns": [
+          "sub_query[5]"
+        ],
+        "semantic_similarity": 0.6848253607749939,
+        "recency_score": 0.75,
+        "authority_score": 0.8,
+        "coverage_bonus": 0.0,
+        "total_score": 0.652412680387497
+      },
+      {
+        "pmid": "38521534",
+        "title": "Prognostic factors and prediction models for hospitalisation and all-cause mortality in adults presenting to primary care with a lower respiratory tract infection: a systematic review.",
+        "journal": "BMJ open",
+        "pub_year": 2024,
+        "pub_date": "2024-03-23",
+        "pub_types": [
+          "Systematic Review",
+          "Journal Article",
+          "Research Support, Non-U.S. Gov't"
+        ],
+        "issuing_body": null,
+        "chunks": [
+          {
+            "chunk_id": "38521534_000",
+            "pmid": "38521534",
+            "section_label": "OBJECTIVE",
+            "text": "To identify and synthesise relevant existing prognostic factors (PF) and prediction models (PM) for hospitalisation and all-cause mortality within 90 days in primary care patients with acute lower respiratory tract infections (LRTI).",
+            "semantic_similarity": 0.6782046556472778,
+            "matched_sub_query_indices": [
+              0
+            ]
+          }
+        ],
+        "full_text": "OBJECTIVE: To identify and synthesise relevant existing prognostic factors (PF) and prediction models (PM) for hospitalisation and all-cause mortality within 90 days in primary care patients with acute lower respiratory tract infections (LRTI).\n\nDESIGN: Systematic review.\n\nMETHODS: Systematic searches of MEDLINE, Embase and the Cochrane Library were performed. All PF and PM studies on the risk of hospitalisation or all-cause mortality within 90 days in adult primary care LRTI patients were included. The risk of bias was assessed using the Quality in Prognostic Studies tool and Prediction Model Risk Of Bias Assessment Tool tools for PF and PM studies, respectively. The results of included PF and PM studies were descriptively summarised.\n\nRESULTS: Of 2799 unique records identified, 16 were included: 9 PF studies, 6 PM studies and 1 combination of both. The risk of bias was judged high for all studies, mainly due to limitations in the analysis domain. Based on reported multivariable associations in PF studies, increasing age, sex, current smoking, diabetes, a history of stroke, cancer or heart failure, previous hospitalisation, influenza vaccination (negative association), current use of systemic corticosteroids, recent antibiotic use, respiratory rate ≥25/min and diagnosis of pneumonia were identified as most promising candidate predictors. One newly developed PM was externally validated (c statistic 0.74, 95% CI 0.71 to 0.78) whereas the previously hospital-derived CRB-65 was externally validated in primary care in five studies (c statistic ranging from 0.72 (95% CI 0.63 to 0.81) to 0.79 (95% CI 0.65 to 0.92)). None of the PM studies reported measures of model calibration.\n\nCONCLUSIONS: Implementation of existing models for individualised risk prediction of 90-day hospitalisation or mortality in primary care LRTI patients in everyday practice is hampered by incomplete assessment of model performance. The identified candidate predictors provide useful information for clinicians and warrant consideration when developing or updating PMs using state-of-the-art development and validation techniques.\n\nPROSPERO REGISTRATION NUMBER: CRD42022341233.",
+        "addresses_concerns": [
+          "sub_query[0]"
+        ],
+        "semantic_similarity": 0.6782046556472778,
+        "recency_score": 0.75,
+        "authority_score": 0.8,
+        "coverage_bonus": 0.0,
+        "total_score": 0.649102327823639
+      },
+      {
+        "pmid": "36250577",
+        "title": "Biomarkers as point-of-care tests to guide prescription of antibiotics in people with acute respiratory infections in primary care.",
+        "journal": "The Cochrane database of systematic reviews",
+        "pub_year": 2022,
+        "pub_date": "2022-10-17",
+        "pub_types": [
+          "Journal Article",
+          "Research Support, Non-U.S. Gov't",
+          "Systematic Review"
+        ],
+        "issuing_body": null,
+        "chunks": [
+          {
+            "chunk_id": "36250577_001",
+            "pmid": "36250577",
+            "section_label": "OBJECTIVES",
+            "text": "To assess the benefits and harms of point-of-care biomarker tests of inflammation to guide antibiotic treatment in people presenting with symptoms of acute respiratory infections in primary care settings regardless of patient age.",
+            "semantic_similarity": 0.6651164293289185,
+            "matched_sub_query_indices": [
+              0
+            ]
+          }
+        ],
+        "full_text": "BACKGROUND: Acute respiratory infections (ARIs) are by far the most common reason for prescribing an antibiotic in primary care, even though the majority of ARIs are of viral or non-severe bacterial aetiology. It follows that in many cases antibiotic use will not be beneficial to a patient's recovery but may expose them to potential side effects. Furthermore, limiting unnecessary antibiotic use is a key factor in controlling antibiotic resistance. One strategy to reduce antibiotic use in primary care is point-of-care biomarkers. A point-of-care biomarker (test) of inflammation identifies part of the acute phase response to tissue injury regardless of the aetiology (infection, trauma, or inflammation) and may be used as a surrogate marker of infection, potentially assisting the physician in the clinical decision whether to use an antibiotic to treat ARIs. Biomarkers may guide antibiotic prescription by ruling out a serious bacterial infection and help identify patients in whom no benefit from antibiotic treatment can be anticipated. This is an update of a Cochrane Review first published in 2014.\n\nOBJECTIVES: To assess the benefits and harms of point-of-care biomarker tests of inflammation to guide antibiotic treatment in people presenting with symptoms of acute respiratory infections in primary care settings regardless of patient age.\n\nSEARCH METHODS: We searched CENTRAL (2022, Issue 6), MEDLINE (1946 to 14 June 2022), Embase (1974 to 14 June 2022), CINAHL (1981 to 14 June 2022), Web of Science (1955 to 14 June 2022), and LILACS (1982 to 14 June 2022). We also searched three trial registries (10 December 2021) for completed and ongoing trials.\n\nSELECTION CRITERIA: We included randomised controlled trials (RCTs) in primary care patients with ARIs that compared the use of point-of-care biomarkers with standard care. We included trials that randomised individual participants, as well as trials that randomised clusters of patients (cluster-RCTs).\n\nDATA COLLECTION AND ANALYSIS: Two review authors independently extracted data on the following primary outcomes: number of participants given an antibiotic prescription at index consultation and within 28 days follow-up; participant recovery within seven days follow-up; and total mortality within 28 days follow-up. We assessed risk of bias using the Cochrane risk of bias tool and the certainty of the evidence using GRADE. We used random-effects meta-analyses when feasible. We further analysed results with considerable heterogeneity in prespecified subgroups of individual and cluster-RCTs.\n\nMAIN RESULTS: We included seven new trials in this update, for a total of 13 included trials. Twelve trials (10,218 participants in total, 2335 of which were children) evaluated a C-reactive protein point-of-care test, and one trial (317 adult participants) evaluated a procalcitonin point-of-care test. The studies were conducted in Europe, Russia, and Asia. Overall, the included trials had a low or unclear risk of bias. However all studies were open-labelled, thereby introducing high risk of bias due to lack of blinding. The use of C-reactive protein point-of-care tests to guide antibiotic prescription likely reduces the number of participants given an antibiotic prescription, from 516 prescriptions of antibiotics per 1000 participants in the control group to 397 prescriptions of antibiotics per 1000 participants in the intervention group (risk ratio (RR) 0.77, 95% confidence interval (CI) 0.69 to 0.86; 12 trials, 10,218 participants; I² = 79%; moderate-certainty evidence). Overall, use of C-reactive protein tests also reduce the number of participants given an antibiotic prescription within 28 days follow-up (664 prescriptions of antibiotics per 1000 participants in the control group versus 538 prescriptions of antibiotics per 1000 participants in the intervention group) (RR 0.81, 95% CI 0.76 to 0.86; 7 trials, 5091 participants; I² = 29; high-certainty evidence). The prescription of antibiotics as guided by C-reactive protein tests likely does not reduce the number of participants recovered, within seven or 28 days follow-up (567 participants recovered within seven days follow-up per 1000 participants in the control group versus 584 participants recovered within seven days follow-up per 1000 participants in the intervention group) (recovery within seven days follow-up: RR 1.03, 95% CI 0.96 to 1.12; I² = 0%; moderate-certainty evidence) (recovery within 28 days follow-up: RR 1.02, 95% CI 0.79 to 1.32; I² = 0%; moderate-certainty evidence). The use of C-reactive protein tests may not increase total mortality within 28 days follow-up, from 1 death per 1000 participants in the control group to 0 deaths per 1000 participants in the intervention group (RR 0.53, 95% CI 0.10 to 2.92; I² = 0%; low-certainty evidence). We are uncertain as to whether procalcitonin affects any of the primary or secondary outcomes because there were few participants, thereby limiting the certainty of evidence. We assessed the certainty of the evidence as moderate to high according to GRADE for the primary outcomes for C-reactive protein test, except for mortality, as there were very few deaths, thereby limiting the certainty of the evidence.\n\nAUTHORS' CONCLUSIONS: The use of C-reactive protein point-of-care tests as an adjunct to standard care likely reduces the number of participants given an antibiotic prescription in primary care patients who present with symptoms of acute respiratory infection. The use of C-reactive protein point-of-care tests likely does not affect recovery rates. It is unlikely that further research will substantially change our conclusion regarding the reduction in number of participants given an antibiotic prescription, although the size of the estimated effect may change. The use of C-reactive protein point-of-care tests may not increase mortality within 28 days follow-up, but there were very few events. Studies that recorded deaths and hospital admissions were performed in children from low- and middle-income countries and older adults with comorbidities. Future studies should focus on children, immunocompromised individuals, and people aged 80 years and above with comorbidities. More studies evaluating procalcitonin and potential new biomarkers as point-of-care tests used in primary care to guide antibiotic prescription are needed. Furthermore, studies are needed to validate C-reactive protein decision algorithms, with a specific focus on potential age group differences.",
+        "addresses_concerns": [
+          "sub_query[0]"
+        ],
+        "semantic_similarity": 0.6651164293289185,
+        "recency_score": 0.5,
+        "authority_score": 0.98,
+        "coverage_bonus": 0.0,
+        "total_score": 0.6285582146644593
+      },
+      {
+        "pmid": "34131914",
+        "title": "Magnetic seizure therapy for treatment-resistant depression.",
+        "journal": "The Cochrane database of systematic reviews",
+        "pub_year": 2021,
+        "pub_date": "2021-06-16",
+        "pub_types": [
+          "Journal Article",
+          "Research Support, Non-U.S. Gov't",
+          "Systematic Review"
+        ],
+        "issuing_body": null,
+        "chunks": [
+          {
+            "chunk_id": "34131914_004",
+            "pmid": "34131914",
+            "section_label": "DATA COLLECTION AND ANALYSIS",
+            "text": "Two review authors extracted data independently. For binary outcomes, we calculated risk ratios (RRs) and 95% confidence intervals (CIs). For continuous data, we estimated mean differences (MDs) between groups and 95% CIs. We employed a random-effects model for analyses. We assessed risk of bias for included studies and created a 'Summary of findings' table using the GRADE approach. Our main outcomes of interest were symptom severity, cognitive function, suicide, quality of life, social functioning, dropout for any reason, serious adverse events, and adverse events that led to discontinuation of treatment.",
+            "semantic_similarity": 0.6691610217094421,
+            "matched_sub_query_indices": [
+              6
+            ]
+          }
+        ],
+        "full_text": "BACKGROUND: Magnetic seizure therapy (MST) is a potential alternative to electroconvulsive therapy (ECT). Reports to date on use of MST for patients with treatment-resistant depression (TRD) are limited.\n\nOBJECTIVES: To evaluate the effects of MST in comparison with sham-MST, antidepressant, and other forms of electric or magnetic treatment for adults with TRD.\n\nSEARCH METHODS: In March 2020, we searched a wide range of international electronic sources for published, unpublished, and ongoing studies. We handsearched the reference lists of all included studies and relevant systematic reviews and conference proceedings of the Annual Meeting of the American College of Neuropsychopharmacology (ACNP), the Annual Scientific Convention and Meeting, and the Annual Meeting of the European College of Neuropsychopharmacology (ECNP) to identify additional studies.\n\nSELECTION CRITERIA: All randomised clinical trials (RCTs) focused on MST for adults with TRD.\n\nDATA COLLECTION AND ANALYSIS: Two review authors extracted data independently. For binary outcomes, we calculated risk ratios (RRs) and 95% confidence intervals (CIs). For continuous data, we estimated mean differences (MDs) between groups and 95% CIs. We employed a random-effects model for analyses. We assessed risk of bias for included studies and created a 'Summary of findings' table using the GRADE approach. Our main outcomes of interest were symptom severity, cognitive function, suicide, quality of life, social functioning, dropout for any reason, serious adverse events, and adverse events that led to discontinuation of treatment.\n\nMAIN RESULTS: We included three studies (65 participants) comparing MST with ECT. Two studies reported depressive symptoms with the Hamilton Rating Scale for Depression (HAMD). However, in one study, the data were skewed and there was an imbalance in baseline characteristics. Analysis of these two studies showed no clear differences in depressive symptoms between treatment groups (MD 0.71, 95% CI -2.23 to 3.65; 2 studies, 40 participants; very low-certainty evidence). Two studies investigated multiple domains of cognitive function. However most of the outcomes were not measured by validated neuropsychological tests, and many of the data suffered from unbalanced baseline and skewed distribution. Analysis of immediate memory performance measured by the Wechsler Memory Scale showed no clear differences between treatment groups (MD 0.40, 95% CI -4.16 to 4.96; 1 study, 20 participants; very low-certainty evidence). Analysis of delayed memory performance measured by the Wechsler Memory Scale also showed no clear differences between treatment groups (MD 2.57, 95% CI -2.39 to 7.53; 1 study, 20 participants; very low-certainty evidence). Only one study reported quality of life, but the data were skewed and baseline data were unbalanced across groups. Analysis of quality of life showed no clear differences between treatment groups (MD 14.86, 95% CI -42.26 to 71.98; 1 study, 20 participants; very low-certainty evidence). Only one study reported dropout and adverse events that led to discontinuation of treatment. Analysis of reported data showed no clear differences between treatment groups for this outcome (RR 1.38, 95% CI 0.28 to 6.91; 1 study, 25 participants; very low-certainty evidence). Adverse events occurred in only two participants who received ECT (worsening of preexisting coronary heart disease and a cognitive adverse effect). None of the included studies reported outcomes on suicide and social functioning. No RCTs comparing MST with other treatments were identified.\n\nAUTHORS' CONCLUSIONS: Evidence regarding effects of MST on patients with TRD is currently insufficient. Our analyses of available data did not reveal clearly different effects between MST and ECT. We are uncertain about these findings because of risk of bias and imprecision of estimates. Large, long, well-designed, and well-reported trials are needed to further examine the effects of MST.",
+        "addresses_concerns": [
+          "sub_query[6]"
+        ],
+        "semantic_similarity": 0.6691610217094421,
+        "recency_score": 0.375,
+        "authority_score": 0.98,
+        "coverage_bonus": 0.14285714285714285,
+        "total_score": 0.6198662251404353
+      },
+      {
+        "pmid": "34546354",
+        "title": "Specific content for collaborative care: a systematic review of collaborative care interventions for patients with multimorbidity involving depression and/or anxiety in primary care.",
+        "journal": "Family practice",
+        "pub_year": 2022,
+        "pub_date": "2022-07-19",
+        "pub_types": [
+          "Journal Article",
+          "Systematic Review",
+          "Research Support, Non-U.S. Gov't"
+        ],
+        "issuing_body": null,
+        "chunks": [
+          {
+            "chunk_id": "34546354_002",
+            "pmid": "34546354",
+            "section_label": "METHODS",
+            "text": "We conducted a systematic literature review of randomized controlled trial studies evaluating CC models for adults with multimorbidity involving depression and/or anxiety in PC settings. PubMed, CINAHL, Web of Science, and PsycInfo were searched in December 2019. We conducted a qualitative synthesis using an existing framework and developed a new framework to map the content for each studied intervention.",
+            "semantic_similarity": 0.7315805554389954,
+            "matched_sub_query_indices": [
+              3
+            ]
+          }
+        ],
+        "full_text": "BACKGROUND: In primary care (PC) many patients suffer from multimorbidity involving depression and/or anxiety. Collaborative care (CC) has shown promising results for patients with depression, anxiety, and multimorbidity involving depression. However, specific content in CC for patients with multimorbidity involving depression and/or anxiety is unknown.\n\nOBJECTIVE: (i) To examine the effect of CC interventions in patients with multimorbidity involving depression and/or anxiety compared with usual care; (ii) to identify specific content of CC.\n\nMETHODS: We conducted a systematic literature review of randomized controlled trial studies evaluating CC models for adults with multimorbidity involving depression and/or anxiety in PC settings. PubMed, CINAHL, Web of Science, and PsycInfo were searched in December 2019. We conducted a qualitative synthesis using an existing framework and developed a new framework to map the content for each studied intervention.\n\nRESULTS: We identified 1,447 studies. Twelve publications were included. Eleven had medium-to-high quality of CC for patients with multimorbidity involving depression. Specific content of CC in these studies is: A stepped care model, involving medication and psychotherapy delivered by a nurse or psychologist Care Manager (CM) focusing on problem-solving techniques; follow-up including monitoring of symptoms and function, and relapse prevention strategies; scheduled CM supervision.\n\nCONCLUSIONS: Specific content for CC for patients with multimorbidity involving depression is identified from current research. Research gaps were found regarding CC for patients with multimorbidity and anxiety, depression and anxiety, and depression and/or anxiety and more than 2 diseases.",
+        "addresses_concerns": [
+          "sub_query[3]"
+        ],
+        "semantic_similarity": 0.7315805554389954,
+        "recency_score": 0.5,
+        "authority_score": 0.75,
+        "coverage_bonus": 0.0,
+        "total_score": 0.6157902777194977
+      },
+      {
+        "pmid": "35833228",
+        "title": "Guidelines for the management of male urinary tract infections in primary care: a lack of international consensus-a systematic review of the literature.",
+        "journal": "Family practice",
+        "pub_year": 2023,
+        "pub_date": "2023-02-09",
+        "pub_types": [
+          "Systematic Review",
+          "Journal Article"
+        ],
+        "issuing_body": null,
+        "chunks": [
+          {
+            "chunk_id": "35833228_000",
+            "pmid": "35833228",
+            "section_label": "BACKGROUND",
+            "text": "The management of adult male urinary tract infections (mUTIs) in primary care lacks international consensus. The main objective of this study was to describe the different guidelines for the diagnosis and management of mUTIs in primary care, to assess their methodological quality, and to describe their evidence-based strength of recommendation (SoR).",
+            "semantic_similarity": 0.6776444315910339,
+            "matched_sub_query_indices": [
+              0
+            ]
+          }
+        ],
+        "full_text": "BACKGROUND: The management of adult male urinary tract infections (mUTIs) in primary care lacks international consensus. The main objective of this study was to describe the different guidelines for the diagnosis and management of mUTIs in primary care, to assess their methodological quality, and to describe their evidence-based strength of recommendation (SoR).\n\nMETHODS: An international systematic literature review of the electronic databases Medline (PubMed) and EMBASE, and gray-literature guideline-focused databases was performed in 2021. The Appraisal of Guidelines for Research and Evaluation (AGREE II) assessment tool was used by 2 independent reviewers to appraise each guideline.\n\nRESULTS: From 1,678 records identified, 1,558 were screened, 134 assessed for eligibility, and 29 updated guidelines met the inclusion criteria (13 from Medline, 0 from EMBASE, and 16 from gray literature). Quality assessment revealed 14 (48%) guidelines with high-quality methodology. A grading system methodology was used in 18 (62%) guidelines. Different classifications of mUTIs are described, underlining a lack of international consensus: an anatomic classification (cystitis, prostatitis, pyelonephritis) and a symptomatic classification (approach based on the intensity and tolerance of symptoms). The duration of antibiotic treatment for febrile mUTIs has been gradually reduced over the last 20 years from 28 days to 10-14 days of fluoroquinolones (FQ), which has become the international gold standard. Guidelines from Scandinavian countries propose short courses (3-5 days) of FQ-sparing treatments: pivmecillinam, nitrofurantoin, or trimethoprim. Guidelines from French-speaking countries use a watchful waiting approach and suggest treating mUTIs with FQ, regardless of fever.\n\nCONCLUSIONS: This lack of scientific evidence leads to consensus and disagreement: 14 days of FQ for febrile mUTIs is accepted despite a high risk of antimicrobial resistance, but FQ-sparing treatment and/or short treatment for afebrile mUTIs is not. The definition of afebrile UTIs/cystitis is debated and influences the type and duration of antibiotic treatment recommended.",
+        "addresses_concerns": [
+          "sub_query[0]"
+        ],
+        "semantic_similarity": 0.6776444315910339,
+        "recency_score": 0.625,
+        "authority_score": 0.75,
+        "coverage_bonus": 0.0,
+        "total_score": 0.613822215795517
+      },
+      {
+        "pmid": "34693994",
+        "title": "Strategies to improve smoking cessation rates in primary care.",
+        "journal": "The Cochrane database of systematic reviews",
+        "pub_year": 2021,
+        "pub_date": "2021-09-06",
+        "pub_types": [
+          "Journal Article",
+          "Meta-Analysis",
+          "Research Support, Non-U.S. Gov't",
+          "Systematic Review"
+        ],
+        "issuing_body": null,
+        "chunks": [
+          {
+            "chunk_id": "34693994_003",
+            "pmid": "34693994",
+            "section_label": "SELECTION CRITERIA",
+            "text": "We included randomized controlled trials (RCTs) and cluster-RCTs (cRCTs) carried out in primary care, including non-pregnant adults. Studies investigated a strategy or strategies to improve the implementation or success of smoking cessation treatment in primary care. These strategies could include interventions designed to increase or enhance the quality of existing support, or smoking cessation interventions offered in addition to standard care (adjunctive interventions). Intervention strategies had to be tested in addition to and in comparison with standard care, or in addition to other active intervention strategies if the effect of an individual strategy could be isolated. Standard care typically incorporates physician-delivered brief behavioral support, and an offer of smoking cessation medication, but differs across studies. Studies had to measure smoking abstinence at six months' follow-up or longer.",
+            "semantic_similarity": 0.6843747496604919,
+            "matched_sub_query_indices": [
+              0
+            ]
+          }
+        ],
+        "full_text": "BACKGROUND: Primary care is an important setting in which to treat tobacco addiction. However, the rates at which providers address smoking cessation and the success of that support vary. Strategies can be implemented to improve and increase the delivery of smoking cessation support (e.g. through provider training), and to increase the amount and breadth of support given to people who smoke (e.g. through additional counseling or tailored printed materials).\n\nOBJECTIVES: To assess the effectiveness of strategies intended to increase the success of smoking cessation interventions in primary care settings. To assess whether any effect that these interventions have on smoking cessation may be due to increased implementation by healthcare providers.\n\nSEARCH METHODS: We searched the Cochrane Tobacco Addiction Group's Specialized Register, the Cochrane Central Register of Controlled Trials (CENTRAL), MEDLINE, Embase, and trial registries to 10 September 2020.\n\nSELECTION CRITERIA: We included randomized controlled trials (RCTs) and cluster-RCTs (cRCTs) carried out in primary care, including non-pregnant adults. Studies investigated a strategy or strategies to improve the implementation or success of smoking cessation treatment in primary care. These strategies could include interventions designed to increase or enhance the quality of existing support, or smoking cessation interventions offered in addition to standard care (adjunctive interventions). Intervention strategies had to be tested in addition to and in comparison with standard care, or in addition to other active intervention strategies if the effect of an individual strategy could be isolated. Standard care typically incorporates physician-delivered brief behavioral support, and an offer of smoking cessation medication, but differs across studies. Studies had to measure smoking abstinence at six months' follow-up or longer.\n\nDATA COLLECTION AND ANALYSIS: We followed standard Cochrane methods. Our primary outcome - smoking abstinence - was measured using the most rigorous intention-to-treat definition available. We also extracted outcome data for quit attempts, and the following markers of healthcare provider performance: asking about smoking status; advising on cessation; assessment of participant readiness to quit; assisting with cessation; arranging follow-up for smoking participants. Where more than one study investigated the same strategy or set of strategies, and measured the same outcome, we conducted meta-analyses using Mantel-Haenszel random-effects methods to generate pooled risk ratios (RRs) and 95% confidence intervals (CIs).\n\nMAIN RESULTS: We included 81 RCTs and cRCTs, involving 112,159 participants. Fourteen were rated at low risk of bias, 44 at high risk, and the remainder at unclear risk. We identified moderate-certainty evidence, limited by inconsistency, that the provision of adjunctive counseling by a health professional other than the physician (RR 1.31, 95% CI 1.10 to 1.55; I2 = 44%; 22 studies, 18,150 participants), and provision of cost-free medications (RR 1.36, 95% CI 1.05 to 1.76; I2 = 63%; 10 studies,7560 participants) increased smoking quit rates in primary care. There was also moderate-certainty evidence, limited by risk of bias, that the addition of tailored print materials to standard smoking cessation treatment increased the number of people who had successfully stopped smoking at six months' follow-up or more (RR 1.29, 95% CI 1.04 to 1.59; I2 = 37%; 6 studies, 15,978 participants). There was no clear evidence that providing participants who smoked with biomedical risk feedback increased their likelihood of quitting (RR 1.07, 95% CI 0.81 to 1.41; I2 = 40%; 7 studies, 3491 participants), or that provider smoking cessation training (RR 1.10, 95% CI 0.85 to 1.41; I2 = 66%; 7 studies, 13,685 participants) or provider incentives (RR 1.14, 95% CI 0.97 to 1.34; I2 = 0%; 2 studies, 2454 participants) increased smoking abstinence rates. However, in assessing the former two strategies we judged the evidence to be of low certainty and in assessing the latter strategies it was of very low certainty. We downgraded the evidence due to imprecision, inconsistency and risk of bias across these comparisons. There was some indication that provider training increased the delivery of smoking cessation support, along with the provision of adjunctive counseling and cost-free medications. However, our secondary outcomes were not measured consistently, and in many cases analyses were subject to substantial statistical heterogeneity, imprecision, or both, making it difficult to draw conclusions. Thirty-four studies investigated multicomponent interventions to improve smoking cessation rates. There was substantial variation in the combinations of strategies tested, and the resulting individual study effect estimates, precluding meta-analyses in most cases. Meta-analyses provided some evidence that adjunctive counseling combined with either cost-free medications or provider training enhanced quit rates when compared with standard care alone. However, analyses were limited by small numbers of events, high statistical heterogeneity, and studies at high risk of bias. Analyses looking at the effects of combining provider training with flow sheets to aid physician decision-making, and with outreach facilitation, found no clear evidence that these combinations increased quit rates; however, analyses were limited by imprecision, and there was some indication that these approaches did improve some forms of provider implementation.\n\nAUTHORS' CONCLUSIONS: There is moderate-certainty evidence that providing adjunctive counseling by an allied health professional, cost-free smoking cessation medications, and tailored printed materials as part of smoking cessation support in primary care can increase the number of people who achieve smoking cessation. There is no clear evidence that providing participants with biomedical risk feedback, or primary care providers with training or incentives to provide smoking cessation support enhance quit rates. However, we rated this evidence as of low or very low certainty, and so conclusions are likely to change as further evidence becomes available. Most of the studies in this review evaluated smoking cessation interventions that had already been extensively tested in the general population. Further studies should assess strategies designed to optimize the delivery of those interventions already known to be effective within the primary care setting. Such studies should be cluster-randomized to account for the implications of implementation in this particular setting. Due to substantial variation between studies in this review, identifying optimal characteristics of multicomponent interventions to improve the delivery of smoking cessation treatment was challenging. Future research could use component network meta-analysis to investigate this further.",
+        "addresses_concerns": [
+          "sub_query[0]"
+        ],
+        "semantic_similarity": 0.6843747496604919,
+        "recency_score": 0.375,
+        "authority_score": 0.98,
+        "coverage_bonus": 0.0,
+        "total_score": 0.613187374830246
+      },
+      {
+        "pmid": "34848112",
+        "title": "Defining and implementing patient-centered care: An umbrella review.",
+        "journal": "Patient education and counseling",
+        "pub_year": 2022,
+        "pub_date": "2022-07",
+        "pub_types": [
+          "Journal Article",
+          "Research Support, Non-U.S. Gov't",
+          "Systematic Review"
+        ],
+        "issuing_body": null,
+        "chunks": [
+          {
+            "chunk_id": "34848112_001",
+            "pmid": "34848112",
+            "section_label": "METHODS",
+            "text": "We conducted an overview of systematic reviews (umbrella review) and included peer-reviewed literature for adults in community/primary care settings. Two reviewers independently screened at Level 1 and 2, extracted data and appraised the quality of reviews. Three reviewers conducted a thematic analysis, and we present a narrative synthesis of findings.",
+            "semantic_similarity": 0.6835129857063293,
+            "matched_sub_query_indices": [
+              1
+            ]
+          }
+        ],
+        "full_text": "OBJECTIVES: Patient- or person-centered care (PCC) integrates people's preferences, values, and beliefs into health decision-making. Gaps exist for defining and implementing PCC; therefore, we aimed to identify core elements of PCC and synthesize implementation facilitators and barriers.\n\nMETHODS: We conducted an overview of systematic reviews (umbrella review) and included peer-reviewed literature for adults in community/primary care settings. Two reviewers independently screened at Level 1 and 2, extracted data and appraised the quality of reviews. Three reviewers conducted a thematic analysis, and we present a narrative synthesis of findings.\n\nRESULTS: There were 2371 citations screened, and 10 systematic reviews included. We identified 10 PCC definitions with common elements, such as patient empowerment, patient individuality, and a biopsychosocial approach. Implementation factors focused on communication, training healthcare providers, and organizational structure.\n\nCONCLUSIONS: We provide a synthesis of key PCC elements to include in a future definition, and an overview of elements to consider for implementing PCC into practice. We extend existing literature by identifying clinician empowerment and culture change at the systems-level as two future areas to prioritize to enable routine integration of PCC into practice.\n\nPRACTICE IMPLICATIONS: Findings may be useful for researchers and or health providers delivering and evaluating PCC.",
+        "addresses_concerns": [
+          "sub_query[1]"
+        ],
+        "semantic_similarity": 0.6835129857063293,
+        "recency_score": 0.5,
+        "authority_score": 0.8,
+        "coverage_bonus": 0.0,
+        "total_score": 0.6017564928531647
+      },
+      {
+        "pmid": "35237885",
+        "title": "Primary Care Engagement Among Individuals with Experiences of Homelessness and Serious Mental Illness: an Evidence Map.",
+        "journal": "Journal of general internal medicine",
+        "pub_year": 2022,
+        "pub_date": "2022-05",
+        "pub_types": [
+          "Systematic Review",
+          "Journal Article",
+          "Research Support, U.S. Gov't, Non-P.H.S."
+        ],
+        "issuing_body": null,
+        "chunks": [
+          {
+            "chunk_id": "35237885_002",
+            "pmid": "35237885",
+            "section_label": "RESULTS",
+            "text": "Twenty-two articles met our inclusion criteria evaluating 15 unique interventions to promote engagement in primary care for adults with experiences of homelessness and SMI. Study designs varied widely from randomized controlled trials and cohort studies to single-site program evaluations. Intervention strategies varied across studies but primarily targeted patients directly (e.g., health education, evidence-based interactions such as motivational interviewing) with fewer strategies employed at the clinic (e.g., employee training, multidisciplinary teams) or system levels (e.g., data sharing). We identified elements of primary care integration, including referral strategies, co-location, and interdisciplinary care planning. Interventions displayed notable complexity around the number of intervention components, interaction between intervention components, and extent to which interventions were tailored to specific patient populations.",
+            "semantic_similarity": 0.673897922039032,
+            "matched_sub_query_indices": [
+              5
+            ]
+          }
+        ],
+        "full_text": "BACKGROUND: Experiences of homelessness and serious mental illness (SMI) negatively impact health and receipt of healthcare. Interventions that promote the use of primary care services for people with both SMI and homelessness may improve health outcomes, but this literature has not been evaluated systematically. This evidence map examines the breadth of literature to describe what intervention strategies have been studied for this population, elements of primary care integration with other services used, and the level of intervention complexity to highlight gaps for future intervention research and program development.\n\nMETHODS: We followed an a priori protocol developed in collaboration with clinical stakeholders. We systematically searched the published literature to identify interventions for adults with homelessness who also had SMI. We excluded case reports, editorials, letters, and conference abstracts. Data abstraction methods followed standard practice. Data were categorized into intervention strategies and primary care integration strategies. Then we applied the Complexity Assessment Tool for Systematic Reviews (iCAT_SR) to characterize intervention complexity.\n\nRESULTS: Twenty-two articles met our inclusion criteria evaluating 15 unique interventions to promote engagement in primary care for adults with experiences of homelessness and SMI. Study designs varied widely from randomized controlled trials and cohort studies to single-site program evaluations. Intervention strategies varied across studies but primarily targeted patients directly (e.g., health education, evidence-based interactions such as motivational interviewing) with fewer strategies employed at the clinic (e.g., employee training, multidisciplinary teams) or system levels (e.g., data sharing). We identified elements of primary care integration, including referral strategies, co-location, and interdisciplinary care planning. Interventions displayed notable complexity around the number of intervention components, interaction between intervention components, and extent to which interventions were tailored to specific patient populations.\n\nDISCUSSION: We identified and categorized elements used in various combinations to address the primary care needs of individuals with experiences of homeless and SMI.",
+        "addresses_concerns": [
+          "sub_query[5]"
+        ],
+        "semantic_similarity": 0.673897922039032,
+        "recency_score": 0.5,
+        "authority_score": 0.82,
+        "coverage_bonus": 0.0,
+        "total_score": 0.600948961019516
+      },
+      {
+        "pmid": "33992082",
+        "title": "Contemporary treatment of anxiety in primary care: a systematic review and meta-analysis of outcomes in countries with universal healthcare.",
+        "journal": "BMC family practice",
+        "pub_year": 2021,
+        "pub_date": "2021-05-15",
+        "pub_types": [
+          "Journal Article",
+          "Meta-Analysis",
+          "Research Support, Non-U.S. Gov't",
+          "Systematic Review"
+        ],
+        "issuing_body": null,
+        "chunks": [
+          {
+            "chunk_id": "33992082_001",
+            "pmid": "33992082",
+            "section_label": "METHOD",
+            "text": "PubMed, Cochrane, PsycINFO, CINAHL, and Scopus were searched in April 2017 for controlled studies of evidence-based anxiety treatment in adults in primary care, published in English since 1997. Searches were repeated in April 2020. We synthesised results using a combination of meta-analysis and narrative methods. Meta-analysis was conducted using a random-effects multi-level model to account for intercorrelation between effects contributed different treatment arms of the same study. Moderator variables were explored using meta-regression analyses.",
+            "semantic_similarity": 0.7016440629959106,
+            "matched_sub_query_indices": [
+              1,
+              2,
+              3
+            ]
+          }
+        ],
+        "full_text": "BACKGROUND: Anxiety disorders are highly prevalent mental health conditions and are managed predominantly in primary care. We conducted a systematic review and meta-analysis of psychological and pharmacological treatments in countries with universal healthcare, and investigated the influence of treatment provider on the efficacy of psychological treatment.\n\nMETHOD: PubMed, Cochrane, PsycINFO, CINAHL, and Scopus were searched in April 2017 for controlled studies of evidence-based anxiety treatment in adults in primary care, published in English since 1997. Searches were repeated in April 2020. We synthesised results using a combination of meta-analysis and narrative methods. Meta-analysis was conducted using a random-effects multi-level model to account for intercorrelation between effects contributed different treatment arms of the same study. Moderator variables were explored using meta-regression analyses.\n\nRESULTS: In total, 19 articles (from an initial 2,247) reporting 18 studies were included. Meta-analysis including ten studies (n = 1,308) found a pooled effect size of g = 1.16 (95%CI = 0.63 - 1.69) for psychological treatment compared to waitlist control, and no significant effect compared to care as usual (p = .225). Substantial heterogeneity was present (I2 = 81.25). Specialist treatment produced large effects compared to both waitlist control (g = 1.46, 95%CI = 0.96 - 1.96) and care as usual (g = 0.76, 95%CI = 0.27 - 1.25). Treatment provided by non-specialists was only superior to waitlist control (g = 0.80, 95%CI = 0.31 - 1.28). We identified relatively few studies (n = 4) of medications, which reported small to moderate effects for SSRI/SNRI medications and hydroxyzine. The quality of included studies was variable and most studies had at least \"unclear\" risk of bias in one or more key domains.\n\nCONCLUSIONS: Psychological treatments for anxiety are effective in primary care and are more effective when provided by a specialist (psychologist or clinical psychologist) than a non-specialist (GP, nurse, trainee). However, non-specialists provide effective treatment compared with no care at all. Limited research into the efficacy of pharmacological treatments in primary care needs to be considered carefully by prescribers TRIAL REGISTRATION: PROSPERO registration number CRD42018050659.",
+        "addresses_concerns": [
+          "sub_query[1]",
+          "sub_query[2]",
+          "sub_query[3]"
+        ],
+        "semantic_similarity": 0.7016440629959106,
+        "recency_score": 0.375,
+        "authority_score": 0.68,
+        "coverage_bonus": 0.14285714285714285,
+        "total_score": 0.5761077457836696
+      },
+      {
+        "pmid": "33952533",
+        "title": "Systematic review on the instruments used for measuring the association of the level of multimorbidity and clinically important outcomes.",
+        "journal": "BMJ open",
+        "pub_year": 2021,
+        "pub_date": "2021-05-05",
+        "pub_types": [
+          "Journal Article",
+          "Research Support, Non-U.S. Gov't",
+          "Systematic Review"
+        ],
+        "issuing_body": null,
+        "chunks": [
+          {
+            "chunk_id": "33952533_001",
+            "pmid": "33952533",
+            "section_label": "METHODS",
+            "text": "We conducted the review according to the Preferred Reporting Items for Systematic Reviews and Meta-Analyses guidelines (PROSPERO registration number: CRD42018105297). We searched MEDLINE, Embase and CINAHL electronic databases published in English and manually searched the Journal of Comorbidity between 1 January 2010 and 23 October 2020 inclusive. Studies also had to select adult patients from primary care or general population and had at least one specified outcome variable. Two authors screened the titles, abstracts and full texts independently. Disagreements were resolved with a third author. The modified Newcastle-Ottawa Scale was used for quality assessment.",
+            "semantic_similarity": 0.6792417764663696,
+            "matched_sub_query_indices": [
+              1
+            ]
+          }
+        ],
+        "full_text": "OBJECTIVES: There are multiple instruments for measuring multimorbidity. The main objective of this systematic review was to provide a list of instruments that are suitable for use in studies aiming to measure the association of a specific outcome with different levels of multimorbidity as the main independent variable in community-dwelling individuals. The secondary objective was to provide details of the requirements, strengths and limitations of these instruments, and the chosen outcomes.\n\nMETHODS: We conducted the review according to the Preferred Reporting Items for Systematic Reviews and Meta-Analyses guidelines (PROSPERO registration number: CRD42018105297). We searched MEDLINE, Embase and CINAHL electronic databases published in English and manually searched the Journal of Comorbidity between 1 January 2010 and 23 October 2020 inclusive. Studies also had to select adult patients from primary care or general population and had at least one specified outcome variable. Two authors screened the titles, abstracts and full texts independently. Disagreements were resolved with a third author. The modified Newcastle-Ottawa Scale was used for quality assessment.\n\nRESULTS: Ninety-six studies were identified, with 69 of them rated to have a low risk of bias. In total, 33 unique instruments were described. Disease Count and weighted indices like Charlson Comorbidity Index were commonly used. Other approaches included pharmaceutical-based instruments. Disease Count was the common instrument used for measuring all three essential core outcomes of multimorbidity research: mortality, mental health and quality of life. There was a rise in the development of novel weighted indices by using prognostic models. The data obtained for measuring multimorbidity were from sources including medical records, patient self-reports and large administrative databases.\n\nCONCLUSIONS: We listed the details of 33 instruments for measuring the level of multimorbidity as a resource for investigators interested in the measurement of multimorbidity for its association with or prediction of a specific outcome.",
+        "addresses_concerns": [
+          "sub_query[1]"
+        ],
+        "semantic_similarity": 0.6792417764663696,
+        "recency_score": 0.375,
+        "authority_score": 0.8,
+        "coverage_bonus": 0.0,
+        "total_score": 0.5746208882331849
+      },
+      {
+        "pmid": "35971077",
+        "title": "Experiences of treatment-resistant mental health conditions in primary care: a systematic review and thematic synthesis.",
+        "journal": "BMC primary care",
+        "pub_year": 2022,
+        "pub_date": "2022-08-16",
+        "pub_types": [
+          "Journal Article",
+          "Systematic Review",
+          "Research Support, Non-U.S. Gov't"
+        ],
+        "issuing_body": null,
+        "chunks": [
+          {
+            "chunk_id": "35971077_000",
+            "pmid": "35971077",
+            "section_label": "BACKGROUND",
+            "text": "Most adults fail to achieve remission from common mental health conditions based on pharmacological treatment in primary care alone. There is no data synthesising the reasons. This review addresses this gap through a systematic review and thematic synthesis to understand adults' experiences using primary care for treatment-resistant mental health conditions (TRMHCs). We use the results to produce patient-driven recommendations for better support in primary care.",
+            "semantic_similarity": 0.6770222187042236,
+            "matched_sub_query_indices": [
+              1,
+              3
+            ]
+          }
+        ],
+        "full_text": "BACKGROUND: Most adults fail to achieve remission from common mental health conditions based on pharmacological treatment in primary care alone. There is no data synthesising the reasons. This review addresses this gap through a systematic review and thematic synthesis to understand adults' experiences using primary care for treatment-resistant mental health conditions (TRMHCs). We use the results to produce patient-driven recommendations for better support in primary care.\n\nMETHODS: Eight databases were searched from inception to December 2020 for qualitative studies reporting research on people's experience with TRMHCs in primary care. We included the following common mental health conditions defined by NICE: anxiety, depression, panic disorder, post-traumatic stress, and obsessive-compulsive disorder. Two reviewers independently screened studies. Eligible studies were analysed using an aggregative thematic synthesis.\n\nRESULTS: Eleven studies of 4456 were eligible. From these eleven studies, 4 descriptive themes were developed to describe a cycle of care that people with TRMHCs experienced in primary care. In the first stage, people preferred to self-manage their mental health and reported barriers that prevented them from seeing a GP (e.g., stigma). People felt it necessary to see their GP only when reaching a crisis point. In the second stage, people were usually prescribed antidepressants, but were sceptical about any benefits they had to their mental health. In the third stage, people self-managed their mental health (e.g., by adjusting antidepressant dosage). The fourth stage described the reoccurrence of mental health and need to see a GP again. The high-order theme, 'breaking the cycle,' described how this cycle could be broken (e.g., continuity of care).\n\nCONCLUSIONS: People with TRMHCs and GPs could break the cycle of care by having a conversation about what to do when antidepressants fail to work. This conversation could include replacing antidepressants with psychological interventions like talking therapy or mindfulness.",
+        "addresses_concerns": [
+          "sub_query[1]",
+          "sub_query[3]"
+        ],
+        "semantic_similarity": 0.6770222187042236,
+        "recency_score": 0.5,
+        "authority_score": 0.68,
+        "coverage_bonus": 0.0,
+        "total_score": 0.5745111093521118
+      },
+      {
+        "pmid": "33658141",
+        "title": "Communicating with older adults with long-term conditions about self-management goals: A systematic review and thematic synthesis.",
+        "journal": "Patient education and counseling",
+        "pub_year": 2021,
+        "pub_date": "2021-10",
+        "pub_types": [
+          "Journal Article",
+          "Research Support, Non-U.S. Gov't",
+          "Systematic Review"
+        ],
+        "issuing_body": null,
+        "chunks": [
+          {
+            "chunk_id": "33658141_004",
+            "pmid": "33658141",
+            "section_label": "PRACTICE IMPLICATIONS",
+            "text": "We encourage HCPs to prepare older adults to engage actively with SDM and the goal setting process by employing patient-centred communication resources. These could assist with identifying different types of goals that are realistic and relevant to patients in daily life.",
+            "semantic_similarity": 0.6465646624565125,
+            "matched_sub_query_indices": [
+              4,
+              5
+            ]
+          }
+        ],
+        "full_text": "OBJECTIVE: To synthesise a body of fine-grained observational research on communication between healthcare professionals (HCPs), older adults, and carers regarding self-management goals and actions.\n\nMETHODS: We conducted a systematic review, searching nine electronic databases and the grey literature. Two reviewers independently selected for inclusion following a two-stage process and studies and discrepancies were resolved through consultation with the review team.\n\nRESULTS: 898 records were retrieved, and eight studies were included in the review. Aggregative thematic analysis resulted in 13 categories of communication practices across three decision-making domains: (1) initiating: actions occurring prior to the commitment point; (2) proposing: putting forward a course of action; and (3) committing and closing: committing (or not) to the course of action.\n\nCONCLUSIONS: Despite an increasing emphasis on the importance of personalised care planning and shared decision-making (SDM) to support older people's health and wellbeing, HCPs did not consistently practice this approach and, in some cases, worked in opposition to it.\n\nPRACTICE IMPLICATIONS: We encourage HCPs to prepare older adults to engage actively with SDM and the goal setting process by employing patient-centred communication resources. These could assist with identifying different types of goals that are realistic and relevant to patients in daily life.",
+        "addresses_concerns": [
+          "sub_query[4]",
+          "sub_query[5]"
+        ],
+        "semantic_similarity": 0.6465646624565125,
+        "recency_score": 0.375,
+        "authority_score": 0.8,
+        "coverage_bonus": 0.0,
+        "total_score": 0.5582823312282563
+      },
+      {
+        "pmid": "40419299",
+        "title": "Hypertension Canada guideline for the diagnosis and treatment of hypertension in adults in primary care.",
+        "journal": "CMAJ : Canadian Medical Association journal = journal de l'Association medicale canadienne",
+        "pub_year": 2025,
+        "pub_date": "2025-05-25",
+        "pub_types": [
+          "Journal Article",
+          "Practice Guideline"
+        ],
+        "issuing_body": null,
+        "chunks": [
+          {
+            "chunk_id": "40419299_000",
+            "pmid": "40419299",
+            "section_label": "BACKGROUND",
+            "text": "Canada has historically been among the world leaders in hypertension care, but hypertension treatment and control rates have regressed in recent years. This guideline is intended to provide pragmatic primary care-focused recommendations to improve hypertension management in adults at the population level.",
+            "semantic_similarity": 0.6750761270523071,
+            "matched_sub_query_indices": [
+              1,
+              2
+            ]
+          },
+          {
+            "chunk_id": "40419299_001",
+            "pmid": "40419299",
+            "section_label": "METHODS",
+            "text": "We employed Grading of Recommendations Assessment, Development and Evaluation and ADAPTE frameworks in accordance with Appraisal of Guidelines for Research and Evaluation (AGREE II) quality and reporting standards to develop recommendations on managing hypertension for adults aged 18 years and older. We used the HEARTS framework - a model of care developed by the World Health Organization to improve hypertension control and reduce cardiovascular burden - to integrate these recommendations into streamlined, pragmatic, and evidence-based algorithms. The guideline committee predominantly comprised primary care providers and also included patient, methodology, and hypertension specialist representatives. Our process for managing competing interests adhered to Guidelines International Network principles.",
+            "semantic_similarity": 0.7365108132362366,
+            "matched_sub_query_indices": [
+              2
+            ]
+          }
+        ],
+        "full_text": "BACKGROUND: Canada has historically been among the world leaders in hypertension care, but hypertension treatment and control rates have regressed in recent years. This guideline is intended to provide pragmatic primary care-focused recommendations to improve hypertension management in adults at the population level.\n\nMETHODS: We employed Grading of Recommendations Assessment, Development and Evaluation and ADAPTE frameworks in accordance with Appraisal of Guidelines for Research and Evaluation (AGREE II) quality and reporting standards to develop recommendations on managing hypertension for adults aged 18 years and older. We used the HEARTS framework - a model of care developed by the World Health Organization to improve hypertension control and reduce cardiovascular burden - to integrate these recommendations into streamlined, pragmatic, and evidence-based algorithms. The guideline committee predominantly comprised primary care providers and also included patient, methodology, and hypertension specialist representatives. Our process for managing competing interests adhered to Guidelines International Network principles.\n\nRECOMMENDATIONS: The 9 recommendations for managing hypertension in adults are grouped under the categories of diagnosis and treatment. Diagnostic recommendations include a standardized approach to measuring blood pressure (BP) and confirming hypertension, as well as providing a uniform definition for hypertension of BP ≥ 130/80 mm Hg. Treatment recommendations include targeting a systolic BP < 130 mm Hg, implementing healthy lifestyle changes, and providing stepwise guidance on optimal medication choices for patients requiring pharmacotherapy.\n\nINTERPRETATION: Our aim is to enhance the standard of hypertension care in the Canadian primary care setting. Accurate diagnosis and optimal treatment of hypertension can reduce adverse cardiovascular events and risk of death.",
+        "addresses_concerns": [
+          "sub_query[1]",
+          "sub_query[2]"
+        ],
+        "semantic_similarity": 0.7365108132362366,
+        "recency_score": 0.875,
+        "authority_score": 0.0,
+        "coverage_bonus": 0.0,
+        "total_score": 0.5432554066181183
+      },
+      {
+        "pmid": "40527605",
+        "title": "Hypertension Canada guideline for the diagnosis and treatment of hypertension in adults in primary care.",
+        "journal": "Canadian family physician Medecin de famille canadien",
+        "pub_year": 2025,
+        "pub_date": "2025-07-29",
+        "pub_types": [
+          "Journal Article",
+          "Practice Guideline"
+        ],
+        "issuing_body": null,
+        "chunks": [
+          {
+            "chunk_id": "40527605_000",
+            "pmid": "40527605",
+            "section_label": "BACKGROUND",
+            "text": "Canada has historically been among the world's leaders in hypertension care, but hypertension treatment and control rates have regressed in recent years. This guideline is intended to provide pragmatic primary care-focused recommendations to improve hypertension management in adults at the population level.",
+            "semantic_similarity": 0.6742972135543823,
+            "matched_sub_query_indices": [
+              1,
+              2
+            ]
+          },
+          {
+            "chunk_id": "40527605_001",
+            "pmid": "40527605",
+            "section_label": "METHODS",
+            "text": "We employed Grading of Recommendations Assessment, Development and Evaluation and ADAPTE frameworks in accordance with Appraisal of Guidelines for Research and Evaluation (AGREE II) quality and reporting standards to develop recommendations on managing hypertension for adults aged 18 years and older. We used the HEARTS framework-a model of care developed by the World Health Organization to improve hypertension control and reduce cardiovascular burden-to integrate these recommendations into streamlined, pragmatic, and evidence-based algorithms. The guideline committee predominantly comprised primary care providers and also included patient, methodology, and hypertension specialist representatives. Our process for managing competing interests adhered to Guidelines International Network principles.",
+            "semantic_similarity": 0.7365108132362366,
+            "matched_sub_query_indices": [
+              2
+            ]
+          }
+        ],
+        "full_text": "BACKGROUND: Canada has historically been among the world's leaders in hypertension care, but hypertension treatment and control rates have regressed in recent years. This guideline is intended to provide pragmatic primary care-focused recommendations to improve hypertension management in adults at the population level.\n\nMETHODS: We employed Grading of Recommendations Assessment, Development and Evaluation and ADAPTE frameworks in accordance with Appraisal of Guidelines for Research and Evaluation (AGREE II) quality and reporting standards to develop recommendations on managing hypertension for adults aged 18 years and older. We used the HEARTS framework-a model of care developed by the World Health Organization to improve hypertension control and reduce cardiovascular burden-to integrate these recommendations into streamlined, pragmatic, and evidence-based algorithms. The guideline committee predominantly comprised primary care providers and also included patient, methodology, and hypertension specialist representatives. Our process for managing competing interests adhered to Guidelines International Network principles.\n\nRECOMMENDATIONS: The 9 recommendations for managing hypertension in adults are grouped under the categories of diagnosis and treatment. Diagnostic recommendations include a standardized approach to measuring blood pressure (BP) and confirming hypertension, as well as providing a uniform definition for hypertension of BP ≥130/80 mm Hg. Treatment recommendations include targeting a systolic BP <130 mm Hg, implementing healthy lifestyle changes, and providing stepwise guidance on optimal medication choices for patients requiring pharmacotherapy.\n\nINTERPRETATION: Our aim is to enhance the standard of hypertension care in the Canadian primary care setting. Accurate diagnosis and optimal treatment of hypertension can reduce adverse cardiovascular events and risk of death.",
+        "addresses_concerns": [
+          "sub_query[1]",
+          "sub_query[2]"
+        ],
+        "semantic_similarity": 0.7365108132362366,
+        "recency_score": 0.875,
+        "authority_score": 0.0,
+        "coverage_bonus": 0.0,
+        "total_score": 0.5432554066181183
+      },
+      {
+        "pmid": "41938948",
+        "title": "Comprehensive geriatric assessment and management in primary care: a systematic literature review with a descriptive mapping of team composition and assessment instruments.",
+        "journal": "Frontiers in public health",
+        "pub_year": 2026,
+        "pub_date": "2026",
+        "pub_types": [
+          "Journal Article",
+          "Systematic Review"
+        ],
+        "issuing_body": null,
+        "chunks": [
+          {
+            "chunk_id": "41938948_000",
+            "pmid": "41938948",
+            "section_label": "INTRODUCTION",
+            "text": "Comprehensive Geriatric Assessment and Management (CGAM) is a multidimensional, interdisciplinary diagnostic process to create a coordinated care plan for vulnerable older adults by addressing their medical, psychological, and functional needs. This systematic review examines randomized trials comparing CGAM with standard care or alternative interventions for older individuals in primary care focusing on how CGAM is operationalized through professional team composition and assessment instruments rather than on effectiveness outcomes alone.",
+            "semantic_similarity": 0.6779468059539795,
+            "matched_sub_query_indices": [
+              1
+            ]
+          }
+        ],
+        "full_text": "INTRODUCTION: Comprehensive Geriatric Assessment and Management (CGAM) is a multidimensional, interdisciplinary diagnostic process to create a coordinated care plan for vulnerable older adults by addressing their medical, psychological, and functional needs. This systematic review examines randomized trials comparing CGAM with standard care or alternative interventions for older individuals in primary care focusing on how CGAM is operationalized through professional team composition and assessment instruments rather than on effectiveness outcomes alone.\n\nMETHODS: A search across databases identified 3,112 studies, leading to 31 studies being included in the literature review. Eligible studies generally included participants aged 65 years and older. Across all included studies the mean age of participants was above 70 years.\n\nRESULTS: The findings show a considerable variation in team composition and assessment instruments. While this heterogeneity reflects contextual adaptability, it also highlights the lack of shared standards for CGAM implementation in primary care. Most teams consisted of three to five members. The most frequently involved professionals were nurses/licensed practical nurses (n = 27 studies), geriatricians (n = 21), and social workers (n = 14). General practitioners were involved in more than half of the included studies. Different assessment instruments employed in the studies addressed multiple dimensions of older adults' health, including physical, cognitive, emotional, and social functions.\n\nDISCUSSION: The variability in team composition and assessment instruments highlights the adaptability of CGAM across healthcare settings, emphasizing the need to balance standardization with the flexibility required to meet users' needs and available resources. Based on the available evidence, future CGAM research and practice should prioritize the definition of core team components, the harmonization of assessment domains and instruments, and the development of implementation-ready models that balance standardization with local flexibility.",
+        "addresses_concerns": [
+          "sub_query[1]"
+        ],
+        "semantic_similarity": 0.6779468059539795,
+        "recency_score": 1.0,
+        "authority_score": 0.0,
+        "coverage_bonus": 0.0,
+        "total_score": 0.5389734029769897
+      }
+    ],
+    "rerank_weights": {
+      "semantic_similarity": 0.5,
+      "recency": 0.2,
+      "authority": 0.2,
+      "coverage_bonus": 0.1
+    },
+    "top_k_chunks_per_query": 20,
+    "final_n_documents": 20,
+    "expansion_used": "stub"
+  },
+  "structured_context": {
+    "clusters": [
+      {
+        "cluster_id": "communication_directive::global::41092546_1",
+        "assertion_type": "communication_directive",
+        "addresses_concern": null,
+        "primary_assertion": {
+          "assertion_id": "41092546_1",
+          "assertion_text": "Use patient-centered communication strategies (plain language, teach-back, shared decision-making) when discussing this concern.",
+          "assertion_type": "communication_directive",
+          "confidence": 0.8,
+          "source_pmid": "41092546",
+          "source_chunk_id": null,
+          "addresses_concern": null,
+          "evidence_quote": "Patient-clinician communication in longitudinal care settings about adverse childhood experiences (ACEs) and adult traumas: A systematic review of reviews."
+        },
+        "supporting_pmids": [
+          "33658141",
+          "34848112",
+          "38367963",
+          "41092546"
+        ],
+        "alternative_assertions": [],
+        "convergent": true,
+        "confidence": 0.8500000000000001,
+        "resolution_rule": null,
+        "resolution_rationale": null
+      },
+      {
+        "cluster_id": "recommendation::global::36250577_0",
+        "assertion_type": "recommendation",
+        "addresses_concern": null,
+        "primary_assertion": {
+          "assertion_id": "36250577_0",
+          "assertion_text": "Per this 2022 journal article, consider the approach described in: \"Biomarkers as point-of-care tests to guide prescription of antibiotics in people with acut\"",
+          "assertion_type": "recommendation",
+          "confidence": 0.72,
+          "source_pmid": "36250577",
+          "source_chunk_id": null,
+          "addresses_concern": null,
+          "evidence_quote": "Biomarkers as point-of-care tests to guide prescription of antibiotics in people with acute respiratory infections in primary care."
+        },
+        "supporting_pmids": [
+          "36250577"
+        ],
+        "alternative_assertions": [],
+        "convergent": true,
+        "confidence": 0.72,
+        "resolution_rule": null,
+        "resolution_rationale": null
+      },
+      {
+        "cluster_id": "monitoring::global::41466386_1",
+        "assertion_type": "monitoring",
+        "addresses_concern": null,
+        "primary_assertion": {
+          "assertion_id": "41466386_1",
+          "assertion_text": "Periodic screening / monitoring is supported by this journal article.",
+          "assertion_type": "monitoring",
+          "confidence": 0.7,
+          "source_pmid": "41466386",
+          "source_chunk_id": null,
+          "addresses_concern": null,
+          "evidence_quote": "Screening tools for ruling out mood and anxiety disorders in adults in primary care: a rapid systematic review."
+        },
+        "supporting_pmids": [
+          "41466386"
+        ],
+        "alternative_assertions": [],
+        "convergent": true,
+        "confidence": 0.7,
+        "resolution_rule": null,
+        "resolution_rationale": null
+      },
+      {
+        "cluster_id": "finding::global::41092546_2",
+        "assertion_type": "finding",
+        "addresses_concern": null,
+        "primary_assertion": {
+          "assertion_id": "41092546_2",
+          "assertion_text": "This journal article synthesizes evidence relevant to the patient's concerns.",
+          "assertion_type": "finding",
+          "confidence": 0.78,
+          "source_pmid": "41092546",
+          "source_chunk_id": null,
+          "addresses_concern": null,
+          "evidence_quote": "Patient-clinician communication in longitudinal care settings about adverse childhood experiences (ACEs) and adult traumas: A systematic review of reviews."
+        },
+        "supporting_pmids": [
+          "33658141",
+          "33952533",
+          "33992082",
+          "34546354",
+          "35833228",
+          "35971077",
+          "38521534",
+          "38719772",
+          "39366124",
+          "40419299",
+          "40527605",
+          "41092546",
+          "41466386"
+        ],
+        "alternative_assertions": [
+          {
+            "assertion_id": "41466386_2",
+            "assertion_text": "This journal article synthesizes evidence relevant to the patient's concerns.",
+            "assertion_type": "finding",
+            "confidence": 0.78,
+            "source_pmid": "41466386",
+            "source_chunk_id": null,
+            "addresses_concern": null,
+            "evidence_quote": "Screening tools for ruling out mood and anxiety disorders in adults in primary care: a rapid systematic review."
+          },
+          {
+            "assertion_id": "38719772_1",
+            "assertion_text": "This journal article synthesizes evidence relevant to the patient's concerns.",
+            "assertion_type": "finding",
+            "confidence": 0.78,
+            "source_pmid": "38719772",
+            "source_chunk_id": null,
+            "addresses_concern": null,
+            "evidence_quote": "European Respiratory Society clinical practice guideline on symptom management for adults with serious respiratory illness."
+          },
+          {
+            "assertion_id": "39366124_1",
+            "assertion_text": "This systematic review synthesizes evidence relevant to the patient's concerns.",
+            "assertion_type": "finding",
+            "confidence": 0.78,
+            "source_pmid": "39366124",
+            "source_chunk_id": null,
+            "addresses_concern": null,
+            "evidence_quote": "Roles and contributions of companions in healthcare professional-older patient interaction: A systematic review."
+          },
+          {
+            "assertion_id": "38521534_1",
+            "assertion_text": "This systematic review synthesizes evidence relevant to the patient's concerns.",
+            "assertion_type": "finding",
+            "confidence": 0.78,
+            "source_pmid": "38521534",
+            "source_chunk_id": null,
+            "addresses_concern": null,
+            "evidence_quote": "Prognostic factors and prediction models for hospitalisation and all-cause mortality in adults presenting to primary care with a lower respiratory tract infection: a systematic review."
+          },
+          {
+            "assertion_id": "34546354_1",
+            "assertion_text": "This journal article synthesizes evidence relevant to the patient's concerns.",
+            "assertion_type": "finding",
+            "confidence": 0.78,
+            "source_pmid": "34546354",
+            "source_chunk_id": null,
+            "addresses_concern": null,
+            "evidence_quote": "Specific content for collaborative care: a systematic review of collaborative care interventions for patients with multimorbidity involving depression and/or anxiety in primary care."
+          },
+          {
+            "assertion_id": "35833228_1",
+            "assertion_text": "This systematic review synthesizes evidence relevant to the patient's concerns.",
+            "assertion_type": "finding",
+            "confidence": 0.78,
+            "source_pmid": "35833228",
+            "source_chunk_id": null,
+            "addresses_concern": null,
+            "evidence_quote": "Guidelines for the management of male urinary tract infections in primary care: a lack of international consensus-a systematic review of the literature."
+          },
+          {
+            "assertion_id": "33992082_1",
+            "assertion_text": "This journal article synthesizes evidence relevant to the patient's concerns.",
+            "assertion_type": "finding",
+            "confidence": 0.78,
+            "source_pmid": "33992082",
+            "source_chunk_id": null,
+            "addresses_concern": null,
+            "evidence_quote": "Contemporary treatment of anxiety in primary care: a systematic review and meta-analysis of outcomes in countries with universal healthcare."
+          },
+          {
+            "assertion_id": "33952533_1",
+            "assertion_text": "This journal article synthesizes evidence relevant to the patient's concerns.",
+            "assertion_type": "finding",
+            "confidence": 0.78,
+            "source_pmid": "33952533",
+            "source_chunk_id": null,
+            "addresses_concern": null,
+            "evidence_quote": "Systematic review on the instruments used for measuring the association of the level of multimorbidity and clinically important outcomes."
+          },
+          {
+            "assertion_id": "35971077_1",
+            "assertion_text": "This journal article synthesizes evidence relevant to the patient's concerns.",
+            "assertion_type": "finding",
+            "confidence": 0.78,
+            "source_pmid": "35971077",
+            "source_chunk_id": null,
+            "addresses_concern": null,
+            "evidence_quote": "Experiences of treatment-resistant mental health conditions in primary care: a systematic review and thematic synthesis."
+          },
+          {
+            "assertion_id": "33658141_2",
+            "assertion_text": "This journal article synthesizes evidence relevant to the patient's concerns.",
+            "assertion_type": "finding",
+            "confidence": 0.78,
+            "source_pmid": "33658141",
+            "source_chunk_id": null,
+            "addresses_concern": null,
+            "evidence_quote": "Communicating with older adults with long-term conditions about self-management goals: A systematic review and thematic synthesis."
+          },
+          {
+            "assertion_id": "40419299_1",
+            "assertion_text": "This journal article synthesizes evidence relevant to the patient's concerns.",
+            "assertion_type": "finding",
+            "confidence": 0.78,
+            "source_pmid": "40419299",
+            "source_chunk_id": null,
+            "addresses_concern": null,
+            "evidence_quote": "Hypertension Canada guideline for the diagnosis and treatment of hypertension in adults in primary care."
+          },
+          {
+            "assertion_id": "40527605_1",
+            "assertion_text": "This journal article synthesizes evidence relevant to the patient's concerns.",
+            "assertion_type": "finding",
+            "confidence": 0.78,
+            "source_pmid": "40527605",
+            "source_chunk_id": null,
+            "addresses_concern": null,
+            "evidence_quote": "Hypertension Canada guideline for the diagnosis and treatment of hypertension in adults in primary care."
+          }
+        ],
+        "convergent": false,
+        "confidence": 0.78,
+        "resolution_rule": "recency",
+        "resolution_rationale": "Recency: pub_year=2026 wins among [2026, 2025, 2024, 2025, 2024, 2022, 2023, 2021, 2021, 2022, 2021, 2025, 2025]; authority and confidence used as tiebreakers if needed."
+      },
+      {
+        "cluster_id": "recommendation::global::41092546_0",
+        "assertion_type": "recommendation",
+        "addresses_concern": null,
+        "primary_assertion": {
+          "assertion_id": "41092546_0",
+          "assertion_text": "Per this 2026 journal article, consider the approach described in: \"Patient-clinician communication in longitudinal care settings about adverse childhood expe\"",
+          "assertion_type": "recommendation",
+          "confidence": 0.72,
+          "source_pmid": "41092546",
+          "source_chunk_id": null,
+          "addresses_concern": null,
+          "evidence_quote": "Patient-clinician communication in longitudinal care settings about adverse childhood experiences (ACEs) and adult traumas: A systematic review of reviews."
+        },
+        "supporting_pmids": [
+          "33658141",
+          "33952533",
+          "33992082",
+          "34131914",
+          "34546354",
+          "34693994",
+          "34848112",
+          "35237885",
+          "35833228",
+          "35971077",
+          "38367963",
+          "38521534",
+          "38719772",
+          "39366124",
+          "40419299",
+          "40527605",
+          "41092546",
+          "41466386",
+          "41938948"
+        ],
+        "alternative_assertions": [
+          {
+            "assertion_id": "41466386_0",
+            "assertion_text": "Per this 2025 journal article, consider the approach described in: \"Screening tools for ruling out mood and anxiety disorders in adults in primary care: a rap\"",
+            "assertion_type": "recommendation",
+            "confidence": 0.72,
+            "source_pmid": "41466386",
+            "source_chunk_id": null,
+            "addresses_concern": null,
+            "evidence_quote": "Screening tools for ruling out mood and anxiety disorders in adults in primary care: a rapid systematic review."
+          },
+          {
+            "assertion_id": "38719772_0",
+            "assertion_text": "Per this 2024 journal article, consider the approach described in: \"European Respiratory Society clinical practice guideline on symptom management for adults \"",
+            "assertion_type": "recommendation",
+            "confidence": 0.72,
+            "source_pmid": "38719772",
+            "source_chunk_id": null,
+            "addresses_concern": null,
+            "evidence_quote": "European Respiratory Society clinical practice guideline on symptom management for adults with serious respiratory illness."
+          },
+          {
+            "assertion_id": "39366124_0",
+            "assertion_text": "Per this 2025 systematic review, consider the approach described in: \"Roles and contributions of companions in healthcare professional-older patient interaction\"",
+            "assertion_type": "recommendation",
+            "confidence": 0.72,
+            "source_pmid": "39366124",
+            "source_chunk_id": null,
+            "addresses_concern": null,
+            "evidence_quote": "Roles and contributions of companions in healthcare professional-older patient interaction: A systematic review."
+          },
+          {
+            "assertion_id": "38367963_0",
+            "assertion_text": "Per this 2024 systematic review, consider the approach described in: \"Triadic communication with teenagers and young adults with cancer: a systematic literature\"",
+            "assertion_type": "recommendation",
+            "confidence": 0.72,
+            "source_pmid": "38367963",
+            "source_chunk_id": null,
+            "addresses_concern": null,
+            "evidence_quote": "Triadic communication with teenagers and young adults with cancer: a systematic literature review - 'make me feel like I'm not the third person'."
+          },
+          {
+            "assertion_id": "38521534_0",
+            "assertion_text": "Per this 2024 systematic review, consider the approach described in: \"Prognostic factors and prediction models for hospitalisation and all-cause mortality in ad\"",
+            "assertion_type": "recommendation",
+            "confidence": 0.72,
+            "source_pmid": "38521534",
+            "source_chunk_id": null,
+            "addresses_concern": null,
+            "evidence_quote": "Prognostic factors and prediction models for hospitalisation and all-cause mortality in adults presenting to primary care with a lower respiratory tract infection: a systematic review."
+          },
+          {
+            "assertion_id": "34131914_0",
+            "assertion_text": "Per this 2021 journal article, consider the approach described in: \"Magnetic seizure therapy for treatment-resistant depression.\"",
+            "assertion_type": "recommendation",
+            "confidence": 0.72,
+            "source_pmid": "34131914",
+            "source_chunk_id": null,
+            "addresses_concern": null,
+            "evidence_quote": "Magnetic seizure therapy for treatment-resistant depression."
+          },
+          {
+            "assertion_id": "34546354_0",
+            "assertion_text": "Per this 2022 journal article, consider the approach described in: \"Specific content for collaborative care: a systematic review of collaborative care interve\"",
+            "assertion_type": "recommendation",
+            "confidence": 0.72,
+            "source_pmid": "34546354",
+            "source_chunk_id": null,
+            "addresses_concern": null,
+            "evidence_quote": "Specific content for collaborative care: a systematic review of collaborative care interventions for patients with multimorbidity involving depression and/or anxiety in primary care."
+          },
+          {
+            "assertion_id": "35833228_0",
+            "assertion_text": "Per this 2023 systematic review, consider the approach described in: \"Guidelines for the management of male urinary tract infections in primary care: a lack of \"",
+            "assertion_type": "recommendation",
+            "confidence": 0.72,
+            "source_pmid": "35833228",
+            "source_chunk_id": null,
+            "addresses_concern": null,
+            "evidence_quote": "Guidelines for the management of male urinary tract infections in primary care: a lack of international consensus-a systematic review of the literature."
+          },
+          {
+            "assertion_id": "34693994_0",
+            "assertion_text": "Per this 2021 journal article, consider the approach described in: \"Strategies to improve smoking cessation rates in primary care.\"",
+            "assertion_type": "recommendation",
+            "confidence": 0.72,
+            "source_pmid": "34693994",
+            "source_chunk_id": null,
+            "addresses_concern": null,
+            "evidence_quote": "Strategies to improve smoking cessation rates in primary care."
+          },
+          {
+            "assertion_id": "34848112_0",
+            "assertion_text": "Per this 2022 journal article, consider the approach described in: \"Defining and implementing patient-centered care: An umbrella review.\"",
+            "assertion_type": "recommendation",
+            "confidence": 0.72,
+            "source_pmid": "34848112",
+            "source_chunk_id": null,
+            "addresses_concern": null,
+            "evidence_quote": "Defining and implementing patient-centered care: An umbrella review."
+          },
+          {
+            "assertion_id": "35237885_0",
+            "assertion_text": "Per this 2022 systematic review, consider the approach described in: \"Primary Care Engagement Among Individuals with Experiences of Homelessness and Serious Men\"",
+            "assertion_type": "recommendation",
+            "confidence": 0.72,
+            "source_pmid": "35237885",
+            "source_chunk_id": null,
+            "addresses_concern": null,
+            "evidence_quote": "Primary Care Engagement Among Individuals with Experiences of Homelessness and Serious Mental Illness: an Evidence Map."
+          },
+          {
+            "assertion_id": "33992082_0",
+            "assertion_text": "Per this 2021 journal article, consider the approach described in: \"Contemporary treatment of anxiety in primary care: a systematic review and meta-analysis o\"",
+            "assertion_type": "recommendation",
+            "confidence": 0.72,
+            "source_pmid": "33992082",
+            "source_chunk_id": null,
+            "addresses_concern": null,
+            "evidence_quote": "Contemporary treatment of anxiety in primary care: a systematic review and meta-analysis of outcomes in countries with universal healthcare."
+          },
+          {
+            "assertion_id": "33952533_0",
+            "assertion_text": "Per this 2021 journal article, consider the approach described in: \"Systematic review on the instruments used for measuring the association of the level of mu\"",
+            "assertion_type": "recommendation",
+            "confidence": 0.72,
+            "source_pmid": "33952533",
+            "source_chunk_id": null,
+            "addresses_concern": null,
+            "evidence_quote": "Systematic review on the instruments used for measuring the association of the level of multimorbidity and clinically important outcomes."
+          },
+          {
+            "assertion_id": "35971077_0",
+            "assertion_text": "Per this 2022 journal article, consider the approach described in: \"Experiences of treatment-resistant mental health conditions in primary care: a systematic \"",
+            "assertion_type": "recommendation",
+            "confidence": 0.72,
+            "source_pmid": "35971077",
+            "source_chunk_id": null,
+            "addresses_concern": null,
+            "evidence_quote": "Experiences of treatment-resistant mental health conditions in primary care: a systematic review and thematic synthesis."
+          },
+          {
+            "assertion_id": "33658141_0",
+            "assertion_text": "Per this 2021 journal article, consider the approach described in: \"Communicating with older adults with long-term conditions about self-management goals: A s\"",
+            "assertion_type": "recommendation",
+            "confidence": 0.72,
+            "source_pmid": "33658141",
+            "source_chunk_id": null,
+            "addresses_concern": null,
+            "evidence_quote": "Communicating with older adults with long-term conditions about self-management goals: A systematic review and thematic synthesis."
+          },
+          {
+            "assertion_id": "40419299_0",
+            "assertion_text": "Per this 2025 journal article, consider the approach described in: \"Hypertension Canada guideline for the diagnosis and treatment of hypertension in adults in\"",
+            "assertion_type": "recommendation",
+            "confidence": 0.72,
+            "source_pmid": "40419299",
+            "source_chunk_id": null,
+            "addresses_concern": null,
+            "evidence_quote": "Hypertension Canada guideline for the diagnosis and treatment of hypertension in adults in primary care."
+          },
+          {
+            "assertion_id": "40527605_0",
+            "assertion_text": "Per this 2025 journal article, consider the approach described in: \"Hypertension Canada guideline for the diagnosis and treatment of hypertension in adults in\"",
+            "assertion_type": "recommendation",
+            "confidence": 0.72,
+            "source_pmid": "40527605",
+            "source_chunk_id": null,
+            "addresses_concern": null,
+            "evidence_quote": "Hypertension Canada guideline for the diagnosis and treatment of hypertension in adults in primary care."
+          },
+          {
+            "assertion_id": "41938948_0",
+            "assertion_text": "Per this 2026 journal article, consider the approach described in: \"Comprehensive geriatric assessment and management in primary care: a systematic literature\"",
+            "assertion_type": "recommendation",
+            "confidence": 0.72,
+            "source_pmid": "41938948",
+            "source_chunk_id": null,
+            "addresses_concern": null,
+            "evidence_quote": "Comprehensive geriatric assessment and management in primary care: a systematic literature review with a descriptive mapping of team composition and assessment instruments."
+          }
+        ],
+        "convergent": false,
+        "confidence": 0.72,
+        "resolution_rule": "recency",
+        "resolution_rationale": "Recency: pub_year=2026 wins among [2026, 2025, 2024, 2025, 2024, 2024, 2021, 2022, 2023, 2021, 2022, 2022, 2021, 2021, 2022, 2021, 2025, 2025, 2026]; authority and confidence used as tiebreakers if needed."
+      }
+    ],
+    "n_documents_processed": 20,
+    "n_assertions_extracted": 38,
+    "n_clusters": 5,
+    "n_convergent_clusters": 3,
+    "n_divergent_clusters": 2,
+    "cluster_similarity_threshold": 0.75,
+    "notes": [
+      "Abstracts-only prototype: assertion granularity is coarser than a full-text system would produce.",
+      "Module II graph expansion is stubbed in v0 (flat vector retrieval). See clinicomm.modules.m2_retrieval.expand_neighborhood."
+    ]
+  },
+  "response": {
+    "acknowledgment": "I can hear how much this has been weighing on you — you said, \"No vision changes — that I'd be more worried about\". That's a real thing to be carrying, and I want to take it seriously while we figure out what's going on.",
+    "clinical_information_per_concern": [
+      {
+        "concern_label": "cough",
+        "profile_path": "problems[0]",
+        "explanation": "For your cough: based on current guidance, Use patient-centered communication strategies (plain language, teach-back, shared decision-making) when discussing this concern.",
+        "citations": [
+          {
+            "cluster_id": "communication_directive::global::41092546_1",
+            "primary_assertion_id": "41092546_1",
+            "pmids": [
+              "33658141",
+              "34848112",
+              "38367963",
+              "41092546"
+            ]
+          }
+        ]
+      },
+      {
+        "concern_label": "headache",
+        "profile_path": "problems[1]",
+        "explanation": "For your headache: based on current guidance, Use patient-centered communication strategies (plain language, teach-back, shared decision-making) when discussing this concern.",
+        "citations": [
+          {
+            "cluster_id": "communication_directive::global::41092546_1",
+            "primary_assertion_id": "41092546_1",
+            "pmids": [
+              "33658141",
+              "34848112",
+              "38367963",
+              "41092546"
+            ]
+          }
+        ]
+      },
+      {
+        "concern_label": "chest pain",
+        "profile_path": "problems[2]",
+        "explanation": "For your chest pain: based on current guidance, Use patient-centered communication strategies (plain language, teach-back, shared decision-making) when discussing this concern.",
+        "citations": [
+          {
+            "cluster_id": "communication_directive::global::41092546_1",
+            "primary_assertion_id": "41092546_1",
+            "pmids": [
+              "33658141",
+              "34848112",
+              "38367963",
+              "41092546"
+            ]
+          }
+        ]
+      },
+      {
+        "concern_label": "depressed mood",
+        "profile_path": "problems[3]",
+        "explanation": "For your depressed mood: based on current guidance, Use patient-centered communication strategies (plain language, teach-back, shared decision-making) when discussing this concern.",
+        "citations": [
+          {
+            "cluster_id": "communication_directive::global::41092546_1",
+            "primary_assertion_id": "41092546_1",
+            "pmids": [
+              "33658141",
+              "34848112",
+              "38367963",
+              "41092546"
+            ]
+          }
+        ]
+      },
+      {
+        "concern_label": "goal: \"I want to be straight with you — I haven't been good about taking the pills\"",
+        "profile_path": "patient_goals[0]",
+        "explanation": "For your goal: \"I want to be straight with you — I haven't been good about taking the pills\": based on current guidance, Use patient-centered communication strategies (plain language, teach-back, shared decision-making) when discussing this concern.",
+        "citations": [
+          {
+            "cluster_id": "communication_directive::global::41092546_1",
+            "primary_assertion_id": "41092546_1",
+            "pmids": [
+              "33658141",
+              "34848112",
+              "38367963",
+              "41092546"
+            ]
+          }
+        ]
+      },
+      {
+        "concern_label": "goal: \"I need to be around\"",
+        "profile_path": "patient_goals[1]",
+        "explanation": "For your goal: \"I need to be around\": based on current guidance, Use patient-centered communication strategies (plain language, teach-back, shared decision-making) when discussing this concern.",
+        "citations": [
+          {
+            "cluster_id": "communication_directive::global::41092546_1",
+            "primary_assertion_id": "41092546_1",
+            "pmids": [
+              "33658141",
+              "34848112",
+              "38367963",
+              "41092546"
+            ]
+          }
+        ]
+      }
+    ],
+    "next_steps": [
+      "Because of the suicidal ideation, we'll start the workup today rather than wait — that includes bloodwork and a few tests to rule out the things you're most worried about.",
+      "We'll go through what each step is for, so you can decide what feels right.",
+      "I'll have someone follow up with you in the next few days to check in and answer any questions that come up."
+    ],
+    "teach_back_prompt": "I want to make sure I explained this clearly — can you tell me, in your own words, what we're going to do next and why?",
+    "follow_up_invitation": "Let's plan to see each other again in 2–4 weeks. In the meantime, if anything gets worse — especially any of the warning signs we talked about — please call us right away.",
+    "nurse_elements_applied": [
+      "Name",
+      "Understand",
+      "Respect",
+      "Support"
+    ],
+    "four_habits_elements_applied": [
+      "Invest in the beginning",
+      "Demonstrate empathy",
+      "Elicit the patient's perspective",
+      "Invest in the end"
+    ],
+    "all_cluster_ids_used": [
+      "communication_directive::global::41092546_1"
+    ],
+    "all_pmids_used": [
+      "33658141",
+      "34848112",
+      "38367963",
+      "41092546"
+    ],
+    "glossary_substitutions": []
+  },
+  "mode": "mock"
+}

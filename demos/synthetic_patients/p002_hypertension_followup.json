@@ -1,0 +1,37 @@
+{
+  "_README": "Draft authored by Claude as a starting point. Edit freely — you own the dialogue. Patient archetype: 41F with known HTN, openly non-adherent due to forgetfulness + lisinopril-induced dry cough. Tests Module IV's empathy on a *chronic* condition (no fear of imminent harm), patient values around minimizing pills, and capturing 'frustration' as an emotional cue without conflating it with depression.",
+
+  "patient_id": "p002_hypertension_followup",
+  "scenario": "41-year-old female teacher returning for a hypertension follow-up. Openly admits inconsistent adherence to lisinopril 20 mg (~4/7 days), bothered by ACE-inhibitor cough, mildly worried about lightheadedness on standing. Has two young kids, father had MI at 62 (lifelong smoker), wants to avoid more medications if possible.",
+
+  "expected_features": {
+    "_README": "Self-check after running the pipeline.",
+    "primary_complaints":     ["uncontrolled / under-treated hypertension", "ACE-inhibitor cough", "orthostatic lightheadedness"],
+    "expected_red_flags":     ["(none — patient explicitly denies chest pain, vision change, focal weakness, syncope, SI)"],
+    "expected_emotional_cues": ["frustration (cough, medication burden)", "concern about long-term consequences"],
+    "expected_patient_goals": ["fewer pills, not more", "no cough", "avoid hospitalization for kids' sake"]
+  },
+
+  "turns": [
+    {
+      "elicited_by": "opener: 'What brings you in today?'",
+      "patient_utterance": "I'm here for my blood pressure check, but I want to be straight with you — I haven't been good about taking the pills. Some weeks I just forget, and honestly when I feel fine I don't see the point. Plus the lisinopril gives me this dry cough that drives me crazy at night."
+    },
+    {
+      "elicited_by": "adherence detail / pattern / side effects",
+      "patient_utterance": "I take it maybe four days out of seven if I'm being generous. Mornings are the worst — I'm getting ready, the kids are losing it, and it just slips. The cough started maybe two months in and hasn't gone away. I've also had a little dizziness when I stand up fast — not bad, just a moment."
+    },
+    {
+      "elicited_by": "red-flag safety screen",
+      "patient_utterance": "No chest pain. No vision changes — that I'd be more worried about. I get those dizzy moments standing up but nothing where I almost fell or anything. No leg swelling. No real headaches. And no — definitely no thoughts of hurting myself or anything like that. I'm frustrated, not depressed."
+    },
+    {
+      "elicited_by": "medications / allergies / family history",
+      "patient_utterance": "Just the lisinopril 20 mg in the morning when I take it. No other prescriptions. No allergies. My mom was on blood pressure pills for years and did okay, my dad had a heart attack at 62 but he smoked his whole life. I don't smoke. I'm trying to walk more — got an Apple Watch and it nags me, which is kind of working."
+    },
+    {
+      "elicited_by": "patient_goals",
+      "patient_utterance": "Honestly? I want fewer pills, not more. If there's a way to get my numbers down without the cough, I'd take that. But I also don't want to do something stupid that ends with me in a hospital bed — I have two kids in elementary school. I need to be around."
+    }
+  ]
+}

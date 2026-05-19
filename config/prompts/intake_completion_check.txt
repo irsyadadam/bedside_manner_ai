@@ -1,0 +1,22 @@
+# TODO: write the intake-completion-check prompt.
+#
+# Purpose
+#   Given a PatientConcernProfile JSON, decide whether the intake is
+#   sufficiently complete to hand off to Module II (Retrieval).
+#
+# Must define
+#   - Minimum descriptors per problem: onset, severity, timing.
+#   - Required: red-flag screen has been asked AND patient_goals
+#     captured AT LEAST once.
+#   - Tolerance for "unknown" answers: a patient saying "I don't know"
+#     counts the field as resolved, not unknown.
+#   - Output: strict JSON
+#       { "is_complete": bool,
+#         "missing": [list of missing field paths],
+#         "reasoning": "short string" }
+#
+# Variables the runtime substitutes
+#   {{current_profile_json}}
+#
+# TODO: fill in. Module I uses next_prompt() as a fallback when this
+# prompt is still a placeholder.

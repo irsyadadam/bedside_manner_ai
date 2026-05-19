@@ -1,0 +1,124 @@
+# Pipeline configuration for clinicomm research prototype.
+# All modules read from this file. Do not infer values from elsewhere.
+
+pubmed:
+  # Use this query string EXACTLY with E-utilities ESearch. Do not edit
+  # without updating the manuscript Methods section.
+  query: |
+    (
+      (
+        "Primary Health Care"[MeSH] OR
+        "General Practice"[MeSH] OR
+        "Physicians, Primary Care"[MeSH] OR
+        "Family Practice"[MeSH]
+      )
+      OR
+      (
+        "Physician-Patient Relations"[MeSH] OR
+        "Communication"[MeSH] OR
+        "Patient-Centered Care"[MeSH] OR
+        "Empathy"[MeSH]
+      )
+      OR
+      (
+        "Symptom Assessment"[MeSH] OR
+        "Medical History Taking"[MeSH] OR
+        "Diagnosis, Differential"[MeSH:NoExp]
+      )
+    )
+    AND (
+      "Practice Guideline"[pt] OR
+      "Guideline"[pt] OR
+      "Systematic Review"[pt] OR
+      "Meta-Analysis"[pt]
+    )
+    AND ("2018/01/01"[PDAT] : "2026/12/31"[PDAT])
+    AND English[lang]
+    AND humans[mesh]
+    AND ("adult"[MeSH] OR "middle aged"[MeSH] OR "aged"[MeSH])
+
+  # NCBI E-utilities settings.
+  api_key_env: NCBI_API_KEY        # read API key from this env var (optional)
+  rate_limit_with_key: 10          # requests/sec when API key is present
+  rate_limit_no_key: 3             # requests/sec without API key
+  esearch_retmax: 10000            # cap per ESearch page
+  esummary_batch: 200              # PMIDs per ESummary call
+  efetch_batch: 50                 # PMIDs per EFetch call
+  use_history: true                # use WebEnv + QueryKey
+  email_env: NCBI_EMAIL            # overridable via env var
+  email: "irsyadadam@g.ucla.edu"   # default contact; required by NCBI
+
+embedding:
+  model: BAAI/bge-large-en-v1.5
+  batch_size: 64
+  use_gpu_if_available: true
+  # Abstracts are short — small chunks help recall.
+  chunk_size_tokens: 400
+  chunk_overlap_tokens: 50
+
+index:
+  backend: chroma
+  persist_dir: index/chroma
+  collection_name: pubmed_abstracts
+
+retrieval:
+  top_k: 20
+  graph_expansion_hops: 1          # v0: stub only; flat retrieval in code
+  rerank_weights:
+    semantic_similarity: 0.5
+    recency: 0.2
+    authority: 0.2
+    coverage_bonus: 0.1
+
+llm:
+  # Free local inference. Modules I, III, IV call this. Module II is
+  # embeddings-only and does not use this block.
+  provider: vllm
+  # OpenAI-compatible HTTP API served by `scripts/start_vllm_server.sh`.
+  base_url: http://localhost:8000/v1
+  api_key: EMPTY                              # vLLM ignores the value
+  model: deepseek-ai/DeepSeek-R1-Distill-Qwen-14B
+  # Generation defaults — modules may override per call.
+  max_tokens: 4096
+  temperature: 0.2
+  top_p: 0.95
+  # vLLM server-side knobs (read by scripts/start_vllm_server.sh; not
+  # by the client). Keep them in config so the manuscript Methods
+  # section can cite exact values.
+  server:
+    host: 0.0.0.0
+    port: 8000
+    dtype: bfloat16                           # RTX 6000 Ada has bf16 tensor cores
+    gpu_memory_utilization: 0.90              # 48 GB card -> ~43 GB usable
+    max_model_len: 16384                      # abstracts + profile JSON fit easily
+    attention_backend: FLASH_ATTN             # vLLM's built-in flash attention v2
+    enable_prefix_caching: true               # reuses KV across same-prefix calls
+    enable_chunked_prefill: true              # better TTFT under load
+    tensor_parallel_size: 1                   # single-GPU box
+    swap_space_gb: 4                          # CPU offload buffer
+    # Module III makes many short calls with shared system prompt;
+    # prefix caching is the single biggest win there.
+
+prompts:
+  intake_system: config/prompts/intake_system.txt
+  intake_completion_check: config/prompts/intake_completion_check.txt
+  assertion_extraction: config/prompts/assertion_extraction.txt
+  conflict_resolution: config/prompts/conflict_resolution.txt
+  response_generation: config/prompts/response_generation.txt
+
+paths:
+  db_raw: db/raw
+  db_parsed: db/parsed
+  db_chunks: db/chunks
+  manifest: db/manifest.jsonl
+  discovery: db/discovery.jsonl
+  logs: logs
+  synthetic_patients: demos/synthetic_patients
+  figures_ascii: manuscript/figures_ascii
+  tables_draft: manuscript/tables_draft
+  traces: manuscript/traces
+
+logging:
+  level: INFO
+  to_stdout: true
+  to_file: true                    # writes logs/<phase>_<timestamp>.log

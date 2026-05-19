@@ -1,0 +1,90 @@
+# fig6_end_to_end_trace.txt — utterance ↔ response binding
+# Manuscript: Results section, "End-to-end trace" subsection.
+# Polish target: two-column TikZ layout with colored connector
+# arrows binding patient quotes to response elements.
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║      End-to-end trace — patient p001  (fatigue + weight loss + cancer fear)  ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+  PATIENT UTTERANCE                       FINAL RESPONSE SECTION
+══════════════════════════════════════════════════════════════════════════════
+
+  Turn 1                                  acknowledgment
+  ──────                                  ──────────────
+  "I've been so tired the past month,     "I can hear how much this has
+   and I've lost about 12 pounds           been weighing on you — you
+   without trying. My wife is              said, 'My wife is convinced
+   convinced it's cancer and honestly      it's cancer and honestly I am
+   I am too. I just want to know           too.' That's a real thing to
+   what's going on so I can keep           be carrying..."
+   working..."
+                                           ▲
+   binds:                                   │
+     problems[0]      (fatigue)             │ NURSE: Name + Understand
+     problems[1]      (weight loss)         │        + Respect
+     red_flags[0]     (unexp wt loss)       │ Four Habits: Invest in beginning,
+     emotional_cues[0]  fear ──────────────┘              Demonstrate empathy
+     patient_goals[0] "keep working"
+
+──────────────────────────────────────────────────────────────────────────────
+
+  Turn 3                                  clinical_information_per_concern[0]
+  ──────                                  ────────────────────────────────────
+  "No chest pain, no shortness of         For your persistent fatigue:
+   breath, nothing like that...           "Based on current guidance, the
+   But I have been getting these          careful first step is to check
+   dull headaches in the morning,         for a few specific causes —
+   almost every day."                     including ones that need to be
+                                           ruled out..."
+   binds:                                   ▲
+     red_flag_screen_complete    ─────┐    │ cites cluster_a → PMIDs
+       (cardio + neuro negatives,     │    │   {12345, 67890}
+        red-flag screen now ✓)         │    │
+     problems[2] (morning headache) ───┘    │
+                                             │
+                                             │ (no NURSE element added at this
+                                             │  layer; this is the clinical-
+                                             │  content section, not empathy)
+
+──────────────────────────────────────────────────────────────────────────────
+
+  Turn 4                                  clinical_information_per_concern[1],
+  ──────                                  next_steps
+  "I'm on lisinopril 10 mg once a         ─────────────────────────────────────
+   day for blood pressure... My dad       For your unintentional weight loss:
+   had colon cancer at 55 — they          "Because the weight loss is unexplained,
+   caught it late and he didn't            we'll order the workup today rather
+   make it..."                             than wait — that includes bloodwork
+                                           and a few tests to rule out the things
+                                           you're most worried about."
+   binds:
+     medications         (+lisinopril)    ▲
+     relevant_history    (father          │ red-flag-first rule:
+                          colon ca, 55)   │   first next_steps entry addresses
+     emotional_cues[1]   fear (cancer  ───┤   red_flags[0] AFTER empathy in
+                          again)           │   the acknowledgment — Four Habits
+                                           │   "Demonstrate empathy" precedes
+                                           │   urgency, never the reverse.
+
+──────────────────────────────────────────────────────────────────────────────
+
+  Turn 5                                  follow_up_invitation
+  ──────                                  ─────────────────────
+  "I'd really like to rule out the        "Let's plan to see each other again
+   cancer thing... I want to feel          in 4 weeks. In the meantime, if
+   safe again... I need to keep            anything gets worse — especially any
+   working."                                of the warning signs we talked
+                                            about — please call us right away."
+   binds:
+     patient_goals[1] (feel safe again)    ▲
+     patient_goals[2] (keep working)        │ NURSE: Support
+                                            │ Four Habits: Invest in the end
+
+══════════════════════════════════════════════════════════════════════════════
+
+  Annotation key (right column → left column):
+    NURSE         elements (Name, Understand, Respect, Support, Explore)
+    Four Habits   elements (Invest in beginning, Elicit perspective,
+                            Demonstrate empathy, Invest in the end)
+    Bound profile fields are listed under each patient turn for audit.

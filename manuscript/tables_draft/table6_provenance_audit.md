@@ -1,27 +1,48 @@
-# Table 6 — Provenance audit (mechanical)
+# Table 6. Provenance audit
 
-_Auto-generated 2026-05-19T23:14:11+00:00; paraphrase-threshold = 0.55_
+*Two complementary mechanical audits of the responses' citation behavior. **Section A** (carried forward from Phase 12) checks every clinical claim in the n=3 synthetic-patient traces against its cited evidence quote, verifying verbatim substring presence in the source PubMed abstract — the strictest possible faithfulness check. **Section B** (new, Phase 13) extends to the full external-dataset corpus (PriMock57 + MTS-Dialog, 1451 responses) with a citation-existence audit: for every PMID number cited in a response, check whether that PMID exists in our parsed corpus.*
 
-Each clinical claim in a generated `PatientResponse` cites a `cluster_id`; that cluster's `primary_assertion.evidence_quote` is checked against the source abstract.
-
-## Overall
+## Section A — Per-claim verbatim audit (n=3 synthetic patients)
 
 | Classification | Count | Share |
-|---|---:|---:|
+|:---|---:|---:|
 | supported | 17 | 100.0% |
 | paraphrased | 0 | 0.0% |
 | unsupported | 0 | 0.0% |
 | orphan_cluster | 0 | 0.0% |
 | **total** | **17** | 100% |
 
-## By trace
+*Strict verbatim check: every clinical claim in the response cites a structured `cluster_id`; that cluster's `primary_assertion.evidence_quote` is verified as a whitespace-normalized substring of the cited PubMed abstract. Paraphrase fallback (token-overlap ≥0.55) and orphan-cluster regression checks are also reported.*
 
-| Trace | Supported | Paraphrased | Unsupported | Orphan |
-|---|---:|---:|---:|---:|
-| p001_fatigue_weightloss | 6 | 0 | 0 | 0 |
-| p002_hypertension_followup | 5 | 0 | 0 | 0 |
-| p003_depression_screening | 6 | 0 | 0 | 0 |
+## Section B — Citation-existence audit (n=292 external responses × 5 conditions)
 
-**Definitions.**  *supported* = evidence quote appears verbatim (whitespace-normalized) in the source abstract.  *paraphrased* = ≥ paraphrase-threshold of evidence-quote tokens occur in the abstract.  *unsupported* = neither.  *orphan_cluster* = the response cited a `cluster_id` that does not exist in the structured-context artifact (a regression to investigate).
+Corpus: **1,751 parsed PubMed documents** in `db/parsed/`.
 
-**Limitations.** Token overlap is a lower bound on faithfulness — a semantically faithful paraphrase using different vocabulary may score *unsupported* mechanically. Human review on a subsample is recommended.
+| Condition | n responses | PMID brackets | PMID numbers cited | Valid in corpus | Invented | Structured cites (`all_pmids_used`) | Structured valid |
+|:---|---:|---:|---:|---:|---:|---:|---:|
+| Naive baseline | 292 | 0 | 0 | — | — | 0 | — |
+| Strong-prompt baseline | 292 | 236 | 6 | 0 (0%) | 6 (100%) | 0 | — |
+| Framework only | 291 | 0 | 0 | — | — | 0 | — |
+| Retrieval only | 292 | 0 | 0 | — | — | 95 | 95 (100%) |
+| **Full pipeline** | 284 | 0 | 0 | — | — | 267 | 267 (100%) |
+
+**Reading.**
+- The strong-prompt baseline writes many bracketed citation markers in its response text (the prompt instructs it to cite PubMed) but produces no actual PMID numbers — its brackets are mostly `[PMID ?]` placeholders. **No real papers grounded.**
+- The full pipeline's structured `all_pmids_used` field contains only PMIDs that exist in the parsed PubMed corpus — the Module IV citation validator strips invented IDs the LLM hallucinates from worked-example prompts. **Structured-valid rate = 100% by construction.**
+- Numeric PMIDs that leak into the free-text response (rare; the LLM occasionally writes a PMID inline instead of via the structured citation field) are also validated.
+
+## Definitions
+
+- **supported** *(Section A)* — evidence quote appears verbatim (whitespace-normalized) in the cited source abstract.
+- **paraphrased** *(Section A)* — ≥0.55 of evidence-quote tokens occur in the abstract; semantically faithful paraphrase below the verbatim threshold.
+- **unsupported** *(Section A)* — neither verbatim nor sufficient token overlap. None observed.
+- **orphan_cluster** *(Section A)* — response cited a `cluster_id` not present in Module III's output (regression check). None observed.
+- **PMID brackets** *(Section B)* — count of `[PMID …]` substrings in response text. Captures the strong-prompt baseline's `[PMID ?]` placeholders even when no number is cited.
+- **PMID numbers cited** *(Section B)* — count of 7-9 digit numbers in response text matching PMID syntax. The naive baseline does not cite any.
+- **Structured `all_pmids_used`** *(Section B)* — PMIDs in the `PatientResponse.all_pmids_used` field, which is populated only by the pipeline (Modules I-IV); baselines do not produce structured output.
+
+## Limitations
+
+Section A's token overlap is a lower bound on faithfulness — a semantically faithful paraphrase using different vocabulary may score *unsupported* mechanically. Section B's citation-existence check verifies the cited paper exists in our corpus but does not verify that the paper actually supports the claim being made; for that, see the per-claim semantic-anchored hallucination metric in Table 7. A reviewer-grade per-claim audit on the n=292 external traces would require saving Module III's structured context with each trace (a known limitation of the current trace schema, slated for the next data release).
+
+<small>Auto-generated by `scripts/regen_pub_tables.py` on 2026-05-20T19:35:56+00:00.</small>

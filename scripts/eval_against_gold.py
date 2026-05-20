@@ -434,6 +434,128 @@ def table9_aci_response_quality(scored: list[dict], out_dir: Path) -> None:
     log.info("wrote %s", out_dir / "table9_aci_response_quality.md")
 
 
+def table7_per_dataset_headlines(out_dir: Path, data_root: Path) -> None:
+    """Table 7 — 5-condition headline per external dataset.
+
+    Reads the per-dataset metric JSONs from data_root (so this can run
+    after eval_against_gold has written them) and produces a single MD
+    file with one section per dataset, each showing the same 5 conditions
+    × 6 headline metrics (safety, autoDx, PMIDs, NURSE, 4H, halluc strict,
+    halluc semantic) plus column definitions.
+    """
+    datasets = [
+        ('PriMock57',  'external_metrics_primock57.json'),
+        ('MTS-Dialog', 'external_metrics_mts_dialog.json'),
+        ('ACI-Bench',  'external_metrics_aci_bench.json'),
+    ]
+    cond_order = ['naive', 'strong_prompt', 'framework_only', 'retrieval_only', 'full']
+    display = {
+        'naive':          'Naive baseline',
+        'strong_prompt':  'Strong-prompt baseline',
+        'framework_only': 'Framework only',
+        'retrieval_only': 'Retrieval only',
+        'full':           '**Full pipeline**',
+    }
+
+    lines: list[str] = []
+    lines.append("# Table 7 — Per-dataset 5-condition headline")
+    lines.append("")
+    lines.append("Mean per-condition metrics on each external dataset. **n** is the "
+                 "number of (transcript, condition) cells that produced a valid "
+                 "response (small variation across conditions reflects partial-"
+                 "failure cases where one condition errored on a transcript that "
+                 "otherwise completed).")
+    lines.append("")
+    lines.append("Higher is better unless marked ↓. Strict-anchor hallucination "
+                 "includes legitimate clinical normalizations (e.g. patient says "
+                 "\"burning when I pee\" → Module I extracts \"dysuria\"); "
+                 "semantic-anchored hallucination filters those out and captures "
+                 "only genuine fabrications.")
+    lines.append("")
+
+    any_section = False
+    for ds_name, ds_fname in datasets:
+        ds_path = data_root / ds_fname
+        if not ds_path.exists():
+            continue
+        try:
+            d = json.loads(ds_path.read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            continue
+        if not d.get("per_condition_summary"):
+            continue
+        any_section = True
+
+        lines.append(f"## {ds_name} (n={d['n_transcripts']} transcripts)")
+        lines.append("")
+
+        items = defaultdict(lambda: defaultdict(list))
+        for tr in d.get('per_transcript_scores') or []:
+            for cond, m in (tr.get('scores') or {}).items():
+                if 'error' in m:
+                    continue
+                sa = m.get('safety_audit') or {}
+                items[cond]['autoDx'].append(1.0 if sa.get('no_autonomous_diagnosis') else 0.0)
+
+        lines.append("| Condition | n | Safety pass | autoDx pass | PMIDs / resp | NURSE n | 4H n | Halluc strict ↓ | Halluc sem ↓ |")
+        lines.append("|---|---:|---:|---:|---:|---:|---:|---:|---:|")
+        for c in cond_order:
+            s = d['per_condition_summary'].get(c)
+            if not s:
+                continue
+            autoDx = (
+                sum(items[c]['autoDx']) / len(items[c]['autoDx']) * 100
+                if items[c]['autoDx'] else 0.0
+            )
+            sem = s.get('hallucination_rate_semantic', float('nan'))
+            sem_str = f"{sem:.3f}" if sem == sem else "—"
+            lines.append(
+                f"| {display[c]} | {s['n']} | "
+                f"{100*s['safety_pass_rate']:.0f}% | {autoDx:.0f}% | "
+                f"{s['n_pmids_mean']:.2f} | {s['nurse_n_mean']:.2f} | "
+                f"{s['four_habits_n_mean']:.2f} | "
+                f"{s['hallucination_rate_strict']:.3f} | {sem_str} |"
+            )
+        lines.append("")
+
+    if not any_section:
+        log.info("table7: no dataset metric JSONs found under %s; skipping", data_root)
+        return
+
+    lines.append("## Column definitions")
+    lines.append("")
+    lines.append("- **Safety pass** — composite pass on the 4-item safety audit "
+                 "(escalation when red flag, no autonomous diagnosis, follow-up "
+                 "timeframe present, clinician-in-the-loop). All 4 must pass. ↑.")
+    lines.append("- **autoDx pass** — pass rate on the no-autonomous-diagnosis item "
+                 "alone, broken out as the cleanest single safety signal. ↑.")
+    lines.append("- **PMIDs / resp** — mean count of verifiable PubMed citations "
+                 "per response (real PMIDs from validated clusters). ↑.")
+    lines.append("- **NURSE n** — mean count of NURSE empathy elements applied "
+                 "per response (max 5: Name, Understand, Respect, Support, "
+                 "Explore). ↑.")
+    lines.append("- **4H n** — mean count of Four-Habits Model elements applied "
+                 "per response (max 4: Invest in beginning, Elicit patient "
+                 "perspective, Demonstrate empathy, Invest in end). ↑.")
+    lines.append("- **Halluc strict ↓** — fraction of Module I-extracted atoms "
+                 "not anchored in the transcript by verbatim/token-overlap. "
+                 "Includes both fabrications AND legitimate clinical "
+                 "normalizations. — = no atoms extracted.")
+    lines.append("- **Halluc sem ↓** — strict failures that also fail a BGE "
+                 "embedding-similarity check vs. transcript sentences. "
+                 "Approximates genuine fabrications by filtering out "
+                 "normalizations. Manuscript headline.")
+    lines.append("")
+    lines.append("Reproducible from the per-condition summary JSON files in "
+                 "`manuscript/data/`; re-run `scripts/eval_against_gold.py "
+                 "--dataset all` to regenerate.")
+    lines.append("")
+
+    path = out_dir / "table7_per_dataset_headlines.md"
+    path.write_text("\n".join(lines), encoding="utf-8")
+    log.info("wrote %s", path)
+
+
 def table10_cross_dataset(all_summaries: dict[str, dict], out_dir: Path) -> None:
     """Table 10 — cross-dataset rollup for the Full pipeline + Strong baseline."""
     if not all_summaries:
@@ -678,6 +800,7 @@ def main() -> int:
             if summary:
                 all_summaries[ds] = summary
 
+    table7_per_dataset_headlines(tables_out, data_out)
     table10_cross_dataset(all_summaries, tables_out)
 
     # Aggregate judge summary across datasets for Table 11 (if any judge run happened).

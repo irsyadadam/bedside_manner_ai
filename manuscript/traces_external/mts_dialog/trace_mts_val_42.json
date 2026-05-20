@@ -1,0 +1,169 @@
+{
+  "transcript_id": "mts_val_42",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "Activity is as tolerated",
+  "patient_utterances": [
+    "[Clinician asked: \"How are you feeling?\"] I feel good. I feel like I am getting stronger every day.",
+    "[Clinician asked: \"Great! I would like you to continue your exercises at home but please take it slow. Try to stick to the diet we discussed for the next month. Do you have any questions?\"] No."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "PLAN": "Activity is as tolerated.  Diet is as tolerated."
+  },
+  "n_patient_turns": 2,
+  "n_clinician_turns": 2,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 18435.45138090849,
+      "response_text": "It's wonderful to hear that you're feeling stronger each day. Keep up the excellent work with your exercises and sticking to the diet. Your consistency is key, so continue at a pace that feels right for you.\n\nIf you notice any changes or have any questions, please don't hesitate to reach out. I'm here to support you every step of the way. Enjoy your journey and take care of yourself.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 18738.63548785448,
+      "response_text": "It's wonderful to hear that you're feeling good and noticing improvement in your strength each day. It sounds like the efforts you've been putting into your exercises and diet are really paying off, which is such a positive sign. Keep up the great work!\n\nAs you continue with your home exercises, it's important to take it slow to avoid overexertion and ensure steady progress. The diet we discussed is designed to support your overall health and strength, so sticking to it for the next month will help maintain and build on your current progress [PMID ?]. If you notice any changes in how you feel or have any concerns along the way, please don't hesitate to reach out.\n\nLet's plan to check in again in about four weeks to review your progress and adjust the plan as needed. Before we finish, could you share in your own words what you understand about the next steps? This will help ensure you're comfortable with the plan and any questions you might have are addressed.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 5074.826076626778,
+      "response_text": "It sounds like you're doing well and feeling stronger every day. That's great to hear!\n\nLet's keep in touch and make sure everything stays on track. Please reach out if you have any questions or concerns in the meantime.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're doing well and feeling stronger every day. That's great to hear!",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "",
+        "follow_up_invitation": "Let's keep in touch and make sure everything stays on track. Please reach out if you have any questions or concerns in the meantime.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 17612.8436550498,
+      "response_text": "I can hear how relieved you are about feeling stronger and better each day. You mentioned, \"I feel good. I feel like I am getting stronger every day,\" which shows how much progress you've made.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again soon. If you notice any changes in how you're feeling, please call us so we can address them promptly.",
+      "structured_response": {
+        "acknowledgment": "I can hear how relieved you are about feeling stronger and better each day. You mentioned, \"I feel good. I feel like I am getting stronger every day,\" which shows how much progress you've made.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again soon. If you notice any changes in how you're feeling, please call us so we can address them promptly.",
+        "nurse_elements_applied": [
+          "Name",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 0,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 0,
+        "problems": [],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 63146.79491519928,
+      "response_text": "I can hear how much you're feeling relief and getting stronger every day. That's really encouraging to hear.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to stay in touch. If you notice any changes in how you're feeling, please reach out so we can check in together.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much you're feeling relief and getting stronger every day. That's really encouraging to hear.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to stay in touch. If you notice any changes in how you're feeling, please reach out so we can check in together.",
+        "nurse_elements_applied": [
+          "Name",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 0,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 0,
+        "problems": [],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 8872.623831033707,
+        "module_2_retrieval": 48.44354838132858,
+        "module_3_reasoning": 46498.369574546814,
+        "module_4_response": 7725.528240203857,
+        "total_ms": 63144.96519416571
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

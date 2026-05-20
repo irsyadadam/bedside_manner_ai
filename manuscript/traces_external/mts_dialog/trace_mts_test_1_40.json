@@ -1,0 +1,167 @@
+{
+  "transcript_id": "mts_test_1_40",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "Hypertension, hyperlipidemia, recent C",
+  "patient_utterances": [
+    "[Clinician asked: \"So I talked to Doctor X about your problems.\"] And?",
+    "[Clinician asked: \"And he said your recent intestine infction is resolved. Which is C Diff colitis. You saw him two weeks back right?\"] Oh Thank God! Yes thanks, recently i saw him.",
+    "[Clinician asked: \"Yeah.\"] Ok alright.",
+    "[Clinician asked: \"And we have Hypertension and high Cholesterol as well which we talked about.\"] Thanks doc."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "PMH": "Hypertension, hyperlipidemia, recent C. diff colitis, which had resolved based on speaking to Dr. X.  Two weeks ago, he had seen the patient and she was clinically well."
+  },
+  "n_patient_turns": 4,
+  "n_clinician_turns": 4,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 12059.236891567707,
+      "response_text": "I'm really glad to hear that your C. diff colitis has resolved\u2014that must be a huge relief for you. It's great that you're feeling better, and I know that managing conditions like hypertension and high cholesterol can sometimes feel overwhelming, but you're doing a great job by staying on top of it. Let me know if you have any questions or need help with anything else\u2014my door is always open. Keep up the fantastic work!",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 12598.657503724098,
+      "response_text": "Thank you for sharing that with me. It sounds like you're relieved to hear that the C. diff infection has resolved, and that makes sense given how challenging that can be to manage. I can understand why you'd feel that way, and it's great that you're working with Doctor X on this.\n\nWe also talked about keeping an eye on your hypertension and high cholesterol, which are important to manage for your long-term health. I want to make sure we're on the same page regarding your goals and any concerns you might have about these conditions. Let's focus on how we can support your ongoing care and ensure these conditions are well-managed.\n\nWe'll plan to check in with you in 2-4 weeks to review your progress and adjust any medications or treatments as needed. Before you leave, could you summarize what we've discussed today in your own words? That will help me confirm that everything is clear and that you feel comfortable with the plan.\n\nPlease let me know if you have any questions or concerns in the meantime, and take care of yourself.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 5778.085298836231,
+      "response_text": "Thank you for sharing your concerns and thoughts with me.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again soon. In the meantime, if you have any new concerns or questions, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns and thoughts with me.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again soon. In the meantime, if you have any new concerns or questions, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 23018.098384141922,
+      "response_text": "I can hear how relieved you are \u2014 you said, \"Oh Thank God!\" That must mean a lot to you.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again soon. In the meantime, if you have any new concerns or questions, please reach out.",
+      "structured_response": {
+        "acknowledgment": "I can hear how relieved you are \u2014 you said, \"Oh Thank God!\" That must mean a lot to you.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again soon. In the meantime, if you have any new concerns or questions, please reach out.",
+        "nurse_elements_applied": [
+          "Name"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 0,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 0,
+        "problems": [],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 69342.27441996336,
+      "response_text": "I can hear how relieved you are \u2014 you said, \"Oh Thank God!\" That really shows how much weight this has been lifting off your shoulders.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 4 weeks. In the meantime, if you get new symptoms or concerns, please call us right away \u2014 don't wait for the appointment.",
+      "structured_response": {
+        "acknowledgment": "I can hear how relieved you are \u2014 you said, \"Oh Thank God!\" That really shows how much weight this has been lifting off your shoulders.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 4 weeks. In the meantime, if you get new symptoms or concerns, please call us right away \u2014 don't wait for the appointment.",
+        "nurse_elements_applied": [
+          "Name"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 0,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 0,
+        "problems": [],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 16378.494635224342,
+        "module_2_retrieval": 48.81240427494049,
+        "module_3_reasoning": 44812.90432065725,
+        "module_4_response": 8100.4562601447105,
+        "total_ms": 69340.66762030125
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

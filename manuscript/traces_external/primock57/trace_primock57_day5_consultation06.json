@@ -1,0 +1,328 @@
+{
+  "transcript_id": "primock57_day5_consultation06",
+  "dataset": "primock57",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "Diarrhoea",
+  "patient_utterances": [
+    "Hello?",
+    "[Clinician asked: \"Hi there, it's Doctor Smith from Babylon.\"] Uh, hi, Doctor Smith.",
+    "[Clinician asked: \"Hi there. Could you give me your full name, date of birth, and your, the first line of your address, please?\"] Um, I.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/>\"] <INAUDIBLE_SPEECH/>",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/> Your full name, date of birth, and your address, please? Yeah, OK.\"] Yeah, my name is Barbara . Um, and my date of birth, fourth October, nineteen eighty four.",
+    "[Clinician asked: \"OK.\"] And address fifty  Avenue.",
+    "[Clinician asked: \"OK. Are you in a private place so you can have a confidential consultation today?\"] Yes, I am.",
+    "[Clinician asked: \"What can I do for you?\"] Um, I've just been  for the past couple of days. I've been having this serious diarrhoea and this really, Giving me trouble.",
+    "[Clinician asked: \"OK. So when did it start?\"] It was three days ago. Now.",
+    "[Clinician asked: \"OK. And when you say diarrhoea, what do you mean by that? Is it watery or just loose?\"] It's, it's, it's very loose but it started as being very watery.",
+    "[Clinician asked: \"OK. And how many times are you going to the toilet?\"] <INAUDIBLE_SPEECH/> I lost count, um. Today alone, I've been at least four time.",
+    "[Clinician asked: \"OK. And any, any high temperatures? Are you feeling feverish?\"] Yes, I've been running a serious temperature. I'm literally boiling.",
+    "[Clinician asked: \"Have you checked your temperature with a thermometer?\"] No, 'cause I've not got one but like, to the touch, I'm, like, literally roasting.",
+    "[Clinician asked: \"OK. Um, and any nausea or vomiting?\"] Yes, I've been throwing up. I can't keep to, uh, I can't seem to be able to keep anything in me. Not even water, not even my tea, not even any liquid stuff. I've just been throwing up everything.",
+    "[Clinician asked: \"OK. And when, when were you last sick?\"] Um, I was sick just after trying, uh, trying to have breakfast this morning, so maybe about two hours ago.",
+    "[Clinician asked: \"OK. And have you been passing water OK?\"] Yeah, I've been, I've been, yeah, urinating OK. Is that what you mean, like?",
+    "[Clinician asked: \"Yeah, yeah, urinating, yeah. Any, and what sort of color is the urine?\"] To be honest, I <INAUDIBLE_SPEECH/> have a look so I really couldn't say.",
+    "[Clinician asked: \"OK. OK. And when did you last pass urine, do you think?\"] Um. <INAUDIBLE_SPEECH/> an hour ago.",
+    "[Clinician asked: \"OK. And any blood in the stool or in the urine that you've noticed?\"] No blood.",
+    "[Clinician asked: \"OK. Any episodes like this before? How's your bowels normally?\"] Sorry, I didn't catch that.",
+    "[Clinician asked: \"How is your bowels normally?\"] Ah, ah, my, my bowels is normally fine. I would normally go to the toilet every day. You know, in the morning, just once, yeah, and that's fine.",
+    "[Clinician asked: \"OK. Any episodes of diarrhoea or constipation normally?\"] No.",
+    "[Clinician asked: \"And  is there anything you think might have triggered this off? Have you been abroad anywhere?\"] No, but then, um, my, um my brother, um, has actually been having similar symptoms, um, for the past, um, few days as well, and he does say like everyone in school's got this so, I, I don't know, that might, that might be something.",
+    "[Clinician asked: \"So you've been in contact with him, have you?\"] Yes.",
+    "[Clinician asked: \"OK. Um, and any other medical problems?\"] <INAUDIBLE_SPEECH/>",
+    "[Clinician asked: \"Have you had any other symptoms at the moment, like rash?\"] No, no rash, no, nothing that, um.",
+    "[Clinician asked: \"No. OK. Um, any surgery before, or abdominal problems, or any other medical issues?\"] Well, apart from the fact that this one is giving me abdominal pains, no previous abdominal pains before. Obviously I get the odd, um,  you know, menstrual cramps and all that but, you know, that's, you know, that comes and goes.",
+    "[Clinician asked: \"Yeah. OK. And whereabouts is the pain that you're getting?\"] Um, it's kind of like towards my navel area, like I can't touch my navel area. It's just so sore. And it gets, yeah, it's almost like the center of my navel.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/> Um, and does the pain come and go?\"] Yes, it does come. When it comes, I feel this strong urge to go to the, to the loo, and then <INAUDIBLE_SPEECH/> and sort of like comes again, it comes and.",
+    "[Clinician asked: \"OK. Um, and do you take any medication regularly?\"] Well, I, I take my, my vitamins,  vitamin D, every day. That's about, that's about all that I regularly take.",
+    "[Clinician asked: \"OK. And have you got a normal diet?\"] Yeah,  I eat well, normally.",
+    "[Clinician asked: \"Right. Do you smoke or drink alcohol?\"] Well, I don't smoke, but, you know, I have a pint from time to time.",
+    "[Clinician asked: \"And do you take any other drugs?\"] No. Like I said, I only take, um, vitamins. And for my menstrual cramps, when they come, maybe I might take a, a, an ibuprofen just to ease the pain, but.",
+    "[Clinician asked: \"And when was, when was your last period?\"] Um, two weeks ago.",
+    "[Clinician asked: \"OK. Are you on any contraception?\"] No.",
+    "[Clinician asked: \"Are you having regular sexual intercourse?\"] No.",
+    "[Clinician asked: \"OK. Um, and what's your job?\"] Um, um, uh. Um, uh. A graphics designer.",
+    "[Clinician asked: \"Have you had to miss work because of this problem?\"] Well, yes, I've had to actually work from home today. I'm working from home today because I can't, I can't be out for work. <INAUDIBLE_SPEECH/>",
+    "[Clinician asked: \"OK. And who do you live with at home?\"] I live with my brother and my mum.",
+    "[Clinician asked: \"OK. OK. And, um, have you tried anything yourself for this problem?\"] Well, I've tried a home remedy. Um, I've tried the, the, uh, ORS, you know, thing I bought from my, my local, my local, uh. Um.",
+    "[Clinician asked: \"What? Could you just repeat that?\"] The ORS, the, the salt sugar ORS, um, um, mix, the salt sugar mix.",
+    "[Clinician asked: \"OK. And how often have you been taking that?\"] Yeah. I've taken that, I've taken that, like, um, three times a day for the past two days.",
+    "[Clinician asked: \"OK. Um, and do you feel like your symptoms are easing off, or getting worse, or  ?\"] I, I, I they're not getting any better, 'cause like I said, I've been, I've been vomiting literally everything I take, so, so I doubt that even that had, had the chance to work.",
+    "[Clinician asked: \"Yeah. OK. Um. I mean, it sounds like, because your brother's had a similar thing, it sounds like it might be some, an infectious gastroenteritis that you've got, which is usually caused by a virus. But, it can be from something you've eaten, as well. Um. If the symptoms, they do normally start to se\"] OK.",
+    "[Clinician asked: \"Um, and we should also check that you're not getting dehydrated, because if you're, if you're not keeping fluid down, then you can get dehydrated. Um, so.\"] So, how, how do I, how do I get myself hydrated when I'm not able to even, like, drink water? I'm throwing up everything.",
+    "[Clinician asked: \"Yeah. So you need to carry on with your rehydration salts, and just have very small amounts. It's a positive sign that you passed urine an hour ago. So, you're obviously still, um, hydrated enough to pass urine.\"] OK.",
+    "[Clinician asked: \"But we, um, we should see you so that we can check your hydration and, um, get that sample sent off as soon as possible. 'cause if, if, if you come into the clinic, you can send that sample off straightaway. Otherwise, we would have to post it out to you which would take time.\"] OK. Ohh, OK. So, when can I come to the clinic to have this done?",
+    "[Clinician asked: \"Um, so we can, we can make you an urgent appointment, um, and then you can, you can get the sample sent off and we can check your hydration. Um, but if, in the meantime, you're feeling more unwell, then we would get you seen urgently in A and E.\"] OK.",
+    "[Clinician asked: \"So you can call us back in the meantime.\"] OK. So, what I'll do is, yeah. If you could, please book me the appointment and, um, yeah, I'll see how I feel, um, for the end of the day. Hopefully I don't need to go to the A and E, and, um <INAUDIBLE_SPEECH/> .",
+    "[Clinician asked: \"Yeah. If you keep drinking, keep going with the rehydration salts. Just tiny sips constantly, to  so that your stomach doesn't get overfilled and, and you vomit, so just tiny, tiny sips but just keep going with it. Um, and just have very simple food, if you're gonna have anything, like toast or bisc\"] Mm-hmm. OK.",
+    "[Clinician asked: \"OK. So you'll have to book an appointment through the support line.\"] OK. Yes, please.",
+    "[Clinician asked: \"Right, OK. We'll do that for you.\"] <INAUDIBLE_SPEECH/>",
+    "[Clinician asked: \"OK, take care.\"] Thank you.",
+    "[Clinician asked: \"Thanks, bye.\"] <INAUDIBLE_SPEECH/>"
+  ],
+  "gold_note": "PC: Diarrhoea\nHPC: 3/7 hx diarrhoea. Watery stools. Urgency. No blood in stool. Periumbilical cramps, comes in waves. Worse when needs to open bowels. Very regular BO, today already 4 x by midday.\nVomiting, last vomited 1 hr ago. Doesn't feel like she is holding down fluid.\nStill PUing ok. Last 1 hr ago. Not sure of colour.\nBH normally regular. 1 x day.\nNo foreign travel. \n\n.\nHas been taking ORT regularly, difficulty keeping down.\nNo rash. Feels hot but hasn't checked temperature.\nLMP 2/52 ago. No regular SI. Not using contraception. \nHas been at work til today. Now working from home.\n\nPMH:Nil. DH: Vitamins.\nSH: Lives with brother and mother. Non smoker. Drinks 1 pint a week.\nWorks as graphic designer. \n\nImp: Gastroenteritis ?Viral/?food poisoning. \nPlan: As ongoing, fever needs stool culture sent to exclude bacterial origin. Advised to continue taking small sips ORT constantly. Booked for urgent appointment to assess hydration status. If feels worse in meantime, abdo pain, unwell to contact us to arrange urgent A&E assessment.",
+  "gold_sections": {
+    "PRESENTING_COMPLAINT": "Diarrhoea",
+    "HIGHLIGHTS": "3/7 hx diarrhoea\nNo blood in stool\nVomiting\nStill PUing ok\nLast 1 hr ago"
+  },
+  "n_patient_turns": 54,
+  "n_clinician_turns": 53,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 21926.576875150204,
+      "response_text": "I'm really sorry to hear you're feeling so unwell, Barbara. It sounds like you're going through a tough time with all these symptoms. Diarrhea, vomiting, and a high temperature can be exhausting, and I understand how worried you must be.\n\nGiven that both you and your brother are unwell with similar symptoms, it does sound like it could be an infectious gastroenteritis, which is often caused by a virus. In the meantime, it's important to focus on staying hydrated. Keep taking small sips of oral rehydration solution (ORS) as you've been doing, and avoid solid food for now. Once you're keeping fluids down, you could try bland foods like toast or crackers.\n\nSince your brother is also unwell, try to avoid close contact with him and others to reduce the risk of spreading any infection. Rest as much as possible, and monitor your symptoms. If you start feeling worse, or if you develop signs of dehydration like dark urine, dry mouth, or dizziness, you should seek immediate care at the nearest A&E.\n\nIf you're able to manage at home for now, we can arrange an urgent appointment for you to be seen in the clinic, where we can check your hydration and possibly send off a stool sample for testing. In the meantime, continue with the ORS and take care of yourself. Please don't hesitate to call us if you need any further assistance.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 26756.05744868517,
+      "response_text": "Thank you for sharing your concerns with me, Barbara. It sounds like you're going through a tough time with these symptoms, and I can understand how worried you must be, especially since your brother is also unwell. Having diarrhea, vomiting, and a high temperature for three days is really challenging, and I appreciate you taking the time to explain everything in detail.\n\nGiven that both you and your brother are experiencing similar symptoms, it does raise the possibility of an infectious cause, such as a viral gastroenteritis, which is often contagious and can spread through close contact. It's also important to rule out other possibilities, like foodborne illness, though that's less likely since only your brother and you are affected.\n\nOur immediate priority is to ensure you stay hydrated, as vomiting and diarrhea can quickly lead to dehydration. The fact that you're still passing urine is a good sign, but we need to monitor this closely. I recommend continuing with the oral rehydration solution (ORS) you've been using, but taking it in small sips frequently to avoid overwhelming your stomach. If you're unable to keep fluids down, we may need to consider other ways to rehydrate you.\n\nTo get a clearer picture, I'll arrange for you to come in for an urgent appointment so we can assess your hydration status and possibly collect a stool sample for testing. In the meantime, if you experience severe dehydration symptoms like very dry mouth, reduced urination, dizziness, or confusion, or if your symptoms worsen, please go to the nearest emergency department.\n\nWe'll follow up with you after the appointment to adjust your care plan based on the findings. Before you leave, could you summarize the plan in your own words so I can ensure you understand everything we discussed? That way, we can make sure you're comfortable with the next steps and feel supported throughout this process.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 10595.50616890192,
+      "response_text": "Thank you for reaching out, Barbara. I understand you're experiencing severe diarrhea, vomiting, and a high fever over the past few days. It sounds like this is really taking a toll on you.\n\nBased on your symptoms, we recommend booking an urgent appointment to assess your hydration and get a stool sample for testing. If your symptoms worsen or you can't keep fluids down, consider visiting the emergency room.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again after your appointment. In the meantime, if you experience severe dehydration symptoms like very dry mouth, reduced urination, or dizziness, please call us immediately.",
+      "structured_response": {
+        "acknowledgment": "Thank you for reaching out, Barbara. I understand you're experiencing severe diarrhea, vomiting, and a high fever over the past few days. It sounds like this is really taking a toll on you.",
+        "clinical_information_per_concern": [],
+        "next_steps": [
+          "Based on your symptoms, we recommend booking an urgent appointment to assess your hydration and get a stool sample for testing. If your symptoms worsen or you can't keep fluids down, consider visiting the emergency room."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again after your appointment. In the meantime, if you experience severe dehydration symptoms like very dry mouth, reduced urination, or dizziness, please call us immediately.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 182669.30180042982,
+      "response_text": "I can hear how upset you are about this \u2014 you mentioned, \"I've just been throwing up everything,\" and that's really concerning. I want to make sure we address this right away.\n\nDiarrhea and vomiting together can quickly lead to dehydration, which is especially serious when you're unable to keep anything down. We'll need to check for causes like infections or other issues that might require treatment.\n\nA high fever along with vomiting and diarrhea suggests an infection, and we need to rule out serious causes. We'll do some tests to see what's going on and make sure you get the right care.\n\nGiven the dehydration and high fever, we'll start IV fluids to help you rehydrate and monitor your condition closely.\n\nWe'll run some tests, including blood work and possibly a COVID-19 test, to figure out what's causing these symptoms.\n\nWe'll keep you here for observation and treatment until you're stable.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're doing next and why?\n\nLet's plan to stay in touch daily until you're feeling better. If your symptoms get worse or if you have any new concerns, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I can hear how upset you are about this \u2014 you mentioned, \"I've just been throwing up everything,\" and that's really concerning. I want to make sure we address this right away.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "diarrhea",
+            "profile_path": "problems[0]",
+            "explanation": "Diarrhea and vomiting together can quickly lead to dehydration, which is especially serious when you're unable to keep anything down. We'll need to check for causes like infections or other issues that might require treatment.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::38719772",
+                "primary_assertion_id": "38719772_retr",
+                "pmids": [
+                  "38719772"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "fever",
+            "profile_path": "problems[1]",
+            "explanation": "A high fever along with vomiting and diarrhea suggests an infection, and we need to rule out serious causes. We'll do some tests to see what's going on and make sure you get the right care.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::35593186",
+                "primary_assertion_id": "35593186_retr",
+                "pmids": [
+                  "35593186"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "Given the dehydration and high fever, we'll start IV fluids to help you rehydrate and monitor your condition closely.",
+          "We'll run some tests, including blood work and possibly a COVID-19 test, to figure out what's causing these symptoms.",
+          "We'll keep you here for observation and treatment until you're stable."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're doing next and why?",
+        "follow_up_invitation": "Let's plan to stay in touch daily until you're feeling better. If your symptoms get worse or if you have any new concerns, please call us right away.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Demonstrate empathy",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "retrieval_only::38719772",
+          "retrieval_only::35593186"
+        ],
+        "all_pmids_used": [
+          "38719772",
+          "35593186"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 2,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 2,
+        "n_emotional": 1,
+        "n_goals": 0,
+        "problems": [
+          "diarrhea",
+          "fever"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "38719772",
+        "35593186"
+      ],
+      "cluster_ids_used": [
+        "retrieval_only::38719772",
+        "retrieval_only::35593186"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Demonstrate empathy",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 211948.9643201232,
+      "response_text": "I can hear how much this is giving you trouble \u2014 you said, \"this really, Giving me trouble.\" That sounds frustrating, and I want to make sure we address it properly.\n\nThe presence of fever and vomiting along with diarrhea suggests we should consider testing for COVID-19. This is because these symptoms together can be indicators of such an infection.\n\nGiven the fever and vomiting, we'll prioritize testing for COVID-19 to better understand what's going on.\n\nWe'll also monitor your symptoms closely and may recommend some supportive care measures to help with the diarrhea, fever, and vomiting.\n\nPlease follow up with us if your symptoms worsen or if you develop any new concerns.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to check in again in a few days. If your symptoms don't improve or if you start feeling worse, please reach out sooner.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this is giving you trouble \u2014 you said, \"this really, Giving me trouble.\" That sounds frustrating, and I want to make sure we address it properly.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "diarrhea",
+            "profile_path": "problems[0]",
+            "explanation": "The presence of fever and vomiting along with diarrhea suggests we should consider testing for COVID-19. This is because these symptoms together can be indicators of such an infection.",
+            "citations": [
+              {
+                "cluster_id": "finding::problems[0].associated_symptoms[0]::35593186_0",
+                "primary_assertion_id": "35593186_0",
+                "pmids": [
+                  "35593186"
+                ]
+              },
+              {
+                "cluster_id": "finding::problems[0].associated_symptoms[1]::35593186_1",
+                "primary_assertion_id": "35593186_1",
+                "pmids": [
+                  "35593186"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "Given the fever and vomiting, we'll prioritize testing for COVID-19 to better understand what's going on.",
+          "We'll also monitor your symptoms closely and may recommend some supportive care measures to help with the diarrhea, fever, and vomiting.",
+          "Please follow up with us if your symptoms worsen or if you develop any new concerns."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to check in again in a few days. If your symptoms don't improve or if you start feeling worse, please reach out sooner.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Demonstrate empathy",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::problems[0].associated_symptoms[0]::35593186_0",
+          "finding::problems[0].associated_symptoms[1]::35593186_1"
+        ],
+        "all_pmids_used": [
+          "35593186"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 2,
+        "n_emotional": 1,
+        "n_goals": 0,
+        "problems": [
+          "diarrhea"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "35593186"
+      ],
+      "cluster_ids_used": [
+        "finding::problems[0].associated_symptoms[0]::35593186_0",
+        "finding::problems[0].associated_symptoms[1]::35593186_1"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Demonstrate empathy",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 161444.7282254696,
+        "module_2_retrieval": 67.17176735401154,
+        "module_3_reasoning": 29505.995139479637,
+        "module_4_response": 20929.83766645193,
+        "total_ms": 211947.73279875517
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

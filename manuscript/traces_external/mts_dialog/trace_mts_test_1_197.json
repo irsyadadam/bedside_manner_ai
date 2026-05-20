@@ -1,0 +1,206 @@
+{
+  "transcript_id": "mts_test_1_197",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "The patient is alert and oriented x3 and sitting up in bed",
+  "patient_utterances": [
+    "[Clinician asked: \"It's good to see you sitting up in the bed, ma'am.\"] I've been walking around without any difficulty too.",
+    "[Clinician asked: \"Have you eaten anything yet?\"] No, I've remained, um, NPO, just like you told me.",
+    "[Clinician asked: \"Good, do you have any new symptoms since June tenth two thousand nine?\"] No, but I do have tenderness where you made the cut for the surgery.",
+    "[Clinician asked: \"That's pretty normal. I'm glad that you're doing well after the procedure. Do you have any questions?\"] How did my procedure go?"
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "HPI": "The patient is alert and oriented x3 and sitting up in bed.  The patient has been ambulating without difficulty.  The patient is still NPO.  The patient denies any new symptomatology from  6/10/2009.  The patient has complaints of incisional tenderness.  The patient was given a full explanation about her clinical condition and all her questions were answered."
+  },
+  "n_patient_turns": 4,
+  "n_clinician_turns": 5,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 7664.943754673004,
+      "response_text": "Thank you for asking about your procedure. It went smoothly, and the incision site looks clean and healing well. There's some tenderness, which is normal after surgery. Your recovery is progressing as expected. If you have any more questions or concerns, feel free to ask.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 21756.27601146698,
+      "response_text": "Thank you for sharing your concerns with me. It's completely understandable that you're feeling anxious about your procedure and recovery. Your questions show that you're taking an active role in your care, which is commendable. I can see why you might feel this way, especially after undergoing surgery, and it's important to address any concerns you have.\n\nRegarding the tenderness at the site of your surgery, it's a common experience for many patients post-operation. The area may remain sensitive as it heals, and this tenderness typically diminishes over time. I recommend gentle movements and monitoring of the area for any unusual changes, but it's reassuring to know that this is a normal part of recovery [PMID ?].\n\nAs for how your procedure went, I'd like to explain it in simple terms. The surgery was performed successfully, and your recovery progress looks positive. I'd like to hear in your own words how you understand the procedure went, so I can ensure I've explained everything clearly and address any remaining questions you might have.\n\nWe'll plan to check in at your next appointment to monitor your healing progress. Before you leave today, could you summarize what we discussed regarding your recovery? This will help confirm that you're comfortable with the plan and any next steps. Please don't hesitate to reach out if you have more questions or concerns in the meantime.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6884.151481091976,
+      "response_text": "It's good to hear you're doing well after your procedure and that you're able to walk without difficulty. You mentioned tenderness where the surgery was done, which is pretty normal, and you asked about how your procedure went.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again soon. In the meantime, if you have any new symptoms or concerns, please call us.",
+      "structured_response": {
+        "acknowledgment": "It's good to hear you're doing well after your procedure and that you're able to walk without difficulty. You mentioned tenderness where the surgery was done, which is pretty normal, and you asked about how your procedure went.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again soon. In the meantime, if you have any new symptoms or concerns, please call us.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 30683.661468327045,
+      "response_text": "It sounds like you're concerned about the tenderness at your surgery site, which has been ongoing since June 10, 2009. I want to understand how this has been affecting your daily life.\n\nThe tenderness at your surgery site could be related to several factors, including the healing process or possible complications. To better understand this, we'll need to look into your medical history and any previous treatments you've had for this area.\n\nWe'll review your medical records to get a clearer picture of your surgery and any previous treatments related to the surgery site.\n\nBased on that review, we'll determine the next steps to address the tenderness and ensure it's properly managed.\n\nCan you tell me, in your own words, what you understand about how we'll be addressing the tenderness at your surgery site?\n\nLet's plan to follow up in a week to review the findings and discuss any questions you may have in the meantime.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're concerned about the tenderness at your surgery site, which has been ongoing since June 10, 2009. I want to understand how this has been affecting your daily life.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "tenderness at surgery site",
+            "profile_path": "problems[0]",
+            "explanation": "The tenderness at your surgery site could be related to several factors, including the healing process or possible complications. To better understand this, we'll need to look into your medical history and any previous treatments you've had for this area.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll review your medical records to get a clearer picture of your surgery and any previous treatments related to the surgery site.",
+          "Based on that review, we'll determine the next steps to address the tenderness and ensure it's properly managed."
+        ],
+        "teach_back_prompt": "Can you tell me, in your own words, what you understand about how we'll be addressing the tenderness at your surgery site?",
+        "follow_up_invitation": "Let's plan to follow up in a week to review the findings and discuss any questions you may have in the meantime.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "tenderness at surgery site"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 61095.06706893444,
+      "response_text": "It sounds like you're concerned about the tenderness at your surgical incision site since June 10, 2009. I want to understand how this has been affecting you.\n\nResearch shows that adult patients facing language barriers had no significant difference in adjusted pooled odds of virtual vs in-person primary or specialist care use. This suggests that access to care may not be directly affected by language barriers in this context.\n\nWe'll need to assess the tenderness further to determine the best approach for your care.\n\nCan you tell me, in your own words, what we discussed and what we'll do next?\n\nLet's plan to follow up in a week. If the tenderness worsens or if you experience any new symptoms, please reach out sooner.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're concerned about the tenderness at your surgical incision site since June 10, 2009. I want to understand how this has been affecting you.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "tenderness at surgical incision site",
+            "profile_path": "problems[0]",
+            "explanation": "Research shows that adult patients facing language barriers had no significant difference in adjusted pooled odds of virtual vs in-person primary or specialist care use. This suggests that access to care may not be directly affected by language barriers in this context.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[1]::40471580_0",
+                "primary_assertion_id": "40471580_0",
+                "pmids": [
+                  "40471580"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll need to assess the tenderness further to determine the best approach for your care."
+        ],
+        "teach_back_prompt": "Can you tell me, in your own words, what we discussed and what we'll do next?",
+        "follow_up_invitation": "Let's plan to follow up in a week. If the tenderness worsens or if you experience any new symptoms, please reach out sooner.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[1]::40471580_0"
+        ],
+        "all_pmids_used": [
+          "40471580"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "tenderness at surgical incision site"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "40471580"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[1]::40471580_0"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 18491.75711721182,
+        "module_2_retrieval": 62.99576163291931,
+        "module_3_reasoning": 28713.292233645916,
+        "module_4_response": 13825.710944831371,
+        "total_ms": 61093.756057322025
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

@@ -1,0 +1,327 @@
+{
+  "transcript_id": "primock57_day1_consultation15",
+  "dataset": "primock57",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "I have sore, cracked skin on my hands",
+  "patient_utterances": [
+    "[Clinician asked: \"Hello?\"] Hello?",
+    "[Clinician asked: \"Hello. Can you hear me?\"] Yes.",
+    "[Clinician asked: \"Great, excellent. Before I go any further, can I confirm you name and your, um, age please?\"] Uh yes. Um Laura Parkinson. And uh I'm forty five.",
+    "[Clinician asked: \"Forty five. Alright Laura, well how can I help you this afternoon?\"] Uh yeah. So I have uh soreness in my fingers, my finger, like, the skin on my hands is kind of cracked.",
+    "[Clinician asked: \"OK. When, when did this all start?\"] Um, a couple of months ago. I got it three, four months ago.",
+    "[Clinician asked: \"OK so it's been that long, has it? OK. And so you mentioned your , is it the skin on your hand, mainly that's dry?\"] Yeah. Yeah, I haven't noticed. I mean, I have dryness, like you know, in other parts, like my legs. But it's not, it's not very, it's not severe. It's just you know, I've always, you know, I don't hydrate very much. So",
+    "[Clinician asked: \"Right. OK.\"] <INAUDIBLE_SPEECH/> Yeah. Like it's very, it's very bad in my hands.",
+    "[Clinician asked: \"OK. Can I ask why have you come to see me today? Uh is it because it's got worse recently, your symptoms?\"] Yeah I mean, it's gotten to a point where, where it hurts a lot. And I can't really do my job. So, I thought I should probably get it checked out.",
+    "[Clinician asked: \"Yeah, that sounds like a very sensible plan. Um, which part of your hands are affected, mainly?\"] Uh the palm. I don't get, yeah.",
+    "[Clinician asked: \"Um, OK alright. Um, have you  any itchiness in your palms?\"] Yeah, it's itchy. Not all the time, but yeah, it does get itchy.",
+    "[Clinician asked: \"OK. Any bleeding at all?\"] Um um I don't, I mean, no I don't think so.",
+    "[Clinician asked: \"you scratch yourself, you scratching yourself often, and bleeding?\"] Um, yeah I guess when I scratched it, yes it has bled sometimes but, yeah. Otherwise, it hasn't bled on its own.",
+    "[Clinician asked: \"OK. Um, fine. Uh OK. Sorry, I'm  writing notes as we go along. Um, and you mentioned that skin is quite cracked as well. Is that right?\"] Yes, that's right.",
+    "[Clinician asked: \"OK, alright. Um , I know it's a long time ago, but do you remember how it all started? <INAUDIBLE_SPEECH/> what were you doing at the time when it all started? Is it anything you may have done, to bring your symptoms on?\"] Uh, I mean I am a, I do work as a housekeeper. Um",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/>\"] And to be honest, I'm not always very good about wearing gloves. So that could be related. Um, I switched jobs, uh four months ago. Uh",
+    "[Clinician asked: \"OK. OK. OK.\"] I've been working for, as a housekeeper for, for a while now, but um, that's the only thing I can think of.",
+    "[Clinician asked: \"Yeah, I think that might be quite important actually. I think there's definitely, maybe a correlation between the two. Um, fine. And so you mentioned something about having general dryness. Is that, you mentioned in your legs as well?\"] Yeah. Yeah but isn't, sorry.",
+    "[Clinician asked: \"Is that,  is that something you've, you've had for a while now?\"] Yeah. It's not really, it's not really major. Uh yeah it's just like literally grinding my legs.",
+    "[Clinician asked: \"OK.\"] <INAUDIBLE_SPEECH/>",
+    "[Clinician asked: \"Right, OK. <INAUDIBLE_SPEECH/>\"] <INAUDIBLE_SPEECH/> trouble.",
+    "[Clinician asked: \"OK. I'm just going to ask you some very brief yes or no questions, if that's OK. With your symptoms, have you, have you had any other symptoms, such as fever, or temperatures?\"] No.",
+    "[Clinician asked: \"Any nausea, or any vomiting?\"] No.",
+    "[Clinician asked: \"Any problem with your bowels?\"] No.",
+    "[Clinician asked: \"Any problem with your urine, or waterworks? <INAUDIBLE_SPEECH/>\"] No.",
+    "[Clinician asked: \"Otherwise you feel well, do you? And yourself,  your eating, drinking, your appetite is well-maintained?\"] Yeah. <INAUDIBLE_SPEECH/>",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/> OK, alright. Fine. Um, in terms of your past medical history, do you have any other conditions at all?\"] I have diabetes.",
+    "[Clinician asked: \"Do you know if that's type one or type two?\"] Type two.",
+    "[Clinician asked: \"Diabetes, OK. Anything else?\"] Um no.",
+    "[Clinician asked: \"Any skin problems?\"] No.",
+    "[Clinician asked: \"Eczema, dermatitis, for exmaple?\"] Not that I know of. No, I haven't been diagnosed.",
+    "[Clinician asked: \"No, OK. Which medications do you take?\"] <INAUDIBLE_SPEECH/>",
+    "[Clinician asked: \"Metformin, OK. Do you have any allergies, either to any medications or in general?\"] No.",
+    "[Clinician asked: \"OK. Family history-wise, is there anything I should be aware of?\"] Diabetes and what?",
+    "[Clinician asked: \"Diabetes as well. OK. Again, any skin problems?\"] Yeah. Uh no, not that I know of.",
+    "[Clinician asked: \"Any history of asthma, or bowel problems?\"] Uh, no.",
+    "[Clinician asked: \"No. OK, alright. Um Fine. In terms of social history, you mentioned that you work as a housekeeper. Um are you, you're not always very good at wearing gloves.\"] Yeah.",
+    "[Clinician asked: \"Um, you've recently changed jobs. Which <INAUDIBLE_SPEECH/> which kind of places do you work in? Is it mainly residential, or is it commercial?\"] Yeah. At a hotel. I have to do the whole thing like bedrooms, bathrooms, <INAUDIBLE_SPEECH/>.",
+    "[Clinician asked: \"Hotel, OK. OK. OK. <INAUDIBLE_SPEECH/> Do you think there might be a relationship between the two? Between the, kind of the products you're using, and your symptoms?\"] Yeah, I usually use those for bathrooms. But, yeah bedrooms and corridors not always.",
+    "[Clinician asked: \"OK. Have your symptoms stopped you from doing any work? Have you had to take time off work recently?\"] Uh, yeah like the past three days, I haven't been able to go to work.",
+    "[Clinician asked: \"OK. Can I ask a couple questions? Do you smoke at all?\"] No.",
+    "[Clinician asked: \"Do you drink much in the way of alcohol?\"] pints a week.",
+    "[Clinician asked: \"Once a week?\"] Uh, a couple of pints a week.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/> a week. OK so, very minimal, alcohol there. Um have you tried anything for your symptoms? Have you tried anything over the counter? Any creams?\"] Yeah. I tried uh E forty five.",
+    "[Clinician asked: \"Any luck with that? <INAUDIBLE_SPEECH/>\"] Yeah, no it didn't really do anything.",
+    "[Clinician asked: \"No, OK. Alright. Um <INAUDIBLE_SPEECH/>\"] I also tried an  antihistamine, antihistamine. Uh but it didn't",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/>. OK, alright. Um, Mrs. Parkinson, so I think um, based on your story, I  I think you might have something called dermatitis or contact dermatitis. Which is very common in, particularly people in your in your in your field, who are using cleaning products, not using gloves. And so\"] Yeah.",
+    "[Clinician asked: \"OK. And in terms of helping your dryness and the cracking of your skin, um we can try some steroid creams to help with the inflammation.\"] Yeah.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/>\"] <INAUDIBLE_SPEECH/>",
+    "[Clinician asked: \"As well as some stronger emollients, um which you really need to kind of coat on, three four times a day, for the next couple of weeks, just to help with the moisturizing of your skin. <INAUDIBLE_SPEECH/>\"] <INAUDIBLE_SPEECH/>",
+    "[Clinician asked: \"Um if it still hasn't got better in about a week, two weeks time, I really need you to come back and see me again. And we can maybe think about other things we can give to you. <INAUDIBLE_SPEECH/>\"] OK.",
+    "[Clinician asked: \"Is that all clear?\"] Uh yeah, that sounds good.",
+    "[Clinician asked: \"Great. Do you have any questions for me?\"] Um, where do I get the medicine from?",
+    "[Clinician asked: \"I'll I'll I'll do a  prescription for you now, and send it over to your pharmacy.\"] OK great. Yeah, uh so you said a couple of weeks, it should get better, right?",
+    "[Clinician asked: \"OK. I think <INAUDIBLE_SPEECH/> I think minimum couple of weeks. Uh ten days to fourteen days. Um and if it still hasn't got better, or indeed if it's getting worse, like if it's spreading, or dryness is getting worse, come back and see me sooner. OK. Great. Thank you Laura. Thank you.\"] Alright. Thank you very much.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/>. Bye bye now.\"] Bye."
+  ],
+  "gold_note": "3-4/12 hx of sore and cracked skin on my hands - mainly palms. Occasionally itchy and bleeding on scratching. No pain \nWorks as a cleaner and does not always wear gloves - possible trigger\nNo fever\nNo bowel/urinary sx\nAppetite maintained \n\nPMH: Type 2 diabetes\nDH: metformin \nNKDA\nFH: Type 2 diabetes, \nSH: works as a housekeeper, recently changed jobs 4/12 ago, works in a hotel. \nNil smoking\nMinimal etOH\n\nHas tried E45 cream and antihistamines with minimal relief \n\nImp: contact dermatitis \n\nPlan:\n1.\tSteroid cream BD\n2.\tEmollients - regular use \n3.\tAvoid trigger, wear cleaning gloves\n4.\tReview in 10-14d INB, or earlier if worsening sx",
+  "gold_sections": {
+    "PRESENTING_COMPLAINT": "I have sore, cracked skin on my hands",
+    "HIGHLIGHTS": "sore and cracked skin\nitchy\ncleaner\nType 2 diabetes\ncontact dermatitis"
+  },
+  "n_patient_turns": 55,
+  "n_clinician_turns": 55,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 22229.15205359459,
+      "response_text": "Thank you for sharing your concerns with me, Laura. I understand how frustrating and uncomfortable it must be to deal with the dryness, cracking, and itching in your hands, especially since it's affecting your ability to work. Based on your description and the history of working with cleaning products without gloves, it seems likely that you're experiencing contact dermatitis, which is a common reaction to irritants like cleaning agents.\n\nTo help manage your symptoms, I've prescribed a steroid cream to reduce inflammation and some emollients to keep your skin moisturized. It's important to apply these as directed, several times a day, for the next couple of weeks. In the meantime, try to wear gloves when using cleaning products to protect your hands. If your symptoms don't improve within two weeks or if they worsen, please come back for a follow-up. I'll also provide a prescription for the medication, which you can get from your local pharmacy.\n\nRemember, taking care of your skin is crucial, and I'm here to help if you have any more questions or concerns. Wishing you a speedy recovery.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 25789.154648780823,
+      "response_text": "Thank you for sharing your concerns with me, Laura. It makes sense that you're worried, especially since the soreness and cracking of your skin have been going on for four months and are now affecting your ability to work. I can understand how frustrating it must be to deal with this issue, especially when it's interfering with your job as a housekeeper.\n\nBased on what you've described, it sounds like you might be experiencing contact dermatitis, which is a common condition in people who work with cleaning products and don't always wear gloves. This happens when your skin reacts to irritants or allergens, causing redness, dryness, itching, and cracking. Since you mentioned that you work at a hotel and use cleaning products in the bedrooms, bathrooms, and corridors, this could definitely be contributing to your symptoms [PMID ?].\n\nTo help address this, I recommend using steroid creams to reduce inflammation and applying strong moisturizers several times a day to keep your skin hydrated. I'll prescribe you some medications, including a steroid cream and an emollient, which should help soothe your skin. In the meantime, it's important to wear gloves when using cleaning products to protect your hands from further irritation.\n\nWe'll plan to check in again in about two weeks to see how your skin is responding to the treatment. If the symptoms don't improve or if they get worse, such as spreading to other areas or becoming more painful, please come back sooner. Before you leave, could you tell me in your own words what we've agreed on today? That way, I can make sure everything is clear to you.\n\nThank you for being so thorough in explaining your situation, Laura. I'll send the prescription to your pharmacy right away, and I'm confident that with these steps, we'll be able to help your skin heal. Let me know if you have any questions or concerns in the meantime.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7105.4519563913345,
+      "response_text": "Thank you for coming in today, Laura. I understand you're experiencing discomfort and pain in your hands, which has impacted your ability to work. You mentioned the skin on your hands is cracked and itchy, and it's been getting worse over the past few months.\n\nCan you tell me, in your own words, what we discussed today and what you plan to do next?\n\nPlease let me know if you have any questions or if your symptoms get worse. We can schedule a follow-up if needed.",
+      "structured_response": {
+        "acknowledgment": "Thank you for coming in today, Laura. I understand you're experiencing discomfort and pain in your hands, which has impacted your ability to work. You mentioned the skin on your hands is cracked and itchy, and it's been getting worse over the past few months.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "Can you tell me, in your own words, what we discussed today and what you plan to do next?",
+        "follow_up_invitation": "Please let me know if you have any questions or if your symptoms get worse. We can schedule a follow-up if needed.",
+        "nurse_elements_applied": [],
+        "four_habits_elements_applied": [],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 167807.87084251642,
+      "response_text": "I can hear how much this has been frustrating for you \u2014 you said, \"I can't really do my job.\" That must be really tough, especially since you want to continue working.\n\nThe soreness in your fingers, along with the cracked skin, itching, and bleeding when you scratch, could be related to a few different things. We'll need to look into this carefully to figure out what's going on.\n\nIt's great that you want to get this checked out. We'll work together to make sure you get the right tests and care to address your symptoms.\n\nWe'll do our best to help you manage your symptoms so you can continue working comfortably.\n\nWe'll schedule some tests to look into the cause of your finger soreness and skin issues.\n\nWe'll keep you updated on the results and discuss next steps based on what we find.\n\nIn the meantime, if your symptoms get worse or you experience severe pain, please reach out to us right away.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to follow up in a week to review the test results. In the meantime, if you notice any new symptoms or if your current ones get worse, please call us so we can address them promptly.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this has been frustrating for you \u2014 you said, \"I can't really do my job.\" That must be really tough, especially since you want to continue working.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "soreness in fingers",
+            "profile_path": "problems[0]",
+            "explanation": "The soreness in your fingers, along with the cracked skin, itching, and bleeding when you scratch, could be related to a few different things. We'll need to look into this carefully to figure out what's going on.",
+            "citations": []
+          },
+          {
+            "concern_label": "get it checked out",
+            "profile_path": "patient_goals[0]",
+            "explanation": "It's great that you want to get this checked out. We'll work together to make sure you get the right tests and care to address your symptoms.",
+            "citations": []
+          },
+          {
+            "concern_label": "continue working",
+            "profile_path": "patient_goals[1]",
+            "explanation": "We'll do our best to help you manage your symptoms so you can continue working comfortably.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll schedule some tests to look into the cause of your finger soreness and skin issues.",
+          "We'll keep you updated on the results and discuss next steps based on what we find.",
+          "In the meantime, if your symptoms get worse or you experience severe pain, please reach out to us right away."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to follow up in a week to review the test results. In the meantime, if you notice any new symptoms or if your current ones get worse, please call us so we can address them promptly.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 2,
+        "n_goals": 2,
+        "problems": [
+          "soreness in fingers"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 211070.73011994362,
+      "response_text": "I can hear how frustrating this must be for you \u2014 you mentioned, \"it's gotten to a point where, where it hurts a lot. And I can't really do my job.\" I understand how that kind of pain would make it hard to keep working.\n\nThe pain in your fingers, along with the cracked skin and bleeding when you scratch, could be signs of several conditions. To make sure we're covering all possibilities, we'll need to do some tests.\n\nWe'll start with some basic tests to check for any serious issues and then plan further steps based on those results.\n\nWe'll work together to manage your symptoms so you can stay on the job. Our focus will be on finding treatments that help you keep doing your work without too much discomfort.\n\nWe'll start with some tests to check for any serious issues, like infections or other conditions that could be causing your finger pain.\n\nOnce we have the results, we'll make a plan together to manage your symptoms and help you keep working.\n\nIn the meantime, if the pain gets worse or you notice any new symptoms, please call us right away.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to check in again in a week to review the test results and discuss your symptoms. In the meantime, if the pain becomes too severe or you notice any new symptoms, please reach out as soon as possible.",
+      "structured_response": {
+        "acknowledgment": "I can hear how frustrating this must be for you \u2014 you mentioned, \"it's gotten to a point where, where it hurts a lot. And I can't really do my job.\" I understand how that kind of pain would make it hard to keep working.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "soreness in fingers",
+            "profile_path": "problems[0]",
+            "explanation": "The pain in your fingers, along with the cracked skin and bleeding when you scratch, could be signs of several conditions. To make sure we're covering all possibilities, we'll need to do some tests.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[0]::37567752_0",
+                "primary_assertion_id": "37567752_0",
+                "pmids": [
+                  "37567752"
+                ]
+              },
+              {
+                "cluster_id": "finding::sub_query[0]::37567752_1",
+                "primary_assertion_id": "37567752_1",
+                "pmids": [
+                  "37567752"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "get symptoms checked out",
+            "profile_path": "patient_goals[0]",
+            "explanation": "We'll start with some basic tests to check for any serious issues and then plan further steps based on those results.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[0]::37567752_0",
+                "primary_assertion_id": "37567752_0",
+                "pmids": [
+                  "37567752"
+                ]
+              },
+              {
+                "cluster_id": "finding::sub_query[0]::37567752_1",
+                "primary_assertion_id": "37567752_1",
+                "pmids": [
+                  "37567752"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "continue working",
+            "profile_path": "patient_goals[1]",
+            "explanation": "We'll work together to manage your symptoms so you can stay on the job. Our focus will be on finding treatments that help you keep doing your work without too much discomfort.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::global::33658141_0",
+                "primary_assertion_id": "33658141_0",
+                "pmids": [
+                  "33658141"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll start with some tests to check for any serious issues, like infections or other conditions that could be causing your finger pain.",
+          "Once we have the results, we'll make a plan together to manage your symptoms and help you keep working.",
+          "In the meantime, if the pain gets worse or you notice any new symptoms, please call us right away."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to check in again in a week to review the test results and discuss your symptoms. In the meantime, if the pain becomes too severe or you notice any new symptoms, please reach out as soon as possible.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[0]::37567752_0",
+          "finding::sub_query[0]::37567752_1",
+          "recommendation::global::33658141_0"
+        ],
+        "all_pmids_used": [
+          "37567752",
+          "33658141"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 2,
+        "problems": [
+          "soreness in fingers"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "37567752",
+        "33658141"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[0]::37567752_0",
+        "finding::sub_query[0]::37567752_1",
+        "recommendation::global::33658141_0"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 150053.88697236776,
+        "module_2_retrieval": 73.89386743307114,
+        "module_3_reasoning": 27147.990062832832,
+        "module_4_response": 33793.567188084126,
+        "total_ms": 211069.3380907178
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

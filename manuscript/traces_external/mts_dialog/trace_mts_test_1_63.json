@@ -1,0 +1,339 @@
+{
+  "transcript_id": "mts_test_1_63",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "This is a followup dietary consultation for hyperlipidemia, hypertension, and possible metabolic syndrome",
+  "patient_utterances": [
+    "[Clinician asked: \"Hello there, how are you doing?\"] I'm doing good. Thank you. How about you?",
+    "[Clinician asked: \"So, looks like we're here to discuss your diet. Is that right?\"] Yep. That's right.",
+    "[Clinician asked: \"Okay, let me look through your chart. It looks like you have high lipid levels, high blood pressure and a possibility for a metabolic syndrome.\"] That looks like my chart. I'm kind of struggling here and I need your help.",
+    "[Clinician asked: \"Yeah, tell me did you follow the meal plan that we gave to you?\"] I tried for many weeks to follow that meal plan that you gave me.",
+    "[Clinician asked: \"Okay, did it help?\"] I don't know. I felt like I was still gaining weight instead of losing it.",
+    "[Clinician asked: \"Did you follow it exactly as you are, as you were asked to do?\"] I tried my best. But I feel like I am not doing it correctly or something.",
+    "[Clinician asked: \"Okay, tell me what kind of activities are you doing? How much physical activity are you doing on a regular basis?\"] I try to walk around one and a half to two miles like every other day, but I'm spending more time in my garden and doing the yard work by myself.",
+    "[Clinician asked: \"That's good. Gardening gets-- can get hard and it helps you keep active.\"] Oh yes, picking up all those pots from here to there and knowing that backyard of mine, it's a hard job.",
+    "[Clinician asked: \"Tell me what brings you here today? Like how can I help you?\"] So, I think the meal plan that you gave was not working for me and there was definitely some weight gain, so I went back to my old South Beach Diet.",
+    "[Clinician asked: \"Okay. What were the results with your South Beach Diet then? Was it effective?\"] I was able to get some pounds off. I felt pretty good about it.",
+    "[Clinician asked: \"That's good. Then what's the issue?\"] Well, you see, deep in my heart I know this South Beach Diet is not a healthy diet for me and that's why I'm back to you.",
+    "[Clinician asked: \"I appreciate your honesty. You don't know how happy you made me by saying that.\"] Yeah. You know, I'm here. So, tell me what to do to lose all this extra weight and how to enforce a low fat diet? What are your recommendations for that?"
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "HPI": "This is a followup dietary consultation for hyperlipidemia, hypertension, and possible metabolic syndrome.  The patient reports that she has worked hard for a number of weeks following the meal plan prescribed, but felt like she was gaining weight and not losing weight on it.  She is not sure that she was following it accurately.  She is trying to walk 1-1/2 to 2 miles every other day, but is increasing her time in the garden and doing other yard work as well.  Once she started experiencing some weight gain, she went back to her old South Beach Diet and felt like she was able to take some of that weight off.  However she realizes that the South Beach Diet is not a healthy diet for her and so is coming back for better instruction on safe weight loss and low-fat eating."
+  },
+  "n_patient_turns": 12,
+  "n_clinician_turns": 14,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 19019.07866448164,
+      "response_text": "I really appreciate your honesty and the effort you've put into managing your health. It sounds like you're feeling a bit stuck, and I completely understand how that can be frustrating. Let's work together to find a plan that's more sustainable and fits your lifestyle better.\n\nWhat do you think about starting with small, manageable changes to your diet and activity routine? We can focus on incorporating foods you enjoy while still promoting overall health. Maybe adding some strength training to your walks and gardening could help keep things interesting and effective. Remember, this is a journey, and I'm here to support you every step of the way. Let's take the first step together and see what works best for you.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 18277.689084410667,
+      "response_text": "Thank you for sharing your concerns and efforts with me. I understand how frustrating it must be to struggle with your diet and not see the results you want, especially when it feels like you're putting in the effort. It's clear that you're committed to your health, and I appreciate your honesty about your experiences with different diets.\n\nLet's work together to find a diet plan that fits your lifestyle and helps you achieve your goals. Sustainable changes are key, and I believe we can find something that works for you long-term. I'll suggest focusing on whole foods, portion control, and incorporating more physical activity into your routine, building on the good work you've already done with walking and gardening.\n\nWe'll discuss this plan in more detail today and set some realistic goals. I'll check in with you in two weeks to see how you're doing and make any necessary adjustments. Before you leave, could you summarize the plan we've discussed so I can ensure everything is clear?",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6961.199730634689,
+      "response_text": "Thank you for being honest about how the meal plan wasn't working for you and for returning for help. I understand how important it is to find a diet that works well for you in the long run.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again soon. In the meantime, if you have any questions or need support, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "Thank you for being honest about how the meal plan wasn't working for you and for returning for help. I understand how important it is to find a diet that works well for you in the long run.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again soon. In the meantime, if you have any questions or need support, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 176119.84340846539,
+      "response_text": "I can see how overwhelmed you must be feeling, especially with your struggle to manage your weight and diet. You mentioned, \"I'm kind of struggling here and I need your help,\" and that really resonates with me. I want to work together to figure this out step by step.\n\nManaging high lipid levels often involves lifestyle changes like diet and exercise. While we don't have specific guidelines for your exact situation, we can focus on strategies that have worked for others in similar circumstances.\n\nHigh blood pressure typically requires a combination of dietary changes and sometimes medication. We'll tailor a plan that fits your needs and goals.\n\nMetabolic syndrome involves a cluster of conditions, and we'll monitor your progress closely to identify any patterns that might indicate this syndrome.\n\nLosing weight can be challenging, but with a structured plan that includes regular check-ins, we can track your progress and adjust as needed.\n\nA low-fat diet is an important part of managing your health. We'll provide resources and support to help you maintain this diet effectively.\n\nYour request for help is crucial. We'll work together to create a clear and achievable plan that addresses your concerns and goals.\n\nWe'll start by discussing your current diet and weight management strategies to identify areas where we can provide support.\n\nWe'll schedule a follow-up appointment in 2 weeks to review your progress and make any necessary adjustments to your plan.\n\nI'll provide you with some resources and tips for maintaining a low-fat diet and managing your weight.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to meet again in 2 weeks. If you have any questions or concerns before then, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "I can see how overwhelmed you must be feeling, especially with your struggle to manage your weight and diet. You mentioned, \"I'm kind of struggling here and I need your help,\" and that really resonates with me. I want to work together to figure this out step by step.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "high lipid levels",
+            "profile_path": "problems[0]",
+            "explanation": "Managing high lipid levels often involves lifestyle changes like diet and exercise. While we don't have specific guidelines for your exact situation, we can focus on strategies that have worked for others in similar circumstances.",
+            "citations": []
+          },
+          {
+            "concern_label": "high blood pressure",
+            "profile_path": "problems[1]",
+            "explanation": "High blood pressure typically requires a combination of dietary changes and sometimes medication. We'll tailor a plan that fits your needs and goals.",
+            "citations": []
+          },
+          {
+            "concern_label": "possibility for metabolic syndrome",
+            "profile_path": "problems[2]",
+            "explanation": "Metabolic syndrome involves a cluster of conditions, and we'll monitor your progress closely to identify any patterns that might indicate this syndrome.",
+            "citations": []
+          },
+          {
+            "concern_label": "lose weight",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Losing weight can be challenging, but with a structured plan that includes regular check-ins, we can track your progress and adjust as needed.",
+            "citations": []
+          },
+          {
+            "concern_label": "enforce low-fat diet",
+            "profile_path": "patient_goals[1]",
+            "explanation": "A low-fat diet is an important part of managing your health. We'll provide resources and support to help you maintain this diet effectively.",
+            "citations": []
+          },
+          {
+            "concern_label": "need your help",
+            "profile_path": "patient_goals[2]",
+            "explanation": "Your request for help is crucial. We'll work together to create a clear and achievable plan that addresses your concerns and goals.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll start by discussing your current diet and weight management strategies to identify areas where we can provide support.",
+          "We'll schedule a follow-up appointment in 2 weeks to review your progress and make any necessary adjustments to your plan.",
+          "I'll provide you with some resources and tips for maintaining a low-fat diet and managing your weight."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to meet again in 2 weeks. If you have any questions or concerns before then, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 3,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 3,
+        "n_goals": 3,
+        "problems": [
+          "high lipid levels",
+          "high blood pressure",
+          "possibility for metabolic syndrome"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 235989.69833552837,
+      "response_text": "I can hear how much this is weighing on you. You mentioned, \"I'm kind of struggling here and I need your help,\" and also feeling unsure about your efforts. I want to make sure I understand your concerns and work together on this.\n\nHigh lipid levels can be managed with a combination of lifestyle changes and medications. WHO recommends long-term GLP-1 therapies combined with intensive behavioral therapy to help with weight loss and metabolic benefits.\n\nHigh blood pressure often requires a comprehensive approach, including lifestyle modifications and regular monitoring. We'll focus on managing this alongside your lipid levels to ensure overall cardiovascular health.\n\nMetabolic syndrome involves a cluster of conditions, and managing it requires a holistic approach. We'll address this by focusing on your lipid levels and blood pressure, which are key components.\n\nLosing weight can be supported through GLP-1 therapies and behavioral changes, as recommended by WHO guidelines.\n\nA low-fat diet is an important part of managing lipid levels. We'll work together to create a plan that fits your lifestyle and goals.\n\nYour need for support is important, and we'll ensure that you have the resources and guidance necessary to achieve your goals.\n\nWe'll start by focusing on your weight loss goal, using GLP-1 therapies as recommended, and setting up a plan for behavioral changes.\n\nWe'll monitor your lipid levels and blood pressure regularly to track progress and adjust the plan as needed.\n\nLet's schedule a follow-up appointment in 4 weeks to review the results and make any necessary changes to your treatment plan.\n\nI want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 4 weeks. In the meantime, if you have any questions or need additional support, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this is weighing on you. You mentioned, \"I'm kind of struggling here and I need your help,\" and also feeling unsure about your efforts. I want to make sure I understand your concerns and work together on this.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "high lipid levels",
+            "profile_path": "problems[0]",
+            "explanation": "High lipid levels can be managed with a combination of lifestyle changes and medications. WHO recommends long-term GLP-1 therapies combined with intensive behavioral therapy to help with weight loss and metabolic benefits.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::patient_goals[0]::41324410_1",
+                "primary_assertion_id": "41324410_1",
+                "pmids": [
+                  "41324410"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "high blood pressure",
+            "profile_path": "problems[1]",
+            "explanation": "High blood pressure often requires a comprehensive approach, including lifestyle modifications and regular monitoring. We'll focus on managing this alongside your lipid levels to ensure overall cardiovascular health.",
+            "citations": [
+              {
+                "cluster_id": "finding::global::41324410_0",
+                "primary_assertion_id": "41324410_0",
+                "pmids": [
+                  "41324410"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "possibility for metabolic syndrome",
+            "profile_path": "problems[2]",
+            "explanation": "Metabolic syndrome involves a cluster of conditions, and managing it requires a holistic approach. We'll address this by focusing on your lipid levels and blood pressure, which are key components.",
+            "citations": [
+              {
+                "cluster_id": "finding::global::41324410_0",
+                "primary_assertion_id": "41324410_0",
+                "pmids": [
+                  "41324410"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "lose weight",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Losing weight can be supported through GLP-1 therapies and behavioral changes, as recommended by WHO guidelines.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::patient_goals[0]::41324410_1",
+                "primary_assertion_id": "41324410_1",
+                "pmids": [
+                  "41324410"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "enforce low-fat diet",
+            "profile_path": "patient_goals[1]",
+            "explanation": "A low-fat diet is an important part of managing lipid levels. We'll work together to create a plan that fits your lifestyle and goals.",
+            "citations": [
+              {
+                "cluster_id": "finding::global::41324410_0",
+                "primary_assertion_id": "41324410_0",
+                "pmids": [
+                  "41324410"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "need your help",
+            "profile_path": "patient_goals[2]",
+            "explanation": "Your need for support is important, and we'll ensure that you have the resources and guidance necessary to achieve your goals.",
+            "citations": [
+              {
+                "cluster_id": "finding::global::41324410_0",
+                "primary_assertion_id": "41324410_0",
+                "pmids": [
+                  "41324410"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll start by focusing on your weight loss goal, using GLP-1 therapies as recommended, and setting up a plan for behavioral changes.",
+          "We'll monitor your lipid levels and blood pressure regularly to track progress and adjust the plan as needed.",
+          "Let's schedule a follow-up appointment in 4 weeks to review the results and make any necessary changes to your treatment plan."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 4 weeks. In the meantime, if you have any questions or need additional support, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "recommendation::patient_goals[0]::41324410_1",
+          "finding::global::41324410_0"
+        ],
+        "all_pmids_used": [
+          "41324410"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 3,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 3,
+        "n_goals": 3,
+        "problems": [
+          "high lipid levels",
+          "high blood pressure",
+          "possibility for metabolic syndrome"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "41324410"
+      ],
+      "cluster_ids_used": [
+        "recommendation::patient_goals[0]::41324410_1",
+        "finding::global::41324410_0"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 149404.89107370377,
+        "module_2_retrieval": 131.04064017534256,
+        "module_3_reasoning": 44490.9298196435,
+        "module_4_response": 41961.66591346264,
+        "total_ms": 235988.52744698524
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

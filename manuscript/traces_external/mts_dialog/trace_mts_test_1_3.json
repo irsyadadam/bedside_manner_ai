@@ -1,0 +1,165 @@
+{
+  "transcript_id": "mts_test_1_3",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "Noncontributory",
+  "patient_utterances": [
+    "[Clinician asked: \"Anyone in family with any blood or heart issues?\"] No.",
+    "[Clinician asked: \"Anyone diabetic or with any other issues in family?\"] No."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "FAM_SOCHX": "Noncontributory."
+  },
+  "n_patient_turns": 2,
+  "n_clinician_turns": 2,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 9876.188285648823,
+      "response_text": "Thank you for sharing that information with me. It\u2019s helpful to know about your family\u2019s health history as it can provide insights into potential health risks for you. This information will be useful in guiding your personalized care plan. If you have any questions or concerns, please feel free to ask\u2014I\u2019m here to help.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 21243.18577349186,
+      "response_text": "Thank you for sharing that information. It's good to hear that your family doesn't have a history of blood or heart issues, or diabetes. This can be reassuring, as family history is an important piece of the puzzle when considering your overall health.\n\nI understand that knowing your family's health history helps us better understand your personal health risks. Since we don't have those issues to focus on from your family, let's shift our attention to any concerns you might have about your own health. Have you been experiencing any symptoms or worries that you'd like to discuss today?\n\nWe can work together to address any health concerns you may have and develop a plan that suits you. If you have any symptoms or worries, please share them so we can explore them further. Your health and well-being are our top priorities, and I'm here to help guide you through any questions or concerns you might have.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6195.208914577961,
+      "response_text": "Thank you for coming in today. I understand you're here to discuss your concerns and we'll work together to address them.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 4 weeks. In the meantime, if you have any new concerns or symptoms, please call us.",
+      "structured_response": {
+        "acknowledgment": "Thank you for coming in today. I understand you're here to discuss your concerns and we'll work together to address them.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 4 weeks. In the meantime, if you have any new concerns or symptoms, please call us.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 14106.448419392109,
+      "response_text": "Thank you for reaching out. I understand you're here to discuss your concerns and we'll work together to address them.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 4 weeks. In the meantime, if you have any new concerns or symptoms, please reach out.",
+      "structured_response": {
+        "acknowledgment": "Thank you for reaching out. I understand you're here to discuss your concerns and we'll work together to address them.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 4 weeks. In the meantime, if you have any new concerns or symptoms, please reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 0,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 60472.625099122524,
+      "response_text": "Thank you for reaching out. I understand you're here to discuss some concerns and explore how we can support you.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a week. In the meantime, if you have any new concerns or questions, please reach out.",
+      "structured_response": {
+        "acknowledgment": "Thank you for reaching out. I understand you're here to discuss some concerns and explore how we can support you.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a week. In the meantime, if you have any new concerns or questions, please reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 0,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 7466.201238334179,
+        "module_2_retrieval": 28.054386377334595,
+        "module_3_reasoning": 45474.39270466566,
+        "module_4_response": 7502.820439636707,
+        "total_ms": 60471.46876901388
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

@@ -1,0 +1,200 @@
+{
+  "transcript_id": "mts_val_84",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "Diarrhea, vomiting, and abdominal pain",
+  "patient_utterances": [
+    "[Clinician asked: \"It seems like you are not feeling very well today?\"] Yeah.  I have had diarrhea and pain in my stomach.",
+    "[Clinician asked: \"Have you experienced any vomiting?\"] Yes.  I threw up this morning."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "CC": "Diarrhea, vomiting, and abdominal pain."
+  },
+  "n_patient_turns": 2,
+  "n_clinician_turns": 2,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 13601.069189608097,
+      "response_text": "I'm really sorry to hear you're feeling this way. It sounds like you're going through a tough time with these symptoms. I want to make sure I understand everything that's been going on. Could you tell me how long you've been experiencing the diarrhea, stomach pain, and vomiting? Have you noticed any particular foods or activities that might be triggering these symptoms? It's also important to know if you've had any fever or if you're feeling dehydrated, like having a dry mouth or reduced urination. Have you tried any medications or home remedies so far? Let me know, and we'll work together to get you feeling better.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 23670.22182047367,
+      "response_text": "Thank you for sharing how you're feeling. It sounds like you're going through a tough time with the diarrhea, stomach pain, and vomiting. I can understand how unsettling this must be, and I'm here to help you work through it.\n\nGiven your symptoms, a few possibilities come to mind. It could be a viral infection, like acute gastroenteritis, which is common and often resolves on its own [PMID ?]. However, it's also important to consider other causes, such as foodborne illness or, less commonly, infections like Salmonella or Giardia [PMID ?]. If your symptoms worsen or include severe pain, dehydration signs like reduced urination or dry mouth, or if you notice blood in your stool or vomit, please seek immediate care.\n\nFor now, let's focus on managing your symptoms. Staying hydrated is crucial, so I recommend oral rehydration solutions to replenish fluids and electrolytes. Over-the-counter medications like loperamide may help with diarrhea, but avoid them if you have bloody stools. Rest and a bland diet can also aid recovery.\n\nWe'll follow up in a few days to see how you're doing. If symptoms don't improve or if you're concerned, we can explore further testing. Before you leave, could you summarize our plan in your own words to ensure you're clear on the next steps?",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 3849.8123586177826,
+      "response_text": "It sounds like you're not feeling well today. You mentioned having diarrhea and stomach pain, and you threw up this morning.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're not feeling well today. You mentioned having diarrhea and stomach pain, and you threw up this morning.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "",
+        "follow_up_invitation": "",
+        "nurse_elements_applied": [],
+        "four_habits_elements_applied": [],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 35631.336621940136,
+      "response_text": "Thank you for coming in to talk about your recent symptoms. I understand you're experiencing both diarrhea and stomach pain, and I want to make sure we address these concerns together.\n\nDiarrhea and stomach pain can be caused by a variety of issues, and it's important to identify the underlying cause. We'll work together to figure out what's going on and the best way to manage these symptoms.\n\nStomach pain can be related to many different health issues, and we'll need to explore further to understand what's causing it. Our approach will be to gather more information and possibly run some tests to help pinpoint the cause.\n\nWe'll start by gathering more detailed information about your symptoms to better understand what might be causing them.\n\nDepending on what we find, we may recommend additional tests or refer you to a specialist if needed.\n\nI want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to check in again in a week. If your symptoms get worse or if you experience any severe pain, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "Thank you for coming in to talk about your recent symptoms. I understand you're experiencing both diarrhea and stomach pain, and I want to make sure we address these concerns together.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "diarrhea",
+            "profile_path": "problems[0]",
+            "explanation": "Diarrhea and stomach pain can be caused by a variety of issues, and it's important to identify the underlying cause. We'll work together to figure out what's going on and the best way to manage these symptoms.",
+            "citations": []
+          },
+          {
+            "concern_label": "stomach pain",
+            "profile_path": "problems[1]",
+            "explanation": "Stomach pain can be related to many different health issues, and we'll need to explore further to understand what's causing it. Our approach will be to gather more information and possibly run some tests to help pinpoint the cause.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll start by gathering more detailed information about your symptoms to better understand what might be causing them.",
+          "Depending on what we find, we may recommend additional tests or refer you to a specialist if needed."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to check in again in a week. If your symptoms get worse or if you experience any severe pain, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 2,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "diarrhea",
+          "stomach pain"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 39062.44080513716,
+      "response_text": "Thank you for sharing your concerns about your symptoms. It sounds like you're experiencing a few things that are bothering you right now.\n\nDiarrhea can be caused by many things, and since it's happening with stomach pain, we'll want to look into what's going on together.\n\nStomach pain can have various causes, and combined with diarrhea, it's important to figure out what's going on.\n\nVomiting can be due to many reasons, and we'll work together to understand what's causing it.\n\nWe'll start by discussing your symptoms in more detail to get a better understanding of what's going on.\n\nWe can then plan some tests or next steps together to figure out the cause of these symptoms.\n\nCan you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to talk more about this in our next visit. In the meantime, if your symptoms get worse or if there's anything new, please let me know.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns about your symptoms. It sounds like you're experiencing a few things that are bothering you right now.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "diarrhea",
+            "profile_path": "problems[0]",
+            "explanation": "Diarrhea can be caused by many things, and since it's happening with stomach pain, we'll want to look into what's going on together.",
+            "citations": []
+          },
+          {
+            "concern_label": "stomach pain",
+            "profile_path": "problems[1]",
+            "explanation": "Stomach pain can have various causes, and combined with diarrhea, it's important to figure out what's going on.",
+            "citations": []
+          },
+          {
+            "concern_label": "vomiting",
+            "profile_path": "problems[2]",
+            "explanation": "Vomiting can be due to many reasons, and we'll work together to understand what's causing it.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll start by discussing your symptoms in more detail to get a better understanding of what's going on.",
+          "We can then plan some tests or next steps together to figure out the cause of these symptoms."
+        ],
+        "teach_back_prompt": "Can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to talk more about this in our next visit. In the meantime, if your symptoms get worse or if there's anything new, please let me know.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 3,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "diarrhea",
+          "stomach pain",
+          "vomiting"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 22199.68358427286,
+        "module_2_retrieval": 53.9269745349884,
+        "module_3_reasoning": 1724.7187197208405,
+        "module_4_response": 15083.007581532001,
+        "total_ms": 39061.33686006069
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

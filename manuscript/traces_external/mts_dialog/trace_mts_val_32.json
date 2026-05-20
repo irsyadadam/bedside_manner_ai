@@ -1,0 +1,176 @@
+{
+  "transcript_id": "mts_val_32",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "His father died of colon and thyroid cancers at age 52",
+  "patient_utterances": [
+    "[Clinician asked: \"Tell me a little more about your family. Are there any significant conditions that your parents or siblings had that you know of?\"] Um, my dad died a few years back. He had color cancer and thyroid cancer.",
+    "[Clinician asked: \"I'm so sorry to hear that, sir. How old was he?\"] Thank you, he was only fifty two.",
+    "[Clinician asked: \"That's tragic, I'm sorry. What about your siblings?\"] I have seven total. One of my brothers died from stomach cancer when he was fifty three and another brother committed suicide.",
+    "[Clinician asked: \"I'm so sorry to hear that. Can I assume your other siblings are healthy?\"] Yes sir, they're all doing very well.",
+    "[Clinician asked: \"That's good. Do you have any other conditions, like heart disease, high blood pressure, diabetes, or kidney disease?\"] Nope, I keep pretty healthy."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "FAM_SOCHX": "His father died of colon and thyroid cancers at age 52. One brother died of stomach cancer at age 53 and one brother committed suicide. Five other siblings are all healthy. Negative for coronary heart disease, hypertension, diabetes, or kidney disease."
+  },
+  "n_patient_turns": 5,
+  "n_clinician_turns": 5,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 13600.88700056076,
+      "response_text": "I'm deeply sorry for the losses you've experienced. It sounds like you've been through a lot, and I want you to know that I'm here to support you. Given your family history, especially the cancers your father and brother had, it might be helpful to explore whether there could be a genetic component. We could consider genetic counseling or testing if that's something you're comfortable with.\n\nSince you're currently in good health, let's focus on maintaining that. I recommend staying proactive with regular check-ups, especially screenings for colon and thyroid health, given your family history. Together, we'll keep a close eye on your health and make sure we're doing everything we can to keep you well.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 22017.88878440857,
+      "response_text": "I'm truly sorry for the losses you've experienced. It's clear how much this must weigh on you, and I appreciate your openness in sharing your family's health history. Your effort to provide this information is important, as it can help us better understand your health risks.\n\nGiven your family history, particularly the cancers your father and brother experienced, it's understandable to feel concerned about your own health. Family history can indeed play a significant role in certain cancers, and we'll keep that in mind as we monitor your health together.\n\nTo move forward, we'll schedule regular screenings and keep a close eye on any symptoms you might notice. I want to make sure you're comfortable discussing any concerns as they arise. Before we wrap up, could you summarize the plan in your own words so I can ensure everything is clear?\n\nWe'll plan to follow up in two weeks to review how you're feeling and adjust our approach as needed. Please don't hesitate to reach out sooner if any new symptoms appear.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 3885.618895292282,
+      "response_text": "Thank you for sharing your family health history with me. It's important to understand your background to provide the best care possible.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your family health history with me. It's important to understand your background to provide the best care possible.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "",
+        "follow_up_invitation": "",
+        "nurse_elements_applied": [],
+        "four_habits_elements_applied": [],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 34593.77560019493,
+      "response_text": "I can hear how much this has been weighing on you \u2014 you said, \"he was only fifty two\" and \"another brother committed suicide.\" That's a real weight to carry, and I want to make sure we're here for you.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to talk again soon. If you need anything in the meantime, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this has been weighing on you \u2014 you said, \"he was only fifty two\" and \"another brother committed suicide.\" That's a real weight to carry, and I want to make sure we're here for you.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to talk again soon. If you need anything in the meantime, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Demonstrate empathy",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 0,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 2,
+        "n_goals": 0,
+        "problems": [],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Demonstrate empathy",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 67750.69478154182,
+      "response_text": "I can hear how much this has been weighing on you \u2014 you said, \"Thank you, he was only fifty two\" and \"another brother committed suicide.\" That sounds incredibly difficult, and I want to make sure I understand how this is affecting you.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to talk again soon. If you have any new concerns or need support in between, please reach out.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this has been weighing on you \u2014 you said, \"Thank you, he was only fifty two\" and \"another brother committed suicide.\" That sounds incredibly difficult, and I want to make sure I understand how this is affecting you.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to talk again soon. If you have any new concerns or need support in between, please reach out.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Demonstrate empathy",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 0,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 2,
+        "n_goals": 0,
+        "problems": [],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Demonstrate empathy",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 25032.12097287178,
+        "module_2_retrieval": 55.95745146274567,
+        "module_3_reasoning": 33218.62142533064,
+        "module_4_response": 9442.510321736336,
+        "total_ms": 67749.2101714015
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

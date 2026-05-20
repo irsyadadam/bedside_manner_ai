@@ -1,0 +1,214 @@
+{
+  "transcript_id": "mts_val_22",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "The patient was seen in the urgent care and examined",
+  "patient_utterances": [
+    "[Clinician asked: \"I looked over your report from urgent care.\"] They didn't do much other than tell me to follow up with you.",
+    "[Clinician asked: \"Given that you're sensitive to light and feel nauseated, I believe a migraine is highly likely.\"] Can I take anything for it?",
+    "[Clinician asked: \"I'm going to prescribe you Tylenol with codeine to help your pain.\"] Can I get a doctor's note, too?",
+    "[Clinician asked: \"Yes. In fact, I'd like you to take a day off from school and rest until you start to feel better.\"] Okay. Thank you."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "ED_COURSE": "The patient was seen in the urgent care and examined.  At this time, her photophobia and nausea make migraine highly likely.  She is well appearing and we'll try Tylenol with codeine for her pain.  One day off school and follow up with her primary doctor."
+  },
+  "n_patient_turns": 4,
+  "n_clinician_turns": 4,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 16758.380390703678,
+      "response_text": "I understand how challenging it must be to deal with these symptoms, especially when they're as intense as a migraine. It's important to take care of yourself, and I'm glad you're seeking the help you need. The Tylenol with codeine should help alleviate the pain, but remember to take it exactly as prescribed to ensure your safety and effectiveness. \n\nRegarding the doctor's note, I'll make sure to provide one for your school. Additionally, taking a day off to rest is a good idea\u2014your body needs time to recover. If your symptoms don't improve or if they get worse, please don't hesitate to reach out. I'm here to help you through this.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 19320.652537047863,
+      "response_text": "Thank you for sharing how you're feeling. It sounds like you're experiencing a lot of discomfort, and I can understand why you'd want some clarity and relief. The fact that you're sensitive to light and nauseated points toward a migraine, which can be quite debilitating. I want to make sure we're on the same page regarding your care.\n\nFor the pain, I'm prescribing Tylenol with codeine because it can help manage the severity of your migraine symptoms [PMID ?]. However, we should use it sparingly to avoid overreliance. In addition, I'll provide a doctor's note so you can take a day off from school and rest, which is crucial for recovery. Rest and darkness are often the best treatments for migraines [PMID ?].\n\nPlease let me know if you need anything else in the meantime. I'll check in with you in 48 hours to see how you're feeling and adjust your treatment if needed. Before you go, could you summarize what we've discussed so far? That way, I can ensure I've covered everything clearly.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6806.350827217102,
+      "response_text": "Thank you for sharing your concerns with me. It sounds like you're feeling unwell, and I'm here to help you through this.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again soon. In the meantime, if your symptoms get worse or you have any new concerns, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns with me. It sounds like you're feeling unwell, and I'm here to help you through this.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again soon. In the meantime, if your symptoms get worse or you have any new concerns, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 40225.94901174307,
+      "response_text": "It sounds like you're here because you're dealing with migraines, and you mentioned needing a doctor's note. I want to understand how this is affecting you and what we can do together to address it.\n\nMigraines can be tricky, and they often come with symptoms like sensitivity to light and nausea. To get a better understanding, we'll need to talk about when they started, how often they happen, and how severe they are.\n\nOnce we have a clearer picture of your migraines, we can work together to get the doctor's note you need. This will help ensure that your concerns are documented and any necessary steps are taken.\n\nLet's take some time to talk about your migraines in more detail \u2014 when they started, how often they happen, and how severe they are. This will help us understand what's going on.\n\nAfter we discuss your migraines, we'll work together to get the doctor's note you need.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to talk more about your migraines next time we meet. In the meantime, if your symptoms get worse or you need anything urgent, please reach out.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're here because you're dealing with migraines, and you mentioned needing a doctor's note. I want to understand how this is affecting you and what we can do together to address it.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "migraine",
+            "profile_path": "problems[0]",
+            "explanation": "Migraines can be tricky, and they often come with symptoms like sensitivity to light and nausea. To get a better understanding, we'll need to talk about when they started, how often they happen, and how severe they are.",
+            "citations": []
+          },
+          {
+            "concern_label": "doctor's note",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Once we have a clearer picture of your migraines, we can work together to get the doctor's note you need. This will help ensure that your concerns are documented and any necessary steps are taken.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "Let's take some time to talk about your migraines in more detail \u2014 when they started, how often they happen, and how severe they are. This will help us understand what's going on.",
+          "After we discuss your migraines, we'll work together to get the doctor's note you need."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to talk more about your migraines next time we meet. In the meantime, if your symptoms get worse or you need anything urgent, please reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 1,
+        "problems": [
+          "migraine"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 76994.78816986084,
+      "response_text": "It sounds like you're looking for some help with your migraine symptoms and also a doctor's note. How can I assist you today?\n\nMigraines can be tricky, but there are steps we can take to manage them better. We'll focus on understanding your symptoms and finding the best approach for you.\n\nWe'll work together to find ways to relieve your migraine symptoms and make sure you feel better.\n\nI'll help you get the necessary documentation from your visit.\n\nWe'll start by discussing your symptoms in more detail to understand what's been happening.\n\nOnce we have a clearer picture, we can explore treatment options together.\n\nI'll provide you with a doctor's note as needed.\n\nCan you tell me what you understand about the next steps we discussed?\n\nLet's plan to follow up in a week to see how things are going. If your symptoms get worse or you have any questions before then, please reach out.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're looking for some help with your migraine symptoms and also a doctor's note. How can I assist you today?",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "migraine",
+            "profile_path": "problems[0]",
+            "explanation": "Migraines can be tricky, but there are steps we can take to manage them better. We'll focus on understanding your symptoms and finding the best approach for you.",
+            "citations": []
+          },
+          {
+            "concern_label": "relief from migraine symptoms",
+            "profile_path": "patient_goals[0]",
+            "explanation": "We'll work together to find ways to relieve your migraine symptoms and make sure you feel better.",
+            "citations": []
+          },
+          {
+            "concern_label": "doctor's note",
+            "profile_path": "patient_goals[1]",
+            "explanation": "I'll help you get the necessary documentation from your visit.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll start by discussing your symptoms in more detail to understand what's been happening.",
+          "Once we have a clearer picture, we can explore treatment options together.",
+          "I'll provide you with a doctor's note as needed."
+        ],
+        "teach_back_prompt": "Can you tell me what you understand about the next steps we discussed?",
+        "follow_up_invitation": "Let's plan to follow up in a week to see how things are going. If your symptoms get worse or you have any questions before then, please reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 2,
+        "problems": [
+          "migraine"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 25037.800334393978,
+        "module_2_retrieval": 77.63848453760147,
+        "module_3_reasoning": 35948.61293584108,
+        "module_4_response": 15929.229073226452,
+        "total_ms": 76993.28082799911
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

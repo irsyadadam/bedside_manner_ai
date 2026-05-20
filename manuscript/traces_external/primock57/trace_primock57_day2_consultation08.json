@@ -1,0 +1,317 @@
+{
+  "transcript_id": "primock57_day2_consultation08",
+  "dataset": "primock57",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "I've been feeling very hot and sweaty for the past week",
+  "patient_utterances": [
+    "[Clinician asked: \"Hi, good morning!\"] Hello there!",
+    "[Clinician asked: \"Hi there, this is uh this is Doctor Dean  from <INAUDIBLE_SPEECH/> .\"] Hello there? Um, I'm wondering if you can help me today.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/> OK,  sure,  I'll try. Before we start, could I please confirm your full name and date of birth?\"] Yes, it's Sarah Smith, and it's the second of November, um, nineteen ninety two.",
+    "[Clinician asked: \"That's great! Thank you, sir. So are you in a private place where you are OK to speak at the moment?\"] I am indeed, yes.",
+    "[Clinician asked: \"OK, so tell me what's been going on.\"] OK. I, I've really not been feeling so well at all recently. I, I've been struggling with fever for the past week. Yeah, I would say it's  about seven days ago. I'm just, I'm really hot and sweaty all the time, and just generally not feeling good.",
+    "[Clinician asked: \"OK, alright, sorry to hear that. Now, um, uh, along with this fever and this  any other symptoms at all?\"] Um, I'd say that I'm aching all over really, my muscles are really aching. I'm feeling quite nauseous, uh, so I've not been able to eat very much, and I have been drinking but it's been quite a small amount. Um, and, yeah, just generally quite tired and unwell. I'm sweating during the the the night, I'm quite cold.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/> OK, all right. Um, and um, so  you're having periods of when you're feeling hot, and also periods when you're feeling cold as well.\"] Yes, yes, quite interchangeable, not really a pattern to it.",
+    "[Clinician asked: \"OK, uh, and have you been taking your medication?\"] Uh, I've been trying to, like, take ibuprofen and paracetamol just to from over the counter, but it's not really helping, just been taking the recommended dose every day of those.",
+    "[Clinician asked: \"Sure, and when you say it's not helping, is it bringing the temperature down at all?\"] Perhaps slightly, yes, but I'm still experiencing these symptoms, so, it does take the edge off a bit.",
+    "[Clinician asked: \"OK, alright. And can I just double check have you gotten any cough or cold or sore throat or  anything like that?\"] Mmm, not those sort of symptoms, really. Um",
+    "[Clinician asked: \"But which <INAUDIBLE_SPEECH/> are you getting, other than the ones you've already mentioned to me?\"] Um, so, I have a habit that it's mainly just the sweating, really, and the and the nausea, uh, that's overtaking all all day and, uh, the aching muscles all over.",
+    "[Clinician asked: \"Sure. Have you have you had any ear pain ?\"] Mmm, no, my ears are fine, actually. I haven't had any problems with my ears.",
+    "[Clinician asked: \"OK, um, just, I just need to check for any other causes of infection in the body. So I'm gonna go through some, um, kind of systemic questions. Have you had any diarrhoea?\"] And  not, not really no, not that I can find.",
+    "[Clinician asked: \"OK. Have you got any neck stiffness at all?\"] Um, no. My neck's, my neck's been fine.",
+    "[Clinician asked: \"OK. Alright. Um, do you have any headache?\"] Not more than usual, no. Just like the, general headaches but not, just from staring at the screen.  No migraines, or anything.",
+    "[Clinician asked: \"OK. OK, so, you know your normal headache, where is that, in the back of your head or the front of the head?\"] Uum, it's quite centralized over, over the head.",
+    "[Clinician asked: \"OK.  and how long have you been having that for?\"] <INAUDIBLE_SPEECH/> It's something that I've struggled with through, years really, just related to a screen use, or, uum, like changes in weather patterns. Yeah, high pressure days, sometimes I struggle with migraines, and headaches.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/> OK. Um, have you got any rash on your body anywhere at all?\"] Uh, I haven't noticed any rashes, no.",
+    "[Clinician asked: \"Uh, any joints swollen or tender or sore?\"] Mmm, not really. I mean, I, I often have problems with back pain but  not really any other joints.",
+    "[Clinician asked: \"OK, alright.\"] Any problems?",
+    "[Clinician asked: \"Alright,  and, um, have you got any kind of symptoms down below when you're passing urine?\"] Uh, no,  there's been no problems there.",
+    "[Clinician asked: \"OK. Any painful urination at all?\"] Uh, not at all, no.",
+    "[Clinician asked: \"Are you passing urine more often than normal?\"] Uh,  I  don't think so, no it's been fairly regular.",
+    "[Clinician asked: \"OK. Have you been abroad anywhere recently?\"] Yes, I have actually.",
+    "[Clinician asked: \"Where have you been?\"] I went to Vietnam. Uh, I came back four weeks ago now.",
+    "[Clinician asked: \"OK. Uh, and, um, uh, did you take malaria preventative medication when you went out there?\"] I did, yes.",
+    "[Clinician asked: \"Which one did you take?\"] Ooo, I can't remember now, off the top of my head.",
+    "[Clinician asked: \"Was it a weekly tablet or a daily tablet?\"] I think it was daily.",
+    "[Clinician asked: \"OK, um, and was it one tablet or was it another one that you would take on top of the first one?\"] I think it was, uh another one that I took on top of the first one.",
+    "[Clinician asked: \"OK. And, and what were you doing out in Vietnam? Was it just seeing the cities or going through villages or hiking? What what kind of activities were you doing?\"] It was quite  really,  'cause we were there for a few weeks, and we toured to, uh, several different parts of the country, and uh, the countryside and some cities as well.",
+    "[Clinician asked: \"OK. Uh, and um, did you do any kind of, were you in rivers or things like that? Were you, you know,  how adventurous were you?\"] I'm sorry, could you repeat that? I missed that.",
+    "[Clinician asked: \"Where you going out into the rivers? Were you going on beaches? I mean how adventurous was your trip?\"] Yes, it was quite adventurous. We were sort of trekking and, um, cycling, uh, through the farmland and, um, seeing how people lived in a day-to-day life in, in, in farmland.",
+    "[Clinician asked: \"Right, OK. Um, thank you for sharing that with me. Now, do you have, um, any other illnesses at all, in the past?\"] Mmm, as I said I've, I've been struggling with back pain for quite a while,  but I haven't really had any, uh, major illnesses in the past, I can think of.",
+    "[Clinician asked: \"And that back pain have you, um, have you seen anyone about that?\"] Yes, yeah, I'm under a physiotherapist at the moment for that.",
+    "[Clinician asked: \"Have they, have they give you any kind of diagnosis at all?\"] Um, they've said that it's,  u,h related to long periods of time sitting at a desk, and just, uh, bad posture. So mainly the  exercises are focused on improving posture and, and to strengthen the muscles in the back.",
+    "[Clinician asked: \"Alright um, are there any illnesses in your family at all?\"] Hmm, the main one would be, um, heart attack. My, my father passed away of that.",
+    "[Clinician asked: \"I'm sorry to hear that. Um, how old was he when that happened?\"] in his sixties. Um, sixty eight, I think. Yeah.",
+    "[Clinician asked: \"OK. Um, are you on any medication at all?\"] Uh, just Seroxat.",
+    "[Clinician asked: \"OK. Uh,  do you have any allergies at all?  medication?\"] No, I've just really pollen allergy. That's all I have.",
+    "[Clinician asked: \"OK, so hay fever.\"] Yes, yeah, just hay fever.",
+    "[Clinician asked: \"Alright. Um, are you, um, you're working at the moment?\"] Uh, I am, yes.",
+    "[Clinician asked: \"What do you work at?\"] I work as a nurse.",
+    "[Clinician asked: \"OK, all right. Um, and, um, you're up to date with all the vaccinations, Hepatitis B, and that kind of thing?\"] Yes, indeed. Yeah.",
+    "[Clinician asked: \"OK.\"] But I'm, I'm really struggling quite a lot at work at the moment. It's been quite difficult, feeling so, uh, tired all the time.",
+    "[Clinician asked: \"So, I can . Sure, OK. Um, and, are you a, uh, are you a smoker at all?\"] No, I'm not.",
+    "[Clinician asked: \"OK, and ohh do you drink much alcohol?\"] Mmm, moderate alcohol intake. Yeah, I don't drink too much.",
+    "[Clinician asked: \"OK, and how much kind of physical exercise do you do normally?\"] I try and do, uh, some moderate physical exercise a few times a week.",
+    "[Clinician asked: \"OK, that's good, alright, um, so, um What, uh, I think we're gonna need to do is we're gonna need to bring you into one of our clinics. Examine , and we're gonna need to arrange some blood tests as well.\"] OK.",
+    "[Clinician asked: \"OK, um, so, what what I want to do is, the first question I have in my mind is that we need to find a reason for why you've got this  fever and these symptoms, because there's no apparent reason from what you've told me.\"] OK.",
+    "[Clinician asked: \"There's no, uh, when someone has got fever and sweats, we want to find out have they got chest infection, have they got a throat infection? Um, and if we can't find a focus of infection, then that's something, that, that's an outstanding question that needs to be answered, OK? Um, the second thing, \"] OK.",
+    "[Clinician asked: \"And you've had exposure to rural areas. And we need to think about things like malaria or other exotic infections as well. So, um, you're probably gonna need some blood tests. After you've been seen by somebody. Um, now, the urgency of those blood tests depends partly on what we find when we examine\"] OK.",
+    "[Clinician asked: \"Or, if it's inconvenient for you to come into central London because you  you're living further out, you could actually just attend a local A and E. I'm going to type up what my thought process is and what kind of test I think you need in the notes for this appointment, so you could show that to the\"] OK.  That sounds great. Thank you so much for your help. I, I think, yeah, I can come straight into central London today to get that sorted.",
+    "[Clinician asked: \"OK. OK, fine, so what I'm going to do is I will send a message to one of our admin team members asking them to book you in. And if you can ring the number that I leave in your consultation notes, after a few minutes, and then they'll slot you in, and then we can sort things out from there. OK?\"] That's brilliant. Thank you very much.",
+    "[Clinician asked: \"Alright then, OK. Take care then. All the best.\"] Goodbye."
+  ],
+  "gold_note": "Hx of fever for a week with associated sweatiness, body/muscle aches, nausea, fatigue, night sweats, hot/cold episodes\nDrinking less cf normal\n Taking ibuprofen and paracetamol otc- not helping, helps with temp slightly\nNo cough, sore throat, runny nose, ear pain.\nNo diarrhea, no neck stiffness, no headache (no more than usual- normal headache on top of head through looking at screen). No rash, no joint swelling (ongoing back pain), no dysuria or frequency.\nRecent foreign travel- returned from Vietnam, took malaria prevention daily- cant remember medication, present there for a few weeks, rural and urban tourism, trekking and cycling.\nPmhx: nil of note, back pain- under physiotherapy, working diagnosis ? muscular/ posture\nFh: father has MI at age 68\nDH: on cerazette\nNil allergies, hayfever\nSH: works as a nurse, UTD with hep B etc, non smoker, moderate alcohol intake, moderate physical exercise\nImp: PUO, need to exclude malaria\nPlan: for f2f appointment with GP today\nThereafter, for blood tests including crp, esr, thick and thin blood films (possibly routine, possibly via a/e- depending on second GP's assessment)",
+  "gold_sections": {
+    "PRESENTING_COMPLAINT": "I've been feeling very hot and sweaty for the past week",
+    "HIGHLIGHTS": "fever\nsweatiness\nmuscle aches\nnausea\nfatigue\nnight sweats\nRecent foreign travel\ncerazette\nNil allergies\nhayfever\nnurse\nnon smoker\nPUO\nneed to exclude malaria"
+  },
+  "n_patient_turns": 54,
+  "n_clinician_turns": 55,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 17074.111364781857,
+      "response_text": "Dear Sarah,\n\nI understand how challenging it must be to deal with these symptoms for an extended period. It\u2019s important that we get to the bottom of what\u2019s causing your fever and other\u4e0d\u9002\u611f. Based on your recent travel to a rural area in Vietnam and the symptoms you\u2019re experiencing, we need to consider potential infections, including malaria, even though you took preventive medication.\n\nThe next steps involve scheduling some blood tests to check for any underlying infections. Please make sure to follow up on the instructions provided. If you have any concerns or questions before your appointment, don\u2019t hesitate to reach out. Your health is our priority, and I\u2019m here to support you through this.\n\nTake care and feel better soon.\n\nBest regards,  \n[Your Name]  \nClinician",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 24571.396254003048,
+      "response_text": "Thank you for sharing all that with me, Sarah. It sounds like you're feeling really unwell, and I can understand how concerning this must be for you. Having a fever for a week, along with all these other symptoms, is exhausting, and I want to make sure we get to the bottom of it.\n\nGiven your recent trip to Vietnam and the rural areas you visited, we need to consider a few possibilities. Malaria is a strong contender, especially since you were taking preventative medication. Other infections, like dengue or typhoid, could also be in the mix. It's also possible that this is a bacterial infection that needs specific treatment. To figure this out, we'll need to do some blood tests, which can help us identify what's going on [PMID ?].\n\nWe'll start with a physical exam and then arrange for those blood tests. Depending on the results, we might need to do more tests or consider other treatments. In the meantime, make sure to stay hydrated and rest as much as possible.\n\nBefore you leave, could you tell me in your own words what we've agreed on today? That way, I can ensure everything is clear. We'll follow up in the next few days once we have the test results.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 8032.513499259949,
+      "response_text": "Thank you for sharing all this with me. It sounds like you're going through a tough time with this fever and feeling unwell.\n\nWe'll arrange for some blood tests to help figure out what's going on. We'll also schedule a follow-up visit to review the results together.\n\nCan you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a week. If you experience any severe symptoms like difficulty breathing or chest pain, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing all this with me. It sounds like you're going through a tough time with this fever and feeling unwell.",
+        "clinical_information_per_concern": [],
+        "next_steps": [
+          "We'll arrange for some blood tests to help figure out what's going on. We'll also schedule a follow-up visit to review the results together."
+        ],
+        "teach_back_prompt": "Can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a week. If you experience any severe symptoms like difficulty breathing or chest pain, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 172586.88582479954,
+      "response_text": "It sounds like you're dealing with a lot of symptoms, like fever and muscle aches, that have been going on for about a week. I want to make sure I understand what's been happening.\n\nFever with symptoms like sweating, muscle aches, nausea, fatigue, and night sweats can be caused by a variety of issues. It's important to check for common causes like infections, especially since you've been feeling this way for about a week.\n\nMigraines can be triggered by things like high-pressure days or changes in the weather. Since you've been dealing with this for years, we'll look into ways to manage your symptoms and identify any patterns that might help us understand what's going on.\n\nWe'll start by checking for common causes of your fever and symptoms through some basic tests.\n\nFor your migraines, we'll work together to identify possible triggers and explore treatment options that could help reduce your symptoms.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a couple of weeks. In the meantime, keep track of your symptoms and let me know if anything changes or gets worse.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're dealing with a lot of symptoms, like fever and muscle aches, that have been going on for about a week. I want to make sure I understand what's been happening.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "fever",
+            "profile_path": "problems[0]",
+            "explanation": "Fever with symptoms like sweating, muscle aches, nausea, fatigue, and night sweats can be caused by a variety of issues. It's important to check for common causes like infections, especially since you've been feeling this way for about a week.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::35593186",
+                "primary_assertion_id": "35593186_retr",
+                "pmids": [
+                  "35593186"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "migraines",
+            "profile_path": "problems[1]",
+            "explanation": "Migraines can be triggered by things like high-pressure days or changes in the weather. Since you've been dealing with this for years, we'll look into ways to manage your symptoms and identify any patterns that might help us understand what's going on.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::39366124",
+                "primary_assertion_id": "39366124_retr",
+                "pmids": [
+                  "39366124"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll start by checking for common causes of your fever and symptoms through some basic tests.",
+          "For your migraines, we'll work together to identify possible triggers and explore treatment options that could help reduce your symptoms."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a couple of weeks. In the meantime, keep track of your symptoms and let me know if anything changes or gets worse.",
+        "nurse_elements_applied": [
+          "Invest in the beginning"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective"
+        ],
+        "all_cluster_ids_used": [
+          "retrieval_only::35593186",
+          "retrieval_only::39366124"
+        ],
+        "all_pmids_used": [
+          "35593186",
+          "39366124"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 2,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "fever",
+          "migraines"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "35593186",
+        "39366124"
+      ],
+      "cluster_ids_used": [
+        "retrieval_only::35593186",
+        "retrieval_only::39366124"
+      ],
+      "nurse_elements_applied": [
+        "Invest in the beginning"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 227081.60537481308,
+      "response_text": "It sounds like you're dealing with a lot of symptoms, like fever and muscle aches, that have been going on for about a week. I want to make sure I understand how this is affecting your daily life.\n\nFever can be a sign of many things, like infections. Given that your fever has lasted a week and you've tried over-the-counter medications without much relief, it's important to figure out what's causing it. We should consider doing some tests to check for common causes.\n\nMigraines can be triggered by things like stress or changes in weather. Since you've been dealing with this for years, it might help to identify your specific triggers and find ways to manage them.\n\nWe'll schedule a test to check for common causes of your fever, like COVID-19.\n\nWe'll also talk about ways to manage your migraines better, focusing on identifying your triggers and possible treatments.\n\nPlease keep track of your symptoms and let us know if anything changes or gets worse before your next visit.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if your fever doesn't improve or if you develop any new symptoms like a severe headache or difficulty breathing, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're dealing with a lot of symptoms, like fever and muscle aches, that have been going on for about a week. I want to make sure I understand how this is affecting your daily life.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "fever",
+            "profile_path": "problems[0]",
+            "explanation": "Fever can be a sign of many things, like infections. Given that your fever has lasted a week and you've tried over-the-counter medications without much relief, it's important to figure out what's causing it. We should consider doing some tests to check for common causes.",
+            "citations": [
+              {
+                "cluster_id": "finding::problems[0]::35593186_1",
+                "primary_assertion_id": "35593186_1",
+                "pmids": [
+                  "35593186"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "migraines",
+            "profile_path": "problems[1]",
+            "explanation": "Migraines can be triggered by things like stress or changes in weather. Since you've been dealing with this for years, it might help to identify your specific triggers and find ways to manage them.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[2]::40155879_0",
+                "primary_assertion_id": "40155879_0",
+                "pmids": [
+                  "40155879"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll schedule a test to check for common causes of your fever, like COVID-19.",
+          "We'll also talk about ways to manage your migraines better, focusing on identifying your triggers and possible treatments.",
+          "Please keep track of your symptoms and let us know if anything changes or gets worse before your next visit."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if your fever doesn't improve or if you develop any new symptoms like a severe headache or difficulty breathing, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::problems[0]::35593186_1",
+          "finding::sub_query[2]::40155879_0"
+        ],
+        "all_pmids_used": [
+          "35593186",
+          "40155879"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 2,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "fever",
+          "migraines"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "35593186",
+        "40155879"
+      ],
+      "cluster_ids_used": [
+        "finding::problems[0]::35593186_1",
+        "finding::sub_query[2]::40155879_0"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 158050.35447329283,
+        "module_2_retrieval": 70.36151736974716,
+        "module_3_reasoning": 44660.52655130625,
+        "module_4_response": 24298.875406384468,
+        "total_ms": 227080.1179483533
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

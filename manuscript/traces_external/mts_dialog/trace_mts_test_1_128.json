@@ -1,0 +1,299 @@
+{
+  "transcript_id": "mts_test_1_128",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "This is a 78-year-old male who has prostate cancer with metastatic disease to his bladder and in several locations throughout the skeletal s",
+  "patient_utterances": [
+    "[Clinician asked: \"We are following up with you for your prostate cancer which has metastasized to your bladder and in several locations throughout your body including the spine and shoulder.\"] Yes, you remember I had blood in my urine in the past, but I think it is coming back. I started noticing that from yesterday, and today I saw a lot of blood with very little urine.",
+    "[Clinician asked: \"Oh okay, we will have to evaluate that then. Let me ask you few other questions to get this out of the way. How about your back pain, how's it? Also any incontinence?\"] Okay sure. No, there is no change in my chronic lower back pain, and no, no incontinence, urinary or stool.",
+    "[Clinician asked: \"All right. How about fever, belly pain, nausea or vomiting?\"] No to everything.",
+    "[Clinician asked: \"Are you able to pee noramally and pass urine, you aren't retaining? How about blood in stools?\"] Yes, I am passing everything well. No blood in stools.",
+    "[Clinician asked: \"Okay. Can you tell me if you have finished your chemo?\"] Yes, I have already completed chemo. Now they started me with radiation therapy, but it is only targeted to the bones. They told me I will feel well as in there won't be any pain. It's not supposed to treat or cure the cancer, but just to make me comfortable.",
+    "[Clinician asked: \"Yes, we are looking at that at this point.\"] Okay.",
+    "[Clinician asked: \"Do you have any hospice care facility listed?\"] No, I haven't looked at it yet, but I would love to look at hospice facilities.",
+    "[Clinician asked: \"That treatment management we are focusing on-\"] I know only comfort ha!"
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "HPI": "This is a 78-year-old male who has prostate cancer with metastatic disease to his bladder and in several locations throughout the skeletal system including the spine and shoulder.  The patient has had problems with hematuria in the past, but the patient noted that this episode began yesterday, and today he has been passing principally blood with very little urine.  The patient states that there is no change in his chronic lower back pain and denies any incontinence of urine or stool.  The patient has not had any fever.  There is no abdominal pain and the patient is still able to pass urine.  The patient has not had any melena or hematochezia.  There is no nausea or vomiting.  The patient has already completed chemotherapy and is beyond treatment for his cancer at this time.  The patient is receiving radiation therapy, but it is targeted to the bones and intended to give symptomatic relief of his skeletal pain and not intended to treat and cure the cancer.  The patient is not enlisted in hospice, but the principle around the patient's current treatment management is focusing on comfort care measures."
+  },
+  "n_patient_turns": 8,
+  "n_clinician_turns": 8,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 16302.600137889385,
+      "response_text": "I understand how concerning and frightening this must be for you. The return of blood in your urine is something we need to take seriously, and I want to reassure you that we\u2019ll be evaluating this carefully. We may need to do some tests, like a urinalysis or imaging, to check for any blockages or issues. Our priority is to ensure you\u2019re comfortable and that we address any symptoms promptly. \n\nGiven your radiation therapy is focused on comfort, we\u2019re doing everything we can to manage your symptoms and keep you as comfortable as possible. Regarding hospice care, it\u2019s an option that can provide additional support and may be worth exploring. Let\u2019s discuss this further and work together to make the best decisions for your comfort and care.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 23444.106936454773,
+      "response_text": "Thank you for sharing your concerns with me. It makes sense that you\u2019re worried about the blood in your urine coming back, especially given your history of prostate cancer and its spread. I can understand how unsettling this must be for you, and I want to make sure we address it together.\n\nGiven your situation, the first thing we\u2019ll want to do is get a clearer picture of what\u2019s going on. I\u2019d like to ask you to describe the blood in your urine in more detail\u2014was it bright red, dark, or a different color? How much blood did you notice? This will help us determine the next steps, such as ordering a urinalysis or imaging to check your kidneys and bladder [PMID ?]. We\u2019ll also want to monitor your kidney function, as that can sometimes contribute to blood in the urine.\n\nSince you\u2019re already receiving radiation therapy for comfort, we\u2019ll continue to focus on managing your symptoms and ensuring you\u2019re as comfortable as possible. We\u2019ll schedule a follow-up in about a week to review the results of these tests and adjust your care plan as needed. In the meantime, please let me know if you experience any new symptoms or if the blood worsens.\n\nBefore you leave, could you summarize what we\u2019ve discussed today? This will help ensure you feel clear about the next steps and that I\u2019ve explained everything in a way that makes sense to you.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7099.820852279663,
+      "response_text": "Thank you for sharing your concerns and symptoms with me. It sounds like you're experiencing some worrying issues with blood in your urine, and I'm here to help address them.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again soon. In the meantime, if you notice any new symptoms like severe pain, fever, or if the blood in your urine gets worse, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns and symptoms with me. It sounds like you're experiencing some worrying issues with blood in your urine, and I'm here to help address them.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again soon. In the meantime, if you notice any new symptoms like severe pain, fever, or if the blood in your urine gets worse, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 118180.25883287191,
+      "response_text": "I can hear how frustrating this must be for you \u2014 you mentioned, \"I know only comfort ha!\" That kind of frustration makes it hard to focus on anything else.\n\nBlood in the urine, especially with recent onset and significant amount, needs to be evaluated promptly. Given your history of prostate cancer, this could be related to your condition, so we'll need to do some tests to understand what's going on.\n\nChronic lower back pain can be challenging to manage, especially with a history of prostate cancer. We'll work together to find ways to provide relief and improve your comfort.\n\nWe'll explore options for hospice care to ensure you have the support and comfort you need during this time.\n\nGiven the blood in your urine and your history of prostate cancer, we'll prioritize some tests to understand what's going on.\n\nWe'll schedule a follow-up visit to discuss the results and plan next steps together.\n\nIn the meantime, if you experience severe pain or any new symptoms, please reach out immediately.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if you have any concerns or need support, please don't hesitate to call.",
+      "structured_response": {
+        "acknowledgment": "I can hear how frustrating this must be for you \u2014 you mentioned, \"I know only comfort ha!\" That kind of frustration makes it hard to focus on anything else.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "blood in urine",
+            "profile_path": "problems[0]",
+            "explanation": "Blood in the urine, especially with recent onset and significant amount, needs to be evaluated promptly. Given your history of prostate cancer, this could be related to your condition, so we'll need to do some tests to understand what's going on.",
+            "citations": []
+          },
+          {
+            "concern_label": "chronic lower back pain",
+            "profile_path": "problems[1]",
+            "explanation": "Chronic lower back pain can be challenging to manage, especially with a history of prostate cancer. We'll work together to find ways to provide relief and improve your comfort.",
+            "citations": []
+          },
+          {
+            "concern_label": "look at hospice facilities",
+            "profile_path": "patient_goals[0]",
+            "explanation": "We'll explore options for hospice care to ensure you have the support and comfort you need during this time.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "Given the blood in your urine and your history of prostate cancer, we'll prioritize some tests to understand what's going on.",
+          "We'll schedule a follow-up visit to discuss the results and plan next steps together.",
+          "In the meantime, if you experience severe pain or any new symptoms, please reach out immediately."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if you have any concerns or need support, please don't hesitate to call.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Demonstrate empathy",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 2,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 1,
+        "n_emotional": 1,
+        "n_goals": 1,
+        "problems": [
+          "blood in urine",
+          "chronic lower back pain"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Demonstrate empathy",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 185053.93959581852,
+      "response_text": "I can hear how much this is weighing on you \u2014 you mentioned, \"I would love to look at hospice facilities\" and also said, \"I know only comfort ha!\" It sounds like this is a really tough time for you, and I want to make sure we address your concerns with the care and attention they need.\n\nBlood in the urine, especially with very little urine, can be a sign of serious health issues. Given your history of prostate cancer and metastasis, it's important to rule out any recurrence or complications. We'll need to do some tests to understand what's going on.\n\nChronic lower back pain can be challenging to manage, especially with a history of prostate cancer and radiation therapy. We'll work on finding ways to provide relief and improve your comfort.\n\nOur goal is to help you feel as well as possible and manage pain effectively. This might involve a combination of treatments tailored to your needs, including patient-centered communication to set realistic expectations.\n\nExploring hospice facilities is an important step in ensuring you receive the care that aligns with your wishes. We'll support you in this process and make sure you have the information you need to make informed decisions.\n\nGiven the blood in your urine, we'll prioritize getting some tests done to rule out any serious issues, especially considering your history of prostate cancer.\n\nWe'll schedule a follow-up visit to discuss the results and plan next steps for managing your chronic lower back pain.\n\nWe'll also start the process of looking at hospice facilities together to ensure you have the support you need during this time.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to meet again in two weeks to review the test results and adjust your care plan. In the meantime, if you experience any severe pain or worsening symptoms, please reach out immediately.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this is weighing on you \u2014 you mentioned, \"I would love to look at hospice facilities\" and also said, \"I know only comfort ha!\" It sounds like this is a really tough time for you, and I want to make sure we address your concerns with the care and attention they need.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "blood in urine",
+            "profile_path": "problems[0]",
+            "explanation": "Blood in the urine, especially with very little urine, can be a sign of serious health issues. Given your history of prostate cancer and metastasis, it's important to rule out any recurrence or complications. We'll need to do some tests to understand what's going on.",
+            "citations": [
+              {
+                "cluster_id": "finding::global::35833228_0",
+                "primary_assertion_id": "35833228_0",
+                "pmids": [
+                  "35833228"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "chronic lower back pain",
+            "profile_path": "problems[1]",
+            "explanation": "Chronic lower back pain can be challenging to manage, especially with a history of prostate cancer and radiation therapy. We'll work on finding ways to provide relief and improve your comfort.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::global::39104080_1",
+                "primary_assertion_id": "39104080_1",
+                "pmids": [
+                  "39104080"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "to feel well and avoid pain",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Our goal is to help you feel as well as possible and manage pain effectively. This might involve a combination of treatments tailored to your needs, including patient-centered communication to set realistic expectations.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::global::33658141_1",
+                "primary_assertion_id": "33658141_1",
+                "pmids": [
+                  "33658141"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "look at hospice facilities",
+            "profile_path": "patient_goals[1]",
+            "explanation": "Exploring hospice facilities is an important step in ensuring you receive the care that aligns with your wishes. We'll support you in this process and make sure you have the information you need to make informed decisions.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::global::33658141_0",
+                "primary_assertion_id": "33658141_0",
+                "pmids": [
+                  "33658141"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "Given the blood in your urine, we'll prioritize getting some tests done to rule out any serious issues, especially considering your history of prostate cancer.",
+          "We'll schedule a follow-up visit to discuss the results and plan next steps for managing your chronic lower back pain.",
+          "We'll also start the process of looking at hospice facilities together to ensure you have the support you need during this time."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to meet again in two weeks to review the test results and adjust your care plan. In the meantime, if you experience any severe pain or worsening symptoms, please reach out immediately.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Demonstrate empathy",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::global::35833228_0",
+          "recommendation::global::39104080_1",
+          "recommendation::global::33658141_1",
+          "recommendation::global::33658141_0"
+        ],
+        "all_pmids_used": [
+          "35833228",
+          "39104080",
+          "33658141"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 2,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 1,
+        "n_emotional": 2,
+        "n_goals": 2,
+        "problems": [
+          "blood in urine",
+          "chronic lower back pain"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "35833228",
+        "39104080",
+        "33658141"
+      ],
+      "cluster_ids_used": [
+        "finding::global::35833228_0",
+        "recommendation::global::39104080_1",
+        "recommendation::global::33658141_1",
+        "recommendation::global::33658141_0"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Demonstrate empathy",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 112390.03074169159,
+        "module_2_retrieval": 69.01691108942032,
+        "module_3_reasoning": 36005.513824522495,
+        "module_4_response": 36588.203743100166,
+        "total_ms": 185052.76522040367
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

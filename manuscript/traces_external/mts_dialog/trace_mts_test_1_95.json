@@ -1,0 +1,245 @@
+{
+  "transcript_id": "mts_test_1_95",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "This is a return visit to the renal clinic for this patient",
+  "patient_utterances": [
+    "[Clinician asked: \"Hello there!\"] Hi, how are you?",
+    "[Clinician asked: \"I am good. Do ypu mind stating your age and waht brings you in today?\"] Oh, yes, I am 85 years old and I am having this weird muscle pain in my rightbuttocks region that I think it's radiating from my lower back or spine area I am not sure.",
+    "[Clinician asked: \"Hm, what kind of pain is it? Like sharp pain or dull?\"] It's kind of difficult to explain, but it's very irritating.",
+    "[Clinician asked: \"Okay! So, it's on the right side?\"] Yes.",
+    "[Clinician asked: \"And when was your last visit to renal clinic?\"] About four months back.",
+    "[Clinician asked: \"Hm and you mentioned you are doing much better than before in terms of managing your high blood pressure with the current medication?\"] Oh yes, absolutely I am doing so much better. I think earlier the nurse mentioned she has never seen my blood pressure this good.",
+    "[Clinician asked: \"Yes, it is much better than any of your previous visits. And no side effects, right?\"] No.",
+    "[Clinician asked: \"Hm, and any other problem or any uneasiness?\"] Not really.",
+    "[Clinician asked: \"Any nausea, vomiting or diarrhea?\"] No.",
+    "[Clinician asked: \"Any weakness, dizziness or lightheadedness?\"] Nope.",
+    "[Clinician asked: \"Any constipation or stomach pain?\"] No, I think just the hip pain.",
+    "[Clinician asked: \"Any shortness of breath, chest pain or difficulty breathing?\"] I am fine no issues there.",
+    "[Clinician asked: \"How bout any breathing issues while you sleep or when you lay down?\"] No.",
+    "[Clinician asked: \"And do you exercise?\"] It is same as before not much difference.",
+    "[Clinician asked: \"Okay.\"] Right now, it is just this hip pain which is bothering me.",
+    "[Clinician asked: \"And you mention it is kind of radiating from your lower back.\"] Yeah, kind of like from my spine maybe, I am not sure.",
+    "[Clinician asked: \"And no pain in your toes or lower legs?\"] No.",
+    "[Clinician asked: \"Okay, did you try any medicines?\"] Yes, I did try some Tylenol but that's it. It does help a bit.",
+    "[Clinician asked: \"How old are you again eighty-five?\"] Yes.",
+    "[Clinician asked: \"Okay. Overall, you do look better today and these medicines should take care of the pain.\"] Thank you!"
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "HPI": "This is a return visit to the renal clinic for this patient.  She is an 85-year-old woman with history as noted above.  Her last visit was approximately four months ago.  Since that time, the patient has been considerably more compliant with her antihypertensive medications and actually had a better blood pressure reading today than she had had for many visits previously.  She is not reporting any untoward side effect.  She is not having weakness, dizziness, lightheadedness, nausea, vomiting, constipation, diarrhea, abdominal pain, chest pain, shortness of breath or difficulty breathing.  She has no orthopnea.  Her exercise capacity is about the same.  The only problem she has is musculoskeletal and that pain in the right buttock, she thinks originating from her spine.  No history of extremity pain."
+  },
+  "n_patient_turns": 20,
+  "n_clinician_turns": 22,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 11101.6980484128,
+      "response_text": "I understand how frustrating it must be to deal with this ongoing pain, especially when it's not fully explained. It's good that the Tylenol helps a bit, but I want to make sure we explore all possible causes. The pain radiating from your lower back or spine could be related to several things, such as nerve issues, muscle strain, or even something like kidney concerns. I\u2019ll ask a few more questions to get a clearer picture and then we can decide together on the best next steps, which might include some imaging or a referral to a specialist if needed. Let\u2019s work on this together to get you feeling better.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 21369.185984134674,
+      "response_text": "Thank you for sharing your concerns with me. It sounds like the muscle pain in your right buttock region has been quite bothersome, and I can understand why it\u2019s worrying you. At 85, persistent pain can really impact your daily life, and I want to make sure we address it effectively.\n\nThe pain radiating from your lower back or spine area could be due to several reasons. It might be related to muscle strain or inflammation, especially since you\u2019ve been managing it with Tylenol. However, given your age and the nature of the pain, it\u2019s also worth considering other possibilities like sciatica or referred pain from your spine. I\u2019ll make sure to review this with the team to explore the best options for relief.\n\nWe\u2019ll plan to monitor your condition closely. If the pain doesn\u2019t improve with rest and over-the-counter medications, we might consider a referral to a physical therapist or further imaging to get a clearer picture. Before you leave, could you summarize what we\u2019ve discussed today in your own words? This will help ensure you\u2019re clear on the next steps.\n\nPlease let me know if the pain worsens or if you experience any new symptoms. We\u2019ll follow up in 2-4 weeks to reassess your progress and adjust the plan as needed. Your comfort and well-being are our top priorities.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 10003.941714763641,
+      "response_text": "Hello! It sounds like you're dealing with some discomfort in your right buttocks and lower back area. I'm here to help figure out what's going on and how we can address it.\n\nWe'll need to do a thorough evaluation of your symptoms. This may include a physical exam and possibly some imaging tests to understand where the pain is coming from and the best way to treat it.\n\nWe'll also review your current medications to ensure they're still the right fit for you.\n\nLet's schedule a follow-up appointment to go over the results and create a plan together.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a couple of weeks. In the meantime, if the pain gets worse or you experience any new symptoms, please call us so we can address them promptly.",
+      "structured_response": {
+        "acknowledgment": "Hello! It sounds like you're dealing with some discomfort in your right buttocks and lower back area. I'm here to help figure out what's going on and how we can address it.",
+        "clinical_information_per_concern": [],
+        "next_steps": [
+          "We'll need to do a thorough evaluation of your symptoms. This may include a physical exam and possibly some imaging tests to understand where the pain is coming from and the best way to treat it.",
+          "We'll also review your current medications to ensure they're still the right fit for you.",
+          "Let's schedule a follow-up appointment to go over the results and create a plan together."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a couple of weeks. In the meantime, if the pain gets worse or you experience any new symptoms, please call us so we can address them promptly.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 143513.02426308393,
+      "response_text": "I can hear how much this has been weighing on you \u2014 you said, \"Thank you!\" That shows you're feeling some relief, and I want to make sure we address your concerns properly.\n\nThe pain in your right buttocks region, especially when it radiates to your lower back or spine, is something we need to look into. While we don't have specific guidelines for this exact situation, we'll work together to figure out the best approach.\n\nWe'll schedule a follow-up to discuss your symptoms in more detail and explore possible causes together.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again soon. In the meantime, if the pain gets worse or you notice any new symptoms, please call us so we can address them promptly.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this has been weighing on you \u2014 you said, \"Thank you!\" That shows you're feeling some relief, and I want to make sure we address your concerns properly.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "weird muscle pain",
+            "profile_path": "problems[0]",
+            "explanation": "The pain in your right buttocks region, especially when it radiates to your lower back or spine, is something we need to look into. While we don't have specific guidelines for this exact situation, we'll work together to figure out the best approach.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll schedule a follow-up to discuss your symptoms in more detail and explore possible causes together."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again soon. In the meantime, if the pain gets worse or you notice any new symptoms, please call us so we can address them promptly.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 0,
+        "problems": [
+          "weird muscle pain"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 274058.0636486411,
+      "response_text": "I can hear how frustrating this must be for you \u2014 you mentioned, \"It's kind of difficult to explain, but it's very irritating.\" I want to make sure I understand what's going on with your muscle pain and hip pain.\n\nThe pain radiating from your lower back or spine area could be related to muscle issues or something else. Since we don't have a specific guideline for this exact situation, we'll focus on understanding it better through some tests.\n\nHip pain is a common issue, often linked to conditions like osteoarthritis. We'll check for signs of hip OA and other possible causes to guide the next steps.\n\nWe'll schedule some tests to look into your muscle pain and hip pain more closely.\n\nLet's plan to follow up in a few weeks to review the results and discuss what they mean for your care.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if your pain gets worse or you notice any new symptoms, please call us so we can address them promptly.",
+      "structured_response": {
+        "acknowledgment": "I can hear how frustrating this must be for you \u2014 you mentioned, \"It's kind of difficult to explain, but it's very irritating.\" I want to make sure I understand what's going on with your muscle pain and hip pain.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "weird muscle pain",
+            "profile_path": "problems[0]",
+            "explanation": "The pain radiating from your lower back or spine area could be related to muscle issues or something else. Since we don't have a specific guideline for this exact situation, we'll focus on understanding it better through some tests.",
+            "citations": []
+          },
+          {
+            "concern_label": "hip pain",
+            "profile_path": "problems[1]",
+            "explanation": "Hip pain is a common issue, often linked to conditions like osteoarthritis. We'll check for signs of hip OA and other possible causes to guide the next steps.",
+            "citations": [
+              {
+                "cluster_id": "finding::global::31846019_0",
+                "primary_assertion_id": "31846019_0",
+                "pmids": [
+                  "31846019"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll schedule some tests to look into your muscle pain and hip pain more closely.",
+          "Let's plan to follow up in a few weeks to review the results and discuss what they mean for your care."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if your pain gets worse or you notice any new symptoms, please call us so we can address them promptly.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::global::31846019_0"
+        ],
+        "all_pmids_used": [
+          "31846019"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 2,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 0,
+        "problems": [
+          "weird muscle pain",
+          "hip pain"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "31846019"
+      ],
+      "cluster_ids_used": [
+        "finding::global::31846019_0"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 168650.25324374437,
+        "module_2_retrieval": 75.31148940324783,
+        "module_3_reasoning": 85487.2836843133,
+        "module_4_response": 19843.992426991463,
+        "total_ms": 274056.8408444524
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

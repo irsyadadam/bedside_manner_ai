@@ -1,0 +1,385 @@
+{
+  "transcript_id": "mts_test_1_125",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "1",
+  "patient_utterances": [
+    "I just had few questions. Can you tell me about my diagnosis?",
+    "[Clinician asked: \"Sure. It's called Serotonin syndrome, ma'am. After careful evaluation of your labs, we found out that your white count and C P K was high, and those abnormalities lined up with serotonin syndrome. What are you experiencing right now?\"] I have been very restless and easily agitated, I have diarrhea. But no fever or shakiness.",
+    "[Clinician asked: \"These can match serotonin syndrome as well. You deny any fever, tremor or hypperflexia so we will give you some IV fluids and I will check on you in an hour or so.\"] Okay.",
+    "[Clinician asked: \"Looks like your C P K counts improved with I V fluids and after discontinuing Prozac.\"] How are the counts now? Are they normal? Because I feel normal.",
+    "[Clinician asked: \"Yes, your C P K and white blood cell counts have come back down. Almost normal now.\"] My husband left me two weeks ago. My panic attacks are increasing day by day.",
+    "[Clinician asked: \"Okay, I see that you have a history of panic attacks and you do have depression and anxiety, is that correct? Last Friday, I talked to psychiatrist about your issues, and he recommended Cymbalta as an alternative to Prozac.\"] Yes, I stopped taking Prozac, and I am going to see him on Monday or Tuesday. I have a counselor too.",
+    "I do think it will be difficult to go home alone but my daughter is coming to visit me in two weeks.",
+    "[Clinician asked: \"Oh wow.\"] Yeah.",
+    "[Clinician asked: \"That's nice. Do you have someone who can drop you home and help you?\"] Yes, I have a friend who does that, I am staying with her for next three days.",
+    "[Clinician asked: \"Okay that sounds good. Just continue with your medications for high blood pressure and diabetes as well. So, we treated your imbalance issues and gave you IV fluids, you do not have any more diarrhea, right?\"] Yes, that's right."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "ED_COURSE": "1.  Serotonin syndrome.  After reevaluation of the patient including evaluation of the lab abnormalities it was felt that she likely had serotonin syndrome with obvious restlessness, increased bowel activity, agitation, and elevated white count and CPK.  She did not have fever, tremor or hyperreflexia.  Her CPK improved with IV fluids.  She dramatically improved with this discontinuation of her Prozac.  Her white count came back down towards normal.  At time of discharge, she was really feeling back to normal. 2.  Depression and anxiety with history of panic attacks exacerbated by her husband leaving her 2 weeks ago.  We discussed this.  Also, discussed the situation with a psychiatrist who is available on Friday and I discussed the situation with the patient.  In regards to her medications, we are discontinuing the Prozac and she is being reevaluated by Dr. X on Monday or Tuesday.  Cymbalta has been recommended as a good alternative medication for her.  The patient does have a counselor.  It is going to be difficult for her to go home alone.  I discussed the resources with her.  She has a daughter who will be coming to town in a couple of weeks, but she does have a friend that she can call and stay the next few days with. 3.  Hypertension.  She will continue on her usual medications. 4.  Diabetes mellitus.  She will continue on her usual medications. 5.  Diarrhea resolved.  Her electrolyte abnormalities resolved.  She had received fluid rehydration."
+  },
+  "n_patient_turns": 10,
+  "n_clinician_turns": 8,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 19507.352352142334,
+      "response_text": "I understand how overwhelming everything must feel right now, especially with everything that's been going on in your personal life. It's completely valid to feel this way, and I want you to know that you're not alone in this. Your health and well-being are important to me, and I'm here to support you through this.\n\nYour serotonin syndrome has improved significantly with the IV fluids, and your lab results are almost back to normal. That's great progress, and I'm glad you're feeling better physically. Regarding your mental health, it's important to continue with the treatment plan your psychiatrist recommended, especially since your panic attacks have increased. Your work with the counselor is a positive step, and I encourage you to keep leaning on them for support.\n\nYou're fortunate to have a friend helping you out and your daughter coming soon. If there's anything else you need in the meantime, please don't hesitate to reach out. I'm here to help in any way I can.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 30322.418719530106,
+      "response_text": "Thank you for sharing all of this with me. It sounds like you're going through a lot emotionally, especially with the recent separation and the increase in panic attacks. I can understand how overwhelming this must feel, especially while also managing your health concerns. It's important to acknowledge how strong you are in taking steps to address both your mental and physical health.\n\nGiven the recent changes in your life, it's completely understandable that you're feeling this way. The separation can be incredibly stressful, and it's no surprise that this is affecting your anxiety levels. I want to make sure we're addressing both your mental health and any potential physical concerns that might arise from this stress.\n\nYou're doing a great job by seeing the psychiatrist and continuing your counseling. These steps are crucial in managing your anxiety and depression. I want to ensure that you have the support you need, especially during this transition. Have you had a chance to talk to your counselor about your recent experiences? It might be helpful to explore these feelings in more depth with them.\n\nMoving forward, it's important to continue with your current treatment plan, including your new medication. I'll check in with you in about a week to see how you're feeling and to address any concerns that arise. Before you leave, could you summarize what we've discussed today in your own words? This will help ensure you feel confident in the plan we've set up together.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6334.445133805275,
+      "response_text": "It sounds like you have some questions about your diagnosis and how you're feeling. I'm here to help clarify things for you.\n\nCan you tell me, in your own words, what you understand about your diagnosis and what we discussed today?\n\nLet's plan to see each other again in the near future. In the meantime, if you have any more questions or concerns, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you have some questions about your diagnosis and how you're feeling. I'm here to help clarify things for you.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "Can you tell me, in your own words, what you understand about your diagnosis and what we discussed today?",
+        "follow_up_invitation": "Let's plan to see each other again in the near future. In the meantime, if you have any more questions or concerns, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Name",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 174257.48129189014,
+      "response_text": "I can hear how much this is weighing on you. You mentioned, \"My husband left me two weeks ago,\" and I understand how that must be affecting you. It sounds like this has been really tough, especially with everything else going on.\n\nRestlessness and agitation can be linked to stress or emotional distress. Given your recent changes, like your husband leaving, it's important to address these feelings to help manage your symptoms.\n\nDiarrhea can be caused by various factors, including stress or changes in routine. It's important to monitor your symptoms and ensure there are no other underlying issues.\n\nPanic attacks can become more frequent due to stress or anxiety. It's crucial to find ways to manage your stress and seek support to reduce their intensity and frequency.\n\nSwitching medications can sometimes lead to side effects or changes in how your body responds. It's important to track how you're feeling after the change and communicate any concerns to your healthcare provider.\n\nHaving your daughter visit can provide emotional support and help you during this challenging time. It's a positive step towards getting the support you need.\n\nWe'll work together to address your restlessness and agitation by exploring stress management techniques and ensuring you have the support you need.\n\nWe'll monitor your diarrhea and check for any underlying causes, especially considering your recent stress.\n\nWe'll develop strategies to help reduce the frequency and intensity of your panic attacks through counseling and support systems.\n\nWe'll review your medication change to ensure it's the right fit for you and address any side effects you might be experiencing.\n\nWe'll schedule a follow-up visit to discuss your progress and adjust our plan as needed.\n\nI want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in two weeks. In the meantime, if your symptoms worsen or you experience anything unusual, please call us so we can address it promptly.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this is weighing on you. You mentioned, \"My husband left me two weeks ago,\" and I understand how that must be affecting you. It sounds like this has been really tough, especially with everything else going on.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "restlessness and agitation",
+            "profile_path": "problems[0]",
+            "explanation": "Restlessness and agitation can be linked to stress or emotional distress. Given your recent changes, like your husband leaving, it's important to address these feelings to help manage your symptoms.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::40155879",
+                "primary_assertion_id": "40155879_retr",
+                "pmids": [
+                  "40155879"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "diarrhea",
+            "profile_path": "problems[1]",
+            "explanation": "Diarrhea can be caused by various factors, including stress or changes in routine. It's important to monitor your symptoms and ensure there are no other underlying issues.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::40155879",
+                "primary_assertion_id": "40155879_retr",
+                "pmids": [
+                  "40155879"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "increasing panic attacks",
+            "profile_path": "problems[2]",
+            "explanation": "Panic attacks can become more frequent due to stress or anxiety. It's crucial to find ways to manage your stress and seek support to reduce their intensity and frequency.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::40155879",
+                "primary_assertion_id": "40155879_retr",
+                "pmids": [
+                  "40155879"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "medication change",
+            "profile_path": "problems[3]",
+            "explanation": "Switching medications can sometimes lead to side effects or changes in how your body responds. It's important to track how you're feeling after the change and communicate any concerns to your healthcare provider.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::40155879",
+                "primary_assertion_id": "40155879_retr",
+                "pmids": [
+                  "40155879"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "have daughter visit in two weeks",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Having your daughter visit can provide emotional support and help you during this challenging time. It's a positive step towards getting the support you need.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::40155879",
+                "primary_assertion_id": "40155879_retr",
+                "pmids": [
+                  "40155879"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll work together to address your restlessness and agitation by exploring stress management techniques and ensuring you have the support you need.",
+          "We'll monitor your diarrhea and check for any underlying causes, especially considering your recent stress.",
+          "We'll develop strategies to help reduce the frequency and intensity of your panic attacks through counseling and support systems.",
+          "We'll review your medication change to ensure it's the right fit for you and address any side effects you might be experiencing.",
+          "We'll schedule a follow-up visit to discuss your progress and adjust our plan as needed."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in two weeks. In the meantime, if your symptoms worsen or you experience anything unusual, please call us so we can address it promptly.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "retrieval_only::40155879"
+        ],
+        "all_pmids_used": [
+          "40155879"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 4,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 3,
+        "n_goals": 1,
+        "problems": [
+          "restlessness and agitation",
+          "diarrhea",
+          "increasing panic attacks",
+          "medication change"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "40155879"
+      ],
+      "cluster_ids_used": [
+        "retrieval_only::40155879"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 228201.79230719805,
+      "response_text": "I can hear how much this is weighing on you \u2014 you mentioned, \"I do think it will be difficult to go home alone.\" That sounds like a real challenge, and I want to make sure we address it.\n\nRestlessness and agitation can be linked to stress or anxiety, and when combined with diarrhea, it might suggest a physical or emotional issue that needs attention. We'll look into this to understand what's going on.\n\nDiarrhea can be caused by many things, including stress or changes in routine. Since it's ongoing, we'll check if there's an underlying issue that needs treatment.\n\nPanic attacks that are getting worse can be really tough to deal with. It's important to understand what's triggering them and find ways to manage the symptoms.\n\nFeeling down can affect every part of your life. We'll work together to see if there's anything we can do to help lift your mood.\n\nIt's important to feel safe and supported when you're at home. We'll explore ways to make sure you're comfortable and have the help you need.\n\nLooking forward to your daughter's visit can be exciting, but it's also a big change. We'll make sure you're prepared and have the support you need during this time.\n\nWe'll start by reviewing your current medications and any recent changes in your routine that might be contributing to these symptoms.\n\nWe'll schedule a follow-up visit to discuss your concerns in more detail and explore any additional support you might need.\n\nIn the meantime, if you experience any severe symptoms or if your condition worsens, please reach out immediately.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in two weeks. In the meantime, if you have any concerns or if your symptoms get worse, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this is weighing on you \u2014 you mentioned, \"I do think it will be difficult to go home alone.\" That sounds like a real challenge, and I want to make sure we address it.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "restlessness and agitation",
+            "profile_path": "problems[0]",
+            "explanation": "Restlessness and agitation can be linked to stress or anxiety, and when combined with diarrhea, it might suggest a physical or emotional issue that needs attention. We'll look into this to understand what's going on.",
+            "citations": [
+              {
+                "cluster_id": "finding::global::41466386_0",
+                "primary_assertion_id": "41466386_1",
+                "pmids": [
+                  "41466386"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "diarrhea",
+            "profile_path": "problems[1]",
+            "explanation": "Diarrhea can be caused by many things, including stress or changes in routine. Since it's ongoing, we'll check if there's an underlying issue that needs treatment.",
+            "citations": [
+              {
+                "cluster_id": "finding::global::41466386_0",
+                "primary_assertion_id": "41466386_1",
+                "pmids": [
+                  "41466386"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "increasing panic attacks",
+            "profile_path": "problems[2]",
+            "explanation": "Panic attacks that are getting worse can be really tough to deal with. It's important to understand what's triggering them and find ways to manage the symptoms.",
+            "citations": [
+              {
+                "cluster_id": "finding::global::41466386_0",
+                "primary_assertion_id": "41466386_1",
+                "pmids": [
+                  "41466386"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "depression",
+            "profile_path": "problems[3]",
+            "explanation": "Feeling down can affect every part of your life. We'll work together to see if there's anything we can do to help lift your mood.",
+            "citations": [
+              {
+                "cluster_id": "finding::global::41466386_0",
+                "primary_assertion_id": "41466386_1",
+                "pmids": [
+                  "41466386"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "difficulty going home alone",
+            "profile_path": "patient_goals[0]",
+            "explanation": "It's important to feel safe and supported when you're at home. We'll explore ways to make sure you're comfortable and have the help you need.",
+            "citations": [
+              {
+                "cluster_id": "finding::global::41466386_0",
+                "primary_assertion_id": "41466386_1",
+                "pmids": [
+                  "41466386"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "daughter's visit in two weeks",
+            "profile_path": "patient_goals[1]",
+            "explanation": "Looking forward to your daughter's visit can be exciting, but it's also a big change. We'll make sure you're prepared and have the support you need during this time.",
+            "citations": [
+              {
+                "cluster_id": "finding::global::41466386_0",
+                "primary_assertion_id": "41466386_1",
+                "pmids": [
+                  "41466386"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll start by reviewing your current medications and any recent changes in your routine that might be contributing to these symptoms.",
+          "We'll schedule a follow-up visit to discuss your concerns in more detail and explore any additional support you might need.",
+          "In the meantime, if you experience any severe symptoms or if your condition worsens, please reach out immediately."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in two weeks. In the meantime, if you have any concerns or if your symptoms get worse, please call us right away.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::global::41466386_0"
+        ],
+        "all_pmids_used": [
+          "41466386"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 4,
+        "n_medications": 1,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 2,
+        "problems": [
+          "restlessness and agitation",
+          "diarrhea",
+          "increasing panic attacks",
+          "depression"
+        ],
+        "medications": [
+          "Cymbalta"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [
+        "41466386"
+      ],
+      "cluster_ids_used": [
+        "finding::global::41466386_0"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 145548.13365638256,
+        "module_2_retrieval": 91.95192158222198,
+        "module_3_reasoning": 41811.64411455393,
+        "module_4_response": 40748.59345704317,
+        "total_ms": 228200.32314956188
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

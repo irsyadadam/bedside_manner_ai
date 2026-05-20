@@ -1,0 +1,229 @@
+{
+  "transcript_id": "mts_test_1_14",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "Negative for use of alcohol or tobacco",
+  "patient_utterances": [
+    "[Clinician asked: \"Hello, how are you today?\"] I am doing well.",
+    "[Clinician asked: \"Great. What would you like to bring up today?\"] I have some questions about my liver.",
+    "[Clinician asked: \"Alright. Let's start with the basics. Do you drink? Excessive drinking can cause issues with the liver.\"] No, I do not. I take a lot of Tylenol for pain and I am worried it is effecting my liver.",
+    "[Clinician asked: \"Okay, that is a common concern. We can address that today. Do you happen to smoke?\"] No, I do not smoke."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "HPI": "Negative for use of alcohol or tobacco."
+  },
+  "n_patient_turns": 4,
+  "n_clinician_turns": 4,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 13798.929393291473,
+      "response_text": "Thank you for sharing your concerns with me. It's completely valid to be worried about your liver health, especially when taking Tylenol regularly. While Tylenol is generally safe when used as directed, taking it in higher doses or for extended periods can potentially affect the liver. I recommend reviewing the dosage you're taking and how often you use it. If you're concerned, we can monitor your liver function with a simple blood test. Please bring your medication bottles with you to your next visit so we can review them together. In the meantime, if you're taking Tylenol frequently, we might explore other pain management options. You're taking the right step by addressing this early, and we'll work together to ensure your liver stays healthy.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 19928.21291834116,
+      "response_text": "It makes sense you're worried about your liver health, especially since you're taking a lot of Tylenol for pain. Your concern is valid, and I want to work together to understand how this might be affecting your liver. I can hear that this is something you're paying close attention to, and I appreciate you bringing it up.\n\nWe should start by checking your liver function through some blood tests. This will give us a clear picture of how your liver is doing right now. In the meantime, we can also review your pain management plan. While Tylenol is generally safe when used as directed, taking large amounts over time can put extra strain on your liver [PMID ?]. We might consider other pain relief options, like ibuprofen or physical therapy, depending on your pain type and tolerance.\n\nWe'll plan to check in within 2-4 weeks to review your blood test results and adjust your pain management plan as needed. Before you leave, could you tell me in your own words what we just agreed on? That way I can make sure everything is clear.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7166.907973587513,
+      "response_text": "You mentioned you have some questions about your liver, especially regarding your Tylenol use. I'm here to help address those concerns.\n\nWe'll discuss your concerns about Tylenol and your liver today. If you have any specific questions, feel free to ask them now.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to discuss today?\n\nLet's plan to talk more about your liver health today. If you think of any additional questions before we start, just let me know.",
+      "structured_response": {
+        "acknowledgment": "You mentioned you have some questions about your liver, especially regarding your Tylenol use. I'm here to help address those concerns.",
+        "clinical_information_per_concern": [],
+        "next_steps": [
+          "We'll discuss your concerns about Tylenol and your liver today. If you have any specific questions, feel free to ask them now."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to discuss today?",
+        "follow_up_invitation": "Let's plan to talk more about your liver health today. If you think of any additional questions before we start, just let me know.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 33814.61150944233,
+      "response_text": "I can hear how much this is worrying you \u2014 you said, \"I am worried it is effecting my liver.\" That's a real concern, and I want to make sure we address it together.\n\nTo understand what's going on with your liver, we'll start with some basic tests. This will help us figure out the next steps together.\n\nWe'll schedule some tests to check your liver health. These tests will give us a clearer picture of what's going on.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to follow up in a week to review the test results. In the meantime, if you notice any new symptoms or changes, please reach out.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this is worrying you \u2014 you said, \"I am worried it is effecting my liver.\" That's a real concern, and I want to make sure we address it together.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "liver concern",
+            "profile_path": "problems[0]",
+            "explanation": "To understand what's going on with your liver, we'll start with some basic tests. This will help us figure out the next steps together.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll schedule some tests to check your liver health. These tests will give us a clearer picture of what's going on."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to follow up in a week to review the test results. In the meantime, if you notice any new symptoms or changes, please reach out.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 0,
+        "problems": [
+          "liver concern"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 85633.41566175222,
+      "response_text": "I can hear how much this is worrying you \u2014 you said, \"I am worried it is effecting my liver.\" That's a real concern, and I want to make sure we address it together.\n\nNurse-led care has been shown to be safe and effective for managing chronic conditions like liver concerns. This approach helps monitor your condition and ensures you get the support you need.\n\nWe'll set up regular monitoring for your liver concern to keep track of any changes and ensure you get the right support.\n\nIf you notice any new symptoms or if your concerns worsen, please reach out so we can address them promptly.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to check in regularly. If you have any new symptoms or concerns in between, please don't hesitate to call us.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this is worrying you \u2014 you said, \"I am worried it is effecting my liver.\" That's a real concern, and I want to make sure we address it together.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "liver concern",
+            "profile_path": "problems[0]",
+            "explanation": "Nurse-led care has been shown to be safe and effective for managing chronic conditions like liver concerns. This approach helps monitor your condition and ensures you get the support you need.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[0]::36758017_0",
+                "primary_assertion_id": "36758017_0",
+                "pmids": [
+                  "36758017"
+                ]
+              },
+              {
+                "cluster_id": "recommendation::sub_query[0]::36758017_1",
+                "primary_assertion_id": "36758017_1",
+                "pmids": [
+                  "36758017"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll set up regular monitoring for your liver concern to keep track of any changes and ensure you get the right support.",
+          "If you notice any new symptoms or if your concerns worsen, please reach out so we can address them promptly."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to check in regularly. If you have any new symptoms or concerns in between, please don't hesitate to call us.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[0]::36758017_0",
+          "recommendation::sub_query[0]::36758017_1"
+        ],
+        "all_pmids_used": [
+          "36758017"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 0,
+        "problems": [
+          "liver concern"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "36758017"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[0]::36758017_0",
+        "recommendation::sub_query[0]::36758017_1"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 22346.38073295355,
+        "module_2_retrieval": 58.036208152770996,
+        "module_3_reasoning": 43990.084923803806,
+        "module_4_response": 19237.04658448696,
+        "total_ms": 85631.54844939709
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

@@ -1,0 +1,199 @@
+{
+  "transcript_id": "mts_test_1_75",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "The patient has been doing quite well since he was last seen",
+  "patient_utterances": [
+    "[Clinician asked: \"Good afternoon, sir, and who is this with you today?\"] How are you doing, doctor? This is my daughter.",
+    "[Clinician asked: \"I'm doing well, but how are you? How have you been doing since I last saw you?\"] I've been doing quite well, doctor.",
+    "[Clinician asked: \"So, no symptoms of heart disease, or failure?\"] Nope, absolutely not.",
+    "[Clinician asked: \"Did you follow up with Doctor X?\"] Yes, she said I was doing well, too.",
+    "[Clinician asked: \"Great! How has your blood sugar been?\"] It's been in a normal range, which I'm thankful for.",
+    "[Clinician asked: \"Have you had any falls since your last visit?\"] Nope, I've been doing really well.",
+    "[Clinician asked: \"How is your knee doing?\"] Well, my right knee is having some pain at times.",
+    "[Clinician asked: \"How are you managing this pain?\"] Um, I just take Tylenol occasionally as needed for the pain. Do you think a knee brace would be good for this?",
+    "[Clinician asked: \"We could look into it. I'm glad to see your spirits are high.\"] They really are, sir.",
+    "[Clinician asked: \"Are you going to the bathroom regularly, no incontinence?\"] Correct.",
+    "[Clinician asked: \"Any memory issues?\"] No sir, my memory is really clear."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "HPI": "The patient has been doing quite well since he was last seen.  He comes in today with his daughter.  He has had no symptoms of CAD or CHF.  He had followup with Dr. X and she thought he was doing quite well as well.  He has had no symptoms of hyperglycemia or hypoglycemia.  He has had no falls.  His right knee does pain him at times and he is using occasional doses of Tylenol for that.  He wonders whether he could use a knee brace to help him with that issue as well.  His spirits are good.  He has had no incontinence.  His memory is clear, as is his thinking."
+  },
+  "n_patient_turns": 11,
+  "n_clinician_turns": 11,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 9843.670442700386,
+      "response_text": "It's great to hear that you're doing so well overall, with no symptoms of heart disease, normal blood sugar levels, and no falls. I'm glad to hear that your memory is clear and you're managing your bathroom habits without issues. The occasional knee pain sounds manageable with Tylenol, but if it persists or worsens, we can explore other options like a knee brace, physical therapy, or specific exercises to strengthen the area. Let's keep an eye on it and revisit if you need more support. Stay positive, and we'll work together to keep you feeling your best.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 19067.00297445059,
+      "response_text": "Thank you for sharing your progress and concerns. It's wonderful to hear that you're doing well overall and that your blood sugar is in check. I can see that the knee pain you're experiencing is something you'd like to address, and it's good you're considering ways to manage it.\n\nKnee pain can stem from various issues like arthritis or muscle strain, and while Tylenol can help, it might not be enough. We could explore options like a knee brace or physical therapy to see what works best for you. If the pain gets worse or you struggle with moving your knee, it's important to reach out sooner.\n\nLet's plan to check in on your knee in a few weeks. Before we finish, could you summarize our discussion to ensure everything is clear? I look forward to hearing how you're managing your knee pain and any updates at your next visit.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6847.730956971645,
+      "response_text": "Thank you for sharing your concerns with me. It sounds like you're doing well overall, but I understand that the knee pain has been bothering you at times.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in the near future. In the meantime, if your knee pain gets worse or you experience any new symptoms, please don't hesitate to call us.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns with me. It sounds like you're doing well overall, but I understand that the knee pain has been bothering you at times.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in the near future. In the meantime, if your knee pain gets worse or you experience any new symptoms, please don't hesitate to call us.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 65111.870393157005,
+      "response_text": "I can hear how much this has been weighing on you \u2014 you said, \"They really are, sir.\" That shows you're feeling some relief about it.\n\nRight knee pain can have many causes, and since you've been using Tylenol occasionally, we should look into what might be causing it. We'll start with some basic tests to get a clearer picture.\n\nWe'll schedule some tests to figure out what's causing the right knee pain.\n\nIn the meantime, continue with the Tylenol as needed, but let us know if your pain gets worse or if you notice any new symptoms.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to follow up in a week to review the test results. In the meantime, if the pain gets much worse or you have any new symptoms, please call us.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this has been weighing on you \u2014 you said, \"They really are, sir.\" That shows you're feeling some relief about it.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "right knee pain",
+            "profile_path": "problems[0]",
+            "explanation": "Right knee pain can have many causes, and since you've been using Tylenol occasionally, we should look into what might be causing it. We'll start with some basic tests to get a clearer picture.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll schedule some tests to figure out what's causing the right knee pain.",
+          "In the meantime, continue with the Tylenol as needed, but let us know if your pain gets worse or if you notice any new symptoms."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to follow up in a week to review the test results. In the meantime, if the pain gets much worse or you have any new symptoms, please call us.",
+        "nurse_elements_applied": [
+          "Name"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 0,
+        "problems": [
+          "right knee pain"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 113381.38622790575,
+      "response_text": "I understand you're here because of the right knee pain you've been experiencing at times. You mentioned taking Tylenol occasionally as needed, but it's good you're reaching out about this.\n\nRight knee pain can be caused by various issues, and since you've been managing it with Tylenol, we'll need to look into what might be causing it. We'll start by understanding more about the pain\u2014like when it happens and how it affects you\u2014to guide the next steps.\n\nWe'll schedule a follow-up visit to discuss your knee pain in more detail and plan the next steps together.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again soon to go over the results and any new developments. In the meantime, if the pain gets worse or you notice any new symptoms, please reach out.",
+      "structured_response": {
+        "acknowledgment": "I understand you're here because of the right knee pain you've been experiencing at times. You mentioned taking Tylenol occasionally as needed, but it's good you're reaching out about this.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "right knee pain",
+            "profile_path": "problems[0]",
+            "explanation": "Right knee pain can be caused by various issues, and since you've been managing it with Tylenol, we'll need to look into what might be causing it. We'll start by understanding more about the pain\u2014like when it happens and how it affects you\u2014to guide the next steps.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll schedule a follow-up visit to discuss your knee pain in more detail and plan the next steps together."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again soon to go over the results and any new developments. In the meantime, if the pain gets worse or you notice any new symptoms, please reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "right knee pain"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 50477.61804610491,
+        "module_2_retrieval": 46.92637920379639,
+        "module_3_reasoning": 50238.02811652422,
+        "module_4_response": 12617.401666939259,
+        "total_ms": 113379.97420877218
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

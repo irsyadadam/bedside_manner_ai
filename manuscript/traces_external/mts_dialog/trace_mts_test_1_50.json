@@ -1,0 +1,212 @@
+{
+  "transcript_id": "mts_test_1_50",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "The patient has a previous history of a left traumatic wrist injury, which has left him with a chronic scapholunate problem and possibly oth",
+  "patient_utterances": [
+    "[Clinician asked: \"Hello, sir. How are you doing today?\"] I hurt my left wrist again.",
+    "[Clinician asked: \"Oh, no. Again? Did you hurt it before?\"] Yeah, I did. I've actually hurt it a lot. The most recent one was probably the worst pain of my life.",
+    "[Clinician asked: \"I see. How did you hurt it?\"] I was lifting some things out of the trunk of my car, and it started hurting.",
+    "[Clinician asked: \"Did it hurt before that?\"] Yeah, it did. It was sore and stuff, but the pain wasn't bothering me too much. I kind of just lived with it. Some days it would be fine, but other days it would hurt a little more.",
+    "[Clinician asked: \"The recent injury made it worse?\"] Yeah, it did. The pain after the incident got worse. I kind of feel it now more near my pinky area than my thumb area.",
+    "[Clinician asked: \"I see. So, near your ulnar side and not as much the radial side. You said earlier your wrist was already sore, right? Why was that?\"] Remember how I told you about the time I had the worst pain of my life? That's how. I have some old notes you can see. Here you go.",
+    "[Clinician asked: \"Thank you. Oh, wow. It says here you have chronic scapholunate problems and other problems too.\"] My scapho- what?"
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "HPI": "The patient has a previous history of a left traumatic wrist injury, which has left him with a chronic scapholunate problem and possibly other problems in his wrist.  However, he was doing relatively fine and tolerating the wrist soreness that he had, which is day to day, but it has not gotten much worse until this injury.  Once he lifted the object out of the back of his car and it started to hurt, then he was significantly more affected than he was before, and now pain is more on the ulnar side of his wrist than on the radial side of his wrist.  He is here now for evaluation."
+  },
+  "n_patient_turns": 7,
+  "n_clinician_turns": 8,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 20009.392507374287,
+      "response_text": "I'm really sorry to hear about the ongoing pain you're experiencing with your wrist. It sounds like this has been a challenging issue for you, especially with the recent flare-up being the worst you've felt. From what you've described, it seems like your wrist has been dealing with some wear and tear or past injuries, which might be contributing to the chronic issues you're facing now. I can understand how frustrating this must be, and I want to make sure we get to the bottom of it.\n\nI think it would be helpful to take a closer look at your wrist to see how it's healing and if there's any instability that needs attention. Have you had any imaging done, like an X-ray or MRI? If not, that might be a good next step. In the meantime, we could also explore some exercises or treatments to help manage the pain and improve your wrist's mobility. Let me know if you're having trouble with daily activities, as that could influence our approach. We'll work together to find the best way to help you feel better.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 21075.09107142687,
+      "response_text": "Thank you for sharing your concerns with me. It sounds like you're experiencing a lot of frustration and discomfort with your wrist, especially given how long this has been going on. I can understand why this would be worrying, and I want to work together to address it.\n\nGiven your history of chronic scapholunate problems and the recent flare-up, it's possible that the injury has aggravated existing issues, such as degenerative changes or instability in the wrist joint. Studies suggest that repetitive stress or trauma can exacerbate these conditions, potentially leading to increased pain and reduced mobility [PMID ?].\n\nTo move forward, we should consider imaging, like an MRI, to better understand the current state of your wrist. Depending on the findings, a referral to a hand specialist might be necessary for further evaluation and treatment options. I'll arrange for these steps to be taken in the coming weeks.\n\nBefore we wrap up, could you summarize what we've discussed today? This will help ensure you're clear on the plan and any next steps.\n\nWe'll plan to follow up in 2-4 weeks to assess your progress and adjust our approach as needed. Please don't hesitate to reach out if your symptoms worsen or if you have any questions in the meantime.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6497.691355645657,
+      "response_text": "It sounds like your wrist pain has been a real challenge for you, especially with the recent injury making it worse.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 4 weeks. In the meantime, if your wrist pain gets significantly worse or you experience any new symptoms, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "It sounds like your wrist pain has been a real challenge for you, especially with the recent injury making it worse.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 4 weeks. In the meantime, if your wrist pain gets significantly worse or you experience any new symptoms, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 65535.60138493776,
+      "response_text": "It sounds like your wrist injury has been causing you some trouble, especially with the pain flaring up on some days.\n\nGiven the nature of your injury and the ongoing pain, it's important to assess how the wrist is healing and whether there are any specific activities that might be contributing to the discomfort. We'll focus on understanding your daily activities and any patterns in your pain to guide the next steps.\n\nWe'll schedule a follow-up visit to check on the healing progress of your wrist and discuss any activities that might be affecting your pain.\n\nIn the meantime, keep track of when the pain occurs and what you were doing at the time, so we can better understand what might be triggering it.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a couple of weeks. In the meantime, if the pain gets worse or you notice any swelling, please call us so we can address it promptly.",
+      "structured_response": {
+        "acknowledgment": "It sounds like your wrist injury has been causing you some trouble, especially with the pain flaring up on some days.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "left wrist injury",
+            "profile_path": "problems[0]",
+            "explanation": "Given the nature of your injury and the ongoing pain, it's important to assess how the wrist is healing and whether there are any specific activities that might be contributing to the discomfort. We'll focus on understanding your daily activities and any patterns in your pain to guide the next steps.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll schedule a follow-up visit to check on the healing progress of your wrist and discuss any activities that might be affecting your pain.",
+          "In the meantime, keep track of when the pain occurs and what you were doing at the time, so we can better understand what might be triggering it."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a couple of weeks. In the meantime, if the pain gets worse or you notice any swelling, please call us so we can address it promptly.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "left wrist injury"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 93711.85882389545,
+      "response_text": "It sounds like your left wrist injury is really bothering you, especially since it's the worst pain you've ever experienced. I want to understand how this has been affecting your daily life.\n\nResearch shows that patients with wrist injuries often benefit from a thorough evaluation to determine the best treatment approach. Based on similar cases, imaging studies like X-rays or MRIs can help identify the extent of the injury and guide appropriate care.\n\nWe'll schedule an imaging study to better understand the extent of your wrist injury.\n\nBased on the results, we'll discuss the next steps for your care.\n\nCan you tell me, in your own words, what we're planning to do next and why it's important?\n\nLet's plan to follow up in two weeks to review the imaging results and discuss your treatment options. In the meantime, if the pain gets worse or you experience any swelling, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "It sounds like your left wrist injury is really bothering you, especially since it's the worst pain you've ever experienced. I want to understand how this has been affecting your daily life.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "left wrist injury",
+            "profile_path": "problems[0]",
+            "explanation": "Research shows that patients with wrist injuries often benefit from a thorough evaluation to determine the best treatment approach. Based on similar cases, imaging studies like X-rays or MRIs can help identify the extent of the injury and guide appropriate care.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[1]::40471580_0",
+                "primary_assertion_id": "40471580_0",
+                "pmids": [
+                  "40471580"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll schedule an imaging study to better understand the extent of your wrist injury.",
+          "Based on the results, we'll discuss the next steps for your care."
+        ],
+        "teach_back_prompt": "Can you tell me, in your own words, what we're planning to do next and why it's important?",
+        "follow_up_invitation": "Let's plan to follow up in two weeks to review the imaging results and discuss your treatment options. In the meantime, if the pain gets worse or you experience any swelling, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[1]::40471580_0"
+        ],
+        "all_pmids_used": [
+          "40471580"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "left wrist injury"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "40471580"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[1]::40471580_0"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 46530.40885925293,
+        "module_2_retrieval": 60.67316234111786,
+        "module_3_reasoning": 32163.524515926838,
+        "module_4_response": 14955.682165920734,
+        "total_ms": 93710.28870344162
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

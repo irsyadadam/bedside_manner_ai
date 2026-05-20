@@ -1,0 +1,264 @@
+{
+  "transcript_id": "aci_virtassist_D2N171",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "i'm good , how are you ?",
+  "patient_utterances": [
+    "[Clinician asked: \"hi evelyn , how are you ?\"] i'm good , how are you ?",
+    "[Clinician asked: \"i'm good . it's good to see you .\"] good to see you too .",
+    "[Clinician asked: \"so i know the nurse told you a little bit about dax . i'm gon na tell dax about you , okay ?\"] okay .",
+    "[Clinician asked: \"so evelyn is a 56-year-old female with a past medical history significant for coronary artery disease , prior carpal tunnel release , and a herniated disc who presents for her annual exam . so evelyn it's been a little while since i've seen you , how have you been doing over the last year ?\"] i've been doing okay , um , everything , um , with my herniated disc in my back has been doing really well . i have n't had any , um , back pain , or any , um , limitations in movement , so that's been doing well .",
+    "[Clinician asked: \"okay , yeah , i know that we have done a steroid injection for that , uh , a couple of month- , uh , several months ago , so that's- that's doing well ?\"] yeah , it is .",
+    "[Clinician asked: \"okay , i'm glad to hear that . and then , how about your carpal tunnel issues , you had that fixed a couple of years ago , so are you having any recurrent issues , or you good , you back to work ?\"] i am back to work . i have n't had any issues , and i've had full range of motion , and it's- it feels really good .",
+    "[Clinician asked: \"all right , so no numbing and tingling in your hands ?\"] no .",
+    "[Clinician asked: \"okay , that's good . and then , you know , i know that you've had , uh , prior stenting in the past for your- for your heart , and your heart vessels .\"] mm-hmm .",
+    "[Clinician asked: \"how are you doing from that standpoint ? have you had any chest pain , shortness of breath , nausea or vomiting ?\"] over the last month i've been having a bit of chest pain , but i have n't had any of the other symptoms you mentioned .",
+    "[Clinician asked: \"okay , does the chest pain happen when you walk ?\"] yeah , it does .",
+    "[Clinician asked: \"okay , and does it- does it go away if you- if you rest ?\"] yeah , it does actually .",
+    "[Clinician asked: \"okay , all right . do you ever get it just sitting there at rest ?\"] no i do n't .",
+    "[Clinician asked: \"okay , all right . okay , and- and can you describe it ?\"] it's like a burn .",
+    "[Clinician asked: \"okay .\"] it it just feels like it's burning , um , nothing terribly concerning , not enough to send me to the er , but i do notice it .",
+    "[Clinician asked: \"okay , and where exactly is it located in your chest ?\"] just , um , right in the middle ...",
+    "[Clinician asked: \"okay .\"] right here .",
+    "[Clinician asked: \"okay . and how often are you getting it ?\"] um , probably about three- three times a week .",
+    "[Clinician asked: \"okay , all right . well i'm glad that you talked about that with me today , um , i know the nurse did a review of systems sheet with you , and , you know , you're obviously endorsing this- this chest pressure . um , have you had any other symptoms , i know the- the other ones that you have n't had ,\"] no , nothing like that , but i have had a little bit of congestion , um , just from allergies , because of the pollen .",
+    "[Clinician asked: \"okay , so you're endorsing some nasal congestion ?\"] yeah .",
+    "[Clinician asked: \"all right , well let's go ahead and we'll do a physical exam , okay ?\"] okay .",
+    "[Clinician asked: \"hey dragon ? show me the vital signs . so here your vital signs look really good , i'm- i'm happy to see that your blood pressure is under- under good control , and your oxygenation is fine , so i'm just gon na take a listen to your heart and lungs , and i'll let you know if i find anything , okay ?\"] okay .",
+    "[Clinician asked: \"okay , so in physical exam your heart has a slight three out of six systolic ejection murmur , which we've heard before . your lungs are nice and clear , uh , i do n't appreciate any carotid bruits , and- and you have no lower extremity edema , you have healed , uh , surgical scars on your- on your \"] okay .",
+    "[Clinician asked: \"so , i wan na go ahead and continue you on your asprin , and your toprol , okay ? i wan na go ahead and order a stress test for you to see if you have more blockages that could be causing this chest discomfort , okay ?\"] okay .",
+    "[Clinician asked: \"and i'm gon na go ahead and get a lipid panel and , uh , start you on crestor 20 mg , once a day , okay ?\"] okay .",
+    "[Clinician asked: \"hey dragon , order a cardiac stress test . do you have any questions ?\"] no , that's it .",
+    "[Clinician asked: \"okay , all right . hey dragon , finalize the note . so , it was good to see you , the nurse will come in , she'll help you get your scheduled for all of those things , and i'll be in touch , okay ?\"] okay ."
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nAnnual exam.\n\nHISTORY OF PRESENT ILLNESS\n\nEvelyn Morris is a 56-year-old female with a past medical history significant for coronary artery disease, prior carpal tunnel release, and a herniated disc. She presents for her annual exam.\n\nThe patient states she has been doing okay with her herniated disc in her back. She has not had any back pain or any limitations in movement. She had a steroid injection for her herniated disc several months ago, which has been doing well.\n\nHer right carpal tunnel release was performed a couple of years ago and she is back to work. She has full range of motion and it feels really good. No numbness or tingling in her hands.\n\nShe has had prior stenting for her heart and heart vessels in the past. Over the last month, she reports chest pain approximately 3-4 times a week with ambulation. Her chest pain does resolve with rest. The pain is described as burning and is located in the middle of her chest. She denies pain at rest.\n\nShe has had a little bit of nasal congestion from allergies. The patient denies, shortness of breath, nausea, vomiting, or lower extremity edema.\n\nREVIEW OF SYSTEMS\n\n\u2022 Constitutional: Denies fevers, chills.\n\u2022 Ears, Nose, Mouth and Throat: Endorses nasal congestion form allergies.\n\u2022 Cardiovascular: Denies dyspnea. Endorses chest pain with exertion.\n\u2022 Respiratory: Denies shortness of breath.\n\u2022 Musculoskeletal: Denies muscle pain.\n\nPHYSICAL EXAMINATION\n\n\u2022 Neck: No carotid bruits appreciable.\n\u2022 Respiratory: Lungs are clear to auscultation bilaterally. No wheezes, rales, or rhonchi.\n\u2022 Cardiovascular: Slight 3/6 systolic ejection murmur.\n\u2022 Integumentary: Well-healed surgical scars on her right wrist.\n\nRESULTS\n\nEchocardiogram shows reduced ejection fraction at 45% with a slight mitral regurgitation.\n\nECG prior coronary artery disease. No new changes.\n\nASSESSMENT AND PLAN\n\nEvelyn Morris is a 56-year-old female with a past medical history significant for coronary artery disease, prior carpal tunnel release, and a herniated disc. She presents for her annual exam.\n\nStatus post right carpal tunnel release.\n\u2022 Medical Reasoning: The patient is doing well postoperatively. She has returned to work and denies any recurrent symptoms.\n\nHerniated disc.\n\u2022 Medical Reasoning: She has been asymptomatic since receiving a steroid injection several months ago. I do not think we need to refer her for any further steroid injections or physical therapy at this time.\n\u2022 Patient Education and Counseling: If she has any recurrent symptoms, she will let me know and we can take it from there.\n\nCoronary artery disease.\n\u2022 Medical Reasoning: She reports a burning chest pain with exertion approximately 3 times per week for the past month. Her recent echocardiogram demonstrated a reduced ejection fraction of 45%.\n\u2022 Medical Treatment: Continue aspirin and Toprol. Initiate Crestor 20 mg once daily.\n\u2022 Additional Testing: We will order a cardiac stress test and a lipid panel for further evaluation.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.",
+  "gold_sections": {
+    "CC": "Annual exam.",
+    "HPI": "Evelyn Morris is a 56-year-old female with a past medical history significant for coronary artery disease, prior carpal tunnel release, and a herniated disc. She presents for her annual exam.\n\nThe patient states she has been doing okay with her herniated disc in her back. She has not had any back pain or any limitations in movement. She had a steroid injection for her herniated disc several months ago, which has been doing well.\n\nHer right carpal tunnel release was performed a couple of years ago and she is back to work. She has full range of motion and it feels really good. No numbness or tingling in her hands.\n\nShe has had prior stenting for her heart and heart vessels in the past. Over the last month, she reports chest pain approximately 3-4 times a week with ambulation. Her chest pain does resolve with rest. The pain is described as burning and is located in the middle of her chest. She denies pain at rest.\n\nShe has had a little bit of nasal congestion from allergies. The patient denies, shortness of breath, nausea, vomiting, or lower extremity edema.",
+    "ROS": "\u2022 Constitutional: Denies fevers, chills.\n\u2022 Ears, Nose, Mouth and Throat: Endorses nasal congestion form allergies.\n\u2022 Cardiovascular: Denies dyspnea. Endorses chest pain with exertion.\n\u2022 Respiratory: Denies shortness of breath.\n\u2022 Musculoskeletal: Denies muscle pain.",
+    "PHYSICAL_EXAMINATION": "\u2022 Neck: No carotid bruits appreciable.\n\u2022 Respiratory: Lungs are clear to auscultation bilaterally. No wheezes, rales, or rhonchi.\n\u2022 Cardiovascular: Slight 3/6 systolic ejection murmur.\n\u2022 Integumentary: Well-healed surgical scars on her right wrist.",
+    "RESULTS": "Echocardiogram shows reduced ejection fraction at 45% with a slight mitral regurgitation.\n\nECG prior coronary artery disease. No new changes.",
+    "ASSESSMENT_PLAN": "Evelyn Morris is a 56-year-old female with a past medical history significant for coronary artery disease, prior carpal tunnel release, and a herniated disc. She presents for her annual exam.\n\nStatus post right carpal tunnel release.\n\u2022 Medical Reasoning: The patient is doing well postoperatively. She has returned to work and denies any recurrent symptoms.\n\nHerniated disc.\n\u2022 Medical Reasoning: She has been asymptomatic since receiving a steroid injection several months ago. I do not think we need to refer her for any further steroid injections or physical therapy at this time.\n\u2022 Patient Education and Counseling: If she has any recurrent symptoms, she will let me know and we can take it from there.\n\nCoronary artery disease.\n\u2022 Medical Reasoning: She reports a burning chest pain with exertion approximately 3 times per week for the past month. Her recent echocardiogram demonstrated a reduced ejection fraction of 45%.\n\u2022 Medical Treatment: Continue aspirin and Toprol. Initiate Crestor 20 mg once daily.\n\u2022 Additional Testing: We will order a cardiac stress test and a lipid panel for further evaluation.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan."
+  },
+  "n_patient_turns": 26,
+  "n_clinician_turns": 29,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 19901.602670550346,
+      "response_text": "Thank you, Evelyn, for sharing your concerns with me today. I understand that the chest pain you're experiencing can be worrying, and I'm glad we're taking the necessary steps to investigate it further with the stress test. It's important that we monitor your heart health closely, and I'm confident that the tests will provide us with valuable insights.\n\nPlease keep an eye on your symptoms and let us know if the chest pain becomes more frequent or severe. In the meantime, we're managing your heart health together, and I'm here to address any questions or concerns you may have. Also, it's good to note that the nasal congestion from allergies seems to be minor, but we'll keep that in mind as well. Take care, and I'll be in touch soon regarding the results.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 28290.248960256577,
+      "response_text": "Thank you for sharing your concerns with me, Evelyn. It's completely understandable that you're feeling worried about the chest pain you've been experiencing, especially since it's something new and persistent. I can see how this might be unsettling, and I appreciate your openness in discussing it with me.\n\nThe clinician has taken a thorough approach by ordering a stress test to better understand the cause of your chest discomfort. This test will help us determine if there are any blockages in your heart vessels that could be contributing to your symptoms. It's important to monitor your heart health, especially given your history of coronary artery disease.\n\nIn the meantime, the medications you're on\u2014Aspirin, Tropol, and Crestor\u2014are all working to support your heart and overall cardiovascular health. Aspirin helps protect your heart, Tropol manages your blood pressure and heart rate, and Crestor helps lower your cholesterol, all of which are steps to reduce your risk of heart issues.\n\nWe'll schedule a follow-up in a few weeks after the stress test results are available. Before you leave, could you summarize what we've discussed today? This will help ensure you understand the plan and that I've covered everything clearly.\n\nTake care, and I look forward to hearing from you after the test results.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 8142.167918384075,
+      "response_text": "It's good to see you again and hear that you're doing well overall. Your herniated disc is feeling good, and your carpal tunnel is back to normal. I'm glad you mentioned the chest pain you've been having\u2014it's important we look into that.\n\nI want to make sure I explained this clearly\u2014can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 4 weeks. In the meantime, if you get new symptoms like severe chest pain, shortness of breath, or any other concerns, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "It's good to see you again and hear that you're doing well overall. Your herniated disc is feeling good, and your carpal tunnel is back to normal. I'm glad you mentioned the chest pain you've been having\u2014it's important we look into that.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly\u2014can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 4 weeks. In the meantime, if you get new symptoms like severe chest pain, shortness of breath, or any other concerns, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 141212.18678355217,
+      "response_text": "I understand you're experiencing chest pain, which is concerning. Let's address this carefully.\n\nChest pain can be caused by various issues, including heart-related problems or respiratory conditions. Given your history of coronary artery disease, it's important to evaluate this symptom thoroughly.\n\nGiven the chest pain and your history, we'll prioritize evaluating potential heart-related causes. This may include blood tests and imaging to rule out serious conditions.\n\nWe'll schedule a follow-up appointment to review the results and plan the next steps together.\n\nI want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next?\n\nLet's plan to see each other again in a week. If you experience severe chest pain or any new symptoms like dizziness or shortness of breath, please call us immediately.",
+      "structured_response": {
+        "acknowledgment": "I understand you're experiencing chest pain, which is concerning. Let's address this carefully.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "chest pain",
+            "profile_path": "problems[0]",
+            "explanation": "Chest pain can be caused by various issues, including heart-related problems or respiratory conditions. Given your history of coronary artery disease, it's important to evaluate this symptom thoroughly.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::31237649",
+                "primary_assertion_id": "31237649_retr",
+                "pmids": [
+                  "31237649"
+                ]
+              },
+              {
+                "cluster_id": "retrieval_only::40720582",
+                "primary_assertion_id": "40720582_retr",
+                "pmids": [
+                  "40720582"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "Given the chest pain and your history, we'll prioritize evaluating potential heart-related causes. This may include blood tests and imaging to rule out serious conditions.",
+          "We'll schedule a follow-up appointment to review the results and plan the next steps together."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next?",
+        "follow_up_invitation": "Let's plan to see each other again in a week. If you experience severe chest pain or any new symptoms like dizziness or shortness of breath, please call us immediately.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Demonstrate empathy",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "retrieval_only::31237649",
+          "retrieval_only::40720582"
+        ],
+        "all_pmids_used": [
+          "31237649",
+          "40720582"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 1,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "chest pain"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "31237649",
+        "40720582"
+      ],
+      "cluster_ids_used": [
+        "retrieval_only::31237649",
+        "retrieval_only::40720582"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Demonstrate empathy",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 173188.73262405396,
+      "response_text": "I understand you're experiencing chest pain, which is concerning. Let's address this carefully.\n\nChest pain can be a sign of several issues, and it's important to determine the cause. Based on current guidelines, we'll start with some basic tests to rule out serious conditions.\n\nGiven the chest pain, we'll schedule a follow-up visit within 30 days to review the test results and plan next steps.\n\nCan you tell me in your own words what we'll do next and why?\n\nLet's plan to meet again in 30 days. If your chest pain worsens or you experience any new symptoms like dizziness or shortness of breath, please reach out sooner.",
+      "structured_response": {
+        "acknowledgment": "I understand you're experiencing chest pain, which is concerning. Let's address this carefully.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "chest pain",
+            "profile_path": "problems[0]",
+            "explanation": "Chest pain can be a sign of several issues, and it's important to determine the cause. Based on current guidelines, we'll start with some basic tests to rule out serious conditions.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[0]::41186947_0",
+                "primary_assertion_id": "41186947_0",
+                "pmids": [
+                  "41186947"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "Given the chest pain, we'll schedule a follow-up visit within 30 days to review the test results and plan next steps."
+        ],
+        "teach_back_prompt": "Can you tell me in your own words what we'll do next and why?",
+        "follow_up_invitation": "Let's plan to meet again in 30 days. If your chest pain worsens or you experience any new symptoms like dizziness or shortness of breath, please reach out sooner.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[0]::41186947_0"
+        ],
+        "all_pmids_used": [
+          "41186947"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 1,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "chest pain"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "41186947"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[0]::41186947_0"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 108855.17632961273,
+        "module_2_retrieval": 975.3991067409515,
+        "module_3_reasoning": 49250.00073760748,
+        "module_4_response": 14106.935441493988,
+        "total_ms": 173187.51161545515
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

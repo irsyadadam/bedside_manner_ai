@@ -1,0 +1,257 @@
+{
+  "transcript_id": "primock57_day5_consultation01",
+  "dataset": "primock57",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "I have a headache",
+  "patient_utterances": [
+    "[Clinician asked: \"Ohh, hello.\"] <INAUDIBLE_SPEECH/>",
+    "[Clinician asked: \"Hello. I'm Doctor Geraghty. Ohh,  sorry. <INAUDIBLE_SPEECH/>. Can I take your, full name, date of birth, and, your home address please?\"] Uh, yeah it's uh, . Um, and, five, um, Kings Place.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/> And are you in a, uh, and your date of birth?\"] Uh, it's the twentieth, of the fourth, nineteen ninety.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/> OK. And are you in a private place you can have a confidential consultation today?\"] Yes, I am.",
+    "[Clinician asked: \"What can I do for you today?\"] Um, I've got a really bad headache, had it for about a day now.",
+    "[Clinician asked: \"OK, and can you just tell me about, how it started? What were you doing when it came on?\"] Um, yeah, just ever since yesterday morning, since I woke up really. Um, just yeah, kind of throbbing headache, haven't really wanted to leave the house much since then.",
+    "[Clinician asked: \"OK, and whereabouts in your head is the pain?\"] Uh, mainly on the left side.",
+    "[Clinician asked: \"OK. What does it feel like?\"] Um, it just, kind of feels like it's throbbing, it's quite intense, sort of comes and goes. Um, yeah, quite sensitive to light, um, but yeah, quite painful.",
+    "[Clinician asked: \"K and . When, when you say it comes and goes, does it completely go away?\"] Uh, just kind of fades, so it's still there a little bit but, it kind of gets more or less, severe.",
+    "[Clinician asked: \"OK. And any, any other symptoms that you've had, any problems with your eyes, or your eyesight?\"] Uh, no, not at all.",
+    "[Clinician asked: \"Any abnormal smells or tastes?\"] No.",
+    "[Clinician asked: \"Any, any nausea, vomiting?\"] Uh, no, no, been feeling fine actually.",
+    "[Clinician asked: \"And have you been eating and drinking OK?\"] Yeah, yeah, <INAUDIBLE_SPEECH/>.",
+    "[Clinician asked: \"OK. And, normally, do you get any headaches?\"] Uh, no not really, it's not something I've, ever had before.",
+    "[Clinician asked: \"OK. And, has it occurred at a particular term in your menstrual cycle?\"] Um, no, not particularly,  and my period was about a week ago.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/> Right, OK. And how we're you the before it came on? Have you had any other symptoms, like feeling feverish, , runny nose, sore ears?\"] No, not really any sort of, cold symptoms, I seemed OK the day before.",
+    "[Clinician asked: \"OK. And, at the moment, how are you feeling?\"] Um, it's still pretty bad. Um, yeah, still the kind of throbbing, yeah.",
+    "[Clinician asked: \"Have you had any changes in your skin?\"] No, skin feeling fine.",
+    "[Clinician asked: \"Have you checked your temperature at all?  Have you got a thermometer at home?\"] Um, I haven't. Um, I don't feel like I'm feverish, but I haven't checked.",
+    "[Clinician asked: \"And any problems with weakness, tingling, numbness in your arms or legs?\"] No, not at all.",
+    "[Clinician asked: \"And what have you been doing since it came on? Have you been able to go to work, or have you been at home?\"] <INAUDIBLE_SPEECH/> Um, taken some painkillers, mainly been at home. Um, yeah just kind of, kind of seems to be worse, when I'm in a light room or like sunlight. So I've kind of just been staying in as much as possible.",
+    "[Clinician asked: \"OK. Does it get worse with any position that you're on? Is it worse when you lie flat, or when you bend forward?\"] Um, no, think I've generally been lying down, seems to be better that way.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/> Any problems if you cough or sneeze?\"] Uh, no, but I haven't really got a cough or anything.",
+    "[Clinician asked: \"OK. And can you just tell me a bit about, your medical history in the past? Have you had any significant medical problems? Any hospital admissions, operations, something like that?\"] Uh, no, not recently, nothing.",
+    "[Clinician asked: \"Do you take any medication?\"] Uh, no, just contraception.",
+    "[Clinician asked: \"And which contraception do you take?\"] Uh, Microgynon,  pill.",
+    "[Clinician asked: \"When did you start that one?\"] Uh, about six years ago.",
+    "[Clinician asked: \"Do you get any side effects from it?\"] Um, not really, um, no, not too much.",
+    "[Clinician asked: \"OK. And, anyone in your family had any medical problems?\"] Uh, my mum had, uh, high blood pressure, and she's got a history of migraines. Um, but it's not really affected me before.",
+    "[Clinician asked: \"OK. And have you had your blood pressure checked  recently?\"] Uh, I haven't actually, no.",
+    "[Clinician asked: \"Have you had it checked, when you've had the , repeat prescription done?\"] Yeah, yeah, so uh, probably about six months ago.",
+    "[Clinician asked: \"Do you know if there's been any problems with it?\"] Um, it's always been fine I think.",
+    "[Clinician asked: \"OK. Um, and whereabouts, whereabouts do you live at the moment? You've given me your, address. Do, who do you live with at home?\"] Uh, just with housemates, um, just friends.",
+    "[Clinician asked: \"OK. And do you drink much alcohol day-to-day?\"] Um, I'd say a normal amount, um, probably, you know, a few drinks at the weekend.",
+    "[Clinician asked: \"OK. And do you smoke?\"] No.",
+    "[Clinician asked: \"Do you take any other drugs of any sort?\"] No.",
+    "[Clinician asked: \"Um. So, , what, what tablets did you say you've been taking already? Yeah.\"] Sorry?",
+    "[Clinician asked: \"What tablets have you been taking already, for it?\"] Uh, just Paracetamol. Um, I'm allergic to Aspirin, so I haven't been taking that.",
+    "[Clinician asked: \"What happens when you get a, when you take Aspirin?\"] Um, I just feel really sick.",
+    "[Clinician asked: \"OK. And have you ever, taken any, non-steroidal anti-inflammatories, like Ibuprofen, Naproxen, anything like that?\"] Um, I have in the past, I haven't been taking it, last few days.",
+    "[Clinician asked: \"OK. Um, so, this headache is new to you, and you've, you've not had regular headaches before?\"] Yeah.",
+    "[Clinician asked: \"What I would, suggest is, taking, uh, um, some anti-inflammatories, along with the Paracetamol.\"] OK.",
+    "[Clinician asked: \"Um, as a. Uh, you said you're eating OK?\"] Yeah, yeah, fine.",
+    "[Clinician asked: \"I mean it, from the sounds of it, it does, sound quite like a migraine, but obviously if you had no history of that, in the past. Um, and is anything changed recently, or any, anything you've done recently might've, triggered it?\"] Uh, not that I can think of, um, may have been a bit stressed out at work, that kind of thing, but .",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/> Yeah. Um, well that would be the first thing to do, is to take some anti-inflammatories along with the Paracetamol. Make sure you're really well hydrated. Um, and, see how that goes, and if it, if it isn't settling, or it's getting worse, or you get any other change in your heada\"] OK, brilliant, thank you.",
+    "[Clinician asked: \"Um, I would, try and arrange to get your blood pressure checked, if you haven't had it checked for a while. Uh, and, thing to do is to have a thermometer at home, so you can make sure that your temperature's OK.\"] OK, sure. Yep.",
+    "[Clinician asked: \"If you have a raised temperature or, your headache's just getting worse, or you develop any rashes or anything like that. Then we'd need to speak to you straight away.\"] Yep, OK, that's brilliant. OK, so I'll take some Ibuprofen and I'll um, hopefully, be a bit better in a day or two then, so yeah.",
+    "[Clinician asked: \"OK, so, have you got any other questions?\"] Uh, no, that was it today.",
+    "[Clinician asked: \"OK. OK then, we'll, we'll, we'll, um, speak to you again.\"] OK, brilliant. Thanks so much.",
+    "[Clinician asked: \", very much. Bye.\"] Bye."
+  ],
+  "gold_note": "Left sided headache since yesterday morning. Intermittent. Non positional. Not woken her up. No altered smell/taste.  E&D normally. No prodromal illness, no viral symptoms, sore ears/coryzal sx.  Doesn't feel feverish but hasn't checked temperature. No N&V. No tingling/numbness/weakness/rash. Worse with light but vision not altered. Taken paracetamol only. Period stopped last week.\nNo hx headaches.\nPMH: Nil significant\nDH: Microgynon - no SEs, BP was normal when checked for last prescription ? when.\nFH: Mother has hypertension and migraines.\nSH: Lives with flatmates, alcohol - few glasses wine at weekends, non smoker.\nSome stress at work recently. \nImp: ? Tension headache/first episode migraine. No features meningitic illness but is worse with light.\n Plan: Advised to get BP and temp checked and to call straight back if worsening/persistent headache/fever/rash/new symptoms. Advised to start regular ibuprofen with food. To have a review if regular headaches.",
+  "gold_sections": {
+    "PRESENTING_COMPLAINT": "I have a headache",
+    "HIGHLIGHTS": "Left sided headache\nIntermittent\nNon positional\nDoesn't feel feverish\nNo tingling/numbness/weakness/rash\nWorse with light but vision not altered"
+  },
+  "n_patient_turns": 50,
+  "n_clinician_turns": 50,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 26022.51596748829,
+      "response_text": "Hello [Patient's Name],\n\nThank you for sharing your symptoms with me. I can tell how uncomfortable and frustrated you must be feeling with this persistent headache. It's important to acknowledge how challenging this must be for you.\n\nBased on your description, it sounds like you might be experiencing a migraine, which can be quite intense and debilitating. However, since you don't have a prior history of headaches, I'll also consider other possibilities. To help alleviate your symptoms, I recommend taking Ibuprofen if you're not allergic, along with staying well-hydrated and resting in a dark, quiet environment. Keep an eye on your symptoms\u2014if the pain worsens, or if you develop a fever or new symptoms, please seek immediate care.\n\nIt might also be a good idea to monitor your blood pressure, as high blood pressure can sometimes cause headaches. If the headache doesn't improve with these steps, or if you're concerned, please don't hesitate to reach out for further evaluation.\n\nI hope you start feeling better soon. Take care of yourself and let me know if you need anything else.\n\nWarm regards,  \n[Your Name]",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 33812.40855157375,
+      "response_text": "Thank you for sharing your concerns with me. It sounds like you're feeling quite unwell with this sudden, severe headache, and I can understand how worrying that must be, especially since it's something you haven't experienced before. It's important to take this seriously and explore what might be causing it.\n\nGiven your symptoms\u2014throbbing pain on the left side, sensitivity to light, and the fact that it's new\u2014it could be a migraine, even though you haven't had them before. Migraines can sometimes appear suddenly, triggered by stress or other factors. Alternatively, it might be a tension headache or even a sinus headache. I'll suggest taking some ibuprofen if you're able, as it can help reduce inflammation and pain. Staying hydrated and resting in a quiet, dark room might also ease your symptoms.\n\nWe'll keep an eye on how you're feeling. If the pain worsens, you develop a fever, or experience any new symptoms like a rash, it's important to seek immediate care. I recommend checking your blood pressure at home if possible, as high blood pressure can sometimes cause headaches. We can schedule a follow-up in a few days to see how you're doing. Please let me know if you have any questions or concerns in the meantime.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7985.64487695694,
+      "response_text": "Thank you for sharing your concerns about your headache. It sounds like you're experiencing significant discomfort, and I want to make sure we address it together.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few days. In the meantime, if your headache gets worse or you develop any new symptoms like a high fever, severe pain, or vision changes, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns about your headache. It sounds like you're experiencing significant discomfort, and I want to make sure we address it together.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few days. In the meantime, if your headache gets worse or you develop any new symptoms like a high fever, severe pain, or vision changes, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 166889.84955102205,
+      "response_text": "I can hear how frustrating this must be for you \u2014 you mentioned, \"really bad.\" That kind of pain can make it hard to focus on anything else.\n\nA bad headache that started suddenly could be due to a number of things. Since it's been with you since yesterday morning and is mainly on the left side, we'll want to check for common causes like tension headaches or sinus issues. We'll also look into other possibilities to make sure there's nothing more serious going on.\n\nWe'll schedule some tests to figure out what's causing the headache, like blood work or imaging if needed.\n\nWe'll check in with you again soon to review the results and plan the next steps together.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a week. In the meantime, if the headache gets worse or you develop new symptoms like vision changes or trouble speaking, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I can hear how frustrating this must be for you \u2014 you mentioned, \"really bad.\" That kind of pain can make it hard to focus on anything else.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "really bad headache",
+            "profile_path": "problems[0]",
+            "explanation": "A bad headache that started suddenly could be due to a number of things. Since it's been with you since yesterday morning and is mainly on the left side, we'll want to check for common causes like tension headaches or sinus issues. We'll also look into other possibilities to make sure there's nothing more serious going on.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll schedule some tests to figure out what's causing the headache, like blood work or imaging if needed.",
+          "We'll check in with you again soon to review the results and plan the next steps together."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a week. In the meantime, if the headache gets worse or you develop new symptoms like vision changes or trouble speaking, please call us right away.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 2,
+        "n_goals": 0,
+        "problems": [
+          "really bad headache"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 172496.59398198128,
+      "response_text": "I understand you're experiencing a really bad headache since yesterday morning, and it's been quite severe.\n\nA really bad headache can be concerning, especially when it comes on suddenly. The structured context suggests that clinical judgement is important in evaluating such symptoms, though it's more specific than sensitive for certain conditions.\n\nWe'll need to evaluate this further. Since there are no immediate red flags, we can start with some basic tests to rule out common causes.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to follow up in a week. If the headache gets worse or you develop new symptoms like vision changes or trouble speaking, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I understand you're experiencing a really bad headache since yesterday morning, and it's been quite severe.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "really bad headache",
+            "profile_path": "problems[0]",
+            "explanation": "A really bad headache can be concerning, especially when it comes on suddenly. The structured context suggests that clinical judgement is important in evaluating such symptoms, though it's more specific than sensitive for certain conditions.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[0]::35709018_0",
+                "primary_assertion_id": "35709018_0",
+                "pmids": [
+                  "35709018"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll need to evaluate this further. Since there are no immediate red flags, we can start with some basic tests to rule out common causes."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to follow up in a week. If the headache gets worse or you develop new symptoms like vision changes or trouble speaking, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[0]::35709018_0"
+        ],
+        "all_pmids_used": [
+          "35709018"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "really bad headache"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "35709018"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[0]::35709018_0"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 123876.46873295307,
+        "module_2_retrieval": 71.35240733623505,
+        "module_3_reasoning": 33769.53786611557,
+        "module_4_response": 14777.846112847328,
+        "total_ms": 172495.2051192522
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

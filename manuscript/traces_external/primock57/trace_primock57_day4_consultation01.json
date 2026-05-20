@@ -1,0 +1,389 @@
+{
+  "transcript_id": "primock57_day4_consultation01",
+  "dataset": "primock57",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "I'm having chest discomfort",
+  "patient_utterances": [
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/> Hello.\"] Hello. Can you hear me?",
+    "[Clinician asked: \"Yeah, I can. Can you hear me?\"] <INAUDIBLE_SPEECH/>",
+    "[Clinician asked: \"Hi, my name is Doctor Gohill. I'm one of, Hi, I'm one of the physicians that works at Babylon.\"] <INAUDIBLE_SPEECH/>",
+    "[Clinician asked: \"Are you in a quiet and private space to  talk?\"] I am, yes.",
+    "[Clinician asked: \"Good, and can I confirm your name and date of birth please?\"] Uh, it's Joe Bloggs. It's the seventh, of June, nineteen seventy four.",
+    "[Clinician asked: \"Seventy four, and how old does that make you?\"] Sorry, fifty four . I'm, suppose I'd be fifty three, well, yeah.",
+    "[Clinician asked: \"Perfect. Great, and it says here, um, it says you're having chest discomfort. Is that correct?\"] That, that is correct, yes. I'm experiencing discomfort in my chest.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/> OK, can you tell me a little bit more about your chest discomfort? When it started, and how you're feeling at the moment?\"] Sure, um, it's been ongoing for, a couple of hours now. Um, I'd say that it's come on, quite suddenly. I was, digging in the garden. And it, if I had to describe where it is, it's somewhere in the middle of my chest. And it's more, it feels like it's pressure, <INAUDIBLE_SPEECH/> discomfort, than more, than a pain. Um, if I, had to . If I, if I had to describe what <INAUDIBLE_SPEECH/> discomfort feeling, it's, it's like someone's sitting on my chest. <INAUDIBLE_SPEECH/>.",
+    "[Clinician asked: \"OK.\"] And. Yeah.",
+    "[Clinician asked: \"Great. So, you've talked about your chest. Are you still in, discomfort at the moment?\"] Uh, yes I do smoke, yeah.",
+    "[Clinician asked: \"OK, and when it started, how would you rate it out, out of ten?\"] Say about, say, seven out of ten.",
+    "[Clinician asked: \"OK, .\"] Ten being, very sort of, unbearable and severe pain. Seven is. Quite manageable, well, it's quite <INAUDIBLE_SPEECH/>.",
+    "[Clinician asked: \"OK, and how about now?\"] Um, it's still the same.",
+    "[Clinician asked: \"OK, and tell me before this happened, what were you doing?\"] Yeah. Um, I was, <INAUDIBLE_SPEECH/> relaxing. My wife, and, we're watching Jeremy Kyle.",
+    "[Clinician asked: \"OK.\"] still go out into the garden.",
+    "[Clinician asked: \"OK, and how often do you do gardening?\"] Um, every other week. So, fortnightly.",
+    "[Clinician asked: \"OK, and are you normally fit and well? So, are you  normally OK to garden as you would?\"] Uh, yes.",
+    "[Clinician asked: \"Great, and apart from this, do you have any other medical problems?\"] Um, high cholesterol, and, I've had hypertension, <INAUDIBLE_SPEECH/> hypertension.",
+    "[Clinician asked: \"OK, so that's high blood pressure, and high cholesterol. Do you take any medicines for that?\"] <INAUDIBLE_SPEECH/> No, I don't take any medicine.",
+    "[Clinician asked: \"OK, and are you allergic to anything?\"] Uh, <INAUDIBLE_SPEECH/>.",
+    "[Clinician asked: \"OK. So, let me summarise what you've told me already. You were gardening a few hours ago, and you experienced chest discomfort, which was roughly seven out of ten.\"] <INAUDIBLE_SPEECH/>",
+    "[Clinician asked: \"And it feels more like someone's sitting on your chest, as opposed to pain.\"] Yeah. Yes, that's great.",
+    "[Clinician asked: \"And apart from this, have you noticed anything else unusual, specifically with your breathing?\"] Uh, yes I have. Um, I've got shortness of breath. And I feel slightly, light-headed.",
+    "[Clinician asked: \"OK, and is that getting worse or better?\"] Um, it's remained the same. Although, I would say recently I've noticed, in terms of sort of breathing, I've had, some difficulty climbing the stairs. And, if I have to sort of walk uphill, there's that sort of challenge as well.",
+    "[Clinician asked: \"And when you get short of breath, when you're walking up the stairs, have you noticed any pain?\"] Um, no pain as such, but there's often calf pain and, leg swellings.",
+    "[Clinician asked: \"OK. So, let me confirm. You have the pressure at the moment, and you have shortness of breath, is that correct?\"] That is correct, yes.",
+    "[Clinician asked: \". So, given what you've told me about your past medical history. I think it might be worth, you calling an ambulance.\"] OK.",
+    "[Clinician asked: \"get you to the hospital as soon as possible. Because, my concern is, it might be something to do with your heart. So, While <INAUDIBLE_SPEECH/> to you, I will ring an ambulance. Who, should come to your address.\"] Ohh, OK. Ohh right.",
+    "[Clinician asked: \"But in the meantime, I think we should stay on the phone. So I can gather some more information, that we can give to the paramedics. Is that OK?\"] OK. Um, should I, be concerned about anything?",
+    "[Clinician asked: \"It's nothing to worry about at the moment, but, given that you've got high blood pressure and high cholesterol, and you've got some chest pain. I'm always worried about the heart first, before anything else.\"] , OK, <INAUDIBLE_SPEECH/>.",
+    "[Clinician asked: \", and we, and we need to look after your heart before anything else. So, apart from this  light-headedness, and this chest discomfort, have you  noticed anything else unusual?\"] Um, nothing, else unusual. Um, I'm not sure if I spoke to you about nausea? I've noticed nausea, but no vomiting, yet.",
+    "[Clinician asked: \"Did you have anything to eat or drink this morning?\"] Um, no.",
+    "[Clinician asked: \"And you feel, still feel nauseous at the moment?\"] I have, yeah. I am, yeah.",
+    "[Clinician asked: \"So, I have a couple of other questions to ask you, and I'm gonna reel them off. So, apologies for not letting you talk very much.\"] OK. No, that's fine.",
+    "[Clinician asked: \"Have you noticed this pressure, radiating to your head?\"] Uh, not to my head, no.",
+    "[Clinician asked: \"And how about to your left, or right arm?\"] Uh, yes. There is some pain in my left shoulder and arm.",
+    "[Clinician asked: \"And does that pain go anywhere else? To your left arm, or to your back?\"] Uh, no.",
+    "[Clinician asked: \"And, have you noticed any problems swallowing, or drinking water?\"] Uh, no.",
+    "[Clinician asked: \"Good. And have you noticed any problems going to the loo?\"] Uh, no problems going to the loo.",
+    "[Clinician asked: \"And you're normally fit and well, apart from the two things you told me about?\"] Um. Yes, however, there's some problems just, performing daily activities. Um, like I said, with the difficulties climbing up the stairs and going uphill. Um, I try to limit my daily activity to just moving around the house, nothing too strenuous.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/> And, do you live at home with your wife at the moment?\"] Uh, yes.",
+    "[Clinician asked: \"OK. I would suggest, if she's there, you let her know that, you'll both be having an adventure to the hospital today. So, she might need to get your things together.\"] OK. Got it, OK.",
+    "[Clinician asked: \"The ambulance should be there very soon. In the meantime, I would suggest that you stay calm, and have some water if you need to.\"] OK.",
+    "[Clinician asked: \"Don't take any of those medications.\"] Right. OK.",
+    "[Clinician asked: \"And the paramedics should be with you, very shortly.\"] All right.",
+    "[Clinician asked: \"So, when they do come, there are two things they will be worried about.\"] OK.",
+    "[Clinician asked: \"The one is your chest, so, your heart. And the second is your breathing, which is your lungs.\"] Yes. OK.",
+    "[Clinician asked: \"So, they will give you lots of things to breathe through, and attach things to your arms. Just to check, things like your blood pressure, and your heart rate. So, don't be worried.\"] OK.",
+    "[Clinician asked: \"And, when you get to the hospital, you'll be seen by a consultant, pretty, pretty much immediately.\"] Yeah, <INAUDIBLE_SPEECH/>.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/>\"] Reassuring, I'm getting <INAUDIBLE_SPEECH/>.",
+    "[Clinician asked: \"Sure. So, I will let the paramedics do their job. And when, you're at the hospital, the consultant would normally call me within a couple of minutes, to let me know how everything's going.\"] Ohh, that's great.",
+    "[Clinician asked: \"Great. I'll um, book another appointment, to see you soon. Uh, , once you've had your adventure.\"] OK. That is perfect. Thank you so much.",
+    "[Clinician asked: \"No problems. Do you have any questions for me?\"] Uh, no questions. I'll just await the ambulance.",
+    "[Clinician asked: \"Great, thank you very much.\"] No problems. I'll speak to you soon.",
+    "[Clinician asked: \"Bye bye.\"] Thank you so much. Bye."
+  ],
+  "gold_note": "PC: acute onset left sided chest discomfort / pressure, feels like someone sitting on his chest 7/10, radiating to the left shoulder and arm.\n1-2 hours in duration, acute onset, 1st presentation started while gardening.\nNo radiation to the head. \n\u2105 nausea no vomiting since presentation\nSOBAR\n\nHPC. longer term hx of reduced ADLs due to SOBOE, walking up hills / stairs with no chest discomfort. \n\nPMHx - high cholesterol and high blood pressure. \n\n\nDHx - allergies aspirin.\n\nSHx - lives with wife at home, able to walk up stairs until previously\n\nDDx - MI, PE, GORD\n\nPlan - called ambulance ?? MI for further investigation and assessment.",
+  "gold_sections": {
+    "PRESENTING_COMPLAINT": "I'm having chest discomfort",
+    "HIGHLIGHTS": ""
+  },
+  "n_patient_turns": 55,
+  "n_clinician_turns": 56,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 20411.69821470976,
+      "response_text": "I'm really concerned about your symptoms, especially the chest discomfort, shortness of breath, and pain in your left arm, given your history of high blood pressure and cholesterol. I strongly recommend calling an ambulance immediately to get to the hospital, as these symptoms could indicate a serious heart issue. While waiting, stay calm, avoid eating or drinking, and let me know if you have any other symptoms. I'll keep in touch with the hospital team and follow up once you're seen. Please don't worry; the medical team will take good care of you.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 27594.733007252216,
+      "response_text": "Thank you for sharing your concerns with me, Joe. It makes sense that you're feeling worried given the chest discomfort and other symptoms you're experiencing. I can understand how unsettling this must be, especially since it came on suddenly while you were gardening, an activity you usually manage well.\n\nGiven your history of high blood pressure and high cholesterol, it's important to consider potential cardiac causes for your symptoms. The chest pressure, shortness of breath, and nausea could indicate something serious, like angina or a heart-related issue. I'm concerned about the left shoulder and arm pain as well, as that can sometimes be related to heart problems. While I don't have the exact PMIDs at hand, studies suggest that such symptoms warrant thorough evaluation [PMID ?].\n\nOur next steps are to ensure you receive immediate medical attention. I've arranged for an ambulance to come, and the paramedics will assess your condition and monitor vital signs. At the hospital, you'll be seen quickly by a specialist who will likely recommend tests to evaluate your heart and lungs.\n\nIn the meantime, stay calm, and if you feel the need, take small sips of water. Avoid any medications unless directed. The paramedics will keep me updated, and I'll schedule another appointment for when you're back home.\n\nBefore we conclude, could you summarize the plan in your own words to ensure everything is clear? This will help confirm that we're aligned on the next steps. I'm here to support you through this, and we'll follow up closely once you've been evaluated.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 9524.925597012043,
+      "response_text": "Thank you for sharing your concerns with me. I understand that you're experiencing chest discomfort and shortness of breath, which you described as feeling like someone is sitting on your chest. It's important that we address these symptoms carefully.\n\nWe'll arrange for an ambulance to come to your address as soon as possible. The paramedics will assess your condition and transport you to the hospital for further evaluation, particularly focusing on your heart and lungs.\n\nCan you tell me, in your own words, what we're going to do next and why it's important?\n\nOnce you're at the hospital, the consultant will contact me to update me on your condition. I'll then schedule another appointment for you to continue our care.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns with me. I understand that you're experiencing chest discomfort and shortness of breath, which you described as feeling like someone is sitting on your chest. It's important that we address these symptoms carefully.",
+        "clinical_information_per_concern": [],
+        "next_steps": [
+          "We'll arrange for an ambulance to come to your address as soon as possible. The paramedics will assess your condition and transport you to the hospital for further evaluation, particularly focusing on your heart and lungs."
+        ],
+        "teach_back_prompt": "Can you tell me, in your own words, what we're going to do next and why it's important?",
+        "follow_up_invitation": "Once you're at the hospital, the consultant will contact me to update me on your condition. I'll then schedule another appointment for you to continue our care.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 165247.71044403315,
+      "response_text": "I understand you're experiencing chest discomfort, which is a serious concern. Let's address this first.\n\nChest discomfort can be caused by various issues, and given its sudden onset and severity, it's important to rule out serious conditions. We'll start with some tests to understand what's going on.\n\nHigh cholesterol can be managed with lifestyle changes and medications. We'll monitor your levels and work on a plan to keep them in check.\n\nHigh blood pressure requires ongoing management. We'll review your blood pressure readings and adjust your treatment plan as needed.\n\nWe'll prioritize evaluating your chest discomfort with immediate tests to rule out serious conditions.\n\nFor your high cholesterol and high blood pressure, we'll schedule follow-up appointments to review your management plan.\n\nPlease monitor your symptoms and report any changes immediately.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 2 weeks. In the meantime, if your chest discomfort worsens or if you experience any new symptoms like dizziness or shortness of breath, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I understand you're experiencing chest discomfort, which is a serious concern. Let's address this first.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "chest discomfort",
+            "profile_path": "problems[0]",
+            "explanation": "Chest discomfort can be caused by various issues, and given its sudden onset and severity, it's important to rule out serious conditions. We'll start with some tests to understand what's going on.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::40684090",
+                "primary_assertion_id": "40684090_retr",
+                "pmids": [
+                  "40684090"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "high cholesterol",
+            "profile_path": "problems[1]",
+            "explanation": "High cholesterol can be managed with lifestyle changes and medications. We'll monitor your levels and work on a plan to keep them in check.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::40759522",
+                "primary_assertion_id": "40759522_retr",
+                "pmids": [
+                  "40759522"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "hypertension",
+            "profile_path": "problems[2]",
+            "explanation": "High blood pressure requires ongoing management. We'll review your blood pressure readings and adjust your treatment plan as needed.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::32866417",
+                "primary_assertion_id": "32866417_retr",
+                "pmids": [
+                  "32866417"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll prioritize evaluating your chest discomfort with immediate tests to rule out serious conditions.",
+          "For your high cholesterol and high blood pressure, we'll schedule follow-up appointments to review your management plan.",
+          "Please monitor your symptoms and report any changes immediately."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 2 weeks. In the meantime, if your chest discomfort worsens or if you experience any new symptoms like dizziness or shortness of breath, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Demonstrate empathy",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "retrieval_only::40684090",
+          "retrieval_only::40759522",
+          "retrieval_only::32866417"
+        ],
+        "all_pmids_used": [
+          "40684090",
+          "40759522",
+          "32866417"
+        ],
+        "glossary_substitutions": [
+          {
+            "field": "next_steps[1]",
+            "original": "hypertension",
+            "plain": "high blood pressure",
+            "count": 1
+          },
+          {
+            "field": "clinical_information_per_concern[2].explanation",
+            "original": "hypertension",
+            "plain": "high blood pressure",
+            "count": 1
+          }
+        ]
+      },
+      "profile_summary": {
+        "n_problems": 3,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 1,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "chest discomfort",
+          "high cholesterol",
+          "hypertension"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "40684090",
+        "40759522",
+        "32866417"
+      ],
+      "cluster_ids_used": [
+        "retrieval_only::40684090",
+        "retrieval_only::40759522",
+        "retrieval_only::32866417"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Demonstrate empathy",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 202684.15065854788,
+      "response_text": "I understand you're experiencing chest discomfort, which is a red flag that needs immediate attention.\n\nChest discomfort can be a sign of serious issues. We'll need to do some tests to figure out what's going on.\n\nHigh cholesterol can be managed with lifestyle changes and medications. We'll monitor your levels and discuss options.\n\nHigh blood pressure is a common condition that requires ongoing management. We'll review your blood pressure readings and adjust your treatment plan as needed.\n\nGiven the chest discomfort, we'll prioritize ordering some tests to rule out serious conditions.\n\nWe'll schedule a follow-up visit to review the test results and discuss management plans for your high cholesterol and high blood pressure.\n\nIn the meantime, continue monitoring your symptoms and let us know if they worsen.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if your chest discomfort gets worse or you experience any new symptoms, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I understand you're experiencing chest discomfort, which is a red flag that needs immediate attention.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "chest discomfort",
+            "profile_path": "problems[0]",
+            "explanation": "Chest discomfort can be a sign of serious issues. We'll need to do some tests to figure out what's going on.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[0]::37567752_0",
+                "primary_assertion_id": "37567752_0",
+                "pmids": [
+                  "37567752"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "high cholesterol",
+            "profile_path": "problems[1]",
+            "explanation": "High cholesterol can be managed with lifestyle changes and medications. We'll monitor your levels and discuss options.",
+            "citations": [
+              {
+                "cluster_id": "finding::global::40759522_0",
+                "primary_assertion_id": "40759522_0",
+                "pmids": [
+                  "40759522"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "hypertension",
+            "profile_path": "problems[2]",
+            "explanation": "High blood pressure is a common condition that requires ongoing management. We'll review your blood pressure readings and adjust your treatment plan as needed.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[2]::32866417_0",
+                "primary_assertion_id": "32866417_0",
+                "pmids": [
+                  "32866417"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "Given the chest discomfort, we'll prioritize ordering some tests to rule out serious conditions.",
+          "We'll schedule a follow-up visit to review the test results and discuss management plans for your high cholesterol and high blood pressure.",
+          "In the meantime, continue monitoring your symptoms and let us know if they worsen."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if your chest discomfort gets worse or you experience any new symptoms, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Demonstrate empathy",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[0]::37567752_0",
+          "finding::global::40759522_0",
+          "finding::sub_query[2]::32866417_0"
+        ],
+        "all_pmids_used": [
+          "37567752",
+          "40759522",
+          "32866417"
+        ],
+        "glossary_substitutions": [
+          {
+            "field": "next_steps[1]",
+            "original": "hypertension",
+            "plain": "high blood pressure",
+            "count": 1
+          },
+          {
+            "field": "clinical_information_per_concern[2].explanation",
+            "original": "hypertension",
+            "plain": "high blood pressure",
+            "count": 1
+          }
+        ]
+      },
+      "profile_summary": {
+        "n_problems": 3,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 1,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "chest discomfort",
+          "high cholesterol",
+          "hypertension"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "37567752",
+        "40759522",
+        "32866417"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[0]::37567752_0",
+        "finding::global::40759522_0",
+        "finding::sub_query[2]::32866417_0"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Demonstrate empathy",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 142838.6420533061,
+        "module_2_retrieval": 68.65251064300537,
+        "module_3_reasoning": 31502.243861556053,
+        "module_4_response": 28273.426704108715,
+        "total_ms": 202682.96512961388
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

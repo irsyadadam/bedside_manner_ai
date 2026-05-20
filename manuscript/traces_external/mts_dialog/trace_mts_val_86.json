@@ -1,0 +1,215 @@
+{
+  "transcript_id": "mts_val_86",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "Please see history of present illness",
+  "patient_utterances": [
+    "[Clinician asked: \"Have you had any thoughts of harming yourself or others?\"] I've had thoughts of not wanting to be alive anymore but no plans of actually hurting myself. And absolutely no desire to hurt others.",
+    "[Clinician asked: \"Are you feeling suicidal right now?\"] No, not right now.",
+    "[Clinician asked: \"Do you see a therapist or psychiatrist for this?\"] No.",
+    "[Clinician asked: \"Are you having any other symptoms, such as chest pain or shortness of breath?\"] Nah.",
+    "[Clinician asked: \"Any nausea or vomiting?\"] No.",
+    "[Clinician asked: \"How about numbness, weakness, or any tingling?\"] No."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "ROS": "Please see history of present illness. Psychiatric:  She has had some suicidal thoughts, but no plans.  She denies being suicidal at the current time. Cardiopulmonary:  She has not had any chest pain or shortness of breath. GI:  Denies any nausea or vomiting. Neurological:  No numbness, weakness or tingling."
+  },
+  "n_patient_turns": 6,
+  "n_clinician_turns": 7,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 13764.90542292595,
+      "response_text": "I'm really sorry to hear you're feeling this way. It can be incredibly tough to cope with these emotions, and it's important to acknowledge how brave you are for reaching out and being honest about your feelings. While you don't have plans to harm yourself right now, it's still crucial to take care of your mental health. Have you considered talking to a therapist or psychiatrist? They can provide you with the support and tools you need to navigate these feelings. If you're open to it, we can explore some options together. In the meantime, if you feel overwhelmed, please reach out to a trusted friend, family member, or a helpline. You're not alone in this, and there are people who care and want to help.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 23116.006590425968,
+      "response_text": "Thank you for sharing that with me\u2014it\u2019s clear how difficult this must be for you. It\u2019s completely understandable to feel overwhelmed and to have thoughts of not wanting to be alive. These feelings can be really isolating, but you\u2019re not alone in this.\n\nGiven what you\u2019ve shared, I want to make sure we\u2019re taking this seriously and supporting you through it. Since you\u2019re not feeling suicidal right now, but these thoughts have been persistent, it might be helpful to explore some strategies to manage these feelings and build a safety net around you. We could consider connecting you with a mental health professional who specializes in these concerns, or even exploring some therapy options that could help you work through these thoughts.\n\nIn the meantime, let\u2019s schedule a follow-up in 1-2 weeks to check in on how you\u2019re feeling and to ensure you\u2019re safe. Before you leave, could you summarize what we\u2019ve discussed so far? That way, I can make sure everything makes sense to you.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7379.866823554039,
+      "response_text": "Thank you for sharing your thoughts and feelings with me. I understand that you're going through a tough time, and I'm here to support you.\n\nWe should schedule a follow-up appointment to discuss your feelings further and explore additional support options.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to meet again soon. If you feel your symptoms worsen or have any urgent concerns, please reach out immediately.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your thoughts and feelings with me. I understand that you're going through a tough time, and I'm here to support you.",
+        "clinical_information_per_concern": [],
+        "next_steps": [
+          "We should schedule a follow-up appointment to discuss your feelings further and explore additional support options."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to meet again soon. If you feel your symptoms worsen or have any urgent concerns, please reach out immediately.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 43084.53577756882,
+      "response_text": "I can hear how much this is weighing on you \u2014 you mentioned, \"I've had thoughts of not wanting to be alive anymore,\" and I want to take this very seriously.\n\nGiven the thoughts you've shared, it's important we take immediate steps. We'll connect you with the appropriate resources and support right away.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to follow up as soon as possible to review the resources and support options. In the meantime, if you need immediate help, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this is weighing on you \u2014 you mentioned, \"I've had thoughts of not wanting to be alive anymore,\" and I want to take this very seriously.",
+        "clinical_information_per_concern": [],
+        "next_steps": [
+          "Given the thoughts you've shared, it's important we take immediate steps. We'll connect you with the appropriate resources and support right away."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to follow up as soon as possible to review the resources and support options. In the meantime, if you need immediate help, please call us right away.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Demonstrate empathy",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 0,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 1,
+        "n_emotional": 1,
+        "n_goals": 0,
+        "problems": [],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Demonstrate empathy",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 90021.60385251045,
+      "response_text": "I can hear how much this is weighing on you \u2014 you mentioned, \"I've had thoughts of not wanting to be alive anymore.\" That's incredibly serious, and I want to make sure we address it right now.\n\nResearch shows that cognitive-behavioral therapy (CBT) with a focus on understanding and changing thought patterns can significantly reduce the risk of suicide attempts. This approach helps identify and address the underlying factors contributing to these thoughts.\n\nGiven the seriousness of these thoughts, we need to take immediate action. I'll connect you with a mental health professional right away to start the necessary support and therapy.\n\nWe'll also schedule a follow-up appointment in the next few days to ensure you have the support you need and to monitor your progress.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few days. In the meantime, if you feel your situation gets worse or if you have any urgent concerns, please call us immediately \u2014 don't wait.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this is weighing on you \u2014 you mentioned, \"I've had thoughts of not wanting to be alive anymore.\" That's incredibly serious, and I want to make sure we address it right now.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "suicidal ideation",
+            "profile_path": "red_flags[0]",
+            "explanation": "Research shows that cognitive-behavioral therapy (CBT) with a focus on understanding and changing thought patterns can significantly reduce the risk of suicide attempts. This approach helps identify and address the underlying factors contributing to these thoughts.",
+            "citations": [
+              {
+                "cluster_id": "finding::red_flags[0]::41264269_0",
+                "primary_assertion_id": "41264269_0",
+                "pmids": [
+                  "41264269"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "Given the seriousness of these thoughts, we need to take immediate action. I'll connect you with a mental health professional right away to start the necessary support and therapy.",
+          "We'll also schedule a follow-up appointment in the next few days to ensure you have the support you need and to monitor your progress."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few days. In the meantime, if you feel your situation gets worse or if you have any urgent concerns, please call us immediately \u2014 don't wait.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Demonstrate empathy",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::red_flags[0]::41264269_0"
+        ],
+        "all_pmids_used": [
+          "41264269"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 0,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 1,
+        "n_emotional": 1,
+        "n_goals": 0,
+        "problems": [],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "41264269"
+      ],
+      "cluster_ids_used": [
+        "finding::red_flags[0]::41264269_0"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Demonstrate empathy",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 34244.06139552593,
+        "module_2_retrieval": 53.55489253997803,
+        "module_3_reasoning": 36751.276679337025,
+        "module_4_response": 18971.087850630283,
+        "total_ms": 90019.98081803322
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

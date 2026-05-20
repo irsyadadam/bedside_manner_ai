@@ -1,0 +1,320 @@
+{
+  "transcript_id": "primock57_day4_consultation03",
+  "dataset": "primock57",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "I'm feeling short of breath",
+  "patient_utterances": [
+    "[Clinician asked: \"Hi.\"] Hey.",
+    "[Clinician asked: \"Hi. Can you hear me?\"] Yeah. I can hear you.",
+    "[Clinician asked: \"Good. Um, my name is Doctor Gohil. I'm one of the physicians that works here at Babylon.\"] OK.",
+    "[Clinician asked: \"May I confirm your name and date of birth, please?\"] Uh, uh, my name is Sarah Smith. And, my date of birth is the twentieth of April nineteen eighty.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/>\"] Great.",
+    "[Clinician asked: \"Nineteen eighty three. And, are you in a space that's private and quiet, and you can talk?\"] Yeah. <INAUDIBLE_SPEECH/> Yeah.",
+    "[Clinician asked: \"Good. So, it says, erm, I've got a note to say, it says you're feeling short of breath. Is that correct?\"] Yeah, yeah.",
+    "[Clinician asked: \"OK. Are you able to tell me a little bit more about that?\"] Yeah. I was watching TV and, um, just like over the last hour, I've started to feel, like, a bit short of breath.",
+    "[Clinician asked: \"That is, while you're sitting watching TV?\"] Yeah.",
+    "[Clinician asked: \"OK. And, have you noticed anything like this before?\"] Um, no.",
+    "[Clinician asked: \"OK. And, apart from the shortness of breath, have you noticed anything else?\"] Um, so, I , I started with a cough yesterday.",
+    "[Clinician asked: \"OK.\"] Um. Yeah. I, I don't know if it's, um, relevant, but I had a C-section a few weeks ago.",
+    "[Clinician asked: \"OK. And, how long ago was that? Just a few weeks?\"] Yeah, four weeks.",
+    "[Clinician asked: \"OK. And, are you with baby at the moment?\"] Yes, I am.",
+    "[Clinician asked: \"And, how is baby doing?\"] Yeah. <INAUDIBLE_SPEECH/>.",
+    "[Clinician asked: \"OK. Any coughs or colds with, uh, them?\"] No, no. He's fine.",
+    "[Clinician asked: \"OK. So, you've noticed shortness of breath for just an hour, while sitting and watching TV?\"] Yep. Mm-hmm.",
+    "[Clinician asked: \"And, you had your C-section a couple of weeks ago?\"] Yeah.",
+    "[Clinician asked: \"And, yesterday you noticed a cough?\"] Yeah.",
+    "[Clinician asked: \"So, talk to me about the cough. Have you bought anything up?\"] Uh, no, I haven't, no.",
+    "[Clinician asked: \"And, when was the last time you were ill with the flu, or symptoms like this?\"] Um, you know, I get coughs and colds quite a lot, but probably. Good few months ago.",
+    "[Clinician asked: \"OK. And, this shortness of breath you're having, is it getting worse?\"] Um. No. I mean, I don't know. I feel like I'm getting really stressed out because, like, my heart, it's really going.",
+    "[Clinician asked: \"OK. So, you're feeling your heart more than normal?\"] Yeah.",
+    "[Clinician asked: \"And, the shortness of breath, does it cause any pain in your chest?\"] Um, no.",
+    "[Clinician asked: \"How about when you take a very deep breath in?\"] Um, I mean, yeah. My chest feels sore, but so does my C-section scar. You know, it's, it's all tender.",
+    "[Clinician asked: \"OK. And, since your C-section, did you have to take any medications?\"] Um, no. Just some painkillers.",
+    "[Clinician asked: \"All right. And, can you remember what the name of those were?\"] Uh, they gave me some, uh, Codeine.",
+    "[Clinician asked: \"And, have you had to use that regularly?\"] Uh, yeah. I, I've been taking that fairly, fairly regularly. But, probably haven't taken it for a week.",
+    "[Clinician asked: \"OK. And, apart from the C-section and the shortness of breath, have you got any other medical problems I should know about?\"] Yeah. Um, no.",
+    "[Clinician asked: \"And, you were <INAUDIBLE_SPEECH/>.\"] <INAUDIBLE_SPEECH/> tell you, I'm allergic to Ibuprofen, though.",
+    "[Clinician asked: \"OK. And, what happens when you take Ibuprofen?\"] Um. I don't know. Sorry.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/> So, I need you to do something for me. Have you measured the rate of your heart before?\"] Uh, yes.",
+    "[Clinician asked: \"Have you measured it recently, either with an iWatch or something similar?\"] No, I haven't, no.",
+    "[Clinician asked: \"OK. We might need to do that over the phone. So, are you able to put your right hand on your left wrist, just underneath your thumb? And, see if you can feel your heartbeat.\"] Yep. Yep.",
+    "[Clinician asked: \"So, uh, what I need you to do is, when I count to three, count down from three, just  count the number of beats you've noticed. And, I'll tell you when to stop. Is that OK?\"] Mm-hmm. Yep.",
+    "[Clinician asked: \"So, we'll start in three, two, one. Go. Great. That should be enough. How many did you count?\"] Uh, I counted thirty.",
+    "[Clinician asked: \"Good. So, your heart is running slightly fast at the moment, which is probably because of the shortness of breath and some of the pain that you're under.\"] Mm-hmm. OK.",
+    "[Clinician asked: \"Given that you've had a C-section, and you're short of breath, which has come on quite recently and quite quickly It might be worth you going into the hospital to get checked out the bit further.\"] OK.",
+    "[Clinician asked: \"So, there's two ways of us doing this. The first is, I can call an ambulance. Or, you can take yourself to the hospital with baby.\"] Mm-hmm.",
+    "[Clinician asked: \"Which one would you prefer?\"] Uh, it feels a bit dramatic to call an ambulance. Um, I, I will, I will go. I will, I will take myself.",
+    "[Clinician asked: \"Sure. And, what I would suggest is, go fairly quickly and take some bits for baby at the same time.\"] OK.",
+    "[Clinician asked: \"And, if you're taking any medications like Codeine, don't, don't take them for the time being.\"] Mm-hmm, OK.",
+    "[Clinician asked: \"Is anyone else with you at home?\"] Uh, no. My partner's at work.",
+    "[Clinician asked: \"OK. So, I think that's the best thing to do, for the time being.\"] Mm-hmm.",
+    "[Clinician asked: \"So, what I'm worried about at the moment is, given that you've had a C-section Some people can suffer with clots. And, those can either be found in the legs or your chest, so in your lungs.\"] Yeah.",
+    "[Clinician asked: \"It's quite a common thing to happen. And, it's not something to worry about. But, needs to be checked out in the hospital first.\"] OK.",
+    "[Clinician asked: \"And, if it, if that does become the case, they can give you something to reduce the clot.\"] All right, OK. That makes sense.",
+    "[Clinician asked: \"Fairly quick process.\"] OK. Yeah. I mean, my mum's had, uh, clots in her legs before. So, I guess, you know. Yeah, that makes sense. I know, I know what they are.",
+    "[Clinician asked: \"Good. Are you, uh, are you particularly worried about anything, or do you want to ask me anything, before we go?\"] No, no. I'm fine. I'll, uh, I'll just take myself to the hospital.",
+    "[Clinician asked: \"Great. Thank you so much.\"] All right. Thank you. Bye."
+  ],
+  "gold_note": "PC SOBAR, c section 2-3 weeks ago\n\nHPC;\nSOBAR while watching tv, acute onset.  Cough 1/7 previously, unproductive.\nNo fever, no chills, non positional.\nNo chest pain, no pain on inspiration\n\nC section 2-3 weeks ago. No complications, baby well.  No symptoms.\nNo of blood thinners.\n\n\nPMHx nill\nDhx. allergies to ibuprofen \n\n\nOex HR via telephone roughly 120bpm . tachy, regular\n\n\nFHx,\nMother hx of clots on legs.\n\nDDx: PE\n\nPlan : Further examination and investigation in acute setting.",
+  "gold_sections": {
+    "PRESENTING_COMPLAINT": "I'm feeling short of breath",
+    "HIGHLIGHTS": ""
+  },
+  "n_patient_turns": 50,
+  "n_clinician_turns": 51,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 19357.904210686684,
+      "response_text": "Sarah, I understand how concerning this must be for you, especially after your recent C-section. It's completely understandable to feel anxious, but please know that we're taking the right steps to ensure your health and safety. Going to the hospital will allow us to check everything thoroughly and make sure there are no underlying issues, like blood clots, which can be serious but are treatable.\n\nYou're right that calling an ambulance might seem dramatic, but taking yourself to the hospital is a responsible decision. Just make sure to bring any medications you're taking, like Codeine, and any relevant information from your C-section. Since your partner is at work, if you need help, please don't hesitate to ask a neighbor or someone else. \n\nRemember, we're here to support you, and this is just a precaution. I'll be thinking about you and hope everything goes smoothly at the hospital. Take care, and let me know if you need anything else before you go.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 23261.42181456089,
+      "response_text": "Thank you for sharing your concerns with me, Sarah. It makes sense that you're feeling anxious given the recent onset of shortness of breath following your C-section. I can understand how unsettling this must be, especially with a new baby at home.\n\nGiven your recent surgery and the symptoms you're experiencing\u2014shortness of breath, a cough, and a slightly elevated heart rate\u2014we need to consider a few possibilities. Post-C-section complications like infections or blood clots are not uncommon, and it's important to rule these out. Your heart rate being a bit fast could be due to the body's response to pain or stress.\n\nI recommend you go to the hospital to be evaluated. I can call an ambulance if you prefer, or you can take yourself there. The doctors will likely check for infections or clots and ensure everything is okay. It's better to be safe and get the care you need.\n\nWe'll keep in touch in the next few days. Could you summarize what we've discussed so far to make sure you're clear on the plan?",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 8205.32539486885,
+      "response_text": "Thank you for sharing your concerns with me. I understand that you're feeling short of breath and have noticed a cough recently, especially since your C-section a few weeks ago.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few days. If your symptoms get worse or if you start having trouble breathing, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns with me. I understand that you're feeling short of breath and have noticed a cough recently, especially since your C-section a few weeks ago.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few days. If your symptoms get worse or if you start having trouble breathing, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 147078.2884284854,
+      "response_text": "It sounds like you're experiencing some concerning symptoms over the last hour, including shortness of breath and a cough that started yesterday. I want to understand how these symptoms are affecting you.\n\nShortness of breath can be caused by a variety of issues, and it's important to evaluate it carefully. Recent studies suggest that respiratory symptoms often impact quality of life and may require specific management strategies.\n\nA cough that started yesterday could be related to a respiratory infection or other underlying issues. Research indicates that identifying the cause early can help manage symptoms effectively.\n\nWe'll monitor your symptoms closely and may recommend further evaluation to determine the cause of your shortness of breath and cough.\n\nPlease keep track of any changes in your symptoms and let us know if they worsen.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to check in again in a week. If your symptoms get worse or if you develop any new ones like chest pain or high fever, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're experiencing some concerning symptoms over the last hour, including shortness of breath and a cough that started yesterday. I want to understand how these symptoms are affecting you.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "shortness of breath",
+            "profile_path": "problems[0]",
+            "explanation": "Shortness of breath can be caused by a variety of issues, and it's important to evaluate it carefully. Recent studies suggest that respiratory symptoms often impact quality of life and may require specific management strategies.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::38719772",
+                "primary_assertion_id": "38719772_retr",
+                "pmids": [
+                  "38719772"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "cough",
+            "profile_path": "problems[1]",
+            "explanation": "A cough that started yesterday could be related to a respiratory infection or other underlying issues. Research indicates that identifying the cause early can help manage symptoms effectively.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::38521534",
+                "primary_assertion_id": "38521534_retr",
+                "pmids": [
+                  "38521534"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll monitor your symptoms closely and may recommend further evaluation to determine the cause of your shortness of breath and cough.",
+          "Please keep track of any changes in your symptoms and let us know if they worsen."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to check in again in a week. If your symptoms get worse or if you develop any new ones like chest pain or high fever, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "retrieval_only::38719772",
+          "retrieval_only::38521534"
+        ],
+        "all_pmids_used": [
+          "38719772",
+          "38521534"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 2,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "shortness of breath",
+          "cough"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "38719772",
+        "38521534"
+      ],
+      "cluster_ids_used": [
+        "retrieval_only::38719772",
+        "retrieval_only::38521534"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 276835.7650190592,
+      "response_text": "It sounds like you're here because you've been experiencing some concerning symptoms \u2014 shortness of breath and a cough that started yesterday. I want to make sure I understand how these symptoms are affecting your daily life.\n\nFor shortness of breath, we can explore several approaches to help manage your symptoms. Graded exercise therapy is often suggested to help manage breathing difficulties, along with techniques like using a handheld fan and practicing breathing exercises.\n\nRegarding your cough, we'll consider approaches that focus on symptom management. This might include avoiding certain medications like opioids, which aren't recommended for this situation, and exploring other strategies to help ease your symptoms.\n\nWe'll start by assessing your symptoms in more detail to understand what might be causing them.\n\nBased on that assessment, we may recommend specific exercises or techniques to help manage your shortness of breath and cough.\n\nWe'll also review any medications you're taking to ensure they're appropriate and not contributing to your symptoms.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to check in again in a week to see how you're doing. If your symptoms get worse or if you develop any new ones like fever or chest pain, please reach out sooner.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're here because you've been experiencing some concerning symptoms \u2014 shortness of breath and a cough that started yesterday. I want to make sure I understand how these symptoms are affecting your daily life.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "shortness of breath",
+            "profile_path": "problems[0]",
+            "explanation": "For shortness of breath, we can explore several approaches to help manage your symptoms. Graded exercise therapy is often suggested to help manage breathing difficulties, along with techniques like using a handheld fan and practicing breathing exercises.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::problems[0]::38719772_0",
+                "primary_assertion_id": "38719772_0",
+                "pmids": [
+                  "38719772"
+                ]
+              },
+              {
+                "cluster_id": "recommendation::problems[0]::38719772_1",
+                "primary_assertion_id": "38719772_1",
+                "pmids": [
+                  "38719772"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "cough",
+            "profile_path": "problems[1]",
+            "explanation": "Regarding your cough, we'll consider approaches that focus on symptom management. This might include avoiding certain medications like opioids, which aren't recommended for this situation, and exploring other strategies to help ease your symptoms.",
+            "citations": [
+              {
+                "cluster_id": "contraindication::problems[0]::38719772_2",
+                "primary_assertion_id": "38719772_2",
+                "pmids": [
+                  "38719772"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll start by assessing your symptoms in more detail to understand what might be causing them.",
+          "Based on that assessment, we may recommend specific exercises or techniques to help manage your shortness of breath and cough.",
+          "We'll also review any medications you're taking to ensure they're appropriate and not contributing to your symptoms."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to check in again in a week to see how you're doing. If your symptoms get worse or if you develop any new ones like fever or chest pain, please reach out sooner.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "recommendation::problems[0]::38719772_0",
+          "recommendation::problems[0]::38719772_1",
+          "contraindication::problems[0]::38719772_2"
+        ],
+        "all_pmids_used": [
+          "38719772"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 2,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "shortness of breath",
+          "cough"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "38719772"
+      ],
+      "cluster_ids_used": [
+        "recommendation::problems[0]::38719772_0",
+        "recommendation::problems[0]::38719772_1",
+        "contraindication::problems[0]::38719772_2"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 130984.79891568422,
+        "module_2_retrieval": 67.51646101474762,
+        "module_3_reasoning": 114940.38943201303,
+        "module_4_response": 30841.85939282179,
+        "total_ms": 276834.5642015338
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

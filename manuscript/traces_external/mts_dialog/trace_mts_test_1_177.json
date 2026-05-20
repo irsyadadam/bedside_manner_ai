@@ -1,0 +1,256 @@
+{
+  "transcript_id": "mts_test_1_177",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "This is a 55-year-old female with a history of stroke, who presents today for followup of frequency and urgency with urge incontinence",
+  "patient_utterances": [
+    "[Clinician asked: \"Good afternoon, and who is this with you today?\"] This is my power of attorney, doctor.",
+    "[Clinician asked: \"Do you have any major medical conditions that I should know about, ma'am?\"] Well, I'm fifty five, and I've had a stroke.",
+    "[Clinician asked: \"Okay, thank you. So, what brings you in for a visit today?\"] I have the urge to use the bathroom all the time.",
+    "[Clinician asked: \"Do you ever pee on yourself because of this?\"] I have.",
+    "[Clinician asked: \"Has this problem been getting worse?\"] Yes, it has been recently.",
+    "[Clinician asked: \"What medications have you taken for this?\"] I've had VESIcare, but it hasn't improved yet. I'm taking Enablex right now.",
+    "[Clinician asked: \"Have you had any improvement with that?\"] No, not yet.",
+    "[Clinician asked: \"Has the nursing home done a voiding diary?\"] No, they haven't done that either.",
+    "[Clinician asked: \"Are you having any blood in the urine, or pain with urination?\"] No, thankfully I'm not.",
+    "[Clinician asked: \"How about fever or chills?\"] No, none of that either?",
+    "[Clinician asked: \"What about bowel issues?\"] No, but I go through several pairs of Depends a day.",
+    "[Clinician asked: \"Okay, and I'm looking at the results of your urodynamics from April of two thousand eight, which we did in the office.\"] What does that show, doctor?"
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "HPI": "This is a 55-year-old female with a history of stroke, who presents today for followup of frequency and urgency with urge incontinence.  This has been progressively worsening, and previously on VESIcare with no improvement.  She continues to take Enablex 50 mg and has not noted any improvement of her symptoms.  The nursing home did not do a voiding diary.  She is accompanied by her power of attorney.  No dysuria, gross hematuria, fever or chills.  No bowel issues and does use several Depends a day. Recent urodynamics in April 2008, here in the office, revealed significant detrusor instability with involuntary urinary incontinence and low bladder volumes, and cystoscopy was unremarkable."
+  },
+  "n_patient_turns": 12,
+  "n_clinician_turns": 13,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 15924.485050141811,
+      "response_text": "Hello [Patient's Name],\n\nThank you for sharing your concerns with me. I understand how challenging it must be to deal with this issue, and I'm here to help you find a solution. It's important that we work together to address this discomfort and improve your daily life.\n\nNext, we should focus on understanding your patterns better by completing a voiding diary, which will give us more insight into your condition. Additionally, reviewing your 2008 urodynamics results will help us see if there are any previous findings that can guide our current treatment approach. We may consider adjusting your medications, adding a new one, or exploring other options like pelvic floor exercises or devices. Let's move forward together to find the right approach for you.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 25682.00622498989,
+      "response_text": "Thank you for sharing all this with me. It sounds like you're experiencing a lot of discomfort and frustration with your urinary symptoms, especially since they've been getting worse and the medications you've tried haven't provided relief. I can understand how concerning this must be, especially given your stroke history. It's important that we work together to find a solution that can improve your comfort and quality of life.\n\nGiven your symptoms of constant urge to urinate and incontinence, along with the lack of response to VESIcare and Enablex, we might need to explore other treatment options. Overactive bladder is a common condition, and after a stroke, there can be additional neurological factors at play. We might consider adjusting your medication, trying bladder training, or exploring pelvic floor exercises. Additionally, reviewing your urodynamics from 2008 could provide valuable insights into your bladder function.\n\nTo better understand your patterns, I recommend keeping a voiding diary to track your fluid intake, bathroom habits, and any episodes of incontinence. This can help us tailor our approach more effectively. We'll plan to follow up in 2-4 weeks to reassess your symptoms and adjust your treatment plan as needed.\n\nBefore you leave, could you summarize what we've discussed today in your own words? This will help ensure you feel confident in our approach and any next steps we've agreed upon.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6968.159981071949,
+      "response_text": "Thank you for sharing your concerns with me today. It sounds like the frequent urge to use the bathroom and incidents of incontinence are significantly impacting your daily life.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if the urge to use the bathroom becomes more frequent or if you experience any new symptoms, please reach out to us.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns with me today. It sounds like the frequent urge to use the bathroom and incidents of incontinence are significantly impacting your daily life.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if the urge to use the bathroom becomes more frequent or if you experience any new symptoms, please reach out to us.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 104474.61839020252,
+      "response_text": "It sounds like you're dealing with some challenges with your urinary symptoms. You mentioned experiencing urinary urgency and frequent urination, which are concerning.\n\nUrinary urgency can be caused by several factors, including overactive bladder or side effects from medications you're taking like VESIcare and Enablex. It's important to review your current treatment plan to ensure it's effective for your symptoms.\n\nFrequent urination can be related to conditions like overactive bladder or issues with how your body processes fluids. Given that you're not currently on any medications for this, we should explore whether adjusting your treatment or identifying any underlying causes might help.\n\nWe'll review your current medications and their effectiveness in managing your symptoms.\n\nWe'll schedule a follow-up visit to discuss potential adjustments to your treatment plan.\n\nIf your symptoms worsen or if you experience any new issues, please reach out as soon as possible.\n\nI want to make sure I explained this clearly. Can you tell me, in your own words, what we discussed and what steps we'll be taking next?\n\nLet's plan to see each other again in a few weeks. In the meantime, if your symptoms get worse or you notice anything unusual, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're dealing with some challenges with your urinary symptoms. You mentioned experiencing urinary urgency and frequent urination, which are concerning.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "urinary urgency",
+            "profile_path": "problems[0]",
+            "explanation": "Urinary urgency can be caused by several factors, including overactive bladder or side effects from medications you're taking like VESIcare and Enablex. It's important to review your current treatment plan to ensure it's effective for your symptoms.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::35833228",
+                "primary_assertion_id": "35833228_retr",
+                "pmids": [
+                  "35833228"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "frequent urination",
+            "profile_path": "problems[1]",
+            "explanation": "Frequent urination can be related to conditions like overactive bladder or issues with how your body processes fluids. Given that you're not currently on any medications for this, we should explore whether adjusting your treatment or identifying any underlying causes might help.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::35833228",
+                "primary_assertion_id": "35833228_retr",
+                "pmids": [
+                  "35833228"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll review your current medications and their effectiveness in managing your symptoms.",
+          "We'll schedule a follow-up visit to discuss potential adjustments to your treatment plan.",
+          "If your symptoms worsen or if you experience any new issues, please reach out as soon as possible."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly. Can you tell me, in your own words, what we discussed and what steps we'll be taking next?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if your symptoms get worse or you notice anything unusual, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "retrieval_only::35833228"
+        ],
+        "all_pmids_used": [
+          "35833228"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 2,
+        "n_medications": 2,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "urinary urgency",
+          "frequent urination"
+        ],
+        "medications": [
+          "VESIcare (current)",
+          "Enablex (current)"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [
+        "35833228"
+      ],
+      "cluster_ids_used": [
+        "retrieval_only::35833228"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 148998.51912260056,
+      "response_text": "It sounds like you're concerned about your frequent urination, which you describe as happening all the time. I want to make sure I understand your concerns and work together to address them.\n\nFrequent urination can be linked to various conditions, and it's important to explore the underlying causes. Based on clinical guidelines, we'll look into potential reasons and tailor our approach to your specific situation.\n\nWe'll start by reviewing your current medications, VESIcare and Enablex, to see if they might be contributing to your symptoms.\n\nGiven that you're experiencing frequent urination, we'll consider scheduling some tests to better understand what's going on.\n\nWe'll also discuss any lifestyle factors that might be influencing your symptoms and explore practical steps to manage them.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to check in again in two weeks. If your symptoms worsen or if you notice any new issues like blood in your urine or severe pain, please reach out sooner.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're concerned about your frequent urination, which you describe as happening all the time. I want to make sure I understand your concerns and work together to address them.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "frequent urination",
+            "profile_path": "problems[0]",
+            "explanation": "Frequent urination can be linked to various conditions, and it's important to explore the underlying causes. Based on clinical guidelines, we'll look into potential reasons and tailor our approach to your specific situation.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[0]::35833228_0",
+                "primary_assertion_id": "35833228_0",
+                "pmids": [
+                  "35833228"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll start by reviewing your current medications, VESIcare and Enablex, to see if they might be contributing to your symptoms.",
+          "Given that you're experiencing frequent urination, we'll consider scheduling some tests to better understand what's going on.",
+          "We'll also discuss any lifestyle factors that might be influencing your symptoms and explore practical steps to manage them."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to check in again in two weeks. If your symptoms worsen or if you notice any new issues like blood in your urine or severe pain, please reach out sooner.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[0]::35833228_0"
+        ],
+        "all_pmids_used": [
+          "35833228"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 2,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "frequent urination"
+        ],
+        "medications": [
+          "VESIcare",
+          "Enablex"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [
+        "35833228"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[0]::35833228_0"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 75088.62198144197,
+        "module_2_retrieval": 38.20721060037613,
+        "module_3_reasoning": 56028.655759990215,
+        "module_4_response": 17841.52153879404,
+        "total_ms": 148997.0064908266
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

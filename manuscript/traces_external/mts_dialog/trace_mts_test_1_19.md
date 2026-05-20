@@ -1,0 +1,112 @@
+# External-dataset trace — `mts_test_1_19`
+
+- Dataset: **mts_dialog**
+- Mode: real
+- Speaker strategy: middle
+- # patient utterances: 10
+- Gold sections: ['HPI']
+
+## Patient utterances (first 3)
+1. [Clinician asked: "Nice to see you again, miss. I see your last visit was back on August tenth two thousand and four. How are you?"] Hi, doctor. Nice to see you again as well. I've been doing fine.
+2. [Clinician asked: "How is your husband doing?"] He's doing fine. Just working a lot.
+3. [Clinician asked: "Great! I hope the work isn't getting him too stressed out. Also, I need to fill out the ethnicity section in your paperwork; it seems to be missing. What ethnicity do you identify as?"] Oh, yes. I am white.
+... (7 more)
+
+## Gold sections
+### HPI
+
+The patient is a 49-year-old white female, established patient to Dermatology, last seen in the office on 08/10/2004.  She comes in today for reevaluation of her acne plus she has had what she calls a rash for the past two months now on her chest, stomach, neck, and back.  On examination, this is a flaring of her acne with small folliculitis lesions.  The patient has been taking amoxicillin 500 mg b.i.d. and using Tazorac cream 0.1, and her face is doing well, but she has been out of her medicine now for three days also.  She has also been getting photofacials at Healing Waters and was wondering about what we could offer as far as cosmetic procedures and skin care products, etc.  The patient is married.  She is a secretary.
+
+## Condition: `naive`
+
+_latency_: 16806 ms
+
+**Response**
+
+I understand your desire to look younger and achieve clearer, more youthful skin, and I commend you for taking proactive steps to improve your appearance. The treatments you're currently using, like the Amoxicillin and Tazorac cream, are working well for your acne, which is great progress. The photofacials you're receiving are also a good option, as they can help improve your skin's texture and tone.
+
+If you're looking for additional options to accelerate your results, we could consider other treatments, such as retinoids, which are known to improve skin clarity and reduce signs of aging. However, these can sometimes cause initial irritation, so it's important to introduce them gradually. We might also explore the possibility of chemical peels or laser therapy, but these treatments have their own set of considerations and potential side effects. It's important to approach these options with realistic expectations, as significant changes often take time.
+
+In the meantime, I encourage you to continue with your current regimen and maintain consistent skincare habits. Let's discuss any further options you're interested in during your next visit, and we can explore them together at a pace that feels comfortable for you.
+
+
+## Condition: `strong_prompt`
+
+_latency_: 28711 ms
+
+**Response**
+
+Thank you for sharing your concerns with me. It's completely understandable that you're worried about the rash you've been experiencing for the past two months. I can see how frustrating it must be, especially when you're already managing your acne and looking for ways to improve your skin's appearance.
+
+The rash on your chest, stomach, neck, and back could be related to your acne treatment or possibly an infection. Since you mentioned stopping your medication recently, it's possible that this contributed to the improvement in your acne, but it's important to continue with your current treatment as stopping abruptly might have other effects. I recommend staying on the Amoxicillin and Tazorac cream as prescribed, and we can adjust the treatment if needed based on how you respond.
+
+Regarding your desire for faster results, I understand the wish to look younger, and there are various treatments and products available. However, it's crucial to weigh the pros and cons of each option. Photofacials are a good choice, but we should also consider other treatments like retinoids or chemical peels. I'll discuss these options with you in more detail and help you decide what might work best for your skin.
+
+Before we finalize the plan, I want to make sure you're not experiencing any side effects from your current treatments. Could you also share your skincare routine with me? Consistency is key in managing skin conditions, so understanding your routine will help us fine-tune your care.
+
+In summary, we'll continue with your current treatment, possibly adjust it if necessary, explore other options for faster results, and schedule a follow-up in a few weeks to reassess your progress. Before you leave, could you explain the plan in your own words to ensure everything is clear?
+
+
+## Condition: `framework_only`
+
+_latency_: 6278 ms
+
+**Response**
+
+Nice to see you again. It sounds like you're managing your work stress well.
+
+I want to make sure I explained this clearly — can you tell me, in your own words, what we're going to do next and why?
+
+Let's plan to see each other again in 4 weeks. In the meantime, if you notice any changes in your skin or if your acne gets worse, please call us.
+
+_NURSE_: ['Support']
+_Four Habits_: ['Invest in the beginning', 'Invest in the end']
+
+## Condition: `retrieval_only`
+
+_latency_: 97023 ms
+
+**Extracted profile (summary)**
+```yaml
+n_problems: 2
+n_medications: 2
+n_allergies: 0
+n_red_flags: 0
+n_emotional: 1
+n_goals: 2
+problems:
+- acne
+- persistent rash
+medications:
+- Amoxicillin 500 mg twice a day
+- Tazorac cream 0.1%
+allergies: []
+```
+
+**Response**
+
+I can hear how frustrating this must be for you. You mentioned, "Yeah, it has, but I want a faster treatment," which shows how much you're hoping for quicker results.
+
+The fact that your acne is improving but you still want faster results is understandable. We'll look into ways to enhance your current treatment plan to see if we can speed things up.
+
+The rash you've been experiencing on your chest, stomach, neck, and back is something we need to address. We'll investigate possible causes and ensure that your treatment is appropriate for your situation.
+
+Your goal to achieve faster treatment for acne is important, and we'll work together to explore options that can help you reach this goal more quickly.
+
+Looking younger is something many people aspire to, and we'll consider how your current treatments and any new approaches can contribute to achieving this goal.
+
+We'll review your current treatment plan for acne and discuss any adjustments that could potentially speed up your results.
+
+We'll schedule a follow-up appointment to monitor the progress of your acne treatment and address any concerns you may have.
+
+We'll also assess the rash you've been experiencing to determine the underlying cause and recommend appropriate treatment options.
+
+I want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?
+
+Let's plan to see each other again in a few weeks. In the meantime, if your acne gets worse or if the rash changes in any way, please call us so we can address it promptly.
+
+_NURSE_: ['Name', 'Understand', 'Support']
+_Four Habits_: ['Invest in the beginning', "Elicit the patient's perspective", 'Invest in the end']
+
+## Condition: `full`
+

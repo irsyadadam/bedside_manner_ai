@@ -1,0 +1,189 @@
+{
+  "transcript_id": "mts_test_1_55",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "The patient has been complaining of diarrhea about 5 or 6 times a day for several weeks now",
+  "patient_utterances": [
+    "[Clinician asked: \"What brings you into the office today?\"] I have been having some stomach problems.",
+    "[Clinician asked: \"What has been going on with your stomach? What are your symptoms?\"] I have been having diarrhea.",
+    "[Clinician asked: \"When did the diarrhea start?\"] Several weeks ago.",
+    "[Clinician asked: \"How many times of day do you have diarrhea?\"] About five to six times a day."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "ROS": "The patient has been complaining of diarrhea about 5 or 6 times a day for several weeks now."
+  },
+  "n_patient_turns": 4,
+  "n_clinician_turns": 4,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 13036.694206297398,
+      "response_text": "Thank you for sharing your symptoms with me. I can understand how concerning and uncomfortable having diarrhea for several weeks must be. It\u2019s important that we get a clearer picture of what\u2019s been going on. Could you tell me more about when this started, any changes in your diet or recent travels, and whether you\u2019re taking any medications or experiencing stress? I might also ask about your bowel habits and if you\u2019ve noticed any other symptoms, like urgency, blood, or abdominal pain. We\u2019ll work together to figure this out and help you feel better.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 17929.567717015743,
+      "response_text": "Thank you for sharing your concerns with me. It sounds like the diarrhea you've been experiencing for several weeks has been quite disruptive, and I can understand how that might be worrying for you. Dealing with this for so long must be challenging, and I want to make sure we address it together.\n\nGiven that you've been having diarrhea five to six times a day, there are a few possibilities we should consider. It could be due to an infection, especially if there\u2019s been a recent change in your environment or diet [PMID ?]. Irritable bowel syndrome (IBS) is another common cause, particularly if you're experiencing abdominal pain as well [PMID ?]. Food intolerances or sensitivities might also play a role, so keeping track of what you eat could help identify any triggers. Additionally, inflammatory bowel disease (IBD) could be a consideration, though that\u2019s less common.\n\nTo start, I recommend we do some simple tests, like a stool analysis, to check for infections or inflammation. In the meantime, focusing on a diet low in FODMAPs might help reduce symptoms. I\u2019ll also suggest some over-the-counter remedies to manage the diarrhea, but we\u2019ll monitor how you respond. If things don\u2019t improve or if you develop new symptoms like severe pain or weight loss, we should seek further evaluation.\n\nLet\u2019s plan to follow up in two weeks to see how you\u2019re doing. Before you leave, could you summarize what we discussed today? That way, I can ensure I\u2019ve covered everything clearly.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6881.4367800951,
+      "response_text": "You mentioned having diarrhea several times a day for several weeks. I want to understand how this has been affecting your daily life.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 4 weeks. In the meantime, if you get new symptoms like severe pain, dehydration, or if your diarrhea gets much worse, please call us right away \u2014 don't wait for the appointment.",
+      "structured_response": {
+        "acknowledgment": "You mentioned having diarrhea several times a day for several weeks. I want to understand how this has been affecting your daily life.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 4 weeks. In the meantime, if you get new symptoms like severe pain, dehydration, or if your diarrhea gets much worse, please call us right away \u2014 don't wait for the appointment.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 34677.64337360859,
+      "response_text": "It sounds like you're having some stomach issues that have been going on for several weeks, and they happen about five to six times a day. I want to understand how this has been affecting your daily life.\n\nStomach issues that occur frequently might be due to a variety of reasons. It's important to look into this to find the right approach for managing them.\n\nWe'll need to explore more about your stomach problems to figure out the best way to address them. This might include some tests or questions about your symptoms to better understand what's going on.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to talk about your symptoms again soon. If they get worse or you notice anything new, please reach out so we can address it promptly.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're having some stomach issues that have been going on for several weeks, and they happen about five to six times a day. I want to understand how this has been affecting your daily life.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "stomach problems",
+            "profile_path": "problems[0]",
+            "explanation": "Stomach issues that occur frequently might be due to a variety of reasons. It's important to look into this to find the right approach for managing them.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll need to explore more about your stomach problems to figure out the best way to address them. This might include some tests or questions about your symptoms to better understand what's going on."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to talk about your symptoms again soon. If they get worse or you notice anything new, please reach out so we can address it promptly.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "stomach problems"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 70676.60611122847,
+      "response_text": "It sounds like you're experiencing some stomach issues that have been going on for several weeks. I want to understand how this has been affecting your daily life.\n\nStomach problems that have been ongoing for several weeks may indicate a variety of conditions. While we don't have specific guidelines for this exact situation, we'll work together to explore possible causes and next steps.\n\nWe'll schedule a follow-up visit to discuss your symptoms in more detail and explore possible causes together.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to meet again soon to go over your symptoms and any new information you might have in the meantime.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're experiencing some stomach issues that have been going on for several weeks. I want to understand how this has been affecting your daily life.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "stomach problems",
+            "profile_path": "problems[0]",
+            "explanation": "Stomach problems that have been ongoing for several weeks may indicate a variety of conditions. While we don't have specific guidelines for this exact situation, we'll work together to explore possible causes and next steps.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll schedule a follow-up visit to discuss your symptoms in more detail and explore possible causes together."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to meet again soon to go over your symptoms and any new information you might have in the meantime.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "stomach problems"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 23310.224138200283,
+        "module_2_retrieval": 62.68808990716934,
+        "module_3_reasoning": 36515.1137933135,
+        "module_4_response": 10787.323623895645,
+        "total_ms": 70675.3496453166
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

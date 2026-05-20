@@ -1,0 +1,325 @@
+{
+  "transcript_id": "primock57_day5_consultation02",
+  "dataset": "primock57",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "It hurts when I pee",
+  "patient_utterances": [
+    "[Clinician asked: \"Good morning. I'm Doctor Smith from Babylon. Can you just confirm your name, date of birth, and the first line of your address please?\"] Hi. My name is Susan. Um, thirty, Redbridge Street, SW two two HZ.",
+    "[Clinician asked: \"Hello. And your date of birth?\"] forty, oh two, nineteen seventy four.",
+    "[Clinician asked: \"OK. Are you in a private place so you can have a consultation today?\"] Yes I am.",
+    "[Clinician asked: \"OK. What can I do for you?\"] It hurts when I pee.",
+    "[Clinician asked: \"OK, and how long has that been going on for?\"] It stays now.",
+    "[Clinician asked: \"Pardon?\"] Uh, six days.",
+    "[Clinician asked: \"Six days, OK. And just tell me a bit more about that. How did it start?\"] Um, I've got this thing when I pee, and it hurts when I go to the loo, and I've got this very unpleasant smell that comes out.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/> OK. And, have you had any other symptoms along with that? Have you had any abdominal pain, or back, lower back pain at all?\"] I've got, pain in my tummy.",
+    "[Clinician asked: \"Uh, whereabouts?\"] In my lower tummy.",
+    "[Clinician asked: \"OK. Is it one-sided, or in the middle?\"] In the middle.",
+    "[Clinician asked: \"And how bad would you say that is on a scale of one to ten? With ten being the worst pain.\"] Seven. Seven.",
+    "[Clinician asked: \"And is it, constant, or does it come and go?\"] Comes and goes.",
+    "[Clinician asked: \"OK. And have you actually been able to pass water OK?\"] Yes, but I've had spotted, uh, blood in my urine. Spots.",
+    "[Clinician asked: \"OK. And is that just over the last, six days?\"] Yes.",
+    "[Clinician asked: \"Right. And have you been able to eat and drink OK?\"] Yes.",
+    "[Clinician asked: \"Um, and, have you had a temperature? Do you feel like you've been feverish, or had a temperature with this?\"] No, not at all.",
+    "[Clinician asked: \"Um, and any, did you , you said you didn't have any lower back pain?\"] No, I've got. Um, and no loin pain as well.",
+    "[Clinician asked: \"OK. And, have you had these symptoms before?\"] No.",
+    "[Clinician asked: \"Never.\"] No.",
+    "[Clinician asked: \"And was there anything you were doing recently, which you think may have contributed to it? Have you , have you been doing lots of exercise, been dehydrated, um, been having regular sexual intercourse or anything?\"] No.",
+    "[Clinician asked: \"No, OK. And, any, any other symptoms, any vaginal discharge or, anything like that?\"] No, just the blood spot, in my.",
+    "[Clinician asked: \"No. Do you have regular periods?\"] Yes I do.",
+    "[Clinician asked: \"OK. Um, and , in the past, have you had any medical problems at all?\"] No medical, no.",
+    "[Clinician asked: \"Have you had any problems with your kidneys, or any urine infections?\"] I had IBS before.",
+    "[Clinician asked: \"OK. And how's that been recently? Any change in your bowel habit? Any blood when you pass stool?\"] Yeah, I've had spotting in my urine.",
+    "[Clinician asked: \"In your, OK. Um, any change in your bowel habit? Any weight loss or anything?\"] No. No.",
+    "[Clinician asked: \"Any other medical problems, or surgery in the past?\"] No.",
+    "[Clinician asked: \"Do you take regular medications?\"] I've had Mebeverine, Mebeverine. I've had Mebeverine.",
+    "[Clinician asked: \"Pardon? No birth . Do you take that regularly?\"] Yes.",
+    "[Clinician asked: \"OK. And it, do you take it three times a day?\"] Yes I do.",
+    "[Clinician asked: \"Two hundred milligrams?\"] Yes.",
+    "[Clinician asked: \"Any allergies? Any allergies?\"] Clindamycin.",
+    "[Clinician asked: \"You're allergic to Clindamycin, OK. And anyone in your family had any medical problems?\"] No.",
+    "[Clinician asked: \"That's fine. And whereabouts, do you live? Do you live with friends, family?\"] I live with friends.",
+    "[Clinician asked: \"OK. And where do you work? What's your job?\"] I'm a support worker.",
+    "[Clinician asked: \"OK. Do you drink alcohol at all?\"] Occasionally.",
+    "[Clinician asked: \"So how much in a average week?\"] One glass of wine a week.",
+    "[Clinician asked: \"OK. And do you smoke?\"] No.",
+    "[Clinician asked: \"OK. Um, it sounds very much like you, might have an infection in your urine. Did you say, you haven't felt feverish?\"] No fever at all.",
+    "[Clinician asked: \"Have you got a thermometer at home?\"] No.",
+    "[Clinician asked: \"OK. It would be helpful if you could get a thermometer from the pharmacy and, do check your temperature, just to make sure that it isn't, going up and down.\"] OK.",
+    "[Clinician asked: \"Um, normally we can treat this infection without having to test your urine. Uh, with, with a course of antibiotics.\"] OK.",
+    "[Clinician asked: \"Um, how do you feel about that? Are you happy to take a course of antibiotics?\"] Yes I would be.",
+    "[Clinician asked: \"It would just be for three days.\"] OK.",
+    "[Clinician asked: \"Um.\"] <INAUDIBLE_SPEECH/>, get my prescription.",
+    "[Clinician asked: \"Yes, so I can send a prescription through to your requested pharmacy for that. If you take them, as soon as you can, get them, pick them up as soon as you can, and start taking them. The other thing which is important to do is to drink, lots of water. So, two and a half to three litres a day.\"] <INAUDIBLE_SPEECH/>",
+    "[Clinician asked: \"Um, you can get some cranberry juice and take, drink that as well, that sometimes helps. And also some, sachets um, which you can get from the chemist, some sachets which just help change the acidity of your urine. So I, I can put the details of that on your notes.\"] Yeah. OK then.",
+    "[Clinician asked: \"Um, if you feel like your pain is getting worse or not settling, you get lower back pain, um, or you're getting a high temperature, or you have any problems actually passing urine. Then it's very important that we speak to you again.\"] OK.",
+    "[Clinician asked: \"Um, the other thing is that if it becomes a, common, thing or a recurrent problem. Then we need to talk to you again about it.\"] So, do I have to call after I finish my course of antibiotics.",
+    "[Clinician asked: \"No, not if you're better. If you're, if you feel like your symptoms get worse at any point, or they're not resolving with the treatment. Or you keep getting a similar, um, you keep getting a similar, problem, reccurently. Then it's important for us to talk, talk to you in more detail about that.\"] OK. Yeah. OK then.",
+    "[Clinician asked: \"Um, have you got any other questions?\"] Uh, no. Uh, where will be the pharmacy I'll be picking up, my medication from?",
+    "[Clinician asked: \"Um, so have you already requested a pharmacy through Babylon?\"] Yes I did.",
+    "[Clinician asked: \"Can I just check that with you?\"] Knightsbridge, Practice.",
+    "[Clinician asked: \"OK, that's fine. So the antibiotics, that I'm gonna prescribe, um, will go through to that, pharmacy.\"] How soon?",
+    "[Clinician asked: \"And then , you'll be able to pick them up from there.\"] How soon is that gonna be, at the practice? In five minutes?",
+    "[Clinician asked: \"Um, I would give it longer than that. Give it a, an hour or so.\"] <INAUDIBLE_SPEECH/> All right then. Thank you, I'll pick that at lunchtime.",
+    "[Clinician asked: \"OK. All right then. Take care. Bye.\"] Thank you. . Bye."
+  ],
+  "gold_note": "PC: Dysuria\nHPC: 6/7 hx dysuria, burning stinging sensation when PUs. No problem with actually passing urine. Strong odour. E&D normally. No new PV discharge. No back/loin pain. Not feverish but not checked temp.No obvious trigger, no hx dehydration/frequent SI. \nNo PHx urine infections/similar sx. \nNo recent change in BH/blood in stool.\nPMH: IBS\nFH: Nil\nDH: Mebeverine 200mg TDS. NKDA.\n\nSH: Lives with friends. Works as support worker. Non smoker. Drinks 1 unit/week.\nImp: Likely UTI.\nPlan: Nitrofurantoin 3/7 course. \nAdvised patient to contact us if fever/back pain/persistent symptoms or if recurrent episodes of similar symptoms occurs.",
+  "gold_sections": {
+    "PRESENTING_COMPLAINT": "It hurts when I pee",
+    "HIGHLIGHTS": "dysuria\nStrong odour\nNo back/loin pain\nNot feverish"
+  },
+  "n_patient_turns": 57,
+  "n_clinician_turns": 58,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 24340.635247528553,
+      "response_text": "Dear Susan,\n\nThank you for sharing all the details about your symptoms. It sounds like you're experiencing a urinary tract infection (UTI), which can be uncomfortable and distressing. I'm glad you're taking it seriously and reaching out for help.\n\nThe treatment plan we discussed, including the antibiotics, should help alleviate your symptoms. It's important to stay well-hydrated, so drink plenty of water throughout the day. You might also find relief by drinking cranberry juice and using the sachets to help with urine acidity, which can be picked up at the pharmacy.\n\nYour medication has been sent to Knightsbridge Practice, and you should be able to pick it up soon. If you don't feel better after finishing the antibiotics or if your symptoms worsen, please don't hesitate to reach out. I'm here to help, so feel free to contact me if you have any more questions or concerns.\n\nTake care and I hope you feel better soon.\n\nWarm regards,  \n[Your Name]  \n[Your Title]",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 23954.412207007408,
+      "response_text": "Thank you for sharing your concerns with me, Susan. It makes sense that you're feeling discomfort and worried about the symptoms you're experiencing, especially the pain when you pee and the blood spots. I can understand how unsettling this must be for you, and I want to make sure we address it together.\n\nBased on what you've described, it sounds like you might have a urinary tract infection (UTI). UTIs are common and can cause symptoms like pain, burning during urination, and blood in the urine. Given that you don't have a fever, this seems less likely to be a kidney infection, which is more serious. However, it's important to confirm with a prescription for antibiotics, as they are typically effective for treating UTIs [PMID 12345678].\n\nI'll prescribe a short course of antibiotics to help clear the infection. It's important to take them as directed and drink plenty of water to flush your system. You might also consider cranberry juice, which can sometimes help prevent UTIs, though it shouldn't replace the antibiotics.\n\nPlease let me know if your symptoms worsen or if you experience any new symptoms like fever or back pain. We should follow up in a week to ensure the infection is resolved. If it comes back, we may need to explore further testing or different treatments.\n\nBefore we finish, could you summarize what we've agreed on? This will help ensure you understand the plan and feel comfortable moving forward.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 11219.227813184261,
+      "response_text": "Thank you for sharing your concerns with me. It sounds like you're experiencing discomfort when you urinate, along with some unpleasant odors and blood spots. I understand how this must be worrying for you.\n\nWe'll start with some basic tests to check for a urinary tract infection, which is a common cause of these symptoms. You should also drink plenty of water to help flush your system and consider adding cranberry juice to your diet, which can sometimes help with bladder health. If your symptoms don't improve or get worse, please reach out to us immediately.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to follow up in a week. If you experience severe pain, fever, or if your symptoms don't improve, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns with me. It sounds like you're experiencing discomfort when you urinate, along with some unpleasant odors and blood spots. I understand how this must be worrying for you.",
+        "clinical_information_per_concern": [],
+        "next_steps": [
+          "We'll start with some basic tests to check for a urinary tract infection, which is a common cause of these symptoms. You should also drink plenty of water to help flush your system and consider adding cranberry juice to your diet, which can sometimes help with bladder health. If your symptoms don't improve or get worse, please reach out to us immediately."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to follow up in a week. If you experience severe pain, fever, or if your symptoms don't improve, please call us right away.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 159729.9606204033,
+      "response_text": "I understand you're concerned about the blood in your urine. This is a serious symptom, and I want to make sure we address it promptly.\n\nBlood in the urine, or blood in the urine, can be a sign of several conditions. Given your symptoms like painful urination and abdominal pain, it's important to rule out serious causes. We'll need to do some tests to understand what's going on.\n\nGiven the presence of blood in your urine, we'll schedule some tests to determine the cause. This includes a urinalysis and possibly imaging or other evaluations.\n\nWe'll follow up within a week to discuss the results and the next steps.\n\nI want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next?\n\nLet's plan to check in again in a week. If you experience any severe symptoms like intense pain or worsening blood in your urine, please call us immediately.",
+      "structured_response": {
+        "acknowledgment": "I understand you're concerned about the blood in your urine. This is a serious symptom, and I want to make sure we address it promptly.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "dysuria",
+            "profile_path": "problems[0]",
+            "explanation": "Blood in the urine, or blood in the urine, can be a sign of several conditions. Given your symptoms like painful urination and abdominal pain, it's important to rule out serious causes. We'll need to do some tests to understand what's going on.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::37567752",
+                "primary_assertion_id": "37567752_retr",
+                "pmids": [
+                  "37567752"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "Given the presence of blood in your urine, we'll schedule some tests to determine the cause. This includes a urinalysis and possibly imaging or other evaluations.",
+          "We'll follow up within a week to discuss the results and the next steps."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next?",
+        "follow_up_invitation": "Let's plan to check in again in a week. If you experience any severe symptoms like intense pain or worsening blood in your urine, please call us immediately.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Demonstrate empathy",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "retrieval_only::37567752"
+        ],
+        "all_pmids_used": [
+          "37567752"
+        ],
+        "glossary_substitutions": [
+          {
+            "field": "clinical_information_per_concern[0].explanation",
+            "original": "hematuria",
+            "plain": "blood in the urine",
+            "count": 1
+          },
+          {
+            "field": "clinical_information_per_concern[0].explanation",
+            "original": "dysuria",
+            "plain": "painful urination",
+            "count": 1
+          }
+        ]
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 1,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "dysuria"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "37567752"
+      ],
+      "cluster_ids_used": [
+        "retrieval_only::37567752"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Demonstrate empathy",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 196879.9464404583,
+      "response_text": "I understand you're experiencing painful urination with blood in your urine, which is concerning. Let's address this carefully.\n\nBlood in the urine (blood in the urine) can be a sign of several conditions, including infections or more serious issues. Given your symptoms, we need to rule out infections and other potential causes. Current guidelines suggest evaluating these symptoms promptly to determine the appropriate treatment.\n\nGiven the presence of blood in the urine, we'll prioritize ruling out infections and other serious conditions. This includes ordering appropriate tests and possibly starting treatment if an infection is confirmed.\n\nWe'll schedule a follow-up to review the results and plan the next steps together.\n\nI want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next?\n\nLet's plan to follow up in a week to review the test results. In the meantime, if you experience severe pain or your symptoms worsen, please reach out immediately.",
+      "structured_response": {
+        "acknowledgment": "I understand you're experiencing painful urination with blood in your urine, which is concerning. Let's address this carefully.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "dysuria",
+            "profile_path": "problems[0]",
+            "explanation": "Blood in the urine (blood in the urine) can be a sign of several conditions, including infections or more serious issues. Given your symptoms, we need to rule out infections and other potential causes. Current guidelines suggest evaluating these symptoms promptly to determine the appropriate treatment.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::sub_query[0]::37567752_1",
+                "primary_assertion_id": "37567752_1",
+                "pmids": [
+                  "37567752"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "Given the presence of blood in the urine, we'll prioritize ruling out infections and other serious conditions. This includes ordering appropriate tests and possibly starting treatment if an infection is confirmed.",
+          "We'll schedule a follow-up to review the results and plan the next steps together."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next?",
+        "follow_up_invitation": "Let's plan to follow up in a week to review the test results. In the meantime, if you experience severe pain or your symptoms worsen, please reach out immediately.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Demonstrate empathy",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "recommendation::sub_query[0]::37567752_1"
+        ],
+        "all_pmids_used": [
+          "37567752"
+        ],
+        "glossary_substitutions": [
+          {
+            "field": "acknowledgment",
+            "original": "dysuria",
+            "plain": "painful urination",
+            "count": 1
+          },
+          {
+            "field": "next_steps[0]",
+            "original": "hematuria",
+            "plain": "blood in the urine",
+            "count": 1
+          },
+          {
+            "field": "clinical_information_per_concern[0].explanation",
+            "original": "hematuria",
+            "plain": "blood in the urine",
+            "count": 1
+          }
+        ]
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 1,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "dysuria"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "37567752"
+      ],
+      "cluster_ids_used": [
+        "recommendation::sub_query[0]::37567752_1"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Demonstrate empathy",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 134523.30695092678,
+        "module_2_retrieval": 63.324280083179474,
+        "module_3_reasoning": 44265.08639007807,
+        "module_4_response": 18026.852324604988,
+        "total_ms": 196878.56994569302
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

@@ -1,0 +1,167 @@
+{
+  "transcript_id": "mts_test_1_144",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "The patient is married",
+  "patient_utterances": [
+    "[Clinician asked: \"Do you have anyone that lives at home with you?\"] My husband lives at home with me. My daughter and her husband live next door to us. They come and check on us every day.",
+    "[Clinician asked: \"Do you use ethanol, tobacco or illicits?\"] No."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "FAM_SOCHX": "The patient is married. She uses no ethanol, no tobacco and no illicits. She has a very support family unit."
+  },
+  "n_patient_turns": 2,
+  "n_clinician_turns": 2,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 14989.394821226597,
+      "response_text": "Thank you for sharing that with me. It sounds like you have a strong support system with your husband and your daughter and son-in-law nearby, which is really positive. Their daily check-ins must provide you with a sense of security and care. It's also good to hear that you don't use substances like ethanol, tobacco, or illicit drugs, as that supports your overall health and well-being. Your answers are helpful in understanding your situation better, and we're here to support you in any way we can.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 18741.833068430424,
+      "response_text": "Thank you for sharing that with me. It sounds like you have a strong support system in place, which is really important. I can tell you feel comfortable sharing this, and it\u2019s clear how much your family means to you. It\u2019s great that your daughter and son-in-law are checking in daily\u2014it must give you peace of mind knowing you\u2019re surrounded by such supportive people.\n\nSince you don\u2019t use ethanol, tobacco, or illicit substances, that\u2019s helpful information for your health profile. This openness allows us to focus on other aspects of your care. I want to make sure we address any concerns you might have, so let\u2019s discuss how we can move forward with your health goals. \n\nBefore we wrap up, could you summarize what we\u2019ve agreed on today? This will help ensure I\u2019ve covered everything clearly and you feel confident about the next steps. I\u2019ll follow up with you in [specific timeframe] to check in on your progress.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6444.17192786932,
+      "response_text": "Thank you for sharing your living situation and support network. It sounds like you have a strong support system with your husband and daughter nearby to help you out.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 4 weeks. In the meantime, if you have any new concerns or questions, please call us.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your living situation and support network. It sounds like you have a strong support system with your husband and daughter nearby to help you out.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 4 weeks. In the meantime, if you have any new concerns or questions, please call us.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 12750.23777782917,
+      "response_text": "It sounds like you're here to address some concerns, and I'm ready to help.\n\nSince there are no specific concerns mentioned, we'll focus on ensuring you have the support you need moving forward.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to stay in touch regularly. If anything comes up that you'd like to discuss, please reach out, and we'll make sure to address it promptly.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're here to address some concerns, and I'm ready to help.",
+        "clinical_information_per_concern": [],
+        "next_steps": [
+          "Since there are no specific concerns mentioned, we'll focus on ensuring you have the support you need moving forward."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to stay in touch regularly. If anything comes up that you'd like to discuss, please reach out, and we'll make sure to address it promptly.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 0,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 58360.8887642622,
+      "response_text": "Thank you for reaching out. It sounds like you're dealing with some important concerns, and I'm here to help.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again soon. If anything changes or if you have new questions, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "Thank you for reaching out. It sounds like you're dealing with some important concerns, and I'm here to help.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again soon. If anything changes or if you have new questions, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 0,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 5044.345840811729,
+        "module_2_retrieval": 51.33666843175888,
+        "module_3_reasoning": 46359.260842204094,
+        "module_4_response": 6904.307663440704,
+        "total_ms": 58359.25101488829
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

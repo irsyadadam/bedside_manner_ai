@@ -1,0 +1,165 @@
+{
+  "transcript_id": "mts_test_1_196",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "NOSE AND THROAT: Negative postnasal drip, negative sore throat",
+  "patient_utterances": [
+    "[Clinician asked: \"Any uncomfortable feeling in the back of your throat, like excess mucous accumulation or something like that?\"] Uh, no. I don't think so.",
+    "[Clinician asked: \"Um, any soreness in your throat?\"] No."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "ROS": "NOSE AND THROAT: Negative postnasal drip, negative sore throat."
+  },
+  "n_patient_turns": 2,
+  "n_clinician_turns": 2,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 11472.669430077076,
+      "response_text": "Thank you for answering those questions. Based on what you've described, it doesn't seem like you're experiencing any throat discomfort or soreness. If anything else comes up or if you're feeling unwell in any other way, please don't hesitate to let me know. I'm here to help with any concerns you might have.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 22397.952400147915,
+      "response_text": "Thank you for sharing your concerns with me. It\u2019s completely understandable that you\u2019re feeling worried about your symptoms. Having hoarseness and a sensation of something stuck in your throat for a month is concerning, and I can see why you might be worried about more serious conditions like cancer. Your concerns are valid, and I want to make sure we explore this together to get you the answers and care you need.\n\nA few things come to mind when thinking about what might be causing your symptoms. Hoarseness can be due to vocal strain or overuse, acid reflux, allergies, or even infections like laryngitis [PMID ?]. The sensation of something stuck in your throat could be related to postnasal drip from allergies or sinus issues, or it might be a sign of something else we need to look into [PMID ?]. Since you don\u2019t have pain or a cough, that helps narrow things down a bit, but it\u2019s still important to get a clearer picture.\n\nWe\u2019ll start with some simple steps to help ease your symptoms while we figure out what\u2019s going on. I\u2019ll give you some tips on vocal rest and staying hydrated, which can often help with hoarseness [PMID ?]. If needed, we can also look into medications to reduce acid reflux or address any allergies you might have. If your symptoms don\u2019t improve in the next 2-4 weeks, we\u2019ll consider doing a more thorough evaluation, like imaging or a scope of your throat, to make sure everything is okay.\n\nBefore we wrap up, could you tell me in your own words what you think we\u2019ve agreed on? That way I can make sure I\u2019ve explained everything clearly and you feel confident about the plan. I\u2019ll check in with you in two weeks to see how you\u2019re doing and decide the next steps together.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6063.145004212856,
+      "response_text": "Thank you for coming in today. It sounds like you're here to address any concerns you might have.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 4 weeks. In the meantime, if you have any new symptoms or concerns, please call us.",
+      "structured_response": {
+        "acknowledgment": "Thank you for coming in today. It sounds like you're here to address any concerns you might have.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 4 weeks. In the meantime, if you have any new symptoms or concerns, please call us.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 11986.904881894588,
+      "response_text": "Thank you for reaching out. It seems like you're here to discuss some important aspects of your health, and I'm ready to help.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 4 weeks. In the meantime, if you have any new concerns or questions, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "Thank you for reaching out. It seems like you're here to discuss some important aspects of your health, and I'm ready to help.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 4 weeks. In the meantime, if you have any new concerns or questions, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 0,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 56090.3076082468,
+      "response_text": "Thank you for reaching out. It sounds like you're here to discuss some important topics.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a week. If anything changes or if you have more questions, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "Thank you for reaching out. It sounds like you're here to discuss some important topics.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a week. If anything changes or if you have more questions, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 0,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 5018.769949674606,
+        "module_2_retrieval": 21.044395864009857,
+        "module_3_reasoning": 44319.97051090002,
+        "module_4_response": 6729.1388139128685,
+        "total_ms": 56088.923670351505
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

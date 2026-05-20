@@ -1,0 +1,219 @@
+{
+  "transcript_id": "mts_val_66",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "She has hay fever, eczema, sinus, and hives",
+  "patient_utterances": [
+    "[Clinician asked: \"Hello, miss. How are you doing today?\"] My skin has been going crazy.",
+    "[Clinician asked: \"Could you describe to me what's happening?\"] I can't really describe it, but I can show you. Here's a report from my local doctor.",
+    "[Clinician asked: \"I see. It says you have hay fever, eczema, sinus problems, and hives, correct?\"] Yeah, I guess so.",
+    "[Clinician asked: \"Does this run in your family?\"] Uhm. I don't think so. I know my mom has some type of cancer in her mouth.",
+    "[Clinician asked: \"I see. Have you been screened for cancer before?\"] Oh, yeah. Here's the report with all that information.",
+    "[Clinician asked: \"This looks good. It says you don't have melanoma or skin cancers or psoriasis.\"] Sounds good to me. So, what's all this stuff on my skin?",
+    "[Clinician asked: \"Hm. Let me take a look. Have you been sunburned before?\"] Oh, yeah. I had some and it burned a lot.",
+    "[Clinician asked: \"I see. Are you currently taking any medications?\"] It's on the report from my local doctor.",
+    "[Clinician asked: \"Looks like you're taking benzoyl peroxide and Daypro. You're not smoking with these medications, right?\"] Do I look like I smoke? I've never smoked in my life."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "ALLERGY": "She has hay fever, eczema, sinus, and hives.  She has no melanoma or skin cancers or psoriasis.  Her mother had oral cancer.  The patient is a nonsmoker.  No blood tests.  Had some sunburn in the past.  She is on benzoyl peroxide and Daypro."
+  },
+  "n_patient_turns": 9,
+  "n_clinician_turns": 9,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 18635.641522705555,
+      "response_text": "I understand how frustrating and uncomfortable dealing with these skin issues must be. It\u2019s good news that the tests didn\u2019t show any serious conditions like melanoma or psoriasis. Based on what you\u2019ve described and the reports, it seems like you\u2019re experiencing a cluster of related but manageable skin concerns, possibly linked to atopic dermatitis (eczema), which can sometimes run in families, even if it\u2019s not something you\u2019ve noticed before.\n\nLet\u2019s focus on managing these conditions effectively. I\u2019ll check in with you about any side effects from your medications and review your skincare routine to ensure we\u2019re not adding any unnecessary irritation. We\u2019ll also make sure you\u2019re protected from the sun, as past sunburns can contribute to skin issues. Together, we\u2019ll create a plan to help your skin feel its best. You\u2019re not alone in this, and we\u2019ll work through it together.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 26574.56187158823,
+      "response_text": "Thank you for sharing all this information with me. It sounds like your skin has been causing you a lot of discomfort, and I can understand how that might be concerning and frustrating. It\u2019s impressive that you\u2019ve kept track of your symptoms and tests, and I appreciate your efforts in managing this.\n\nLooking at your reports and history, it seems like you\u2019ve been dealing with a mix of skin conditions like eczema, hives, and sinus issues, which can often be linked to environmental factors or how your skin reacts to things like sunburn. The sunburns you\u2019ve had might be contributing to your skin\u2019s sensitivity. The medications you\u2019re taking, benzoyl peroxide and Daypro, are commonly used for skin issues, but they can sometimes cause side effects or irritation, especially with repeated use [PMID ?].\n\nGiven your symptoms and the tests you\u2019ve had, it doesn\u2019t seem like there\u2019s any immediate sign of skin cancer or psoriasis, which is reassuring. However, since your skin has been acting up, we might want to explore whether there are specific triggers, like certain products, stress, or environmental factors, that could be making things worse. We could also consider adjusting your medications if needed or adding some moisturizers to help with the dryness and irritation.\n\nLet\u2019s plan to check in again in about 2-4 weeks to see how your skin is responding to these changes. Before you go, could you summarize what we\u2019ve discussed so far in your own words? That way, I can make sure everything makes sense to you.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7527.911260724068,
+      "response_text": "Thank you for sharing your concerns about your skin. It sounds like you're experiencing a lot of discomfort and confusion, and I'm here to help sort it out.\n\nWe'll review your reports together to understand your skin concerns better and discuss next steps for your care.\n\nCan you tell me, in your own words, what you understand about your skin concerns and what we discussed today?\n\nLet's plan to review your skin concerns again in a week. If you notice any new symptoms or changes, please reach out so we can address them promptly.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns about your skin. It sounds like you're experiencing a lot of discomfort and confusion, and I'm here to help sort it out.",
+        "clinical_information_per_concern": [],
+        "next_steps": [
+          "We'll review your reports together to understand your skin concerns better and discuss next steps for your care."
+        ],
+        "teach_back_prompt": "Can you tell me, in your own words, what you understand about your skin concerns and what we discussed today?",
+        "follow_up_invitation": "Let's plan to review your skin concerns again in a week. If you notice any new symptoms or changes, please reach out so we can address them promptly.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 76852.97432541847,
+      "response_text": "It sounds like you're dealing with some skin issues that have been going on recently. I want to understand how this has been affecting your daily life.\n\nSkin issues can be tricky, and there are several approaches we can take to figure out what's going on. We'll start by reviewing the medications you're currently using, like benzoyl peroxide and Daypro, to see if they might be contributing to your symptoms.\n\nWe'll review your current medications to see if they might be causing your skin issues.\n\nBased on that review, we'll decide the next steps together.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to follow up in a week to see how things are progressing and adjust our approach if needed.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're dealing with some skin issues that have been going on recently. I want to understand how this has been affecting your daily life.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "skin issues",
+            "profile_path": "problems[0]",
+            "explanation": "Skin issues can be tricky, and there are several approaches we can take to figure out what's going on. We'll start by reviewing the medications you're currently using, like benzoyl peroxide and Daypro, to see if they might be contributing to your symptoms.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll review your current medications to see if they might be causing your skin issues.",
+          "Based on that review, we'll decide the next steps together."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to follow up in a week to see how things are progressing and adjust our approach if needed.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 2,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "skin issues"
+        ],
+        "medications": [
+          "benzoyl peroxide",
+          "Daypro"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 98829.05525714159,
+      "response_text": "It sounds like you're dealing with some skin issues that have come up recently. I want to understand how this is affecting you and what we can do together to address it.\n\nResearch shows that mobile technologies can help speed up the screening and management of skin conditions. This means we can get you the care you need more quickly.\n\nWe'll use mobile health tools to help streamline your care and ensure you get the necessary screenings and management for your skin issues.\n\nCan you tell me, in your own words, what we're going to do next to address your skin issues?\n\nLet's plan to follow up in two weeks to review your progress and any questions you may have in the meantime.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're dealing with some skin issues that have come up recently. I want to understand how this is affecting you and what we can do together to address it.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "skin issues",
+            "profile_path": "problems[0]",
+            "explanation": "Research shows that mobile technologies can help speed up the screening and management of skin conditions. This means we can get you the care you need more quickly.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[0]::32813281_1",
+                "primary_assertion_id": "32813281_1",
+                "pmids": [
+                  "32813281"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll use mobile health tools to help streamline your care and ensure you get the necessary screenings and management for your skin issues."
+        ],
+        "teach_back_prompt": "Can you tell me, in your own words, what we're going to do next to address your skin issues?",
+        "follow_up_invitation": "Let's plan to follow up in two weeks to review your progress and any questions you may have in the meantime.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[0]::32813281_1"
+        ],
+        "all_pmids_used": [
+          "32813281"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 2,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "skin issues"
+        ],
+        "medications": [
+          "benzoyl peroxide",
+          "Daypro"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [
+        "32813281"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[0]::32813281_1"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 64818.796284496784,
+        "module_2_retrieval": 70.23030519485474,
+        "module_3_reasoning": 20337.923511862755,
+        "module_4_response": 13600.399687886238,
+        "total_ms": 98827.34978944063
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

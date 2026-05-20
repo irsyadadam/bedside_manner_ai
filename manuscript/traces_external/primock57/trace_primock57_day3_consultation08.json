@@ -1,0 +1,276 @@
+{
+  "transcript_id": "primock57_day3_consultation08",
+  "dataset": "primock57",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "I have a cough and a cold",
+  "patient_utterances": [
+    "[Clinician asked: \"Hello?\"] Hi there!",
+    "[Clinician asked: \"Hi, hi, I'm doctor Jacob and welcome to Babylon. Hello.\"] I, uh",
+    "[Clinician asked: \"Hi. So just before we start, is it alright if you could confirm your full name for me please?\"] Uh, <INAUDIBLE_SPEECH/>, that's, uh, John Jones.",
+    "[Clinician asked: \"And your date of birth.\"] Uh, that's, uh, the, twenty ninth of September, nineteen eighty.",
+    "[Clinician asked: \"K. And your email address for me please?\"] Uh, that's, uh, John Jones, at, John Jones dot net.",
+    "[Clinician asked: \"OK. And just to confirm that you're in a secure location, and we can have a confidential conversation.\"] Yep. That's absolutely fine.",
+    "[Clinician asked: \"OK. So, you've mentioned on our notes that you're having a bit of a cough and a cold. Is that correct?\"] Yeah, yeah, it's just  it's been going on for, like a few days now. Um, sort of like, coughing, and like, <INAUDIBLE_SPEECH/>  general runny nose, and stuff, and, like <INAUDIBLE_SPEECH/>",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/> is it two to three days, or longer?\"] Little bit, uh about like five days around that, uh, yeah it started like, what day is it today? Uh, yeah  the week, it started with the start of the weekend, so.",
+    "[Clinician asked: \"Fine. OK. So, so it started off with a cold, did it?\"] Yeah  just like coughing, and like running nose, and like kind of muscles aching and stuff, like occasional  feeling like headache, cold, chills, and things like that.",
+    "[Clinician asked: \"OK. Important cold, yeah? And, so about your cough, are you bringing up any phlegm at all?\"] Yeah. No, no, it's like a, it's like a dry cough  Sort of like  like, almost hacking, hacking kind of like .",
+    "[Clinician asked: \"OK. You're not bringing up any blood, are you?\"] <INAUDIBLE_SPEECH/>",
+    "[Clinician asked: \"OK. Are you feeling short of breath at all?\"] No, no, no shortness , like yeah, I'm breathing fine.",
+    "[Clinician asked: \"Yeah. So you're not wheezy or  rattly noises in your chest.\"] No.",
+    "[Clinician asked: \"OK. Um, right. So what have you taken so far?\"] Uh, so, uh, just like pain killers and such. I mean that I, I, um, in addition to like my normal medication and such. Um, but like",
+    "[Clinician asked: \"Well you mentioned, uh, you've come to your normal medications but  you've mentioned you've taken some painkillers like, would you tell me the names please?\"] I'll just like pass it along.",
+    "[Clinician asked: \"Paracetamol, OK. Any Ibuprofen at all?\"] No",
+    "[Clinician asked: \"No, OK. And also um you mentioned some regular medication. Unfortunately I don't have your medical, complete medical history. So if you could tell me what your medications are, and what you use them for?\"] Yeah, so I take, um, uh, what's it called,  it's like metformin.   I'm a diabetic, so. And, um, I also, like have,  uh,    lisinopril .",
+    "[Clinician asked: \"Lisonopril, OK.\"] Yeah, but the  like slight blood pressure.",
+    "[Clinician asked: \"Yeah, OK. And, how long have you been a diabetic for?\"] Um, like a, a few years, maybe five or six years.",
+    "[Clinician asked: \"Five six years, OK. OK. Do you monitor your blood sugars at home?\"] Yes.",
+    "[Clinician asked: \"OK. And how have they been doing at the moment?\"] Uh, no issues  nothing like out of the ordinary there.",
+    "[Clinician asked: \"OK. So there's no problems with your blood pressure control at the moment, even though you're not, OK so that's fine. That's absolutely fine. And when was the last time you took your blood pressure?\"] Uh, I've been this morning.",
+    "[Clinician asked: \"This morning. And what was it? What was the readings like?\"] I can't remember off the top of my head, but it was  within the normal range.",
+    "[Clinician asked: \"Cool, 'cause there's nothing alarming yeah? No more. OK. That's fine. OK. So that seems all right. OK. So, um, can I, hypothetically, look into your mouth here?\"] Sure.",
+    "[Clinician asked: \"Yeah? <INAUDIBLE_SPEECH/> Yeah,  so, uh, looking into your mouth\"] <INAUDIBLE_SPEECH/>",
+    "[Clinician asked: \"Um, you know, there's just a bit mild redness at the back of your throat. Um, there's no enlarged tonsils. Can you feel any glands around your neck, at all? No. No.\"] No,  I haven't had anything like that.",
+    "[Clinician asked: \"OK. So, it looks like, it's just a viral infection. Um, because it's just a  cold and a cough. There's nothing there. And generally if you have things like a chest infection, you would have a bit like a wheeze or shortness of breath. So, um, things that we would recommend is you can use the, you kno\"] OK.",
+    "[Clinician asked: \"If there's any change, like you're feeling short of breath or be your symptoms are lasting more than three weeks or something Or you're  becoming poorly,  uh, things like that, then you need to get in touch with us, then probably we might need to examine you and  especially your chest. But I don't t\"] OK, that sounds good.",
+    "[Clinician asked: \"OK. Any questions at all ?\"] Uh, no, I  I think  that's been  very helpful thank you.",
+    "[Clinician asked: \"OK. So just to round up, just use the night, Night Nurse, Day Nurse, if any change in your symptoms, like shortness of breath,  wheezy, or symptoms are lasting more than three weeks,  then get in touch with us.\"] OK, so I don't need any prescription, or anything like that.",
+    "[Clinician asked: \"No, no you don't need anything at the moment. OK. Take care, then. Bye. <INAUDIBLE_SPEECH/> Bye bye.\"] OK. Thank you very much, bye!"
+  ],
+  "gold_note": "History : \nCough and cold for 5 days \nCough is dry, no sputum , no blood\nNo wheeze \nNo breathlessness \nUsed paracetamol \nDiabetic and high blood pressure since 5-6 years\nMedication: metformin, lisinopril\nSugar levels and BP normal today \nDiagnosis: Upper respiratory tract infection\nPlan : . advised to use night and day nurse. If there is breathlessness, wheezying or cough more than 3 weeks to call back",
+  "gold_sections": {
+    "PRESENTING_COMPLAINT": "I have a cough and a cold",
+    "HIGHLIGHTS": "Sugar levels and BP normal today\nUpper respiratory tract infection"
+  },
+  "n_patient_turns": 31,
+  "n_clinician_turns": 31,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 16781.03457391262,
+      "response_text": "Hello John, I hope you're feeling a bit better soon. It sounds like you're experiencing the typical symptoms of a viral infection, likely a cold, which is causing your cough and other discomforts. Since your examination didn't show any signs of a more serious infection, I recommend continuing with rest, staying hydrated, and using over-the-counter remedies like Night Nurse or Day Nurse for symptom relief. Remember, if your symptoms worsen or persist beyond three weeks, please don't hesitate to reach out for further assistance. Take care of yourself and feel better soon!",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 24330.5761218071,
+      "response_text": "Thank you for sharing your concerns with me. It sounds like you've been going through a tough time with this cough and cold symptoms for the past five days. I can understand how frustrating it must be to feel unwell for that long, especially when it's affecting your daily life.\n\nBased on what you've described\u2014a dry cough, runny nose, and general aches without any shortness of breath or wheezing\u2014it seems like you're likely experiencing a viral upper respiratory infection, which is quite common and usually resolves on its own within a week or two. However, I want to make sure we're monitoring it properly. If your symptoms were to worsen, such as if you develop difficulty breathing or your cough becomes productive with phlegm, it might indicate a bacterial infection that could require treatment [PMID ?].\n\nI know this has been uncomfortable, and I'm here to support you. If you have any more questions or concerns, please feel free to ask. We'll keep an eye on your symptoms, and if they don't improve within three weeks or if they get worse, we can revisit this and consider further steps. In the meantime, rest, stay hydrated, and use over-the-counter remedies as needed to help alleviate your symptoms.\n\nTake care, and let me know if you need anything else. You're doing the right thing by staying vigilant about your health.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 10051.287479698658,
+      "response_text": "Thank you for reaching out. It sounds like you're experiencing some common cold symptoms, like a cough and runny nose, which have been going on for about five days. I understand how a persistent cough can be bothersome.\n\nWe recommend continuing to rest, stay hydrated, and use over-the-counter medications like pain relievers to help with your symptoms. If your symptoms worsen or last longer than three weeks, please reach out again.\n\nMonitor your symptoms and let us know if you develop any new ones, such as shortness of breath or high fever, which would require further evaluation.\n\nCan you tell me in your own words what you plan to do next to manage your symptoms?\n\nLet's plan to check in again in a week. If your symptoms don't improve or get worse, please contact us sooner.",
+      "structured_response": {
+        "acknowledgment": "Thank you for reaching out. It sounds like you're experiencing some common cold symptoms, like a cough and runny nose, which have been going on for about five days. I understand how a persistent cough can be bothersome.",
+        "clinical_information_per_concern": [],
+        "next_steps": [
+          "We recommend continuing to rest, stay hydrated, and use over-the-counter medications like pain relievers to help with your symptoms. If your symptoms worsen or last longer than three weeks, please reach out again.",
+          "Monitor your symptoms and let us know if you develop any new ones, such as shortness of breath or high fever, which would require further evaluation."
+        ],
+        "teach_back_prompt": "Can you tell me in your own words what you plan to do next to manage your symptoms?",
+        "follow_up_invitation": "Let's plan to check in again in a week. If your symptoms don't improve or get worse, please contact us sooner.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 143869.60775405169,
+      "response_text": "It sounds like you're dealing with a cough that started about 5 days ago, along with some runny nose, muscle aching, occasional headache, and chills. I want to understand how this is affecting your daily life.\n\nA cough that's been going on for about 5 days, especially with symptoms like runny nose, muscle aching, occasional headache, and chills, could be due to a viral infection. Sometimes, these symptoms can also point to other causes, so it's important to consider what's most likely based on what we know.\n\nWe'll monitor your symptoms over the next week to see if they improve or if anything changes that might suggest a different cause.\n\nIf your cough gets worse, lasts longer than two weeks, or if you develop new symptoms like high fever, severe headache, or shortness of breath, we should revisit this.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to check in again in one week. If you notice any new symptoms or if things don't seem to be improving, please reach out sooner.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're dealing with a cough that started about 5 days ago, along with some runny nose, muscle aching, occasional headache, and chills. I want to understand how this is affecting your daily life.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "cough",
+            "profile_path": "problems[0]",
+            "explanation": "A cough that's been going on for about 5 days, especially with symptoms like runny nose, muscle aching, occasional headache, and chills, could be due to a viral infection. Sometimes, these symptoms can also point to other causes, so it's important to consider what's most likely based on what we know.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::35593186",
+                "primary_assertion_id": "35593186_retr",
+                "pmids": [
+                  "35593186"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll monitor your symptoms over the next week to see if they improve or if anything changes that might suggest a different cause.",
+          "If your cough gets worse, lasts longer than two weeks, or if you develop new symptoms like high fever, severe headache, or shortness of breath, we should revisit this."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to check in again in one week. If you notice any new symptoms or if things don't seem to be improving, please reach out sooner.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "retrieval_only::35593186"
+        ],
+        "all_pmids_used": [
+          "35593186"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 2,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "cough"
+        ],
+        "medications": [
+          "metformin (for diabetes)",
+          "lisinopril"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [
+        "35593186"
+      ],
+      "cluster_ids_used": [
+        "retrieval_only::35593186"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 193800.467453897,
+      "response_text": "It sounds like this has been on your mind, and you've been dealing with a cough for about five days now. I want to make sure I understand how this is affecting you.\n\nA cough can be caused by many things, like a cold or the flu, but it could also be related to something more serious like COVID-19 or heart failure. Given that your cough has been around for about five days, we should consider doing some tests to figure out what's going on.\n\nWe'll order some tests to check for COVID-19 and other possible causes of your cough.\n\nIn the meantime, we can suggest some ways to manage your symptoms, like using a humidifier or staying hydrated.\n\nWe'll schedule a follow-up visit in about a week to review the results and discuss any next steps.\n\nI want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next?\n\nLet's plan to see each other again in a week. In the meantime, if your cough gets worse or you develop any new symptoms like fever or shortness of breath, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "It sounds like this has been on your mind, and you've been dealing with a cough for about five days now. I want to make sure I understand how this is affecting you.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "cough",
+            "profile_path": "problems[0]",
+            "explanation": "A cough can be caused by many things, like a cold or the flu, but it could also be related to something more serious like COVID-19 or heart failure. Given that your cough has been around for about five days, we should consider doing some tests to figure out what's going on.",
+            "citations": [
+              {
+                "cluster_id": "finding::problems[0]::35593186_0",
+                "primary_assertion_id": "35593186_0",
+                "pmids": [
+                  "35593186"
+                ]
+              },
+              {
+                "cluster_id": "finding::problems[0]::40720582_0",
+                "primary_assertion_id": "40720582_0",
+                "pmids": [
+                  "40720582"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll order some tests to check for COVID-19 and other possible causes of your cough.",
+          "In the meantime, we can suggest some ways to manage your symptoms, like using a humidifier or staying hydrated.",
+          "We'll schedule a follow-up visit in about a week to review the results and discuss any next steps."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next?",
+        "follow_up_invitation": "Let's plan to see each other again in a week. In the meantime, if your cough gets worse or you develop any new symptoms like fever or shortness of breath, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::problems[0]::35593186_0",
+          "finding::problems[0]::40720582_0"
+        ],
+        "all_pmids_used": [
+          "35593186",
+          "40720582"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 2,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "cough"
+        ],
+        "medications": [
+          "metformin (for diabetes)",
+          "lisinopril"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [
+        "35593186",
+        "40720582"
+      ],
+      "cluster_ids_used": [
+        "finding::problems[0]::35593186_0",
+        "finding::problems[0]::40720582_0"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 127143.11566203833,
+        "module_2_retrieval": 42.87167638540268,
+        "module_3_reasoning": 44598.421171307564,
+        "module_4_response": 22015.113331377506,
+        "total_ms": 193799.5218411088
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

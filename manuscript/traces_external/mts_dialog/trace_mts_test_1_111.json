@@ -1,0 +1,167 @@
+{
+  "transcript_id": "mts_test_1_111",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "unremarkable except for ETOH abuse",
+  "patient_utterances": [
+    "[Clinician asked: \"Do you have any major medical conditions that run in your family that I should know about?\"] What do you mean by that, doctor?",
+    "[Clinician asked: \"Well, it could be anything from A D H D to substance abuse to epilepsy.\"] Oh, yeah my grandfather was an alcoholic."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "FAM_SOCHX": "unremarkable except for ETOH abuse"
+  },
+  "n_patient_turns": 2,
+  "n_clinician_turns": 2,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 8930.49119412899,
+      "response_text": "I asked about your family's medical history because it can give us important clues about potential health risks that might run in your family. For example, if close relatives have certain conditions, it could increase your chances of developing them too. However, it's important to remember that just because someone in your family has a condition doesn't mean you will necessarily have it. Your grandfather's history of alcoholism is something we'll keep in mind as we work together to monitor your health and make personalized recommendations for you. I want to make sure we're addressing any potential risks in a way that's tailored to you.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 16727.77196764946,
+      "response_text": "Thank you for clarifying. I ask about family medical history to better understand any potential health risks that might run in your family. It\u2019s important to gather this information to ensure we consider all possible factors that could impact your health.\n\nYour mention of your grandfather\u2019s alcoholism is significant. Family history of alcohol use disorder can sometimes be linked to an increased risk of certain conditions, such as liver disease or cardiovascular issues. Research suggests that genetic factors play a role in alcoholism, and understanding this can help us tailor our approach to your care [PMID ?].\n\nCould you share more about your grandfather\u2019s situation? For example, how long did he struggle with alcohol, and were there other health issues he faced? This information could provide valuable insights into your health journey.\n\nWe\u2019ll review your personal health history and lifestyle factors together. Let\u2019s schedule a follow-up in two weeks to discuss any next steps. Before you leave, can you summarize what we\u2019ve discussed today? This will help ensure you feel clear about our conversation.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6246.411889791489,
+      "response_text": "It sounds like you're trying to understand why I asked about your family medical history. Let me explain that in a way that makes sense to you.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what I meant by asking about your family medical history?\n\nLet's plan to continue our conversation next time. If you have any questions in the meantime, feel free to reach out.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're trying to understand why I asked about your family medical history. Let me explain that in a way that makes sense to you.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what I meant by asking about your family medical history?",
+        "follow_up_invitation": "Let's plan to continue our conversation next time. If you have any questions in the meantime, feel free to reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 12092.355780303478,
+      "response_text": "It sounds like you're here to talk about your family history of alcoholism and how that might be affecting you or your family.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 4 weeks. In the meantime, if you have any concerns or questions, please reach out.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're here to talk about your family history of alcoholism and how that might be affecting you or your family.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 4 weeks. In the meantime, if you have any concerns or questions, please reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 0,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 61831.9850564003,
+      "response_text": "It sounds like you're dealing with some concerns, but I don't have specific details from your profile. Let's work together to understand what's important to you today.\n\nWe'll take some time to understand what's most important to you today and what you'd like to focus on.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to talk again soon. If something comes up in the meantime that you'd like to address, please reach out.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're dealing with some concerns, but I don't have specific details from your profile. Let's work together to understand what's important to you today.",
+        "clinical_information_per_concern": [],
+        "next_steps": [
+          "We'll take some time to understand what's most important to you today and what you'd like to focus on."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to talk again soon. If something comes up in the meantime that you'd like to address, please reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 0,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 6003.307066857815,
+        "module_2_retrieval": 37.16897964477539,
+        "module_3_reasoning": 47243.26553195715,
+        "module_4_response": 8546.89958691597,
+        "total_ms": 61830.64116537571
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

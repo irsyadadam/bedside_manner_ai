@@ -1,0 +1,267 @@
+{
+  "transcript_id": "primock57_day2_consultation10",
+  "dataset": "primock57",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "I've got a really bad headache",
+  "patient_utterances": [
+    "[Clinician asked: \"Hello. Good afternoon.\"] Hiya.",
+    "[Clinician asked: \"Hi there. This is Doctor , from GP at Hand.\"] Hi there. My name's Atan.",
+    "[Clinician asked: \"Hi Anthony. So, could I have your um, before we start, could I have your full name and date of birth? If that's possible?\"] Sure. So, it's Ayrton Warren. Um, and my date of birth, is the sixteenth of May, nineteen, eighty two.",
+    "[Clinician asked: \"That's , thank you for that. Are you in a private place where you're OK to speak?\"] I am, yes.",
+    "[Clinician asked: \"OK, great. So how can I help you today?\"] Um, so I kind of woke up this morning, um, and I've just got this, really horrible pain on the left side of my head. Um, a real kind of headachy feeling.",
+    "[Clinician asked: \"Sure, OK. And, um, uh, <INAUDIBLE_SPEECH/>, did the, did the pain wake you up?\"] Yeah, it woke me up, um, quite early this morning.",
+    "[Clinician asked: \"What, what time did it wake you up?\"] Um, probably around, five thirty ish.",
+    "[Clinician asked: \"And, what time do you normally get up?\"] Um, I normally get up at about, seven o'clock.",
+    "[Clinician asked: \"Is the headache still present now?\"] Yes, it is.",
+    "[Clinician asked: \"OK. Have you had this kind of pain before?\"] Um, I mean uh, I've, had a bit of a history with headaches, but nothing as severe as this before.",
+    "[Clinician asked: \"So they were less severe. Were they similar in nature in terms of being one-sided and the type of pain?\"] Um, not so much on the one side, it tends to be, a bit of a cluster at the front of my head in a way. Um, but this time it's just kind of more prominent on the left side which, I've never really had it, normally they kind of spread across the front of my head.",
+    "[Clinician asked: \"OK, all right. And, um, can I just double-check, do you have any neck stiffness at all?\"] Uh, no.",
+    "[Clinician asked: \"OK. And do you have any fever?\"] No.",
+    "[Clinician asked: \"All right. Um, how are you with bright lights at the moment? Do you feel sensitive to bright lights or can you, can you tolerate them all right, OK?\"] Um, it, I'm a little bit sensitive it just, it kind of, makes my eyes a little bit sore, but nothing that I can't really handle.",
+    "[Clinician asked: \"OK. And, can I just double-check, um, are you feeling nauseous at all?\"] Um, not really, like . When I first got up this morning, my head felt a bit dizzy, but that's kind of subsided now, and I, seems to, be fine.",
+    "[Clinician asked: \"OK. Um, and um, can I just double-check, does anyone in your family have any migraines or anything like that? They've been diagnosed with migraines?\"] Uh, no. They haven't.",
+    "[Clinician asked: \"OK. Um, and um, are you under any particular stress at the moment?\"] Um, work's kind of, um, a bit stressful at the moment. I've got a lot going on. Um, yeah, I just seem to have like, a lot of, kind of, a backlog of work that I need to go through at the moment. So, I've kind of, been, doing a lot of late nights as well.",
+    "[Clinician asked: \"Right, OK. Um, and, um, how long has that been the case for?\"] Uh, for probably about a couple of months now.",
+    "[Clinician asked: \", how would you say your mood is?\"] Um, I'm not, like moody, I'm not angry or, um, like I get a bit frustrated during the day. Um, but <INAUDIBLE_SPEECH/>, it kind of, um, ebbs and flows every now and then, but, yeah.",
+    "[Clinician asked: \"OK. Do you have, have you ever been <INAUDIBLE_SPEECH/> diagnosed with anxiety, or depression or stress in the past?\"] Um, I've had, um, so I had, like anxiety for about, two years now, and I've been on, uh, Sertraline for, a while.",
+    "[Clinician asked: \"OK. Are you taking Sertraline at the moment?\"] Yes.",
+    "[Clinician asked: \"OK. Um, and how do you feel in terms of , anxiety at the moment? Do you feel anxious at the moment?\"] , no, not necessarily at work, sometimes I do feel a bit anxious. Um, but I, I kind of just, uh, the panic of not being able to get my work done on time.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/>\"] Um, but other than that, I, I don't, feel, um, massively anxious.",
+    "[Clinician asked: \"OK, all right. Um, now, sorry to ask this, just need to ask this for , anyone suffering from anxiety. Do you have any , have you had any thoughts about harming yourself or hurting yourself?\"] No.",
+    "[Clinician asked: \"Good, I'm glad to hear that. Um, now, with regards to this headache. Is it worse when you lie down, or um, is, is, is it better when you lie down?\"] Um, when I lay down, like, uh, it kind of feels a little bit sore at first, um and it takes me a while to get comfortable. Um, so yeah, at the beginning it does, but then again that's just kind of, um, soothes a little bit.",
+    "[Clinician asked: \"OK. Um, so, would you say ultimately, it's better when you lie down? Or have you not ?\"] Uh, yeah, I would say so.",
+    "[Clinician asked: \"OK. Um, and um, in terms of um, this, headache since this morning, have you taken anything for it yet?\"] Um, I've taken some Paracetamol.",
+    "[Clinician asked: \"Has that helped?\"] Um, not really, no.",
+    "[Clinician asked: \"OK. Taking anything else at all?\"] No that's it, just Paracetamol.",
+    "[Clinician asked: \"OK. Um, do you have any other illnesses at all?\"] Uh, none.",
+    "[Clinician asked: \"Have you ever been diagnosed with high blood pressure?\"] No.",
+    "[Clinician asked: \"Have you ever had your blood pressure checked?\"] No.",
+    "[Clinician asked: \"OK. Um, and are there any illnesses in your family?\"] Um, no, there's nothing. My parents, uh, my mum's had a history of anxiety as well but, no kind of like physical illnesses or anything like that.",
+    "[Clinician asked: \"OK, all right. And um, are you on any medication?\"] Um, no, other, other than Sertraline and having taken, um, Paracetamol this morning, uh, nothing else.",
+    "[Clinician asked: \"Do you have any allergies to any medication?\"] Not that I'm aware of, no.",
+    "[Clinician asked: \"All right. And, are you living by yourself at the moment, or living with someone else?\"] Um, I live with my partner.",
+    "[Clinician asked: \"OK. Are you a smoker?\"] No.",
+    "[Clinician asked: \"OK. And, uh, do you have any pets at home?\"] Uh, I have a cat.",
+    "[Clinician asked: \"OK. And, can I just double-check, how much exercise would you do normally a week?\"] Um, so normally I, try to go running at least three times a week.",
+    "[Clinician asked: \"OK. And what's your diet like?\"] Um, it's OK, um, it's nothing, it's nothing <INAUDIBLE_SPEECH/> um, really healthy, um, but it's fine.",
+    "[Clinician asked: \"OK.\"] I wouldn't say unhealthy.",
+    "[Clinician asked: \"All right. Um, now um, in terms of this headache, uh, obviously I haven't been able to examine you, or see you directly. But, um, it sounds like it might be one of two things. It could be an element of what we call tension headache.\"] Sure.",
+    "[Clinician asked: \"OK. That's one possibility. Um, and what makes that, more likely is the fact that, you've been under some pressure, and you have a history of anxiety in the past, OK. Um.\"] OK.",
+    "[Clinician asked: \"The other possibility is, um, migraine as well. OK. Um, and, the fact, what makes that more likely is the fact that it's on one side, and that you've got some sensitivity to light.\"] OK.",
+    "[Clinician asked: \"OK, So, what, what I think we can do, is um, I think we can give you some, um, generic, pain relief.\"] OK.",
+    "[Clinician asked: \"That would be the appropriate first step, for, migraine type headaches. OK. So I'll tell you what it is in a second.\"] OK.",
+    "[Clinician asked: \"And the other thing that I was gonna suggest is, we maybe look, explore things to try and decrease the stress from work. So, um, the medication-wise, the things that we'd start off first line, if someone had migraine was to, would be to start Ibuprofen.\"] OK.",
+    "[Clinician asked: \"And um, uh, that, the doses of Ibuprofen can be a bit, more than the normal doses Ibuprofen so that's one thing we can start. You can keep on taking Paracetamol as well if you like, but the, the Ibuprofen's um, actually more effective , for migraine.\"] OK.",
+    "[Clinician asked: \"And, um, yeah, so the, the guidelines have changed, recently we used, we, before that we used to give Paracetamol as first line but now it's, um, Ibuprofen or Aspirin.\"] Ohh right, O.",
+    "[Clinician asked: \"That's,  thing. Um, the other thing I'd like you to do, is maybe consider taking some time off work. OK, because if the headache is due to stress from work.\"] OK. OK.",
+    "[Clinician asked: \"Um, maybe having a week off if you self-certify, that might help with things. And I'd also like you to explore, counselling options as well so there's, a counselling service in your area, that I can give you the link for, for you to self-refer.\"] <INAUDIBLE_SPEECH/>",
+    "[Clinician asked: \"I'd like you to, , OK I'd like you to try that. Um, what, we're gonna do is, we'll have a follow-up in a week's time.\"] Yeah, that'd be.",
+    "[Clinician asked: \"As well as those two things, other things I'd like you to do, is to try and ensure that you're having a minimum of seven, eight hours sleep at night, every night. And you're drinking a minimum of, um, one point five to two litres uh, of water or fluids a day, and that's not including coffee or tea.\"] OK. OK.",
+    "[Clinician asked: \"All right, because sometimes dehydration and you know uh, fatigue can be causes of headaches as well. Um.\"] Ohh OK, I didn't realise that.",
+    "[Clinician asked: \"Yeah, so it, that, that, that is um, you know, we need to rule those things out. Um, let's, let's try that. OK. Um, and let's have a follow-up appointment, if we're finding that things are not getting better, we might need to arrange some blood tests or um, look at uh, other possibilities, but, we'l\"] OK. Yeah, the, that, that sounds brilliant. Thank you so much for your help.",
+    "[Clinician asked: \"OK, no problem. So there'll be a summary of all of this in the notes. Um, and I'll also leave a link, to some of the danger signs of symptoms of headaches, in the notes. If you can read through that in your own time, that will just help you to have a bit more, control over what's going on and unders\"] OK. That's perfect. Thank you so much for your help.",
+    "[Clinician asked: \"No problem, OK. So we'll, we'll touch base in a week's time, with me or, myself or one of the other doctors, and we , we'll take it from there, OK.\"] OK. Thank you. Yeah, I'll book an appointment, in, um, yeah, in that time.",
+    "[Clinician asked: \"Brilliant, OK then, all right. Take care then, all the best.\"] Bye. Thank you, and you.",
+    "[Clinician asked: \"Bye bye.\"] Bye."
+  ],
+  "gold_note": "Hx: Has had headache upon waking from this morning on left side  head- pain woke pt up at 530am\nHeadache still present now\n Has had hx of headaches less severe and in front of the head in past\nNo neck stiffness, no fever\nSome sensitivity to bright lights now, no nausea now\nFelt dizzy this morning,  but not now\nNo FH of migraines\nWork is stressful, late nights at work- ongoing for a few months. Mood is stable-  pmhx of anxiety for 2 years, on sertraline. Doesn't feel anxious right now- gets this at work at times\nNo thoughts about self harm\nHeadache is better  when lying down. \nPt has taken paracetamol- not helped\nPmhx: nil, has not had BP checked\nFH: mother has anxiety\nDH: sertraline\nNkda\nSH: live with partner\nNon smoker\nHss cat\nGood exercise, reasonable diet\nImp: tension type headache +/- migraine\nPlan: for ibuprofen first line as per SIGN 2018 migraine guidelines\n1.5-2 litres water hydration daily\n To sleep 7-8 hours minimum daily\nConsider time off- to self certify for a few days to see if this helps\nSelf referral to IAPTs\nReview in a week\nIf any red flag symptoms as per www.patient.co.uk/ headache, to ring back sooner\nPatient understands and is happy with plan",
+  "gold_sections": {
+    "PRESENTING_COMPLAINT": "I've got a really bad headache",
+    "HIGHLIGHTS": "headache\nleft side head\nSome sensitivity to bright lights\nanxiety\non sertraline\ntension type headache\nibuprofen"
+  },
+  "n_patient_turns": 59,
+  "n_clinician_turns": 59,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 28523.526914417744,
+      "response_text": "I'm really sorry to hear about the severe headache you're experiencing, Anthony. It sounds like it's been quite distressing, especially waking up so early and not getting any relief. I understand how important your work is, but it's clear that the stress you're under is taking a toll on your health.\n\nBased on what you've described, we considered both tension headaches and migraines as possibilities. Given your stress levels and the nature of the pain, we're taking a comprehensive approach to help you feel better. This includes trying Ibuprofen for pain relief, suggesting some rest to manage your workload, and exploring counseling options to support your mental health. Ensuring you're well-rested and hydrated is also crucial, as these factors can significantly impact headaches.\n\nPlease take the Ibuprofen as recommended and make sure to prioritize your rest and self-care. If the symptoms persist or worsen, we'll revisit your treatment plan. I'm confident that with these steps, we'll get you on the road to recovery. Remember, your health is our priority, and we're here to support you through this. Take care, and I look forward to our follow-up in a week.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 25304.005198180676,
+      "response_text": "Thank you for sharing your concerns with me, Anthony. It sounds like you're in significant discomfort, and I can understand how alarming this must feel, especially since the pain is unlike anything you've experienced before. I want to acknowledge how stressful this situation must be for you and commend your effort in seeking help.\n\nGiven the severity and nature of the headache\u2014waking you up early, being one-sided, and accompanied by some light sensitivity\u2014it\u2019s important to consider possible causes. While tension headaches are a possibility, especially considering your stress levels, the characteristics also align with a migraine. Migraines often present with one-sided pain and sensitivity to light, and they can be triggered by stress.\n\nAs a first step, I recommend trying Ibuprofen, which is effective for both tension headaches and migraines [PMID ?]. If that doesn\u2019t help, we can explore other options. It\u2019s also crucial to address the stress from work. I suggest considering a short break to help reduce your workload and prevent further stress. Additionally, exploring counseling options could provide you with tools to manage stress effectively.\n\nI want to emphasize the importance of lifestyle factors. Ensuring you get 7-8 hours of sleep each night and staying hydrated can also help alleviate symptoms. If the pain persists or worsens, we may need to consider other evaluations, such as blood tests.\n\nWe\u2019ll schedule a follow-up in a week to reassess your symptoms. Before you leave, could you summarize our plan so I can ensure everything is clear? I\u2019ll also provide resources on headache symptoms to help you monitor your condition.\n\nPlease take care, and don\u2019t hesitate to reach out if your symptoms change or worsen. We\u2019re here to support you through this.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6372.20323830843,
+      "response_text": "It sounds like you're dealing with a really uncomfortable headache. I want to make sure I understand what you're experiencing.\n\nCan you tell me, in your own words, what we'll do next to help with your headache?\n\nLet's plan to check in again in a week. If the headache gets worse or you have any new symptoms, please reach out sooner.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're dealing with a really uncomfortable headache. I want to make sure I understand what you're experiencing.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "Can you tell me, in your own words, what we'll do next to help with your headache?",
+        "follow_up_invitation": "Let's plan to check in again in a week. If the headache gets worse or you have any new symptoms, please reach out sooner.",
+        "nurse_elements_applied": [],
+        "four_habits_elements_applied": [],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 139181.45887553692,
+      "response_text": "I can hear that this has been frustrating for you, as you mentioned, 'I get a bit frustrated during the day.' I want to make sure I understand how this is affecting your daily life.\n\nHeadaches can be caused by a variety of factors, and it's important to consider your overall health and any recent changes. Since you mentioned frustration, we'll keep that in mind as we look into the possible causes of your headaches.\n\nWe'll monitor your symptoms and see if there are any patterns or changes that could help us identify the cause of your headaches.\n\nCan you tell me, in your own words, what we'll be doing next to address your headaches?\n\nLet's plan to check in again in a week. If your headaches get worse or you notice any new symptoms, please reach out sooner.",
+      "structured_response": {
+        "acknowledgment": "I can hear that this has been frustrating for you, as you mentioned, 'I get a bit frustrated during the day.' I want to make sure I understand how this is affecting your daily life.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "left-sided headache",
+            "profile_path": "problems[0]",
+            "explanation": "Headaches can be caused by a variety of factors, and it's important to consider your overall health and any recent changes. Since you mentioned frustration, we'll keep that in mind as we look into the possible causes of your headaches.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll monitor your symptoms and see if there are any patterns or changes that could help us identify the cause of your headaches."
+        ],
+        "teach_back_prompt": "Can you tell me, in your own words, what we'll be doing next to address your headaches?",
+        "follow_up_invitation": "Let's plan to check in again in a week. If your headaches get worse or you notice any new symptoms, please reach out sooner.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 1,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 0,
+        "problems": [
+          "left-sided headache"
+        ],
+        "medications": [
+          "Sertraline (dose, frequency)"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 213421.32153362036,
+      "response_text": "I can hear how frustrating this must be for you \u2014 you mentioned, \"I get a bit frustrated during the day,\" and I want to acknowledge that. It sounds like this frustration is tied to the headaches you've been experiencing.\n\nHeadaches that have been getting worse over two months, along with sensitivity to bright lights and dizziness, are something we need to take seriously. The current guidance suggests evaluating whether specialist treatment might be more effective than what you've tried so far.\n\nGiven the severity and persistence of your headaches, we should consider whether specialist treatment might be more effective than what you've tried so far.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to check in again in a week to see how you're doing. If your symptoms get worse or if you experience any new ones like severe dizziness or vision changes, please reach out sooner.",
+      "structured_response": {
+        "acknowledgment": "I can hear how frustrating this must be for you \u2014 you mentioned, \"I get a bit frustrated during the day,\" and I want to acknowledge that. It sounds like this frustration is tied to the headaches you've been experiencing.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "horrible pain on the left side of my head",
+            "profile_path": "problems[0]",
+            "explanation": "Headaches that have been getting worse over two months, along with sensitivity to bright lights and dizziness, are something we need to take seriously. The current guidance suggests evaluating whether specialist treatment might be more effective than what you've tried so far.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[1]::33992082_0",
+                "primary_assertion_id": "33992082_1",
+                "pmids": [
+                  "33992082"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "Given the severity and persistence of your headaches, we should consider whether specialist treatment might be more effective than what you've tried so far."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to check in again in a week to see how you're doing. If your symptoms get worse or if you experience any new ones like severe dizziness or vision changes, please reach out sooner.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[1]::33992082_0"
+        ],
+        "all_pmids_used": [
+          "33992082"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 1,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 0,
+        "problems": [
+          "horrible pain on the left side of my head"
+        ],
+        "medications": [
+          "Sertraline"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [
+        "33992082"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[1]::33992082_0"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 123692.03624874353,
+        "module_2_retrieval": 60.76693534851074,
+        "module_3_reasoning": 72014.30945843458,
+        "module_4_response": 17652.7201756835,
+        "total_ms": 213419.83281821012
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

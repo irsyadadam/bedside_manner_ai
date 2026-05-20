@@ -1,0 +1,279 @@
+{
+  "transcript_id": "mts_val_62",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "Ms",
+  "patient_utterances": [
+    "[Clinician asked: \"So, how are you feeling today?\"] I'm still having all those things like pain and weakness, and I believe that everything is coming down from my neck.",
+    "[Clinician asked: \"Did you get some physical therapy? Did it help?\"] I did some. It was helping me with my neck pain. But this right hand is still feeling weak. I feel it is difficult at times to open jars and open doors. Many times, I drop items.",
+    "[Clinician asked: \"Is it happening with both hands or one is more than the other?\"] Right side is giving me more problems than the left.",
+    "[Clinician asked: \"Anything else that you noticed?\"] Yeah, one more thing I noticed is that sometimes when I am sleeping in the night, I feel this sharp shooting pain and weakness. It goes down my left side of upper, I mean, whole hand and I feel scared after that.",
+    "[Clinician asked: \"Are you seeing anyone for that?\"] Yeah, Doctor X is trying to help me, uh, with that without surgery. His methods are good it and it is helping me with my neck pain, but not hand.",
+    "[Clinician asked: \"Are you having any issues with your bowel movements?\"] Nope.",
+    "[Clinician asked: \"Any pain in the lower side of your back or in your legs?\"] Nope.",
+    "[Clinician asked: \"Any problem with walking or stability?\"] Nope."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "HPI": "Ms. ABC returns today for followup regarding her cervical spinal stenosis.  I have last seen her on 06/19/07.  Her symptoms of right greater than left upper extremity pain, weakness, paresthesias had been worsening after an incident on 06/04/07, when she thought she had exacerbated her conditions while lifting several objects. I referred her to obtain a cervical spine MRI. She returns today stating that she continues to have right upper extremity pain, paresthesias, weakness, which she believes radiates from her neck.  She had some physical therapy, which has been helping with the neck pain.  The right hand weakness continues.  She states she has a difficult time opening jars, and doors, and often drops items from her right greater than left upper extremity.  She states she have several occasions when she is sleeping at night, she has had sharp shooting radicular pain and weakness down her left upper extremity and she feels that these symptoms somewhat scare her. She has been undergoing nonoperative management by Dr. X and feels this has been helping her neck pain, but not the upper extremity symptoms. She denies any bowel and bladder dysfunction.  No lower back pain, no lower extremity pain, and no instability with ambulation."
+  },
+  "n_patient_turns": 8,
+  "n_clinician_turns": 9,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 14465.338334441185,
+      "response_text": "I'm really sorry to hear about the ongoing pain and weakness you're experiencing, especially with your right hand and the scary nighttime symptoms. It sounds like this is affecting your daily life, and I can understand how frustrating that must be. The fact that the physical therapy is helping with your neck pain but not your hand suggests we might need to explore further to see if there's another underlying issue, such as nerve-related problems or something else. \n\nWe'll keep working together to figure this out and make sure you get the help you need. In the meantime, if the nighttime symptoms become more frequent or severe, please don't hesitate to reach out. Your concerns are valid, and we're here to support you through this.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 25594.524286687374,
+      "response_text": "Thank you for sharing all of this with me. It sounds like you're feeling frustrated and concerned, especially with how the weakness in your right hand hasn't improved despite the physical therapy helping your neck pain. I can understand why you're worried, especially with those sharp shooting pains at night\u2014it must be unsettling.\n\nWe should explore what might be causing these symptoms. Given the neck pain and the weakness radiating down your left side, it's possible we're dealing with a nerve-related issue, such as a pinched nerve or cervical radiculopathy. It's reasonable to be concerned about more serious conditions, but let's work together to get a clearer picture.\n\nTo better understand what's going on, we might consider imaging like an MRI or CT scan of your neck and possibly your spine. Additionally, an electromyography (EMG) could help assess nerve function. We might also adjust your physical therapy to focus more on strengthening your right hand and see if that brings improvement.\n\nBefore you leave, could you summarize what we've discussed so we're on the same page? That way, I can ensure I've explained everything clearly. Let's plan to follow up in 2-4 weeks to see how things are progressing.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 8676.10863596201,
+      "response_text": "Thank you for sharing your concerns with me. It sounds like you're still experiencing pain and weakness, especially on your right side, and that's affecting your daily activities like opening jars and doors. I understand how frustrating and scary this must be for you.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 4 weeks. In the meantime, if you get new symptoms like severe pain or weakness, please call us right away \u2014 don't wait for the appointment.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns with me. It sounds like you're still experiencing pain and weakness, especially on your right side, and that's affecting your daily activities like opening jars and doors. I understand how frustrating and scary this must be for you.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 4 weeks. In the meantime, if you get new symptoms like severe pain or weakness, please call us right away \u2014 don't wait for the appointment.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 119844.00723874569,
+      "response_text": "I can hear how much this is worrying you \u2014 you said, \"I feel scared after that.\" That fear is completely understandable, especially with all these symptoms you're experiencing.\n\nNeck pain can sometimes be linked to issues like muscle tension or more serious conditions. Since you've already tried physical therapy and Doctor X's methods without full relief, it's important to explore other possible causes.\n\nWeakness in the right hand, especially with difficulty opening jars and doors, can be due to various reasons. We'll need to look into this further to understand what might be causing it.\n\nSharp shooting pain and occasional weakness can indicate nerve-related issues or other underlying conditions. It's crucial to get a clear picture of what's going on with this symptom.\n\nWe'll schedule some tests to get a better understanding of what's causing your neck pain, weakness, and sharp shooting pain.\n\nGiven the complexity of your symptoms, we'll coordinate with a specialist to ensure you get comprehensive care.\n\nWe'll also set up a follow-up appointment in two weeks to review the results and discuss the next steps together.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to meet again in two weeks. If any of your symptoms worsen or if you experience new ones, please reach out sooner.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this is worrying you \u2014 you said, \"I feel scared after that.\" That fear is completely understandable, especially with all these symptoms you're experiencing.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "neck pain",
+            "profile_path": "problems[0]",
+            "explanation": "Neck pain can sometimes be linked to issues like muscle tension or more serious conditions. Since you've already tried physical therapy and Doctor X's methods without full relief, it's important to explore other possible causes.",
+            "citations": []
+          },
+          {
+            "concern_label": "weakness in right hand",
+            "profile_path": "problems[1]",
+            "explanation": "Weakness in the right hand, especially with difficulty opening jars and doors, can be due to various reasons. We'll need to look into this further to understand what might be causing it.",
+            "citations": []
+          },
+          {
+            "concern_label": "sharp shooting pain and weakness",
+            "profile_path": "problems[2]",
+            "explanation": "Sharp shooting pain and occasional weakness can indicate nerve-related issues or other underlying conditions. It's crucial to get a clear picture of what's going on with this symptom.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll schedule some tests to get a better understanding of what's causing your neck pain, weakness, and sharp shooting pain.",
+          "Given the complexity of your symptoms, we'll coordinate with a specialist to ensure you get comprehensive care.",
+          "We'll also set up a follow-up appointment in two weeks to review the results and discuss the next steps together."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to meet again in two weeks. If any of your symptoms worsen or if you experience new ones, please reach out sooner.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Demonstrate empathy",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 3,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 0,
+        "problems": [
+          "neck pain",
+          "weakness in right hand",
+          "sharp shooting pain and weakness"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Demonstrate empathy",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 175785.71531921625,
+      "response_text": "I can hear how much this has been worrying you \u2014 you mentioned feeling scared after that. I understand how important it is to address these concerns.\n\nWhen dealing with neck pain and weakness, it's important to consider various causes. We'll look into your symptoms together to better understand what might be going on.\n\nThe weakness in your right hand and difficulty with tasks like opening jars and doors suggests we should explore potential causes together.\n\nSharp shooting pain and occasional left side weakness are symptoms we should discuss to identify possible causes.\n\nWe'll work together to gather more information about your symptoms to better understand what might be causing them.\n\nPlease keep track of when your symptoms occur and any patterns you notice.\n\nWe'll schedule a follow-up to review your progress and address any new concerns you have.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if your symptoms get worse or you notice anything new, please call us so we can address it promptly.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this has been worrying you \u2014 you mentioned feeling scared after that. I understand how important it is to address these concerns.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "neck pain",
+            "profile_path": "problems[0]",
+            "explanation": "When dealing with neck pain and weakness, it's important to consider various causes. We'll look into your symptoms together to better understand what might be going on.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[3]::39366124_0",
+                "primary_assertion_id": "39366124_0",
+                "pmids": [
+                  "39366124"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "weakness in right hand",
+            "profile_path": "problems[1]",
+            "explanation": "The weakness in your right hand and difficulty with tasks like opening jars and doors suggests we should explore potential causes together.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[3]::39366124_0",
+                "primary_assertion_id": "39366124_0",
+                "pmids": [
+                  "39366124"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "sharp shooting pain and weakness",
+            "profile_path": "problems[2]",
+            "explanation": "Sharp shooting pain and occasional left side weakness are symptoms we should discuss to identify possible causes.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[3]::39366124_0",
+                "primary_assertion_id": "39366124_0",
+                "pmids": [
+                  "39366124"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll work together to gather more information about your symptoms to better understand what might be causing them.",
+          "Please keep track of when your symptoms occur and any patterns you notice.",
+          "We'll schedule a follow-up to review your progress and address any new concerns you have."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if your symptoms get worse or you notice anything new, please call us so we can address it promptly.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[3]::39366124_0"
+        ],
+        "all_pmids_used": [
+          "39366124"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 3,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 0,
+        "problems": [
+          "neck pain",
+          "weakness in right hand",
+          "sharp shooting pain and weakness"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "39366124"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[3]::39366124_0"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 102582.56157487631,
+        "module_2_retrieval": 56.835003197193146,
+        "module_3_reasoning": 47332.344107329845,
+        "module_4_response": 25812.587060034275,
+        "total_ms": 175784.32774543762
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

@@ -1,0 +1,239 @@
+{
+  "transcript_id": "mts_test_1_139",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "This 1+ year, black female, new patient in dermatology, sent in for consult from ABC Practice for initial evaluation of a lifelong history o",
+  "patient_utterances": [
+    "[Clinician asked: \"Hello, ma'am. I see you brought your baby daughter in today. Is she a new patient?\"] Hello, I am her mother. She is a new patient.",
+    "[Clinician asked: \"Before we begin, could you verify her age and ethnicity, please?\"] She is a little over one years old, and we identify as black.",
+    "[Clinician asked: \"Thank you. How did you hear about our dermatology office?\"] Well, we just came from Tanzania, my birthplace. I have been seeing this odd skin issue with my baby, so I took her to the A B C Practice. After, they sent me here so that you can check her skin problem.",
+    "[Clinician asked: \"I see. Do you have a report from the A B C Practice?\"] I do. Here you go.",
+    "[Clinician asked: \"Thank you. It looks like she has a history of this atopic eczema, correct?\"] Yes, she has.",
+    "[Clinician asked: \"Did they provide you with any medication?\"] I have the bottle with me. Here you go.",
+    "[Clinician asked: \"It looks like they gave you an Elidel cream. How often do you apply it to her rashes?\"] I've been putting it on my daughter twice a day for six months now.",
+    "[Clinician asked: \"Is it effective?\"] It was, but now it doesn't work. Her skin is just dry now. I've been putting this oil on her now.",
+    "[Clinician asked: \"Do you know the name of the oil?\"] No, I don't. It starts with a J. I can find a picture.",
+    "Here it is. It's this oil."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "HPI": "This 1+ year, black female, new patient in dermatology, sent in for consult from ABC Practice for initial evaluation of a lifelong history of atopic eczema.  The patient's mom is from Tanzania.  The patient has been treated with Elidel cream b.i.d. for six months but apparently this has stopped working now and it seems to make her more dry and plus she has been using some Johnson's Baby Oil on her.  The patient is a well-developed baby.  Appears stated age.  Overall health is good."
+  },
+  "n_patient_turns": 10,
+  "n_clinician_turns": 10,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 15041.869468986988,
+      "response_text": "Thank you for sharing all this information with me. I can tell you're concerned about your daughter's skin and have been trying hard to help her feel better. It's understandable that the cream has stopped working, and I'm sorry to hear that her skin is now dry. Let's take a look at the oil you're using and see how we can help. I'll ask a few questions about the rash and any other products you might be using, just to make sure we're considering everything. Together, we'll find the best way to care for her skin.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 22660.202860832214,
+      "response_text": "Thank you for sharing all this information with me. I can understand how frustrating it must be to see your daughter's eczema persist despite using Elidel cream consistently. It\u2019s clear you\u2019ve been putting a lot of effort into managing her condition, and I appreciate your dedication to her care.\n\nIt\u2019s not uncommon for eczema treatments to lose effectiveness over time, possibly due to resistance or changes in the skin condition. The new oil you\u2019re using, starting with J, might offer some relief, but I\u2019d like to confirm its safety and suitability for her. I\u2019ll check if it\u2019s a known product or if it might interact with other treatments.\n\nTo help manage her eczema better, we might consider adding more intensive moisturizing to her routine, especially since her skin is dry now. If needed, we could explore other treatment options, such as different creams or light therapy, to find what works best for her.\n\nBefore you leave, could you summarize the plan we discussed so I can ensure everything is clear? We\u2019ll schedule a follow-up in two weeks to assess her progress and adjust the treatment as needed.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6934.38608199358,
+      "response_text": "Thank you for bringing your daughter in today. I understand you're concerned about her skin issue, especially since the cream isn't working as it used to.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if her skin condition gets worse or if you notice any new symptoms, please call us so we can address them promptly.",
+      "structured_response": {
+        "acknowledgment": "Thank you for bringing your daughter in today. I understand you're concerned about her skin issue, especially since the cream isn't working as it used to.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if her skin condition gets worse or if you notice any new symptoms, please call us so we can address them promptly.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 70781.80931508541,
+      "response_text": "Thank you for sharing your concerns about your skin issue. It sounds like this has been bothering you, and I understand how frustrating it must be when things don't improve despite trying different treatments.\n\nGiven that you've tried several treatments without improvement, it might be helpful to review your treatment plan and consider any additional factors that could be influencing your skin condition. We can also explore whether there are any new approaches that might be suitable for your situation.\n\nWe'll review your treatment plan together and discuss any additional steps we can take to address your skin issue effectively.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to follow up in a week to see how things are progressing and make any necessary adjustments to your treatment plan.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns about your skin issue. It sounds like this has been bothering you, and I understand how frustrating it must be when things don't improve despite trying different treatments.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "odd skin issue",
+            "profile_path": "problems[0]",
+            "explanation": "Given that you've tried several treatments without improvement, it might be helpful to review your treatment plan and consider any additional factors that could be influencing your skin condition. We can also explore whether there are any new approaches that might be suitable for your situation.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll review your treatment plan together and discuss any additional steps we can take to address your skin issue effectively."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to follow up in a week to see how things are progressing and make any necessary adjustments to your treatment plan.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "odd skin issue"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 110651.48387104273,
+      "response_text": "Thank you for sharing your concerns about your baby's skin issue. It sounds like this has been a challenge, especially with trying different creams and oils without full resolution.\n\nGiven the persistence of the skin issue despite various treatments, it's important to consider further evaluation. Patient-centered communication can help identify realistic goals for managing this condition.\n\nEngaging in shared decision-making can help set clear goals for addressing the skin issue and monitoring progress.\n\nWe'll work together to set some clear goals for managing the skin issue and explore additional treatment options.\n\nWe'll schedule a follow-up to review the progress and adjust the plan as needed.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if the skin issue gets worse or if you notice any new symptoms, please reach out.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns about your baby's skin issue. It sounds like this has been a challenge, especially with trying different creams and oils without full resolution.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "odd skin issue with baby",
+            "profile_path": "problems[0]",
+            "explanation": "Given the persistence of the skin issue despite various treatments, it's important to consider further evaluation. Patient-centered communication can help identify realistic goals for managing this condition.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::sub_query[1]::33658141_0",
+                "primary_assertion_id": "33658141_0",
+                "pmids": [
+                  "33658141"
+                ]
+              },
+              {
+                "cluster_id": "recommendation::sub_query[1]::33658141_1",
+                "primary_assertion_id": "33658141_1",
+                "pmids": [
+                  "33658141"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "check her skin problem",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Engaging in shared decision-making can help set clear goals for addressing the skin issue and monitoring progress.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::sub_query[1]::33658141_0",
+                "primary_assertion_id": "33658141_0",
+                "pmids": [
+                  "33658141"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll work together to set some clear goals for managing the skin issue and explore additional treatment options.",
+          "We'll schedule a follow-up to review the progress and adjust the plan as needed."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if the skin issue gets worse or if you notice any new symptoms, please reach out.",
+        "nurse_elements_applied": [
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "recommendation::sub_query[1]::33658141_0",
+          "recommendation::sub_query[1]::33658141_1"
+        ],
+        "all_pmids_used": [
+          "33658141"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 1,
+        "problems": [
+          "odd skin issue with baby"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "33658141"
+      ],
+      "cluster_ids_used": [
+        "recommendation::sub_query[1]::33658141_0",
+        "recommendation::sub_query[1]::33658141_1"
+      ],
+      "nurse_elements_applied": [
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 66257.8090056777,
+        "module_2_retrieval": 37.373654544353485,
+        "module_3_reasoning": 21644.108906388283,
+        "module_4_response": 22711.03624254465,
+        "total_ms": 110650.32780915499
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

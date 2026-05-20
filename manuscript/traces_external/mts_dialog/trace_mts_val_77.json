@@ -1,0 +1,313 @@
+{
+  "transcript_id": "mts_val_77",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "Not obtainable",
+  "patient_utterances": [
+    "[Clinician asked: \"Can you tell me some illness that might run in your family?\"] No I don't know.",
+    "[Clinician asked: \"Are you sure?\"] Yes."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "FAM_SOCHX": "Not obtainable."
+  },
+  "n_patient_turns": 2,
+  "n_clinician_turns": 2,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 15254.206545650959,
+      "response_text": "It's completely understandable if you're not sure about your family's health history. Many people find it challenging to gather that information, especially if communication with family isn't frequent or if they're not close. I want to emphasize that this information is important for your care, but I also understand how difficult it might be to obtain.\n\nIf you'd like, we can work together to think about ways to approach your family about this. Your health and well-being are important to me, and I'm here to support you in any way I can. If you feel comfortable, please share any details you might know, but there's no pressure at all. We'll navigate this together.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 18095.445282757282,
+      "response_text": "It sounds like you're uncertain about your family medical history, and that's completely understandable. It can be challenging to recall or know the health details of your family members, especially if those conversations haven't come up before. I appreciate your honesty in sharing this with me.\n\nGiven that we're discussing family health history, it might be helpful to think about any patterns of illness or chronic conditions that may run in your family, even if you don't have specific details. Sometimes, knowing general health trends can provide valuable insights. We can work together to identify any potential health risks and tailor your care accordingly.\n\nTo move forward, I'll review what we've discussed and outline the next steps. I'll keep this information in mind as we plan your care. Before we finish, could you summarize what we've talked about so far? This will help ensure you feel clear about our discussion and any plans we've made together.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6728.706538677216,
+      "response_text": "It sounds like you're unsure about your family health history. Let me help clarify that for you.\n\nWe'll work together to figure out your family health history during this visit.\n\nCan you tell me, in your own words, what we discussed about your family health history and what we'll do next?\n\nLet's plan to finish this discussion today. If you have any more questions or concerns before our next visit, feel free to reach out.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're unsure about your family health history. Let me help clarify that for you.",
+        "clinical_information_per_concern": [],
+        "next_steps": [
+          "We'll work together to figure out your family health history during this visit."
+        ],
+        "teach_back_prompt": "Can you tell me, in your own words, what we discussed about your family health history and what we'll do next?",
+        "follow_up_invitation": "Let's plan to finish this discussion today. If you have any more questions or concerns before our next visit, feel free to reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 63403.450056910515,
+      "response_text": "I can hear how much this has been weighing on you \u2014 you said, \"My wife is convinced it's cancer and honestly I am too.\" That's a real worry to be carrying, and I want to take it seriously while we figure out what's actually going on.\n\nWhen fatigue comes along with unexplained weight loss over a short time, the careful first step is to check for a few specific causes \u2014 including ones that need to be ruled out. The current guidance is to start with bloodwork and some screening tests rather than to wait and watch.\n\nWeight loss without trying, especially with other concerning symptoms like fatigue, is something we need to look into carefully. This often points to underlying health issues that need to be evaluated through specific tests.\n\nUnderstanding your concerns, we'll focus on getting clear answers through appropriate testing and evaluation. This approach is supported by current guidelines to ensure we address your worries effectively.\n\nWe'll work together to manage your health in a way that supports your ability to continue working. This involves a comprehensive approach to your symptoms and any underlying conditions that may be affecting you.\n\nGiven the weight loss and fatigue, we'll start with bloodwork and imaging to explore potential causes and rule out serious conditions.\n\nWe'll schedule a follow-up appointment in 2 weeks to review the results and discuss the next steps together.\n\nIn the meantime, keep track of any new symptoms or changes in how you're feeling and let us know immediately if anything concerning arises.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to meet again in 2 weeks. If you experience any severe symptoms like chest pain, difficulty breathing, or significant changes in your energy levels, please reach out right away.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this has been weighing on you \u2014 you said, \"My wife is convinced it's cancer and honestly I am too.\" That's a real worry to be carrying, and I want to take it seriously while we figure out what's actually going on.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "persistent fatigue",
+            "profile_path": "problems[0]",
+            "explanation": "When fatigue comes along with unexplained weight loss over a short time, the careful first step is to check for a few specific causes \u2014 including ones that need to be ruled out. The current guidance is to start with bloodwork and some screening tests rather than to wait and watch.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::40759522",
+                "primary_assertion_id": "40759522_retr",
+                "pmids": [
+                  "40759522"
+                ]
+              },
+              {
+                "cluster_id": "retrieval_only::37093795",
+                "primary_assertion_id": "37093795_retr",
+                "pmids": [
+                  "37093795"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "unintentional weight loss",
+            "profile_path": "problems[1]",
+            "explanation": "Weight loss without trying, especially with other concerning symptoms like fatigue, is something we need to look into carefully. This often points to underlying health issues that need to be evaluated through specific tests.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::33658141",
+                "primary_assertion_id": "33658141_retr",
+                "pmids": [
+                  "33658141"
+                ]
+              },
+              {
+                "cluster_id": "retrieval_only::33882128",
+                "primary_assertion_id": "33882128_retr",
+                "pmids": [
+                  "33882128"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "find out what's going on",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Understanding your concerns, we'll focus on getting clear answers through appropriate testing and evaluation. This approach is supported by current guidelines to ensure we address your worries effectively.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::35759474",
+                "primary_assertion_id": "35759474_retr",
+                "pmids": [
+                  "35759474"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "keep working",
+            "profile_path": "patient_goals[1]",
+            "explanation": "We'll work together to manage your health in a way that supports your ability to continue working. This involves a comprehensive approach to your symptoms and any underlying conditions that may be affecting you.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::40759522",
+                "primary_assertion_id": "40759522_retr",
+                "pmids": [
+                  "40759522"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "Given the weight loss and fatigue, we'll start with bloodwork and imaging to explore potential causes and rule out serious conditions.",
+          "We'll schedule a follow-up appointment in 2 weeks to review the results and discuss the next steps together.",
+          "In the meantime, keep track of any new symptoms or changes in how you're feeling and let us know immediately if anything concerning arises."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to meet again in 2 weeks. If you experience any severe symptoms like chest pain, difficulty breathing, or significant changes in your energy levels, please reach out right away.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Demonstrate empathy",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "retrieval_only::40759522",
+          "retrieval_only::37093795",
+          "retrieval_only::33658141",
+          "retrieval_only::33882128",
+          "retrieval_only::35759474"
+        ],
+        "all_pmids_used": [
+          "40759522",
+          "37093795",
+          "33658141",
+          "33882128",
+          "35759474"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 2,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 1,
+        "n_emotional": 2,
+        "n_goals": 2,
+        "problems": [
+          "persistent fatigue",
+          "unintentional weight loss"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "40759522",
+        "37093795",
+        "33658141",
+        "33882128",
+        "35759474"
+      ],
+      "cluster_ids_used": [
+        "retrieval_only::40759522",
+        "retrieval_only::37093795",
+        "retrieval_only::33658141",
+        "retrieval_only::33882128",
+        "retrieval_only::35759474"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Demonstrate empathy",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 79092.79275685549,
+      "response_text": "I can hear how much this has been weighing on you \u2014 you said, \"Yes.\" That kind of relief is real, and I want to make sure we address it together.\n\nDizziness can be caused by many things, and since it happened once this morning with mild severity, we'll start with some basic tests to figure out what's going on. This approach is recommended to make sure we cover all possible causes carefully.\n\nWe'll order some tests to get a clearer picture of what's causing the dizziness.\n\nWe'll schedule a follow-up visit in 4 weeks to review the results and plan the next steps together.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 4 weeks. In the meantime, if the dizziness comes back or gets worse, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this has been weighing on you \u2014 you said, \"Yes.\" That kind of relief is real, and I want to make sure we address it together.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "dizziness",
+            "profile_path": "problems[0]",
+            "explanation": "Dizziness can be caused by many things, and since it happened once this morning with mild severity, we'll start with some basic tests to figure out what's going on. This approach is recommended to make sure we cover all possible causes carefully.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::sub_query[0]::35709018_3",
+                "primary_assertion_id": "35709018_3",
+                "pmids": [
+                  "35709018"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll order some tests to get a clearer picture of what's causing the dizziness.",
+          "We'll schedule a follow-up visit in 4 weeks to review the results and plan the next steps together."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 4 weeks. In the meantime, if the dizziness comes back or gets worse, please call us right away.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "recommendation::sub_query[0]::35709018_3"
+        ],
+        "all_pmids_used": [
+          "35709018"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 0,
+        "problems": [
+          "dizziness"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "35709018"
+      ],
+      "cluster_ids_used": [
+        "recommendation::sub_query[0]::35709018_3"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 11754.18508052826,
+        "module_2_retrieval": 64.03979659080505,
+        "module_3_reasoning": 49804.771676659584,
+        "module_4_response": 17468.51409226656,
+        "total_ms": 79091.51064604521
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

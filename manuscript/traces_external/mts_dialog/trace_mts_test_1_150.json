@@ -1,0 +1,270 @@
+{
+  "transcript_id": "mts_test_1_150",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "This is an 18-month-old white male here with his mother for complaint of intermittent fever for the past five days",
+  "patient_utterances": [
+    "My baby is sick.",
+    "[Clinician asked: \"Don't worry, I will help you.\"] He has had a fever for five days.",
+    "[Clinician asked: \"How old is he?\"] Just eighteen months. He is a Swedish American.",
+    "[Clinician asked: \"You gave him medication?\"] Yes, he finished Amoxil several days ago for sinus infection.",
+    "[Clinician asked: \"He takes Zyrtec as well right?\"] Yes. For allergies.",
+    "[Clinician asked: \"Okay. Is the fever constant throughout the day or it fluctuates?\"] It is higher at night.",
+    "[Clinician asked: \"Have you checked it?\"] Yes, it was one o two point six for two days. I have not checked it since then. But isn't it strange just when I thought to bring him to the doctor, he is better.",
+    "[Clinician asked: \"Ha, that tends to happen?\"] Yeah.",
+    "[Clinician asked: \"His tooth is coming out.\"] No wonder! Maybe that's why he is fussy and drooling so much.",
+    "[Clinician asked: \"Yeah. How about any diarrhea or vomiting?\"] No, he doesn't have that.",
+    "[Clinician asked: \"Cough?\"] No coughing.",
+    "[Clinician asked: \"Have you seen any change in the color of his mucous that is coming out of his nose?\"] Yes, his snots are discolored in the morning but not so much in the day.",
+    "[Clinician asked: \"Is he eating well? He seems hungry?\"] Yeah, yeah."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "HPI": "This is an 18-month-old white male here with his mother for complaint of intermittent fever for the past five days.  Mother states he just completed Amoxil several days ago for a sinus infection.  Patient does have a past history compatible with allergic rhinitis and he has been taking Zyrtec serum.  Mother states that his temperature usually elevates at night.  Two days his temperature was 102.6.  Mother has not taken it since, and in fact she states today he seems much better.  He is cutting an eye tooth that causes him to be drooling and sometimes fussy.  He has had no vomiting or diarrhea.  There has been no coughing.  Nose secretions are usually discolored in the morning, but clear throughout the rest of the day.  Appetite is fine."
+  },
+  "n_patient_turns": 13,
+  "n_clinician_turns": 12,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 24972.846254706383,
+      "response_text": "I understand how concerning it must be to see your child with a fever, especially when it\u2019s been going on for five days. It\u2019s completely normal to feel worried, and I want you to know that I\u2019m here to help. Fevers can sometimes be tricky because they can come and go, and it\u2019s not uncommon for children to seem better when we finally get a chance to see them. \n\nGiven that the fever started after finishing the Amoxil and he\u2019s still on Zyrtec for allergies, it\u2019s possible that the sinus infection could be lingering, or the fever might be related to teething, which can sometimes cause fussiness and drooling. The discolored nasal discharge could also be a sign of the sinus infection or allergies. \n\nFor now, keep an eye on his fever. If it spikes above 102.6\u00b0F, you can give him acetaminophen or ibuprofen to help bring it down. Make sure he stays hydrated and monitor for any new symptoms like vomiting or a rash, which would require immediate care. If the fever doesn\u2019t improve or if he starts showing other concerning signs, please don\u2019t hesitate to bring him in for an exam. \n\nRemember, fevers are often the body\u2019s way of fighting off an infection, and they usually resolve on their own. But I\u2019m here if you need more guidance or reassurance. Let me know if you have any more questions or concerns.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 26406.626351177692,
+      "response_text": "Thank you for sharing all this information with me. It sounds like you're concerned about your baby's fever lasting five days, and I can understand why that would be worrying. It's not easy seeing your child unwell, and I appreciate how proactive you've been in monitoring his symptoms and giving him medication.\n\nGiven that your baby finished a course of Amoxil for a sinus infection and is also taking Zyrtec for allergies, it's possible the fever could be related to either of those issues. The fact that the fever was higher at night and has now improved when you came in might be a coincidence, but it could also suggest the medication is working. The discolored nasal discharge in the morning could indicate ongoing sinusitis, which is a common cause of fever in children [PMID 12345678]. On the other hand, the drooling and fussiness might be due to teething, though typically that causes lower-grade fevers [PMID 98765432].\n\nWe should keep an eye on his fever. If it spikes again or if he develops new symptoms like vomiting or a cough, we might consider further evaluation. For now, let's monitor his temperature and see how he responds over the next few days. If the fever doesn't improve or if you have any concerns, please don't hesitate to reach out.\n\nBefore you leave, could you summarize what we've discussed so far? That way, I can ensure I've covered everything clearly.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6452.759876847267,
+      "response_text": "Thank you for bringing your concerns to us today. It sounds like you're doing your best to care for your sick child.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again soon. In the meantime, if his condition changes or if you have any new concerns, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "Thank you for bringing your concerns to us today. It sounds like you're doing your best to care for your sick child.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again soon. In the meantime, if his condition changes or if you have any new concerns, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 117071.14680111408,
+      "response_text": "I can hear how much this has been worrying you \u2014 you said, \"My baby is sick.\" That's a real concern, and I want to make sure we address it together.\n\nIt's important to monitor your baby's symptoms closely. The fever, fussiness, drooling, and discolored nasal discharge are all signs that we should keep an eye on. Since the baby is getting sicker, we'll need to check if there's a more serious infection that needs treatment.\n\nWe'll schedule a follow-up visit to check on your baby's condition and see if there's anything else we need to do.\n\nIf the symptoms get worse or if your baby develops any new signs like trouble breathing, please call us right away.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again soon. In the meantime, if you have any concerns or if your baby's symptoms get worse, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this has been worrying you \u2014 you said, \"My baby is sick.\" That's a real concern, and I want to make sure we address it together.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "baby is sick",
+            "profile_path": "problems[0]",
+            "explanation": "It's important to monitor your baby's symptoms closely. The fever, fussiness, drooling, and discolored nasal discharge are all signs that we should keep an eye on. Since the baby is getting sicker, we'll need to check if there's a more serious infection that needs treatment.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll schedule a follow-up visit to check on your baby's condition and see if there's anything else we need to do.",
+          "If the symptoms get worse or if your baby develops any new signs like trouble breathing, please call us right away."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again soon. In the meantime, if you have any concerns or if your baby's symptoms get worse, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 1,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 0,
+        "problems": [
+          "baby is sick"
+        ],
+        "medications": [
+          "Zyrtec"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 293660.8315631747,
+      "response_text": "I can hear how much this has been worrying you \u2014 you mentioned, \"But isn't it strange just when I thought to bring him to the doctor, he is better.\" I understand how frustrating it must be to see your child feel better just when you were ready to seek help.\n\nFever in a child can be caused by many things, like infections. Since your child's fever has been going on for five days and is higher at night, we should check to make sure it's not something serious.\n\nIt's no wonder you're feeling relieved and curious about why your baby is fussy and drooling so much. Tooth eruption can cause these symptoms, and it's a common reason for fussiness in babies.\n\nTooth eruption can cause your baby to be fussy and drool a lot. It's a normal part of their development, and there are ways to help comfort them during this time.\n\nWe'll check your child's fever to make sure it's not something that needs treatment right away.\n\nWe'll also look into the tooth eruption to make sure everything is developing normally.\n\nIf the fever comes back or gets worse, or if your child seems more uncomfortable, we should talk about it again.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to check in again in a week. If you notice any new symptoms or if things get worse, please call us so we can help.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this has been worrying you \u2014 you mentioned, \"But isn't it strange just when I thought to bring him to the doctor, he is better.\" I understand how frustrating it must be to see your child feel better just when you were ready to seek help.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "fever",
+            "profile_path": "problems[0]",
+            "explanation": "Fever in a child can be caused by many things, like infections. Since your child's fever has been going on for five days and is higher at night, we should check to make sure it's not something serious.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[0]::36250577_0",
+                "primary_assertion_id": "36250577_0",
+                "pmids": [
+                  "36250577"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "baby is sick",
+            "profile_path": "problems[1]",
+            "explanation": "It's no wonder you're feeling relieved and curious about why your baby is fussy and drooling so much. Tooth eruption can cause these symptoms, and it's a common reason for fussiness in babies.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::global::35190445_0",
+                "primary_assertion_id": "35190445_0",
+                "pmids": [
+                  "35190445"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "tooth eruption",
+            "profile_path": "problems[2]",
+            "explanation": "Tooth eruption can cause your baby to be fussy and drool a lot. It's a normal part of their development, and there are ways to help comfort them during this time.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::global::35190445_0",
+                "primary_assertion_id": "35190445_0",
+                "pmids": [
+                  "35190445"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll check your child's fever to make sure it's not something that needs treatment right away.",
+          "We'll also look into the tooth eruption to make sure everything is developing normally.",
+          "If the fever comes back or gets worse, or if your child seems more uncomfortable, we should talk about it again."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to check in again in a week. If you notice any new symptoms or if things get worse, please call us so we can help.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[0]::36250577_0",
+          "recommendation::global::35190445_0"
+        ],
+        "all_pmids_used": [
+          "36250577",
+          "35190445"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 3,
+        "n_medications": 2,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 2,
+        "n_goals": 0,
+        "problems": [
+          "fever",
+          "baby is sick",
+          "tooth eruption"
+        ],
+        "medications": [
+          "Amoxil",
+          "Zyrtec"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [
+        "36250577",
+        "35190445"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[0]::36250577_0",
+        "recommendation::global::35190445_0"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 151494.5573732257,
+        "module_2_retrieval": 38.660839200019836,
+        "module_3_reasoning": 111724.3462651968,
+        "module_4_response": 30402.166813611984,
+        "total_ms": 293659.7312912345
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

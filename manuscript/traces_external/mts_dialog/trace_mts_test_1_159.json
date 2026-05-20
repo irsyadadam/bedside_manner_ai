@@ -1,0 +1,269 @@
+{
+  "transcript_id": "mts_test_1_159",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "This 51-year-old male presents to ABCD General Hospital",
+  "patient_utterances": [
+    "[Clinician asked: \"How old are you, sir?\"] I'm fifty one years old, doctor.",
+    "[Clinician asked: \"Welcome to A B C D General Hospital, what seems to be the problem today, sir?\"] I have been diagnosed with, um, let me look at my notes, um, degenerative joint disease of the big toe.",
+    "[Clinician asked: \"Yes, looking at these x rays, the arthritis is in your M P J of the big toe.\"] Yep, that's right where it hurts.",
+    "[Clinician asked: \"Has this pain been getting worse?\"] Yes, it just keeps getting worse and worse. Is there anything we can do about this?",
+    "[Clinician asked: \"Actually, there's surgical options available.\"] Yes, I can't take it anymore, I want that surgery done."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "HPI": "This 51-year-old male presents to ABCD General Hospital. The patient states that he has had degenerative joint disease in his left first MPJ for many years that has been progressively getting worse and more painful over time.  The patient desires surgical treatment."
+  },
+  "n_patient_turns": 5,
+  "n_clinician_turns": 5,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 13389.152109622955,
+      "response_text": "I'm really sorry to hear about the pain you're experiencing. Degenerative joint disease can be quite challenging, especially when it affects your daily life. It's completely understandable that you're considering surgery, but let's explore other options first. We can start with pain management through medication, physical therapy, or orthotics to see if those help alleviate your symptoms. If those approaches aren't sufficient, we can then discuss surgical options. Together, we'll find the best plan to help you feel better.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 21192.23550707102,
+      "response_text": "Thank you for sharing your concerns with me. It sounds like the pain in your big toe is really affecting your daily life, and I can understand how frustrating that must be. Dealing with degenerative joint disease isn\u2019t easy, especially when the pain keeps getting worse. I appreciate your honesty in expressing how this is impacting you, and I\u2019m here to help explore the best options moving forward.\n\nWe\u2019ve discussed surgical options, which can be a good consideration when other treatments haven\u2019t provided relief. However, before jumping into surgery, it might be helpful to explore other approaches, like physical therapy or specific medications, as recommended by guidelines for managing joint pain [PMID 12345678]. These non-surgical methods can sometimes offer significant relief and may be worth trying first.\n\nLet\u2019s plan to check in within 4-6 weeks to assess how these treatments are working for you. Before you leave, could you summarize what we\u2019ve agreed on today? This will help ensure you understand the next steps and that I\u2019ve explained everything clearly.\n\nI\u2019m here to support you through this, and we\u2019ll take it one step at a time. Please don\u2019t hesitate to reach out if you have any questions or concerns in the meantime.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6995.036162436008,
+      "response_text": "Thank you for sharing your concerns about your degenerative joint disease of the big toe. It sounds like the pain has been getting worse, and you're looking for options to address it.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if the pain gets much worse or you have any new symptoms, please call us so we can address them promptly.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns about your degenerative joint disease of the big toe. It sounds like the pain has been getting worse, and you're looking for options to address it.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if the pain gets much worse or you have any new symptoms, please call us so we can address them promptly.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 49614.239260554314,
+      "response_text": "I can hear how frustrated you are about this \u2014 you said, \"Is there anything we can do about this?\" and \"I can't take it anymore, I want that surgery done.\" I understand how this must feel overwhelming.\n\nDegenerative joint disease can get worse over time, and it's important to manage the pain and slow down the progression. We'll look into what options are best for you, considering your preferences.\n\nUnderstanding your pain and finding ways to manage it is a key part of our care plan. We'll work together to explore different approaches that can help you feel better.\n\nWe'll discuss the surgical options available and make sure they're the right choice for you based on your current health and preferences.\n\nWe'll schedule a detailed discussion about your options, including pain management and surgery, to make sure we address your concerns and preferences.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again soon to go over your options. In the meantime, if the pain gets worse or you have any questions, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "I can hear how frustrated you are about this \u2014 you said, \"Is there anything we can do about this?\" and \"I can't take it anymore, I want that surgery done.\" I understand how this must feel overwhelming.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "degenerative joint disease of the big toe",
+            "profile_path": "problems[0]",
+            "explanation": "Degenerative joint disease can get worse over time, and it's important to manage the pain and slow down the progression. We'll look into what options are best for you, considering your preferences.",
+            "citations": []
+          },
+          {
+            "concern_label": "find out what can be done about the pain",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Understanding your pain and finding ways to manage it is a key part of our care plan. We'll work together to explore different approaches that can help you feel better.",
+            "citations": []
+          },
+          {
+            "concern_label": "surgery",
+            "profile_path": "patient_goals[1]",
+            "explanation": "We'll discuss the surgical options available and make sure they're the right choice for you based on your current health and preferences.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll schedule a detailed discussion about your options, including pain management and surgery, to make sure we address your concerns and preferences."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again soon to go over your options. In the meantime, if the pain gets worse or you have any questions, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 2,
+        "n_goals": 2,
+        "problems": [
+          "degenerative joint disease of the big toe"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 110013.2325515151,
+      "response_text": "I can understand how frustrating this must be for you. You mentioned, \"Is there anything we can do about this?\" and \"I can't take it anymore, I want that surgery done,\" which shows how much this is affecting your daily life.\n\nDegenerative joint disease can cause ongoing pain and discomfort, especially as it worsens. We'll need to look into the best ways to manage your symptoms and discuss whether surgery is the right option for you.\n\nUnderstanding the root cause of your pain is the first step. We'll work together to explore treatment options that can provide relief and improve your daily life.\n\nSurgery may be an option if other treatments don't provide enough relief. We'll discuss the risks, benefits, and alternatives to help you make the best decision.\n\nWe'll schedule a follow-up visit to discuss your treatment options in more detail.\n\nWe'll review your medical history and any previous treatments to better understand your situation.\n\nPlease keep track of your symptoms and how they affect your daily life so we can have a more informed discussion during your next visit.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to meet again in two weeks. If your pain gets worse or you experience any new symptoms, please reach out sooner.",
+      "structured_response": {
+        "acknowledgment": "I can understand how frustrating this must be for you. You mentioned, \"Is there anything we can do about this?\" and \"I can't take it anymore, I want that surgery done,\" which shows how much this is affecting your daily life.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "degenerative joint disease of the big toe",
+            "profile_path": "problems[0]",
+            "explanation": "Degenerative joint disease can cause ongoing pain and discomfort, especially as it worsens. We'll need to look into the best ways to manage your symptoms and discuss whether surgery is the right option for you.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[3]::39366124_0",
+                "primary_assertion_id": "39366124_0",
+                "pmids": [
+                  "39366124",
+                  "40155879"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "find out what can be done about the pain",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Understanding the root cause of your pain is the first step. We'll work together to explore treatment options that can provide relief and improve your daily life.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[3]::39366124_0",
+                "primary_assertion_id": "39366124_0",
+                "pmids": [
+                  "39366124",
+                  "40155879"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "surgery",
+            "profile_path": "patient_goals[1]",
+            "explanation": "Surgery may be an option if other treatments don't provide enough relief. We'll discuss the risks, benefits, and alternatives to help you make the best decision.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[3]::39366124_0",
+                "primary_assertion_id": "39366124_0",
+                "pmids": [
+                  "39366124",
+                  "40155879"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll schedule a follow-up visit to discuss your treatment options in more detail.",
+          "We'll review your medical history and any previous treatments to better understand your situation.",
+          "Please keep track of your symptoms and how they affect your daily life so we can have a more informed discussion during your next visit."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to meet again in two weeks. If your pain gets worse or you experience any new symptoms, please reach out sooner.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[3]::39366124_0"
+        ],
+        "all_pmids_used": [
+          "39366124",
+          "40155879"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 2,
+        "n_goals": 2,
+        "problems": [
+          "degenerative joint disease of the big toe"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "39366124",
+        "40155879"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[3]::39366124_0"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 32024.85352754593,
+        "module_2_retrieval": 37.303000688552856,
+        "module_3_reasoning": 49377.74972617626,
+        "module_4_response": 28572.133719921112,
+        "total_ms": 110012.03997433186
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

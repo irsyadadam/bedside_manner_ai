@@ -1,0 +1,170 @@
+{
+  "transcript_id": "mts_test_1_81",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "The patient lives with his wife",
+  "patient_utterances": [
+    "[Clinician asked: \"Welcome to the clinic, sir!\"] Thank you.",
+    "[Clinician asked: \"Do you use tobacco product, alcohol, or recreational drugs?\"] I don't drink or do drugs. I do smoke cigarettes.",
+    "[Clinician asked: \"How much do you smoke per day?\"] I probably smoke less then a pack a day.",
+    "[Clinician asked: \"Do you live at home with anyone?\"] I live at home with my wife.",
+    "[Clinician asked: \"What do you do for work?\"] I am currently unemployed. I have been out of work for several months now. I was working as an I T software developer."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "FAM_SOCHX": "The patient lives with his wife.  He was an IT software developer, but he has been out of work for several months.  He smokes less than a pack of cigarettes daily. He denies alcohol or illicit drug use."
+  },
+  "n_patient_turns": 5,
+  "n_clinician_turns": 6,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 7331.11847192049,
+      "response_text": "I understand that being unemployed can be challenging, and I\u2019m here to support you through this transition. Smoking can have a significant impact on your health, and I\u2019d be happy to discuss ways to help you quit if that\u2019s something you\u2019re interested in. In the meantime, I encourage you to reach out to local resources or support groups that might assist with unemployment or stress management. You\u2019re not alone, and we\u2019ll work together to help you get through this.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 22665.171816945076,
+      "response_text": "Thank you for sharing your situation with me. It sounds like being unemployed for several months must be quite challenging and stressful, especially after being in a stable job. I can understand how this transition might be affecting both your daily life and your health.\n\nGiven that you smoke less than a pack a day, it's important to talk about how smoking might impact your health over time. Smoking is linked to various health issues, including lung problems and heart disease [PMID ?]. I want to explore ways we can support you in reducing smoking or quitting altogether, as this could significantly improve your health and well-being.\n\nLet's discuss some options together, such as quit-smoking programs or resources that might help. It's important to take small steps, and I'm here to support you through this process.\n\nBefore we wrap up, could you summarize what we've discussed today? This will help ensure you understand the plan and feel comfortable with the next steps. We'll schedule a follow-up in about two weeks to check on your progress and adjust our approach as needed.\n\nPlease don't hesitate to reach out if you have any questions or concerns in the meantime. We're here to support you through this journey.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6243.812397122383,
+      "response_text": "Thank you for coming in today. It sounds like you're dealing with some challenges, especially with your health and being unemployed.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if you have any new concerns or symptoms, please call us.",
+      "structured_response": {
+        "acknowledgment": "Thank you for coming in today. It sounds like you're dealing with some challenges, especially with your health and being unemployed.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if you have any new concerns or symptoms, please call us.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 19508.233278989792,
+      "response_text": "Thank you for reaching out. It seems like you're here to discuss some important topics, and I'm ready to help.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if you have any new concerns or questions, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "Thank you for reaching out. It seems like you're here to discuss some important topics, and I'm ready to help.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if you have any new concerns or questions, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 0,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 198865.46909064054,
+      "response_text": "It sounds like you're dealing with some important concerns, and I'm here to help you through this.\n\nWe'll work together to address your concerns and ensure you have the support you need.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to stay in touch and address any new concerns as they come up. Please reach out if there's anything specific you'd like to focus on in our next conversation.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're dealing with some important concerns, and I'm here to help you through this.",
+        "clinical_information_per_concern": [],
+        "next_steps": [
+          "We'll work together to address your concerns and ensure you have the support you need."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to stay in touch and address any new concerns as they come up. Please reach out if there's anything specific you'd like to focus on in our next conversation.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 0,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 13611.53419315815,
+        "module_2_retrieval": 50.08023977279663,
+        "module_3_reasoning": 177364.8779988289,
+        "module_4_response": 7837.612628936768,
+        "total_ms": 198864.1050606966
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

@@ -1,0 +1,284 @@
+{
+  "transcript_id": "mts_test_1_103",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "The patient had several episodes where she felt like her face was going to twitch, which she could suppress it with grimacing movements of h",
+  "patient_utterances": [
+    "[Clinician asked: \"How's everything going on?\"] I'm having this weird feeling where I feel that my face is going to twitch and I start doing these grimacing actions on my face, mouth, and then it kind of suppresses it, but I'm not sure what's happening. I'm still having a fear of feeling of pressure in the backside of my head and it comes approximately like once each week.",
+    "[Clinician asked: \"What exactly does this pressure feels like?\"] It feels like pins and needles in my head and a lot of pressure and often it feels like water is running down my hair.",
+    "[Clinician asked: \"How frequent are these feelings? Is anything helping you? Are you taking any medications or anything else for it?\"] It is like I said before, like once a week maybe. It has decreased from before. I am taking Aleve and it is kind of helping me.",
+    "[Clinician asked: \"Is anything else going on?\"] Oh yeah, I'm still suffering from that problem of daydreaming at work and have noticed that I fall asleep when I'm sitting in front of my desk or in front of my television. I just fall asleep in non stimulating environments. It seems like I'm always tired and I cannot get enough amount of sleep no matter what I do.",
+    "[Clinician asked: \"It feels like insomnia to me, but what are your working hours?\"] I work from four to midnight, and then after getting home I just, I cannot sleep. It takes me around two hours and then I wake up at nine each morning. So, it's just like I'm not getting to sleep more than five to six hours ever. Usually, it is like five hours of sleep for me.",
+    "[Clinician asked: \"How is the quality of your sleep? Do you wake up many times or have sound sleep for those five hours?\"] It is good, I just need to get up and go to the bathroom. I think I snore, but I do not know exactly.",
+    "[Clinician asked: \"Have you ever lost your sleep to catch your breath?\"] Not that I remember."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "HPI": "The patient had several episodes where she felt like her face was going to twitch, which she could suppress it with grimacing movements of her mouth and face.  She reports she is still having right posterior head pressure like sensations approximately one time per week.  These still are characterized by a tingling, pressure like sensation that often has a feeling as though water is running down on her hair.  This has also decreased in frequency occurring approximately one time per week and seems to respond to over-the-counter analgesics such as Aleve.  Lastly during conversation today, she brought again the problem of daydreaming at work and noted that she occasionally falls asleep when sitting in non-stimulating environments or in front of the television.  She states that she feels fatigued all the time and does not get good sleep.  She describes it as insomnia, but upon questioning she works from 4 till mid night and then gets home and cannot go to sleep for approximately two hours and wakes up reliably by 9.00 a.m. each morning and sleeps no more than five to six hours ever, but usually five hours.  Her sleep is relatively uninterrupted except for the need to get up and go to the bathroom.  She thinks she may snore, but she is not sure.  She does not recall any events of awakening and gasping for breath."
+  },
+  "n_patient_turns": 7,
+  "n_clinician_turns": 7,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 20003.4461915493,
+      "response_text": "I understand how concerning these symptoms must be for you. The facial twitching and the strange sensations in your head sound unsettling, and I'm glad that Aleve is helping to reduce the frequency of these episodes. It's possible these could be related to tension headaches or migraines, which can sometimes be triggered by stress or fatigue.\n\nYour daytime sleepiness and difficulty sleeping despite working night shifts are significant. It's important to address your sleep health, as chronic sleep deprivation can have serious effects on your overall well-being. I recommend improving your sleep environment, establishing a consistent bedtime routine, and avoiding screens before bed. If snoring continues to be an issue, it might be worth monitoring or discussing with a sleep specialist to rule out sleep apnea.\n\nPlease know that I'm here to support you. If these symptoms worsen or if you have any concerns, don't hesitate to reach out. We can explore further options together to help you feel your best.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 24866.700120270252,
+      "response_text": "Thank you for sharing all of this with me. It sounds like you're experiencing a lot of unsettling symptoms, and I can understand why that would be concerning. The facial twitching and strange sensations in your head must be pretty bothersome, and I'm glad the Aleve has helped reduce the frequency. It's also tough dealing with the sleep issues and feeling exhausted all the time\u2014I want to work together to figure this out.\n\nA few things come to mind. The facial twitching and the strange sensations in your head could be related to tension headaches or migraines, which can sometimes feel like pins and needles or unusual pressure [PMID ?]. The fact that these symptoms happen once a week and have lessened with Aleve suggests they might be manageable with the right approach. For the sleep issues, working from 4 PM to midnight and then struggling to fall asleep could be disrupting your natural sleep-wake cycle, leading to sleep deprivation and daytime drowsiness [PMID ?]. The snoring and needing to go to the bathroom at night might also be factors affecting your sleep quality.\n\nWe'll plan to monitor these symptoms over the next week. I'll ask you to keep track of when the facial twitching and head sensations occur, noting what you were doing before they started. For sleep, let's try adjusting your bedtime routine and see if we can improve your sleep environment. If things don't get better, we might consider next steps like seeing a neurologist or a sleep specialist.\n\nBefore you leave, could you summarize what we've discussed so far? That way, I can make sure I've covered everything clearly. Let's touch base in one week to see how you're doing and decide what to do next.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7534.169510006905,
+      "response_text": "Thank you for sharing your concerns with me. It sounds like you're experiencing some unsettling symptoms, including facial twitching and pressure in your head, as well as difficulty staying awake in non-stimulating environments. I'm here to help you work through these issues.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if your symptoms get worse or you experience anything unusual, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns with me. It sounds like you're experiencing some unsettling symptoms, including facial twitching and pressure in your head, as well as difficulty staying awake in non-stimulating environments. I'm here to help you work through these issues.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if your symptoms get worse or you experience anything unusual, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 105896.28159999847,
+      "response_text": "I can hear how frustrating this must be for you. You mentioned, \"I just fall asleep in non-stimulating environments. I seem like I'm always tired and I cannot get enough amount of sleep no matter what I do.\" That sounds really challenging, and I want to work with you to figure out what's going on.\n\nFacial twitching and grimacing can sometimes be linked to tension headaches or other types of discomfort. Since you're also experiencing a weird feeling in your head and some unusual sensations, it might be helpful to look into these symptoms together.\n\nFeeling extremely tired during the day, even in non-stimulating environments, could be related to your sleep habits or underlying sleep issues. We should explore ways to improve your sleep quality and see if there are any patterns in your sleep schedule.\n\nImproving sleep is an important goal, and we can work together to identify strategies that might help you get the rest you need. This could include adjusting your sleep environment or exploring lifestyle changes.\n\nFeeling tired all the time can definitely make it hard to focus at work. We'll look into ways to address both your sleep issues and any other factors that might be affecting your concentration.\n\nLet's start by reviewing your sleep habits and see if there are any changes we can make to help you get more restful sleep.\n\nWe'll also monitor your facial twitching and see if there's a connection to your headaches or other symptoms.\n\nIf needed, we can explore additional interventions to help with both your sleep and focus.\n\nI want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to check in again in a week. If you notice any changes in your symptoms or if anything becomes more severe, please reach out sooner.",
+      "structured_response": {
+        "acknowledgment": "I can hear how frustrating this must be for you. You mentioned, \"I just fall asleep in non-stimulating environments. I seem like I'm always tired and I cannot get enough amount of sleep no matter what I do.\" That sounds really challenging, and I want to work with you to figure out what's going on.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "facial twitching and grimacing",
+            "profile_path": "problems[0]",
+            "explanation": "Facial twitching and grimacing can sometimes be linked to tension headaches or other types of discomfort. Since you're also experiencing a weird feeling in your head and some unusual sensations, it might be helpful to look into these symptoms together.",
+            "citations": []
+          },
+          {
+            "concern_label": "excessive daytime sleepiness",
+            "profile_path": "problems[1]",
+            "explanation": "Feeling extremely tired during the day, even in non-stimulating environments, could be related to your sleep habits or underlying sleep issues. We should explore ways to improve your sleep quality and see if there are any patterns in your sleep schedule.",
+            "citations": []
+          },
+          {
+            "concern_label": "get enough sleep",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Improving sleep is an important goal, and we can work together to identify strategies that might help you get the rest you need. This could include adjusting your sleep environment or exploring lifestyle changes.",
+            "citations": []
+          },
+          {
+            "concern_label": "improve focus at work",
+            "profile_path": "patient_goals[1]",
+            "explanation": "Feeling tired all the time can definitely make it hard to focus at work. We'll look into ways to address both your sleep issues and any other factors that might be affecting your concentration.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "Let's start by reviewing your sleep habits and see if there are any changes we can make to help you get more restful sleep.",
+          "We'll also monitor your facial twitching and see if there's a connection to your headaches or other symptoms.",
+          "If needed, we can explore additional interventions to help with both your sleep and focus."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to check in again in a week. If you notice any changes in your symptoms or if anything becomes more severe, please reach out sooner.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 2,
+        "n_medications": 1,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 2,
+        "problems": [
+          "facial twitching and grimacing",
+          "excessive daytime sleepiness"
+        ],
+        "medications": [
+          "Aleve"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 165874.96764212847,
+      "response_text": "I can see how frustrating this must be for you \u2014 you mentioned, \"I just fall asleep in non-stimulating environments,\" and it sounds like it's really taking a toll on your daily life. I also hear how disheartened you are about not getting enough sleep despite your efforts.\n\nFacial twitching and grimacing, especially with symptoms like pressure in the backside of your head and unusual sensations, can sometimes be linked to tension headaches or other nervous system issues. Since you're already using Aleve, which is typically for pain, we might consider other approaches if this doesn't fully help.\n\nFeeling extremely tired during the day, especially in non-stimulating environments, can be related to various factors like sleep quality or underlying health issues. Since you're aiming to get enough sleep, we'll explore ways to improve your sleep habits and see if there are any other contributing factors.\n\nSetting goals around sleep is a great step. We'll work together to identify realistic strategies that fit your daily life, ensuring you feel more rested and less fatigued.\n\nWe'll start by reviewing your current sleep habits and any factors that might be affecting your daytime sleepiness.\n\nWe'll also monitor how the Aleve is working for your facial twitching and grimacing and adjust if needed.\n\nLet's schedule a follow-up in two weeks to check on your progress and make any necessary changes to your plan.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in two weeks. In the meantime, if you notice any new symptoms or if your sleep patterns change significantly, please reach out so we can address them promptly.",
+      "structured_response": {
+        "acknowledgment": "I can see how frustrating this must be for you \u2014 you mentioned, \"I just fall asleep in non-stimulating environments,\" and it sounds like it's really taking a toll on your daily life. I also hear how disheartened you are about not getting enough sleep despite your efforts.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "facial twitching and grimacing",
+            "profile_path": "problems[0]",
+            "explanation": "Facial twitching and grimacing, especially with symptoms like pressure in the backside of your head and unusual sensations, can sometimes be linked to tension headaches or other nervous system issues. Since you're already using Aleve, which is typically for pain, we might consider other approaches if this doesn't fully help.",
+            "citations": [
+              {
+                "cluster_id": "finding::global::41031717_1",
+                "primary_assertion_id": "41031717_1",
+                "pmids": [
+                  "41031717"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "excessive daytime sleepiness",
+            "profile_path": "problems[1]",
+            "explanation": "Feeling extremely tired during the day, especially in non-stimulating environments, can be related to various factors like sleep quality or underlying health issues. Since you're aiming to get enough sleep, we'll explore ways to improve your sleep habits and see if there are any other contributing factors.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::sub_query[2]::33658141_0",
+                "primary_assertion_id": "33658141_0",
+                "pmids": [
+                  "33658141"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "get enough sleep",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Setting goals around sleep is a great step. We'll work together to identify realistic strategies that fit your daily life, ensuring you feel more rested and less fatigued.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::sub_query[2]::33658141_0",
+                "primary_assertion_id": "33658141_0",
+                "pmids": [
+                  "33658141"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll start by reviewing your current sleep habits and any factors that might be affecting your daytime sleepiness.",
+          "We'll also monitor how the Aleve is working for your facial twitching and grimacing and adjust if needed.",
+          "Let's schedule a follow-up in two weeks to check on your progress and make any necessary changes to your plan."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in two weeks. In the meantime, if you notice any new symptoms or if your sleep patterns change significantly, please reach out so we can address them promptly.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::global::41031717_1",
+          "recommendation::sub_query[2]::33658141_0"
+        ],
+        "all_pmids_used": [
+          "41031717",
+          "33658141"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 2,
+        "n_medications": 1,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 2,
+        "n_goals": 1,
+        "problems": [
+          "facial twitching and grimacing",
+          "excessive daytime sleepiness"
+        ],
+        "medications": [
+          "Aleve"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [
+        "41031717",
+        "33658141"
+      ],
+      "cluster_ids_used": [
+        "finding::global::41031717_1",
+        "recommendation::sub_query[2]::33658141_0"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 83411.99042648077,
+        "module_2_retrieval": 64.84612077474594,
+        "module_3_reasoning": 51529.81363981962,
+        "module_4_response": 30867.04157292843,
+        "total_ms": 165873.69176000357
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

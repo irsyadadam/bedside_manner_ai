@@ -1,0 +1,233 @@
+{
+  "transcript_id": "mts_test_1_126",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "This is a 46-year-old female with a history of events concerning for seizures",
+  "patient_utterances": [
+    "[Clinician asked: \"Welcome to the clinic, miss.\"] Thank you.",
+    "[Clinician asked: \"What brings you to the clinic today?\"] I am concerned that I have been having small seizures again.",
+    "[Clinician asked: \"Do you have a history of epilepsy?\"] Yes, I do. I also have had non epileptic issues in the past.",
+    "[Clinician asked: \"Okay. What makes you feel like you are having seizures again?\"] In the mornings I have been waking up with strange body aches and feeling confused. I have felt these feelings before after having seizures in the past. I live alone now so I don't know if I had a seizure or not.",
+    "[Clinician asked: \"Okay. Do you have weakness when you wake up?\"] Yes. It also happens while I am at work at my desk. I work alone in my office most of the day so no one is around to notice what might be happening.",
+    "[Clinician asked: \"Okay. That is good to know. How old are you?\"] I am forty six.",
+    "[Clinician asked: \"Okay. I would like to perform a video E E G today. By doing the video E E G we will have more information on whether you are having epileptic seizures or non-epileptic events.\"] Yes. Let's do that.",
+    "[Clinician asked: \"Do you have time for us to do it today?\"] Yes. I took the whole day off work so we can do it now.",
+    "[Clinician asked: \"Excellent! I will have the nurse come in a get you set up.\"] Okay."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "HPI": "This is a 46-year-old female with a history of events concerning for seizures.  The patient has a history of epilepsy and has also had non-epileptic events in the past.  Video EEG monitoring is performed to assess whether it is epileptic seizures or non-epileptic events."
+  },
+  "n_patient_turns": 9,
+  "n_clinician_turns": 9,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 20739.58772420883,
+      "response_text": "I understand how concerning this must be for you, especially since you're experiencing symptoms that remind you of your past seizures. It's completely valid to feel unsure and worried, especially when you're managing this alone. Your health and well-being are my top priorities, and I'm here to support you through this.\n\nWe've decided to proceed with a video EEG, which is a great step forward. This test will help us better understand what's happening and ensure we're on the right track for your care. In the meantime, if you experience any symptoms or have questions, please don't hesitate to reach out. We'll continue to monitor your progress and discuss any other symptoms you're having during our follow-up. Thank you for taking the initiative to prioritize your health today.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 18823.37561249733,
+      "response_text": "Thank you for sharing your concerns with me. It\u2019s completely understandable that you\u2019re worried, especially given your history of epilepsy and the uncertainty of these symptoms. Waking up confused and with body aches, especially in the mornings or while working alone, must be unsettling. I can see why you\u2019re taking this seriously and taking time off to get it checked out\u2014it shows how proactive you are about your health.\n\nWe\u2019re going to perform a video EEG today, which is a great step because it will help us figure out whether these episodes are epileptic seizures or something else. The EEG will record your brain activity along with video, giving us clear information. This is important because it can help us tailor the right treatment for you [PMID ?].\n\nBefore you leave, could you tell me in your own words what we\u2019re planning to do today? That way, I can make sure everything is clear. We\u2019ll follow up after the results are in to discuss the next steps.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 8670.36510258913,
+      "response_text": "Thank you for taking the time to share your concerns with me. It sounds like you're experiencing some unsettling symptoms that are worrying you, especially since you live alone and aren't sure what's happening.\n\nWe'll proceed with the video EEG today to get a clearer understanding of what's happening. This will help us determine whether these events are epileptic seizures or non-epileptic episodes.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to review the results together after we get them. In the meantime, if you experience any severe symptoms or if you're unsure about what's happening, please reach out to us as soon as possible.",
+      "structured_response": {
+        "acknowledgment": "Thank you for taking the time to share your concerns with me. It sounds like you're experiencing some unsettling symptoms that are worrying you, especially since you live alone and aren't sure what's happening.",
+        "clinical_information_per_concern": [],
+        "next_steps": [
+          "We'll proceed with the video EEG today to get a clearer understanding of what's happening. This will help us determine whether these events are epileptic seizures or non-epileptic episodes."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to review the results together after we get them. In the meantime, if you experience any severe symptoms or if you're unsure about what's happening, please reach out to us as soon as possible.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 86825.10209828615,
+      "response_text": "It sounds like you're concerned about these recent seizures and the symptoms that come with them. I want to make sure I understand how this is affecting your daily life.\n\nSeizures can be caused by various factors, and it's important to understand what might be triggering them. Given your history of epilepsy and other non-epileptic issues, we'll need to carefully assess the patterns and symptoms to determine the best approach.\n\nWe'll schedule some tests to better understand the cause of these seizures and how they relate to your history.\n\nPlease keep track of when the seizures occur and any symptoms you experience around those times, so we can discuss them during your next visit.\n\nCan you tell me, in your own words, what we're going to do next and why it's important?\n\nLet's plan to see each other again in a few weeks. In the meantime, if you notice any new symptoms or if the seizures become more frequent, please reach out as soon as possible.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're concerned about these recent seizures and the symptoms that come with them. I want to make sure I understand how this is affecting your daily life.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "small seizures",
+            "profile_path": "problems[0]",
+            "explanation": "Seizures can be caused by various factors, and it's important to understand what might be triggering them. Given your history of epilepsy and other non-epileptic issues, we'll need to carefully assess the patterns and symptoms to determine the best approach.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::40043597",
+                "primary_assertion_id": "40043597_retr",
+                "pmids": [
+                  "40043597"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll schedule some tests to better understand the cause of these seizures and how they relate to your history.",
+          "Please keep track of when the seizures occur and any symptoms you experience around those times, so we can discuss them during your next visit."
+        ],
+        "teach_back_prompt": "Can you tell me, in your own words, what we're going to do next and why it's important?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if you notice any new symptoms or if the seizures become more frequent, please reach out as soon as possible.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "retrieval_only::40043597"
+        ],
+        "all_pmids_used": [
+          "40043597"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "small seizures"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "40043597"
+      ],
+      "cluster_ids_used": [
+        "retrieval_only::40043597"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 153756.68311864138,
+      "response_text": "I understand you're concerned about having small seizures again. This is something we need to take seriously and look into carefully.\n\nSeizure control is a top priority for people with epilepsy. Given your history of epilepsy and the recent concerns, we'll focus on understanding the pattern of your seizures and any related symptoms to guide the next steps.\n\nGiven your concern about new seizures, we'll prioritize evaluating this to ensure we address it promptly.\n\nWe'll review your seizure history and symptoms to better understand the pattern and triggers.\n\nBased on this information, we'll determine the most appropriate next steps for monitoring and management.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to review your progress in the next follow-up visit. If you experience any new symptoms or changes in your condition, please reach out as soon as possible.",
+      "structured_response": {
+        "acknowledgment": "I understand you're concerned about having small seizures again. This is something we need to take seriously and look into carefully.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "small seizures",
+            "profile_path": "problems[0]",
+            "explanation": "Seizure control is a top priority for people with epilepsy. Given your history of epilepsy and the recent concerns, we'll focus on understanding the pattern of your seizures and any related symptoms to guide the next steps.",
+            "citations": [
+              {
+                "cluster_id": "finding::problems[0]::40043597_0",
+                "primary_assertion_id": "40043597_0",
+                "pmids": [
+                  "40043597"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "Given your concern about new seizures, we'll prioritize evaluating this to ensure we address it promptly.",
+          "We'll review your seizure history and symptoms to better understand the pattern and triggers.",
+          "Based on this information, we'll determine the most appropriate next steps for monitoring and management."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to review your progress in the next follow-up visit. If you experience any new symptoms or changes in your condition, please reach out as soon as possible.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::problems[0]::40043597_0"
+        ],
+        "all_pmids_used": [
+          "40043597"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 1,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "small seizures"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "40043597"
+      ],
+      "cluster_ids_used": [
+        "finding::problems[0]::40043597_0"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 75746.6933131218,
+        "module_2_retrieval": 31.631410121917725,
+        "module_3_reasoning": 60689.97833877802,
+        "module_4_response": 17287.21072524786,
+        "total_ms": 153755.5137872696
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

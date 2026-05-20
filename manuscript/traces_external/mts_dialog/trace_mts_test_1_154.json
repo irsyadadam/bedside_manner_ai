@@ -1,0 +1,247 @@
+{
+  "transcript_id": "mts_test_1_154",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "Remarkable for chronic pain",
+  "patient_utterances": [
+    "I am in pain! You have to help me.",
+    "[Clinician asked: \"Where is the pain?\"] It is all over. My whole body hurts. I have been stabbed, shot, and injured multiple times that I have chronic pain and am in pain all the time.",
+    "[Clinician asked: \"I have your chart notes from Doctor X Y Z from several years ago. I see that you have been treated for heroin use. Are you using heroin again, sir?\"] Yes! I have been trying to cope with the pain and I just keep going back. When the pain hits me hard the cravings start."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "PMH": "Remarkable for chronic pain.  He has had multiple stab wounds, gunshot wounds, and a variety of other injuries that resulted him having chronic pain and he states that is what triggers of him getting on heroin to try to get out of pain.  He has previously been followed by ABC but has not seen him for several years."
+  },
+  "n_patient_turns": 3,
+  "n_clinician_turns": 2,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 16025.872729718685,
+      "response_text": "I understand how overwhelming and painful this must be for you. Dealing with constant, intense pain is incredibly challenging, and I believe you when you say it's affecting your life every day. I want to work with you to find healthier ways to manage this pain so you can feel better and avoid the risks that come with heroin use.\n\nWe can explore other options together, like medications or therapies, to help ease your pain without the dangers of heroin. I'm here to support you, and we'll tackle this together. Let's consider additional support, such as counseling or a support group, to help you cope with both the pain and addiction. You're not alone in this, and there are better ways forward.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 25689.69476222992,
+      "response_text": "Thank you for sharing how you're feeling\u2014it sounds like you're in a lot of pain, and I can tell this is taking a huge toll on you. It makes sense that you're struggling to cope when your whole body hurts all the time. I want to work together to help you find relief and support you in managing this pain.\n\nI understand that using heroin again is a way you've been trying to cope with the intense pain and cravings. It\u2019s important to acknowledge how challenging this must be for you. Chronic pain can be incredibly difficult to manage, and it\u2019s not uncommon for people to turn to substances like heroin as a way to cope, even when they know it might not be the best solution [PMID ?].\n\nWe\u2019ll need to explore ways to manage your pain that don\u2019t involve heroin or other opioids, as relying on these can make the pain harder to treat over time [PMID ?]. This might include a combination of medications, physical therapy, and counseling to address both the pain and the cravings. I want to make sure we\u2019re doing everything we can to help you feel better and stay safe.\n\nLet\u2019s plan to check in with each other in about two weeks to see how you\u2019re feeling and adjust the plan as needed. Before you leave, could you tell me in your own words what you think we should focus on to help you manage the pain and cravings? That way I can make sure we\u2019re on the same page.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6549.5007038116455,
+      "response_text": "I understand you're in a lot of pain and that it's affecting your daily life.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 4 weeks. In the meantime, if you get new symptoms like severe pain or if the pain gets much worse, please call us right away \u2014 don't wait for the appointment.",
+      "structured_response": {
+        "acknowledgment": "I understand you're in a lot of pain and that it's affecting your daily life.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 4 weeks. In the meantime, if you get new symptoms like severe pain or if the pain gets much worse, please call us right away \u2014 don't wait for the appointment.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 40500.47370791435,
+      "response_text": "I can hear how much this is affecting you \u2014 you said, \"I am in pain!\" and \"I just keep going back,\" which shows how frustrating this must be. I want to make sure we're addressing this properly.\n\nChronic pain can be tough to manage, and it's important to understand what's causing it. We'll look into different approaches to help you feel better.\n\nOur goal is to find the best way to help you with your pain, whether through medication, therapy, or other treatments.\n\nWe'll start by reviewing your medical history and any previous treatments you've tried to see what might be working and what isn't.\n\nWe'll schedule a follow-up visit to discuss your progress and adjust your care plan as needed.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if your pain gets worse or you experience any new symptoms, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this is affecting you \u2014 you said, \"I am in pain!\" and \"I just keep going back,\" which shows how frustrating this must be. I want to make sure we're addressing this properly.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "chronic pain",
+            "profile_path": "problems[0]",
+            "explanation": "Chronic pain can be tough to manage, and it's important to understand what's causing it. We'll look into different approaches to help you feel better.",
+            "citations": []
+          },
+          {
+            "concern_label": "to be helped with pain",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Our goal is to find the best way to help you with your pain, whether through medication, therapy, or other treatments.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll start by reviewing your medical history and any previous treatments you've tried to see what might be working and what isn't.",
+          "We'll schedule a follow-up visit to discuss your progress and adjust your care plan as needed."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if your pain gets worse or you experience any new symptoms, please call us right away.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 2,
+        "n_goals": 1,
+        "problems": [
+          "chronic pain"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 101991.34308844805,
+      "response_text": "I can hear how much this has been affecting you \u2014 you mentioned, \"I have been stabbed, shot, and injured multiple times that I have chronic pain and am in pain all the time.\" That sounds incredibly challenging to live with.\n\nChronic pain can be complex, and it's important to understand what's causing it. Given your description, we'll focus on getting a clearer picture through some tests and discussions.\n\nOur goal is to work together to find ways to manage your pain effectively. This might involve different approaches, including both medical and non-medical strategies.\n\nWe'll start by scheduling some tests to better understand the sources of your pain.\n\nWe'll also discuss different ways to manage your pain that might include both medical advice and other supportive strategies.\n\nPlease let us know if there are any specific concerns or questions you have before we move forward.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to check in again in a week to review the results and see how you're feeling. If anything changes or if you have new symptoms, please reach out sooner.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this has been affecting you \u2014 you mentioned, \"I have been stabbed, shot, and injured multiple times that I have chronic pain and am in pain all the time.\" That sounds incredibly challenging to live with.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "chronic pain",
+            "profile_path": "problems[0]",
+            "explanation": "Chronic pain can be complex, and it's important to understand what's causing it. Given your description, we'll focus on getting a clearer picture through some tests and discussions.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[2]::39366124_0",
+                "primary_assertion_id": "39366124_0",
+                "pmids": [
+                  "39366124",
+                  "40155879"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "to be helped with pain",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Our goal is to work together to find ways to manage your pain effectively. This might involve different approaches, including both medical and non-medical strategies.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[2]::39366124_0",
+                "primary_assertion_id": "39366124_0",
+                "pmids": [
+                  "39366124",
+                  "40155879"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll start by scheduling some tests to better understand the sources of your pain.",
+          "We'll also discuss different ways to manage your pain that might include both medical advice and other supportive strategies.",
+          "Please let us know if there are any specific concerns or questions you have before we move forward."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to check in again in a week to review the results and see how you're feeling. If anything changes or if you have new symptoms, please reach out sooner.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[2]::39366124_0"
+        ],
+        "all_pmids_used": [
+          "39366124",
+          "40155879"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 2,
+        "n_goals": 1,
+        "problems": [
+          "chronic pain"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "39366124",
+        "40155879"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[2]::39366124_0"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 26632.781833410263,
+        "module_2_retrieval": 60.270607471466064,
+        "module_3_reasoning": 52141.666285693645,
+        "module_4_response": 23155.389174818993,
+        "total_ms": 101990.10790139437
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

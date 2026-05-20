@@ -1,0 +1,161 @@
+{
+  "transcript_id": "mts_val_99",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "Chronic atrial fibrillation, the patient has been restarted back on aspirin 81 mg at the time of discharge",
+  "patient_utterances": [
+    "[Clinician asked: \"I'm glad to hear that your Afib is under control. I'd like for you to start taking baby aspirin again.\"] Should I continue taking Nexium?",
+    "[Clinician asked: \"Yes, I'd like you to also take Nexium forty M G once a day in order to reduce the risk of an upper G I bleed.\"] Sounds good.",
+    "[Clinician asked: \"And I ask that you call me immediately if you notice coffee like grounds in your vomit or bloody stool.\"] Okay."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "ASSESSMENT": "Chronic atrial fibrillation, the patient has been restarted back on aspirin 81 mg at the time of discharge.  Aspirin should be continued with Nexium 40 mg once daily in order to prevent any future occurrence of upper GI bleed.  If the patient has any occurrence of upper GI bleed such as coffee-ground emesis or melena then aspirin should be discontinued."
+  },
+  "n_patient_turns": 3,
+  "n_clinician_turns": 4,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 13092.600002884865,
+      "response_text": "Thank you for your responses. It\u2019s great that you\u2019re on board with the plan. Taking Nexium is an important step to help protect your stomach and reduce the risk of bleeding while you\u2019re taking the baby aspirin. Please continue to take it as prescribed. If you notice any signs of bleeding, like coffee-grounds in your vomit or blood in your stool, don\u2019t hesitate to call me right away. We\u2019re here to keep you safe and healthy.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 15819.07369941473,
+      "response_text": "Thank you for asking that question\u2014it\u2019s great you\u2019re thinking about your care. It\u2019s important to continue taking Nexium for now because, when combined with baby aspirin, it helps protect your stomach from potential irritation. Aspirin can sometimes increase the risk of stomach bleeding, and Nexium reduces acid production, which helps prevent that.\n\nWe\u2019ll plan to reassess how you\u2019re doing on Nexium in a few weeks. If you notice any changes or have any concerns in the meantime, please don\u2019t hesitate to reach out. It\u2019s good to check in regularly to make sure this plan is working well for you.\n\nIf you have any more questions or need further clarification, feel free to ask. I\u2019m here to help you navigate this. We\u2019ll touch base again soon to see how things are going.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 4878.3407881855965,
+      "response_text": "It sounds like you're doing well with managing your atrial fibrillation and medications.\n\nLet's plan to stay in touch and make sure everything is going well. Please call us if you have any concerns or questions in the meantime.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're doing well with managing your atrial fibrillation and medications.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "",
+        "follow_up_invitation": "Let's plan to stay in touch and make sure everything is going well. Please call us if you have any concerns or questions in the meantime.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 14673.946753144264,
+      "response_text": "It sounds like you're here to talk about your Nexium use.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're here to talk about your Nexium use.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "",
+        "follow_up_invitation": "",
+        "nurse_elements_applied": [],
+        "four_habits_elements_applied": [],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 0,
+        "n_medications": 1,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [],
+        "medications": [
+          "Nexium 40 mg once daily"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 72467.56123751402,
+      "response_text": "It sounds like you're here to talk about your medications, specifically Baby aspirin and Nexium. I want to make sure I understand what's concerning you regarding these medications.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if you notice any changes in how you're feeling or if you have new symptoms, please call us so we can address them promptly.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're here to talk about your medications, specifically Baby aspirin and Nexium. I want to make sure I understand what's concerning you regarding these medications.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if you notice any changes in how you're feeling or if you have new symptoms, please call us so we can address them promptly.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 0,
+        "n_medications": 2,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [],
+        "medications": [
+          "Baby aspirin",
+          "Nexium"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 12660.11430323124,
+        "module_2_retrieval": 30.113443732261658,
+        "module_3_reasoning": 51244.90946531296,
+        "module_4_response": 8531.210765242577,
+        "total_ms": 72466.34797751904
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

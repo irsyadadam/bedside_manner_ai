@@ -1,0 +1,165 @@
+{
+  "transcript_id": "mts_val_57",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "None",
+  "patient_utterances": [
+    "[Clinician asked: \"Are you taking any medications?\"] No.",
+    "[Clinician asked: \"Any over the counter drugs or anything?\"] None."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "MEDICATIONS": "None."
+  },
+  "n_patient_turns": 2,
+  "n_clinician_turns": 3,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 17787.641614675522,
+      "response_text": "Thank you for sharing that with me. It's good that you're aware of your current medications, even if you're not taking any at the moment. If you have any concerns about medications or reasons for not taking them, please feel free to share. I'm here to help address any questions or concerns you might have. Let me know how I can assist you further.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 17308.092013001442,
+      "response_text": "Thanks for sharing that with me. It makes sense you're worried about the heartburn lasting two months\u2014it's definitely something we should look into together.\n\nThe ibuprofen you're taking for back pain could be contributing to your heartburn. NSAIDs like ibuprofen can sometimes worsen reflux symptoms [PMID ?]. I'll want to review whether ibuprofen is still the best choice for your back pain and consider a short trial of a proton-pump inhibitor to see if your symptoms improve [PMID ?].\n\nIf you ever experience trouble swallowing, vomiting blood, unintentional weight loss, or chest pain with exertion, please go to urgent care immediately as those would be signs to act quickly.\n\nWe'll plan to check in within 2-4 weeks to see how you're feeling. Before you leave, could you tell me in your own words what we just discussed? That way I can make sure everything is clear.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6495.208993554115,
+      "response_text": "Thank you for coming in today. I understand you're here to discuss your concerns and we'll work together to address them.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 4 weeks. In the meantime, if you have any new concerns or symptoms, please call us.",
+      "structured_response": {
+        "acknowledgment": "Thank you for coming in today. I understand you're here to discuss your concerns and we'll work together to address them.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 4 weeks. In the meantime, if you have any new concerns or symptoms, please call us.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 12454.196736216545,
+      "response_text": "Thank you for reaching out. It sounds like you're here to discuss some important topics related to your health.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. If anything changes or if you have new concerns in the meantime, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "Thank you for reaching out. It sounds like you're here to discuss some important topics related to your health.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. If anything changes or if you have new concerns in the meantime, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 0,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 59746.12032622099,
+      "response_text": "Thank you for reaching out. It sounds like you're dealing with some concerns, and I'm here to help.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a week. If anything changes or if you have more questions, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "Thank you for reaching out. It sounds like you're dealing with some concerns, and I'm here to help.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a week. If anything changes or if you have more questions, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 0,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 5375.253304839134,
+        "module_2_retrieval": 45.24730145931244,
+        "module_3_reasoning": 47077.97085493803,
+        "module_4_response": 7246.110141277313,
+        "total_ms": 59744.58160251379
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

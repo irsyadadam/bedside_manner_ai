@@ -1,0 +1,315 @@
+{
+  "transcript_id": "primock57_day4_consultation06",
+  "dataset": "primock57",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "my chest hurts and it's been hard to breathe",
+  "patient_utterances": [
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/> Ah. Hello.\"] Hello.",
+    "[Clinician asked: \"Hi, uh, my name is Doctor Kumar. I'm one of the GPs here. Can I just get you to confirm your name and date of birth for me, please?\"] Uh, yeah, I'm Maria.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/>\"] Yeah.",
+    "[Clinician asked: \"Date of birth?\"] Sorry?",
+    "[Clinician asked: \"And your date of birth?\"] Um, twenty second uh,  of March, of um, ninety.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/> Again, how can I help today?\"] Um, so, I'm having like a really, really strong headache. I don't know what is happening. I'm, quite concerned. So, it started in the morning. Um, I feel like um, uh, dizzy. Uh, my vision is a little bit blurred. Um, like,  it's, it's really painful, and I'm getting really concerned. Especially because I'm having like these, uh, changes in the vision.",
+    "[Clinician asked: \"OK. So,  it started this morning, was it a sudden onset headache, did it come on suddenly?\"] Yeah, yeah, yeah.",
+    "[Clinician asked: \"OK. And did it come on really bad or did it start off, uh,  like a slight headache and build up to a, a severe headache?\"] Uh, it came like, kind of suddenly.",
+    "[Clinician asked: \"And if , if ten is the worst pain you've ever felt in your life, how bad would you say the pain was between one and ten?\"] Well, I had the kidney stone, so let's say that that's ten. Um, I have now, , maybe five, well, six, six probably.",
+    "[Clinician asked: \"It's not ten. Great!\"] But, it's more about me being really concerned, because this is very weird.",
+    "[Clinician asked: \"OK. No, that's fine. Have you ever had a headache before?\"] Sorry?",
+    "[Clinician asked: \"Have you ever had a headache like this in the past?\"] Um, well not, really.",
+    "[Clinician asked: \"OK. So, it's a first .\"] Like this, I, yeah, like this, no, definitely. It's something new.",
+    "[Clinician asked: \"OK. OK. If you had to say where uh, uh,  across the head, uh, the headache is, is it across the front, around the back?\"] It's in uh, one side, uh, the left side, only.",
+    "[Clinician asked: \"And tell me what visual problems are you getting?\"] My vision is quite blurred. Um, it, it's, it's really weird, like some zigzag lines.",
+    "[Clinician asked: \"OK.\"] Kind of. I don't know how to describe it properly.",
+    "[Clinician asked: \"OK. And, um, have you tried any painkillers for this already?\"] Yeah, I tried Paracetemol, but uh, didn't work. To be honest, I feel exactly the same.",
+    "[Clinician asked: \"OK. Um, OK. Um, what time did you take the paracetamol? How long ago was it you'd taken it?\"] Uh, well, uh, the  headache started like four year, four hours ago. So, I would say like, maybe three hours ago, because I couldn't stand it.",
+    "[Clinician asked: \"OK. Um, and your visual problem is still ongoing now?\"] Yeah, yeah, yeah. I feel a little bit, a little bit better. , I cannot stand screens. Um, but, yeah, definitely. And, when I move, like the thing is that if I, if I leave bed, I start to feel like, even worse if I move. So, I just want to have my hay, my head like really, uh, not moving.",
+    "[Clinician asked: \"OK. OK, Um, so, what about, , have you felt sort of nauseous or like you want to vomit?\"] Ohh yeah. Ohh, I forgot to mention, definitely, I vomit twice. Actually, as soon as the, the headache started, I also vomited. So, initially, I thought it was something that I ate, but then the headache started to be really bad, and I still feel nausea.",
+    "[Clinician asked: \"Still feel.\"] To be honest, I'm about to vomit, very soon, I think.",
+    "[Clinician asked: \"All right. OK. You've mentioned, in the past, you've had kidney stones, any other medical problems?\"] Sorry?",
+    "[Clinician asked: \"Uh, you've mentioned that in the past, you've had kidney stones. Have you had any other medical problems in the past?\"] Yes. Uh, so, uh, uh, not actually. Uh, my mother has migraines. I'm not sure if that's relevant? And uh, also, I have hypothyroidism in the family. So, it might be. I don't know, uh, I've, I don't know.",
+    "[Clinician asked: \", what else do you have in the family?\"] I think we are losing connection. Sorry, I, I think we lost connection.",
+    "[Clinician asked: \"Ohh, can you still hear me? Ohh, it's gone. You can hear me. Um, you said, you mentioned your mother has migraines. What else do you have in the family?\"] Yeah. Yeah, yeah. Hypothyroidism.",
+    "[Clinician asked: \"Hyperthyroid\"] . She also has Hypothyroidism.",
+    "[Clinician asked: \"OK. Bye. OK. Um, and no other relevant family history?\"] Uh, no, not that I'm aware.",
+    "[Clinician asked: \"And do you take any regular medications?\"] Uh, no.",
+    "[Clinician asked: \"Are you allergic to any medications?\"] Not that I'm aware, uh. Yeah, not that I'm aware.",
+    "[Clinician asked: \"OK. Is there any chance you could be pregnant?\"] Uh, I really doubt it.",
+    "[Clinician asked: \"Fine. And so, you're not allergic to any medications. Fine from. And what, what were you thinking might be going on? I know you seemed quite worried about it. Was there anything in particular you were worried about?\"] Well, I'm a little bit hypochondriac. So, I feel that this can be some kind of brain tumour, tumour or something? Because, I'm like this is, , really, the pain is so horrible that, or maybe a stroke. I don't know, it's, it's just like you know, you hear so many stories. That, you definitely start wonder, if i should go to A and E urgently, because , I might really have something serious.",
+    "[Clinician asked: \"OK. OK, fine. Um, now just, uh, another, uh, question, have you noticed any weakness in your arms or legs, anything like that?\"] No, no , no, no.",
+    "[Clinician asked: \"Uh, and when you're walking, you're able to walk fine in a straight line or is your, your uh walk, are you walking a bit funny?\"] Uh, not really.",
+    "[Clinician asked: \"OK.\"] It's really about the head. That's why I find it very weird.",
+    "[Clinician asked: \"OK. So, just, just to clarify what, what you said . This morning, uh, you woke up and then later on in the, in the morning, about four hours ago, you've developed a headache? Um, <INAUDIBLE_SPEECH/> on the left side of the head?\"] Yep. Yeah.",
+    "[Clinician asked: \"Left side of the head, is it  behind the eye?\"] Exactly. Sorry?",
+    "[Clinician asked: \"Is it behind the eye? Is that where the pain is?\"] Uh, no, no it's, ugh, I don't know how to describe it. But it's, just like, <INAUDIBLE_SPEECH/>, kind of.",
+    "[Clinician asked: \"Um, you've <INAUDIBLE_SPEECH/>. OK. That's fine. You've noticed that your vision is blurry, there's funny lines, you feel a bit nauseous, you vomited twice. Um, and, uh, you feeling dizzy as well, but your, you've got no neurological symptoms. You're walking fine.\"] Yes.",
+    "[Clinician asked: \"Um, and, and you've taken paracetamol and it hasn't helped. Is that all? OK.\"] No.",
+    "[Clinician asked: \"So, it sounds like what you're suffering from is what's known as a migraine. Is that something you've heard of before?\"] Yeah. Uh. Uh, no, it's the first time.",
+    "[Clinician asked: \"OK.\"] But, to be honest, I'm very familiar with the disease, because my mother has it, so. Uh, well, but I never had it, and I thought that the onset of migraine will be, you know, in much, uh, early ages. So, that's why I'm not sure, if migraine makes sense. .",
+    "[Clinician asked: \"OK. So, um, usually with, with migraines they can present at different times in people's lives, so, sometimes they can present as a child, sometimes they can present when they're older. Um, and sometimes they can present, you know, even postmenopausally. So, there's different, there's different ways\"] Mm-hmm.",
+    "[Clinician asked: \"Now, um, uh,  obviously, if the  headache is really severe, and I'll suggest some medications you can try, if that doesn't work, we would want to see you, um, as soon as possible, to do like a full neurological exam as well. <INAUDIBLE_SPEECH/> to make sure that, you know, there's, you know, when we\"] Ohh, that's great.",
+    "[Clinician asked: \"Um, I  I would recommend in the time between now and when we can see you, uh, if you take some medications, maybe something like ibuprofen?\"] <INAUDIBLE_SPEECH/> Yeah. OK. So, and, uh, you're, you're saying that if this is a migraine, and if I try that medication. This should go away, kind of, today?",
+    "[Clinician asked: \"So, yes, a migraine, yeah, no, you know, even sooner than that, we can look at maybe half an hour to forty minutes, depending on what your response to it is, for some people, Uh, whatever medications they take the migraine doesn't improve, um, and they can last from anywhere from four hours to seven\"] Ugh. OK. That doesn't sound good.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/> No. So, what, there's lots of medication treatments so, there's, it can be ibuprofen with an anti-sickness, um, so and , which you can get from the pharmacy. Um, and you also to drink, uh, sugary and carbonated drinks, something like Coke.\"] OK.",
+    "[Clinician asked: \"For the three of them is, uh, is a good sort of cocktail to start them, then we can go up the treatment ladder, you can get specific migraine relief medication. And that should be something to try between now and when we see you to do the, um, to do the assessment.\"] OK. OK. Sounds.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/> assessment to where we can see you today at some point.\"] OK.",
+    "[Clinician asked: \"And, but however, if you do take these medications and, you know, by the time your appointment time comes in and you feel much better in yourself, you can cancel it, um, you can give us a call and cancel it.\"] OK, sounds good, yeah. Sounds, sounds a good plan.",
+    "[Clinician asked: \"OK. Uh, any, any questions for me?\"] Uh, no, thank you very much. You were very helpful.",
+    "[Clinician asked: \"All right. OK. Um, any, any further problems between now and your appointment, please do let us know.\"] OK, yeah. Thank you very much.",
+    "[Clinician asked: \"OK. Bye.\"] <INAUDIBLE_SPEECH/> Should I disconnect?"
+  ],
+  "gold_note": "Name and DOB confirmed\nPC: presenting with headache - significant \nSx. started this morning\nAssociated symptoms - dizzy / blurry vision - sudden onset headache - severity score - 6/10\nNew headache\nHeadache over left side of head \nVision blurry - funny lines\nHas tried paracetamol 3 hours ago- no improvement\nStill having visual problems - some improvement\nLooking at screens making sx. Worse\nWhen moving sx. Worse\nHas felt nauseous - and vomited x2\nNo neurological symptoms\n\nUnlikely to be pregnant\n\nWorried re: brain cancer or a stroke - wondering if needs to go to a&e\n\nPmh: renal stones\n\nDhx: nil regular,\nNKDA\n\nFhx: mother - migraines, Hypothyroidism\n\nVideo assessment - appeared well - in a brightly lit environment - does not appear photophobic\n\nPlan - 1) ibuprofen + sugary drink + anti sickness to try until appointment\nLikely migraine however need to consider more serious differentials\nFor review face to face as 1st onset of headache - to be seen today at earliest - earliest appointment available - will need neurological assessment - also to assess for neck stiffness and fever and rash",
+  "gold_sections": {
+    "PRESENTING_COMPLAINT": "my chest hurts and it's been hard to breathe",
+    "HIGHLIGHTS": ""
+  },
+  "n_patient_turns": 52,
+  "n_clinician_turns": 52,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 17817.357525229454,
+      "response_text": "Maria, I understand how concerning and frightening your symptoms must be. The severe headache, along with the blurred vision and zigzag lines, is definitely something to take seriously. While it\u2019s natural to worry about more serious conditions like a brain tumor or stroke, it\u2019s important to consider other possibilities, such as a migraine. Migraines can sometimes present with unusual symptoms, especially in people who haven\u2019t experienced them before, and they can occur at any age.\n\nGiven your symptoms, I recommend trying ibuprofen combined with an anti-nausea medication, if possible, and having a sugary drink like Coke. These can sometimes help alleviate migraine symptoms. If you don\u2019t feel better within a few hours or if your symptoms worsen, please come in for a neurological exam. We want to make sure everything is okay. If the pain eases after taking medication, you can cancel your appointment, but we\u2019re here if you need us.\n\nTake care, and let us know if you have any more questions or concerns.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 29521.331951022148,
+      "response_text": "Thank you for sharing all of that with me, Maria. It sounds like you're in a lot of discomfort, and I can understand how concerning this must be for you. Having a sudden, severe headache with changes in vision and nausea is definitely something to take seriously.\n\nFrom what you've described, a few possibilities come to mind. Migraines can sometimes present with visual disturbances and severe pain, even in someone who hasn't experienced them before [PMID ?]. However, given the sudden onset and your symptoms, it's important to also consider other causes like a neurological issue or even a stroke [PMID ?]. That\u2019s why I think it\u2019s best to get you checked out soon.\n\nIn the meantime, I recommend taking ibuprofen with an anti-nausea medication, like metoclopramide, which can help reduce both the pain and the nausea [PMID ?]. If you don't have metoclopramide, you can get it at the pharmacy. Try that in the next hour and let me know how you feel. If the symptoms don\u2019t improve or get worse, or if you experience any new symptoms like weakness or confusion, please go to the emergency room immediately.\n\nWe\u2019ll plan to see you again in the next 24-48 hours for a full neurological assessment. Before you leave, could you summarize what we discussed today? That way, I can make sure you understand the plan and feel confident about the next steps.\n\nPlease don\u2019t hesitate to reach out if anything changes or if you have more questions. I\u2019m here to support you through this.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7428.844213485718,
+      "response_text": "It sounds like you're really worried about this headache and the changes in your vision. I want to make sure I understand how serious this feels to you.\n\nCan you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again soon. If your symptoms get worse or if you have any new concerns, please call us.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're really worried about this headache and the changes in your vision. I want to make sure I understand how serious this feels to you.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "Can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again soon. If your symptoms get worse or if you have any new concerns, please call us.",
+        "nurse_elements_applied": [
+          "Invest in the beginning"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Invest in the beginning"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 189144.36672627926,
+      "response_text": "I can hear how much this is worrying you \u2014 you mentioned, \"I'm quite concerned. Especially because I'm having like these, uh, changes in the vision.\" That's a real concern, and I want to make sure we address it carefully.\n\nA sudden, severe headache with symptoms like dizziness, blurred vision, and nausea can be serious. We need to check for possible causes like neurological issues or other serious conditions.\n\nTo help manage your symptoms, we'll focus on finding the cause of your headache so we can address it effectively.\n\nGiven the concerning symptoms, we'll prioritize getting a thorough evaluation to rule out serious causes.\n\nWe'll schedule a follow-up to review the results and plan the next steps together.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again soon to go over the results. In the meantime, if your symptoms get worse or you experience anything new, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this is worrying you \u2014 you mentioned, \"I'm quite concerned. Especially because I'm having like these, uh, changes in the vision.\" That's a real concern, and I want to make sure we address it carefully.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "really strong headache",
+            "profile_path": "problems[0]",
+            "explanation": "A sudden, severe headache with symptoms like dizziness, blurred vision, and nausea can be serious. We need to check for possible causes like neurological issues or other serious conditions.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::33285618",
+                "primary_assertion_id": "33285618_retr",
+                "pmids": [
+                  "33285618"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "to have her head not move",
+            "profile_path": "patient_goals[0]",
+            "explanation": "To help manage your symptoms, we'll focus on finding the cause of your headache so we can address it effectively.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::33658141",
+                "primary_assertion_id": "33658141_retr",
+                "pmids": [
+                  "33658141"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "Given the concerning symptoms, we'll prioritize getting a thorough evaluation to rule out serious causes.",
+          "We'll schedule a follow-up to review the results and plan the next steps together."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again soon to go over the results. In the meantime, if your symptoms get worse or you experience anything new, please call us right away.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Demonstrate empathy",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "retrieval_only::33285618",
+          "retrieval_only::33658141"
+        ],
+        "all_pmids_used": [
+          "33285618",
+          "33658141"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 1,
+        "n_emotional": 2,
+        "n_goals": 1,
+        "problems": [
+          "really strong headache"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "33285618",
+        "33658141"
+      ],
+      "cluster_ids_used": [
+        "retrieval_only::33285618",
+        "retrieval_only::33658141"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Demonstrate empathy",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 272226.15779191256,
+      "response_text": "I can hear how much this is worrying you \u2014 you said, \"Especially because I'm having like these, uh, changes in the vision.\" That sounds really concerning, and I want to make sure we address it right away.\n\nA sudden, severe headache with symptoms like dizziness, blurred vision, and nausea can be a sign of something serious. The guidelines suggest that we need to act quickly to rule out conditions like pituitary metastases, which can present with these symptoms.\n\nIt's important that we work together to help you find relief and stability. Our next steps will focus on understanding the cause of your headache and ensuring your comfort.\n\nGiven the severity and sudden onset of your symptoms, we'll prioritize imaging and bloodwork to rule out serious conditions like pituitary metastases.\n\nWe'll schedule a follow-up appointment within 24 hours to review the results and discuss the next steps in detail.\n\nIf you experience any severe symptoms like loss of consciousness or worsening vision, please seek immediate medical attention.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to meet again in 24 hours to go over the results. In the meantime, if your symptoms get worse or you develop new ones like confusion or severe dizziness, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this is worrying you \u2014 you said, \"Especially because I'm having like these, uh, changes in the vision.\" That sounds really concerning, and I want to make sure we address it right away.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "really strong headache",
+            "profile_path": "problems[0]",
+            "explanation": "A sudden, severe headache with symptoms like dizziness, blurred vision, and nausea can be a sign of something serious. The guidelines suggest that we need to act quickly to rule out conditions like pituitary metastases, which can present with these symptoms.",
+            "citations": [
+              {
+                "cluster_id": "finding::red_flags[1]::40497377_0",
+                "primary_assertion_id": "40497377_0",
+                "pmids": [
+                  "40497377"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "to have their head not move",
+            "profile_path": "patient_goals[0]",
+            "explanation": "It's important that we work together to help you find relief and stability. Our next steps will focus on understanding the cause of your headache and ensuring your comfort.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "Given the severity and sudden onset of your symptoms, we'll prioritize imaging and bloodwork to rule out serious conditions like pituitary metastases.",
+          "We'll schedule a follow-up appointment within 24 hours to review the results and discuss the next steps in detail.",
+          "If you experience any severe symptoms like loss of consciousness or worsening vision, please seek immediate medical attention."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to meet again in 24 hours to go over the results. In the meantime, if your symptoms get worse or you develop new ones like confusion or severe dizziness, please call us right away.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Demonstrate empathy",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::red_flags[1]::40497377_0"
+        ],
+        "all_pmids_used": [
+          "40497377"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 2,
+        "n_emotional": 3,
+        "n_goals": 1,
+        "problems": [
+          "really strong headache"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "40497377"
+      ],
+      "cluster_ids_used": [
+        "finding::red_flags[1]::40497377_0"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Demonstrate empathy",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 177214.20312672853,
+        "module_2_retrieval": 45.619599521160126,
+        "module_3_reasoning": 72330.10514080524,
+        "module_4_response": 22635.061398148537,
+        "total_ms": 272224.9892652035
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

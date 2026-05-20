@@ -1,0 +1,246 @@
+{
+  "transcript_id": "mts_val_9",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "The patient is a 57-year-old female being seen today for evaluation of pain and symptoms related to a recurrent bunion deformity in bilatera",
+  "patient_utterances": [
+    "[Clinician asked: \"Good afternoon, ma'am.\"] Good afternoon, doctor.",
+    "[Clinician asked: \"Before we begin, how old are you?\"] I'm fifty seven years old.",
+    "[Clinician asked: \"Very well, and what seems to be the problem today?\"] So, I had surgery on these feet, um, like thirteen years ago to remove bunions, but they're back now.",
+    "[Clinician asked: \"I see, are these bunions present on both feet?\"] Yeah, they are.",
+    "[Clinician asked: \"Is one foot worse than the other?\"] Yeah, my right foot is worse than the left.",
+    "[Clinician asked: \"Is the pain getting worse?\"] Yes, and I'm so uncomfortable.",
+    "[Clinician asked: \"On the right foot, do you have any other pain? Or is it just because of the bunion?\"] Well, I have some pain here, and here.",
+    "[Clinician asked: \"Okay, just so you know, these are the second toe, and M T P joint. This is where you're feeling the pain, right?\"] Yes, it hurts so bad there.",
+    "[Clinician asked: \"There's some deformity here at the second toe as well.\"] Yes, I see what you're talking about.",
+    "[Clinician asked: \"Going back to that surgery thirteen years ago, did you heal up well?\"] Since that surgery this bunion has slowly been coming back.",
+    "[Clinician asked: \"I see.\"] Please, look at my left foot, do those toes look strange to you?",
+    "[Clinician asked: \"Yes, you have that deformity in the second and third toes of the left foot as well.\"] What does that mean?",
+    "[Clinician asked: \"It means you have some arthritis in these toes. What do you do for a living?\"] I see. I work in the hospital.",
+    "[Clinician asked: \"Can I assume you're on your feet all day for work?\"] Yes, I have to stand all day every day.",
+    "[Clinician asked: \"Do you wear supports, or any kind of orthotics?\"] Yes, I wear orthotics.",
+    "[Clinician asked: \"Do those provide any relief?\"] They definitely give me some relief, but I'm still in so much pain."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "HPI": "The patient is a 57-year-old female being seen today for evaluation of pain and symptoms related to a recurrent bunion deformity in bilateral feet, right greater than left.  The patient states she is having increasing symptoms of pain and discomfort associated with recurrence of bunion deformity on the right foot and pain localized to the second toe and MTP joint of the right foot as well.  The patient had prior surgery performed approximately 13 years ago.  She states that since the time of the original surgery the deformity has slowly recurred, and she has noticed progressive deformity in the lesser toes at the second and third toes of the left foot and involving the second toe of the right foot.  The patient is employed on her feet as a hospital employee and states that she does wear a functional orthotic which does provide some relief of forefoot pain although not complete."
+  },
+  "n_patient_turns": 16,
+  "n_clinician_turns": 16,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 14976.090721786022,
+      "response_text": "I understand how frustrating and painful this must be for you, especially given how it's affecting your ability to do your job. It's clear that the bunions returning and the arthritis in your toes are causing you significant discomfort. Your standing job definitely plays a role in this, as being on your feet all day can exacerbate the issue.\n\nWe should explore options to help alleviate your pain and improve your mobility. This might include better orthotics, more supportive footwear, or even physical therapy to strengthen the muscles and joints in your feet. We can also discuss whether surgical intervention might be necessary in the future. Let's work together to find the best approach to get you back to feeling your best. You're not alone in this, and I'm here to help.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 22365.759938955307,
+      "response_text": "Thank you for sharing your concerns with me. It sounds like the return of your bunions and the ongoing pain in your feet must be quite frustrating, especially given how much your job requires you to be on your feet all day. I can understand how this must interfere with your daily life and cause you discomfort.\n\nGiven your history of bunion surgery and the current pain and deformity, it's possible that the bunions are recurring, which can sometimes happen even after successful surgery. The arthritis we discussed in your toes could also be contributing to the pain, as joint issues often worsen over time, especially with repetitive stress from standing. Additionally, the orthotics you're using provide some relief, but they might not be addressing all the underlying issues. \n\nTo move forward, we should evaluate whether your current orthotics are still the best option or if adjustments or different supports could help. We might also consider physical therapy to strengthen the muscles around your feet and improve your gait, which could reduce strain. If these steps don't provide sufficient relief, we may need to explore surgical options again. \n\nLet's plan to follow up in 4-6 weeks to assess how these interventions are working for you. Before you leave, can you summarize what we've discussed so far? This will help ensure you understand the next steps and that I've explained everything clearly.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7771.70342206955,
+      "response_text": "Thank you for sharing your concerns about the return of your bunions and the pain you're experiencing. It sounds like this is causing you a lot of discomfort, especially with your work requiring you to be on your feet all day.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if your pain gets worse or if there's any swelling, please call us so we can address it promptly.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns about the return of your bunions and the pain you're experiencing. It sounds like this is causing you a lot of discomfort, especially with your work requiring you to be on your feet all day.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if your pain gets worse or if there's any swelling, please call us so we can address it promptly.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 131460.75793355703,
+      "response_text": "I can hear how much this is bothering you. You mentioned, \"I'm so uncomfortable,\" and also asked, \"Please, look at my left foot, do those toes look strange to you?\" I understand how that kind of discomfort and concern can make daily life harder.\n\nBunions can come back even after treatment, especially if you're on your feet a lot. The primary focus is to manage the discomfort and prevent further issues. This might involve checking how well the orthotics are working and considering other options to help with the pain.\n\nWe'll review how the orthotics are working and see if there are other ways to help with the discomfort.\n\nWe'll schedule a follow-up visit to check on the bunion and discuss any changes needed in your care plan.\n\nI want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if the discomfort gets worse or you notice any new symptoms, please call us so we can address them promptly.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this is bothering you. You mentioned, \"I'm so uncomfortable,\" and also asked, \"Please, look at my left foot, do those toes look strange to you?\" I understand how that kind of discomfort and concern can make daily life harder.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "bunion recurrence",
+            "profile_path": "problems[0]",
+            "explanation": "Bunions can come back even after treatment, especially if you're on your feet a lot. The primary focus is to manage the discomfort and prevent further issues. This might involve checking how well the orthotics are working and considering other options to help with the pain.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::39104080",
+                "primary_assertion_id": "39104080_retr",
+                "pmids": [
+                  "39104080"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll review how the orthotics are working and see if there are other ways to help with the discomfort.",
+          "We'll schedule a follow-up visit to check on the bunion and discuss any changes needed in your care plan."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if the discomfort gets worse or you notice any new symptoms, please call us so we can address them promptly.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "retrieval_only::39104080"
+        ],
+        "all_pmids_used": [
+          "39104080"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 2,
+        "n_goals": 0,
+        "problems": [
+          "bunion recurrence"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "39104080"
+      ],
+      "cluster_ids_used": [
+        "retrieval_only::39104080"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 135886.09293848276,
+      "response_text": "I can see how much this is worrying you. You mentioned, \"Please, look at my left foot, do those toes look strange to you?\" That shows how much this is on your mind.\n\nFor bunions that keep coming back, a mix of patient-centered pain management and exercises can really help. This approach focuses on what works best for you and includes ways to strengthen and stretch your feet.\n\nWe'll work together on a plan that includes some exercises and pain management strategies tailored to your needs.\n\nI want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next?\n\nLet's plan to check in again in a few weeks. If your foot starts bothering you more or if anything changes, please reach out sooner.",
+      "structured_response": {
+        "acknowledgment": "I can see how much this is worrying you. You mentioned, \"Please, look at my left foot, do those toes look strange to you?\" That shows how much this is on your mind.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "bunion recurrence",
+            "profile_path": "problems[0]",
+            "explanation": "For bunions that keep coming back, a mix of patient-centered pain management and exercises can really help. This approach focuses on what works best for you and includes ways to strengthen and stretch your feet.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::sub_query[0]::39104080_0",
+                "primary_assertion_id": "39104080_0",
+                "pmids": [
+                  "39104080"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll work together on a plan that includes some exercises and pain management strategies tailored to your needs."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next?",
+        "follow_up_invitation": "Let's plan to check in again in a few weeks. If your foot starts bothering you more or if anything changes, please reach out sooner.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "recommendation::sub_query[0]::39104080_0"
+        ],
+        "all_pmids_used": [
+          "39104080"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 0,
+        "problems": [
+          "bunion recurrence"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "39104080"
+      ],
+      "cluster_ids_used": [
+        "recommendation::sub_query[0]::39104080_0"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 105812.0050355792,
+        "module_2_retrieval": 65.64603745937347,
+        "module_3_reasoning": 14655.880093574524,
+        "module_4_response": 15351.29577666521,
+        "total_ms": 135884.8269432783
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

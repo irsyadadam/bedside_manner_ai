@@ -1,0 +1,210 @@
+{
+  "transcript_id": "mts_test_1_116",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "The patient has had no help with the headaches from over-the-counter analgesics",
+  "patient_utterances": [
+    "[Clinician asked: \"Have you ever taken any prescribed drug for your headaches.\"] No.",
+    "[Clinician asked: \"What do you take when you get headaches.\"] I try not to take to much medication but when they get really bad, I take Excedrin or ibuprofen.",
+    "[Clinician asked: \"So only over the counter medications? Do they work in providing you relief?\"] Yes, I have been using over the counter medications and they have been no help with my headaches ."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "HPI": "The patient has had no help with the headaches from over-the-counter analgesics."
+  },
+  "n_patient_turns": 3,
+  "n_clinician_turns": 4,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 11949.64998960495,
+      "response_text": "I understand how challenging it must be to deal with headaches that don't improve with over-the-counter medications. It's frustrating when the relief you're seeking doesn't come. Let's consider some next steps together. Perhaps consulting a specialist, like a neurologist, could help us uncover more about the cause of your headaches. Additionally, exploring lifestyle changes such as stress management, diet adjustments, regular exercise, and better sleep hygiene might be beneficial. Keeping a headache diary could also help identify patterns. You're not alone in this, and we can work together to find a solution that brings you the relief you deserve.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 18851.477175951004,
+      "response_text": "It makes sense you're worried about your headaches, especially since they've been going on for so long and the over-the-counter medications aren't helping. It must be frustrating to try different treatments without relief, and I can understand why you'd feel concerned about what might be causing this.\n\nWe should consider several possibilities for your headaches, such as tension headaches or migraines, and we'll need to evaluate further to pinpoint the cause. Frequent use of pain relievers like Excedrin and ibuprofen could even contribute to rebound headaches, where the medication actually makes the headaches worse over time [PMID ?]. To better understand your symptoms, I recommend keeping a headache diary to track when they occur, what they feel like, and any potential triggers. Depending on what we find, we might also consider imaging or blood tests to rule out other causes.\n\nWe'll plan to follow up in 1-2 weeks to review your diary and any test results. In the meantime, I'll order some labs to check for common causes of headaches. If your symptoms worsen or you experience severe pain, please come in right away. Before you leave, could you summarize what we discussed today? That way, I can make sure everything is clear.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6585.96620708704,
+      "response_text": "It sounds like your headaches are not getting better with over-the-counter medications, and that's frustrating.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 4 weeks. In the meantime, if you get new symptoms like severe pain or your headaches get much worse, please call us right away \u2014 don't wait for the appointment.",
+      "structured_response": {
+        "acknowledgment": "It sounds like your headaches are not getting better with over-the-counter medications, and that's frustrating.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 4 weeks. In the meantime, if you get new symptoms like severe pain or your headaches get much worse, please call us right away \u2014 don't wait for the appointment.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 28125.41412562132,
+      "response_text": "It sounds like you're dealing with headaches that are getting worse, and you've been trying over-the-counter medications like Excedrin or ibuprofen. I want to understand how this is affecting your daily life.\n\nHeadaches can be caused by many things, and since yours are getting worse, we should look into possible causes together. We'll start by gathering more information about when they happen and how severe they are.\n\nWe'll work together to figure out more about your headaches. This includes understanding when they happen, how severe they are, and any other symptoms you might be experiencing.\n\nWe'll schedule a follow-up to review the information we gather and discuss the next steps in managing your headaches.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again soon to review the information. In the meantime, keep track of when your headaches occur and how severe they are.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're dealing with headaches that are getting worse, and you've been trying over-the-counter medications like Excedrin or ibuprofen. I want to understand how this is affecting your daily life.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "headaches",
+            "profile_path": "problems[0]",
+            "explanation": "Headaches can be caused by many things, and since yours are getting worse, we should look into possible causes together. We'll start by gathering more information about when they happen and how severe they are.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll work together to figure out more about your headaches. This includes understanding when they happen, how severe they are, and any other symptoms you might be experiencing.",
+          "We'll schedule a follow-up to review the information we gather and discuss the next steps in managing your headaches."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again soon to review the information. In the meantime, keep track of when your headaches occur and how severe they are.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "headaches"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 82456.35157823563,
+      "response_text": "It sounds like you're dealing with headaches, and you've been trying to manage them with Excedrin or ibuprofen. Let's work together to figure out what's going on and how we can help.\n\nTo better understand your headaches, we should consider evaluating how often they occur, their severity, and any patterns you might notice. This information can help guide the next steps in managing your symptoms.\n\nWe'll work together to track your headaches more carefully so we can better understand what's going on.\n\nIf you notice any new symptoms or changes in your headaches, please let us know right away.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to check in again in a week or two. In the meantime, keep track of your headaches and how you're managing them. If they get worse or you notice anything unusual, please call us.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're dealing with headaches, and you've been trying to manage them with Excedrin or ibuprofen. Let's work together to figure out what's going on and how we can help.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "headaches",
+            "profile_path": "problems[0]",
+            "explanation": "To better understand your headaches, we should consider evaluating how often they occur, their severity, and any patterns you might notice. This information can help guide the next steps in managing your symptoms.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::sub_query[0]::35190445_0",
+                "primary_assertion_id": "35190445_0",
+                "pmids": [
+                  "35190445"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll work together to track your headaches more carefully so we can better understand what's going on.",
+          "If you notice any new symptoms or changes in your headaches, please let us know right away."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to check in again in a week or two. In the meantime, keep track of your headaches and how you're managing them. If they get worse or you notice anything unusual, please call us.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "recommendation::sub_query[0]::35190445_0"
+        ],
+        "all_pmids_used": [
+          "35190445"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "headaches"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "35190445"
+      ],
+      "cluster_ids_used": [
+        "recommendation::sub_query[0]::35190445_0"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 15298.956625163555,
+        "module_2_retrieval": 56.785374879837036,
+        "module_3_reasoning": 50817.845202982426,
+        "module_4_response": 16281.44920617342,
+        "total_ms": 82455.03640919924
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

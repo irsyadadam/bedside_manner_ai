@@ -49,6 +49,142 @@ on RTX 6000 Ada.
 
 ---
 
+## Phase 13 — scaffolding complete, real-LLM runs pending (2026-05-20)
+
+**Status:** All Phase 13 code is in place + smoke-tested (23/23 tests
+pass via `uv run python tests/test_phase13_smoke.py`). The next session
+runs the real-LLM evaluation on the three external datasets and fills
+in Tables 8–11 + Figs 13–16.
+
+**Files added this session:**
+
+```
+clinicomm/datasets/__init__.py        ExternalTranscript, Turn
+clinicomm/datasets/base.py            dataclass + speaker strategies
+clinicomm/datasets/mts_dialog.py      MTS-Dialog adapter + downloader
+clinicomm/datasets/primock57.py       PriMock57 adapter (git clone)
+clinicomm/datasets/aci_bench.py       ACI-Bench adapter (git clone)
+clinicomm/external_metrics.py         field-F1, hallucination, ROUGE-L,
+                                      BERTScore, topic coverage, NURSE/
+                                      Four-Habits/safety rubric (LLM-judge),
+                                      Cohen κ, trust-calibration bins
+clinicomm/baseline.py                 + StrongPromptLLMBaseline
+scripts/eval_on_dataset.py            5-condition runner per dataset
+scripts/eval_against_gold.py          metrics → Tables 8/9/10/11 + Fig data
+scripts/gen_clinician_forms.py        emit-forms / score-forms subcommands
+tests/test_phase13_smoke.py           23 tests, no GPU / no network needed
+README.md                             "CLAIMS AND SCOPE" section added at top
+pyproject.toml                        + rouge_score, bert_score, pandas
+```
+
+`uv sync` once before the first real-LLM run to install the three new
+deps. They're light — rouge_score is pure Python, bert_score reuses our
+torch+transformers stack, pandas is the only new heavy dep.
+
+### Run plan (exact commands + expected wall-clock)
+
+The driver scripts are idempotent: trace_<id>.json that already exists
+is skipped on the next run, so each step can be killed + resumed.
+
+```bash
+# 0. Sync new deps once.
+uv sync
+
+# 1. Bring up vLLM if not running.
+pgrep -af vllm.entrypoints || (
+    nohup bash scripts/start_vllm_server.sh > logs/vllm.log 2>&1 &
+    until grep -q "Application startup complete" logs/vllm.log; do sleep 5; done
+)
+
+# 2. Smoke (mock LLM, ~30 s — verifies the drivers work end-to-end).
+uv run python scripts/eval_on_dataset.py --dataset mts --demo --limit 2 \
+    --conditions naive strong_prompt
+ls manuscript/traces_external/mts_dialog/
+
+# 3. Real-LLM evaluation, dataset-by-dataset.
+#    Each step writes trace_<id>.{md,json} into
+#    manuscript/traces_external/<dataset>/.
+
+#    3a. PriMock57 — end-to-end story dataset (~3 h on RTX 6000 Ada).
+uv run python scripts/eval_on_dataset.py --dataset primock57 \
+    --download --max-reasoning-docs 5
+
+#    3b. MTS-Dialog — Module I extraction accuracy (~5 h for n=300 stratified).
+uv run python scripts/eval_on_dataset.py --dataset mts \
+    --download --limit 300 --max-reasoning-docs 5
+
+#    3c. ACI-Bench — Module IV response quality (~10 h for all n=207).
+uv run python scripts/eval_on_dataset.py --dataset aci \
+    --download --max-reasoning-docs 5
+
+# 4. Compute external metrics + emit Tables 8/9/10/11 + Fig 15 data.
+#    --llm-judge adds one judge call per response (heavy; ~3 h extra
+#    for n=564). --bertscore loads a ~2GB model on first call.
+uv run python scripts/eval_against_gold.py --dataset all \
+    --llm-judge --bertscore
+
+# 5. Generate clinician-rater forms (offline, instant). Ship to a
+#    collaborator. Once they return them, the score-forms subcommand
+#    computes κ for Table 11.
+uv run python scripts/gen_clinician_forms.py emit-forms \
+    --rater-code R1 --n-per-stratum 4
+# (Optionally repeat for a second rater R2 to also report inter-clinician κ.)
+
+# 6. After ratings come back, parse + κ.
+uv run python scripts/gen_clinician_forms.py score-forms --rater-code R1
+```
+
+**Total real-LLM wall-clock budget:** ~18 h end-to-end (PriMock 3 + MTS
+5 + ACI 10) for the trace runs, +3 h for the LLM-judge pass = ~21 h.
+Run steps 3a–3c in parallel screens/tmux if you want — they don't
+contend on GPU because vLLM multiplexes requests.
+
+### What the Phase 13 outputs unlock for the paper
+
+```
+Table 8   — MTS Module-I extraction P/R/F1 per field + macro
+            (no human annotation needed — gold sections are labeled)
+Table 9   — ACI Module-IV response quality, 5-way ablation
+            (naive | strong_prompt | framework_only | retrieval_only | full)
+Table 10  — Cross-dataset rollup (Full + Strong-prompt baseline rows)
+Table 11  — LLM-judge per-item means + Cohen κ vs. clinician spot-check
+Fig 13    — 4-way ablation × 3 datasets (faceted)
+Fig 14    — MTS per-field F1 heatmap
+Fig 15    — Trust calibration: confidence vs. safety-pass curve
+Fig 16    — Safety-pass × response-quality scatter, dataset-colored
+```
+
+### Defensibility checklist (run before submission)
+
+- [ ] README "CLAIMS AND SCOPE" section is the first thing reviewers see ✓ (done this session)
+- [ ] Strong-prompt baseline beats naive but loses to Full on provenance
+      and hallucination — confirm post-eval ✓ (pending Phase 13 runs)
+- [ ] Hallucination rate < 5% for Full pipeline on all 3 datasets — confirm
+- [ ] Safety-pass rate > 80% for Full pipeline — confirm
+- [ ] Cohen κ ≥ 0.4 (moderate) for at least one rater — confirm
+- [ ] Outcomes language scrubbed from manuscript prose (the README is done; the
+      paper draft may still have residual outcomes claims to remove)
+
+## Phase 13 — locked framing decisions (do not relitigate)
+
+1. **Companion-not-replacement, hard.** The manuscript measures
+   empathy/provenance/safety surrogate markers, not patient outcomes /
+   satisfaction / adherence. The original proposal language ("enhances
+   satisfaction, adherence, outcomes") is overclaim and has been moved
+   to README §"CLAIMS AND SCOPE" as out-of-scope future work.
+2. **Realistic venue target: JAMIA.** Floor: AMIA / ClinicalNLP.
+3. **Strong-prompt local baseline** added next to NaiveLLMBaseline. No
+   cloud-API baseline (honors §"all local" decision).
+4. **Dual-track human eval.** LLM-judge runs at full coverage;
+   stratified n=20–30 clinician sample scored against the same rubric
+   for inter-rater κ in Table 11. Rubric form scaffolding lives in
+   `scripts/gen_clinician_forms.py`.
+5. **Safety audit is non-negotiable.** 4-item check (escalation when
+   red-flag triggered / no autonomous diagnostic claim / no
+   contraindicated advice / follow-up timeframe present) is what
+   operationalizes the "companion" claim; without it the framing is
+   rhetoric.
+
 ## What's next — Phase 13: external dataset evaluation
 
 The user explicitly asked to extend evaluation to three primary datasets.

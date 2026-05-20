@@ -1,0 +1,194 @@
+{
+  "transcript_id": "mts_test_1_16",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "EXTREMITIES: No cyanosis, clubbing or edema",
+  "patient_utterances": [
+    "[Clinician asked: \"Did you ever see that your skin is turning blue or greyish in color?\"] Not that I notice.",
+    "[Clinician asked: \"Any swelling like there is water filled inside?\"] Nope.",
+    "[Clinician asked: \"Have you ever noticed any kind of swelling in your fingers or toes?\"] No."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "PHYSICAL_EXAM": "EXTREMITIES: No cyanosis, clubbing or edema."
+  },
+  "n_patient_turns": 3,
+  "n_clinician_turns": 3,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 13701.13991200924,
+      "response_text": "Thank you for your answers. It's good to know that you haven't noticed any blue or greyish discoloration, swelling, or water-filled areas in your fingers or toes. While those specific symptoms aren't present, it's still important to explore other possibilities. I'll check other areas of your body, such as your arms, legs, and trunk, to ensure everything is as it should be. Additionally, I'll ask about any unusual sensations or changes in how you're feeling overall.\n\nPlease feel free to share any other symptoms or concerns you might have. We're here to work together to understand what's going on and to address it effectively. You're not alone in this, and I'm here to support you every step of the way.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 18123.314522206783,
+      "response_text": "Thank you for answering my questions so thoroughly. It's understandable that you might be concerned, especially after being asked about changes in your skin color and swelling. I can see how these questions might raise some worries for you.\n\nGiven your responses, it seems we can rule out certain conditions related to skin discoloration and swelling in the fingers or toes. However, I want to make sure we're covering all bases, so I'll suggest the next steps to continue evaluating your situation. We might consider additional tests or monitoring to ensure everything is as it should be.\n\nBefore we wrap up, could you summarize what we've discussed today? This will help me confirm that I've explained everything clearly and that you're comfortable with the plan moving forward. We'll schedule a follow-up in two weeks to review any new information and adjust our approach as needed.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6089.15438503027,
+      "response_text": "Thank you for coming in today. It sounds like you're here to discuss your concerns about your health.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 4 weeks. In the meantime, if you notice any new symptoms or changes, please call us.",
+      "structured_response": {
+        "acknowledgment": "Thank you for coming in today. It sounds like you're here to discuss your concerns about your health.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 4 weeks. In the meantime, if you notice any new symptoms or changes, please call us.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 14535.522878170013,
+      "response_text": "Thank you for reaching out. It seems like you're here to discuss some important aspects of your health, and I'm ready to help.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if you have any new concerns or questions, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "Thank you for reaching out. It seems like you're here to discuss some important aspects of your health, and I'm ready to help.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if you have any new concerns or questions, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 0,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 76146.72263711691,
+      "response_text": "I understand you're here because of the swelling you're experiencing. Let's work together to figure out what's going on and how to address it.\n\nSwelling can be caused by a variety of issues, and it's important to determine what's causing it. Based on the information we have, we'll need to look into this further to understand the best approach for you.\n\nWe'll schedule some tests to get a better understanding of what's causing the swelling.\n\nOnce we have those results, we'll be able to discuss the next steps in detail.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to follow up in a week to review the test results. In the meantime, if the swelling gets worse or if you notice any other symptoms, please reach out.",
+      "structured_response": {
+        "acknowledgment": "I understand you're here because of the swelling you're experiencing. Let's work together to figure out what's going on and how to address it.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "swelling",
+            "profile_path": "problems[0]",
+            "explanation": "Swelling can be caused by a variety of issues, and it's important to determine what's causing it. Based on the information we have, we'll need to look into this further to understand the best approach for you.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[0]::35833228_0",
+                "primary_assertion_id": "35833228_0",
+                "pmids": [
+                  "35833228"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll schedule some tests to get a better understanding of what's causing the swelling.",
+          "Once we have those results, we'll be able to discuss the next steps in detail."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to follow up in a week to review the test results. In the meantime, if the swelling gets worse or if you notice any other symptoms, please reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[0]::35833228_0"
+        ],
+        "all_pmids_used": [
+          "35833228"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "swelling"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "35833228"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[0]::35833228_0"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 15444.732405245304,
+        "module_2_retrieval": 57.2873055934906,
+        "module_3_reasoning": 45093.603514134884,
+        "module_4_response": 15549.34149235487,
+        "total_ms": 76144.96471732855
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

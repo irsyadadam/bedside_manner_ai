@@ -1,0 +1,160 @@
+{
+  "transcript_id": "mts_test_1_149",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "Mother died of a stroke at age 58",
+  "patient_utterances": [
+    "[Clinician asked: \"Are you aware of any medical issues running in your family?\"] Well, my mom died of a stroke. She was in her late fifties. My dad had some heart issues. He also had high blood pressure.",
+    "[Clinician asked: \"Do you smoke?\"] I was a heavy smoker before many years ago, but then I quit in nineteen ninety.",
+    "[Clinician asked: \"How much would you use to smoke before?\"] Around two to three packs per day.",
+    "[Clinician asked: \"What did you used to do for a living?\"] I've been a feed salesman almost throughout my adulthood."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "FAM_SOCHX": "Mother died of a stroke at age 58. Father had CAD and HTN. The patient quit smoking in 1991, but was a heavy smoker (2-3ppd) for many years. He had been a feed salesman all of his adult life."
+  },
+  "n_patient_turns": 4,
+  "n_clinician_turns": 4,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 22400.95229446888,
+      "response_text": "Thank you for sharing that information with me. It's important to understand your health history to help guide our care together. I'm sorry to hear about your mom's stroke and your dad's health issues; family history can play a significant role in our health, but it's encouraging to know you've taken positive steps, like quitting smoking over three decades ago. That's a commendable achievement and has likely reduced your risk for several diseases.\n\nGiven your family history, it might be wise to focus on maintaining a healthy lifestyle, such as regular exercise and a balanced diet. We can also keep an eye on your blood pressure and cholesterol levels during check-ups. Let me know if you have any concerns or questions, and we can discuss further steps to support your health.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 29042.346321046352,
+      "response_text": "Thank you for sharing that information with me. It sounds like you have a family history that could be important for your health, especially since your mom had a stroke and your dad had heart issues. I can understand how that might make you concerned about your own health, and it's good that you're proactive about it.\n\nYour smoking history is significant, but I want to commend you on quitting in 1990\u2014that's a major positive step that has likely reduced your risk for several health problems. However, it's important to monitor your health closely, given your family history and past smoking. We should keep an eye on your cardiovascular health, especially, as both smoking and family history can contribute to heart issues.\n\nGiven your occupation as a feed salesman, I might also ask about any environmental exposures that could affect your health. We'll keep that in mind as we move forward.\n\nTo keep track of everything, I'll schedule a follow-up in a few weeks to review any changes and address any concerns you have. Before you go, could you summarize what we've discussed so far? That way, I can make sure everything is clear.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 3680.5401742458344,
+      "response_text": "Thank you for sharing your family medical history with me. It's important to understand your background to provide the best care possible.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your family medical history with me. It's important to understand your background to provide the best care possible.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "",
+        "follow_up_invitation": "",
+        "nurse_elements_applied": [],
+        "four_habits_elements_applied": [],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 22009.786248207092,
+      "response_text": "Thank you for sharing your background and concerns with me. It's helpful to understand your family history and your current situation.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 4 weeks. In the meantime, if you have any new concerns or symptoms, please reach out.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your background and concerns with me. It's helpful to understand your family history and your current situation.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 4 weeks. In the meantime, if you have any new concerns or symptoms, please reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 0,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 76028.73532474041,
+      "response_text": "It sounds like you're here to discuss some concerns related to your health, and I'm here to help.\n\nWe'll review your family history and discuss how it might relate to your current health concerns.\n\nWe'll explore ways to manage any potential health risks based on your family history and lifestyle.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to review your health concerns again in our next visit. If you have any new symptoms or concerns in the meantime, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're here to discuss some concerns related to your health, and I'm here to help.",
+        "clinical_information_per_concern": [],
+        "next_steps": [
+          "We'll review your family history and discuss how it might relate to your current health concerns.",
+          "We'll explore ways to manage any potential health risks based on your family history and lifestyle."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to review your health concerns again in our next visit. If you have any new symptoms or concerns in the meantime, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 0,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 14646.684534847736,
+        "module_2_retrieval": 32.22868591547012,
+        "module_3_reasoning": 51974.04935210943,
+        "module_4_response": 9374.513328075409,
+        "total_ms": 76027.47590094805
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

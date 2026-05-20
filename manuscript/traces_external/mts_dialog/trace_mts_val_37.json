@@ -1,0 +1,344 @@
+{
+  "transcript_id": "mts_val_37",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "The patient returns today for a followup",
+  "patient_utterances": [
+    "[Clinician asked: \"Good morning. So, you are here for your follow up today.\"] Yes, sir.",
+    "[Clinician asked: \"Update me what happened, why were you in the hospital?\"] I had a lot of back pain and less of urine output. I always had burning sensation whenever I used to go to the bathroom. So, I went to the doctor, and they said it is kidney stones. I knew something was wrong, but then I started having fever. So, I went to the hospital and they said that it was infection. It all began with my kidney stones.",
+    "[Clinician asked: \"I see. So how are you feeling now?\"] I'm feeling better. The burning sensation is gone. Pain has subsided.",
+    "[Clinician asked: \"It says that they put a stent in your ureter. Are you feeling any discomfort with it? Who was your doctor there?\"] No discomfort, I'm just here for my follow up. Doctor X Y Z did operate on me to remove all those stones, the kidney stones. She is a good doctor. She did take care of me. I feel all new now.",
+    "[Clinician asked: \"That's nice to hear. I'm glad you are feeling okay. You remember I wrote down all the medications with their doses on your progress note, a sheet that we gave to you. Your nephew called me and he said that the prescription was lost and instructions were lost. What happened there?\"] I don't know. I remember you gave me a paper saying it has all the medicines. It's everything related to them and all the things that I have to do. But I don't know what happened between the hospital and the home. I completely lost it. And I don't know where did it go.",
+    "[Clinician asked: \"It had instructions to follow up here and also to follow up with Doctor F. Do you have an appointment with Doctor F? You never did call me after the day you were dismissed from the hospital saying that you might have lost the paper that we gave to you.\"] No, unfortunately I don't have any appointment with Doctor F. I was not even aware about that, that I have to take an appointment because maybe it was only there in the paper. It completely got out of my mind. Somehow, I did find the prescription paper where all the medicines were and I was able to get them filled and I was taking all my antibiotics and everything else which was there.",
+    "[Clinician asked: \"I think it was Levaquin. Do you have any more to take?\"] I do have one more to take.",
+    "[Clinician asked: \"So, when are you seeing Doctor X Y Z?\"] Do I have to see her? I haven't set up anything.",
+    "[Clinician asked: \"You do. Any other issues?\"] Yeah, I'm not still feeling very well. I still feel that I'm sick or something like that. It's just that I didn't get my whole self back. You said I got a stent. I have no idea. I don't feel like having one.",
+    "[Clinician asked: \"Are you the husband?\"] Yes, I am. I just wanted to be here with her today.",
+    "[Clinician asked: \"That's good. Okay, let me explain it to both of you once again. See, she got a ureteral stent. It means that the doctors there, they have made a pathway for the urine to flow around the kidney stone without blocking anything. So, it is to help her overall. She needs to take her medicines and make he\"] Yep. I will make those appointments. Thank you for your guidance."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "HPI": "The patient returns today for a followup.  She was recently in the hospital and was found to be septic from nephrolithiasis.  This was all treated.  She did require a stent in the left ureter.  Dr. XYZ took care of this.  She had a stone, which was treated with lithotripsy.  She is now back here for followup.  I had written out all of her medications with their dose and schedule on a progress sheet.  I had given her instructions regarding follow up here and follow with Dr. F.  Unfortunately, that piece of paper was lost.  Somehow between the hospital and home she lost it and has not been able to find it.  She has no followup appointment with Dr. F.  The day after she was dismissed, her nephew called me stating that the prescriptions were lost, instructions were lost, etc.  Later she apparently found the prescriptions and they were filled.  She tells me she is taking the antibiotic, which I believe was Levaquin and she has one more to take.  She had no clue as to seeing Dr. XYZ again.  She says she is still not feeling very well and feels somewhat sick like.  She has no clue as to still having a ureteral stent.  I explained this to she and her husband again today."
+  },
+  "n_patient_turns": 11,
+  "n_clinician_turns": 12,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 20383.49598646164,
+      "response_text": "Thank you for coming in today and for sharing everything with me. I'm really glad to hear that you're feeling better and that the burning sensation and pain have gone away. It sounds like you've been through a lot, and I completely understand how frustrating it must be to lose the paperwork with all your medication details. Don't worry\u2014I'll make sure we get everything sorted out today so you have clear instructions moving forward.\n\nI noticed you mentioned you haven't set up an appointment with Doctor F yet. It might be a good idea to do that soon to ensure we're keeping track of your progress. Also, while you're feeling better, I want to check in about any lingering symptoms or anything that's been bothering you. It's important to make sure you're on the right track to feeling like yourself again. We'll go over everything step by step, and I'll make sure you have all the information you need, including your medication schedule and any follow-up appointments.\n\nPlease don't hesitate to reach out if you have any questions or concerns in the meantime. We're here to support you through this recovery process. Take care, and I'm confident you'll feel back to your best soon.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 24973.176456987858,
+      "response_text": "Thank you for sharing all of this with me. It sounds like you've been through a lot, and I can understand how overwhelming this must feel, especially with the loss of your medication list and the follow-up instructions. I appreciate your honesty and the effort you've made to manage your care despite these challenges.\n\nGiven your situation, we should focus on a few key steps to ensure you're on the right track. First, let's make sure you have all your medications sorted and that you're taking them as prescribed. I'll write down a clear list for you today, and I'll schedule an appointment for you to see Doctor F, who will monitor your recovery and the stent. It's important to keep that follow-up appointment to check on the stent's position and ensure there are no complications [PMID ?].\n\nIn the meantime, if you experience any symptoms like fever, increased pain, or changes in your urine, please let me know right away. These could indicate an infection or issues with the stent. Remember, you can always reach out to my team if you have any questions or run into more challenges.\n\nBefore we wrap up, could you summarize the plan in your own words so I can make sure everything is clear? We'll schedule your follow-up appointment with Doctor F for next week and provide you with a clear medication list today. I'm here to help, so please don't hesitate to reach out.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7802.614226937294,
+      "response_text": "Thank you for sharing your experience and concerns with me today. It sounds like you're doing better after your hospital stay, but I understand that you're still not feeling like yourself. I'm here to help make sure everything is taken care of.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if you have any new symptoms or concerns, please don't hesitate to call us.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your experience and concerns with me today. It sounds like you're doing better after your hospital stay, but I understand that you're still not feeling like yourself. I'm here to help make sure everything is taken care of.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if you have any new symptoms or concerns, please don't hesitate to call us.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 199383.38158279657,
+      "response_text": "I can hear how relieved you are \u2014 you said, \"I feel all new now.\" That makes sense after everything you've been through with the kidney stones and infections.\n\nThe back pain you're experiencing, especially with the burning sensation and fever, is something we need to keep monitoring. Based on clinical guidelines, we'll continue to track your symptoms to ensure everything is improving as expected.\n\nThe burning sensation when urinating, along with the back pain and fever, points to ongoing issues we need to monitor. Clinical guidelines suggest regular follow-up to assess improvement and address any persistent symptoms.\n\nFever, especially alongside back pain and burning urination, indicates we need to monitor your recovery closely. According to clinical guidelines, we'll continue to evaluate your symptoms to ensure there are no complications.\n\nWe'll schedule a follow-up visit in 2 weeks to check on your progress and make sure everything is improving as it should be.\n\nIf you notice any new symptoms or if your current symptoms get worse, please call us right away.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 2 weeks. In the meantime, if you have any new symptoms or if your current symptoms get worse, please call us so we can address them promptly.",
+      "structured_response": {
+        "acknowledgment": "I can hear how relieved you are \u2014 you said, \"I feel all new now.\" That makes sense after everything you've been through with the kidney stones and infections.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "back pain",
+            "profile_path": "problems[0]",
+            "explanation": "The back pain you're experiencing, especially with the burning sensation and fever, is something we need to keep monitoring. Based on clinical guidelines, we'll continue to track your symptoms to ensure everything is improving as expected.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::35851252",
+                "primary_assertion_id": "35851252_retr",
+                "pmids": [
+                  "35851252"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "burning sensation when urinating",
+            "profile_path": "problems[1]",
+            "explanation": "The burning sensation when urinating, along with the back pain and fever, points to ongoing issues we need to monitor. Clinical guidelines suggest regular follow-up to assess improvement and address any persistent symptoms.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::35833228",
+                "primary_assertion_id": "35833228_retr",
+                "pmids": [
+                  "35833228"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "fever",
+            "profile_path": "problems[2]",
+            "explanation": "Fever, especially alongside back pain and burning urination, indicates we need to monitor your recovery closely. According to clinical guidelines, we'll continue to evaluate your symptoms to ensure there are no complications.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::35851252",
+                "primary_assertion_id": "35851252_retr",
+                "pmids": [
+                  "35851252"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll schedule a follow-up visit in 2 weeks to check on your progress and make sure everything is improving as it should be.",
+          "If you notice any new symptoms or if your current symptoms get worse, please call us right away."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 2 weeks. In the meantime, if you have any new symptoms or if your current symptoms get worse, please call us so we can address them promptly.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "retrieval_only::35851252",
+          "retrieval_only::35833228"
+        ],
+        "all_pmids_used": [
+          "35851252",
+          "35833228"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 3,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 0,
+        "problems": [
+          "back pain",
+          "burning sensation when urinating",
+          "fever"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "35851252",
+        "35833228"
+      ],
+      "cluster_ids_used": [
+        "retrieval_only::35851252",
+        "retrieval_only::35833228"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 323024.09445494413,
+      "response_text": "I can hear how much this has been on your mind \u2014 you mentioned, \"Yeah, I'm not still feeling very well. I still feel that I'm sick or something like that. It's just that I didn't get my whole self back.\" I understand how that must feel, and I want to make sure we're addressing everything properly.\n\nBack pain that started with kidney stones and is ongoing can sometimes be linked to infections or other issues that need careful follow-up. We'll make sure to check if there's anything else going on that needs attention.\n\nBurning when urinating, especially with back pain and fever, often points to an infection that needs treatment. We'll work on getting the right care for this.\n\nFever alongside these symptoms could indicate an infection that needs treatment. We'll make sure to address this as part of our follow-up.\n\nReduced urine output can be a sign of dehydration or other issues, especially after kidney stones. We'll keep an eye on this and make sure you're staying hydrated.\n\nIt's great that you want to follow up. We'll schedule a visit to make sure everything is on track and address any concerns you have.\n\nWe'll start by reviewing your recent tests and treatment plan to make sure we're on the right track.\n\nIf there are any gaps in your records, we'll work to fill those in to give us a complete picture.\n\nWe'll schedule a follow-up visit to check on your progress and address any remaining concerns.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if you notice any new symptoms or if things get worse, please don't hesitate to call us.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this has been on your mind \u2014 you mentioned, \"Yeah, I'm not still feeling very well. I still feel that I'm sick or something like that. It's just that I didn't get my whole self back.\" I understand how that must feel, and I want to make sure we're addressing everything properly.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "back pain",
+            "profile_path": "problems[0]",
+            "explanation": "Back pain that started with kidney stones and is ongoing can sometimes be linked to infections or other issues that need careful follow-up. We'll make sure to check if there's anything else going on that needs attention.",
+            "citations": [
+              {
+                "cluster_id": "finding::global::35833228_0",
+                "primary_assertion_id": "35833228_0",
+                "pmids": [
+                  "35833228"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "burning sensation when urinating",
+            "profile_path": "problems[1]",
+            "explanation": "Burning when urinating, especially with back pain and fever, often points to an infection that needs treatment. We'll work on getting the right care for this.",
+            "citations": [
+              {
+                "cluster_id": "finding::global::35833228_0",
+                "primary_assertion_id": "35833228_0",
+                "pmids": [
+                  "35833228"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "fever",
+            "profile_path": "problems[2]",
+            "explanation": "Fever alongside these symptoms could indicate an infection that needs treatment. We'll make sure to address this as part of our follow-up.",
+            "citations": [
+              {
+                "cluster_id": "finding::global::35833228_0",
+                "primary_assertion_id": "35833228_0",
+                "pmids": [
+                  "35833228"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "reduced urine output",
+            "profile_path": "problems[3]",
+            "explanation": "Reduced urine output can be a sign of dehydration or other issues, especially after kidney stones. We'll keep an eye on this and make sure you're staying hydrated.",
+            "citations": [
+              {
+                "cluster_id": "finding::global::35833228_0",
+                "primary_assertion_id": "35833228_0",
+                "pmids": [
+                  "35833228"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "follow up",
+            "profile_path": "patient_goals[0]",
+            "explanation": "It's great that you want to follow up. We'll schedule a visit to make sure everything is on track and address any concerns you have.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::sub_query[4]::33658141_0",
+                "primary_assertion_id": "33658141_0",
+                "pmids": [
+                  "33658141"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll start by reviewing your recent tests and treatment plan to make sure we're on the right track.",
+          "If there are any gaps in your records, we'll work to fill those in to give us a complete picture.",
+          "We'll schedule a follow-up visit to check on your progress and address any remaining concerns."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if you notice any new symptoms or if things get worse, please don't hesitate to call us.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::global::35833228_0",
+          "recommendation::sub_query[4]::33658141_0"
+        ],
+        "all_pmids_used": [
+          "35833228",
+          "33658141"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 4,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 3,
+        "n_goals": 1,
+        "problems": [
+          "back pain",
+          "burning sensation when urinating",
+          "fever",
+          "reduced urine output"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "35833228",
+        "33658141"
+      ],
+      "cluster_ids_used": [
+        "finding::global::35833228_0",
+        "recommendation::sub_query[4]::33658141_0"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 235156.2814489007,
+        "module_2_retrieval": 74.10819828510284,
+        "module_3_reasoning": 48270.995646715164,
+        "module_4_response": 39521.02570980787,
+        "total_ms": 323022.41100370884
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

@@ -1,0 +1,388 @@
+{
+  "transcript_id": "primock57_day1_consultation06",
+  "dataset": "primock57",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "hard to breathe",
+  "patient_utterances": [
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/> Hello?\"] Hello there.",
+    "[Clinician asked: \"Uh, hello. Can you hear me OK?\"] Yes, I can hear you.",
+    "[Clinician asked: \"OK, great. . I am, yes. Nice to see you here, Oscar. Um, how can I help you this afternoon?\"] Are you the doctor? Um, I'm, contacting you because I've been, quite short of breath lately.",
+    "[Clinician asked: \"OK. Do you want to tell me a bit more about it? When did it all start?\"] Uh, well it seems to have been, slowly getting worse over the last couple of weeks. Um, now it's, become quite troublesome, in the last few days. Uh, I kind of, normally I can walk to the shops, without a problem but, now I'm having to sort of sit down and catch my breath. And I'm really starting to get a bit breathless, just about the house.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/>\"] And uh, it's got me kind of worried, don't really know what's going on.",
+    "[Clinician asked: \"OK. OK. OK. Is there anything you're particularly worried about?\"] Um, well, I've, I've uh, I've got um, heart failure.",
+    "[Clinician asked: \"OK.\"] Uh, I was told that, uh, a while ago. Um, and I got a bit breathless when I was first diagnosed, and put on some medicine that, that um, that helped, but I'm a bit worried it's just getting worse.",
+    "[Clinician asked: \"OK. Right. <INAUDIBLE_SPEECH/> Right, OK. So you mentioned you're feeling, uh, short of breath for the last couple of weeks, but mainly the last couple of days it's got a bit worse. Um, uh, and you're now feeling more breathless on kind of minimal, minimal exertion you mentioned. Um, have you notice\"] No pain in my chest.",
+    "[Clinician asked: \"OK. And have you found yourself coughing, coughing at all?\"] Um. Uh, I've got a bit of a dry cough, but it's not too troublesome.",
+    "[Clinician asked: \"OK. OK. And how's your general health otherwise? Are you feeling uh, weak, lethargic?\"] Um, I'm feeling a little run-down, um, but otherwise, otherwise pretty normal.",
+    "[Clinician asked: \"OK.\"] I've noticed my ankles have got a bit bigger.",
+    "[Clinician asked: \"OK. And what do you mean by that?\"] Uh, it's just like, it's sort of swollen up a bit.",
+    "[Clinician asked: \"OK. Um, is that, is that both ?\"] Kind of <INAUDIBLE_SPEECH/>. Um, yeah, both ankles. Yeah, it's a bit embarrassing.",
+    "[Clinician asked: \"Both ankles? OK. Uh, I can imagine, yeah. Um, and again,  over how long has this, have you noticed this for?\"] Um, I kind of noticed it the last few days.",
+    "[Clinician asked: \"Past few days, OK. And is this something that you've had before, in the past?\"] Uh, I think my ankles did swell up a bit last time, the heart failure was a problem.",
+    "[Clinician asked: \"OK. OK. Um, fine. OK. So, um, just to really recap, uh, so you're really, in the last couple of weeks, uh, you've been feeling breathless, uh, but worse in the last couple of days. You mentioned you had a bit of a dry cough. Um, and some swelling in your ankles. Um, reporting no chest pain. Um, and,\"] No, not really.",
+    "[Clinician asked: \"OK. And any temperatures or fevers?\"] Uh, no.",
+    "[Clinician asked: \"OK. And how about your appetite? Are you eating and drinking OK?\"] Yeah, I, , I'm, that's fine.",
+    "[Clinician asked: \"OK. And your waterworks? Are you passing urine OK?\"] Uh, yeah, but yeah. I usually pee a lot, <INAUDIBLE_SPEECH/>, ever since the drugs .",
+    "[Clinician asked: \"Yeah. <INAUDIBLE_SPEECH/> Sure, OK. Alright. Um, fine. So, <INAUDIBLE_SPEECH/> your uh, your past medical history. You mentioned heart failure. Any, any other medical history I should be aware of?\"] Uh, well I was told I had like a, they called it like a small heart attack. About, five years ago. Um, I uh, I had, I, I had like some chest pain and, they took me into hospital.",
+    "[Clinician asked: \"OK.\"] And um, they, uh, but then I just got better.",
+    "[Clinician asked: \"OK. And when, when you say a small heart attack, did they give you a name, for what happened, a, a name of a diagnosis?\"] Um. Uh, I can't remember. They just called it something a , uh, something like that, a small heart attack.",
+    "[Clinician asked: \"It's more hard to say. OK. Was it like angina or, um,\"] Um. Uh, no they, they said that it, uh, it seemed, it was like, more than angina.",
+    "[Clinician asked: \"OK.\"] Um, uh, but um, I didn't, but I only had to stay in hospital for a few days, and, uh.",
+    "[Clinician asked: \"OK. OK.\"] And yeah, I've been OK since then.",
+    "[Clinician asked: \"You've been OK since then. OK, alright. So, apart from the uh, the heart, the heart problems, the heart failure, any other problems I should be aware of?\"] Uh, no, I think I'm otherwise, I'm OK.",
+    "[Clinician asked: \"OK. Um, do you take any regular medications, apart from your  diuretics that you're taking? And do you know which ones?\"] Uh, yeah, I take something called Furosemide.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/>. Do you know which dose you're taking?\"] I can't remember, I'm sorry doctor. I have to check.",
+    "[Clinician asked: \"That's OK. No problems. Um, Any other medications?\"] Uh, yeah. I take Aspirin.",
+    "[Clinician asked: \"OK.\"] And uh, Bisoprolol.",
+    "[Clinician asked: \"The Metoprolol, was it? Or?\"] Uh, Bisoprolol.",
+    "[Clinician asked: \"Sorry, the connection's not very good. OK. Thank you, yeah. <INAUDIBLE_SPEECH/>\"] Um, <INAUDIBLE_SPEECH/>.",
+    "[Clinician asked: \"And a thousand, OK. Alright. Any allergies at all? Any medications?\"] Uh, no, no allergies.",
+    "[Clinician asked: \"No. OK. And is there anything in the family that's, uh, that, that's uh, that's important for me to know? Any family history of medical problems, heart problems, lung problems?\"] Uh , my, my father died of a, uh, of a heart attack.",
+    "[Clinician asked: \"I'm sorry to hear that. And, um, how old was your father when he passed away?\"] Uh, he was, um, early sixties.",
+    "[Clinician asked: \"Early sixties, OK. Alright. Anything else I should be aware of?\"] Um, my mother had osteoporosis.",
+    "[Clinician asked: \"OK. Is your mother still with us?\"] Uh, yeah, she's still living.",
+    "[Clinician asked: \"OK, alright. Um, and socially, sir, just tell me a bit more about your situation at home. Who lives at home with you?\"] Uh, I live on my own. Well, I got two cats.",
+    "[Clinician asked: \"You've got two cats. OK, great. Do they have names?\"] They're my family. Uh, they're, they're called, um, they're called, Polly and Tim.",
+    "[Clinician asked: \"OK. Um, so it's just you and your cats. And um, in terms of day to day, are you working at the moment?\"] Uh, I work part-time as, a, uh, lorry driver.",
+    "[Clinician asked: \"OK. And how is that? Is that quite stressful, long hours?\"] Uh, it's OK. Um, I uh, yeah , when I'm working it's pretty exhausting.",
+    "[Clinician asked: \"Mm.\"] Um, I guess I'm a bit worried, that if I get sick I won't, if I get more sick then, I won't be able to work properly.",
+    "[Clinician asked: \"Yeah, that's certainly a consideration, isn't it? So let's, let's try and get you better soon, so it doesn't have any um, impact on your, on your job.\"] No.",
+    "[Clinician asked: \"Uh, and do you find yourself doing a lot of anti-social hours? Do you <INAUDIBLE_SPEECH/>, do you do a lot of night driving, weekend driving? <INAUDIBLE_SPEECH/>\"] Ohh no, I , I , I, I only take shifts during the day, I don't like working at night.",
+    "[Clinician asked: \"OK. OK, alright. And what about smoking and alcohol? So, 'cause  that can sometimes be very important when it comes to heart problems. Do you, do you smoke at all?\"] Not any more.",
+    "[Clinician asked: \"So, you used to smoke?\"] Yeah.",
+    "[Clinician asked: \"And how many did you smoke a day, on average?\"] Ooh it was about, about a pack a day, back in the day.",
+    "[Clinician asked: \"Um, and how many, how many years was that for?\"] Ohh that was, oof, good twenty five years.",
+    "[Clinician asked: \"OK. And what about the stopping? That must have been difficult for you. <INAUDIBLE_SPEECH/> stopping. Um, and what, what about alcohol?\"] I don't drink alcohol.",
+    "[Clinician asked: \"OK. Do you do much in the way of exercise, sir?\"] Uh, I try and walk to the shops, at least once a day.",
+    "[Clinician asked: \"OK.\"] Um, but uh, that's about it, I've. Yeah, I don't, I don't go running like I used to when i was young.",
+    "[Clinician asked: \"OK. Right, OK. And certainly now your symptoms, you, you're, you said you're feeling more breathless even walking to the  uh, to the shop, she said. Um, right. Ohh um, based on your, based on you history, and having listened to your story, I, I wonder whether you've had a flare-up of your heart fail\"] Mmm. That.",
+    "[Clinician asked: \"It's . So, it seems like your heart's not pumping as well as it should be. Um, and obviously having diagnosed with heart failure, there's obviously\"] What's going on.",
+    "[Clinician asked: \"Um, that's the first thing that comes to my mind. Um, now there's a couple of options <INAUDIBLE_SPEECH/> move forward. Um,\"] Mmm.",
+    "[Clinician asked: \"Given that you're otherwise well at the moment, and having examined you, your chest, and your saturations and blood pressure are all OK, I'm quite happy to increase your dose of Furosemide. Maybe, rather than one tablet a day, we can do two tablets a day, for the first few days. Um, and see, and see\"] OK. If you think that'll be better.",
+    "[Clinician asked: \"Uh, I think, I think, it's,  it's, it's definitely worth treating your symptoms. But what we should also think about is maybe doing a couple of other tests, like a blood test, and maybe an echocardiogram of your heart, to see how well your heart's pumping.\"] OK.",
+    "[Clinician asked: \"Is that something you've had before? Yeah, so um, an , it's a, it's a general scan of your heart. You might have had this done before, when you were diagnosed. And it's just to get a good\"] What does that? Ohh yes, I remember now.",
+    "[Clinician asked: \"Sorry?\"] Uh, yeah, I remember now. .",
+    "[Clinician asked: \"You remember that. OK, fine. That's something I can organize for you today. And, and that might take a week or two weeks for that to be organized. But, I think certainly in the meantime, let's, um, Let's, let's get a blood test done. We can check your um, you know your full blood count, look for sig\"] I think that sounds like a good plan.",
+    "[Clinician asked: \"And of course, in the meantime if you are getting more unwell, feel like you're getting more breathless, or you're having any other symptoms like chest pain, or palpitations or dizziness, then, uh, you know  I want you to give me a call sooner than that, and we can have a chat on the phone as well.\"] OK. I'll see how I get on.",
+    "[Clinician asked: \"OK? Do you have any questions for me?\"] Uh, I think that's all pretty clear. Thank you very much Doctor.",
+    "[Clinician asked: \"Great, and then well I wish you all the best! Have a good day. <INAUDIBLE_SPEECH/> OK. Thank you.\"] OK. See you soon."
+  ],
+  "gold_note": "2/5 hx of SOB, worsening over the past 2/7. Feeling more SOB on minimal exertion, nil SOB at rest. No chest pain/palpitations. Assoc cough - mainly dry. No fevers. Has also noticed ankle odema bilaterally over past few days extending to shins. \nDiagnosed with heart failure previously and currently on diuretics. \nUrinary - Polyuria, nil else\n\nPMH: Heart failure, ?unstable angina \nDH: furosemide, aspirin, bisoprolol, simvastatin\nNKDA\nFH - father died of MI early 60s , mother - osteoporosis \nSH: lives alone, 2 cats , works part time as a lorry driver. Ex-smoker - a pack/d for 25 years. No etOH\n\nImp: exacerbation of heart failure\n\nPlan:\n1.\tIncrease furosemide BD\n2.\tBlood tests, inc U+Es, FBC, BNP\n3.\tArrange echo \n4.\tReview in 7d, or earlier if worsening sx (chest pain, SOB, dizziness, etc)",
+  "gold_sections": {
+    "PRESENTING_COMPLAINT": "hard to breathe",
+    "HIGHLIGHTS": "2/5 hx of SOB\nNo chest pain/palpitations\ncough\nankle odema bilaterally\nHeart failure\nexacerbation of heart failure"
+  },
+  "n_patient_turns": 62,
+  "n_clinician_turns": 62,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 13722.728587687016,
+      "response_text": "I understand how concerning your symptoms must be, especially with your history of heart failure. It\u2019s important that we address these changes promptly. We\u2019ll increase your Furosemide dose to help manage fluid buildup and schedule some tests to get a clearer picture of your heart function. In the meantime, keep an eye on your symptoms and let me know if they get worse. We\u2019re here to support you through this. Please feel free to ask any questions you have\u2014I\u2019m here to help. Thank you for being proactive about your health.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 33618.53010952473,
+      "response_text": "It makes sense you're feeling worried with how your symptoms have been getting worse, Oscar. Given your history of heart failure and the recent swelling in your ankles and increased breathlessness, it's understandable why you're concerned. I commend your proactive approach in seeking help, and I'm here to support you through this.\n\nWe'll work together to figure out what's going on. Your main concerns are about your heart failure worsening and how it might affect your ability to work. It's important to address these to ensure you feel better and can continue working.\n\nYou're experiencing symptoms that could be due to fluid retention or a possible worsening of your heart failure. Other possibilities include an infection or arrhythmia. To evaluate this, we'll increase your Furosemide dose to help reduce fluid buildup and schedule a blood test and an echocardiogram to assess your heart function [PMID ?].\n\nIn the meantime, if your symptoms worsen\u2014like if you feel more breathless, develop chest pain, or faint\u2014I want you to call me immediately. We'll follow up in a week to see how you're doing and adjust the plan as needed.\n\nCould you summarize the plan in your own words to ensure you understand everything we discussed? That way, I can make sure I've explained everything clearly. I'll arrange for the tests and adjust your medication. Let's touch base in a week to see how you're managing.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7698.410749435425,
+      "response_text": "Thank you for sharing your concerns about your recent symptoms. I understand that you're feeling breathless and worried about your heart condition.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if your symptoms get worse or you develop any new ones like chest pain or dizziness, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns about your recent symptoms. I understand that you're feeling breathless and worried about your heart condition.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if your symptoms get worse or you develop any new ones like chest pain or dizziness, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 157496.20363116264,
+      "response_text": "I can see how this might feel a bit embarrassing \u2014 you mentioned, \"Kind of <INAUDIBLE_SPEECH/>. Um, yeah, both ankles. Yeah, it's a bit embarrassing.\" I understand how that must feel.\n\nWith symptoms like breathlessness, dry cough, and ankle swelling, it's important to monitor how your heart failure is progressing. We'll keep a close eye on these signs to make sure things aren't getting worse.\n\nWe'll keep a close watch on your symptoms and how you're feeling, especially with the ankle swelling you mentioned.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to check in again soon. If you notice any new symptoms or if things get worse, please reach out right away.",
+      "structured_response": {
+        "acknowledgment": "I can see how this might feel a bit embarrassing \u2014 you mentioned, \"Kind of <INAUDIBLE_SPEECH/>. Um, yeah, both ankles. Yeah, it's a bit embarrassing.\" I understand how that must feel.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "heart failure",
+            "profile_path": "problems[0]",
+            "explanation": "With symptoms like breathlessness, dry cough, and ankle swelling, it's important to monitor how your heart failure is progressing. We'll keep a close eye on these signs to make sure things aren't getting worse.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll keep a close watch on your symptoms and how you're feeling, especially with the ankle swelling you mentioned."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to check in again soon. If you notice any new symptoms or if things get worse, please reach out right away.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Demonstrate empathy",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 0,
+        "problems": [
+          "heart failure"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Demonstrate empathy",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 409845.0602442026,
+      "response_text": "I can hear how much this is weighing on you. You mentioned, \"I'm a bit worried it's just getting worse,\" and also said, \"it's a bit embarrassing.\" I want to make sure I understand all your concerns and address them together.\n\nShortness of breath can be caused by several issues, and it's important to figure out what's causing it. Based on your history of heart failure and the recent symptoms, we'll need to do some tests to understand what's going on.\n\nGiven your history of heart failure, we need to monitor how it's affecting your current symptoms. Managing heart failure often involves a combination of medications and lifestyle changes to reduce symptoms and prevent complications.\n\nA dry cough can be related to heart failure or other conditions. We'll keep an eye on it as we assess your overall health.\n\nFatigue can be a sign of various health issues, including heart problems. We'll evaluate it in the context of your other symptoms to determine the best course of action.\n\nSwollen ankles can indicate fluid retention, which is common in heart failure. We'll monitor this as part of your overall assessment.\n\nUrinating a lot can be a sign of various conditions, including heart issues. We'll assess it alongside your other symptoms to understand the bigger picture.\n\nYour history of a small heart attack five years ago is important. We'll consider it when evaluating your current symptoms to ensure we're addressing all potential risks.\n\nGiven the red flag of unintentional weight gain, we'll prioritize evaluating your heart failure and related symptoms. This includes ordering tests to better understand your condition.\n\nWe'll schedule a follow-up visit to review the test results and discuss next steps in managing your heart failure and other symptoms.\n\nIn the meantime, if you experience severe shortness of breath, chest pain, or worsening swelling in your ankles, please call us immediately.\n\nI want to make sure I explained everything clearly. Can you tell me, in your own words, what we're going to do next and why it's important?\n\nLet's plan to see each other again in a few weeks. If you notice any new symptoms or if your current symptoms get worse, please don't wait\u2014call us right away.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this is weighing on you. You mentioned, \"I'm a bit worried it's just getting worse,\" and also said, \"it's a bit embarrassing.\" I want to make sure I understand all your concerns and address them together.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "shortness of breath",
+            "profile_path": "problems[0]",
+            "explanation": "Shortness of breath can be caused by several issues, and it's important to figure out what's causing it. Based on your history of heart failure and the recent symptoms, we'll need to do some tests to understand what's going on.",
+            "citations": [
+              {
+                "cluster_id": "finding::problems[0]::38521534_2",
+                "primary_assertion_id": "38521534_3",
+                "pmids": [
+                  "38521534"
+                ]
+              },
+              {
+                "cluster_id": "finding::problems[1]::38521534_1",
+                "primary_assertion_id": "38521534_1",
+                "pmids": [
+                  "38521534"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "heart failure",
+            "profile_path": "problems[1]",
+            "explanation": "Given your history of heart failure, we need to monitor how it's affecting your current symptoms. Managing heart failure often involves a combination of medications and lifestyle changes to reduce symptoms and prevent complications.",
+            "citations": [
+              {
+                "cluster_id": "finding::problems[1]::38521534_1",
+                "primary_assertion_id": "38521534_1",
+                "pmids": [
+                  "38521534"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "dry cough",
+            "profile_path": "problems[2]",
+            "explanation": "A dry cough can be related to heart failure or other conditions. We'll keep an eye on it as we assess your overall health.",
+            "citations": [
+              {
+                "cluster_id": "finding::problems[0]::38521534_2",
+                "primary_assertion_id": "38521534_3",
+                "pmids": [
+                  "38521534"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "fatigue",
+            "profile_path": "problems[3]",
+            "explanation": "Fatigue can be a sign of various health issues, including heart problems. We'll evaluate it in the context of your other symptoms to determine the best course of action.",
+            "citations": [
+              {
+                "cluster_id": "finding::problems[0]::38521534_2",
+                "primary_assertion_id": "38521534_3",
+                "pmids": [
+                  "38521534"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "swollen ankles",
+            "profile_path": "problems[4]",
+            "explanation": "Swollen ankles can indicate fluid retention, which is common in heart failure. We'll monitor this as part of your overall assessment.",
+            "citations": [
+              {
+                "cluster_id": "finding::problems[0]::38521534_2",
+                "primary_assertion_id": "38521534_3",
+                "pmids": [
+                  "38521534"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "polyuria",
+            "profile_path": "problems[5]",
+            "explanation": "Urinating a lot can be a sign of various conditions, including heart issues. We'll assess it alongside your other symptoms to understand the bigger picture.",
+            "citations": [
+              {
+                "cluster_id": "finding::problems[0]::38521534_2",
+                "primary_assertion_id": "38521534_3",
+                "pmids": [
+                  "38521534"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "small heart attack",
+            "profile_path": "problems[6]",
+            "explanation": "Your history of a small heart attack five years ago is important. We'll consider it when evaluating your current symptoms to ensure we're addressing all potential risks.",
+            "citations": [
+              {
+                "cluster_id": "finding::problems[1]::38521534_1",
+                "primary_assertion_id": "38521534_1",
+                "pmids": [
+                  "38521534"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "Given the red flag of unintentional weight gain, we'll prioritize evaluating your heart failure and related symptoms. This includes ordering tests to better understand your condition.",
+          "We'll schedule a follow-up visit to review the test results and discuss next steps in managing your heart failure and other symptoms.",
+          "In the meantime, if you experience severe shortness of breath, chest pain, or worsening swelling in your ankles, please call us immediately."
+        ],
+        "teach_back_prompt": "I want to make sure I explained everything clearly. Can you tell me, in your own words, what we're going to do next and why it's important?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. If you notice any new symptoms or if your current symptoms get worse, please don't wait\u2014call us right away.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Demonstrate empathy",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::problems[0]::38521534_2",
+          "finding::problems[1]::38521534_1"
+        ],
+        "all_pmids_used": [
+          "38521534"
+        ],
+        "glossary_substitutions": [
+          {
+            "field": "clinical_information_per_concern[5].explanation",
+            "original": "polyuria",
+            "plain": "urinating a lot",
+            "count": 1
+          }
+        ]
+      },
+      "profile_summary": {
+        "n_problems": 7,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 1,
+        "n_emotional": 2,
+        "n_goals": 0,
+        "problems": [
+          "shortness of breath",
+          "heart failure",
+          "dry cough",
+          "fatigue",
+          "swollen ankles",
+          "polyuria",
+          "small heart attack"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "38521534"
+      ],
+      "cluster_ids_used": [
+        "finding::problems[0]::38521534_2",
+        "finding::problems[1]::38521534_1"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Demonstrate empathy",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 303964.44611251354,
+        "module_2_retrieval": 89.31483328342438,
+        "module_3_reasoning": 54978.00054401159,
+        "module_4_response": 50812.01583892107,
+        "total_ms": 409843.77732872963
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

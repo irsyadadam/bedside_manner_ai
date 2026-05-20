@@ -1,0 +1,210 @@
+{
+  "transcript_id": "mts_test_1_0",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "The patient is a 55-year-old African-American male that was last seen in clinic on 07/29/2008 with diagnosis of new onset seizures and an MR",
+  "patient_utterances": [
+    "[Clinician asked: \"Good afternoon, sir. Did you just have a birthday? I don't have my chart with me right now, the nurse is bringing it.\"] Good afternoon, sir. Yes, I just turned fifty five.",
+    "[Clinician asked: \"You identify as African American, correct?\"] Yes, that's right.",
+    "[Clinician asked: \"When was your last visit, sir?\"] Um, it was on July twenty ninth two thousand eight.",
+    "[Clinician asked: \"Yes, I see. Did we go over your M R I results?\"] No, I was having those new seizures, remember?",
+    "[Clinician asked: \"Yes, I do. Well, the M R I demonstrated right contrast temporal mass.\"] What exactly does that mean, doctor?"
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "HPI": "The patient is a 55-year-old African-American male that was last seen in clinic on 07/29/2008 with diagnosis of new onset seizures and an MRI scan, which demonstrated right contrast-enhancing temporal mass.  Given the characteristics of this mass and his new onset seizures, it is significantly concerning for a high-grade glioma."
+  },
+  "n_patient_turns": 5,
+  "n_clinician_turns": 6,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 13505.067452788353,
+      "response_text": "Thank you for sharing your concerns with me. I understand that hearing about the MRI results can be confusing and worrying. The term \"right contrast temporal mass\" simply means there's an area that showed up on the MRI after using contrast dye. This could be due to various reasons, such as a tumor, inflammation, or another condition. Since you've been experiencing seizures, it's important to explore this finding further to understand how it might be connected to your symptoms. \n\nWe'll work together to determine the next steps, which may include additional tests or referrals to specialists. Your health and understanding are important to me, so please feel free to ask any questions or share any other concerns you have. We'll get through this together.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 22165.917478501797,
+      "response_text": "Thank you for sharing your concerns with me. It makes sense that you're feeling worried, especially after such a long time since your last visit and with the recent seizures you've been experiencing. I can understand how confusing and unsettling the MRI results must be for you, and I want to make sure you feel supported as we work through this together.\n\nThe term \"right contrast temporal mass\" on your MRI could indicate several possibilities, such as a tumor, inflammation, or another type of lesion in the temporal lobe. While I can't make a definitive diagnosis without further tests, it's important we explore this finding to rule out any serious conditions. We'll likely recommend additional imaging or a neurological evaluation to better understand what's going on [PMID ?].\n\nTo move forward, I'll schedule a follow-up appointment with a neurologist to discuss the MRI results in more detail and plan the next steps. Before you leave today, could you summarize what you understand about our discussion? This will help ensure you're clear on the plan and any recommended tests. I'll also have the nurse schedule your follow-up for next week, and we can adjust the timing if it's not convenient for you.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7909.6909165382385,
+      "response_text": "Thank you for sharing your concerns with me today. I understand that you have questions about your MRI results, particularly regarding the term 'right contrast temporal mass.'\n\nWe'll review your MRI results together and address your questions in detail during our visit. If you have any further questions before then, please don't hesitate to reach out.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to meet again soon to go over your MRI results. In the meantime, if you have any new symptoms or questions, please call us so we can help.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns with me today. I understand that you have questions about your MRI results, particularly regarding the term 'right contrast temporal mass.'",
+        "clinical_information_per_concern": [],
+        "next_steps": [
+          "We'll review your MRI results together and address your questions in detail during our visit. If you have any further questions before then, please don't hesitate to reach out."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to meet again soon to go over your MRI results. In the meantime, if you have any new symptoms or questions, please call us so we can help.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 33640.90547710657,
+      "response_text": "I understand you're concerned about the new seizures you've been having.\n\nNew seizures can be serious, and we need to figure out what's causing them. We'll start with some basic tests to check for common causes and make sure there's nothing urgent that needs immediate attention.\n\nWe'll order some tests to look for possible causes of the seizures, like infections or other health issues.\n\nWe'll schedule a follow-up appointment to review the results and plan the next steps together.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if you have more seizures or any new symptoms, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I understand you're concerned about the new seizures you've been having.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "seizures",
+            "profile_path": "problems[0]",
+            "explanation": "New seizures can be serious, and we need to figure out what's causing them. We'll start with some basic tests to check for common causes and make sure there's nothing urgent that needs immediate attention.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll order some tests to look for possible causes of the seizures, like infections or other health issues.",
+          "We'll schedule a follow-up appointment to review the results and plan the next steps together."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if you have more seizures or any new symptoms, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 1,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "seizures"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 69539.55298662186,
+      "response_text": "I understand you're concerned about your recent seizures. Let's focus on getting a clear understanding of what's going on and how we can address it together.\n\nSeizure control is a top priority for people with epilepsy. We'll need to understand more about your seizures to create the best plan for you.\n\nGiven the concern about your recent seizures, we'll prioritize getting a thorough understanding of your seizure pattern and history to guide the next steps in care.\n\nWe'll schedule a detailed follow-up to review your history and any recent changes that might be contributing to your seizures.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to follow up in a week to review any new information and adjust our approach as needed. In the meantime, keep track of when your seizures occur and any symptoms you notice.",
+      "structured_response": {
+        "acknowledgment": "I understand you're concerned about your recent seizures. Let's focus on getting a clear understanding of what's going on and how we can address it together.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "seizures",
+            "profile_path": "problems[0]",
+            "explanation": "Seizure control is a top priority for people with epilepsy. We'll need to understand more about your seizures to create the best plan for you.",
+            "citations": [
+              {
+                "cluster_id": "finding::problems[0]::40043597_0",
+                "primary_assertion_id": "40043597_0",
+                "pmids": [
+                  "40043597"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "Given the concern about your recent seizures, we'll prioritize getting a thorough understanding of your seizure pattern and history to guide the next steps in care.",
+          "We'll schedule a detailed follow-up to review your history and any recent changes that might be contributing to your seizures."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to follow up in a week to review any new information and adjust our approach as needed. In the meantime, keep track of when your seizures occur and any symptoms you notice.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::problems[0]::40043597_0"
+        ],
+        "all_pmids_used": [
+          "40043597"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 1,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "seizures"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "40043597"
+      ],
+      "cluster_ids_used": [
+        "finding::problems[0]::40043597_0"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 21472.435355186462,
+        "module_2_retrieval": 31.58319741487503,
+        "module_3_reasoning": 33312.90107965469,
+        "module_4_response": 14721.39660269022,
+        "total_ms": 69538.31623494625
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

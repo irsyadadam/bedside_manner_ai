@@ -1,0 +1,237 @@
+{
+  "transcript_id": "mts_test_1_187",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "This is a 66-year-old patient who came to the emergency room because she was feeling dizzy and was found to be tachycardic and hypertensive",
+  "patient_utterances": [
+    "[Clinician asked: \"Ma'am, are you feeling okay?\"] No not really, I feel dizzy.",
+    "[Clinician asked: \"Who brought you to emergency?\"] My husband, he is trying to find parking outside.",
+    "[Clinician asked: \"Well, your blood pressure looks quite high and so does your heartbeat. Do you have a history of hypertension or tachycardia, how old are you?\"] I am sixty six."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "CC": "This is a 66-year-old patient who came to the emergency room because she was feeling dizzy and was found to be tachycardic and hypertensive."
+  },
+  "n_patient_turns": 3,
+  "n_clinician_turns": 5,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 13739.501558244228,
+      "response_text": "I'm really sorry to hear that you're feeling dizzy, Mrs. [Last Name]. Your husband did the right thing by bringing you in. I can see that your blood pressure is high, and your heart rate is up. At 66, it's important we get to the bottom of this. Let's run some tests to see what's going on and make sure you feel better. If you have any other symptoms or questions, please let me know. We're here to figure this out together and get you back to feeling like yourself.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 15765.772141516209,
+      "response_text": "Thank you for sharing how you're feeling. It's completely understandable that you're concerned about feeling dizzy, especially with your blood pressure and heart rate being elevated. I can see how this might be unsettling, and I'm here to help figure out what's going on.\n\nGiven your age and the readings we have, it's important to explore possible causes for your dizziness, such as dehydration or potential heart issues. I'll arrange for some tests to get a clearer picture of your health. It's also wise to review your current medications to ensure they're not contributing to your symptoms.\n\nWe'll monitor your condition closely and schedule a follow-up in the next few days to assess your progress. Before you leave, could you summarize what we've discussed so far? This will help ensure you're clear on the plan and any next steps.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6825.316540896893,
+      "response_text": "It sounds like you're not feeling well, and your husband brought you in because of that.\n\nWe'll check your blood pressure and heart rate again to see if they're still high and discuss what might be causing your dizziness.\n\nCan you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to monitor your condition closely. If your symptoms get worse or if you have chest pain, trouble breathing, or fainting spells, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're not feeling well, and your husband brought you in because of that.",
+        "clinical_information_per_concern": [],
+        "next_steps": [
+          "We'll check your blood pressure and heart rate again to see if they're still high and discuss what might be causing your dizziness."
+        ],
+        "teach_back_prompt": "Can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to monitor your condition closely. If your symptoms get worse or if you have chest pain, trouble breathing, or fainting spells, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 37068.204529583454,
+      "response_text": "Thank you for coming in to discuss your concerns. I understand that you're currently experiencing dizziness, and I want to make sure we address this together.\n\nDizziness can be caused by a variety of factors, and it's important to explore these systematically. Given your age, we'll consider common causes in older adults, such as inner ear issues or blood pressure changes.\n\nWe'll schedule some tests to better understand what's causing the dizziness, such as blood work and a hearing assessment.\n\nLet's plan to follow up in two weeks to review the results and discuss next steps.\n\nI want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in two weeks. In the meantime, if you experience any severe dizziness or fall, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "Thank you for coming in to discuss your concerns. I understand that you're currently experiencing dizziness, and I want to make sure we address this together.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "dizziness",
+            "profile_path": "problems[0]",
+            "explanation": "Dizziness can be caused by a variety of factors, and it's important to explore these systematically. Given your age, we'll consider common causes in older adults, such as inner ear issues or blood pressure changes.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::39366124",
+                "primary_assertion_id": "39366124_retr",
+                "pmids": [
+                  "39366124"
+                ]
+              },
+              {
+                "cluster_id": "retrieval_only::40155879",
+                "primary_assertion_id": "40155879_retr",
+                "pmids": [
+                  "40155879"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll schedule some tests to better understand what's causing the dizziness, such as blood work and a hearing assessment.",
+          "Let's plan to follow up in two weeks to review the results and discuss next steps."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in two weeks. In the meantime, if you experience any severe dizziness or fall, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "retrieval_only::39366124",
+          "retrieval_only::40155879"
+        ],
+        "all_pmids_used": [
+          "39366124",
+          "40155879"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "dizziness"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "39366124",
+        "40155879"
+      ],
+      "cluster_ids_used": [
+        "retrieval_only::39366124",
+        "retrieval_only::40155879"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 89461.9502350688,
+      "response_text": "It sounds like you're experiencing dizziness recently, and I want to understand how this is affecting your daily life.\n\nDizziness can be caused by a variety of issues, and it's important to figure out what's going on. Based on clinical guidelines, we'll start with some basic tests to check for common causes of dizziness.\n\nWe'll schedule some tests to look into the possible causes of your dizziness.\n\nPlease keep track of when the dizziness happens and any other symptoms you notice, and let us know if anything changes.\n\nCan you tell me, in your own words, what we're going to do next to figure out what's causing your dizziness?\n\nLet's plan to check in again in a week to review the test results. If you experience severe dizziness or any new symptoms like chest pain or vision changes, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're experiencing dizziness recently, and I want to understand how this is affecting your daily life.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "dizziness",
+            "profile_path": "problems[0]",
+            "explanation": "Dizziness can be caused by a variety of issues, and it's important to figure out what's going on. Based on clinical guidelines, we'll start with some basic tests to check for common causes of dizziness.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::sub_query[0]::35709018_3",
+                "primary_assertion_id": "35709018_3",
+                "pmids": [
+                  "35709018"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll schedule some tests to look into the possible causes of your dizziness.",
+          "Please keep track of when the dizziness happens and any other symptoms you notice, and let us know if anything changes."
+        ],
+        "teach_back_prompt": "Can you tell me, in your own words, what we're going to do next to figure out what's causing your dizziness?",
+        "follow_up_invitation": "Let's plan to check in again in a week to review the test results. If you experience severe dizziness or any new symptoms like chest pain or vision changes, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "recommendation::sub_query[0]::35709018_3"
+        ],
+        "all_pmids_used": [
+          "35709018"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "dizziness"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "35709018"
+      ],
+      "cluster_ids_used": [
+        "recommendation::sub_query[0]::35709018_3"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 21273.353338241577,
+        "module_2_retrieval": 61.44138425588608,
+        "module_3_reasoning": 52303.801506757736,
+        "module_4_response": 15821.980848908424,
+        "total_ms": 89460.57707816362
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

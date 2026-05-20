@@ -1,0 +1,242 @@
+{
+  "transcript_id": "mts_val_74",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "She does not bleed",
+  "patient_utterances": [
+    "[Clinician asked: \"Hello, miss. What brings you into the practice today?\"] I have been missing a lot of periods and I am not sexually active. I do not bleed. Is something wrong with me?",
+    "[Clinician asked: \"What is your history with your reproductive parts? Have you had any surgeries?\"] I have everything still. I have both ovaries, I have a uterus, and I have a cervix still.",
+    "[Clinician asked: \"Are you on any type of hormonal therapies?\"] I am not taking anything. This is the first time I have brought this up to the doctor."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "GYNHX": "She does not bleed.  She has both ovaries, as well as her uterus and cervix.  She is on no hormonal therapy."
+  },
+  "n_patient_turns": 3,
+  "n_clinician_turns": 3,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 12934.294275939465,
+      "response_text": "Thank you for sharing your concerns with me. It's completely valid to feel worried when something like this happens, and I'm here to help you figure it out. Missing periods can be caused by a variety of things, even when you're not sexually active. Stress, changes in weight, or hormonal imbalances are common reasons, but there could be others. Let's work together to find out what's going on. I might suggest some tests, like blood work or an ultrasound, to check for common causes. You're not alone in this, and we'll get to the bottom of it together. Please feel free to ask any questions you have or let me know if you're experiencing any other symptoms.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 20076.033405959606,
+      "response_text": "Thank you for sharing your concerns with me. It\u2019s completely understandable that you\u2019re worried about missing periods when you\u2019re not sexually active and haven\u2019t experienced any bleeding. Missing periods can be unsettling, and I appreciate your courage in bringing this up with me today.\n\nGiven your history of having all your reproductive organs intact and not being on any hormonal therapies, there are a few possibilities we should consider. One common cause could be polycystic ovary syndrome (PCOS), which can disrupt menstrual cycles [PMID ?]. Other possibilities might include hormonal imbalances, such as issues with your thyroid gland, which can also affect your menstrual cycle [PMID ?]. It\u2019s also worth noting that stress, nutritional factors, or changes in your lifestyle can sometimes impact your periods.\n\nTo get a clearer picture, I recommend we start with some basic tests. A blood test can check your hormone levels, including thyroid function and reproductive hormones, which will help us understand what might be going on [PMID ?]. Depending on the results, we might also consider an ultrasound to look at your uterus and ovaries [PMID ?].\n\nWe\u2019ll plan to review the results together in about 2-4 weeks. Before you leave today, could you summarize what we\u2019ve discussed so far? This will help ensure you feel confident about the next steps and that I\u2019ve explained everything clearly.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7924.606256186962,
+      "response_text": "It sounds like you're concerned about missing periods and wondering if something is wrong, especially since you're not sexually active and not experiencing bleeding.\n\nWe'll need to schedule some tests to understand what's going on with your menstrual cycle. This might include blood tests or a pelvic exam to check everything is working as it should.\n\nCan you tell me in your own words what we're going to do next and why it's important?\n\nLet's plan to follow up in a week to review the test results. In the meantime, keep track of any changes or symptoms and let us know if anything new comes up.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're concerned about missing periods and wondering if something is wrong, especially since you're not sexually active and not experiencing bleeding.",
+        "clinical_information_per_concern": [],
+        "next_steps": [
+          "We'll need to schedule some tests to understand what's going on with your menstrual cycle. This might include blood tests or a pelvic exam to check everything is working as it should."
+        ],
+        "teach_back_prompt": "Can you tell me in your own words what we're going to do next and why it's important?",
+        "follow_up_invitation": "Let's plan to follow up in a week to review the test results. In the meantime, keep track of any changes or symptoms and let us know if anything new comes up.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 43271.361738443375,
+      "response_text": "I can hear how much this has been worrying you \u2014 you said, \"Is something wrong with me?\" That's a real concern, and I want to make sure we get to the bottom of it.\n\nMissing periods can be caused by a variety of factors, and it's important to figure out what's going on. Given your recent onset and lack of other symptoms like bleeding, we'll focus on common causes that don't involve serious conditions.\n\nOur goal is to work together to understand what's causing your missing periods. We'll start with some basic tests to check for common reasons behind this issue.\n\nWe'll begin with some basic tests to help us understand what's causing your missing periods.\n\nWe'll schedule a follow-up visit to review the results and discuss the next steps together.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if you notice any new symptoms or changes, please call us so we can address them promptly.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this has been worrying you \u2014 you said, \"Is something wrong with me?\" That's a real concern, and I want to make sure we get to the bottom of it.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "missing periods",
+            "profile_path": "problems[0]",
+            "explanation": "Missing periods can be caused by a variety of factors, and it's important to figure out what's going on. Given your recent onset and lack of other symptoms like bleeding, we'll focus on common causes that don't involve serious conditions.",
+            "citations": []
+          },
+          {
+            "concern_label": "find out what's wrong",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Our goal is to work together to understand what's causing your missing periods. We'll start with some basic tests to check for common reasons behind this issue.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll begin with some basic tests to help us understand what's causing your missing periods.",
+          "We'll schedule a follow-up visit to review the results and discuss the next steps together."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if you notice any new symptoms or changes, please call us so we can address them promptly.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 1,
+        "problems": [
+          "missing periods"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 76969.15554255247,
+      "response_text": "I can hear how much this has been worrying you \u2014 you said, \"Is something wrong with me?\" That's a real concern, and I want to make sure we get to the bottom of it together.\n\nIt's important to figure out why you're missing periods. Given your recent onset and lack of other symptoms like bleeding, we'll start with some basic tests to check for common causes.\n\nWe'll work together to understand what's going on. Your goal to find out what's wrong is really important, and we'll make sure to keep you informed every step of the way.\n\nWe'll start with some basic blood tests to check for common causes of missed periods.\n\nWe'll schedule a follow-up visit in a few weeks to review the results and plan the next steps together.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if you notice any new symptoms or changes, please call us so we can address them promptly.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this has been worrying you \u2014 you said, \"Is something wrong with me?\" That's a real concern, and I want to make sure we get to the bottom of it together.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "missing periods",
+            "profile_path": "problems[0]",
+            "explanation": "It's important to figure out why you're missing periods. Given your recent onset and lack of other symptoms like bleeding, we'll start with some basic tests to check for common causes.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::sub_query[1]::33658141_0",
+                "primary_assertion_id": "33658141_0",
+                "pmids": [
+                  "33658141"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "find out what's wrong",
+            "profile_path": "patient_goals[0]",
+            "explanation": "We'll work together to understand what's going on. Your goal to find out what's wrong is really important, and we'll make sure to keep you informed every step of the way.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::sub_query[1]::33658141_0",
+                "primary_assertion_id": "33658141_0",
+                "pmids": [
+                  "33658141"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll start with some basic blood tests to check for common causes of missed periods.",
+          "We'll schedule a follow-up visit in a few weeks to review the results and plan the next steps together."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if you notice any new symptoms or changes, please call us so we can address them promptly.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "recommendation::sub_query[1]::33658141_0"
+        ],
+        "all_pmids_used": [
+          "33658141"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 1,
+        "problems": [
+          "missing periods"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "33658141"
+      ],
+      "cluster_ids_used": [
+        "recommendation::sub_query[1]::33658141_0"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 27952.68125832081,
+        "module_2_retrieval": 80.03158867359161,
+        "module_3_reasoning": 26244.560800492764,
+        "module_4_response": 22690.21163135767,
+        "total_ms": 76967.48527884483
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

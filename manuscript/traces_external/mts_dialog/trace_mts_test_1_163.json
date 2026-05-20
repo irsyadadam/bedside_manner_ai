@@ -1,0 +1,232 @@
+{
+  "transcript_id": "mts_test_1_163",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "The patient is a 38-year-old woman presenting to our clinic for the first time for evaluation of hip pain, right greater than left, of great",
+  "patient_utterances": [
+    "[Clinician asked: \"Good afternoon, ma'am, I see you're a new patient with us.\"] Yep, this is my first time in.",
+    "[Clinician asked: \"Well, welcome. Before we get started, how old are you?\"] I'm only thirty eight.",
+    "[Clinician asked: \"Thank you, what seems to be the problem today.\"] I have pain in my hips, but my right hurts more than my left.",
+    "[Clinician asked: \"How long have you been dealing with this pain?\"] It's been about two years now on the right, and it just started in the left recently.",
+    "[Clinician asked: \"Is the pain getting worse?\"] Yeah, it's been getting worse since it started.",
+    "[Clinician asked: \"Can you show me where the pain is?\"] It's here in the front, like in the groin, and then on the side.",
+    "[Clinician asked: \"Do any activities bother your hip?\"] Oh yes, walking is so painful for me now. I hear this popping and clicking now too.",
+    "[Clinician asked: \"Have you seen another doctor for this pain?\"] No, you're the first."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "HPI": "The patient is a 38-year-old woman presenting to our clinic for the first time for evaluation of hip pain, right greater than left, of greater than 2 years duration.  The patient states that she began with right hip pain getting steadily worse over the last 2 years and has now developed some pain in the left hip.  The pain is located laterally as well as anteriorly into the groin.  She states that the pain is present during activities such as walking, and she does get some painful popping and clicking in the right hip.  She is here for evaluation for the first time.  She sought no previous medical attention for this."
+  },
+  "n_patient_turns": 8,
+  "n_clinician_turns": 8,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 16327.490143477917,
+      "response_text": "Thank you for sharing your concerns with me. I can tell how frustrating and limiting this hip pain must be, especially since it\u2019s been going on for so long and now affecting both sides. I want to make sure we explore all possible causes together to find the best way to help you feel better.\n\nIt sounds like we\u2019ll need to look into a few possibilities, such as arthritis, bursitis, or tendinitis, but I\u2019ll also consider other causes like sciatica or hip impingement. I\u2019ll ask you some questions about your medical history, medications, and any imaging you might have had. Based on that, we can decide if we need to do some tests or refer you to a specialist. In the meantime, I might suggest some physical therapy or imaging to get a clearer picture.\n\nPlease let me know if there\u2019s anything else you\u2019d like to share, and we\u2019ll take it one step at a time. I\u2019m here to help you feel your best.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 23966.12786501646,
+      "response_text": "Thank you for sharing your concerns with me. It sounds like this hip pain has been quite challenging for you, especially since it's been going on for two years and is now affecting both sides. I can understand how frustrating and worrying this must be, particularly as it's impacting your daily activities like walking. I want to acknowledge how brave you are to seek help and trust me with your care.\n\nGiven the duration and the recent spread to your left hip, along with the popping and clicking, I want to explore possible causes. Osteoarthritis, bursitis, or tendinitis are possibilities we might consider [PMID ?]. To better understand what's going on, we'll likely need imaging such as X-rays or an MRI. Additionally, I might recommend physical therapy to help alleviate some of the pain and improve mobility.\n\nIn the meantime, I could suggest some over-the-counter pain relievers like ibuprofen, but we'll need to monitor how that works for you. I want to make sure we're on the same page regarding your treatment goals, which I believe include pain relief and restoring your ability to walk comfortably.\n\nTo ensure we're aligned, could you please summarize what we've discussed so far? This will help me confirm that I've explained everything clearly. We'll plan to follow up in about two weeks to see how you're progressing and adjust our approach as needed.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6947.784014046192,
+      "response_text": "Thank you for sharing your concerns with me today. It sounds like the hip pain has been affecting your daily life, especially with walking and the popping and clicking you're experiencing.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if the pain gets worse or you notice any new symptoms, please call us so we can address them promptly.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns with me today. It sounds like the hip pain has been affecting your daily life, especially with walking and the popping and clicking you're experiencing.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if the pain gets worse or you notice any new symptoms, please call us so we can address them promptly.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 61734.0103238821,
+      "response_text": "Thank you for sharing your concerns about your hip pain. It sounds like this has been going on for a while and is getting worse, which I understand can be really frustrating.\n\nHip pain that has been ongoing for two years and is now worsening on both sides, especially with symptoms like popping and clicking, suggests we need to look into possible causes. This could include issues like arthritis or other hip-related conditions that may require further evaluation.\n\nWe'll schedule some imaging or tests to better understand what's causing the hip pain and how to address it effectively.\n\nCan you tell me in your own words what you understand about the next steps we discussed?\n\nLet's plan to follow up in a few weeks once we have the results. In the meantime, if the pain gets significantly worse or you experience any new symptoms, please reach out.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns about your hip pain. It sounds like this has been going on for a while and is getting worse, which I understand can be really frustrating.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "hip pain",
+            "profile_path": "problems[0]",
+            "explanation": "Hip pain that has been ongoing for two years and is now worsening on both sides, especially with symptoms like popping and clicking, suggests we need to look into possible causes. This could include issues like arthritis or other hip-related conditions that may require further evaluation.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::34766330",
+                "primary_assertion_id": "34766330_retr",
+                "pmids": [
+                  "34766330"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll schedule some imaging or tests to better understand what's causing the hip pain and how to address it effectively."
+        ],
+        "teach_back_prompt": "Can you tell me in your own words what you understand about the next steps we discussed?",
+        "follow_up_invitation": "Let's plan to follow up in a few weeks once we have the results. In the meantime, if the pain gets significantly worse or you experience any new symptoms, please reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "retrieval_only::34766330"
+        ],
+        "all_pmids_used": [
+          "34766330"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "hip pain"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "34766330"
+      ],
+      "cluster_ids_used": [
+        "retrieval_only::34766330"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 110292.41691529751,
+      "response_text": "I understand you're here because of the hip pain you've been experiencing. It sounds like it's been going on for a while and has recently gotten worse on your left side.\n\nHip pain that's been ongoing and getting worse can be due to various causes. We'll need to look into this further to understand what's going on and the best way to address it.\n\nWe'll schedule some imaging to get a better look at your hips and see if there's any structural issue that needs attention.\n\nWe'll also check in with you in a few weeks to see how the pain is progressing and adjust our approach as needed.\n\nCan you tell me, in your own words, what we're planning to do next to help with your hip pain?\n\nLet's plan to follow up in a few weeks. If the pain gets worse or you notice any new symptoms, please reach out sooner.",
+      "structured_response": {
+        "acknowledgment": "I understand you're here because of the hip pain you've been experiencing. It sounds like it's been going on for a while and has recently gotten worse on your left side.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "hip pain",
+            "profile_path": "problems[0]",
+            "explanation": "Hip pain that's been ongoing and getting worse can be due to various causes. We'll need to look into this further to understand what's going on and the best way to address it.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[0]::34766330_0",
+                "primary_assertion_id": "34766330_0",
+                "pmids": [
+                  "34766330"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll schedule some imaging to get a better look at your hips and see if there's any structural issue that needs attention.",
+          "We'll also check in with you in a few weeks to see how the pain is progressing and adjust our approach as needed."
+        ],
+        "teach_back_prompt": "Can you tell me, in your own words, what we're planning to do next to help with your hip pain?",
+        "follow_up_invitation": "Let's plan to follow up in a few weeks. If the pain gets worse or you notice any new symptoms, please reach out sooner.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[0]::34766330_0"
+        ],
+        "all_pmids_used": [
+          "34766330"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "hip pain"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "34766330"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[0]::34766330_0"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 41892.44832843542,
+        "module_2_retrieval": 36.997340619564056,
+        "module_3_reasoning": 52382.39403069019,
+        "module_4_response": 15979.297265410423,
+        "total_ms": 110291.1369651556
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

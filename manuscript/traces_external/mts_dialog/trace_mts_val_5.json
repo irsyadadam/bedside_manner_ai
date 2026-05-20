@@ -1,0 +1,204 @@
+{
+  "transcript_id": "mts_val_5",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "32 weeks gestation to a G4 mother and weighed 4#11oz",
+  "patient_utterances": [
+    "[Clinician asked: \"How is his birth history? Was he born normal? Or was there any abnormality?\"] He was born at thirty two weeks. He was my fourth pregnancy, and he was around four pounds and eleven ounces.",
+    "[Clinician asked: \"Was he placed in an incubator?\"] Yes, he was there for three weeks. He had jaundice but they didn't give any treatment for it."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "HPI": "32 weeks gestation to a G4 mother and weighed 4#11oz. He was placed in an incubator for 3 weeks. He was jaundiced, but there was no report that he required treatment."
+  },
+  "n_patient_turns": 2,
+  "n_clinician_turns": 2,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 16529.276348650455,
+      "response_text": "Thank you for sharing that information. It sounds like your child experienced a challenging start, especially being born early at 32 weeks. I can understand how stressful that might have been, especially during your fourth pregnancy. It's good to hear that your child is doing well now. The jaundice in the incubator\u2014I wonder how that was managed without treatment. Did it resolve on its own, or were there any concerns about it? If you have any questions or concerns about that time or your child's health now, please feel free to ask. I'm here to help.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 23956.277459859848,
+      "response_text": "Thank you for sharing those details about your child's birth. It makes sense that you might feel concerned, especially after a preterm birth and experiencing jaundice. I can understand how this might weigh on your mind, and I appreciate your openness in discussing it.\n\nBeing born at 32 weeks is considered preterm, and while many preterm infants go on to thrive, they do face some increased risks, such as developmental delays or health issues later on [PMID ?]. Jaundice is quite common in newborns, particularly preterm babies, and often resolves without treatment. However, it's important to monitor it to ensure it doesn't lead to more serious issues like brain damage, which is rare but possible [PMID ?].\n\nWe'll keep a close eye on your child's growth and development at their check-ups. It's a good idea to schedule regular follow-ups to monitor any potential issues early on. In the meantime, if you have any concerns, please don't hesitate to reach out.\n\nBefore we wrap up, could you summarize what you feel we've discussed today? This will help ensure you're clear on the plan and any next steps. Let's plan to check in again in about six weeks to see how everything is progressing.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 5964.582487940788,
+      "response_text": "Thank you for sharing your concerns with me today.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 4 weeks. In the meantime, if you get new symptoms, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns with me today.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 4 weeks. In the meantime, if you get new symptoms, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 23549.06014353037,
+      "response_text": "I understand that you're concerned about the jaundice your son experienced without treatment. It's important to explore this further to ensure everything is addressed properly.\n\nJaundice in a newborn, especially without treatment, can sometimes indicate underlying conditions that need attention. It's important to monitor and assess this to rule out any serious issues.\n\nGiven the concern about jaundice without treatment, we'll schedule a follow-up to review his medical history and current status in detail.\n\nCan you summarize what we discussed regarding the next steps for your son's jaundice?\n\nLet's plan to review his case again in one week. If you notice any new symptoms or changes, please reach out as soon as possible.",
+      "structured_response": {
+        "acknowledgment": "I understand that you're concerned about the jaundice your son experienced without treatment. It's important to explore this further to ensure everything is addressed properly.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "jaundice",
+            "profile_path": "problems[0]",
+            "explanation": "Jaundice in a newborn, especially without treatment, can sometimes indicate underlying conditions that need attention. It's important to monitor and assess this to rule out any serious issues.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "Given the concern about jaundice without treatment, we'll schedule a follow-up to review his medical history and current status in detail."
+        ],
+        "teach_back_prompt": "Can you summarize what we discussed regarding the next steps for your son's jaundice?",
+        "follow_up_invitation": "Let's plan to review his case again in one week. If you notice any new symptoms or changes, please reach out as soon as possible.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 1,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "jaundice"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 63368.387676775455,
+      "response_text": "Thank you for sharing your concerns about your baby's jaundice during their stay in the incubator. It's important to monitor this carefully.\n\nJaundice in preterm infants is common and usually managed without specific treatment. However, it's important to monitor it closely. Studies suggest that nurse-led care can be effective for managing such conditions.\n\nWe'll monitor the jaundice closely and ensure appropriate follow-up care.\n\nIf there are any changes or concerns, please reach out.\n\nCan you summarize what we discussed regarding your baby's jaundice and the next steps?\n\nLet's schedule a follow-up in two weeks to review the progress. If you notice any worsening symptoms, please contact us sooner.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns about your baby's jaundice during their stay in the incubator. It's important to monitor this carefully.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "jaundice",
+            "profile_path": "problems[0]",
+            "explanation": "Jaundice in preterm infants is common and usually managed without specific treatment. However, it's important to monitor it closely. Studies suggest that nurse-led care can be effective for managing such conditions.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[0]::36758017_0",
+                "primary_assertion_id": "36758017_0",
+                "pmids": [
+                  "36758017"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll monitor the jaundice closely and ensure appropriate follow-up care.",
+          "If there are any changes or concerns, please reach out."
+        ],
+        "teach_back_prompt": "Can you summarize what we discussed regarding your baby's jaundice and the next steps?",
+        "follow_up_invitation": "Let's schedule a follow-up in two weeks to review the progress. If you notice any worsening symptoms, please contact us sooner.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[0]::36758017_0"
+        ],
+        "all_pmids_used": [
+          "36758017"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "jaundice"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "36758017"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[0]::36758017_0"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 12112.235456705093,
+        "module_2_retrieval": 43.38847100734711,
+        "module_3_reasoning": 36805.63811212778,
+        "module_4_response": 14405.198104679585,
+        "total_ms": 63366.460144519806
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

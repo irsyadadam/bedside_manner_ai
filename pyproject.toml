@@ -33,6 +33,14 @@ dependencies = [
     "matplotlib>=3.8",
     "seaborn>=0.13",
     "textstat>=0.7",
+    # Phase 13 external-dataset evaluation: ROUGE-L + BERTScore for
+    # response-vs-gold comparison on ACI-Bench. rouge_score is pure
+    # Python; bert_score reuses our torch+transformers stack so no
+    # extra heavyweight install.
+    "rouge_score>=0.1.2",
+    "bert_score>=0.3.13",
+    # Lightweight CSV / TSV / parquet reads for external datasets.
+    "pandas>=2.0",
 ]
 
 [build-system]

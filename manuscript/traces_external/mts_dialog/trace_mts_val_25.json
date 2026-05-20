@@ -1,0 +1,215 @@
+{
+  "transcript_id": "mts_val_25",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "The patient is keeping a food journal that she brought in",
+  "patient_utterances": [
+    "[Clinician asked: \"Are you keeping up with your food journal?\"] Yes, and I have it with me today.",
+    "[Clinician asked: \"Good, and you're using calorie points, correct?\"] Yes, I range from twenty six to thirty.",
+    "[Clinician asked: \"Good, are you exercising regularly?\"] Yes, I am. I'm also going to Overeaters Anonymous.",
+    "[Clinician asked: \"How is that going?\"] Good, my sponsor is helping me, and told me to think about snacks that can help with my high blood sugar. That was what we talked about last.",
+    "[Clinician asked: \"Good, all of that is good to hear.\"] I'm feeling a lot better, and I've lost weight, but do you have any information on diabetic exchanges, doctor?"
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "HPI": "The patient is keeping a food journal that she brought in.  She is counting calorie points, which ranged 26 to 30 per day.  She is exercising pretty regularly.  She attends Overeaters Anonymous and her sponsor is helping her and told her to get some ideas on how to plan snacks to prevent hypoglycemia.  The patient requests information on diabetic exchanges.  She said she is feeling better since she has lost weight."
+  },
+  "n_patient_turns": 5,
+  "n_clinician_turns": 5,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 18054.005429148674,
+      "response_text": "It sounds like you're doing an amazing job with your health journey so far! It's wonderful to hear that you're feeling better and have lost weight. Keep up the great work with the food journal, exercise, and Overeaters Anonymous\u2014it\u2019s clear you\u2019re committed to making positive changes.\n\nRegarding diabetic exchanges, you're right that they can be a helpful tool for managing blood sugar. Each exchange represents about 15 grams of carbohydrates, and they\u2019re categorized into groups like starches, fruits, and milk. For example, one exchange could be a small apple or a slice of bread. Tracking these can help you make balanced choices throughout the day. If you'd like, I can provide more specific examples or resources to help you get started. In the meantime, your sponsor\u2019s advice about snacks for blood sugar management is a great resource\u2014don\u2019t hesitate to ask them for more guidance. Let me know if you\u2019d like anything else!",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 21701.5527933836,
+      "response_text": "I'm really proud of the progress you've made so far. It's clear you've put a lot of effort into tracking your food, staying active, and getting support through Overeaters Anonymous. Feeling better and losing weight are tremendous achievements, and it's great that you're working with your sponsor on managing your blood sugar.\n\nRegarding your question about diabetic exchanges, these are a helpful way to manage carbohydrate intake. The American Diabetes Association recommends focusing on balanced meals with appropriate carbohydrate portions, which can be adjusted based on your needs [PMID ?]. We can review your food journal together to ensure you're getting the right balance of nutrients and that your snack choices align with your blood sugar goals.\n\nLet's plan to check in again in two weeks to see how you're doing and make any necessary adjustments. Before we finish, could you summarize what we discussed today about diabetic exchanges? This will help ensure you understand how to apply this information to your meal planning.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7430.1814287900925,
+      "response_text": "It sounds like you're doing a lot to manage your health, including keeping up with your food journal, exercising regularly, and attending Overeaters Anonymous. You mentioned feeling a lot better and losing weight, which is great to hear.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again soon. In the meantime, if you have any questions or concerns, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're doing a lot to manage your health, including keeping up with your food journal, exercising regularly, and attending Overeaters Anonymous. You mentioned feeling a lot better and losing weight, which is great to hear.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again soon. In the meantime, if you have any questions or concerns, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 38352.56686061621,
+      "response_text": "I can hear how relieved you are about feeling better \u2014 you said, \"I'm feeling a lot better.\" That's great to hear.\n\nIt's good that you're feeling better, but we should still keep an eye on your blood sugar levels. Managing high blood sugar often involves a combination of diet, exercise, and sometimes medication.\n\nUnderstanding diabetic exchanges can help you make healthier choices. This involves learning about how different foods affect your blood sugar and finding a balance that works for you.\n\nWe'll continue to monitor your blood sugar levels and adjust your management plan as needed.\n\nWe'll provide you with resources and information on diabetic exchanges to help you make informed food choices.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to check in again in a few weeks. If you have any concerns or questions in the meantime, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "I can hear how relieved you are about feeling better \u2014 you said, \"I'm feeling a lot better.\" That's great to hear.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "high blood sugar",
+            "profile_path": "problems[0]",
+            "explanation": "It's good that you're feeling better, but we should still keep an eye on your blood sugar levels. Managing high blood sugar often involves a combination of diet, exercise, and sometimes medication.",
+            "citations": []
+          },
+          {
+            "concern_label": "information on diabetic exchanges",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Understanding diabetic exchanges can help you make healthier choices. This involves learning about how different foods affect your blood sugar and finding a balance that works for you.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll continue to monitor your blood sugar levels and adjust your management plan as needed.",
+          "We'll provide you with resources and information on diabetic exchanges to help you make informed food choices."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to check in again in a few weeks. If you have any concerns or questions in the meantime, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 1,
+        "problems": [
+          "high blood sugar"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 97188.49124759436,
+      "response_text": "I can see you're feeling a lot better, as you mentioned, 'I'm feeling a lot better.' That's great to hear.\n\nIt's good to hear you're feeling better. However, it's important to understand the factors that might be influencing your blood sugar levels. Since we don't have specific details about your onset, severity, or timing, we'll focus on the information we do have to guide our next steps.\n\nUnderstanding diabetic exchanges is key to managing your blood sugar. We'll provide you with resources to help you learn more about this and tailor the information to your specific needs.\n\nWe'll work together to better understand your high blood sugar and how to manage it. This includes reviewing your current symptoms and treatment plan.\n\nI'll provide you with educational materials on diabetic exchanges to help you achieve your goal of understanding this better.\n\nPlease let me know if you have any questions or concerns in the meantime, and we'll schedule a follow-up to review your progress.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to review your progress in our next appointment. In the meantime, if you have any questions or if your symptoms change, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "I can see you're feeling a lot better, as you mentioned, 'I'm feeling a lot better.' That's great to hear.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "high blood sugar",
+            "profile_path": "problems[0]",
+            "explanation": "It's good to hear you're feeling better. However, it's important to understand the factors that might be influencing your blood sugar levels. Since we don't have specific details about your onset, severity, or timing, we'll focus on the information we do have to guide our next steps.",
+            "citations": []
+          },
+          {
+            "concern_label": "information on diabetic exchanges",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Understanding diabetic exchanges is key to managing your blood sugar. We'll provide you with resources to help you learn more about this and tailor the information to your specific needs.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll work together to better understand your high blood sugar and how to manage it. This includes reviewing your current symptoms and treatment plan.",
+          "I'll provide you with educational materials on diabetic exchanges to help you achieve your goal of understanding this better.",
+          "Please let me know if you have any questions or concerns in the meantime, and we'll schedule a follow-up to review your progress."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to review your progress in our next appointment. In the meantime, if you have any questions or if your symptoms change, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 1,
+        "problems": [
+          "high blood sugar"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 23026.297837495804,
+        "module_2_retrieval": 69.94953751564026,
+        "module_3_reasoning": 55360.2724596858,
+        "module_4_response": 18729.877710342407,
+        "total_ms": 97186.39754503965
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

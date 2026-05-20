@@ -1,0 +1,165 @@
+{
+  "transcript_id": "mts_test_1_133",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "No history of any smoking, alcohol or drug abuse",
+  "patient_utterances": [
+    "[Clinician asked: \"Do you have a history of alcohol or drug abuse?\"] I have had a drink on special occasions, but I don't drink. And I have never ever done drugs.",
+    "[Clinician asked: \"Okay. Do you smoke or have you ever in the past?\"] No!"
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "FAM_SOCHX": "No history of any smoking, alcohol or drug abuse."
+  },
+  "n_patient_turns": 2,
+  "n_clinician_turns": 3,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 10301.26915127039,
+      "response_text": "Thank you for being open and honest with me. It's great to hear that you don't smoke, as that significantly lowers your risk for several health issues. Your approach to drinking and drug use is also commendable, and it's positive that you're making healthy choices. Keep up the good work, and feel free to reach out if you ever need support or have any questions.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 15005.497939884663,
+      "response_text": "Thanks for being so open and honest with me\u2014it takes a lot of courage to talk about these topics, and I really appreciate your candor. It\u2019s completely understandable to feel uneasy discussing personal habits, but your honesty is incredibly helpful for us to get a clear picture of your health.\n\nGiven your answers, I want to reassure you that this information is crucial for us to understand any potential health concerns and to tailor our approach to your care. For example, knowing that you don\u2019t smoke and haven\u2019t used drugs helps us focus on other aspects of your health, like your diet, exercise habits, and any other symptoms you might be experiencing [PMID ?].\n\nWe\u2019ll plan to follow up in 2-4 weeks to check in on how you\u2019re feeling and to ensure we\u2019re on the right track. Before you leave, could you summarize what we\u2019ve discussed today in your own words? That way, I can make sure everything makes sense to you.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6574.978165328503,
+      "response_text": "Thank you for sharing your health history with me. It\u2019s clear you\u2019re committed to being honest and open about your habits, which is important for your care.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 4 weeks. In the meantime, if you have any new concerns or questions, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your health history with me. It\u2019s clear you\u2019re committed to being honest and open about your habits, which is important for your care.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 4 weeks. In the meantime, if you have any new concerns or questions, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 11866.940923035145,
+      "response_text": "Thank you for reaching out. It seems like you're here to discuss some important topics, and I'm ready to help.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. If anything changes or if you have new concerns in the meantime, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "Thank you for reaching out. It seems like you're here to discuss some important topics, and I'm ready to help.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. If anything changes or if you have new concerns in the meantime, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 0,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 60002.77453660965,
+      "response_text": "It sounds like you're here to address some concerns, and I'm ready to help. Let's go through what's on your mind step by step.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if anything changes or if you have new questions, please reach out.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're here to address some concerns, and I'm ready to help. Let's go through what's on your mind step by step.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if anything changes or if you have new questions, please reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 0,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 5332.367867231369,
+        "module_2_retrieval": 45.37405073642731,
+        "module_3_reasoning": 46872.091099619865,
+        "module_4_response": 7751.310482621193,
+        "total_ms": 60001.143500208855
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

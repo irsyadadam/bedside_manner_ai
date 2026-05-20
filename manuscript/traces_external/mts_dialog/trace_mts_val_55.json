@@ -1,0 +1,247 @@
+{
+  "transcript_id": "mts_val_55",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "Daily headaches for 6 months in a 57-year-old",
+  "patient_utterances": [
+    "[Clinician asked: \"How are you today?\"] I am doing okay.",
+    "[Clinician asked: \"Just to confirm, you are fifty seven years old?\"] Yes.",
+    "[Clinician asked: \"What brings you to see me today?\"] I have been having these headaches every day for the last six months.",
+    "[Clinician asked: \"That is a long time. I am sorry that you have been experiencing that.\"] Well, I am hoping you can make them stop."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "HPI": "Daily headaches for 6 months in a 57-year-old."
+  },
+  "n_patient_turns": 4,
+  "n_clinician_turns": 5,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 11716.82771295309,
+      "response_text": "I'm really sorry to hear you've been dealing with daily headaches for so long. It sounds like this has been taking a toll on you, and I understand how frustrating and worrying that must be. I want to thank you for sharing your concerns with me\u2014I\u2019m here to help figure out what\u2019s going on and find some relief for you.\n\nTo get a better understanding, I\u2019ll need to ask a few questions and maybe run some tests. It\u2019s important we work together to find the right approach to help ease your symptoms. Let\u2019s take this step by step, and remember, we\u2019re in this together.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 17001.02262943983,
+      "response_text": "Thank you for sharing how you're feeling. It makes sense that you're concerned about having headaches every day for six months\u2014it sounds exhausting and frustrating, and I can understand why you're hoping for some relief.\n\nGiven how long this has been going on, we should explore some possible causes together. Headaches that persist daily could be due to tension headaches, migraines, or even secondary issues like dehydration, stress, or underlying conditions [PMID ?]. I want to make sure we're considering all possibilities and finding the right approach for you.\n\nWe'll start by reviewing your symptoms in more detail and may consider some tests, like an MRI if needed, to rule out any serious causes [PMID ?]. In the meantime, I'll help you explore ways to manage the pain and identify any triggers. Let's plan to check in in a few weeks to see how you're doing and adjust our approach as needed.\n\nBefore you leave, could you summarize what we've discussed so far? That way, I can ensure I've explained everything clearly and you feel comfortable with the next steps.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7032.9504981637,
+      "response_text": "I understand you've been having headaches every day for the last six months, and you're hoping to find some relief.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 4 weeks. In the meantime, if you get new symptoms like severe pain or your headaches get much worse, please call us right away \u2014 don't wait for the appointment.",
+      "structured_response": {
+        "acknowledgment": "I understand you've been having headaches every day for the last six months, and you're hoping to find some relief.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 4 weeks. In the meantime, if you get new symptoms like severe pain or your headaches get much worse, please call us right away \u2014 don't wait for the appointment.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 36538.74542564154,
+      "response_text": "I can hear how frustrating this must be for you. You mentioned, \"Well, I am hoping you can make them stop,\" and I understand how important it is to find relief.\n\nHeadaches that happen every day can be tough to deal with. We'll look into possible causes and work on a plan to help ease your symptoms.\n\nOur goal is to find ways to make your headaches stop. We'll explore different approaches together to find what works best for you.\n\nWe'll start by gathering more information about your headaches, like how often they happen and any patterns you notice.\n\nWe'll also check if there are any underlying issues that could be causing your headaches.\n\nOnce we have a better understanding, we'll work together on a plan to help reduce or eliminate your headaches.\n\nI want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to follow up in a week to review the progress and adjust the plan as needed. In the meantime, keep track of your headaches and let me know if anything changes.",
+      "structured_response": {
+        "acknowledgment": "I can hear how frustrating this must be for you. You mentioned, \"Well, I am hoping you can make them stop,\" and I understand how important it is to find relief.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "daily headaches",
+            "profile_path": "problems[0]",
+            "explanation": "Headaches that happen every day can be tough to deal with. We'll look into possible causes and work on a plan to help ease your symptoms.",
+            "citations": []
+          },
+          {
+            "concern_label": "make headaches stop",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Our goal is to find ways to make your headaches stop. We'll explore different approaches together to find what works best for you.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll start by gathering more information about your headaches, like how often they happen and any patterns you notice.",
+          "We'll also check if there are any underlying issues that could be causing your headaches.",
+          "Once we have a better understanding, we'll work together on a plan to help reduce or eliminate your headaches."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to follow up in a week to review the progress and adjust the plan as needed. In the meantime, keep track of your headaches and let me know if anything changes.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 1,
+        "problems": [
+          "daily headaches"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 90559.09591913223,
+      "response_text": "I can understand how frustrating this must be \u2014 you mentioned, \"Well, I am hoping you can make them stop,\" and I hear how important it is for you to find relief.\n\nHeadaches that happen every day can be tricky, and it's important to figure out what's causing them. We'll start by looking at how often they occur and any other symptoms you might be experiencing to help pinpoint the cause.\n\nTo help make your headaches stop, we'll work together to identify what's causing them and explore treatment options that can provide relief.\n\nWe'll start by tracking your headaches to understand their pattern better.\n\nWe'll discuss any medications you've tried or are currently using.\n\nWe'll explore additional treatment options together based on what we find.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to check in again in two weeks. If your headaches get worse or you notice any new symptoms, please reach out sooner.",
+      "structured_response": {
+        "acknowledgment": "I can understand how frustrating this must be \u2014 you mentioned, \"Well, I am hoping you can make them stop,\" and I hear how important it is for you to find relief.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "daily headaches",
+            "profile_path": "problems[0]",
+            "explanation": "Headaches that happen every day can be tricky, and it's important to figure out what's causing them. We'll start by looking at how often they occur and any other symptoms you might be experiencing to help pinpoint the cause.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[2]::39366124_0",
+                "primary_assertion_id": "39366124_0",
+                "pmids": [
+                  "39366124"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "make headaches stop",
+            "profile_path": "patient_goals[0]",
+            "explanation": "To help make your headaches stop, we'll work together to identify what's causing them and explore treatment options that can provide relief.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[2]::40155879_0",
+                "primary_assertion_id": "40155879_0",
+                "pmids": [
+                  "40155879"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll start by tracking your headaches to understand their pattern better.",
+          "We'll discuss any medications you've tried or are currently using.",
+          "We'll explore additional treatment options together based on what we find."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to check in again in two weeks. If your headaches get worse or you notice any new symptoms, please reach out sooner.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[2]::39366124_0",
+          "finding::sub_query[2]::40155879_0"
+        ],
+        "all_pmids_used": [
+          "39366124",
+          "40155879"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 1,
+        "problems": [
+          "daily headaches"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "39366124",
+        "40155879"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[2]::39366124_0",
+        "finding::sub_query[2]::40155879_0"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 20674.039632081985,
+        "module_2_retrieval": 74.36265796422958,
+        "module_3_reasoning": 46963.44028413296,
+        "module_4_response": 22845.449045300484,
+        "total_ms": 90557.29161947966
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

@@ -1,0 +1,235 @@
+{
+  "transcript_id": "mts_test_1_38",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "This is a 36-year-old white female who presents to the office today with a complaint of left knee pain",
+  "patient_utterances": [
+    "[Clinician asked: \"Good morning, ma'am. Did you have a good thirty-sixth birthday?\"] Yes, thank you. It was a nice day, despite the knee pain.",
+    "[Clinician asked: \"That's good, we'll get back to that knee in a moment. Just to confirm, you identify as white, correct?\"] Yes, I do.",
+    "[Clinician asked: \"Thank you. I just needed to make sure my chart was correct. So, is this left knee still bothering you?\"] Yes, unfortunately, it still is.",
+    "[Clinician asked: \"You've had three Synvisc injections, correct? When was your last one?\"] Yes, that was about five days ago, right before my birthday.",
+    "[Clinician asked: \"Did that provide any relief at all?\"] Well, I'd say there's been, um, thirty-five or forty percent improvement.",
+    "[Clinician asked: \"Are you still having the pinching pain?\"] Yes, it's so bad when I try to put my full weight onto this knee.",
+    "[Clinician asked: \"Can you bend this knee at all?\"] Ow, no, please stop. I can't handle that bending, doctor.",
+    "[Clinician asked: \"Can you straighten the knee out for me, please?\"] No, not all the way, look.",
+    "[Clinician asked: \"Yes, that's not out all the way.\"] It hurts really bad, doctor.",
+    "[Clinician asked: \"With ten being the worst pain ever, how would you rate your pain today out of ten?\"] Oh, it's easily a ten out of ten.",
+    "[Clinician asked: \"Have you used ice or heat?\"] Yes, I use both. I alternate the two.",
+    "[Clinician asked: \"What medicines are you taking?\"] I'm using that Tylenol with codeine you gave me and then some ibuprofen I got from the grocery store.",
+    "[Clinician asked: \"Have those helped at all?\"] I'd say they helped pretty minimally."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "HPI": "This is a 36-year-old white female who presents to the office today with a complaint of left knee pain.  She is approximately five days after a third Synvisc injection.  She states that the knee is 35% to 40 % better, but continues to have a constant pinching pain when she full weight bears, cannot handle having her knee in flexion, has decreased range of motion with extension.  Rates her pain in her knee as a 10/10.  She does alternate ice and heat.  She is using Tylenol No. 3 p.r.n. and ibuprofen OTC p.r.n. with minimal relief."
+  },
+  "n_patient_turns": 13,
+  "n_clinician_turns": 13,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 18934.9175542593,
+      "response_text": "I'm really sorry to hear about the ongoing pain you're experiencing with your knee, especially after the Synvisc injections. It sounds like this has been a challenging situation, and I can tell you're feeling frustrated and uncomfortable. Your pain is valid, and I want to make sure we get to the bottom of this.\n\nGiven the severity of your pain and the limited improvement you've noticed, it might be helpful to explore further evaluation, such as imaging like an MRI, to check for any complications or other issues that could be contributing to your symptoms. We should also consider whether there might be an infection or another underlying problem. In the meantime, I recommend continuing to rest and avoid activities that worsen your pain. We can also discuss other treatment options, including possibly referring you to an orthopedic specialist for further evaluation. I'm here to help, and we'll work together to find a solution. Please let me know if you have any questions or concerns.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 20287.409886717796,
+      "response_text": "Thank you for sharing all of this with me. It sounds like you're in a lot of discomfort, and I can understand how frustrating it must be that the treatments you've tried haven't provided more relief. Dealing with constant pain and limited mobility can really take a toll, and it's clear you're trying hard to manage this.\n\nGiven how severe your pain is and the limited improvement from the Synvisc injections, we should consider further evaluation. I think imaging, like an MRI, could help us see if there's something else going on, such as cartilage damage or other structural issues [PMID ?]. We might also explore other treatment options, like physical therapy or possibly consulting with an orthopedic specialist. It's important to address this to help you get back to your daily activities without such pain.\n\nWe'll plan to get the necessary imaging done within the next week and review the results together. In the meantime, I'll prescribe a short course of stronger pain medication to help manage the discomfort. Before you leave, could you summarize what we've discussed so far? That way, I can ensure you understand the next steps and that we're on the same page. Let me know if you have any questions or concerns in the meantime.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6729.553088545799,
+      "response_text": "Thank you for sharing your concerns about your knee pain. It sounds like this is something you're dealing with daily, and I'm here to help.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a moment. In the meantime, if your knee pain gets worse or you experience any new symptoms, please let us know right away.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns about your knee pain. It sounds like this is something you're dealing with daily, and I'm here to help.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a moment. In the meantime, if your knee pain gets worse or you experience any new symptoms, please let us know right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 105067.65704602003,
+      "response_text": "It sounds like your knee pain is really getting to you, especially since it's at a 10/10 severity. I want to make sure I understand how this is affecting your daily life.\n\nGiven the severity of your knee pain and the interventions you've already tried, it's important to consider further evaluation. While the structured context doesn't provide specific guidelines for this exact situation, we'll work together to explore additional options.\n\nWe'll schedule a follow-up to discuss further evaluation options for your knee pain.\n\nCan you tell me, in your own words, what we discussed today and what we'll do next?\n\nLet's plan to see each other again soon to review the results of any tests we order. In the meantime, if your pain worsens or you experience any new symptoms, please reach out.",
+      "structured_response": {
+        "acknowledgment": "It sounds like your knee pain is really getting to you, especially since it's at a 10/10 severity. I want to make sure I understand how this is affecting your daily life.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "knee pain",
+            "profile_path": "problems[0]",
+            "explanation": "Given the severity of your knee pain and the interventions you've already tried, it's important to consider further evaluation. While the structured context doesn't provide specific guidelines for this exact situation, we'll work together to explore additional options.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll schedule a follow-up to discuss further evaluation options for your knee pain."
+        ],
+        "teach_back_prompt": "Can you tell me, in your own words, what we discussed today and what we'll do next?",
+        "follow_up_invitation": "Let's plan to see each other again soon to review the results of any tests we order. In the meantime, if your pain worsens or you experience any new symptoms, please reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 2,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "knee pain"
+        ],
+        "medications": [
+          "Tylenol with codeine",
+          "ibuprofen"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 167927.82252281904,
+      "response_text": "I can hear how much your knee pain is affecting you \u2014 you said, \"It hurts really bad, doctor.\" That makes sense why you're here seeking help.\n\nResearch shows that exercise can help ease knee pain and improve movement. Even though it might be hard to start, moving your knee gently can make a difference over time.\n\nLet's work together to create a simple exercise plan that you can start doing at home. I'll show you some gentle movements that can help reduce your knee pain over time.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to check in again in 2 weeks. In the meantime, if your pain gets worse or you experience any new symptoms, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much your knee pain is affecting you \u2014 you said, \"It hurts really bad, doctor.\" That makes sense why you're here seeking help.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "knee pain",
+            "profile_path": "problems[0]",
+            "explanation": "Research shows that exercise can help ease knee pain and improve movement. Even though it might be hard to start, moving your knee gently can make a difference over time.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::problems[0]::29664187_7",
+                "primary_assertion_id": "29664187_7",
+                "pmids": [
+                  "29664187"
+                ]
+              },
+              {
+                "cluster_id": "finding::problems[0]::29664187_0",
+                "primary_assertion_id": "29664187_0",
+                "pmids": [
+                  "29664187"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "Let's work together to create a simple exercise plan that you can start doing at home. I'll show you some gentle movements that can help reduce your knee pain over time."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to check in again in 2 weeks. In the meantime, if your pain gets worse or you experience any new symptoms, please call us right away.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "recommendation::problems[0]::29664187_7",
+          "finding::problems[0]::29664187_0"
+        ],
+        "all_pmids_used": [
+          "29664187"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 2,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 0,
+        "problems": [
+          "knee pain"
+        ],
+        "medications": [
+          "Tylenol with codeine",
+          "ibuprofen"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [
+        "29664187"
+      ],
+      "cluster_ids_used": [
+        "recommendation::problems[0]::29664187_7",
+        "finding::problems[0]::29664187_0"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 93408.7649807334,
+        "module_2_retrieval": 57.13013559579849,
+        "module_3_reasoning": 55584.55628156662,
+        "module_4_response": 18875.677555799484,
+        "total_ms": 167926.1289536953
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

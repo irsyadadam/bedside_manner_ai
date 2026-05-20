@@ -1,0 +1,315 @@
+{
+  "transcript_id": "aci_virtassist_D2N168",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "i'm doing okay , how are you ?",
+  "patient_utterances": [
+    "[Clinician asked: \"hi diane , how are you ?\"] i'm doing okay , how are you ?",
+    "[Clinician asked: \"i'm doin' okay . so i know the nurse told you about dax and i'd like to tell dax a little bit about you okay ?\"] okay .",
+    "[Clinician asked: \"so diane what's going on ? i heard that your- your blood pressure was really high in the emergency room . what happened ?\"] yeah , so i ended up going for a walk , um , yesterday 'cause it was sunny and it was really great . and i just felt really light-headed , um , and i started to fall a bit , and , um , luckily i was with my boyfriend and he caught me , um , and then we went right to the e , to the er .",
+    "[Clinician asked: \"yeah , okay . yeah , i saw that the blood pressure was pretty high , like in , like , the , almost 200 .\"] yeah .",
+    "[Clinician asked: \"did you have a headache ?\"] yeah i did .",
+    "[Clinician asked: \"okay , all right . have your blood pressures been running high in the past ?\"] yeah , they have been . it's- it's , like , once a week , a month , it , kind of , just skyrockets .",
+    "[Clinician asked: \"okay .\"] um , it usually ends up , um , being , i'm traveling a lot that week for work , so i'm not eating as well , um-",
+    "[Clinician asked: \"you're not taking your blood pressures , i take it-\"] yeah .",
+    "[Clinician asked: \"when you're traveling ?\"] yeah , no , i do n't bring my cuff with me .",
+    "[Clinician asked: \"okay , but you did buy the cuff like we talked about in the past ?\"] yes i did .",
+    "[Clinician asked: \"okay , all right . and are you taking your medication , are you taking the lisinopril ?\"] yes i am .",
+    "[Clinician asked: \"okay , all right . um , so i think we had started you at a , kind of , a moderate dose , so we'll have to talk about that a little bit , okay ?\"] okay .",
+    "[Clinician asked: \"then in terms of your depression , how are you doing ? i know that we did n't start you on medication , since you're on a bunch of other medications . what- what are your strategies for dealing with that and how are you doing ?\"] so last year i started therapy and i've been going once a week and that's really helped .",
+    "[Clinician asked: \"okay , all right , great . and how is your support system ?\"] really great . my boyfriend , my mom , and my brother are- are s- , amazing and they're all super close to me , so it's been , it's been good .",
+    "[Clinician asked: \"okay , well great . so i know you did a review of system sheet when you checked in and i know that you had the headache and the lightheadedness yesterday . do you have any other symptoms at this time , chest pain , shortness of breath , anything like that ?\"] uh , i have a little bit of nasal congestion , but that's just from my seasonal allergies .",
+    "[Clinician asked: \"okay , all right . well i want to go ahead and do a quick physical exam , okay ?\"] okay .",
+    "[Clinician asked: \"so , yeah , looking at your blood pressure today here in the office , it does look a little elevated still , so we'll have to talk about that . so i'm just gon na listen to your heart and your lungs and we'll go from there okay ?\"] okay .",
+    "[Clinician asked: \"so on physical examination , i- i do n't appreciate any carotid bruits in your neck . your heart on your heart exam , it does show that you have a slight two out of six systolic ejection murmur . your , there , your lung exam shows nice clear lungs bilaterally and you do have some trace pitting edem\"] mm-hmm .",
+    "[Clinician asked: \"um , uh , let me just go ahead , i want to take a look at some of your results , okay ?\"] okay .",
+    "[Clinician asked: \"and this is just the echocardiogram from just a few months ago that just , you know , show that you have that slightly leaky heart valve , nothing to do for it , and that the heart murmur is stable , okay ?\"] okay .",
+    "[Clinician asked: \"so let's just talk a little bit about , you know , my assessment and my plan for you . so , for your first problem , your high blood pressure , it's not controlled at this time , so i want to go ahead and increase the lisinopril to 40 milligrams once a day . i want you to continue to check your bloo\"] okay .",
+    "[Clinician asked: \"and then for your second problem , uh , i want , you know , for your depression , i do n't think that we need to start you on any medication , it sounds like you're doing really well from that standpoint , but you know that you can contact me if you , if you need anything , okay ?\"] okay .",
+    "[Clinician asked: \"do you have any questions ?\"] no , not at this time .",
+    "[Clinician asked: \"okay , all right , well it's good to see you .\"] good seeing you too ."
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nEmergency room follow-up.\n\nHISTORY OF PRESENT ILLNESS\n\nMs. Diane Baker is a 28-year-old female with a past medical history significant for depression, and hypertension, who presents for emergency room follow-up.\n\nThe patient went for a walk yesterday and began to feel lightheaded. She started to fall, however she was with her boyfriend, who caught her. She presented to the emergency room after this. While in the emergency room, her blood pressure was nearly 200 and she had a headache.\n\nHer blood pressure is typically normal, however will become elevated approximately one week a month. She notes it is typically elevated because she is traveling a lot that week for work. While traveling, she is not eating as well and does not monitor her blood pressure. The patient is taking her lisinopril as prescribed.\n\nRegarding her depression, she states she is doing well. Last year she started therapy and she has been going once a week, which has helped. Her support system is great and includes her boyfriend, mom, and brother.\n\nThe patient notes she has a little bit of nasal congestion, which she attributes to her seasonal allergies. She denies chest pain and shortness of breath.\n\nREVIEW OF SYSTEMS\n\n\u2022 Ears, Nose, Mouth and Throat: Endorses nasal congestion from seasonal allergies.\n\u2022 Cardiovascular: Denies chest pain or dyspnea.\n\u2022 Respiratory: Denies shortness of breath.\n\u2022 Neurological: Endorses lightheadedness and a headache.\n\u2022 Psychiatric: Endorses depression.\n\nPHYSICAL EXAMINATION\n\n\u2022 Neck: No carotid bruits appreciable.\n\u2022 Respiratory: Lungs are clear to auscultation bilaterally. No wheezes, rales, or rhonchi.\n\u2022 Cardiovascular: Slight 2/6 systolic ejection murmur.\n\u2022 Musculoskeletal: Trace pitting edema in the bilateral lower extremities.\n\nVITALS REVIEWED\n\n\u2022 Blood Pressure: Elevated.\n\nRESULTS\n\nElectrocardiogram stable in comparison to last year.\n\nEchocardiogram demonstrates decreased ejection fraction. Stable heart murmur.\n\nASSESSMENT\n\nMs. Diane Baker is a 28-year-old female with a past medical history significant for depression, and hypertension, who presents for emergency room follow-up.\n\nPLAN\n\nHypertension.\n\u2022 Medical Reasoning: This is not controlled at this time. The patient presented to the emergency department yesterday with an elevated blood pressure, presyncope, and headache. She has been compliant with lisinopril, but her blood pressures have been spiking once a month based on home monitoring; however, she admits to not taking her blood pressures while traveling recently. A recent EKG revealed changes from her chronic high blood pressure.\n\u2022 Medical Treatment: Increase lisinopril to 40 mg once a day.\n\u2022 Patient Education and Counseling: She will continue to check her blood pressures and report them to me through the patient portal. We will have to make adjustments if necessary.\n\nDepression.\n\u2022 Medical Reasoning: The patient is doing well with weekly therapy.\n\u2022 Medical Treatment: Continue current management strategies. No medication to start at this time.\n\u2022 Patient Education and Counseling: She can contact me if she needs anything.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.",
+  "gold_sections": {
+    "CC": "Emergency room follow-up.",
+    "HPI": "Ms. Diane Baker is a 28-year-old female with a past medical history significant for depression, and hypertension, who presents for emergency room follow-up.\n\nThe patient went for a walk yesterday and began to feel lightheaded. She started to fall, however she was with her boyfriend, who caught her. She presented to the emergency room after this. While in the emergency room, her blood pressure was nearly 200 and she had a headache.\n\nHer blood pressure is typically normal, however will become elevated approximately one week a month. She notes it is typically elevated because she is traveling a lot that week for work. While traveling, she is not eating as well and does not monitor her blood pressure. The patient is taking her lisinopril as prescribed.\n\nRegarding her depression, she states she is doing well. Last year she started therapy and she has been going once a week, which has helped. Her support system is great and includes her boyfriend, mom, and brother.\n\nThe patient notes she has a little bit of nasal congestion, which she attributes to her seasonal allergies. She denies chest pain and shortness of breath.",
+    "ROS": "\u2022 Ears, Nose, Mouth and Throat: Endorses nasal congestion from seasonal allergies.\n\u2022 Cardiovascular: Denies chest pain or dyspnea.\n\u2022 Respiratory: Denies shortness of breath.\n\u2022 Neurological: Endorses lightheadedness and a headache.\n\u2022 Psychiatric: Endorses depression.",
+    "PHYSICAL_EXAMINATION": "\u2022 Neck: No carotid bruits appreciable.\n\u2022 Respiratory: Lungs are clear to auscultation bilaterally. No wheezes, rales, or rhonchi.\n\u2022 Cardiovascular: Slight 2/6 systolic ejection murmur.\n\u2022 Musculoskeletal: Trace pitting edema in the bilateral lower extremities.",
+    "VITALS_REVIEWED": "\u2022 Blood Pressure: Elevated.",
+    "RESULTS": "Electrocardiogram stable in comparison to last year.\n\nEchocardiogram demonstrates decreased ejection fraction. Stable heart murmur.",
+    "ASSESSMENT": "Ms. Diane Baker is a 28-year-old female with a past medical history significant for depression, and hypertension, who presents for emergency room follow-up.",
+    "PLAN": "Hypertension.\n\u2022 Medical Reasoning: This is not controlled at this time. The patient presented to the emergency department yesterday with an elevated blood pressure, presyncope, and headache. She has been compliant with lisinopril, but her blood pressures have been spiking once a month based on home monitoring; however, she admits to not taking her blood pressures while traveling recently. A recent EKG revealed changes from her chronic high blood pressure.\n\u2022 Medical Treatment: Increase lisinopril to 40 mg once a day.\n\u2022 Patient Education and Counseling: She will continue to check her blood pressures and report them to me through the patient portal. We will have to make adjustments if necessary.\n\nDepression.\n\u2022 Medical Reasoning: The patient is doing well with weekly therapy.\n\u2022 Medical Treatment: Continue current management strategies. No medication to start at this time.\n\u2022 Patient Education and Counseling: She can contact me if she needs anything.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan."
+  },
+  "n_patient_turns": 24,
+  "n_clinician_turns": 30,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 22911.411441862583,
+      "response_text": "I understand that managing your health can be challenging, especially with your busy work schedule. It's great that you're taking your medication as prescribed and that your therapy is helping you with your mental well-being. I know that keeping track of your blood pressure while traveling can be tough, but bringing your cuff along can make a big difference in monitoring your health. The increase in your lisinopril dosage should help bring your blood pressure under better control, so it's important to continue checking your levels regularly.\n\nYou're doing well with your support system and therapy, which are crucial for maintaining your mental health. Please don't hesitate to reach out if you have any concerns or need adjustments to your treatment. I'm here to support you in keeping your health on track. Take care and feel better soon.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 37629.77158278227,
+      "response_text": "Thank you for sharing your concerns with me, Diane. It sounds like you've been through a lot with your blood pressure and that recent fall must have been quite frightening. I can understand why you'd feel worried, especially after experiencing such high readings and the unsettling fall. It's clear you're putting in a lot of effort to manage your health, and I want to support you in keeping things under control.\n\nWe'll focus on getting your blood pressure under better control and preventing those episodes of dizziness and falls. I know you've been tracking your BP, even when traveling, which is great. However, it's important to bring that cuff along so you can monitor regularly. We'll adjust your lisinopril dosage to help bring your BP down more effectively and reduce those symptoms you've been experiencing.\n\nIn the next few weeks, I want to see how you're doing with the increased medication and your BP monitoring. We'll schedule a follow-up in about two to four weeks to check in on your progress. Before you leave, could you summarize what we've discussed today? That way, I can ensure everything is clear and you feel confident in the plan.\n\nPlease don't hesitate to reach out if you have any questions or concerns in the meantime. I'm here to help you stay on track and feel your best. Take care, Diane, and I'll look forward to our next visit.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7003.906026482582,
+      "response_text": "It sounds like you're doing your best to manage your health despite the challenges of traveling and work.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 4 weeks. In the meantime, if you experience any severe symptoms like chest pain or shortness of breath, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're doing your best to manage your health despite the challenges of traveling and work.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 4 weeks. In the meantime, if you experience any severe symptoms like chest pain or shortness of breath, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 322095.0995758176,
+      "response_text": "I understand you're experiencing several concerns, including dizziness, headaches, high blood pressure, depression, and nasal congestion. Let's address each of these to better understand what's going on.\n\nDizziness can be caused by various factors, and it's important to identify the underlying cause. We'll need to explore your symptoms further to determine the best approach.\n\nHeadaches can have many causes, and understanding the pattern and characteristics of your headaches will help us find the right solution.\n\nHigh blood pressure is a common condition that requires careful management. We'll monitor your readings and discuss treatment options if needed.\n\nIt's important to continue with your therapy and monitor your mood. We can adjust your treatment plan if necessary.\n\nSeasonal allergies can cause nasal congestion. We can suggest some over-the-counter remedies and see if they help.\n\nWe'll schedule some tests to get a better understanding of your dizziness and high blood pressure.\n\nPlease keep track of your headaches and let us know if they worsen or change in pattern.\n\nContinue with your therapy for depression and report any changes in your mood.\n\nTry using saline nasal sprays or antihistamines for your nasal congestion.\n\nWe'll follow up in two weeks to review your test results and adjust your treatment plan as needed.\n\nI want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in two weeks. In the meantime, if you experience severe dizziness, chest pain, or worsening headaches, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I understand you're experiencing several concerns, including dizziness, headaches, high blood pressure, depression, and nasal congestion. Let's address each of these to better understand what's going on.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "dizziness",
+            "profile_path": "problems[0]",
+            "explanation": "Dizziness can be caused by various factors, and it's important to identify the underlying cause. We'll need to explore your symptoms further to determine the best approach.",
+            "citations": []
+          },
+          {
+            "concern_label": "headache",
+            "profile_path": "problems[1]",
+            "explanation": "Headaches can have many causes, and understanding the pattern and characteristics of your headaches will help us find the right solution.",
+            "citations": []
+          },
+          {
+            "concern_label": "high blood pressure",
+            "profile_path": "problems[2]",
+            "explanation": "High blood pressure is a common condition that requires careful management. We'll monitor your readings and discuss treatment options if needed.",
+            "citations": []
+          },
+          {
+            "concern_label": "depression",
+            "profile_path": "problems[3]",
+            "explanation": "It's important to continue with your therapy and monitor your mood. We can adjust your treatment plan if necessary.",
+            "citations": []
+          },
+          {
+            "concern_label": "nasal congestion",
+            "profile_path": "problems[4]",
+            "explanation": "Seasonal allergies can cause nasal congestion. We can suggest some over-the-counter remedies and see if they help.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll schedule some tests to get a better understanding of your dizziness and high blood pressure.",
+          "Please keep track of your headaches and let us know if they worsen or change in pattern.",
+          "Continue with your therapy for depression and report any changes in your mood.",
+          "Try using saline nasal sprays or antihistamines for your nasal congestion.",
+          "We'll follow up in two weeks to review your test results and adjust your treatment plan as needed."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in two weeks. In the meantime, if you experience severe dizziness, chest pain, or worsening headaches, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 5,
+        "n_medications": 1,
+        "n_allergies": 0,
+        "n_red_flags": 1,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "dizziness",
+          "headache",
+          "high blood pressure",
+          "depression",
+          "nasal congestion"
+        ],
+        "medications": [
+          "Lisinopril"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 374466.31218492985,
+      "response_text": "I can hear how much this has been worrying you. You mentioned feeling relief that your boyfriend was there to catch you when you started to fall. That kind of situation must be really unsettling.\n\nDizziness can be serious, especially when it leads to falling. We need to figure out what's causing it. Given that you also experienced a near-fall, we should check for possible causes like low blood pressure or inner ear issues.\n\nHeadaches can be related to stress or other health issues. Since you're also dealing with dizziness, we'll keep an eye on how these symptoms might be connected.\n\nHigh blood pressure can sometimes cause dizziness. We'll monitor your blood pressure and see if it's contributing to your symptoms.\n\nIt's important to manage depression, especially since you're already in therapy. We'll check in on how that's going and see if it's affecting your other symptoms.\n\nNasal congestion can sometimes cause headaches and dizziness. We'll see if this is a contributing factor.\n\nGiven the near-fall, we should address the dizziness and fainting first. We'll order some tests to rule out common causes like low blood pressure or inner ear issues.\n\nWe'll monitor your blood pressure closely and adjust your Lisinopril if needed.\n\nWe'll schedule a follow-up visit in 2 weeks to review the test results and adjust your care plan.\n\nI want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 2 weeks. In the meantime, if you experience another episode of dizziness or any severe symptoms like chest pain or vision changes, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this has been worrying you. You mentioned feeling relief that your boyfriend was there to catch you when you started to fall. That kind of situation must be really unsettling.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "dizziness",
+            "profile_path": "problems[0]",
+            "explanation": "Dizziness can be serious, especially when it leads to falling. We need to figure out what's causing it. Given that you also experienced a near-fall, we should check for possible causes like low blood pressure or inner ear issues.",
+            "citations": []
+          },
+          {
+            "concern_label": "headache",
+            "profile_path": "problems[1]",
+            "explanation": "Headaches can be related to stress or other health issues. Since you're also dealing with dizziness, we'll keep an eye on how these symptoms might be connected.",
+            "citations": []
+          },
+          {
+            "concern_label": "high blood pressure",
+            "profile_path": "problems[2]",
+            "explanation": "High blood pressure can sometimes cause dizziness. We'll monitor your blood pressure and see if it's contributing to your symptoms.",
+            "citations": [
+              {
+                "cluster_id": "finding::problems[2]::38533994_0",
+                "primary_assertion_id": "38533994_0",
+                "pmids": [
+                  "38533994"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "depression",
+            "profile_path": "problems[3]",
+            "explanation": "It's important to manage depression, especially since you're already in therapy. We'll check in on how that's going and see if it's affecting your other symptoms.",
+            "citations": []
+          },
+          {
+            "concern_label": "nasal congestion",
+            "profile_path": "problems[4]",
+            "explanation": "Nasal congestion can sometimes cause headaches and dizziness. We'll see if this is a contributing factor.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "Given the near-fall, we should address the dizziness and fainting first. We'll order some tests to rule out common causes like low blood pressure or inner ear issues.",
+          "We'll monitor your blood pressure closely and adjust your Lisinopril if needed.",
+          "We'll schedule a follow-up visit in 2 weeks to review the test results and adjust your care plan."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 2 weeks. In the meantime, if you experience another episode of dizziness or any severe symptoms like chest pain or vision changes, please call us right away.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Demonstrate empathy",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::problems[2]::38533994_0"
+        ],
+        "all_pmids_used": [
+          "38533994"
+        ],
+        "glossary_substitutions": [
+          {
+            "field": "next_steps[0]",
+            "original": "syncope",
+            "plain": "fainting",
+            "count": 1
+          }
+        ]
+      },
+      "profile_summary": {
+        "n_problems": 5,
+        "n_medications": 1,
+        "n_allergies": 0,
+        "n_red_flags": 1,
+        "n_emotional": 1,
+        "n_goals": 0,
+        "problems": [
+          "dizziness",
+          "headache",
+          "high blood pressure",
+          "depression",
+          "nasal congestion"
+        ],
+        "medications": [
+          "Lisinopril"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [
+        "38533994"
+      ],
+      "cluster_ids_used": [
+        "finding::problems[2]::38533994_0"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Demonstrate empathy",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 301963.9507085085,
+        "module_2_retrieval": 1765.469752252102,
+        "module_3_reasoning": 42850.6818190217,
+        "module_4_response": 27884.824939072132,
+        "total_ms": 374464.9272188544
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

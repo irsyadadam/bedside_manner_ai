@@ -1,0 +1,165 @@
+{
+  "transcript_id": "mts_val_4",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "Confusion and hallucinations",
+  "patient_utterances": [
+    "[Clinician asked: \"Have you been experiencing any mental difficulties or confusion?\"] No. Doctor: Any hallucinations? Are you seeing hearing thing that is not real?",
+    "No."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "CC": "Confusion and hallucinations."
+  },
+  "n_patient_turns": 2,
+  "n_clinician_turns": 1,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 17853.114165365696,
+      "response_text": "Thank you for answering those questions. It's good to hear that you're not experiencing any mental difficulties or hallucinations. Let's talk about anything else that's on your mind or any other concerns you might have. I'm here to help with whatever you need.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 16112.222760915756,
+      "response_text": "Thank you for being so open and honest with me. It's clear that you're taking this seriously, and your answers are very helpful. It's understandable to feel concerned about these symptoms, and your clarity on this is reassuring. While your responses don't rule out all possibilities, they do help us focus on the most likely causes. We'll keep a close eye on these symptoms and review them again at your next visit. Could you summarize what we discussed today so I can ensure everything is clear? I'll check in with you again in two weeks.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6294.714108109474,
+      "response_text": "Thank you for coming in today. It sounds like you're here to discuss any concerns you might have.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 4 weeks. In the meantime, if you get new symptoms, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "Thank you for coming in today. It sounds like you're here to discuss any concerns you might have.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 4 weeks. In the meantime, if you get new symptoms, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 11930.666632950306,
+      "response_text": "Thank you for reaching out. It sounds like you're looking for some support and information regarding your health concerns.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if you have any new concerns or questions, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "Thank you for reaching out. It sounds like you're looking for some support and information regarding your health concerns.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if you have any new concerns or questions, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 0,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 57116.22566729784,
+      "response_text": "Thank you for reaching out. I understand you're looking for support with your current situation.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 4 weeks. In the meantime, if you have any new concerns or questions, please reach out.",
+      "structured_response": {
+        "acknowledgment": "Thank you for reaching out. I understand you're looking for support with your current situation.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 4 weeks. In the meantime, if you have any new concerns or questions, please reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 0,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 5607.440635561943,
+        "module_2_retrieval": 45.788928866386414,
+        "module_3_reasoning": 43808.17950516939,
+        "module_4_response": 7653.441525995731,
+        "total_ms": 57114.85059559345
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

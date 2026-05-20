@@ -1,0 +1,234 @@
+{
+  "transcript_id": "mts_test_1_107",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "This is a 56-year-old white male who has been complaining of having had a lump in the chest for the past year or so and it has been getting",
+  "patient_utterances": [
+    "[Clinician asked: \"Hi, I'm the doctor that'll be treating you today.\"] Hiya. Sounds good.",
+    "[Clinician asked: \"What's bringing you in?\"] A big ol lump in my chest.",
+    "[Clinician asked: \"How long since you first noticed it?\"] It's been there for at least a year.",
+    "[Clinician asked: \"Where on your chest?\"] On the left side.",
+    "[Clinician asked: \"Is it causing you pain?\"] Um kind of it. It's gotten a lot more tender, and it hurts when I take deep breaths.",
+    "[Clinician asked: \"Has it grown in size?\"] It has.",
+    "[Clinician asked: \"And just to confirm what is in your chart, can you confirm your age, race, and gender.\"] Sure, I am a 56-year-old white man."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "HPI": "This is a 56-year-old white male who has been complaining of having had a lump in the chest for the past year or so and it has been getting larger and tender according to the patient.  It is tender on palpation and also he feels like, when he takes a deep breath also, it hurts."
+  },
+  "n_patient_turns": 7,
+  "n_clinician_turns": 7,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 9603.177726268768,
+      "response_text": "I understand how concerning this must be for you. Finding a lump in your chest that's been there for over a year, especially with pain and growth, is something we need to take seriously. I'll start by doing a thorough physical exam and likely recommend imaging, such as an ultrasound or X-ray, to get a better look. Depending on the results, we might also consider a biopsy to determine what's causing the lump. We'll work together to figure this out and address any questions or concerns you have. Please know that we're here to support you through this process.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 20532.722987234592,
+      "response_text": "Thank you for sharing that with me. It sounds like you're feeling concerned about the lump in your chest, and I completely understand why. Having something like that for over a year, especially when it's getting bigger and causing pain, must be unsettling. I want to make sure we get to the bottom of this together.\n\nGiven that the lump has been there for a while and has grown, it\u2019s important we figure out what\u2019s going on. There are a few possibilities we should consider, such as infection, inflammation, or other conditions. I\u2019ll arrange for some imaging, like a chest X-ray or ultrasound, to get a better picture. Depending on the results, we might need to do a biopsy to check if it\u2019s something more serious. In the meantime, if you notice any new symptoms, like shortness of breath or unexplained weight loss, please let me know right away.\n\nWe\u2019ll plan to follow up in about a week to review the imaging results and discuss the next steps. Before you go, could you summarize what we\u2019ve agreed on today? That way, I can make sure everything is clear. I\u2019m here to answer any questions you have, and we\u2019ll work through this together.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7174.625031650066,
+      "response_text": "It sounds like you're concerned about a lump in your chest that's been there for at least a year, and it's become more tender and painful when you take deep breaths.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 4 weeks. In the meantime, if you get new symptoms like severe pain or the lump getting worse, please call us right away \u2014 don't wait for the appointment.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're concerned about a lump in your chest that's been there for at least a year, and it's become more tender and painful when you take deep breaths.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 4 weeks. In the meantime, if you get new symptoms like severe pain or the lump getting worse, please call us right away \u2014 don't wait for the appointment.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 63552.38915234804,
+      "response_text": "I understand you're concerned about this lump in your chest that's been there for at least a year and has grown in size, causing tenderness and pain when you take deep breaths. This sounds serious, and I want to make sure we address it properly.\n\nA lump in the chest that's been present for a year, especially one that's grown, is tender, and causes pain when you breathe deeply, needs to be evaluated carefully. Research shows that while many lumps aren't serious, some can be signs of more serious conditions like cancer. Given the duration and symptoms, it's important to get this checked out to rule out serious causes.\n\nGiven the red flag of a new lump, we'll prioritize evaluating this first. We'll schedule an imaging study to get a better look at the lump and determine the next steps for diagnosis.\n\nWe'll also review any additional symptoms or changes since the lump appeared to guide further testing.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to follow up in a week to review the results of the imaging study. In the meantime, if the lump changes in size, if you develop new symptoms like shortness of breath or unexplained weight loss, or if the pain worsens, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I understand you're concerned about this lump in your chest that's been there for at least a year and has grown in size, causing tenderness and pain when you take deep breaths. This sounds serious, and I want to make sure we address it properly.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "big ol lump in my chest",
+            "profile_path": "problems[0]",
+            "explanation": "A lump in the chest that's been present for a year, especially one that's grown, is tender, and causes pain when you breathe deeply, needs to be evaluated carefully. Research shows that while many lumps aren't serious, some can be signs of more serious conditions like cancer. Given the duration and symptoms, it's important to get this checked out to rule out serious causes.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::37567752",
+                "primary_assertion_id": "37567752_retr",
+                "pmids": [
+                  "37567752"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "Given the red flag of a new lump, we'll prioritize evaluating this first. We'll schedule an imaging study to get a better look at the lump and determine the next steps for diagnosis.",
+          "We'll also review any additional symptoms or changes since the lump appeared to guide further testing."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to follow up in a week to review the results of the imaging study. In the meantime, if the lump changes in size, if you develop new symptoms like shortness of breath or unexplained weight loss, or if the pain worsens, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Demonstrate empathy",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "retrieval_only::37567752"
+        ],
+        "all_pmids_used": [
+          "37567752"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 1,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "big ol lump in my chest"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "37567752"
+      ],
+      "cluster_ids_used": [
+        "retrieval_only::37567752"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Demonstrate empathy",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 148123.39514493942,
+      "response_text": "I understand you're concerned about this lump in your chest that's been there for at least a year and has gotten bigger and is tender, especially when you take deep breaths. It's important we take this seriously.\n\nA lump in the chest that's been there for a year, especially if it's grown and is tender, needs to be checked. Headaches and visual issues could be signs of something serious, like pituitary metastases, and we should look into that.\n\nWe'll schedule an MRI to look at your pituitary area and check for any signs of metastases.\n\nWe'll also monitor any new symptoms like severe headaches or vision changes, which would need immediate attention.\n\nCan you tell me in your own words what we're going to do next and why it's important?\n\nLet's plan to follow up in two weeks to review the results. In the meantime, if you experience severe headaches, vision problems, or the lump gets worse, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I understand you're concerned about this lump in your chest that's been there for at least a year and has gotten bigger and is tender, especially when you take deep breaths. It's important we take this seriously.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "big ol lump in my chest",
+            "profile_path": "problems[0]",
+            "explanation": "A lump in the chest that's been there for a year, especially if it's grown and is tender, needs to be checked. Headaches and visual issues could be signs of something serious, like pituitary metastases, and we should look into that.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[1]::40497377_0",
+                "primary_assertion_id": "40497377_0",
+                "pmids": [
+                  "40497377"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll schedule an MRI to look at your pituitary area and check for any signs of metastases.",
+          "We'll also monitor any new symptoms like severe headaches or vision changes, which would need immediate attention."
+        ],
+        "teach_back_prompt": "Can you tell me in your own words what we're going to do next and why it's important?",
+        "follow_up_invitation": "Let's plan to follow up in two weeks to review the results. In the meantime, if you experience severe headaches, vision problems, or the lump gets worse, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Demonstrate empathy",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[1]::40497377_0"
+        ],
+        "all_pmids_used": [
+          "40497377"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 1,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "big ol lump in my chest"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "40497377"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[1]::40497377_0"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Demonstrate empathy",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 49525.34569054842,
+        "module_2_retrieval": 42.125023901462555,
+        "module_3_reasoning": 80229.24613952637,
+        "module_4_response": 18325.551606714725,
+        "total_ms": 148122.26846069098
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

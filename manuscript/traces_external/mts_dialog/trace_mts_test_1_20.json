@@ -1,0 +1,282 @@
+{
+  "transcript_id": "mts_test_1_20",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "He says he has had numbness of toes for a long time",
+  "patient_utterances": [
+    "[Clinician asked: \"Hello! How are you doing today?\"] Hi! I am stuck in here, so I am not doing great.",
+    "[Clinician asked: \"How long have your legs been swollen like this?\"] They swell up like this from time to time but it has been happening for a long time. I also can't feel my toes.",
+    "[Clinician asked: \"How long has the numbness of your toes been going on?\"] A long time.",
+    "[Clinician asked: \"Are you able to get up and move around?\"] I can't walk because of my weight. It is too much for me. When I try to get up, I get short of breath. I have C O P D. I can't do much but sit here. I am in a lot of pain all the time.",
+    "[Clinician asked: \"When you get up and try to walk around, do you experience any chest pain or visual problems?\"] No. I just feel out of breath.",
+    "[Clinician asked: \"Do you take anything for your pain?\"] I take OxyContin for my back pain.",
+    "[Clinician asked: \"Do you ever experience any constipation, diarrhea, abdominal pain, nausea or vomiting?\"] No. I have these sore on my legs, that ooze."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "ROS": "He says he has had numbness of toes for a long time.  He denies any visual problems.  His legs have been swelling up from time to time for a long time.  He also has history of COPD and gets short of breath with minimal activity.  He is also not able to walk due to his weight.  He has had ulcers on his legs, which he gets discharge from.  He has chronic back pain and takes OxyContin.  He denies any constipation, diarrhea, abdominal pain, nausea or vomiting.  There is no chest pain.  He does get short of breath on walking."
+  },
+  "n_patient_turns": 7,
+  "n_clinician_turns": 8,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 17659.825921058655,
+      "response_text": "I understand how challenging and uncomfortable your situation must be. It sounds like you're dealing with a lot of physical discomfort and limitations, and I want to acknowledge how tough that must be for you. Your concerns about your legs swelling and the numbness in your toes are valid, and we'll work together to figure out what's going on. I also hear how difficult it is for you to move around and how your COPD affects your breathing\u2014it\u2019s important we address these issues to help improve your comfort and mobility.\n\nThe sores on your legs that are oozing could be a sign of circulation issues or infection, so we should keep an eye on those as well. I\u2019m here to help you manage your pain and work towards solutions that can make daily life easier for you. Let\u2019s take this step by step and create a plan that works best for you. You\u2019re not alone in this, and I\u2019m here to support you.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 24191.195115447044,
+      "response_text": "Thank you for sharing all this with me. It sounds like you're going through a lot, and I can see how overwhelming this must be. It's completely understandable that you're feeling frustrated and stuck, especially with the swelling in your legs and the numbness in your toes. I want to work together to figure out what's going on and how we can help you feel better.\n\nGiven your symptoms, there are a few things we should consider. The swelling and numbness could be related to circulation issues, possibly from being less mobile, or maybe something like nerve compression. Your COPD and weight might also be contributing to how you're feeling. The sores on your legs that are oozing could indicate a problem with circulation or healing. I'll check for signs of deep vein thrombosis, as that can cause swelling and pain, and we'll look into your nerve function to see if there's any compression or other issues.\n\nWe'll start by scheduling a follow-up in about a week to monitor your symptoms and adjust your pain management plan. I'll also check on those leg sores to ensure they're healing properly. In the meantime, if you notice any redness, increased pain, or if the sores get worse, please let me know right away.\n\nBefore you leave, could you tell me in your own words what we've discussed today? This will help make sure you're clear on the plan and any next steps.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6535.22202372551,
+      "response_text": "It sounds like you're in a tough spot, especially with your legs swelling and the numbness in your toes. I'm here to help you work through this.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again soon. In the meantime, if your symptoms get worse or you experience anything unusual, please reach out.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're in a tough spot, especially with your legs swelling and the numbness in your toes. I'm here to help you work through this.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again soon. In the meantime, if your symptoms get worse or you experience anything unusual, please reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 114061.69639527798,
+      "response_text": "I can hear how much this is affecting you. You mentioned feeling frustrated because you can't walk due to your weight, and you're in a lot of pain all the time. I understand how overwhelming this must be.\n\nLeg swelling can be a sign of various health issues, and it's important to determine the cause. Given your symptoms like numbness in toes and sores on your legs, we'll need to look into possible causes carefully.\n\nShortness of breath when trying to move can be serious, especially with your COPD history. We'll focus on understanding this better to manage your symptoms effectively.\n\nThe constant pain you're experiencing is concerning. Since you're already taking OxyContin, we'll need to assess if this is providing adequate relief or if adjustments are needed.\n\nWe'll start by addressing your shortness of breath as it's a red flag. We'll schedule some tests to understand the underlying cause and discuss treatment options.\n\nFor your leg swelling, we'll monitor it closely and may recommend imaging or other tests to rule out any serious conditions.\n\nRegarding your constant pain, we'll review your current pain management plan and consider any adjustments to help improve your comfort.\n\nI want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to follow up in a week to review the results and adjust your care plan as needed. If your symptoms worsen or you experience any new issues, please reach out sooner.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this is affecting you. You mentioned feeling frustrated because you can't walk due to your weight, and you're in a lot of pain all the time. I understand how overwhelming this must be.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "leg swelling",
+            "profile_path": "problems[0]",
+            "explanation": "Leg swelling can be a sign of various health issues, and it's important to determine the cause. Given your symptoms like numbness in toes and sores on your legs, we'll need to look into possible causes carefully.",
+            "citations": []
+          },
+          {
+            "concern_label": "shortness of breath",
+            "profile_path": "problems[1]",
+            "explanation": "Shortness of breath when trying to move can be serious, especially with your COPD history. We'll focus on understanding this better to manage your symptoms effectively.",
+            "citations": []
+          },
+          {
+            "concern_label": "constant pain",
+            "profile_path": "problems[2]",
+            "explanation": "The constant pain you're experiencing is concerning. Since you're already taking OxyContin, we'll need to assess if this is providing adequate relief or if adjustments are needed.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll start by addressing your shortness of breath as it's a red flag. We'll schedule some tests to understand the underlying cause and discuss treatment options.",
+          "For your leg swelling, we'll monitor it closely and may recommend imaging or other tests to rule out any serious conditions.",
+          "Regarding your constant pain, we'll review your current pain management plan and consider any adjustments to help improve your comfort."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to follow up in a week to review the results and adjust your care plan as needed. If your symptoms worsen or you experience any new issues, please reach out sooner.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Demonstrate empathy",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 3,
+        "n_medications": 1,
+        "n_allergies": 0,
+        "n_red_flags": 1,
+        "n_emotional": 2,
+        "n_goals": 0,
+        "problems": [
+          "leg swelling",
+          "shortness of breath",
+          "constant pain"
+        ],
+        "medications": [
+          "OxyContin"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Demonstrate empathy",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 221332.21043646336,
+      "response_text": "I can hear how much this is weighing on you. You mentioned, \"I can't walk because of my weight. It is too much for me,\" and also shared that you're in a lot of pain all the time. I want to make sure we address these concerns carefully.\n\nLeg swelling, especially with symptoms like numbness in the toes and sores that ooze, can be a sign of several conditions. We'll need to look into this to rule out any serious issues.\n\nShortness of breath, especially when trying to get up, is something we need to take seriously. Given your COPD history, we'll focus on managing this symptom and checking for any underlying issues.\n\nConstant pain is tough to deal with. Since you're already taking OxyContin, we'll explore other ways to manage it and ensure it's the right approach for you.\n\nGiven the red flag of shortness of breath, we'll prioritize evaluating that first. This includes checking for COVID-19 and other potential causes.\n\nWe'll schedule a follow-up visit to review the results and discuss next steps.\n\nIn the meantime, if your shortness of breath gets worse or you develop any new symptoms like chest pain, please call us immediately.\n\nI want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. If you experience any severe symptoms like difficulty breathing or your pain becomes unbearable, please reach out sooner.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this is weighing on you. You mentioned, \"I can't walk because of my weight. It is too much for me,\" and also shared that you're in a lot of pain all the time. I want to make sure we address these concerns carefully.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "leg swelling",
+            "profile_path": "problems[0]",
+            "explanation": "Leg swelling, especially with symptoms like numbness in the toes and sores that ooze, can be a sign of several conditions. We'll need to look into this to rule out any serious issues.",
+            "citations": [
+              {
+                "cluster_id": "finding::problems[1]::35593186_0",
+                "primary_assertion_id": "35593186_0",
+                "pmids": [
+                  "35593186"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "shortness of breath",
+            "profile_path": "problems[1]",
+            "explanation": "Shortness of breath, especially when trying to get up, is something we need to take seriously. Given your COPD history, we'll focus on managing this symptom and checking for any underlying issues.",
+            "citations": [
+              {
+                "cluster_id": "finding::problems[1]::35593186_0",
+                "primary_assertion_id": "35593186_0",
+                "pmids": [
+                  "35593186"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "constant pain",
+            "profile_path": "problems[2]",
+            "explanation": "Constant pain is tough to deal with. Since you're already taking OxyContin, we'll explore other ways to manage it and ensure it's the right approach for you.",
+            "citations": [
+              {
+                "cluster_id": "contraindication::sub_query[1]::38719772_2",
+                "primary_assertion_id": "38719772_2",
+                "pmids": [
+                  "38719772"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "Given the red flag of shortness of breath, we'll prioritize evaluating that first. This includes checking for COVID-19 and other potential causes.",
+          "We'll schedule a follow-up visit to review the results and discuss next steps.",
+          "In the meantime, if your shortness of breath gets worse or you develop any new symptoms like chest pain, please call us immediately."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. If you experience any severe symptoms like difficulty breathing or your pain becomes unbearable, please reach out sooner.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Demonstrate empathy",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::problems[1]::35593186_0",
+          "contraindication::sub_query[1]::38719772_2"
+        ],
+        "all_pmids_used": [
+          "35593186",
+          "38719772"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 3,
+        "n_medications": 1,
+        "n_allergies": 0,
+        "n_red_flags": 1,
+        "n_emotional": 2,
+        "n_goals": 0,
+        "problems": [
+          "leg swelling",
+          "shortness of breath",
+          "constant pain"
+        ],
+        "medications": [
+          "OxyContin"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [
+        "35593186",
+        "38719772"
+      ],
+      "cluster_ids_used": [
+        "finding::problems[1]::35593186_0",
+        "contraindication::sub_query[1]::38719772_2"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Demonstrate empathy",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 89934.44348871708,
+        "module_2_retrieval": 72.53929227590561,
+        "module_3_reasoning": 101031.21279925108,
+        "module_4_response": 30292.36676543951,
+        "total_ms": 221330.56234568357
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

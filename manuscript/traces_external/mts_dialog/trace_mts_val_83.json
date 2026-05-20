@@ -1,0 +1,279 @@
+{
+  "transcript_id": "mts_val_83",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "The patient was given IV Norflex 60 mg, Zofran 4 mg, and morphine sulfate 4 mg and with that has significant improvement in her discomfort",
+  "patient_utterances": [
+    "[Clinician asked: \"Let me give you some medication in your I V.\"] Please make this all go away. I am feeling really sick like I am going to throw up.",
+    "[Clinician asked: \"Sure, sure. Nurse, please give him Norflex sixty M G, Zofran four M G, morphine sulfate four M G.\"] Will I feel better after that?",
+    "[Clinician asked: \"Yes.\"] I am feeling better after couple hours."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "ED_COURSE": "The patient was given IV Norflex 60 mg, Zofran 4 mg, and morphine sulfate 4 mg and with that has significant improvement in her discomfort."
+  },
+  "n_patient_turns": 3,
+  "n_clinician_turns": 3,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 11327.88946479559,
+      "response_text": "I'm really glad to hear that you're starting to feel better after receiving the medication. It sounds like the treatment is working well for you, which is great news. I want to make sure you're doing okay, so please let me know if you're still experiencing any symptoms or if there's anything else I can do to help you feel more comfortable. In the meantime, take it easy and give yourself some time to rest.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 17976.612836122513,
+      "response_text": "I understand how you're feeling right now\u2014nausea can be really overwhelming and make you want to feel better quickly. It\u2019s completely reasonable to feel anxious about how long this will last and whether the medication will help. I can see how much this is affecting you, and I\u2019m here to support you through this.\n\nThe medications we\u2019ve given you, like Norflex, Zofran, and morphine, can help with pain, nausea, and any discomfort you\u2019re feeling. However, it\u2019s important to monitor how you\u2019re responding to them. Sometimes, even with medication, we might need to explore further if your symptoms don\u2019t improve or if new ones arise. For example, we might check for infections or other causes if the nausea persists [PMID ?].\n\nLet\u2019s plan to follow up in a week to see how you\u2019re doing. Before you leave, can you tell me in your own words what you think we\u2019ve agreed on? This will help ensure you\u2019re clear on the plan and any next steps.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6812.966927886009,
+      "response_text": "I understand you're feeling really sick and like you're going to throw up. It sounds like this is making you uncomfortable right now.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again soon. In the meantime, if your symptoms get worse or you feel like you're going to throw up again, please call us.",
+      "structured_response": {
+        "acknowledgment": "I understand you're feeling really sick and like you're going to throw up. It sounds like this is making you uncomfortable right now.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again soon. In the meantime, if your symptoms get worse or you feel like you're going to throw up again, please call us.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 49566.66361540556,
+      "response_text": "I can hear how much this is affecting you \u2014 you said, \"Please make this all go away. I am feeling really sick like I am going to throw up.\" That sounds so tough, and I'm here to help figure this out.\n\nIt's important to check how your medications might be contributing to how you're feeling. Some medications can cause nausea, and we want to make sure we're using the right ones for you.\n\nWe'll review your current medications to see if any might be causing your nausea and adjust them as needed to help you feel better.\n\nWe'll review your medications to see if any might be causing your nausea and adjust them as needed.\n\nWe'll schedule a follow-up visit to check on your progress and make any necessary changes.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a week. In the meantime, if your nausea gets worse or you start feeling any new symptoms, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this is affecting you \u2014 you said, \"Please make this all go away. I am feeling really sick like I am going to throw up.\" That sounds so tough, and I'm here to help figure this out.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "feeling sick with nausea",
+            "profile_path": "problems[0]",
+            "explanation": "It's important to check how your medications might be contributing to how you're feeling. Some medications can cause nausea, and we want to make sure we're using the right ones for you.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::40577011",
+                "primary_assertion_id": "40577011_retr",
+                "pmids": [
+                  "40577011"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "for the medication to make the sickness go away",
+            "profile_path": "patient_goals[0]",
+            "explanation": "We'll review your current medications to see if any might be causing your nausea and adjust them as needed to help you feel better.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::40577011",
+                "primary_assertion_id": "40577011_retr",
+                "pmids": [
+                  "40577011"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll review your medications to see if any might be causing your nausea and adjust them as needed.",
+          "We'll schedule a follow-up visit to check on your progress and make any necessary changes."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a week. In the meantime, if your nausea gets worse or you start feeling any new symptoms, please call us right away.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "retrieval_only::40577011"
+        ],
+        "all_pmids_used": [
+          "40577011"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 3,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 1,
+        "problems": [
+          "feeling sick with nausea"
+        ],
+        "medications": [
+          "Norflex 60 mg",
+          "Zofran 4 mg",
+          "morphine sulfate 4 mg"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [
+        "40577011"
+      ],
+      "cluster_ids_used": [
+        "retrieval_only::40577011"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 98960.08040010929,
+      "response_text": "I can hear how much this is affecting you \u2014 you said, \"Please make this all go away. I am feeling really sick like I am going to throw up.\" That's completely understandable, and I want to make sure we're doing everything we can to help you feel better.\n\nFeeling sick with nausea is something we should take seriously, especially since it's been happening a lot. The medications you're taking, like Norflex, Zofran, and morphine, can sometimes cause or worsen nausea. We'll check if any of these might be contributing and see if adjusting them could help.\n\nOur goal is to get your medications working well for you. Sometimes, it's helpful to adjust the timing or dosage of your meds to better manage nausea. We'll work together to find the best approach for you.\n\nWe'll review your current medications to see if any adjustments can help reduce your nausea.\n\nIf we don't see improvement, we'll consider adding other medications or treatments to help you feel better.\n\nWe'll schedule a follow-up visit in 1 week to check on your progress and make any necessary changes.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 1 week. In the meantime, if your nausea gets worse or you start feeling like you might throw up, please call us right away so we can help.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this is affecting you \u2014 you said, \"Please make this all go away. I am feeling really sick like I am going to throw up.\" That's completely understandable, and I want to make sure we're doing everything we can to help you feel better.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "feeling sick with nausea",
+            "profile_path": "problems[0]",
+            "explanation": "Feeling sick with nausea is something we should take seriously, especially since it's been happening a lot. The medications you're taking, like Norflex, Zofran, and morphine, can sometimes cause or worsen nausea. We'll check if any of these might be contributing and see if adjusting them could help.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[0]::37567752_0",
+                "primary_assertion_id": "37567752_0",
+                "pmids": [
+                  "37567752"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "for the medication to make the sickness go away",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Our goal is to get your medications working well for you. Sometimes, it's helpful to adjust the timing or dosage of your meds to better manage nausea. We'll work together to find the best approach for you.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[1]::34448868_0",
+                "primary_assertion_id": "34448868_0",
+                "pmids": [
+                  "34448868"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll review your current medications to see if any adjustments can help reduce your nausea.",
+          "If we don't see improvement, we'll consider adding other medications or treatments to help you feel better.",
+          "We'll schedule a follow-up visit in 1 week to check on your progress and make any necessary changes."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 1 week. In the meantime, if your nausea gets worse or you start feeling like you might throw up, please call us right away so we can help.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[0]::37567752_0",
+          "finding::sub_query[1]::34448868_0"
+        ],
+        "all_pmids_used": [
+          "37567752",
+          "34448868"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 3,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 1,
+        "problems": [
+          "feeling sick with nausea"
+        ],
+        "medications": [
+          "Norflex 60 mg",
+          "Zofran 4 mg",
+          "morphine sulfate 4 mg"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [
+        "37567752",
+        "34448868"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[0]::37567752_0",
+        "finding::sub_query[1]::34448868_0"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 28909.532234072685,
+        "module_2_retrieval": 75.26083290576935,
+        "module_3_reasoning": 40799.09931868315,
+        "module_4_response": 29174.687772989273,
+        "total_ms": 98958.58015865088
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

@@ -1,0 +1,250 @@
+{
+  "transcript_id": "mts_val_75",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "1",
+  "patient_utterances": [
+    "[Clinician asked: \"How long have you been having this pain in your ear?\"] It's been three or four days.",
+    "[Clinician asked: \"Okay, let me check your ears, which side is in pain?\"] The left one.",
+    "[Clinician asked: \"Okay let me check both ears. Well, you have lot of fluid accumulated in your left ear, which has caused infection in your middle part of the ear. It is called as Serous Otitis.\"] Nothing to worry about?",
+    "[Clinician asked: \"I will prescribe you some antibiotics, it should take care of it.\"] Thank you!",
+    "[Clinician asked: \"Anything else?\"] Ah yes, my eczema is also acting up.",
+    "[Clinician asked: \"Hm, you have a history of atopic dermatitis in other words eczema.\"] Yeah, I have had it since childhood."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "ASSESSMENT": "1.  Serous otitis. 2.  Atopic dermatitis."
+  },
+  "n_patient_turns": 6,
+  "n_clinician_turns": 6,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 8700.685136020184,
+      "response_text": "Thank you for sharing all that with me. It sounds like the ear infection has been quite uncomfortable for you, but I'm glad we caught it early. The serous otitis should improve with the antibiotics I prescribed. I want to make sure we also address your eczema since it seems to be flaring up. How has that been affecting you lately? Let me know if there's anything specific you're dealing with, and we can work together to get it under control. You're not alone in managing these concerns, and I'm here to help.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 19883.74439626932,
+      "response_text": "Thank you for sharing your concerns with me. It's completely understandable that you're feeling worried about the ear infection and the eczema flare-up. Dealing with these issues can be stressful, especially when they come on suddenly.\n\nWe'll address both concerns together. For the ear infection, the antibiotics I've prescribed are a standard treatment for serous otitis media, as recommended by current guidelines [PMID ?]. For the eczema, we'll look into managing the flare-up, possibly identifying any triggers and adjusting your skincare routine to help keep it under control [PMID ?].\n\nWe'll check in on how you're feeling in about a week. By then, we should have a clearer picture of how the treatments are working. Before you leave, could you summarize what we've discussed so far? This will help ensure you're clear on the plan and any next steps.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7491.385720670223,
+      "response_text": "Thank you for sharing your concerns with me today. It sounds like you're dealing with some discomfort from the ear infection and also some trouble with your eczema.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 4 weeks. In the meantime, if you get new symptoms like severe pain or if your eczema gets worse, please call us right away \u2014 don't wait for the appointment.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns with me today. It sounds like you're dealing with some discomfort from the ear infection and also some trouble with your eczema.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 4 weeks. In the meantime, if you get new symptoms like severe pain or if your eczema gets worse, please call us right away \u2014 don't wait for the appointment.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 66409.5503166318,
+      "response_text": "I can hear how much this has been weighing on you \u2014 you said, \"Nothing to worry about?\" That shows you're feeling some relief, but I want to make sure we're covering everything properly.\n\nEar pain that's been around for a few days could be due to a few different things. We'll need to check it out to figure out the exact cause.\n\nEczema flare-ups can be tough, and there are some treatments that might help. We'll talk about what options are best for you.\n\nWe'll start by checking your ear to see what's going on with the pain.\n\nFor the eczema, we'll discuss treatment options and ways to manage the flare-up.\n\nWe'll also review any medications or creams you might need.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a week. In the meantime, if the ear pain gets worse or the eczema doesn't improve, please call us so we can address it sooner.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this has been weighing on you \u2014 you said, \"Nothing to worry about?\" That shows you're feeling some relief, but I want to make sure we're covering everything properly.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "ear pain",
+            "profile_path": "problems[0]",
+            "explanation": "Ear pain that's been around for a few days could be due to a few different things. We'll need to check it out to figure out the exact cause.",
+            "citations": []
+          },
+          {
+            "concern_label": "eczema flare-up",
+            "profile_path": "problems[1]",
+            "explanation": "Eczema flare-ups can be tough, and there are some treatments that might help. We'll talk about what options are best for you.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll start by checking your ear to see what's going on with the pain.",
+          "For the eczema, we'll discuss treatment options and ways to manage the flare-up.",
+          "We'll also review any medications or creams you might need."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a week. In the meantime, if the ear pain gets worse or the eczema doesn't improve, please call us so we can address it sooner.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 2,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 0,
+        "problems": [
+          "ear pain",
+          "eczema flare-up"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 103670.92468589544,
+      "response_text": "I can see you're hoping for some reassurance \u2014 you mentioned, \"Nothing to worry about?\" I understand how you'd feel that way, but let's take a closer look to make sure everything is okay.\n\nFor ear pain that's been going on for a few days, the first step is usually to check for common causes like infections or something stuck in the ear. We'll want to rule those out to guide the right treatment.\n\nEczema flare-ups can be tricky. Probiotics probably won't make much difference, but there are other ways to manage it. We'll focus on what's most likely to help based on your history.\n\nWe'll start with an exam to check for common causes of ear pain and see if there's anything we need to treat right away.\n\nFor the eczema, we'll review your history and see what treatments have worked best for you in the past to tailor our approach.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to check in again in a week. If the ear pain gets worse or you notice any new symptoms like fever or swelling, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I can see you're hoping for some reassurance \u2014 you mentioned, \"Nothing to worry about?\" I understand how you'd feel that way, but let's take a closer look to make sure everything is okay.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "ear pain",
+            "profile_path": "problems[0]",
+            "explanation": "For ear pain that's been going on for a few days, the first step is usually to check for common causes like infections or something stuck in the ear. We'll want to rule those out to guide the right treatment.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::sub_query[0]::35190445_0",
+                "primary_assertion_id": "35190445_0",
+                "pmids": [
+                  "35190445"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "eczema flare-up",
+            "profile_path": "problems[1]",
+            "explanation": "Eczema flare-ups can be tricky. Probiotics probably won't make much difference, but there are other ways to manage it. We'll focus on what's most likely to help based on your history.",
+            "citations": [
+              {
+                "cluster_id": "finding::problems[1]::30480774_0",
+                "primary_assertion_id": "30480774_0",
+                "pmids": [
+                  "30480774"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll start with an exam to check for common causes of ear pain and see if there's anything we need to treat right away.",
+          "For the eczema, we'll review your history and see what treatments have worked best for you in the past to tailor our approach."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to check in again in a week. If the ear pain gets worse or you notice any new symptoms like fever or swelling, please call us right away.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "recommendation::sub_query[0]::35190445_0",
+          "finding::problems[1]::30480774_0"
+        ],
+        "all_pmids_used": [
+          "35190445",
+          "30480774"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 2,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 0,
+        "problems": [
+          "ear pain",
+          "eczema flare-up"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "35190445",
+        "30480774"
+      ],
+      "cluster_ids_used": [
+        "recommendation::sub_query[0]::35190445_0",
+        "finding::problems[1]::30480774_0"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 49066.413037478924,
+        "module_2_retrieval": 51.77897959947586,
+        "module_3_reasoning": 30492.847591638565,
+        "module_4_response": 24058.483362197876,
+        "total_ms": 103669.52297091484
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

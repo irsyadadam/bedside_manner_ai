@@ -1,0 +1,212 @@
+{
+  "transcript_id": "mts_val_13",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "He immigrated to this country in 1984, although he lists himself as having a green card still at this time",
+  "patient_utterances": [
+    "[Clinician asked: \"When did you move here from Philippines, sir?\"] I think somewhere around nineteen eighty four.",
+    "[Clinician asked: \"Oh wow, it's been a while, do you have a green card?\"] Yes I do have G C. My apartment is not too far from there.",
+    "[Clinician asked: \"Do you live by yourself? Or you married?\"] No, I live by myself. Never been married or widowed or kids.",
+    "[Clinician asked: \"Okay what have you studied?\"] I finished high school. But I do work.",
+    "[Clinician asked: \"Okay. Do you drink alcohol or smoke?\"] I do smoke but no alcohol.",
+    "[Clinician asked: \"How about drugs?\"] I used to but not anymore.",
+    "[Clinician asked: \"Which one?\"] Meth.",
+    "[Clinician asked: \"Okay. Do you have a P C P?\"] No. But I have a case manager, Mister X Y Z. He is making me go to counselling",
+    "[Clinician asked: \"Okay. Can I get the notes?\"] Yes, I can ask them to send you.",
+    "[Clinician asked: \"Okay that will be good.\"] Awesome!"
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "FAM_SOCHX": "He immigrated to this country in 1984, although he lists himself as having a green card still at this time.  He states he lives on his own.  He is a single male with no history of marriage or children and that he had high school education.  His recreational drug use in the chart indicates that he has had a history of methamphetamines.  The patient denies this at this time.  He also denies current alcohol use.  He does smoke.  He is unable to tell me of any PCP.  He is in counseling service with his case manager being XYZ."
+  },
+  "n_patient_turns": 10,
+  "n_clinician_turns": 10,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 16809.154599905014,
+      "response_text": "Thank you for sharing all that with me. It takes a lot of courage to open up about your experiences, and I really appreciate your honesty. It sounds like you've been through a lot, but it's clear you're taking positive steps toward your well-being, especially with the counseling and support from your case manager. That's a great sign of resilience.\n\nRemember, recovery is a journey, and every step you take, like continuing counseling, is a step toward a healthier, happier you. You're doing the right thing by taking responsibility for your health, and I'm confident you'll continue to move forward. Keep up the good work\u2014you've got this.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 26189.814008772373,
+      "response_text": "Thank you for sharing your background and health history with me. It\u2019s clear that you\u2019ve been through a lot since moving here over 35 years ago, and I appreciate your openness in discussing your situation, especially given that you\u2019re living alone and working with your case manager, Mr. XYZ. I can understand how important it is to have support, and I\u2019m glad he\u2019s helping you navigate your health and well-being.\n\nGiven that you smoke and have a history of meth use, we\u2019ll want to focus on supporting your current health and reducing any potential risks. Quitting smoking can significantly improve your overall health, and there are effective strategies to help with cessation [PMID ?]. Since you\u2019re already engaged with a case manager, we can work together to ensure your care is coordinated and meets your needs.\n\nWe\u2019ll start by reviewing your medical records to get a clearer picture of your health. From there, we can discuss any concerns and create a plan tailored to you. I\u2019d like to check in with you in about a week to see how things are progressing and to make sure you\u2019re comfortable with the plan we\u2019ve outlined.\n\nBefore we finish, could you summarize what you believe we\u2019ve agreed upon today? This will help ensure you understand the next steps and that I\u2019ve explained everything clearly.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7711.923629045486,
+      "response_text": "Thank you for sharing your background and current situation with me. It sounds like you're managing several aspects of your life, including your health and living situation.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 4 weeks. In the meantime, if you have any new concerns or questions, please reach out.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your background and current situation with me. It sounds like you're managing several aspects of your life, including your health and living situation.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 4 weeks. In the meantime, if you have any new concerns or questions, please reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 34539.42373394966,
+      "response_text": "Thank you for reaching out. I understand you're here to discuss your concerns and we'll work together to address them.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a week. If you have any new concerns or symptoms in the meantime, please reach out.",
+      "structured_response": {
+        "acknowledgment": "Thank you for reaching out. I understand you're here to discuss your concerns and we'll work together to address them.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a week. If you have any new concerns or symptoms in the meantime, please reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 0,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 98789.1836091876,
+      "response_text": "It sounds like you're dealing with some challenges related to your methamphetamine use. I want to understand how this has been affecting you so we can work together on a plan.\n\nBrief interventions, like motivational interviewing, can help address substance use. These interventions focus on personalized feedback and can be effective for young adults.\n\nWe'll start with a brief intervention using motivational interviewing to explore your thoughts and feelings around methamphetamine use.\n\nWe'll schedule a follow-up visit to check on your progress and adjust our approach as needed.\n\nI want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next?\n\nLet's plan to see each other again in a few weeks. If you experience any severe withdrawal symptoms or if things get worse, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're dealing with some challenges related to your methamphetamine use. I want to understand how this has been affecting you so we can work together on a plan.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "methamphetamine use",
+            "profile_path": "problems[0]",
+            "explanation": "Brief interventions, like motivational interviewing, can help address substance use. These interventions focus on personalized feedback and can be effective for young adults.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[0]::35696124_0",
+                "primary_assertion_id": "35696124_0",
+                "pmids": [
+                  "35696124"
+                ]
+              },
+              {
+                "cluster_id": "finding::sub_query[0]::35696124_1",
+                "primary_assertion_id": "35696124_1",
+                "pmids": [
+                  "35696124"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll start with a brief intervention using motivational interviewing to explore your thoughts and feelings around methamphetamine use.",
+          "We'll schedule a follow-up visit to check on your progress and adjust our approach as needed."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. If you experience any severe withdrawal symptoms or if things get worse, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[0]::35696124_0",
+          "finding::sub_query[0]::35696124_1"
+        ],
+        "all_pmids_used": [
+          "35696124"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "methamphetamine use"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "35696124"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[0]::35696124_0",
+        "finding::sub_query[0]::35696124_1"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 41676.23279988766,
+        "module_2_retrieval": 68.8621923327446,
+        "module_3_reasoning": 38052.12242156267,
+        "module_4_response": 18990.36117643118,
+        "total_ms": 98787.57859021425
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

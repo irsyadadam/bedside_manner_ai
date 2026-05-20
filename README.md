@@ -1,3 +1,69 @@
+================================================================================
+CLAIMS AND SCOPE (read this first)
+================================================================================
+
+This work presents an **empathy-aware decision-support companion for
+clinicians, not a replacement for them.** The system is a four-module
+pipeline that operationalizes two established communication frameworks —
+the NURSE empathy template and the Four Habits Model — as structured,
+auditable LLM behaviors with per-claim provenance back to the source
+literature.
+
+**What this manuscript measures (surrogate operational markers):**
+
+  - Module I: faithfulness of patient-concern extraction against
+    section-labeled gold notes (MTS-Dialog) — per-field
+    precision/recall/F1, hallucination rate.
+  - Module II: retrieval provenance — every cited PMID is grounded
+    in the retrieved set; recency + authority distribution of cited
+    sources.
+  - Module III: assertion-cluster faithfulness and convergent/divergent
+    resolution audit.
+  - Module IV: NURSE-element coverage, Four-Habits coverage,
+    plain-language substitution, response-vs-gold lexical/semantic
+    similarity (ROUGE-L, BERTScore) on ACI-Bench SOAP notes,
+    Flesch-Kincaid grade level, and a **four-item safety audit**
+    (escalation present when red-flag triggered; no autonomous
+    diagnostic claim; no contraindicated advice; follow-up timeframe
+    present). Safety-pass rate operationalizes the "companion, not
+    replacement" claim.
+
+**What this manuscript does NOT measure (out of scope; future work):**
+
+  - Patient satisfaction, comprehension, adherence, or any downstream
+    clinical outcome. These require prospective trials with real
+    patient encounters, which this work does not perform.
+  - Diagnostic accuracy in any clinically meaningful sense. The
+    system produces patient-facing explanations supported by the
+    retrieved literature; it does not make autonomous diagnoses or
+    treatment recommendations.
+  - Replacement of clinical judgment. Every claim is traceable to a
+    PMID; the intended use is augmentation of a clinician's workflow
+    (e.g., pre-visit summary, post-visit patient handout draft).
+
+**Human evaluation is dual-track.** LLM-as-judge with anchored rubrics
+runs at full dataset coverage; a stratified n=20-30 clinician sample is
+scored against the same rubric to report inter-rater κ. Findings about
+empathy quality should be read with the κ in mind.
+
+**Frameworks operationalized:**
+
+  - NURSE (Naming, Understanding, Respecting, Supporting, Exploring)
+    — patient emotion handling, encoded as parsed directives in
+    `config/prompts/response_generation.txt`.
+  - Four Habits Model (Invest in beginning, Elicit patient perspective,
+    Demonstrate empathy, Invest in end) — visit-phase scaffolding,
+    encoded in the same directives block.
+
+The system is appropriate for research and prototype-evaluation use
+only. It is not a medical device. No autonomous patient-facing
+deployment is intended without clinician-in-the-loop review of every
+output.
+
+================================================================================
+HISTORICAL DEVELOPMENT SPEC (Phases 1–12; for reproducibility)
+================================================================================
+
 You are building an end-to-end research prototype for a manuscript on
 patient-centered clinical communication via LLMs. Four modules:
   I.   Initial Screening Conversation (structured multi-turn intake)

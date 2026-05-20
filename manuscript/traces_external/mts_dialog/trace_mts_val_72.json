@@ -1,0 +1,249 @@
+{
+  "transcript_id": "mts_val_72",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "Hypertension, depression, and osteoporosis",
+  "patient_utterances": [
+    "[Clinician asked: \"Do you have any medical conditions that I should know about?\"] Actually yes, I have high blood pressure and, um, depression.",
+    "[Clinician asked: \"That's good to know, thank you. What about your bones?\"] Um, yes, I have osteoporosis too."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "PMH": "Hypertension, depression, and osteoporosis."
+  },
+  "n_patient_turns": 2,
+  "n_clinician_turns": 2,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 18958.636187016964,
+      "response_text": "Thank you for sharing that with me. It's important that we're both aware of these conditions so we can work together to manage them effectively. High blood pressure and depression are both common, and with the right approach, we can keep them under control. Osteoporosis is also something we can manage to help protect your bones.\n\nI want to understand how these conditions are affecting your daily life. How have they been making you feel, both physically and emotionally? Let's talk about what's been going on and how we can support you. Your health and well-being are my priority, and I'm here to help in any way I can.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 23048.473194241524,
+      "response_text": "Thank you for sharing that information\u2014it makes sense that you might feel a bit overwhelmed with managing multiple chronic conditions like high blood pressure, depression, and osteoporosis. It\u2019s completely understandable to feel concerned about how these might impact your health over time. I want to work together with you to ensure we\u2019re managing each condition effectively and supporting your overall well-being.\n\nGiven that you\u2019ve mentioned these conditions, let\u2019s focus on how we can manage them together. High blood pressure requires careful monitoring to prevent complications, and there are effective treatments to keep it under control [PMID ?]. Depression is also manageable with the right approach, whether that\u2019s therapy, medication, or a combination of both [PMID ?]. For osteoporosis, we can work on strengthening your bones and reducing the risk of fractures through appropriate treatments and lifestyle changes [PMID ?].\n\nWe\u2019ll plan to schedule a follow-up in four weeks to review your progress and adjust any treatments as needed. Before you leave, could you share any questions or concerns you have about your treatment plans? This will help ensure you\u2019re comfortable with the approach we\u2019re taking.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6952.412061393261,
+      "response_text": "Thank you for sharing your medical conditions with me. It's important to know about your high blood pressure, depression, and osteoporosis so we can provide the best care for you.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again soon. In the meantime, if you have any concerns or questions, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your medical conditions with me. It's important to know about your high blood pressure, depression, and osteoporosis so we can provide the best care for you.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again soon. In the meantime, if you have any concerns or questions, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 40315.92129915953,
+      "response_text": "Thank you for sharing your concerns about high blood pressure, depression, and osteoporosis. I understand these are important issues you'd like to address.\n\nTo better understand your high blood pressure, we'll need to look at when it started and how it's been affecting you. This will help guide the next steps in managing it.\n\nIt's important to explore how depression has been impacting your daily life and well-being. This will help us find the right support and resources for you.\n\nFor osteoporosis, we'll focus on understanding your history and risks to create a prevention and management plan tailored to you.\n\nWe'll start by gathering more detailed information about each of these concerns to better understand how they're affecting you.\n\nOnce we have a clearer picture, we can work together on a plan to address each issue effectively.\n\nI want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to review your concerns again in our next visit. In the meantime, if you have any new symptoms or concerns, please reach out so we can address them promptly.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns about high blood pressure, depression, and osteoporosis. I understand these are important issues you'd like to address.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "high blood pressure",
+            "profile_path": "problems[0]",
+            "explanation": "To better understand your high blood pressure, we'll need to look at when it started and how it's been affecting you. This will help guide the next steps in managing it.",
+            "citations": []
+          },
+          {
+            "concern_label": "depression",
+            "profile_path": "problems[1]",
+            "explanation": "It's important to explore how depression has been impacting your daily life and well-being. This will help us find the right support and resources for you.",
+            "citations": []
+          },
+          {
+            "concern_label": "osteoporosis",
+            "profile_path": "problems[2]",
+            "explanation": "For osteoporosis, we'll focus on understanding your history and risks to create a prevention and management plan tailored to you.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll start by gathering more detailed information about each of these concerns to better understand how they're affecting you.",
+          "Once we have a clearer picture, we can work together on a plan to address each issue effectively."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to review your concerns again in our next visit. In the meantime, if you have any new symptoms or concerns, please reach out so we can address them promptly.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 3,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "high blood pressure",
+          "depression",
+          "osteoporosis"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 94563.43302130699,
+      "response_text": "Thank you for sharing your concerns about high blood pressure, depression, and osteoporosis. I understand these are important issues you'd like to address.\n\nTo better understand your high blood pressure, we should look into when it started and how severe it is. This will help us tailor the right approach for monitoring and managing it.\n\nWe can use tools like the PHQ-9 to assess your depression. This will help us determine the best way to support your mental health.\n\nEducating you about osteoporosis can help you manage it better. We'll focus on ways to increase your knowledge and encourage active management.\n\nWe'll start by gathering more details about each of your concerns to create a personalized plan.\n\nOnce we have that information, we'll discuss the next steps together.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to review your concerns in detail at your next visit. In the meantime, if you have any questions or need support, please reach out.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns about high blood pressure, depression, and osteoporosis. I understand these are important issues you'd like to address.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "high blood pressure",
+            "profile_path": "problems[0]",
+            "explanation": "To better understand your high blood pressure, we should look into when it started and how severe it is. This will help us tailor the right approach for monitoring and managing it.",
+            "citations": []
+          },
+          {
+            "concern_label": "depression",
+            "profile_path": "problems[1]",
+            "explanation": "We can use tools like the PHQ-9 to assess your depression. This will help us determine the best way to support your mental health.",
+            "citations": [
+              {
+                "cluster_id": "finding::problems[1]::41466386_1",
+                "primary_assertion_id": "41466386_1",
+                "pmids": [
+                  "41466386"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "osteoporosis",
+            "profile_path": "problems[2]",
+            "explanation": "Educating you about osteoporosis can help you manage it better. We'll focus on ways to increase your knowledge and encourage active management.",
+            "citations": [
+              {
+                "cluster_id": "finding::problems[2]::40513264_0",
+                "primary_assertion_id": "40513264_0",
+                "pmids": [
+                  "40513264"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll start by gathering more details about each of your concerns to create a personalized plan.",
+          "Once we have that information, we'll discuss the next steps together."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to review your concerns in detail at your next visit. In the meantime, if you have any questions or need support, please reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::problems[1]::41466386_1",
+          "finding::problems[2]::40513264_0"
+        ],
+        "all_pmids_used": [
+          "41466386",
+          "40513264"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 3,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "high blood pressure",
+          "depression",
+          "osteoporosis"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "41466386",
+        "40513264"
+      ],
+      "cluster_ids_used": [
+        "finding::problems[1]::41466386_1",
+        "finding::problems[2]::40513264_0"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 22093.271508812904,
+        "module_2_retrieval": 75.5513459444046,
+        "module_3_reasoning": 44970.68629413843,
+        "module_4_response": 27422.477267682552,
+        "total_ms": 94561.9864165783
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

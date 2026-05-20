@@ -1,0 +1,172 @@
+{
+  "transcript_id": "mts_test_1_134",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "He is currently on several medications, a list of which is attached to the chart, and was reviewed",
+  "patient_utterances": [
+    "[Clinician asked: \"What are you taking?\"] You mean meds?",
+    "[Clinician asked: \"Yes, sir.\"] Actually, that nurse asked me already and reviewed it with me. Do you want me to tell you again?",
+    "[Clinician asked: \"No let me check the chart then.\"] Okay.",
+    "[Clinician asked: \"You are not on any blood thinners right?\"] No I am not.",
+    "[Clinician asked: \"Okay great.\"] Yeah."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "MEDICATIONS": "He is currently on several medications, a list of which is attached to the chart, and was reviewed.  He is not on any blood thinners."
+  },
+  "n_patient_turns": 5,
+  "n_clinician_turns": 5,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 10564.713917672634,
+      "response_text": "Thank you for providing that information. It's important for us to have a clear understanding of your current medications to ensure your treatment is safe and effective. If you have any concerns or questions about your medications or treatment plan, please feel free to ask. We're here to help you feel your best.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 17301.467552781105,
+      "response_text": "Thank you for your patience and thoroughness in going through your medications with the nurse earlier. It's really helpful that you're being so cooperative with the process. I can see how important it is for us to have accurate information to ensure your care is on track.\n\nSince we've confirmed that you're not on any blood thinners, that removes one potential concern. I want to make sure there's nothing else we should be addressing today. Is there anything specific you'd like to talk about or any concerns you're holding onto?\n\nBefore we wrap up, I want to make sure I've answered any questions you might have. If there's anything else on your mind, please feel free to bring it up. We can also review your medications again if you'd like. I'm here to support you through this process.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 5626.6127824783325,
+      "response_text": "Thank you for sharing your concerns with me.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 4 weeks. In the meantime, if you get new symptoms, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns with me.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 4 weeks. In the meantime, if you get new symptoms, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 20914.617717266083,
+      "response_text": "Thank you for reaching out. It seems like you're here to address some concerns, and I'm ready to help.\n\nWe'll work together to address your concerns. Please provide more details so I can better understand how to assist you.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to follow up soon. If you have any new concerns or symptoms in the meantime, please reach out as soon as possible.",
+      "structured_response": {
+        "acknowledgment": "Thank you for reaching out. It seems like you're here to address some concerns, and I'm ready to help.",
+        "clinical_information_per_concern": [],
+        "next_steps": [
+          "We'll work together to address your concerns. Please provide more details so I can better understand how to assist you."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to follow up soon. If you have any new concerns or symptoms in the meantime, please reach out as soon as possible.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 0,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 56579.28262650967,
+      "response_text": "Thank you for sharing your concerns with me. I understand that you're here to discuss your medications, and I'm ready to help you with that.\n\nWe'll focus on understanding your medication needs and preferences today. If there's anything specific you'd like to talk about regarding your medications, please let me know.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to review your medications together today. If you have any questions or concerns in the meantime, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns with me. I understand that you're here to discuss your medications, and I'm ready to help you with that.",
+        "clinical_information_per_concern": [],
+        "next_steps": [
+          "We'll focus on understanding your medication needs and preferences today. If there's anything specific you'd like to talk about regarding your medications, please let me know."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to review your medications together today. If you have any questions or concerns in the meantime, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 0,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 13291.739821434021,
+        "module_2_retrieval": 44.26807165145874,
+        "module_3_reasoning": 35198.056288063526,
+        "module_4_response": 8043.646022677422,
+        "total_ms": 56577.71020382643
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

@@ -1,0 +1,247 @@
+{
+  "transcript_id": "mts_test_1_47",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "A 2-month-old female with 1-week history of congestion and fever x2 days",
+  "patient_utterances": [
+    "[Clinician asked: \"I hear she hasn't been doing so well.\"] My poor two-month-old baby girl has been congested for a whole week. I'm so worried about her.",
+    "[Clinician asked: \"I completely understand. It's never easy to see your baby sick. Have you taken her temperature recently?\"] Yes, I've been using an anal thermometer. She's been running a fever for the past two days.",
+    "[Clinician asked: \"I'm glad you brought her in today. I'll go ahead and take her temperature again. Is she experiencing any other symptoms, such as difficulty breathing or wheezing at all?\"] Not that we've noticed.",
+    "[Clinician asked: \"Is she taking down milk?\"] Barely. Not as much as she used to the week before she started to feel bad.",
+    "[Clinician asked: \"How often have you been changing her diapers?\"] Hm three or four times. I should've kept better track."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "CC": "A 2-month-old female with 1-week history of congestion and fever x2 days."
+  },
+  "n_patient_turns": 5,
+  "n_clinician_turns": 5,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 14054.291561245918,
+      "response_text": "Thank you for coming in today, and I understand how worried you must be about your baby. It\u2019s completely normal to feel concerned when your little one isn\u2019t feeling well. I\u2019ll take a thorough look at her and maybe do a few tests to make sure everything is okay. The congestion, fever, and decreased appetite are common in young babies, but it\u2019s good we\u2019re checking in. We\u2019ll figure this out together. Please feel free to ask any questions or share anything else you\u2019ve noticed.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 20160.09097546339,
+      "response_text": "I understand how worried you must be seeing your baby so congested and running a fever. It\u2019s completely understandable to feel this way, especially when your little one isn\u2019t eating well either. I can tell you\u2019re doing your best to care for her, and that\u2019s really commendable.\n\nGiven her symptoms, it sounds like she might have a viral infection, which is common in young babies. Sometimes, this can lead to conditions like bronchiolitis, often caused by RSV [PMID ?]. It\u2019s important we check her temperature again and maybe do a quick chest exam to ensure her breathing is okay. In the meantime, using saline drops and a bulb syringe can help clear her congestion, and acetaminophen or ibuprofen, as appropriate for her age, can help with the fever [PMID ?].\n\nWe\u2019ll monitor her closely today and plan to follow up in a day or two. Before you leave, could you tell me in your own words what we\u2019ve discussed so far? That way, I can make sure everything is clear.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 9231.69855773449,
+      "response_text": "I understand you're here because your two-month-old baby girl has been congested and running a fever for the past two days, and you're really worried about her.\n\nWe'll check her temperature again and monitor her symptoms closely. We'll also discuss how to manage her congestion and fever at home, and ensure she's getting enough fluids and rest. If her condition doesn't improve or gets worse, we'll consider further steps to help her feel better.\n\nCan you tell me, in your own words, what we discussed today about how to care for your baby and what to watch for in the coming days?\n\nLet's plan to keep an eye on her over the next 48 hours. If her fever doesn't come down with the recommended care, or if she develops any new symptoms like difficulty breathing, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I understand you're here because your two-month-old baby girl has been congested and running a fever for the past two days, and you're really worried about her.",
+        "clinical_information_per_concern": [],
+        "next_steps": [
+          "We'll check her temperature again and monitor her symptoms closely. We'll also discuss how to manage her congestion and fever at home, and ensure she's getting enough fluids and rest. If her condition doesn't improve or gets worse, we'll consider further steps to help her feel better."
+        ],
+        "teach_back_prompt": "Can you tell me, in your own words, what we discussed today about how to care for your baby and what to watch for in the coming days?",
+        "follow_up_invitation": "Let's plan to keep an eye on her over the next 48 hours. If her fever doesn't come down with the recommended care, or if she develops any new symptoms like difficulty breathing, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 64226.73123329878,
+      "response_text": "I can hear how much this has been worrying you \u2014 you said, \"I'm so worried about her.\" That kind of worry is really understandable when you're dealing with symptoms like fever and nasal congestion.\n\nFever and nasal congestion together might be signs of a common infection, like a cold or the flu. It's important to monitor these symptoms to see if they get worse or if new ones appear.\n\nFever can be part of the body's response to an infection. We'll keep an eye on how you're feeling and check for any changes that might need further evaluation.\n\nWe'll monitor your symptoms over the next few days to see if they improve or if anything new comes up.\n\nIf the fever gets higher, or if you develop any new symptoms like difficulty breathing, severe pain, or confusion, please reach out to us right away.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to check in again in 3 days. In the meantime, if your symptoms get worse or you feel like you need to be seen sooner, please call us.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this has been worrying you \u2014 you said, \"I'm so worried about her.\" That kind of worry is really understandable when you're dealing with symptoms like fever and nasal congestion.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "nasal congestion",
+            "profile_path": "problems[0]",
+            "explanation": "Fever and nasal congestion together might be signs of a common infection, like a cold or the flu. It's important to monitor these symptoms to see if they get worse or if new ones appear.",
+            "citations": []
+          },
+          {
+            "concern_label": "fever",
+            "profile_path": "problems[1]",
+            "explanation": "Fever can be part of the body's response to an infection. We'll keep an eye on how you're feeling and check for any changes that might need further evaluation.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll monitor your symptoms over the next few days to see if they improve or if anything new comes up.",
+          "If the fever gets higher, or if you develop any new symptoms like difficulty breathing, severe pain, or confusion, please reach out to us right away."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to check in again in 3 days. In the meantime, if your symptoms get worse or you feel like you need to be seen sooner, please call us.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 2,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 0,
+        "problems": [
+          "nasal congestion",
+          "fever"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 186167.57223010063,
+      "response_text": "I can hear how worried you are about her \u2014 you mentioned, \"I'm so worried about her.\" That must be really weighing on your mind.\n\nFor nasal congestion, we can try some simple steps first. Using a saline spray or a humidifier might help ease your symptoms.\n\nFever can be part of the body's response to an infection. We'll monitor it closely and see if it improves with rest and fluids.\n\nWe'll keep an eye on your symptoms. If they get worse or don't improve, we can explore further steps together.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to check in again in a week. If you notice any new symptoms or if things get worse, please reach out sooner.",
+      "structured_response": {
+        "acknowledgment": "I can hear how worried you are about her \u2014 you mentioned, \"I'm so worried about her.\" That must be really weighing on your mind.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "nasal congestion",
+            "profile_path": "problems[0]",
+            "explanation": "For nasal congestion, we can try some simple steps first. Using a saline spray or a humidifier might help ease your symptoms.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::sub_query[0]::38719772_0",
+                "primary_assertion_id": "38719772_0",
+                "pmids": [
+                  "38719772"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "fever",
+            "profile_path": "problems[1]",
+            "explanation": "Fever can be part of the body's response to an infection. We'll monitor it closely and see if it improves with rest and fluids.",
+            "citations": [
+              {
+                "cluster_id": "finding::global::38521534_0",
+                "primary_assertion_id": "38521534_0",
+                "pmids": [
+                  "38521534"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll keep an eye on your symptoms. If they get worse or don't improve, we can explore further steps together."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to check in again in a week. If you notice any new symptoms or if things get worse, please reach out sooner.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "recommendation::sub_query[0]::38719772_0",
+          "finding::global::38521534_0"
+        ],
+        "all_pmids_used": [
+          "38719772",
+          "38521534"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 2,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 0,
+        "problems": [
+          "nasal congestion",
+          "fever"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "38719772",
+        "38521534"
+      ],
+      "cluster_ids_used": [
+        "recommendation::sub_query[0]::38719772_0",
+        "finding::global::38521534_0"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 49456.29511773586,
+        "module_2_retrieval": 62.94674426317215,
+        "module_3_reasoning": 115636.2975537777,
+        "module_4_response": 21010.568514466286,
+        "total_ms": 186166.10793024302
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

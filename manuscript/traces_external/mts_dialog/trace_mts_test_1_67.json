@@ -1,0 +1,232 @@
+{
+  "transcript_id": "mts_test_1_67",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "The patient is a 56-year-old right-handed female with longstanding intermittent right low back pain, who was involved in a motor vehicle acc",
+  "patient_utterances": [
+    "[Clinician asked: \"How old are you?\"] Fifty six.",
+    "[Clinician asked: \"Are you right handed or left handed?\"] I'm right handed.",
+    "[Clinician asked: \"So, you have this long standing on and off lower back pain on your right side. And it all happened after your motor vehicle accident in September of two thousand and five.\"] That's right. Right after accident. At that time, I did not feel anything, but five days later I started getting this abnormal like pain in the lower side of my back, especially on the right side. It kind of like moved from there to my buttocks on the posterior side on my thigh and on outside of my calf.",
+    "[Clinician asked: \"Does anything elevate your pain or decreases it?\"] It gets worse when I'm sitting for a longer period, such as like driving or if I'm walking for a long period of time. It is a little less bad when walking, but still, it is there. Lying down relieves the pain for a bit and also standing helps.",
+    "[Clinician asked: \"Is there any symptom like weakness or pain in your left leg or your right leg?\"] Nope.",
+    "[Clinician asked: \"Any change in your bowel movement or your urine function?\"] Nope.",
+    "[Clinician asked: \"Were your symptoms sudden or were they increasing gradually?\"] They increased slowly. I had the pain killers, Medrol but, it has not been very effective. I also had that big injection in my back. It helped me for a few hours but then next day it was all same for me.",
+    "[Clinician asked: \"When did this happen? When did you get the injection?\"] This was done four and a half weeks ago.",
+    "[Clinician asked: \"Okay, let me just quickly check your legs. They look full in strength, and they also seem symmetric to me. Can you raise your leg? Like straight up?\"] Yeah sure."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "HPI": "The patient is a 56-year-old right-handed female with longstanding intermittent right low back pain, who was involved in a motor vehicle accident in September of 2005.  At that time, she did not notice any specific injury.  Five days later, she started getting abnormal right low back pain.  At this time, it radiates into the buttocks down the posterior aspect of her thigh and into the right lateral aspect of her calf.  Symptoms are worse when sitting for any length of time, such as driving a motor vehicle.  Mild symptoms when walking for long periods of time.  Relieved by standing and lying down.  She denies any left leg symptoms or right leg weakness.  No change in bowel or bladder function.  Symptoms have slowly progressed.  She has had Medrol Dosepak and analgesics, which have not been very effective.  She underwent a spinal epidural injection, which was effective for the first few hours, but she had recurrence of the pain by the next day.  This was done four and a half weeks ago. On examination, lower extremities strength is full and symmetric.  Straight leg raising is normal."
+  },
+  "n_patient_turns": 9,
+  "n_clinician_turns": 10,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 17631.37634843588,
+      "response_text": "I'm really sorry to hear about your ongoing struggle with this back pain. It's been a long journey since your accident, and I completely understand how frustrating it must be when treatments haven't provided the relief you need. Your symptoms, especially the pain radiating down your leg, suggest it might be related to sciatica, possibly from a herniated disc. This condition can cause nerve irritation, leading to the pain you're experiencing.\n\nWe'll work together to explore the best options for managing your pain and promoting healing. Physical therapy could help strengthen and improve flexibility in your back. We might also consider other treatments if needed. Recovery can take time, but with the right approach, we can help you feel better. Please feel free to ask any questions or share your concerns\u2014I'm here to support you through this.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 20846.351511776447,
+      "response_text": "Thank you for sharing all the details about your pain. It sounds like you've been through a lot since the accident, and I can understand how frustrating it must be that the treatments haven't provided lasting relief. Dealing with pain for so long, especially when it affects your daily activities, is really challenging, and I want to make sure we work together to find something that helps.\n\nGiven your history, the pain pattern suggests there might be some nerve irritation, possibly from a herniated disc or spinal stenosis. These conditions can cause pain that radiates down the leg, especially with activities like sitting or walking. I'll check if you've had imaging like an MRI, as that can help us see what's going on with your spine [PMID ?]. We might also consider physical therapy to strengthen your core and improve flexibility, or perhaps a different type of injection if the previous one didn't help enough [PMID ?].\n\nWe'll plan to review your imaging results and discuss the next steps in the next two weeks. Before you leave, can you tell me in your own words what we've agreed to do? That way I can make sure everything is clear.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6879.891030490398,
+      "response_text": "Thank you for sharing your concerns with me. It sounds like you're dealing with some persistent discomfort, and I want to make sure we address it properly.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if your pain gets worse or you notice any new symptoms, please call us so we can address them promptly.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns with me. It sounds like you're dealing with some persistent discomfort, and I want to make sure we address it properly.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if your pain gets worse or you notice any new symptoms, please call us so we can address them promptly.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 82397.87548780441,
+      "response_text": "It sounds like you're dealing with some persistent lower back pain that's been bothering you for a while, especially after your motor vehicle accident in 2005.\n\nLower back pain can sometimes be related to past injuries, like the motor vehicle accident you had in 2005. The pain you're describing, especially on the right side and moving down to your buttocks and leg, suggests we need to look into possible causes carefully.\n\nWe'll need to do some tests to figure out what's causing your back pain, especially since it's been ongoing and affecting your daily activities.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks to review the results of these tests. In the meantime, if your pain gets worse or you experience any new symptoms, please call us so we can address them promptly.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're dealing with some persistent lower back pain that's been bothering you for a while, especially after your motor vehicle accident in 2005.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "lower back pain",
+            "profile_path": "problems[0]",
+            "explanation": "Lower back pain can sometimes be related to past injuries, like the motor vehicle accident you had in 2005. The pain you're describing, especially on the right side and moving down to your buttocks and leg, suggests we need to look into possible causes carefully.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll need to do some tests to figure out what's causing your back pain, especially since it's been ongoing and affecting your daily activities."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks to review the results of these tests. In the meantime, if your pain gets worse or you experience any new symptoms, please call us so we can address them promptly.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "lower back pain"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 139448.14889132977,
+      "response_text": "It sounds like the lower back pain you've been experiencing, especially on the right side and moving down to your buttocks, posterior thigh, and outside of your calf, has been quite uncomfortable. I want to make sure I understand how this is affecting your daily life.\n\nBased on clinical findings, certain movements and pain patterns can help identify the cause of your lower back pain. For example, pain during specific hip motions or squatting can indicate different conditions, with varying levels of sensitivity and specificity. Testing these movements can help guide the next steps in understanding your pain better.\n\nWe'll start with some basic tests to assess your hip motion and check for pain during specific movements. This will help us better understand the cause of your pain and guide the next steps in your care.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to follow up in a week to review the results of these tests and discuss any further steps needed. In the meantime, if your pain gets worse or you experience any new symptoms, please reach out to us as soon as possible.",
+      "structured_response": {
+        "acknowledgment": "It sounds like the lower back pain you've been experiencing, especially on the right side and moving down to your buttocks, posterior thigh, and outside of your calf, has been quite uncomfortable. I want to make sure I understand how this is affecting your daily life.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "lower back pain",
+            "profile_path": "problems[0]",
+            "explanation": "Based on clinical findings, certain movements and pain patterns can help identify the cause of your lower back pain. For example, pain during specific hip motions or squatting can indicate different conditions, with varying levels of sensitivity and specificity. Testing these movements can help guide the next steps in understanding your pain better.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[0]::31846019_0",
+                "primary_assertion_id": "31846019_0",
+                "pmids": [
+                  "31846019"
+                ]
+              },
+              {
+                "cluster_id": "finding::sub_query[0]::31846019_1",
+                "primary_assertion_id": "31846019_1",
+                "pmids": [
+                  "31846019"
+                ]
+              },
+              {
+                "cluster_id": "finding::sub_query[0]::31846019_2",
+                "primary_assertion_id": "31846019_2",
+                "pmids": [
+                  "31846019"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll start with some basic tests to assess your hip motion and check for pain during specific movements. This will help us better understand the cause of your pain and guide the next steps in your care."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to follow up in a week to review the results of these tests and discuss any further steps needed. In the meantime, if your pain gets worse or you experience any new symptoms, please reach out to us as soon as possible.",
+        "nurse_elements_applied": [
+          "Invest in the beginning",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[0]::31846019_0",
+          "finding::sub_query[0]::31846019_1",
+          "finding::sub_query[0]::31846019_2"
+        ],
+        "all_pmids_used": [
+          "31846019"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "lower back pain"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "31846019"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[0]::31846019_0",
+        "finding::sub_query[0]::31846019_1",
+        "finding::sub_query[0]::31846019_2"
+      ],
+      "nurse_elements_applied": [
+        "Invest in the beginning",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 67726.39409452677,
+        "module_2_retrieval": 39.11126405000687,
+        "module_3_reasoning": 47791.944704949856,
+        "module_4_response": 23889.422826468945,
+        "total_ms": 139446.87288999557
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

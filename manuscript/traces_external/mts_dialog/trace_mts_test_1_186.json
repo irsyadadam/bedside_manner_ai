@@ -1,0 +1,307 @@
+{
+  "transcript_id": "mts_test_1_186",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "The patient is a 78-year-old female with the problem of essential hypertension",
+  "patient_utterances": [
+    "[Clinician asked: \"Hello ma'am. How are you doing today? Can you state your age please?\"] I was born in nineteen forty three and am seventy eight years young. I am doing well other than the hypertension issue.",
+    "[Clinician asked: \"Luckily, all of the intercranial lab work has come back negative. Are you still on the hydrochlorothiazide and the potassium chloride?\"] Yes, I take twenty five M G of the hydrochlorothiazide once a day. I also take the potassium once a day as well. Both control my blood pressure fine.",
+    "[Clinician asked: \"Any chest pain, shortness of breath, dizzy spells, ankle swelling, or trouble breathing when sleeping?\"] I have none of that so far."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "HPI": "The patient is a 78-year-old female with the problem of essential hypertension.  She has symptoms that suggested intracranial pathology, but so far work-up has been negative. She is taking hydrochlorothiazide 25-mg once a day and K-Dur 10-mEq once a day with adequate control of her blood pressure.  She denies any chest pain, shortness of breath, PND, ankle swelling, or dizziness."
+  },
+  "n_patient_turns": 3,
+  "n_clinician_turns": 3,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 16493.47259104252,
+      "response_text": "Hello, Mrs. [Last Name]. It's wonderful to hear that you're doing well at 78 years young. I'm glad to see that your hypertension is under good control with the hydrochlorothiazide and potassium chloride. The negative lab results are a reassuring sign, and it's positive that you're not experiencing any concerning symptoms like chest pain or shortness of breath. Please continue with your current treatment and don't hesitate to reach out if you have any questions or concerns. Keep up the great work, and remember to stay proactive with your regular check-ups. Here's to your continued good health!",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 23229.09665852785,
+      "response_text": "Thank you for sharing your health details with me. It's wonderful to hear that you're managing your hypertension well at 78 years young. Your commitment to taking your hydrochlorothiazide and potassium chloride as prescribed is commendable, and it's clear that this regimen is effectively controlling your blood pressure.\n\nGiven that your blood pressure is well-managed and you're not experiencing any concerning symptoms, we can continue with your current treatment plan. Hydrochlorothiazide, a diuretic, helps reduce fluid retention, which lowers blood pressure, while potassium chloride supports heart function and helps counteract any potassium loss from the diuretic [PMID ?]. It's important to maintain this routine and monitor for any changes in how you feel, such as increased urination or thirst, which are common side effects.\n\nWe'll schedule a follow-up in 4-6 weeks to reassess your blood pressure and ensure everything remains stable. In the meantime, please feel free to reach out if you have any questions or concerns. Your proactive approach to your health is truly commendable, and I'm here to support you every step of the way.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7310.1470693945885,
+      "response_text": "Thank you for sharing your health concerns with me. It sounds like high blood pressure is the main issue you're dealing with, and I'm glad to hear that your medications are helping to control your blood pressure.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if you notice any changes in your blood pressure or if you start experiencing any new symptoms, please call us so we can address them promptly.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your health concerns with me. It sounds like high blood pressure is the main issue you're dealing with, and I'm glad to hear that your medications are helping to control your blood pressure.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if you notice any changes in your blood pressure or if you start experiencing any new symptoms, please call us so we can address them promptly.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": [
+          {
+            "field": "acknowledgment",
+            "original": "hypertension",
+            "plain": "high blood pressure",
+            "count": 1
+          }
+        ]
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 37236.032865941525,
+      "response_text": "It sounds like you're here to talk about your high blood pressure. Let's get started.\n\nHigh blood pressure is a common condition that can lead to serious health issues if not managed properly. The guidelines suggest that managing high blood pressure involves regular monitoring and appropriate treatment based on individual circumstances.\n\nWe'll review your current treatment plan and make sure it's the best approach for you.\n\nWe'll schedule a follow-up appointment to monitor your blood pressure and adjust your treatment as needed.\n\nCan you tell me, in your own words, what we discussed today about managing your high blood pressure?\n\nLet's plan to see each other again in a few weeks. In the meantime, keep track of your blood pressure readings and let us know if you notice any changes or have any questions.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're here to talk about your high blood pressure. Let's get started.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "hypertension",
+            "profile_path": "problems[0]",
+            "explanation": "High blood pressure is a common condition that can lead to serious health issues if not managed properly. The guidelines suggest that managing high blood pressure involves regular monitoring and appropriate treatment based on individual circumstances.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::32866417",
+                "primary_assertion_id": "32866417_retr",
+                "pmids": [
+                  "32866417"
+                ]
+              },
+              {
+                "cluster_id": "retrieval_only::40527605",
+                "primary_assertion_id": "40527605_retr",
+                "pmids": [
+                  "40527605"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll review your current treatment plan and make sure it's the best approach for you.",
+          "We'll schedule a follow-up appointment to monitor your blood pressure and adjust your treatment as needed."
+        ],
+        "teach_back_prompt": "Can you tell me, in your own words, what we discussed today about managing your high blood pressure?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, keep track of your blood pressure readings and let us know if you notice any changes or have any questions.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "retrieval_only::32866417",
+          "retrieval_only::40527605"
+        ],
+        "all_pmids_used": [
+          "32866417",
+          "40527605"
+        ],
+        "glossary_substitutions": [
+          {
+            "field": "acknowledgment",
+            "original": "hypertension",
+            "plain": "high blood pressure",
+            "count": 1
+          },
+          {
+            "field": "teach_back_prompt",
+            "original": "hypertension",
+            "plain": "high blood pressure",
+            "count": 1
+          },
+          {
+            "field": "clinical_information_per_concern[0].explanation",
+            "original": "hypertension",
+            "plain": "high blood pressure",
+            "count": 1
+          }
+        ]
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 2,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "hypertension"
+        ],
+        "medications": [
+          "hydrochlorothiazide 25 mg once daily",
+          "potassium chloride once daily"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [
+        "32866417",
+        "40527605"
+      ],
+      "cluster_ids_used": [
+        "retrieval_only::32866417",
+        "retrieval_only::40527605"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 101274.33668076992,
+      "response_text": "It sounds like you're here to talk about your high blood pressure.\n\nHigh blood pressure is defined as blood pressure that's 130/80 mm Hg or higher. The goal is to keep your systolic pressure below 130 mm Hg. To manage this, healthy lifestyle changes are recommended, and if needed, medications can be adjusted based on your specific situation.\n\nWe'll review your current medications, including hydrochlorothiazide and potassium chloride, to ensure they're appropriate for managing your high blood pressure.\n\nWe'll discuss any lifestyle changes you can make to help lower your blood pressure.\n\nIf needed, we'll adjust your treatment plan based on your latest readings and overall health.\n\nCan you summarize what we discussed today about managing your high blood pressure?\n\nLet's schedule a follow-up in 4 weeks to check on your progress. In the meantime, keep track of your blood pressure readings and let me know if you have any questions or concerns.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're here to talk about your high blood pressure.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "hypertension",
+            "profile_path": "problems[0]",
+            "explanation": "High blood pressure is defined as blood pressure that's 130/80 mm Hg or higher. The goal is to keep your systolic pressure below 130 mm Hg. To manage this, healthy lifestyle changes are recommended, and if needed, medications can be adjusted based on your specific situation.",
+            "citations": [
+              {
+                "cluster_id": "finding::problems[0]::40527605_0",
+                "primary_assertion_id": "40527605_0",
+                "pmids": [
+                  "40527605"
+                ]
+              },
+              {
+                "cluster_id": "recommendation::problems[0]::40527605_1",
+                "primary_assertion_id": "40527605_1",
+                "pmids": [
+                  "40527605"
+                ]
+              },
+              {
+                "cluster_id": "recommendation::problems[0]::40527605_2",
+                "primary_assertion_id": "40527605_2",
+                "pmids": [
+                  "40527605"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll review your current medications, including hydrochlorothiazide and potassium chloride, to ensure they're appropriate for managing your high blood pressure.",
+          "We'll discuss any lifestyle changes you can make to help lower your blood pressure.",
+          "If needed, we'll adjust your treatment plan based on your latest readings and overall health."
+        ],
+        "teach_back_prompt": "Can you summarize what we discussed today about managing your high blood pressure?",
+        "follow_up_invitation": "Let's schedule a follow-up in 4 weeks to check on your progress. In the meantime, keep track of your blood pressure readings and let me know if you have any questions or concerns.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning"
+        ],
+        "all_cluster_ids_used": [
+          "finding::problems[0]::40527605_0",
+          "recommendation::problems[0]::40527605_1",
+          "recommendation::problems[0]::40527605_2"
+        ],
+        "all_pmids_used": [
+          "40527605"
+        ],
+        "glossary_substitutions": [
+          {
+            "field": "acknowledgment",
+            "original": "hypertension",
+            "plain": "high blood pressure",
+            "count": 1
+          },
+          {
+            "field": "teach_back_prompt",
+            "original": "hypertension",
+            "plain": "high blood pressure",
+            "count": 1
+          },
+          {
+            "field": "next_steps[0]",
+            "original": "hypertension",
+            "plain": "high blood pressure",
+            "count": 1
+          },
+          {
+            "field": "clinical_information_per_concern[0].explanation",
+            "original": "hypertension",
+            "plain": "high blood pressure",
+            "count": 1
+          }
+        ]
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 2,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "hypertension"
+        ],
+        "medications": [
+          "hydrochlorothiazide 25 mg once daily",
+          "potassium chloride once daily"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [
+        "40527605"
+      ],
+      "cluster_ids_used": [
+        "finding::problems[0]::40527605_0",
+        "recommendation::problems[0]::40527605_1",
+        "recommendation::problems[0]::40527605_2"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 20675.787672400475,
+        "module_2_retrieval": 53.76812070608139,
+        "module_3_reasoning": 57911.12595051527,
+        "module_4_response": 22632.267020642757,
+        "total_ms": 101272.94876426458
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

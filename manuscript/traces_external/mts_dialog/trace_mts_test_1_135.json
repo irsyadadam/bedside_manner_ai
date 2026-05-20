@@ -1,0 +1,210 @@
+{
+  "transcript_id": "mts_test_1_135",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "The patient is a 26-year-old African-American male who states that he was stepping off a hilo at work when he felt a sudden pop in the poste",
+  "patient_utterances": [
+    "[Clinician asked: \"Good afternoon, sir, before we begin, how old are you?\"] I'm twenty-six years old, sir.",
+    "[Clinician asked: \"Good, and what race do you identify with?\"] I'm an African American, sir.",
+    "[Clinician asked: \"Great, so how did you get hurt?\"] I stepped off a hilo at work, and I felt this pop in my left leg.",
+    "[Clinician asked: \"Where did you feel the pop?\"] It was in the back of the leg.",
+    "[Clinician asked: \"What treatments have you had for this knee so far?\"] I got put in a splint, and they recommended I follow up with you at ABC orthopedics."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "HPI": "The patient is a 26-year-old African-American male who states that he was stepping off a hilo at work when he felt a sudden pop in the posterior aspect of his left leg.  The patient was placed in posterior splint and followed up at ABC orthopedics for further care."
+  },
+  "n_patient_turns": 5,
+  "n_clinician_turns": 6,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 13637.391775846481,
+      "response_text": "I'm sorry to hear about your injury. It sounds like a concerning situation, and I understand how worrying that must be. Please know that we're here to figure this out together. I'll start by examining your leg and checking the splint to ensure everything is as it should be. Depending on what we find, we might need some imaging, like an X-ray or MRI, to get a clearer picture of what's going on. We'll take it step by step and work together to get you back on your feet as soon as possible. I hope you're feeling a bit better today, and I'm here to answer any questions you might have.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 21235.55737733841,
+      "response_text": "Thank you for sharing your experience. It sounds like you're in some discomfort, and I can understand why you'd feel concerned after such an injury. Stepping off a hilo and feeling a pop can be unsettling, especially when it affects your ability to work. I want to make sure we address this properly and get you back on your feet.\n\nGiven the location of the pop in the back of your leg, we'll need to evaluate whether it might be related to a muscle strain, ligament sprain, or even a minor fracture. The splint you received is a good initial step to protect the area, and we'll follow up with an exam and imaging if needed [PMID ?]. It's important to monitor your symptoms and ensure we're on the right track.\n\nWe'll start with a thorough examination today and decide together if any imaging is necessary. I'll explain everything in simple terms and make sure you're comfortable with the plan. Please let me know if there's anything else you're feeling or if there's more about the injury you'd like to share.\n\nOur next steps will include the exam and any necessary imaging. I'll check in with you in about a week to see how you're progressing. Before you leave, could you summarize what we've discussed so far? That way, I can ensure you understand our plan and address any questions you might have.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 8124.424807727337,
+      "response_text": "Thank you for sharing your experience with me today. It sounds like you're in some discomfort, and I want to make sure we address it properly.\n\nWe'll start by reviewing your current situation and treatment plan to see how we can best move forward. If there are any specific concerns or questions you have, feel free to bring them up so we can address them together.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to review your progress in a few days. If you experience any worsening symptoms or have any questions before then, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your experience with me today. It sounds like you're in some discomfort, and I want to make sure we address it properly.",
+        "clinical_information_per_concern": [],
+        "next_steps": [
+          "We'll start by reviewing your current situation and treatment plan to see how we can best move forward. If there are any specific concerns or questions you have, feel free to bring them up so we can address them together."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to review your progress in a few days. If you experience any worsening symptoms or have any questions before then, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 36713.99425715208,
+      "response_text": "Thank you for sharing your concern about your left leg pop. It sounds like this happened when you stepped off a hilo at work, and you've already tried using a splint. I want to make sure we understand what's going on and figure out the best way to help you.\n\nA left leg pop, especially after an activity like stepping off a hilo, can be concerning. While we don't have specific guidelines for this exact situation, it's important to consider possible causes and monitor your symptoms closely.\n\nWe'll schedule a follow-up to assess your leg and determine the next steps based on your symptoms and any additional information we gather.\n\nIn the meantime, continue to monitor how you're feeling and let us know if there are any changes.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again soon to check on your leg. If you experience any severe pain, swelling, or inability to move your leg, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concern about your left leg pop. It sounds like this happened when you stepped off a hilo at work, and you've already tried using a splint. I want to make sure we understand what's going on and figure out the best way to help you.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "left leg pop",
+            "profile_path": "problems[0]",
+            "explanation": "A left leg pop, especially after an activity like stepping off a hilo, can be concerning. While we don't have specific guidelines for this exact situation, it's important to consider possible causes and monitor your symptoms closely.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll schedule a follow-up to assess your leg and determine the next steps based on your symptoms and any additional information we gather.",
+          "In the meantime, continue to monitor how you're feeling and let us know if there are any changes."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again soon to check on your leg. If you experience any severe pain, swelling, or inability to move your leg, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "left leg pop"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 83939.63698297739,
+      "response_text": "It sounds like this has been concerning for you, especially with the pop in your left leg when you stepped off a hilo at work.\n\nA pop in the leg can sometimes be related to muscle or tendon issues, especially after an activity like stepping off a hilo. We'll want to check if there's any underlying cause that needs attention.\n\nWe'll schedule an imaging study to get a better look at your left leg and rule out any serious issues.\n\nIn the meantime, we'll suggest some gentle stretching exercises to help with any discomfort.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 2 weeks. In the meantime, if the pain gets worse or you notice any swelling, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "It sounds like this has been concerning for you, especially with the pop in your left leg when you stepped off a hilo at work.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "left leg pop",
+            "profile_path": "problems[0]",
+            "explanation": "A pop in the leg can sometimes be related to muscle or tendon issues, especially after an activity like stepping off a hilo. We'll want to check if there's any underlying cause that needs attention.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[1]::39366124_0",
+                "primary_assertion_id": "39366124_0",
+                "pmids": [
+                  "39366124"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll schedule an imaging study to get a better look at your left leg and rule out any serious issues.",
+          "In the meantime, we'll suggest some gentle stretching exercises to help with any discomfort."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 2 weeks. In the meantime, if the pain gets worse or you notice any swelling, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[1]::39366124_0"
+        ],
+        "all_pmids_used": [
+          "39366124"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "left leg pop"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "39366124"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[1]::39366124_0"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 23565.721713006496,
+        "module_2_retrieval": 32.55058825016022,
+        "module_3_reasoning": 44838.99189531803,
+        "module_4_response": 15501.183971762657,
+        "total_ms": 83938.44816833735
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

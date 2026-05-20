@@ -1,0 +1,311 @@
+{
+  "transcript_id": "primock57_day4_consultation02",
+  "dataset": "primock57",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "I'm feeling hot and have severe headaches",
+  "patient_utterances": [
+    "[Clinician asked: \"You have to do it, part of your training as a doctor.\"] Hello.",
+    "[Clinician asked: \"Hi. Hi. Can you hear me?\"] . Yes, I can hear fine.",
+    "[Clinician asked: \"Hi. My name's Doctor Gohill, I'm one of the general practitioners, that works here. Can I check your name and date of birth please?\"] Uh, I am, uh, Patrick Smith.",
+    "[Clinician asked: \"Hi.\"] Uh, thirty five years old. Um, October, seventh. Uh. ninety , three something.",
+    "[Clinician asked: \"Great. And Patrick, are you in a, space, that's private and quiet?\"] Yes.",
+    "[Clinician asked: \"Great, and so, we're OK to chat?\"] Yes, we are.",
+    "[Clinician asked: \"OK. So it says here, um, you are feeling hot, and have had severe headaches. Is that correct?\"] Yeah. It's, it's really affecting my work. Uh, uh, it comes and goes. Uh. Uh, I kind of, feel like, uh, it's, it's hard 'cause I, I , kinda lose my appetite. Also. Uh, one thing that's kinda weird is, I just sometimes also get like some, tingling in my arms.",
+    "[Clinician asked: \"OK.\"] . And, like, especially if, for example when I, come into the elevator, in the morning.",
+    "[Clinician asked: \"OK.\"] I, I can uh, of have, my heart is beating, kinda fast.",
+    "[Clinician asked: \"OK. So, those are lots of things. Are they all happening at the same time?\"] Almost randomly like. Yeah, it's, it's, it's at different , times.",
+    "[Clinician asked: \"And, do they all happen at the same time? Or is it one thing one time, and one <INAUDIBLE_SPEECH/>?\"] <INAUDIBLE_SPEECH/>, one time, one thing at a time.",
+    "[Clinician asked: \"OK. So, let's start with the headaches. When they do come, do you have any idea the headache is going to come?\"] <INAUDIBLE_SPEECH/> <INAUDIBLE_SPEECH/> Uh, not really but, generally during, work times.",
+    "[Clinician asked: \"So, it's normally at work?\"] I'm at work, I'm in a meeting, or on my laptop.",
+    "[Clinician asked: \"OK. And, where does the headache sit in your head? Is it the front, or the back?\"] Um, I can't say, so like, kind of over.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/>. OK. And, does it <INAUDIBLE_SPEECH/> else?\"] <INAUDIBLE_SPEECH/> <INAUDIBLE_SPEECH/>",
+    "[Clinician asked: \"Does it go anywhere else?\"] , the headache? No, it's mostly in the front, and then yeah, it just kind of stays there.",
+    "[Clinician asked: \"And, when you have the headaches, specifically, do you feel sick?\"] Yeah. , not, not, not really, but it's like, making it hard. I, yeah, I kind of feel a little bit nauseous maybe. Um.",
+    "[Clinician asked: \"OK.\"] And sometimes I also feel like. Uh, yeah. It's like uh, maybe, probably, breathing or something.",
+    "[Clinician asked: \"OK.\"] No.",
+    "[Clinician asked: \"And, do you normally get headaches, before all of this started?\"] Uh, so. No, I, I feel like my, like, health situation was mostly under control.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/> OK.\"] Yeah.",
+    "[Clinician asked: \"And then let's.\"] But it <INAUDIBLE_SPEECH/>, it started roughly when I changed jobs.",
+    "[Clinician asked: \"OK. So, talk to me about your job, what do you do?\"] I'm a lawyer.",
+    "[Clinician asked: \"And, do you work in London at the moment?\"] Yes.",
+    "[Clinician asked: \"So, do you get these headaches on your commute in to work?\"] Not really. I get it, mostly when I'm, at work.",
+    "[Clinician asked: \"OK, and tell me about what you do. Do you sit in front of a computer most of the time? Or do you speak to people?\"] Like fifty-fifty. I go to meetings and then uh, sit in front of a computer.",
+    "[Clinician asked: \"OK.\"] There's a lot of reading.",
+    "[Clinician asked: \"And, these things have happened mostly when you're sitting at your computer?\"] Um. , yeah, it happens then, yeah.",
+    "[Clinician asked: \"OK, and tell me, what did you do, before being a lawyer?\"] Uh, no, I was a lawyer at previous job as well.",
+    "[Clinician asked: \"OK.\"] <INAUDIBLE_SPEECH/>",
+    "[Clinician asked: \"So, talk to me about the stress that you're under at the moment. If, uh, ten out of ten is, extremely stressful, and one out of ten is being on vacation. Where would <INAUDIBLE_SPEECH/> moment?\"] <INAUDIBLE_SPEECH/> Think it's, seven, or eight.",
+    "[Clinician asked: \"And, is that normal for you?\"] Yeah, it's like, a law firm, like, there's always pressure.",
+    "[Clinician asked: \"OK. So, you mentioned your headaches. You also mentioned your reduced appetite. So, you don't want to eat as much.\"] Yeah.",
+    "[Clinician asked: \"Have you lost weight?\"] Yes.",
+    "[Clinician asked: \"Can you remember how much you've lost?\"] Five pounds.",
+    "[Clinician asked: \"And, is that because you're going to the gym? Or is that unintentional?\"] It's not intentional, no.",
+    "[Clinician asked: \"OK. So, have you noticed your clothes feeling looser?\"] <INAUDIBLE_SPEECH/>, not really, ah, no.",
+    "[Clinician asked: \"And, have people said, or commented that you've lost weight?\"] No.",
+    "[Clinician asked: \"Great. And, another thing that you also mentioned. Is that you noticed tingling in your hand.\"] Yeah.",
+    "[Clinician asked: \"So, talk to me about that. Is it in one hand? Or both hands?\"] Both.",
+    "[Clinician asked: \"And, do you get that in your legs as well?\"] No.",
+    "[Clinician asked: \"And, what does it feel like, the tingling?\"] Quick picking, yeah.",
+    "[Clinician asked: \"And again, is this the first time you've noticed this?\"] Yeah.",
+    "[Clinician asked: \"OK. And the other two things that I've just, jotted down. Is, you're feeling hot, but you didn't mention that. Is that correct?\"] <INAUDIBLE_SPEECH/> Uh, but like. I would say like, I get this like, feeling of, short, like, , short of breath, sometimes.",
+    "[Clinician asked: \"OK.\"] So, like, that could be what, you we're, referring to.",
+    "[Clinician asked: \"Yes. So, do you feel short of breath while you're sitting at your desk?\"] Yeah, no. Yes. Sorry, yeah.",
+    "[Clinician asked: \". OK. And, how about when you're exercising?\"] No.",
+    "[Clinician asked: \"OK. And the last thing is. You mentioned that you noticed your heart beating?\"] Yeah.",
+    "[Clinician asked: \"Again, how often do you get that?\"] I, I, when I like, it's maybe once a day, uh, maybe more. Uh. There's one more thing that I, I think I should mention, like, I do have like, some loss of libido at home.",
+    "[Clinician asked: \"OK. How long has that been happening for?\"] Same amount of time really, like, since I changed my job.",
+    "[Clinician asked: \"Fine. And, apart from all of these things that you've told me. Do you have any other medical problems?\"] Uh, well I have, hyperthyroidism.",
+    "[Clinician asked: \"OK. And, do you take medications for that?\"] Thyroxine.",
+    "[Clinician asked: \"And, are you remembering to take your medications?\"] Yes.",
+    "[Clinician asked: \"OK. And, do you drink or smoke?\"] Yes.",
+    "[Clinician asked: \"How much do you drink?\"] Like, once a week, couple of glasses, of wine.",
+    "[Clinician asked: \"OK. And, how about smoking?\"] No.",
+    "[Clinician asked: \"And, uh, I need to ask this to all of my patients, but do you do anything else recreational, in terms of drugs?\"] No.",
+    "[Clinician asked: \"OK. So, you've never taken cocaine, or marijuana?\"] . No.",
+    "[Clinician asked: \"OK, thank you. And, are you allergic to anything?\"] <INAUDIBLE_SPEECH/>",
+    "[Clinician asked: \"Good. So, you've told me lots of things happening to you at the moment, and I can understand, they probably feel quite strange and unusual.\"] Yeah.",
+    "[Clinician asked: \"Um, I think the best course of action is, you come and see, one of our doctors, in the clinic.\"] Yeah.",
+    "[Clinician asked: \"We can give you an examination, and what that means is, we check your heart and your breathing.\"] Yeah.",
+    "[Clinician asked: \"Make sure that those things are functioning correctly.\"] Yeah.",
+    "[Clinician asked: \"And probably do some blood tests, for your thyroxine.\"] Yep.",
+    "[Clinician asked: \"And take it from there. How does that sound?\"] That sounds, uh, very good. Thank you.",
+    "[Clinician asked: \"I think before we give you any medications, we should see you in person.\"] OK. <INAUDIBLE_SPEECH/>.",
+    "[Clinician asked: \"So, what we're going to do is book an appointment. Or I think you can book an appointment through the app, to come and see us <INAUDIBLE_SPEECH/> clinic, and see one of my colleagues.\"] Yep. Yep. Yep.",
+    "[Clinician asked: \"I'll let them know what you've told me today, so you won't have to repeat exactly what you've said.\"] Thank you.",
+    "[Clinician asked: \"Great. Do you have any questions?\"] Right. No, that was it. Thank you very much.",
+    "[Clinician asked: \"Thank you very much.\"] Yep, bye."
+  ],
+  "gold_note": "PC. Headaches, loss of appetite, tingling, feel hot, palpitations,  acute onset, at random times of the day while at work (lawyer)\n\nHPC: \nPC started when started new job (lawer, high stress, works in front of a computer)\nHeadaches:\n-\tNo pre aura, \n-\tFrontal\n-\tNo radiation\n-\tSome nausea  no vomiting,\n-\tNo pmhx of headache.\n\nReduced appetite, with unintentional weight loss, loss of 5lbs \nPins and needles in both arms, no radiation to legs, maintains motor and sense, no loss of function\nFevers with headaches \nPalpitations with mild SOBOE and SOBAR.\n\n\nSymptoms occur at random times of the day while at work, with no pre-symptoms, sometimes together, sometimes individually.\n\nPMHx , hypothyroid. \n\nDHx allergies - nil\nThyroxine. \n\nSHx lawer , stressful job.\n\nDDx ??hypothyroid?\n\nPlans : requires further examination and blood tests.",
+  "gold_sections": {
+    "PRESENTING_COMPLAINT": "I'm feeling hot and have severe headaches",
+    "HIGHLIGHTS": ""
+  },
+  "n_patient_turns": 70,
+  "n_clinician_turns": 70,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 20663.86130452156,
+      "response_text": "Thank you for sharing your concerns with me, Patrick. I understand how unsettling these symptoms must be, especially with how they're affecting your work and daily life. It's important that we address them thoroughly. The headaches, tingling in your arms, heart palpitations, and unintentional weight loss are all symptoms we should look into. Given your hyperthyroidism, we'll monitor your thyroid levels closely, but we'll also check your heart and breathing to ensure everything is functioning as it should. \n\nPlease make an appointment through the app as soon as you can. This way, we can conduct a thorough examination and any necessary tests. I'm here if you have any questions or concerns in the meantime. Your health is important, and we're here to support you through this.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 22751.403033733368,
+      "response_text": "Thank you for sharing all of this with me, Patrick. It sounds like you're experiencing a lot of unsettling symptoms, and I can understand how concerning and unusual this must feel for you. It\u2019s important that we work together to get to the bottom of what\u2019s going on.\n\nGiven your symptoms\u2014headaches, feeling hot, weight loss, tingling in your arms, shortness of breath, and palpitations\u2014it\u2019s crucial to rule out potential causes. Your hyperthyroidism could be contributing, but we should also consider other possibilities like stress, dehydration, or even vitamin deficiencies [PMID ?]. The palpitations and shortness of breath are particularly notable, so we want to ensure your heart and lungs are functioning properly.\n\nWe\u2019ll start with an appointment at the clinic for a thorough examination and blood tests. This will help us get a clearer picture and guide the next steps. In the meantime, if you experience severe symptoms like chest pain or worsening shortness of breath, please seek immediate care.\n\nBefore you go, could you summarize what we\u2019ve discussed so far? This will help ensure you understand the plan and feel confident moving forward. We\u2019ll follow up within the next two weeks to review the results and adjust as needed.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 8436.311513185501,
+      "response_text": "Thank you for sharing all of this with me. It sounds like you're experiencing a lot of different symptoms that are impacting your daily life.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few days. In the meantime, if you experience any severe symptoms like chest pain or difficulty breathing, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing all of this with me. It sounds like you're experiencing a lot of different symptoms that are impacting your daily life.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few days. In the meantime, if you experience any severe symptoms like chest pain or difficulty breathing, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 209174.82919245958,
+      "response_text": "I understand you're experiencing several concerning symptoms, including fever, severe headaches, and palpitations. Your description of your heart beating 'kinda fast' is a red flag that needs attention.\n\nFever can be a sign of many different health issues. We'll need to look into this further to understand what's going on.\n\nSevere headaches can have various causes, and we'll work together to figure out what might be triggering them for you.\n\nPalpitations can be concerning, especially when they're new or happen frequently. We'll prioritize evaluating this symptom to ensure your heart is healthy.\n\nGiven the red flag of palpitations, we'll prioritize evaluating your heart. This includes scheduling an EKG and possibly other heart-related tests.\n\nWe'll also check for the cause of your fever and headaches, which may involve blood work or imaging if needed.\n\nPlease keep track of when your symptoms occur and any patterns you notice, which will help us pinpoint the cause.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to follow up in a week to review the results of the tests. In the meantime, if you experience any chest pain, dizziness, or worsening symptoms, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I understand you're experiencing several concerning symptoms, including fever, severe headaches, and palpitations. Your description of your heart beating 'kinda fast' is a red flag that needs attention.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "fever",
+            "profile_path": "problems[0]",
+            "explanation": "Fever can be a sign of many different health issues. We'll need to look into this further to understand what's going on.",
+            "citations": []
+          },
+          {
+            "concern_label": "severe headaches",
+            "profile_path": "problems[1]",
+            "explanation": "Severe headaches can have various causes, and we'll work together to figure out what might be triggering them for you.",
+            "citations": []
+          },
+          {
+            "concern_label": "palpitations",
+            "profile_path": "problems[2]",
+            "explanation": "Palpitations can be concerning, especially when they're new or happen frequently. We'll prioritize evaluating this symptom to ensure your heart is healthy.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "Given the red flag of palpitations, we'll prioritize evaluating your heart. This includes scheduling an EKG and possibly other heart-related tests.",
+          "We'll also check for the cause of your fever and headaches, which may involve blood work or imaging if needed.",
+          "Please keep track of when your symptoms occur and any patterns you notice, which will help us pinpoint the cause."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to follow up in a week to review the results of the tests. In the meantime, if you experience any chest pain, dizziness, or worsening symptoms, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Demonstrate empathy",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 3,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 1,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "fever",
+          "severe headaches",
+          "palpitations"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Demonstrate empathy",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 259678.33103239536,
+      "response_text": "I understand you're experiencing some concerning symptoms, including a recent fever with severe headaches, loss of appetite, and tingling in your arms, as well as palpitations that you described as your heart beating kinda fast.\n\nFever, especially with symptoms like severe headaches and tingling, can be a sign of various conditions. Given your recent onset and the associated symptoms, it's important to consider potential causes such as infections or other systemic issues.\n\nPalpitations, especially when sudden and described as 'kinda fast,' can be concerning. They might be related to heart rhythm issues, and it's important to evaluate them to rule out serious conditions.\n\nGiven the red flag of palpitations, we need to address this urgently. We'll schedule an ECG and possibly a heart rhythm evaluation to understand what's happening.\n\nFor the fever, we'll order some blood tests to check for infections or other causes.\n\nWe'll follow up within a week to review the results and plan the next steps together.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a week. In the meantime, if you experience chest pain, dizziness, or your heart racing continuously, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I understand you're experiencing some concerning symptoms, including a recent fever with severe headaches, loss of appetite, and tingling in your arms, as well as palpitations that you described as your heart beating kinda fast.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "fever",
+            "profile_path": "problems[0]",
+            "explanation": "Fever, especially with symptoms like severe headaches and tingling, can be a sign of various conditions. Given your recent onset and the associated symptoms, it's important to consider potential causes such as infections or other systemic issues.",
+            "citations": [
+              {
+                "cluster_id": "finding::global::31237649_0",
+                "primary_assertion_id": "31237649_0",
+                "pmids": [
+                  "31237649"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "palpitations",
+            "profile_path": "problems[1]",
+            "explanation": "Palpitations, especially when sudden and described as 'kinda fast,' can be concerning. They might be related to heart rhythm issues, and it's important to evaluate them to rule out serious conditions.",
+            "citations": [
+              {
+                "cluster_id": "finding::global::31237649_0",
+                "primary_assertion_id": "31237649_0",
+                "pmids": [
+                  "31237649"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "Given the red flag of palpitations, we need to address this urgently. We'll schedule an ECG and possibly a heart rhythm evaluation to understand what's happening.",
+          "For the fever, we'll order some blood tests to check for infections or other causes.",
+          "We'll follow up within a week to review the results and plan the next steps together."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a week. In the meantime, if you experience chest pain, dizziness, or your heart racing continuously, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Demonstrate empathy",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::global::31237649_0"
+        ],
+        "all_pmids_used": [
+          "31237649"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 2,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 1,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "fever",
+          "palpitations"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "31237649"
+      ],
+      "cluster_ids_used": [
+        "finding::global::31237649_0"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Demonstrate empathy",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 161592.98408031464,
+        "module_2_retrieval": 73.33111017942429,
+        "module_3_reasoning": 74065.66254794598,
+        "module_4_response": 23944.934517145157,
+        "total_ms": 259676.9122555852
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

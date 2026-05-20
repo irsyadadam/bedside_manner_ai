@@ -1,0 +1,226 @@
+{
+  "transcript_id": "mts_test_1_195",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "Briefly, the patient is a very pleasant 72-year-old female with previous history of hypertension and also recent diagnosis of C",
+  "patient_utterances": [
+    "[Clinician asked: \"Hi there, I love that dress, very pretty!\"] Thank you for complementing a seventy-two-year-old patient.",
+    "[Clinician asked: \"No, I mean it, seriously. Okay, so you were admitted here in May two thousand nine. You have a history of hypertension, and on June eighteenth two thousand nine you had bad abdominal pain diarrhea and cramps.\"] Yes, they told me I might have C Diff? They did a CT of my abdomen and that is when they thought I got the infection.",
+    "[Clinician asked: \"Yes, it showed evidence of diffuse colitis, so I believe they gave you IV antibiotics?\"] Yes they did.",
+    "[Clinician asked: \"Yeah I see here, Flagyl and Levaquin. They started IV Reglan as well for your vomiting.\"] Yes, I was very nauseous. Vomited as well.",
+    "[Clinician asked: \"After all this I still see your white blood cells high. Are you still nauseous?\"] No, I do not have any nausea or vomiting, but still have diarrhea. Due to all that diarrhea I feel very weak.",
+    "[Clinician asked: \"Okay. Anything else any other symptoms?\"] Actually no. Everything's well.",
+    "[Clinician asked: \"Great.\"] Yeah."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "HPI": "Briefly, the patient is a very pleasant 72-year-old female with previous history of hypertension and also recent diagnosis of C. diff for which she was admitted here in 5/2009, who presents to the hospital on 6/18/2009 with abdominal pain, cramping, and persistent diarrhea.  After admission, she had a CT of the abdomen done, which showed evidence of diffuse colitis and she was started on IV Flagyl and also on IV Levaquin.  She was also placed on IV Reglan because of nausea and vomiting.  In spite of the above, her white count still continues to be elevated today.  On questioning the patient, she states the nausea and vomiting has resolved, but the diarrhea still present, but otherwise denies any other specific complaints except for some weakness."
+  },
+  "n_patient_turns": 7,
+  "n_clinician_turns": 7,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 18402.420207858086,
+      "response_text": "I'm really sorry to hear about your ongoing struggle with these symptoms. It's clear that this has been a challenging experience for you, and I want to assure you that I'm here to support you through this recovery process. It's not uncommon for C. diff infections to have a prolonged recovery period, and your body may need some time to fully heal, especially after such a significant infection.\n\nWe'll work together to manage your symptoms effectively and get you back to feeling your best. Depending on how you're responding, we may adjust your medications or consider additional tests to ensure we're on the right track. In the meantime, please keep me updated on any changes in your symptoms, and don't hesitate to reach out if you have any questions or concerns. Your well-being is my priority, and I'm confident that with the right care, you'll start feeling better soon.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 18699.593149125576,
+      "response_text": "Thank you for sharing your experience with me. It makes sense that you're feeling worried and frustrated, especially after dealing with such a prolonged illness. Being sick for two months is tough, and I can see how it might feel overwhelming to still be experiencing symptoms like diarrhea and weakness. I want to make sure we address this together and get you back to feeling your best.\n\nGiven your history of C. diff infection, it's important to monitor for any signs of recurrence. Lingering symptoms like diarrhea can sometimes indicate ongoing issues, even after initial treatment. I recommend we schedule a follow-up stool test to check for recurrent infection, as this is a common concern in cases like yours [PMID ?]. We'll also keep an eye on your white blood cell count to ensure your body is healing properly.\n\nIn the meantime, I want you to monitor your stool consistency and let me know if you notice any changes. If the diarrhea persists or worsens, please reach out to us so we can adjust your care plan. We'll plan to check in again in two weeks to review your symptoms and test results. Before you leave, could you summarize what we've discussed so far? This will help ensure you're clear on the next steps and that I've explained everything clearly.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6182.73501843214,
+      "response_text": "Thank you for sharing your experience. It sounds like you've been through a lot recently with your health.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again soon. In the meantime, if you have any new symptoms or concerns, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your experience. It sounds like you've been through a lot recently with your health.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again soon. In the meantime, if you have any new symptoms or concerns, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 59716.81819111109,
+      "response_text": "Thank you for sharing your concerns about your abdominal pain. It sounds like this has been a challenging situation for you.\n\nAbdominal pain can be caused by a variety of issues, and it's important to consider the associated symptoms like diarrhea, cramps, nausea, and vomiting. Given the history of high blood pressure, we'll also keep an eye on how this might interact with any treatment plans.\n\nWe'll schedule a follow-up visit to discuss the results of any necessary tests and adjust your care plan as needed.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if your symptoms get worse or you experience anything unusual, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns about your abdominal pain. It sounds like this has been a challenging situation for you.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "abdominal pain",
+            "profile_path": "problems[0]",
+            "explanation": "Abdominal pain can be caused by a variety of issues, and it's important to consider the associated symptoms like diarrhea, cramps, nausea, and vomiting. Given the history of high blood pressure, we'll also keep an eye on how this might interact with any treatment plans.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll schedule a follow-up visit to discuss the results of any necessary tests and adjust your care plan as needed."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if your symptoms get worse or you experience anything unusual, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": [
+          {
+            "field": "clinical_information_per_concern[0].explanation",
+            "original": "hypertension",
+            "plain": "high blood pressure",
+            "count": 1
+          }
+        ]
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "abdominal pain"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 113089.74678814411,
+      "response_text": "It sounds like you're dealing with some tough symptoms with this abdominal pain. I want to make sure I understand what's going on and help you feel better.\n\nAbdominal pain can be caused by a variety of issues, and it's important to figure out what's going on. Given the symptoms like diarrhea, cramps, nausea, and vomiting, we'll need to consider different possibilities. The treatment approach will depend on what we find.\n\nWe'll start by doing some tests to get a better idea of what's causing the pain. This might include blood tests or imaging to check for any issues.\n\nWe'll also review your medical history and current symptoms to narrow down the possible causes.\n\nOnce we have more information, we can create a plan together to address the pain and any underlying issues.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to check in again in a week to review the test results and see how you're feeling. If the pain gets worse or you experience any new symptoms, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're dealing with some tough symptoms with this abdominal pain. I want to make sure I understand what's going on and help you feel better.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "abdominal pain",
+            "profile_path": "problems[0]",
+            "explanation": "Abdominal pain can be caused by a variety of issues, and it's important to figure out what's going on. Given the symptoms like diarrhea, cramps, nausea, and vomiting, we'll need to consider different possibilities. The treatment approach will depend on what we find.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[0]::41894320_0",
+                "primary_assertion_id": "41894320_0",
+                "pmids": [
+                  "41894320"
+                ]
+              },
+              {
+                "cluster_id": "recommendation::sub_query[0]::41894320_4",
+                "primary_assertion_id": "41894320_4",
+                "pmids": [
+                  "41894320"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll start by doing some tests to get a better idea of what's causing the pain. This might include blood tests or imaging to check for any issues.",
+          "We'll also review your medical history and current symptoms to narrow down the possible causes.",
+          "Once we have more information, we can create a plan together to address the pain and any underlying issues."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to check in again in a week to review the test results and see how you're feeling. If the pain gets worse or you experience any new symptoms, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[0]::41894320_0",
+          "recommendation::sub_query[0]::41894320_4"
+        ],
+        "all_pmids_used": [
+          "41894320"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "abdominal pain"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "41894320"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[0]::41894320_0",
+        "recommendation::sub_query[0]::41894320_4"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 49778.5779312253,
+        "module_2_retrieval": 56.91364407539368,
+        "module_3_reasoning": 42064.11202996969,
+        "module_4_response": 21188.238687813282,
+        "total_ms": 113087.84229308367
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

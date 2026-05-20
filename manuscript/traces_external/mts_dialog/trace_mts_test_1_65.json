@@ -1,0 +1,167 @@
+{
+  "transcript_id": "mts_test_1_65",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "Cycle seven Ifosfamide, mesna, and VP-16 chemotherapy",
+  "patient_utterances": [
+    "[Clinician asked: \"Hi, how are you?\"] I am well. I am feeling a much better.",
+    "[Clinician asked: \"That's good. I gave you cycle seven ifosphomide, mesna and VP 16 chemotherapy.\"] Okay I don't understand what that means."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "PROCEDURES": "Cycle seven Ifosfamide, mesna, and VP-16 chemotherapy."
+  },
+  "n_patient_turns": 2,
+  "n_clinician_turns": 2,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 12105.472058057785,
+      "response_text": "Thank you for letting me know you're feeling better\u2014that's wonderful to hear! I'm glad to explain the medications you received. Ifosphomide is a chemotherapy drug that works by targeting cancer cells, while mesna helps protect your bladder from side effects. VP 16, also known as etoposide, is another chemotherapy medication that interferes with cancer cell growth. If you have any questions or need further clarification, please don't hesitate to ask. I'm here to help you understand everything about your treatment.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 23845.950230956078,
+      "response_text": "Thank you for sharing how you're feeling. It's completely understandable that you might feel confused or overwhelmed when hearing about complex treatments like the medications you're receiving. I want to make sure you feel supported and have the information you need to feel more at ease.\n\nLet's take a moment to talk about the treatment you're on. The medications you mentioned\u2014 ifosphamide, mesna, and VP 16 (which is etoposide)\u2014are part of your chemotherapy regimen. Ifosphamide is used to target cancer cells, mesna helps protect your bladder from side effects, and VP 16 is another chemotherapy drug that works to stop cancer growth. Each of these plays a specific role in your treatment plan, and I'm here to explain anything further in a way that makes sense to you.\n\nWe'll schedule a follow-up in two weeks to monitor how you're responding to this treatment. Before you leave, could you share in your own words what you understand about your current medications? This will help ensure I've explained everything clearly and address any remaining questions you might have.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6849.550940096378,
+      "response_text": "It sounds like you're doing well and feeling much better. I'm glad to hear that.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 4 weeks. In the meantime, if you get new symptoms like blood in your stool, severe pain, fevers, or the fatigue getting much worse, please call us right away \u2014 don't wait for the appointment.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're doing well and feeling much better. I'm glad to hear that.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 4 weeks. In the meantime, if you get new symptoms like blood in your stool, severe pain, fevers, or the fatigue getting much worse, please call us right away \u2014 don't wait for the appointment.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 15219.955518841743,
+      "response_text": "I can hear how much this has been confusing for you \u2014 you said, \"I don't understand what that means.\" I want to make sure I explain things in a way that makes sense to you.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to talk again soon. If you have more questions or need anything in the meantime, please reach out.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this has been confusing for you \u2014 you said, \"I don't understand what that means.\" I want to make sure I explain things in a way that makes sense to you.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to talk again soon. If you have more questions or need anything in the meantime, please reach out.",
+        "nurse_elements_applied": [
+          "Name",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 0,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 0,
+        "problems": [],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 57270.02811431885,
+      "response_text": "Thank you for reaching out. I understand you're looking for support with your current situation.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again soon. If you have any questions or concerns in the meantime, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "Thank you for reaching out. I understand you're looking for support with your current situation.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again soon. If you have any questions or concerns in the meantime, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 0,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 5034.478604793549,
+        "module_2_retrieval": 34.9067822098732,
+        "module_3_reasoning": 45292.49880462885,
+        "module_4_response": 6906.649827957153,
+        "total_ms": 57268.534019589424
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

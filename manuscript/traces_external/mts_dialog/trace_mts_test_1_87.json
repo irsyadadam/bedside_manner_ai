@@ -1,0 +1,166 @@
+{
+  "transcript_id": "mts_test_1_87",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "There were possible illicit drugs",
+  "patient_utterances": [
+    "[Clinician asked: \"Hi, how are you all?\"] We're good. Thank you.",
+    "[Clinician asked: \"How are you related to the patient?\"] We are family. I am her mother and this is her sister.",
+    "[Clinician asked: \"Do you suspect any abuse of drugs?\"] we are not sure, but I guess she used to smoke or consume weed."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "FAM_SOCHX": "There were possible illicit drugs.  Her family is present, and I have discussed her case with her mother and sister."
+  },
+  "n_patient_turns": 3,
+  "n_clinician_turns": 5,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 16220.51127254963,
+      "response_text": "Thank you for sharing your concerns with me. It's completely understandable to be worried about your daughter, especially when it comes to her well-being and any changes you might notice. I want to hear more about what you've observed\u2014how long have you noticed this behavior, and has it seemed to worsen recently? Are there specific instances or changes in her behavior that stand out to you?\n\nIt's important to approach these situations with care and support. If you feel comfortable, I encourage open and loving communication with your daughter. If you'd like, we can explore ways to talk to her about your concerns or connect with a counselor who can provide additional support. Let's work together to find the best way forward for her.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 21350.244387984276,
+      "response_text": "Thank you for sharing your concerns with me. It sounds like you're worried about your sister, and I can understand why that would be the case. It's not easy to approach these kinds of topics, especially when it comes to substance use, so I appreciate your openness in discussing this.\n\nGiven what you've shared, I want to make sure we address this in a way that feels supportive and non-confrontational. It's important to approach these conversations with patience and understanding, as it can be challenging for someone to acknowledge or discuss their substance use. I would recommend starting with a calm and caring conversation with your sister, expressing your concerns in a way that shows you're there to support her, not judge her.\n\nIf you feel comfortable, we could explore some resources together, like counseling or support groups, that might help if she's open to it. It's also worth noting that substance use can sometimes be a sign of underlying stress or other issues, so addressing those root causes might be helpful. I encourage you to keep the lines of communication open and let her know you're available to talk whenever she's ready.\n\nWe'll plan to follow up in one week to check in on how things are going and to see if you'd like to explore any additional resources or steps. Before we finish, could you summarize in your own words what you feel is the best way to move forward? That way, I can make sure I've addressed your concerns and that we're on the same page.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6592.860087752342,
+      "response_text": "Thank you for sharing your concerns with me. I understand that you're here to discuss your family member's situation, particularly regarding her past use of substances like smoking and weed.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again soon. In the meantime, if you have any new concerns or questions, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns with me. I understand that you're here to discuss your family member's situation, particularly regarding her past use of substances like smoking and weed.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again soon. In the meantime, if you have any new concerns or questions, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 15427.279867231846,
+      "response_text": "Thank you for reaching out. I understand you're here to discuss some concerns, and I'm ready to help.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again soon. If you have any new concerns or symptoms in the meantime, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "Thank you for reaching out. I understand you're here to discuss some concerns, and I'm ready to help.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again soon. If you have any new concerns or symptoms in the meantime, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 0,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 46433.21892619133,
+      "response_text": "Thank you for reaching out. I understand you're here to discuss your concerns and get the support you need.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again soon. If you have any new concerns or symptoms in the meantime, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "Thank you for reaching out. I understand you're here to discuss your concerns and get the support you need.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again soon. If you have any new concerns or symptoms in the meantime, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 0,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 7515.530966222286,
+        "module_2_retrieval": 25.703705847263336,
+        "module_3_reasoning": 32195.460952818394,
+        "module_4_response": 6695.577837526798,
+        "total_ms": 46432.27346241474
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

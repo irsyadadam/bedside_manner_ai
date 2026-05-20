@@ -1,0 +1,151 @@
+{
+  "transcript_id": "mts_val_18",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "The patient comes in today because of feeling lightheaded and difficulty keeping his balance",
+  "patient_utterances": [
+    "[Clinician asked: \"What brings you here today, sir?\"] I'm feeling a lot of lightheadedness and I just cannot keep stable. I'm losing my balance all the time.",
+    "[Clinician asked: \"Do you have any spinning sensation?\"] No, but I had it before when I had vertigo. I'm just feeling lightheaded.",
+    "[Clinician asked: \"Is it happening after anything special you are doing? What symptoms are you witnessing?\"] Whenever I'm trying to change my positions like standing from sitting or getting up from the bed it is happening. Normally sitting back down helps. But it is not completely gone for like fifteen to thirty minutes. I feel very shaky and weak.",
+    "[Clinician asked: \"Are you taking any medications for that?\"] Ah yes, I was taking lorazepam, but it did not help with the sensation.",
+    "[Clinician asked: \"Anything else going on?\"] Um, my blood pressure was up so they increased my dose of metoprolol for it. They think all these symptoms are because of the increased dose. I just wanted to check in with you as well."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "HPI": "The patient comes in today because of feeling lightheaded and difficulty keeping his balance.  He denies this as a spinning sensation that he had had in the past with vertigo.  He just describes as feeling very lightheaded.  It usually occurs with position changes such as when he stands up from the sitting position or stands up from a lying position.  It tends to ease when he sits down again, but does not totally resolve for another 15 to 30 minutes and he feels shaky and weak all over.  Lorazepam did not help this sensation.  His blood pressure has been up lately and his dose of metoprolol was increased.  They feel these symptoms have gotten worse since metoprolol was increased."
+  },
+  "n_patient_turns": 5,
+  "n_clinician_turns": 5,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 18089.414969086647,
+      "response_text": "I understand how concerning and unsettling these symptoms must be for you. The lightheadedness and weakness, especially when changing positions, can be quite unsettling. Given that your symptoms started after increasing your metoprolol dose, it's possible they could be related to changes in your blood pressure. Beta-blockers like metoprolol can sometimes cause orthostatic hypotension, which is a drop in blood pressure when standing up, leading to these symptoms.\n\nTo help manage this, I recommend monitoring your blood pressure, especially when standing, and keeping a diary of your symptoms. If you notice a pattern, it might be helpful. Increasing your salt and water intake could sometimes help, but only if your blood pressure is on the lower side. We should also consider adjusting your medication if necessary. Please let me know if symptoms worsen or if you have any concerns. We'll work together to find the right approach for you.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 22589.585825800896,
+      "response_text": "Thank you for sharing your concerns with me. It sounds like the lightheadedness and instability you're experiencing have been quite unsettling and are impacting your daily life. I can understand why this would be worrying, especially since it's affecting your ability to move comfortably.\n\nGiven your symptoms, particularly the lightheadedness when changing positions, it's important to consider possible causes. One possibility could be orthostatic hypotension, which can occur when blood pressure drops upon standing. This is more common with medications like metoprolol, especially at higher doses [PMID ?]. We should also consider other causes, such as hypoglycemia or inner ear issues, though your lack of spinning sensations makes the latter less likely.\n\nTo address this, we might adjust your metoprolol dosage to see if it helps, while closely monitoring your blood pressure. If needed, we could also explore other treatments or evaluations, like a tilt table test, to better understand what's happening [PMID ?].\n\nIn the meantime, let's plan to check in within one to two weeks to review how you're feeling and adjust your treatment as needed. Before we finish, could you summarize what we've discussed so far? This will help ensure you're clear on the next steps and any changes we're making to your medication.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6959.633380174637,
+      "response_text": "It sounds like you're having a tough time with this lightheadedness and balance issues. I want to understand how it's been affecting your daily life.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again soon. In the meantime, if your symptoms get worse or you experience anything unusual, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're having a tough time with this lightheadedness and balance issues. I want to understand how it's been affecting your daily life.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again soon. In the meantime, if your symptoms get worse or you experience anything unusual, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 63480.338513851166,
+      "response_text": "I can hear how much this has been affecting you \u2014 you mentioned, \"I just cannot keep stable. I'm losing my balance all the time,\" which sounds really unsettling. I want to make sure we address this properly.\n\nLightheadedness and loss of balance can be signs of several issues, and given your recent experience, it's important we figure out what's going on. We'll need to look into this carefully to understand the possible causes.\n\nIt's great that you want to check in with the clinician to discuss your symptoms and concerns. This will help us get a clearer picture of what's happening and plan the next steps together.\n\nGiven the unsteady gait and balance issues, we'll prioritize evaluating these symptoms to ensure we address any underlying causes promptly.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again soon to review the results and discuss any further steps. In the meantime, if you experience severe dizziness, falls, or worsening symptoms, please reach out immediately.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this has been affecting you \u2014 you mentioned, \"I just cannot keep stable. I'm losing my balance all the time,\" which sounds really unsettling. I want to make sure we address this properly.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "lightheadedness",
+            "profile_path": "problems[0]",
+            "explanation": "Lightheadedness and loss of balance can be signs of several issues, and given your recent experience, it's important we figure out what's going on. We'll need to look into this carefully to understand the possible causes.",
+            "citations": []
+          },
+          {
+            "concern_label": "check in with clinician",
+            "profile_path": "patient_goals[0]",
+            "explanation": "It's great that you want to check in with the clinician to discuss your symptoms and concerns. This will help us get a clearer picture of what's happening and plan the next steps together.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "Given the unsteady gait and balance issues, we'll prioritize evaluating these symptoms to ensure we address any underlying causes promptly."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again soon to review the results and discuss any further steps. In the meantime, if you experience severe dizziness, falls, or worsening symptoms, please reach out immediately.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Demonstrate empathy",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 2,
+        "n_allergies": 0,
+        "n_red_flags": 1,
+        "n_emotional": 1,
+        "n_goals": 1,
+        "problems": [
+          "lightheadedness"
+        ],
+        "medications": [
+          "lorazepam",
+          "metoprolol"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Demonstrate empathy",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "error": "Connection error."
+    }
+  },
+  "schema_version": "phase13.v1"
+}

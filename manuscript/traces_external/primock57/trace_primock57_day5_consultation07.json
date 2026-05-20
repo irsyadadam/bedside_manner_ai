@@ -1,0 +1,308 @@
+{
+  "transcript_id": "primock57_day5_consultation07",
+  "dataset": "primock57",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "Cough and a cold",
+  "patient_utterances": [
+    "[Clinician asked: \"Hi there, it's Doctor Smith from Babylon.\"] Hi.",
+    "[Clinician asked: \"Hi. Can you confirm you name, date of birth and your home address, please?\"] Uh, Sandra Bullock, uh, twentieth of February, nineteen fifty eight.",
+    "[Clinician asked: \"Hello. <INAUDIBLE_SPEECH/> And your home address?\"] Uh, seven three four,  court in St. .",
+    "[Clinician asked: \"OK, that's fine. Uh, are you in a private place that you can have a consultation at the moment?\"] Yeah, yeah, I am.",
+    "[Clinician asked: \"OK, what can I do for you today?\"] Um, well, like five days ago I started having problems like a cough, and my nose is just constantly streaming.",
+    "[Clinician asked: \"OK. And, and are you normally fit and well?\"] Yeah, normally I'm diabetic, but other than that, like, generally pretty good.",
+    "[Clinician asked: \"Right, OK. So, just tell me about the last, did you say five days?\"] Yeah, five days or so ago.",
+    "[Clinician asked: \"OK. How about your cough at the moment?\"] Uh, it's quite bad. It's kind of quite dry, um. I'm coughing maybe every twenty, thirty minutes or so.",
+    "[Clinician asked: \"OK, you bringing up any phlegm at all?\"] No.",
+    "[Clinician asked: \"No. Any chest pain?\"] No. Chest what, sorry?",
+    "[Clinician asked: \"Any pain in your chest?\"] Uh, no.",
+    "[Clinician asked: \"Any difficulty breathing, feeling short of breath or any pain when you take a deep breath?\"] No, that's all fine.",
+    "[Clinician asked: \"Have you coughed up any blood or anything like that?\"] Nope.",
+    "[Clinician asked: \"And what about your nose symptoms? Are you <INAUDIBLE_SPEECH/> front of your sinuses or anything?\"] Uh, just . Uh, nothing up in here but just constant streaming, like, using a million tissues.",
+    "[Clinician asked: \"OK. And any blood coming from the nose?\"] No, it's pretty green.",
+    "[Clinician asked: \"Right, OK. Any other symptoms, like sore ears? Sore throat?\"] Uh, I  I've been feeling really hot, um, I don't know if it's fever as such, but,  like, to touch I'm quite hot but sometimes I'm feeling really chilly, needing to be under a blanket, that sort of thing.",
+    "[Clinician asked: \"Have you checked your temperature with a thermometer?\"] Uhh, no, I haven't.",
+    "[Clinician asked: \"OK. Um, and are you eating and drinking normally?\"] Uhh, yes. Um, kind of around when it started, I had some diarrhoea, but I don't know if that was associated. But since then it's all been pretty fine.",
+    "[Clinician asked: \"OK. So, you're drinking well, holding down fluids OK?\"] Yeah.",
+    "[Clinician asked: \"And passing water OK?\"] Yeah, that's fine.",
+    "[Clinician asked: \"No vomiting, diarrhoea now?\"] No.",
+    "[Clinician asked: \"OK, that's fine. Um, any rashes that you've noticed?\"] Rashes? Uhh, no, nothing like that.",
+    "[Clinician asked: \"Yeah. Any headaches or change in your vision?\"] No, um, I've had quite achy muscles, but that's pretty much it.",
+    "[Clinician asked: \"OK. And normally, do you have any chest problems?\"] Uh, no.",
+    "[Clinician asked: \"Do you ever get wheezing, short of breath?\"] Uh, I mean, like, if I do intense exercise, then yes. But not .",
+    "[Clinician asked: \". And, do you regularly have any infections in your chest, or anything that needs treatment, normally?\"] No, uh, I've got hypertension, um, so I'm on some drugs for that, um, but that's it, really.",
+    "[Clinician asked: \"OK. Um, any other medical problems?\"] Uh, just the hypertension and the diabetes.",
+    "[Clinician asked: \"OK, and what type of drugs are you on?\"] Uh, I think something called metformin, and lisinopril I think is the other one.",
+    "[Clinician asked: \"OK, and when did you last have your blood pressure checked?\"] Uh, ooh, uh,  a while ago. Um, <INAUDIBLE_SPEECH/>.",
+    "[Clinician asked: \"Do you know if it, do you know if it's been stable?\"] Uh, I can't remember.",
+    "[Clinician asked: \"OK. And with your blood, with your diabetes, have you had a blood test recently?\"] Um, yeah. Like. Yeah, it was normal. It was around three weeks ago.",
+    "[Clinician asked: \"OK, and do you know what dose of the lisinopril you're taking?\"] Uh, two hundred.",
+    "[Clinician asked: \"OK. Have you been able to pass water normally? Any increase in  in frequency that you're passing water or any increased thirst?\"] Uh, no, not particularly.",
+    "[Clinician asked: \"And has your weight been stable?\"] Yeah.",
+    "[Clinician asked: \"What is your weight and height?\"] Uh, my height is five foot five, and my weight is sixty five kilograms.",
+    "[Clinician asked: \"OK. And do you smoke at all?\"] <INAUDIBLE_SPEECH/>",
+    "[Clinician asked: \"You drink any alcohol?\"] Yes, the odd cherry.",
+    "[Clinician asked: \"OK.Um, who do you live with at home?\"] Uh, my partner and my dog.",
+    "[Clinician asked: \"And do you work?\"] Uh, yes. I'm an office manager.",
+    "[Clinician asked: \"OK. And have you been doing anything yourself to help with the symptoms? Anything that you've bought in the chemist?\"] Um, uh, a quite a few lemon sips. Um, they seems to be helping.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/> Do you, what, what do you mean by quite a few? How many in, in a day do you normally take?\"] Uh, maybe two or three. Maybe, like, at the start of the day and at the end of the day.",
+    "[Clinician asked: \"OK. Have you noticed any improvement in that?\"] Yeah. It tends to soothe my throat a bit for when I'm going to sleep.",
+    "[Clinician asked: \"OK. Um, do you have any allergies to anything?\"] Uh, I sometimes suffer from some, like, hay fever. But, um, but it's not bad <INAUDIBLE_SPEECH/>",
+    "[Clinician asked: \"Any <INAUDIBLE_SPEECH/>. Any allergies to any medications at all?\"] Not that I'm aware of, no.",
+    "[Clinician asked: \"OK. So, what you've described to me, it sounds like you, you probably have got an infection in the chest, um, because it's, it, you know, you're obviously getting symptoms of from your nose and your chest. Um, it sounds like you might have a high temperature, it's definitely worth getting a thermome\"] OK. I can just get one of those at a pharmacy or something?",
+    "[Clinician asked: \"Yeah, and most of the time, these infections are caused by viruses, so they do normally settle by themselves. But it can take, you know, a week or two, um, and you can  persistently have the cough ongoing longer than that. Um, the important thing to do would be to take your temperature. Um, and if y\"] OK. OK. So, then we would at potentially antibiotics at that time, perhaps?",
+    "[Clinician asked: \"Yeah, potentially. If it is, if it's not settling or the temperature's ongoing, getting worse, then we definitely need to talk to you again.\"] OK.",
+    "[Clinician asked: \"Um, have you got any other questions?\"] Um, no, that's all fine.",
+    "[Clinician asked: \"It's fine to carry on what you're doing at the moment, with the lemsip. I wouldn't take, and that, that contains paracetamol so don't take any other paracetamol containing products, um, with that at the same time.\"] Yeah.",
+    "[Clinician asked: \"Um, the cough syrup isn't advisable in the daytime because it's best for your body if you just keep coughing. But if you're kept up all night and you can't sleep at all, then it, it's OK to have a little bit of cough syrup, just to settle that down.\"] OK. Cool.",
+    "[Clinician asked: \"OK? Do you have blood sugar checking equipment? Do you check? No, OK. Well, if you make sure that you have the regular diabetes and blood pressure checkups that your GP has asked you for?\"] Yep. I'm not at home. Yeah.",
+    "[Clinician asked: \"OK, great. Alright then, take care. Bye.\"] <INAUDIBLE_SPEECH/> Alright. Thanks so much. Bye."
+  ],
+  "gold_note": "PC: Cough and cold.\nHPC: 4-5 day hx runny nose, dry cough. No sputum/haemoptysis. No epistaxis/sinus pain. Feels hot, hasn't measured temperature. No SOB/inspiratory pain/wheeze. Aches and pains. No vomiting. E&D ok. PUing ok. \nNo hx chest problems/recurrent chest infections/wt loss.\nThinks last BP was fine, can't remember when last BP/DM check up was. Doesn't check blood sugars/urine at home. \nNo increased thirst/urinary freq.\nTaking 2-3 lemsips a day which eases sx.\n\nPMH: Hypertension\nT2 DM\n\nDH: Lisinopril \nMetformin\n\nHeight- 5ft 5in\nWeight - 65kg\n\nSH: Non smoker, odd sherry. Lives with partner and dog. Office manager.\n\nImp: Viral bronchitis.\n\nPlan: Advised continue lemsips but no other paracetamol containing products. Avoid cough syrup but can take if unable to sleep at night. \nMay take 1-2 weeks to settle and cough can persist for up to a month but to contact us if symptoms not worse/fever persists - check with thermometer/coughing up phlegm/blood in sputum/nose bleeds.",
+  "gold_sections": {
+    "PRESENTING_COMPLAINT": "Cough and a cold",
+    "HIGHLIGHTS": "No sputum/haemoptysis\nNo SOB/inspiratory pain/wheeze\nT2 DM\nNon smoker"
+  },
+  "n_patient_turns": 52,
+  "n_clinician_turns": 52,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 21499.653585255146,
+      "response_text": "Thank you for sharing your symptoms with me, Sandra. It sounds like you're dealing with a viral infection, which can often clear up on its own within a week or two. In the meantime, make sure to monitor your temperature and stay well-hydrated. The Lemsip you're taking is helpful, but avoid other products with paracetamol. If your cough keeps you awake, a little cough syrup at night might be soothing. Remember to keep your regular check-ups for diabetes and blood pressure as planned. If things get worse or you feel more unwell, don't hesitate to reach out. Take care and feel better soon.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 27901.366971433163,
+      "response_text": "Thank you for sharing your concerns with me, Sandra. It sounds like you've been going through a tough time with this cough and nasal congestion, especially since it's been affecting your sleep and daily life. I can understand how frustrating and uncomfortable this must be, and I'm here to help you navigate through it.\n\nFrom what you've described, it seems like you might be dealing with a viral upper respiratory infection, which is often self-limiting and can take a week or two to resolve. However, I'll want to monitor your symptoms closely to ensure there's no bacterial infection developing, especially since you have diabetes, which can sometimes complicate things. It's important to keep an eye on your blood sugar levels during this period, as stress and illness can affect them [PMID ?].\n\nIn the meantime, I recommend taking your temperature to check for fever, as that could provide more insight into the nature of your illness. Continue using the lemon sips to soothe your throat, but avoid adding any other medications that contain paracetamol to prevent overuse. If you're struggling to sleep at night, a small dose of cough syrup might help, but it's best to limit its use to bedtime only [PMID ?].\n\nPlease let me know if you experience any worsening symptoms, such as high fever, chest pain, or shortness of breath, as these would require further evaluation. We'll plan to follow up in a week to reassess your progress. Before we finish, could you summarize the plan in your own words to ensure you're clear on the next steps? That way, I can make sure everything is understood.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 10155.617021024227,
+      "response_text": "Thank you for sharing your symptoms with me. It sounds like you're experiencing a cough and nasal congestion that started about five days ago, along with some muscle aches and feeling hot and chilly.\n\nWe'll focus on managing your symptoms with over-the-counter remedies like lemon sips and staying hydrated. If your symptoms worsen or you develop a fever, please reach out for further guidance.\n\nContinue monitoring your condition and let us know if you need any additional support.\n\nI want to make sure I explained this clearly. Can you tell me in your own words what you should do next?\n\nLet's plan to check in again in a week. If your symptoms don't improve or get worse, please call us sooner.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your symptoms with me. It sounds like you're experiencing a cough and nasal congestion that started about five days ago, along with some muscle aches and feeling hot and chilly.",
+        "clinical_information_per_concern": [],
+        "next_steps": [
+          "We'll focus on managing your symptoms with over-the-counter remedies like lemon sips and staying hydrated. If your symptoms worsen or you develop a fever, please reach out for further guidance.",
+          "Continue monitoring your condition and let us know if you need any additional support."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly. Can you tell me in your own words what you should do next?",
+        "follow_up_invitation": "Let's plan to check in again in a week. If your symptoms don't improve or get worse, please call us sooner.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 197778.76421809196,
+      "response_text": "Thank you for sharing your concerns about your symptoms. It sounds like you've been dealing with a persistent cough, constant nasal streaming, and intermittent fever or chills over the past five days.\n\nA persistent cough can be caused by various issues, including respiratory infections. Given that you've had this for five days, it's important to consider common causes like viral infections or allergies. We'll monitor your symptoms to see if they improve or if further evaluation is needed.\n\nConstant nasal streaming often accompanies respiratory infections. It can be due to allergies or a viral illness. We'll keep an eye on how this progresses alongside your other symptoms.\n\nIntermittent fever or chills could indicate an ongoing infection. It's important to monitor these symptoms to determine if further testing or treatment is necessary.\n\nWe'll monitor your symptoms over the next few days to see if they improve with rest and home care.\n\nIf your symptoms worsen or if you develop new ones like severe coughing, difficulty breathing, or persistent fever, please reach out for further evaluation.\n\nI want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to check in again in 3-5 days. If you notice any significant changes in your symptoms or if they don't improve, please call us so we can address them promptly.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns about your symptoms. It sounds like you've been dealing with a persistent cough, constant nasal streaming, and intermittent fever or chills over the past five days.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "cough",
+            "profile_path": "problems[0]",
+            "explanation": "A persistent cough can be caused by various issues, including respiratory infections. Given that you've had this for five days, it's important to consider common causes like viral infections or allergies. We'll monitor your symptoms to see if they improve or if further evaluation is needed.",
+            "citations": []
+          },
+          {
+            "concern_label": "constant nasal streaming",
+            "profile_path": "problems[1]",
+            "explanation": "Constant nasal streaming often accompanies respiratory infections. It can be due to allergies or a viral illness. We'll keep an eye on how this progresses alongside your other symptoms.",
+            "citations": []
+          },
+          {
+            "concern_label": "fever or chills",
+            "profile_path": "problems[2]",
+            "explanation": "Intermittent fever or chills could indicate an ongoing infection. It's important to monitor these symptoms to determine if further testing or treatment is necessary.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll monitor your symptoms over the next few days to see if they improve with rest and home care.",
+          "If your symptoms worsen or if you develop new ones like severe coughing, difficulty breathing, or persistent fever, please reach out for further evaluation."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to check in again in 3-5 days. If you notice any significant changes in your symptoms or if they don't improve, please call us so we can address them promptly.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 3,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "cough",
+          "constant nasal streaming",
+          "fever or chills"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 301077.78510451317,
+      "response_text": "It sounds like you're dealing with a few symptoms that are concerning you right now. You've mentioned a cough that's been going on for five days, along with a constant streaming nose and intermittent fever and chills.\n\nA cough that's been going on for five days could be due to a variety of causes, including respiratory infections like COVID-19. Given that you're also experiencing a streaming nose and fever, it might be helpful to consider these symptoms together.\n\nA constant streaming nose, combined with a cough and fever, suggests that these symptoms might be related. It's important to consider whether these symptoms are part of the same underlying issue.\n\nFever and chills can be signs of an infection. The fact that your fever has been intermittent over the past five days, along with the other symptoms, suggests that we should consider possible infectious causes.\n\nGiven these symptoms, we should consider testing for COVID-19, especially since you're experiencing a cough and fever.\n\nWe'll also monitor your symptoms over the next few days to see if they improve or if any new symptoms develop.\n\nIf your symptoms worsen or if you develop more severe symptoms like difficulty breathing, you should seek immediate medical attention.\n\nCan you summarize for me what we're going to do next and why it's important?\n\nLet's plan to follow up in 3 days. If you notice any significant changes in your symptoms or if they get worse, please reach out sooner.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're dealing with a few symptoms that are concerning you right now. You've mentioned a cough that's been going on for five days, along with a constant streaming nose and intermittent fever and chills.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "cough",
+            "profile_path": "problems[0]",
+            "explanation": "A cough that's been going on for five days could be due to a variety of causes, including respiratory infections like COVID-19. Given that you're also experiencing a streaming nose and fever, it might be helpful to consider these symptoms together.",
+            "citations": [
+              {
+                "cluster_id": "finding::problems[0]::35593186_0",
+                "primary_assertion_id": "35593186_0",
+                "pmids": [
+                  "35593186"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "constant streaming nose",
+            "profile_path": "problems[1]",
+            "explanation": "A constant streaming nose, combined with a cough and fever, suggests that these symptoms might be related. It's important to consider whether these symptoms are part of the same underlying issue.",
+            "citations": [
+              {
+                "cluster_id": "finding::problems[0]::35593186_0",
+                "primary_assertion_id": "35593186_0",
+                "pmids": [
+                  "35593186"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "fever/chills",
+            "profile_path": "problems[2]",
+            "explanation": "Fever and chills can be signs of an infection. The fact that your fever has been intermittent over the past five days, along with the other symptoms, suggests that we should consider possible infectious causes.",
+            "citations": [
+              {
+                "cluster_id": "finding::problems[2]::35593186_1",
+                "primary_assertion_id": "35593186_1",
+                "pmids": [
+                  "35593186"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "Given these symptoms, we should consider testing for COVID-19, especially since you're experiencing a cough and fever.",
+          "We'll also monitor your symptoms over the next few days to see if they improve or if any new symptoms develop.",
+          "If your symptoms worsen or if you develop more severe symptoms like difficulty breathing, you should seek immediate medical attention."
+        ],
+        "teach_back_prompt": "Can you summarize for me what we're going to do next and why it's important?",
+        "follow_up_invitation": "Let's plan to follow up in 3 days. If you notice any significant changes in your symptoms or if they get worse, please reach out sooner.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::problems[0]::35593186_0",
+          "finding::problems[2]::35593186_1"
+        ],
+        "all_pmids_used": [
+          "35593186"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 3,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "cough",
+          "constant streaming nose",
+          "fever/chills"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "35593186"
+      ],
+      "cluster_ids_used": [
+        "finding::problems[0]::35593186_0",
+        "finding::problems[2]::35593186_1"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 166534.2928469181,
+        "module_2_retrieval": 53.28740179538727,
+        "module_3_reasoning": 102208.64300429821,
+        "module_4_response": 32280.382573604584,
+        "total_ms": 301076.6058266163
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

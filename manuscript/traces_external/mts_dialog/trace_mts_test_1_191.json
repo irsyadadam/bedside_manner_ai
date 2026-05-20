@@ -1,0 +1,262 @@
+{
+  "transcript_id": "mts_test_1_191",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "He stopped using drugs when he was 25",
+  "patient_utterances": [
+    "[Clinician asked: \"When did you stop using all the drugs, sir?\"] I think I was twenty five.",
+    "[Clinician asked: \"So, everything is clean after that? No more accidents?\"] I think I had a relapse once. It has been like more than 10 years. I have been clear since then.",
+    "[Clinician asked: \"Are you still smoking cigarettes at the same level?\"] Yes, sir, still a heavy smoker.",
+    "[Clinician asked: \"But do you know this is a problem for your health, especially your since you have chronic bronchitis?\"] I know, but it is hard to quit smoking too."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "FAM_SOCHX": "He stopped using drugs when he was 25.  He has got a lapse, but he was more than 10 years and he has been clean ever since then.  He smokes cigarettes quite heavily and which has been a problem for his health since he also has chronic bronchitis."
+  },
+  "n_patient_turns": 4,
+  "n_clinician_turns": 4,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 8401.177942752838,
+      "response_text": "I understand how challenging it must be to quit smoking, especially when you're dealing with chronic bronchitis. It's commendable that you've managed to stay clean for over a decade after your relapse. I know quitting isn't easy, and I'm here to support you in any way I can. Let's work together to explore options that can help you quit smoking and improve your health. Your well-being is important to me, and I'm here to help you take the next steps.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 16496.692828834057,
+      "response_text": "Thank you for sharing that with me. It sounds like staying clean for over a decade is an incredible achievement, and it's understandable that smoking might feel like a tough battle, especially with chronic bronchitis. I can see how frustrating it must be to struggle with something you know is harmful.\n\nGiven your history of substance use and the fact that you're still smoking, I want to make sure we address this together. Smoking can make chronic bronchitis worse, increasing the risk of flare-ups and complications like infections or lung damage [PMID ?]. Let's talk about what's been helping or hindering your smoking cessation efforts. There are effective tools and support systems available, and I'm here to help you explore options that might work best for you.\n\nWe'll plan to check in next week to see how you're managing and to discuss any resources or strategies you'd like to try. Before we finish, could you summarize what we've discussed so far? That way, I can ensure I've covered everything clearly.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6588.957339525223,
+      "response_text": "Thank you for sharing your concerns and thoughts with me.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 4 weeks. In the meantime, if you get new symptoms like blood in your stool, severe pain, fevers, or the fatigue getting much worse, please call us right away \u2014 don't wait for the appointment.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns and thoughts with me.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 4 weeks. In the meantime, if you get new symptoms like blood in your stool, severe pain, fevers, or the fatigue getting much worse, please call us right away \u2014 don't wait for the appointment.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 40413.52152079344,
+      "response_text": "I can see how frustrating this must be for you \u2014 you mentioned, \"it is hard to quit smoking too.\" I understand how challenging quitting smoking can be, especially when it's something you've been dealing with for a long time.\n\nQuitting smoking can be really tough, and there are proven strategies that can help. Research shows that combining behavioral support with medications like nicotine replacement therapy can significantly improve your chances of success.\n\nWe'll discuss some strategies and resources to help you quit smoking, including support options that have been shown to work well for others in your situation.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to follow up in a week to check in on how things are going and make any adjustments needed.",
+      "structured_response": {
+        "acknowledgment": "I can see how frustrating this must be for you \u2014 you mentioned, \"it is hard to quit smoking too.\" I understand how challenging quitting smoking can be, especially when it's something you've been dealing with for a long time.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "relapse",
+            "profile_path": "problems[0]",
+            "explanation": "Quitting smoking can be really tough, and there are proven strategies that can help. Research shows that combining behavioral support with medications like nicotine replacement therapy can significantly improve your chances of success.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::34693994",
+                "primary_assertion_id": "34693994_retr",
+                "pmids": [
+                  "34693994"
+                ]
+              },
+              {
+                "cluster_id": "retrieval_only::33464342",
+                "primary_assertion_id": "33464342_retr",
+                "pmids": [
+                  "33464342"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll discuss some strategies and resources to help you quit smoking, including support options that have been shown to work well for others in your situation."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to follow up in a week to check in on how things are going and make any adjustments needed.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "retrieval_only::34693994",
+          "retrieval_only::33464342"
+        ],
+        "all_pmids_used": [
+          "34693994",
+          "33464342"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 0,
+        "problems": [
+          "relapse"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "34693994",
+        "33464342"
+      ],
+      "cluster_ids_used": [
+        "retrieval_only::34693994",
+        "retrieval_only::33464342"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 97436.4306256175,
+      "response_text": "I can see how frustrating it must be to try to quit smoking, especially when it's been such a big part of your life. You mentioned, \"It is hard to quit smoking too,\" and I want to acknowledge how challenging this can feel.\n\nWhile your main concern is about relapse, the structured context doesn't provide specific guidance on this exact situation. However, we can focus on supporting your current goal of quitting smoking.\n\nTo help you quit smoking, we can provide cost-free medications that have been shown to increase the chances of success. Additionally, working with a counselor can offer you the support needed to stay on track.\n\nWe'll explore options for cost-free smoking cessation medications to help you quit.\n\nWe'll connect you with a counselor for additional support in your quit smoking journey.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to check in again in a few weeks. If you face any challenges or have questions before then, please reach out.",
+      "structured_response": {
+        "acknowledgment": "I can see how frustrating it must be to try to quit smoking, especially when it's been such a big part of your life. You mentioned, \"It is hard to quit smoking too,\" and I want to acknowledge how challenging this can feel.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "relapse",
+            "profile_path": "problems[0]",
+            "explanation": "While your main concern is about relapse, the structured context doesn't provide specific guidance on this exact situation. However, we can focus on supporting your current goal of quitting smoking.",
+            "citations": []
+          },
+          {
+            "concern_label": "quit smoking",
+            "profile_path": "patient_goals[0]",
+            "explanation": "To help you quit smoking, we can provide cost-free medications that have been shown to increase the chances of success. Additionally, working with a counselor can offer you the support needed to stay on track.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::patient_goals[0]::34693994_1",
+                "primary_assertion_id": "34693994_1",
+                "pmids": [
+                  "34693994"
+                ]
+              },
+              {
+                "cluster_id": "recommendation::patient_goals[0]::34693994_0",
+                "primary_assertion_id": "34693994_0",
+                "pmids": [
+                  "34693994"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll explore options for cost-free smoking cessation medications to help you quit.",
+          "We'll connect you with a counselor for additional support in your quit smoking journey."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to check in again in a few weeks. If you face any challenges or have questions before then, please reach out.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "recommendation::patient_goals[0]::34693994_1",
+          "recommendation::patient_goals[0]::34693994_0"
+        ],
+        "all_pmids_used": [
+          "34693994"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 1,
+        "problems": [
+          "relapse"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "34693994"
+      ],
+      "cluster_ids_used": [
+        "recommendation::patient_goals[0]::34693994_1",
+        "recommendation::patient_goals[0]::34693994_0"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 22843.16883981228,
+        "module_2_retrieval": 32.57937729358673,
+        "module_3_reasoning": 51790.11873155832,
+        "module_4_response": 22769.442439079285,
+        "total_ms": 97435.30938774347
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

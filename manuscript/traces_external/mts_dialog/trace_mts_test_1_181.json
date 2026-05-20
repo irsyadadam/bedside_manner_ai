@@ -1,0 +1,257 @@
+{
+  "transcript_id": "mts_test_1_181",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "Strong family history for Huntington disease as per the HPI",
+  "patient_utterances": [
+    "[Clinician asked: \"How are you doing today?\"] I am doing okay.",
+    "[Clinician asked: \"I see in your note that you told the nurse that you have a strong family history of Huntington disease.\"] Yes, I do.",
+    "[Clinician asked: \"Who in your family had Huntington disease?\"] My mother, grandmother, and my two younger brothers.",
+    "[Clinician asked: \"How is everyone doing?\"] My grandmother and my mother both died of Huntington disease.",
+    "[Clinician asked: \"I am so sorry to hear that. What about your brothers?\"] My brothers are doing okay. One of my brothers just started a neurological treatment. I am not sure what it is called."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "FAM_SOCHX": "Strong family history for Huntington disease as per the HPI.  Mother and grandmother died of Huntington disease.  Two young brothers also had Huntington disease."
+  },
+  "n_patient_turns": 5,
+  "n_clinician_turns": 6,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 11607.457235455513,
+      "response_text": "I'm truly sorry to hear about the challenges your family has faced with Huntington's disease. It must be incredibly difficult to see so many loved ones affected by this condition. I want you to know that I'm here to support you and answer any questions you may have. If you're curious about your brother's treatment or have any concerns, please feel free to ask. We can explore this together and ensure you have the information you need.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 18699.729830026627,
+      "response_text": "I'm truly sorry to hear about your family's experience with Huntington's disease. It's completely understandable that you're feeling anxious, especially given your close family members who have been affected. Your concerns are valid, and I want to make sure we address them together.\n\nGiven your family history, it's important to consider your own risk. Huntington's disease is genetic, and while testing can provide clarity, it's a personal decision. I recommend discussing genetic testing with a specialist to better understand your options and what the results might mean for you.\n\nLet's schedule a genetics consultation to explore this further. It might also be helpful to connect you with a support group to share experiences and coping strategies. We'll follow up in a few weeks to review the results and plan next steps. Before we finish, could you summarize what we've discussed so far to ensure everything is clear?",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6820.902809500694,
+      "response_text": "I understand you're here to talk about your family history of Huntington disease. It sounds like this is something that's been on your mind, especially with your mother, grandmother, and brothers having the condition.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 4 weeks. In the meantime, if you have any new concerns or questions, please call us.",
+      "structured_response": {
+        "acknowledgment": "I understand you're here to talk about your family history of Huntington disease. It sounds like this is something that's been on your mind, especially with your mother, grandmother, and brothers having the condition.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 4 weeks. In the meantime, if you have any new concerns or questions, please call us.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 32664.664015173912,
+      "response_text": "Thank you for sharing your concerns with me. I understand that having a family history of Huntington disease can be quite worrying, especially with multiple relatives affected. It\u2019s important that we address this together.\n\nGiven your strong family history of Huntington disease, it\u2019s important to consider genetic counseling and testing to better understand your risk and options. This approach has been shown to help families make informed decisions about their health.\n\nWe should schedule a session with a genetic counselor to discuss your family history and explore options for genetic testing.\n\nWe'll also review your current health status and any symptoms you might be experiencing to ensure we're addressing all aspects of your care.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to follow up in two weeks to review the results of the genetic counseling and testing. In the meantime, if you have any new concerns or questions, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns with me. I understand that having a family history of Huntington disease can be quite worrying, especially with multiple relatives affected. It\u2019s important that we address this together.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "Family History of Huntington Disease",
+            "profile_path": "relevant_history[0]",
+            "explanation": "Given your strong family history of Huntington disease, it\u2019s important to consider genetic counseling and testing to better understand your risk and options. This approach has been shown to help families make informed decisions about their health.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::36109776",
+                "primary_assertion_id": "36109776_retr",
+                "pmids": [
+                  "36109776"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We should schedule a session with a genetic counselor to discuss your family history and explore options for genetic testing.",
+          "We'll also review your current health status and any symptoms you might be experiencing to ensure we're addressing all aspects of your care."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to follow up in two weeks to review the results of the genetic counseling and testing. In the meantime, if you have any new concerns or questions, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Support",
+          "Respect"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "retrieval_only::36109776"
+        ],
+        "all_pmids_used": [
+          "36109776"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 0,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "36109776"
+      ],
+      "cluster_ids_used": [
+        "retrieval_only::36109776"
+      ],
+      "nurse_elements_applied": [
+        "Support",
+        "Respect"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 88947.95347005129,
+      "response_text": "Thank you for sharing your concerns with me. I understand that dealing with a family history of Huntington disease can be quite overwhelming, especially with multiple relatives affected. I want to make sure we address your concerns thoroughly.\n\nGiven your strong family history of Huntington disease, it's important to consider genetic counseling and testing if you haven't already. This can help clarify your risk and provide guidance for monitoring and management.\n\nThe involvement of multiple family members with Huntington disease highlights the importance of understanding the genetic implications for yourself and your children. Genetic counseling can provide personalized risk assessment and support.\n\nYour brother's current treatment can offer insights into managing Huntington disease symptoms. Discussing his care and outcomes with his healthcare team might provide valuable information for your own situation.\n\nWe should schedule a genetic counseling session to discuss your family history and personal risk for Huntington disease.\n\nIf you haven't already, consider reaching out to your brother's healthcare team to understand his treatment plan and how it might apply to your situation.\n\nWe can also explore resources and support groups that specialize in Huntington disease to help you navigate this journey.\n\nCan you summarize for me what we discussed today and what steps we're planning to take next?\n\nLet's plan to meet again in 4 weeks to review the results of the genetic counseling and discuss any further questions or concerns you may have in the meantime.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns with me. I understand that dealing with a family history of Huntington disease can be quite overwhelming, especially with multiple relatives affected. I want to make sure we address your concerns thoroughly.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "Family History of Huntington Disease",
+            "profile_path": "relevant_history[0]",
+            "explanation": "Given your strong family history of Huntington disease, it's important to consider genetic counseling and testing if you haven't already. This can help clarify your risk and provide guidance for monitoring and management.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[0]::39919332_0",
+                "primary_assertion_id": "39919332_0",
+                "pmids": [
+                  "39919332"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "Family Members with Huntington Disease",
+            "profile_path": "relevant_history[1]",
+            "explanation": "The involvement of multiple family members with Huntington disease highlights the importance of understanding the genetic implications for yourself and your children. Genetic counseling can provide personalized risk assessment and support.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[0]::39919332_0",
+                "primary_assertion_id": "39919332_0",
+                "pmids": [
+                  "39919332"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "Brother Undergoing Neurological Treatment",
+            "profile_path": "relevant_history[2]",
+            "explanation": "Your brother's current treatment can offer insights into managing Huntington disease symptoms. Discussing his care and outcomes with his healthcare team might provide valuable information for your own situation.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[0]::39919332_0",
+                "primary_assertion_id": "39919332_0",
+                "pmids": [
+                  "39919332"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We should schedule a genetic counseling session to discuss your family history and personal risk for Huntington disease.",
+          "If you haven't already, consider reaching out to your brother's healthcare team to understand his treatment plan and how it might apply to your situation.",
+          "We can also explore resources and support groups that specialize in Huntington disease to help you navigate this journey."
+        ],
+        "teach_back_prompt": "Can you summarize for me what we discussed today and what steps we're planning to take next?",
+        "follow_up_invitation": "Let's plan to meet again in 4 weeks to review the results of the genetic counseling and discuss any further questions or concerns you may have in the meantime.",
+        "nurse_elements_applied": [
+          "Support",
+          "Respect"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[0]::39919332_0"
+        ],
+        "all_pmids_used": [
+          "39919332"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 0,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "39919332"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[0]::39919332_0"
+      ],
+      "nurse_elements_applied": [
+        "Support",
+        "Respect"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 17715.413376688957,
+        "module_2_retrieval": 39.253465831279755,
+        "module_3_reasoning": 43495.28644979,
+        "module_4_response": 27696.808077394962,
+        "total_ms": 88946.7613697052
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

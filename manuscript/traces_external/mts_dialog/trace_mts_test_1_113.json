@@ -1,0 +1,209 @@
+{
+  "transcript_id": "mts_test_1_113",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "SULFA drugs",
+  "patient_utterances": [
+    "[Clinician asked: \"And you're allergic to Sulfa drugs, correct?\"] Yes, ma'am.",
+    "[Clinician asked: \"What happens when you take Sulfa drugs?\"] I get incredibly dizzy and I can't stop vomiting."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "ALLERGY": "SULFA drugs."
+  },
+  "n_patient_turns": 2,
+  "n_clinician_turns": 2,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 11828.730717301369,
+      "response_text": "I understand how concerning and uncomfortable those symptoms must be for you. It sounds like you have a significant allergic reaction to sulfa drugs, which is something we should take very seriously. Your body is clearly reacting strongly to them, and it\u2019s important to avoid sulfa medications in the future to prevent the same reaction.\n\nTo help stay safe, it\u2019s a good idea to always check the ingredients of any medication and let your healthcare providers know about this allergy. Wearing a medical alert bracelet could also be a helpful precaution. If you ever experience these symptoms again, seek medical attention immediately. We\u2019ll work together to manage your health in a way that avoids triggering this reaction.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 18034.646816551685,
+      "response_text": "Thank you for sharing that with me. It makes sense that you're concerned about your reaction to sulfa drugs, especially since experiencing dizziness and vomiting can be quite unsettling. I can understand how this would make you cautious about your medications, and I want to ensure we find a solution that works well for you.\n\nGiven your history, it's important to review your current medications to see if sulfa drugs are still the right choice for you. If they're no longer necessary, we can explore alternative options that won't trigger these reactions. I want to make sure we're avoiding sulfa drugs moving forward to prevent any further issues.\n\nBefore you leave, could you summarize our plan in your own words? That way, I can ensure I've explained everything clearly. We'll follow up in about two weeks to check on your progress and adjust as needed.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6504.4935420155525,
+      "response_text": "Thank you for sharing your concerns with me today.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 4 weeks. In the meantime, if you get new symptoms like blood in your stool, severe pain, fevers, or the fatigue getting much worse, please call us right away \u2014 don't wait for the appointment.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns with me today.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 4 weeks. In the meantime, if you get new symptoms like blood in your stool, severe pain, fevers, or the fatigue getting much worse, please call us right away \u2014 don't wait for the appointment.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 20948.141388595104,
+      "response_text": "It sounds like you're experiencing dizziness and vomiting, especially when taking Sulfa drugs. I want to understand how this is affecting you.\n\nDizziness and vomiting can be caused by various factors, including medication side effects. Since this happens when you take Sulfa drugs, it's important to consider whether this reaction is a known side effect or if there might be another underlying cause.\n\nWe should review your medications and consider alternatives if necessary.\n\nWe'll monitor your symptoms and see if they improve with any changes to your medication.\n\nCan you tell me in your own words what we're going to do next?\n\nLet's plan to follow up in a week to see how you're doing. If your symptoms get worse or if you have any new concerns, please reach out sooner.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're experiencing dizziness and vomiting, especially when taking Sulfa drugs. I want to understand how this is affecting you.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "dizziness and vomiting",
+            "profile_path": "problems[0]",
+            "explanation": "Dizziness and vomiting can be caused by various factors, including medication side effects. Since this happens when you take Sulfa drugs, it's important to consider whether this reaction is a known side effect or if there might be another underlying cause.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We should review your medications and consider alternatives if necessary.",
+          "We'll monitor your symptoms and see if they improve with any changes to your medication."
+        ],
+        "teach_back_prompt": "Can you tell me in your own words what we're going to do next?",
+        "follow_up_invitation": "Let's plan to follow up in a week to see how you're doing. If your symptoms get worse or if you have any new concerns, please reach out sooner.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 1,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "dizziness and vomiting"
+        ],
+        "medications": [],
+        "allergies": [
+          "Sulfa drugs"
+        ]
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 129095.69501876831,
+      "response_text": "It sounds like your main concern is the dizziness and vomiting you experience when taking sulfa drugs. I want to make sure I understand how this is affecting you.\n\nDizziness and vomiting can be concerning, especially when linked to medication use. In some cases, these symptoms might be related to how your body reacts to sulfa drugs. We'll need to look into this further to understand the cause.\n\nWe'll schedule a follow-up visit to discuss your symptoms in more detail and explore possible causes.\n\nPlease keep track of when the dizziness and vomiting occur and any other symptoms you notice, so we can better understand the pattern.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we'll do next to address your symptoms?\n\nLet's plan to see each other again in a couple of weeks. In the meantime, if your symptoms get worse or you experience any new symptoms, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "It sounds like your main concern is the dizziness and vomiting you experience when taking sulfa drugs. I want to make sure I understand how this is affecting you.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "dizziness and vomiting",
+            "profile_path": "problems[0]",
+            "explanation": "Dizziness and vomiting can be concerning, especially when linked to medication use. In some cases, these symptoms might be related to how your body reacts to sulfa drugs. We'll need to look into this further to understand the cause.",
+            "citations": [
+              {
+                "cluster_id": "finding::problems[0]::40720582_0",
+                "primary_assertion_id": "40720582_0",
+                "pmids": [
+                  "40720582"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll schedule a follow-up visit to discuss your symptoms in more detail and explore possible causes.",
+          "Please keep track of when the dizziness and vomiting occur and any other symptoms you notice, so we can better understand the pattern."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we'll do next to address your symptoms?",
+        "follow_up_invitation": "Let's plan to see each other again in a couple of weeks. In the meantime, if your symptoms get worse or you experience any new symptoms, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::problems[0]::40720582_0"
+        ],
+        "all_pmids_used": [
+          "40720582"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 1,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "dizziness and vomiting"
+        ],
+        "medications": [],
+        "allergies": [
+          "Sulfa drugs"
+        ]
+      },
+      "pmids_used": [
+        "40720582"
+      ],
+      "cluster_ids_used": [
+        "finding::problems[0]::40720582_0"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 10068.240813910961,
+        "module_2_retrieval": 37.73391991853714,
+        "module_3_reasoning": 102712.78315037489,
+        "module_4_response": 16275.758005678654,
+        "total_ms": 129094.51588988304
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

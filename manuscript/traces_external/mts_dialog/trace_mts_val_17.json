@@ -1,0 +1,159 @@
+{
+  "transcript_id": "mts_val_17",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "lives with parents and attends mainstream 5th grade classes",
+  "patient_utterances": [
+    "[Clinician asked: \"Hi there! I am Doctor Frankland.\"] Hi. It is nice to meet you.",
+    "[Clinician asked: \"How are you today?\"] I'm good.",
+    "[Clinician asked: \"Do you live at home with both of your parents?\"] Yes.",
+    "[Clinician asked: \"What grade are you in?\"] Firth grade.",
+    "[Clinician asked: \"Mom, is he in public school?\"] Yes.",
+    "[Clinician asked: \"Is he enrolled in any special education classes?\"] No. He is in all the regular mainstream classes."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "FAM_SOCHX": "lives with parents and attends mainstream 5th grade classes."
+  },
+  "n_patient_turns": 6,
+  "n_clinician_turns": 7,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 13283.620603382587,
+      "response_text": "It's wonderful to hear that you're doing well and managing all your regular classes without any special education support. That's really impressive! I'm here to talk about anything you'd like\u2014whether it's about school, any challenges you might be facing, or just checking in. How would you like to proceed today?",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 30128.07459384203,
+      "response_text": "Thank you for sharing that with me. It sounds like you're doing well in school, and it's great that you're in mainstream classes. I can tell you're handling things confidently, and it's important to acknowledge how you're managing your schoolwork.\n\nIf you ever feel like things are getting a bit overwhelming or if there's something specific you'd like to talk about, whether it's related to school or anything else, I'm here to listen. It's important to take care of yourself, and if you ever need any support, just let me know.\n\nWe'll keep an eye on how you're doing and can always revisit this topic if anything comes up. Before we finish, could you tell me in your own words what we've discussed today? That way, I can make sure everything is clear to you.\n\nWe'll check in again in a couple of weeks to see how you're doing. If anything changes in the meantime, feel free to reach out. Take care, and I'm looking forward to our next conversation.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 4309.728771448135,
+      "response_text": "It's nice to meet you and hear how you're doing. You mentioned you're in the Firth grade and living at home with both parents. How can I assist you today?",
+      "structured_response": {
+        "acknowledgment": "It's nice to meet you and hear how you're doing. You mentioned you're in the Firth grade and living at home with both parents. How can I assist you today?",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "",
+        "follow_up_invitation": "",
+        "nurse_elements_applied": [],
+        "four_habits_elements_applied": [],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 24262.695975601673,
+      "response_text": "Thank you for reaching out. It sounds like you're here to discuss some important topics, and I'm ready to help.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again soon. If you have any new concerns or symptoms in the meantime, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "Thank you for reaching out. It sounds like you're here to discuss some important topics, and I'm ready to help.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again soon. If you have any new concerns or symptoms in the meantime, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 0,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 59171.28458619118,
+      "response_text": "Thank you for reaching out. I understand you're here to discuss your concerns and we'll work together to address them.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a week. If anything changes or if you have new symptoms, please reach out sooner.",
+      "structured_response": {
+        "acknowledgment": "Thank you for reaching out. I understand you're here to discuss your concerns and we'll work together to address them.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a week. If anything changes or if you have new symptoms, please reach out sooner.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 0,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 16448.375552892685,
+        "module_2_retrieval": 70.22310793399811,
+        "module_3_reasoning": 35698.73281568289,
+        "module_4_response": 6952.2261172533035,
+        "total_ms": 59169.557593762875
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

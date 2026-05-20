@@ -1,0 +1,210 @@
+{
+  "transcript_id": "mts_test_1_58",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "No fevers, no headaches, no shortness of breath currently",
+  "patient_utterances": [
+    "[Clinician asked: \"I'm going to run through a list of symptoms and if you're experiencing one or more of these, please let me know.\"] Okay.",
+    "[Clinician asked: \"You had previously mentioned that you sometimes experience an overactive bladder. Are you having any pain with urination or other urinary symptoms along with it?\"] No. Just occasionally, when I am really stressed, I start having trouble controlling my bladder.",
+    "[Clinician asked: \"How about abdominal pain, excessive thirst or eating?\"] No.",
+    "[Clinician asked: \"And no constipation, diarrhea, or heartburn?\"] No.",
+    "[Clinician asked: \"How about chest pain or tightness, shortness of breath, headaches, or fever?\"] No.",
+    "[Clinician asked: \"Any problems with your skin, muscles, or joints?\"] No."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "ROS": "No fevers, no headaches, no shortness of breath currently.  No chest pain or tightness.  No abdominal pain, no heartburn, no constipation, diarrhea or dysuria.  Occasional stress incontinence.  No muscle or joint pain.  No concerns about her skin.  No polyphagia, polydipsia or polyuria."
+  },
+  "n_patient_turns": 6,
+  "n_clinician_turns": 7,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 9147.695109248161,
+      "response_text": "It sounds like stress is playing a significant role in your bladder symptoms, and I understand how frustrating and overwhelming that can feel. It's completely normal for stress to trigger physical symptoms, and I want you to know that we're going to work through this together. Let's explore some strategies to help manage your stress and bladder concerns. We'll also keep an eye out for any other possible causes to make sure we're covering all bases. You're not alone in this, and I'm here to support you.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 17908.160842955112,
+      "response_text": "Thank you for sharing your concerns with me. It sounds like the stress in your life is taking a toll on your bladder, and I can understand how frustrating and worrying that must be. It\u2019s completely reasonable to want some clarity and support for this issue.\n\nBased on what you\u2019ve described, stress appears to be a significant factor in your overactive bladder symptoms. Stress can sometimes exacerbate bladder issues, and it\u2019s important to address both the physical and emotional aspects of this. I\u2019ll want to explore possible causes, such as overactive bladder syndrome or potential contributions from stress and anxiety [PMID ?]. We might consider lifestyle adjustments, stress management techniques, or other treatments to help alleviate your symptoms.\n\nWe\u2019ll plan to monitor your symptoms over the next 2-4 weeks and adjust our approach as needed. Before you leave, could you summarize what we\u2019ve discussed so far? This will help ensure you feel confident in the plan and that I\u2019ve explained everything clearly. We can schedule a follow-up in a few weeks to review your progress.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6564.646489918232,
+      "response_text": "Thank you for sharing your concerns with me today.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 4 weeks. In the meantime, if you get new symptoms like blood in your stool, severe pain, fevers, or the fatigue getting much worse, please call us right away \u2014 don't wait for the appointment.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns with me today.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 4 weeks. In the meantime, if you get new symptoms like blood in your stool, severe pain, fevers, or the fatigue getting much worse, please call us right away \u2014 don't wait for the appointment.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 46644.81057226658,
+      "response_text": "It sounds like you're dealing with stress-related bladder issues. Let me make sure I understand your concerns correctly.\n\nStress can sometimes trigger overactive bladder symptoms. To better understand your situation, we should consider how stress affects your bladder function and explore effective ways to manage these episodes.\n\nWe'll work together to identify strategies to manage your stress and bladder symptoms. This may include lifestyle changes or specific exercises to strengthen your pelvic floor muscles.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to review your progress in 2 weeks. If you experience any severe symptoms or if your condition worsens, please reach out sooner.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're dealing with stress-related bladder issues. Let me make sure I understand your concerns correctly.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "overactive bladder",
+            "profile_path": "problems[0]",
+            "explanation": "Stress can sometimes trigger overactive bladder symptoms. To better understand your situation, we should consider how stress affects your bladder function and explore effective ways to manage these episodes.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll work together to identify strategies to manage your stress and bladder symptoms. This may include lifestyle changes or specific exercises to strengthen your pelvic floor muscles."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to review your progress in 2 weeks. If you experience any severe symptoms or if your condition worsens, please reach out sooner.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "overactive bladder"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 94324.72205907106,
+      "response_text": "I understand you're dealing with stress-related overactive bladder. Let's work together to figure out the best way to manage this.\n\nStress can trigger overactive bladder, and we'll focus on managing this through lifestyle changes and monitoring your symptoms.\n\nWe'll monitor your symptoms over the next few weeks to see how they respond to these changes.\n\nIf things don't improve, we can explore additional options together.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to check in again in 4 weeks. If your symptoms get worse or you notice anything unusual, please reach out sooner.",
+      "structured_response": {
+        "acknowledgment": "I understand you're dealing with stress-related overactive bladder. Let's work together to figure out the best way to manage this.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "overactive bladder",
+            "profile_path": "problems[0]",
+            "explanation": "Stress can trigger overactive bladder, and we'll focus on managing this through lifestyle changes and monitoring your symptoms.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[1]::40155879_0",
+                "primary_assertion_id": "40155879_0",
+                "pmids": [
+                  "40155879"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll monitor your symptoms over the next few weeks to see how they respond to these changes.",
+          "If things don't improve, we can explore additional options together."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to check in again in 4 weeks. If your symptoms get worse or you notice anything unusual, please reach out sooner.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[1]::40155879_0"
+        ],
+        "all_pmids_used": [
+          "40155879"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "overactive bladder"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "40155879"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[1]::40155879_0"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 35084.27305519581,
+        "module_2_retrieval": 31.271420419216156,
+        "module_3_reasoning": 44777.57788449526,
+        "module_4_response": 14430.712781846523,
+        "total_ms": 94323.8351419568
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

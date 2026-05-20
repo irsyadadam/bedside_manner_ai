@@ -1,0 +1,258 @@
+{
+  "transcript_id": "mts_test_1_152",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "XYZ was seen by Dr",
+  "patient_utterances": [
+    "[Clinician asked: \"Good morning, Miss XYZ.\"] Good morning, Doctor.",
+    "[Clinician asked: \"So, I hear from my nurses you have F C R tendinitis. Have you seen another doctor for this?\"] Yes, I saw Doctor A B C, but what is F C R tendinitis? I don't have his notes with me today.",
+    "[Clinician asked: \"That stands for flexor carpi radialis, it's a tendon in your forearm that has become inflamed.\"] Okay, thank you for explaining that for me.",
+    "[Clinician asked: \"You're very welcome, my dear. So, you don't have his reports, but do you remember how this has been treated in the past?\"] So far, I've had two cortisone shots.",
+    "[Clinician asked: \"I see. So, what do you do for fun? Do you have any hobbies?\"] Actually, I play a few instruments.",
+    "[Clinician asked: \"Does this make the pain worse?\"] Yes, but only from time to time.",
+    "[Clinician asked: \"I see. Do you take anti-inflammatories when the pain gets bad?\"] Yeah, I do. I was thinking about having surgery, but if it's managed with the anti-inflammatories would I even need it? I'd like your opinion on that."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "HPI": "XYZ was seen by Dr. ABC for an FCR tendinitis.  We do not have his reports, but by history she has had two cortisone shots.  She plays musical instruments, and it does bother her from time to time.  She was considering surgery, but she takes ibuprofen and it seems to be well-controlled.  She is here now for consultation."
+  },
+  "n_patient_turns": 7,
+  "n_clinician_turns": 7,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 16449.402652680874,
+      "response_text": "I understand how frustrating and concerning this must be for you, especially when it's affecting your ability to enjoy your hobbies like playing instruments. FCR tendinitis is when the tendon in your forearm gets inflamed, causing pain, especially during activities like playing. It's good that you've had some relief with cortisone shots, but I know that's not solving the problem completely.\n\nLet's explore other options before considering surgery. We can look into physical therapy to strengthen the area and reduce strain, or maybe some changes in how you play your instruments to avoid aggravating the tendon. We'll also monitor how the anti-inflammatories are working and see if there are other medications or treatments that might help. Surgery is typically a last resort, so let's focus on managing it with other methods first. You're not alone in this, and we'll work together to find the best solution for you.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 21007.87104666233,
+      "response_text": "Thank you for sharing all of that with me. It makes sense that you're considering surgery and wanting to understand if it's necessary. Dealing with ongoing pain and uncertainty can be frustrating, and I appreciate you taking the time to explain everything to me.\n\nFCR tendinitis, or inflammation of the flexor carpi radialis tendon, is something that often improves with conservative treatments like rest, physical therapy, and anti-inflammatory medications. Many studies show that most cases can be managed without surgery, especially if the pain isn't constant and you're able to reduce inflammation [PMID ?]. Playing instruments is a great hobby, and it's good to know that it only occasionally makes things worse. We can work on finding ways to keep doing what you love while managing the pain.\n\nWe'll start by focusing on optimizing your current treatment plan. This might include adjusting your anti-inflammatory use, adding some specific exercises to strengthen the area without overloading it, and possibly incorporating splinting if needed. If things don't improve within 4-6 weeks, we can reconsider other options, including imaging or a referral to a specialist. If surgery were eventually needed, it's typically after exhausting other treatment paths and when the pain significantly impacts your daily life or hobbies.\n\nLet me know if you have any questions or concerns as we move forward. Before we wrap up, could you summarize what you feel we've agreed on? That will help ensure you're clear on the plan. We'll schedule a follow-up in 4-6 weeks to reassess your symptoms and adjust the plan as needed.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6921.477399766445,
+      "response_text": "Good morning, and thank you for coming in today. I understand you're here to discuss your F C R tendinitis and whether you might need surgery.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if the pain gets much worse or if you have any new symptoms, please call us so we can address them promptly.",
+      "structured_response": {
+        "acknowledgment": "Good morning, and thank you for coming in today. I understand you're here to discuss your F C R tendinitis and whether you might need surgery.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if the pain gets much worse or if you have any new symptoms, please call us so we can address them promptly.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 57706.78535848856,
+      "response_text": "Thank you for sharing your concerns about your tendonitis. It sounds like you're looking for ways to manage the pain and considering surgery as an option.\n\nTendinitis can be tricky to manage, especially when it comes and goes. The clusters I reviewed suggest that while we don't have specific guidelines for this exact situation, understanding your preferences and values is key to finding the best approach together.\n\nThinking about surgery is an important step. We'll work together to explore all options and make sure you're comfortable with the decisions we make.\n\nManaging pain with anti-inflammatories is a common approach. We'll keep using these as part of our plan, adjusting as needed based on how you're feeling.\n\nWe'll continue to monitor your progress and adjust your pain management plan as needed.\n\nIf your symptoms change or if you have any concerns before our next visit, please reach out.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again soon to check on your progress. In the meantime, if the pain gets worse or you have any new symptoms, please call us.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns about your tendonitis. It sounds like you're looking for ways to manage the pain and considering surgery as an option.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "F C R tendinitis",
+            "profile_path": "problems[0]",
+            "explanation": "Tendinitis can be tricky to manage, especially when it comes and goes. The clusters I reviewed suggest that while we don't have specific guidelines for this exact situation, understanding your preferences and values is key to finding the best approach together.",
+            "citations": []
+          },
+          {
+            "concern_label": "consider surgery",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Thinking about surgery is an important step. We'll work together to explore all options and make sure you're comfortable with the decisions we make.",
+            "citations": []
+          },
+          {
+            "concern_label": "manage pain with anti-inflammatories",
+            "profile_path": "patient_goals[1]",
+            "explanation": "Managing pain with anti-inflammatories is a common approach. We'll keep using these as part of our plan, adjusting as needed based on how you're feeling.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll continue to monitor your progress and adjust your pain management plan as needed.",
+          "If your symptoms change or if you have any concerns before our next visit, please reach out."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again soon to check on your progress. In the meantime, if the pain gets worse or you have any new symptoms, please call us.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 2,
+        "problems": [
+          "F C R tendinitis"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 122387.16812431812,
+      "response_text": "It sounds like you're dealing with some ongoing issues with your tendinitis. You mentioned considering surgery and managing pain with anti-inflammatories, which are important goals to address.\n\nGiven your history of trying cortisone shots and anti-inflammatories without full relief, it's important to explore other treatment options. We'll focus on understanding your goals and preferences for managing this condition.\n\nWhen considering surgery, it's crucial to engage in shared decision-making to ensure it aligns with your values and goals. We'll work together to explore this option thoroughly.\n\nManaging pain with anti-inflammatories is a common approach, but we'll also look into other strategies to complement this treatment. Your input on what's working and what's not will guide our next steps.\n\nWe'll schedule a follow-up visit to discuss your treatment options in more detail and ensure we're aligned on the best approach for your care.\n\nPlease keep track of how the current management plan is working for you and let us know if there are any changes in your symptoms before our next appointment.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if your symptoms worsen or if you have any questions, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're dealing with some ongoing issues with your tendinitis. You mentioned considering surgery and managing pain with anti-inflammatories, which are important goals to address.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "F C R tendinitis",
+            "profile_path": "problems[0]",
+            "explanation": "Given your history of trying cortisone shots and anti-inflammatories without full relief, it's important to explore other treatment options. We'll focus on understanding your goals and preferences for managing this condition.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::patient_goals::33658141_0",
+                "primary_assertion_id": "33658141_0",
+                "pmids": [
+                  "33658141"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "consider surgery",
+            "profile_path": "patient_goals[0]",
+            "explanation": "When considering surgery, it's crucial to engage in shared decision-making to ensure it aligns with your values and goals. We'll work together to explore this option thoroughly.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::patient_goals::33658141_0",
+                "primary_assertion_id": "33658141_0",
+                "pmids": [
+                  "33658141"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "manage pain with anti-inflammatories",
+            "profile_path": "patient_goals[1]",
+            "explanation": "Managing pain with anti-inflammatories is a common approach, but we'll also look into other strategies to complement this treatment. Your input on what's working and what's not will guide our next steps.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::patient_goals::33658141_1",
+                "primary_assertion_id": "33658141_1",
+                "pmids": [
+                  "33658141"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll schedule a follow-up visit to discuss your treatment options in more detail and ensure we're aligned on the best approach for your care.",
+          "Please keep track of how the current management plan is working for you and let us know if there are any changes in your symptoms before our next appointment."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if your symptoms worsen or if you have any questions, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Support",
+          "Respect"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "recommendation::patient_goals::33658141_0",
+          "recommendation::patient_goals::33658141_1"
+        ],
+        "all_pmids_used": [
+          "33658141"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 2,
+        "problems": [
+          "F C R tendinitis"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "33658141"
+      ],
+      "cluster_ids_used": [
+        "recommendation::patient_goals::33658141_0",
+        "recommendation::patient_goals::33658141_1"
+      ],
+      "nurse_elements_applied": [
+        "Support",
+        "Respect"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 40236.35569959879,
+        "module_2_retrieval": 58.25541168451309,
+        "module_3_reasoning": 54288.25967758894,
+        "module_4_response": 27802.854761481285,
+        "total_ms": 122385.72555035353
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

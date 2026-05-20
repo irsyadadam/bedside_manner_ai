@@ -1,0 +1,245 @@
+{
+  "transcript_id": "mts_test_1_57",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "Mental changes today",
+  "patient_utterances": [
+    "[Clinician asked: \"What brings you into the office today?\"] I have been feeling strange lately.",
+    "[Clinician asked: \"Strange, in what way?\"] Well, the other day I was driving and suddenly, I didn't know where I was or where I was driving to.",
+    "[Clinician asked: \"That must have been very scary for you. How long did you feel disoriented?\"] It seemed to last about ten or fifteen minutes.",
+    "[Clinician asked: \"Has anything like this happened before?\"] It has happened two times before this, but I was not driving.",
+    "[Clinician asked: \"I would like to send you to a specialist to get some cognitive tests done.\"] Okay."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "CC": "Mental changes today."
+  },
+  "n_patient_turns": 5,
+  "n_clinician_turns": 5,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 10673.220582306385,
+      "response_text": "I understand how concerning this must be for you. The specialist will help us better understand what's happening. These tests are important to get clarity and ensure we're addressing your concerns properly. Feel free to ask any questions you have, and I'll be here to support you every step of the way.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 16767.127238214016,
+      "response_text": "Thank you for sharing that with me\u2014it sounds like you're feeling quite worried and confused about what's been happening. It's completely understandable to feel this way, especially after experiencing something as unsettling as losing your sense of direction while driving. I can see how this must be affecting your confidence and daily life, and I want to make sure we address it together.\n\nGiven your symptoms, there could be several reasons for these episodes. Memory issues or confusion can sometimes be linked to stress, lack of sleep, or even underlying neurological conditions. I think it's important we explore this further, which is why I've arranged for you to see a specialist for some cognitive tests. These tests will help us better understand what might be going on and how to move forward.\n\nWe'll plan to follow up in about two weeks to review the results and discuss the next steps. Before you leave, could you summarize what we've agreed on? That way, I can ensure everything is clear and we're on the same page. Please don't hesitate to reach out if you have any concerns in the meantime.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 8557.031534612179,
+      "response_text": "It sounds like you've been feeling quite strange lately, and that moment of disorientation while driving must have been very unsettling.\n\nWe'll schedule an appointment with a specialist who can perform some cognitive tests to better understand what's going on. In the meantime, if you experience any more episodes of disorientation, please let us know right away so we can adjust your care plan accordingly.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to follow up in a few weeks after the specialist appointment. In the meantime, if you have any more episodes of disorientation or notice any new symptoms, please call us so we can address them promptly.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you've been feeling quite strange lately, and that moment of disorientation while driving must have been very unsettling.",
+        "clinical_information_per_concern": [],
+        "next_steps": [
+          "We'll schedule an appointment with a specialist who can perform some cognitive tests to better understand what's going on. In the meantime, if you experience any more episodes of disorientation, please let us know right away so we can adjust your care plan accordingly."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to follow up in a few weeks after the specialist appointment. In the meantime, if you have any more episodes of disorientation or notice any new symptoms, please call us so we can address them promptly.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 51395.800322294235,
+      "response_text": "I understand that you're experiencing moments of confusion, like suddenly not knowing where you are or where you're driving to. This must be unsettling and concerning for you.\n\nConfusion and sudden memory issues can be serious. Given your symptoms, it's important to explore possible causes, such as changes in how your brain is functioning. We'll need to look into this carefully to understand what might be happening.\n\nGiven the concern about your confusion, we'll prioritize evaluating this symptom. We'll arrange for some tests to better understand what might be causing these episodes.\n\nWe'll schedule a follow-up visit to discuss the results and next steps together.\n\nI want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to meet again in a few weeks. If you experience severe confusion, memory loss, or any new symptoms in the meantime, please reach out immediately.",
+      "structured_response": {
+        "acknowledgment": "I understand that you're experiencing moments of confusion, like suddenly not knowing where you are or where you're driving to. This must be unsettling and concerning for you.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "feeling strange",
+            "profile_path": "problems[0]",
+            "explanation": "Confusion and sudden memory issues can be serious. Given your symptoms, it's important to explore possible causes, such as changes in how your brain is functioning. We'll need to look into this carefully to understand what might be happening.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::37567752",
+                "primary_assertion_id": "37567752_retr",
+                "pmids": [
+                  "37567752"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "Given the concern about your confusion, we'll prioritize evaluating this symptom. We'll arrange for some tests to better understand what might be causing these episodes.",
+          "We'll schedule a follow-up visit to discuss the results and next steps together."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to meet again in a few weeks. If you experience severe confusion, memory loss, or any new symptoms in the meantime, please reach out immediately.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Demonstrate empathy",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "retrieval_only::37567752"
+        ],
+        "all_pmids_used": [
+          "37567752"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 1,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "feeling strange"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "37567752"
+      ],
+      "cluster_ids_used": [
+        "retrieval_only::37567752"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Demonstrate empathy",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 89268.46464723349,
+      "response_text": "I understand you're feeling confused and disoriented, especially when driving. This must be unsettling and concerning for you.\n\nConfusion and disorientation, especially during activities like driving, can be serious. Based on clinical guidelines, it's important to evaluate whether this could be related to conditions like dementia or other cognitive issues. We'll need to look into this carefully to understand what might be causing these episodes.\n\nGiven the seriousness of your symptoms, we'll prioritize evaluating your cognitive health. This includes possible screening tests to assess for conditions like dementia.\n\nWe'll schedule a follow-up visit to discuss the results and next steps in detail.\n\nI want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why it's important?\n\nLet's plan to meet again in two weeks to review the results. In the meantime, if you experience severe confusion or any new symptoms, please reach out immediately.",
+      "structured_response": {
+        "acknowledgment": "I understand you're feeling confused and disoriented, especially when driving. This must be unsettling and concerning for you.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "feeling strange",
+            "profile_path": "problems[0]",
+            "explanation": "Confusion and disorientation, especially during activities like driving, can be serious. Based on clinical guidelines, it's important to evaluate whether this could be related to conditions like dementia or other cognitive issues. We'll need to look into this carefully to understand what might be causing these episodes.",
+            "citations": [
+              {
+                "cluster_id": "finding::red_flags[0]::35709018_0",
+                "primary_assertion_id": "35709018_0",
+                "pmids": [
+                  "35709018"
+                ]
+              },
+              {
+                "cluster_id": "recommendation::sub_query[1]::34278561_0",
+                "primary_assertion_id": "34278561_0",
+                "pmids": [
+                  "34278561"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "Given the seriousness of your symptoms, we'll prioritize evaluating your cognitive health. This includes possible screening tests to assess for conditions like dementia.",
+          "We'll schedule a follow-up visit to discuss the results and next steps in detail."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why it's important?",
+        "follow_up_invitation": "Let's plan to meet again in two weeks to review the results. In the meantime, if you experience severe confusion or any new symptoms, please reach out immediately.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Demonstrate empathy",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::red_flags[0]::35709018_0",
+          "recommendation::sub_query[1]::34278561_0"
+        ],
+        "all_pmids_used": [
+          "35709018",
+          "34278561"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 1,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "feeling strange"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "35709018",
+        "34278561"
+      ],
+      "cluster_ids_used": [
+        "finding::red_flags[0]::35709018_0",
+        "recommendation::sub_query[1]::34278561_0"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Demonstrate empathy",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 38208.58506113291,
+        "module_2_retrieval": 29.079630970954895,
+        "module_3_reasoning": 30976.874135434628,
+        "module_4_response": 20052.79915779829,
+        "total_ms": 89267.33798533678
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

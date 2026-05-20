@@ -1,0 +1,329 @@
+{
+  "transcript_id": "primock57_day1_consultation07",
+  "dataset": "primock57",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "I have a cough and cold",
+  "patient_utterances": [
+    "[Clinician asked: \"Hello?\"] Hello?",
+    "[Clinician asked: \"Hello? Uh, can you hear me OK?\"] Yes, yeah I can, I can, cheers.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/>. Great. Right, how can I help you this afternoon sir?\"] Uh, I am not feeling, very well.",
+    "[Clinician asked: \"I'm sorry to.\"] And I haven't been feeling well, for, a good few days, now, and, I'm really hoping you can do something about it, because it's been, bugging me, for a while now.",
+    "[Clinician asked: \"Well I will certainly try my best, for you. Um, can you tell me a bit more about what's been going on?\"] Uh, I just feel a bit, run-down, you know I've got, a cough, a cold.",
+    "[Clinician asked: \". Mm-hmm.\"] You know, my wife's been nagging me. I just, it's just all, yeah, it's just, that, that, that's it, that's it.",
+    "[Clinician asked: \"Mmm. OK, well let's start with your cough first. Tell me a bit more about your cough. Is it, for example are you, coughing up anything at all, or is it mainly dry?\"] Uh, yeah, yeah, mean, mostly, dry it's a , you know it's a wee bit in the morning it's a bit worse uh, but , and you know it's, it's fairly, fairly dry, aye.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/> So you're not bringing up any mucky, flem?\"] Yeah, yeah, yeah, yeah, yeah, yeah. I don't like to admit that it's, you know it's  talk about but, yeah it's , aye, aye. It's a wee bit, wee bit uh,  yeah.",
+    "[Clinician asked: \"OK, all right. <INAUDIBLE_SPEECH/> Yeah, I can certainly hear you've got the sniffles. So, bit of a runny, bit of a runny nose, you mentioned.\"] Yeah, yeah, yeah, aye, aye you're right. Is that, is that coming through loud and clear on the phone yeah the, the sniffling, yeah, .",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/>. Yeah, sorry to hear that, yeah no <INAUDIBLE_SPEECH/>. Um, and uh, any other symptoms, so for example have you any, uh, any sore throats, any ear pain?\"] Yeah, ugh, yeah, yeah. I've, I've had a bit of a sore throat. I mean, I, you know, <INAUDIBLE_SPEECH/>, I'm doing a lot of uh, you know I'm, <INAUDIBLE_SPEECH/>, watching the, watching the football as well. So I do a lot of shouting at that, but uh, uh, uh, I'm not sure if that's related or not.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/> Ah OK. Who do you support?\"] Uh, well it's a team, called, Partick Thistle. And they're in the, they're not even in the top division, uh, of the Scottish, league. They're actually in the, the, the championship, which is the league below that, and they're, bottom of the table.",
+    "[Clinician asked: \"Right.\"] So I've been, shouting myself a wee bit hoarse, 'cause their performance has been, uh, pretty shite, if I'm being honest with you. <INAUDIBLE_SPEECH/>.",
+    "[Clinician asked: \"Well, all sounds fascinating, well I wish them all the best. <INAUDIBLE_SPEECH/> nothing <INAUDIBLE_SPEECH/> table. Um, so, so you mentioned sore throat. Um, and have you had a chance to look in the, in the mirror? Have you had a look at the back of your throat?\"] , yeah, yeah, yeah. , aye, I mean aye, I, I shave, every day so I'm, I'm looking at myself, it's not, not, not a pretty sight to be honest at the best of times but it's been a, wee bit, a wee bit rough, uh, the last few days for sure.",
+    "[Clinician asked: \"Yeah, now, I mean have you any, have you noticed any kind of, white spots on the back of your, back of your throat, or redness?\"] Ohh right, right aye. , sorry you mean I'm looking ah right yeah uh. , no I, I don't, I don't really like to look, you know to look at it so I, I, I haven't, haven't tried to do any of that.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/>. <INAUDIBLE_SPEECH/>. <INAUDIBLE_SPEECH/>. I understand it's not pretty but as I say it's not, it's not something we, we always um, uh, recommend but um, moving on. In terms of your ears <INAUDIBLE_SPEECH/>, any dullness or blocked ears, pain in your ears.\"] <INAUDIBLE_SPEECH/> Uh, yeah, , a, a wee bit I mean <INAUDIBLE_SPEECH/>. You know, I'm fit, I'm , I'm fifty years old now and my, my hearing's, you know it's not as good as it used to be but, you know I , I, I think, I think it's all right, it's all right.",
+    "[Clinician asked: \"OK, OK. Fine. Um, moving down to your chest. Um, how's your breathing been? So do, you feel more breathless or tight in your chest?\"] Uh. Uh, no. No, no it's, it's not. No, no, no, .",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/>. So your breathing is ?\"] , sorry, what was that?",
+    "[Clinician asked: \"Uh, your, your breathing is fine is it? <INAUDIBLE_SPEECH/> your, it's not laboured, or?\"] No it's, it's, it's, it's not, it's not good. It's not good.",
+    "[Clinician asked: \"OK. It's not good?\"] No. No, no.",
+    "[Clinician asked: \"No, OK, OK. So you're , you're, you're feeling more short of breath?\"] Yeah, yeah.",
+    "[Clinician asked: \"OK, OK, , OK. Um, <INAUDIBLE_SPEECH/> any pain in your chest at all?\"] No, no it's, it's, it's weird, it's, it's just, you know it's just a wee bit, it's just a wee bit shortness of breath, but it's not, , it's, it's not, it's not pain, you know, as such.",
+    "[Clinician asked: \"No pain, OK, OK. Have you noticed yourself, any, any, any temperatures or fevers? Um, feeling hot and cold? Sweaty?\"] Yeah, yeah that's, that's, that's, that's definitely something I've noticed. Like, you know in, in bed with the wife and having to, you know get out and, get the blanket off, and put it back on again it's, it's not, it's not pleasant. I mean, I'm keeping her up at night as well, which is a, bloody nightmare but, I mean, you know how these things are.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/>. <INAUDIBLE_SPEECH/>. Yeah, <INAUDIBLE_SPEECH/>. Seems, seems very difficult at the moment. Um, <INAUDIBLE_SPEECH/>, have you measured your temperature at all? Have you, got a ?\"] <INAUDIBLE_SPEECH/> But uh, no I mean, no you know, you know, I can, I just feel it in my forehead but,  I mean, I haven't, haven't, you know, used a thermometer or anything.",
+    "[Clinician asked: \"Mmm, OK. Sure, OK. Um, and just moving on, just very quickly. Um, any other symptoms? Any nausea? Any vomiting? Any tummy pain?\"] Uh,  the, the first, the first day I had, you know a wee bit, of uh, <INAUDIBLE_SPEECH/>, you know uh, you know the rot like, a wee bit of diarrhoea.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/>.\"] You know but, but that, that's, that's fine, now. Um, and, , yeah but, but apart from that, , no.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/>. OK. And how's your appetite? Are you eating and drinking OK?\"] Uh, yeah I mean I'm, I'm, I'm trying to and I think what, what is you , you starve, a cold and you, feed the. I, can't remember what it is, but I think I've, uh, my appetite's been, been all right yeah, yeah. I'm trying to, trying to keep, keep the fluids up as well you know, I hear that's what you should do.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/>. Yeah, absolutely, , completely uh, recommend that, so keep, keep doing what you're doing. Um, and just lastly, you know any, any, any kind of muscle pain, joint pains?\"] <INAUDIBLE_SPEECH/> Yeah. Yeah it's, it's, it's just been a wee. I mean again, you know I'm , I'm getting a just a wee bit older now so it, it's, it's not something that I, I was thinking about but, I have, I have noticed like when I, you know, when I'm bending down and. Know moving about, it's just, a wee, a wee bit stiffer than, than normal. , you know and I'm, I think that might be to do with whatever this.",
+    "[Clinician asked: \"Mmm.\"] Thing is, but, again it's, you know, I'm just getting on.",
+    "[Clinician asked: \"And where do you, where do you feel the stiffness?\"] It it's, just kinda, like you know when you're, when you're bending like, elbows and knees and just, just a wee bit, kinda stiff, you know?",
+    "[Clinician asked: \", all over, OK. And just remind me sir, when did your symptoms all start? , you say a few days ago?\"] Yeah. Yeah I would say what day is it today? It's uh, , Wednesday, so it would have been, what is it Saturday, 'cause I was out.",
+    "[Clinician asked: \"It's Wednesday. OK.\"] Yeah I was out having dinner, and then, yeah I, I came, yeah, yeah, yeah it would have been that. 'Cause I was out, for my wife's, uh she's, she was, doing this wee thing, we had a wee bit of a celebration, so we were out for that.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/>.\"] And I remember saying to her, it was like you know what? I'm, I'm, I'm not feeling, great. You know I , I stuck it out with her but, aye, it would have been that, Saturday. So, what's that about five, five days ago? Yeah, yeah, yeah, yeah.",
+    "[Clinician asked: \"Four, five days ago, yeah. OK. Are you aware of anything that might have set your symptoms off/\"] No I haven't been, haven't been , I mean, as I said, I was out with my wife. I don't know whether it's like, you know, the restaurant we went to was like,  it was like, pretty good, so I wouldn't have expected them to be serving me anything. Dodgy or anything like that but, I , I, I, I don't know, you know. So, , nothing that I can see.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/>, OK. And , without prying too much, what were you celebrating?\"] Well, my wife, has just been, uh, promoted. So, she's now going to be, uh, a head teacher, of, of primary school.  So, just took her out.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/>. <INAUDIBLE_SPEECH/>.\"] <INAUDIBLE_SPEECH/>.  Yeah, wee, a wee night on the tiles, for that, so uh, it was good, . Yeah, yeah.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/>, very nice. , good, excellent. So just moving on sir. Uh, regarding your, um, what we say, past medical history. Are you, do you have any other medical problems I should be aware of? So anything to do with your heart, lungs?\"] Uh, I mean, I'm a , I'm a wee bit, on the chunky side. You know, uh, you know I've, I've got a wee bit, a wee bit round the midriff, the spare tyre's, definitely there. Uh, and I've, I've got the uh, I've got the diabetes.",
+    "[Clinician asked: \"Diabetes, right. What type of , is it type one or type two?\"] Uh, it's, it's uh, type, two, two. Aye, type one, , aye, aye. 'Cause he said, the doctor I spoke to, he was sort of saying like, you know, as a bigger guy, it's, it's kinda, it's kinda like, yeah, and.",
+    "[Clinician asked: \"OK, OK. And what. <INAUDIBLE_SPEECH/>. Yeah, OK. <INAUDIBLE_SPEECH/>.\"] And uh, aye, when I was speaking to uh, it was this, it was other, another doctor I spoke to a while ago but. Aye when he, took the, when he was telling me this as well he, took my blood pressure and that said that was, that was high, uh, high, higher than it should be.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/>. <INAUDIBLE_SPEECH/>. You've been diagnosed with high blood pressure, uh, or <INAUDIBLE_SPEECH/>. OK, all right. So um, moving on. Come to your medications, , which medications do you take on a regular basis?\"] . Yeah, yeah. Uh, give me, I'm just gonna check. It's, it's, let me know if I'm pronouncing this correctly 'cause I haven't  got, I haven't got my glasses with me. So, it's , Metformin?",
+    "[Clinician asked: \", that's correct, OK.\"] <INAUDIBLE_SPEECH/> and, and there's another one, , Lisinopril? Is that? Yeah, <INAUDIBLE_SPEECH/>. I mean that's those two, I had, I've got them written down a wee bit of paper so.",
+    "[Clinician asked: \"OK. Lisinopril, yeah. That sounds like. No problems, no problem, that's fine. Anything else sir?\"] Uh, no, no, just, just, just those two. Yeah, I mean a wee bit of like <INAUDIBLE_SPEECH/>, a wee bit of Aspirin or whatever every now and again, but you know <INAUDIBLE_SPEECH/> nothing long-term.",
+    "[Clinician asked: \"Right. OK, all right. And just moving on swiftly sir. Do you have any allergies at all?\"] <INAUDIBLE_SPEECH/> Uh, not that I'm, not that I'm aware of. You know, I mean, what, what are the, what are the allergies you get?  Just, you know, nah, not.",
+    "[Clinician asked: \"Just allergies to , medications really, I'm, I'm asking not, as opposed to um, other things.\"] Right ah, yeah. No, nothing, nothing that, nothing that I'm aware of, doctor's never said nothing to me, so.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/>. OK. And just very briefly, socially sir, just  it's very important to ask. Uh, you said you live, with your wife. Anyone else at home with you?\"] Uh, no, no, kids, the kids have uh, they've flown the nest. So uh, now it's just me and the missus, you know, good life.",
+    "[Clinician asked: \"OK. OK, OK. And are you, yep, and are you working at the moment? Uh, yourself?\"] Uh, I am. Yep, yeah, yeah um, .",
+    "[Clinician asked: \"What, what do you do at work?\"] Uh, well I'm, it's one of the, there's a wee factory, just uh, down the road, um, so we just you know, we just manufacture like uh. Uh, it's like, kind of steel, steel parts, uh, things like that. You know, so it's a, good wee job, you know, keeps us, a roof over the, over us.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/> <INAUDIBLE_SPEECH/> <INAUDIBLE_SPEECH/>. Pays the bills, really. Um.\"] Yeah, yeah, aye, exact, exactly.",
+    "[Clinician asked: \"What, what about smoking and alcohol, sir? Do you, you do either?\"] Uh. I, I do, I do like a wee drink. Uh, aye the doc, the old, doctor I had, he, he, he did say I was drinking just a wee, a wee bit too much. I mean I'm not like, you know I'm not, not an alky or anything, but just, just uh, yeah, do like a few, a few pints every now and again.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/> roughly on average, how many you would drink a week?\"] Uh, pints?",
+    "[Clinician asked: \"Well, whatever you drink. Is it , beer, lager, wine, spirits?\"] <INAUDIBLE_SPEECH/>. You know, maybe, maybe what like four, four pints on like Saturday and then, you know on, Sunday as well, , maybe like. Nine, nine pints in a week, I would say.",
+    "[Clinician asked: \"OK, OK. And what about smoking, sir?\"] Uh, ugh, , a wee, every now and again, but I'm, I, I am trying to cut that down. I've got a wee uh, what are those wee things called? The wee vaporisers.",
+    "[Clinician asked: \"Ohh OK, OK.\"] Yeah I've got, I got, I got myself one of those, so I've been, I've been cutting down on the cigarettes. Uh, and I just got this wee, this wee thing, it's great, it is, it's actually like amazing, by the way.",
+    "[Clinician asked: \"Well, I wish you , all the best on your journey to quit, I , I highly recommend it. Um, if you can, it'll certainly help your health as well. Um, so just to <INAUDIBLE_SPEECH/>, just to summarise, I think you know, uh, based on your story.\"] Thank you.",
+    "[Clinician asked: \"Um, yeah I'm not, <INAUDIBLE_SPEECH/> worry. I think you know what you essentially have is a bit of a, a bit of a viral illness perhaps, a bit of a, maybe early signs of a flu, um.\"] Mm-hmm.",
+    "[Clinician asked: \"Which I think should, settle down, um, really on it's own, uh, over time. Um, things to you know, you, you can do, help yourself you know, <INAUDIBLE_SPEECH/>, stay rested, drink plenty of fluids.\"] Right. Yes, aye.",
+    "[Clinician asked: \"Um, if you are, if you are feeling hot and cold and sweaty, taking regular Paracetamol would be beneficial. Um, you mentioned feeling a bit short of breath. Um, I'm a little bit on the edge about giving you antibiotics. I don't think you've got a chest infection, but what we could think about is giv\"] Aye.",
+    "[Clinician asked: \"A script for antibiotics, which maybe use in next, twenty four to forty eight hours, if your symptoms don't get better.\"] Right, so , so if, so if I'm, I just , just lie down and take it easy. If I'm still, feeling a bit rubbish then, I go in, I .",
+    "[Clinician asked: \"Yeah. Yeah, <INAUDIBLE_SPEECH/>, I will, yeah, I'll, I'll give you a script today, give it about twenty four to forty eight hours. If you feel like you're still feeling breathless and, run-down, I think there's no harm in starting a course of antibiotics, something like Amoxicillin. One tablet, thre\"] <INAUDIBLE_SPEECH/> All right, OK. OK, so I just, plenty of rest, lots of water, hopefully this thing pass.",
+    "[Clinician asked: \"Exactly. Yes, absolutely.\"] Right, that is, that's perfect, that's just what, <INAUDIBLE_SPEECH/>, what I wanted to hear.",
+    "[Clinician asked: \"Great, well, I'm, glad I could help. And um, I wish you and your football team all the best.\"] Cheers. Aye, I hope so, I hope so. It's not, not looking too good, but uh, aye. Right, cheers, cheers, ."
+  ],
+  "gold_note": "5/7 hx of generally unwell with cough and cold sx. Mainly dry cough. No chest pain. Feeling more SOB. \nFeeling hot/cold and sweaty. No fevers. \nSore throat and blocked ears. Also myalgia and arthralgia - mainly stiffness in joints. \nNo unwell contacts\nNo nausea/vomiting\nNo bowel symptoms\n\n\nPMH: obesity, diabetes - type 2 , hypertension\nDH: metformin, lisinopril , aspirin, \nNKDA\nSH: lives with wife, works in factory/manufacturing, smoking socially, etOH - >14 units/week \n\nImp: viral URTI/? LRTI\n\nPlan:\n1.\tConservative mx - rest, fluids, regular paracetamol \n2.\tDelayed script for amoxicillin abx - to start in 24-48 hours if sx not improving\n3.\tReview in 1/52 INB, or earlier if worsening sx (chest pain, SOB, fevers)",
+  "gold_sections": {
+    "PRESENTING_COMPLAINT": "I have a cough and cold",
+    "HIGHLIGHTS": "cough\nSOB\nSore throat and blocked ears\nmyalgia\nviral URTI/? LRTI"
+  },
+  "n_patient_turns": 60,
+  "n_clinician_turns": 61,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 25766.011252999306,
+      "response_text": "I'm really sorry to hear that you've been feeling so unwell over the past few days. It sounds like you're going through a tough time, and I completely understand how frustrating and exhausting it must be. Based on what you've described, it seems like you're dealing with a viral infection, possibly the flu, which can bring on a range of symptoms like the ones you're experiencing.\n\nTo help you feel better, I recommend resting as much as possible, staying hydrated, and taking Paracetamol to manage any fever or discomfort. I don't think antibiotics are necessary right now since viruses don't respond to them, but I can prescribe them if your symptoms worsen or if we suspect a bacterial infection. Please keep an eye on how you're feeling, and don't hesitate to reach out if things don't improve or if you need more support.\n\nAdditionally, I encourage you to continue working on reducing your smoking and moderating your alcohol intake, as these can impact your overall health, especially with your diabetes and high blood pressure. Take care of yourself, and I hope you start feeling better soon. If you need anything else, just let me know. Wishing you a speedy recovery!",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 22959.822103381157,
+      "response_text": "Thank you for sharing all that with me. It sounds like you're feeling pretty run down, and I can understand why you're concerned. Having symptoms like a cough, sore throat, and shortness of breath for several days is enough to make anyone feel worried. I can see how this might be especially frustrating, especially when you're trying to keep up with work and family.\n\nGiven your symptoms and medical history, it seems like you might be dealing with a viral illness, possibly the flu or a similar infection. These can take a few weeks to fully recover from, and it's important to give your body the rest it needs. I'm also thinking about how your diabetes and high blood pressure might be affected by this, so we'll keep a close eye on those as well.\n\nFor now, I recommend resting as much as possible, staying hydrated, and taking Paracetamol to help with any fever or discomfort. I'll prescribe a short course of antibiotics just in case, but we'll wait to see if your symptoms improve before starting them. If you notice any worsening symptoms, like difficulty breathing or a high fever, please come back in or seek urgent care.\n\nLet me know if you have any questions or concerns about this plan. I'll make sure to follow up with you in a week to see how you're doing.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 11880.768209695816,
+      "response_text": "I understand you're not feeling well and have been for several days. You mentioned having a cough, cold symptoms, and feeling run-down, which sounds like it's been taking a toll on you.\n\nWe'll focus on managing your symptoms with rest, fluids, and over-the-counter medications like Paracetamol to help with fever and discomfort. If your symptoms don't improve or get worse, we can revisit this in a follow-up visit or sooner if needed.\n\nI recommend staying at home, resting, and avoiding others until you feel better to help prevent spreading any potential infection.\n\nIf you experience severe symptoms like difficulty breathing, chest pain, or inability to keep fluids down, please seek immediate medical attention.\n\nCan you tell me in your own words what you plan to do next to feel better?\n\nLet's plan to check in again in a week. If you're not improving or if anything gets worse, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I understand you're not feeling well and have been for several days. You mentioned having a cough, cold symptoms, and feeling run-down, which sounds like it's been taking a toll on you.",
+        "clinical_information_per_concern": [],
+        "next_steps": [
+          "We'll focus on managing your symptoms with rest, fluids, and over-the-counter medications like Paracetamol to help with fever and discomfort. If your symptoms don't improve or get worse, we can revisit this in a follow-up visit or sooner if needed.",
+          "I recommend staying at home, resting, and avoiding others until you feel better to help prevent spreading any potential infection.",
+          "If you experience severe symptoms like difficulty breathing, chest pain, or inability to keep fluids down, please seek immediate medical attention."
+        ],
+        "teach_back_prompt": "Can you tell me in your own words what you plan to do next to feel better?",
+        "follow_up_invitation": "Let's plan to check in again in a week. If you're not improving or if anything gets worse, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 265178.7907257676,
+      "response_text": "I can hear how frustrating this must be for you \u2014 you mentioned, \"shouting myself a wee bit hoarse.\" That sounds really tough, and I want to make sure we address it properly.\n\nFeeling run-down with symptoms like a cough and sore throat can be a sign of a respiratory infection. We should check if there\u2019s an underlying cause, like a viral or bacterial infection, to guide the right treatment.\n\nA cough that\u2019s worse in the morning could be linked to allergies or a respiratory infection. We\u2019ll look into possible causes to find the best way to manage it.\n\nA sore throat that\u2019s getting worse might be due to an infection. We should monitor it closely to see if it improves or if further treatment is needed.\n\nBreathing difficulty could indicate a respiratory issue that needs attention. We\u2019ll assess it to ensure we\u2019re addressing any underlying concerns.\n\nTo address these symptoms, we\u2019ll start with some basic tests to figure out what\u2019s going on and then plan the next steps together.\n\nGiven the breathing difficulty and other symptoms, we\u2019ll order some tests to check for possible respiratory issues.\n\nWe\u2019ll schedule a follow-up visit in 1 week to review the results and discuss the next steps.\n\nIf any symptoms get worse or if you experience severe breathing problems, please call us immediately.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we\u2019re going to do next and why?\n\nLet\u2019s plan to meet again in 1 week. If you notice any new symptoms like increased difficulty breathing or high fever, please reach out right away.",
+      "structured_response": {
+        "acknowledgment": "I can hear how frustrating this must be for you \u2014 you mentioned, \"shouting myself a wee bit hoarse.\" That sounds really tough, and I want to make sure we address it properly.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "feeling run-down",
+            "profile_path": "problems[0]",
+            "explanation": "Feeling run-down with symptoms like a cough and sore throat can be a sign of a respiratory infection. We should check if there\u2019s an underlying cause, like a viral or bacterial infection, to guide the right treatment.",
+            "citations": []
+          },
+          {
+            "concern_label": "cough",
+            "profile_path": "problems[1]",
+            "explanation": "A cough that\u2019s worse in the morning could be linked to allergies or a respiratory infection. We\u2019ll look into possible causes to find the best way to manage it.",
+            "citations": []
+          },
+          {
+            "concern_label": "sore throat",
+            "profile_path": "problems[2]",
+            "explanation": "A sore throat that\u2019s getting worse might be due to an infection. We should monitor it closely to see if it improves or if further treatment is needed.",
+            "citations": []
+          },
+          {
+            "concern_label": "breathing difficulty",
+            "profile_path": "problems[3]",
+            "explanation": "Breathing difficulty could indicate a respiratory issue that needs attention. We\u2019ll assess it to ensure we\u2019re addressing any underlying concerns.",
+            "citations": []
+          },
+          {
+            "concern_label": "do something about it",
+            "profile_path": "patient_goals[0]",
+            "explanation": "To address these symptoms, we\u2019ll start with some basic tests to figure out what\u2019s going on and then plan the next steps together.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "Given the breathing difficulty and other symptoms, we\u2019ll order some tests to check for possible respiratory issues.",
+          "We\u2019ll schedule a follow-up visit in 1 week to review the results and discuss the next steps.",
+          "If any symptoms get worse or if you experience severe breathing problems, please call us immediately."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we\u2019re going to do next and why?",
+        "follow_up_invitation": "Let\u2019s plan to meet again in 1 week. If you notice any new symptoms like increased difficulty breathing or high fever, please reach out right away.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Demonstrate empathy",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 4,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 1,
+        "n_emotional": 3,
+        "n_goals": 1,
+        "problems": [
+          "feeling run-down",
+          "cough",
+          "sore throat",
+          "breathing difficulty"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Demonstrate empathy",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 218255.62489777803,
+      "response_text": "I can hear how frustrating this hoarseness must be for you. You mentioned, \"It's not good. It's not good,\" and I understand how that feels.\n\nHoarseness that's been getting worse recently can be caused by several things. The current advice is to consider approaches like graded exercise therapy, which can help manage symptoms, along with using handheld fans and breathing techniques. However, we should avoid using opioids for symptom management.\n\nWe'll start with some tests to figure out what's causing the hoarseness. In the meantime, we can try some symptom management techniques like graded exercise therapy and using a handheld fan to help with your symptoms.\n\nI want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to follow up in a week to see how these steps are working for you. If your symptoms get worse or if you notice anything unusual, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I can hear how frustrating this hoarseness must be for you. You mentioned, \"It's not good. It's not good,\" and I understand how that feels.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "hoarseness",
+            "profile_path": "problems[0]",
+            "explanation": "Hoarseness that's been getting worse recently can be caused by several things. The current advice is to consider approaches like graded exercise therapy, which can help manage symptoms, along with using handheld fans and breathing techniques. However, we should avoid using opioids for symptom management.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::sub_query[0]::38719772_0",
+                "primary_assertion_id": "38719772_0",
+                "pmids": [
+                  "38719772"
+                ]
+              },
+              {
+                "cluster_id": "recommendation::sub_query[0]::38719772_1",
+                "primary_assertion_id": "38719772_1",
+                "pmids": [
+                  "38719772"
+                ]
+              },
+              {
+                "cluster_id": "contraindication::sub_query[0]::38719772_2",
+                "primary_assertion_id": "38719772_2",
+                "pmids": [
+                  "38719772"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll start with some tests to figure out what's causing the hoarseness. In the meantime, we can try some symptom management techniques like graded exercise therapy and using a handheld fan to help with your symptoms."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to follow up in a week to see how these steps are working for you. If your symptoms get worse or if you notice anything unusual, please call us right away.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "recommendation::sub_query[0]::38719772_0",
+          "recommendation::sub_query[0]::38719772_1",
+          "contraindication::sub_query[0]::38719772_2"
+        ],
+        "all_pmids_used": [
+          "38719772"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 0,
+        "problems": [
+          "hoarseness"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "38719772"
+      ],
+      "cluster_ids_used": [
+        "recommendation::sub_query[0]::38719772_0",
+        "recommendation::sub_query[0]::38719772_1",
+        "contraindication::sub_query[0]::38719772_2"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 157775.11986345053,
+        "module_2_retrieval": 72.63243198394775,
+        "module_3_reasoning": 37234.44755375385,
+        "module_4_response": 23172.0434948802,
+        "total_ms": 218254.24334406853
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

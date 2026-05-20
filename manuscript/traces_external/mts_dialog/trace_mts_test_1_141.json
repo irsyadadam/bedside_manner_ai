@@ -1,0 +1,246 @@
+{
+  "transcript_id": "mts_test_1_141",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "The patient presents for evaluation after a contaminated needlestick to the index finger",
+  "patient_utterances": [
+    "So, as you remember I was working with a patient and I accidently jammed that needle inside me.",
+    "I am coming for regular screening.",
+    "[Clinician asked: \"Yes, thank you for that, sir. Did they screen patient?\"] Yes, he got negative H I V but positive hep C, they said he is a carrier only, never will show disease symptoms.",
+    "[Clinician asked: \"Okay.\"] I am scared.",
+    "[Clinician asked: \"Don't worry, we will do what we can okay. Firstly, let me check if they did some hepatitis B shots on you. Okay looks like you had three shots of hep B and Tetanus is up to date with all others. Antibodies are showing, which is good.\"] They did the tests on February seven two thousand and five. Have you seen my liver test results? And maybe some other?",
+    "[Clinician asked: \"Yes, I can see that your liver function test were normal at eighteen and hepatitis C and H I V, both were negative. We took these labs on February seventh. You do not have any local signs of infection, right?  Except acute intestinal problem?\"] Nothing local, but I do have intestinal squeakiness and vomiting.",
+    "[Clinician asked: \"Let me look at your exam.\"] Okay.",
+    "[Clinician asked: \"Abdomen is fine, no fever and no swellings. That's great.\"] Okay."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "ASSESSMENT": "The patient presents for evaluation after a contaminated needlestick to the index finger. The source patient was tested and found to be negative for HIV. However, he did test positive for hepatitis C. He was described as a carrier without active disease. The patient has been followed with periodic evaluation including blood testing. He has completed a 3 shot series for hepatitis B and had titers drawn that showed protected antibodies. He also was up-to-date on his immunization including tetanus. The patient has been well during this time except for the onset of a intestinal illness being investigated with some squeakiness and vomiting. He had no other symptoms that were suggestive of acute hepatitis. His abdominal exam was normal. He had no generalized lymphadenopathy and no fever. Blood tests were drawn on 02/07/2005. The results of which were reviewed with the patient. His liver function test was normal at 18. His hepatitis C and HIV, both of which were negative. He had no local signs of infection, and otherwise has been doing well except for his acute intestinal illness as described above."
+  },
+  "n_patient_turns": 8,
+  "n_clinician_turns": 6,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 14859.627954661846,
+      "response_text": "I understand that hearing about the hepatitis C diagnosis must have been unsettling, and it's completely normal to feel scared. It's important to remember that many people live with Hep C without experiencing severe symptoms, and with proper management, it can be controlled effectively. Your liver tests are currently normal, which is a positive sign. We can discuss any concerns you have and explore the next steps together. You're not alone in this, and we'll support you every step of the way. Please feel free to ask any questions you have\u2014I'm here to help.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 21337.996512651443,
+      "response_text": "Thank you for sharing all of this with me. It sounds like you\u2019ve been through a lot, and it\u2019s completely understandable that you\u2019re feeling scared and concerned about everything that\u2019s happened. What happened with the needle was traumatic, and it\u2019s natural to want to make sure everything is okay. I can see how the news about the Hepatitis C would add to those feelings\u2014it\u2019s a lot to process.\n\nFrom what I gather, the testing you had done shows that your liver function is normal, and while you are a Hepatitis C carrier, it doesn\u2019t seem to be causing any active disease right now. That\u2019s good news. However, it\u2019s still important to keep an eye on things. We should consider whether further evaluation or treatment for Hepatitis C might be necessary, especially since it\u2019s something that can be managed effectively [PMID ?]. \n\nGiven your symptoms of intestinal discomfort and vomiting, even though your abdomen exam was normal, we should also think about whether there might be other causes for these symptoms. It might be helpful to follow up with a specialist, like a gastroenterologist, to get a better understanding of what\u2019s going on [PMID ?]. \n\nLet\u2019s plan to check in in about 4 weeks to see how you\u2019re feeling and to review any additional testing or referrals. Before you go, could you summarize what we\u2019ve discussed today? That way, I can make sure everything makes sense to you.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7995.944507420063,
+      "response_text": "Thank you for coming in today. I understand you're here for your regular screening and to discuss your concerns about your health.\n\nWe'll go over your test results together and address any concerns you have about your health today.\n\nIf you have any questions or concerns in the meantime, please don't hesitate to reach out.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if you experience any new symptoms or have more questions, please call us so we can address them promptly.",
+      "structured_response": {
+        "acknowledgment": "Thank you for coming in today. I understand you're here for your regular screening and to discuss your concerns about your health.",
+        "clinical_information_per_concern": [],
+        "next_steps": [
+          "We'll go over your test results together and address any concerns you have about your health today.",
+          "If you have any questions or concerns in the meantime, please don't hesitate to reach out."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if you experience any new symptoms or have more questions, please call us so we can address them promptly.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 79900.40685981512,
+      "response_text": "I can hear how much this is worrying you \u2014 you said, \"I am scared.\" That makes sense given what you're dealing with.\n\nIt's important to understand the exact circumstances of the needle injury to guide the next steps. This helps us determine if there's any risk of infection or other complications.\n\nThe symptoms like vomiting and intestinal squeakiness could be related to a variety of issues. We'll need to gather more information to figure out the best approach.\n\nWe'll start by gathering more details about each of your concerns to better understand what's going on.\n\nOnce we have a clearer picture, we'll work together to decide the next steps.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to talk again soon. If anything changes or if you have more questions, please reach out.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this is worrying you \u2014 you said, \"I am scared.\" That makes sense given what you're dealing with.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "needle injury",
+            "profile_path": "problems[0]",
+            "explanation": "It's important to understand the exact circumstances of the needle injury to guide the next steps. This helps us determine if there's any risk of infection or other complications.",
+            "citations": []
+          },
+          {
+            "concern_label": "intestinal issues",
+            "profile_path": "problems[1]",
+            "explanation": "The symptoms like vomiting and intestinal squeakiness could be related to a variety of issues. We'll need to gather more information to figure out the best approach.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll start by gathering more details about each of your concerns to better understand what's going on.",
+          "Once we have a clearer picture, we'll work together to decide the next steps."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to talk again soon. If anything changes or if you have more questions, please reach out.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 2,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 0,
+        "problems": [
+          "needle injury",
+          "intestinal issues"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 133985.65305024385,
+      "response_text": "I can hear how much this is worrying you \u2014 you said, \"I am scared.\" That fear is understandable, especially with these new issues you're facing.\n\nWhen someone experiences a needle injury, it's important to figure out what happened and whether there's any risk of infection. We'll need to talk more about when it happened and how it occurred to make sure we address it properly.\n\nFor the intestinal issues you're having, including vomiting and that strange noise, we'll need to understand when they started and how they've been affecting you. This will help us pinpoint what might be going on and how to treat it.\n\nWe'll need to talk more about each of these issues to understand them better. For the needle injury, we'll discuss when it happened and how it occurred. For the intestinal issues, we'll focus on when they started and how they've been affecting you.\n\nOnce we have a clearer picture, we can decide together what tests or actions might be needed next.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to talk more about these issues in our next visit. If anything changes or gets worse in the meantime, please let us know so we can address it promptly.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this is worrying you \u2014 you said, \"I am scared.\" That fear is understandable, especially with these new issues you're facing.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "needle injury",
+            "profile_path": "problems[0]",
+            "explanation": "When someone experiences a needle injury, it's important to figure out what happened and whether there's any risk of infection. We'll need to talk more about when it happened and how it occurred to make sure we address it properly.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[2]::39366124_0",
+                "primary_assertion_id": "39366124_0",
+                "pmids": [
+                  "39366124"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "intestinal issues",
+            "profile_path": "problems[1]",
+            "explanation": "For the intestinal issues you're having, including vomiting and that strange noise, we'll need to understand when they started and how they've been affecting you. This will help us pinpoint what might be going on and how to treat it.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[2]::39366124_0",
+                "primary_assertion_id": "39366124_0",
+                "pmids": [
+                  "39366124"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll need to talk more about each of these issues to understand them better. For the needle injury, we'll discuss when it happened and how it occurred. For the intestinal issues, we'll focus on when they started and how they've been affecting you.",
+          "Once we have a clearer picture, we can decide together what tests or actions might be needed next."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to talk more about these issues in our next visit. If anything changes or gets worse in the meantime, please let us know so we can address it promptly.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[2]::39366124_0"
+        ],
+        "all_pmids_used": [
+          "39366124"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 2,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 0,
+        "problems": [
+          "needle injury",
+          "intestinal issues"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "39366124"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[2]::39366124_0"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 66458.01986008883,
+        "module_2_retrieval": 79.0242925286293,
+        "module_3_reasoning": 45060.78635901213,
+        "module_4_response": 22386.522620916367,
+        "total_ms": 133984.35313254595
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

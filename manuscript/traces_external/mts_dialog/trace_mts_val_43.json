@@ -1,0 +1,251 @@
+{
+  "transcript_id": "mts_val_43",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "He is a 29-year-old white male who is a patient of Dr",
+  "patient_utterances": [
+    "[Clinician asked: \"Hello, sir. What brought you in today?\"] Do you not see the swelling on my right hand and arm? I'm white. The swelling should be noticeable!",
+    "[Clinician asked: \"Oh, wow! How did this happen?\"] I got stung by this huge Yellow Jacket Wasp yesterday. I usually see Doctor X Y Z, but he wasn't available.",
+    "[Clinician asked: \"I see. Have you ever been stung by a wasp before?\"] Oh, yeah. Plenty of times. I'm twenty nine right now. I've been getting stung since I was in my early twenties. I usually just swell up like I am right now.",
+    "[Clinician asked: \"That's good. You never had any severe reactions before?\"] I did one time before, which is why I came here early to get it checked out.",
+    "[Clinician asked: \"I see. Just a lot of swelling, correct? What about any anaphylaxis type reactions?\"] What type of reaction? I don't know what that means, but you're right about the swelling.",
+    "[Clinician asked: \"It's a reaction that occurs that makes your body go into shock and lowers your blood pressure.\"] Oh, I get you. No, I've never experienced that before.",
+    "[Clinician asked: \"Great. Have you ever felt a shortness of breath or your throat closing up before?\"] Nope. That would be really scary though.",
+    "[Clinician asked: \"Sounds good. Have you ever felt anxious or a fast heart beat after you've been stung?\"] No, I haven't. I've only had swelling in the areas I've been stung."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "HPI": "He is a 29-year-old white male who is a patient of Dr. XYZ and he comes in today complaining that he was stung by a Yellow Jacket Wasp yesterday and now has a lot of swelling in his right hand and right arm.  He says that he has been stung by wasps before and had similar reactions.  He just said that he wanted to catch it early before he has too bad of a severe reaction like he has had in the past.  He has had a lot of swelling, but no anaphylaxis-type reactions in the past; no shortness of breath or difficultly with his throat feeling like it is going to close up or anything like that in the past; no racing heart beat or anxiety feeling, just a lot of localized swelling where the sting occurs."
+  },
+  "n_patient_turns": 8,
+  "n_clinician_turns": 8,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 19014.04820382595,
+      "response_text": "Thank you for coming in today, and I appreciate your concern about the swelling in your right hand and arm. It's good that you came in early, especially after having a severe reaction before. While the swelling is noticeable and concerning, it's reassuring that you haven't experienced any severe allergic reactions like anaphylaxis or other serious symptoms such as shortness of breath or throat tightness.\n\nI recommend applying ice to the area to reduce swelling and consider taking over-the-counter antihistamines to help with any itching or discomfort. If you haven't already, you might want to discuss with your regular doctor about whether an EpiPen would be appropriate for future stings. In the meantime, keep an eye on the swelling and let me know if you develop any new symptoms. Take care, and feel better soon.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 24496.522776782513,
+      "response_text": "Thank you for sharing your concerns with me. It\u2019s completely understandable that you\u2019re worried about the swelling in your right hand and arm\u2014it looks uncomfortable, and I can see why you want to get it checked out. You\u2019ve been proactive in seeking care, especially given your past experience with a severe reaction, and I appreciate your effort in coming in today.\n\nGiven your history of being stung by wasps and the noticeable swelling, it\u2019s important to consider a few things. First, we\u2019ll want to monitor for any signs of a severe allergic reaction, even though you haven\u2019t experienced one this time. Symptoms like difficulty breathing, dizziness, or swelling beyond the area of the sting could indicate a more serious reaction and would require immediate attention [PMID ?]. \n\nTo manage the swelling, we might consider prescribing you an EpiPen if you\u2019re at risk of severe reactions, along with antihistamines to reduce inflammation [PMID ?]. We\u2019ll also want to ensure that you\u2019re comfortable recognizing and managing any potential symptoms if they arise in the future.\n\nLet\u2019s plan to follow up in one week to assess how you\u2019re responding to any treatments we start today. Before you leave, could you summarize what we discussed so far? This will help ensure you understand the next steps and that I\u2019ve covered everything you needed to know.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7718.32549571991,
+      "response_text": "It sounds like you're concerned about the swelling in your right hand and arm after being stung by a Yellow Jacket Wasp yesterday.\n\nWe'll monitor your condition and ensure you're comfortable while the swelling subsides. If it doesn't improve or gets worse, we'll take further action.\n\nCan you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few days. In the meantime, if the swelling gets worse or you develop any new symptoms, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're concerned about the swelling in your right hand and arm after being stung by a Yellow Jacket Wasp yesterday.",
+        "clinical_information_per_concern": [],
+        "next_steps": [
+          "We'll monitor your condition and ensure you're comfortable while the swelling subsides. If it doesn't improve or gets worse, we'll take further action."
+        ],
+        "teach_back_prompt": "Can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few days. In the meantime, if the swelling gets worse or you develop any new symptoms, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 72775.95917135477,
+      "response_text": "I can understand how scary this must be for you. You mentioned, \"That would be really scary though,\" and I want to acknowledge how that fear is making this situation feel more overwhelming.\n\nA sting from a yellow jacket wasp can cause local reactions like swelling and pain. Since this is your history of wasp stings, we should monitor for any signs of an allergic reaction or infection.\n\nIt's important to get this checked out to ensure there are no complications from the sting. We'll work together to make sure you feel safe and informed about the next steps.\n\nWe'll schedule an appointment for you to come in and take a look at the sting site.\n\nIn the meantime, keep an eye on any swelling or redness and let us know if you experience any new symptoms.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again soon to check on the sting. In the meantime, if you notice any severe swelling, difficulty breathing, or other concerning symptoms, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I can understand how scary this must be for you. You mentioned, \"That would be really scary though,\" and I want to acknowledge how that fear is making this situation feel more overwhelming.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "yellow jacket wasp sting",
+            "profile_path": "problems[0]",
+            "explanation": "A sting from a yellow jacket wasp can cause local reactions like swelling and pain. Since this is your history of wasp stings, we should monitor for any signs of an allergic reaction or infection.",
+            "citations": []
+          },
+          {
+            "concern_label": "get it checked out",
+            "profile_path": "patient_goals[0]",
+            "explanation": "It's important to get this checked out to ensure there are no complications from the sting. We'll work together to make sure you feel safe and informed about the next steps.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll schedule an appointment for you to come in and take a look at the sting site.",
+          "In the meantime, keep an eye on any swelling or redness and let us know if you experience any new symptoms."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again soon to check on the sting. In the meantime, if you notice any severe swelling, difficulty breathing, or other concerning symptoms, please call us right away.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 1,
+        "problems": [
+          "yellow jacket wasp sting"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 102451.70223712921,
+      "response_text": "I can understand how scary this must be for you. You mentioned, \"That would be really scary though,\" and I want to acknowledge how serious this situation feels to you.\n\nGiven your history of severe reactions to wasp stings and the sudden onset of swelling, it's important to take this seriously. We'll need to check for any signs of an allergic reaction or infection.\n\nTo ensure we address your goal of getting checked out early, we'll prioritize evaluating the swelling and any related symptoms to prevent any severe reactions.\n\nWe'll schedule an urgent evaluation to assess the swelling and determine the next steps.\n\nBased on the findings, we may recommend further tests or treatments to address the underlying cause.\n\nI want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next?\n\nLet's plan to follow up in a week. If the swelling gets worse or you develop any new symptoms like difficulty breathing, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I can understand how scary this must be for you. You mentioned, \"That would be really scary though,\" and I want to acknowledge how serious this situation feels to you.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "swelling in right hand and arm",
+            "profile_path": "problems[0]",
+            "explanation": "Given your history of severe reactions to wasp stings and the sudden onset of swelling, it's important to take this seriously. We'll need to check for any signs of an allergic reaction or infection.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::sub_query[1]::33658141_0",
+                "primary_assertion_id": "33658141_0",
+                "pmids": [
+                  "33658141"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "get checked out early to prevent severe reaction",
+            "profile_path": "patient_goals[0]",
+            "explanation": "To ensure we address your goal of getting checked out early, we'll prioritize evaluating the swelling and any related symptoms to prevent any severe reactions.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::sub_query[1]::33658141_1",
+                "primary_assertion_id": "33658141_1",
+                "pmids": [
+                  "33658141"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll schedule an urgent evaluation to assess the swelling and determine the next steps.",
+          "Based on the findings, we may recommend further tests or treatments to address the underlying cause."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next?",
+        "follow_up_invitation": "Let's plan to follow up in a week. If the swelling gets worse or you develop any new symptoms like difficulty breathing, please call us right away.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "recommendation::sub_query[1]::33658141_0",
+          "recommendation::sub_query[1]::33658141_1"
+        ],
+        "all_pmids_used": [
+          "33658141"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 1,
+        "problems": [
+          "swelling in right hand and arm"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "33658141"
+      ],
+      "cluster_ids_used": [
+        "recommendation::sub_query[1]::33658141_0",
+        "recommendation::sub_query[1]::33658141_1"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 64983.839355409145,
+        "module_2_retrieval": 62.149398028850555,
+        "module_3_reasoning": 15079.234413802624,
+        "module_4_response": 22325.238667428493,
+        "total_ms": 102450.46183466911
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

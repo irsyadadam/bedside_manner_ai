@@ -1,0 +1,276 @@
+{
+  "transcript_id": "primock57_day1_consultation14",
+  "dataset": "primock57",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "I have a cough and cold",
+  "patient_utterances": [
+    "Hello?",
+    "[Clinician asked: \"Hello? Hello. Um, before I go any further, can I confirm your name and your date of birth?\"] Uh, yeah. Uh my name is April, and I'm fifty.",
+    "[Clinician asked: \"You're fifty, OK. April, how can I help you this afternoon?\"] Well I've just been having this like, cough, for quite a few days. And my nose is running. Um and it's just been super annoying, and it's not going away.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/>, OK. When did it all start?\"] Uh I think it started like maybe, a bit less than a week ago. Like maybe, maybe five or six days ago.",
+    "[Clinician asked: \"OK. And you mentioned a couple of things there. You mentioned a cough. You mentioned a bit of a runny nose. Is that right?\"] <INAUDIBLE_SPEECH/>",
+    "[Clinician asked: \"OK. Let's focus on your cough first. Can you tell me a bit more about your cough?\"] Uh, it's just so continuous. It's really, really frustrating. It's quite dry. And it's just all day, it like keeps me up at night as well, which is really annoying.",
+    "[Clinician asked: \"OK. So it's a dry cough. So you're not bringing up any , you're not bringing up any mucky, ohh I can hear that, yeah. Um you're not bringing up any uh, mucky phlegm or anything like that. No, OK. So it keeps you up at night. Um you mentioned uh the cold symptoms as well, the runny nose. Do you have \"] I mean, apart from, I mean the coughing is giving me a sore throat. But it's not like, you know not more than, than that. You know just, just my throat is irritated from coughing. But it's not like, it's not that bad when I swallow or anything.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/> Right. Do you have any uh,  how are your ears? Do you ears feel blocked or?\"] No.They feel OK, actually. Yeah. <INAUDIBLE_SPEECH/>. Nothing, nothing on the ears.",
+    "[Clinician asked: \"No pain, no discharge coming from your ears. <INAUDIBLE_SPEECH/> OK, alright. Um fine. In terms of your breathing, how is your , how's your chest? Is your breathing more labored?\"] Um, I don't think so. Like, I guess I get laboured when I'm coughing and I can't breathe. But I, not, yeah, not, I, I don't think so. Not really.",
+    "[Clinician asked: \"Day to day when you walk around, uh you don't feel breathless do you?\"] I don't feel restless. No, <INAUDIBLE_SPEECH/> I feel you know, generally tired.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/> OK. OK.\"] So like, yeah, but  not, not anything special with my chest.",
+    "[Clinician asked: \"Any pain in your chest? <INAUDIBLE_SPEECH/>\"] No not, not that either.",
+    "[Clinician asked: \"OK. You mentioned feeling tired. Um have you felt feverish at all? Have you had a temperature?\"] Um I've been having like, like shivers, even when I'm in, when I'm in bed. You know like, when you, when you go to sleep and, and you feel like I I should be warm. But I'm still, still you know, shivering a little bit.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/> OK.\"] But I haven't taken my temperature, so I'm not a hundred percent sure if I had a fever. But it feels like I probably did. 'Cause I was just, I was next to my boyfriend. And he was completely warm and totally fine. And I just like couldn't stop shivering. And kept adding more sweaters on, and I was still cold.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/> <INAUDIBLE_SPEECH/> OK. OK. OK. Alright. Um, fine. And in terms of any other symptoms, so have you had any nausea? Have you had any vomiting?\"] No. No, no nausea. No vomiting. Like, um yeah,  nothing like that.",
+    "[Clinician asked: \"OK. How's your appetite?\"] Um, I mean it's OK. I, at the beginning, like when I was starting to have the , the , the coughing and stuff. Um, I had a little bit of diarrhea. Um but, but it didn't, it didn't cut my appetite or anything. I just like, my stomach wasn't feeling great.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/> <INAUDIBLE_SPEECH/> OK. Has that got better now, the diarrhea?\"] Yeah, yeah. It got better. It was only like the first, like it started at the same time as the cough started. And then it stopped. So I thought everything would be fine. But then the cough just kept going.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/> <INAUDIBLE_SPEECH/> OK fine. Um, any problems with your waterworks at all? <INAUDIBLE_SPEECH/>\"] With my what?",
+    "[Clinician asked: \"Uh your  your waterworks, your urine. <INAUDIBLE_SPEECH/>\"] Ohh. Uh, no. No no, it's fine.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/> you're passing urine OK. You're drinking plenty of fluids, and passing urine OK.\"] No. I, I drank loads of water, when I started having the diarrhea. Now that it stopped, I just went back to normal.",
+    "[Clinician asked: \"OK, alright. Um in terms of any other thing, do you notice any, any find any skin rashes, or um problems with your muscles or joints?\"] Uh  like my, you know when I had the, when I was telling you I had like the, I had chills, and I was really cold. My muscle  was really hurting.",
+    "[Clinician asked: \"Yeah. OK.\"] Sometimes I do pilates. But like, it's hurting me so much at the moment. Um so, to be honest, all I feel like doing is just lying in bed.",
+    "[Clinician asked: \"Right. Right, OK. OK. I'm sorry. That must be very difficult for you. <INAUDIBLE_SPEECH/>\"] Yeah, right. Especially like in my arms, my legs, like just everywhere basically.",
+    "[Clinician asked: \"quite lethargic and weak, you mentioned. Um, OK. And um, April are you normally otherwise fit and well?\"] Yeah, pretty much. Am I normally what?",
+    "[Clinician asked: \"Uh fit and well. So do you have any other medical history?\"] Uh, well I have type two diabetes. And I have quite high blood pressure.",
+    "[Clinician asked: \"OK. OK. And what do you take for your blood pressure? Any, or what what medications do you take on a regular basis, if you don't mind saying?\"] Um I take  Metformin for the diabetes. And I take Lisinopril for the high blood pressure.",
+    "[Clinician asked: \"Yep. Zinopril. OK, fine. Any allergies at all, to medications?\"] No. No allergies.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/> No, OK. Regarding any family history, is there anything I should be aware of?\"] Uh my dad also has type two diabetes. But I think that's it.",
+    "[Clinician asked: \"OK, alright. Who's looking after your diabetes? Is there anyone, is there a doctor in a hospital, who looks after your diabetes?\"] <INAUDIBLE_SPEECH/> I just regularly go see a doctor. Um, that just checks up on it. Same with the high blood pressure. Like I, I have it under control. And since I've started taking this medication, I've just been like regularly checking that it, it's under control.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/> Right, excellent. And in terms of your social situation, who lives at home with you?\"] Uh just, it's just me and my partner.",
+    "[Clinician asked: \"lives OK, um fine. Is your partner well at the moment?\"] Yeah he has none of this. Like he's just going ahead like, like  nothing. Like I was a bit worried that I would pass it to him but, <INAUDIBLE_SPEECH/> not uh, diarrhea, nothing, fine.",
+    "[Clinician asked: \"Right, OK. So he Go away, he's got away with it, at the moment. OK. And uh, are you working at the moment, April?\"] <INAUDIBLE_SPEECH/> Uh, yeah I am working. But the, the first day I skipped.  because I was feeling just too shit. Um, but then, I just felt like had to go back, 'cause I had so much to do.  So I've been going in. But it's not been fun.",
+    "[Clinician asked: \"Yeah. <INAUDIBLE_SPEECH/> No, I can imagine. What is it that you do for work?\"] Uh, I am a developer.",
+    "[Clinician asked: \"Ohh, so you work in the IT field. OK. <INAUDIBLE_SPEECH/> IT field. Right, OK. Uh\"] yeah. Work in IT. <INAUDIBLE_SPEECH/> not too active a job. Uh, yeah.",
+    "[Clinician asked: \"No. Has it been quite stressful recently?\"] Not more than usual. I don't think it's related to stress. Like I, I don't feel like I've had a particularly hard time at work that way. Um",
+    "[Clinician asked: \"OK. The reason I ask is sometimes\"] I've been able to take a day off to try and recover. So yeah, I don't think it's related.",
+    "[Clinician asked: \"Sure.  reason I ask is because sometimes stress can really affect your immune system. Um but uh it's good to know you're you're you're not feeling stressed. Um, do you smoke at all, April?\"] I used to, but I've stopped for about six months now.",
+    "[Clinician asked: \"OK. Um and what about alcohol?\"] I mean, yeah I, I don't think I drank that much. Like, I I don't really know how you count the units. So I guess like I don't drink more than like, like, let's say three evenings a week? And I rarely get like properly drunk, or anything.",
+    "[Clinician asked: \"And what is it that you drink?\"] Wine, mostly.",
+    "[Clinician asked: \"The wine. How much do you drink on those nights?\"] Uh, I'd say like maybe two or three glasses.",
+    "[Clinician asked: \"OK. So um, yeah so you're probably just about under the limit of um, the recommended limit. <INAUDIBLE_SPEECH/> Something  think about, just in terms of your blood pressure and diabetes, maybe something that you can maybe cut down on if you can.\"] Yeah? <INAUDIBLE_SPEECH/> I should cut down on it.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/> <INAUDIBLE_SPEECH/> really ideally, the the the right answer is to cut down completely. But so in practice I know that's not realistic. So maybe for the first few weeks, why don't you cut down to two glasses a week. And then, one week thereafter Um and if you are coping OK, then \"] OK.",
+    "[Clinician asked: \"OK? Just something for you to think about. Um, right so uh just  as we wrap up really, um April I think based on your story, I think uh essentially I think you're, you're going through a bit of a bit of a viral illness. Um, I don't think there's anything to worry about.\"] Yeah.",
+    "[Clinician asked: \"You know you've had a bit of a cough, bit of a runny nose, feeling quite weak and lethargic. I'm hoping that, you know, you're probably over the worst of it now. It's been five days. I'm hoping you're maybe going to get better in the next couple of days. It normally lasts for about a week to ten day\"] What, what should I do if it just keeps going on and on? Like if it's still going on in, in say four days?",
+    "[Clinician asked: \"Yeah, absolutely. So, you know things you can do to help yourself in the meantime is to, you know get some nice, good rest. Drink plenty of fluids. Keep yourself well-hydrated. You can take regular Paracetamol. If you feel like you're still not getting any better in two to three days, it's probably \"] Do you think I should keep going to work? Or do you think I should just",
+    "[Clinician asked: \"Yeah so I think you know , really I think it depends on you.  it's um if you are coughing, then there is a theoretical, you know risk that you're maybe slightly infectious still. So I would say maybe take a day or two off work, if you can. Uh and get some good bed rest. Um and maybe think about work\"] OK. OK. Thank you.",
+    "[Clinician asked: \"But um, if your cough isn't getting any better, or your breathing is getting worse, I want you to come back and see me sooner. OK?\"] OK. But otherwise, I don't need to worry.",
+    "[Clinician asked: \"No no no , nothing to worry about otherwise.\"] OK. Alright. Thank you very much.",
+    "[Clinician asked: \"OK. Well, have a good day. Appreciate it.\"] Thank you. Bye!"
+  ],
+  "gold_note": "5/7 hx of cough and runny nose. Dry cough, keeps pt up at night. Runny nose, no ear pain, no sore throat. \nNo SOB/chest pain\nFeeling tired, weak and myalgia. \nFeeling shivery, hot/cold, ?fever \nNo nausea/vomiting \nAppetite maintained. \nInitial diarrhea - but now resolved \nNil urinary symptoms\nNo rashes \n\nPMH: Type 2 diabetes, HTN\nDH: metformin, lisinopril \nNKDA\nFH: Father - type 2 diabetes \nSH: lives with partner, works IT, denies stress. Ex-smoker - stopped 6/12 ago. Social EtOH <14 units/week\n\nImp: viral URTI \n\nPlan:\n1.\tSupportive mx - bed rest, fluids, regular paracetamol\n2.\tReview 5/7 if no better, or earlier if worsening sx (fever, SOB, chest pain)",
+  "gold_sections": {
+    "PRESENTING_COMPLAINT": "I have a cough and cold",
+    "HIGHLIGHTS": "cough\nrunny nose\nmyalgia\nType 2 diabetes\nviral URTI"
+  },
+  "n_patient_turns": 49,
+  "n_clinician_turns": 48,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 23505.52675873041,
+      "response_text": "April, I understand how frustrating and exhausting it must be to feel this way for several days. Based on your symptoms, it sounds like you're experiencing a viral infection, which can cause a range of discomforting signs like a persistent cough, runny nose, fatigue, and muscle aches. These symptoms are often part of the body's response to fighting off an infection, and while they can be tough, they usually improve within a week to ten days.\n\nTo help yourself feel better in the meantime, make sure to rest as much as possible, stay hydrated, and consider taking over-the-counter medications like Paracetamol to manage any discomfort. If your symptoms don't improve within a few days or if they worsen, especially if you develop difficulty breathing or a high fever, please come back for a follow-up. In the meantime, continue managing your diabetes and high blood pressure as usual, and if you're able to cut back on alcohol a bit, that might support your overall health. Take care of yourself, and I'm confident you'll feel better soon. Let me know if you need anything else.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 20961.711525917053,
+      "response_text": "April, I can understand how frustrating it must be to deal with this persistent cough and fatigue. It\u2019s completely reasonable to feel concerned, especially when it\u2019s affecting your daily life and work. I want to make sure we address this together effectively.\n\nGiven your symptoms\u2014a dry cough, runny nose, fatigue, and muscle aches\u2014it sounds like you might be recovering from a viral infection, such as the common cold or influenza [PMID ?]. Other possibilities could include allergies or even acid reflux, especially since you mentioned a dry cough [PMID ?]. Your diabetes and high blood pressure are well-managed, which is good, but we should still monitor how this might impact your overall health.\n\nFor now, focus on resting, staying hydrated, and using over-the-counter medications like Paracetamol to help with discomfort. If your symptoms don\u2019t improve in the next few days or if they worsen, especially if you develop a high fever or difficulty breathing, please come back for a follow-up. I\u2019ll check in with you in a week to see how you\u2019re doing and adjust our plan as needed.\n\nBefore we finish, could you summarize what we\u2019ve discussed so I can ensure everything is clear? That way, I can make sure you\u2019re comfortable with the plan and any next steps.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 9715.784937143326,
+      "response_text": "Thank you for sharing all the details about your symptoms. It sounds like you've been going through a tough time with that persistent cough and feeling so tired.\n\nWe'll keep an eye on your symptoms and let you know if anything changes. If your cough doesn't improve or gets worse, please reach out sooner than the scheduled follow-up.\n\nMake sure to rest, stay hydrated, and take care of yourself in the meantime.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what you should do next and how we'll keep track of your progress?\n\nLet's plan to check in again in a week. If you're not feeling better by then or if anything gets worse, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing all the details about your symptoms. It sounds like you've been going through a tough time with that persistent cough and feeling so tired.",
+        "clinical_information_per_concern": [],
+        "next_steps": [
+          "We'll keep an eye on your symptoms and let you know if anything changes. If your cough doesn't improve or gets worse, please reach out sooner than the scheduled follow-up.",
+          "Make sure to rest, stay hydrated, and take care of yourself in the meantime."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what you should do next and how we'll keep track of your progress?",
+        "follow_up_invitation": "Let's plan to check in again in a week. If you're not feeling better by then or if anything gets worse, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 179619.35970932245,
+      "response_text": "It sounds like you're dealing with some bothersome symptoms, especially the fatigue that's been keeping you up at night. I want to understand how this has been affecting your daily life.\n\nExperiencing fatigue along with symptoms like a runny nose, dry cough, sore throat, and chills suggests we might be looking at a viral infection or another common cause. We'll start with some basic tests to see what's going on.\n\nWe'll order some tests to check for common causes of these symptoms, like a viral infection.\n\nWe'll schedule a follow-up visit in a week to review the results and plan the next steps together.\n\nI want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next?\n\nLet's plan to see each other again in a week. In the meantime, if your symptoms get worse or you develop a high fever, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're dealing with some bothersome symptoms, especially the fatigue that's been keeping you up at night. I want to understand how this has been affecting your daily life.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "persistent fatigue",
+            "profile_path": "problems[0]",
+            "explanation": "Experiencing fatigue along with symptoms like a runny nose, dry cough, sore throat, and chills suggests we might be looking at a viral infection or another common cause. We'll start with some basic tests to see what's going on.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::38719772",
+                "primary_assertion_id": "38719772_retr",
+                "pmids": [
+                  "38719772"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll order some tests to check for common causes of these symptoms, like a viral infection.",
+          "We'll schedule a follow-up visit in a week to review the results and plan the next steps together."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next?",
+        "follow_up_invitation": "Let's plan to see each other again in a week. In the meantime, if your symptoms get worse or you develop a high fever, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "retrieval_only::38719772"
+        ],
+        "all_pmids_used": [
+          "38719772"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "persistent fatigue"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "38719772"
+      ],
+      "cluster_ids_used": [
+        "retrieval_only::38719772"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 198821.80839776993,
+      "response_text": "It sounds like this persistent cough has been really bothering you, especially with how it's keeping you up at night.\n\nA persistent cough can be caused by a variety of issues, and it's important to figure out what's going on. Based on the current guidance, we'll start with some basic tests to check for common causes like infections or allergies.\n\nWe'll schedule some tests to look into the cause of your cough.\n\nIn the meantime, we'll suggest some self-care tips to help manage your symptoms.\n\nCan you tell me, in your own words, what we're going to do next to address your persistent cough?\n\nLet's plan to follow up in a week to review the test results. If your symptoms get worse or if you develop any new ones like fever or shortness of breath, please reach out sooner.",
+      "structured_response": {
+        "acknowledgment": "It sounds like this persistent cough has been really bothering you, especially with how it's keeping you up at night.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "persistent cough",
+            "profile_path": "problems[0]",
+            "explanation": "A persistent cough can be caused by a variety of issues, and it's important to figure out what's going on. Based on the current guidance, we'll start with some basic tests to check for common causes like infections or allergies.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::sub_query[0]::38719772_0",
+                "primary_assertion_id": "38719772_0",
+                "pmids": [
+                  "38719772"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll schedule some tests to look into the cause of your cough.",
+          "In the meantime, we'll suggest some self-care tips to help manage your symptoms."
+        ],
+        "teach_back_prompt": "Can you tell me, in your own words, what we're going to do next to address your persistent cough?",
+        "follow_up_invitation": "Let's plan to follow up in a week to review the test results. If your symptoms get worse or if you develop any new ones like fever or shortness of breath, please reach out sooner.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "recommendation::sub_query[0]::38719772_0"
+        ],
+        "all_pmids_used": [
+          "38719772"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "persistent cough"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "38719772"
+      ],
+      "cluster_ids_used": [
+        "recommendation::sub_query[0]::38719772_0"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 132530.32130002975,
+        "module_2_retrieval": 33.752575516700745,
+        "module_3_reasoning": 50636.43776625395,
+        "module_4_response": 15620.518364012241,
+        "total_ms": 198821.03000581264
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

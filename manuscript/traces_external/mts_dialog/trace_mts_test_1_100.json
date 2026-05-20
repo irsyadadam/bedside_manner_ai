@@ -1,0 +1,308 @@
+{
+  "transcript_id": "mts_test_1_100",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "The patient is a previously healthy 2-month-old female, who has had a cough and congestion for the past week",
+  "patient_utterances": [
+    "[Clinician asked: \"I'm sorry to see that she's not doing well.\"] I can't even begin to tell you how hard this past week has been for us. She has had so much congestion. She's also coughed more than she ever has before. She is only two months old and it breaks my heart to see her like this.",
+    "[Clinician asked: \"Oh wow. We'll see what we can do for her. How's her breathing been?\"] She's had some irregular breathing where she would breathe very quickly and retract.",
+    "[Clinician asked: \"Has she been running a fever?\"] She's been running in the hundreds between one O two and one O four.",
+    "[Clinician asked: \"Has she been feeding well?\"] No, not at all. She's been feeding less and I notice she hasn't had as many wet diapers as a result.",
+    "[Clinician asked: \"Is anyone else in the family sick?\"] My son has an upper respiratory infection.",
+    "[Clinician asked: \"How long has he been sick?\"] A day or two before our two month old.",
+    "[Clinician asked: \"You mentioned that she's been coughing a lot. Is she bringing anything up with her coughs?\"] Yeah, I think her coughs trigger some sort of reflex response, causing her to spit up or throw up a few times. It comes on so suddenly, it takes me by surprise.",
+    "[Clinician asked: \"Does she happen to experience similar symptoms after her feedings?\"] Yeah, that's new too.",
+    "[Clinician asked: \"Any diarrhea?\"] None."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "HPI": "The patient is a previously healthy 2-month-old female, who has had a cough and congestion for the past week.  The mother has also reported irregular breathing, which she describes as being rapid breathing associated with retractions.  The mother states that the cough is at times paroxysmal and associated with posttussive emesis.  The patient has had short respiratory pauses following the coughing events.  The patient's temperature has ranged between 102 and 104.  She has had a decreased oral intake and decreased wet diapers.  The brother is also sick with URI symptoms, and the patient has had no diarrhea.  The mother reports that she has begun to regurgitate after her feedings.  She did not do this previously."
+  },
+  "n_patient_turns": 9,
+  "n_clinician_turns": 9,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 17782.123908400536,
+      "response_text": "I'm really sorry to hear how challenging this has been for you and your baby. It sounds like your little one is going through a tough time with this illness. The symptoms you're describing, especially the high fever, cough, and congestion, are concerning, and I want to make sure she gets the care she needs.\n\nGiven her age and the severity of her symptoms, I recommend contacting her pediatrician as soon as possible. They may want to see her to ensure she's getting the right treatment and to rule out any serious infections. In the meantime, using a cool-mist humidifier can help ease her congestion. Keep a close eye on her breathing and feeding, and don't hesitate to seek immediate medical help if things get worse or if she shows signs of dehydration, like fewer wet diapers or lethargy.\n\nPlease let me know if you have any questions or need further assistance. I'm here to help.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 22829.110242426395,
+      "response_text": "I\u2019m so sorry to hear how challenging this has been for you and your family. It\u2019s completely understandable that you\u2019re feeling overwhelmed and worried, especially seeing your two-month-old go through this. I can tell how much this is affecting you, and I want to make sure we\u2019re doing everything we can to support both you and your baby.\n\nGiven the symptoms you\u2019ve described\u2014congestion, coughing, irregular breathing, fever, and vomiting after coughing\u2014it\u2019s important to consider a few possibilities. Viral bronchitis or even respiratory syncytial virus (RSV) could be playing a role, especially since your son had an upper respiratory infection around the same time [PMID ?]. Additionally, the vomiting after coughing and the reflux-like symptoms after feedings might suggest some irritation of the esophagus or even a bit of reflux, which can happen in young infants [PMID ?].\n\nWe\u2019ll want to make sure that your son\u2019s infection is being managed properly, as that could be contributing to your daughter\u2019s symptoms. For now, we\u2019ll monitor her closely for any signs of worsening, like increased difficulty breathing, fever that doesn\u2019t come down with acetaminophen, or any concerning changes in her feeding or hydration status. If things get worse or if she develops any severe symptoms like trouble breathing or lethargy, we should seek immediate care.\n\nLet\u2019s plan to follow up in 2-3 days to reassess her symptoms and see if there\u2019s anything else we need to do. Before you leave, could you just recap for me what we\u2019ve discussed so far? That way I can make sure everything makes sense to you and we\u2019re on the same page. We\u2019re here to support you through this, and I want to make sure you feel comfortable reaching out if anything changes or if you have more questions.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7100.210137665272,
+      "response_text": "I can see how challenging this situation has been for you and your family. It sounds like this has been really tough, especially seeing your little one struggle with congestion, coughing, and irregular breathing.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again soon. In the meantime, if her symptoms get worse or if she develops any new ones like severe breathing difficulties, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I can see how challenging this situation has been for you and your family. It sounds like this has been really tough, especially seeing your little one struggle with congestion, coughing, and irregular breathing.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again soon. In the meantime, if her symptoms get worse or if she develops any new ones like severe breathing difficulties, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 190342.04098582268,
+      "response_text": "I can hear how much this has been weighing on you \u2014 you said, \"She has had so much congestion. She's also coughed more than she ever has before. She is only two months old and it breaks my heart to see her like this.\" That's a real worry to be carrying, and I want to take it seriously while we figure out what's actually going on.\n\nNasal congestion in a young infant can be a sign of a respiratory infection. We'll need to monitor her symptoms closely and consider appropriate testing to rule out common causes.\n\nCoughing more than usual in a young infant can indicate a respiratory infection. We'll keep an eye on her symptoms and ensure she gets the appropriate care.\n\nPoor feeding in an infant can be related to her respiratory symptoms. We'll monitor her feeding patterns and ensure she's getting enough nutrition.\n\nGiven the fever, we'll prioritize evaluating her for possible infections. This may include blood tests or imaging to rule out serious causes.\n\nWe'll schedule a follow-up visit in the next week to reassess her symptoms and adjust care as needed.\n\nIf her fever persists or she develops new symptoms like difficulty breathing, please call us immediately.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a week. In the meantime, if her fever doesn't improve or if she shows signs of distress, like trouble breathing, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this has been weighing on you \u2014 you said, \"She has had so much congestion. She's also coughed more than she ever has before. She is only two months old and it breaks my heart to see her like this.\" That's a real worry to be carrying, and I want to take it seriously while we figure out what's actually going on.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "nasal congestion",
+            "profile_path": "problems[0]",
+            "explanation": "Nasal congestion in a young infant can be a sign of a respiratory infection. We'll need to monitor her symptoms closely and consider appropriate testing to rule out common causes.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::35593186",
+                "primary_assertion_id": "35593186_retr",
+                "pmids": [
+                  "35593186"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "coughing more than usual",
+            "profile_path": "problems[1]",
+            "explanation": "Coughing more than usual in a young infant can indicate a respiratory infection. We'll keep an eye on her symptoms and ensure she gets the appropriate care.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::35593186",
+                "primary_assertion_id": "35593186_retr",
+                "pmids": [
+                  "35593186"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "poor feeding",
+            "profile_path": "problems[2]",
+            "explanation": "Poor feeding in an infant can be related to her respiratory symptoms. We'll monitor her feeding patterns and ensure she's getting enough nutrition.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::35593186",
+                "primary_assertion_id": "35593186_retr",
+                "pmids": [
+                  "35593186"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "Given the fever, we'll prioritize evaluating her for possible infections. This may include blood tests or imaging to rule out serious causes.",
+          "We'll schedule a follow-up visit in the next week to reassess her symptoms and adjust care as needed.",
+          "If her fever persists or she develops new symptoms like difficulty breathing, please call us immediately."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a week. In the meantime, if her fever doesn't improve or if she shows signs of distress, like trouble breathing, please call us right away.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Demonstrate empathy",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "retrieval_only::35593186"
+        ],
+        "all_pmids_used": [
+          "35593186"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 3,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 1,
+        "n_emotional": 3,
+        "n_goals": 0,
+        "problems": [
+          "nasal congestion",
+          "coughing more than usual",
+          "poor feeding"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "35593186"
+      ],
+      "cluster_ids_used": [
+        "retrieval_only::35593186"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Demonstrate empathy",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 290563.2149875164,
+      "response_text": "I can hear how much this is affecting you and your little one. You mentioned, \"She has had so much congestion. She's also coughed more than she ever has before. She is only two months old and it breaks my heart to see her like this,\" and \"I can't even begin to tell you how hard this past week has been for us.\" I understand how overwhelming this must be for you.\n\nGiven the congestion and increased coughing, we should consider checking for common causes like respiratory infections. We'll also monitor her feeding and hydration to make sure she's getting what she needs.\n\nThe persistent cough, along with congestion, suggests we should look into possible infections. We'll keep a close eye on her symptoms and adjust care as needed.\n\nWe need to ensure she's getting enough nutrition. Her decreased wet diapers are a concern, so we'll monitor her hydration closely and adjust feeding strategies if needed.\n\nGiven the fever and symptoms, we'll start with some basic tests to check for infections and monitor her condition closely.\n\nWe'll schedule a follow-up visit in one week to reassess her symptoms and adjust care as needed.\n\nIf her fever persists or if she shows signs of dehydration, such as fewer wet diapers or no tears when crying, please call us right away.\n\nI want to make sure I explained everything clearly. Can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in one week. In the meantime, if her symptoms get worse or you notice anything unusual, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this is affecting you and your little one. You mentioned, \"She has had so much congestion. She's also coughed more than she ever has before. She is only two months old and it breaks my heart to see her like this,\" and \"I can't even begin to tell you how hard this past week has been for us.\" I understand how overwhelming this must be for you.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "nasal congestion",
+            "profile_path": "problems[0]",
+            "explanation": "Given the congestion and increased coughing, we should consider checking for common causes like respiratory infections. We'll also monitor her feeding and hydration to make sure she's getting what she needs.",
+            "citations": [
+              {
+                "cluster_id": "finding::global::35593186_0",
+                "primary_assertion_id": "35593186_0",
+                "pmids": [
+                  "35593186"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "coughing more than usual",
+            "profile_path": "problems[1]",
+            "explanation": "The persistent cough, along with congestion, suggests we should look into possible infections. We'll keep a close eye on her symptoms and adjust care as needed.",
+            "citations": [
+              {
+                "cluster_id": "finding::global::35593186_0",
+                "primary_assertion_id": "35593186_0",
+                "pmids": [
+                  "35593186"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "poor feeding",
+            "profile_path": "problems[2]",
+            "explanation": "We need to ensure she's getting enough nutrition. Her decreased wet diapers are a concern, so we'll monitor her hydration closely and adjust feeding strategies if needed.",
+            "citations": [
+              {
+                "cluster_id": "finding::global::35593186_0",
+                "primary_assertion_id": "35593186_0",
+                "pmids": [
+                  "35593186"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "Given the fever and symptoms, we'll start with some basic tests to check for infections and monitor her condition closely.",
+          "We'll schedule a follow-up visit in one week to reassess her symptoms and adjust care as needed.",
+          "If her fever persists or if she shows signs of dehydration, such as fewer wet diapers or no tears when crying, please call us right away."
+        ],
+        "teach_back_prompt": "I want to make sure I explained everything clearly. Can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in one week. In the meantime, if her symptoms get worse or you notice anything unusual, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Demonstrate empathy",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::global::35593186_0"
+        ],
+        "all_pmids_used": [
+          "35593186"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 3,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 1,
+        "n_emotional": 2,
+        "n_goals": 0,
+        "problems": [
+          "nasal congestion",
+          "coughing more than usual",
+          "poor feeding"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "35593186"
+      ],
+      "cluster_ids_used": [
+        "finding::global::35593186_0"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Demonstrate empathy",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 152661.85072809458,
+        "module_2_retrieval": 64.48736041784286,
+        "module_3_reasoning": 108071.47423177958,
+        "module_4_response": 29763.992995023727,
+        "total_ms": 290561.8053153157
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

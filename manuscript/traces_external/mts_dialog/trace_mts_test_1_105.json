@@ -1,0 +1,229 @@
+{
+  "transcript_id": "mts_test_1_105",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "Per health summary sheet, unchanged",
+  "patient_utterances": [
+    "[Clinician asked: \"Hello. It has been a long time. Nice to see you again. How can I help?\"] I am here for a physical. Nothing new and nothing has changed, but I think it's good to be seen once a year.",
+    "[Clinician asked: \"Great! You are absolutely right. Prevention is key. Are your social history and medical conditions the same as last visit? Here, you can look at the chart.\"] Yeah, that looks right. It's all the same."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "OTHER_HISTORY": "Per health summary sheet, unchanged."
+  },
+  "n_patient_turns": 2,
+  "n_clinician_turns": 2,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 11263.447061181068,
+      "response_text": "It's wonderful to see you again and I truly appreciate your commitment to maintaining your health by keeping up with regular check-ups. Even when things seem unchanged, these visits are crucial for catching any potential issues early and ensuring everything is in order. I'm here to address any questions or concerns you might have, so please feel free to bring anything up that's on your mind. Let's make sure this visit is as thorough as possible to keep you feeling your best.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 18011.169001460075,
+      "response_text": "Thank you for coming in for your annual physical \u2014 it\u2019s great to see you and hear that you feel it\u2019s important to stay proactive about your health. I completely understand why you\u2019d want to maintain this routine; it\u2019s a smart way to catch anything early and keep track of your well-being.\n\nToday, let\u2019s make sure we\u2019re up to date on everything. I\u2019ll start by reviewing your health record to confirm all your information is current, and we can go from there. I\u2019ll check your vital signs, review any labs or imaging from the past year, and make sure there are no updates needed to your preventive care, like screenings or vaccinations. If there\u2019s anything specific you\u2019ve been thinking about or any questions you have, now\u2019s a great time to bring them up.\n\nAfter we go through everything, I\u2019ll summarize what we\u2019ve discussed and make sure you\u2019re comfortable with the plan moving forward. I\u2019ll also invite you to share any concerns or questions you have in your own words to ensure I\u2019ve covered everything you wanted to talk about. Let\u2019s plan to follow up in about a month to review any new information or changes, and I\u2019ll make sure to address anything we discussed today.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7435.560561716557,
+      "response_text": "It sounds like you're here for a routine physical and you're maintaining your health by keeping up with your annual check-ups. That's a great approach to staying well.\n\nWe'll proceed with the routine physical exam as scheduled.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in one year for your next physical. In the meantime, if you notice any changes in your health or have any concerns, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're here for a routine physical and you're maintaining your health by keeping up with your annual check-ups. That's a great approach to staying well.",
+        "clinical_information_per_concern": [],
+        "next_steps": [
+          "We'll proceed with the routine physical exam as scheduled."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in one year for your next physical. In the meantime, if you notice any changes in your health or have any concerns, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 19778.76427769661,
+      "response_text": "It sounds like you're focused on staying proactive with your health by scheduling a physical and keeping up with regular check-ups.\n\nRegular check-ups are important for maintaining good health and catching any potential issues early.\n\nStaying on top of your health through regular check-ups helps ensure that any concerns can be addressed early and effectively.\n\nWe'll schedule your physical exam as soon as possible to make sure you get the comprehensive check-up you're looking for.\n\nWe'll also set up a regular follow-up schedule to help you maintain your proactive approach to health.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if you have any questions or need to reschedule, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're focused on staying proactive with your health by scheduling a physical and keeping up with regular check-ups.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "get a physical done",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Regular check-ups are important for maintaining good health and catching any potential issues early.",
+            "citations": []
+          },
+          {
+            "concern_label": "maintain regular check-ups",
+            "profile_path": "patient_goals[1]",
+            "explanation": "Staying on top of your health through regular check-ups helps ensure that any concerns can be addressed early and effectively.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll schedule your physical exam as soon as possible to make sure you get the comprehensive check-up you're looking for.",
+          "We'll also set up a regular follow-up schedule to help you maintain your proactive approach to health."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if you have any questions or need to reschedule, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 0,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 2,
+        "problems": [],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 204636.4315971732,
+      "response_text": "It sounds like you're here to get your annual check-up and a physical done. That's a great proactive step for your health.\n\nA physical exam helps identify any potential health issues early, which is important for staying healthy. We'll make sure to cover all the necessary areas during your visit.\n\nAnnual check-ups are important for maintaining good health and catching any issues early. We'll review your health history and make sure everything is up to date.\n\nWe'll schedule your physical exam and annual check-up at your next visit.\n\nDuring the exam, we'll review your health history, perform a thorough examination, and address any questions or concerns you have.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again soon for your check-up. In the meantime, if you have any questions or concerns, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're here to get your annual check-up and a physical done. That's a great proactive step for your health.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "get a physical done",
+            "profile_path": "patient_goals[0]",
+            "explanation": "A physical exam helps identify any potential health issues early, which is important for staying healthy. We'll make sure to cover all the necessary areas during your visit.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[2]::40155879_0",
+                "primary_assertion_id": "40155879_0",
+                "pmids": [
+                  "40155879"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "annual check-up",
+            "profile_path": "patient_goals[1]",
+            "explanation": "Annual check-ups are important for maintaining good health and catching any issues early. We'll review your health history and make sure everything is up to date.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[2]::40155879_0",
+                "primary_assertion_id": "40155879_0",
+                "pmids": [
+                  "40155879"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll schedule your physical exam and annual check-up at your next visit.",
+          "During the exam, we'll review your health history, perform a thorough examination, and address any questions or concerns you have."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again soon for your check-up. In the meantime, if you have any questions or concerns, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Support",
+          "Respect"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[2]::40155879_0"
+        ],
+        "all_pmids_used": [
+          "40155879"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 0,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 2,
+        "problems": [],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "40155879"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[2]::40155879_0"
+      ],
+      "nurse_elements_applied": [
+        "Support",
+        "Respect"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 6388.784296810627,
+        "module_2_retrieval": 43.11736673116684,
+        "module_3_reasoning": 177853.48585247993,
+        "module_4_response": 20349.97185319662,
+        "total_ms": 204635.35936921835
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

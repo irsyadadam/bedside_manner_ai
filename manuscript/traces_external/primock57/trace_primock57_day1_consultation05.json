@@ -1,0 +1,288 @@
+{
+  "transcript_id": "primock57_day1_consultation05",
+  "dataset": "primock57",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "Lower abdominal pain",
+  "patient_utterances": [
+    "[Clinician asked: \"Hello?\"] <INAUDIBLE_SPEECH/>",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/>. Good morning, Tim. Um, how can I help you this morning?\"] Um, so I'm Having some, some pain, uh, in my tummy, like the lower part of my tummy. Um and I've just been feeling, quite, hot and sweaty.",
+    "[Clinician asked: \"OK. Right, I'm sorry to hear that. When, when did your symptoms all start?\"] About two days ago.",
+    "[Clinician asked: \"OK. And whereabouts in your tummy is the pain, exactly?\"] Uh, like below my belly button, it's like quite, sore when I press on it.",
+    "[Clinician asked: \"OK. Did the pain come on quite suddenly, or was it more gradual?\"] <INAUDIBLE_SPEECH/>, it hasn't been, it's more gradual and it's just, it is getting a bit worse now.",
+    "[Clinician asked: \"OK, OK. And can you describe the pain to me?\"] Uh, it's kind of like a, a, I guess a burning pain. Uh, and it's just right there yeah, in that spot, like uh, that's mostly where I'm feeling it. It hasn't spread anywhere else.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/> Just in, just below your belly button you uh, mentioned.\"] Yeah.",
+    "[Clinician asked: \"OK. Um, and is the pain constant, or does it come and go?\"] It's pretty constant, it's like getting worse. Um, it's not like, I , I can still move and walk around. Uh, I mean I'm still kind of functioning, it's just uh, I'm aware of it <INAUDIBLE_SPEECH/> time.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/> . Mm-hmm. OK. Um, and with the pain have you noticed any other symptoms, at all? So, for example, let's, let's focus first on your bowels. Are your bowels working OK?\"] Yeah, I had a bit of constipation, but that's better, now. That was like, since last week.",
+    "[Clinician asked: \"OK. So you've got no other symptoms, like diarrhea or loose stools?\"] No, I'm , I'm, my bowel movements are normal now.",
+    "[Clinician asked: \"No. OK. And, what about your waterworks? Are you passing urine OK?\"] Yeah, I'm fine, that's fine, that's. I did notice that I was a little, the urine was a little pink, in colour. But I haven't like, it hasn't really been burning, specifically or hurting when I pee and uh. And I did notice I was going to the, I was peeing more, regularly, but I have been drinking lots of fluids. So I wasn't sure, um, I wasn't sure, um, like  you know, if that was related to the pain.",
+    "[Clinician asked: \"Mm. And when you mentioned pink urine, do you, was there any blood at all in your urine? Or was it difficult to say?\"] I can't say, I mean maybe.",
+    "[Clinician asked: \"OK, alright. But otherwise, it doesn't hurt, uh, or or or sting, when you pass urine?\"] And I haven't noticed that it really burns or anything like that. Um, just that I'm, peeing more than , more regularly.",
+    "[Clinician asked: \"OK. OK. Um, OK. And um, moving on to <INAUDIBLE_SPEECH/> other symptoms, have you noticed any vomiting, or feeling nauseous at all?\"] Just a little nauseous, um, but no vomiting.",
+    "[Clinician asked: \"No vomiting. Any temperatures or fevers?\"] I haven't , I felt a bit hot and sweaty, but I haven't really measured it, so I can't really say.",
+    "[Clinician asked: \"OK, fine. Um, uh, uh, and Kim, have to ask um, uh <INAUDIBLE_SPEECH/> all all all  patients. This this question is about your cycle, if you don't mind me asking. Um, are you currently um, are you currently sexually active?\"] Yes. Uh, yeah I've, I have had the same partner, I am, we were last sexually active about four days ago. Um, my last STD screen was normal, which was about six months ago.",
+    "[Clinician asked: \"OK. So you've had no other partner since then.\"] No, the <INAUDIBLE_SPEECH/>.",
+    "[Clinician asked: \"OK. Um, uh, and do you use any contraception at all?\"] Uh, I'm, on the Implanon. I had the Implanon inserted about a year ago.",
+    "[Clinician asked: \"At the moment, OK, fine. Um, are you still having periods?\"] Yes.",
+    "[Clinician asked: \"When was your last period?\"] Uh, my last period was about, three weeks ago. I mean, two weeks ago.",
+    "[Clinician asked: \"Two week scare, OK. So, is there any chance you could be pregnant? I know you've got an implement in there, but is there any chance you could potentially be pregnant? It's something for us to think about <INAUDIBLE_SPEECH/>\"] Well, we don't use any other barrier, method so, we just use the , I just have the Implanon and the same partner. Um. Theoretically, if the Implanon, hasn't been working then I could be pregnant, but I don't suspect .",
+    "[Clinician asked: \"Yeah, OK. Well it's something for us to think about. Um, uh, maybe worth taking a pregnancy test later on, just to confirm that. Um OK. And, and so, just to summarize so far, if you don't mind, it's really for the last couple of days, it's tummy pain that's really affected you, mainly lower down tow\"] Yeah, that sounds, very accurate.",
+    "[Clinician asked: \"Is there anything else, perhaps, that you feel like you should share with me at this stage, anything that might be important?\"] I don't think so, I think I've, you , we've covered everything that's really bothering me.",
+    "[Clinician asked: \"Yeah, OK. Um, tell me, tell me a bit more about your um, medical history otherwise. Are you normally fit and well?\"] Yeah, , well, I haven't had any, surgical, I don't have any surgical history. I don't have any previous, I haven't had any operations before, or, and I'm not on any other medication, I just have the Implanon.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/> OK. Um, have you had anything like this before in the past? Any similar symptoms?\"] I've never , I've never had these symptoms before.",
+    "[Clinician asked: \"No, OK. Um Fine. Um, any other family history I should be aware of? Anything relevant, family, uh related to bowels, maybe related to  history?\"] No, not that , not that I'm aware of, no.",
+    "[Clinician asked: \"OK. Alright. Um, and socially, just tell me a bit more about your home situation. Who's at home with you?\"] Uh, I live in a share house, and with two other, two other room-mates.",
+    "[Clinician asked: \"OK. Um, and uh, are you currently working?\"] Yeah, I currently, I am currently .",
+    "[Clinician asked: \"What do you do for work?\"] I am an accountant.",
+    "[Clinician asked: \"OK. Um OK. Um, Do you smoke at all, Kim?\"] No.",
+    "[Clinician asked: \"No. And do you drink much in the way of alcohol?\"] Uh , socially I drink, but uh, I don't think more, more than normal. <INAUDIBLE_SPEECH/>.",
+    "[Clinician asked: \"No, OK. OK. Um, just before I go to the examination, I just want to go through just some few screening questions if that's OK, yes or no. Uh, we've, we've covered the majority of them already. Uh, but I just want to make sure I'm not missing anything else.\"] All right.",
+    "[Clinician asked: \"Um, how's your,  how's your chest? How's your breathing? Um, any\"] I don't feel short of breath uh, or, I'm not having any problems, or I don't have a cough or anything that's , worrying me.",
+    "[Clinician asked: \"OK. Any uh, funny heartbeats or rhythms, palpitations?\"] Not that it, no.",
+    "[Clinician asked: \"OK. Any headaches? Any problems with your vision?\"] No.",
+    "[Clinician asked: \"No, OK. Alright. Um, Fine, OK. Um, So really just uh, moving on, um, And so based, based on your story really, uh, uh Kim it's, it's  it's difficult.  it's it's um, you know you've got some tummy pain. You don't exactly know what's causing it. It could be a few different things that could be causing\"] OK.",
+    "[Clinician asked: \"Um, and basically those tests, we,  we'll have a better idea in terms of how we should proceed. But certainly, it  if it's been going on for the last couple of days, um, Uh, you know, it's probably maybe worth empirically treating you for a maybe urine infection. And, so it's an <INAUDIBLE_SPEECH/>\"] . Yeah, I , can we do that instead of me, going for tests, and then seeing how that goes?",
+    "[Clinician asked: \"Yeah, absolutely. So, um I think it's certainly worth, you know covering you with some antibiotics today. Uh, but i still want you to bear in mind, you know, have a pregnancy test done to make sure we're not missing anything else here. And, um, and I want you to kind of really come back and see me i\"] Yeah, I think I'm happy with that plan.",
+    "[Clinician asked: \"OK. Um, you can try just regular painkillers, uh, Paracetamol would be advisable. Um, make sure you drink plenty of fluids. You can try some cranberry juice as well, which uh, can sometimes help with your urine symptoms. Um, take the antibiotics, uh, and give me a call, you know, if you are worried \"] Uh, sure. That sounds great. Thank you very much. Um, should I just collect the script at my pharmacy?",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/> Yeah, if I send it straight to your pharmacy, start the antibiotics today, something called Trimethoprim. Um, you can take two tablets, uh, <INAUDIBLE_SPEECH/> one tablet twice a day for three days.\"] OK. OK, , that sounds great.",
+    "[Clinician asked: \"Uh, <INAUDIBLE_SPEECH/>, let's see how you get on.\"] OK. Thank you very much.",
+    "[Clinician asked: \"Great. All the best!\"] Bye."
+  ],
+  "gold_note": "2/7 ago developed lower abdo pain/suprapubic pain, gradual onset, burning pain, constant, progressively worsening\nNo bowel sx. \nUrinary sx - noticed some pink coloured urine, no frank haematuria, nil dysuria.  \nSome nausea, no vomiting\nFeeling hot and sweaty\nCurrently sexually active with regular partner. Last STD 6/12 ago. Unprotected SI 2/7 ago. \nLMP 2/52 ago \n\nNo chest pain/SOB/palpitations\nNo headches/visual sx\n\nPMH: nil\nPSH: nil \nDH: implanon , otherwise nil\nFH: nil \nSH: roomshare with 2 flatmates, works as an accountant. Nil smoking, social EtOH \n\nImp: ?UTI. also need to exclude pregnancy \n\nPlan:\n1.\tPregnancy test\n2.\tUrine dip and MSU\n3.\tRx empirically with Abx for UTI\n4.\tRegular paracetamol for pain \n5.\tReview in 24-48 hours if sx not improving, or earlier if worsening sx (fever, abdo pain, vomiting)",
+  "gold_sections": {
+    "PRESENTING_COMPLAINT": "Lower abdominal pain",
+    "HIGHLIGHTS": "abdo pain/suprapubic pain\nburning\nFeeling hot and sweaty\nUTI\nAbx"
+  },
+  "n_patient_turns": 42,
+  "n_clinician_turns": 43,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 14024.040646851063,
+      "response_text": "I'm really sorry to hear about the discomfort you're experiencing. It's understandable to feel concerned when you're dealing with pain and other symptoms. Based on what you've described, we've discussed a plan to help manage your symptoms effectively. I've prescribed Trimethoprim, which should help with any potential urinary infection. It's important to take the medication as directed and stay hydrated. Please also consider taking a pregnancy test to ensure we're covering all bases.\n\nIf your symptoms don't improve or if you experience anything unusual, don't hesitate to reach out. We'll schedule a follow-up to monitor your progress. In the meantime, take care of yourself and let me know if you have any questions or concerns. I'm here to support you through this.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 32061.544381082058,
+      "response_text": "Thank you for sharing your concerns with me, Kim. It sounds like you're feeling quite uncomfortable with this lower abdominal pain and the other symptoms you've been experiencing. It's completely understandable that you're worried, especially with the burning sensation and the change in your urinary habits. I can see how this might be unsettling, and I want to make sure we address it together.\n\nGiven your symptoms\u2014lower abdominal pain, feeling hot and sweaty, pink urine, and increased urination\u2014it's important to consider a few possibilities. A urinary tract infection (UTI) is a common cause, though we don't have all the typical signs like blood in the urine or dysuria. However, your symptoms could also relate to gastrointestinal issues, ovarian concerns, or other gynecological conditions. To start, I think it's wise to treat empirically for a UTI, as it's a common issue and can be resolved quickly with antibiotics. I'll prescribe Trimethoprim, which is effective for most UTIs [PMID ?]. \n\nIn the meantime, I recommend taking Paracetamol for pain relief, staying well-hydrated, and possibly drinking cranberry juice, which can sometimes help with UTI symptoms. It's also important to monitor your symptoms, especially if they worsen or if you develop a fever. If the pain becomes severe or you notice any blood in your urine, please seek immediate care.\n\nWe'll plan to follow up in a week to see how you're responding to the treatment. By then, we can reassess and consider further testing if necessary. Before you leave, could you summarize our plan in your own words so I can ensure everything is clear? This will help us make sure you're comfortable with the next steps and know what to expect.\n\nTake care, and I'll send the prescription to your pharmacy right away. Feel free to call if you have any questions or concerns in the meantime.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7623.045019805431,
+      "response_text": "Thank you for sharing your symptoms with me. It sounds like the pain in your lower tummy has been quite uncomfortable, and I'm sorry you're feeling this way.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few days. If your symptoms get worse or if you have any new symptoms like severe pain or fever, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your symptoms with me. It sounds like the pain in your lower tummy has been quite uncomfortable, and I'm sorry you're feeling this way.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few days. If your symptoms get worse or if you have any new symptoms like severe pain or fever, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 168767.33829081059,
+      "response_text": "It sounds like you're experiencing some lower abdominal pain that's been getting worse over time. I want to understand how this is affecting your daily life.\n\nLower abdominal pain can be caused by a variety of issues, including infections, gastrointestinal problems, or urinary tract concerns. Given your symptoms like fever, sweating, constipation, and pink-tinged urine, it's important to consider these possibilities and rule them out through appropriate testing.\n\nWe'll need to do some tests to figure out what's causing the pain. This might include blood tests, urine tests, and possibly imaging if needed.\n\nGiven your symptoms, we should also check for any infections or issues related to your urinary tract or reproductive health.\n\nWe'll schedule a follow-up to review the results and plan the next steps together.\n\nI want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next?\n\nLet's plan to follow up in a week to review the test results. In the meantime, if the pain gets worse or you develop any new symptoms like severe pain or fever, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're experiencing some lower abdominal pain that's been getting worse over time. I want to understand how this is affecting your daily life.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "lower abdominal pain",
+            "profile_path": "problems[0]",
+            "explanation": "Lower abdominal pain can be caused by a variety of issues, including infections, gastrointestinal problems, or urinary tract concerns. Given your symptoms like fever, sweating, constipation, and pink-tinged urine, it's important to consider these possibilities and rule them out through appropriate testing.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::37567752",
+                "primary_assertion_id": "37567752_retr",
+                "pmids": [
+                  "37567752"
+                ]
+              },
+              {
+                "cluster_id": "retrieval_only::35833228",
+                "primary_assertion_id": "35833228_retr",
+                "pmids": [
+                  "35833228"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll need to do some tests to figure out what's causing the pain. This might include blood tests, urine tests, and possibly imaging if needed.",
+          "Given your symptoms, we should also check for any infections or issues related to your urinary tract or reproductive health.",
+          "We'll schedule a follow-up to review the results and plan the next steps together."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next?",
+        "follow_up_invitation": "Let's plan to follow up in a week to review the test results. In the meantime, if the pain gets worse or you develop any new symptoms like severe pain or fever, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "retrieval_only::37567752",
+          "retrieval_only::35833228"
+        ],
+        "all_pmids_used": [
+          "37567752",
+          "35833228"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "lower abdominal pain"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "37567752",
+        "35833228"
+      ],
+      "cluster_ids_used": [
+        "retrieval_only::37567752",
+        "retrieval_only::35833228"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 208233.56222361326,
+      "response_text": "It sounds like you're experiencing lower abdominal pain that's been getting worse, along with some concerning symptoms like fever and pink-tinged urine. I want to make sure we address this properly.\n\nThe symptoms you're describing, including lower abdominal pain with fever and pink-tinged urine, suggest we need to consider several possibilities. Research shows that gut feelings about cancer in symptomatic patients can be reliable when the prevalence is high, but we'll start with basic tests to rule out common causes like infection.\n\nWe'll order some blood tests and a urine analysis to check for infection or other issues.\n\nDepending on the results, we may recommend imaging or a referral to a specialist.\n\nPlease let us know if the pain gets worse or if you develop any new symptoms like severe nausea or vomiting.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to follow up in a week to review the test results. In the meantime, if you experience severe pain or any new symptoms, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're experiencing lower abdominal pain that's been getting worse, along with some concerning symptoms like fever and pink-tinged urine. I want to make sure we address this properly.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "lower abdominal pain",
+            "profile_path": "problems[0]",
+            "explanation": "The symptoms you're describing, including lower abdominal pain with fever and pink-tinged urine, suggest we need to consider several possibilities. Research shows that gut feelings about cancer in symptomatic patients can be reliable when the prevalence is high, but we'll start with basic tests to rule out common causes like infection.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[0]::37567752_0",
+                "primary_assertion_id": "37567752_0",
+                "pmids": [
+                  "37567752"
+                ]
+              },
+              {
+                "cluster_id": "finding::sub_query[0]::37567752_1",
+                "primary_assertion_id": "37567752_1",
+                "pmids": [
+                  "37567752"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll order some blood tests and a urine analysis to check for infection or other issues.",
+          "Depending on the results, we may recommend imaging or a referral to a specialist.",
+          "Please let us know if the pain gets worse or if you develop any new symptoms like severe nausea or vomiting."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to follow up in a week to review the test results. In the meantime, if you experience severe pain or any new symptoms, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[0]::37567752_0",
+          "finding::sub_query[0]::37567752_1"
+        ],
+        "all_pmids_used": [
+          "37567752"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "lower abdominal pain"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "37567752"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[0]::37567752_0",
+        "finding::sub_query[0]::37567752_1"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 139756.68014585972,
+        "module_2_retrieval": 55.732712149620056,
+        "module_3_reasoning": 47433.56867879629,
+        "module_4_response": 20986.370377242565,
+        "total_ms": 208232.3519140482
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

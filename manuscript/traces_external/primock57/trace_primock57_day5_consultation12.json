@@ -1,0 +1,256 @@
+{
+  "transcript_id": "primock57_day5_consultation12",
+  "dataset": "primock57",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "Headache",
+  "patient_utterances": [
+    "Hi.",
+    "[Clinician asked: \"Hi there. It's Doctor Smith from Babylon.\"] Hey. How are you?",
+    "[Clinician asked: \"How are you doing? <INAUDIBLE_SPEECH/>. Good thank you. Can you confirm your name, date of birth, and your, home address please?\"] Um, yes I can. Uh, it's, Mary Smith.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/>\"] Um, I'm twenty eight, and I live at apartment four oh five, nine C, Clerkenwell Road.",
+    "[Clinician asked: \"OK that's fine. Are you in a private place so you can have a consultation today?\"] Yes I am.",
+    "[Clinician asked: \"What can I do for you?\"] Um, I keep having a headache.",
+    "[Clinician asked: \"OK, and when did it start?\"] It started yesterday, um. Uh, it's unusual for me, to have a headache.",
+    "[Clinician asked: \"OK. Can you just tell me whereabouts in your head it is?\"] It's on the left side at the back, sort of here.",
+    "[Clinician asked: \". OK. Just on the left side.\"] Yes.",
+    "[Clinician asked: \"And, when did it start? What time of day did it start yesterday?\"] About mid-morning.",
+    "[Clinician asked: \"And how did it feel when it first started?\"] Um, just quite, intense, and kinda quite throbbing. It kind of built up gradually after, over. A short period of time.",
+    "[Clinician asked: \"OK. And did you get uh, have you got any other symptoms along with that? Any nausea, vomiting, tingling, numbness, weakness, anywhere?\"] No, nothing.",
+    "[Clinician asked: \"OK, and, uh. Sorry <INAUDIBLE_SPEECH/>. Um, any blurred vision, or any pain over your eyes?\"] Um. No.",
+    "[Clinician asked: \"Any , any funny lights or, anything like that in your vision area? Any problems when you look into the light?\"] No, <INAUDIBLE_SPEECH/>. No.",
+    "[Clinician asked: \"Um, and have you been eating and drinking OK?\"] Yes, yes, like normal.",
+    "[Clinician asked: \". Are you feeling sick, or vomiting, or anything?\"] No, nothing like that, <INAUDIBLE_SPEECH/>.",
+    "[Clinician asked: \"Any high fevers? Are you feeling shivery? Sweaty?\"] No, no fever, no .",
+    "[Clinician asked: \"Any , any rashes at all?\"] No.",
+    "[Clinician asked: \"And, in the past, have you had any headache before?\"] Not really.",
+    "[Clinician asked: \"OK. How bad would you say the headache is from, zero to ten, if ten is the worst pain that you could have, and zero is nothing?\"] I'd say about eight.",
+    "[Clinician asked: \"OK. And have you taken any pain killers?\"] Um, I took some, um, um, Nurofen, yesterday.",
+    "[Clinician asked: \"OK, and did that make any difference?\"] Not really.",
+    "[Clinician asked: \"And last night, did you manage to sleep through the night OK?\"] Uh, yes I did.",
+    "[Clinician asked: \"Has it been worse at any particular time of the day?\"] No, it hasn't made any difference, the time of the day.",
+    "[Clinician asked: \"Any difference if you lie down, stand up, bend over, cough or sneeze, or anything like that?\"] Um, no.",
+    "[Clinician asked: \"And, have you got any other medical problems?\"] Um, no I haven't.",
+    "[Clinician asked: \"Anything you take medication for?\"] No I don't.",
+    "[Clinician asked: \"Um, any over-the-counter medications or allergies?\"] No, only the, Nurofen I took yesterday, Ibuprofen.",
+    "[Clinician asked: \"That's fine. And any stomach problems, or asthma at all?\"] No.",
+    "[Clinician asked: \"Anyone in your family got any medical problems?\"] Uh, my mother's had hypertension, and she does get migraines.",
+    "[Clinician asked: \". And, have you had your blood pressure checked ?\"] Um, no, not recently.",
+    "[Clinician asked: \"And who do you live with at home?\"] Sorry?",
+    "[Clinician asked: \"Who do you live with at home?\"] My partner.",
+    "[Clinician asked: \"And what's your job, day-to-day?\"] I'm a designer.",
+    "[Clinician asked: \"Have you had to miss any work at all?\"] Uh, no, but I don't feel that, I'm finding it really hard to , to do any of, my work, or, normal things.",
+    "[Clinician asked: \"OK. Um, and do you smoke at all normally?\"] No I don't.",
+    "[Clinician asked: \"Do you drink any alcohol regularly?\"] No.",
+    "[Clinician asked: \"Um, and any other drugs?\"] No.",
+    "[Clinician asked: \"No, OK. Um, I mean the fact that you haven't had headaches before, um, is, is unusual the fact that they've developed. Is there anything you think's changed? Any increased stress, , change in your diet or lifestyle?\"] Not that I can, not that I can think of.",
+    "[Clinician asked: \"OK. So, what we would suggest is, trying a slightly stronger, pain relief. Uh, so, similar to Ibuprofen, but taking instead of Ibuprofen not at the same time, and taking that regularly with food.\"] OK.",
+    "[Clinician asked: \"Um, hopefully that will settle it down. You can take Paracetamol along with that.\"] Yes.",
+    "[Clinician asked: \"Try and um, take rest, have lots of good hydration.Um, but if the pain's getting worse, or you get new symptoms, fever, rash, vomiting, neck stiffness. Um, or you keep getting episodes of the same type of thing, then we need to speak to you, and, and make a plan for, for what we can do next.\"] OK. Thank you.",
+    "[Clinician asked: \"Have you got any other questions?\"] How long do you think it will last for?",
+    "[Clinician asked: \"Well I should think it should  down, if it's getting worse or not settling in the next day or two. Then certainly give us a call back, if, when you've tried the medication that I've prescribed from the pharmacy.\"] <INAUDIBLE_SPEECH/> OK.",
+    "[Clinician asked: \"OK?\"] Thank you.",
+    "[Clinician asked: \"All right then. Thanks a lot. Bye.\"] , bye."
+  ],
+  "gold_note": "PC: Headache\n\nHPC L sided posterior headache. Started mid morning. 8/10 severity. No visual disturbance/visual floaters/tingling/numbness/weakness/nausea/vomiting/fever/neck stiffness. \nNo worse cough/sneeze/bending. Did not wake her up in the night, slept ok . E&D fine. Finding it hard to concentrate on work.\n\nNo headaches in the past. \nNo change in diet/liestyle/increased stress.\n\nDH: Nil\n\nFMH: Mother hypertension\n\nSH: Lives with partner. Designer. \n\nImp: New onset headache.\n\nPlan: Advised prescribed naproxen to take instead of ibuprofen. Can take alongside paracetmol. If pain not settling/worse or new symptoms to contact dr asap. If recurring episodes of same to have further assessment with GP.",
+  "gold_sections": {
+    "PRESENTING_COMPLAINT": "Headache",
+    "HIGHLIGHTS": ""
+  },
+  "n_patient_turns": 46,
+  "n_clinician_turns": 45,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 19301.91794782877,
+      "response_text": "Mary, I understand how concerning and uncomfortable this headache must be for you, especially since it's something you haven't experienced before. It's natural to feel worried, but the steps we discussed should help alleviate the pain. Rest, hydration, and the recommended medications are a good start. If the headache persists or gets worse, or if you develop any new symptoms, please don't hesitate to reach out. We're here to support you through this. Take care and feel better soon.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 23595.742516219616,
+      "response_text": "Mary, thank you for sharing your concerns with me. It sounds like you're in discomfort, and it's understandable to be concerned since this is new for you. Having a severe headache for the first time can be unsettling, especially when it's persistent and hasn't responded to pain relief.\n\nGiven your symptoms\u2014an intense, throbbing headache on the left side without other signs like nausea or vision changes\u2014I'm thinking this might be a migraine or possibly a tension headache. However, since you're 28 and this is your first experience with such a headache, it's important to consider other possibilities. I'll suggest trying a different pain reliever, like Paracetamol, and ensuring you take it with food to avoid stomach issues. Rest and hydration are key, so I recommend you take it easy today.\n\nIf the pain worsens or you develop new symptoms like vomiting or vision changes, please seek immediate care. We'll follow up in a week to reassess your symptoms and adjust our approach if needed. Let me know if you have any questions or concerns in the meantime.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 12127.872228622437,
+      "response_text": "Thank you for reaching out about your headache. It sounds like it's been quite uncomfortable, especially since it's something you haven't experienced before.\n\nWe recommend taking a slightly stronger pain reliever, such as Paracetamol, with food. Rest and stay hydrated. If the pain worsens or new symptoms appear, like fever or vomiting, please contact us immediately. We'll follow up in a day or two to see how you're doing.\n\nTry to avoid stress and maintain your usual diet and lifestyle. If the headache persists or gets worse, give us a call.\n\nIf you have any questions or need further assistance, don't hesitate to reach out.\n\nCan you tell me in your own words what you plan to do next and how you'll manage your headache?\n\nLet's check in again in a day or two. If your symptoms don't improve or get worse, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "Thank you for reaching out about your headache. It sounds like it's been quite uncomfortable, especially since it's something you haven't experienced before.",
+        "clinical_information_per_concern": [],
+        "next_steps": [
+          "We recommend taking a slightly stronger pain reliever, such as Paracetamol, with food. Rest and stay hydrated. If the pain worsens or new symptoms appear, like fever or vomiting, please contact us immediately. We'll follow up in a day or two to see how you're doing.",
+          "Try to avoid stress and maintain your usual diet and lifestyle. If the headache persists or gets worse, give us a call.",
+          "If you have any questions or need further assistance, don't hesitate to reach out."
+        ],
+        "teach_back_prompt": "Can you tell me in your own words what you plan to do next and how you'll manage your headache?",
+        "follow_up_invitation": "Let's check in again in a day or two. If your symptoms don't improve or get worse, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 118101.3220474124,
+      "response_text": "It sounds like you're experiencing a significant headache that started yesterday. I want to understand how this is affecting you and what we can do together to address it.\n\nHeadaches can be caused by a variety of factors, and since yours started recently and is severe, we'll want to explore potential causes systematically. This approach ensures we cover all possibilities without jumping to conclusions too quickly.\n\nWe'll start by reviewing your medical history and any recent changes that might be related to your headache.\n\nWe'll schedule some tests to rule out common causes and monitor your symptoms closely.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a week. In the meantime, keep track of when your headaches occur, how severe they are, and any other symptoms you notice. If they get worse or you experience new symptoms like vision changes or trouble speaking, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're experiencing a significant headache that started yesterday. I want to understand how this is affecting you and what we can do together to address it.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "headache",
+            "profile_path": "problems[0]",
+            "explanation": "Headaches can be caused by a variety of factors, and since yours started recently and is severe, we'll want to explore potential causes systematically. This approach ensures we cover all possibilities without jumping to conclusions too quickly.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll start by reviewing your medical history and any recent changes that might be related to your headache.",
+          "We'll schedule some tests to rule out common causes and monitor your symptoms closely."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a week. In the meantime, keep track of when your headaches occur, how severe they are, and any other symptoms you notice. If they get worse or you experience new symptoms like vision changes or trouble speaking, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "headache"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 171032.02138096094,
+      "response_text": "It sounds like you're experiencing a bad headache that started yesterday morning. I want to understand how this is affecting your daily life.\n\nHeadaches can be caused by many things, and since yours started suddenly and is severe, we'll need to consider different possibilities. The primary step is to assess the pattern and characteristics of the headache to guide the next steps.\n\nWe'll start by reviewing your medical history and any medications you're taking.\n\nWe'll schedule a follow-up visit to monitor your symptoms and assess the need for further evaluation.\n\nCan you tell me, in your own words, what we discussed today and what you plan to do next?\n\nLet's plan to see each other again in a week. If your headache worsens or you develop new symptoms like vision changes, severe nausea, or confusion, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're experiencing a bad headache that started yesterday morning. I want to understand how this is affecting your daily life.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "headache",
+            "profile_path": "problems[0]",
+            "explanation": "Headaches can be caused by many things, and since yours started suddenly and is severe, we'll need to consider different possibilities. The primary step is to assess the pattern and characteristics of the headache to guide the next steps.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[0]::35709018_0",
+                "primary_assertion_id": "35709018_1",
+                "pmids": [
+                  "35709018"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll start by reviewing your medical history and any medications you're taking.",
+          "We'll schedule a follow-up visit to monitor your symptoms and assess the need for further evaluation."
+        ],
+        "teach_back_prompt": "Can you tell me, in your own words, what we discussed today and what you plan to do next?",
+        "follow_up_invitation": "Let's plan to see each other again in a week. If your headache worsens or you develop new symptoms like vision changes, severe nausea, or confusion, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[0]::35709018_0"
+        ],
+        "all_pmids_used": [
+          "35709018"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "headache"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "35709018"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[0]::35709018_0"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 108850.75161606073,
+        "module_2_retrieval": 52.12078243494034,
+        "module_3_reasoning": 45009.53361392021,
+        "module_4_response": 17118.509769439697,
+        "total_ms": 171030.91578185558
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

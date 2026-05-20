@@ -1,0 +1,282 @@
+{
+  "transcript_id": "mts_test_1_185",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "Father died at the age of 84",
+  "patient_utterances": [
+    "[Clinician asked: \"Hello, sir. What are we doing today?\"] Hello. I am here for a regular physical. Both of my parents died from medical issues, and I want to make sure when I go that it is just from old age.",
+    "[Clinician asked: \"What did your parents have?\"] My father died from lung cancer and ischemic cardiac disease. He was eighty four.",
+    "[Clinician asked: \"What about your mother?\"] She died of congestive heart failure. Not sure the exact age she was, but it was in her eighties too.",
+    "[Clinician asked: \"I am sorry to hear that. Do you have any siblings?\"] I have six sisters and two brothers. A few of my sisters live around here. They are all in good health that I know of."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "FAM_SOCHX": "Father died at the age of 84.  He had a prior history of cancer of the lung and ischemic cardiac disease.  Mother died in her 80s from congestive heart failure.  He has two brothers and six sisters living who remain in good health."
+  },
+  "n_patient_turns": 4,
+  "n_clinician_turns": 4,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 14250.596553087234,
+      "response_text": "I'm really sorry to hear about the loss of your parents. It's completely understandable to feel concerned about your health, especially given your family history. While genetics can play a role, it's important to remember that lifestyle choices and regular check-ups can significantly impact your health outcomes. \n\nDuring your physical, we'll focus on screenings and assessments tailored to your age and family history, such as checking your blood pressure, cholesterol, and blood sugar levels. If you smoke, now is a great time to consider quitting, and maintaining a healthy diet, regular exercise, and stress management are also key. Together, we'll monitor your health and work to reduce any potential risks. Remember, you're taking a proactive step by prioritizing your well-being today.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 26379.998221993446,
+      "response_text": "Thank you for sharing your concerns with me. It's understandable that you're feeling worried about your health, especially given your parents' experiences. Your proactive approach to your health is commendable, and I appreciate your openness in discussing your family history.\n\nGiven your father's history of lung cancer and heart disease, and your mother's congestive heart failure, it's important to be mindful of your health. While family history can increase certain risks, especially for cardiovascular diseases, it's also within our power to mitigate these through lifestyle choices and regular health screenings. I'll make sure to review your health thoroughly today, focusing on any potential risk factors and appropriate preventive measures.\n\nToday, we'll conduct a physical exam, review your lab results, and discuss any necessary screenings. We'll also talk about lifestyle adjustments that could help reduce your risk. I want to ensure you're well-informed about what we're doing and why. Could you summarize what you understand about our plan today? This will help me confirm that everything is clear.\n\nPlease let me know if you have any specific concerns or questions as we go through this. We'll schedule a follow-up in a few weeks to review your results and plan any next steps. Your health and peace of mind are our top priorities.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 8088.8272151350975,
+      "response_text": "Hello, you're here for a regular physical exam. You mentioned that both your parents passed away from medical issues, and you want to ensure that your passing is due to old age rather than other health problems.\n\nWe'll proceed with your regular physical exam to assess your health and discuss any concerns that may arise during the examination.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a year for your next regular physical. In the meantime, if you notice any significant changes in your health, please call us so we can address them promptly.",
+      "structured_response": {
+        "acknowledgment": "Hello, you're here for a regular physical exam. You mentioned that both your parents passed away from medical issues, and you want to ensure that your passing is due to old age rather than other health problems.",
+        "clinical_information_per_concern": [],
+        "next_steps": [
+          "We'll proceed with your regular physical exam to assess your health and discuss any concerns that may arise during the examination."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a year for your next regular physical. In the meantime, if you notice any significant changes in your health, please call us so we can address them promptly.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 32049.964539706707,
+      "response_text": "I understand you're looking for ways to stay healthy with a regular physical and to plan for a peaceful end-of-life. Let's focus on how we can support these goals together.\n\nRegular physicals are important for maintaining health and catching issues early. We'll schedule your next physical to make sure everything is up to date.\n\nPlanning for a peaceful death involves discussions about your wishes and ensuring you have the support you need. We can explore resources and options together to help you achieve this goal.\n\nWe'll schedule your regular physical at your next visit.\n\nWe'll discuss your wishes for end-of-life care and explore any resources or support you might need.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if you have any questions or concerns, please reach out.",
+      "structured_response": {
+        "acknowledgment": "I understand you're looking for ways to stay healthy with a regular physical and to plan for a peaceful end-of-life. Let's focus on how we can support these goals together.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "regular physical",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Regular physicals are important for maintaining health and catching issues early. We'll schedule your next physical to make sure everything is up to date.",
+            "citations": []
+          },
+          {
+            "concern_label": "peaceful death",
+            "profile_path": "patient_goals[1]",
+            "explanation": "Planning for a peaceful death involves discussions about your wishes and ensuring you have the support you need. We can explore resources and options together to help you achieve this goal.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll schedule your regular physical at your next visit.",
+          "We'll discuss your wishes for end-of-life care and explore any resources or support you might need."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if you have any questions or concerns, please reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 0,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 2,
+        "problems": [],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 119185.97799539566,
+      "response_text": "Thank you for sharing your concerns about your family's health history. I understand how important it is to stay proactive about your health, especially with a family history of serious conditions.\n\nFamily history can be an important factor in understanding your health risks. While it doesn't mean you'll definitely develop the condition, it's something we should consider together with other factors.\n\nHaving a family history of ischemic heart disease means we should work together to monitor your heart health and identify any potential risks early on.\n\nFamily history of congestive heart failure suggests we should keep a close eye on your heart function and address any symptoms promptly.\n\nRegular physical activity is great for maintaining overall health and can help manage many conditions. We'll support you in finding activities that work best for you.\n\nIt's important to have a plan for end-of-life care that aligns with your wishes. We can discuss options and ensure your preferences are documented.\n\nWe'll schedule a regular check-up to review your family history and current health status.\n\nDiscuss and set up a plan for regular physical activity that fits your lifestyle.\n\nReview and update your advance care planning to ensure it reflects your wishes for end-of-life care.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to meet again in 6 weeks to review your health progress. In the meantime, if you have any concerns or changes in your health status, please reach out.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns about your family's health history. I understand how important it is to stay proactive about your health, especially with a family history of serious conditions.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "family history of lung cancer",
+            "profile_path": "problems[0]",
+            "explanation": "Family history can be an important factor in understanding your health risks. While it doesn't mean you'll definitely develop the condition, it's something we should consider together with other factors.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[0]::37142822_0",
+                "primary_assertion_id": "37142822_0",
+                "pmids": [
+                  "37142822"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "family history of ischemic heart disease",
+            "profile_path": "problems[1]",
+            "explanation": "Having a family history of ischemic heart disease means we should work together to monitor your heart health and identify any potential risks early on.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[0]::37142822_0",
+                "primary_assertion_id": "37142822_0",
+                "pmids": [
+                  "37142822"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "family history of congestive heart failure",
+            "profile_path": "problems[2]",
+            "explanation": "Family history of congestive heart failure suggests we should keep a close eye on your heart function and address any symptoms promptly.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[0]::37142822_0",
+                "primary_assertion_id": "37142822_0",
+                "pmids": [
+                  "37142822"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "regular physical",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Regular physical activity is great for maintaining overall health and can help manage many conditions. We'll support you in finding activities that work best for you.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::global::33658141_0",
+                "primary_assertion_id": "33658141_0",
+                "pmids": [
+                  "33658141"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "peaceful death from old age",
+            "profile_path": "patient_goals[1]",
+            "explanation": "It's important to have a plan for end-of-life care that aligns with your wishes. We can discuss options and ensure your preferences are documented.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::global::33658141_0",
+                "primary_assertion_id": "33658141_0",
+                "pmids": [
+                  "33658141"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll schedule a regular check-up to review your family history and current health status.",
+          "Discuss and set up a plan for regular physical activity that fits your lifestyle.",
+          "Review and update your advance care planning to ensure it reflects your wishes for end-of-life care."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to meet again in 6 weeks to review your health progress. In the meantime, if you have any concerns or changes in your health status, please reach out.",
+        "nurse_elements_applied": [
+          "Support",
+          "Respect"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[0]::37142822_0",
+          "recommendation::global::33658141_0"
+        ],
+        "all_pmids_used": [
+          "37142822",
+          "33658141"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 3,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 2,
+        "problems": [
+          "family history of lung cancer",
+          "family history of ischemic heart disease",
+          "family history of congestive heart failure"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "37142822",
+        "33658141"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[0]::37142822_0",
+        "recommendation::global::33658141_0"
+      ],
+      "nurse_elements_applied": [
+        "Support",
+        "Respect"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 41622.95102328062,
+        "module_2_retrieval": 68.25972348451614,
+        "module_3_reasoning": 41494.54082548618,
+        "module_4_response": 35999.05050545931,
+        "total_ms": 119184.80207771063
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

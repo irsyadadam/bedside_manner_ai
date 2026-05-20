@@ -1,0 +1,216 @@
+{
+  "transcript_id": "mts_test_1_1",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "Positive for stroke and sleep apnea",
+  "patient_utterances": [
+    "[Clinician asked: \"Any medical issues running in your families?\"] Oh yes, stroke.",
+    "[Clinician asked: \"Anything else?\"] Sleep apnea."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "FAM_SOCHX": "Positive for stroke and sleep apnea."
+  },
+  "n_patient_turns": 2,
+  "n_clinician_turns": 2,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 6522.865310311317,
+      "response_text": "It sounds like you're aware of some important health issues that could be significant for your care. Family history of stroke and your own experience with sleep apnea are both important factors to consider. Managing these conditions can help reduce risks and improve your overall health. Let's work together to explore the best ways to address these concerns, whether through lifestyle changes, monitoring, or further evaluation. I'm here to support you in making informed decisions about your health.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 15243.03125590086,
+      "response_text": "Thank you for sharing that information. It makes sense that you're concerned about your family history of stroke and sleep apnea, especially since these conditions can have significant impacts on health. I understand how important it is to be aware of your risk factors, and I want to make sure we address any concerns you might have.\n\nGiven your family history of stroke, it would be wise to monitor and manage any personal risk factors such as high blood pressure, diabetes, or smoking. For sleep apnea, it's important to look out for symptoms like snoring, daytime sleepiness, or morning headaches. If you haven't already, I recommend discussing a sleep study with your doctor to assess your sleep health and explore treatment options if needed.\n\nWe should schedule a follow-up in about a month to review any test results and adjust your care plan as needed. Before we finish, could you summarize what we discussed today so I can ensure everything is clear?",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6511.66133582592,
+      "response_text": "Thank you for sharing your concerns with me today.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 4 weeks. In the meantime, if you get new symptoms like blood in your stool, severe pain, fevers, or the fatigue getting much worse, please call us right away \u2014 don't wait for the appointment.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns with me today.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 4 weeks. In the meantime, if you get new symptoms like blood in your stool, severe pain, fevers, or the fatigue getting much worse, please call us right away \u2014 don't wait for the appointment.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 20842.891708016396,
+      "response_text": "It sounds like you're concerned about your sleep apnea. Let me understand what's been going on.\n\nSleep apnea can cause serious health issues, so it's important to understand your symptoms better. We'll work together to figure out the best way to manage it.\n\nWe'll need to gather more information about your sleep patterns and symptoms to better understand how to help you.\n\nLet's plan to follow up in a week to review any new information and discuss next steps.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a week. In the meantime, keep track of your symptoms and let me know if anything changes.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're concerned about your sleep apnea. Let me understand what's been going on.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "sleep apnea",
+            "profile_path": "problems[0]",
+            "explanation": "Sleep apnea can cause serious health issues, so it's important to understand your symptoms better. We'll work together to figure out the best way to manage it.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll need to gather more information about your sleep patterns and symptoms to better understand how to help you.",
+          "Let's plan to follow up in a week to review any new information and discuss next steps."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a week. In the meantime, keep track of your symptoms and let me know if anything changes.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "sleep apnea"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 52397.625774145126,
+      "response_text": "It sounds like you're concerned about your sleep apnea. I want to make sure I understand what you're dealing with.\n\nSleep apnea can be managed with interventions like lifestyle changes, breathing devices, or other treatments. We'll work together to find the best approach for you.\n\nWe'll start by discussing your symptoms and medical history to better understand your sleep apnea.\n\nBased on that, we'll recommend appropriate tests or treatments to help manage it.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to follow up in a week to review the results of the initial assessment and discuss any questions you may have.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're concerned about your sleep apnea. I want to make sure I understand what you're dealing with.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "sleep apnea",
+            "profile_path": "problems[0]",
+            "explanation": "Sleep apnea can be managed with interventions like lifestyle changes, breathing devices, or other treatments. We'll work together to find the best approach for you.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::sub_query[0]::38719772_0",
+                "primary_assertion_id": "38719772_0",
+                "pmids": [
+                  "38719772"
+                ]
+              },
+              {
+                "cluster_id": "recommendation::sub_query[0]::38719772_1",
+                "primary_assertion_id": "38719772_1",
+                "pmids": [
+                  "38719772"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll start by discussing your symptoms and medical history to better understand your sleep apnea.",
+          "Based on that, we'll recommend appropriate tests or treatments to help manage it."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to follow up in a week to review the results of the initial assessment and discuss any questions you may have.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "recommendation::sub_query[0]::38719772_0",
+          "recommendation::sub_query[0]::38719772_1"
+        ],
+        "all_pmids_used": [
+          "38719772"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "sleep apnea"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "38719772"
+      ],
+      "cluster_ids_used": [
+        "recommendation::sub_query[0]::38719772_0",
+        "recommendation::sub_query[0]::38719772_1"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 8957.07917958498,
+        "module_2_retrieval": 32.61946886777878,
+        "module_3_reasoning": 25531.413234770298,
+        "module_4_response": 17875.687770545483,
+        "total_ms": 52396.79965376854
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

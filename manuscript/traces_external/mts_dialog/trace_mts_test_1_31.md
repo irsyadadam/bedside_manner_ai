@@ -1,0 +1,168 @@
+# External-dataset trace — `mts_test_1_31`
+
+- Dataset: **mts_dialog**
+- Mode: real
+- Speaker strategy: middle
+- # patient utterances: 20
+- Gold sections: ['HPI']
+
+## Patient utterances (first 3)
+1. [Clinician asked: "Hi there! I am Doctor Jones, sir."] Hello! It is nice to meet you.
+2. [Clinician asked: "What brings you into see me today?"] I have had this weakness in my right leg for quite some time now.
+3. [Clinician asked: "How long has this been going on and do you know how you injured yourself?"] I think that it was about six months ago that the weakness in my leg started. I don't really remember how it happened.
+... (17 more)
+
+## Gold sections
+### HPI
+
+The patient is a 55-year-old gentleman who presents for further evaluation of right leg weakness.  He has difficulty recollecting the exact details and chronology of his problem.  To the best of his recollection, he thinks that about six months ago he developed weakness of his right leg.  He describes that he is reaching to get something from a cabinet and he noticed that he was unable to stand on his right toe.  Since that time, he has had difficulty pushing off when he walks.  He has mild tingling and numbness in his toes, but this has been a chronic problem and nothing new since he has developed the weakness.  He has chronic mild back pain, but this has been persistent for many years and has not changed.  He has experienced cramps in both calves for the past year.  This dissipated about two months ago.  He does not think that his left leg is weak.  He does not have any bowel or bladder incontinence.  There is no radicular pain.  He does not think that the problem is progressive, meaning that the weakness that he perceives in his right leg is no different than when it was six months ago. He first sought medical attention for this problem in October.  He then saw you a couple of m…
+
+## Condition: `naive`
+
+_latency_: 28633 ms
+
+**Response**
+
+I understand that you've been dealing with weakness and numbness in your right leg for quite some time, and I want to acknowledge how challenging that must be for you. It's important that we work together to figure out what's causing these symptoms and how we can address them effectively.
+
+Based on what you've described, the weakness and numbness in your leg could be related to several potential issues, such as nerve compression or peripheral neuropathy. Given that you can't have an MRI due to your ear implant, we might consider other diagnostic tests, like a nerve conduction study or EMG, which you've already had. Your recent switch to Zetia doesn't seem to be causing issues, but we'll continue to monitor your CK levels to ensure they remain stable.
+
+We'll move forward with the necessary steps to determine the cause of your symptoms and develop a treatment plan tailored to your needs. If needed, we may also explore other specialists or tests to gain more insight. Please feel free to ask any questions or share any concerns you have as we proceed. Your health and comfort are our top priorities.
+
+
+## Condition: `strong_prompt`
+
+_latency_: 25273 ms
+
+**Response**
+
+Thank you for sharing all this information with me. It sounds like you've been dealing with these symptoms for a while, and I can understand how that might be concerning and frustrating. The weakness in your right leg and the ongoing tingling and numbness must be challenging, especially when it affects your daily activities. I want to make sure we explore this thoroughly together.
+
+Given the duration of your symptoms and the history of elevated CK levels while on Lipitor, we should consider several possibilities. The weakness and numbness could be related to nerve issues, such as a pinched nerve in your spine, or it might be linked to muscle damage from the statins, though your CK levels have improved since stopping them. Since we couldn't do an MRI due to your ear implant, we might explore other imaging options or consider a follow-up EMG to assess nerve function [PMID ?].
+
+We'll plan to monitor your CK levels closely and adjust your medications as needed. If your symptoms change or worsen, such as if you experience more severe weakness or new pain, it's important to reach out promptly. We'll also schedule a follow-up in 4-6 weeks to reassess your symptoms and treatment plan.
+
+Before you leave, could you summarize what we discussed today? This will help ensure you understand the next steps and that I've addressed your concerns.
+
+
+## Condition: `framework_only`
+
+_latency_: 7781 ms
+
+**Response**
+
+Hello! It's nice to meet you and hear about your concerns. You mentioned having weakness in your right leg for the past six months, which sounds like it's been a constant issue. I want to understand how this has been affecting your daily life.
+
+I want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?
+
+Let's plan to see each other again in the near future. In the meantime, if you notice any changes in your symptoms or if they get worse, please call us so we can address them promptly.
+
+_NURSE_: ['Support']
+_Four Habits_: ['Invest in the beginning', 'Invest in the end']
+
+## Condition: `retrieval_only`
+
+_latency_: 263562 ms
+
+**Extracted profile (summary)**
+```yaml
+n_problems: 5
+n_medications: 2
+n_allergies: 0
+n_red_flags: 0
+n_emotional: 0
+n_goals: 0
+problems:
+- weakness in right leg
+- back pain
+- cramping in both calves
+- elevated CK
+- Zetia
+medications:
+- stat medications
+- Zetia
+allergies: []
+```
+
+**Response**
+
+Thank you for sharing your concerns with me today. I understand you've been dealing with several issues, and I want to make sure we address each one carefully.
+
+The weakness in your right leg, combined with tingling and numbness in your toes, suggests we should look into possible causes. This could be related to nerve issues or other underlying conditions.
+
+Your back pain has been ongoing, and it's important to understand its cause. We'll consider different approaches to manage it effectively.
+
+Cramping in both calves can be due to various reasons, including muscle fatigue or circulation issues. We'll explore these possibilities together.
+
+Elevated CK levels can indicate muscle-related issues. We'll review the interventions you've tried and consider further steps.
+
+Zetia is a medication used to manage cholesterol. We'll discuss how it's working for you and any concerns you have about it.
+
+We'll schedule some tests to better understand the causes of your symptoms.
+
+Let's review your current medications, including Zetia, to ensure they're meeting your needs.
+
+We'll also look into your back pain and calf cramps to find the best way to manage them.
+
+I want to make sure I explained everything clearly. Can you summarize what we'll do next in your own words?
+
+Let's plan to follow up in two weeks. If any symptoms worsen or if you have new concerns, please reach out sooner.
+
+_NURSE_: ['Support']
+_Four Habits_: ['Invest in the beginning', 'Invest in the end']
+
+## Condition: `full`
+
+_latency_: 327272 ms
+
+**Extracted profile (summary)**
+```yaml
+n_problems: 5
+n_medications: 3
+n_allergies: 0
+n_red_flags: 0
+n_emotional: 0
+n_goals: 0
+problems:
+- weakness in right leg
+- back pain
+- cramping in both calves
+- elevated CK levels
+- medication side effects
+medications:
+- stat medications
+- Lipitor (past use)
+- Zetia
+allergies: []
+```
+
+**Response**
+
+Thank you for sharing all this information with me. It sounds like you're dealing with several concerns, and I want to make sure I address each one carefully.
+
+The weakness in your right leg, along with the tingling and numbness in your toes, suggests we should look into possible causes like nerve issues or circulation problems. We'll need to consider further evaluation to understand what's happening.
+
+Your back pain has been ongoing for many years, and since we don't have a clear idea of when it started, it might be helpful to explore any changes or patterns you've noticed over time.
+
+The cramping in your calves stopped about two months ago, but since we don't have details on its severity or exact timing, it's hard to pinpoint the cause. We'll keep this in mind as we review your overall health.
+
+Your elevated CK levels, especially with changes after stopping Lipitor, suggest we need to monitor this closely. We'll review your medication history and any possible connections to your symptoms.
+
+Since starting Zetia, you've mentioned some side effects, but we don't have specific details. It's important to note any symptoms you're experiencing so we can assess if they're related to the medication.
+
+We'll schedule some tests to look into the weakness in your right leg and the tingling in your toes.
+
+We'll review your back pain history and see if further evaluation is needed.
+
+We'll monitor your elevated CK levels and discuss any changes in your symptoms related to your medications.
+
+We'll check in on any new symptoms you might be experiencing with Zetia.
+
+I want to make sure I explained everything clearly. Can you tell me, in your own words, what we're going to do next?
+
+Let's plan to follow up in a few weeks. If you notice any new symptoms or changes in your current ones, please reach out sooner.
+
+_cited PMIDs_: ['38533994']
+
+_NURSE_: ['Support']
+_Four Habits_: ['Invest in the beginning', "Elicit the patient's perspective", 'Invest in the end']

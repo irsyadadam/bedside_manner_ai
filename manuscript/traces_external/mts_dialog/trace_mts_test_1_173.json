@@ -1,0 +1,218 @@
+{
+  "transcript_id": "mts_test_1_173",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "He denies any chest pain",
+  "patient_utterances": [
+    "[Clinician asked: \"Any chest pain or shortness of breath?\"] No chest pain, but I tend to have shortness of breath after any type of exertion.",
+    "[Clinician asked: \"How about bladder and bowel issues?\"] No, that is fine.",
+    "[Clinician asked: \"Any excessive or unstoppable bleeding issues?\"] No, I do not have any bleeding issues.",
+    "[Clinician asked: \"Oh.\"] Yeah."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "ROS": "He denies any chest pain.  He does admit to exertional shortness of breath.  He denies any GI or GU problems.  He denies any bleeding disorders."
+  },
+  "n_patient_turns": 4,
+  "n_clinician_turns": 4,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 18461.607456207275,
+      "response_text": "It's understandable that you're experiencing shortness of breath after exertion, and I want to make sure we get to the bottom of it together. There could be several reasons for this, such as deconditioning, anxiety, or other underlying health issues. Let's work together to explore these possibilities. I might suggest some lifestyle adjustments or recommend tests to help us better understand what's going on. Your health is important to me, and we'll take it step by step. Please feel free to share any other symptoms or concerns you have, and we'll move forward from there.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 20408.63513201475,
+      "response_text": "Thank you for sharing all that with me. It makes sense that you might feel a bit dismissed or concerned after my \"Oh\"\u2014I want to acknowledge that and let you know I'm here to listen if there's anything else on your mind. Your answers are helpful, but I can see why you might feel like there's more to discuss. Let's make sure we cover everything you're thinking about.\n\nGiven that you're experiencing shortness of breath with exertion, it's important we explore this further. Shortness of breath can be related to a variety of things, like being out of shape, anxiety, or even heart issues. I think it would be a good idea to do some tests to rule out any serious causes and get a clearer picture of what's going on. We'll plan to do a few basic labs and maybe a heart assessment to start with [PMID ?].\n\nBefore we wrap up, could you tell me in your own words what you feel is important for us to address? That way I can make sure I'm on the same page as you.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6567.198023200035,
+      "response_text": "Thank you for sharing your concerns with me. I understand that you're experiencing shortness of breath after any type of exertion.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 4 weeks. In the meantime, if you get new symptoms like severe pain, please call us right away \u2014 don't wait for the appointment.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns with me. I understand that you're experiencing shortness of breath after any type of exertion.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 4 weeks. In the meantime, if you get new symptoms like severe pain, please call us right away \u2014 don't wait for the appointment.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 35027.311615645885,
+      "response_text": "It sounds like you're having trouble with shortness of breath, especially when you exert yourself. I want to understand how this is affecting your daily life.\n\nShortness of breath can be caused by a variety of issues, and it's important to figure out what's going on. We'll start by looking at how your symptoms are presenting and any other related factors.\n\nWe'll schedule some tests to better understand your shortness of breath and identify any underlying causes.\n\nCan you tell me, in your own words, what we're going to do next and why it's important?\n\nLet's plan to follow up in a week to review the results and discuss any questions you have.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're having trouble with shortness of breath, especially when you exert yourself. I want to understand how this is affecting your daily life.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "shortness of breath",
+            "profile_path": "problems[0]",
+            "explanation": "Shortness of breath can be caused by a variety of issues, and it's important to figure out what's going on. We'll start by looking at how your symptoms are presenting and any other related factors.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll schedule some tests to better understand your shortness of breath and identify any underlying causes."
+        ],
+        "teach_back_prompt": "Can you tell me, in your own words, what we're going to do next and why it's important?",
+        "follow_up_invitation": "Let's plan to follow up in a week to review the results and discuss any questions you have.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "shortness of breath"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 154028.18355709314,
+      "response_text": "It sounds like your main concern is the shortness of breath you've been experiencing, especially after any type of exertion. I want to make sure I understand how this is affecting your daily life.\n\nShortness of breath can be caused by a variety of factors, and since it's been happening recently, we'll need to look into it carefully. Some common causes include respiratory issues, heart conditions, or even anxiety. The good news is that there are several strategies we can use to manage symptoms while we figure out the exact cause.\n\nWe'll start with some basic tests to check for common causes of shortness of breath, like blood work and imaging if needed.\n\nIn the meantime, we can discuss some strategies to help manage your symptoms, such as breathing techniques and possibly using a handheld fan for immediate relief.\n\nWe'll also consider whether graded exercise therapy might be helpful for you once we have a clearer picture of what's going on.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to check in again in a week to review the results and adjust our plan as needed. If your symptoms get worse or if you experience any new symptoms like chest pain or dizziness, please reach out sooner.",
+      "structured_response": {
+        "acknowledgment": "It sounds like your main concern is the shortness of breath you've been experiencing, especially after any type of exertion. I want to make sure I understand how this is affecting your daily life.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "shortness of breath",
+            "profile_path": "problems[0]",
+            "explanation": "Shortness of breath can be caused by a variety of factors, and since it's been happening recently, we'll need to look into it carefully. Some common causes include respiratory issues, heart conditions, or even anxiety. The good news is that there are several strategies we can use to manage symptoms while we figure out the exact cause.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::sub_query[0]::38719772_0",
+                "primary_assertion_id": "38719772_0",
+                "pmids": [
+                  "38719772"
+                ]
+              },
+              {
+                "cluster_id": "contraindication::sub_query[0]::38719772_2",
+                "primary_assertion_id": "38719772_2",
+                "pmids": [
+                  "38719772"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll start with some basic tests to check for common causes of shortness of breath, like blood work and imaging if needed.",
+          "In the meantime, we can discuss some strategies to help manage your symptoms, such as breathing techniques and possibly using a handheld fan for immediate relief.",
+          "We'll also consider whether graded exercise therapy might be helpful for you once we have a clearer picture of what's going on."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to check in again in a week to review the results and adjust our plan as needed. If your symptoms get worse or if you experience any new symptoms like chest pain or dizziness, please reach out sooner.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "recommendation::sub_query[0]::38719772_0",
+          "contraindication::sub_query[0]::38719772_2"
+        ],
+        "all_pmids_used": [
+          "38719772"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "shortness of breath"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "38719772"
+      ],
+      "cluster_ids_used": [
+        "recommendation::sub_query[0]::38719772_0",
+        "contraindication::sub_query[0]::38719772_2"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 24768.883496522903,
+        "module_2_retrieval": 922.7414131164551,
+        "module_3_reasoning": 104829.29443567991,
+        "module_4_response": 23505.5598244071,
+        "total_ms": 154026.47916972637
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

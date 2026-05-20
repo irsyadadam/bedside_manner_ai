@@ -1,0 +1,158 @@
+{
+  "transcript_id": "mts_test_1_190",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "HEENT: Eyes:  EOMI",
+  "patient_utterances": [
+    "[Clinician asked: \"Let me quickly examine your eyes nose and ears.\"] Sure.",
+    "[Clinician asked: \"Well, eyes look fine no lesion seen on lids, brows or corner of the eyes. Extra ocular movements are intact. Sclerae look great. Pupils look fine. Can you open your eyes wide for me I am going to check with this instrument. Everything looks fine here.\"] Okay.",
+    "[Clinician asked: \"I don't see any swelling or glaucoma. No cataracts. Let me check your ears, Looks perfectly normal. Ears normal set and shape with normal hearing and tympanic membrane. No hearing problem or tinnitus or anything?\"] Nope.",
+    "[Clinician asked: \"No cough or cold or sinus congestion, right?\"] No.",
+    "[Clinician asked: \"Do you regularly visit your dentist?\"] Yes, I recently got some dental work done."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "PHYSICAL_EXAM": "HEENT: Eyes:  EOMI.  PERRLA.  Sclerae nonicteric.  No lesions lids, lashes, brows, or conjunctivae noted.  Funduscopic examination unremarkable.  No papilledema, glaucoma, or cataracts.  Ears:  Normal set and shape with normal hearing and normal TMs. Nose and Sinus:  Unremarkable.  Mouth, Tongue, Teeth, and Throat:  Negative except for dental work."
+  },
+  "n_patient_turns": 5,
+  "n_clinician_turns": 7,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 16124.320603907108,
+      "response_text": "I understand that you're feeling concerned, even though the physical exam didn't show any obvious issues. It's important to acknowledge that your symptoms are real, and we'll work together to find answers. Sometimes, underlying issues can be subtle or not immediately apparent. Let's consider other aspects, such as stress, fatigue, or other factors that might be contributing to how you're feeling.\n\nCould you share more about what's been going on? Keeping a symptom diary might help us identify patterns. Additionally, we could explore some tests to rule out other possibilities. Your health and well-being are a priority, and I'm here to support you through this process. Let's take it step by step and see what we can uncover together.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 18975.008264183998,
+      "response_text": "Thank you for sharing your concerns with me. It's completely understandable that you might feel worried, especially when you're experiencing symptoms but the physical exams haven't shown any issues. I can see how that might be frustrating, and I want to make sure we address this together.\n\nGiven that our examination didn't reveal any abnormalities, it's important to consider other potential factors that could be contributing to your symptoms. While there's no immediate concern from the exam findings, we should explore other areas, such as lifestyle factors or stress, which can sometimes manifest physically. I'll suggest some additional tests or referrals to get a clearer picture.\n\nBefore we wrap up, could you summarize what we discussed today in your own words? This will help ensure you understand the next steps. We'll schedule a follow-up in two weeks to review the results and adjust our approach as needed.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 3718.0256620049477,
+      "response_text": "It sounds like you're here for a routine check-up, and everything seems to be in order based on what you've shared.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're here for a routine check-up, and everything seems to be in order based on what you've shared.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "",
+        "follow_up_invitation": "",
+        "nurse_elements_applied": [],
+        "four_habits_elements_applied": [],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 19403.70186418295,
+      "response_text": "Thank you for reaching out. It sounds like you're here to discuss some important topics, and I'm ready to help.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 4 weeks. In the meantime, if you have any new concerns or questions, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "Thank you for reaching out. It sounds like you're here to discuss some important topics, and I'm ready to help.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 4 weeks. In the meantime, if you have any new concerns or questions, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 0,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 64022.00119942427,
+      "response_text": "Thank you for reaching out. I understand you're here to discuss your concerns and we'll work together to address them.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. If anything changes or if you have new concerns, please reach out sooner.",
+      "structured_response": {
+        "acknowledgment": "Thank you for reaching out. I understand you're here to discuss your concerns and we'll work together to address them.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. If anything changes or if you have new concerns, please reach out sooner.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 0,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 12547.232024371624,
+        "module_2_retrieval": 46.70528322458267,
+        "module_3_reasoning": 44386.82167977095,
+        "module_4_response": 7039.82874751091,
+        "total_ms": 64020.58773487806
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

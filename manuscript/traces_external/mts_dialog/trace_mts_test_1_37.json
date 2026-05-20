@@ -1,0 +1,328 @@
+{
+  "transcript_id": "mts_test_1_37",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "polysubstance abuse",
+  "patient_utterances": [
+    "[Clinician asked: \"Have you ever smoked?\"] Yes, I've been smoking around one pack.",
+    "[Clinician asked: \"Each day, is it?\"] Yes.",
+    "[Clinician asked: \"For how long?\"] Around fifteen years.",
+    "[Clinician asked: \"Do you take any other drug or consume alcohol?\"] Yeah, I'm an addict. I take oxy and a few more narco stuff, which I get from the street, and I drink a lot. I need help."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "FAM_SOCHX": "polysubstance abuse. smoked 1 pack per day for 15years."
+  },
+  "n_patient_turns": 4,
+  "n_clinician_turns": 4,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 17162.509210407734,
+      "response_text": "I understand how challenging it must be to face these struggles alone. It takes a lot of courage to acknowledge the difficulties you're experiencing, and I commend you for taking the first step toward seeking help. Quitting smoking, opioids, and alcohol can be incredibly tough, especially when trying to manage multiple substances at once. If you're open to it, we could explore starting with the most harmful ones, like smoking and alcohol, as they might have a more immediate impact on your health.\n\nYou're not alone in this journey, and there are many resources and supports available to help you. Let's work together to create a plan that feels manageable for you. We'll take it one step at a time, and I'll be here to support you every step of the way. Remember, seeking help is a sign of strength, and I'm here to help you through this process.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 16957.724556326866,
+      "response_text": "Thank you for sharing that with me. It sounds like you're facing some significant challenges, and it takes a lot of courage to acknowledge this and seek help. I can understand how overwhelming this might feel, but it\u2019s also an important step toward improving your health.\n\nWe\u2019ll work together to address these concerns. Given your smoking history and substance use, we should focus on reducing your risk of serious health issues like lung disease, heart problems, and addiction-related complications. The first step is to connect you with resources for quitting smoking and managing your substance use. I\u2019ll refer you to specialists who can help with these areas, and we can explore options for support groups or medications that might assist you in this journey.\n\nBefore we wrap up, could you summarize what we discussed today? This will help ensure you understand the next steps and feel prepared to move forward. We\u2019ll schedule a follow-up in two weeks to check on your progress and adjust our plan as needed.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6519.2432552576065,
+      "response_text": "Thank you for sharing your concerns with me.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 4 weeks. In the meantime, if you get new symptoms like blood in your stool, severe pain, fevers, or the fatigue getting much worse, please call us right away \u2014 don't wait for the appointment.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns with me.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 4 weeks. In the meantime, if you get new symptoms like blood in your stool, severe pain, fevers, or the fatigue getting much worse, please call us right away \u2014 don't wait for the appointment.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 41464.413814246655,
+      "response_text": "I can hear how much this is weighing on you \u2014 you said, \"Yeah, I'm an addict. I take oxy and a few more narco stuff, which I get from the street, and I drink a lot. I need help.\" That's a heavy burden to carry, and I want to make sure we address it together.\n\nFatigue can be a sign of many things, and since it's happening every day, it's important to look into it. We'll start with some basic tests to see what might be causing it.\n\nIt's great that you're reaching out for help. We'll work together to find the best way to support you in your recovery journey.\n\nGiven the concerns about substance use, we'll prioritize connecting you with resources for addiction support and recovery.\n\nWe'll schedule a follow-up visit to discuss the results of the tests we're ordering and to create a personalized plan for your care.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if you experience any severe symptoms or need immediate help, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this is weighing on you \u2014 you said, \"Yeah, I'm an addict. I take oxy and a few more narco stuff, which I get from the street, and I drink a lot. I need help.\" That's a heavy burden to carry, and I want to make sure we address it together.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "fatigue",
+            "profile_path": "problems[0]",
+            "explanation": "Fatigue can be a sign of many things, and since it's happening every day, it's important to look into it. We'll start with some basic tests to see what might be causing it.",
+            "citations": []
+          },
+          {
+            "concern_label": "need help",
+            "profile_path": "patient_goals[0]",
+            "explanation": "It's great that you're reaching out for help. We'll work together to find the best way to support you in your recovery journey.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "Given the concerns about substance use, we'll prioritize connecting you with resources for addiction support and recovery.",
+          "We'll schedule a follow-up visit to discuss the results of the tests we're ordering and to create a personalized plan for your care."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if you experience any severe symptoms or need immediate help, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Demonstrate empathy",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 1,
+        "n_emotional": 1,
+        "n_goals": 1,
+        "problems": [
+          "fatigue"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Demonstrate empathy",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 120854.82672601938,
+      "response_text": "I can hear how much this has been weighing on you \u2014 you said, \"My wife is convinced it's cancer and honestly I am too.\" That's a real worry to be carrying, and I want to take it seriously while we figure out what's actually going on.\n\nWhen fatigue comes along with unexplained weight loss over a short time, the careful first step is to check for a few specific causes \u2014 including ones that need to be ruled out. The current guidance is to start with bloodwork and some screening tests rather than to wait and watch.\n\nUnexplained weight loss can be a sign of several serious conditions, so it's important to get this checked out. We'll need to do some tests to figure out what's going on.\n\nIt's important to address the substance use because it can affect your health and recovery. We'll work together to find the best way to help you quit and stay healthy.\n\nTo help you find out what's going on, we'll start with some basic tests to check for possible causes of your fatigue and weight loss.\n\nWe'll make sure the treatment plan doesn't interfere with your ability to work. We can adjust things as needed to support you.\n\nWe're here to help. We'll work together to address your substance use and other concerns.\n\nWe'll start with bloodwork and some imaging tests to check for possible causes of your fatigue and weight loss.\n\nWe'll connect you with a counselor who can help with your substance use.\n\nWe'll schedule a follow-up appointment in 2 weeks to review the results and adjust your care plan.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 2 weeks. In the meantime, if you experience any severe symptoms like chest pain, difficulty breathing, or your fatigue gets much worse, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this has been weighing on you \u2014 you said, \"My wife is convinced it's cancer and honestly I am too.\" That's a real worry to be carrying, and I want to take it seriously while we figure out what's actually going on.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "persistent fatigue",
+            "profile_path": "problems[0]",
+            "explanation": "When fatigue comes along with unexplained weight loss over a short time, the careful first step is to check for a few specific causes \u2014 including ones that need to be ruled out. The current guidance is to start with bloodwork and some screening tests rather than to wait and watch.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[2]::34693994_2",
+                "primary_assertion_id": "34693994_2",
+                "pmids": [
+                  "34693994"
+                ]
+              },
+              {
+                "cluster_id": "finding::global::41092546_0",
+                "primary_assertion_id": "41092546_0",
+                "pmids": [
+                  "41092546"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "unintentional weight loss",
+            "profile_path": "problems[1]",
+            "explanation": "Unexplained weight loss can be a sign of several serious conditions, so it's important to get this checked out. We'll need to do some tests to figure out what's going on.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::global::41092546_1",
+                "primary_assertion_id": "41092546_1",
+                "pmids": [
+                  "41092546"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "substance use",
+            "profile_path": "problems[2]",
+            "explanation": "It's important to address the substance use because it can affect your health and recovery. We'll work together to find the best way to help you quit and stay healthy.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[2]::34693994_0",
+                "primary_assertion_id": "34693994_0",
+                "pmids": [
+                  "34693994"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "find out what's going on",
+            "profile_path": "patient_goals[0]",
+            "explanation": "To help you find out what's going on, we'll start with some basic tests to check for possible causes of your fatigue and weight loss.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[2]::34693994_2",
+                "primary_assertion_id": "34693994_2",
+                "pmids": [
+                  "34693994"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "keep working",
+            "profile_path": "patient_goals[1]",
+            "explanation": "We'll make sure the treatment plan doesn't interfere with your ability to work. We can adjust things as needed to support you.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::global::33658141_0",
+                "primary_assertion_id": "33658141_1",
+                "pmids": [
+                  "33658141"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "need help",
+            "profile_path": "patient_goals[2]",
+            "explanation": "We're here to help. We'll work together to address your substance use and other concerns.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[2]::34693994_0",
+                "primary_assertion_id": "34693994_0",
+                "pmids": [
+                  "34693994"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll start with bloodwork and some imaging tests to check for possible causes of your fatigue and weight loss.",
+          "We'll connect you with a counselor who can help with your substance use.",
+          "We'll schedule a follow-up appointment in 2 weeks to review the results and adjust your care plan."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 2 weeks. In the meantime, if you experience any severe symptoms like chest pain, difficulty breathing, or your fatigue gets much worse, please call us right away.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Demonstrate empathy",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[2]::34693994_2",
+          "finding::global::41092546_0",
+          "recommendation::global::41092546_1",
+          "finding::sub_query[2]::34693994_0",
+          "recommendation::global::33658141_0"
+        ],
+        "all_pmids_used": [
+          "34693994",
+          "41092546",
+          "33658141"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 3,
+        "n_medications": 2,
+        "n_allergies": 0,
+        "n_red_flags": 2,
+        "n_emotional": 3,
+        "n_goals": 3,
+        "problems": [
+          "persistent fatigue",
+          "unintentional weight loss",
+          "substance use"
+        ],
+        "medications": [
+          "oxy",
+          "other narcotic substances"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [
+        "34693994",
+        "41092546",
+        "33658141"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[2]::34693994_2",
+        "finding::global::41092546_0",
+        "recommendation::global::41092546_1",
+        "finding::sub_query[2]::34693994_0",
+        "recommendation::global::33658141_0"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Demonstrate empathy",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 47411.61509603262,
+        "module_2_retrieval": 51.82946473360062,
+        "module_3_reasoning": 25984.42103713751,
+        "module_4_response": 47405.58581799269,
+        "total_ms": 120853.45141589642
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

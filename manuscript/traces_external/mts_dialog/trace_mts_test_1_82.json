@@ -1,0 +1,242 @@
+{
+  "transcript_id": "mts_test_1_82",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "Significant for diabetes and hypertension",
+  "patient_utterances": [
+    "[Clinician asked: \"Does anyone else in your family suffer from high blood pressure?\"] Oh yeah, quite a few relatives actually.",
+    "[Clinician asked: \"How about diabetes?\"] Yeah, sadly."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "FAM_SOCHX": "Significant for diabetes and hypertension."
+  },
+  "n_patient_turns": 2,
+  "n_clinician_turns": 2,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 6184.378169476986,
+      "response_text": "It sounds like you're aware of a family history that could influence your health, which is an important observation. While genetics can play a role, it's good to remember that lifestyle choices and proactive health management can significantly reduce your risk. Let's talk about what you're currently doing in terms of diet, exercise, and other health habits, and we can work together to make any necessary adjustments.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 18145.42957395315,
+      "response_text": "Thank you for sharing that information. It makes sense that you might feel concerned given your family history, and I want to acknowledge how important it is to be aware of these health patterns. Family history can indeed increase our risk for certain conditions, and it\u2019s great that you\u2019re proactive about understanding your health.\n\nGiven that high blood pressure and diabetes often run in families, it\u2019s wise to focus on early detection and prevention. We can work together to monitor your health closely and make any necessary adjustments. This might include regular check-ups, a heart-healthy diet, and staying active, as studies show that these lifestyle changes can significantly reduce the risk of developing these conditions [PMID ?].\n\nWe\u2019ll plan to schedule a follow-up in about four weeks to review your progress and adjust any plans as needed. Before you leave, could you summarize what we\u2019ve discussed today? This will help ensure you feel confident in the steps we\u2019re taking together.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6714.283458888531,
+      "response_text": "Thank you for sharing your family health history with me. It sounds like you have several relatives with high blood pressure and diabetes, which are important for us to consider in your care.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if you have any concerns or questions, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your family health history with me. It sounds like you have several relatives with high blood pressure and diabetes, which are important for us to consider in your care.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if you have any concerns or questions, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 27148.373872041702,
+      "response_text": "Thank you for coming in today. I understand you're here to talk about your concerns regarding diabetes.\n\nManaging diabetes in primary care often involves looking at how different factors in your life and health history can affect your care. This includes understanding your family history and how it might play a role in your diabetes management.\n\nWe'll work together to understand your diabetes better and create a management plan that fits your needs. This may involve some tests and discussions about your health history.\n\nPlease keep track of any questions or concerns you have in the meantime, and we'll address them during our next visit.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if you have any new symptoms or concerns, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "Thank you for coming in today. I understand you're here to talk about your concerns regarding diabetes.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "diabetes",
+            "profile_path": "problems[0]",
+            "explanation": "Managing diabetes in primary care often involves looking at how different factors in your life and health history can affect your care. This includes understanding your family history and how it might play a role in your diabetes management.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::36355789",
+                "primary_assertion_id": "36355789_retr",
+                "pmids": [
+                  "36355789"
+                ]
+              },
+              {
+                "cluster_id": "retrieval_only::32016700",
+                "primary_assertion_id": "32016700_retr",
+                "pmids": [
+                  "32016700"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll work together to understand your diabetes better and create a management plan that fits your needs. This may involve some tests and discussions about your health history.",
+          "Please keep track of any questions or concerns you have in the meantime, and we'll address them during our next visit."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if you have any new symptoms or concerns, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "retrieval_only::36355789",
+          "retrieval_only::32016700"
+        ],
+        "all_pmids_used": [
+          "36355789",
+          "32016700"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "diabetes"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "36355789",
+        "32016700"
+      ],
+      "cluster_ids_used": [
+        "retrieval_only::36355789",
+        "retrieval_only::32016700"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 82415.04107415676,
+      "response_text": "It sounds like you're concerned about your diabetes, especially with your family history. I want to make sure we address this together.\n\nGiven your family history of diabetes, it's important to understand how this might affect your health. Research shows that structured weight loss programs can help manage blood sugar levels, and community-based support can be really effective.\n\nWe'll work together to create a plan that fits your needs, focusing on community support and structured programs to manage your diabetes effectively.\n\nCan you tell me, in your own words, what steps we'll be taking to manage your diabetes?\n\nLet's plan to review your progress in 4 weeks. If you have any questions or concerns before then, please reach out.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're concerned about your diabetes, especially with your family history. I want to make sure we address this together.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "diabetes",
+            "profile_path": "problems[0]",
+            "explanation": "Given your family history of diabetes, it's important to understand how this might affect your health. Research shows that structured weight loss programs can help manage blood sugar levels, and community-based support can be really effective.",
+            "citations": [
+              {
+                "cluster_id": "finding::problems[0]::36355789_0",
+                "primary_assertion_id": "36355789_0",
+                "pmids": [
+                  "36355789"
+                ]
+              },
+              {
+                "cluster_id": "finding::sub_query[0]::41274792_0",
+                "primary_assertion_id": "41274792_0",
+                "pmids": [
+                  "41274792"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll work together to create a plan that fits your needs, focusing on community support and structured programs to manage your diabetes effectively."
+        ],
+        "teach_back_prompt": "Can you tell me, in your own words, what steps we'll be taking to manage your diabetes?",
+        "follow_up_invitation": "Let's plan to review your progress in 4 weeks. If you have any questions or concerns before then, please reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::problems[0]::36355789_0",
+          "finding::sub_query[0]::41274792_0"
+        ],
+        "all_pmids_used": [
+          "36355789",
+          "41274792"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "diabetes"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "36355789",
+        "41274792"
+      ],
+      "cluster_ids_used": [
+        "finding::problems[0]::36355789_0",
+        "finding::sub_query[0]::41274792_0"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 9478.334940969944,
+        "module_2_retrieval": 58.91580134630203,
+        "module_3_reasoning": 54578.46108824015,
+        "module_4_response": 18297.79701679945,
+        "total_ms": 82413.50884735584
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

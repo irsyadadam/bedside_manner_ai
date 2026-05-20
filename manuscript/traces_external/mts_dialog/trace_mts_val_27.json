@@ -1,0 +1,166 @@
+{
+  "transcript_id": "mts_val_27",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "Partial colon resection of colon carcinoma in 1961 with no recurrence, cholecystectomy 10 years ago, appendectomy, and glaucoma surgery",
+  "patient_utterances": [
+    "[Clinician asked: \"Have you ever had surgery?\"] One too many times.",
+    "[Clinician asked: \"Which ones?\"] I had my appendix taken out and glaucoma surgery fairly recently. I also had my gallbladder taken out ten years ago and a partial colon resection due to colon cancer in nineteen sixty one.",
+    "[Clinician asked: \"Any recurring episodes of colon cancer?\"] No, thankfully."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "PAST_SURGICAL": "Partial colon resection of colon carcinoma in 1961 with no recurrence, cholecystectomy 10 years ago, appendectomy, and glaucoma surgery."
+  },
+  "n_patient_turns": 3,
+  "n_clinician_turns": 3,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 9656.030759215355,
+      "response_text": "I can tell this has been a lot for you to go through, and I really appreciate you sharing all of this with me. It sounds like you've been through a lot, especially with the colon cancer surgery back in 1961\u2014that must have been a tough time. I'm glad to hear that things are stable now, and we'll keep a close eye on everything to make sure nothing comes up. How are you feeling today, and what brings you in to see me?",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 21554.537504911423,
+      "response_text": "Thank you for sharing your medical history with me. It makes sense that you might feel concerned or fatigued given the number of surgeries you've had over the years, especially one as significant as the colon cancer resection so long ago. I can understand how having multiple procedures can feel overwhelming, and I want to make sure we address any lingering concerns you might have.\n\nGiven your history, it\u2019s important that we keep an eye on your colon health, particularly since your cancer was treated decades ago. While it\u2019s good news that you haven\u2019t had any recurring episodes, regular monitoring is still a key part of care for someone with your history. I recommend scheduling a follow-up colonoscopy to ensure everything is continuing to heal properly and to check for any signs of recurrence [PMID ?].\n\nLet\u2019s plan to schedule that colonoscopy for you and set a follow-up appointment in a few weeks to review the results together. Before you leave, could you summarize what we\u2019ve discussed today? This will help ensure you feel clear about the next steps and that I\u2019ve explained everything in a way that makes sense to you.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7882.238484919071,
+      "response_text": "It sounds like you've had a lot of medical procedures over the years, including surgeries for your appendix, glaucoma, gallbladder, and colon. You mentioned having a partial colon resection due to colon cancer in 1961, but no recurring episodes since then.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if you have any new concerns or questions, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you've had a lot of medical procedures over the years, including surgeries for your appendix, glaucoma, gallbladder, and colon. You mentioned having a partial colon resection due to colon cancer in 1961, but no recurring episodes since then.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if you have any new concerns or questions, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 23885.594218969345,
+      "response_text": "Thank you for sharing your medical history with me. It sounds like you've had several important procedures over the years, including an appendectomy, glaucoma surgery, gallbladder removal, and a partial colon resection due to colon cancer back in 1961.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 4 weeks. In the meantime, if you have any new concerns or symptoms, please call us so we can address them promptly.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your medical history with me. It sounds like you've had several important procedures over the years, including an appendectomy, glaucoma surgery, gallbladder removal, and a partial colon resection due to colon cancer back in 1961.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 4 weeks. In the meantime, if you have any new concerns or symptoms, please call us so we can address them promptly.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 0,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 63834.454886615276,
+      "response_text": "It sounds like you're here to discuss some medical concerns based on your surgical history.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. If you have any new symptoms or concerns in the meantime, please reach out.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're here to discuss some medical concerns based on your surgical history.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. If you have any new symptoms or concerns in the meantime, please reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 0,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 15123.019464313984,
+        "module_2_retrieval": 48.4398752450943,
+        "module_3_reasoning": 41134.688667953014,
+        "module_4_response": 7526.843875646591,
+        "total_ms": 63832.991883158684
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

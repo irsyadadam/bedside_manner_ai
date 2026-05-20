@@ -1,0 +1,258 @@
+{
+  "transcript_id": "primock57_day2_consultation07",
+  "dataset": "primock57",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "I'm having chest discomfort",
+  "patient_utterances": [
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/> Hi, Hi there, good morning.\"] Hi, good morning.",
+    "[Clinician asked: \"Um, I'm Doctor Dean Resor from <INAUDIBLE_SPEECH/>. Nice to see you. <INAUDIBLE_SPEECH/>\"] That's the same thing.",
+    "[Clinician asked: \"OK great! So before we start your appointment, could you please confirm your full name and date of birth?\"] Yeah sure! Um, my name is Jim Gowers and I was born in nineteen fifty eight uh on the eighth of August.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/> That's great. Thank you so much for that. Um, you look a lot younger, so, um\"] Yeah.",
+    "[Clinician asked: \"Does that, that would make you roughly about fifty years old, fifty one, fifty one years old. Is that is that correct or?\"] Yeah, yeah around that. Yeah about sixty, yeah.",
+    "[Clinician asked: \"Six, OK, perfect. All right. So, um, nice to see see you this morning. Are you in a private place where you are OK to speak freely?\"] Yep. Yes, I am. Yeah.",
+    "[Clinician asked: \"OK fantastic! So um, how can I help you today?\"] Um, yeah. I was, I was having, um, a bit of chest discomfort. So, I was doing some gardening, um, a couple of hours ago. And I felt  not exactly a pain but um like a  a pressure on my chest, um, feels like someone sitting on my chest. Um, and, I've noticed, um, a bit of nausea, not, no vomiting but, um, I'm pretty sweaty, um, short of breath, and it kind of feels like someone's sitting on my chest.",
+    "[Clinician asked: \"Right, OK. Now, do you have those these symptoms right now or have they gone off now?\"] Um, no, they're still present.",
+    "[Clinician asked: \"OK. So, you've still got the chest discomfort right now?\"] Yes.",
+    "[Clinician asked: \"OK, um. We're probably gonna have to call an ambulance for you. OK. So what I'm gonna do, is I'm gonna task my colleague next to me to sort that out. While we do that I'm gonna ask you a few more questions, OK?\"] OK. Mmm, sure.",
+    "[Clinician asked: \"We're gonna a bit more information to the, to help the ambulance team when they, when they arrive, OK.\"] Sure.",
+    "[Clinician asked: \"So just to, just to double check, um, where exactly in the chest is the pain?\"] Um, it's in the, uh, middle of my chest, um, over, uh, yeah, my my pecs, so, um, yeah but not not necessarily to one side, um, and it's quite diffuse pain.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/> Is, is it spreading anywhere else, like down into your arm, up to the jaw, in your neck, anything like that?\"] Yeah. It's, it's, um, mainly in my left arm, er, it's feeling a little bit, um, er, painful, and, and in my shoulder as well.",
+    "[Clinician asked: \"Right, OK. Do you remember what you were doing at the time? <INAUDIBLE_SPEECH/>\"] Uh yes, so it started uh just when I was gardening. So nothing that was too strenuous um I was just kneeling down and Uh, yeah, wasn't running or anything, it wasn't during any physical exercise.",
+    "[Clinician asked: \"Sure, OK. And, and how much activity do you do normally? Do you walk a lot or do you run or do you  do anything?\"] No, I don't, I, I generally don't do much activity at all, um, you know.",
+    "[Clinician asked: \"Have you had this before?\"] No, this is the first time, actually.",
+    "[Clinician asked: \"Right, OK. Can  are you aware of any palpitations, like your heart beating faster or more prominently than normal?\"] Yeah. Um, yeah. It's, it's beating a bit faster now. I think that's 'cause I'm a little bit stressed. Um, about the situation but I haven't noticed it, um, beating faster than usual, um, and I did today.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/> <INAUDIBLE_SPEECH/> So, I know you're stressed but, but we've got an ambulance coming on the way, OK? So um, we'll take care of everything, so don't, don't worry. Who's in the house with you at the moment?\"] Yeah. OK, thank you. Uh, no, no one's in the house at the moment.",
+    "[Clinician asked: \"OK. Um, and is your front door open?\"] Uh, yes, it's open.",
+    "[Clinician asked: \"OK so maybe we'll, we'll speak maybe in the hallway to the front door. Have the front door open so that, in case people need access, they could access you.\"] Yeah, yeah .",
+    "[Clinician asked: \"Alright. Um, so, um, uh, are you a smoker at all?\"] Uh, yeah, I smoke, um, a fair bit so I smoke about ten cigarettes, uh, a day. Um, yeah.",
+    "[Clinician asked: \"How long have you been smoking for?\"] Uh, for the past fifteen years.",
+    "[Clinician asked: \"Fifteen years, OK. Um, do you have, um, high blood pressure or high cholesterol or diabetes or anything?\"] Yeah. Yeah, I have high blood, uh, blood pressure, but, um, not diabetes.",
+    "[Clinician asked: \"OK. Have you ever had your cholesterol checked?\"] No.",
+    "[Clinician asked: \"OK, all right. Um, now anyone in your wider  in, in your family, sorry, in your parents, did either of them have any heart problems, or heart attacks, or anything like that?\"] Yes. Um, yes, so, my, um, father died of a heart attack, um, and my mother had some heart problems.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/> OK. Uh, I'm sorry to hear about your father. Can you remember what age roughly he was when he had, he had the heart attack?\"] Um, he was about my age.",
+    "[Clinician asked: \"Right so  just under sixty, around sixty.\"] Yes, around sixty, yes.",
+    "[Clinician asked: \"Yeah, OK, alright. Um, do you drink much alcohol?\"] Um, yeah, I drink, um, about, per week, probably about seven or eight pints a week.",
+    "[Clinician asked: \"OK, is that a, a beer you're talking about, yeah?\"] Ohh. Yeah, yes.",
+    "[Clinician asked: \"Uh, I, I can't tell from the video, are you overweight?\"] Um, yes, I'm overweight, yeah.",
+    "[Clinician asked: \"Right, OK. Alright. Um, uh now um, you, do you normally live alone?\"] Yeah. Uh, yeah. I live alone, uh, at the moment. Yeah, uh, it's just me in the house.",
+    "[Clinician asked: \"Sure, OK, and, and, uh, are you working at the moment?\"] Yeah yeah, I, I work, yeah.",
+    "[Clinician asked: \"Right, what do you work as?\"] Um, I work as a restaurant owner. So I own a sushi shop.",
+    "[Clinician asked: \"Right, OK. Alright. Um, so, um, the, the symptoms that you've described to me\"] Yeah.",
+    "[Clinician asked: \"Um, they indicate the possibility of, um, a heart attack. OK? So, I'm not saying you definitely have a heart attack, but we, that, it's our number one priority to exclude that.\"] OK.",
+    "[Clinician asked: \"OK, so ambulance team will be with you very shortly.  I'm gonna stay on the line with you until they come.\"] OK, yeah.",
+    "[Clinician asked: \"OK.  when they come, what they'll do is, they're gonna put some stickers on your chest and do an ECG.\"] OK, yeah. Thank you.",
+    "[Clinician asked: \"And then decide where to take you after that, OK?\"] OK. OK, no.",
+    "[Clinician asked: \"And um, what, what, uh, can I just double check? Do you have, um, any allergies to any medication?\"] Yes, actually, I have, um, an allergy to aspirin.",
+    "[Clinician asked: \"Right, OK.\"] Yeah, and no other allergies.",
+    "[Clinician asked: \"Sure. Uh, what's the nature of that allergy to aspirin? Do you, does it, does it cause you heartburn? Or is it like  an allergic reaction?\"] Um Yeah, uh, it's an allergic reaction, so I swell up, um, a bit, but, um, nothing life threatening. Um, I've, I, sometimes even have it and it's, it's a, it's a mild reaction to it.",
+    "[Clinician asked: \"OK, all right. It's very important that you communicate that to the hospital.\"] Yeah.",
+    "[Clinician asked: \"Um, the detail you just told me, because, um, we, we may need to consider aspirin despite allergy, OK?\"] OK. Ohh, OK.",
+    "[Clinician asked: \"Um, alright, um, now in terms of, um, what happens from here\"] OK.",
+    "[Clinician asked: \"That  team will assess you and then they may take you into one hospital or another based on how bad , what the ECG looks like and what kind of treatment you might need, OK?\"] Uh huh.",
+    "[Clinician asked: \"Um, what I'm going to do is, we'll stay on the line for the time being, OK, until they come,  and then, um, once they come, then I'll hand over to them and I'll explain what's going on, alright?\"] OK. OK. OK, OK, sure.",
+    "[Clinician asked: \"OK.\"] Yeah, thank you.",
+    "[Clinician asked: \"we'll end the conversation after the purposes. Is that OK?\"] Yeah, that's, OK. OK, thank you very much.",
+    "[Clinician asked: \"thanks! Bye!\"] Thank you. Bye."
+  ],
+  "gold_note": "Onset of chest pain earlier today during gardening (mild physical exertion)\nCentral chest, radiation to shoulder and neck\nAssociated nausea, sweatiness, palpitations\nPAIN STILL PRESENT NOW\nNo previous similar episodes\nRisk factors: chronic smoker, FH of IHD, Hypertension, overweight, moderate alcohol intake\nDH: (mild) allergy to aspirin\n(forgot to ask about other medication- LAS need to clarify)\nSH: lives alone\nEx: haemodynamically stable now, at rest, seated, well perfused via video inspection, not SOB\nImp: acute cardiac event- needs urgent ECG + trop T\nLAS blue light called, front door open so they can access if he collapses\nStayed on line till LAS arrived, handed over to them\nExplained above",
+  "gold_sections": {
+    "PRESENTING_COMPLAINT": "I'm having chest discomfort",
+    "HIGHLIGHTS": "chest pain\nchronic smoker\nFH of IHD\nHypertension\noverweight\nallergy to aspirin\nhaemodynamically stable\nacute cardiac event\nLAS blue light called"
+  },
+  "n_patient_turns": 49,
+  "n_clinician_turns": 49,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 23038.080275058746,
+      "response_text": "Thank you for sharing all that information with me, Jim. I can understand how concerning these symptoms must be for you. The chest pressure, along with the nausea, shortness of breath, and discomfort in your arm and shoulder, are significant. Given your age, smoking history, high blood pressure, and family history of heart issues, it's important that we evaluate this carefully.\n\nWe've called an ambulance to ensure you get the necessary tests, like an ECG, to check your heart. This will help us determine the best course of action. Please know that the medical team is experienced and will take good care of you. If you have any questions or concerns before the ambulance arrives, feel free to ask. We're here to support you through this.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 25067.79209524393,
+      "response_text": "Thank you for sharing your concerns with me, Jim. It\u2019s clear you\u2019re feeling anxious and worried about your symptoms, and I completely understand why. Experiencing chest pressure, nausea, sweating, and shortness of breath is incredibly unsettling, and it\u2019s important we take this seriously.\n\nGiven your symptoms\u2014chest discomfort radiating to your left arm, shortness of breath, and sweating\u2014it\u2019s crucial we evaluate the possibility of a heart attack or other serious conditions. While I can\u2019t make a diagnosis, these symptoms align with what\u2019s often seen in acute coronary syndrome, where reduced blood flow to the heart can cause such feelings [PMID ?]. However, there are other potential causes we\u2019ll need to explore as well.\n\nWe\u2019re taking immediate action by calling an ambulance to ensure you receive a thorough evaluation, including an ECG to assess your heart\u2019s activity. The ambulance team will also monitor your vital signs and provide any necessary treatment before deciding on the next steps. It\u2019s important you mention your allergy to aspirin, as this information will guide the care team in their treatment plan.\n\nOnce you\u2019re at the hospital, you\u2019ll likely undergo further tests, such as blood work and imaging, to determine the cause of your symptoms. Please remember to communicate any changes in how you feel, especially if you experience severe pain, worsening shortness of breath, or any signs of instability.\n\nWe\u2019ll stay in touch with you through the hospital team, and I\u2019ll be here to support you as needed. If you have any questions or concerns before the ambulance arrives, feel free to ask. Our priority is to ensure you receive the care you need as soon as possible.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7139.415539801121,
+      "response_text": "Thank you for sharing your concerns with me today. It sounds like you're experiencing some unsettling symptoms, and I want to make sure we address them properly.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a week. If you experience any worsening symptoms or new issues, please reach out sooner.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns with me today. It sounds like you're experiencing some unsettling symptoms, and I want to make sure we address them properly.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a week. If you experience any worsening symptoms or new issues, please reach out sooner.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 161608.80157351494,
+      "response_text": "It sounds like you're experiencing chest discomfort that started a few hours ago while gardening. You mentioned it feels like someone is sitting on your chest, along with nausea, sweating, shortness of breath, and pain in your left arm and shoulder.\n\nChest discomfort, especially with symptoms like nausea, sweating, shortness of breath, and pain in the left arm or shoulder, can be concerning. We'll need to look into this carefully to understand what's going on.\n\nWe'll schedule a follow-up visit to discuss your symptoms in more detail and determine the next steps together.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again soon. In the meantime, if your symptoms get worse or if you experience severe pain, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're experiencing chest discomfort that started a few hours ago while gardening. You mentioned it feels like someone is sitting on your chest, along with nausea, sweating, shortness of breath, and pain in your left arm and shoulder.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "chest discomfort",
+            "profile_path": "problems[0]",
+            "explanation": "Chest discomfort, especially with symptoms like nausea, sweating, shortness of breath, and pain in the left arm or shoulder, can be concerning. We'll need to look into this carefully to understand what's going on.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll schedule a follow-up visit to discuss your symptoms in more detail and determine the next steps together."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again soon. In the meantime, if your symptoms get worse or if you experience severe pain, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "chest discomfort"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 204316.95267558098,
+      "response_text": "I understand you're experiencing chest discomfort, which feels like someone is sitting on your chest, especially when gardening. This is concerning, and we'll take it seriously.\n\nChest discomfort can be a sign of serious issues, so we need to investigate it thoroughly. We'll start with some tests to rule out potential causes.\n\nWe'll order some tests to check for possible causes of your chest discomfort, including bloodwork and imaging if needed.\n\nWe'll schedule a follow-up visit to review the results and discuss next steps.\n\nI want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next?\n\nLet's plan to see each other again in a few weeks. In the meantime, if your symptoms get worse or you experience severe chest pain, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I understand you're experiencing chest discomfort, which feels like someone is sitting on your chest, especially when gardening. This is concerning, and we'll take it seriously.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "chest discomfort",
+            "profile_path": "problems[0]",
+            "explanation": "Chest discomfort can be a sign of serious issues, so we need to investigate it thoroughly. We'll start with some tests to rule out potential causes.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::sub_query[0]::38719772_0",
+                "primary_assertion_id": "38719772_0",
+                "pmids": [
+                  "38719772"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll order some tests to check for possible causes of your chest discomfort, including bloodwork and imaging if needed.",
+          "We'll schedule a follow-up visit to review the results and discuss next steps."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if your symptoms get worse or you experience severe chest pain, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Demonstrate empathy",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "recommendation::sub_query[0]::38719772_0"
+        ],
+        "all_pmids_used": [
+          "38719772"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 1,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "chest discomfort"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "38719772"
+      ],
+      "cluster_ids_used": [
+        "recommendation::sub_query[0]::38719772_0"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Demonstrate empathy",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 141123.33673983812,
+        "module_2_retrieval": 57.82505124807358,
+        "module_3_reasoning": 47228.7697866559,
+        "module_4_response": 15905.590437352657,
+        "total_ms": 204315.52201509476
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

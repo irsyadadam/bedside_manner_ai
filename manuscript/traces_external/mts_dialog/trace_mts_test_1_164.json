@@ -1,0 +1,234 @@
+{
+  "transcript_id": "mts_test_1_164",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "The patient is a 53-year-old female with a history of right thoracic rib pain related to a herniated nucleus pulposus at T8-T9",
+  "patient_utterances": [
+    "[Clinician asked: \"How old are you, ma'am, twenty?\"] You flatter me doctor, I'm fifty three.",
+    "[Clinician asked: \"I see here that you have a herniated disc at T eight T nine, does that sound familiar?\"] Yes, that's it. It's the cause of my rib pain!",
+    "[Clinician asked: \"How have you managed this?\"] So far, I've taken antiinflammatories, and rested.",
+    "[Clinician asked: \"Has this helped at all?\"] No, not at all. Is there any surgery we can do for this? I want this pain gone."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "HPI": "The patient is a 53-year-old female with a history of right thoracic rib pain related to a herniated nucleus pulposus at T8-T9.  She has failed conservative measures and sought operative intervention for relief of her symptoms."
+  },
+  "n_patient_turns": 4,
+  "n_clinician_turns": 4,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 15764.05244320631,
+      "response_text": "I understand how frustrating and debilitating this rib pain must be, especially after trying rest and anti-inflammatories without relief. While surgery is an option, it\u2019s not always the first step we consider. There are other effective treatments we can explore first, such as physical therapy, specific exercises, or even injections, which might help reduce your pain without surgery. Let\u2019s talk about your symptoms in more detail and create a plan together to address your pain. We\u2019ll also discuss when surgery might be necessary and the potential risks and recovery involved. I\u2019m here to support you through this process, and we\u2019ll work together to find the best solution for your relief.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 18905.84935247898,
+      "response_text": "Thank you for sharing all of this with me. It makes sense that you're feeling frustrated and eager for relief after trying antiinflammatories and rest without any improvement. Rib pain from a herniated disc can be really limiting, and I understand how important it is for you to feel better.\n\nWe\u2019ll start by exploring other options to help manage your pain. While surgery is an option, we often consider physical therapy or injections first, as they can sometimes provide relief without the risks of surgery [PMID ?]. I\u2019ll review your imaging and treatment history to make sure we\u2019re on the right track. If we do explore surgery, we\u2019ll make sure it\u2019s the best fit for you.\n\nLet\u2019s plan to check in in about two weeks to see how you\u2019re doing and adjust your treatment if needed. Before you leave, could you tell me in your own words what you think we discussed today? That way I can make sure everything is clear.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6541.832163929939,
+      "response_text": "Thank you for sharing your concerns with me. It sounds like you're dealing with some persistent pain and frustration regarding your herniated disc.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if your pain gets worse or you experience any new symptoms, please don't hesitate to call us.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns with me. It sounds like you're dealing with some persistent pain and frustration regarding your herniated disc.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if your pain gets worse or you experience any new symptoms, please don't hesitate to call us.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 39151.37045830488,
+      "response_text": "I can hear how frustrating this must be for you. You mentioned, \"No, not at all. Is there any surgery we can do for this? I want this pain gone.\" I understand how important it is for you to find a solution.\n\nGiven your history of a herniated disc at T8-T9, the rib pain could be related to nerve irritation. We'll need to explore this connection further to guide the next steps.\n\nOur goal is to help you achieve your goal of getting rid of the pain. We'll work together to find the most effective approach for your situation.\n\nWe'll schedule a follow-up visit to discuss your pain in more detail and explore treatment options tailored to your situation.\n\nPlease keep track of your pain levels and any other symptoms you experience between now and our next appointment.\n\nI want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if your pain worsens or you experience any new symptoms, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I can hear how frustrating this must be for you. You mentioned, \"No, not at all. Is there any surgery we can do for this? I want this pain gone.\" I understand how important it is for you to find a solution.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "rib pain",
+            "profile_path": "problems[0]",
+            "explanation": "Given your history of a herniated disc at T8-T9, the rib pain could be related to nerve irritation. We'll need to explore this connection further to guide the next steps.",
+            "citations": []
+          },
+          {
+            "concern_label": "get rid of the pain",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Our goal is to help you achieve your goal of getting rid of the pain. We'll work together to find the most effective approach for your situation.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll schedule a follow-up visit to discuss your pain in more detail and explore treatment options tailored to your situation.",
+          "Please keep track of your pain levels and any other symptoms you experience between now and our next appointment."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if your pain worsens or you experience any new symptoms, please call us right away.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 1,
+        "problems": [
+          "rib pain"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 96897.95005321503,
+      "response_text": "I can understand how frustrating this must be for you. You mentioned, \"No, not at all. Is there any surgery we can do for this? I want this pain gone,\" which shows how much you're hoping for a solution.\n\nResearch shows that companions often participate in medical visits to help patients communicate better with healthcare providers. This can be especially important when dealing with chronic pain like yours.\n\nStudies highlight the importance of feeling heard and having trust in providers, which can help in managing chronic pain effectively.\n\nWe'll work together to explore treatment options for your herniated disc, including both conservative measures and surgical options if needed.\n\nI'll be here to support you through this process and answer any questions you have along the way.\n\nI want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to check in again in a few weeks. If your pain gets worse or you have any new symptoms, please don't hesitate to reach out sooner.",
+      "structured_response": {
+        "acknowledgment": "I can understand how frustrating this must be for you. You mentioned, \"No, not at all. Is there any surgery we can do for this? I want this pain gone,\" which shows how much you're hoping for a solution.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "herniated disc at T8-T9",
+            "profile_path": "problems[0]",
+            "explanation": "Research shows that companions often participate in medical visits to help patients communicate better with healthcare providers. This can be especially important when dealing with chronic pain like yours.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[2]::39366124_0",
+                "primary_assertion_id": "39366124_0",
+                "pmids": [
+                  "39366124",
+                  "40155879"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "I want this pain gone",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Studies highlight the importance of feeling heard and having trust in providers, which can help in managing chronic pain effectively.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll work together to explore treatment options for your herniated disc, including both conservative measures and surgical options if needed.",
+          "I'll be here to support you through this process and answer any questions you have along the way."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to check in again in a few weeks. If your pain gets worse or you have any new symptoms, please don't hesitate to reach out sooner.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[2]::39366124_0"
+        ],
+        "all_pmids_used": [
+          "39366124",
+          "40155879"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 1,
+        "problems": [
+          "herniated disc at T8-T9"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "39366124",
+        "40155879"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[2]::39366124_0"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 23934.47344750166,
+        "module_2_retrieval": 36.177441477775574,
+        "module_3_reasoning": 50381.19501620531,
+        "module_4_response": 22545.135766267776,
+        "total_ms": 96896.98167145252
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

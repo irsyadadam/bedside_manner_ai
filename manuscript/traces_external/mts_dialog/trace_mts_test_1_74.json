@@ -1,0 +1,263 @@
+{
+  "transcript_id": "mts_test_1_74",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "The patient is a 68-year-old female with a history of knee pain for 13 years",
+  "patient_utterances": [
+    "[Clinician asked: \"Good morning, ma'am.\"] Good morning, doctor.",
+    "[Clinician asked: \"What's a young lady like you doing in my office today?\"] Well, I'm not as young as I used to be, I'm sixty eight years old now.",
+    "[Clinician asked: \"So, what seems to be the problem today?\"] Well, I've had knee pain for about thirteen years now.",
+    "[Clinician asked: \"I see, how have you been treated for this in the past?\"] I actually had a knee replacement at another facility, but I'd like to have another surgery.",
+    "[Clinician asked: \"What kind of symptoms are you having?\"] I have so much pain, and I feel snapping, I'm also having trouble walking. It feels like my knee is giving away.",
+    "[Clinician asked: \"Okay, did they do any x rays today?\"] Yeah, the tech just brought me back."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "HPI": "The patient is a 68-year-old female with a history of knee pain for 13 years.  She had previous total knee arthroplasty and revision at an outside facility.  She had continued pain, snapping, malalignment, difficulty with ambulation, and giving away and wished to undergo additional revision surgery."
+  },
+  "n_patient_turns": 6,
+  "n_clinician_turns": 7,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 11759.167425334454,
+      "response_text": "I'm really sorry to hear about the pain and difficulties you've been experiencing for so long. It's clear how frustrating and limiting this must be for you. I'll take a look at the X-rays to better understand what's going on with your knee. We'll explore all possible options together, including whether another surgery might be the right choice. In the meantime, we can also consider other approaches like physical therapy or adjusting your medications to help manage your symptoms. Let's work together to find the best way to help you feel better. Please feel free to ask any questions you have\u2014I'm here to help.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 19909.27379578352,
+      "response_text": "Thank you for sharing your concerns with me. It sounds like you're in a lot of discomfort, and I can understand how frustrating it must be to deal with knee pain for so long, especially after a previous surgery. Your desire to seek further treatment shows how much this is affecting your daily life, and I want to work together to address it.\n\nGiven your symptoms\u2014pain, snapping, difficulty walking, and the feeling that your knee might give out\u2014it\u2019s important to explore what might be causing these issues. While I can\u2019t make a definitive diagnosis without reviewing your X-rays and discussing your medical history, there are several possibilities we might consider. For instance, it could be related to how your knee is healing or perhaps an issue with the prosthetic knee. I\u2019ll review the X-rays to get a clearer picture and discuss the best approach moving forward.\n\nWe\u2019ll plan to meet again in a week to go over the X-rays and talk about your treatment options. Before you leave, could you summarize what we\u2019ve discussed so far? This will help ensure you understand the next steps and that I\u2019ve explained everything clearly.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6991.484723985195,
+      "response_text": "Good morning, and thank you for coming in today. I understand you've been dealing with knee pain for quite some time now, and it sounds like it's been affecting your daily life.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if your symptoms get worse or you experience any new issues, please don't hesitate to call us.",
+      "structured_response": {
+        "acknowledgment": "Good morning, and thank you for coming in today. I understand you've been dealing with knee pain for quite some time now, and it sounds like it's been affecting your daily life.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if your symptoms get worse or you experience any new issues, please don't hesitate to call us.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 49631.36417418718,
+      "response_text": "Thank you for sharing your concerns about your knee pain. It sounds like this has been an ongoing issue for you, and I understand how much it can affect your daily life.\n\nKnee pain that has persisted for thirteen years, especially with symptoms like snapping, trouble walking, and the knee giving away, can be complex. While knee replacement surgery has been tried, it's important to explore other potential causes and treatment options to ensure we're addressing the root of the problem.\n\nConsidering another surgery is an important goal for you. We'll work together to explore all possible options and ensure that any further procedures are necessary and appropriate for your situation.\n\nWe'll schedule a follow-up visit to discuss your knee pain in more detail and explore additional treatment options.\n\nWe'll review your medical history and any previous treatments to better understand your condition.\n\nWe'll also check if there are any new symptoms or changes since your last surgery that might affect our approach.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if your knee pain worsens or you experience any new symptoms, please call us so we can address them promptly.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns about your knee pain. It sounds like this has been an ongoing issue for you, and I understand how much it can affect your daily life.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "knee pain",
+            "profile_path": "problems[0]",
+            "explanation": "Knee pain that has persisted for thirteen years, especially with symptoms like snapping, trouble walking, and the knee giving away, can be complex. While knee replacement surgery has been tried, it's important to explore other potential causes and treatment options to ensure we're addressing the root of the problem.",
+            "citations": []
+          },
+          {
+            "concern_label": "another surgery",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Considering another surgery is an important goal for you. We'll work together to explore all possible options and ensure that any further procedures are necessary and appropriate for your situation.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll schedule a follow-up visit to discuss your knee pain in more detail and explore additional treatment options.",
+          "We'll review your medical history and any previous treatments to better understand your condition.",
+          "We'll also check if there are any new symptoms or changes since your last surgery that might affect our approach."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if your knee pain worsens or you experience any new symptoms, please call us so we can address them promptly.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 1,
+        "problems": [
+          "knee pain"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 96828.48045229912,
+      "response_text": "I can hear how much this knee pain has been affecting you \u2014 you mentioned, \"I have so much pain,\" and it sounds like it's been going on for a long time. I want to make sure we understand what's going on and how we can help.\n\nYour knee pain, along with symptoms like snapping, trouble walking, and the knee giving away, suggests we should look into possible causes. Research shows that family history of osteoarthritis (OA), personal history of knee OA, or pain on climbing stairs or walking up slopes are linked to hip OA. Additionally, specific physical signs like squatting causing posterior pain, groin pain on passive abduction or adduction, abductor weakness, and decreased passive hip adduction or internal rotation can help identify patients likely to have hip OA.\n\nConsidering your goal of another surgery, it's important to prepare for shared decision-making and goal setting. Research emphasizes the importance of patient-centered communication to identify realistic and relevant goals for daily life. This approach helps ensure that the decisions we make together are meaningful and tailored to your needs.\n\nWe'll start by ordering some tests to better understand the cause of your knee pain, including bloodwork and imaging if needed.\n\nWe'll schedule a follow-up visit in 4 weeks to review the results and discuss the next steps, including preparing for shared decision-making about your goal of another surgery.\n\nIn the meantime, if your pain gets worse or you experience any new symptoms, please call us so we can address them promptly.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 4 weeks. In the meantime, if you have any new symptoms like severe pain or difficulty walking, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this knee pain has been affecting you \u2014 you mentioned, \"I have so much pain,\" and it sounds like it's been going on for a long time. I want to make sure we understand what's going on and how we can help.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "knee pain",
+            "profile_path": "problems[0]",
+            "explanation": "Your knee pain, along with symptoms like snapping, trouble walking, and the knee giving away, suggests we should look into possible causes. Research shows that family history of osteoarthritis (OA), personal history of knee OA, or pain on climbing stairs or walking up slopes are linked to hip OA. Additionally, specific physical signs like squatting causing posterior pain, groin pain on passive abduction or adduction, abductor weakness, and decreased passive hip adduction or internal rotation can help identify patients likely to have hip OA.",
+            "citations": [
+              {
+                "cluster_id": "finding::problems[0]::31846019_0",
+                "primary_assertion_id": "31846019_0",
+                "pmids": [
+                  "31846019"
+                ]
+              },
+              {
+                "cluster_id": "finding::problems[0]::31846019_1",
+                "primary_assertion_id": "31846019_1",
+                "pmids": [
+                  "31846019"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "another surgery",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Considering your goal of another surgery, it's important to prepare for shared decision-making and goal setting. Research emphasizes the importance of patient-centered communication to identify realistic and relevant goals for daily life. This approach helps ensure that the decisions we make together are meaningful and tailored to your needs.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::sub_query[1]::33658141_0",
+                "primary_assertion_id": "33658141_0",
+                "pmids": [
+                  "33658141"
+                ]
+              },
+              {
+                "cluster_id": "recommendation::sub_query[1]::33658141_1",
+                "primary_assertion_id": "33658141_1",
+                "pmids": [
+                  "33658141"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll start by ordering some tests to better understand the cause of your knee pain, including bloodwork and imaging if needed.",
+          "We'll schedule a follow-up visit in 4 weeks to review the results and discuss the next steps, including preparing for shared decision-making about your goal of another surgery.",
+          "In the meantime, if your pain gets worse or you experience any new symptoms, please call us so we can address them promptly."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 4 weeks. In the meantime, if you have any new symptoms like severe pain or difficulty walking, please call us right away.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::problems[0]::31846019_0",
+          "finding::problems[0]::31846019_1",
+          "recommendation::sub_query[1]::33658141_0",
+          "recommendation::sub_query[1]::33658141_1"
+        ],
+        "all_pmids_used": [
+          "31846019",
+          "33658141"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 1,
+        "problems": [
+          "knee pain"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "31846019",
+        "33658141"
+      ],
+      "cluster_ids_used": [
+        "finding::problems[0]::31846019_0",
+        "finding::problems[0]::31846019_1",
+        "recommendation::sub_query[1]::33658141_0",
+        "recommendation::sub_query[1]::33658141_1"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 32469.64994072914,
+        "module_2_retrieval": 65.4817521572113,
+        "module_3_reasoning": 30586.45436167717,
+        "module_4_response": 33705.23530244827,
+        "total_ms": 96826.8213570118
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

@@ -1,0 +1,304 @@
+{
+  "dataset": "primock57",
+  "bins": {
+    "bin_centers": [
+      0.1,
+      0.30000000000000004,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "bin_accuracy": [
+      0.0,
+      1.0,
+      0.6785714285714286,
+      0.4,
+      0.6
+    ],
+    "bin_n": [
+      0,
+      2,
+      28,
+      20,
+      5
+    ],
+    "n_total": 55
+  },
+  "rows": [
+    {
+      "confidence": 0.3333333333333333,
+      "all_pass": true,
+      "n_pmids": 1
+    },
+    {
+      "confidence": 0.7777777777777778,
+      "all_pass": false,
+      "n_pmids": 1
+    },
+    {
+      "confidence": 0.8888888888888888,
+      "all_pass": true,
+      "n_pmids": 1
+    },
+    {
+      "confidence": 0.4444444444444444,
+      "all_pass": true,
+      "n_pmids": 2
+    },
+    {
+      "confidence": 0.4444444444444444,
+      "all_pass": true,
+      "n_pmids": 1
+    },
+    {
+      "confidence": 0.7777777777777778,
+      "all_pass": false,
+      "n_pmids": 1
+    },
+    {
+      "confidence": 0.7777777777777778,
+      "all_pass": true,
+      "n_pmids": 1
+    },
+    {
+      "confidence": 0.4444444444444444,
+      "all_pass": true,
+      "n_pmids": 1
+    },
+    {
+      "confidence": 0.7777777777777778,
+      "all_pass": false,
+      "n_pmids": 1
+    },
+    {
+      "confidence": 0.4444444444444444,
+      "all_pass": true,
+      "n_pmids": 1
+    },
+    {
+      "confidence": 0.7777777777777778,
+      "all_pass": true,
+      "n_pmids": 1
+    },
+    {
+      "confidence": 0.7777777777777778,
+      "all_pass": true,
+      "n_pmids": 1
+    },
+    {
+      "confidence": 0.5555555555555556,
+      "all_pass": false,
+      "n_pmids": 1
+    },
+    {
+      "confidence": 0.4444444444444444,
+      "all_pass": true,
+      "n_pmids": 1
+    },
+    {
+      "confidence": 0.7777777777777778,
+      "all_pass": true,
+      "n_pmids": 2
+    },
+    {
+      "confidence": 0.4444444444444444,
+      "all_pass": false,
+      "n_pmids": 2
+    },
+    {
+      "confidence": 0.4444444444444444,
+      "all_pass": false,
+      "n_pmids": 1
+    },
+    {
+      "confidence": 0.4444444444444444,
+      "all_pass": false,
+      "n_pmids": 1
+    },
+    {
+      "confidence": 0.4444444444444444,
+      "all_pass": true,
+      "n_pmids": 1
+    },
+    {
+      "confidence": 0.5555555555555556,
+      "all_pass": true,
+      "n_pmids": 2
+    },
+    {
+      "confidence": 0.7777777777777778,
+      "all_pass": false,
+      "n_pmids": 1
+    },
+    {
+      "confidence": 0.5555555555555556,
+      "all_pass": false,
+      "n_pmids": 1
+    },
+    {
+      "confidence": 0.4444444444444444,
+      "all_pass": false,
+      "n_pmids": 2
+    },
+    {
+      "confidence": 0.6666666666666666,
+      "all_pass": false,
+      "n_pmids": 1
+    },
+    {
+      "confidence": 0.6666666666666666,
+      "all_pass": true,
+      "n_pmids": 1
+    },
+    {
+      "confidence": 0.5555555555555556,
+      "all_pass": true,
+      "n_pmids": 1
+    },
+    {
+      "confidence": 0.4444444444444444,
+      "all_pass": false,
+      "n_pmids": 1
+    },
+    {
+      "confidence": 0.4444444444444444,
+      "all_pass": true,
+      "n_pmids": 1
+    },
+    {
+      "confidence": 0.4444444444444444,
+      "all_pass": true,
+      "n_pmids": 1
+    },
+    {
+      "confidence": 0.6666666666666666,
+      "all_pass": false,
+      "n_pmids": 2
+    },
+    {
+      "confidence": 0.4444444444444444,
+      "all_pass": false,
+      "n_pmids": 1
+    },
+    {
+      "confidence": 0.4444444444444444,
+      "all_pass": true,
+      "n_pmids": 2
+    },
+    {
+      "confidence": 0.7777777777777778,
+      "all_pass": false,
+      "n_pmids": 1
+    },
+    {
+      "confidence": 0.6666666666666666,
+      "all_pass": true,
+      "n_pmids": 1
+    },
+    {
+      "confidence": 0.5555555555555556,
+      "all_pass": false,
+      "n_pmids": 3
+    },
+    {
+      "confidence": 0.5555555555555556,
+      "all_pass": true,
+      "n_pmids": 1
+    },
+    {
+      "confidence": 0.4444444444444444,
+      "all_pass": true,
+      "n_pmids": 1
+    },
+    {
+      "confidence": 0.6666666666666666,
+      "all_pass": true,
+      "n_pmids": 1
+    },
+    {
+      "confidence": 0.8888888888888888,
+      "all_pass": true,
+      "n_pmids": 1
+    },
+    {
+      "confidence": 0.8888888888888888,
+      "all_pass": false,
+      "n_pmids": 1
+    },
+    {
+      "confidence": 0.8888888888888888,
+      "all_pass": true,
+      "n_pmids": 3
+    },
+    {
+      "confidence": 0.7777777777777778,
+      "all_pass": false,
+      "n_pmids": 1
+    },
+    {
+      "confidence": 0.5555555555555556,
+      "all_pass": true,
+      "n_pmids": 1
+    },
+    {
+      "confidence": 0.6666666666666666,
+      "all_pass": true,
+      "n_pmids": 2
+    },
+    {
+      "confidence": 0.3333333333333333,
+      "all_pass": true,
+      "n_pmids": 1
+    },
+    {
+      "confidence": 0.5555555555555556,
+      "all_pass": true,
+      "n_pmids": 1
+    },
+    {
+      "confidence": 0.8888888888888888,
+      "all_pass": false,
+      "n_pmids": 1
+    },
+    {
+      "confidence": 0.5555555555555556,
+      "all_pass": true,
+      "n_pmids": 1
+    },
+    {
+      "confidence": 0.7777777777777778,
+      "all_pass": false,
+      "n_pmids": 1
+    },
+    {
+      "confidence": 0.4444444444444444,
+      "all_pass": true,
+      "n_pmids": 1
+    },
+    {
+      "confidence": 0.4444444444444444,
+      "all_pass": true,
+      "n_pmids": 1
+    },
+    {
+      "confidence": 0.7777777777777778,
+      "all_pass": false,
+      "n_pmids": 2
+    },
+    {
+      "confidence": 0.7777777777777778,
+      "all_pass": false,
+      "n_pmids": 1
+    },
+    {
+      "confidence": 0.7777777777777778,
+      "all_pass": false,
+      "n_pmids": 2
+    },
+    {
+      "confidence": 0.4444444444444444,
+      "all_pass": true,
+      "n_pmids": 1
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "transcript_id": "mts_val_65",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "The patient is a 19-year-old male who was involved in a fight approximately an hour prior to his ED presentation",
+  "patient_utterances": [
+    "[Clinician asked: \"How old are you young man?\"] I am nineteen.",
+    "[Clinician asked: \"What happened? How did you get hurt?\"] I was in a fight. Some people are just rude.",
+    "[Clinician asked: \"Oh, that's bad! How did you hurt your right hand?\"] Ah, I punched that other guy in face or maybe his mouth, I don't remember exactly but he got a good one. Later, in anger I punched in a glass. It broke the glass and spilled all the drink. I think I got a cut as it was bleeding badly.",
+    "[Clinician asked: \"When you came here in Emergency your wound was clean and looked like somebody tried to fix your cut. Do you remember any details about it?\"] Yeah, I remember there was a navy corpsman. He was very helpful; he cleaned my cut with the tap water. He also tried to close it up with gauze and superglue. He said it will stop bleeding, but nothing helped. They called for help and here I am in emergency."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "HPI": "The patient is a 19-year-old male who was involved in a fight approximately an hour prior to his ED presentation.  He punched a guy few times on the face, might be the mouth and then punched a drinking glass, breaking it and lacerating his right hand.  He has three lacerations on his right hand.  His wound was cleaned out thoroughly with tap water, and one of the navy corpsman tried to use Superglue and gauze to repair it.  However, it continues to bleed and he is here for evaluation."
+  },
+  "n_patient_turns": 4,
+  "n_clinician_turns": 5,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 22822.47042655945,
+      "response_text": "I'm really sorry to hear about what happened to you. Getting into a fight because of someone's rude behavior must have been a stressful and scary experience. I can tell you're going through a tough time, and it's important to take care of yourself, especially with the injury to your hand. \n\nWe\u2019re going to make sure your wound is cleaned properly using sterile saline to prevent infection, as tap water isn\u2019t the best for such injuries. Since the initial treatment didn\u2019t fully work, we might need to do a bit more, like stitches if necessary. How have you been feeling since the injury? Any pain or swelling? Let\u2019s focus on getting your hand healed so you can move forward. You\u2019re not alone in this, and we\u2019re here to help. Feel free to ask any questions you might have.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 20708.92947167158,
+      "response_text": "Thank you for sharing all the details about what happened. It sounds like a really tough experience, and I can imagine how overwhelming and painful it must have been for you. Being in a fight and then dealing with an injury like that is a lot to go through, especially when it didn\u2019t heal as expected. I can tell you\u2019re frustrated, and it\u2019s completely understandable to feel that way after everything you\u2019ve been through.\n\nFrom what you\u2019ve described, the cut on your hand didn\u2019t stop bleeding even after the corpsman tried to clean it and use gauze and superglue. There are a few possibilities we might want to consider. Sometimes, if the wound is deep or there\u2019s underlying tissue damage, it might take longer to heal. It\u2019s also possible that the initial treatment didn\u2019t quite address the full extent of the injury, or there could be something else, like an infection, that\u2019s slowing down the healing process [PMID ?]. We\u2019ll want to take a closer look to make sure everything is healing properly and to explore any additional treatment options if needed.\n\nWe\u2019ll plan to monitor your wound over the next week and schedule a follow-up appointment in about 7 days to check on its progress. Before you leave, could you summarize what we discussed today? That way, I can make sure you understand the plan and feel comfortable with the next steps.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6999.245770275593,
+      "response_text": "It sounds like you had a tough experience recently. You mentioned being in a fight and getting hurt, which is concerning.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again soon. If you have any new symptoms or concerns in the meantime, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you had a tough experience recently. You mentioned being in a fight and getting hurt, which is concerning.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again soon. If you have any new symptoms or concerns in the meantime, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 39896.372482180595,
+      "response_text": "I can hear how frustrating this must be for you. You mentioned, \"Some people are just rude,\" which sounds like it's adding to your stress about this situation.\n\nThe injury you sustained recently, with bleeding, is something we need to monitor carefully. The steps we're taking now are based on best practices for such situations.\n\nWe'll keep a close eye on your injury and any related symptoms that develop. If there's any change in how you're feeling, please let us know right away.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to check in again soon. If you notice anything unusual or if your symptoms get worse, please call us so we can address it promptly.",
+      "structured_response": {
+        "acknowledgment": "I can hear how frustrating this must be for you. You mentioned, \"Some people are just rude,\" which sounds like it's adding to your stress about this situation.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "injury from fight",
+            "profile_path": "problems[0]",
+            "explanation": "The injury you sustained recently, with bleeding, is something we need to monitor carefully. The steps we're taking now are based on best practices for such situations.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll keep a close eye on your injury and any related symptoms that develop. If there's any change in how you're feeling, please let us know right away."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to check in again soon. If you notice anything unusual or if your symptoms get worse, please call us so we can address it promptly.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 0,
+        "problems": [
+          "injury from fight"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 90898.53946119547,
+      "response_text": "I can see how frustrating this must be for you. You mentioned, \"Some people are just rude,\" and I understand how that kind of experience can leave you feeling upset and unheard.\n\nIt's important that we address this injury properly. The way you've described the situation, with the bleeding and the frustration, tells me we need to make sure you're getting the care you need without any unnecessary delays.\n\nWe'll make sure to provide the necessary care for your injury right away.\n\nWe'll also check in with you to ensure you're comfortable with the care you're receiving and address any concerns you have during this process.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again soon to check on your progress. In the meantime, if you experience any worsening symptoms or have any questions, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "I can see how frustrating this must be for you. You mentioned, \"Some people are just rude,\" and I understand how that kind of experience can leave you feeling upset and unheard.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "injury from fight",
+            "profile_path": "problems[0]",
+            "explanation": "It's important that we address this injury properly. The way you've described the situation, with the bleeding and the frustration, tells me we need to make sure you're getting the care you need without any unnecessary delays.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::sub_query[0]::41092546_1",
+                "primary_assertion_id": "41092546_1",
+                "pmids": [
+                  "41092546"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll make sure to provide the necessary care for your injury right away.",
+          "We'll also check in with you to ensure you're comfortable with the care you're receiving and address any concerns you have during this process."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again soon to check on your progress. In the meantime, if you experience any worsening symptoms or have any questions, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "recommendation::sub_query[0]::41092546_1"
+        ],
+        "all_pmids_used": [
+          "41092546"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 0,
+        "problems": [
+          "injury from fight"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "41092546"
+      ],
+      "cluster_ids_used": [
+        "recommendation::sub_query[0]::41092546_1"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 27532.499559223652,
+        "module_2_retrieval": 71.70058786869049,
+        "module_3_reasoning": 45552.94392257929,
+        "module_4_response": 17739.753141999245,
+        "total_ms": 90896.89721167088
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

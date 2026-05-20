@@ -1,0 +1,168 @@
+{
+  "transcript_id": "mts_test_1_157",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "The patient lives at home with mother, father, and 2 other siblings",
+  "patient_utterances": [
+    "[Clinician asked: \"What is your living status? Do you live alone or with your family?\"] I live with my family.",
+    "[Clinician asked: \"Who all is there in your family?\"] My mom, my dad and my two little sisters. We are a happy family. We love to spend time together. Every Friday it is a game night. Many times, we go on a hike on weekends.",
+    "[Clinician asked: \"Have you been in contact with anyone who is sick?\"] Not that I am aware of."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "FAM_SOCHX": "The patient lives at home with mother, father, and 2 other siblings.  There are no ill contacts."
+  },
+  "n_patient_turns": 3,
+  "n_clinician_turns": 3,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 14239.44216966629,
+      "response_text": "It sounds like you have a very supportive and close-knit family, which is wonderful. The activities you enjoy with your family, like game nights and hikes, are great ways to stay connected and maintain your well-being. It\u2019s good to hear that you haven\u2019t been in contact with anyone who is sick, which is helpful in the context of your current health concerns. Your family\u2019s support can play a significant role in your overall health, so it\u2019s positive that you have such a strong network around you. Let me know if you\u2019d like to discuss anything further about how your family life might be impacting your health.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 15858.581274747849,
+      "response_text": "Thanks for sharing about your family\u2014it sounds like you have a wonderful, close-knit group. It\u2019s great to hear about the fun activities you all do together, like game nights and hikes. It\u2019s important to have such a supportive and loving environment.\n\nSince you mentioned you haven\u2019t been in contact with anyone who is sick, I\u2019d like to ask about any symptoms you might be experiencing. If you\u2019re feeling well, that\u2019s wonderful. However, if you\u2019re experiencing any symptoms like fever, cough, or fatigue, we might consider checking for common illnesses like COVID-19, especially given the current guidelines [PMID ?]. \n\nIf we do need to evaluate further, we can start with some basic tests to ensure everything is okay. Before you leave, could you summarize what we discussed today? That way, I can make sure I\u2019ve covered everything clearly.\n\nWe\u2019ll plan to check in with you in one week to see how you\u2019re feeling and to address any concerns.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6400.705903768539,
+      "response_text": "Thank you for sharing details about your living situation and family. It sounds like you have a supportive and active family life, which is great to hear.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again soon. In the meantime, if you have any questions or concerns, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing details about your living situation and family. It sounds like you have a supportive and active family life, which is great to hear.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again soon. In the meantime, if you have any questions or concerns, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 17655.649088323116,
+      "response_text": "I can hear how much this has been weighing on you \u2014 you said, \"We love to spend time together.\" That sounds like a really important part of your life.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again soon. In the meantime, if anything changes or if you have more questions, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this has been weighing on you \u2014 you said, \"We love to spend time together.\" That sounds like a really important part of your life.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again soon. In the meantime, if anything changes or if you have more questions, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Name"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 0,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 0,
+        "problems": [],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 97039.92852568626,
+      "response_text": "I can hear how much you love spending time together \u2014 you mentioned, \"We love to spend time together.\" That sounds like a really important part of your life, and I'm glad you're sharing that with me.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if anything changes or if you have more questions, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much you love spending time together \u2014 you mentioned, \"We love to spend time together.\" That sounds like a really important part of your life, and I'm glad you're sharing that with me.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if anything changes or if you have more questions, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Name",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 0,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 0,
+        "problems": [],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 12536.18847578764,
+        "module_2_retrieval": 52.76825278997421,
+        "module_3_reasoning": 75226.90565139055,
+        "module_4_response": 9222.767442464828,
+        "total_ms": 97038.629822433
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

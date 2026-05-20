@@ -1,0 +1,196 @@
+{
+  "transcript_id": "mts_test_1_60",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "EKG is within normal limits, good sinus rhythm",
+  "patient_utterances": [
+    "[Clinician asked: \"Your E K G looks good. Rhythm is normal. Your axis is somewhat leftward, but this is a normal variation. It is not an abnormal finding and in most cases does not need any further treatment.\"] How about blood tests?",
+    "[Clinician asked: \"Do you know what they are?\"] Yes, I can understand."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "LABS": "EKG is within normal limits, good sinus rhythm.  His axis is somewhat leftward.  CBC and BMP were normal and cardiac enzymes were negative x1."
+  },
+  "n_patient_turns": 2,
+  "n_clinician_turns": 3,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 7857.581362128258,
+      "response_text": "Blood tests are an important part of understanding your overall health and can provide valuable information about things like cholesterol levels, blood sugar, inflammation, and other markers that might affect your heart health or overall well-being. They can help us identify any potential issues early and guide us in making the best treatment decisions for you. If your blood tests show anything unusual, we can address it together to help you stay healthy. If you have any questions about the tests or what the results might mean, feel free to ask.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 14877.67219543457,
+      "response_text": "Thanks for asking about the blood tests\u2014it\u2019s great you\u2019re curious and involved in your care. I can tell you\u2019re thinking carefully about your health, and it\u2019s important to explore all possibilities to make sure everything is as it should be.\n\nBlood tests can give us valuable information about how your body is functioning. For example, checking your thyroid function can help us rule out any issues that might affect your heart rate or rhythm [PMID ?]. Similarly, looking at your electrolytes can help us ensure that your levels of minerals like potassium and sodium are balanced, which is important for heart health [PMID ?]. These tests are a standard part of evaluating someone with an irregular heart rhythm, even when the EKG appears normal.\n\nWe\u2019ll schedule the blood tests and plan to review the results together in about a week. In the meantime, if you notice any new symptoms or have any concerns, please don\u2019t hesitate to reach out. Before we wrap up, could you summarize what you understand about the next steps? That way, I can make sure we\u2019re on the same page.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7202.579736709595,
+      "response_text": "Thank you for sharing your thoughts and questions with me. I understand you have some concerns about your recent medical interactions and would like to clarify things.\n\nWe'll take some time to go through your concerns step by step and make sure everything is clear for you.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to review everything together in our next session. If you have any questions or concerns in the meantime, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your thoughts and questions with me. I understand you have some concerns about your recent medical interactions and would like to clarify things.",
+        "clinical_information_per_concern": [],
+        "next_steps": [
+          "We'll take some time to go through your concerns step by step and make sure everything is clear for you."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to review everything together in our next session. If you have any questions or concerns in the meantime, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 11639.98156785965,
+      "response_text": "Thank you for reaching out. It sounds like you're here to discuss some important aspects of your health.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a week. If you have any new concerns or questions before then, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "Thank you for reaching out. It sounds like you're here to discuss some important aspects of your health.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a week. If you have any new concerns or questions before then, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 0,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 66635.28161495924,
+      "response_text": "Thank you for sharing your goal to get blood tests done. I understand how important it is to address this to get clarity on your health.\n\nGetting blood tests done is an important step in understanding your health. It helps identify any underlying issues and guides the next steps in care.\n\nWe'll schedule the blood tests as soon as possible to get the necessary information for your care plan.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to review the results together at your next visit. In the meantime, if you have any questions or concerns, please reach out.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your goal to get blood tests done. I understand how important it is to address this to get clarity on your health.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "get blood tests done",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Getting blood tests done is an important step in understanding your health. It helps identify any underlying issues and guides the next steps in care.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::sub_query[0]::33658141_0",
+                "primary_assertion_id": "33658141_0",
+                "pmids": [
+                  "33658141"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll schedule the blood tests as soon as possible to get the necessary information for your care plan."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to review the results together at your next visit. In the meantime, if you have any questions or concerns, please reach out.",
+        "nurse_elements_applied": [
+          "Support",
+          "Respect"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "recommendation::sub_query[0]::33658141_0"
+        ],
+        "all_pmids_used": [
+          "33658141"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 0,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 1,
+        "problems": [],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "33658141"
+      ],
+      "cluster_ids_used": [
+        "recommendation::sub_query[0]::33658141_0"
+      ],
+      "nurse_elements_applied": [
+        "Support",
+        "Respect"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 6925.468347966671,
+        "module_2_retrieval": 51.192089915275574,
+        "module_3_reasoning": 44991.30425602198,
+        "module_4_response": 14665.83552211523,
+        "total_ms": 66633.80021601915
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

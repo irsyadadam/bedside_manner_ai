@@ -1,0 +1,306 @@
+{
+  "transcript_id": "aci_virtassist_D2N175",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "good . how are you ?",
+  "patient_utterances": [
+    "[Clinician asked: \"hi , natalie . how are you ?\"] good . how are you ?",
+    "[Clinician asked: \"it's good to see you .\"] good to see you , too .",
+    "[Clinician asked: \"i know my nurse has already told you about dax . is it okay if i tell dax a little bit about you ?\"] go for it .",
+    "[Clinician asked: \"so , tell me what's going on .\"] so , uh , i got some re- routine blood work done last week and , uh , they said that my blood sugars were , were high , so that i should come in , um , and talk to you and get some more work done and , and , uh , see why that is .",
+    "[Clinician asked: \"okay . well , were you having any symptoms at all or just , we had some blood work done routinely ? uh , any chest pain , shortness of breath ? any nausea , vomiting , or diarrhea ?\"] no , no symptoms . uh , so i was a little shocked when i came back high and , and elevated , so hopefully we can figure out what's going on .",
+    "[Clinician asked: \"we've been , kind of , checking on this for a while and you've been on metformin . we actually increased your dose last time-\"] yup .",
+    "[Clinician asked: \"so right now you're on 100 , 1,000 milligrams a day , correct ?\"] correct . yup .",
+    "[Clinician asked: \"okay . all right . no , uh , no difficulty urinating or burning when you urinate at all ?\"] nope .",
+    "[Clinician asked: \"how are you doing with your diet for your diabetes ?\"] my diet's been really great lately . i've been avoiding sugars , um , been really watching , uh , my weight and power walking every day , so i was a little surprised when the , the blood work came back that i- i had , um , an elevated , uh , test .",
+    "[Clinician asked: \"okay . and , uh , have you had any , uh , any other , are you checking your blood sugars in the morning or your fasting blood sugars ?\"] yes , i am .",
+    "[Clinician asked: \"okay . all right . how are you doing with your high blood pressure ?\"] that's been good and stable . um , i've been stable on the medication , been taking that every day . um , and i have a b- a cuff at home to , to measure it myself and that , everything's been normal .",
+    "[Clinician asked: \"okay , great . and how's your knee doing that's the other issue we've been , kind of , following ? you had some surgery done for that ?\"] yeah . about five years ago , i had , um , an acl repair on my right knee and everything's been going well so far . i have n't had any , uh , issues with mobility . um , it's been great .",
+    "[Clinician asked: \"and you're pretty physically active and doing exercises ?\"] yeah . i've been power walking about , at least 30 minutes every day .",
+    "[Clinician asked: \"so i know you checked in with the review of systems with my assistant before coming in . uh , anything else bothering you today except for the abnormal blood work ? no chest pain ? no shortness of breath ?\"] no , nothing like that ?",
+    "[Clinician asked: \"no headaches ? no belly pain ?\"] no .",
+    "[Clinician asked: \"good . great . well , let me examine you , okay ?\"] okay .",
+    "[Clinician asked: \"no belly pain ?\"] nope .",
+    "[Clinician asked: \"all right . for the high blood pressure , i think you're doing great . you're on lisinopril for that , so i think that we should continue that . uh , we'll re-check it again next time and you are monitoring that at home , correct ?\"] yes , i am .",
+    "[Clinician asked: \"okay , great . and for the knee , i think you're doing great with that . you know , continue with your physical exercise , with your physical therapy , uh , uh , with your normal exercise regimen . uh , if you have any issues with that , certainly give us a call .\"] okay .",
+    "[Clinician asked: \"all right . any other questions ?\"] no , that's it ."
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nCheck up for abnormal labs.\n\nHISTORY OF PRESENT ILLNESS\n\nNatalie Price is a 39-year-old female here today for a check up for an abnormal labs. She has a history of high blood pressure, diabetes type 2, and right ACL repair.\n\nThe patient states she had routine blood work done last week and they said her blood sugars were high. She was instructed to follow up to get some more work done. She denies having any symptoms.\n\nRegarding her diabetes, her diet has been really great lately. She has been avoiding sugars and watching her weight. The patient is power walking 30 minutes every day. She is checking her blood sugars every morning. The patient has continued to utilize metformin 1000 mg a day, which was increased at her last visit.\n\nShe states her high blood pressure has been stable with lisinopril. The patient has a cuff at home to measure her blood pressure herself.\n\nRegarding her knee, she had an ACL repair on her right knee about 5 years ago and everything has been going well. She has not had any issues with mobility.\n\nShe denies chest pain, shortness of breath, vomiting, diarrhea, headaches, and abdominal pain. She denies any difficulty urinating or burning when she urinates.\n\nREVIEW OF SYSTEMS\n\n\u2022 Cardiovascular: Denies chest pain or dyspnea on exertion.\n\u2022 Respiratory: Denies shortness of breath.\n\u2022 Genitourinary: Denies urinary pain.\n\u2022 Neurological: Denies headaches.\n\nPHYSICAL EXAMINATION\n\n\u2022 Head and Face: Normocephalic and atraumatic.\n\u2022 Neck: Supple without thyromegaly or lymphadenopathy. No carotid bruits appreciable.\n\u2022 Respiratory: Lungs are clear to auscultation bilaterally. No wheezes, rales, or rhonchi.\n\u2022 Cardiovascular: 3/6 systolic ejection murmur.\n\u2022 Gastrointestinal: Abdomen is soft and nondistended.\n\u2022 Musculoskeletal: No lower extremity edema.\n\nRESULTS\n\nHemoglobin A1c is elevated at 8.1.\n\nASSESSMENT AND PLAN\n\nNatalie Price is a 39-year-old female with a history of high blood pressure, diabetes type 2, and right ACL repair. She presents today for evaluation following abnormal labs.\n\nDiabetes type 2.\n\u2022 Medical Reasoning: She is asymptomatic but her recent lab work demonstrated an elevated hemoglobin A1c of 8.1. She has been compliant with metformin 1000 mg daily, dietary modifications, and monitoring her blood glucose levels at home.\n\u2022 Additional Testing: We will check her CBC, CMP, and lipid panel.\n\u2022 Medical Treatment: Continue metformin 1000 mg daily. Initiate Jardiance 10 mg daily.\n\u2022 Patient Education and Counseling: I encouraged her to follow her dietary modifications closely.\n\nHypertension.\n\u2022 Medical Reasoning: This is stable and well-controlled on her current dose of lisinopril. She does monitor her blood pressures at home.\n\u2022 Medical Treatment: Continue lisinopril at current dose.\n\nStatus post right ACL repair.\n\u2022 Medical Reasoning: She is doing well postoperatively.\n\u2022 Patient Education and Counseling: I encouraged the patient to continue with her physical activity and exercise regimen.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.",
+  "gold_sections": {
+    "CC": "Check up for abnormal labs.",
+    "HPI": "Natalie Price is a 39-year-old female here today for a check up for an abnormal labs. She has a history of high blood pressure, diabetes type 2, and right ACL repair.\n\nThe patient states she had routine blood work done last week and they said her blood sugars were high. She was instructed to follow up to get some more work done. She denies having any symptoms.\n\nRegarding her diabetes, her diet has been really great lately. She has been avoiding sugars and watching her weight. The patient is power walking 30 minutes every day. She is checking her blood sugars every morning. The patient has continued to utilize metformin 1000 mg a day, which was increased at her last visit.\n\nShe states her high blood pressure has been stable with lisinopril. The patient has a cuff at home to measure her blood pressure herself.\n\nRegarding her knee, she had an ACL repair on her right knee about 5 years ago and everything has been going well. She has not had any issues with mobility.\n\nShe denies chest pain, shortness of breath, vomiting, diarrhea, headaches, and abdominal pain. She denies any difficulty urinating or burning when she urinates.",
+    "ROS": "\u2022 Cardiovascular: Denies chest pain or dyspnea on exertion.\n\u2022 Respiratory: Denies shortness of breath.\n\u2022 Genitourinary: Denies urinary pain.\n\u2022 Neurological: Denies headaches.",
+    "PHYSICAL_EXAMINATION": "\u2022 Head and Face: Normocephalic and atraumatic.\n\u2022 Neck: Supple without thyromegaly or lymphadenopathy. No carotid bruits appreciable.\n\u2022 Respiratory: Lungs are clear to auscultation bilaterally. No wheezes, rales, or rhonchi.\n\u2022 Cardiovascular: 3/6 systolic ejection murmur.\n\u2022 Gastrointestinal: Abdomen is soft and nondistended.\n\u2022 Musculoskeletal: No lower extremity edema.",
+    "RESULTS": "Hemoglobin A1c is elevated at 8.1.",
+    "ASSESSMENT_PLAN": "Natalie Price is a 39-year-old female with a history of high blood pressure, diabetes type 2, and right ACL repair. She presents today for evaluation following abnormal labs.\n\nDiabetes type 2.\n\u2022 Medical Reasoning: She is asymptomatic but her recent lab work demonstrated an elevated hemoglobin A1c of 8.1. She has been compliant with metformin 1000 mg daily, dietary modifications, and monitoring her blood glucose levels at home.\n\u2022 Additional Testing: We will check her CBC, CMP, and lipid panel.\n\u2022 Medical Treatment: Continue metformin 1000 mg daily. Initiate Jardiance 10 mg daily.\n\u2022 Patient Education and Counseling: I encouraged her to follow her dietary modifications closely.\n\nHypertension.\n\u2022 Medical Reasoning: This is stable and well-controlled on her current dose of lisinopril. She does monitor her blood pressures at home.\n\u2022 Medical Treatment: Continue lisinopril at current dose.\n\nStatus post right ACL repair.\n\u2022 Medical Reasoning: She is doing well postoperatively.\n\u2022 Patient Education and Counseling: I encouraged the patient to continue with her physical activity and exercise regimen.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan."
+  },
+  "n_patient_turns": 20,
+  "n_clinician_turns": 29,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 18331.641137599945,
+      "response_text": "I understand how surprising and concerning it must be to see your blood sugar levels elevated, especially when you've been doing so well with your diet, exercise, and medications. It's not uncommon for blood sugar levels to fluctuate, and we'll work together to figure out why this happened. Your commitment to your health is commendable, and we'll explore any factors that might be contributing to this. Let's schedule some additional tests to get a clearer picture and adjust your care plan if needed. Your proactive approach is a great foundation, and we'll continue to support you in maintaining your health.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 20816.26134365797,
+      "response_text": "Thank you for sharing your concerns, Natalie. It makes sense that you're surprised and a bit frustrated to see your blood sugars high despite your diligent efforts with diet and exercise. Managing diabetes is challenging, and it's commendable that you've been so proactive with your health.\n\nGiven your current situation, there are a few possibilities we might explore. First, it's possible that your body may have developed insulin resistance, which can happen even with a consistent metformin regimen [PMID ?]. Additionally, other conditions like thyroid issues or kidney problems can sometimes affect blood sugar levels [PMID ?]. We might consider adjusting your medication or adding a supplementary treatment to better manage your glucose levels.\n\nWe'll plan to run some additional tests to check for these potential causes and review your current treatment plan. It's important to ensure we're addressing any underlying issues. I'll schedule a follow-up appointment in about two weeks to review the results and adjust your care as needed.\n\nBefore you leave, could you summarize what we've discussed today? This will help confirm that everything is clear and that we're on the same page regarding your care.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 8186.2965896725655,
+      "response_text": "It sounds like the unexpected news about your blood sugar levels has you a bit concerned. I understand how that can happen when you're doing everything right and still seeing some changes.\n\nWe'll review your blood work results together and discuss any necessary next steps to understand why your levels are elevated and how we can manage them moving forward.\n\nCan you tell me, in your own words, what you understand about your blood sugar levels and what we discussed today?\n\nLet's plan to review your results in a week. If you have any questions or concerns before then, feel free to reach out.",
+      "structured_response": {
+        "acknowledgment": "It sounds like the unexpected news about your blood sugar levels has you a bit concerned. I understand how that can happen when you're doing everything right and still seeing some changes.",
+        "clinical_information_per_concern": [],
+        "next_steps": [
+          "We'll review your blood work results together and discuss any necessary next steps to understand why your levels are elevated and how we can manage them moving forward."
+        ],
+        "teach_back_prompt": "Can you tell me, in your own words, what you understand about your blood sugar levels and what we discussed today?",
+        "follow_up_invitation": "Let's plan to review your results in a week. If you have any questions or concerns before then, feel free to reach out.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 162169.93871331215,
+      "response_text": "It sounds like you're trying to understand what's going on with your high blood sugars, and that's a good place to start.\n\nHigh blood sugars can be caused by many things, including how your body is handling the medications you're taking. We'll need to look into this more carefully to figure out the best way to manage it.\n\nUnderstanding your health concerns is the first step toward managing them effectively. We'll work together to get a clear picture of what's happening.\n\nWe'll start by reviewing your current medications and how they might be affecting your blood sugar levels.\n\nWe'll schedule a follow-up appointment to discuss the results and plan the next steps together.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a couple of weeks. In the meantime, keep track of your blood sugar levels and let me know if you notice any changes or if you have any questions.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're trying to understand what's going on with your high blood sugars, and that's a good place to start.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "high blood sugars",
+            "profile_path": "problems[0]",
+            "explanation": "High blood sugars can be caused by many things, including how your body is handling the medications you're taking. We'll need to look into this more carefully to figure out the best way to manage it.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::36355789",
+                "primary_assertion_id": "36355789_retr",
+                "pmids": [
+                  "36355789"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "figure out what's going on",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Understanding your health concerns is the first step toward managing them effectively. We'll work together to get a clear picture of what's happening.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::35759474",
+                "primary_assertion_id": "35759474_retr",
+                "pmids": [
+                  "35759474"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll start by reviewing your current medications and how they might be affecting your blood sugar levels.",
+          "We'll schedule a follow-up appointment to discuss the results and plan the next steps together."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a couple of weeks. In the meantime, keep track of your blood sugar levels and let me know if you notice any changes or if you have any questions.",
+        "nurse_elements_applied": [
+          "Support",
+          "Respect"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "retrieval_only::36355789",
+          "retrieval_only::35759474"
+        ],
+        "all_pmids_used": [
+          "36355789",
+          "35759474"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 3,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 1,
+        "problems": [
+          "high blood sugars"
+        ],
+        "medications": [
+          "metformin (dose, frequency)",
+          "blood pressure medication",
+          "lisinopril"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [
+        "36355789",
+        "35759474"
+      ],
+      "cluster_ids_used": [
+        "retrieval_only::36355789",
+        "retrieval_only::35759474"
+      ],
+      "nurse_elements_applied": [
+        "Support",
+        "Respect"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 228568.4706941247,
+      "response_text": "I can see you're feeling a bit shocked about your high blood sugar readings \u2014 you mentioned, \"I was a little shocked when I came back high and, and elevated.\" That's understandable, and I want to make sure we get to the bottom of this together.\n\nHigh blood sugar levels can be concerning, and it's important to understand what might be causing them. Given that you've recently started metformin, we'll want to check if it's working as expected or if there might be other factors at play.\n\nTo figure out what's going on, we'll need to look into your blood sugar readings more closely. This might involve checking how well your metformin is working and looking for any other possible causes.\n\nWe'll schedule a follow-up appointment to review your blood sugar readings and adjust your treatment plan if needed.\n\nIn the meantime, continue monitoring your blood sugar levels and let me know if you notice any changes or if you have any questions.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if your blood sugar levels get much worse or if you develop any new symptoms, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I can see you're feeling a bit shocked about your high blood sugar readings \u2014 you mentioned, \"I was a little shocked when I came back high and, and elevated.\" That's understandable, and I want to make sure we get to the bottom of this together.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "high blood sugars",
+            "profile_path": "problems[0]",
+            "explanation": "High blood sugar levels can be concerning, and it's important to understand what might be causing them. Given that you've recently started metformin, we'll want to check if it's working as expected or if there might be other factors at play.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[0]::36355789_0",
+                "primary_assertion_id": "36355789_0",
+                "pmids": [
+                  "36355789"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "figure out what's going on",
+            "profile_path": "patient_goals[0]",
+            "explanation": "To figure out what's going on, we'll need to look into your blood sugar readings more closely. This might involve checking how well your metformin is working and looking for any other possible causes.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::sub_query[1]::33658141_0",
+                "primary_assertion_id": "33658141_0",
+                "pmids": [
+                  "33658141"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll schedule a follow-up appointment to review your blood sugar readings and adjust your treatment plan if needed.",
+          "In the meantime, continue monitoring your blood sugar levels and let me know if you notice any changes or if you have any questions."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if your blood sugar levels get much worse or if you develop any new symptoms, please call us right away.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[0]::36355789_0",
+          "recommendation::sub_query[1]::33658141_0"
+        ],
+        "all_pmids_used": [
+          "36355789",
+          "33658141"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 1,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 1,
+        "problems": [
+          "high blood sugars"
+        ],
+        "medications": [
+          "metformin"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [
+        "36355789",
+        "33658141"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[0]::36355789_0",
+        "recommendation::sub_query[1]::33658141_0"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 156514.7561430931,
+        "module_2_retrieval": 971.5965986251831,
+        "module_3_reasoning": 46382.184751331806,
+        "module_4_response": 24698.64222407341,
+        "total_ms": 228567.1797171235
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

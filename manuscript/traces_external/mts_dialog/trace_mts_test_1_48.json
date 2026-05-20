@@ -1,0 +1,217 @@
+{
+  "transcript_id": "mts_test_1_48",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "She is married",
+  "patient_utterances": [
+    "[Clinician asked: \"Hello, miss. How are you doing today?\"] I was doing fine until my head started to hurt.",
+    "[Clinician asked: \"Oh, no. When did it start?\"] Earlier today. I got really stressed because my husband was bothering me, and my kids kept running around.",
+    "[Clinician asked: \"I see. Do you smoke to relieve the stress?\"] Nope. I've never smoked before."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "FAM_SOCHX": "She is married.  She is a nonsmoker."
+  },
+  "n_patient_turns": 3,
+  "n_clinician_turns": 3,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 16866.893842816353,
+      "response_text": "I'm really sorry to hear that you're experiencing a headache, especially after such a stressful day. It sounds like the stress from your husband and the kids' activities might have contributed to it. Stress can definitely trigger headaches, often due to muscle tension. I hope you can take some time to relax and unwind\u2014maybe try some deep breathing or find a quiet space if possible. If the headache persists or gets worse, don't hesitate to reach out for further help. In the meantime, rest, stay hydrated, and I hope you feel better soon.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 16803.31216007471,
+      "response_text": "Thank you for sharing how you're feeling. It makes sense that you're stressed and experiencing a headache after dealing with your husband and the kids running around. I can see how overwhelming that must have been, and I want to work with you to figure this out.\n\nA tension headache is a common response to stress, and it sounds like today\u2019s events could have contributed to it [PMID ?]. Sometimes dehydration or hunger can also trigger headaches, so let\u2019s start by making sure you\u2019re hydrated and have had something to eat. If the headache persists or gets worse, we might consider other possibilities, but let\u2019s see if these simple steps help first [PMID ?].\n\nWe\u2019ll check in within a few days to see how you\u2019re doing. Before you leave, can you tell me in your own words what we\u2019ve agreed to do? That way I can make sure everything is clear.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6169.795148074627,
+      "response_text": "It sounds like you had a stressful day, and your head started hurting after dealing with your husband and kids.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again soon. In the meantime, if your head pain gets worse or you have any other concerning symptoms, please call us.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you had a stressful day, and your head started hurting after dealing with your husband and kids.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again soon. In the meantime, if your head pain gets worse or you have any other concerning symptoms, please call us.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 33202.70423591137,
+      "response_text": "I can understand how stressful this must be for you. You mentioned that your husband was bothering you and your kids were running around, which sounds like it added a lot of pressure.\n\nHeadaches can be caused by many things, including stress. Since your headache started earlier today and you're feeling stressed, we'll look into common causes of headaches linked to stress.\n\nWe'll monitor your symptoms and see if the headache improves with stress management.\n\nIf the headache gets worse or doesn't go away, we'll check for other possible causes.\n\nCan you tell me in your own words what we'll do next to address your headache?\n\nLet's plan to check in again in a week. If your headache persists or gets worse, please reach out sooner.",
+      "structured_response": {
+        "acknowledgment": "I can understand how stressful this must be for you. You mentioned that your husband was bothering you and your kids were running around, which sounds like it added a lot of pressure.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "headache",
+            "profile_path": "problems[0]",
+            "explanation": "Headaches can be caused by many things, including stress. Since your headache started earlier today and you're feeling stressed, we'll look into common causes of headaches linked to stress.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll monitor your symptoms and see if the headache improves with stress management.",
+          "If the headache gets worse or doesn't go away, we'll check for other possible causes."
+        ],
+        "teach_back_prompt": "Can you tell me in your own words what we'll do next to address your headache?",
+        "follow_up_invitation": "Let's plan to check in again in a week. If your headache persists or gets worse, please reach out sooner.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 0,
+        "problems": [
+          "headache"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 66265.3412297368,
+      "response_text": "I can hear how much stress you're feeling \u2014 you mentioned, \"I got really stressed because my husband was bothering me, and my kids kept running around.\" That sounds like a tough situation to deal with.\n\nWhen stress is high, headaches can sometimes pop up. It's important to address both the stress and the headache to find relief.\n\nLet's focus on managing your stress and see how that helps with the headaches. I'll check in with you in a week to see how you're doing.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to check in again in a week. If the headaches get worse or you're still feeling stressed, please reach out earlier.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much stress you're feeling \u2014 you mentioned, \"I got really stressed because my husband was bothering me, and my kids kept running around.\" That sounds like a tough situation to deal with.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "headache",
+            "profile_path": "problems[0]",
+            "explanation": "When stress is high, headaches can sometimes pop up. It's important to address both the stress and the headache to find relief.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[1]::39366124_0",
+                "primary_assertion_id": "39366124_0",
+                "pmids": [
+                  "39366124"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "Let's focus on managing your stress and see how that helps with the headaches. I'll check in with you in a week to see how you're doing."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to check in again in a week. If the headaches get worse or you're still feeling stressed, please reach out earlier.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[1]::39366124_0"
+        ],
+        "all_pmids_used": [
+          "39366124"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 0,
+        "problems": [
+          "headache"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "39366124"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[1]::39366124_0"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 23826.629295945168,
+        "module_2_retrieval": 56.94176256656647,
+        "module_3_reasoning": 27795.247420668602,
+        "module_4_response": 14585.073634982109,
+        "total_ms": 66263.89211416245
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

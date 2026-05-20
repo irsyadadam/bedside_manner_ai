@@ -1,0 +1,159 @@
+{
+  "transcript_id": "mts_test_1_94",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "Includes a repair of a right intertrochanteric femur fracture",
+  "patient_utterances": [
+    "[Clinician asked: \"Any past surgeries I should know of?\"] Uh yes. I had a femur fracture repaired.",
+    "[Clinician asked: \"Do you remember which side?\"] It was on the right."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "PAST_SURGICAL": "Includes a repair of a right intertrochanteric femur fracture."
+  },
+  "n_patient_turns": 2,
+  "n_clinician_turns": 4,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 9743.958957493305,
+      "response_text": "Thank you for sharing that. A femur fracture is indeed a significant injury, and I appreciate you letting me know about it. This information will help me provide the best care possible for you today. Please feel free to ask any questions or share any concerns you may have\u2014I'm here to support you.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 19600.729919970036,
+      "response_text": "Thank you for sharing that information. It\u2019s important to have a complete picture of your medical history to ensure the best possible care. I can understand how providing this information is crucial for our current discussion, and I appreciate your effort in remembering the details.\n\nGiven that you had a femur fracture on the right side, this information is valuable for several reasons. It helps us consider any potential implications for your treatment, such as the presence of hardware or the possibility of conditions like osteoporosis. These factors can influence current treatment options and management plans [PMID ?]. \n\nWe\u2019ll use this information to guide our next steps in your care. Could you please summarize what we\u2019ve discussed so far? This will help ensure that everything is clear and that we\u2019re aligned in our approach to your treatment.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6274.8090252280235,
+      "response_text": "Thank you for sharing your medical history with me. It sounds like the femur fracture and its repair are important details for your care.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to continue our conversation in the next session. If you have any questions or concerns in the meantime, please feel free to reach out.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your medical history with me. It sounds like the femur fracture and its repair are important details for your care.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to continue our conversation in the next session. If you have any questions or concerns in the meantime, please feel free to reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 23653.996013104916,
+      "response_text": "Thank you for sharing your concerns with me. I understand that your femur fracture repair is important to you, and I want to make sure we address any questions or issues you're having.\n\nRehabilitation after a femur fracture is crucial for recovery. Studies show that older patients often need a multidisciplinary approach to ensure they get the care they need during discharge and transition back to their daily lives.\n\nWe'll review your discharge plan to ensure you have the necessary support for your recovery.\n\nWe'll schedule a follow-up to monitor your progress and make any adjustments needed.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if you have any concerns or questions, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns with me. I understand that your femur fracture repair is important to you, and I want to make sure we address any questions or issues you're having.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "femur fracture repaired",
+            "profile_path": "relevant_history[0]",
+            "explanation": "Rehabilitation after a femur fracture is crucial for recovery. Studies show that older patients often need a multidisciplinary approach to ensure they get the care they need during discharge and transition back to their daily lives.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::34766330",
+                "primary_assertion_id": "34766330_retr",
+                "pmids": [
+                  "34766330"
+                ]
+              },
+              {
+                "cluster_id": "retrieval_only::39947102",
+                "primary_assertion_id": "39947102_retr",
+                "pmids": [
+                  "39947102"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll review your discharge plan to ensure you have the necessary support for your recovery.",
+          "We'll schedule a follow-up to monitor your progress and make any adjustments needed."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if you have any concerns or questions, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Support",
+          "Respect"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "retrieval_only::34766330",
+          "retrieval_only::39947102"
+        ],
+        "all_pmids_used": [
+          "34766330",
+          "39947102"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 0,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "34766330",
+        "39947102"
+      ],
+      "cluster_ids_used": [
+        "retrieval_only::34766330",
+        "retrieval_only::39947102"
+      ],
+      "nurse_elements_applied": [
+        "Support",
+        "Respect"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "error": "response generation returned no parseable JSON"
+    }
+  },
+  "schema_version": "phase13.v1"
+}

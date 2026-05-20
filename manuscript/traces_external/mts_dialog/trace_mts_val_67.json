@@ -1,0 +1,181 @@
+{
+  "transcript_id": "mts_val_67",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "Unknown",
+  "patient_utterances": [
+    "[Clinician asked: \"Has she had any surgeries in the past?\"] I couldn't tell ya even if I wanted to. I have no clue, sorry.",
+    "[Clinician asked: \"Is there someone we could call who might know?\"] I can't think of anyone off the top of my head. Maybe her daughter? But she's outta town right now."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "PAST_SURGICAL": "Unknown."
+  },
+  "n_patient_turns": 2,
+  "n_clinician_turns": 2,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 16127.365715801716,
+      "response_text": "It's completely understandable if you don't remember the details. We can explore other ways to gather the necessary information, such as reaching out to her healthcare provider or checking medical records. We'll work through this together to ensure we have what we need. Your cooperation is appreciated, and we're here to support you every step of the way.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 21184.26000326872,
+      "response_text": "It sounds like this is frustrating for you, and I completely understand why you might feel that way. It's not easy to recall specific details about a loved one's medical history, especially when it's someone as important as your mother. I appreciate your honesty, and we'll work around this together.\n\nOur goal is to gather as much information as we can to provide the best care possible for her. Knowing about past surgeries can help us understand her health history better and make more informed decisions. If you're unable to recall, that's okay\u2014we can explore other ways to find this information, such as looking through her medical records or reaching out to other family members who might know.\n\nWe'll plan to follow up in a week to see if we can gather more details or if there's another way to proceed. Before we finish, could you summarize what we've discussed so far? That way, I can ensure I've explained everything clearly.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 8233.874581754208,
+      "response_text": "It sounds like you're unsure about your medical history, and that's okay. I'm here to help figure things out together.\n\nWe'll work together to gather the necessary information. If you remember anything about her surgeries or medications, please let me know. If not, we can focus on what we can do moving forward with the information we have.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to continue our discussion in the next session. If anything comes to mind about her medical history in the meantime, please feel free to reach out.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're unsure about your medical history, and that's okay. I'm here to help figure things out together.",
+        "clinical_information_per_concern": [],
+        "next_steps": [
+          "We'll work together to gather the necessary information. If you remember anything about her surgeries or medications, please let me know. If not, we can focus on what we can do moving forward with the information we have."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to continue our discussion in the next session. If anything comes to mind about her medical history in the meantime, please feel free to reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 19186.784155666828,
+      "response_text": "I can hear how frustrated you are about this situation. You mentioned, \"I couldn't tell ya even if I wanted to. I have no clue, sorry,\" which shows how challenging this must be for you.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again soon. In the meantime, if anything changes or if you have more questions, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "I can hear how frustrated you are about this situation. You mentioned, \"I couldn't tell ya even if I wanted to. I have no clue, sorry,\" which shows how challenging this must be for you.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again soon. In the meantime, if anything changes or if you have more questions, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Demonstrate empathy",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 0,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 0,
+        "problems": [],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Demonstrate empathy",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 76482.53343999386,
+      "response_text": "I can hear how frustrating this must be for you \u2014 you said, \"I couldn't tell ya even if I wanted to. I have no clue, sorry.\" It sounds like you're feeling stuck and unsure about how to move forward.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to talk again soon. If you have any questions or need support in the meantime, please reach out.",
+      "structured_response": {
+        "acknowledgment": "I can hear how frustrating this must be for you \u2014 you said, \"I couldn't tell ya even if I wanted to. I have no clue, sorry.\" It sounds like you're feeling stuck and unsure about how to move forward.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to talk again soon. If you have any questions or need support in the meantime, please reach out.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 0,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 0,
+        "problems": [],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 10668.887674808502,
+        "module_2_retrieval": 40.83099216222763,
+        "module_3_reasoning": 56570.32089680433,
+        "module_4_response": 9200.793236494064,
+        "total_ms": 76480.83280026913
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

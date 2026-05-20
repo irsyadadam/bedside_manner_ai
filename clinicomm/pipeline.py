@@ -282,12 +282,26 @@ class Pipeline:
 
 
 def _load_embed_model(cfg: dict) -> SentenceTransformer:
+    # CLINICOMM_FORCE_CPU_EMBED forces CPU even when CUDA is available.
+    # Used when multiple concurrent eval processes would otherwise OOM
+    # the GPU (vLLM + N×BGE > 48GB). Retrieval is the only heavy
+    # consumer of this embedding model at inference time, and it
+    # encodes ≤3 short sub-queries per transcript, so CPU encoding
+    # adds ~1-2s per pipeline run — negligible.
+    import os
+    force_cpu = os.environ.get("CLINICOMM_FORCE_CPU_EMBED", "").lower() in (
+        "1", "true", "yes",
+    )
     device = (
         "cuda"
-        if cfg["embedding"]["use_gpu_if_available"] and torch.cuda.is_available()
+        if (not force_cpu)
+        and cfg["embedding"]["use_gpu_if_available"]
+        and torch.cuda.is_available()
         else "cpu"
     )
-    log.info("loading SentenceTransformer %s on %s", cfg["embedding"]["model"], device)
+    log.info("loading SentenceTransformer %s on %s%s",
+             cfg["embedding"]["model"], device,
+             " (CLINICOMM_FORCE_CPU_EMBED=1)" if force_cpu else "")
     return SentenceTransformer(cfg["embedding"]["model"], device=device)
 
 

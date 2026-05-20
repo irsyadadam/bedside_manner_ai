@@ -1,0 +1,245 @@
+{
+  "transcript_id": "mts_val_87",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "Non-healing surgical wound to the left posterior thigh",
+  "patient_utterances": [
+    "[Clinician asked: \"So, tell me what is going on?\"] Well, I have this wound on my thigh from my surgery and its not healing and honestly, I am a little worried.",
+    "[Clinician asked: \"Okay, let me have a look, which side?\"] It's on the back of my left thigh."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "CC": "Non-healing surgical wound to the left posterior thigh."
+  },
+  "n_patient_turns": 2,
+  "n_clinician_turns": 2,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 9964.640960097313,
+      "response_text": "I understand how concerning it must be for you to see that your wound isn't healing as expected. Your safety and well-being are my top priorities. Let's take a look at the wound and ask a few questions to better understand what might be going on. Sometimes, wounds can take longer to heal, especially after surgery, and there could be several factors involved. We'll work together to ensure it heals properly. Please know I'm here to support you through this.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 16852.778010070324,
+      "response_text": "Thanks for sharing that with me \u2014 it makes sense you're worried about your wound not healing after surgery. Having a surgical site that isn't healing can be really concerning, and I want to make sure we get to the bottom of this together.\n\nA few things could be contributing to this. Sometimes, wounds can heal slowly for reasons like infection, reduced blood flow, or even tight clothing or bandages [PMID ?]. I\u2019ll take a closer look at your wound to check for any signs of infection or other issues. We might also consider doing some tests to rule out any underlying problems that could be affecting healing.\n\nIn the meantime, let\u2019s make sure you\u2019re keeping the wound clean and dry, and that you\u2019re changing any dressings as prescribed. If you notice any redness, swelling, or increased pain, or if you develop a fever, please let me know right away.\n\nWe\u2019ll plan to check in again in 1-2 weeks to see how things are progressing. Before you go, could you tell me in your own words what we\u2019ve discussed today? That way I can make sure everything\u2019s clear.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6955.2289471030235,
+      "response_text": "I understand you're concerned about your wound not healing properly. It's important to address this to ensure proper recovery.\n\nWe'll need to examine the wound to assess its healing progress and determine the appropriate next steps for treatment.\n\nCan you tell me what you understand about the next steps for your wound healing?\n\nLet's plan to check in on your wound's progress in a week. If you notice any signs of infection like increased redness, swelling, or fever, please reach out sooner.",
+      "structured_response": {
+        "acknowledgment": "I understand you're concerned about your wound not healing properly. It's important to address this to ensure proper recovery.",
+        "clinical_information_per_concern": [],
+        "next_steps": [
+          "We'll need to examine the wound to assess its healing progress and determine the appropriate next steps for treatment."
+        ],
+        "teach_back_prompt": "Can you tell me what you understand about the next steps for your wound healing?",
+        "follow_up_invitation": "Let's plan to check in on your wound's progress in a week. If you notice any signs of infection like increased redness, swelling, or fever, please reach out sooner.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 32784.69604998827,
+      "response_text": "I can hear how much this has been weighing on you \u2014 you said, \"I am a little worried.\" That makes sense, especially with the wound not healing as expected.\n\nWound healing can take time, especially after surgery. It's important to monitor how it's progressing and address any issues that might be slowing the healing process.\n\nOur goal is to support the healing process and ensure we're doing everything we can to help your wound recover.\n\nWe'll keep a close eye on the wound and monitor its progress over the next few weeks.\n\nIf there are any changes or if it doesn't seem to be improving, we can adjust our approach accordingly.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to check in again in 2 weeks. If you notice any signs of infection or if the wound doesn't seem to be healing, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this has been weighing on you \u2014 you said, \"I am a little worried.\" That makes sense, especially with the wound not healing as expected.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "wound not healing",
+            "profile_path": "problems[0]",
+            "explanation": "Wound healing can take time, especially after surgery. It's important to monitor how it's progressing and address any issues that might be slowing the healing process.",
+            "citations": []
+          },
+          {
+            "concern_label": "wound healing",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Our goal is to support the healing process and ensure we're doing everything we can to help your wound recover.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll keep a close eye on the wound and monitor its progress over the next few weeks.",
+          "If there are any changes or if it doesn't seem to be improving, we can adjust our approach accordingly."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to check in again in 2 weeks. If you notice any signs of infection or if the wound doesn't seem to be healing, please call us right away.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 1,
+        "problems": [
+          "wound not healing"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 67177.31861770153,
+      "response_text": "I can see you're feeling a bit worried about your wound not healing, as you mentioned, 'I am a little worried.' It's understandable to feel this way after surgery.\n\nTo evaluate how well your care is going, we'll look at both clinical signs and how you're feeling about your wound. This approach helps us understand your healing process better.\n\nWorking together, we'll set realistic goals to help your wound heal, which is something you really want to achieve.\n\nWe'll monitor your healing progress closely and adjust our approach as needed.\n\nWe'll set up a follow-up appointment to check on your wound and discuss any changes.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. If your wound shows any signs of getting worse, like increased redness or pain, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I can see you're feeling a bit worried about your wound not healing, as you mentioned, 'I am a little worried.' It's understandable to feel this way after surgery.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "wound not healing",
+            "profile_path": "problems[0]",
+            "explanation": "To evaluate how well your care is going, we'll look at both clinical signs and how you're feeling about your wound. This approach helps us understand your healing process better.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::sub_query[0]::35190445_0",
+                "primary_assertion_id": "35190445_0",
+                "pmids": [
+                  "35190445"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "wound healing",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Working together, we'll set realistic goals to help your wound heal, which is something you really want to achieve.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::sub_query[1]::33658141_0",
+                "primary_assertion_id": "33658141_0",
+                "pmids": [
+                  "33658141"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll monitor your healing progress closely and adjust our approach as needed.",
+          "We'll set up a follow-up appointment to check on your wound and discuss any changes."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. If your wound shows any signs of getting worse, like increased redness or pain, please call us right away.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "recommendation::sub_query[0]::35190445_0",
+          "recommendation::sub_query[1]::33658141_0"
+        ],
+        "all_pmids_used": [
+          "35190445",
+          "33658141"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 1,
+        "problems": [
+          "wound not healing"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "35190445",
+        "33658141"
+      ],
+      "cluster_ids_used": [
+        "recommendation::sub_query[0]::35190445_0",
+        "recommendation::sub_query[1]::33658141_0"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 17930.832035839558,
+        "module_2_retrieval": 63.62242251634598,
+        "module_3_reasoning": 27927.128940820694,
+        "module_4_response": 21254.549965262413,
+        "total_ms": 67176.13336443901
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

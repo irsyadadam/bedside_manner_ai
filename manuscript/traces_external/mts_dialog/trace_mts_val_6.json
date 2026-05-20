@@ -1,0 +1,165 @@
+{
+  "transcript_id": "mts_val_6",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "He has not had any previous surgery",
+  "patient_utterances": [
+    "[Clinician asked: \"Have you had any surgeries in the past?\"] Nope I have not.",
+    "[Clinician asked: \"Anything?\"] No."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "PAST_SURGICAL": "He has not had any previous surgery."
+  },
+  "n_patient_turns": 2,
+  "n_clinician_turns": 2,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 8929.811470210552,
+      "response_text": "Thank you for letting me know. It sounds like you're in good health so far. Let's talk about any other medical conditions or concerns you might have. Your answers are really helpful, and I'm here to address whatever is on your mind.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 14343.740597367287,
+      "response_text": "Thanks for answering. It sounds like you're being thorough, and I appreciate your honesty. Sometimes it can feel overwhelming to think about all the details, but we'll take it step by step.\n\nGiven that you haven't had any surgeries, that helps me understand your medical history a bit better. It's important to get a clear picture of your health history to ensure we're considering all possibilities. Could you tell me a little more about your current symptoms or concerns? That way, we can focus on what's most important to you today.\n\nWe'll move on to other topics in a moment. If there's anything specific you'd like to talk about or any questions you have, feel free to bring them up. I'm here to help clarify anything and make sure you're comfortable with the direction we're taking.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 5531.264118850231,
+      "response_text": "Thank you for sharing your medical history with me. It sounds like you're here to discuss any concerns you might have.\n\nLet's plan to see each other again in a few weeks. In the meantime, if you have any new concerns or symptoms, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your medical history with me. It sounds like you're here to discuss any concerns you might have.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if you have any new concerns or symptoms, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 12564.47946280241,
+      "response_text": "Thank you for reaching out. I understand you're here to discuss some concerns, and I'm ready to help.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again soon. If you have any new concerns or symptoms in the meantime, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "Thank you for reaching out. I understand you're here to discuss some concerns, and I'm ready to help.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again soon. If you have any new concerns or symptoms in the meantime, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 0,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 57920.55105417967,
+      "response_text": "Thank you for reaching out. I understand you're here to discuss your concerns and get some guidance.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a week. If anything changes or you have new questions, please reach out sooner.",
+      "structured_response": {
+        "acknowledgment": "Thank you for reaching out. I understand you're here to discuss your concerns and get some guidance.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a week. If anything changes or you have new questions, please reach out sooner.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 0,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 5266.402117908001,
+        "module_2_retrieval": 50.495512783527374,
+        "module_3_reasoning": 45584.80056375265,
+        "module_4_response": 7016.90535992384,
+        "total_ms": 57918.60355436802
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

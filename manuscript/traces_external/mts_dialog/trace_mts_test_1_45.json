@@ -1,0 +1,222 @@
+{
+  "transcript_id": "mts_test_1_45",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "The patient has NG tube in place for decompression",
+  "patient_utterances": [
+    "[Clinician asked: \"You were placed on nasogastric tube for decompression, right?\"] Yes.",
+    "[Clinician asked: \"And how do you feel after that?\"] I am feeling bit better."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "HPI": "The patient has NG tube in place for decompression.  She says she is feeling a bit better."
+  },
+  "n_patient_turns": 2,
+  "n_clinician_turns": 2,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 14733.184643089771,
+      "response_text": "I'm really glad to hear that you're feeling a bit better. It sounds like the nasogastric tube is helping with your discomfort. Can you let me know if you're still experiencing any nausea, pain, or other symptoms? It's important to make sure everything is improving as it should. How are you feeling about the idea of possibly removing the tube soon? We can talk about the next steps and make sure you're ready for that. We'll keep monitoring your progress and adjust things as needed. I'm here to support you through this.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 19689.72347676754,
+      "response_text": "Thank you for sharing how you're feeling. It's great to hear that you're feeling a bit better, but I can understand that it might still be uncomfortable. It makes sense that you're taking things step by step and noticing small improvements.\n\nThe nasogastric tube is helping to relieve some of the pressure and discomfort, which is a positive sign. However, it's also common to experience some residual symptoms like nausea or mild pain as your body adjusts. I want to make sure we're addressing any lingering issues. Could you let me know if you're experiencing any specific symptoms right now, like nausea or discomfort?\n\nWe'll keep an eye on your progress and plan to check in with you in about a week. In the meantime, I recommend sticking to a bland diet and continuing any prescribed medications to help reduce acid and inflammation. Before you go, could you summarize what we've discussed today in your own words? That way, I can ensure everything is clear and we're on the same page.\n\nIf at any point you experience severe pain, vomiting, or fever, please don't hesitate to reach out or seek urgent care. We're here to support you through this.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6283.61626714468,
+      "response_text": "Thank you for sharing how you're feeling. It's good to hear that you're feeling a bit better after the nasogastric tube placement.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again soon. In the meantime, if you have any new symptoms or concerns, please reach out.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing how you're feeling. It's good to hear that you're feeling a bit better after the nasogastric tube placement.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again soon. In the meantime, if you have any new symptoms or concerns, please reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 29508.29653441906,
+      "response_text": "It sounds like you're dealing with some gastrointestinal issues, and you mentioned that a nasogastric tube for decompression has been used. I want to understand how this is affecting your daily life and what concerns you have about your recovery.\n\nGastrointestinal issues can be complex, and the use of a nasogastric tube for decompression suggests that we need to monitor your recovery closely. The current guidance emphasizes the importance of clear communication in healthcare interactions, especially when dealing with older patients, to ensure that their concerns and needs are fully addressed.\n\nWe'll continue to monitor your gastrointestinal symptoms and the effectiveness of the nasogastric tube. Regular follow-ups will be important to track your improvement and address any new concerns that arise.\n\nCan you tell me, in your own words, what you understand about your current treatment and what we'll be doing next?\n\nLet's plan to check in again in a week. If you experience any worsening symptoms or new issues, please reach out sooner.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're dealing with some gastrointestinal issues, and you mentioned that a nasogastric tube for decompression has been used. I want to understand how this is affecting your daily life and what concerns you have about your recovery.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "gastrointestinal distress",
+            "profile_path": "problems[0]",
+            "explanation": "Gastrointestinal issues can be complex, and the use of a nasogastric tube for decompression suggests that we need to monitor your recovery closely. The current guidance emphasizes the importance of clear communication in healthcare interactions, especially when dealing with older patients, to ensure that their concerns and needs are fully addressed.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::39366124",
+                "primary_assertion_id": "39366124_retr",
+                "pmids": [
+                  "39366124"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll continue to monitor your gastrointestinal symptoms and the effectiveness of the nasogastric tube. Regular follow-ups will be important to track your improvement and address any new concerns that arise."
+        ],
+        "teach_back_prompt": "Can you tell me, in your own words, what you understand about your current treatment and what we'll be doing next?",
+        "follow_up_invitation": "Let's plan to check in again in a week. If you experience any worsening symptoms or new issues, please reach out sooner.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "retrieval_only::39366124"
+        ],
+        "all_pmids_used": [
+          "39366124"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "gastrointestinal distress"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "39366124"
+      ],
+      "cluster_ids_used": [
+        "retrieval_only::39366124"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 74174.76457357407,
+      "response_text": "It sounds like you're dealing with some challenges related to your gastric decompression, and I want to make sure I understand how this is affecting you.\n\nGastric decompression is often used to relieve pressure and discomfort caused by a buildup of gas in the stomach. Since you mentioned that you're improving, it's important to continue monitoring your progress and any changes in symptoms.\n\nWe'll keep an eye on your progress with the nasogastric tube and adjust as needed.\n\nIf you notice any changes in how you're feeling or if the improvement slows down, let us know so we can address it promptly.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're doing to help with your gastric decompression and why it's important?\n\nLet's plan to check in again in a week. If anything changes or if you have more questions, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're dealing with some challenges related to your gastric decompression, and I want to make sure I understand how this is affecting you.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "gastric decompression",
+            "profile_path": "problems[0]",
+            "explanation": "Gastric decompression is often used to relieve pressure and discomfort caused by a buildup of gas in the stomach. Since you mentioned that you're improving, it's important to continue monitoring your progress and any changes in symptoms.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[1]::39366124_0",
+                "primary_assertion_id": "39366124_0",
+                "pmids": [
+                  "39366124"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll keep an eye on your progress with the nasogastric tube and adjust as needed.",
+          "If you notice any changes in how you're feeling or if the improvement slows down, let us know so we can address it promptly."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're doing to help with your gastric decompression and why it's important?",
+        "follow_up_invitation": "Let's plan to check in again in a week. If anything changes or if you have more questions, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[1]::39366124_0"
+        ],
+        "all_pmids_used": [
+          "39366124"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "gastric decompression"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "39366124"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[1]::39366124_0"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 13627.223558723927,
+        "module_2_retrieval": 61.750322580337524,
+        "module_3_reasoning": 44950.04903525114,
+        "module_4_response": 15534.088604152203,
+        "total_ms": 74173.1115207076
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

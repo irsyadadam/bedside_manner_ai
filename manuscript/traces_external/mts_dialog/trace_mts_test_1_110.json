@@ -1,0 +1,226 @@
+{
+  "transcript_id": "mts_test_1_110",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "The patient is a 2-1/2-year-old female with a history of known febrile seizures, who was placed on Keppra oral solution at 150 mg b",
+  "patient_utterances": [
+    "[Clinician asked: \"How old is the baby girl?\"] She is two and a half years old.",
+    "[Clinician asked: \"And you both are her parents?\"] Yes.",
+    "[Clinician asked: \"Tell me what happened in detail.\"] She has a history of seizures. She used to have shakes and lose consciousness.",
+    "[Clinician asked: \"Was she taking any medications for that?\"] Yeah, she was placed on Keppra solution one hundred and fifty M G for two times a day. It helped a lot and she was doing fine. Her seizures were improving a lot but recently we have noticed something similar again.",
+    "[Clinician asked: \"What kind of symptoms are showing now?\"] She will just stop doing everything and stare blankly. We tried to shake her but during that period she just does not respond.",
+    "[Clinician asked: \"Does she becomes floppy like can't control her body during that phase?\"] No, we didn't notice that.",
+    "[Clinician asked: \"What are your thoughts on this? As a mother you might be spending more time with her.\"] Yeah, I have noticed this too, but I think it stays for like three to four minutes.",
+    "[Clinician asked: \"So, it is somewhere around thirty to forty seconds.\"] One day I was outside the store and then I noticed that she had a similar event. Her skin around her mouth turned blue.",
+    "[Clinician asked: \"Was she having any kind of jerky motions?\"] No.",
+    "[Clinician asked: \"Have you changed her medications like the amount you are giving or anything like that?\"] No, we haven't changed anything. She's still on the same dose."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "HPI": "The patient is a 2-1/2-year-old female with a history of known febrile seizures, who was placed on Keppra oral solution at 150 mg b.i.d. to help prevent febrile seizures.  Although this has been a very successful treatment in terms of her febrile seizure control, she is now having occasional brief periods of pauses and staring, where she becomes unresponsive, but does not lose her postural tone.  The typical spell according to dad last anywhere from 10 to 15 seconds, mom says 3 to 4 minutes, which likely means probably somewhere in the 30- to 40-second period of time.  Mom did note that an episode had happened outside of a store recently, was associated with some perioral cyanosis, but there has never been a convulsive activity noted.  There have been no recent changes in her Keppra dosing and she is currently only at 20 mg/kg per day, which is overall a low dose for her."
+  },
+  "n_patient_turns": 10,
+  "n_clinician_turns": 12,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 15388.932138681412,
+      "response_text": "I understand how concerning this must be for you. It's important to recognize that the symptoms your daughter is experiencing could be related to her seizures, even though they seem different from before. However, given the change in her condition and the recent episode where her skin turned blue, it's essential to ensure that everything is being properly evaluated.\n\nI recommend keeping a detailed log of these episodes, noting any patterns or triggers you might observe. Please reach out to her pediatric neurologist as soon as possible to discuss these changes. They may want to adjust her treatment or conduct further tests to understand what's happening. In the meantime, continue giving her medication as prescribed and don't hesitate to seek emergency care if she experiences any severe episodes, such as difficulty breathing or a prolonged lack of responsiveness.\n\nWe're here to support you and your family, and I encourage you to reach out if you have any more questions or concerns. Let's work together to ensure your daughter gets the care she needs.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 19810.135826468468,
+      "response_text": "Thank you for sharing all the details about your daughter's symptoms. It's understandable that you're feeling concerned, especially seeing her skin turn blue during an episode. I can tell you're closely observing her and that's really important for her care.\n\nGiven her history of seizures and the recent recurrence, it's possible that her current medication might need adjustment. Sometimes, even without jerky movements, changes in seizure patterns can indicate a need to review her treatment. The blue color around her mouth could be concerning, possibly related to a brief lack of oxygen, which we should monitor closely.\n\nWe'll plan to review her medication regimen and consider any necessary adjustments. It might also be helpful to document each episode in detail, including what happens before, during, and after, to better understand the pattern. If you notice any significant changes or if she experiences more severe symptoms, please seek immediate care.\n\nBefore we wrap up, could you summarize the plan in your own words so I can ensure everything is clear? We'll follow up in two weeks to see how she's doing and make any needed changes.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6558.239221572876,
+      "response_text": "Thank you for sharing your concerns about your daughter's seizures. It sounds like you're doing your best to manage her condition, and I'm here to help.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again soon. In the meantime, if you notice any new symptoms or changes in her condition, please reach out.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns about your daughter's seizures. It sounds like you're doing your best to manage her condition, and I'm here to help.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again soon. In the meantime, if you notice any new symptoms or changes in her condition, please reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 81524.55607801676,
+      "response_text": "It sounds like you're dealing with some concerning symptoms with the seizures lasting up to 3-4 minutes, including shakes, loss of consciousness, staring blankly, and being unarousable. I want to make sure we're addressing this properly.\n\nSeizures lasting 3-4 minutes with symptoms like shakes and loss of consciousness are serious. We should look into why they're happening and how to manage them better.\n\nWe'll need to review your current treatment plan and see if adjustments are needed. This might include checking how well Keppra is working for you.\n\nWe should also schedule a follow-up appointment to discuss any changes in your symptoms and treatment effectiveness.\n\nCan you tell me, in your own words, what we discussed about your seizures and the next steps we're planning?\n\nLet's plan to see each other again in a few weeks. In the meantime, if your seizures get worse or you notice any new symptoms, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're dealing with some concerning symptoms with the seizures lasting up to 3-4 minutes, including shakes, loss of consciousness, staring blankly, and being unarousable. I want to make sure we're addressing this properly.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "seizures",
+            "profile_path": "problems[0]",
+            "explanation": "Seizures lasting 3-4 minutes with symptoms like shakes and loss of consciousness are serious. We should look into why they're happening and how to manage them better.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll need to review your current treatment plan and see if adjustments are needed. This might include checking how well Keppra is working for you.",
+          "We should also schedule a follow-up appointment to discuss any changes in your symptoms and treatment effectiveness."
+        ],
+        "teach_back_prompt": "Can you tell me, in your own words, what we discussed about your seizures and the next steps we're planning?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if your seizures get worse or you notice any new symptoms, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 1,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "seizures"
+        ],
+        "medications": [
+          "Keppra solution 150 mg twice a day"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 153965.23866802454,
+      "response_text": "It sounds like the seizures have been particularly challenging for you, especially with how they're getting worse.\n\nThe changes in your seizure pattern could indicate a need to reassess your current treatment. Recent guidelines suggest evaluating the effectiveness of your current medication and considering adjustments if seizures are becoming more frequent or severe.\n\nWe'll review your current medication regimen and schedule a follow-up appointment to discuss any adjustments that might help manage your seizures better.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if you notice any new symptoms or if the seizures get worse, please call us so we can address them promptly.",
+      "structured_response": {
+        "acknowledgment": "It sounds like the seizures have been particularly challenging for you, especially with how they're getting worse.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "seizures",
+            "profile_path": "problems[0]",
+            "explanation": "The changes in your seizure pattern could indicate a need to reassess your current treatment. Recent guidelines suggest evaluating the effectiveness of your current medication and considering adjustments if seizures are becoming more frequent or severe.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[0]::31237649_0",
+                "primary_assertion_id": "31237649_0",
+                "pmids": [
+                  "31237649"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll review your current medication regimen and schedule a follow-up appointment to discuss any adjustments that might help manage your seizures better."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if you notice any new symptoms or if the seizures get worse, please call us so we can address them promptly.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[0]::31237649_0"
+        ],
+        "all_pmids_used": [
+          "31237649"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 1,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "seizures"
+        ],
+        "medications": [
+          "Keppra solution 150 mg twice a day"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [
+        "31237649"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[0]::31237649_0"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 70364.39257860184,
+        "module_2_retrieval": 37.0752215385437,
+        "module_3_reasoning": 68203.23544740677,
+        "module_4_response": 15359.523765742779,
+        "total_ms": 153964.22701328993
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

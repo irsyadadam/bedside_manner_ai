@@ -1,0 +1,216 @@
+{
+  "transcript_id": "mts_val_81",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "This is a 58-year-old white female suffering increasing right knee pain for number of years prior to surgical intervention",
+  "patient_utterances": [
+    "[Clinician asked: \"I hear someone just had a birthday! How young are you now, ma'am?\"] Hello, doctor. I just turned fifty eight.",
+    "[Clinician asked: \"That's wonderful. You identify as white as well, correct?\"] Yes, that's correct.",
+    "[Clinician asked: \"Is this right knee still bothering you?\"] Yes, and it's been going on for years now.",
+    "[Clinician asked: \"I've done two arthroscopies on this knee, right?\"] Yeah, that's right.",
+    "[Clinician asked: \"How have you handled conservative treatment?\"] What does that mean?",
+    "[Clinician asked: \"Well, that's the antiinflammatories, rest, and changes in activity you've been advised to do.\"] Honestly, there's been no improvement.",
+    "[Clinician asked: \"Okay, and I'm looking at your images, and they show collapsing type valgus degenerative osteoarthritis, and there's complete collapse and wear of the lateral compartment and degenerative changes noted to the femoral sulcus.\"] Okay, I need you to explain that for me, doctor.",
+    "[Clinician asked: \"In summary, you have a pretty significant amount of arthritis in this knee.\"] Lateral compartment, that's the outside of the knee, right?",
+    "[Clinician asked: \"Yes, that's correct. Your medial, or inside part of the knee, looks much better comparatively, but there's still some arthritis.\"] Okay, thank you.",
+    "[Clinician asked: \"Are you able to flex and extend the knee all the way?\"] Yes, look."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "HPI": "This is a 58-year-old white female suffering increasing right knee pain for number of years prior to surgical intervention.  She was completely refractory to conservative outpatient therapy.  She had undergone two knee arthroscopies in the years preceding this.  They were performed by myself.  She ultimately failed this treatment and developed a collapsing-type valgus degenerative osteoarthritis with complete collapse and ware of the lateral compartment and degenerative changes noted to the femoral sulcus that were proved live.  Medial compartment had minor changes present.  There was no contracture of the lateral collateral ligament, but instead mild laxity on both sides.  There was no significant flexion contracture preoperatively."
+  },
+  "n_patient_turns": 10,
+  "n_clinician_turns": 11,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 19986.624985933304,
+      "response_text": "I understand how frustrating and challenging it must be to deal with knee pain for so long, especially after trying different treatments without relief. It\u2019s important to acknowledge how tough this situation has been for you. Based on what we\u2019ve discussed, it sounds like the arthritis in your knee, particularly on the outside (lateral compartment), is causing significant discomfort. While the inside of your knee (medial compartment) is in better shape, there are still some arthritic changes present.\n\nGiven that conservative treatments haven\u2019t provided relief, we might need to explore other options together. These could include weight management to reduce strain on your knee, physical therapy to strengthen the muscles around it, or possibly injections to help with pain and inflammation. In some cases, a brace might offer additional support, and if those options don\u2019t help, surgery could be considered. I want to make sure you feel comfortable asking any questions or sharing your thoughts about these possibilities. Let\u2019s work together to find the best approach for your situation.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 23805.590733885765,
+      "response_text": "Thank you for sharing your concerns with me. It sounds like this has been a challenging journey for you, dealing with knee pain for so many years despite the treatments you've tried. I can understand how frustrating and worrying this must be, especially after multiple procedures and seeing little improvement. Your persistence in seeking solutions is commendable, and I want to make sure we explore all possible options together to find relief for you.\n\nFrom what I gather, the imaging shows that the outside part of your knee (the lateral compartment) has significant wear and tear, while the inside is doing better. Think of your knee like a door hinge that's wearing unevenly\u2014over time, this can lead to pain and difficulty moving. It\u2019s important to address this to help you stay active and comfortable.\n\nWe\u2019ll consider next steps like physical therapy to strengthen the muscles around your knee, possibly a brace for support, or other treatments that might help. If needed, we can also explore surgical options. Before we finalize a plan, I\u2019d like to check in with you in a week or two to see how you\u2019re feeling and to make sure we\u2019re on the same page. Could you summarize what we\u2019ve discussed so far in your own words? That way, I can ensure I\u2019ve explained everything clearly.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7423.5645160079,
+      "response_text": "Thank you for sharing your concerns about your knee. It sounds like this has been going on for a while and you're looking for some clarity and guidance on how to move forward.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if your knee pain gets worse or you notice any new symptoms, please call us so we can address them promptly.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns about your knee. It sounds like this has been going on for a while and you're looking for some clarity and guidance on how to move forward.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if your knee pain gets worse or you notice any new symptoms, please call us so we can address them promptly.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 72685.56305021048,
+      "response_text": "It sounds like your right knee has been bothering you for a while. I want to understand how this is affecting your daily life and what we can do together to help.\n\nThe right knee bother you've been experiencing for years could be related to various factors. We'll need to explore this further to identify the underlying cause and determine the best approach to manage it.\n\nWe'll schedule a follow-up visit to discuss your symptoms in more detail and plan the next steps together.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again soon. In the meantime, if your symptoms get worse or you experience any new issues, please call us so we can address them promptly.",
+      "structured_response": {
+        "acknowledgment": "It sounds like your right knee has been bothering you for a while. I want to understand how this is affecting your daily life and what we can do together to help.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "right knee bother",
+            "profile_path": "problems[0]",
+            "explanation": "The right knee bother you've been experiencing for years could be related to various factors. We'll need to explore this further to identify the underlying cause and determine the best approach to manage it.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll schedule a follow-up visit to discuss your symptoms in more detail and plan the next steps together."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again soon. In the meantime, if your symptoms get worse or you experience any new issues, please call us so we can address them promptly.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "right knee bother"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 132530.38965910673,
+      "response_text": "It sounds like your right knee pain has been something you've been dealing with for a while. I want to make sure I understand how this is affecting your daily life.\n\nGiven that your knee pain has been ongoing and you've tried antiinflammatories, rest, and changes in activity without full relief, it's important to explore further causes. We'll focus on understanding the root of the pain to guide the next steps.\n\nWe'll schedule a follow-up visit to discuss the results of any necessary tests and plan the next steps together.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if the pain gets worse or you notice any new symptoms, please call us so we can address them promptly.",
+      "structured_response": {
+        "acknowledgment": "It sounds like your right knee pain has been something you've been dealing with for a while. I want to make sure I understand how this is affecting your daily life.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "right knee pain",
+            "profile_path": "problems[0]",
+            "explanation": "Given that your knee pain has been ongoing and you've tried antiinflammatories, rest, and changes in activity without full relief, it's important to explore further causes. We'll focus on understanding the root of the pain to guide the next steps.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[1]::39366124_0",
+                "primary_assertion_id": "39366124_0",
+                "pmids": [
+                  "39366124",
+                  "40155879"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll schedule a follow-up visit to discuss the results of any necessary tests and plan the next steps together."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if the pain gets worse or you notice any new symptoms, please call us so we can address them promptly.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[1]::39366124_0"
+        ],
+        "all_pmids_used": [
+          "39366124",
+          "40155879"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "right knee pain"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "39366124",
+        "40155879"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[1]::39366124_0"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 62323.09930771589,
+        "module_2_retrieval": 69.75211948156357,
+        "module_3_reasoning": 52911.91689670086,
+        "module_4_response": 17223.36172312498,
+        "total_ms": 132528.1300470233
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

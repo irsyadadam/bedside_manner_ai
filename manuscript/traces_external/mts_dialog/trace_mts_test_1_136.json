@@ -1,0 +1,245 @@
+{
+  "transcript_id": "mts_test_1_136",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "School reports continuing difficulties with repetitive questioning, obsession with cleanness on a daily basis, concerned about his inability",
+  "patient_utterances": [
+    "[Clinician asked: \"Can you tell me more about your son, ma'am?\"] Well, I have his reports from his school right here.",
+    "[Clinician asked: \"What do they say?\"] Well, in summary, he's having a lot of problems at school.",
+    "[Clinician asked: \"What kind of problems is he having?\"] Well, he has been asking an unusual number of questions, and he's been obsessed with cleaning and cleanness.",
+    "[Clinician asked: \"What about his interactions with his classmates?\"] According to the reports from his school, he doesn't relate well in the classroom.",
+    "[Clinician asked: \"How is his mood?\"] Well, he seems to be confused and depressed sometimes.",
+    "[Clinician asked: \"Is he still asking a lot of questions in class?\"] It's come down a little bit recently.",
+    "[Clinician asked: \"Are there any other unusual behaviors you've seen?\"] Um, he used to collect old little toys when he was younger, and he's started doing that again.",
+    "[Clinician asked: \"I see, what are his plans for the summer, will he be in classes?\"] He'll be in a social skills program this summer, doctor.",
+    "[Clinician asked: \"I see here as well that A B C D has referred him to two psychologists for functional behavioral analysis, is that correct?\"] Yes, doctor, that's correct.",
+    "[Clinician asked: \"Good, be sure to follow up with them please.\"] Yes, we will, doctor.",
+    "[Clinician asked: \"Has he been taking his Zoloft?\"] No, he's taking, um, seven point five M G of Abilify.",
+    "[Clinician asked: \"I see, how has he responded to stopping taking the Zoloft?\"] Actually, the tremors in his hands have been a little better."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "HPI": "School reports continuing difficulties with repetitive questioning, obsession with cleanness on a daily basis, concerned about his inability to relate this well in the classroom.  He appears confused and depressed at times.  Mother also indicates that preservative questioning had come down, but he started collecting old little toys that he did in the past.  He will attend social skills program in the summer.  ABCD indicated to me that they have identified two psychologists to refer him to for functional behavioral analysis.  There is lessening of tremoring in both hands since discontinuation of Zoloft.  He is now currently taking Abilify at 7.5 mg."
+  },
+  "n_patient_turns": 12,
+  "n_clinician_turns": 12,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 24534.57923233509,
+      "response_text": "Thank you for sharing all this information with me. I can tell how much you care about your son and how dedicated you are to helping him through this challenging time. It sounds like his behavior and mood are significantly impacting his school experience, and I can only imagine how difficult that must be for both of you.\n\nIt\u2019s positive that he\u2019s enrolled in a social skills program and that you\u2019ve sought referrals for psychological evaluations. These steps are crucial for gaining a deeper understanding of his needs. The improvement in his tremors since stopping Zoloft is encouraging, and I\u2019m glad Abilify seems to be a better option for him. Let\u2019s continue to monitor his progress and adjust his treatment as needed.\n\nPlease know that I\u2019m here to support you and your son. If there\u2019s anything specific you\u2019re worried about or need assistance with, feel free to reach out. We\u2019ll work together to ensure he gets the help he needs.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 22726.8610522151,
+      "response_text": "Thank you for sharing all this information about your son. It sounds like this has been quite challenging for both you and him. I can understand how concerning it must be to see him struggling with these changes in behavior and mood. It\u2019s important to acknowledge how much effort you\u2019re putting into supporting him through this.\n\nGiven his behaviors, such as the increased questioning, cleaning obsessions, and social difficulties, it\u2019s possible he may be experiencing anxiety or another condition like OCD. Studies suggest that early intervention can be beneficial in such cases [PMID ?]. The school\u2019s referral for a functional behavioral analysis is a good step to understand his needs better. Additionally, the social skills program this summer could provide him with the tools to improve his interactions with peers.\n\nRegarding his medication, the improvement in tremors since stopping Zoloft and now being on Abilify might indicate that it\u2019s helping with his anxiety. However, it\u2019s also worth considering other possibilities, such as ADHD, which could explain some of his behaviors [PMID ?]. We should continue monitoring his progress and involve the behavioral analysts to gain more insights.\n\nTo move forward, we\u2019ll keep him engaged in the behavioral analysis and the social skills program. I\u2019ll also schedule a follow-up in a few weeks to check on his progress and adjust his treatment plan as needed. Before you leave, could you summarize our plan in your own words to ensure everything is clear?",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6389.129839837551,
+      "response_text": "Thank you for sharing all this information about your son. It sounds like you're doing your best to support him through these challenges.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again soon. In the meantime, if you notice any new concerns or changes in his behavior, please reach out.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing all this information about your son. It sounds like you're doing your best to support him through these challenges.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again soon. In the meantime, if you notice any new concerns or changes in his behavior, please reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 106691.39594584703,
+      "response_text": "It sounds like you're dealing with some concerns about your recent behavior with cleaning and collecting old toys. I want to understand how these changes are affecting your daily life.\n\nChanges in behavior like an increased focus on cleaning can sometimes be linked to underlying mental health concerns. We'll need to explore this further to understand what might be causing these changes.\n\nSudden changes in behavior, such as collecting old toys again, can be a sign of various factors including stress or other mental health issues. It's important to look into this to provide appropriate support.\n\nWe'll schedule a follow-up to discuss these concerns in more detail and explore possible reasons for the changes in your behavior.\n\nWe'll also review your current medications to see if they might be contributing to these behaviors.\n\nCan you tell me, in your own words, what you understand about the next steps we discussed?\n\nLet's plan to meet again in two weeks. If you notice any significant changes in your behavior or mood before then, please reach out so we can address them promptly.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're dealing with some concerns about your recent behavior with cleaning and collecting old toys. I want to understand how these changes are affecting your daily life.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "obsession with cleaning and cleanness",
+            "profile_path": "problems[0]",
+            "explanation": "Changes in behavior like an increased focus on cleaning can sometimes be linked to underlying mental health concerns. We'll need to explore this further to understand what might be causing these changes.",
+            "citations": []
+          },
+          {
+            "concern_label": "collecting old toys",
+            "profile_path": "problems[1]",
+            "explanation": "Sudden changes in behavior, such as collecting old toys again, can be a sign of various factors including stress or other mental health issues. It's important to look into this to provide appropriate support.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll schedule a follow-up to discuss these concerns in more detail and explore possible reasons for the changes in your behavior.",
+          "We'll also review your current medications to see if they might be contributing to these behaviors."
+        ],
+        "teach_back_prompt": "Can you tell me, in your own words, what you understand about the next steps we discussed?",
+        "follow_up_invitation": "Let's plan to meet again in two weeks. If you notice any significant changes in your behavior or mood before then, please reach out so we can address them promptly.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 2,
+        "n_medications": 1,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "obsession with cleaning and cleanness",
+          "collecting old toys"
+        ],
+        "medications": [
+          "Abilify (7.5 mg)"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 141993.38299781084,
+      "response_text": "It sounds like you're dealing with some concerns about your cleaning habits and the recent return to collecting old toys. I want to understand how these things are affecting your daily life.\n\nPeople who frequently attend primary care often have chronic health issues or psychological conditions. We should consider how these cleaning habits might be linked to your overall health.\n\nRecent changes in habits, like collecting old toys, can sometimes be linked to underlying health concerns. We'll explore this further to understand its impact on your well-being.\n\nWe'll discuss your concerns in more detail to understand how they're affecting you.\n\nWe can explore any underlying health issues that might be contributing to these habits.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to talk more about this in our next visit. If anything changes or if you have more questions, feel free to reach out.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're dealing with some concerns about your cleaning habits and the recent return to collecting old toys. I want to understand how these things are affecting your daily life.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "obsession with cleaning and cleanness",
+            "profile_path": "problems[0]",
+            "explanation": "People who frequently attend primary care often have chronic health issues or psychological conditions. We should consider how these cleaning habits might be linked to your overall health.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[0]::41031717_0",
+                "primary_assertion_id": "41031717_0",
+                "pmids": [
+                  "41031717"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "collecting old toys",
+            "profile_path": "problems[1]",
+            "explanation": "Recent changes in habits, like collecting old toys, can sometimes be linked to underlying health concerns. We'll explore this further to understand its impact on your well-being.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[0]::41031717_0",
+                "primary_assertion_id": "41031717_0",
+                "pmids": [
+                  "41031717"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll discuss your concerns in more detail to understand how they're affecting you.",
+          "We can explore any underlying health issues that might be contributing to these habits."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to talk more about this in our next visit. If anything changes or if you have more questions, feel free to reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[0]::41031717_0"
+        ],
+        "all_pmids_used": [
+          "41031717"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 2,
+        "n_medications": 1,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "obsession with cleaning and cleanness",
+          "collecting old toys"
+        ],
+        "medications": [
+          "Abilify (7.5 mg)"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [
+        "41031717"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[0]::41031717_0"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 88929.39555644989,
+        "module_2_retrieval": 62.34509497880936,
+        "module_3_reasoning": 33310.17716228962,
+        "module_4_response": 19690.15122205019,
+        "total_ms": 141992.0690357685
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

@@ -1,0 +1,156 @@
+{
+  "transcript_id": "mts_test_1_93",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "CARDIAC:  He denies any chest pain or shortness of breath",
+  "patient_utterances": [
+    "[Clinician asked: \"So, tell me any chest pain or shortness of breath?\"] No, none of those.",
+    "[Clinician asked: \"Any bleeding disorder, prolonged bleeding or anything?\"] No.",
+    "[Clinician asked: \"And I already have G I and urinary tract reports. Anything else?\"] No, I don't think so."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "ROS": "CARDIAC:  He denies any chest pain or shortness of breath. ENDOCRINE:  He denies any bleeding disorders."
+  },
+  "n_patient_turns": 3,
+  "n_clinician_turns": 3,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 14659.650705754757,
+      "response_text": "Thank you for sharing that information with me. I appreciate your openness and cooperation\u2014it really helps us provide the best care possible. Your responses are completely normal and reassuring. Based on what you've told me, we can move forward with confidence. If anything else comes to mind or if you have any concerns, please don't hesitate to let me know. We're here to support you.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 22970.176301896572,
+      "response_text": "Thank you for your openness and for answering all my questions. I can see that you've been thorough in sharing your health details, which is really helpful. It must be reassuring for you to be able to answer so confidently, and I appreciate your honesty.\n\nYour responses are very helpful in evaluating your situation. The absence of symptoms like chest pain or bleeding can be a positive sign, and it's good news that these issues aren't present. This information will guide us in reviewing your case with the care team and monitoring your health closely.\n\nTo ensure everything is clear, could you summarize the plan we discussed? This will help confirm that you understand the next steps. We'll follow up in about a week to check in and see how you're doing. I'm confident that your cooperation will support a positive outcome for your health.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 4927.631884813309,
+      "response_text": "It sounds like you don't have any current concerns about chest pain, shortness of breath, bleeding issues, or other symptoms. Let me know if anything comes up that we should discuss.\n\nLet's keep in touch and feel free to reach out if any new symptoms arise. We're here to help.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you don't have any current concerns about chest pain, shortness of breath, bleeding issues, or other symptoms. Let me know if anything comes up that we should discuss.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "",
+        "follow_up_invitation": "Let's keep in touch and feel free to reach out if any new symptoms arise. We're here to help.",
+        "nurse_elements_applied": [],
+        "four_habits_elements_applied": [],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 14049.426883459091,
+      "response_text": "Thank you for reaching out. I understand you're here to discuss your concerns and we'll work together to address them.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again soon. If you have any new concerns or symptoms in the meantime, please reach out.",
+      "structured_response": {
+        "acknowledgment": "Thank you for reaching out. I understand you're here to discuss your concerns and we'll work together to address them.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again soon. If you have any new concerns or symptoms in the meantime, please reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 0,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 60297.1006333828,
+      "response_text": "Thank you for reaching out. I understand you're here to discuss your concerns and we'll work together to address them.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. If anything changes or if you have new concerns, please reach out sooner.",
+      "structured_response": {
+        "acknowledgment": "Thank you for reaching out. I understand you're here to discuss your concerns and we'll work together to address them.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. If anything changes or if you have new concerns, please reach out sooner.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 0,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 7870.666399598122,
+        "module_2_retrieval": 21.498188376426697,
+        "module_3_reasoning": 45350.66934674978,
+        "module_4_response": 7053.092248737812,
+        "total_ms": 60295.92618346214
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

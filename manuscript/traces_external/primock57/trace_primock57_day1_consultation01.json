@@ -1,0 +1,247 @@
+{
+  "transcript_id": "primock57_day1_consultation01",
+  "dataset": "primock57",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "I've been having really bad diarrhea for the last 3 days",
+  "patient_utterances": [
+    "[Clinician asked: \"Hello? Hi. Um, should we start? Yeah, okay. Hello how um. Good morning sir, how can I help you this morning?\"] Hello, how are you? Oh hey, um, I've just had some diarrhea for the last three days, um, and it's been affecting me I need to stay close to the toilet. And, um, yeah, it's been affecting my day-to-day activities.",
+    "[Clinician asked: \"Sorry to hear that. Um, and and when you say diarrhea, what'd you mean by diarrhea? Do you mean you're going to the toilet more often? Or are your stools more loose?\"] Yeah, so it's like loose and watery stool, going to the toilet quite often, uh and like some pain in my, like, lower stomach?",
+    "[Clinician asked: \"Okay. And how many times a day are you going, let's say, in the last couple of days?\"] Um, probably like six or seven times a day? Yeah.",
+    "[Clinician asked: \"Six, seven times a day. And you  mention it's mainly watery. Have you noticed any other things, like blood in your stools?\"] No, no blood, yeah, just watery and loose stool.",
+    "[Clinician asked: \"Okay. And you mentioned you've had some pain in your tummy as well.  Whereabouts is the pain, exactly?\"] Yep. So  in my lower abdomen, so, uh, like, um...yeah, just to one side.",
+    "[Clinician asked: \"One side. And what side is that?\"] Uh, on the left side.",
+    "[Clinician asked: \"Left side. Okay, and can you describe the pain to me?\"] Yeah, it feels, um, like a cramp, like a muscular cramp, and, um, yeah i feel a bit uh weak and shaky.",
+    "[Clinician asked: \"Okay. And is the pain, is that, is it there all the time, or does it come and go?\"] Uh, it comes and goes.",
+    "[Clinician asked: \"Come and go. Does the pain move anywhere else, for example towards your back?\"] Uh...no, just maybe my stomach.",
+    "[Clinician asked: \"Okay, fine. And you mentioned you've been feeling quite weak and shaky as well. What do you mean by shaky? Do you mean you've been having, uh have you been feeling feverish, for example?\"] Yeah. Um, yeah, it doesn't feel like -- yeah, it just makes me feel weak. I haven't had a fever, um, at the moment, but I did notice um a temperature when the symptoms started, so, um, yeah around about three or four days ago.",
+    "[Clinician asked: \"You measure your temperature then?\"] Yeah, I uh I didn't mention my temperature, no, but I felt, um, just a bit hot. And, y'know.",
+    "[Clinician asked: \"Okay. Okay. Any other symptoms like sweating, or um, night sweats? No? And, uh, any vomiting at all?\"] Uh, no. Yeah, so um, I vomited at the start of the symptoms but now um I've stopped vomiting.",
+    "[Clinician asked: \"You stopped vomiting, okay. And was your vomit, I know it's not a nice thing to talk about, but was it just normal food colour  Yeah. And there was no blood in your vomit, is that right?\"] Yeah, yeah, just normal vomit, yeah. No no blood, no. Yeah.",
+    "[Clinician asked: \"No, okay. Um, and um, any any other symptoms at all? So you mentioned tummy pain, you mentioned diarrhea, you mentioned your vomiting, uh, anything else that comes to mind?\"] Yep. Um, I had a loss of appetite, um, so I haven't been eating as much, but I've been able to hold down fluids.",
+    "[Clinician asked: \"Okay. Okay, so you're drinking fluids. Um, what kind of foods have you managed to eat, if anything?\"] Yep. Um, just soups, and, uh, yeah, light foods. Like smoothies and, yeah, liquid foods mainly.",
+    "[Clinician asked: \"Okay. Fine. Um, and sir  these started three days ago the symptoms. Are you aware of any triggers which may have caused the symptoms uh to kick on. So for example, think like takeaway foods or eating out or being around other people with similar symptoms.\"] Yeah, so I had takeaway about four days ago, um, uh, but other than that I've, yeah, been, uh, eating normally. Nothing unusual here.",
+    "[Clinician asked: \"Okay. Do you remember where you ate?\"] Um, yeah, I  ate at a Chinese restaurant with friends. Yeah.",
+    "[Clinician asked: \"Okay. Anyone else unwell with similar symptoms?\"] Um, so no one else in the family, so  a wife and two kids and one, um, child was vomiting, but they haven't got diarrhea. There's no one with the same symptoms.",
+    "[Clinician asked: \"Okay, okay. Fine. Um, alright. And uh, in terms of your , your overall health, are you normally fit and well? Or, uh\"] Um, yeah, I mean, other than um athsma, um I use an inhaler, everything uh else is fine.",
+    "[Clinician asked: \"Okay. And, is your asthma well-controlled?\"] Uh, yeah, that's fine. I just, yeah, use an inhaler, and uh that's under control.",
+    "[Clinician asked: \"Fine. And you don't have any other tummy problem, bowel problems I should be aware of?\"] No.",
+    "[Clinician asked: \"No, okay. Um, and  apart from the inhalers, do you take any other medications?\"] Uh, no, no other medications.",
+    "[Clinician asked: \"Okay, fine. And in terms of just your day to day life, you said it's been affecting your life, um, in what way has it been affecting your life?\"] Yeah. Uh, so, I need to stay close to the toilet 'cause I go quite frequently during the these past three days. Um, yeah, other than that, it's uh, yeah, the main concern.",
+    "[Clinician asked: \"Okay. Yeah. And have you, are you currently working at the moment?\"] Uh, yes, yeah. I I work, er. Um, I'm an accountant.",
+    "[Clinician asked: \"Would, would work. Okay. Have you been going into work the last three days, or have you been at home?\"] Uh, yeah, I've been going to work. Yeah. Yeah, it's been quite difficult.",
+    "[Clinician asked: \"okay. That must be difficult for you then. fine. And you said, you mentioned you live with your wife and two children, is that right?\"] Yes, yeah.",
+    "[Clinician asked: \"Right, alright. Um, just a couple of other question we need to ask, sir. Um, do you smoke at all?\"] Uh, no, I don't smoke.",
+    "[Clinician asked: \"And do you drink much in the way of alcohol?\"] Uh, no, I I don't drink alcohol, no.",
+    "[Clinician asked: \"Okay.  so um, er normally at this stage I like to um, examine you if that's okay, but um, um, but but having listened to your story, sir, I think uh, um, just to recap  for the last three days you've been having loose stool, diarrhea, a bit of tummy pain uh mainly on the left-hand side, um and  vomi\"] Yeah. Okay.",
+    "[Clinician asked: \"Um, it seems like you may have something, uh, called gastroenteritis, which essentially just a tummy bug or infection of your uh of your tummy. Uh, mainly caused by viruses but there can be a possibility of bacteria uh causing its symptoms. Um.\"] Yeah. Yeah.",
+    "[Clinician asked: \"At this stage, uh, what, what we'd recommend is just what we say conservative management. So, um, I don't think you need anything like antibiotics. It's really just, um, making sure you're well hydrated, so drinking fluids.\"] Mm-hmm.",
+    "[Clinician asked: \"Um,  there are things like Dioralyte you can get from the pharmacy, which uh it's um it helps helps replenish your minerals and vitamins.\"] Okay.",
+    "[Clinician asked: \"Um, and if you are having vomiting diarrhea I would say recommend that in the first, you know, first couple of days.\"] Yep.",
+    "[Clinician asked: \"If you are feeling feverish and weak, eh taking some paracetamol, uh,  two tablets up to four times a day for the first few days can also help.\"] Yep.",
+    "[Clinician asked: \"I will certainly advise you to take some time off work, actually I know you're quite keen to work but I would say the next two, two to three days as the infection clears from your system to take some time off and rest.\"] Okay. Yeah.",
+    "[Clinician asked: \"Um, I'll admit if your symptoms haven't got better, you know, in in three to four days, I'd like to come and see you again.\"] Okay, sure.",
+    "[Clinician asked: \"Because if it is ongoing then we have to wonder whether something else caused your symptoms.\"] Yep.",
+    "[Clinician asked: \"Uh, and we may need to do further tests like um taking a sample of your stool so we can test that. Um, etcetera etcetera.\"] Yep, sure, yep.",
+    "[Clinician asked: \"How's that sound?\"] That sounds great, yeah. Yeah.",
+    "[Clinician asked: \"Do you have any questions for me?\"] Um, no, no further questions, no.",
+    "[Clinician asked: \"Okay, and is uh is the treatment plan clear?\"] Uh, yes, yeah, that's that's very clear. Thank you.",
+    "[Clinician asked: \"Great. Well, I wish you all the best.\"] Okay, thank you. Bye."
+  ],
+  "gold_note": "3/7 hx of diarrhea, mainly watery. No blood in stool. Opening bowels x6/day. Associated LLQ pain - crampy, intermittent, nil radiation.  Also vomiting - mainly bilous. No blood in vomit. Fever on first day, nil since. Has been feeling lethargic and weak since. \n\nTakeaway 4/7 ago - Chinese restaurant. Wife and children also unwell with vomiting, but no diarrhea. No other unwell contacts. \n\nPMH: Asthma\nDH: Inhalers\nSH: works as an accountant. Lives with wife and children. Affecting his ADLs as has to be near toilet often. \nNil smoking/etOH hx\n\nImp: gastroenteritis \n\nPlan:\nConservative management - rest, push fluids, paracetamol if feverish. Recommend OTC diarolyte. To review in 3-5d if symptoms not improving. To see earlier if feeling more unwell.",
+  "gold_sections": {
+    "PRESENTING_COMPLAINT": "I've been having really bad diarrhea for the last 3 days",
+    "HIGHLIGHTS": "3/7 hx of diarrhea\nLLQ pain\nFever\ngastroenteritis\nConservative management"
+  },
+  "n_patient_turns": 42,
+  "n_clinician_turns": 43,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 20717.341504991055,
+      "response_text": "I'm really sorry to hear about the discomfort you've been experiencing over the past few days. It sounds like you're going through a tough time, especially with how it's affecting your daily activities and work. Based on what you've described, it seems like you might have gastroenteritis, which is typically caused by a virus or bacteria and can lead to symptoms like diarrhea, abdominal pain, and vomiting.\n\nFor now, the key steps are to stay well hydrated by drinking plenty of fluids and possibly using Dioralyte to replenish any lost minerals. Rest is important too, so take some time off work to recover. If you're feeling feverish or experiencing pain, you can take paracetamol to help with those symptoms. \n\nPlease make sure to monitor your condition. If your symptoms don't improve within the next three to four days, or if they get worse, it's important to come back for further evaluation, which might include a stool test to check for any infections. \n\nTake care of yourself, and I hope you feel better soon. If you have any more questions or concerns, don't hesitate to reach out.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 23652.200520038605,
+      "response_text": "Thank you for sharing your symptoms with me. It sounds like you're feeling quite unwell with this diarrhea and abdominal pain, and I can understand how concerning this must be for you, especially with how it's affecting your daily life and work.\n\nBased on what you've described, it seems like you might have a gastrointestinal infection, which is often caused by a virus or bacteria. These infections can cause symptoms like diarrhea, abdominal cramps, and weakness, and they usually resolve on their own within a few days. However, it's important to monitor your symptoms closely.\n\nTo help you feel better, I recommend staying well-hydrated with oral rehydration solutions like Dioralyte, which can help replace lost fluids and minerals [PMID ?]. If you're still feeling feverish or weak, you can take paracetamol to help with those symptoms [PMID ?]. It's also important to rest and avoid work for the next few days to allow your body to recover.\n\nPlease let me know if your symptoms don't improve within 3-4 days, or if they get worse. In that case, we might need to do some tests, like a stool sample, to check for any specific infections. Before you leave, could you summarize what we've discussed so far? That way, I can make sure everything is clear.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7437.640473246574,
+      "response_text": "It sounds like you're having a tough time with this diarrhea and how it's affecting your daily life. I understand how frustrating and uncomfortable that must be.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 3 to 4 days. If your symptoms get worse or you develop new ones like severe pain or dehydration, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're having a tough time with this diarrhea and how it's affecting your daily life. I understand how frustrating and uncomfortable that must be.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 3 to 4 days. If your symptoms get worse or you develop new ones like severe pain or dehydration, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 163523.01283180714,
+      "response_text": "It sounds like you're dealing with some tough symptoms, like diarrhea and feeling weak and shaky. I want to make sure I understand what's been going on.\n\nDiarrhea that comes on suddenly and lasts for several days, especially with symptoms like lower stomach pain and fever, can be caused by a variety of things. It's important to stay hydrated and monitor how you're feeling as we figure out what's going on.\n\nWe'll keep an eye on how you're doing and check in again soon.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to check in again soon. In the meantime, if your symptoms get worse or you develop new ones like severe pain or dehydration signs, please reach out.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're dealing with some tough symptoms, like diarrhea and feeling weak and shaky. I want to make sure I understand what's been going on.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "diarrhea",
+            "profile_path": "problems[0]",
+            "explanation": "Diarrhea that comes on suddenly and lasts for several days, especially with symptoms like lower stomach pain and fever, can be caused by a variety of things. It's important to stay hydrated and monitor how you're feeling as we figure out what's going on.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll keep an eye on how you're doing and check in again soon."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to check in again soon. In the meantime, if your symptoms get worse or you develop new ones like severe pain or dehydration signs, please reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "diarrhea"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 193024.47867393494,
+      "response_text": "It sounds like you're dealing with some tough symptoms like diarrhea, lower stomach pain, loss of appetite, and vomiting for the last three days. I understand how that can affect your daily life.\n\nBased on your symptoms, it's important to consider possible causes like infections or other gastrointestinal issues. The current guidance suggests evaluating these symptoms to determine the appropriate next steps.\n\nWe'll monitor your symptoms and may recommend some tests to better understand what's going on.\n\nIf your symptoms get worse or you develop new ones, please reach out.\n\nCan you tell me, in your own words, what we'll be doing next and why it's important?\n\nLet's plan to check in again in a week. If you experience severe dehydration, black stools, or worsening pain, please call us sooner.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're dealing with some tough symptoms like diarrhea, lower stomach pain, loss of appetite, and vomiting for the last three days. I understand how that can affect your daily life.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "diarrhea",
+            "profile_path": "problems[0]",
+            "explanation": "Based on your symptoms, it's important to consider possible causes like infections or other gastrointestinal issues. The current guidance suggests evaluating these symptoms to determine the appropriate next steps.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[0]::37567752_0",
+                "primary_assertion_id": "37567752_0",
+                "pmids": [
+                  "37567752"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll monitor your symptoms and may recommend some tests to better understand what's going on.",
+          "If your symptoms get worse or you develop new ones, please reach out."
+        ],
+        "teach_back_prompt": "Can you tell me, in your own words, what we'll be doing next and why it's important?",
+        "follow_up_invitation": "Let's plan to check in again in a week. If you experience severe dehydration, black stools, or worsening pain, please call us sooner.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[0]::37567752_0"
+        ],
+        "all_pmids_used": [
+          "37567752"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 1,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "diarrhea"
+        ],
+        "medications": [],
+        "allergies": [
+          "asthma (inhaler)"
+        ]
+      },
+      "pmids_used": [
+        "37567752"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[0]::37567752_0"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 153992.65353381634,
+        "module_2_retrieval": 66.52333587408066,
+        "module_3_reasoning": 25101.020961999893,
+        "module_4_response": 13862.769648432732,
+        "total_ms": 193022.96748012304
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

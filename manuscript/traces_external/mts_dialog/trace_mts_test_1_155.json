@@ -1,0 +1,254 @@
+{
+  "transcript_id": "mts_test_1_155",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "This 47-year-old white female presents with concern about possible spider bite to the left side of her neck",
+  "patient_utterances": [
+    "[Clinician asked: \"Hello, miss how can I help today? Do you mind stating your age and ethnicity for documentation purposes?\"] Okay. I am a white forty seven year old female. I am concerned about a spider bite on the back left side of my shoulder. I don't remember how it happened, I just noticed a bump near my shoulder two days ago. It is tender and red. I think it is getting bigger. Also, I want to know what the red streaks going up my neck are.",
+    "[Clinician asked: \"Is it tender when I touch the area? Have you had any fever?\"] It is slightly painful, but nothing to cry about. No, I have not had a fever."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "HPI": "This 47-year-old white female presents with concern about possible spider bite to the left side of her neck.  She is not aware of any specific injury.  She noticed a little tenderness and redness on her left posterior shoulder about two days ago.  It seems to be getting a little bit larger in size, and she saw some red streaks extending up her neck.  She has had no fever.  The area is very minimally tender, but not particularly so."
+  },
+  "n_patient_turns": 2,
+  "n_clinician_turns": 2,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 13230.98811507225,
+      "response_text": "Thank you for coming in to discuss your concerns. I understand how worrying it can be to notice something like this suddenly appear. I\u2019ll take a closer look at the bump on your shoulder and the red streaks on your neck to get a better idea of what might be going on. \n\nIn the meantime, could you let me know if you\u2019ve experienced any other symptoms, like chills, fatigue, or anything else that\u2019s been bothering you? This will help us determine the best course of action. We\u2019ll figure this out together, and I\u2019m here to help you feel better.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 24442.46456027031,
+      "response_text": "Thank you for sharing your concerns with me. It\u2019s completely understandable that you\u2019re worried about the bump on your shoulder and the red streaks on your neck. Noticing something new and unexpected like this can be unsettling, especially when it\u2019s accompanied by tenderness and redness. I want to make sure we address this together and get to the bottom of what\u2019s going on.\n\nGiven the symptoms you\u2019ve described\u2014a tender, red bump that\u2019s growing and red streaks extending up your neck\u2014it\u2019s important to consider a few possibilities. While it could be related to a spider bite, as you suspect, it\u2019s also possible that this is an infection, such as cellulitis, which can cause similar symptoms [PMID ?]. Cellulitis is a bacterial infection of the skin and underlying tissues, and it can sometimes spread, which might explain the red streaks. I\u2019ll need to examine the area and check for signs of infection, such as warmth or swelling.\n\nTo get a clearer picture, I\u2019ll perform a physical examination and may recommend imaging or a blood test to rule out other possibilities. If I suspect an infection, I might prescribe an antibiotic, either to take by mouth or via an IV, depending on how severe it seems [PMID ?]. It\u2019s also a good idea to keep the area elevated and avoid any activities that could cause more swelling.\n\nWe\u2019ll plan to follow up in about a week to see how you\u2019re responding to any treatment we start. Before you leave, could you summarize what we\u2019ve discussed so far? This will help ensure you feel confident in the plan and that I\u2019ve explained everything clearly. Please don\u2019t hesitate to ask any questions or share any other concerns you might have.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 9931.541338562965,
+      "response_text": "Thank you for sharing your concerns with me. You mentioned noticing a bump on your shoulder that's tender, red, and seems to be getting bigger, along with red streaks going up your neck. I understand how worrying this must be for you.\n\nWe'll need to examine the area closely and determine the best course of action to address your symptoms. This may include imaging or other diagnostic tests to ensure we're providing the most appropriate care for you.\n\nPlease let us know if there are any additional symptoms you're experiencing in the meantime.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again soon to review the results of any tests we've done. In the meantime, if the red streaks or the bump worsen, or if you develop a fever, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns with me. You mentioned noticing a bump on your shoulder that's tender, red, and seems to be getting bigger, along with red streaks going up your neck. I understand how worrying this must be for you.",
+        "clinical_information_per_concern": [],
+        "next_steps": [
+          "We'll need to examine the area closely and determine the best course of action to address your symptoms. This may include imaging or other diagnostic tests to ensure we're providing the most appropriate care for you.",
+          "Please let us know if there are any additional symptoms you're experiencing in the meantime."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again soon to review the results of any tests we've done. In the meantime, if the red streaks or the bump worsen, or if you develop a fever, please call us right away.",
+        "nurse_elements_applied": [
+          "Name",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 32981.20907694101,
+      "response_text": "Thank you for sharing your concerns about the spider bite and the red streaks. I understand how important it is for you to know what's going on.\n\nSpider bites can sometimes cause redness and tenderness, and the red streaks you're noticing might be a sign of an infection or another reaction. It's important to monitor these symptoms closely.\n\nUnderstanding the cause of the red streaks is a key concern for you. We'll work together to figure this out through the necessary evaluations.\n\nWe'll take the time to explain everything about the spider bite and address any questions you have to ensure you fully understand what's happening.\n\nWe'll schedule an examination to closely look at the bite and the red streaks.\n\nWe may take some samples or run tests to determine the cause of the redness and tenderness.\n\nWe'll also review any relevant medical history to better understand the situation.\n\nCan you tell me in your own words what we discussed today and what we'll be doing next?\n\nLet's plan to follow up in a week to review the results of the tests and address any further concerns you may have.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns about the spider bite and the red streaks. I understand how important it is for you to know what's going on.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "spider bite with redness and tenderness",
+            "profile_path": "problems[0]",
+            "explanation": "Spider bites can sometimes cause redness and tenderness, and the red streaks you're noticing might be a sign of an infection or another reaction. It's important to monitor these symptoms closely.",
+            "citations": []
+          },
+          {
+            "concern_label": "know what the red streaks are",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Understanding the cause of the red streaks is a key concern for you. We'll work together to figure this out through the necessary evaluations.",
+            "citations": []
+          },
+          {
+            "concern_label": "understand the spider bite",
+            "profile_path": "patient_goals[1]",
+            "explanation": "We'll take the time to explain everything about the spider bite and address any questions you have to ensure you fully understand what's happening.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll schedule an examination to closely look at the bite and the red streaks.",
+          "We may take some samples or run tests to determine the cause of the redness and tenderness.",
+          "We'll also review any relevant medical history to better understand the situation."
+        ],
+        "teach_back_prompt": "Can you tell me in your own words what we discussed today and what we'll be doing next?",
+        "follow_up_invitation": "Let's plan to follow up in a week to review the results of the tests and address any further concerns you may have.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 2,
+        "problems": [
+          "spider bite with redness and tenderness"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 71323.63104820251,
+      "response_text": "Thank you for sharing your concerns about the spider bite on your back. I understand you're curious about the red streaks going up your neck and want to know more about what's going on.\n\nIt's important to monitor the spider bite for any signs of infection or spreading. We'll keep a close eye on how it develops over time.\n\nWe'll monitor the red streaks to see if they change or spread, which could indicate a need for further evaluation.\n\nUnderstanding the spider bite involves monitoring its progression and any associated symptoms to determine the appropriate next steps.\n\nWe'll monitor the spider bite and the red streaks closely during your next visit.\n\nCan you tell me, in your own words, what we discussed regarding the spider bite and the red streaks?\n\nLet's plan to see each other again in a few weeks. In the meantime, if the red streaks spread or if you develop any new symptoms, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns about the spider bite on your back. I understand you're curious about the red streaks going up your neck and want to know more about what's going on.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "spider bite on back left shoulder",
+            "profile_path": "problems[0]",
+            "explanation": "It's important to monitor the spider bite for any signs of infection or spreading. We'll keep a close eye on how it develops over time.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[3]::39366124_0",
+                "primary_assertion_id": "39366124_0",
+                "pmids": [
+                  "39366124"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "know what the red streaks going up my neck are",
+            "profile_path": "patient_goals[0]",
+            "explanation": "We'll monitor the red streaks to see if they change or spread, which could indicate a need for further evaluation.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[3]::39366124_0",
+                "primary_assertion_id": "39366124_0",
+                "pmids": [
+                  "39366124"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "understand the spider bite",
+            "profile_path": "patient_goals[1]",
+            "explanation": "Understanding the spider bite involves monitoring its progression and any associated symptoms to determine the appropriate next steps.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[3]::39366124_0",
+                "primary_assertion_id": "39366124_0",
+                "pmids": [
+                  "39366124"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll monitor the spider bite and the red streaks closely during your next visit."
+        ],
+        "teach_back_prompt": "Can you tell me, in your own words, what we discussed regarding the spider bite and the red streaks?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if the red streaks spread or if you develop any new symptoms, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[3]::39366124_0"
+        ],
+        "all_pmids_used": [
+          "39366124"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 2,
+        "problems": [
+          "spider bite on back left shoulder"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "39366124"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[3]::39366124_0"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 16125.191025435925,
+        "module_2_retrieval": 65.73256850242615,
+        "module_3_reasoning": 31901.70954912901,
+        "module_4_response": 23229.64245826006,
+        "total_ms": 71322.27560132742
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

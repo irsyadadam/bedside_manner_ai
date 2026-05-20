@@ -1,0 +1,428 @@
+{
+  "transcript_id": "primock57_day1_consultation04",
+  "dataset": "primock57",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "I don't feel well, I have a cough and runny nose",
+  "patient_utterances": [
+    "[Clinician asked: \"Alex. Ohh. Hello? Hi, can you hear me?\"] <INAUDIBLE_SPEECH/> Yeah.",
+    "[Clinician asked: \"OK great. Um how can I help you this morning, sir?\"] Alright, so I've been feeling, I've been feeling kind of uh under the weather for the past four days.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/>\"] Um it started with the um, uh sore throat and runny nose, and It's sort of, um, it's sort of going into a cough now. Um, the sort throat is kind of going away, but, um,  I'm starting to cough.",
+    "[Clinician asked: \"Mm-hmm. OK.\"] And uh <INAUDIBLE_SPEECH/> kind of uh bad and tired.",
+    "[Clinician asked: \"Sorry to hear that . Mm. OK. I'm sorry to hear that. Seems like there's a lot going on there. Um so let's start with your, your sore throat first. Um  tell me a bit more about that, if you can.\"] Um ,so I, I , you know I think I, it all started with, uh, this colleague of mine, she just kept sneezing next to me, all the time. I think her kids are catching something from the uh from their kindergarten or something. And uh, you know the it it started as normal sore throat, and uh was quite painful for a couple days, but then it was past.",
+    "[Clinician asked: \"OK. OK. OK. And did you have any uh difficulty or pain on swallowing?\"] Um yeah. Yeah it was uh, it was quite painful to swallow,  for one or two days.",
+    "[Clinician asked: \"OK. You , did you manage to have a look at the back of your throat in the mirror?\"] Um no, not really.",
+    "[Clinician asked: \"No. OK you didn't, you didn't notice any abnormal  white spots, redness at the back of your throat?\"] Um No. Um I I didn't think about uh <INAUDIBLE_SPEECH/>.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/> that's OK. That's OK. And you mentioned a runny nose. Um again what kind of discharge is coming out? Is it clear, or is it  a bit more coloured?\"] Yeah yeah, it's uh it's clearing up . Sort of um, <INAUDIBLE_SPEECH/> sort of getting my nose stuffed all the time. It's very had to, uh to get it free.",
+    "[Clinician asked: \"OK. You feel quite congested, do you?\"] Yeah, quite congested.",
+    "[Clinician asked: \"OK, fine. Um you also mentioned a cough as well. Can you tell me a bit more about that?\"] Um yeah that started recently, like just uh um maybe yesterday. And um it's uh, it's dry for now, it's it's not very painful but it's sort of there, all the time.",
+    "[Clinician asked: \"OK. OK. And is it worse any particular time of the day?\"] Sorry?",
+    "[Clinician asked: \"Is it, is it worse any particular time of the day? For example in the evenings, night time, mornings?\"] Um",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/> throughout the day.\"] No it's it's um, it's sort of, it's sort of constant. Um I forgot to mention, that um I'm also having uh night sweats.",
+    "[Clinician asked: \"OK. Night first, OK.\"] That's, that's very odd actually. <INAUDIBLE_SPEECH/> makes me a bit tired, um makes my <INAUDIBLE_SPEECH/> uneasy.",
+    "[Clinician asked: \"Mm. <INAUDIBLE_SPEECH/> I can imagine, yes. Uh and this has again, been going on for last uh three four days, has it?\"] Yeah, yes.",
+    "[Clinician asked: \"OK. Um right, OK. Have you noticed any fevers or temperatures at all?\"] Um I I had some some fever in the beginning, but it's now sort of uh going down. I I've been taking some Paracetamol and Ibuprofen for that, and uh they, they help.",
+    "[Clinician asked: \"OK. That's very sensible. Um very good. Um in terms of your chest otherwise, have you any difficulty breathing, or any pain in your chest?\"] Um so no pain in chest, but uh I noticed that I um um so I feel a bit winded on exertion. So if I I  I haven't been going, going to the gym thus uh, because of that.",
+    "[Clinician asked: \"When you say winded, do you feel, uh do you feel more short of breath would you say, on exertion? Is that when you, OK. Um and and that's mainly on exercise. But when you're resting, there's no problem.\"] <INAUDIBLE_SPEECH/> yeah. <INAUDIBLE_SPEECH/> Yeah, yeah. When when when I'm resting it's OK. So  I've been actually going to work, um sort of managing.",
+    "[Clinician asked: \"OK. OK, fine. Just a couple other questions <INAUDIBLE_SPEECH/>, if you don't mind. Any pain in, in your ears at all?\"] Um no.",
+    "[Clinician asked: \"No, you don't feel blocked, or any discharge coming out of your ears?\"] <INAUDIBLE_SPEECH/> No, I don't think so.",
+    "[Clinician asked: \"OK, fine. Um what I'm gonna do, I'm just gonna run through a few uh yes no questions, if you if you don't mind, just a review of your systems. Any, any headaches at all?\"] Um, yeah, yeah. That that's still, that's still there.",
+    "[Clinician asked: \"Whereabouts are the head, headaches?\"] Um it's sort of general. Uh and uh  they're not, they're not always there, but you know every now and then they will come and go.",
+    "[Clinician asked: \"OK. And with those headaches have you had any problems with your, with your eyesight, your vision?\"] Um no.",
+    "[Clinician asked: \"Uh any difficulty with seeing bright lights?\"] No, I don't think so.",
+    "[Clinician asked: \"No, OK. Um and just moving down now,  in terms of any, any feeling nausea or any vomiting?\"] No, none of that.",
+    "[Clinician asked: \"OK. Tell me about your bowels. Are your bowels working OK?\"] Uh yeah, yeah. Think so.",
+    "[Clinician asked: \"You're passing urine OK?\"] Yeah, yeah.",
+    "[Clinician asked: \"How's your appetite, sir?\"] Yeah I've been, I've been drinking a lot more than the usual. But uh so  other than that, so",
+    "[Clinician asked: \"OK. Um and you're eating and drinking, uh you're eating OK otherwise.\"] Um maybe a bit less than uh than what I, I would usually have.",
+    "[Clinician asked: \"OK. Um have you noticed any, any funny rashes at all, on your skin?\"] Um no, no.",
+    "[Clinician asked: \"No. And any general muscle pain or aches, joint pain, <INAUDIBLE_SPEECH/>?\"] Yeah, yeah. Yeah that's, that sort of started in the past couple days.",
+    "[Clinician asked: \"Yeah, OK. Alright um and uh just having a look at the rest of your history, are you otherwise fit and well? Or do you have any other medical problems I should be aware of?\"] Um, so otherwise that, uh, I'm I'm fine. There's um, there isn't anything that I'm taking or, I'm being treated for.",
+    "[Clinician asked: \"OK. Um\"] Um",
+    "[Clinician asked: \"So you are otherwise fit and well. Uh any, any allergies at all to any medications, I should be aware of?\"] Um, no <INAUDIBLE_SPEECH/>",
+    "[Clinician asked: \"No, OK. Um Any family history at all? So anything relevant in the family that I should be aware of? Anything like diabetes, high blood pressure?\"] Um, yeah my grandma has diabetes. Um, and, my grandma.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/> Your brother? you say grandma, sorry my apologies. Grandma, OK. Uh do you know what type of diabetes it is? Is it type one, type two?\"] <INAUDIBLE_SPEECH/> I think , I think it's type two.",
+    "[Clinician asked: \"OK. Um anything else which you think is significant?\"] Yeah, I, I think um, one of my uh, great grandads had an eczema.",
+    "[Clinician asked: \"Excellent, OK. OK. Um just moving on to what we  social history, just to get to know you a bit more as a person. Tell me, who do you live with at home?\"] Ohh um, I live alone.",
+    "[Clinician asked: \"OK. And you said you're working at the moment?\"] Yeah, yeah.",
+    "[Clinician asked: \"What do you do for work?\"] I'm an, I'm an accountant.",
+    "[Clinician asked: \"OK, and how's your work going at the moment? Uh over the last, has it, has it been affecting your work?\"] Um, a little bit. I've been a bit slower. And you know, it's uh, it's, it's a bit of a stressful period just around the um, end of the year. Right.",
+    "[Clinician asked: \"Mm, OK. Is that stress, is that affecting your um, your mood at all any, in any way?\"] Um, no I think I think it's, it's the, you know it's the good kind of stress. It's um, it's good work.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/> OK. Well  if there's anything you want to talk to me about, you can always come see me about your mood, um stress, anxiety. <INAUDIBLE_SPEECH/> happy to help.\"] I don't know. I, I like my job. It's just you know, it's a bit more work than usual.",
+    "[Clinician asked: \"OK. OK. And just very briefly, just in terms of smoking uh, do you smoke at all?\"] Um, yeah occasionally, you know, cigars and things on company parties.",
+    "[Clinician asked: \"OK so not, not regular. Um and what about alcohol?\"] No. Um, occasionally yeah I would have some. I'm, I'm not a very big drinker.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/> socially with work.\"] Yeah.",
+    "[Clinician asked: \"Um OK. Um so um just having listened to your story, um uh really just to summarize you know since the last four days you've been feeling generally quite unwell, sore throat, runny nose, bit of a dry cough, bit of muscle pain, weakness. Um had initial fever, but now settled. Um I don't think there's \"] Yeah, yeah, that's that's <INAUDIBLE_SPEECH/>, it makes sense. Uh, I think <INAUDIBLE_SPEECH/> I'll take a couple days off, and see how it goes.",
+    "[Clinician asked: \"Yeah, yeah. and things to look out for if you're really not getting better, if you if you have a high fever, or your breathing is becoming a bit more labored, or chest pain, I'd like you to come back and see me much sooner, give me a call. Um and <INAUDIBLE_SPEECH/> we can help you out. OK?\"] Yeah. Yeah, yeah I understand. Uh, I'll uh, I'll take care.",
+    "[Clinician asked: \"Great. Have a great day. Good luck with your work. Thank you. Bye bye. Bye bye.\"] Thank you. Thank you. You too. Bye bye."
+  ],
+  "gold_note": "4/7 hx of generally unwell, mainly sore throat, runny nose, fatigue, myalgia and general joint pain. Sore throat is improving. Also has nasal congestion. Now developed a cough -mainly dry, constant. Night sweats for the past 4/7. Initially had fever, but now settling with paracetamol/ibuprofen. \nNo chest pain. Feels more SOB on exertion. \nAssociated headaches - generalized, intermittent. No visual sx/photophobia. No nausea/vomiting. No bowel or urinary sx. Drinking fluids, reduced appetite. No rashes\n\nPMH: Nil \nDH: nil \nNKDA\nFH: Grandmother - type 2 diabetes\nSH: lives alone, works as an accountant. Occasional smoker/etOH. Finding work slightly stressful. No mood sx. \n\nImp: viral URTI/influenza \n\nPlan:\n1.\tConservative mx - rest, push fluids, regular paracetamol/ibuprofen, monitor temp\n2.\tReview in 5-7d INB\n3.\tDiscussed red flag sx (SOB, chest pain, fevers)- if present, for urgent review with Dr",
+  "gold_sections": {
+    "PRESENTING_COMPLAINT": "I don't feel well, I have a cough and runny nose",
+    "HIGHLIGHTS": "sore throat\nfatigue\nmyalgia\ncough\nviral URTI/influenza"
+  },
+  "n_patient_turns": 50,
+  "n_clinician_turns": 50,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 26566.612251102924,
+      "response_text": "I'm really sorry to hear you're feeling this way. It sounds like you're going through a tough time with these symptoms\u2014sore throat, runny nose, cough, and fatigue. Based on what you've described, it seems like you might have a viral infection, possibly something like COVID or the flu. \n\nTo help yourself feel better, make sure to rest as much as possible, stay hydrated, and consider taking over-the-counter medications to ease your discomfort. If your symptoms get worse, or if you develop a high fever, chest pain, or struggle to breathe, please don't hesitate to reach out for further help. \n\nSince you're living alone, let me know if you need any assistance with groceries or medications. Take care of yourself, and if things don't improve, give me a call. I'm here to help.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 23191.830158233643,
+      "response_text": "Thank you for sharing your concerns with me. It sounds like you're feeling quite unwell over the past few days, and I can understand how that might be worrying. Having a sore throat, runny nose, and now a cough, along with feeling fatigued and experiencing night sweats, must be quite uncomfortable. I appreciate your efforts in managing your symptoms with ibuprofen and paracetamol, and I'm glad the fever has started to come down.\n\nGiven your symptoms, it seems like you might be dealing with a viral upper respiratory infection, which is quite common and usually resolves on its own. However, since you're also experiencing a cough and fatigue, I want to make sure there isn't a bacterial infection or something else that might need more attention. It's good that you're not having chest pain or severe breathing difficulties, but if those symptoms develop, it would be important to come back sooner.\n\nFor now, I recommend resting as much as possible, staying hydrated, and continuing with the medications you're taking. If your symptoms worsen, such as if you develop a high fever again, significant difficulty breathing, or chest pain, please don't hesitate to reach out or come back for a follow-up. We can schedule a check-in in about a week to see how you're doing and adjust any care as needed.\n\nBefore you leave, could you summarize what we've discussed so far? This will help ensure you understand the plan and feel comfortable with the next steps.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 9288.940198719501,
+      "response_text": "It sounds like you've been feeling under the weather for the past four days with a sore throat, runny nose, and now a dry cough. I understand how that can make daily life harder.\n\nWe'll keep an eye on your symptoms and let you know if anything changes that needs further attention.\n\nIf your cough gets worse or you develop a high fever, please give us a call.\n\nCan you tell me, in your own words, what you think we discussed today and what you plan to do next?\n\nLet's plan to check in again in a week. If your symptoms don't improve or get worse, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you've been feeling under the weather for the past four days with a sore throat, runny nose, and now a dry cough. I understand how that can make daily life harder.",
+        "clinical_information_per_concern": [],
+        "next_steps": [
+          "We'll keep an eye on your symptoms and let you know if anything changes that needs further attention.",
+          "If your cough gets worse or you develop a high fever, please give us a call."
+        ],
+        "teach_back_prompt": "Can you tell me, in your own words, what you think we discussed today and what you plan to do next?",
+        "follow_up_invitation": "Let's plan to check in again in a week. If your symptoms don't improve or get worse, please call us right away.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 359719.00483220816,
+      "response_text": "I can hear how much this has been bothering you. You mentioned it makes you uneasy, and I understand why that would feel unsettling.\n\nA sore throat can be part of a viral infection, especially when accompanied by a runny nose and cough. Since your symptoms are improving, it suggests the infection is likely on its way out.\n\nCough is a common symptom of respiratory infections. It often lingers even after other symptoms improve, as your body continues to clear the infection.\n\nPainful swallowing can occur with a sore throat and may improve as the underlying infection resolves.\n\nCongestion is typical in respiratory infections and can be managed with over-the-counter medications to help ease your symptoms.\n\nNight sweats can be concerning, and we should monitor them closely. They could indicate a variety of issues, so we'll keep an eye on how they progress.\n\nYour fever is improving, which is a good sign. The medications you've been taking, like Paracetamol and Ibuprofen, have helped reduce it.\n\nShortness of breath on exertion can occur with respiratory infections, especially if there's congestion or inflammation in the airways. As your symptoms improve, this should get better too.\n\nWe'll monitor your symptoms closely, especially the night sweats, to ensure they don't indicate a more serious issue.\n\nContinue taking your medications as prescribed to manage your fever and discomfort.\n\nIf your symptoms worsen or if you develop new ones like severe pain or difficulty breathing, please reach out immediately.\n\nI want to make sure I explained this clearly. Can you tell me, in your own words, what we're doing next and why?\n\nLet's plan to check in again in a week. If anything changes or if you're not feeling better, please don't hesitate to call us.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this has been bothering you. You mentioned it makes you uneasy, and I understand why that would feel unsettling.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "sore throat",
+            "profile_path": "problems[0]",
+            "explanation": "A sore throat can be part of a viral infection, especially when accompanied by a runny nose and cough. Since your symptoms are improving, it suggests the infection is likely on its way out.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::35593186",
+                "primary_assertion_id": "35593186_retr",
+                "pmids": [
+                  "35593186"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "cough",
+            "profile_path": "problems[1]",
+            "explanation": "Cough is a common symptom of respiratory infections. It often lingers even after other symptoms improve, as your body continues to clear the infection.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::35593186",
+                "primary_assertion_id": "35593186_retr",
+                "pmids": [
+                  "35593186"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "painful swallowing",
+            "profile_path": "problems[2]",
+            "explanation": "Painful swallowing can occur with a sore throat and may improve as the underlying infection resolves.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::35593186",
+                "primary_assertion_id": "35593186_retr",
+                "pmids": [
+                  "35593186"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "congestion",
+            "profile_path": "problems[3]",
+            "explanation": "Congestion is typical in respiratory infections and can be managed with over-the-counter medications to help ease your symptoms.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::35593186",
+                "primary_assertion_id": "35593186_retr",
+                "pmids": [
+                  "35593186"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "night sweats",
+            "profile_path": "problems[4]",
+            "explanation": "Night sweats can be concerning, and we should monitor them closely. They could indicate a variety of issues, so we'll keep an eye on how they progress.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::35593186",
+                "primary_assertion_id": "35593186_retr",
+                "pmids": [
+                  "35593186"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "fever",
+            "profile_path": "problems[5]",
+            "explanation": "Your fever is improving, which is a good sign. The medications you've been taking, like Paracetamol and Ibuprofen, have helped reduce it.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::35593186",
+                "primary_assertion_id": "35593186_retr",
+                "pmids": [
+                  "35593186"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "shortness of breath on exertion",
+            "profile_path": "problems[6]",
+            "explanation": "Shortness of breath on exertion can occur with respiratory infections, especially if there's congestion or inflammation in the airways. As your symptoms improve, this should get better too.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::35593186",
+                "primary_assertion_id": "35593186_retr",
+                "pmids": [
+                  "35593186"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll monitor your symptoms closely, especially the night sweats, to ensure they don't indicate a more serious issue.",
+          "Continue taking your medications as prescribed to manage your fever and discomfort.",
+          "If your symptoms worsen or if you develop new ones like severe pain or difficulty breathing, please reach out immediately."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly. Can you tell me, in your own words, what we're doing next and why?",
+        "follow_up_invitation": "Let's plan to check in again in a week. If anything changes or if you're not feeling better, please don't hesitate to call us.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "retrieval_only::35593186"
+        ],
+        "all_pmids_used": [
+          "35593186"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 7,
+        "n_medications": 2,
+        "n_allergies": 0,
+        "n_red_flags": 1,
+        "n_emotional": 1,
+        "n_goals": 0,
+        "problems": [
+          "sore throat",
+          "cough",
+          "painful swallowing",
+          "congestion",
+          "night sweats",
+          "fever",
+          "shortness of breath on exertion"
+        ],
+        "medications": [
+          "Paracetamol",
+          "Ibuprofen"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [
+        "35593186"
+      ],
+      "cluster_ids_used": [
+        "retrieval_only::35593186"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 335656.45129978657,
+      "response_text": "It sounds like you're dealing with a few different symptoms \u2014 a sore throat, cough, and some fever that's been going down. I want to make sure I understand how these are all connected and what we can do about them together.\n\nFor a sore throat that's been around for a while, it's important to focus on symptom management rather than testing, especially since we don't have any specific red flags here. This might include staying hydrated and using over-the-counter medications to help with discomfort.\n\nA cough that's been going on for a day can sometimes be a sign of COVID-19, but since we don't have any specific symptoms pointing to that, we'll focus on managing it with rest and staying hydrated.\n\nFever that's been going down can be a good sign. We've used medications like Paracetamol and Ibuprofen to manage it, which is appropriate for bringing down the fever and reducing discomfort.\n\nFor shortness of breath, we can try some breathing techniques and maybe use a handheld fan to help with comfort. It's also important to avoid any unnecessary exertion while we're figuring out what's going on.\n\nWe'll focus on managing your symptoms with rest, hydration, and over-the-counter medications.\n\nWe'll schedule a follow-up in a week to see how things are improving.\n\nIf your symptoms get worse or if you develop new ones like difficulty breathing, let us know right away.\n\nCan you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a week. In the meantime, if your symptoms get worse or if you develop any new ones like difficulty breathing, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're dealing with a few different symptoms \u2014 a sore throat, cough, and some fever that's been going down. I want to make sure I understand how these are all connected and what we can do about them together.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "sore throat",
+            "profile_path": "problems[0]",
+            "explanation": "For a sore throat that's been around for a while, it's important to focus on symptom management rather than testing, especially since we don't have any specific red flags here. This might include staying hydrated and using over-the-counter medications to help with discomfort.",
+            "citations": [
+              {
+                "cluster_id": "contraindication::problems[0]::35593186_3",
+                "primary_assertion_id": "35593186_3",
+                "pmids": [
+                  "35593186"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "cough",
+            "profile_path": "problems[1]",
+            "explanation": "A cough that's been going on for a day can sometimes be a sign of COVID-19, but since we don't have any specific symptoms pointing to that, we'll focus on managing it with rest and staying hydrated.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::problems[1]::35593186_0",
+                "primary_assertion_id": "35593186_0",
+                "pmids": [
+                  "35593186"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "fever",
+            "profile_path": "problems[2]",
+            "explanation": "Fever that's been going down can be a good sign. We've used medications like Paracetamol and Ibuprofen to manage it, which is appropriate for bringing down the fever and reducing discomfort.",
+            "citations": []
+          },
+          {
+            "concern_label": "shortness of breath on exertion",
+            "profile_path": "problems[3]",
+            "explanation": "For shortness of breath, we can try some breathing techniques and maybe use a handheld fan to help with comfort. It's also important to avoid any unnecessary exertion while we're figuring out what's going on.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::problems[0]::38719772_0",
+                "primary_assertion_id": "38719772_0",
+                "pmids": [
+                  "38719772"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll focus on managing your symptoms with rest, hydration, and over-the-counter medications.",
+          "We'll schedule a follow-up in a week to see how things are improving.",
+          "If your symptoms get worse or if you develop new ones like difficulty breathing, let us know right away."
+        ],
+        "teach_back_prompt": "Can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a week. In the meantime, if your symptoms get worse or if you develop any new ones like difficulty breathing, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "contraindication::problems[0]::35593186_3",
+          "recommendation::problems[1]::35593186_0",
+          "recommendation::problems[0]::38719772_0"
+        ],
+        "all_pmids_used": [
+          "35593186",
+          "38719772"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 4,
+        "n_medications": 2,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "sore throat",
+          "cough",
+          "fever",
+          "shortness of breath on exertion"
+        ],
+        "medications": [
+          "Paracetamol",
+          "Ibuprofen"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [
+        "35593186",
+        "38719772"
+      ],
+      "cluster_ids_used": [
+        "contraindication::problems[0]::35593186_3",
+        "recommendation::problems[1]::35593186_0",
+        "recommendation::problems[0]::38719772_0"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 182302.63317376375,
+        "module_2_retrieval": 72.70052284002304,
+        "module_3_reasoning": 119373.74190986156,
+        "module_4_response": 33906.11723810434,
+        "total_ms": 335655.1928445697
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

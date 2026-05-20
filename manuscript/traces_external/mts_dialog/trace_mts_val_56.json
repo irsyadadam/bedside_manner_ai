@@ -1,0 +1,168 @@
+{
+  "transcript_id": "mts_val_56",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "Ms",
+  "patient_utterances": [
+    "[Clinician asked: \"Welcome to the office, Miss A. I am Doctor Luna.\"] Thank you. It is nice to meet you.",
+    "[Clinician asked: \"What is your family medical history?\"] My mother died about three or maybe it is four years ago?",
+    "[Clinician asked: \"I am so sorry to hear that. How did she pass?\"] She had lung cancer. My mom didn't talk much about her own health problems.",
+    "[Clinician asked: \"What about your father? Does he have any health conditions?\"] My dad has gout. I think he also had blood clots. That is all that I can remember my dad talking about.",
+    "[Clinician asked: \"Do you have siblings?\"] Yes. My brother has asthma and uses an inhaler. My sister had some sort of tumors removed from her stomach or something.  Oh, I think I remember my mom talking about some of her family having issues with high blood pressure, high cholesterol and someone had a stroke. I am not sure though."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "FAM_SOCHX": "Ms. A had difficulty providing information on familial medical history.  She reported that her mother died three to four years ago from lung cancer.  Her father has gout and blood clots.  Siblings have reportedly been treated for asthma and GI tumors.  She was unsure of familial history of other conditions such as hypertension, high cholesterol, stroke, etc."
+  },
+  "n_patient_turns": 5,
+  "n_clinician_turns": 6,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 11461.830273270607,
+      "response_text": "I'm truly sorry for your loss. It's important to share your family's health history so we can better understand your health risks and provide personalized care. Your mother's lung cancer, along with other conditions like high blood pressure and stroke in the family, can help us focus on preventive measures. Your father's gout and blood clots, as well as your brother's asthma and sister's tumors, are also significant. Please feel free to ask any questions or share more details if you'd like. Together, we can work on maintaining your health.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 24860.841155052185,
+      "response_text": "Thank you for sharing your family medical history with me. It sounds like there\u2019s a lot to unpack, and I appreciate your effort in trying to recall as much as you could. I can understand that discussing family health history can be a bit overwhelming, but it\u2019s important for us to work together to better understand your health risks.\n\nGiven your family history, there are a few things we should keep in mind. Your mother\u2019s lung cancer and the history of high blood pressure, high cholesterol, and stroke in the family suggest we should be mindful of your cardiovascular health. Additionally, your brother\u2019s asthma and your sister\u2019s tumors remind us to keep an eye on potential respiratory and gastrointestinal issues. The gout and blood clots in your father\u2019s history also point to a need to monitor for similar conditions.\n\nWe\u2019ll plan to check in with you in a couple of weeks to review any test results, such as your cholesterol or blood pressure, and discuss any necessary steps to manage your health. Before you leave, could you tell me in your own words what you feel we should focus on? That way, I can ensure I\u2019ve covered everything clearly.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6664.612576365471,
+      "response_text": "Thank you for sharing your family medical history with me. I understand that it can be helpful to know your background when discussing your health.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to continue our discussion in the next visit. If you have any questions or concerns in the meantime, please feel free to reach out.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your family medical history with me. I understand that it can be helpful to know your background when discussing your health.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to continue our discussion in the next visit. If you have any questions or concerns in the meantime, please feel free to reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 32903.12618017197,
+      "response_text": "Thank you for sharing your family health history with me. It's important to consider how your loved ones' health might influence your own well-being.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 4 weeks. In the meantime, if you have any new concerns or questions, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your family health history with me. It's important to consider how your loved ones' health might influence your own well-being.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 4 weeks. In the meantime, if you have any new concerns or questions, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 0,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 71511.29065454006,
+      "response_text": "Thank you for sharing your family health history with me. It's important to understand how your relatives' health might affect your own.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 4 weeks. In the meantime, if you have any concerns or questions, please call us.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your family health history with me. It's important to understand how your relatives' health might affect your own.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 4 weeks. In the meantime, if you have any concerns or questions, please call us.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 0,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 26105.734556913376,
+        "module_2_retrieval": 62.24866956472397,
+        "module_3_reasoning": 37456.72219246626,
+        "module_4_response": 7884.773030877113,
+        "total_ms": 71509.47844982147
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

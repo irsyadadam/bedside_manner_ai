@@ -1,0 +1,166 @@
+{
+  "transcript_id": "mts_test_1_194",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "The patient is divorced and is a homemaker",
+  "patient_utterances": [
+    "Yeah, I'm divorced.",
+    "[Clinician asked: \"Where do you work?\"] I'm a homemaker.",
+    "[Clinician asked: \"Do you smoke or drink?\"] No.\""
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "FAM_SOCHX": "The patient is divorced and is a homemaker.  No smoking or alcohol."
+  },
+  "n_patient_turns": 3,
+  "n_clinician_turns": 2,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 14409.429989755154,
+      "response_text": "I understand that going through a divorce can be incredibly challenging and that adjusting to this new phase of life can take time. It's important to acknowledge how you're feeling and to know that you're not alone in this journey. I'm here to support you as you navigate this change and explore what the future might hold.\n\nBeing a homemaker is a significant role, and any shift in routine or responsibilities can be unsettling. How are you finding this transition, and are there areas where you feel you need support or guidance? It's commendable that you don't smoke or drink, which are positive choices for your health. If you're open to it, we can also explore any health or wellness goals you might have. Let's take this at your pace and ensure you feel supported every step of the way.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 17088.51946145296,
+      "response_text": "Thank you for sharing that with me. Being divorced and managing life as a homemaker can be incredibly challenging and stressful. It's understandable that you might be feeling overwhelmed or lonely, and I want to acknowledge how strong you are for opening up about this.\n\nLet\u2019s focus on how this situation might be affecting your health. Stress and isolation can sometimes lead to physical symptoms or mental health concerns, so it\u2019s important we address any issues that might be arising from this transition. I\u2019m here to support you and explore ways to help manage these challenges.\n\nWe\u2019ll work together to ensure you have the resources and support you need. Let\u2019s schedule a follow-up in two weeks to check in on how you\u2019re feeling and make any necessary adjustments. Before you leave, could you summarize what we\u2019ve discussed so far? This will help me confirm that everything is clear and that we\u2019re on the same page.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6553.51097881794,
+      "response_text": "Thank you for sharing your situation with me. I understand that you're a homemaker and mentioned being divorced. Let's work together to address any concerns you might have.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again soon. In the meantime, if you have any new concerns or questions, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your situation with me. I understand that you're a homemaker and mentioned being divorced. Let's work together to address any concerns you might have.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again soon. In the meantime, if you have any new concerns or questions, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 18200.111865997314,
+      "response_text": "Thank you for sharing your situation with me. I understand that you're a homemaker and currently divorced, and we're here to address any concerns you might have.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a week. If you have any new concerns or questions in the meantime, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your situation with me. I understand that you're a homemaker and currently divorced, and we're here to address any concerns you might have.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a week. If you have any new concerns or questions in the meantime, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 0,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 54477.214738726616,
+      "response_text": "Thank you for sharing your situation. I understand you're a homemaker and recently went through a divorce. Let's work together to address your concerns.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 4 weeks. In the meantime, if you have any new concerns or questions, please reach out.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your situation. I understand you're a homemaker and recently went through a divorce. Let's work together to address your concerns.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 4 weeks. In the meantime, if you have any new concerns or questions, please reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 0,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 9191.54478609562,
+        "module_2_retrieval": 24.354219436645508,
+        "module_3_reasoning": 37245.59333175421,
+        "module_4_response": 8014.4776701927185,
+        "total_ms": 54475.97000747919
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

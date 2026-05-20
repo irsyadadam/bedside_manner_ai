@@ -1,0 +1,237 @@
+{
+  "transcript_id": "mts_test_1_102",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "Buttock abscess",
+  "patient_utterances": [
+    "[Clinician asked: \"Hey what you got there?\"] I got this boil type of situation going on on my butt.",
+    "[Clinician asked: \"Oops!\"] I know. ."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "CC": "Buttock abscess."
+  },
+  "n_patient_turns": 2,
+  "n_clinician_turns": 2,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 13658.338837325573,
+      "response_text": "I understand how uncomfortable and concerning a boil on your butt must be. It\u2019s important to know that boils are common and treatable. To help alleviate the discomfort, you can try applying a warm compress several times a day, which can reduce swelling and pain. Avoid squeezing or picking at the boil to prevent infection from spreading.\n\nIf the boil doesn\u2019t improve with home care, becomes more painful, or if you develop a fever, it\u2019s a good idea to seek further medical attention. You might also consider seeing a specialist if it persists. Take care, and let me know if you have any more questions or concerns.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 16086.225248873234,
+      "response_text": "I understand how concerning and uncomfortable a boil on your butt must be. It\u2019s completely understandable to feel worried or embarrassed about this, and I want to make sure you feel heard and supported.\n\nA boil in that area is likely caused by a bacterial infection, such as Staphylococcus aureus, which can sometimes be resistant to antibiotics (like MRSA) [PMID ?]. It\u2019s important to address it early to prevent complications, such as spreading the infection or developing abscesses. We\u2019ll need to consider options like incision and drainage, antibiotics, or other treatments based on the severity and what\u2019s most appropriate for you.\n\nWe\u2019ll plan to monitor your symptoms closely over the next 2-3 days. If the boil grows, becomes more painful, or if you develop a fever, it\u2019s important to seek immediate care. Before you go, can you summarize what we discussed so I can ensure everything is clear?",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 8771.730557084084,
+      "response_text": "It sounds like you're dealing with a boil on your butt, which can be pretty uncomfortable. I understand how that might be concerning.\n\nWe'll need to take a look at that boil to see the best way to treat it. I'll schedule an examination as soon as possible to address your concern.\n\nIn the meantime, keep the area clean and avoid touching it too much to prevent any infection from getting worse.\n\nCan you tell me, in your own words, what we're going to do next to help with the boil on your butt?\n\nLet's plan to see each other again soon to check on the boil. If it gets worse or if you develop any new symptoms, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're dealing with a boil on your butt, which can be pretty uncomfortable. I understand how that might be concerning.",
+        "clinical_information_per_concern": [],
+        "next_steps": [
+          "We'll need to take a look at that boil to see the best way to treat it. I'll schedule an examination as soon as possible to address your concern.",
+          "In the meantime, keep the area clean and avoid touching it too much to prevent any infection from getting worse."
+        ],
+        "teach_back_prompt": "Can you tell me, in your own words, what we're going to do next to help with the boil on your butt?",
+        "follow_up_invitation": "Let's plan to see each other again soon to check on the boil. If it gets worse or if you develop any new symptoms, please call us right away.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 23326.689042150974,
+      "response_text": "I can see you're feeling some relief about this boil on your butt. You mentioned, \"Oops! I know.\", which shows you're aware of the situation.\n\nIt's good you're aware of the boil. We'll need to examine it to make sure it's not something more serious. We'll check it during your next visit.\n\nWe'll take a look at the boil during your next visit to assess it properly.\n\nCan you tell me in your own words what we're going to do next?\n\nLet's plan to see each other again soon. If the boil gets worse or you notice any new symptoms, please call us.",
+      "structured_response": {
+        "acknowledgment": "I can see you're feeling some relief about this boil on your butt. You mentioned, \"Oops! I know.\", which shows you're aware of the situation.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "boil on my butt",
+            "profile_path": "problems[0]",
+            "explanation": "It's good you're aware of the boil. We'll need to examine it to make sure it's not something more serious. We'll check it during your next visit.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll take a look at the boil during your next visit to assess it properly."
+        ],
+        "teach_back_prompt": "Can you tell me in your own words what we're going to do next?",
+        "follow_up_invitation": "Let's plan to see each other again soon. If the boil gets worse or you notice any new symptoms, please call us.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 0,
+        "problems": [
+          "boil on my butt"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 77171.51784151793,
+      "response_text": "I can see you're feeling relieved about this boil on your butt \u2014 you said, \"Oops! I know.\" That's a real relief to hear.\n\nWe should take a closer look at this boil to make sure it's healing properly. It's important to monitor any changes in how it looks or feels.\n\nWe'll schedule a follow-up visit to check on the boil and make sure it's healing as it should.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a week. If you notice any new symptoms or changes in the boil, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I can see you're feeling relieved about this boil on your butt \u2014 you said, \"Oops! I know.\" That's a real relief to hear.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "boil on my butt",
+            "profile_path": "problems[0]",
+            "explanation": "We should take a closer look at this boil to make sure it's healing properly. It's important to monitor any changes in how it looks or feels.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[1]::40471580_0",
+                "primary_assertion_id": "40471580_0",
+                "pmids": [
+                  "40471580"
+                ]
+              },
+              {
+                "cluster_id": "finding::sub_query[1]::40155879_0",
+                "primary_assertion_id": "40155879_0",
+                "pmids": [
+                  "40155879"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll schedule a follow-up visit to check on the boil and make sure it's healing as it should."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a week. If you notice any new symptoms or changes in the boil, please call us right away.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[1]::40471580_0",
+          "finding::sub_query[1]::40155879_0"
+        ],
+        "all_pmids_used": [
+          "40471580",
+          "40155879"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 0,
+        "problems": [
+          "boil on my butt"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "40471580",
+        "40155879"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[1]::40471580_0",
+        "finding::sub_query[1]::40155879_0"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 12792.598523199558,
+        "module_2_retrieval": 57.04781413078308,
+        "module_3_reasoning": 46429.718777537346,
+        "module_4_response": 17890.822298824787,
+        "total_ms": 77170.18741369247
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

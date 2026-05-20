@@ -1,0 +1,168 @@
+{
+  "transcript_id": "mts_val_54",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "PSYCHIATRIC: See psychiatric evaluation",
+  "patient_utterances": [
+    "[Clinician asked: \"So, I have the evaluation report from your psychiatrist.\"] Ah, okay and what does it says?",
+    "[Clinician asked: \"Well, he thinks you are doing really good.\"] Nice!"
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "ROS": "PSYCHIATRIC: See psychiatric evaluation."
+  },
+  "n_patient_turns": 2,
+  "n_clinician_turns": 2,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 11800.43962597847,
+      "response_text": "It's wonderful to hear that your psychiatrist has recognized your progress. Doing well is a significant achievement, and it's clear that your hard work and dedication have paid off. Keep up the excellent work, as this is a journey of continuous growth. I'm confident that you'll continue to move forward positively. Well done!",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 14644.422873854637,
+      "response_text": "Thanks for sharing that \u2014 it sounds like you're doing really well, and that's great to hear! I can tell you're working hard, and it's encouraging to see that your psychiatrist is noticing the progress. It's understandable to feel positive about this feedback, and I'm glad we can continue building on this together.\n\nGiven how things are going, we might want to explore how we can support your continued progress. It's important to make sure we're addressing any remaining concerns or challenges, even if they're small. Let's plan to check in within the next 2-4 weeks to see how you're feeling and adjust our approach as needed.\n\nBefore you leave, could you summarize in your own words what you feel we've agreed on today? That way, I can ensure I've explained everything clearly.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 8093.880385160446,
+      "response_text": "It sounds like you're here to discuss the evaluation report from your psychiatrist. I understand you're curious about what it says.\n\nWe'll review the report together and discuss what it means for your care.\n\nPlease let me know if there's anything specific you'd like to focus on during this discussion.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to go over the report together now. If you have any questions or concerns after reviewing it, feel free to reach out, and we can schedule another discussion if needed.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're here to discuss the evaluation report from your psychiatrist. I understand you're curious about what it says.",
+        "clinical_information_per_concern": [],
+        "next_steps": [
+          "We'll review the report together and discuss what it means for your care.",
+          "Please let me know if there's anything specific you'd like to focus on during this discussion."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to go over the report together now. If you have any questions or concerns after reviewing it, feel free to reach out, and we can schedule another discussion if needed.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 13708.297528326511,
+      "response_text": "I can hear you're feeling relieved \u2014 you said, \"Nice!\" That makes sense after dealing with whatever's been going on.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to stay in touch. If anything changes or if you have more questions, please reach out. We're here to support you.",
+      "structured_response": {
+        "acknowledgment": "I can hear you're feeling relieved \u2014 you said, \"Nice!\" That makes sense after dealing with whatever's been going on.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to stay in touch. If anything changes or if you have more questions, please reach out. We're here to support you.",
+        "nurse_elements_applied": [
+          "Name"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 0,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 0,
+        "problems": [],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 63644.194573163986,
+      "response_text": "I can hear how much this has been weighing on you \u2014 you said, \"Nice!\" That sounds like it's been a relief to get some positive news.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 4 weeks. In the meantime, if you get new symptoms or concerns, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this has been weighing on you \u2014 you said, \"Nice!\" That sounds like it's been a relief to get some positive news.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 4 weeks. In the meantime, if you get new symptoms or concerns, please call us right away.",
+        "nurse_elements_applied": [
+          "Name"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 0,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 0,
+        "problems": [],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 6582.591488957405,
+        "module_2_retrieval": 59.06389653682709,
+        "module_3_reasoning": 48790.45559465885,
+        "module_4_response": 8210.484527051449,
+        "total_ms": 63642.59550720453
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

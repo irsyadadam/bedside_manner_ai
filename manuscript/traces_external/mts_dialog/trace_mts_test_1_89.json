@@ -1,0 +1,212 @@
+{
+  "transcript_id": "mts_test_1_89",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "Thee patient is on disability",
+  "patient_utterances": [
+    "[Clinician asked: \"I just need a few pieces of background information, before we get started.\"] Absolutely, doctor.",
+    "[Clinician asked: \"What do you do for a living, sir?\"] Actually, right now I'm on disability.",
+    "[Clinician asked: \"Okay, and do you drink or smoke?\"] No, doctor. I don't do either of those.",
+    "[Clinician asked: \"Good, are you married?\"] Not married yet, but I've been dating my girlfriend for a while now.",
+    "[Clinician asked: \"Do you two live together?\"] Yes, doctor, we do.",
+    "[Clinician asked: \"How would you describe your activity level day to day?\"] Do you mean like exercise?",
+    "[Clinician asked: \"Well, anything from bathing, dressing, feeding, etc. We call these activities of daily living, how would you rate that?\"] To be honest with you doctor, I'd have to say it's minimal. My girlfriend has to help me with most of it right now.",
+    "[Clinician asked: \"Okay, and do you remember when you had your last drug test?\"] No, doctor. I really can't remember."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "FAM_SOCHX": "Thee patient is on disability.  He does not smoke.  He does not drink alcohol.  He is single.  He lives with a girlfriend.  He has minimal activities of daily living.  The patient cannot recollect when last a urine drug screen was done."
+  },
+  "n_patient_turns": 8,
+  "n_clinician_turns": 8,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 22072.546683251858,
+      "response_text": "Hello [Patient's Name],\n\nThank you for sharing that with me. It sounds like you're going through a challenging time, and I'm here to support you. I'd like to understand more about what's been going on for you, especially since you're on disability. Could you tell me a bit about your condition and any treatments you're receiving? This will help me better understand how I can assist you.\n\nYour girlfriend's support sounds like it's making a big difference, but I'm curious about your daily routine and any challenges you might be facing. Let's talk about that a bit more so I can get a clearer picture of how I can help. If there's anything specific you need assistance with, whether it's understanding your condition or navigating any forms, please feel free to let me know. We'll work through this together.\n\nTake care,  \n[Your Name]",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 19565.720982849598,
+      "response_text": "Thank you for sharing all that with me. It sounds like you're dealing with some significant challenges, and it's understandable that you're concerned about your health and well-being. Being on disability and relying on your girlfriend for help with daily activities must be tough, and I want to make sure we address these issues together.\n\nGiven your minimal activity level and the fact that you're on disability, it's important we explore what might be contributing to your current situation. Conditions like chronic pain, neurological issues, or other health concerns could be affecting your ability to perform daily tasks. I'll want to review your medical history and possibly conduct a physical exam or imaging studies to better understand what's going on [PMID ?].\n\nWe'll plan to check in with you in 1-2 weeks to review any test results and adjust our approach as needed. Before you leave, could you summarize what you understand about our plan today? This will help ensure you're clear on the next steps and any recommendations I've made.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6661.082454025745,
+      "response_text": "Thank you for sharing your situation with me. It sounds like you're dealing with some challenges in your daily life, and I'm here to help.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if anything changes or if you have any new questions, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your situation with me. It sounds like you're dealing with some challenges in your daily life, and I'm here to help.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if anything changes or if you have any new questions, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 39222.397327423096,
+      "response_text": "It sounds like you're dealing with some challenges in your daily activities, and I want to understand how we can help you manage that.\n\nWe need to look into why your daily activities have become more difficult. This could be due to various factors, and we'll work together to figure out the best approach to support you.\n\nWe'll start by gathering more information about your situation to better understand what might be causing the difficulty you're experiencing with your daily activities.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to check in again soon. If you notice any changes in how you're feeling or if anything becomes more challenging, please reach out so we can address it promptly.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're dealing with some challenges in your daily activities, and I want to understand how we can help you manage that.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "reduced ability to perform activities of daily living",
+            "profile_path": "problems[0]",
+            "explanation": "We need to look into why your daily activities have become more difficult. This could be due to various factors, and we'll work together to figure out the best approach to support you.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll start by gathering more information about your situation to better understand what might be causing the difficulty you're experiencing with your daily activities."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to check in again soon. If you notice any changes in how you're feeling or if anything becomes more challenging, please reach out so we can address it promptly.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "reduced ability to perform activities of daily living"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 79172.04340547323,
+      "response_text": "It sounds like your main concern is managing your daily activities, which has been getting a bit harder for you.\n\nBased on the studies, combining physical, nutritional, and cognitive strategies can help manage this issue. These interventions are effective and can be done at home or in the community.\n\nWe'll focus on finding the right combination of physical, nutritional, and cognitive strategies to help you manage your daily activities better.\n\nWe'll check in on your progress in 4 weeks to see how these strategies are working for you.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 4 weeks. In the meantime, if you find that your daily activities are getting even more challenging, please reach out sooner.",
+      "structured_response": {
+        "acknowledgment": "It sounds like your main concern is managing your daily activities, which has been getting a bit harder for you.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "minimal ability to perform activities of daily living",
+            "profile_path": "problems[0]",
+            "explanation": "Based on the studies, combining physical, nutritional, and cognitive strategies can help manage this issue. These interventions are effective and can be done at home or in the community.",
+            "citations": [
+              {
+                "cluster_id": "finding::problems[0]::41389198_0",
+                "primary_assertion_id": "41389198_0",
+                "pmids": [
+                  "41389198"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll focus on finding the right combination of physical, nutritional, and cognitive strategies to help you manage your daily activities better.",
+          "We'll check in on your progress in 4 weeks to see how these strategies are working for you."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 4 weeks. In the meantime, if you find that your daily activities are getting even more challenging, please reach out sooner.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::problems[0]::41389198_0"
+        ],
+        "all_pmids_used": [
+          "41389198"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "minimal ability to perform activities of daily living"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "41389198"
+      ],
+      "cluster_ids_used": [
+        "finding::problems[0]::41389198_0"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 33079.77798581123,
+        "module_2_retrieval": 59.81668829917908,
+        "module_3_reasoning": 30240.309089422226,
+        "module_4_response": 15790.95908254385,
+        "total_ms": 79170.86284607649
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

@@ -1,0 +1,240 @@
+{
+  "transcript_id": "primock57_day2_consultation01",
+  "dataset": "primock57",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "I don't hear as well as I used to",
+  "patient_utterances": [
+    "[Clinician asked: \"Hi, there. Good morning!\"] <INAUDIBLE_SPEECH/>",
+    "[Clinician asked: \"Uh, I'm Dr. Dean Mesa from Babylon.\"] <INAUDIBLE_SPEECH/>",
+    "[Clinician asked: \"Can you hear me OK?\"] Yep. Can you find",
+    "[Clinician asked: \"Yeah, OK, great. Well, nice to see you this morning. Um, before we start your appointment, could I confirm your full name and date of birth please?\"] Uh yeah, uh Jack Smith, uh thirty first  October nineteen ninety.",
+    "[Clinician asked: \"That's perfect, thank you, John. Um, are you in a private place where you're OK to speak at the moment?\"] I am, yes",
+    "[Clinician asked: \"OK, great. So, um, tell me what's been going on.  You've been saying there's a problem with your hearing. Is that right?\"] Yeah, so I just feel I can't really hear as well as I used to, like my hearing is kind of deteriorating in some way.",
+    "[Clinician asked: \"Right, OK. How long has this been going on for?\"] Uh about six weeks.",
+    "[Clinician asked: \"Six weeks, OK. Um, and before that have you had any hearing problem at all?\"] Um I had something maybe, about a year ago, but it only lasted a couple of days, it wasn't anything as long as this.",
+    "[Clinician asked: \"Right, OK, OK. And, um, in this six week period, have you had anything else happen? Have you had any other ear symptoms at all?\"] Um, I  occasionally get like a ringing in my left ear, uh just on the one side and um there's actually been a few times when I felt kind of a bit sick or a bit dizzy as well.",
+    "[Clinician asked: \"Right, OK. Uh, uh, um,  just to clarify, the difficulty you've got in hearing, is that both ears or just the left ear?\"] Uh just the left ear, yeah.",
+    "[Clinician asked: \"Alright, so your right ear is fine.\"] It seems be yeah.",
+    "[Clinician asked: \"OK. So you've had ringing, difficulty hearing in your left ear, and feeling slightly sick.\"] Mh-mm.",
+    "[Clinician asked: \"Um, that's been, on and off for the six weeks, or is it continuous there throughout that six weeks?\"] Yeah. Uh it's kind of on and off. Like some things trigger it as well. So, for example, if I'm watching TV or listen to music or something that'll solve the ringing in the ear.",
+    "[Clinician asked: \"Right, OK. Um, and, um, have you had any pain from the ear at all?\"] Uh no my left ear.",
+    "[Clinician asked: \"OK. Any discharge coming out of the ear? No, OK. Um,  have, have you been experiencing any fever?\"] <INAUDIBLE_SPEECH/> Uh, not specifically apart from the dizziness  so much.",
+    "[Clinician asked: \"Right, OK. And, um, has your ear been itchy at all?\"] <INAUDIBLE_SPEECH/>",
+    "[Clinician asked: \"OK. Now, do you use cotton ball buds to try and  clean out wax from your ears?\"] Uh nah I'll do it.",
+    "[Clinician asked: \"No, OK. Well, you're right, you should, you shouldn't be doing that.  Doesn't clean up wax, it pushes it back in. Alright, um, the first thing that we need to do is we need to get someone to have a look inside your ear. 'K. I'm just exclude the simple things. Simple things  might be wax. You know. S\"] OK.",
+    "[Clinician asked: \"lead to muffled hearing. Um, if that's the case, that that's something that's easy fixable. But, um, so we need to exclude that first. and then after that, we can consider other potential possibilities. Um, and for that we need to have a look inside the ear drum. So, um, what I think we could do is,\"] OK. Yeah. Uh nothing major it's just kind of uh it's, it's not the kind of dizziness you get with nausea, like uh not, not proper room spinning or anything like that but just, just a little bit kind of off balance.",
+    "[Clinician asked: \"<INAUDIBLE_SPEECH/> Right, right, OK. Have, have you had any chest pain with it?\"] <INAUDIBLE_SPEECH/> No.",
+    "[Clinician asked: \"No. Any palpitations, heart beating fast?\"] <INAUDIBLE_SPEECH/>",
+    "[Clinician asked: \"OK, fine, alright. Um, so  let's get your ear checked out. I think that will be the, the most sensible thing to do. And then after that, we can, we'll be a step closer to figuring out which way we It might be that there's a problem inside the drum or the balance system within the ear. But, we just n\"] is that the sort of thing that can cause uh like this uh ringing I've got in my ear, 'cause it seems  .",
+    "[Clinician asked: \"The ringing that you got, that you've got, it's something called Tinnitus. OK? Um\"] Right.",
+    "[Clinician asked: \"and Tinnitus is something actually that medicine doctors, we don't really understand it fully. We haven't\"] OK.",
+    "[Clinician asked: \"Uh,  people can't give you a specific cause for why some patients get Tinnitus and some patients don't. It can be triggered by a wide range of different things, and in fact I'm glad that you've mentioned that. What I might do, in the time between now and when you come for the appointment, I'm going \"] OK. Sure.",
+    "[Clinician asked: \"OK. And often that, that, uh, awareness of what it is and what the treatment options are, and there are limited options um that helps us in terms of conversation about what we do next, if your ear is clear, OK? So, um, I'm going to paste a link to that, um, and you can read about that and what we'll\"] OK. Yeah it sounds great.",
+    "[Clinician asked: \"Alright, great. So, um, bear with me five minutes and then you can ring the support team, I'll leave the number in the notes for this appointment. Ring them, and then they'll slot you in, OK?\"] OK brilliant.",
+    "[Clinician asked: \"Alright.  If there's any problem, any issues  between now and when the clinic appointment is, just book another appointment and you can speak to one of us over video, OK?\"] OK.",
+    "[Clinician asked: \"Alright then. Take care. Nice to see you this morning. OK. Bye bye.\"] Thank you. See you later."
+  ],
+  "gold_note": "History: \nHx of difficulty hearing left ear for 6 weeks with tinnitus and slight nausea/ dizziness. \nOne previous similar episode in the past- resolved spontaneously.\nNo discharge/ fever/ itchiness/ pain\nDoesn't use cotton wool buds\nNo Pmhx of note\nEx: Looks well, not in pain.\nImp: need to exclude impacted wax in ear canal first\nPln: for face to face GP appointment in 5 days to examine ear\nPt to read about tinnitus in the meantime via following link: www.patient.co.uk/tinnitus\nIf any problems in interim to ring us back\nPt happy with and understands plan",
+  "gold_sections": {
+    "PRESENTING_COMPLAINT": "I don't hear as well as I used to",
+    "HIGHLIGHTS": "difficulty hearing\ntinnitus\nneed to exclude impacted wax\nexamine ear"
+  },
+  "n_patient_turns": 29,
+  "n_clinician_turns": 29,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 19114.462085068226,
+      "response_text": "Thank you for sharing your concerns with me, Jack. I understand how frustrating and concerning it must be to experience a decline in your hearing, along with the ringing in your ear and occasional dizziness. These symptoms are valid, and I\u2019m here to help you navigate them.\n\nThe first step we\u2019ll take is to examine your ears to check for any wax buildup, which is a common cause of hearing issues. This simple check can help us rule out easy fixes and then explore other possibilities if needed. I also mentioned that the ringing you\u2019re experiencing is called tinnitus, which is quite common but not always fully understood. While there\u2019s no cure, there are strategies to manage it. In the meantime, I\u2019ve included some resources for you to read more about tinnitus and hearing loss. Please feel free to reach out if you have any questions or concerns before your appointment. I\u2019m here to support you through this.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 25049.869298934937,
+      "response_text": "Thank you for sharing your concerns with me, Jack. It's understandable that you're feeling worried about your hearing. Experiencing a gradual decline in hearing, along with ringing in your ear and occasional dizziness, can be quite unsettling. I want to make sure we address this together and explore the possible reasons behind these symptoms.\n\nGiven that your hearing difficulty has been ongoing for six weeks and accompanied by tinnitus and mild dizziness, it's important to start with a thorough evaluation. One common cause of hearing issues is earwax buildup, which can lead to muffled hearing. We should begin with an ear examination to check for any blockages or wax impaction, as this is a straightforward and treatable issue [PMID ?].\n\nIf earwax isn't the culprit, we'll need to consider other possibilities, such as changes in the ear drum or issues with the balance system. Tinnitus itself is a complex condition, and while we may not always find a specific cause, understanding it better can help manage the symptoms [PMID ?].\n\nTo move forward, I recommend scheduling an appointment with an audiologist for an ear exam. This will give us a clearer picture and guide the next steps in your care. In the meantime, avoid using cotton buds, as they can push wax deeper into the ear.\n\nBefore we wrap up, could you summarize what we've discussed today? This will help ensure you feel confident about the plan and any next steps. We'll follow up in about two weeks to see how you're doing and adjust our approach as needed. Please don't hesitate to reach out if you have any questions or concerns in the meantime.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 9373.054534196854,
+      "response_text": "Thank you for sharing your concerns about your hearing. It sounds like this has been going on for about six weeks, and you've noticed some ringing in your left ear along with occasional dizziness. I want to make sure we address this together.\n\nWe'll schedule an appointment for you to have your ear examined to check for wax buildup or other issues that might be causing your symptoms. This will help us understand what's going on and guide the next steps in your care.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again after the examination. In the meantime, if your symptoms worsen or you experience severe dizziness, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns about your hearing. It sounds like this has been going on for about six weeks, and you've noticed some ringing in your left ear along with occasional dizziness. I want to make sure we address this together.",
+        "clinical_information_per_concern": [],
+        "next_steps": [
+          "We'll schedule an appointment for you to have your ear examined to check for wax buildup or other issues that might be causing your symptoms. This will help us understand what's going on and guide the next steps in your care."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again after the examination. In the meantime, if your symptoms worsen or you experience severe dizziness, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 126972.90916740894,
+      "response_text": "It sounds like you're concerned about your hearing loss, which has been getting worse over the past six weeks with some ringing in your left ear and occasional dizziness.\n\nHearing loss can be caused by various factors, and since your symptoms have been worsening, it's important to get a clearer picture of what might be causing it. We'll need to explore this further to understand the best approach for you.\n\nWe'll schedule a follow-up appointment to discuss your hearing loss in more detail and explore possible next steps together.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again soon to talk about your hearing loss further. If you notice any new symptoms or changes in your condition, please reach out so we can address them promptly.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're concerned about your hearing loss, which has been getting worse over the past six weeks with some ringing in your left ear and occasional dizziness.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "hearing loss",
+            "profile_path": "problems[0]",
+            "explanation": "Hearing loss can be caused by various factors, and since your symptoms have been worsening, it's important to get a clearer picture of what might be causing it. We'll need to explore this further to understand the best approach for you.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll schedule a follow-up appointment to discuss your hearing loss in more detail and explore possible next steps together."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again soon to talk about your hearing loss further. If you notice any new symptoms or changes in your condition, please reach out so we can address them promptly.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "hearing loss"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 177629.88934665918,
+      "response_text": "It sounds like you're concerned about your hearing loss, which has been happening on and off for about six weeks. You mentioned ringing in your left ear and occasional dizziness, and I want to make sure we address these symptoms together.\n\nHearing loss can be caused by various factors, and since it's been happening on and off with ringing in your ear and dizziness, we should explore common causes. This might include issues like ear infections, exposure to loud noises, or even underlying health conditions.\n\nWe'll schedule a hearing test to better understand the extent of your hearing loss.\n\nWe'll also check for any infections or other potential causes during your next visit.\n\nIf needed, we can explore options like hearing aids or other treatments to help manage your symptoms.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if your symptoms get worse or you notice any new issues like severe dizziness, please call us so we can address them promptly.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're concerned about your hearing loss, which has been happening on and off for about six weeks. You mentioned ringing in your left ear and occasional dizziness, and I want to make sure we address these symptoms together.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "hearing loss",
+            "profile_path": "problems[0]",
+            "explanation": "Hearing loss can be caused by various factors, and since it's been happening on and off with ringing in your ear and dizziness, we should explore common causes. This might include issues like ear infections, exposure to loud noises, or even underlying health conditions.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[1]::39366124_0",
+                "primary_assertion_id": "39366124_0",
+                "pmids": [
+                  "39366124",
+                  "40155879"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll schedule a hearing test to better understand the extent of your hearing loss.",
+          "We'll also check for any infections or other potential causes during your next visit.",
+          "If needed, we can explore options like hearing aids or other treatments to help manage your symptoms."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if your symptoms get worse or you notice any new issues like severe dizziness, please call us so we can address them promptly.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[1]::39366124_0"
+        ],
+        "all_pmids_used": [
+          "39366124",
+          "40155879"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "hearing loss"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "39366124",
+        "40155879"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[1]::39366124_0"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 107107.11787641048,
+        "module_2_retrieval": 66.65651500225067,
+        "module_3_reasoning": 52248.65713715553,
+        "module_4_response": 18205.10556548834,
+        "total_ms": 177627.5370940566
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

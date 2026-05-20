@@ -1,0 +1,281 @@
+{
+  "transcript_id": "mts_val_30",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "This is a 52-year-old gentleman with a long history of heroin abuse, who keeps relapsing, presents once again, trying to get off the heroin,",
+  "patient_utterances": [
+    "[Clinician asked: \"Hi mister Jones.  Do you remember me from the last time you were here? How old are you now?\"] I am fifty two. Yes doc. I remember you.",
+    "[Clinician asked: \"What have you been using most recently? I need to know what kind of drugs we are dealing with.\"] I gotta kick the heroin. It's going to kill me this time. Please help me. My whole body hurts. I am so cold.",
+    "[Clinician asked: \"Okay. Is there anything else that you been using recently? Alcohol? Pills?\"] I did some coke. It's this heroin that is going to get me. I used to abuse alcohol, but now I have switched to drugs."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "HPI": "This is a 52-year-old gentleman with a long history of heroin abuse, who keeps relapsing, presents once again, trying to get off the heroin, last use shortly prior to arrival including cocaine.  The patient does have a history of alcohol abuse, but mostly he is concerned about the heroin abuse."
+  },
+  "n_patient_turns": 3,
+  "n_clinician_turns": 3,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 19841.743893921375,
+      "response_text": "I'm really sorry to hear about the struggles you're going through, Mr. Jones. It sounds like you're in a lot of physical and emotional pain, and I want you to know that I understand how serious this situation is. Heroin can be incredibly dangerous, and I'm so glad you're reaching out for help. It's important to remember that recovery is possible, and there are effective treatments available to support you through this process.\n\nWe can explore options like medication-assisted treatment and therapy to help you manage withdrawal symptoms and build a strong foundation for recovery. You don't have to face this alone\u2014there are professionals and support groups ready to help you every step of the way. Please consider reaching out to a treatment provider or joining a support group to start your journey toward healing. You're taking a brave step by seeking help, and that's something to be proud of. Let's work together to get you the support you need.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 22765.528313815594,
+      "response_text": "Thank you for sharing all of this with me, Mr. Jones. It makes sense that you're feeling this way\u2014trying to quit heroin and dealing with all these symptoms must be incredibly challenging. I can tell how much this is affecting you, and I want to work together to help you through this.\n\nGiven what you've described, there are a few things we should consider. The symptoms you're experiencing\u2014body pain and feeling cold\u2014could be related to withdrawal, but they might also indicate other issues, like an infection, especially if you've been injecting drugs [PMID ?]. It\u2019s also concerning that you mentioned using cocaine recently, as combining substances can increase the risk of serious health complications [PMID ?].\n\nWe\u2019ll start by doing a thorough check of your health to make sure there aren\u2019t any underlying issues we need to address immediately. I want to connect you with some resources to help you quit heroin safely, as there are effective treatments that can make this process easier [PMID ?]. In the meantime, we can work on managing your withdrawal symptoms to help you feel more comfortable.\n\nLet\u2019s plan to check in with each other in one week to see how you\u2019re doing and adjust our approach as needed. Before you leave, could you summarize what you think we discussed today? That will help me make sure everything is clear to you. And please don\u2019t hesitate to reach out if you need any help or have any questions in the meantime.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6449.763804674149,
+      "response_text": "It sounds like you're going through a tough time with your health and trying to get help for your substance use.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again soon. In the meantime, if your symptoms get worse or you need help, please reach out.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're going through a tough time with your health and trying to get help for your substance use.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again soon. In the meantime, if your symptoms get worse or you need help, please reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 48267.64205098152,
+      "response_text": "I can hear how much this is weighing on you. You mentioned, \"It's going to kill me this time,\" and \"Please help me. My whole body hurts. I am so cold.\" These are really tough feelings to carry, and I want to make sure we address them together.\n\nHeroin use can lead to serious health issues, and it's important to address it as soon as possible. We'll work on finding the right support and treatment options for you.\n\n Cocaine use also poses significant risks, and we'll make sure to monitor and address it during your care.\n\nReaching your goal of kicking heroin is really important, and we'll support you every step of the way with the right resources and care.\n\nWe'll start by connecting you with resources for substance use treatment and support.\n\nWe'll monitor your progress and adjust your care plan as needed.\n\nPlease let us know if you experience any new symptoms or if your current ones worsen.\n\nI want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why it's important?\n\nLet's plan to follow up in two weeks to check on your progress and make any necessary adjustments to your care plan. In the meantime, if you experience any severe symptoms or if things get worse, please reach out to us immediately.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this is weighing on you. You mentioned, \"It's going to kill me this time,\" and \"Please help me. My whole body hurts. I am so cold.\" These are really tough feelings to carry, and I want to make sure we address them together.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "heroin use",
+            "profile_path": "problems[0]",
+            "explanation": "Heroin use can lead to serious health issues, and it's important to address it as soon as possible. We'll work on finding the right support and treatment options for you.",
+            "citations": []
+          },
+          {
+            "concern_label": "cocaine use",
+            "profile_path": "problems[1]",
+            "explanation": " Cocaine use also poses significant risks, and we'll make sure to monitor and address it during your care.",
+            "citations": []
+          },
+          {
+            "concern_label": "kick heroin",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Reaching your goal of kicking heroin is really important, and we'll support you every step of the way with the right resources and care.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll start by connecting you with resources for substance use treatment and support.",
+          "We'll monitor your progress and adjust your care plan as needed.",
+          "Please let us know if you experience any new symptoms or if your current ones worsen."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why it's important?",
+        "follow_up_invitation": "Let's plan to follow up in two weeks to check on your progress and make any necessary adjustments to your care plan. In the meantime, if you experience any severe symptoms or if things get worse, please reach out to us immediately.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Demonstrate empathy",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 2,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 2,
+        "n_emotional": 3,
+        "n_goals": 1,
+        "problems": [
+          "heroin use",
+          "cocaine use"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Demonstrate empathy",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 102732.86400735378,
+      "response_text": "I can hear how much this is weighing on you \u2014 you said, \"It's this heroin that is going to get me,\" and \"Please help me.\" That desperation and fear are really clear, and I want to make sure we address this together.\n\nHeroin use can lead to serious health issues, and it's important to understand the patterns and triggers behind it. Some interventions have shown promise in reducing illicit drug use, but the evidence isn't strong enough to recommend a specific approach right now.\n\nReaching your goal of kicking heroin is important, and there are strategies that can help. While the evidence for behavioral counseling is limited, we can explore practical steps together to support your recovery.\n\nGiven the concerns about substance use, we'll prioritize getting a clearer picture of your situation. This includes understanding the patterns and triggers related to your heroin and cocaine use.\n\nWe'll explore practical steps to support your goal of kicking heroin, including any available resources and strategies that might help.\n\nWe'll schedule a follow-up to review the findings and discuss next steps together.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if you experience any severe withdrawal symptoms or if things get worse, please reach out as soon as possible.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this is weighing on you \u2014 you said, \"It's this heroin that is going to get me,\" and \"Please help me.\" That desperation and fear are really clear, and I want to make sure we address this together.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "heroin use",
+            "profile_path": "problems[0]",
+            "explanation": "Heroin use can lead to serious health issues, and it's important to understand the patterns and triggers behind it. Some interventions have shown promise in reducing illicit drug use, but the evidence isn't strong enough to recommend a specific approach right now.",
+            "citations": [
+              {
+                "cluster_id": "finding::problems[0]::32453373_0",
+                "primary_assertion_id": "32453373_0",
+                "pmids": [
+                  "32453373"
+                ]
+              },
+              {
+                "cluster_id": "finding::problems[0]::32453374_0",
+                "primary_assertion_id": "32453374_0",
+                "pmids": [
+                  "32453374"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "kick heroin",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Reaching your goal of kicking heroin is important, and there are strategies that can help. While the evidence for behavioral counseling is limited, we can explore practical steps together to support your recovery.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[2]::41092546_0",
+                "primary_assertion_id": "41092546_0",
+                "pmids": [
+                  "41092546"
+                ]
+              },
+              {
+                "cluster_id": "finding::sub_query[2]::35696124_0",
+                "primary_assertion_id": "35696124_0",
+                "pmids": [
+                  "35696124"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "Given the concerns about substance use, we'll prioritize getting a clearer picture of your situation. This includes understanding the patterns and triggers related to your heroin and cocaine use.",
+          "We'll explore practical steps to support your goal of kicking heroin, including any available resources and strategies that might help.",
+          "We'll schedule a follow-up to review the findings and discuss next steps together."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if you experience any severe withdrawal symptoms or if things get worse, please reach out as soon as possible.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Demonstrate empathy",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::problems[0]::32453373_0",
+          "finding::problems[0]::32453374_0",
+          "finding::sub_query[2]::41092546_0",
+          "finding::sub_query[2]::35696124_0"
+        ],
+        "all_pmids_used": [
+          "32453373",
+          "32453374",
+          "41092546",
+          "35696124"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 1,
+        "n_emotional": 4,
+        "n_goals": 1,
+        "problems": [
+          "heroin use"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "32453373",
+        "32453374",
+        "41092546",
+        "35696124"
+      ],
+      "cluster_ids_used": [
+        "finding::problems[0]::32453373_0",
+        "finding::problems[0]::32453374_0",
+        "finding::sub_query[2]::41092546_0",
+        "finding::sub_query[2]::35696124_0"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Demonstrate empathy",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 28005.8286562562,
+        "module_2_retrieval": 69.00463253259659,
+        "module_3_reasoning": 39868.24041604996,
+        "module_4_response": 34788.18695247173,
+        "total_ms": 102731.26065731049
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

@@ -1,0 +1,270 @@
+{
+  "transcript_id": "mts_test_1_143",
+  "dataset": "mts_dialog",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "Significant for two brothers and father who have cancer",
+  "patient_utterances": [
+    "[Clinician asked: \"Hello. How are you doing today?\"] Not fine. I want to see if I can get my cancer treated.",
+    "[Clinician asked: \"I see. Does cancer run in your family?\"] My two brothers and dad have some type of cancer."
+  ],
+  "gold_note": "",
+  "gold_sections": {
+    "FAM_SOCHX": "Significant for two brothers and father who have cancer."
+  },
+  "n_patient_turns": 2,
+  "n_clinician_turns": 2,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 12156.983219087124,
+      "response_text": "I'm really sorry to hear about everything you're going through. It sounds like you're feeling overwhelmed and worried, and I want you to know that I'm here to help. Having family members with cancer can be very concerning, and I understand why you\u2019d want to get things checked out. Let\u2019s start by getting a clear picture of what\u2019s going on. I\u2019ll do a physical exam and maybe some blood tests or imaging to see what\u2019s happening. We\u2019ll figure this out together, and you\u2019re not alone in this.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 19096.25666588545,
+      "response_text": "Thank you for sharing your concerns with me. It's completely understandable that you're feeling worried about your health, especially given your family history of cancer. Your fear is valid, and I want to work together to address it.\n\nTo move forward, let's discuss the next steps we can take to evaluate your concerns. Given your family history, it might be helpful to schedule some tests, such as blood work or imaging, to check for any signs that we need to be aware of [PMID ?]. These evaluations will help us understand what's going on and guide the best course of action.\n\nWe'll plan to schedule these tests in the coming days. I'll also arrange a follow-up appointment in about two weeks to review the results and discuss any further steps. Before you leave, could you summarize what we've agreed on today? This will help ensure you feel clear about the plan and any next steps we're taking together.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 3051.5631958842278,
+      "response_text": "Hello. How are you doing today?",
+      "structured_response": {
+        "acknowledgment": "Hello. How are you doing today?",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "",
+        "follow_up_invitation": "",
+        "nurse_elements_applied": [],
+        "four_habits_elements_applied": [],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 40042.90935397148,
+      "response_text": "I can hear how much this is weighing on you \u2014 you said, \"I want to see if I can get my cancer treated.\" That sounds like a big priority for you.\n\nWhen it comes to getting cancer treated, it's important to start with understanding the specific type of cancer and how it's being managed. Based on what we know, communication about treatment goals is key, especially for older adults with long-term conditions.\n\nTo make sure we're on the same page, we'll focus on clear communication about your treatment goals. This helps in tailoring the approach to your needs, especially when considering the use of social media for information.\n\nWe'll work together to understand the specific type of cancer and treatment options available.\n\nWe'll make sure to communicate clearly about your treatment goals and how we can tailor the approach to your needs.\n\nWe'll also focus on managing any symptoms you're experiencing to improve your quality of life.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if you have any questions or concerns, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this is weighing on you \u2014 you said, \"I want to see if I can get my cancer treated.\" That sounds like a big priority for you.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "cancer treatment",
+            "profile_path": "problems[0]",
+            "explanation": "When it comes to getting cancer treated, it's important to start with understanding the specific type of cancer and how it's being managed. Based on what we know, communication about treatment goals is key, especially for older adults with long-term conditions.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::33658141",
+                "primary_assertion_id": "33658141_retr",
+                "pmids": [
+                  "33658141"
+                ]
+              },
+              {
+                "cluster_id": "retrieval_only::40320239",
+                "primary_assertion_id": "40320239_retr",
+                "pmids": [
+                  "40320239"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "get cancer treated",
+            "profile_path": "patient_goals[0]",
+            "explanation": "To make sure we're on the same page, we'll focus on clear communication about your treatment goals. This helps in tailoring the approach to your needs, especially when considering the use of social media for information.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::40320239",
+                "primary_assertion_id": "40320239_retr",
+                "pmids": [
+                  "40320239"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll work together to understand the specific type of cancer and treatment options available.",
+          "We'll make sure to communicate clearly about your treatment goals and how we can tailor the approach to your needs.",
+          "We'll also focus on managing any symptoms you're experiencing to improve your quality of life."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if you have any questions or concerns, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "retrieval_only::33658141",
+          "retrieval_only::40320239"
+        ],
+        "all_pmids_used": [
+          "33658141",
+          "40320239"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 1,
+        "problems": [
+          "cancer treatment"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "33658141",
+        "40320239"
+      ],
+      "cluster_ids_used": [
+        "retrieval_only::33658141",
+        "retrieval_only::40320239"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 87561.8782415986,
+      "response_text": "I can see how important it is for you to get your cancer treated, and you mentioned, \"I want to see if I can get my cancer treated.\" That must be weighing heavily on your mind.\n\nBased on what you're seeking, it's important to start with understanding your specific situation. We'll look into the best ways to move forward together.\n\nTo address your goal, we'll focus on clear communication and shared decision-making to ensure you're involved in every step.\n\nWe'll start by understanding your specific situation and treatment options.\n\nWe'll work together to set clear goals and expectations for your care.\n\nWe'll schedule a follow-up to review the information and answer any questions you have.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to meet again in two weeks. If you have any questions or concerns in the meantime, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "I can see how important it is for you to get your cancer treated, and you mentioned, \"I want to see if I can get my cancer treated.\" That must be weighing heavily on your mind.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "cancer treatment seeking",
+            "profile_path": "problems[0]",
+            "explanation": "Based on what you're seeking, it's important to start with understanding your specific situation. We'll look into the best ways to move forward together.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::problems[0]::40320239_7",
+                "primary_assertion_id": "40320239_7",
+                "pmids": [
+                  "40320239"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "get cancer treated",
+            "profile_path": "patient_goals[0]",
+            "explanation": "To address your goal, we'll focus on clear communication and shared decision-making to ensure you're involved in every step.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::sub_query[1]::33658141_0",
+                "primary_assertion_id": "33658141_0",
+                "pmids": [
+                  "33658141"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll start by understanding your specific situation and treatment options.",
+          "We'll work together to set clear goals and expectations for your care.",
+          "We'll schedule a follow-up to review the information and answer any questions you have."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to meet again in two weeks. If you have any questions or concerns in the meantime, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "recommendation::problems[0]::40320239_7",
+          "recommendation::sub_query[1]::33658141_0"
+        ],
+        "all_pmids_used": [
+          "40320239",
+          "33658141"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 1,
+        "problems": [
+          "cancer treatment seeking"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "40320239",
+        "33658141"
+      ],
+      "cluster_ids_used": [
+        "recommendation::problems[0]::40320239_7",
+        "recommendation::sub_query[1]::33658141_0"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 15786.743551492691,
+        "module_2_retrieval": 63.86119872331619,
+        "module_3_reasoning": 49432.398073375225,
+        "module_4_response": 22277.389533817768,
+        "total_ms": 87560.392357409
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

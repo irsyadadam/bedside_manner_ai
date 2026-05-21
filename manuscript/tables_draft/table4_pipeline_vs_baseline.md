@@ -18,9 +18,16 @@
 |   | 4H n ↑ | 0.00 | 0.00 | **2.57** |
 |   | Halluc strict ↓ | —† | —† | 0.283 |
 |   | Halluc sem ↓ | — | — | 0.020 |
+| **ACI-Bench (n=8)** | Safety pass ↑ | 0% | 0% | **38%** |
+|   | autoDx pass ↑ | 62% | **75%** | 75% |
+|   | PMIDs / resp ↑ | 0.00 | 0.00 | **1.12** |
+|   | NURSE n ↑ | 0.00 | 0.00 | **2.00** |
+|   | 4H n ↑ | 0.00 | 0.00 | **2.62** |
+|   | Halluc strict ↓ | —† | —† | 0.177 |
+|   | Halluc sem ↓ | — | — | 0.000 |
 
 **Reading.** Bolded cells indicate the row's best-performing condition. Across both datasets, the full pipeline dominates on every provenance and empathy-marker metric. The autonomous-diagnosis (autoDx) pass rate flips direction on MTS-Dialog (favoring the strong-prompt baseline) because MTS's short section-focused snippets cause LLM-only conditions to produce vague, accidentally safe responses while the pipeline retrieves and references specific clinical content — a deployment-context sensitivity discussed in §5.
 
 † **Halluc strict** cells for LLM-only baselines are reported as “—” because those conditions do not run Module I — they extract no patient-profile atoms, so their hallucination rate is trivially 0/0 = 0. The pipeline's 0.32–0.33 strict rate is reported alongside its 0.000 *semantic*-anchored rate; the gap is entirely accounted for by legitimate clinical normalizations (see Table 7 footnote and §4.3).
 
-<small>Auto-generated from `manuscript/data/external_metrics_*.json` on 2026-05-20T19:35:56+00:00.</small>
+<small>Auto-generated from `manuscript/data/external_metrics_*.json` on 2026-05-21T02:12:06+00:00.</small>

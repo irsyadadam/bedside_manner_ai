@@ -444,6 +444,7 @@ def write_table5(external: dict[str, dict]) -> None:
     md.append("# Table 5. Module-level ablation (pooled, n = "
               f"{n_records_total} transcripts × 5 conditions)")
     md.append("")
+    ds_breakdown = ", ".join(f"{name} (n={d['n_transcripts']})" for name, d in external.items())
     md.append("*Five conditions on the same external-dataset transcripts. "
               "(a) and (b) are LLM-only controls (no extraction, no "
               "retrieval); (c) applies the response-generation directive "
@@ -451,8 +452,7 @@ def write_table5(external: dict[str, dict]) -> None:
               "(d) substitutes Module III's structured-context with "
               "top-N retrieved doc titles wrapped as singleton clusters; "
               "(e) is the full Modules I–IV pipeline. Pooled means across "
-              f"PriMock57 (n=57) + MTS-Dialog (n=235) = {n_records_total} "
-              "transcripts.*")
+              f"{ds_breakdown} = {n_records_total} transcripts.*")
     md.append("")
     md.append("| Condition | n | Safety pass ↑ | autoDx pass ↑ | PMIDs ↑ | NURSE ↑ | 4H ↑ | Halluc strict ↓ | Halluc sem ↓ | FK | Words |")
     md.append("|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|")
@@ -594,16 +594,19 @@ def write_table6(external: dict[str, dict]) -> None:
     md = []
     md.append("# Table 6. Provenance audit")
     md.append("")
+    total_ext_responses = sum(s['n_responses'] for s in ext_stats.values())
+    ds_breakdown_b = " + ".join(name for name in external.keys())
+    n_trans_total = sum(d['n_transcripts'] for d in external.values())
     md.append("*Two complementary mechanical audits of the responses' citation "
               "behavior. **Section A** (carried forward from Phase 12) checks "
               "every clinical claim in the n=3 synthetic-patient traces against "
               "its cited evidence quote, verifying verbatim substring presence "
               "in the source PubMed abstract — the strictest possible faithfulness "
-              "check. **Section B** (new, Phase 13) extends to the full external-"
-              "dataset corpus (PriMock57 + MTS-Dialog, " +
-              f"{sum(s['n_responses'] for s in ext_stats.values())} responses) "
-              "with a citation-existence audit: for every PMID number cited in a "
-              "response, check whether that PMID exists in our parsed corpus.*")
+              "check. **Section B** (new, Phase 13) extends to the external-"
+              f"dataset corpus ({ds_breakdown_b}, {total_ext_responses} "
+              "(transcript × condition) responses) with a citation-existence "
+              "audit: for every PMID number cited in a response, check whether "
+              "that PMID exists in our parsed corpus.*")
     md.append("")
 
     md.append("## Section A — Per-claim verbatim audit (n=3 synthetic patients)")
@@ -628,7 +631,7 @@ def write_table6(external: dict[str, dict]) -> None:
               "checks are also reported.*")
     md.append("")
 
-    md.append("## Section B — Citation-existence audit (n=292 external responses × 5 conditions)")
+    md.append(f"## Section B — Citation-existence audit (n={n_trans_total} transcripts × 5 conditions = {total_ext_responses} responses)")
     md.append("")
     md.append(f"Corpus: **{n_corpus:,} parsed PubMed documents** in `db/parsed/`.")
     md.append("")

@@ -1,0 +1,249 @@
+{
+  "transcript_id": "aci_virtassist_D2N019",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "hi dr. fisher . i'm doing okay except for my elbow here .",
+  "patient_utterances": [
+    "[Clinician asked: \"hi ms. hernandez , dr. fisher , how are you ?\"] hi dr. fisher . i'm doing okay except for my elbow here .",
+    "[Clinician asked: \"all right . so it's your right elbow ?\"] it's my right elbow , yes .",
+    "[Clinician asked: \"okay . hey dragon , ms. hernandez is a 48-year-old female here for a right elbow . so , tell me what happened .\"] well , i was , um , moving to a new home-",
+    "[Clinician asked: \"okay .\"] and i was , um , moving boxes from the truck into the house and i lifted a box up and then i felt like this popping-",
+    "[Clinician asked: \"hmm .\"] and this strain as i was lifting it up onto the shelf .",
+    "[Clinician asked: \"okay . and when- when did this happen ?\"] this was just yesterday .",
+    "[Clinician asked: \"all right . and have you tried anything for it ? i mean ...\"] i put ice on it . and i've been taking ibuprofen , but it still hurts at lot .",
+    "[Clinician asked: \"okay , what makes it better or worse ?\"] the ice , when i have it on , is better .",
+    "[Clinician asked: \"okay .\"] but , um , as soon as , you know , i take it off then it starts throbbing and hurting again .",
+    "[Clinician asked: \"all right . uh , let's review your past medical history . uh ... looks like you've got a history of anaphylaxis , is that correct ?\"] yes . yes , i do . yeah .",
+    "[Clinician asked: \"do you take any medications for it ?\"] um , ep- ... just an epipen .",
+    "[Clinician asked: \"just epipen for anaphylaxis when you need it . um , and what surgeries have you had before ?\"] yeah , so carotid . yeah-",
+    "[Clinician asked: \"yeah , no , uh , your , uh , neck surgery . all right . well let's , uh , examine you here for a second . so it's your , uh , this elbow right here ?\"] yeah .",
+    "[Clinician asked: \"and is it hurt- ... tender right around that area ?\"] yes , it is .",
+    "[Clinician asked: \"okay . can you flex it or can you bend it ?\"] it hurts when i do that , yeah .",
+    "[Clinician asked: \"all right . and go ahead and straighten out as much as you can .\"] that's about it .",
+    "[Clinician asked: \"all right .\"] yeah .",
+    "[Clinician asked: \"so there's some swelling there . and how about , uh , can you move your fingers okay ? does that hurt ?\"] no , that's fine .",
+    "[Clinician asked: \"how about right over here ?\"] uh , no that's fine . yeah .",
+    "[Clinician asked: \"it , uh , there's a little bit of swelling there on the lateral elbow but i do n't see any fracture , so that's good . so , looking at the x-ray and looking at your exam , uh , my diagnosis here would be lateral epicondylitis , and this is basically inflammation of this area where this tendon in- in\"] hmm .",
+    "[Clinician asked: \"and it should get better , uh , in about , you know , in a couple of days it should be improved . and if it does n't get better , give us a call and we'll see you some time next week . okay ? so we'll give you a sling , we'll give you the motrin , i'll give you about , uh , 30 , uh , uh , 30 , uh , \"] no , no . thank you .",
+    "[Clinician asked: \"hey dragon , order the medications and the procedures . all right , why do n't you come with me and we'll get you signed out ?\"] okay , sounds good ."
+  ],
+  "gold_note": "CC:\n\nRight elbow pain.\n\nHPI:\n\nMs. Hernandez is a 48-year-old female who presents today for an evaluation of right elbow pain. She states she was moving boxes from the truck into the house yesterday and felt a pop in her elbow. She has tried applying ice and taking Ibuprofen, but it does not help. She has a history of anaphylaxis and has an EpiPen. Her past surgical history is significant for neck surgery.\n\nEXAM\n\nExamination of the right elbow shows tenderness over the lateral epicondyle. Swelling and redness are noted. Pain with flexion and extension of the elbow. Pain over the dorsal aspect of the forearm.\n\nRESULTS\n\nX-rays of the right elbow shows no obvious signs of acute fracture. Mild effusion about the lateral aspect.\n\nIMPRESSION\n\nRight elbow lateral epicondylitis.\n\nPLAN\n\nAt this point, I discussed the diagnosis and treatment options with the patient. I have recommended a sling for comfort. We discussed ice and anti-inflammatory medications. I will prescribe Motrin, 800 mg to take every 6 hours. She will follow up with me as needed if she continues to have pain. All questions were answered.",
+  "gold_sections": {
+    "PHYSICAL_EXAM": "Examination of the right elbow shows tenderness over the lateral epicondyle. Swelling and redness are noted. Pain with flexion and extension of the elbow. Pain over the dorsal aspect of the forearm.",
+    "RESULTS": "X-rays of the right elbow shows no obvious signs of acute fracture. Mild effusion about the lateral aspect.",
+    "IMPRESSION": "Right elbow lateral epicondylitis.",
+    "PLAN": "At this point, I discussed the diagnosis and treatment options with the patient. I have recommended a sling for comfort. We discussed ice and anti-inflammatory medications. I will prescribe Motrin, 800 mg to take every 6 hours. She will follow up with me as needed if she continues to have pain. All questions were answered."
+  },
+  "n_patient_turns": 22,
+  "n_clinician_turns": 24,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 20162.8450602293,
+      "response_text": "I'm really sorry to hear about the pain you're experiencing with your elbow, Ms. Hernandez. It sounds like you're in some discomfort, and I completely understand how frustrating that must be, especially after such a physically demanding move. Based on what you've described and the exam, it seems like you're dealing with lateral epicondylitis, which is a common issue often caused by overuse or strain, like lifting heavy boxes.\n\nThe good news is that this condition is manageable with some rest and care. I recommend continuing to use ice on your elbow to help reduce the swelling and pain, and keep taking the ibuprofen as directed. Try to avoid any activities that make the pain worse, and give your elbow some time to heal. If the pain doesn't improve in a few days, or if it gets worse, please don't hesitate to reach out. We're here to help, and we can always adjust your care plan if needed. Take care, and I hope you feel better soon.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 20978.3238992095,
+      "response_text": "Thank you for sharing your concerns with me, Ms. Hernandez. It sounds like the elbow pain you're experiencing is quite uncomfortable, and I can understand why it's worrying you. Moving to a new home is already stressful, and dealing with physical discomfort adds to that. I want to make sure we address this properly together.\n\nFrom what you've described, the sudden onset of pain after lifting a box and the tenderness around the elbow suggest a possible injury. Lateral epicondylitis, or tennis elbow, is a common condition that can develop from overuse or a sudden strain, especially when lifting heavy objects. However, it's also worth considering other possibilities like bursitis or a minor strain. To confirm, we might need imaging, but for now, we'll focus on managing the symptoms and monitoring your progress.\n\nI'll prescribe a sling to help rest the elbow and recommend continuing with ice and ibuprofen as you've been doing. Studies show that rest and anti-inflammatory medications are effective in managing such injuries [PMID ?]. If the pain doesn't improve within a couple of days or if it gets worse, we should revisit your care, possibly exploring other treatments like physical therapy.\n\nBefore you leave, could you summarize what we've discussed today? This will help ensure you understand the plan and that I've covered all your questions. We'll schedule a follow-up in two weeks to reassess your elbow and adjust treatment if needed. Please don't hesitate to reach out if you experience severe pain or any concerning symptoms in the meantime.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 10246.726781129837,
+      "response_text": "It sounds like your elbow has been bothering you quite a bit since you moved the boxes. You mentioned putting ice on it and taking ibuprofen, but the pain is still there when you remove the ice. I understand how frustrating that must be.\n\nWe'll provide you with a sling to help rest your elbow and continue with the ibuprofen as prescribed.\n\nIf the pain doesn't improve within a couple of days, please give us a call to schedule a follow-up visit.\n\nIn the meantime, try to keep your elbow elevated and avoid activities that strain it.\n\nCan you tell me, in your own words, what you understand about how to care for your elbow and what steps you should take next?\n\nLet's plan to see each other again in a few days if the pain doesn't improve. In the meantime, if the pain gets worse or if you develop any swelling, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "It sounds like your elbow has been bothering you quite a bit since you moved the boxes. You mentioned putting ice on it and taking ibuprofen, but the pain is still there when you remove the ice. I understand how frustrating that must be.",
+        "clinical_information_per_concern": [],
+        "next_steps": [
+          "We'll provide you with a sling to help rest your elbow and continue with the ibuprofen as prescribed.",
+          "If the pain doesn't improve within a couple of days, please give us a call to schedule a follow-up visit.",
+          "In the meantime, try to keep your elbow elevated and avoid activities that strain it."
+        ],
+        "teach_back_prompt": "Can you tell me, in your own words, what you understand about how to care for your elbow and what steps you should take next?",
+        "follow_up_invitation": "Let's plan to see each other again in a few days if the pain doesn't improve. In the meantime, if the pain gets worse or if you develop any swelling, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 143275.1859202981,
+      "response_text": "It sounds like your elbow pain is really bothering you, and you've been dealing with it since yesterday. You mentioned that the pain is still severe, and you've already tried ice and ibuprofen without much relief.\n\nGiven that your elbow pain started suddenly and is still severe despite trying ice and ibuprofen, it's important to consider possible causes like injury, inflammation, or other issues. We'll need to look into this further to determine the best course of action.\n\nWe'll schedule an imaging test to get a better look at your elbow and check for any structural issues.\n\nWe'll also review your medical history, including your previous carotid surgery, to see if it might be related.\n\nIf we find any concerning signs, we'll discuss next steps and possibly refer you to a specialist.\n\nCan you tell me, in your own words, what we're going to do next and why it's important?\n\nLet's plan to follow up in a week to review the results. In the meantime, if the pain gets worse or you develop any new symptoms, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "It sounds like your elbow pain is really bothering you, and you've been dealing with it since yesterday. You mentioned that the pain is still severe, and you've already tried ice and ibuprofen without much relief.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "elbow pain",
+            "profile_path": "problems[0]",
+            "explanation": "Given that your elbow pain started suddenly and is still severe despite trying ice and ibuprofen, it's important to consider possible causes like injury, inflammation, or other issues. We'll need to look into this further to determine the best course of action.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll schedule an imaging test to get a better look at your elbow and check for any structural issues.",
+          "We'll also review your medical history, including your previous carotid surgery, to see if it might be related.",
+          "If we find any concerning signs, we'll discuss next steps and possibly refer you to a specialist."
+        ],
+        "teach_back_prompt": "Can you tell me, in your own words, what we're going to do next and why it's important?",
+        "follow_up_invitation": "Let's plan to follow up in a week to review the results. In the meantime, if the pain gets worse or you develop any new symptoms, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 1,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "elbow pain"
+        ],
+        "medications": [
+          "epipen"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 187448.7280845642,
+      "response_text": "It sounds like your elbow pain is really bothering you, especially since it started yesterday and you're still in a lot of discomfort. I want to make sure I understand how this is affecting your daily life.\n\nThe elbow pain you're experiencing, especially after trying ice and ibuprofen, might be related to several factors. Research shows that interventions aimed at improving patient understanding of their condition can help manage symptoms and reduce anxiety. However, these interventions are unlikely to have a significant impact on mortality rates.\n\nWe'll schedule a follow-up visit to further assess your elbow pain and determine the next best steps for treatment.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a week. In the meantime, if the pain gets worse or you experience any new symptoms, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "It sounds like your elbow pain is really bothering you, especially since it started yesterday and you're still in a lot of discomfort. I want to make sure I understand how this is affecting your daily life.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "elbow pain",
+            "profile_path": "problems[0]",
+            "explanation": "The elbow pain you're experiencing, especially after trying ice and ibuprofen, might be related to several factors. Research shows that interventions aimed at improving patient understanding of their condition can help manage symptoms and reduce anxiety. However, these interventions are unlikely to have a significant impact on mortality rates.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[1]::33285618_0",
+                "primary_assertion_id": "33285618_0",
+                "pmids": [
+                  "33285618"
+                ]
+              },
+              {
+                "cluster_id": "finding::sub_query[1]::33285618_1",
+                "primary_assertion_id": "33285618_1",
+                "pmids": [
+                  "33285618"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll schedule a follow-up visit to further assess your elbow pain and determine the next best steps for treatment."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a week. In the meantime, if the pain gets worse or you experience any new symptoms, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[1]::33285618_0",
+          "finding::sub_query[1]::33285618_1"
+        ],
+        "all_pmids_used": [
+          "33285618"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 1,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "elbow pain"
+        ],
+        "medications": [
+          "epipen"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [
+        "33285618"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[1]::33285618_0",
+        "finding::sub_query[1]::33285618_1"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 135054.181098938,
+        "module_2_retrieval": 1045.2427715063095,
+        "module_3_reasoning": 32949.29990917444,
+        "module_4_response": 18399.11398291588,
+        "total_ms": 187447.83776253462
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

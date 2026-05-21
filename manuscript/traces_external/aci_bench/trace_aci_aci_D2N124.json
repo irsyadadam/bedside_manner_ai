@@ -1,0 +1,331 @@
+{
+  "transcript_id": "aci_aci_D2N124",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "hey doctor michael yeah so my son sean i think you met in the past he he started playing basketball and there we do multiple seasons and so ",
+  "patient_utterances": [
+    "[Clinician asked: \"so jerry is a 45 -year-old male who came in today with an ankle injury jerry what happened\"] hey doctor michael yeah so my son sean i think you met in the past he he started playing basketball and there we do multiple seasons and so we're kinda getting ready for the next season that starts in in april and we were at the courts plan and i went up for a shot and he's far more aggressive than with me than he is with you know his peers i guess he could say and so he he found me while i was going for a lap and then when i came down i kind of landed awkwardly and i kind of like rolled and twisted my my ankle so now it's it's hurting a bit like kind of on the outside you can you can even see it's it's bruised up and a bit swollen",
+    "[Clinician asked: \"yeah\"] and yeah i've been having trouble walking and it just does n't feel solid really stable which is a problem i i recently got back into working out and i had been in a really good rhythm going to the gym",
+    "[Clinician asked: \"okay\"] and i do n't want to disrupt that moments on because it took a lot for me to get back to a good place so",
+    "[Clinician asked: \"absolutely okay totally understand that glad to hear that you're back out on the court playing with your son how is he doing by the way\"] he is doing great he is doing great i mean you know he is a big step kurry fan so he likes to keep up shots from from way out past the three point line and he is only ten and tiny so it's it's not a good idea for him to do that but he is doing really well and i'm just happy he's tried every sport and basketball's really what took so i'm just really happy that he has a sport and loves and couple of his buddies playing to lead with him so it's just makes me happy that he's found something he really enjoys",
+    "[Clinician asked: \"good good to hear alright well let's take a look at that ankle it looks like it's pretty swollen so let me just do a quick exam on that right now alright so looks like the outside of your ankle if i push on that does that hurt pretty bad\"] yeah yes",
+    "[Clinician asked: \"okay so exquisite tenderness tenderness laterally and then if i push here does that hurt too\"] yeah a little bit",
+    "[Clinician asked: \"okay so some tenderness over the medial deltoid region so swelling on the lateral side of the ankle no epidermolysis skin is intact looks like you have brisk capillary refill no horrible malalignment so alright can you can you stand on it did you say that you're having trouble walking at all\"] yeah i mean i can stand on it and i ca n't walk on it it just it hurts and it feels like i'm going to possibly injure it more just because it does n't feel particularly solid",
+    "[Clinician asked: \"sure so it does n't quite feel stable\"] yeah",
+    "[Clinician asked: \"okay okay i gotcha so i know you had an x-ray as you came in today and so i'm just looking at this x-ray here i'll show you on the screen right here i can turn my monitor towards you this is an ap lateral oblique and this is your right ankle so what we're looking at is a displaced lateral malleolus \"] how long it's a little bit because i'm also i i forgot to say i'm also i did volunteer to coach",
+    "[Clinician asked: \"great\"] starting in april so",
+    "[Clinician asked: \"alright well\"] how long",
+    "[Clinician asked: \"yeah you you're probably gon na be out for about three months but continue the coaching go ahead and and let's get you back out there we'll get you some crutches and and hopefully you can kinda you know get back on the court start coaching and then within that three months we'll we'll get you back o\"] okay",
+    "[Clinician asked: \"alright in the meantime i'm gon na prescribe some medication for now let's try meloxicam and try to get some of the swelling down i want you to ice it and also keep that that ankle elevated do you have a job where you can elevate your ankle regularly\"] yeah i i work from home so that that should n't be a problem it's just everything else i do n't know who is gon na walk my dogs and and do all this stuff that's rest of my family refuses to walk my dog so we'll figure it out",
+    "[Clinician asked: \"yeah i i'm a dog walker as well so alright sorry for the bad news but let's get you healed up so that we can get you back out doing everything you need to do\"] alright thank you doctor"
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nRight ankle injury.\n\nHISTORY OF PRESENT ILLNESS\n\nJerry Cook is a 45-year-old male who presents today with a right ankle injury.\n\nThe patient sustained an injury to the right ankle while playing basketball with his son. He reports he landed awkwardly and twisted his right ankle after jumping to make a layup. His pain is primarily located along the lateral aspect of the right ankle. He notes bruising and swelling. The patient is able to weight-bear while standing. He experiences pain and feelings of instability within the ankle while ambulating and is concerned for further injury.\n\nSOCIAL HISTORY\n\nThe patient works from home and plans to coach his son\u2019s basketball team in 04/2022. He enjoys working out and reports he recently resumed engaging in a consistent gym routine.\n\nREVIEW OF SYSTEMS\n\nMusculoskeletal: Reports right ankle pain and instability.\nSkin: Reports right ankle bruising and swelling.\n\nPHYSICAL EXAM\n\nCV: Brisk capillary refill.\nSKIN: No epidermolysis. Intact.\nMSK: Examination of the right ankle: Exquisite tenderness laterally. Mild tenderness over the medial deltoid region. Swelling on the lateral side of the ankle. No horrible malalignment.\n\nRESULTS\n\nX-rays, including AP, lateral, and oblique views of the right ankle, were obtained in the office and reviewed today. These demonstrate a displaced lateral malleolus at the Weber C level. There is no evidence of medial or posterior malleolar fractures.\n\nASSESSMENT\n\nRight lateral malleolar fracture.\n\nPLAN\n\nAfter reviewing the patient's examination and radiographic findings today, I have had a lengthy discussion with him regarding treatment options. Recommendation was made for an open reduction internal fixation of the right ankle. We discussed the risks and benefits of the procedure as well as the postoperative recovery period following surgery. I advised that it will be 3 months before he can resume his exercise routine. In the meantime, I will prescribe meloxicam to reduce swelling. I recommended he ice and elevate the ankle as well. He will be given crutches to assist with ambulation.\n\nThe patient understands and agrees with the recommended medical treatment plan.",
+  "gold_sections": {
+    "CC": "Right ankle injury.",
+    "HPI": "Jerry Cook is a 45-year-old male who presents today with a right ankle injury.\n\nThe patient sustained an injury to the right ankle while playing basketball with his son. He reports he landed awkwardly and twisted his right ankle after jumping to make a layup. His pain is primarily located along the lateral aspect of the right ankle. He notes bruising and swelling. The patient is able to weight-bear while standing. He experiences pain and feelings of instability within the ankle while ambulating and is concerned for further injury.",
+    "SOCIAL_HISTORY": "The patient works from home and plans to coach his son\u2019s basketball team in 04/2022. He enjoys working out and reports he recently resumed engaging in a consistent gym routine.",
+    "ROS": "Musculoskeletal: Reports right ankle pain and instability.\nSkin: Reports right ankle bruising and swelling.",
+    "PHYSICAL_EXAM": "CV: Brisk capillary refill.\nSKIN: No epidermolysis. Intact.\nMSK: Examination of the right ankle: Exquisite tenderness laterally. Mild tenderness over the medial deltoid region. Swelling on the lateral side of the ankle. No horrible malalignment.",
+    "RESULTS": "X-rays, including AP, lateral, and oblique views of the right ankle, were obtained in the office and reviewed today. These demonstrate a displaced lateral malleolus at the Weber C level. There is no evidence of medial or posterior malleolar fractures.",
+    "ASSESSMENT": "Right lateral malleolar fracture.",
+    "PLAN": "After reviewing the patient's examination and radiographic findings today, I have had a lengthy discussion with him regarding treatment options. Recommendation was made for an open reduction internal fixation of the right ankle. We discussed the risks and benefits of the procedure as well as the postoperative recovery period following surgery. I advised that it will be 3 months before he can resume his exercise routine. In the meantime, I will prescribe meloxicam to reduce swelling. I recommended he ice and elevate the ankle as well. He will be given crutches to assist with ambulation.\n\nThe patient understands and agrees with the recommended medical treatment plan."
+  },
+  "n_patient_turns": 14,
+  "n_clinician_turns": 15,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 15107.688814401627,
+      "response_text": "I'm really sorry to hear about your ankle injury, Jerry. It sounds like a tough situation, especially with the basketball season starting soon and your role as a coach. However, with the right treatment, we'll get you back on your feet. The fracture will need about three months to heal, and using crutches will help protect your ankle during this time. The medication and rest are crucial steps to reduce swelling and pain. I know this might feel overwhelming, but focusing on healing now will allow you to return to your active lifestyle sooner.\n\nIn the meantime, don't hesitate to reach out if you need help with daily tasks like walking your dogs. Your family's support, along with the right care, will make this recovery smoother. Stay positive, and let's work together to get you back to coaching and enjoying time with Sean. You've got this!",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 25239.0628606081,
+      "response_text": "Thank you for sharing all of that with me, Jerry. It makes sense that you're feeling concerned about your ankle injury, especially since it's affecting your ability to work out and coach. I can understand how frustrating it must be to have this happen right before the basketball season starts, especially when you've worked so hard to get back into your routine.\n\nFrom what I gather, the injury happened when you landed awkwardly during a game with your son, and now you're experiencing pain, swelling, and instability in your ankle. Based on the x-ray results, it looks like you have a displaced lateral malleolus fracture, which is a common type of ankle fracture. This means the bone is out of place, and we'll need to address it to help you get back to your active lifestyle as soon as possible.\n\nGiven the nature of the fracture, we'll likely need to immobilize your ankle to allow proper healing. I'll prescribe some medication like meloxicam to help reduce the swelling and pain. It's important to keep your ankle elevated and use ice to manage the swelling. Since you work from home, you should have some flexibility to rest, but I know this might be challenging with your other responsibilities. We'll work together to figure out a plan that suits your needs.\n\nIn the meantime, I recommend using crutches to keep weight off your ankle and avoiding activities that could worsen the injury. We'll schedule a follow-up in about 2-4 weeks to reassess your progress. Before you leave, could you summarize the plan in your own words so I can make sure everything is clear?",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7048.589937388897,
+      "response_text": "Thank you for sharing your concerns about your ankle injury. It sounds like this is affecting your ability to stay active and continue with your workout routine, which is important to you.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if you experience severe pain or your symptoms worsen, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns about your ankle injury. It sounds like this is affecting your ability to stay active and continue with your workout routine, which is important to you.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if you experience severe pain or your symptoms worsen, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 136257.99103826284,
+      "response_text": "I can hear how much this has been weighing on you \u2014 you said, \"i do n't want to disrupt that moments on because it took a lot for me to get back to a good place so.\" That's a real concern, and I want to make sure we address it.\n\nAnkle injuries, especially from activities like basketball, often involve bruising and swelling. It's important to monitor these symptoms to determine the best course of action.\n\nManaging daily tasks with an ankle injury can be challenging, but there are strategies to help you stay independent.\n\nContinuing to work from home is a realistic goal, and we can explore ways to adapt your workspace to accommodate your injury.\n\nFinding help with dog walking is a valid concern. We can discuss local resources or alternative arrangements to support you during this time.\n\nWe'll schedule a follow-up visit to assess the ankle injury and discuss any necessary adjustments to your daily activities.\n\nWe can explore options for managing daily tasks and working from home during your recovery.\n\nI'll provide information on local resources that can assist with dog walking while you're recovering.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a week. In the meantime, if the ankle injury worsens or you experience severe pain, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this has been weighing on you \u2014 you said, \"i do n't want to disrupt that moments on because it took a lot for me to get back to a good place so.\" That's a real concern, and I want to make sure we address it.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "ankle injury",
+            "profile_path": "problems[0]",
+            "explanation": "Ankle injuries, especially from activities like basketball, often involve bruising and swelling. It's important to monitor these symptoms to determine the best course of action.",
+            "citations": []
+          },
+          {
+            "concern_label": "manage daily tasks with ankle injury",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Managing daily tasks with an ankle injury can be challenging, but there are strategies to help you stay independent.",
+            "citations": []
+          },
+          {
+            "concern_label": "continue working from home",
+            "profile_path": "patient_goals[1]",
+            "explanation": "Continuing to work from home is a realistic goal, and we can explore ways to adapt your workspace to accommodate your injury.",
+            "citations": []
+          },
+          {
+            "concern_label": "find help with dog walking",
+            "profile_path": "patient_goals[2]",
+            "explanation": "Finding help with dog walking is a valid concern. We can discuss local resources or alternative arrangements to support you during this time.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll schedule a follow-up visit to assess the ankle injury and discuss any necessary adjustments to your daily activities.",
+          "We can explore options for managing daily tasks and working from home during your recovery.",
+          "I'll provide information on local resources that can assist with dog walking while you're recovering."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a week. In the meantime, if the ankle injury worsens or you experience severe pain, please call us right away.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 3,
+        "problems": [
+          "ankle injury"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 293098.6495092511,
+      "response_text": "I can see how important it is for him to stay active and enjoy basketball, especially since it's something he's passionate about. You mentioned, \"he is doing great he is doing great i mean you know he is a big step kurry fan so he likes to keep up shots from from way out past the three point line and he is only ten and tiny so it's it's not a good idea for him to do that but he is doing really well and i'm just happy he's tried every sport and basketball's really what took so i'm just really happy that he's found something he really enjoys,\" which shows how much you're encouraging him.\n\nTo help him get back into working out safely, we should start with some gentle exercises and make sure the ankle heals properly. This approach has been shown to help prevent falls and keep him active in the long run.\n\nIt's important to address the trouble he's having walking. We'll focus on exercises that can help improve his mobility and strength, which aligns with what's recommended to prevent falls and keep him active.\n\nTo support his goal of getting back into working out, we'll create a plan that includes safe exercises and gradual increases in activity, ensuring he stays active without risking further injury.\n\nMaintaining a good workout rhythm is key for his overall health. We'll work together to set up a routine that fits his interests and keeps him motivated, based on what's recommended for preventing falls and promoting activity.\n\nWe'll schedule a follow-up visit to check on his ankle's healing progress and discuss safe exercises he can start doing.\n\nI'll provide him with some gentle exercises to help with his mobility and strength, which will support his goal of getting back into working out.\n\nWe'll also talk about how to maintain a good workout rhythm while ensuring he stays active without risking further injury.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if he experiences increased pain or his walking difficulty gets worse, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I can see how important it is for him to stay active and enjoy basketball, especially since it's something he's passionate about. You mentioned, \"he is doing great he is doing great i mean you know he is a big step kurry fan so he likes to keep up shots from from way out past the three point line and he is only ten and tiny so it's it's not a good idea for him to do that but he is doing really well and i'm just happy he's tried every sport and basketball's really what took so i'm just really happy that he's found something he really enjoys,\" which shows how much you're encouraging him.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "ankle injury",
+            "profile_path": "problems[0]",
+            "explanation": "To help him get back into working out safely, we should start with some gentle exercises and make sure the ankle heals properly. This approach has been shown to help prevent falls and keep him active in the long run.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::sub_query[1]::38833246_0",
+                "primary_assertion_id": "38833246_0",
+                "pmids": [
+                  "38833246"
+                ]
+              },
+              {
+                "cluster_id": "recommendation::sub_query[1]::38833246_2",
+                "primary_assertion_id": "38833246_2",
+                "pmids": [
+                  "38833246"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "trouble walking",
+            "profile_path": "problems[1]",
+            "explanation": "It's important to address the trouble he's having walking. We'll focus on exercises that can help improve his mobility and strength, which aligns with what's recommended to prevent falls and keep him active.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::sub_query[1]::38833246_0",
+                "primary_assertion_id": "38833246_0",
+                "pmids": [
+                  "38833246"
+                ]
+              },
+              {
+                "cluster_id": "recommendation::sub_query[1]::38833246_2",
+                "primary_assertion_id": "38833246_2",
+                "pmids": [
+                  "38833246"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "get back into working out",
+            "profile_path": "patient_goals[0]",
+            "explanation": "To support his goal of getting back into working out, we'll create a plan that includes safe exercises and gradual increases in activity, ensuring he stays active without risking further injury.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::sub_query[1]::38833246_0",
+                "primary_assertion_id": "38833246_0",
+                "pmids": [
+                  "38833246"
+                ]
+              },
+              {
+                "cluster_id": "recommendation::sub_query[1]::38833246_2",
+                "primary_assertion_id": "38833246_2",
+                "pmids": [
+                  "38833246"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "maintain a good workout rhythm",
+            "profile_path": "patient_goals[1]",
+            "explanation": "Maintaining a good workout rhythm is key for his overall health. We'll work together to set up a routine that fits his interests and keeps him motivated, based on what's recommended for preventing falls and promoting activity.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::sub_query[1]::38833246_0",
+                "primary_assertion_id": "38833246_0",
+                "pmids": [
+                  "38833246"
+                ]
+              },
+              {
+                "cluster_id": "recommendation::sub_query[1]::38833246_2",
+                "primary_assertion_id": "38833246_2",
+                "pmids": [
+                  "38833246"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll schedule a follow-up visit to check on his ankle's healing progress and discuss safe exercises he can start doing.",
+          "I'll provide him with some gentle exercises to help with his mobility and strength, which will support his goal of getting back into working out.",
+          "We'll also talk about how to maintain a good workout rhythm while ensuring he stays active without risking further injury."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if he experiences increased pain or his walking difficulty gets worse, please call us right away.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "recommendation::sub_query[1]::38833246_0",
+          "recommendation::sub_query[1]::38833246_2"
+        ],
+        "all_pmids_used": [
+          "38833246"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 2,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 2,
+        "problems": [
+          "ankle injury",
+          "trouble walking"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "38833246"
+      ],
+      "cluster_ids_used": [
+        "recommendation::sub_query[1]::38833246_0",
+        "recommendation::sub_query[1]::38833246_2"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 195087.47485280037,
+        "module_2_retrieval": 2450.777232646942,
+        "module_3_reasoning": 48780.114099383354,
+        "module_4_response": 46779.14810180664,
+        "total_ms": 293097.5142866373
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

@@ -1,0 +1,258 @@
+{
+  "transcript_id": "aci_virtscribe_D2N101",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "nice to meet you , ma'am . how are you ?",
+  "patient_utterances": [
+    "[Clinician asked: \"patient is julia jones , date of birth 5/16/1996 . she is a new breast reduction consult . hello , how are you doing today ? i'm dr. gonzalez . it's nice to meet you .\"] nice to meet you , ma'am . how are you ?",
+    "[Clinician asked: \"i'm doing good , thank you . so you're here to discuss a breast reduction , correct ?\"] yes . that's right .",
+    "[Clinician asked: \"okay . perfect . let me just get logged in , here . have you met with anyone before about a breast reduction ?\"] no , i have n't .",
+    "[Clinician asked: \"okay . and how long have you been considering this ?\"] it's probably been about six or seven years . but i mean , it's always been in the back of my mind .",
+    "[Clinician asked: \"well , i perform a lot of breast reduction surgeries , pretty much every week , so it is a very common procedure .\"] okay , that's reassuring .",
+    "[Clinician asked: \"yeah . so what i wan na do first is just get a little bit of history about the sort of symptoms that you're having . and then i'll do a quick exam .\"] okay . that sounds good .",
+    "[Clinician asked: \"and then we'll talk more about the surgery and what it entails . and , um , at this point , who is your insurance provider ?\"] i have blue cross blue shield . well , actually , my husband just accepted a new job , and i will be on his plan , uh , which i believe is not going to be blue cross , but it may be changing .",
+    "[Clinician asked: \"okay . what we typically do when we do a breast reduction consult , i'll document your symptoms , symptoms , we'll take some pictures , then , um , they get sent to the insurance company . and what they'll do is decide whether it's approved , or medically necessary , or not . but we wan na make sure\"] most likely july .",
+    "[Clinician asked: \"okay . so we may just wait until july to submit for approval at that time .\"] okay .",
+    "[Clinician asked: \"so regarding your symptoms , do you experience back pain ?\"] well , i've been going to the chiropractor for a few years . i do have a lotta pain here and here . but i do n't know if it's all from my breasts or not . it gets painful and builds up . so i think i could attribute it to my breasts , when i'm working at my desk all day .",
+    "[Clinician asked: \"okay . and in your neck and your upper back . and how long has this been going on ? would you say five years , 10 years , or even since puberty ?\"] i would say since i was in high school .",
+    "[Clinician asked: \"okay . and do you have the bra strap indentations in your shoulders ? um , i saw that you're wearing about a g cup .\"] yes . i do get indentations , but i do n't really wear a regular bra that often . i mostly were a 34 e sports bra because it's more comfortable . and the others are expensive in my size .",
+    "[Clinician asked: \"yeah , i have heard that as well . and , um , have you had any children , or are you planning to have any children in the future ?\"] no , i do not have any kids now . but we might plan to in the future .",
+    "[Clinician asked: \"okay . and at this time , are you experiencing any numbness or tingling in the s- in the hands or any nipple pain ?\"] sometimes , yes .",
+    "[Clinician asked: \"okay . and rashes , do you get any rashes underneath your breasts ? and , and it could be from sweating .\"] no , but they are always sweaty .",
+    "[Clinician asked: \"okay . and then do you feel like your activities are limited because of the size ?\"] there's certain things i do when i have to hold them , like working out and any jumping or running . and it hurts .",
+    "[Clinician asked: \"and it hurts , okay . and , and you saw a chiropractor . but what about physical therapy for your back pain ? or do you take any pain medicine for it ?\"] y- no , but i do take a migraine medication , propranolol .",
+    "[Clinician asked: \"that's okay . so let's see . i know that you have a history of breast cancer in your family . have you had any mammograms ? and how old was your mother when she had it ?\"] mom was 40 . and they recommended me starting at age 30 for mammogram . i'm still ... i mean , i'm 25 . so i'm still a little bit young .",
+    "[Clinician asked: \"okay . and otherwise , it seems like you're really healthy ?\"] yes , for the most part . i lost about 10 pounds over the past few months , and i still would like to lose about 20 more pounds .",
+    "[Clinician asked: \"congratulations . that's great . and then , um-\"] thank you .",
+    "[Clinician asked: \"so then ... you're welcome . and so do you use any tobacco , drugs , or alcohol ? and then , um , you said that you were going to school . what are you going to school for ?\"] uh , i drink a little wine on occasion , and for school , i'm currently studying psychology .",
+    "[Clinician asked: \"okay , that's great . all right . so what we'll do is we'll go ahead and take a look . i'm gon na take a couple of measurements . and we'll kinda talk about the surgery afterwards . um , so go ahead and stand up for me , julia . okay . so , looking at the measurements , it looks like one breast is a\"] yeah .",
+    "[Clinician asked: \"okay . well , thank you so much . it looks like i have all the measurements that we need . you can go ahead and cover up now .\"] okay .",
+    "[Clinician asked: \"so i think you're a great candidate for a breast reduction . when we talk about a breast reduction , what happens is that we remove the tissue out of the breast .\"] okay . that's fine .",
+    "[Clinician asked: \"and we would then lift them and elevate the nipple position in order to help with your back pain , neck pain , and because i'm a plastic surgeon , of course i want them to look nice as well .\"] right .",
+    "[Clinician asked: \"so typically , when you do the breast reduction , we make an incision around the nipple straight down and then underneath . and it kinda looks like , um , an anchor below . then straight down , and underneath , and through that incision , we're able to f- to lift the breast . and we'll take off any \"] okay . well , thank you for explaining that .",
+    "[Clinician asked: \"you're welcome . and in your case , you'll probably be a small c. um , a b cup might be a little bit small , but we'll see once i'm doing the , the procedure for you .\"] okay .",
+    "[Clinician asked: \"and typically the surgery takes about three hours . you will have drains , one in each side . and that helps prevent fluid from building up in the breast . and that stays in for about a week . and then we'll remove them in the clinic . and you'll have a clear plastic tape over your incision that sho\"] okay . well , i'm not too worried about the scars .",
+    "[Clinician asked: \"okay . and i do like to keep patients overnight . it's just going to be for one night in the hospital . and we just wan na make sure your pain is controlled , make sure you're not nauseated , all of that stuff . some patients wan na go home that same day . but you know that some people get nauseated\"] okay , yeah , that sounds good .",
+    "[Clinician asked: \"okay . and then about 30 % of patients say that they can not breastfeed after a breast reduction , and the reason is the breast is made up of fat . and it's also made up of a gland . and the gland is what produces the milk .\"] okay .",
+    "[Clinician asked: \"and so in order to reduce the size of the breast , we have to take out both the fat and the glands . so it just depends on how much is left , whether you can breastfeed in the future . and then also , the breast will change over time . if you , um , gain weight , they will get larger , things like t\"] yeah , okay .",
+    "[Clinician asked: \"and if you have children , they will change as well . they will enlarge , especially if you can breastfeed . but they'll go back down and will appear , um , a little bit deflated .\"] yeah . i do n't know if i'm interested in breastfeeding .",
+    "[Clinician asked: \"okay . um , the hormones of pregnancy , though , will change the breasts , so that's just something to be aware of , and i tell all younger patients that .\"] okay , yeah . absolutely .",
+    "[Clinician asked: \"and then typically nipple sensation is fine after a breast reduction , but there is a slight chance that you'll have an alteration in the nipple sensation or not have any sensation in the nipple . generally the nipple is just fine unless it is a massive reduction . and it's quite normal after surger\"] yeah , okay .",
+    "[Clinician asked: \"but other than that , you know , most patients are very happy after the breast reduction because the symptoms of the back pain , the neck pain , you can feel relief almost immediately . so do you have any questions , julia , about the process or anything like that ?\"] no , not really .",
+    "[Clinician asked: \"okay . and , i do think you're a good candidate for it . and i think you'll benefit from it as well .\"] good . i look forward to a relief .",
+    "[Clinician asked: \"i think you just have to do it when you are ready , when you know that you feel like it's a good time , because it is a commitment , and you will have some activity restrictions for about six weeks after surgery , uh , no heavy lifting . and i do say no driving for two to three weeks . and the drain\"] okay . well , i am ready as soon as my insurance is switched over .",
+    "[Clinician asked: \"okay . well , i think from this point , if you want to , we can take photos today , while you're here . i have all the documentation now in the note about your symptoms , and that's what the insurance company is going to look for . so thank you for answering those questions . so once we have the new\"] okay . well , i will notify the office as soon as i have the insurance information ."
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nMacromastia.\n\nHISTORY OF PRESENT ILLNESS\n\nJulia Jones is a 25-year-old female who presents for evaluation of macromastia.\n\nMs. Jones reports this is her first visit in regard to a breast reduction and has been interested in getting a breast reduction for approximately 7 years. Currently she has Blue Cross Blue Shield insurance but will be added to her spouse\u2019s insurance plan in 07/2021.\n\nCurrent breast size is a G cup, although she primarily wears a 34 E sports bra for comfort, and desired breast size is a B or C cup. No prior pregnancies, potentially planning on pregnancies in the future, and unsure of breast feeding.\n\nThe patient endorses back and neck pain since she was in high school. Her back and neck pain has been managed by a chiropractor for a few years. She reports weight loss of 10 pounds over the past few months and would like to lose an additional 20 pounds.\n\nShe endorses the following symptoms because of her macromastia for 7 years:\n\nChronic upper back pain: Yes.\nBra strap grooving in shoulders or indentation on lateral chest wall: Occasionally.\nNeck pain: Yes.\nNipple pain or numbness: Yes.\nParesthesia of the hands or arms: Yes.\nIntertrigo, rash or yeast or other skin problems beneath breasts: Yes, persistent sweating.\nStooped posture: Yes.\nPhysical activity limited by breast size: Yes.\n\nThe patient has undergone the following therapies:\nPhysical therapy: No.\n\nSpecial bras: Yes.\nNon-narcotic pain medication: No.\nNarcotic pain medication: No.\n\nHer previous breast surgery includes:\nPrevious reconstruction: No.\n\nPAST HISTORY\n\nMedical\nSignificant for migraine headaches.\n\nFAMILY HISTORY\n\nMother with prior history of breast cancer at age 40.\n\nSOCIAL HISTORY\n\nTobacco: No prior history.\nAlcohol: Socially. One glass per week.\nDrug: No prior history.\nOccupational and Educational: Currently studying to be a psychologist.\n\nCURRENT MEDICATIONS\n\nPropranolol for migraine prevention.\n\nVITALS\n\nBSA 2.65\n\nPHYSICAL EXAM\n\nBreasts\nInspection reveals\u202fasymmetrical\u202fbreasts with severe ptosis bilaterally. There is no nipple retraction or discharge bilaterally. No breast tenderness, masses, or axillary lymphadenopathy is palpable.\n\nASSESSMENT\n\n\u2022 Macromastia.\n\nJulia Jones is a 25-year-old female with symptomatic macromastia presenting for evaluation of breast reduction. The patient has attempted non-surgical treatments with minimal relief and is an ideal candidate for bilateral reduction mammoplasty. Her minimum required resection based on a BSA of 2.65 with the Schnur scale is 1792 g, which should be attainable. Given her extremely large breasts and the measurements above, there is potential for using a free nipple graft.\n\nPLAN\n\nAn extensive discussion of breast reduction surgery was performed with the patient with consideration of the patient's age, co-morbidities, previous surgical history, body habitus, BMI, and smoking history. Surgical time, immediate recovery course, and longer term recovery course were discussed. Relief of the patient's current symptoms related to macromastia was not guaranteed though is expected to improve. Specific breast size was discussed, also not guaranteed. I explained the expected outcomes of using a free nipple graft such as an insensate nipple and an inability to breast feed. The patient understands that the decision for a free nipple graft will be made intraoperatively based on assessment of nipple perfusion.\n\nRisks and benefits of were discussed with the patient The patient understands the above risks, benefits and alternatives to surgery and wishes to proceed with bilateral reduction mammaplasty.\n\nThe patient will be switching to a different insurance policy in 07/2021. Once we get the new insurance information from the patient, we will submit it to her insurance company. If approved, she will return for preoperative counseling and consent.\n\nReturn to clinic prior to scheduled surgery date for preoperative counseling and consent.",
+  "gold_sections": {
+    "CC": "Macromastia.",
+    "HPI": "Julia Jones is a 25-year-old female who presents for evaluation of macromastia.\n\nMs. Jones reports this is her first visit in regard to a breast reduction and has been interested in getting a breast reduction for approximately 7 years. Currently she has Blue Cross Blue Shield insurance but will be added to her spouse\u2019s insurance plan in 07/2021.\n\nCurrent breast size is a G cup, although she primarily wears a 34 E sports bra for comfort, and desired breast size is a B or C cup. No prior pregnancies, potentially planning on pregnancies in the future, and unsure of breast feeding.\n\nThe patient endorses back and neck pain since she was in high school. Her back and neck pain has been managed by a chiropractor for a few years. She reports weight loss of 10 pounds over the past few months and would like to lose an additional 20 pounds.\n\nShe endorses the following symptoms because of her macromastia for 7 years:\n\nChronic upper back pain: Yes.\nBra strap grooving in shoulders or indentation on lateral chest wall: Occasionally.\nNeck pain: Yes.\nNipple pain or numbness: Yes.\nParesthesia of the hands or arms: Yes.\nIntertrigo, rash or yeast or other skin problems beneath breasts: Yes, persistent sweating.\nStooped posture: Yes.\nPhysical activity limited by breast size: Yes.\n\nThe patient has undergone the following therapies:\nPhysical therapy: No.\n\nSpecial bras: Yes.\nNon-narcotic pain medication: No.\nNarcotic pain medication: No.\n\nHer previous breast surgery includes:\nPrevious reconstruction: No.",
+    "PAST_HISTORY": "Medical\nSignificant for migraine headaches.",
+    "FAMILY_HISTORY": "Mother with prior history of breast cancer at age 40.",
+    "SOCIAL_HISTORY": "Tobacco: No prior history.\nAlcohol: Socially. One glass per week.\nDrug: No prior history.\nOccupational and Educational: Currently studying to be a psychologist.",
+    "CURRENT_MEDICATIONS": "Propranolol for migraine prevention.",
+    "VITALS": "BSA 2.65",
+    "PHYSICAL_EXAM": "Breasts\nInspection reveals\u202fasymmetrical\u202fbreasts with severe ptosis bilaterally. There is no nipple retraction or discharge bilaterally. No breast tenderness, masses, or axillary lymphadenopathy is palpable.",
+    "ASSESSMENT": "\u2022 Macromastia.\n\nJulia Jones is a 25-year-old female with symptomatic macromastia presenting for evaluation of breast reduction. The patient has attempted non-surgical treatments with minimal relief and is an ideal candidate for bilateral reduction mammoplasty. Her minimum required resection based on a BSA of 2.65 with the Schnur scale is 1792 g, which should be attainable. Given her extremely large breasts and the measurements above, there is potential for using a free nipple graft.",
+    "PLAN": "An extensive discussion of breast reduction surgery was performed with the patient with consideration of the patient's age, co-morbidities, previous surgical history, body habitus, BMI, and smoking history. Surgical time, immediate recovery course, and longer term recovery course were discussed. Relief of the patient's current symptoms related to macromastia was not guaranteed though is expected to improve. Specific breast size was discussed, also not guaranteed. I explained the expected outcomes of using a free nipple graft such as an insensate nipple and an inability to breast feed. The patient understands that the decision for a free nipple graft will be made intraoperatively based on assessment of nipple perfusion.\n\nRisks and benefits of were discussed with the patient The patient understands the above risks, benefits and alternatives to surgery and wishes to proceed with bilateral reduction mammaplasty.\n\nThe patient will be switching to a different insurance policy in 07/2021. Once we get the new insurance information from the patient, we will submit it to her insurance company. If approved, she will return for preoperative counseling and consent.\n\nReturn to clinic prior to scheduled surgery date for preoperative counseling and consent."
+  },
+  "n_patient_turns": 38,
+  "n_clinician_turns": 40,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 14370.390921831131,
+      "response_text": "Thank you for sharing your thoughts and concerns with me, Julia. It\u2019s clear that you\u2019ve given a lot of consideration to this decision, and I respect that. Breast reduction surgery is a very personal choice, and I\u2019m confident that you\u2019ll make the best decision for yourself. You\u2019re in good hands, and I\u2019m here to support you through every step of this process.\n\nI understand how important it is for you to feel comfortable and confident in your own body, and I believe this procedure could bring you significant relief from the symptoms you\u2019ve been experiencing. Remember, there\u2019s no rush\u2014take the time you need to think things through and ask any questions that come up. My door is always open for you.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 23131.73732161522,
+      "response_text": "Thank you for sharing your concerns with me, Julia. It\u2019s clear that you\u2019ve been thinking deeply about this for a long time, and I can understand how this has been affecting your daily life and activities. It\u2019s important to take your time and make a decision that feels right for you.\n\nWe\u2019ve discussed the possibility of a breast reduction, and it seems like a good option to address your back and neck pain, as well as the physical discomfort you\u2019re experiencing. The next step is to get everything ready for your insurance approval. Once your new plan is in place, we can proceed with the necessary documentation and photos. It\u2019s crucial to ensure we have all the information they need to review your case.\n\nRegarding the procedure, it\u2019s a common surgery that can significantly improve your comfort and confidence. We\u2019ll make sure to go through everything in detail, including the recovery process and any potential risks. You mentioned you\u2019re ready once your insurance is sorted, and I\u2019ll make sure to keep you informed about the timeline.\n\nIf you have any questions or concerns in the meantime, please don\u2019t hesitate to reach out. I\u2019ll check in with you in about two weeks to see how things are progressing and to address any questions you might have.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 9585.90916544199,
+      "response_text": "Thank you for sharing your thoughts and concerns with me today. It sounds like you've been considering this breast reduction for a while and are ready to take the next step.\n\nWe'll proceed with the necessary documentation and measurements to submit to your insurance provider for approval.\n\nOnce approved, we can schedule the procedure at a time that works best for you.\n\nIn the meantime, feel free to reach out if you have any questions or concerns.\n\nI want to make sure I explained everything clearly. Can you tell me what you understand about the next steps and how we'll move forward?\n\nLet's plan to follow up in a few weeks once we have the insurance approval. If anything changes or if you have new questions, please don't hesitate to contact us.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your thoughts and concerns with me today. It sounds like you've been considering this breast reduction for a while and are ready to take the next step.",
+        "clinical_information_per_concern": [],
+        "next_steps": [
+          "We'll proceed with the necessary documentation and measurements to submit to your insurance provider for approval.",
+          "Once approved, we can schedule the procedure at a time that works best for you.",
+          "In the meantime, feel free to reach out if you have any questions or concerns."
+        ],
+        "teach_back_prompt": "I want to make sure I explained everything clearly. Can you tell me what you understand about the next steps and how we'll move forward?",
+        "follow_up_invitation": "Let's plan to follow up in a few weeks once we have the insurance approval. If anything changes or if you have new questions, please don't hesitate to contact us.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "error": "2 validation errors for PatientConcernProfile\nproblems.0.associated_symptoms\n  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.13/v/list_type\nproblems.0.interventions_tried\n  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.13/v/list_type"
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 242300.69835484028,
+      "response_text": "I can see that losing weight has been a real concern for you, and you mentioned feeling relieved about something. That makes me want to focus on supporting you in reaching your goal of losing 20 more pounds.\n\nBreast reduction surgery is a common procedure that can help with physical discomfort and improve self-esteem. It's important to discuss your expectations and concerns with your healthcare provider to ensure it's the right choice for you.\n\nBack pain can be managed with a combination of exercises, proper posture, and sometimes medication. Since you've tried chiropractic care, we can explore other options together to find what works best for you.\n\nLosing weight can be supported through a healthy diet and regular physical activity. Medications like GLP-1 therapies can also help with weight loss when combined with lifestyle changes.\n\nTo help you lose weight, we can consider medications like GLP-1 therapies, which are known to be effective when used with intensive behavioral therapy.\n\nWe'll discuss your options for weight loss, including lifestyle changes and possible medications.\n\nWe'll schedule a follow-up appointment to review your progress and adjust your plan as needed.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if you have any questions or concerns, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "I can see that losing weight has been a real concern for you, and you mentioned feeling relieved about something. That makes me want to focus on supporting you in reaching your goal of losing 20 more pounds.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "breast reduction",
+            "profile_path": "problems[0]",
+            "explanation": "Breast reduction surgery is a common procedure that can help with physical discomfort and improve self-esteem. It's important to discuss your expectations and concerns with your healthcare provider to ensure it's the right choice for you.",
+            "citations": []
+          },
+          {
+            "concern_label": "back pain",
+            "profile_path": "problems[1]",
+            "explanation": "Back pain can be managed with a combination of exercises, proper posture, and sometimes medication. Since you've tried chiropractic care, we can explore other options together to find what works best for you.",
+            "citations": []
+          },
+          {
+            "concern_label": "weight loss",
+            "profile_path": "problems[2]",
+            "explanation": "Losing weight can be supported through a healthy diet and regular physical activity. Medications like GLP-1 therapies can also help with weight loss when combined with lifestyle changes.",
+            "citations": [
+              {
+                "cluster_id": "finding::patient_goals[0]::41324410_0",
+                "primary_assertion_id": "41324410_0",
+                "pmids": [
+                  "41324410"
+                ]
+              },
+              {
+                "cluster_id": "recommendation::patient_goals[0]::41324410_1",
+                "primary_assertion_id": "41324410_1",
+                "pmids": [
+                  "41324410"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "lose about 20 more pounds",
+            "profile_path": "patient_goals[0]",
+            "explanation": "To help you lose weight, we can consider medications like GLP-1 therapies, which are known to be effective when used with intensive behavioral therapy.",
+            "citations": [
+              {
+                "cluster_id": "finding::patient_goals[0]::41324410_0",
+                "primary_assertion_id": "41324410_0",
+                "pmids": [
+                  "41324410"
+                ]
+              },
+              {
+                "cluster_id": "recommendation::patient_goals[0]::41324410_1",
+                "primary_assertion_id": "41324410_1",
+                "pmids": [
+                  "41324410"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll discuss your options for weight loss, including lifestyle changes and possible medications.",
+          "We'll schedule a follow-up appointment to review your progress and adjust your plan as needed."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if you have any questions or concerns, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::patient_goals[0]::41324410_0",
+          "recommendation::patient_goals[0]::41324410_1"
+        ],
+        "all_pmids_used": [
+          "41324410"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 3,
+        "n_medications": 1,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 1,
+        "problems": [
+          "breast reduction",
+          "back pain",
+          "weight loss"
+        ],
+        "medications": [
+          "propranolol (for migraines)"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [
+        "41324410"
+      ],
+      "cluster_ids_used": [
+        "finding::patient_goals[0]::41324410_0",
+        "recommendation::patient_goals[0]::41324410_1"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 172144.06070113182,
+        "module_2_retrieval": 1422.5795790553093,
+        "module_3_reasoning": 36930.20586669445,
+        "module_4_response": 31802.64563113451,
+        "total_ms": 242299.4917780161
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

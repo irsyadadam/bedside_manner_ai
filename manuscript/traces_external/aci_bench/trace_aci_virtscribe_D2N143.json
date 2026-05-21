@@ -1,0 +1,227 @@
+{
+  "transcript_id": "aci_virtscribe_D2N143",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "hi . yes . nice to meet you , too .",
+  "patient_utterances": [
+    "[Clinician asked: \"hello , ms. ross . i'm dr. diaz . it's good to meet you .\"] hi . yes . nice to meet you , too .",
+    "[Clinician asked: \"so , how are you doing today ? i hear that you're here for std testing . is that correct ?\"] yeah . actually , i found out earlier this week , that my boyfriend has been cheating on me , for some time . i'm really worried , that i could have caught something , you know ?",
+    "[Clinician asked: \"mm-hmm .\"] i wanted to make sure i do n't have anything .",
+    "[Clinician asked: \"yeah . i'm sorry to hear that . of course , we can do that today . um . well , let's see . how do you feel ? do you have any symptoms ?\"] well , um , i started noticing some weird discharge last week .",
+    "[Clinician asked: \"mm-hmm .\"] uh , it smells different . it's not the same color , or consistency , as usually , it is .",
+    "[Clinician asked: \"right .\"] um . that part did n't even phase me , until i noticed that the right side of my vagina was hurting . just sore , you know , but that has n't gone away .",
+    "[Clinician asked: \"yep . nah , that does sound like a cause for concern . how long have you been with him ?\"] hmm , we've been dating for three years .",
+    "[Clinician asked: \"mm-hmm .\"] as far as , i can figure , he started cheating on me , i think , about three months ago .",
+    "[Clinician asked: \"uh- . um , okay . do you ... have you ever had an irregular pap smear ?\"] well , yeah , i did , but it was back whenever i was 20 or so . it has n't ... and i have n't had one since .",
+    "[Clinician asked: \"okay . and when was your last pap smear ?\"] uh , about six months ago . it came back normal , though .",
+    "[Clinician asked: \"okay . good , okay . well , let's see ... let's take a look at you , and then , we'll get some samples for std testing . okay ?\"] all right .",
+    "[Clinician asked: \"okay , ms. ross . everything looks good from a visual standpoint . i'm going to send off std testing for , uh , gonorrhea , chlamydia , trichomoniasis , and i'll have you give some blood for syphilis , hiv and hepatitis c. some of these tests will take longer than others . we will call you , if we s\"] okay . sounds good . thank you , so much ."
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nFull-spectrum sexually transmitted disease testing.\n\nHISTORY OF PRESENT ILLNESS\n\nMs. Ross is a 23-year-old female who presents today as a new patient for full-spectrum STD testing.\n\nThe patient states that she is having symptoms of discomfort, a change in discharge, and an odor in her vaginal region. She says that the right side of her vagina is starting to become painful but denies any fever or chills. She states that she recently learned her partner of 3 years has been engaging in sexual encounters with other people for quite some time, and she wants to be evaluated for all sexually transmitted diseases.\n\nMs. Ross reports noticing a change in the odor, color, and consistency of her vaginal discharge last week. She notes that this did not alarm her until the right side of her vagina became painful and sore, which has not subsided. She states that she had an abnormal Pap Smear around the age of 20, but all her Pap Smears since then, including her most recent one approximately 6 months ago, have all been normal.\n\nPHYSICAL EXAM\n\nGenitourinary\nPelvic exam: No external lesions, normal labia majora and labia minora. Normal physiological discharge with normal color and odor. Cervix is normal, vaginal wall is normal, no cervical motion tenderness or masses noted. Swabs were obtained for sexual transmitted disease testing.\n\nASSESSMENT\n\n\u2022 Screening for sexually transmitted disease.\n\nPLAN\n\nMs. Ross is a 23-year-old female who presents today as a new patient for full-spectrum STD testing. We will screen her today for gonorrhea, chlamydia, trichomoniasis, syphilis, HIV, and hepatitis C. Patient is high risk due to an abnormal pap smear in the past and the recent discovery of her sexual partner having multiple partners for some period of time. We will call the patient with the results of the laboratory testing.",
+  "gold_sections": {
+    "CC": "Full-spectrum sexually transmitted disease testing.",
+    "HPI": "Ms. Ross is a 23-year-old female who presents today as a new patient for full-spectrum STD testing.\n\nThe patient states that she is having symptoms of discomfort, a change in discharge, and an odor in her vaginal region. She says that the right side of her vagina is starting to become painful but denies any fever or chills. She states that she recently learned her partner of 3 years has been engaging in sexual encounters with other people for quite some time, and she wants to be evaluated for all sexually transmitted diseases.\n\nMs. Ross reports noticing a change in the odor, color, and consistency of her vaginal discharge last week. She notes that this did not alarm her until the right side of her vagina became painful and sore, which has not subsided. She states that she had an abnormal Pap Smear around the age of 20, but all her Pap Smears since then, including her most recent one approximately 6 months ago, have all been normal.",
+    "PHYSICAL_EXAM": "Genitourinary\nPelvic exam: No external lesions, normal labia majora and labia minora. Normal physiological discharge with normal color and odor. Cervix is normal, vaginal wall is normal, no cervical motion tenderness or masses noted. Swabs were obtained for sexual transmitted disease testing.",
+    "ASSESSMENT": "\u2022 Screening for sexually transmitted disease.",
+    "PLAN": "Ms. Ross is a 23-year-old female who presents today as a new patient for full-spectrum STD testing. We will screen her today for gonorrhea, chlamydia, trichomoniasis, syphilis, HIV, and hepatitis C. Patient is high risk due to an abnormal pap smear in the past and the recent discovery of her sexual partner having multiple partners for some period of time. We will call the patient with the results of the laboratory testing."
+  },
+  "n_patient_turns": 12,
+  "n_clinician_turns": 21,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 13959.141984581947,
+      "response_text": "I understand how overwhelming and stressful this situation must be for you, especially with everything that's been going on with your relationship. It's completely valid to feel concerned about your health, and I'm here to make sure we address those concerns thoroughly. The changes you've noticed and the symptoms you're experiencing are important, and we're taking them seriously by doing the necessary tests to ensure everything is checked out.\n\nWe're running a range of tests to cover all bases, from STDs to other potential infections, and we'll keep you updated on the results. In the meantime, please know that you're not alone in this. We're here to support you and provide the care you need. If there's anything else on your mind or if you have any questions, feel free to ask. We'll get through this together.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 21201.072834432125,
+      "response_text": "Thank you for sharing all of that with me, Ms. Ross. It sounds like you're going through a lot right now, and I can understand how overwhelming and worrying this must be for you. Finding out that your boyfriend has been cheating is incredibly difficult, and it\u2019s completely reasonable to be concerned about your health. I want to make sure we address everything thoroughly during your visit.\n\nGiven what you\u2019ve described\u2014changes in your discharge and some discomfort on the right side of your vagina\u2014we\u2019ll proceed with the testing I mentioned earlier. We\u2019re checking for gonorrhea, chlamydia, trichomoniasis, syphilis, HIV, and hepatitis C. These tests are important because they can help us identify any potential infections that might require treatment. Many of these infections, like gonorrhea and chlamydia, can cause symptoms like unusual discharge and discomfort [PMID ?].\n\nWe\u2019ll also monitor your symptoms closely. The discomfort you\u2019re feeling could be related to an infection, but it might also be due to other factors, such as stress or changes in your routine. Either way, it\u2019s good we\u2019re checking everything out. I\u2019ll make sure to review the results with you as soon as they\u2019re available, which should be within a week for most of the tests.\n\nBefore you leave, could you summarize what we\u2019ve discussed today? That way, I can ensure I\u2019ve explained everything clearly and you feel confident about the next steps. We\u2019ll follow up in about a week to go over the results and address any questions or concerns you may have in the meantime.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 10136.355750262737,
+      "response_text": "It sounds like you're here because you're worried about possibly catching something from your situation with your boyfriend. I understand how that can make you feel concerned and anxious.\n\nWe'll do the STD testing you requested today, including checking for gonorrhea, chlamydia, trichomoniasis, syphilis, HIV, and hepatitis C. We'll also take a look at any unusual discharge or soreness you mentioned.\n\nWe'll send these tests to the lab and will contact you with the results as soon as they're available.\n\nI want to make sure I explained everything clearly. Can you tell me, in your own words, what we're going to do next and why it's important?\n\nLet's plan to follow up once we have the test results. In the meantime, if you experience any severe symptoms like intense pain or heavy bleeding, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're here because you're worried about possibly catching something from your situation with your boyfriend. I understand how that can make you feel concerned and anxious.",
+        "clinical_information_per_concern": [],
+        "next_steps": [
+          "We'll do the STD testing you requested today, including checking for gonorrhea, chlamydia, trichomoniasis, syphilis, HIV, and hepatitis C. We'll also take a look at any unusual discharge or soreness you mentioned.",
+          "We'll send these tests to the lab and will contact you with the results as soon as they're available."
+        ],
+        "teach_back_prompt": "I want to make sure I explained everything clearly. Can you tell me, in your own words, what we're going to do next and why it's important?",
+        "follow_up_invitation": "Let's plan to follow up once we have the test results. In the meantime, if you experience any severe symptoms like intense pain or heavy bleeding, please call us right away.",
+        "nurse_elements_applied": [
+          "Name",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "error": "1 validation error for PatientConcernProfile\nproblems.0.associated_symptoms\n  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.13/v/list_type"
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 207984.16300863028,
+      "response_text": "I can hear how much this is worrying you \u2014 you said, \"I'm really worried, that I could have caught something, you know?\" That's a real concern, and I want to make sure we address it.\n\nGiven your concerns about possible exposure, it's important to get tested soon. Testing can help identify any infections early, which is key for effective treatment.\n\nAbnormal discharge can be a sign of several issues, including infections. We'll need to do some tests to figure out what's going on and the best way to treat it.\n\nVaginal soreness can be caused by a number of things, including infections. We'll check for any underlying issues to help you feel better.\n\nYour goal to get tested for STDs is a great step forward. We'll make sure to prioritize that in our next steps.\n\nWe'll schedule an STD test right away to address your concerns.\n\nWe'll also look into the abnormal discharge and vaginal soreness with appropriate tests.\n\nOnce we have the results, we'll discuss the next steps together.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to follow up in a week to review the test results. In the meantime, if you experience any severe symptoms like heavy bleeding or intense pain, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this is worrying you \u2014 you said, \"I'm really worried, that I could have caught something, you know?\" That's a real concern, and I want to make sure we address it.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "STD exposure concern",
+            "profile_path": "problems[0]",
+            "explanation": "Given your concerns about possible exposure, it's important to get tested soon. Testing can help identify any infections early, which is key for effective treatment.",
+            "citations": [
+              {
+                "cluster_id": "finding::problems[0]::32809007_0",
+                "primary_assertion_id": "32809007_0",
+                "pmids": [
+                  "32809007"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "abnormal discharge",
+            "profile_path": "problems[1]",
+            "explanation": "Abnormal discharge can be a sign of several issues, including infections. We'll need to do some tests to figure out what's going on and the best way to treat it.",
+            "citations": [
+              {
+                "cluster_id": "finding::problems[0]::32809007_0",
+                "primary_assertion_id": "32809007_0",
+                "pmids": [
+                  "32809007"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "vaginal soreness",
+            "profile_path": "problems[2]",
+            "explanation": "Vaginal soreness can be caused by a number of things, including infections. We'll check for any underlying issues to help you feel better.",
+            "citations": [
+              {
+                "cluster_id": "finding::problems[0]::32809007_0",
+                "primary_assertion_id": "32809007_0",
+                "pmids": [
+                  "32809007"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "get tested for STDs",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Your goal to get tested for STDs is a great step forward. We'll make sure to prioritize that in our next steps.",
+            "citations": [
+              {
+                "cluster_id": "finding::problems[0]::32809007_0",
+                "primary_assertion_id": "32809007_0",
+                "pmids": [
+                  "32809007"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll schedule an STD test right away to address your concerns.",
+          "We'll also look into the abnormal discharge and vaginal soreness with appropriate tests.",
+          "Once we have the results, we'll discuss the next steps together."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to follow up in a week to review the test results. In the meantime, if you experience any severe symptoms like heavy bleeding or intense pain, please call us right away.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::problems[0]::32809007_0"
+        ],
+        "all_pmids_used": [
+          "32809007"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 3,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 1,
+        "problems": [
+          "STD exposure concern",
+          "abnormal discharge",
+          "vaginal soreness"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "32809007"
+      ],
+      "cluster_ids_used": [
+        "finding::problems[0]::32809007_0"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 133780.4223075509,
+        "module_2_retrieval": 1179.4448792934418,
+        "module_3_reasoning": 42017.85021275282,
+        "module_4_response": 31005.184419453144,
+        "total_ms": 207982.9018190503
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

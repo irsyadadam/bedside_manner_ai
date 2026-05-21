@@ -1,0 +1,310 @@
+{
+  "transcript_id": "aci_virtscribe_D2N025",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "i'm doing okay , thank you .",
+  "patient_utterances": [
+    "[Clinician asked: \"hey , miss miller , how are you today ?\"] i'm doing okay , thank you .",
+    "[Clinician asked: \"i asked you to come in today because we want to keep- we want you to have this knee surgery this summer but we want to keep a close eye on you to make sure a week before your surgery you do n't suddenly go into congestive heart failure and it gets postponed .\"] yeah , that would not be good .",
+    "[Clinician asked: \"i see you're scheduled on the 24th for surgery .\"] yeah , that's right .",
+    "[Clinician asked: \"okay , good . well it looks like you have lost about 3 , 3 and a half pounds since i saw you last in april . some of that might be water weight , but still , this is positive .\"] yeah , i noticed that too . i think the oxyglutinine is helping as well . my urgency to use the bathroom is much better .",
+    "[Clinician asked: \"well that's great .\"] yeah , i , i'm pleased about it too .",
+    "[Clinician asked: \"you ever get leg or finger cramps or anything like that ?\"] yeah , i had leg cramps the other day , but i thought it might , was maybe just because i was cold as i had my ceiling fan on and fell asleep . i had cramps when i woke up in both legs right here . um i drank pickle juice and it went right away .",
+    "[Clinician asked: \"well do n't , do n't get crazy with the pickle juice because all of the salt in it .\"] haha , i know , i only drink about 4 ounces or so .",
+    "[Clinician asked: \"okay good .\"] um it went away so i did n't drink anymore . i find it works a lot better than trying to put some cream on my leg .",
+    "[Clinician asked: \"sure just , just keep it in moderation .\"] okay .",
+    "[Clinician asked: \"and then are you still on an iron supplement ? and are you using the bathroom okay ?\"] uh yes , everything is good .",
+    "[Clinician asked: \"good . how is your heart burn doing ? any problems with that ?\"] no , it did get bad for a while so i tried to take some prilosec and then stopped that other one .",
+    "[Clinician asked: \"okay .\"] um i did that for like , gosh , i think it was two weeks back in january and have n't had any problems since .",
+    "[Clinician asked: \"great .\"] um and after i stopped taking that um i went back to the stomach one , so i'm doing good now .",
+    "[Clinician asked: \"okay and you're still due for a colonoscopy , correct ?\"] uh yeah , that's right .",
+    "[Clinician asked: \"all right , let's review your blood work real quick . i checked your hemoglobin level because you have had some anemia in the past but that is still doing great .\"] good , that's a relief to hear .",
+    "[Clinician asked: \"your potassium is 3.9 so it's holding steady on the torsemide . your creatinine was .7 not .8 so you're doing well with kidney numbers . your bun may be a tiny bit elevated at 23 which is the number we look for for dehydration sometimes the kidneys , but it's not terrible . um so when i look at your\"] okay .",
+    "[Clinician asked: \"all in all i think you're doing good on paper though .\"] what about , um what's it called , a1c ? does that show up ?",
+    "[Clinician asked: \"um i do n't think i ordered it but i could . your last a1c was 5.5 in march .\"] all righty .",
+    "[Clinician asked: \"so your blood sugar is a little bit high , it was 169 today but that kind of depends on what you ate and you were n't fasting for the blood check so i might have to repeat that test for pre-op , but i do n't think we need to do it today .\"] all righty that sounds good .",
+    "[Clinician asked: \"i checked your magnesium level because sometimes you uh urinate out magnesium with the water pills but it was normal at 1.7 and your blood pressure is also looking good .\"] okay great . that all sounds awesome .",
+    "[Clinician asked: \"your lungs sound pretty good to me so keep doing what you're doing . um uh , like i said , i think you're doing good overall but let's just talk about a few things .\"] all righty .",
+    "[Clinician asked: \"so we often like to keep people with heart problems on magnesium and get their levels up to around the 2-ish range . yours is a little bit less than 2 and we want that 2-ish range because it can help stabilize the heart muscle . so i might recommend putting you on magnesium supplement . it's suppose\"] yeah , that'll be okay .",
+    "[Clinician asked: \"great . now before surgery we'll have to get you off your clopidogrel for a week beforehand .\"] yes , okay , i have everything written down on my phone , and i have a letter taped to the side of my bed to remind me .",
+    "[Clinician asked: \"perfect ! we will give you a reminder as well . we will also need to complete a pre-op check within two weeks of your surgery during the first or second week of june .\"] okay , i'll put that down .",
+    "[Clinician asked: \"you might also have to repeat an ekg before surgery which we could do today . i know i'm sure it feels like you're doing , you're always doing ekgs . um we do n't need to any x-rays of your chest because you had one recently , and we do n't need any more blood work because we did that today .\"] yeah , i do a lot of ekgs . i'm basically a regular . but i'm happy to do one today , no problem .",
+    "[Clinician asked: \"lastly , once we get your knee surgery , um we , we should think about getting you a colonoscopy . we can do it here locally because you have medicare . do you have private insurance also ?\"] yeah , i have both .",
+    "[Clinician asked: \"okay so yes , you can get it , your colonoscopy , wherever you'd like .\"] okay , well my husband's insurance may be running out . might we be able to get the procedure done sooner ? maybe in the next 30 days ? is that okay ?",
+    "[Clinician asked: \"um i can put it in right now for , uh , for county for the next 30 days , and they might be able to get you in within the next few weeks . it should not take , it should not make you ineligible for the surgery . in other words completing a colonoscopy would not delay your surgery .\"] okay , good .",
+    "[Clinician asked: \"so let me see . i've been doing one of two things at every one , and everyone is great so it depends more on timing availability of their or for the colonoscopy . we can send you to dr. martin for the surgery who is at county surgical services down here or the other option is valley medical , and th\"] okay , that sounds good .",
+    "[Clinician asked: \"i think either direction they're good technicians of the colon .\"] okay , yeah whatever you can get me in , that works great .",
+    "[Clinician asked: \"so i'll call around . now if you get that done and they tell you 10 years then you'll be good to go .\"] great , thank you .",
+    "[Clinician asked: \"you're welcome . have a great day . let us know if you need anything else , okay ?\"] sounds good ."
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nFollow-up.\n\nHISTORY OF PRESENT ILLNESS\n\nNicole Miller is a 71-year-old female who presents for follow-up. The patient was called in for a follow up with me for chronic congestive heart failure with diastolic dysfunction. Her BNP had been 3000 in 03/2021, up to 6000 in 04/2021. She was increasingly dyspneic. We had changed her furosemide to torsemide at 20 mg by mouth daily. The patient is not on a potassium supplement currently. Her lisinopril had also been increased up to 10 mg daily in 03/2021.\n\nI last saw her in 04/2021, and she had reported being interested in having her right knee replaced this summer at East Metropolitan Hospital, so it was recommended that we work to control her cardiovascular status prior to surgery. She is currently scheduled to have surgery on 06/24/2021. She plans to discontinue clopidogrel a week before her surgery.\n\nThe patient states that she has lost approximately 3 to 3.5 pounds since her last visit in 04/2021. Some of which may be water weight decreasing. She did report experiencing bilateral leg cramps which she treated with consumption of pickle juice, which did resolve the cramps. She thought the cramps were related to her being cold.\n\nShe is still taking iron supplementation. She denies any concerns with defecation.\n\nRegarding her prior symptoms of heartburn, she denies any recent gastrointestinal issues. She notes that her heartburn was severe at one point but resolved after trying Prilosec for 2 weeks in 01/2021. She denies any issues with heartburn since that time and has stopped taking Prilosec altogether. She has since transitioned back to her original \"stomach medication\".\n\nThe patient is due for a colonoscopy. She is currently double covered with Medicare and private insurance.\n\nPAST HISTORY\n\nMedical\nChronic Congestive Heart Failure.\nIron deficiency Anemia.\n\nMedications\nPrilosec.\n\nFAMILY HISTORY\n\nNo family history of colon cancer.\n\nCURRENT MEDICATIONS\n\nTorsemide 20 mg by mouth daily.\nLisinopril 10 mg daily.\n\nRESULTS\n\nMagnesium 1.7, hemoglobin WNL, potassium 3.9, creatinine 0.7, BUN 23.\n03/2020 Hgb A1c 5.5.\n\nASSESSMENT\n\n\u2022 Chronic congestive heart failure with mixed presentation.\n\u2022 Preop examination.\n\u2022 Diabetes mellitus.\n\u2022 Colonoscopy\n\nPLAN\n\nChronic congestive heart failure with mixed presentation.\nShe had an exacerbation of CHF earlier in the spring. We switched her from furosemide to torsemide and symptomatically, she is doing a lot better. She is about 1.5 kg down in weight. Her breathing is nonlabored. We are going to repeat an EKG today. Otherwise, continue her current regimen. Labs were checked and creatinine is appropriate. Her magnesium is below the preferred 2 at 1.7, with some occurrence of bilateral leg cramping, therefore we will start her on magnesium supplement.\n\nPreop examination.\nShe is going to be having a right knee replacement at the end of 06/2021. We will schedule a preop check the first week or two of June prior to the surgery. She will discontinue clopidogrel for one week prior to knee replacement surgery; we will provide a reminder to patient of this as well.\n\nDiabetes mellitus.\nA1c is 5.5 on last check, so there is no need for a further A1c today. She may need another one prior to her surgery next month.\n\nColonoscopy.\nThe patient is overdue for a colonoscopy, which we will try to have done at County Hospital in the next month, prior to a change in her insurance. This is just a screening colonoscopy that she is overdue for. No family history of colon cancer.\n\nThe patient understands and agrees with the recommended medical treatment plan.\n\nINSTRUCTIONS\n\nComplete EKG today. Schedule a preop checkup 1st or 2nd week of June. Start magnesium supplement. Call the clinic with any questions or new symptoms.",
+  "gold_sections": {
+    "CC": "Follow-up.",
+    "HPI": "Nicole Miller is a 71-year-old female who presents for follow-up. The patient was called in for a follow up with me for chronic congestive heart failure with diastolic dysfunction. Her BNP had been 3000 in 03/2021, up to 6000 in 04/2021. She was increasingly dyspneic. We had changed her furosemide to torsemide at 20 mg by mouth daily. The patient is not on a potassium supplement currently. Her lisinopril had also been increased up to 10 mg daily in 03/2021.\n\nI last saw her in 04/2021, and she had reported being interested in having her right knee replaced this summer at East Metropolitan Hospital, so it was recommended that we work to control her cardiovascular status prior to surgery. She is currently scheduled to have surgery on 06/24/2021. She plans to discontinue clopidogrel a week before her surgery.\n\nThe patient states that she has lost approximately 3 to 3.5 pounds since her last visit in 04/2021. Some of which may be water weight decreasing. She did report experiencing bilateral leg cramps which she treated with consumption of pickle juice, which did resolve the cramps. She thought the cramps were related to her being cold.\n\nShe is still taking iron supplementation. She denies any concerns with defecation.\n\nRegarding her prior symptoms of heartburn, she denies any recent gastrointestinal issues. She notes that her heartburn was severe at one point but resolved after trying Prilosec for 2 weeks in 01/2021. She denies any issues with heartburn since that time and has stopped taking Prilosec altogether. She has since transitioned back to her original \"stomach medication\".\n\nThe patient is due for a colonoscopy. She is currently double covered with Medicare and private insurance.",
+    "PAST_HISTORY": "Medical\nChronic Congestive Heart Failure.\nIron deficiency Anemia.\n\nMedications\nPrilosec.",
+    "FAMILY_HISTORY": "No family history of colon cancer.",
+    "CURRENT_MEDICATIONS": "Torsemide 20 mg by mouth daily.\nLisinopril 10 mg daily.",
+    "RESULTS": "Magnesium 1.7, hemoglobin WNL, potassium 3.9, creatinine 0.7, BUN 23.\n03/2020 Hgb A1c 5.5.",
+    "ASSESSMENT": "\u2022 Chronic congestive heart failure with mixed presentation.\n\u2022 Preop examination.\n\u2022 Diabetes mellitus.\n\u2022 Colonoscopy",
+    "PLAN": "Chronic congestive heart failure with mixed presentation.\nShe had an exacerbation of CHF earlier in the spring. We switched her from furosemide to torsemide and symptomatically, she is doing a lot better. She is about 1.5 kg down in weight. Her breathing is nonlabored. We are going to repeat an EKG today. Otherwise, continue her current regimen. Labs were checked and creatinine is appropriate. Her magnesium is below the preferred 2 at 1.7, with some occurrence of bilateral leg cramping, therefore we will start her on magnesium supplement.\n\nPreop examination.\nShe is going to be having a right knee replacement at the end of 06/2021. We will schedule a preop check the first week or two of June prior to the surgery. She will discontinue clopidogrel for one week prior to knee replacement surgery; we will provide a reminder to patient of this as well.\n\nDiabetes mellitus.\nA1c is 5.5 on last check, so there is no need for a further A1c today. She may need another one prior to her surgery next month.\n\nColonoscopy.\nThe patient is overdue for a colonoscopy, which we will try to have done at County Hospital in the next month, prior to a change in her insurance. This is just a screening colonoscopy that she is overdue for. No family history of colon cancer.\n\nThe patient understands and agrees with the recommended medical treatment plan.",
+    "INSTRUCTIONS": "Complete EKG today. Schedule a preop checkup 1st or 2nd week of June. Start magnesium supplement. Call the clinic with any questions or new symptoms."
+  },
+  "n_patient_turns": 32,
+  "n_clinician_turns": 40,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 14381.617426872253,
+      "response_text": "It's great to see how well you're managing your health, especially with all the steps you've taken like using the pickle juice for cramps and keeping track of your medications. Your progress is commendable, and it's clear you're proactive about your well-being. \n\nNext steps, like the colonoscopy, are important to ensure everything is in order, and I'll make sure to follow up on that for you. Remember, we're here to support you, so don't hesitate to reach out if you have any questions or concerns. Keep up the fantastic work, and take care!",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 25822.513736784458,
+      "response_text": "Thank you for sharing all the details about your health journey, Miss Miller. It\u2019s clear you\u2019ve been managing your health diligently, especially with the weight loss and medication adjustments. I can see how much effort you\u2019ve put into tracking your symptoms and treatments, which is commendable.\n\nWe\u2019ve discussed several important topics today, including the magnesium supplement to support your heart health and scheduling your colonoscopy. I understand this is a priority for you, and I appreciate your proactive approach to ensuring everything is in order before your knee surgery. The magnesium is recommended to help stabilize your heart muscle, as studies show it can be beneficial in certain heart conditions [PMID ?]. For the colonoscopy, I\u2019ve made arrangements to have it scheduled within the next 30 days, which should fit well with your plans.\n\nTo recap, our next steps are to schedule your colonoscopy, monitor your magnesium levels, and complete the pre-op checklist for your knee surgery. I\u2019d like to make sure you understand these steps, so please summarize them for me in your own words. This will help ensure you\u2019re clear on the plan.\n\nWe\u2019ll check in with you a week before your surgery to review your progress and address any questions you might have. If you need anything sooner, don\u2019t hesitate to reach out. Have a great day, and I look forward to hearing from you soon.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 8451.382033526897,
+      "response_text": "It sounds like you're doing well overall, and we're here to make sure everything stays on track before your surgery.\n\nWe'll keep an eye on your blood work and make sure everything stays on track for your surgery.\n\nIf there are any changes or concerns before your surgery, please don't hesitate to reach out.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 4 weeks. In the meantime, if you have any new symptoms or concerns, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're doing well overall, and we're here to make sure everything stays on track before your surgery.",
+        "clinical_information_per_concern": [],
+        "next_steps": [
+          "We'll keep an eye on your blood work and make sure everything stays on track for your surgery.",
+          "If there are any changes or concerns before your surgery, please don't hesitate to reach out."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 4 weeks. In the meantime, if you have any new symptoms or concerns, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 217849.5461270213,
+      "response_text": "I can hear how much this has been weighing on you \u2014 you said, \"good , that's a relief to hear.\" It sounds like this has been a real concern, and I want to make sure we address it together.\n\nWeight loss can be concerning, especially when it's unintentional. The primary step is to understand the underlying cause, which could range from medical conditions to lifestyle factors. We'll work together to explore this and ensure we're addressing it properly.\n\nLeg cramps can happen due to various reasons, including dehydration or electrolyte imbalances. We'll monitor your symptoms and adjust as needed to help alleviate them.\n\nHeartburn is often related to diet and lifestyle. We'll review what's been working and what hasn't, and make adjustments to help reduce your discomfort.\n\nWe'll start by reviewing your current medications and any recent changes in your diet or lifestyle that might be contributing to these symptoms.\n\nWe'll schedule a follow-up visit to monitor your progress and adjust our approach as needed.\n\nIn the meantime, keep track of any new symptoms or changes in your condition and let us know immediately if anything worsens.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if you experience severe symptoms or any new issues, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this has been weighing on you \u2014 you said, \"good , that's a relief to hear.\" It sounds like this has been a real concern, and I want to make sure we address it together.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "weight loss",
+            "profile_path": "problems[0]",
+            "explanation": "Weight loss can be concerning, especially when it's unintentional. The primary step is to understand the underlying cause, which could range from medical conditions to lifestyle factors. We'll work together to explore this and ensure we're addressing it properly.",
+            "citations": []
+          },
+          {
+            "concern_label": "leg cramps",
+            "profile_path": "problems[1]",
+            "explanation": "Leg cramps can happen due to various reasons, including dehydration or electrolyte imbalances. We'll monitor your symptoms and adjust as needed to help alleviate them.",
+            "citations": []
+          },
+          {
+            "concern_label": "heartburn",
+            "profile_path": "problems[2]",
+            "explanation": "Heartburn is often related to diet and lifestyle. We'll review what's been working and what hasn't, and make adjustments to help reduce your discomfort.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll start by reviewing your current medications and any recent changes in your diet or lifestyle that might be contributing to these symptoms.",
+          "We'll schedule a follow-up visit to monitor your progress and adjust our approach as needed.",
+          "In the meantime, keep track of any new symptoms or changes in your condition and let us know immediately if anything worsens."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if you experience severe symptoms or any new issues, please call us right away.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 3,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 0,
+        "problems": [
+          "weight loss",
+          "leg cramps",
+          "heartburn"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 264502.26294249296,
+      "response_text": "Thank you for sharing your concerns about your weight loss, leg cramps, and heartburn. I understand these symptoms can be unsettling, and I'm here to help address them.\n\nWeight loss can be concerning, and it's important to explore possible causes. The treatment approach often involves medications like GLP-1 therapies, which are known to help with weight loss and overall metabolic health.\n\nLeg cramps can be caused by various factors, including dehydration or electrolyte imbalances. The treatment typically involves simple measures like staying hydrated and using products like pickle juice to help alleviate symptoms.\n\nHeartburn can be managed with medications like Prilosec. However, it's important to ensure that the treatment is tailored to your specific situation to provide the best relief.\n\nWe'll review your current medications and their effectiveness in managing your symptoms.\n\nWe'll schedule a follow-up visit to monitor your progress and adjust your treatment plan as needed.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if any of your symptoms worsen or if you experience new ones, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns about your weight loss, leg cramps, and heartburn. I understand these symptoms can be unsettling, and I'm here to help address them.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "weight loss",
+            "profile_path": "problems[0]",
+            "explanation": "Weight loss can be concerning, and it's important to explore possible causes. The treatment approach often involves medications like GLP-1 therapies, which are known to help with weight loss and overall metabolic health.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::problems[0]::41324410_1",
+                "primary_assertion_id": "41324410_1",
+                "pmids": [
+                  "41324410"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "leg cramps",
+            "profile_path": "problems[1]",
+            "explanation": "Leg cramps can be caused by various factors, including dehydration or electrolyte imbalances. The treatment typically involves simple measures like staying hydrated and using products like pickle juice to help alleviate symptoms.",
+            "citations": [
+              {
+                "cluster_id": "finding::global::40759522_0",
+                "primary_assertion_id": "40759522_0",
+                "pmids": [
+                  "40759522"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "heartburn",
+            "profile_path": "problems[2]",
+            "explanation": "Heartburn can be managed with medications like Prilosec. However, it's important to ensure that the treatment is tailored to your specific situation to provide the best relief.",
+            "citations": [
+              {
+                "cluster_id": "finding::global::33882128_0",
+                "primary_assertion_id": "33882128_0",
+                "pmids": [
+                  "33882128"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll review your current medications and their effectiveness in managing your symptoms.",
+          "We'll schedule a follow-up visit to monitor your progress and adjust your treatment plan as needed."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if any of your symptoms worsen or if you experience new ones, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "recommendation::problems[0]::41324410_1",
+          "finding::global::40759522_0",
+          "finding::global::33882128_0"
+        ],
+        "all_pmids_used": [
+          "41324410",
+          "40759522",
+          "33882128"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 3,
+        "n_medications": 2,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "weight loss",
+          "leg cramps",
+          "heartburn"
+        ],
+        "medications": [
+          "oxyglutinine",
+          "Prilosec"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [
+        "41324410",
+        "40759522",
+        "33882128"
+      ],
+      "cluster_ids_used": [
+        "recommendation::problems[0]::41324410_1",
+        "finding::global::40759522_0",
+        "finding::global::33882128_0"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 190180.22841960192,
+        "module_2_retrieval": 1142.831601202488,
+        "module_3_reasoning": 45642.20278710127,
+        "module_4_response": 27535.909608006477,
+        "total_ms": 264501.17241591215
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

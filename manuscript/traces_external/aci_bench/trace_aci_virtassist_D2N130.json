@@ -1,0 +1,308 @@
+{
+  "transcript_id": "aci_virtassist_D2N130",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "i'm doing okay . how are you ?",
+  "patient_utterances": [
+    "[Clinician asked: \"hi , anna , how are you ?\"] i'm doing okay . how are you ?",
+    "[Clinician asked: \"i'm doing well . uh , so i know the nurse told you a little bit about dax . i'd like to tell dax a little bit about you .\"] okay .",
+    "[Clinician asked: \"all right . so , uh , anna is a 26-year-old female with a past medical history , significant for epilepsy , depression , and , uh , peptic ulcer disease , who presents with , uh , some joint pain . so , anna , what's going on with your , uh , what's going on with your joints ?\"] so , um , it's my left elbow that's really been bothering me . uh , i sit at my desk a lot for work , and type , and i stay in this motion specifically all day . and then after , um , work , it's really hard for me to , uh , open and , and close my , my elbow here , my left elbow , and it's been just really stiff and , and hurts .",
+    "[Clinician asked: \"okay . have you noticed any swelling there on the-\"] yeah , i have .",
+    "[Clinician asked: \"okay , and is it right here on the , on the tip ?\"] yep , it is .",
+    "[Clinician asked: \"okay , and are you right or left-handed ?\"] i am right-handed .",
+    "[Clinician asked: \"okay , so it's your non-dominant hand ?\"] yeah , which is good .",
+    "[Clinician asked: \"yeah .\"] so , i can still write , which is great , but typing is , is difficult .",
+    "[Clinician asked: \"okay , and any numbing or tingling in your hands at all ?\"] no , i have n't felt numbing or tingling .",
+    "[Clinician asked: \"and any weakness in your arm ?\"] a little bit of weakness , uh , but nothing too significant .",
+    "[Clinician asked: \"and how about , um , any fever or chills ?\"] no fever or chills .",
+    "[Clinician asked: \"okay . all right , well , let's talk a little bit about your epilepsy , okay ?\"] okay .",
+    "[Clinician asked: \"um , have you had any recent seizures ?\"] uh , no , i have n't . i think my last seizure was a year ago .",
+    "[Clinician asked: \"okay , good .\"] yeah .",
+    "[Clinician asked: \"and you're still taking the keppra ?\"] yes , i am .",
+    "[Clinician asked: \"okay , great . and then , tell me a little about your depression . how're you doing with that ? i know that you went into therapy last year , and you tried to avoid medication since you're already on the keppra . how's that doing ?\"] uh , therapy , therapy's been good . it , it has definitely helped . uh , i still feel a little down , uh , and , and stressed .",
+    "[Clinician asked: \"okay . all right , but no , no feelings of wanting to hurt yourself or somebody else ?\"] no , nothing like that .",
+    "[Clinician asked: \"okay . all right . and then , how are you doing with your , with your ulcer ? i know that you , you know , you had so much stress a year ago and , you know , you were having some issues there . we did the endoscopy-\"] mm-hmm .",
+    "[Clinician asked: \"and they showed that . so , how are you doing with that ?\"] i'm doing , i'm doing better . i have n't had any , um , issues with that , um , since we did the procedure , and everything's been good .",
+    "[Clinician asked: \"okay , well great . let's go ahead and ... i'm gon na go ahead with , um ... and , you know , i know that the nurse did a review of systems sheet on you when you came in , and i know that you were endorsing that left elbow pain .\"] mm-hmm .",
+    "[Clinician asked: \"any other symptoms , you know , chest pain , shortness of breath , abdominal pain , nausea or vomiting ?\"] no , nothing like that . i have a little bit of nasal , nasal congestion from allergies , uh , but that's it .",
+    "[Clinician asked: \"okay , so you're endorsing some nasal congestion ?\"] yeah .",
+    "[Clinician asked: \"okay . all right , well , let's go ahead to a physical exam , okay ?\"] okay .",
+    "[Clinician asked: \"hey , dragon , show me the vital signs . good , here in the office , everything looks great with your vital signs . i think that's great , so i'm just gon na take a listen to your heart and your lungs , and take a look at your elbow and , and we'll go from there , okay ?\"] okay .",
+    "[Clinician asked: \"all right , so , so on physical examination of your left elbow , you do have some erythema and edema of your left elbow . does it hurt when i touch ?\"] yeah , it does .",
+    "[Clinician asked: \"okay , he ... she has some pain to palpation of the olecranon . of the left olecra- olecranon , and it is warm to palpation . um , can you straighten your elbow for me ?\"] yeah , it , it hurts , and it's , uh , it's a bit stiff .",
+    "[Clinician asked: \"okay , so she has pain with flexion and extension of the left elbow . there's a palpable right ... or s- ... palpable left radial pulse . okay , um , so let's go over ... i just wan na take a look at some of your results , okay ?\"] okay .",
+    "[Clinician asked: \"hey , dragon , show me the endoscopy results . hey , dragon , show me the endoscopy . okay , well , your recent endoscopy showed that you ... hey , dragon , show me the endoscope . all right , so here it looks like , you know ... your endoscopy results look like you had an episode of gastritis . tha\"] okay .",
+    "[Clinician asked: \"so , let's talk a little bit about my assessment and my plan for you . so for your first problem , this left elbow pain , you know , i think you have olecranon bursitis , and we're just gon na , you know , have you , you know , get a little pillow for your elbow there . it's just caused by repetitiv\"] mm-hmm .",
+    "[Clinician asked: \"so , maybe you're slamming your elbow down a little bit on the desk , so just get a little rest there-\"] yeah .",
+    "[Clinician asked: \"and we'll give you some melo- meloxicam , 15 mg , once a day . you can ice the area , okay ? um , for your next problem , the epilepsy , sounds like you're doing really well . i would go ahead and continue with the keppra , 500 mg , twice a day . do you need a refill of that ?\"] yes , i do .",
+    "[Clinician asked: \"hey , dragon , order a refill of keppra , 500 mg , twice daily . for your third problem , the depression , it sounds like you're doing well with the therapy and , if you want , we can talk about medical treatment options .\"] yeah , i think that would be great .",
+    "[Clinician asked: \"okay , well , let's go ahead and we'll start you on some lexapro , 10 mg , once a day , and we'll see how you do on that , okay ?\"] okay .",
+    "[Clinician asked: \"all right , and then , for your last problem , the peptic ulcer disease , um , i want you to continue on the protonix , 40 mg , once a day before meals , okay ?\"] okay .",
+    "[Clinician asked: \"do you have any questions ?\"] no , i do n't .",
+    "[Clinician asked: \"okay . all right . well , the nurse will come in soon and see you , okay , and i'll , i'll see you in a couple of weeks .\"] okay .",
+    "[Clinician asked: \"all right , take care . bye .\"] bye ."
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nJoint pain.\n\nHISTORY OF PRESENT ILLNESS\n\nThe patient is a 26-year-old female with a past medical history significant for epilepsy, depression, and peptic ulcer disease who presents with some joint pain.\n\nThe patient reports that her left elbow has really been bothering her. She states that she sits at her desk all day for work with her elbows bent. She reports that after work it is really hard for her to flex and extend her left elbow. She reports that it has been really stiff and painful. She also notes that she has noticed swelling on the olecranon of her elbow. She reports that she is right-handed, therefore, she can still write, which is great, but typing is difficult. She denies any numbness or tingling in her hands. She reports that she has some weakness in her arm but nothing too significant. She denies any fever or chills.\n\nRegarding her epilepsy, she reports that she has not had any recent seizures. She reports that her last seizure was a year ago. She reports that she is still taking Keppra.\n\nRegarding her depression, she reports that she started therapy last year and she is trying to avoid medications for this problem. She reports that therapy has been helpful, but she still feels down and stressed. She denies suicidal and homicidal ideations.\n\nRegarding her peptic ulcer, she reports that she was dealing with a lot of stress last year. She then underwent an endoscopy which showed that she had an episode of gastritis. She was subsequently diagnosed with peptic ulcer disease and started Protonix. She reports that she has not had any issues with her ulcer since the procedure and everything has been good.\n\nThe patient denies chest pain, shortness of breath, abdominal pain, nausea, or vomiting. She reports that she does have a little bit of medial nasal congestion from allergies.\n\nREVIEW OF SYSTEMS\n\n\u2022 Ears, Nose, Mouth and Throat: Endorses medial nasal congestion from allergies.\n\u2022 Cardiovascular: Denies chest pain or dyspnea on exertion.\n\u2022 Respiratory: Denies shortness of breath.\n\u2022 Musculoskeletal: Endorses left elbow joint pain, swelling, and weakness.\n\u2022 Psychiatric: Endorses depression.\n\nPHYSICAL EXAMINATION\n\n\u2022 Musculoskeletal: Examination of the left elbow reveals erythema and edema. Pain to palpation of the left olecranon. Warm to palpation. Pain with flexion and extension. Palpable left radial pulse.\n\nRESULTS\n\nLeft arm x-ray does not reveal any evidence of elbow fracture.\n\nEGD revealed an episode of gastritis.\n\nASSESSMENT\n\nAnna Morris is a 26-year-old female with a past medical history significant for epilepsy, depression, and peptic ulcer disease who presents with some joint pain.\n\nPLAN\n\nLeft elbow pain.\n\u2022 Medical Reasoning: I believe she has left olecranon bursitis caused by repetitive trauma.\n\u2022 Medical Treatment: Initiate meloxicam 15 mg once daily.\n\u2022 Patient Education and Counseling: I encouraged the patient to use a pillow to rest her arm on. She may also ice the area.\n\nEpilepsy.\n\u2022 Medical Reasoning: She has been doing well on Keppra and denies any recent seizures.\n\u2022 Medical Treatment: Continue Keppra 500 mg twice a day. This was refilled today.\n\nDepression.\n\u2022 Medical Reasoning: She reports doing well with therapy.\n\u2022 Medical Treatment: Initiate Lexapro 10 mg once daily.\n\nPeptic ulcer disease.\n\u2022 Medical Reasoning: Her recent endoscopy revealed gastritis\n\u2022 Medical Treatment: Continue Protonix 40 mg once daily before meals.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.",
+  "gold_sections": {
+    "CC": "Joint pain.",
+    "HPI": "The patient is a 26-year-old female with a past medical history significant for epilepsy, depression, and peptic ulcer disease who presents with some joint pain.\n\nThe patient reports that her left elbow has really been bothering her. She states that she sits at her desk all day for work with her elbows bent. She reports that after work it is really hard for her to flex and extend her left elbow. She reports that it has been really stiff and painful. She also notes that she has noticed swelling on the olecranon of her elbow. She reports that she is right-handed, therefore, she can still write, which is great, but typing is difficult. She denies any numbness or tingling in her hands. She reports that she has some weakness in her arm but nothing too significant. She denies any fever or chills.\n\nRegarding her epilepsy, she reports that she has not had any recent seizures. She reports that her last seizure was a year ago. She reports that she is still taking Keppra.\n\nRegarding her depression, she reports that she started therapy last year and she is trying to avoid medications for this problem. She reports that therapy has been helpful, but she still feels down and stressed. She denies suicidal and homicidal ideations.\n\nRegarding her peptic ulcer, she reports that she was dealing with a lot of stress last year. She then underwent an endoscopy which showed that she had an episode of gastritis. She was subsequently diagnosed with peptic ulcer disease and started Protonix. She reports that she has not had any issues with her ulcer since the procedure and everything has been good.\n\nThe patient denies chest pain, shortness of breath, abdominal pain, nausea, or vomiting. She reports that she does have a little bit of medial nasal congestion from allergies.",
+    "ROS": "\u2022 Ears, Nose, Mouth and Throat: Endorses medial nasal congestion from allergies.\n\u2022 Cardiovascular: Denies chest pain or dyspnea on exertion.\n\u2022 Respiratory: Denies shortness of breath.\n\u2022 Musculoskeletal: Endorses left elbow joint pain, swelling, and weakness.\n\u2022 Psychiatric: Endorses depression.",
+    "PHYSICAL_EXAMINATION": "\u2022 Musculoskeletal: Examination of the left elbow reveals erythema and edema. Pain to palpation of the left olecranon. Warm to palpation. Pain with flexion and extension. Palpable left radial pulse.",
+    "RESULTS": "Left arm x-ray does not reveal any evidence of elbow fracture.\n\nEGD revealed an episode of gastritis.",
+    "ASSESSMENT": "Anna Morris is a 26-year-old female with a past medical history significant for epilepsy, depression, and peptic ulcer disease who presents with some joint pain.",
+    "PLAN": "Left elbow pain.\n\u2022 Medical Reasoning: I believe she has left olecranon bursitis caused by repetitive trauma.\n\u2022 Medical Treatment: Initiate meloxicam 15 mg once daily.\n\u2022 Patient Education and Counseling: I encouraged the patient to use a pillow to rest her arm on. She may also ice the area.\n\nEpilepsy.\n\u2022 Medical Reasoning: She has been doing well on Keppra and denies any recent seizures.\n\u2022 Medical Treatment: Continue Keppra 500 mg twice a day. This was refilled today.\n\nDepression.\n\u2022 Medical Reasoning: She reports doing well with therapy.\n\u2022 Medical Treatment: Initiate Lexapro 10 mg once daily.\n\nPeptic ulcer disease.\n\u2022 Medical Reasoning: Her recent endoscopy revealed gastritis\n\u2022 Medical Treatment: Continue Protonix 40 mg once daily before meals.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan."
+  },
+  "n_patient_turns": 37,
+  "n_clinician_turns": 40,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 24961.564533412457,
+      "response_text": "Hi Anna,\n\nI hope you're doing well. I wanted to check in and make sure you're managing okay with everything we discussed. It sounds like your elbow is still bothering you, but I'm glad we were able to figure out it's olecranon bursitis. Remember to take it easy, use the ice pack as needed, and keep taking the meloxicam to help with the pain and inflammation. Rest is key, so try to be mindful of how you're using your elbow at work.\n\nYour epilepsy and ulcer are both under good control, which is great. I'm also excited about starting the Lexapro for your depression. It\u2019s important to give it a few weeks to see how it works for you. If you have any questions or concerns in the meantime, please don't hesitate to reach out. I'll see you in a couple of weeks, but feel free to contact the office if anything comes up before then.\n\nTake care and have a good day!\n\nBest regards,  \n[Your Name]",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 28795.0222492218,
+      "response_text": "Anna, I can understand how frustrating it must be to deal with this elbow pain, especially since it's affecting your work and daily activities. It's completely reasonable to feel concerned when something like this persists. I can see how important it is for you to get back to your routine without discomfort, and I'm here to support you through this.\n\nWe've discussed your elbow pain, and based on the examination and your history, it seems like you might have olecranon bursitis. This is often caused by repetitive motions, which can lead to inflammation and discomfort. To help manage this, we'll start with some rest, ice, and a nonsteroidal anti-inflammatory drug like meloxicam. I'll also suggest an elbow pillow to help reduce the strain during work. If things don't improve, we can explore further options together.\n\nFor your epilepsy, you're doing well on Keppra, so we'll continue that. Regarding your depression, we've decided to start you on Lexapro, which can help manage your symptoms alongside therapy. For your peptic ulcer, we'll keep you on protonix to maintain healing.\n\nPlease make sure to take your medications as prescribed and follow the rest and ice regimen. We'll schedule a follow-up in a couple of weeks to check on your progress. Before you leave, could you summarize the plan in your own words so I can ensure everything is clear?",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7514.480359852314,
+      "response_text": "I understand you're here to talk about your left elbow pain. It sounds like it's been bothering you a lot, especially with your work involving a lot of typing.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a couple of weeks. In the meantime, if your elbow pain gets worse or you develop any new symptoms like swelling or redness, please call us.",
+      "structured_response": {
+        "acknowledgment": "I understand you're here to talk about your left elbow pain. It sounds like it's been bothering you a lot, especially with your work involving a lot of typing.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a couple of weeks. In the meantime, if your elbow pain gets worse or you develop any new symptoms like swelling or redness, please call us.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 186318.71031224728,
+      "response_text": "Thank you for sharing your concerns about your left elbow joint pain and how you're feeling. I understand that this is something you're dealing with daily, especially after work.\n\nThe pain in your elbow, along with stiffness and difficulty moving it, suggests we should look into possible causes. We'll consider doing some tests to rule out issues like inflammation or injury.\n\nIt's important to monitor how you're feeling, especially since you're already receiving therapy. We'll keep track of your progress and adjust any support as needed.\n\nWe'll work with you to find alternative ways to manage your depression without medication, ensuring we respect your preferences.\n\nWe'll schedule some tests for your elbow to better understand what's causing the pain.\n\nWe'll continue to monitor your mental health and adjust your care plan as needed.\n\nLet's explore alternative treatments for depression that don't involve medication.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if your elbow pain gets worse or you start feeling more down, please reach out sooner.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns about your left elbow joint pain and how you're feeling. I understand that this is something you're dealing with daily, especially after work.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "left elbow joint pain",
+            "profile_path": "problems[0]",
+            "explanation": "The pain in your elbow, along with stiffness and difficulty moving it, suggests we should look into possible causes. We'll consider doing some tests to rule out issues like inflammation or injury.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::41092546",
+                "primary_assertion_id": "41092546_retr",
+                "pmids": [
+                  "41092546"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "depression",
+            "profile_path": "problems[1]",
+            "explanation": "It's important to monitor how you're feeling, especially since you're already receiving therapy. We'll keep track of your progress and adjust any support as needed.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::35971077",
+                "primary_assertion_id": "35971077_retr",
+                "pmids": [
+                  "35971077"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "continue avoiding medication for depression",
+            "profile_path": "patient_goals[0]",
+            "explanation": "We'll work with you to find alternative ways to manage your depression without medication, ensuring we respect your preferences.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::34546354",
+                "primary_assertion_id": "34546354_retr",
+                "pmids": [
+                  "34546354"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll schedule some tests for your elbow to better understand what's causing the pain.",
+          "We'll continue to monitor your mental health and adjust your care plan as needed.",
+          "Let's explore alternative treatments for depression that don't involve medication."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if your elbow pain gets worse or you start feeling more down, please reach out sooner.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "retrieval_only::41092546",
+          "retrieval_only::35971077",
+          "retrieval_only::34546354"
+        ],
+        "all_pmids_used": [
+          "41092546",
+          "35971077",
+          "34546354"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 2,
+        "n_medications": 1,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 1,
+        "problems": [
+          "left elbow joint pain",
+          "depression"
+        ],
+        "medications": [
+          "Keppra"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [
+        "41092546",
+        "35971077",
+        "34546354"
+      ],
+      "cluster_ids_used": [
+        "retrieval_only::41092546",
+        "retrieval_only::35971077",
+        "retrieval_only::34546354"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 225493.66301298141,
+      "response_text": "It sounds like the pain in your left elbow has been making daily life harder, especially after work. I want to understand how this is affecting you so we can figure out the best way to help.\n\nThe pain in your elbow, along with stiffness and difficulty moving it, suggests we should look into possible causes. Simple tests of elbow motion and checking for pain during those movements can help us identify what might be going on.\n\nWe'll start with some basic tests to check for common causes of elbow pain, like overuse or inflammation. This might include looking at how your elbow moves and checking for any signs of swelling or tenderness.\n\nIf those tests don't give us clear answers, we might recommend imaging or further evaluation to understand what's causing the pain better.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to check in again in a couple of weeks. If the pain gets worse or you notice any new symptoms, like increased swelling or trouble moving your arm, please reach out sooner.",
+      "structured_response": {
+        "acknowledgment": "It sounds like the pain in your left elbow has been making daily life harder, especially after work. I want to understand how this is affecting you so we can figure out the best way to help.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "left elbow joint pain",
+            "profile_path": "problems[0]",
+            "explanation": "The pain in your elbow, along with stiffness and difficulty moving it, suggests we should look into possible causes. Simple tests of elbow motion and checking for pain during those movements can help us identify what might be going on.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[0]::31846019_0",
+                "primary_assertion_id": "31846019_0",
+                "pmids": [
+                  "31846019"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll start with some basic tests to check for common causes of elbow pain, like overuse or inflammation. This might include looking at how your elbow moves and checking for any signs of swelling or tenderness.",
+          "If those tests don't give us clear answers, we might recommend imaging or further evaluation to understand what's causing the pain better."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to check in again in a couple of weeks. If the pain gets worse or you notice any new symptoms, like increased swelling or trouble moving your arm, please reach out sooner.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[0]::31846019_0"
+        ],
+        "all_pmids_used": [
+          "31846019"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 1,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "left elbow joint pain"
+        ],
+        "medications": [
+          "Keppra"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [
+        "31846019"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[0]::31846019_0"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 153866.19079113007,
+        "module_2_retrieval": 909.5781520009041,
+        "module_3_reasoning": 53174.209378659725,
+        "module_4_response": 17542.629078030586,
+        "total_ms": 225492.60739982128
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

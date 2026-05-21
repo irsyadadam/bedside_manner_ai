@@ -1,0 +1,293 @@
+{
+  "transcript_id": "aci_virtassist_D2N004",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "hey , good to see you .",
+  "patient_utterances": [
+    "[Clinician asked: \"hi , james , how are you ?\"] hey , good to see you .",
+    "[Clinician asked: \"it's good to see you , too . so , i know the nurse told you about dax .\"] mm-hmm .",
+    "[Clinician asked: \"i'd like to tell dax a little bit about you .\"] sure .",
+    "[Clinician asked: \"james is a 57-year-old male with a past medical history significant for congestive heart failure and type 2 diabetes who presents today with back pain .\"] mm-hmm .",
+    "[Clinician asked: \"so , james , what happened to your back ?\"] uh , i was golfing and i hurt my back when i went for my backswing .",
+    "[Clinician asked: \"okay . and did you feel a pop or a strain immediately or ?\"] i f- felt the pop , and i immediately had to hit the ground . i had to just try and do anything to loosen up my back .",
+    "[Clinician asked: \"okay . and how long ago did this happen ?\"] this was saturday morning .",
+    "[Clinician asked: \"okay . so , about four days ago ?\"] mm-hmm .",
+    "[Clinician asked: \"okay . um , and what have you taken for the pain ?\"] uh , i took some tylenol . i took some ibuprofen .",
+    "[Clinician asked: \"mm-hmm .\"] i tried ice . i tried heat , but nothing really worked .",
+    "[Clinician asked: \"okay . and , h- how are you feeling now ? are you still in the same amount of pain ?\"] uh , by monday morning , it loosened up a little bit , but it's still pretty sore .",
+    "[Clinician asked: \"okay . any other symptoms like leg weakness , pain in one leg , numbing or tingling ?\"] uh , i actually felt , um ... i had a struggle in my right foot like dropped foot . i had some struggling with my right leg . i felt that for a while , and it got a little bit better this morning but not much .",
+    "[Clinician asked: \"okay . all right . um , so , are you ... how are you doing walking around ?\"] uh , uh , uh , i'm , i'm not going anywhere fast or doing anything strenuous but i can walk around a little bit .",
+    "[Clinician asked: \"uh- .\"] not too fast .",
+    "[Clinician asked: \"all right . okay . um , and any history with your back in the past ?\"] i actually had surgery about 10 years ago on my lower back .",
+    "[Clinician asked: \"okay . all right . now , tell me a little bit about your , your heart failure . you know , i have n't seen you in a while .\"] mm-hmm .",
+    "[Clinician asked: \"how are you doing with your diet ?\"] um , been pretty good t- taking my medications , watching my diet , trying to , uh , trying to exercise regularly , too .",
+    "[Clinician asked: \"okay . so , you're avoiding the salty foods like we had talked about ?\"] yes .",
+    "[Clinician asked: \"okay . and any weight gain or swelling in your legs recently ?\"] a little bit of weight gain over the summer but nothing , nothing too radical , nothing more than five pounds .",
+    "[Clinician asked: \"okay . all right . and any problems laying flat while you go to bed ?\"] no .",
+    "[Clinician asked: \"okay . uh , and lastly , what about your diabetes ? how are you doing with , with that diet ? i remember you have somewhat of a sweet tooth .\"] yeah .",
+    "[Clinician asked: \"jelly beans ?\"] i love jelly beans , yeah , yeah . that's been a struggle , but i'm getting through it .",
+    "[Clinician asked: \"okay . all right . um , and you're watching your blood sugars at home ?\"] mm-hmm . i monitor it regularly . not always, i can forget, , but i'm pretty good about my measuring it .",
+    "[Clinician asked: \"okay . and you are still on your metformin ?\"] yes .",
+    "[Clinician asked: \"okay . all right . all right . now , i know the nurse did a review of symptoms sheet when you checked in .\"] mm-hmm .",
+    "[Clinician asked: \"i know that you were endorsing the back pain-\"] mm-hmm .",
+    "[Clinician asked: \"and maybe a little weakness in your right leg . um , any other symptoms ? i know we went through a lot .\"] no .",
+    "[Clinician asked: \"okay . um , so , i wan na go ahead and move on to a physical exam , okay ?\"] mm-hmm .",
+    "[Clinician asked: \"hey , dragon , show me the vital signs . so , here in the office , you know , your vital signs look great . they look completely normal , which , which is really good .\"] good .",
+    "[Clinician asked: \"okay ? so , i'm just gon na check you out , and i'm gon na let you know what i find , okay ?\"] mm-hmm .",
+    "[Clinician asked: \"lean up . okay . all right . so , on your physical exam , everything seems fine .\"] good .",
+    "[Clinician asked: \"on your heart exam , i do appreciate a 2 out of 6 systolic ejection murmur , which we've heard in the past-\"] mm-hmm .",
+    "[Clinician asked: \"so that's stable .\"] okay .",
+    "[Clinician asked: \"on your back exam , you do have some pain to palpation of the lumbar 5 or lumbar spine-\"] mm-hmm .",
+    "[Clinician asked: \"at the level of l5 .\"] okay .",
+    "[Clinician asked: \"so , what does that mean ? what does all that mean ? so , that basically means that , you know , i , i think that you probably , you know , have injured your , your back with a muscle strain , but we're gon na look at some of your results , okay ?\"] okay , sure .",
+    "[Clinician asked: \"hey , dragon , show me the diabetic labs . and this is just ... i just wanted to check your last , uh , diabetic labs that we did on you . uh , it looks like your hemoglobin a1c has been a little high at 8 . i'd like to see that a little bit lower around 7 , okay ?\"] okay .",
+    "[Clinician asked: \"um , so , let's just talk a little bit about my assessment and my plan for you . um , so , for your first problem , i think you have an acute lumbar , um , strain .\"] mm-hmm .",
+    "[Clinician asked: \"and i wan na go ahead and prescribe meloxicam 15 milligrams once a day , and i'd like to refer you to physical therapy to kind of strengthen that area . now , if you're still having symptoms , i wan na go ahead and , uh , order an mri-\"] mm-hmm .",
+    "[Clinician asked: \"just to make sure that you do n't have any disc herniation or anything like that , okay ?\"] that's fine .",
+    "[Clinician asked: \"how does that sound ?\"] no problem .",
+    "[Clinician asked: \"hey , dragon , order meloxicam 15 milligrams once a day . for your next problem , your type 2 diabetes , i would like to increase your metformin to 1,000 milligrams twice daily-\"] mm-hmm .",
+    "[Clinician asked: \"and i wan na go ahead and order another hemoglobin a1c in a couple weeks , or , i'm sorry , a couple months .\"] okay .",
+    "[Clinician asked: \"all right ? hey , dragon , order a hemoglobin a1c . and for your congestive heart failure , uh , i think you're doing really well with it . um , you know , i wan na just continue you on your current medications , your lisinopril and your lasix . now , do you need a refill-\"] actually , i-",
+    "[Clinician asked: \"of the lisinopril ?\"] actually , i do .",
+    "[Clinician asked: \"okay . hey , dragon , order a refill of lisinopril 20 milligrams once a day . and so , the nurse will come in . she's gon na help you get checked out . i wan na see you again in a couple weeks , okay ?\"] that's fine .",
+    "[Clinician asked: \"um , any questions ?\"] not at this point ."
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nBack pain.\n\nHISTORY OF PRESENT ILLNESS\n\nJames Allen is a 57-year-old male with a past medical history significant for congestive heart failure and type 2 diabetes, who presents today with back pain.\n\nThe patient states he was golfing and hurt his back. This happened approximately 4 days ago when he felt a pop in his back. The patient notes that he immediately hit the ground trying to loosen up his back. He reports taking some Tylenol, ibuprofen, and using ice and heat which did not relieve the pain. By Monday morning it loosened up a little bit, but it is still pretty sore. He had some right lower extremity weakness and some drop foot that he felt that for a while, and it got a little better this morning but not much. He had surgery about 10 years ago in his lower back.\n\nRegarding his congestive heart failure, he has been watching his diet and trying to exercise regularly. He is avoiding the salty foods and has been compliant with medications. He has gained a little weight over the summer but nothing more than 5 pounds. He has no problems lying flat to go to bed.\n\nRegarding his diabetes, he is watching his blood sugars at home, not always consistently. He is still on his metformin.\n\nREVIEW OF SYSTEMS\n\n\u2022 Constitutional: Denies weight loss. Endorses weight gain.\n\u2022 Musculoskeletal: Endorses back pain. Endorses right leg weakness and drop foot.\n\nPHYSICAL EXAMINATION\n\n\u2022 Cardiovascular: Grade 2/6 systolic ejection murmur, stable.\n\u2022 Musculoskeletal: Examination of his back reveals pain to palpation at L5. Decreased range of motion with flexion and extension. Positive straight leg raise. Strength is 4/5 on the right and 5/5 on the left.\n\nResults:\n\nX-ray lumbar spine, ordered and obtained in the office today, is unremarkable with good bony alignment.\n\nHemoglobin A1c is elevated at 8.\n\nASSESSMENT AND PLAN\n\nJames Allen is a 57-year-old male with a past medical history significant for congestive heart failure and type 2 diabetes, who presents today with back pain.\n\nAcute lumbar strain.\n\u2022 Medical Reasoning: The patient reports feeling a 'pop' and immediate pain while golfing approximately 4 days ago. He has tried Tylenol and ibuprofen without significant relief.\n\u2022 Additional Testing: If he continues to have pain, we will obtain an MRI for further evaluation.\n\u2022 Medical Treatment: Initiate meloxicam 15 mg once daily.\n\u2022 Specialist Referrals: We will refer him to physical therapy to work on strengthening the area.\n\nDiabetes type 2.\n\u2022 Medical Reasoning: He has been compliant with metformin and dietary modifications, but his recent hemoglobin A1c was 8.\n\u2022 Additional Testing: Repeat hemoglobin A1c in a couple of months.\n\u2022 Medical Treatment: Increase metformin to 1000 mg twice daily.\n\nCongestive heart failure.\n\u2022 Medical Reasoning: He is doing well from this standpoint. He has been compliant with his medications, dietary modifications, and regular physical activity.\n\u2022 Medical Treatment: Continue lisinopril 20 mg once daily and Lasix. Lisinopril was refilled today.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.\n\nINSTRUCTIONS\n\nThe patient will follow-up in 2 weeks.",
+  "gold_sections": {
+    "CC": "Back pain.",
+    "HPI": "James Allen is a 57-year-old male with a past medical history significant for congestive heart failure and type 2 diabetes, who presents today with back pain.\n\nThe patient states he was golfing and hurt his back. This happened approximately 4 days ago when he felt a pop in his back. The patient notes that he immediately hit the ground trying to loosen up his back. He reports taking some Tylenol, ibuprofen, and using ice and heat which did not relieve the pain. By Monday morning it loosened up a little bit, but it is still pretty sore. He had some right lower extremity weakness and some drop foot that he felt that for a while, and it got a little better this morning but not much. He had surgery about 10 years ago in his lower back.\n\nRegarding his congestive heart failure, he has been watching his diet and trying to exercise regularly. He is avoiding the salty foods and has been compliant with medications. He has gained a little weight over the summer but nothing more than 5 pounds. He has no problems lying flat to go to bed.\n\nRegarding his diabetes, he is watching his blood sugars at home, not always consistently. He is still on his metformin.",
+    "ROS": "\u2022 Constitutional: Denies weight loss. Endorses weight gain.\n\u2022 Musculoskeletal: Endorses back pain. Endorses right leg weakness and drop foot.",
+    "PHYSICAL_EXAMINATION": "\u2022 Cardiovascular: Grade 2/6 systolic ejection murmur, stable.\n\u2022 Musculoskeletal: Examination of his back reveals pain to palpation at L5. Decreased range of motion with flexion and extension. Positive straight leg raise. Strength is 4/5 on the right and 5/5 on the left.\n\nResults:\n\nX-ray lumbar spine, ordered and obtained in the office today, is unremarkable with good bony alignment.\n\nHemoglobin A1c is elevated at 8.",
+    "ASSESSMENT_PLAN": "James Allen is a 57-year-old male with a past medical history significant for congestive heart failure and type 2 diabetes, who presents today with back pain.\n\nAcute lumbar strain.\n\u2022 Medical Reasoning: The patient reports feeling a 'pop' and immediate pain while golfing approximately 4 days ago. He has tried Tylenol and ibuprofen without significant relief.\n\u2022 Additional Testing: If he continues to have pain, we will obtain an MRI for further evaluation.\n\u2022 Medical Treatment: Initiate meloxicam 15 mg once daily.\n\u2022 Specialist Referrals: We will refer him to physical therapy to work on strengthening the area.\n\nDiabetes type 2.\n\u2022 Medical Reasoning: He has been compliant with metformin and dietary modifications, but his recent hemoglobin A1c was 8.\n\u2022 Additional Testing: Repeat hemoglobin A1c in a couple of months.\n\u2022 Medical Treatment: Increase metformin to 1000 mg twice daily.\n\nCongestive heart failure.\n\u2022 Medical Reasoning: He is doing well from this standpoint. He has been compliant with his medications, dietary modifications, and regular physical activity.\n\u2022 Medical Treatment: Continue lisinopril 20 mg once daily and Lasix. Lisinopril was refilled today.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.",
+    "INSTRUCTIONS": "The patient will follow-up in 2 weeks."
+  },
+  "n_patient_turns": 47,
+  "n_clinician_turns": 50,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 25424.333542585373,
+      "response_text": "I understand how frustrating and uncomfortable dealing with back pain can be, especially after an injury like that. It\u2019s clear you\u2019re in discomfort, and I want to make sure we\u2019re on the right track to help you feel better. Based on what you\u2019ve described and the exam, it seems like you have a muscle strain in your lower back, which can happen from sudden movements like a golf swing. The good news is that with some rest, physical therapy, and the medication I prescribed, we should be able to manage the pain and help your back heal.\n\nI\u2019ve also increased your metformin to better manage your diabetes, and we\u2019ll keep an eye on your blood sugar levels. For your heart failure, you\u2019re doing well, so we\u2019ll continue with your current medications. Please make sure to take your lisinopril as directed and let us know if you need any refills. The physical therapy referral is to strengthen your back muscles, which can help prevent future injuries. If the pain doesn\u2019t improve, we\u2019ll consider an MRI to rule out any other issues.\n\nTake the medication as prescribed, stay active within your comfort level, and don\u2019t hesitate to reach out if you have any questions or if anything doesn\u2019t feel right. We\u2019re here to support you through this. How are you feeling emotionally about all of this?",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 26826.963424682617,
+      "response_text": "Thank you for sharing your concerns with me, James. It sounds like the back pain you've been experiencing, especially after your golf incident, has been quite frustrating and uncomfortable. I can understand why you'd feel this way, especially since it's impacting your usual activities. Your efforts to manage the pain with Tylenol and ibuprofen, along with the ice and heat therapy, show that you're taking an active approach to your care.\n\nGiven the details you've provided, it seems like you're dealing with an acute lumbar strain. However, to ensure there's no underlying issue like a disc herniation, we'll keep an eye on your symptoms. If they persist or worsen, we might consider an MRI to get a clearer picture. In the meantime, I've prescribed meloxicam to help with the pain and referred you to physical therapy to strengthen the area and prevent future issues.\n\nFor your diabetes, we noticed your HbA1c is a bit elevated, so we'll monitor that with a follow-up test in a couple of months. I've adjusted your metformin dosage to help bring your levels under better control. It's great to hear you're managing your diet and medications well, especially with your sweet tooth.\n\nRegarding your heart failure, you're doing exceptionally well on your current medications. I've also arranged a refill for your lisinopril. We'll schedule a follow-up in a couple of weeks to check in on your progress and address any concerns you may have in the meantime.\n\nBefore you leave, could you summarize what we've discussed today? This will help ensure you understand the plan and any next steps. Feel free to ask any questions you might have.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 8630.598716437817,
+      "response_text": "It sounds like you're dealing with some back pain from your recent golf injury. I'm here to help figure out what's going on and how to manage it.\n\nWe'll start with some physical therapy to help strengthen your back and consider an MRI if your symptoms don't improve.\n\nI'll also adjust your diabetes medication to better manage your blood sugar levels.\n\nCan you tell me, in your own words, what we're going to do next and why it's important?\n\nLet's plan to see each other again in a couple of weeks. If your back pain gets worse or if you notice any new symptoms like severe pain or weakness, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're dealing with some back pain from your recent golf injury. I'm here to help figure out what's going on and how to manage it.",
+        "clinical_information_per_concern": [],
+        "next_steps": [
+          "We'll start with some physical therapy to help strengthen your back and consider an MRI if your symptoms don't improve.",
+          "I'll also adjust your diabetes medication to better manage your blood sugar levels."
+        ],
+        "teach_back_prompt": "Can you tell me, in your own words, what we're going to do next and why it's important?",
+        "follow_up_invitation": "Let's plan to see each other again in a couple of weeks. If your back pain gets worse or if you notice any new symptoms like severe pain or weakness, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 152717.44533628225,
+      "response_text": "Thank you for sharing your concerns about your back pain. It sounds like you're doing your best to manage it with over-the-counter medications and home remedies.\n\nThe current approach to managing your back pain involves using over-the-counter medications and home care. While these methods are effective for many, we'll continue to monitor your condition to ensure it doesn't worsen.\n\nMaintaining a healthy diet is an important part of managing conditions like type 2 diabetes and heart failure. We'll support you in achieving your dietary goals through regular check-ins and resources.\n\nRegular exercise can help improve overall health and manage conditions such as diabetes and heart failure. We'll work together to help you stay consistent with your exercise routine.\n\nWe'll schedule a follow-up appointment in 2 weeks to review your progress with the current treatment plan.\n\nIn the meantime, if your back pain worsens or you experience any new symptoms, please reach out to us as soon as possible.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 2 weeks. In the meantime, if your back pain gets worse or you have any new symptoms, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns about your back pain. It sounds like you're doing your best to manage it with over-the-counter medications and home remedies.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "back pain",
+            "profile_path": "problems[0]",
+            "explanation": "The current approach to managing your back pain involves using over-the-counter medications and home care. While these methods are effective for many, we'll continue to monitor your condition to ensure it doesn't worsen.",
+            "citations": []
+          },
+          {
+            "concern_label": "watching my diet",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Maintaining a healthy diet is an important part of managing conditions like type 2 diabetes and heart failure. We'll support you in achieving your dietary goals through regular check-ins and resources.",
+            "citations": []
+          },
+          {
+            "concern_label": "trying to exercise regularly",
+            "profile_path": "patient_goals[1]",
+            "explanation": "Regular exercise can help improve overall health and manage conditions such as diabetes and heart failure. We'll work together to help you stay consistent with your exercise routine.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll schedule a follow-up appointment in 2 weeks to review your progress with the current treatment plan.",
+          "In the meantime, if your back pain worsens or you experience any new symptoms, please reach out to us as soon as possible."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 2 weeks. In the meantime, if your back pain gets worse or you have any new symptoms, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 2,
+        "problems": [
+          "back pain"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 232949.03882592916,
+      "response_text": "I understand you're experiencing back pain that started on Saturday morning and has improved a bit by Monday morning, along with some issues with your right foot and leg weakness that you've been feeling for a while.\n\nThe back pain you're experiencing can often be managed with a combination of clinical evaluation and your reported outcomes. We'll consider appropriate tests to understand your condition better.\n\nThe weakness in your right leg and foot is concerning. We'll need to evaluate this carefully, as it could indicate a neurological issue that needs immediate attention.\n\nGiven the neurological symptoms, we'll prioritize evaluating your leg weakness and foot drop. This may involve specific tests to rule out serious conditions.\n\nWe'll schedule a follow-up visit to review the results and plan the next steps together.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. If you experience any worsening symptoms or new issues, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I understand you're experiencing back pain that started on Saturday morning and has improved a bit by Monday morning, along with some issues with your right foot and leg weakness that you've been feeling for a while.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "back pain",
+            "profile_path": "problems[0]",
+            "explanation": "The back pain you're experiencing can often be managed with a combination of clinical evaluation and your reported outcomes. We'll consider appropriate tests to understand your condition better.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::sub_query[0]::35190445_0",
+                "primary_assertion_id": "35190445_0",
+                "pmids": [
+                  "35190445"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "dropped foot/leg weakness",
+            "profile_path": "problems[1]",
+            "explanation": "The weakness in your right leg and foot is concerning. We'll need to evaluate this carefully, as it could indicate a neurological issue that needs immediate attention.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::sub_query[1]::38833246_0",
+                "primary_assertion_id": "38833246_0",
+                "pmids": [
+                  "38833246"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "Given the neurological symptoms, we'll prioritize evaluating your leg weakness and foot drop. This may involve specific tests to rule out serious conditions.",
+          "We'll schedule a follow-up visit to review the results and plan the next steps together."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. If you experience any worsening symptoms or new issues, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "recommendation::sub_query[0]::35190445_0",
+          "recommendation::sub_query[1]::38833246_0"
+        ],
+        "all_pmids_used": [
+          "35190445",
+          "38833246"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 2,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 1,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "back pain",
+          "dropped foot/leg weakness"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "35190445",
+        "38833246"
+      ],
+      "cluster_ids_used": [
+        "recommendation::sub_query[0]::35190445_0",
+        "recommendation::sub_query[1]::38833246_0"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 178439.9203211069,
+        "module_2_retrieval": 1731.8636327981949,
+        "module_3_reasoning": 30776.450790464878,
+        "module_4_response": 21999.71217662096,
+        "total_ms": 232947.94692099094
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

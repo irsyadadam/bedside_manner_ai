@@ -1,0 +1,357 @@
+{
+  "transcript_id": "aci_virtassist_D2N003",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "hey . well , relatively speaking , okay . good to see you .",
+  "patient_utterances": [
+    "[Clinician asked: \"hi , john . how are you ?\"] hey . well , relatively speaking , okay . good to see you .",
+    "[Clinician asked: \"good to see you as well . so i know the nurse told you about dax . i'm gon na tell dax a little bit about you .\"] okay .",
+    "[Clinician asked: \"so john is a 61-year-old male with a past medical history significant for kidney stones , migraines and reflux , who presents with some back pain . so john , what's going on with your back ?\"] uh , i'm feeling a lot of the same pain that i had when i had kidney stones about two years ago , so i'm a little concerned .",
+    "[Clinician asked: \"yeah . and so wh- what side of your back is it on ?\"] uh , honestly , it shifts . it started from the right side and it kinda moved over , and now i feel it in the left side of my back .",
+    "[Clinician asked: \"okay . and , um , how many days has this been going on for ?\"] the last four days .",
+    "[Clinician asked: \"okay . and is ... is the pain coming and going ?\"] um , at first it was coming and going , and then for about the last 48 hours , it's been a constant , and it's ... it's been pretty bad .",
+    "[Clinician asked: \"okay . and what have you taken for the pain ?\"] tylenol , but it really does n't seem to help .",
+    "[Clinician asked: \"yeah . okay . and do you have any blood in your urine ?\"] um , uh , it ... i think i do . it's kind of hard to detect , but it does look a little off-color .",
+    "[Clinician asked: \"okay . all right . um , and have you had , uh , any other symptoms like nausea and vomiting ?\"] um , if i'm doing something i'm ... i'm , uh , like exerting myself , like climbing the three flights of stairs to my apartment or running to catch the bus , i feel a little dizzy and a little light headed , and i ... i still feel a little bit more pain in my abdomen .",
+    "[Clinician asked: \"okay . all right . um , so let- let's talk a little bit about your ... your migraines . how are you doing with those ? i know we started you on the imitrex a couple months ago .\"] i've been pretty diligent about taking the meds . i ... i wan na make sure i stay on top of that , so i've been pretty good with that .",
+    "[Clinician asked: \"okay , so no issues with the migraine ?\"] none whatsoever .",
+    "[Clinician asked: \"okay . and how about your ... your acid reflux ? how are you doing with ... i know you were making some diet changes .\"] yeah , i've been pretty good with the diet , but with the pain i have been having, it has been easier to call and have something delivered. so i have been ordering a lot of take-out and fast food that can be delivered to my door so i don't have to go out and up and down the steps to get it myself. but other than that , it's been pretty good .",
+    "[Clinician asked: \"okay . are you staying hydrated ?\"] yes .",
+    "[Clinician asked: \"okay . all right . okay , well , let's go ahead and , uh , i know the nurse did a review of systems , you know , with you , and i know that you're endorsing some back pain and a little bit of dizziness , um , and some blood in your urine . any other symptoms ? you know , muscle aches , chest pain ..\"] i have some body aches because i think i'm ... i'm favoring , um , my back when i'm walking because of the pain , like i kinda feel it in my muscles , but not out of the ordinary and not surprised 'cause i remember that from two years ago .",
+    "[Clinician asked: \"okay . all right . well , let's go ahead and ... and look at your vital signs today . hey , dragon ? show me the blood pressure . yeah , so your blood pressure's a little high today . that's probably because you're in some pain , um , but let ... let me just take a listen to your heart and lungs , a\"] sure .",
+    "[Clinician asked: \"okay , so on ... on physical exam , you do have some , uh , cda tenderness on the right-hand side , meaning that you're tender when i ... when i pound on that .\"] mm-hmm .",
+    "[Clinician asked: \"um , and your abdomen also feels a little tender . you have some tenderness of the palpation of the right lower quadrant , but other than that , your heart sounds nice and clear and your lungs are clear as well . so let's go ahead and take a look at some of your results , okay ?\"] sure .",
+    "[Clinician asked: \"hey , dragon ? show me the creatinine . so we ... we drew a creatinine when you came in here because i was concerned about the kidney stones . it ... it is uh ... it is up slightly , which might suggest that you have a little bit of a obstruction there of one-\"] mm-hmm .",
+    "[Clinician asked: \"of the stones . okay ? hey , dragon . show me the abdominal x-rays . okay , and there might be a question of a ... uh , of a stone there lower down , uh , but we'll wait for the official read there . so the , uh , abdominal x-rays show a possible kidney stone , okay ?\"] okay .",
+    "[Clinician asked: \"so let's talk a little bit about my assessment and plan for you . so , for your first problem , your back pain , i think you're having a recurrence of your kidney stones . so i wan na go ahead and order a ct scan without contrast of your abdomen and pelvis . okay ?\"] mm-hmm .",
+    "[Clinician asked: \"and i'm also gon na order you some ultram 50 milligrams as needed every six hours for pain . does that sound okay ?\"] okay .",
+    "[Clinician asked: \"hey , dragon ? order ultram 50 milligrams every six hours as needed for pain . and i want you to push fluids and strain your urine . i know that you're familiar with that .\"] yes , i am .",
+    "[Clinician asked: \"for your next problem , for your migraines , let's continue you on the imitrex . and for your final problem , uh , for your reflux , uh , we have you on the protonix 40 milligrams a day . do you need a refill of that ?\"] actually , i do need a refill .",
+    "[Clinician asked: \"okay . hey , dragon ? order a refill of protonix 40 milligrams daily . okay . so the nurse will be in soon , and she'll help you get the cat scan scheduled . and i'll be in touch with you in ... in a day or so .\"] perfect .",
+    "[Clinician asked: \"if your symptoms worsen , just give me a call , okay ?\"] you got it .",
+    "[Clinician asked: \"take care .\"] thank you ."
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nBack pain.\n\nHISTORY OF PRESENT ILLNESS\n\nMr. John Perry is a 61-year-old male with a past medical history significant for kidney stones, migraines, and gastroesophageal reflux, who presents with some back pain.\n\nThe patient reports that he is feeling a lot of the same pain that he had when he had kidney stones about 2 years ago, so he is a little concerned. The pain started from the right side and moved over and he feels it on the left side of his back. This has been going on for the last 4 days. Initially, the pain was intermittent, but over the last 48 hours it has been constant. He has taken Tylenol, but it does not seem to help. He thinks he has hematuria, but it is hard to detect but it does look a little off color. He endorses nausea and vomiting if he exerts himself or climbs the stairs to his apartment or runs to catch the bus. He also endorses dizziness and lightheadedness with pain in his abdomen.\n\nRegarding his migraines, he has been diligent about taking the Imitrex. He denies issues with the migraines.\n\nRegarding his gastroesophageal reflux, he reports that he has been doing well with his diet, but notes lately with his pain, he has been eating more fast food and takeout since these options come with delivery. He is staying hydrated. He is taking Protonix 40 mg daily as directed.\n\nREVIEW OF SYSTEMS\n\n\u2022 Gastrointestinal: Endorses abdominal pain. Endorses nausea and vomiting with exertion.\n\u2022 Genitourinary: Endorses urine discoloration.\n\u2022 Musculoskeletal: Endorses back pain. Endorses body aches.\n\u2022 Neurological: Denies headaches. Endorses dizziness and lightheadedness.\n\nPHYSICAL EXAMINATION\n\n\u2022 Respiratory: Lungs are clear to auscultation bilaterally. No wheezes, rales, or rhonchi.\n\u2022 Cardiovascular: No murmurs, gallops, or rubs. No extra heart sounds.\n\u2022 Gastrointestinal: Tender to palpation to the right lower quadrant. CVA tenderness on the right.\n\nVITALS REVIEWED\n\n\u2022 Blood Pressure: Elevated.\n\nRESULTS\n\nCreatinine level slightly elevated.\nAbdominal x-ray demonstrates possible kidney stone.\n\nASSESSMENT AND PLAN\n\nMr. John Perry is a 61-year-old male with a past medical history significant for kidney stones, migraines, and gastroesophageal reflux, who presents with back pain.\n\nKidney stones.\n\u2022 Medical Reasoning: He is experiencing pain in his back that is similar to his previous kidney stone pain. His recent abdominal x-ray demonstrates what appears to be a recurrent kidney stone.\n\u2022 Additional Testing: I have ordered a CT scan of the abdomen and pelvis without contrast.\n\u2022 Medical Treatment: We will start him on Ultram 50 mg as needed every 6 hours for pain.\n\u2022 Patient Education and Counseling: I advised the patient to stay well hydrated and to strain his urine.\n\nMigraines.\n\u2022 Medical Reasoning: He has been compliant with Imitrex and is doing well at this time.\n\u2022 Medical Treatment: Continue Imitrex.\n\nReflux.\n\u2022 Medical Reasoning: This is typically well-controlled with dietary modifications.\n\u2022 Medical Treatment: Continue with Protonix 40 mg daily. A refill was provided.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.",
+  "gold_sections": {
+    "CC": "Back pain.",
+    "HPI": "Mr. John Perry is a 61-year-old male with a past medical history significant for kidney stones, migraines, and gastroesophageal reflux, who presents with some back pain.\n\nThe patient reports that he is feeling a lot of the same pain that he had when he had kidney stones about 2 years ago, so he is a little concerned. The pain started from the right side and moved over and he feels it on the left side of his back. This has been going on for the last 4 days. Initially, the pain was intermittent, but over the last 48 hours it has been constant. He has taken Tylenol, but it does not seem to help. He thinks he has hematuria, but it is hard to detect but it does look a little off color. He endorses nausea and vomiting if he exerts himself or climbs the stairs to his apartment or runs to catch the bus. He also endorses dizziness and lightheadedness with pain in his abdomen.\n\nRegarding his migraines, he has been diligent about taking the Imitrex. He denies issues with the migraines.\n\nRegarding his gastroesophageal reflux, he reports that he has been doing well with his diet, but notes lately with his pain, he has been eating more fast food and takeout since these options come with delivery. He is staying hydrated. He is taking Protonix 40 mg daily as directed.",
+    "ROS": "\u2022 Gastrointestinal: Endorses abdominal pain. Endorses nausea and vomiting with exertion.\n\u2022 Genitourinary: Endorses urine discoloration.\n\u2022 Musculoskeletal: Endorses back pain. Endorses body aches.\n\u2022 Neurological: Denies headaches. Endorses dizziness and lightheadedness.",
+    "PHYSICAL_EXAMINATION": "\u2022 Respiratory: Lungs are clear to auscultation bilaterally. No wheezes, rales, or rhonchi.\n\u2022 Cardiovascular: No murmurs, gallops, or rubs. No extra heart sounds.\n\u2022 Gastrointestinal: Tender to palpation to the right lower quadrant. CVA tenderness on the right.",
+    "VITALS_REVIEWED": "\u2022 Blood Pressure: Elevated.",
+    "RESULTS": "Creatinine level slightly elevated.\nAbdominal x-ray demonstrates possible kidney stone.",
+    "ASSESSMENT_PLAN": "Mr. John Perry is a 61-year-old male with a past medical history significant for kidney stones, migraines, and gastroesophageal reflux, who presents with back pain.\n\nKidney stones.\n\u2022 Medical Reasoning: He is experiencing pain in his back that is similar to his previous kidney stone pain. His recent abdominal x-ray demonstrates what appears to be a recurrent kidney stone.\n\u2022 Additional Testing: I have ordered a CT scan of the abdomen and pelvis without contrast.\n\u2022 Medical Treatment: We will start him on Ultram 50 mg as needed every 6 hours for pain.\n\u2022 Patient Education and Counseling: I advised the patient to stay well hydrated and to strain his urine.\n\nMigraines.\n\u2022 Medical Reasoning: He has been compliant with Imitrex and is doing well at this time.\n\u2022 Medical Treatment: Continue Imitrex.\n\nReflux.\n\u2022 Medical Reasoning: This is typically well-controlled with dietary modifications.\n\u2022 Medical Treatment: Continue with Protonix 40 mg daily. A refill was provided.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan."
+  },
+  "n_patient_turns": 26,
+  "n_clinician_turns": 27,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 14715.951077640057,
+      "response_text": "Hi John, I hope you're doing well. I understand you're concerned about your back pain, which is similar to what you experienced with your kidney stones. It\u2019s good that you\u2019re taking it seriously and reaching out for help. We\u2019ve discussed the plan to get a CT scan to check for any stones and I\u2019ve prescribed some pain medication to help you manage the discomfort. \n\nFor your migraines and reflux, we\u2019re keeping you on your current medications, and I\u2019ve made sure you have a refill for the protonix. Please remember to stay hydrated and monitor your symptoms. If things get worse or if you have any new symptoms, don\u2019t hesitate to call. We\u2019re here to support you through this. Take care and feel better soon.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 35353.54798287153,
+      "response_text": "Thank you for sharing all of this with me, John. It sounds like you're feeling a bit overwhelmed with the back pain and the worrying about the blood in your urine. I can understand why you're concerned, especially given your history with kidney stones. It's not easy dealing with this kind of pain and uncertainty, and I want to make sure we're on the right track together.\n\nFrom what I gather, the pain shifting from your right to left side and the blood in your urine are red flags that could indicate a recurrence of kidney stones or possibly an obstruction. That's why I think a CT scan is important\u2014it will give us a clear picture of what's going on inside. I know getting more tests can feel stressful, but it's crucial to get a accurate diagnosis so we can treat it effectively.\n\nIn the meantime, I've prescribed Ultram to help manage the pain. It's important to take it as directed and to stay hydrated. Drinking plenty of water can help flush out any stones that might be causing the obstruction. I also want you to keep an eye on your symptoms\u2014let me know if the pain gets worse or if you notice any changes in your urine.\n\nI've also arranged a refill for your proton pump inhibitor to help keep your reflux under control. We'll check in with you in a day or two to see how you're feeling and to discuss the results of the CT scan. Before you leave, could you summarize what we've agreed on today? That way, I can make sure everything is clear and you feel confident about the next steps.\n\nTake care, John, and don't hesitate to reach out if you have any questions or concerns in the meantime.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7014.577187597752,
+      "response_text": "It sounds like you're experiencing some back pain similar to what you had with your kidney stones, and you mentioned seeing something off-color in your urine. I want to make sure we address these concerns carefully.\n\nCan you tell me, in your own words, what we discussed today and what you plan to do next?\n\nLet's plan to follow up in a day or so. If your symptoms get worse or if you notice anything new, please give me a call.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're experiencing some back pain similar to what you had with your kidney stones, and you mentioned seeing something off-color in your urine. I want to make sure we address these concerns carefully.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "Can you tell me, in your own words, what we discussed today and what you plan to do next?",
+        "follow_up_invitation": "Let's plan to follow up in a day or so. If your symptoms get worse or if you notice anything new, please give me a call.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 321526.7945230007,
+      "response_text": "I understand you're concerned about your back pain, which has been getting worse over the past two years. You mentioned seeing blood in your urine, which is something we need to take seriously.\n\nPersistent back pain, especially when combined with blood in the urine, can be concerning. It's important to rule out serious causes like kidney stones or infections.\n\nBlood in the urine (blood in the urine) can indicate a urinary tract infection or other issues. We'll need to do some tests to determine the cause.\n\nDizziness can be linked to various factors, including dehydration or inner ear issues. We'll monitor this symptom as part of your overall health assessment.\n\nMigraines can be managed with medications like Imitrex, but it's important to track your symptoms to identify triggers.\n\nBody aches can result from favoring your back. Improving your posture and using appropriate pain relief can help manage these symptoms.\n\nAddressing your back pain is a priority. We'll work together to find effective treatments and prevent it from worsening.\n\nGiven the presence of blood in your urine, we'll prioritize conducting a urinalysis and possibly imaging tests to rule out any serious conditions.\n\nWe'll schedule a follow-up appointment to review the results and discuss further treatment options for your back pain.\n\nIn the meantime, continue to monitor your symptoms and keep track of any changes.\n\nI want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. If you experience severe pain, increased dizziness, or any new symptoms, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I understand you're concerned about your back pain, which has been getting worse over the past two years. You mentioned seeing blood in your urine, which is something we need to take seriously.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "back pain",
+            "profile_path": "problems[0]",
+            "explanation": "Persistent back pain, especially when combined with blood in the urine, can be concerning. It's important to rule out serious causes like kidney stones or infections.",
+            "citations": []
+          },
+          {
+            "concern_label": "blood in urine",
+            "profile_path": "problems[1]",
+            "explanation": "Blood in the urine (blood in the urine) can indicate a urinary tract infection or other issues. We'll need to do some tests to determine the cause.",
+            "citations": []
+          },
+          {
+            "concern_label": "dizziness",
+            "profile_path": "problems[2]",
+            "explanation": "Dizziness can be linked to various factors, including dehydration or inner ear issues. We'll monitor this symptom as part of your overall health assessment.",
+            "citations": []
+          },
+          {
+            "concern_label": "migraines",
+            "profile_path": "problems[3]",
+            "explanation": "Migraines can be managed with medications like Imitrex, but it's important to track your symptoms to identify triggers.",
+            "citations": []
+          },
+          {
+            "concern_label": "body aches",
+            "profile_path": "problems[4]",
+            "explanation": "Body aches can result from favoring your back. Improving your posture and using appropriate pain relief can help manage these symptoms.",
+            "citations": []
+          },
+          {
+            "concern_label": "concerned about back pain",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Addressing your back pain is a priority. We'll work together to find effective treatments and prevent it from worsening.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "Given the presence of blood in your urine, we'll prioritize conducting a urinalysis and possibly imaging tests to rule out any serious conditions.",
+          "We'll schedule a follow-up appointment to review the results and discuss further treatment options for your back pain.",
+          "In the meantime, continue to monitor your symptoms and keep track of any changes."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. If you experience severe pain, increased dizziness, or any new symptoms, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": [
+          {
+            "field": "clinical_information_per_concern[1].explanation",
+            "original": "hematuria",
+            "plain": "blood in the urine",
+            "count": 1
+          }
+        ]
+      },
+      "profile_summary": {
+        "n_problems": 5,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 1,
+        "n_emotional": 0,
+        "n_goals": 1,
+        "problems": [
+          "back pain",
+          "blood in urine",
+          "dizziness",
+          "migraines",
+          "body aches"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 430994.69012767076,
+      "response_text": "I understand you're here because of your back pain, which has been going on for about two years and has gotten worse recently. You mentioned seeing kidney stones and using Tylenol, but it's still pretty bad.\n\nPersistent back pain, especially when it's getting worse, can be concerning. We'll need to look into possible causes like kidney stones or other issues. We'll start with some tests to get a clearer picture.\n\nBlood in the urine, or blood in the urine, is something we need to take seriously. It could be related to kidney stones or other issues. We'll do some tests to figure out what's going on.\n\nDizziness when exerting yourself can be linked to various issues, including low blood pressure or dehydration. We'll monitor this and check if it's related to other symptoms you're experiencing.\n\nMigraines are a common issue, and while they can be managed with medications like Imitrex, we should ensure there aren't any underlying causes. We'll keep track of how often they occur and see if further treatment is needed.\n\nBody aches can be a sign of many things, including infections or chronic conditions. We'll monitor these symptoms and see if they improve or if they persist, which would require further investigation.\n\nOur goal is to help you address your back pain effectively. We'll work together to find the right approach, whether it's through medication, physical therapy, or other treatments.\n\nGiven the red flags, we'll prioritize addressing the blood in your urine. We'll order some tests, including bloodwork and imaging, to rule out any serious causes.\n\nWe'll schedule a follow-up visit in two weeks to review the results and discuss next steps for your back pain and other concerns.\n\nIn the meantime, keep track of any new symptoms or changes in your condition and let us know immediately if anything worsens.\n\nI want to make sure I explained everything clearly. Can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in two weeks. If you experience severe pain, increased dizziness, or any new symptoms like chest pain, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I understand you're here because of your back pain, which has been going on for about two years and has gotten worse recently. You mentioned seeing kidney stones and using Tylenol, but it's still pretty bad.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "back pain",
+            "profile_path": "problems[0]",
+            "explanation": "Persistent back pain, especially when it's getting worse, can be concerning. We'll need to look into possible causes like kidney stones or other issues. We'll start with some tests to get a clearer picture.",
+            "citations": [
+              {
+                "cluster_id": "finding::global::40684090_0",
+                "primary_assertion_id": "40684090_0",
+                "pmids": [
+                  "40684090"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "blood in urine",
+            "profile_path": "problems[1]",
+            "explanation": "Blood in the urine, or blood in the urine, is something we need to take seriously. It could be related to kidney stones or other issues. We'll do some tests to figure out what's going on.",
+            "citations": [
+              {
+                "cluster_id": "finding::global::35833228_0",
+                "primary_assertion_id": "35833228_0",
+                "pmids": [
+                  "35833228"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "dizziness",
+            "profile_path": "problems[2]",
+            "explanation": "Dizziness when exerting yourself can be linked to various issues, including low blood pressure or dehydration. We'll monitor this and check if it's related to other symptoms you're experiencing.",
+            "citations": [
+              {
+                "cluster_id": "finding::global::39232663_0",
+                "primary_assertion_id": "39232663_0",
+                "pmids": [
+                  "39232663"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "migraines",
+            "profile_path": "problems[3]",
+            "explanation": "Migraines are a common issue, and while they can be managed with medications like Imitrex, we should ensure there aren't any underlying causes. We'll keep track of how often they occur and see if further treatment is needed.",
+            "citations": []
+          },
+          {
+            "concern_label": "body aches",
+            "profile_path": "problems[4]",
+            "explanation": "Body aches can be a sign of many things, including infections or chronic conditions. We'll monitor these symptoms and see if they improve or if they persist, which would require further investigation.",
+            "citations": [
+              {
+                "cluster_id": "finding::global::40684090_0",
+                "primary_assertion_id": "40684090_0",
+                "pmids": [
+                  "40684090"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "address back pain",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Our goal is to help you address your back pain effectively. We'll work together to find the right approach, whether it's through medication, physical therapy, or other treatments.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "Given the red flags, we'll prioritize addressing the blood in your urine. We'll order some tests, including bloodwork and imaging, to rule out any serious causes.",
+          "We'll schedule a follow-up visit in two weeks to review the results and discuss next steps for your back pain and other concerns.",
+          "In the meantime, keep track of any new symptoms or changes in your condition and let us know immediately if anything worsens."
+        ],
+        "teach_back_prompt": "I want to make sure I explained everything clearly. Can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in two weeks. If you experience severe pain, increased dizziness, or any new symptoms like chest pain, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Demonstrate empathy",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::global::40684090_0",
+          "finding::global::35833228_0",
+          "finding::global::39232663_0"
+        ],
+        "all_pmids_used": [
+          "40684090",
+          "35833228",
+          "39232663"
+        ],
+        "glossary_substitutions": [
+          {
+            "field": "clinical_information_per_concern[1].explanation",
+            "original": "hematuria",
+            "plain": "blood in the urine",
+            "count": 1
+          }
+        ]
+      },
+      "profile_summary": {
+        "n_problems": 5,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 2,
+        "n_emotional": 0,
+        "n_goals": 1,
+        "problems": [
+          "back pain",
+          "blood in urine",
+          "dizziness",
+          "migraines",
+          "body aches"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "40684090",
+        "35833228",
+        "39232663"
+      ],
+      "cluster_ids_used": [
+        "finding::global::40684090_0",
+        "finding::global::35833228_0",
+        "finding::global::39232663_0"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Demonstrate empathy",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 299328.47590744495,
+        "module_2_retrieval": 1660.6148108839989,
+        "module_3_reasoning": 82044.80142146349,
+        "module_4_response": 47959.90917086601,
+        "total_ms": 430993.80131065845
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

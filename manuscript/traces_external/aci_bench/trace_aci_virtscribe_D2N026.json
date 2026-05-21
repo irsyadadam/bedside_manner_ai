@@ -1,0 +1,283 @@
+{
+  "transcript_id": "aci_virtscribe_D2N026",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "good morning .",
+  "patient_utterances": [
+    "[Clinician asked: \"dictating on donald clark . date of birth , 03/04/1937 . chief complaint is left arm pain . hello , how are you ?\"] good morning .",
+    "[Clinician asked: \"it's nice to meet you . i'm dr. miller .\"] it's nice to meet you as well .",
+    "[Clinician asked: \"so , i hear you are having pain this arm . is that correct ?\"] that's correct .",
+    "[Clinician asked: \"okay . and it seems like it's worse at night ?\"] well , right now the hand is .",
+    "[Clinician asked: \"mm-hmm .\"] and the thing started about two weeks ago . i woke up about two o'clock in the morning and it was just hurting something awful .",
+    "[Clinician asked: \"uh- .\"] and then i laid some ice on it and it finally did ease up .",
+    "[Clinician asked: \"okay , that's good .\"] so i got up , i sat on the side of the bed and held my arm down , thinking it would , like , help the circulation , but it did n't .",
+    "[Clinician asked: \"okay , i see .\"] and so , after a while , when it eased off , maybe about four , five am , i laid back down and it did n't start up again .",
+    "[Clinician asked: \"mm-hmm , okay .\"] um . i went back to sleep but for several nights this happened , like , over and over . so , i finally went to see the doctor , and i do n't really recall her name .",
+    "[Clinician asked: \"okay . yeah , i think i know who you're talking about , though .\"] um , she's the one who sent me to you , so , i , i would , i would think so . but when i went to her after the third time it happened and she checked me out , she said it was most likely coming from a pinched nerve .",
+    "[Clinician asked: \"probably . uh , do you notice that moving your neck or turning your head seems to bother your arm ?\"] uh , no .",
+    "[Clinician asked: \"okay . is moving your shoulder uncomfortable at all ?\"] no .",
+    "[Clinician asked: \"and do you notice it at other times besides during the night ?\"] um , some days . if it bothers me at night , then the day following , it usually will bother me some .",
+    "[Clinician asked: \"okay . and do you just notice it in the hand , or does it seem to be going down the whole arm ?\"] well , it starts there and goes all the way down the arm .",
+    "[Clinician asked: \"okay . have you noticed any weakness in your hand at all ?\"] uh , yes .",
+    "[Clinician asked: \"okay . like , in terms of gripping things ?\"] yeah .",
+    "[Clinician asked: \"okay .\"] uh , this finger , i hurt it some time ago as well .",
+    "[Clinician asked: \"really ?\"] yeah . it does n't work properly . or , it works very rarely .",
+    "[Clinician asked: \"gotcha . and did i hear that she gave you some prednisone and some oral steroids , or ?\"] uh , well , she gave me some numbing medicine . it helped a little bit . the other two were a neck pill and gabapentin . uh , you should have my full list in your notes , though . since then it has n't really bothered me at night . also , just so you know , i am a va and i'm one percent disabled from this leg , um , issues from my knees down to my feet .",
+    "[Clinician asked: \"okay . is it neuropathy ?\"] uh , yep .",
+    "[Clinician asked: \"gotcha . that is good to know . all right , well , let's go ahead and take a look .\"] okay .",
+    "[Clinician asked: \"all right . so , to start , i'm gon na have you do something for me . uh , just go ahead and tilt your chin as far as you can down to your chest . okay , good . and now , go the other way , tilting your chin up as far as you can . now , does that seem to bother you at all ? okay . and now , come bac\"] no . well , actually , i do feel a little strain .",
+    "[Clinician asked: \"okay . so , you feel it in the neck a little bit ?\"] yeah , just a little strain .",
+    "[Clinician asked: \"okay . uh , now squeeze my fingers as hard as you can with both hands . great . now , hold your arms like this .\"] okay .",
+    "[Clinician asked: \"and i'm going to try to strain your arms and try to keep them as stiff as you can . do n't let me strain it . okay , good . good . now , when i , i'm just touching your hands like this . does it seem to feel about the same in both hands ?\"] uh , yes .",
+    "[Clinician asked: \"okay . all right . so , i do agree with betty . uh , more than likely , this seems like it would be coming from your neck . that's the most common reason that causes what , what you're experiencing . and i looked at an x-ray of your neck , and you do seem to have a lot of arthritis there , and there\"] i see .",
+    "[Clinician asked: \"so , gabapentin can help a little bit with the nerve pain , and what i would like to do is potentially set you up for an epidural . and what that is is it , it's a focused anti-inflammatory medicine , excuse me , that works behind the nerve roops that , nerve roots that we are thinking might be gett\"] i think that sounds good to me .",
+    "[Clinician asked: \"okay , good . and just to confirm , do you take any blood thinners ? i do n't think i saw any on your medicine list .\"] uh , no , i do n't .",
+    "[Clinician asked: \"okay , good . and what i would have you do is continue with the gabapentin . um , are you taking 300 or 100 ?\"] um , not sure . my lady friend helps me handle this stuff .",
+    "[Clinician asked: \"okay .\"] i am taking eliquis , though .",
+    "[Clinician asked: \"okay . um , so whatever you are doing you can just keep doing it , and i'm going to set you up for the epidural and imaging study , um , just so i know right where to put the medicine . and i will follow up with you after s- um , that's in . we can do the shot , just to make sure your arm is feeling\"] sounds good . for the last couple of nights , though , my neck has not been bothering me .",
+    "[Clinician asked: \"okay . s- um , so , presumably what's happening , then , is when you're sleeping your neck is kind of gets off-tilt , uh , kilter , and it compresses the nerve roots there . now , if you think you're doing fine , we could hold off , but at the very la- least , i'd like to update that mri of yours an\"] yeah , it , it has been for the last week , so , i understand .",
+    "[Clinician asked: \"okay . all right . well , do you want to do that work-up and do the epidural , or do you think you're doing fine and you want to wait ?\"] well , my hand is still bothering me .",
+    "[Clinician asked: \"okay . so , you're saying your neck is not bothering you but the hand is . okay . so then , let's just stick with the plan . mri of the neck , so we can see where the nerve roots may be compressed , that's giving your hand the issue . and then , we're going to set you up with the epidural .\"] okay . sounds good .",
+    "[Clinician asked: \"all right . so , keep going with the gabapentin . i will order the imaging of your neck , and the shot will hopefully help some with those symptoms in your hand , and then we'll follow up afterwards .\"] all right . is the mri today ?",
+    "[Clinician asked: \"um , you probably ca n't do it today , but let me talk with roy and see how soon we can get it done . just give me a quick minute , and then roy will come in and get things scheduled as soon as we can .\"] all right .",
+    "[Clinician asked: \"all right . well , it was nice meeting you , my friend .\"] you as well . thank you ."
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nLeft arm pain.\n\nHISTORY OF PRESENT ILLNESS\n\nHe reports that his left arm pain began approximately 2 weeks ago. He woke around 2:00 am with intense pain in his left arm and hand. He applied ice and after 2-3 hours, the pain improved and he was able to go back to sleep, the pain did not return until that evening. After several nights of experiencing the left arm and hand pain, he was seen by Betty Ross, PA-C. She suspected a pinched nerve and completed x-rays of the cervical spine, prescribed gabapentin and prednisone, and referred the patient to us. The patient has benefited from the gabapentin and prednisone, reporting improvement of pain at night.\n\nThe pain initially was encountered at night, but the patient notes that the symptoms carry into the next day. He denies pain when moving his neck, turning his head, and moving his shoulder.\n\nMr. Clark does report a history of a left finger injury, stating \u201cit rarely works\u201d, and neuropathy in one leg from his knee to his foot which he receives 1% disability for. The patient is a veteran.\n\nPAST HISTORY\n\nMedical\nPeripheral neuropathy.\n\nSOCIAL HISTORY\n\nThe patient is a veteran and receives 1% disability.\n\nCURRENT MEDICATIONS\n\nGabapentin tablet.\nPrednisone tablet.\n\nPHYSICAL EXAM\n\nConstitutional\nElderly Caucasian male in no apparent distress. Presents in wheelchair.\n\nNeurologic\nUpper extremities: 1+ bilateral biceps, triceps, brachioradialis, reflexes bilaterally, negative. Negative Hoffman's\nGait: Not assessed today.\n\nStrength\nUpper extremities: Normal throughout the biceps, triceps, deltoid, grip strength, and finger abduction, bilaterally.\nSensation: Intact to light touch throughout the upper and lower extremities.\n\nMusculoskeletal\nCervical: Nontender over cervical spine. Mildly restricted cervical extension and right and left lateral rotation, which is symmetric, which gives him mild lateral neck pain, but no radicular pain. Spurling's maneuver is benign.\n\nRESULTS\n\nX-ray Cervical Spine, 06/04/2021.\nImpression: Significant disc degeneration at C5-6 and to a lesser extent C4-5 and C3-4. Significant lower facet arthropathy. C6-7 and C7-T1 are difficult to visualize in the current x-rays.\n\nASSESSMENT\n\n\u2022 Left upper extremity neuropathy, suspicious for cervical radiculopathy, possible contribution of peripheral neuropathy\n\u2022 Neck pain in the setting of arthritis and disc generation\n\nPLAN\n\nI suspect that this is a flare of cervical radiculopathy. I am going to set him up for a cervical MRI. We will tentatively plan for a left C7-T1 epidural afterwards, although the exact level will be pending the MRI results. He will continue his home exercise program as well as twice daily gabapentin. We will follow up with him afterwards to determine his level of relief. He denies any blood thinners.\n\nThis plan was discussed in detail with the patient who is in agreement.\n\nINSTRUCTIONS\n\nContinue home exercise program and twice daily gabapentin. Schedule MRI and epidural injection. Follow-up after epidural.",
+  "gold_sections": {
+    "CC": "Left arm pain.",
+    "HPI": "He reports that his left arm pain began approximately 2 weeks ago. He woke around 2:00 am with intense pain in his left arm and hand. He applied ice and after 2-3 hours, the pain improved and he was able to go back to sleep, the pain did not return until that evening. After several nights of experiencing the left arm and hand pain, he was seen by Betty Ross, PA-C. She suspected a pinched nerve and completed x-rays of the cervical spine, prescribed gabapentin and prednisone, and referred the patient to us. The patient has benefited from the gabapentin and prednisone, reporting improvement of pain at night.\n\nThe pain initially was encountered at night, but the patient notes that the symptoms carry into the next day. He denies pain when moving his neck, turning his head, and moving his shoulder.\n\nMr. Clark does report a history of a left finger injury, stating \u201cit rarely works\u201d, and neuropathy in one leg from his knee to his foot which he receives 1% disability for. The patient is a veteran.",
+    "PAST_HISTORY": "Medical\nPeripheral neuropathy.",
+    "SOCIAL_HISTORY": "The patient is a veteran and receives 1% disability.",
+    "CURRENT_MEDICATIONS": "Gabapentin tablet.\nPrednisone tablet.",
+    "PHYSICAL_EXAM": "Constitutional\nElderly Caucasian male in no apparent distress. Presents in wheelchair.\n\nNeurologic\nUpper extremities: 1+ bilateral biceps, triceps, brachioradialis, reflexes bilaterally, negative. Negative Hoffman's\nGait: Not assessed today.\n\nStrength\nUpper extremities: Normal throughout the biceps, triceps, deltoid, grip strength, and finger abduction, bilaterally.\nSensation: Intact to light touch throughout the upper and lower extremities.\n\nMusculoskeletal\nCervical: Nontender over cervical spine. Mildly restricted cervical extension and right and left lateral rotation, which is symmetric, which gives him mild lateral neck pain, but no radicular pain. Spurling's maneuver is benign.",
+    "RESULTS": "X-ray Cervical Spine, 06/04/2021.\nImpression: Significant disc degeneration at C5-6 and to a lesser extent C4-5 and C3-4. Significant lower facet arthropathy. C6-7 and C7-T1 are difficult to visualize in the current x-rays.",
+    "ASSESSMENT": "\u2022 Left upper extremity neuropathy, suspicious for cervical radiculopathy, possible contribution of peripheral neuropathy\n\u2022 Neck pain in the setting of arthritis and disc generation",
+    "PLAN": "I suspect that this is a flare of cervical radiculopathy. I am going to set him up for a cervical MRI. We will tentatively plan for a left C7-T1 epidural afterwards, although the exact level will be pending the MRI results. He will continue his home exercise program as well as twice daily gabapentin. We will follow up with him afterwards to determine his level of relief. He denies any blood thinners.\n\nThis plan was discussed in detail with the patient who is in agreement.",
+    "INSTRUCTIONS": "Continue home exercise program and twice daily gabapentin. Schedule MRI and epidural injection. Follow-up after epidural."
+  },
+  "n_patient_turns": 37,
+  "n_clinician_turns": 41,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 19886.3934725523,
+      "response_text": "Hello [Patient's Name],\n\nThank you for sharing your concerns with me. I understand how frustrating and uncomfortable this arm pain must be, especially when it disrupts your sleep and affects your daily activities. Based on what you've described and the imaging review, it seems the pain is likely coming from a pinched nerve in your neck, which can happen due to the arthritis we see there.\n\nTo help address this, we've planned an MRI to get a clearer picture of your neck and an epidural injection to reduce inflammation around the affected nerve roots. Please continue taking your gabapentin as prescribed to manage the nerve pain. We'll schedule the MRI and epidural soon to help alleviate your symptoms.\n\nIf you have any questions or concerns about these steps, feel free to reach out. We're here to support you through this.\n\nWishing you a good day ahead.\n\nWarm regards,  \nDr. Miller",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 24636.31671667099,
+      "response_text": "It sounds like this has been really concerning and frustrating for you, especially with the persistent pain in your hand and the impact it's having on your sleep and daily activities. I can understand why you're worried, and I appreciate the steps you've already taken to manage it, like icing and seeing another doctor. It's clear you're proactive about your care, and I'm here to help figure this out together.\n\nWe'll start by acknowledging your concerns and setting a shared goal to relieve your pain and understand its cause. Based on your description, we're considering possibilities like nerve compression, given the symptoms in your hand and arm. To explore this further, I'll order an MRI of your neck to get a clearer picture of the nerve roots, as imaging can help confirm if there's compression [PMID ?]. Additionally, we're planning an epidural injection, which has been shown to be effective in reducing inflammation around nerve roots, potentially providing relief [PMID ?].\n\nBefore we proceed, I want to make sure you're comfortable with this plan. We'll schedule the MRI as soon as possible and proceed with the epidural if appropriate. After these steps, we'll follow up to assess your progress and adjust our approach as needed. Could you summarize what we've agreed on so far to ensure everything is clear?",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7556.822746992111,
+      "response_text": "Thank you for sharing your concerns about the pain in your left arm. It sounds like this has been affecting your daily life, and I'm here to help figure out what's going on.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few days. In the meantime, if the pain gets worse or if you notice any new symptoms, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns about the pain in your left arm. It sounds like this has been affecting your daily life, and I'm here to help figure out what's going on.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few days. In the meantime, if the pain gets worse or if you notice any new symptoms, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 155798.5269576311,
+      "response_text": "It sounds like you're dealing with some discomfort in your left arm, and you've been trying different things to manage it. I want to make sure I understand how this is affecting your daily life.\n\nThe pain in your left arm, especially since it's been getting worse and you've tried several interventions, suggests we should look into possible causes. While I don't have specific guidelines for this exact situation, we'll work together to explore what might be causing it.\n\nFor the finger injury, it's important to understand when it happened and how it's been affecting you. Since there's no specific information available, we'll focus on the arm pain first and then address any questions about the finger injury.\n\nWe'll start by focusing on your left arm pain. I'll help you track the pain and see if there's anything else we can do to manage it.\n\nOnce we have a better understanding of the arm pain, we can come back to the finger injury and see if more information is needed.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to check in again in a week. If the arm pain gets worse or you notice anything unusual, please reach out sooner.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're dealing with some discomfort in your left arm, and you've been trying different things to manage it. I want to make sure I understand how this is affecting your daily life.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "left arm pain",
+            "profile_path": "problems[0]",
+            "explanation": "The pain in your left arm, especially since it's been getting worse and you've tried several interventions, suggests we should look into possible causes. While I don't have specific guidelines for this exact situation, we'll work together to explore what might be causing it.",
+            "citations": []
+          },
+          {
+            "concern_label": "finger injury",
+            "profile_path": "problems[1]",
+            "explanation": "For the finger injury, it's important to understand when it happened and how it's been affecting you. Since there's no specific information available, we'll focus on the arm pain first and then address any questions about the finger injury.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll start by focusing on your left arm pain. I'll help you track the pain and see if there's anything else we can do to manage it.",
+          "Once we have a better understanding of the arm pain, we can come back to the finger injury and see if more information is needed."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to check in again in a week. If the arm pain gets worse or you notice anything unusual, please reach out sooner.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 2,
+        "n_medications": 3,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "left arm pain",
+          "finger injury"
+        ],
+        "medications": [
+          "numbing medicine",
+          "neck pill",
+          "gabapentin"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 215873.99096786976,
+      "response_text": "It sounds like you're dealing with some pain in your left arm and fingers. Let me understand how I can help you today.\n\nThe pain in your left arm has been getting worse over the past two weeks, and you've tried several medications like numbing medicine, a neck pill, and gabapentin. Based on what we know, it's important to look into this further to find the right treatment.\n\nThe pain in your fingers is something we should also keep an eye on. Since you haven't mentioned any specific treatments or associated symptoms, we'll need to gather more information to understand how this is connected to your overall health.\n\nWe'll schedule a follow-up visit to discuss your pain in more detail and explore possible treatment options.\n\nIn the meantime, keep track of how the pain is affecting your daily activities and any changes in your symptoms.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to meet again in a couple of weeks. If your pain gets worse or you notice any new symptoms, please reach out sooner.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're dealing with some pain in your left arm and fingers. Let me understand how I can help you today.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "left arm pain",
+            "profile_path": "problems[0]",
+            "explanation": "The pain in your left arm has been getting worse over the past two weeks, and you've tried several medications like numbing medicine, a neck pill, and gabapentin. Based on what we know, it's important to look into this further to find the right treatment.",
+            "citations": [
+              {
+                "cluster_id": "finding::global::39104080_0",
+                "primary_assertion_id": "39104080_0",
+                "pmids": [
+                  "39104080"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "finger pain",
+            "profile_path": "problems[1]",
+            "explanation": "The pain in your fingers is something we should also keep an eye on. Since you haven't mentioned any specific treatments or associated symptoms, we'll need to gather more information to understand how this is connected to your overall health.",
+            "citations": [
+              {
+                "cluster_id": "finding::global::39104080_0",
+                "primary_assertion_id": "39104080_0",
+                "pmids": [
+                  "39104080"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll schedule a follow-up visit to discuss your pain in more detail and explore possible treatment options.",
+          "In the meantime, keep track of how the pain is affecting your daily activities and any changes in your symptoms."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to meet again in a couple of weeks. If your pain gets worse or you notice any new symptoms, please reach out sooner.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::global::39104080_0"
+        ],
+        "all_pmids_used": [
+          "39104080"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 2,
+        "n_medications": 3,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "left arm pain",
+          "finger pain"
+        ],
+        "medications": [
+          "numbing medicine",
+          "neck pill",
+          "gabapentin"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [
+        "39104080"
+      ],
+      "cluster_ids_used": [
+        "finding::global::39104080_0"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 136970.1347053051,
+        "module_2_retrieval": 1076.6337290406227,
+        "module_3_reasoning": 56876.81673467159,
+        "module_4_response": 20949.53090697527,
+        "total_ms": 215873.11607599258
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

@@ -1,0 +1,285 @@
+{
+  "transcript_id": "aci_virtassist_D2N090",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "hey , good to see you .",
+  "patient_utterances": [
+    "[Clinician asked: \"hi , albert . how are you ?\"] hey , good to see you .",
+    "[Clinician asked: \"it's good to see you too . so , i know the nurse told you about dax . i'd like to tell dax a little bit about you .\"] sure .",
+    "[Clinician asked: \"so , albert is a 62-year-old male , with a past medical history significant for depression , type 2 diabetes , and kidney transplant , who is here today for emergency room follow-up .\"] mm-hmm .",
+    "[Clinician asked: \"so , i got a notification that you were in the emergency room , but , but what were you there for ?\"] well , i , uh , i was n't really , uh , staying on top of my , uh , blood sugar readings , and i felt kinda woozy over the weekend . and i was little concerned , and my wife wanted to take me in and just have me checked out .",
+    "[Clinician asked: \"okay . and , and was it , in fact , high ?\"] yeah , it was .",
+    "[Clinician asked: \"okay . did you ... were you admitted to the hospital ?\"] uh , no .",
+    "[Clinician asked: \"okay . all right . and , uh , are you ... did they see a reason , as to why it was elevated ?\"] uh , yeah . my mother was actually in the hospital the last week. she had a bit of a fall and had to do a hip replacement. she's feeling better now but we have been just grabbing meals at the cafeteria or picking up fast food on our way home and i just really was n't monitoring what i was eating .",
+    "[Clinician asked: \"okay . that's sorry to hear . and are you feeling better now ?\"] uh , actually , when we got home from the , uh , f- from the visit , i felt a lot better .",
+    "[Clinician asked: \"okay . and since then , have you been following your diet pretty closely ?\"] yes .",
+    "[Clinician asked: \"okay . 'cause we do n't wan na end up in the hospitaltoo\"] no .",
+    "[Clinician asked: \"all right . um , okay . and , so , before that happened , how are you doing with your diet ?\"] uh , during the week , i've been fine , 'cause i've been very busy . on the weekends , doing things . you're seeing people . you're having people over . it's , i- not , not as consistent on the weekend .",
+    "[Clinician asked: \"okay . all right . um , is there a way that you think that that can improve ?\"] uh , s- stop eating .",
+    "[Clinician asked: \"okay . all right . well , let's talk about your , your kidney transplant . how are-\"] mm-hmm .",
+    "[Clinician asked: \"you doing ? you're taking immunotherapy meds ?\"] yes .",
+    "[Clinician asked: \"okay .\"] yeah . i've , i've been pretty diligent about it , following doctor's orders , so it's been , it's been pretty good so far .",
+    "[Clinician asked: \"okay . and , and y- the last time i saw that you saw dr. reyes , was about three weeks ago , and everything seemed to be fine .\"] that's correct .",
+    "[Clinician asked: \"your kidney function is good .\"] yes .",
+    "[Clinician asked: \"okay . all right . and in terms of your depression , how are you , how are you doing ?\"] and it's been about a , a tough , ugh , year-and-a-half or so , but i've been pretty good with it . i , i have my moments , but i- as long as i find some time to relax , at least in the afternoon , then , then it seems to work out okay .",
+    "[Clinician asked: \"okay . so , i know that we've kind of talked about holding off on medical therapy-\"] mm-hmm .",
+    "[Clinician asked: \"'cause you're on so many other meds .\"] mm-hmm .",
+    "[Clinician asked: \"um , is that something that you wan na revisit , or do you wan na look into therapy , or do you think anything's needed right now ?\"] uh , i think i probably wan na shy away from any therapy . my , my wife got me into meditation recently and , and , uh , i , i find that relaxing . so , i think i'd like to continue that , at least for a couple more months and see how it goes .",
+    "[Clinician asked: \"okay . all right . that sounds good . all right . well , i know the nurse did a quick review of systems with you , when you-\"] mm-hmm .",
+    "[Clinician asked: \"checked in . do you have any symptoms , any chest pain or shortness of breath ?\"] none whatsoever .",
+    "[Clinician asked: \"lightheadedness ? dizziness ?\"] no .",
+    "[Clinician asked: \"no ? okay . um , and i just wan na go ahead and do a quick physical exam .\"] mm-hmm .",
+    "[Clinician asked: \"so , looking here right now , your vital signs look great . you know , your pulse ox is great . your h- your blood pressure and heart rate are right where they should be .\"] mm-hmm .",
+    "[Clinician asked: \"so , i'm gon na just check you out , and i'm gon na let you know what i find . okay ?\"] sure .",
+    "[Clinician asked: \"okay . so , on your physical exam , everything looks really good . um , you do n't appear in any distress at this time . i do n't appreciate any carotid bruits . your heart , on your heart exam , i do hear that slight 2/6 systolic ejection murmur , but we heard that in the past .\"] mm-hmm .",
+    "[Clinician asked: \"your lungs sound nice and clear , but i notice , you know , 1+ , uh , edema in your lower extremities . okay ?\"] mm-hmm .",
+    "[Clinician asked: \"um , so , let's go ahead . i wan na look at some of your results . okay ?\"] sure .",
+    "[Clinician asked: \"so , right now , your blood sugar is about 162 . have you eaten before you came in here ?\"] i did not .",
+    "[Clinician asked: \"okay . i'm looking at your diabetes labs . you know , your hemoglobin a1c is about 8 , and that's a , that's a little high .\"] mm-hmm .",
+    "[Clinician asked: \"so , not only , you know , have your blood sugars , were they high that one day , they were , they've been a little elevated .\"] mm-hmm .",
+    "[Clinician asked: \"so , let me talk a little bit about my assessment and my plan for you .\"] mm-hmm .",
+    "[Clinician asked: \"so , for your first problem , this hyperglycemia , you know , i wan na go ahead and increase your lantus to 20 units at night . okay ? i want you to continue your monitor your blood sugar and let me know how they're running 'cause we might have to adjust that further .\"] mm-hmm .",
+    "[Clinician asked: \"for your next problem , your depression , i think you're doing a great job with your current strategies with the meditation . we will hold off on medication or therapy at this time , and you know to call me if you need anything , right ?\"] mm-hmm .",
+    "[Clinician asked: \"okay . and for your third problem , your kidney transplant , your kidney function looks stable . uh , i'm gon na just have you go back to dr. reyes , to manage all of your immunosuppression medications .\"] okay .",
+    "[Clinician asked: \"um , and then , he knows to reach out to me if he needs anything . okay ?\"] you got it .",
+    "[Clinician asked: \"all right . well , the nurse will be in soon to check you out . okay ?\"] perfect ."
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nER follow-up.\n\nHISTORY OF PRESENT ILLNESS\n\nAlbert Powell is a 62-year-old male with a past medical history significant for depression, type 2 diabetes, and kidney transplant. He is here today for an emergency room follow-up.\n\nThe patient states he was not staying on top of his blood sugar readings and felt \" woozy \" over the weekend. His wife was concerned that his levels were elevated and wanted to take him to the emergency room. He was not admitted to the hospital. He reports that his mother is in the hospital and he has been eating poorly. He was not monitoring his blood sugars and what he was eating. When they got home from the visit he felt a lot better. Since then, he has been following his diet pretty closely. He continues Lantus insulin at bedtime.\n\nRegarding his kidney transplant and has been doing pretty well. The patient has been pretty diligent about taking immunotherapy medication and following orders. The last time he saw Dr. Reyes was about 3 weeks ago and everything seemed to be fine.\n\nRegarding his depression, the patient states it has been about a year and a half, but he has been pretty good with that. He has his moments, but as long as he finds some time to relax in the afternoon and then it seems to work out. He thinks he would probably want to continue that at least for a couple more months and see how it goes. His wife got him into meditation recently and he finds that relaxing so he feels he would like to continue that for a couple more months and see how it goes.\n\nThe patient denies any chest pain, shortness of breath, lightheadedness or dizziness.\n\nREVIEW OF SYSTEMS\n\n\u2022 Cardiovascular: Denies chest pain or dyspnea.\n\u2022 Respiratory: Denies shortness of breath.\n\u2022 Neurological: Denies lightheadedness or dizziness.\n\u2022 Psychiatric: Endorses depression.\n\nPHYSICAL EXAMINATION\n\n\u2022 Constitutional: in no apparent distress.\n\u2022 Neck: No carotid bruits appreciable.\n\u2022 Respiratory: Lungs are clear to auscultation bilaterally. No wheezes, rales, or rhonchi.\n\u2022 Cardiovascular: Grade 2/6 systolic ejection murmur.\n\u2022 Musculoskeletal: 1+ edema in the bilateral lower extremities.\n\nRESULTS\n\nFasting glucose is elevated at 162.\nHemoglobin A1c is elevated at 8.\n\nASSESSMENT AND PLAN\n\nAlbert Powell is a 62-year-old male with a past medical history significant for depression, type 2 diabetes, and kidney transplant. He is here today for an emergency room follow-up.\n\nHyperglycemia.\n\u2022 Medical Reasoning: He was recently seen in the emergency department with elevated blood glucose levels. He admits to dietary indiscretion prior to this, but has since improved his diet. His recent blood glucose level was 162, and his recent hemoglobin A1c was 8.\n\u2022 Additional Testing: Repeat hemoglobin A1c in a few months.\n\u2022 Medical Treatment: Increase Lantus to 20 units at night.\n\u2022 Patient Education and Counseling: I advised him to continue monitoring his blood glucose levels at home and report those to me, as we may need to make further adjustments to his medication.\n\nDepression.\n\u2022 Medical Reasoning: He reports personal stressors over the past year and a half but is doing well overall. He recently started meditating.\n\u2022 Medical Treatment: He should continue his current management strategies. We will hold off on medication and therapy at this time.\n\u2022 Patient Education and Counseling: The patient was encouraged to contact me if he needs anything.\n\nStatus post renal transplant.\n\u2022 Medical Reasoning: His kidney function appears stable and he has been compliant with his immunotherapy medications.\n\u2022 Medical Treatment: Continue seeing Dr. Reyes for management of his immunosuppression medication.\n\u2022 Patient Education and Counseling: He knows to reach out to me if he needs anything.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.",
+  "gold_sections": {
+    "CC": "ER follow-up.",
+    "HPI": "Albert Powell is a 62-year-old male with a past medical history significant for depression, type 2 diabetes, and kidney transplant. He is here today for an emergency room follow-up.\n\nThe patient states he was not staying on top of his blood sugar readings and felt \" woozy \" over the weekend. His wife was concerned that his levels were elevated and wanted to take him to the emergency room. He was not admitted to the hospital. He reports that his mother is in the hospital and he has been eating poorly. He was not monitoring his blood sugars and what he was eating. When they got home from the visit he felt a lot better. Since then, he has been following his diet pretty closely. He continues Lantus insulin at bedtime.\n\nRegarding his kidney transplant and has been doing pretty well. The patient has been pretty diligent about taking immunotherapy medication and following orders. The last time he saw Dr. Reyes was about 3 weeks ago and everything seemed to be fine.\n\nRegarding his depression, the patient states it has been about a year and a half, but he has been pretty good with that. He has his moments, but as long as he finds some time to relax in the afternoon and then it seems to work out. He thinks he would probably want to continue that at least for a couple more months and see how it goes. His wife got him into meditation recently and he finds that relaxing so he feels he would like to continue that for a couple more months and see how it goes.\n\nThe patient denies any chest pain, shortness of breath, lightheadedness or dizziness.",
+    "ROS": "\u2022 Cardiovascular: Denies chest pain or dyspnea.\n\u2022 Respiratory: Denies shortness of breath.\n\u2022 Neurological: Denies lightheadedness or dizziness.\n\u2022 Psychiatric: Endorses depression.",
+    "PHYSICAL_EXAMINATION": "\u2022 Constitutional: in no apparent distress.\n\u2022 Neck: No carotid bruits appreciable.\n\u2022 Respiratory: Lungs are clear to auscultation bilaterally. No wheezes, rales, or rhonchi.\n\u2022 Cardiovascular: Grade 2/6 systolic ejection murmur.\n\u2022 Musculoskeletal: 1+ edema in the bilateral lower extremities.",
+    "RESULTS": "Fasting glucose is elevated at 162.\nHemoglobin A1c is elevated at 8.",
+    "ASSESSMENT_PLAN": "Albert Powell is a 62-year-old male with a past medical history significant for depression, type 2 diabetes, and kidney transplant. He is here today for an emergency room follow-up.\n\nHyperglycemia.\n\u2022 Medical Reasoning: He was recently seen in the emergency department with elevated blood glucose levels. He admits to dietary indiscretion prior to this, but has since improved his diet. His recent blood glucose level was 162, and his recent hemoglobin A1c was 8.\n\u2022 Additional Testing: Repeat hemoglobin A1c in a few months.\n\u2022 Medical Treatment: Increase Lantus to 20 units at night.\n\u2022 Patient Education and Counseling: I advised him to continue monitoring his blood glucose levels at home and report those to me, as we may need to make further adjustments to his medication.\n\nDepression.\n\u2022 Medical Reasoning: He reports personal stressors over the past year and a half but is doing well overall. He recently started meditating.\n\u2022 Medical Treatment: He should continue his current management strategies. We will hold off on medication and therapy at this time.\n\u2022 Patient Education and Counseling: The patient was encouraged to contact me if he needs anything.\n\nStatus post renal transplant.\n\u2022 Medical Reasoning: His kidney function appears stable and he has been compliant with his immunotherapy medications.\n\u2022 Medical Treatment: Continue seeing Dr. Reyes for management of his immunosuppression medication.\n\u2022 Patient Education and Counseling: He knows to reach out to me if he needs anything.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan."
+  },
+  "n_patient_turns": 39,
+  "n_clinician_turns": 45,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 14231.984727084637,
+      "response_text": "Albert, it's clear you're doing a lot to manage your health, especially with everything going on with your mother. I'm glad to hear that the meditation is helping you stay relaxed and positive. It's important to take care of yourself, and I know how challenging it can be to balance caregiving with your own well-being.\n\nYour kidney function is stable, which is great news. The increase in your Lantus dose is a step to help keep your blood sugar in check, so monitoring it closely will be key. If you find it tough to manage your diet on weekends, let me know\u2014I can suggest some strategies to make it easier. Remember, I'm here if you need anything, so don't hesitate to reach out. Keep up the good work, Albert!",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 23830.860570073128,
+      "response_text": "Albert, thank you for sharing your concerns and the details of your recent experience. It's clear that you've been managing a lot, especially with your mother's health and your own diabetes. I can understand how stressful that must have been, and I appreciate your honesty about your blood sugar levels and diet during that time. It's commendable that you've since felt better and are back on track with your diet.\n\nGiven your situation, we've decided to adjust your Lantus dose to better manage your blood sugar levels. This change, along with continued monitoring, will help us ensure your diabetes remains stable. I know you're committed to your health, and I'm confident that with this adjustment and your ongoing efforts, you'll continue to feel well.\n\nBefore you leave, could you summarize the plan in your own words? This will help confirm that you understand the next steps. We'll schedule a follow-up in about a month to review your progress and make any necessary adjustments. Please don't hesitate to reach out if you have any concerns or questions in the meantime.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7085.932247340679,
+      "response_text": "It sounds like you've been managing your health well, especially with your busy schedule. I understand that keeping up with your diet on weekends can be challenging, and it's good you're back on track now.\n\nCan you tell me, in your own words, what we discussed today and what you plan to do next?\n\nLet's plan to see each other again in a few weeks. If you have any concerns or your symptoms change, please reach out sooner.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you've been managing your health well, especially with your busy schedule. I understand that keeping up with your diet on weekends can be challenging, and it's good you're back on track now.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "Can you tell me, in your own words, what we discussed today and what you plan to do next?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. If you have any concerns or your symptoms change, please reach out sooner.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 152597.459718585,
+      "response_text": "It sounds like you're dealing with a few things \u2014 managing your blood sugar, keeping your depression stable, and wanting to stop eating. I want to make sure I understand what's most important to focus on right now.\n\nManaging blood sugar is key, especially since you're feeling woozy. We'll keep an eye on your levels and adjust your treatment plan as needed.\n\nWe'll monitor your depression to make sure it stays stable. If you notice any changes in how you're feeling, let us know so we can adjust your care.\n\nIt's important to work together on your goal to stop eating. We'll create a plan that fits your lifestyle and helps you achieve this.\n\nWe'll schedule a follow-up appointment to check in on your blood sugar levels and overall well-being.\n\nWe'll also review your medications and treatment plan to ensure they're working well for you.\n\nLet's talk about your goal to stop eating and create a plan together that supports your health.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if you have any concerns or questions, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're dealing with a few things \u2014 managing your blood sugar, keeping your depression stable, and wanting to stop eating. I want to make sure I understand what's most important to focus on right now.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "blood sugar management",
+            "profile_path": "problems[0]",
+            "explanation": "Managing blood sugar is key, especially since you're feeling woozy. We'll keep an eye on your levels and adjust your treatment plan as needed.",
+            "citations": []
+          },
+          {
+            "concern_label": "depression",
+            "profile_path": "problems[1]",
+            "explanation": "We'll monitor your depression to make sure it stays stable. If you notice any changes in how you're feeling, let us know so we can adjust your care.",
+            "citations": []
+          },
+          {
+            "concern_label": "stop eating",
+            "profile_path": "patient_goals[0]",
+            "explanation": "It's important to work together on your goal to stop eating. We'll create a plan that fits your lifestyle and helps you achieve this.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll schedule a follow-up appointment to check in on your blood sugar levels and overall well-being.",
+          "We'll also review your medications and treatment plan to ensure they're working well for you.",
+          "Let's talk about your goal to stop eating and create a plan together that supports your health."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if you have any concerns or questions, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 2,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 1,
+        "problems": [
+          "blood sugar management",
+          "depression"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 179331.79403096437,
+      "response_text": "I understand you're feeling woozy, especially over the weekend, and you want to stop eating. Let's figure out what's going on and how we can help.\n\nManaging blood sugar is important, especially with your history of type 2 diabetes and kidney transplant. We'll look into why you're feeling woozy and work on a plan together.\n\nSetting goals around eating is a great step. We'll support you in finding a balanced approach that fits your lifestyle and health needs.\n\nWe'll review your blood sugar management together and discuss how to address the woozy feelings.\n\nWe'll set up a plan to support your goal of stopping eating, focusing on healthy habits and realistic steps.\n\nCan you tell me, in your own words, what we're going to do next and how it will help you manage your blood sugar and reach your goal?\n\nLet's plan to check in again in a week. If you have any concerns or your symptoms change, please reach out sooner.",
+      "structured_response": {
+        "acknowledgment": "I understand you're feeling woozy, especially over the weekend, and you want to stop eating. Let's figure out what's going on and how we can help.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "blood sugar management",
+            "profile_path": "problems[0]",
+            "explanation": "Managing blood sugar is important, especially with your history of type 2 diabetes and kidney transplant. We'll look into why you're feeling woozy and work on a plan together.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[0]::36355789_1",
+                "primary_assertion_id": "36355789_1",
+                "pmids": [
+                  "36355789"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "stop eating",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Setting goals around eating is a great step. We'll support you in finding a balanced approach that fits your lifestyle and health needs.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::sub_query[1]::33658141_0",
+                "primary_assertion_id": "33658141_0",
+                "pmids": [
+                  "33658141"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll review your blood sugar management together and discuss how to address the woozy feelings.",
+          "We'll set up a plan to support your goal of stopping eating, focusing on healthy habits and realistic steps."
+        ],
+        "teach_back_prompt": "Can you tell me, in your own words, what we're going to do next and how it will help you manage your blood sugar and reach your goal?",
+        "follow_up_invitation": "Let's plan to check in again in a week. If you have any concerns or your symptoms change, please reach out sooner.",
+        "nurse_elements_applied": [
+          "Support",
+          "Respect"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[0]::36355789_1",
+          "recommendation::sub_query[1]::33658141_0"
+        ],
+        "all_pmids_used": [
+          "36355789",
+          "33658141"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 1,
+        "problems": [
+          "blood sugar management"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "36355789",
+        "33658141"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[0]::36355789_1",
+        "recommendation::sub_query[1]::33658141_0"
+      ],
+      "nurse_elements_applied": [
+        "Support",
+        "Respect"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 129691.2597939372,
+        "module_2_retrieval": 1221.4083597064018,
+        "module_3_reasoning": 27423.593893647194,
+        "module_4_response": 20994.288489222527,
+        "total_ms": 179330.55053651333
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

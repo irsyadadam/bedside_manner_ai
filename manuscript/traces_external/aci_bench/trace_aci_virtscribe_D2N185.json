@@ -1,0 +1,245 @@
+{
+  "transcript_id": "aci_virtscribe_D2N185",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "i'm doing okay . how are you .",
+  "patient_utterances": [
+    "[Clinician asked: \"okay . next patient is ashley james , date of birth 12/27/2006 . ashley is a 14-year-old female , uh , who was previously healthy , now here for evaluation of abnormal renal ultrasound with an atrophic right kidney . hi . good afternoon , ashley . how are you doing ?\"] i'm doing okay . how are you .",
+    "[Clinician asked: \"i'm doing well . thanks so much for asking . i'm dr. rogers . i'm one of your kidney doctors . and you guys must be mom and dad .\"] yes , that's correct .",
+    "[Clinician asked: \"great . well ... all right . it's so nice to meet all of you . i wish it was under better circumstances , but we're gon na figure it all out , uh , here today . um , speaking of that , let's go ahead and review some of your past medical history , and then i'll complete an exam of her heart and lungs\"] yeah , that sounds good .",
+    "[Clinician asked: \"okay .\"] we automatically thought appendix .",
+    "[Clinician asked: \"okay . so that's all good . so , ashley , um , a few questions for you if that's all right . how are you feeling right now ?\"] i'm not feeling too bad . my stomach just hurts just a little bit . it's burning a little bit .",
+    "[Clinician asked: \"okay . and any pain when you go pee ?\"] sometimes it's just hard to start , sometimes .",
+    "[Clinician asked: \"okay . and any blood in your pee ?\"] no , not that i've noticed .",
+    "[Clinician asked: \"all right-y . please use my physical exam template . so , ashley , i'm gon na listen to your lungs and heart , if you'll just breathe normally for me . okay ?\"] okay .",
+    "[Clinician asked: \"yeah . that's ... yeah . that'll work 'cause i'm gon na have to drop for this . but i think we're good for everything else .\"] and he did die in his 40s . that's what it said in the note earlier .",
+    "[Clinician asked: \"okay . yeah . he died in his 40s , but i thought it was from a massive heart attack . died at 47 of a massive heart-\"] he died ... it- it's saying that it meant ... it means he died on dia ... like , he was ... he was , um , utilizing dialysis .",
+    "[Clinician asked: \"not because of it . okay .\"] yeah .",
+    "[Clinician asked: \"i see what you're saying .\"] yeah ."
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nEvaluation of abnormal renal ultrasound with atrophic right kidney.\n\nHISTORY OF PRESENT ILLNESS\n\nNext patient Ashley James is a 14-year-old female, previously healthy, who is here for evaluation of abnormal renal ultrasound with atrophic right kidney.\n\nThe father details a history of the patient coming home sick one day with extreme right-sided abdominal pain. Her parents brought her for evaluation, and they treated her for a stomach virus and administered fluids prior to sending her home. The next day, the patient's pain was more severe. The patient returned to the doctor's office and an ultrasound and additional testing was performed which revealed left kidney hypertrophy. At that time, they were encouraged to follow-up with her primary care physician. The patient was seen briefly by her physician the next day, which was insignificant. Ashley was still experiencing stomach pain and vomiting, her father brought her to another facility in Jacksonville. At that location, the patient's family received information that her right kidney was nonfunctioning, atrophic, and smaller than her left kidney. Additionally, cysts on her kidneys, ovaries, and other locations were found. Her lymph nodes were swollen, and she had \"a lot of infections\". The patient was sent back to follow-up with her primary care physician. The patient was unable to follow back up with her primary care physician as he was still out of town. The patient came to Atlanta, remained here for 4 days, was evaluated and treated with subsequent improvement of her symptoms. She has not vomited since.\n\nPrior to her current medical complaints, the patient was healthy. The etiology of her kidney issues is believed to have been caused by some severe infection the patient experienced, possibly as a child.\n\nWhen the patient was 4 years old, she was hospitalized 3 or 4 times, for up to 2-3 days each time. She received fluids and antibiotics, and then discharged. Her father reports that no workup was ever performed to rule out infections during these hospitalizations. A week or 2 post-discharge the fever and symptoms would return. This kept recurring for approximately 2 months and then it spontaneously resolved.\n\nThe patient is still experiencing some stomach burning. She reports hesitancy while urinating and she states she has to wait for her urinary flow to commence. She endorses occasional dysuria. Ashley denies hematuria. Some beverages are associated with dysuria, thus the patient drinks mainly water, Gatorade and V8 juice.\n\nSOCIAL HISTORY\n\nThe patient plays on softball team and is interested in joining a drill team over the summer.\n\nFAMILY HISTORY\n\nPaternal Grandfather: Deceased approximately 47. Myocardial Infarction. Posterior Urethral Valves. Obstructive Neuropathy. End Stage Chronic Kidney Disease was Dialysis dependent. Failed Renal Transplant.\nPaternal Great Aunt: End Stage Chronic Kidney Disease is Dialysis dependent. Type II Diabetes. Hypertension.\n\nNo family history of polycystic kidney disease.\n\nCURRENT MEDICATIONS\n\nPepcid 40 mg once daily.\nClaritin as needed for allergies.\n\nPHYSICAL EXAM\n\nConstitutional\nWell-appearing female adolescent, sitting comfortably on the exam table in no acute distress.\n\nNeurological\nAlert.\n\nRESULTS\n\nAbdominal ultrasound, 03/22/2021.\nCT abdomen and pelvis, 03/22/2021.\nCMP, 03/22/2021.\n\nASSESSMENT\n\n\u2022 Renal hypoplasia.\nAshley is a 14-year-old female who presents today for evaluation of abnormal renal ultrasound with atrophic right kidney. She has right-sided renal hypoplasia with a small atrophic right kidney discovered incidentally on imaging for abdominal pain. Imaging shows compensatory hypertrophy of her left kidney. Otherwise, she shows no sequelae of chronic kidney disease and enjoys normal blood pressure. Her urinalysis is without sediment. She has normal kidney function with creatinine of 0.62, which equates to an estimated GFR of greater than 90 mL/min per 1.73 m\u00b2, and normal serum electrolytes and acid base status. Ashley is at higher risk of hypertension and proteinuria, which will need to be followed annually.\n\nPLAN\n\nYearly ultrasound to monitor the hypertrophic left kidney and atrophic right kidney. Also, on an annual basis I recommend completion of a urinalysis to assess for proteinuria and blood pressure checks. The patient should avoid use of nonsteroidal anti-inflammatory medications and use Tylenol for pain and fever. It is also recommended that she stay well hydrated, avoiding dehydration, especially while participating in sports, by consuming 2 L of water per day. I counseled the patient and family about the importance of a healthy diet and remaining active to avoid future comorbidities that may put her at increased risk for chronic kidney disease as in adult.\n\nThe patient does not need to follow up with a pediatric nephrologist but can instead follow up with her primary care physician or an adult nephrologist closer to home.\n\nINSTRUCTIONS\n\nSchedule follow up appointment with local adult nephrologist or primary care physician.",
+  "gold_sections": {
+    "CC": "Evaluation of abnormal renal ultrasound with atrophic right kidney.",
+    "HPI": "Next patient Ashley James is a 14-year-old female, previously healthy, who is here for evaluation of abnormal renal ultrasound with atrophic right kidney.\n\nThe father details a history of the patient coming home sick one day with extreme right-sided abdominal pain. Her parents brought her for evaluation, and they treated her for a stomach virus and administered fluids prior to sending her home. The next day, the patient's pain was more severe. The patient returned to the doctor's office and an ultrasound and additional testing was performed which revealed left kidney hypertrophy. At that time, they were encouraged to follow-up with her primary care physician. The patient was seen briefly by her physician the next day, which was insignificant. Ashley was still experiencing stomach pain and vomiting, her father brought her to another facility in Jacksonville. At that location, the patient's family received information that her right kidney was nonfunctioning, atrophic, and smaller than her left kidney. Additionally, cysts on her kidneys, ovaries, and other locations were found. Her lymph nodes were swollen, and she had \"a lot of infections\". The patient was sent back to follow-up with her primary care physician. The patient was unable to follow back up with her primary care physician as he was still out of town. The patient came to Atlanta, remained here for 4 days, was evaluated and treated with subsequent improvement of her symptoms. She has not vomited since.\n\nPrior to her current medical complaints, the patient was healthy. The etiology of her kidney issues is believed to have been caused by some severe infection the patient experienced, possibly as a child.\n\nWhen the patient was 4 years old, she was hospitalized 3 or 4 times, for up to 2-3 days each time. She received fluids and antibiotics, and then discharged. Her father reports that no workup was ever performed to rule out infections during these hospitalizations. A week or 2 post-discharge the fever and symptoms would return. This kept recurring for approximately 2 months and then it spontaneously resolved.\n\nThe patient is still experiencing some stomach burning. She reports hesitancy while urinating and she states she has to wait for her urinary flow to commence. She endorses occasional dysuria. Ashley denies hematuria. Some beverages are associated with dysuria, thus the patient drinks mainly water, Gatorade and V8 juice.",
+    "SOCIAL_HISTORY": "The patient plays on softball team and is interested in joining a drill team over the summer.",
+    "FAMILY_HISTORY": "Paternal Grandfather: Deceased approximately 47. Myocardial Infarction. Posterior Urethral Valves. Obstructive Neuropathy. End Stage Chronic Kidney Disease was Dialysis dependent. Failed Renal Transplant.\nPaternal Great Aunt: End Stage Chronic Kidney Disease is Dialysis dependent. Type II Diabetes. Hypertension.\n\nNo family history of polycystic kidney disease.",
+    "CURRENT_MEDICATIONS": "Pepcid 40 mg once daily.\nClaritin as needed for allergies.",
+    "PHYSICAL_EXAM": "Constitutional\nWell-appearing female adolescent, sitting comfortably on the exam table in no acute distress.\n\nNeurological\nAlert.",
+    "RESULTS": "Abdominal ultrasound, 03/22/2021.\nCT abdomen and pelvis, 03/22/2021.\nCMP, 03/22/2021.",
+    "ASSESSMENT": "\u2022 Renal hypoplasia.\nAshley is a 14-year-old female who presents today for evaluation of abnormal renal ultrasound with atrophic right kidney. She has right-sided renal hypoplasia with a small atrophic right kidney discovered incidentally on imaging for abdominal pain. Imaging shows compensatory hypertrophy of her left kidney. Otherwise, she shows no sequelae of chronic kidney disease and enjoys normal blood pressure. Her urinalysis is without sediment. She has normal kidney function with creatinine of 0.62, which equates to an estimated GFR of greater than 90 mL/min per 1.73 m\u00b2, and normal serum electrolytes and acid base status. Ashley is at higher risk of hypertension and proteinuria, which will need to be followed annually.",
+    "PLAN": "Yearly ultrasound to monitor the hypertrophic left kidney and atrophic right kidney. Also, on an annual basis I recommend completion of a urinalysis to assess for proteinuria and blood pressure checks. The patient should avoid use of nonsteroidal anti-inflammatory medications and use Tylenol for pain and fever. It is also recommended that she stay well hydrated, avoiding dehydration, especially while participating in sports, by consuming 2 L of water per day. I counseled the patient and family about the importance of a healthy diet and remaining active to avoid future comorbidities that may put her at increased risk for chronic kidney disease as in adult.\n\nThe patient does not need to follow up with a pediatric nephrologist but can instead follow up with her primary care physician or an adult nephrologist closer to home.",
+    "INSTRUCTIONS": "Schedule follow up appointment with local adult nephrologist or primary care physician."
+  },
+  "n_patient_turns": 12,
+  "n_clinician_turns": 50,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 20527.576312422752,
+      "response_text": "Ashley, I understand this must be concerning for you, and I want you to know that I'm here to help you through this. It's completely normal to feel worried, especially when dealing with something serious like an atrophic kidney. Let me explain what we're seeing: your right kidney appears smaller than usual on the ultrasound, but that doesn't necessarily mean it's causing problems right now. Our goal is to investigate further to understand what's going on and how we can manage it.\n\nYou mentioned some abdominal pain and difficulty starting urination. These symptoms could be related to your kidney, but we'll need to do a thorough exam and possibly some tests to get a clearer picture. I also noted your family history, and while it's important, it's worth remembering that everyone's health journey is unique. We'll look into whether there might be a genetic component or other factors at play.\n\nPlease feel free to ask any questions or share any concerns you have. You're not alone in this, and we'll work together to ensure you get the care you need.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 22901.367768645287,
+      "response_text": "Thank you for sharing your concerns with me, Ashley. It\u2019s completely understandable that you might feel worried about what\u2019s going on, especially with the abnormal ultrasound results. I can see how this situation must be unsettling, and I\u2019m here to help clarify things for you.\n\nWe\u2019re going to take a thorough approach today to figure out what\u2019s happening with your kidney. It\u2019s important to explore different possibilities, such as whether this could be related to chronic kidney disease, reflux nephropathy, or even something congenital. Given your family history of kidney issues, we\u2019ll also consider that angle. I want to make sure we cover all bases to understand the cause properly.\n\nWe\u2019ll start with a physical exam to check your heart and lungs, as that can provide additional clues. Depending on the findings, we might recommend further tests, like a urinalysis or blood work, to get a clearer picture. I\u2019ll explain everything in simple terms as we go along.\n\nAfter our evaluation, we\u2019ll outline the next steps together. I\u2019ll ask you to summarize what we discussed so I can ensure you\u2019re clear on the plan. We\u2019ll schedule a follow-up appointment in the coming weeks to review the results and address any questions you have. Please don\u2019t hesitate to reach out if you experience any severe symptoms, like significant pain or changes in your urination, before our next visit.\n\nLet me know if you have any questions or concerns as we move forward. We\u2019re in this together, and I\u2019m here to support you through this process.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7738.007456064224,
+      "response_text": "It sounds like this has been a tough experience for you and your family. I'm here to help figure things out together.\n\nWe'll review your medical history together and perform a physical exam to better understand your symptoms.\n\nAfter the exam, we'll discuss the next steps and any necessary tests or evaluations.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to continue our discussion after the exam. If you have any new symptoms or concerns before then, please let us know.",
+      "structured_response": {
+        "acknowledgment": "It sounds like this has been a tough experience for you and your family. I'm here to help figure things out together.",
+        "clinical_information_per_concern": [],
+        "next_steps": [
+          "We'll review your medical history together and perform a physical exam to better understand your symptoms.",
+          "After the exam, we'll discuss the next steps and any necessary tests or evaluations."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to continue our discussion after the exam. If you have any new symptoms or concerns before then, please let us know.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 85821.39018923044,
+      "response_text": "I can hear how much this must be weighing on you. You mentioned that your husband died at 47 of a massive heart attack, and now you're dealing with abdominal pain. I understand how that can make you feel.\n\nAbdominal pain can be caused by many things, and it's important to figure out what's going on. Since we don't have more details about when it started or how severe it is, we'll need to do some tests to understand it better.\n\nWe'll need to gather more information about your abdominal pain, like when it started and how severe it is.\n\nOnce we have that information, we can decide together on the next steps to take.\n\nI want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to follow up once we have more details about your symptoms. In the meantime, if the pain gets worse or you notice any other concerning symptoms, please reach out to us right away.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this must be weighing on you. You mentioned that your husband died at 47 of a massive heart attack, and now you're dealing with abdominal pain. I understand how that can make you feel.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "abdominal pain",
+            "profile_path": "problems[0]",
+            "explanation": "Abdominal pain can be caused by many things, and it's important to figure out what's going on. Since we don't have more details about when it started or how severe it is, we'll need to do some tests to understand it better.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll need to gather more information about your abdominal pain, like when it started and how severe it is.",
+          "Once we have that information, we can decide together on the next steps to take."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to follow up once we have more details about your symptoms. In the meantime, if the pain gets worse or you notice any other concerning symptoms, please reach out to us right away.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 0,
+        "problems": [
+          "abdominal pain"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 178109.81971770525,
+      "response_text": "Thank you for sharing your concerns with me today. It sounds like you're experiencing several issues that we need to address.\n\nAn abnormal renal ultrasound showing an atrophic right kidney can be concerning. We'll need to look into this further to understand what might be causing it.\n\nStomach pain with burning could be related to several issues. We'll explore possible causes and consider appropriate next steps.\n\nPainful urination, or pain during urination, can indicate a urinary tract infection or other conditions. We'll assess this to determine the best course of action.\n\nWe'll schedule some tests to get a clearer picture of what's going on with your kidney ultrasound.\n\nFor your stomach pain and burning, we'll monitor your symptoms and consider additional evaluations if they persist or worsen.\n\nRegarding the painful urination, we'll check for signs of infection and determine if treatment is needed.\n\nCan you summarize what we discussed today and what we'll be doing next?\n\nLet's plan to follow up in a week. If any of your symptoms get worse or if you develop new ones, please reach out sooner.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns with me today. It sounds like you're experiencing several issues that we need to address.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "abnormal renal ultrasound with atrophic right kidney",
+            "profile_path": "problems[0]",
+            "explanation": "An abnormal renal ultrasound showing an atrophic right kidney can be concerning. We'll need to look into this further to understand what might be causing it.",
+            "citations": []
+          },
+          {
+            "concern_label": "stomach pain with burning",
+            "profile_path": "problems[1]",
+            "explanation": "Stomach pain with burning could be related to several issues. We'll explore possible causes and consider appropriate next steps.",
+            "citations": []
+          },
+          {
+            "concern_label": "dysuria",
+            "profile_path": "problems[2]",
+            "explanation": "Painful urination, or pain during urination, can indicate a urinary tract infection or other conditions. We'll assess this to determine the best course of action.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll schedule some tests to get a clearer picture of what's going on with your kidney ultrasound.",
+          "For your stomach pain and burning, we'll monitor your symptoms and consider additional evaluations if they persist or worsen.",
+          "Regarding the painful urination, we'll check for signs of infection and determine if treatment is needed."
+        ],
+        "teach_back_prompt": "Can you summarize what we discussed today and what we'll be doing next?",
+        "follow_up_invitation": "Let's plan to follow up in a week. If any of your symptoms get worse or if you develop new ones, please reach out sooner.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": [
+          {
+            "field": "next_steps[2]",
+            "original": "dysuria",
+            "plain": "painful urination",
+            "count": 1
+          },
+          {
+            "field": "clinical_information_per_concern[2].explanation",
+            "original": "dysuria",
+            "plain": "painful urination",
+            "count": 1
+          }
+        ]
+      },
+      "profile_summary": {
+        "n_problems": 3,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "abnormal renal ultrasound with atrophic right kidney",
+          "stomach pain with burning",
+          "dysuria"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 118022.97963947058,
+        "module_2_retrieval": 961.1270651221275,
+        "module_3_reasoning": 42109.277576208115,
+        "module_4_response": 17015.105307102203,
+        "total_ms": 178108.48958790302
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

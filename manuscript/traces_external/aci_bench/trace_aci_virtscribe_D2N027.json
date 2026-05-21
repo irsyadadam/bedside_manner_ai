@@ -1,0 +1,349 @@
+{
+  "transcript_id": "aci_virtscribe_D2N027",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "i'm doing fine , for the most part , but there are a few things i want to cover today .",
+  "patient_utterances": [
+    "[Clinician asked: \"good morning , mr. walker . how are you doing ? i mean , it's been a crazy year .\"] i'm doing fine , for the most part , but there are a few things i want to cover today .",
+    "[Clinician asked: \"sure . go right ahead .\"] uh , well , i'm having more fatigue , but i do n't know if it's age or if it's just , you know , drained at the end of the day . but i still ride my bike . i ca n't go as fast as i used to . i'm still riding , and , you know , after a long bike ride , i'll sit down and then boom . i'm out , you know ?",
+    "[Clinician asked: \"yeah . what's a long bike ride to you ?\"] uh , 20 to 30 miles .",
+    "[Clinician asked: \"20 to 30 miles on a road bike ?\"] yeah , road bike . i think it's a time thing . if i had more time , i would try to do my 40 miles , but i have n't done that . obviously , we're too early in the season so my typical ride is , like , 20 , 30 . in years back , i could do 40 on a good day . i can still do 20 but , you know , i'm tired and have to take a break when i get home .",
+    "[Clinician asked: \"yeah , i understand .\"] and tyler's my buddy . he's always nice and waits for me , but i used to be able to beat him . but now , he waits for me all the time . he's older than me and it- it kills me .",
+    "[Clinician asked: \"yeah , i can imagine that would upset me too .\"] well , the last time , you know , you found a heart thing , then . just making sure that the valve is holding out , you know ?",
+    "[Clinician asked: \"right . so , when was your last stress test ?\"] it was september 9th , 2019 , because i'm eight years out from surgery , and back then , they said , you know , it's going to last eight years . and i'm at that year , so i just want to make sure . i asked dr. lewis for an echocardiogram to see how i'm doing .",
+    "[Clinician asked: \"yeah .\"] but it's not ... like , nothing has changed drastically since i saw you .",
+    "[Clinician asked: \"okay , good . do you still go down to hopkins at all ?\"] no , not at all . i just get follow-ups intermittently , here . going there is just ... it's too much stress .",
+    "[Clinician asked: \"okay .\"] one more thing , i want to make sure i do n't forget . my wife and friends tell me that when i walk , i purse my lips when i'm breathing . other doctors have said , \" did you notice your pursed lips breathing ? \" i do n't know if that's a bad habit or what .",
+    "[Clinician asked: \"okay . is there any wheezing associated with that ?\"] no , no wheezing .",
+    "[Clinician asked: \"and you're able to bike 30 miles and mostly keep up with your friend , tyler , correct ?\"] yeah . the only other thing i want to mention is it's not like i do routine testicular exams , but i know i have this little nodule on my right testicle .",
+    "[Clinician asked: \"on the testicle or the epididymis ?\"] epididymis . uh , i really do n't know . i'm not super concerned . i read a little online . just wanted to ask you .",
+    "[Clinician asked: \"and did you have a vasectomy ?\"] no . let me pull my notes out and make sure i mentioned everything i wanted to tell you . those were the only things and it's not like my tiredness is depression or anything . i'm a pretty happy guy overall , you know ? i just know you would ask those questions .",
+    "[Clinician asked: \"what time are you going to sleep , and about how many hours do you sleep a night ?\"] um , it varies . usually , i get six to seven hours of sleep . i get out of bed some days to be at work by 7:00 , lecture , and i try to work out in the morning . i- i do n't ... i'm not ... i'm not always successful , and now what i do is i- i do make reservations twice a week for a 5:45 swim in the morning .",
+    "[Clinician asked: \"okay , so you're getting six to seven hours of sleep , and has your wife ever mentioned if you snore or stop breathing at any time ?\"] i believe i snore a little bit , but she's never said anything about me not breathing .",
+    "[Clinician asked: \"okay . so , you're currently taking vitamin d3 , around 5000 units on sundays , and two thous ... or 50,000 units on sundays , excuse me , and 2000s on the other six days , and then clindamycin prior to dental procedures , correct ?\"] yeah , that's right .",
+    "[Clinician asked: \"have you had a covid-19 shot yet ?\"] i've received both . my first dose on january 15th , '21 and my second on february 5th , '21 .",
+    "[Clinician asked: \"well , mr. walker , overall you're doing well . i'm going to order an echocardiogram and a stress test . i also recommend that you follow up with cardiology , i think dr. vincent sanchez would be a great fit for you .\"] all right .",
+    "[Clinician asked: \"also your recent labs showed an elevated alkaline phosphatase level at 156 . now this could be related to your liver but most likely related to your bone health . we're going to check a few labs today .\"] you're going to have them done today ?",
+    "[Clinician asked: \"yes , sir , and we will send the results through your patient portal unless something is way off then we'll give you a call .\"] sounds good .",
+    "[Clinician asked: \"now the nodule in your right testicle should be evaluated by urology , and we will place that referral today , also .\"] sounds like i'm going to be busy getting this all checked out .",
+    "[Clinician asked: \"do you have any other questions for me ?\"] no , doc . i think you covered it all .",
+    "[Clinician asked: \"great . okay , the nurse will , uh , be back in a minute to give you mmr today , and the front desk will line up a time to do the shingles vaccine next month .\"] thanks , doc . have a great day ."
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nRoutine follow up of chronic medical conditions.\n\nHISTORY OF PRESENT ILLNESS\n\nMr. Eugene Walker is a 61-year-old male who presents today for a routine follow-up of his chronic medical conditions.\n\nToday, the patient reports feeling more fatigued as of late. He notes that he usually rides his bike for about 20 to 30 miles and by the end of his ride he is tired enough that he will immediately fall asleep. The patient adds that he can fall asleep easily and gets about 6 or 7 hours of sleep per night. He believes he snores a bit but denies any signs of apnea.\n\nOf note, the patient underwent an aortic valve replacement and ascending aortic aneurysm repair on 01/22/2013. As he is now 8 years post-op, he has requested an echocardiogram from Dr. Lewis to review how he is doing currently. His last stress test was performed on 09/09/2019.\n\nMr. Walker reports that his wife and friends have told him that he has pursed lips when he walks. This has also been noticed by his other providers. He denies any wheezing.\n\nFurthermore, the patient has noticed a 2 to 3 mm nodule in his right testicle, possibly with the epididymis but he is unsure. He has not had a vasectomy.\n\nHis current medication list only consists of clindamycin prior to dental procedures and vitamin D3 (50,000 IU on Sundays and 2000 IU the other 6 days).\n\nFrom a preventative standpoint, the patient is due for the shingles vaccine and an MMR titer. He is fully vaccinated for COVID-19 with his first dose on 01/15/2021 and his second dose on 02/05/2021.\n\nPHYSICAL EXAM\n\nRespiratory\nPursed lip breathing noted. The exhalation phase is low. Lungs are clear to auscultation, no wheezing.\n\nGenitourinary\nNo hernia noted. Left testicle normal.\n\nRESULTS\n\nRegarding his blood work from 04/10/2021, the patient's alkaline phosphatase was elevated at 156. His lipid panel showed elevated total cholesterol of 247, HDL 66, LDL 166, and triglycerides 74. The patient's TSH was normal at 2.68. His CBC was unremarkable. His most recent vitamin D level was at the high end of normal at 94.\n\nASSESSMENT\n\n\u2022 History of aortic aneurysm repair.\n\u2022 Elevated alkaline phosphate level.\n\u2022 Lung field abnormal finding on examination.\n\u2022 Right testicular nodule.\n\u2022 Preventative health.\n\nPLAN\n\nMr. Eugene Walker is a 61-year-old male who presents today for a routine follow-up of his chronic medical conditions.\n\nHistory of aortic aneurysm repair.\n- Overall, he is doing well and currently asymptomatic.\n- Currently he is not seen by cardiology routinely and I have suggested he follow up with Dr. Tyler Sanchez.\n- Ordered echocardiogram and stress test.\n\nElevated alkaline phosphate level.\n- Most recent CMP showed elevation at 156 IU/L.\n- This could be related to his liver but most likely related to his bone health.\n- Ordered an alkaline phosphatase and gamma GT.\n\nLung field abnormal finding on examination.\n- The patient has been noted to purse his lips while breathing.\n- He had found himself feeling more fatigued at the end of the day.\n- He does cycle 20 to 30 miles at a time.\n- His exhalation phase was low on exam.\n- Ordered pulmonary function testing for further evaluation.\n\nRight testicular nodule.\n- 2 to 3 mm nodule noted on exam. There is no palpable hernia.\n- Referral placed to urology for possible ultrasound.\n\nPreventative health.\n- Most recent blood work reviewed with no significant abnormalities.\n- He is fully vaccinated against COVID-19.\n- Recommend shingles vaccine next month.\n- MMR titer performed today.\n\nINSTRUCTIONS\n\n- Return in 1 year for routine wellness visit, sooner if needed.\n- Call with any questions or concerns.",
+  "gold_sections": {
+    "CC": "Routine follow up of chronic medical conditions.",
+    "HPI": "Mr. Eugene Walker is a 61-year-old male who presents today for a routine follow-up of his chronic medical conditions.\n\nToday, the patient reports feeling more fatigued as of late. He notes that he usually rides his bike for about 20 to 30 miles and by the end of his ride he is tired enough that he will immediately fall asleep. The patient adds that he can fall asleep easily and gets about 6 or 7 hours of sleep per night. He believes he snores a bit but denies any signs of apnea.\n\nOf note, the patient underwent an aortic valve replacement and ascending aortic aneurysm repair on 01/22/2013. As he is now 8 years post-op, he has requested an echocardiogram from Dr. Lewis to review how he is doing currently. His last stress test was performed on 09/09/2019.\n\nMr. Walker reports that his wife and friends have told him that he has pursed lips when he walks. This has also been noticed by his other providers. He denies any wheezing.\n\nFurthermore, the patient has noticed a 2 to 3 mm nodule in his right testicle, possibly with the epididymis but he is unsure. He has not had a vasectomy.\n\nHis current medication list only consists of clindamycin prior to dental procedures and vitamin D3 (50,000 IU on Sundays and 2000 IU the other 6 days).\n\nFrom a preventative standpoint, the patient is due for the shingles vaccine and an MMR titer. He is fully vaccinated for COVID-19 with his first dose on 01/15/2021 and his second dose on 02/05/2021.",
+    "PHYSICAL_EXAM": "Respiratory\nPursed lip breathing noted. The exhalation phase is low. Lungs are clear to auscultation, no wheezing.\n\nGenitourinary\nNo hernia noted. Left testicle normal.",
+    "RESULTS": "Regarding his blood work from 04/10/2021, the patient's alkaline phosphatase was elevated at 156. His lipid panel showed elevated total cholesterol of 247, HDL 66, LDL 166, and triglycerides 74. The patient's TSH was normal at 2.68. His CBC was unremarkable. His most recent vitamin D level was at the high end of normal at 94.",
+    "ASSESSMENT": "\u2022 History of aortic aneurysm repair.\n\u2022 Elevated alkaline phosphate level.\n\u2022 Lung field abnormal finding on examination.\n\u2022 Right testicular nodule.\n\u2022 Preventative health.",
+    "PLAN": "Mr. Eugene Walker is a 61-year-old male who presents today for a routine follow-up of his chronic medical conditions.\n\nHistory of aortic aneurysm repair.\n- Overall, he is doing well and currently asymptomatic.\n- Currently he is not seen by cardiology routinely and I have suggested he follow up with Dr. Tyler Sanchez.\n- Ordered echocardiogram and stress test.\n\nElevated alkaline phosphate level.\n- Most recent CMP showed elevation at 156 IU/L.\n- This could be related to his liver but most likely related to his bone health.\n- Ordered an alkaline phosphatase and gamma GT.\n\nLung field abnormal finding on examination.\n- The patient has been noted to purse his lips while breathing.\n- He had found himself feeling more fatigued at the end of the day.\n- He does cycle 20 to 30 miles at a time.\n- His exhalation phase was low on exam.\n- Ordered pulmonary function testing for further evaluation.\n\nRight testicular nodule.\n- 2 to 3 mm nodule noted on exam. There is no palpable hernia.\n- Referral placed to urology for possible ultrasound.\n\nPreventative health.\n- Most recent blood work reviewed with no significant abnormalities.\n- He is fully vaccinated against COVID-19.\n- Recommend shingles vaccine next month.\n- MMR titer performed today.",
+    "INSTRUCTIONS": "- Return in 1 year for routine wellness visit, sooner if needed.\n- Call with any questions or concerns."
+  },
+  "n_patient_turns": 24,
+  "n_clinician_turns": 37,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 24125.44360011816,
+      "response_text": "Thank you for sharing all of that with me, Mr. Walker. It sounds like you're doing a lot to stay on top of your health, which is really commendable. I can tell you're concerned about the changes you've noticed, like the fatigue and how it's affecting your biking. It's important to us that we figure this out together.\n\nWe'll keep a close eye on everything we discussed, especially the echocardiogram and stress test, to make sure your heart is doing well. The nodule on your epididymis will be evaluated, and we'll get that referral to urology for you. In the meantime, if you notice any new symptoms or changes, please don't hesitate to reach out. We're here to support you through all of this.\n\nThank you again for being so proactive about your health. We'll keep you updated on all the results and next steps. Take care, and have a great day!",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 27808.721788227558,
+      "response_text": "Mr. Walker, thank you for sharing all your concerns with me today. I can understand how frustrating it must be to notice changes in your biking performance and the persistent nodule on your testicle. It\u2019s clear you\u2019re paying close attention to your health, and I appreciate your proactive approach.\n\nWe\u2019ve discussed several important points today. Your fatigue could stem from various factors, such as anemia or thyroid issues, which are common and manageable [PMID ?]. The nodule on your testicle, while often benign, should be evaluated to rule out any serious conditions [PMID ?]. I\u2019ve arranged for an echocardiogram and stress test to monitor your heart health, as well as a referral to a urologist for the nodule. Additionally, we\u2019ll check your labs to look into the elevated alkaline phosphatase level, which might relate to bone health.\n\nTo ensure everything is clear, could you summarize the next steps for me? This will help confirm that we\u2019re aligned on the plan. We\u2019ll follow up in a week once the results are in, and I\u2019m here to address any other concerns you may have in the meantime. Let\u2019s work together to keep you healthy and active.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6707.590572535992,
+      "response_text": "It sounds like you're doing well overall, but there are a few things you want to make sure we cover today.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if you notice any new symptoms or changes, please call us.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're doing well overall, but there are a few things you want to make sure we cover today.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if you notice any new symptoms or changes, please call us.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 297503.2207816839,
+      "response_text": "I can hear how much this is weighing on you \u2014 you mentioned, \"he's older than me and it- it kills me.\" That frustration is completely understandable, especially when dealing with health concerns.\n\nFatigue can be a sign of many things, and since it's been happening recently after bike rides, we should look into it carefully. We'll start with some basic tests to see what might be causing it.\n\nPursed lips breathing is often linked to respiratory issues. Given your history of heart valve problems, we should monitor this closely to ensure your breathing patterns aren't indicating any underlying concerns.\n\nA testicular nodule needs to be evaluated promptly. We'll schedule an ultrasound to check for any abnormalities and rule out more serious conditions.\n\nWe'll make sure to cover all your concerns today to address your goals and ensure you feel heard.\n\nGiven your history of heart valve issues and surgery, it's important to monitor its function regularly. We'll review your recent tests and schedule any necessary follow-ups.\n\nWe'll keep a close eye on your heart valve to ensure everything is functioning as it should post-surgery.\n\nWe'll start with some basic tests to look into the cause of your fatigue.\n\nWe'll monitor your breathing patterns closely, especially given your heart valve history.\n\nWe'll schedule an ultrasound to evaluate the testicular nodule.\n\nWe'll review your recent heart tests and schedule any necessary follow-ups.\n\nWe'll make sure to cover all your concerns today to address your goals.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to follow up in a few weeks. If you experience any new symptoms like severe fatigue or changes in your breathing, please reach out sooner.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this is weighing on you \u2014 you mentioned, \"he's older than me and it- it kills me.\" That frustration is completely understandable, especially when dealing with health concerns.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "increased fatigue",
+            "profile_path": "problems[0]",
+            "explanation": "Fatigue can be a sign of many things, and since it's been happening recently after bike rides, we should look into it carefully. We'll start with some basic tests to see what might be causing it.",
+            "citations": []
+          },
+          {
+            "concern_label": "pursed lips breathing",
+            "profile_path": "problems[1]",
+            "explanation": "Pursed lips breathing is often linked to respiratory issues. Given your history of heart valve problems, we should monitor this closely to ensure your breathing patterns aren't indicating any underlying concerns.",
+            "citations": []
+          },
+          {
+            "concern_label": "testicular nodule",
+            "profile_path": "problems[2]",
+            "explanation": "A testicular nodule needs to be evaluated promptly. We'll schedule an ultrasound to check for any abnormalities and rule out more serious conditions.",
+            "citations": []
+          },
+          {
+            "concern_label": "a few things to cover today",
+            "profile_path": "patient_goals[0]",
+            "explanation": "We'll make sure to cover all your concerns today to address your goals and ensure you feel heard.",
+            "citations": []
+          },
+          {
+            "concern_label": "ensure heart valve is functioning properly",
+            "profile_path": "patient_goals[1]",
+            "explanation": "Given your history of heart valve issues and surgery, it's important to monitor its function regularly. We'll review your recent tests and schedule any necessary follow-ups.",
+            "citations": []
+          },
+          {
+            "concern_label": "monitor heart valve status post-surgery",
+            "profile_path": "patient_goals[2]",
+            "explanation": "We'll keep a close eye on your heart valve to ensure everything is functioning as it should post-surgery.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll start with some basic tests to look into the cause of your fatigue.",
+          "We'll monitor your breathing patterns closely, especially given your heart valve history.",
+          "We'll schedule an ultrasound to evaluate the testicular nodule.",
+          "We'll review your recent heart tests and schedule any necessary follow-ups.",
+          "We'll make sure to cover all your concerns today to address your goals."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to follow up in a few weeks. If you experience any new symptoms like severe fatigue or changes in your breathing, please reach out sooner.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Demonstrate empathy",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 3,
+        "n_medications": 2,
+        "n_allergies": 0,
+        "n_red_flags": 1,
+        "n_emotional": 2,
+        "n_goals": 3,
+        "problems": [
+          "increased fatigue",
+          "pursed lips breathing",
+          "testicular nodule"
+        ],
+        "medications": [
+          "Vitamin D3 (5000 units on Sundays, 2000 units on other days)",
+          "Clindamycin (prior to dental procedures)"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Demonstrate empathy",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 329203.87530326843,
+      "response_text": "I can hear how much this is weighing on you \u2014 you mentioned it's just too much stress. I want to make sure I understand what's going on and help you feel better.\n\nFor fatigue that's been happening recently, especially after activities like bike rides, we can try some practical steps. Graded exercise therapy can help manage symptoms by gradually increasing activity levels.\n\nPursed lips breathing is a technique that can help with breathing more comfortably. It's often used for people with respiratory issues and can be learned easily at home.\n\nA testicular nodule should be checked to make sure it's not serious. We'll likely recommend an ultrasound to get a better look and determine the next steps.\n\nTo keep an eye on your heart valve, we can schedule an echocardiogram as you requested. This will give us a clear picture of how your valve is functioning.\n\nThe echocardiogram will help us assess your heart valve's function. It's a standard test for monitoring heart health, especially after previous heart surgery.\n\nWe'll schedule an echocardiogram to check your heart valve function.\n\nFor the testicular nodule, we'll arrange an ultrasound to evaluate it further.\n\nWe'll also discuss some breathing techniques and exercise tips to help with your fatigue.\n\nCan you tell me, in your own words, what we're going to do next and why it's important?\n\nLet's plan to follow up in two weeks to review the results of the echocardiogram and ultrasound. In the meantime, if you notice any new symptoms or changes, please reach out.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this is weighing on you \u2014 you mentioned it's just too much stress. I want to make sure I understand what's going on and help you feel better.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "increased fatigue",
+            "profile_path": "problems[0]",
+            "explanation": "For fatigue that's been happening recently, especially after activities like bike rides, we can try some practical steps. Graded exercise therapy can help manage symptoms by gradually increasing activity levels.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::problems[0]::38719772_0",
+                "primary_assertion_id": "38719772_0",
+                "pmids": [
+                  "38719772"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "pursed lips breathing",
+            "profile_path": "problems[1]",
+            "explanation": "Pursed lips breathing is a technique that can help with breathing more comfortably. It's often used for people with respiratory issues and can be learned easily at home.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::problems[0]::38719772_0",
+                "primary_assertion_id": "38719772_0",
+                "pmids": [
+                  "38719772"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "testicular nodule",
+            "profile_path": "problems[2]",
+            "explanation": "A testicular nodule should be checked to make sure it's not serious. We'll likely recommend an ultrasound to get a better look and determine the next steps.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::problems[0]::38719772_0",
+                "primary_assertion_id": "38719772_0",
+                "pmids": [
+                  "38719772"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "ensure heart valve is functioning properly",
+            "profile_path": "patient_goals[0]",
+            "explanation": "To keep an eye on your heart valve, we can schedule an echocardiogram as you requested. This will give us a clear picture of how your valve is functioning.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::problems[0]::38719772_0",
+                "primary_assertion_id": "38719772_0",
+                "pmids": [
+                  "38719772"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "request echocardiogram",
+            "profile_path": "patient_goals[1]",
+            "explanation": "The echocardiogram will help us assess your heart valve's function. It's a standard test for monitoring heart health, especially after previous heart surgery.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::problems[0]::38719772_0",
+                "primary_assertion_id": "38719772_0",
+                "pmids": [
+                  "38719772"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll schedule an echocardiogram to check your heart valve function.",
+          "For the testicular nodule, we'll arrange an ultrasound to evaluate it further.",
+          "We'll also discuss some breathing techniques and exercise tips to help with your fatigue."
+        ],
+        "teach_back_prompt": "Can you tell me, in your own words, what we're going to do next and why it's important?",
+        "follow_up_invitation": "Let's plan to follow up in two weeks to review the results of the echocardiogram and ultrasound. In the meantime, if you notice any new symptoms or changes, please reach out.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "recommendation::problems[0]::38719772_0"
+        ],
+        "all_pmids_used": [
+          "38719772"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 3,
+        "n_medications": 2,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 2,
+        "n_goals": 2,
+        "problems": [
+          "increased fatigue",
+          "pursed lips breathing",
+          "testicular nodule"
+        ],
+        "medications": [
+          "Vitamin D3 (5000 units on Sundays, 2000 units on other days)",
+          "Clindamycin (prior to dental procedures)"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [
+        "38719772"
+      ],
+      "cluster_ids_used": [
+        "recommendation::problems[0]::38719772_0"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 230266.77811145782,
+        "module_2_retrieval": 1469.3368077278137,
+        "module_3_reasoning": 60490.933403372765,
+        "module_4_response": 36976.02806985378,
+        "total_ms": 329203.0763924122
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

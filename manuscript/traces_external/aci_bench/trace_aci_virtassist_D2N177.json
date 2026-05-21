@@ -1,0 +1,187 @@
+{
+  "transcript_id": "aci_virtassist_D2N177",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "hey , good to see you .",
+  "patient_utterances": [
+    "[Clinician asked: \"hi bruce , how are you ?\"] hey , good to see you .",
+    "[Clinician asked: \"good to see you as well . uh , so i know the nurse told you a little bit about dax .\"] mm-hmm .",
+    "[Clinician asked: \"i'd like to tell dax about you-\"] sure .",
+    "[Clinician asked: \"so , bruce , i saw you a couple months ago-\"] mm-hmm .",
+    "[Clinician asked: \"how are- how are you doing ?\"] it's been a crazy year and a half and i think the uh the anxiety , the pressure of getting ready for thanksgiving was really starting to wear on me .",
+    "[Clinician asked: \"did you have a nice holiday ?\"] i , i did but it was uh , it was great to see everybody after about two years but it was just a lot of work .",
+    "a lot of stress .",
+    "[Clinician asked: \"yeah . yeah . and what do you have to look forward for like , the new year and that type of thing . are you- more gatherings like that ?\"] um planning to take a vacation . so hopefully somewhere nice and warm .",
+    "[Clinician asked: \"okay . all right . um , well how are you doing in terms of your depression . i know that we've kind of talked about this in the past .\"] mm-hmm .",
+    "[Clinician asked: \"and we have n't put you on medication because you're on other meds and you- you have n't really wanted to do that , so what strategies are you using ?\"] yeah . over the summer we tried something new . i started going for long walks outside every morning. the weather was so nice and all the plants were in full bloom that i loved to start my day that way. on the weekends, it even encouraged me to do a little in the yard myself which was a nice way to be active and get some sun. but with the seasons changing and it getting so cold out, i have not been able to keep doing it and need to find something new to do. . i'm not ready yet to try any meds , so i think i'd like to look into some alternative options .",
+    "[Clinician asked: \"okay . so yeah . so we can talk about some therapy and-\"] sure .",
+    "[Clinician asked: \"that type of thing .\"] sure .",
+    "[Clinician asked: \"all right . and no ... you do n't wan na harm yourself or others ?\"] no .",
+    "[Clinician asked: \"any thoughts like that .\"] no .",
+    "[Clinician asked: \"no , okay . and then in terms of your diabetes , how are you doing , you know especially with the holidays managing your- your sugar intake and that type of thing ?\"] uh , got through halloween okay . did n't stick to the diet too much through the thanksgiving week but it's a little bit better . so i've been trying to really monitor it .",
+    "[Clinician asked: \"okay . and are you ... you're still taking the metformin , correct ?\"] yes .",
+    "[Clinician asked: \"okay . all right . and then in terms of your high blood pressure , did you buy the blood pressure cuff that i recommended ?\"] yes .",
+    "[Clinician asked: \"okay . and how have they been running . i have n't received any you know notes from you in the portal .\"] nothing out of the ordinary . it's been pretty moderate .",
+    "[Clinician asked: \"it's been pretty good . and you're still taking the lisinopril , no problems with that ?\"] mm-hmm . correct .",
+    "[Clinician asked: \"okay . all right . i know you did a review of system sheet when you checked in .\"] mm-hmm .",
+    "[Clinician asked: \"um , do you have any symptoms . chest pain , shortness of breath , belly pain-\"] no .",
+    "[Clinician asked: \"blood in your stool .\"] no .",
+    "[Clinician asked: \"weight loss . anything like that ?\"] no .",
+    "[Clinician asked: \"okay . all right . i wan na go ahead and do a quick physical exam .\"] mm-hmm .",
+    "[Clinician asked: \"so here in the office . i agree . your blood pressure looks good . uh , i think you're doing a good job with that so keep up the good work . i'm gon na go ahead and take a listen to your heart and lungs , i'll let you know what i find .\"] sure .",
+    "[Clinician asked: \"all right . so on physical examination , everything looks pretty good , so on your neck exam , i do n't appreciate any carotid bruits . on your heart exam i do appreciate a slight two out of six systolic ejection murmur heard at the left base , which we've heard in the past .\"] mm-hmm .",
+    "[Clinician asked: \"it just means i heard a little sound in your heart , which you know is n't anything clinically significant . we had looked into that last year .\"] mm-hmm .",
+    "[Clinician asked: \"you do have a little swelling in your legs but that might just be from your your diet recently , okay .\"] sure .",
+    "[Clinician asked: \"so i just had the nurse do an ekg on you before you came in just to make sure we were n't missing anything . you're in your 60's we have some risk factors . everything looks good .\"] mm-hmm .",
+    "[Clinician asked: \"now some of them might be having to do with the holidays that type of thing but i still think that we need to get that under better control .\"] sure .",
+    "[Clinician asked: \"so lets talk a little bit about my assessment and plan for you so for your first problem of your depression i'd like to just go ahead and refer you to uh psychiatry not for medications , but just for some talk therapy that type of thing , okay ?\"] that's fine .",
+    "[Clinician asked: \"um , for your second problem of your type two diabetes i'd like to go ahead and order a hemoglobin a1c in the next couple months . i want to increase the metformin to 1000 milligrams twice a day . and we're gon na go ahead and order a lipid panel , okay .\"] mm-hmm .",
+    "[Clinician asked: \"uh , lastly for your third problem for your hypertension i'm gon na go ahead and order an echocardiogram just to recheck it . just that heart murmur . and i'm going to go ahead and keep the lisinopril at 20 milligrams a day . do you have any questions ?\"] no questions .",
+    "[Clinician asked: \"okay the nurse will be in soon , she'll get you checked out , okay ?\"] you got it ."
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nFollow up of chronic problems.\n\nHISTORY OF PRESENT ILLNESS\n\nBruce Howard is a 60-year-old male with a past medical history significant for depression, type 2 diabetes, and hypertension who presents for follow up of his chronic problems.\n\nIn regards to his depression, the patient notes that it has been a crazy year and a half. He experienced a lot of anxiety while getting ready for Thanksgiving but it is starting to resolve now. He denies suicidal and homicidal ideation. The patient and his wife began going on walks and gardening over the summer and he notes good relief of his depression from this; however, the season has changed and he needs an alterative method of management. He has preferred to avoid medications in the past.\n\nThe patient is still taking metformin for his diabetes. He notes some dietary indiscretion with Thanksgiving but he is doing better with this now.\n\nIn terms of his hypertension, he notes he is compliant with lisinopril. He did buy a blood pressure cuff and is checking his blood pressure at home. His blood pressures have reportedly been good.\n\nHe denies chest pain, dyspnea, abdominal pain, hematochezia, or weight loss.\n\nREVIEW OF SYSTEMS\n\n\u2022 Constitutional: Denies weight loss.\n\u2022 Cardiovascular: Denies chest pain or dyspnea on exertion.\n\u2022 Respiratory: Denies shortness of breath.\n\u2022 Gastrointestinal: Denies hematochezia or abdominal pain.\n\u2022 Psychiatric: Endorses anxiety and depression.\u202f Denies suicidal and homicidal ideations.\n\nPHYSICAL EXAMINATION\n\n\u2022 Constitutional: Well-developed, well-nourished, in no apparent distress.\n\u2022 Neck: No carotid bruits appreciable.\n\u2022 Respiratory: Lungs are clear to auscultation bilaterally. No wheezes, rales, or rhonchi.\n\u2022 Cardiovascular: Slight 2/6 systolic ejection murmur heard at the left base, heard previously.\n\u2022 Musculoskeletal: 1+ nonpitting edema bilaterally.\n\nRESULTS\n\nEKG was unremarkable.\n\nDiabetic labs revealed an elevated hemoglobin A1c of 8.\n\nASSESSMENT\n\nBruce Howard is a 60-year-old male with a past medical history significant for depression, type 2 diabetes, and hypertension who presents for follow up of his chronic problems.\n\nPLAN\n\nDepression.\n\u2022 Medical Reasoning: He has been doing well with going on morning walks; however, this has ended due to the cooler weather. He continues to decline the use of medications for this issue.\n\u2022 Medical Treatment: We will defer initiating medication at this time.\n\u2022 Specialist Referrals: I will refer him to psychiatry to engage in talk therapy.\n\nDiabetes type 2.\n\u2022 Medical Reasoning: The patient admits to recent dietary indiscretion. His most recent hemoglobin A1c was elevated at 8 percent. He is compliant with metformin.\n\u2022 Additional Testing: I will order a repeat hemoglobin A1c in the next couple of months. I will also order a lipid panel.\n\u2022 Medical Treatment: We will increase his metformin to 1000 mg twice a day.\n\nHypertension.\n\u2022 Medical Reasoning: He has been monitoring his blood pressure on a regular basis. Blood pressure is well controlled at this time. He has a systolic ejection murmur that continues to be heard on exam.\n\u2022 Additional Testing: I will order an echocardiogram to reassess the heart murmur.\n\u2022 Medical Treatment: He will continue lisinopril 20 mg daily.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.",
+  "gold_sections": {
+    "CC": "Follow up of chronic problems.",
+    "HPI": "Bruce Howard is a 60-year-old male with a past medical history significant for depression, type 2 diabetes, and hypertension who presents for follow up of his chronic problems.\n\nIn regards to his depression, the patient notes that it has been a crazy year and a half. He experienced a lot of anxiety while getting ready for Thanksgiving but it is starting to resolve now. He denies suicidal and homicidal ideation. The patient and his wife began going on walks and gardening over the summer and he notes good relief of his depression from this; however, the season has changed and he needs an alterative method of management. He has preferred to avoid medications in the past.\n\nThe patient is still taking metformin for his diabetes. He notes some dietary indiscretion with Thanksgiving but he is doing better with this now.\n\nIn terms of his hypertension, he notes he is compliant with lisinopril. He did buy a blood pressure cuff and is checking his blood pressure at home. His blood pressures have reportedly been good.\n\nHe denies chest pain, dyspnea, abdominal pain, hematochezia, or weight loss.",
+    "ROS": "\u2022 Constitutional: Denies weight loss.\n\u2022 Cardiovascular: Denies chest pain or dyspnea on exertion.\n\u2022 Respiratory: Denies shortness of breath.\n\u2022 Gastrointestinal: Denies hematochezia or abdominal pain.\n\u2022 Psychiatric: Endorses anxiety and depression.\u202f Denies suicidal and homicidal ideations.",
+    "PHYSICAL_EXAMINATION": "\u2022 Constitutional: Well-developed, well-nourished, in no apparent distress.\n\u2022 Neck: No carotid bruits appreciable.\n\u2022 Respiratory: Lungs are clear to auscultation bilaterally. No wheezes, rales, or rhonchi.\n\u2022 Cardiovascular: Slight 2/6 systolic ejection murmur heard at the left base, heard previously.\n\u2022 Musculoskeletal: 1+ nonpitting edema bilaterally.",
+    "RESULTS": "EKG was unremarkable.\n\nDiabetic labs revealed an elevated hemoglobin A1c of 8.",
+    "ASSESSMENT": "Bruce Howard is a 60-year-old male with a past medical history significant for depression, type 2 diabetes, and hypertension who presents for follow up of his chronic problems.",
+    "PLAN": "Depression.\n\u2022 Medical Reasoning: He has been doing well with going on morning walks; however, this has ended due to the cooler weather. He continues to decline the use of medications for this issue.\n\u2022 Medical Treatment: We will defer initiating medication at this time.\n\u2022 Specialist Referrals: I will refer him to psychiatry to engage in talk therapy.\n\nDiabetes type 2.\n\u2022 Medical Reasoning: The patient admits to recent dietary indiscretion. His most recent hemoglobin A1c was elevated at 8 percent. He is compliant with metformin.\n\u2022 Additional Testing: I will order a repeat hemoglobin A1c in the next couple of months. I will also order a lipid panel.\n\u2022 Medical Treatment: We will increase his metformin to 1000 mg twice a day.\n\nHypertension.\n\u2022 Medical Reasoning: He has been monitoring his blood pressure on a regular basis. Blood pressure is well controlled at this time. He has a systolic ejection murmur that continues to be heard on exam.\n\u2022 Additional Testing: I will order an echocardiogram to reassess the heart murmur.\n\u2022 Medical Treatment: He will continue lisinopril 20 mg daily.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan."
+  },
+  "n_patient_turns": 34,
+  "n_clinician_turns": 42,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 23138.24988901615,
+      "response_text": "I can see how much this past year and a half has been challenging for you, especially with the added stress of the holidays. It's great that you found some relief in your morning walks over the summer\u2014they sound like a wonderful way to start your day. I understand that finding new activities during colder weather can be tough, but I'm confident you'll discover something new that you enjoy. Therapy could be a helpful addition to your strategies, offering a space to explore your feelings and coping mechanisms.\n\nYour approach to managing your health is commendable, and I appreciate your commitment to monitoring your diabetes and blood pressure. The tests we're ordering are just to make sure everything is on track and to provide a comprehensive understanding of your health. Remember, you're not alone in this journey\u2014I'm here to support you and your efforts. Let's keep moving forward together.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 26567.09983199835,
+      "response_text": "Thanks for sharing all of this with me, Bruce. It sounds like you've been through a lot over the past year and a half, and I can see how the buildup to Thanksgiving might have added extra pressure. I really admire how you've been trying to manage your mental health through activities like walking and yard work\u2014it's great you found something that worked for a while. It's completely understandable that the colder weather has made it harder to stick with those routines, and I'm glad you're looking for new ways to stay active and positive.\n\nFor your depression, I think it's important to explore other strategies that can help you feel more balanced, especially since you're not ready for medication right now. Therapy could be a really helpful option\u2014it gives you a space to talk through what's been on your mind and develop new coping skills. Plus, planning that vacation sounds like a wonderful way to take a break and focus on something enjoyable. Have you thought about any specific activities or hobbies you might want to try when the weather gets nicer?\n\nIn terms of your diabetes, I want to make sure we're keeping a close eye on things. I'll order that hemoglobin A1c test and adjust your metformin dosage to help with blood sugar control. We'll also check your lipid levels to get a fuller picture of your overall health. For your hypertension, the echocardiogram will help us monitor your heart health, especially with that heart murmur we've been tracking. I'll keep you on the lisinopril for now, as it seems to be working well.\n\nWe'll schedule a follow-up in about four weeks to review how everything is progressing and to see if you'd like to explore any additional resources or support. Before you leave, could you summarize what we've discussed today? That way, I can make sure everything is clear and you feel comfortable with the plan.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7381.685093045235,
+      "response_text": "It sounds like you've been dealing with a lot over the past year and a half, especially with the holidays and the stress they bring. I want to make sure I understand how you're feeling and what you're going through.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again soon. In the meantime, if you have any concerns or need to talk, please reach out.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you've been dealing with a lot over the past year and a half, especially with the holidays and the stress they bring. I want to make sure I understand how you're feeling and what you're going through.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again soon. In the meantime, if you have any concerns or need to talk, please reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 142525.33516287804,
+      "response_text": "Thank you for sharing your concerns about your anxiety and your goals for taking a vacation and exploring alternative management options. I understand how important it is to find ways to feel better and take care of yourself.\n\nAnxiety can feel overwhelming, especially with added stress like the holiday season. There are effective ways to manage it, and we can explore options together to find what works best for you.\n\nTaking a vacation can be a great way to reduce stress and improve your mood. Planning a trip can be a step toward feeling more relaxed and refreshed.\n\nThere are many approaches to managing anxiety, including lifestyle changes, therapy, and sometimes medication. We can work together to find the best options for you.\n\nWe'll discuss your options for managing anxiety and help you plan for your vacation.\n\nWe can explore different strategies to manage your anxiety together.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to check in again in a couple of weeks to see how things are going. If you have any questions or concerns in the meantime, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns about your anxiety and your goals for taking a vacation and exploring alternative management options. I understand how important it is to find ways to feel better and take care of yourself.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "anxiety",
+            "profile_path": "problems[0]",
+            "explanation": "Anxiety can feel overwhelming, especially with added stress like the holiday season. There are effective ways to manage it, and we can explore options together to find what works best for you.",
+            "citations": []
+          },
+          {
+            "concern_label": "take a vacation to a nice and warm place",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Taking a vacation can be a great way to reduce stress and improve your mood. Planning a trip can be a step toward feeling more relaxed and refreshed.",
+            "citations": []
+          },
+          {
+            "concern_label": "look into alternative options for managing anxiety",
+            "profile_path": "patient_goals[1]",
+            "explanation": "There are many approaches to managing anxiety, including lifestyle changes, therapy, and sometimes medication. We can work together to find the best options for you.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll discuss your options for managing anxiety and help you plan for your vacation.",
+          "We can explore different strategies to manage your anxiety together."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to check in again in a couple of weeks to see how things are going. If you have any questions or concerns in the meantime, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 2,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 2,
+        "problems": [
+          "anxiety"
+        ],
+        "medications": [
+          "metformin",
+          "lisinopril"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "error": "Connection error."
+    }
+  },
+  "schema_version": "phase13.v1"
+}

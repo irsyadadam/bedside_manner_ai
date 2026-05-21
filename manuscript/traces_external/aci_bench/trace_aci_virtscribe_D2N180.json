@@ -1,0 +1,250 @@
+{
+  "transcript_id": "aci_virtscribe_D2N180",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "hi dr . lopez . this weekend was a bit rough . i've had this numbness and tingling for a few weeks now .",
+  "patient_utterances": [
+    "[Clinician asked: \"hello ms. taylor . how are you doing this morning ?\"] hi dr . lopez . this weekend was a bit rough . i've had this numbness and tingling for a few weeks now .",
+    "[Clinician asked: \"so , in both of your hands ?\"] yeah . ever since my car wreck last december when i broke them . well , once they heal , i mean , i noticed it more , the , the tingling and numbness .",
+    "[Clinician asked: \"are you still wearing the splint only on your right wrist ?\"] no . i wear the left one also sometimes . the right one's just worse . the splint seems to help . both have gotten worse over the last month . when i broke them though , my wrist was definitely in worse shape than it is today . i've been having some mild stiffness in my neck too . i hit my head during the accident , and they told me it was a contusion .",
+    "[Clinician asked: \"okay . and where exactly on the right side would you say the tingling and numbness is ?\"] on the right , i can really notice it from my middle and ring finger all the way up to my forearm , and on my left , a bit more the pinky and the ring and not the middle .",
+    "[Clinician asked: \"all right . and , um , is there is pain or , or just tingling and numbness ?\"] uh , mainly just sore . sometimes they throb , but overall , they feel weaker too , especially when i'm using them . the tingling happens some more , but when they hurt , you know , it goes away and then the tingling's just dull .",
+    "[Clinician asked: \"what kind of activities ?\"] well , really , i guess , just more so at night , and then it just kind of comes and goes throughout the day .",
+    "[Clinician asked: \"okay . and do you experience any loss of sensation in your hands or fingers ?\"] uh , like , like feeling something ? no , not that i can think of really . in general , they might be less sensitive than they should be , but i can still feel . they gave me some nerve pain medicine , but i have n't been taking it like i should be .",
+    "[Clinician asked: \"okay . looks like your medical history is notable for chronic kidney disease , gout , hypertension , anxiety , gerd , and diabetes .\"] well , i had pre-diabetes , but i got in under control changing my diet .",
+    "[Clinician asked: \"okay . good . and are you still on the carvedilol 25 milligrams two times a day for hypertension and lexapro 10 milligrams a day for anxiety ? looks like your allergic to sulfa drugs as well . is that correct ?\"] yeah , i'm still taking those and sulfa just causes me to break out in a rash .",
+    "[Clinician asked: \"and no history of thyroid issues , right ?\"] nope .",
+    "[Clinician asked: \"all right . thank you ms. taylor . i'll be right back for your exam . i want to look up that medication you mentioned for your nerve pain .\"] all right . thanks ."
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nUpper extremity tingling\n\nHISTORY OF PRESENT ILLNESS\n\nThe patient is a 60-year-old female referred today for evaluation of numbness and tingling.\n\nThe patient complains of numbness, tingling, and pain in both hands which began last December after she broke both wrists in an MVA and which has progressively worsened since then. She continues to wear a splint on the right wrist all the time and on the left only intermittently, which she states is because the right wrist was injured more severely in the MVA. The sensation radiates from the hands into the forearms and is equal bilaterally. The 4th and 5th fingers in the left hand and 3rd and 4th on the right-hand tingle. She states that her fingers are sore with palpation and seem weaker than before. Any exertion exacerbates the tingling, and after something exacerbates the pain, the tingling seems \"dull\". The symptoms come and go and seem to occur mostly at night. She denies complete loss of sensation in any of her fingers, but states that they seem less sensitive than they should be. she reports mild stiffness in her neck. She notes that she did hit her head during the MVA and was diagnosed with a contusion. She states that she has been given \"nerve pain medicine\u201d but has not been taking it.\n\nThe patient takes carvedilol for her hypertension and Lexapro for her anxiety. She reports a history of prediabetes, which she has brought under control via dietary changes. She denies any history of thyroid issues.\n\nREVIEW OF SYMPTOMS\n\n\u2022 Constitutional Symptoms: The patient reports increased fatigue and weight gain.\n\u2022 Eyes: Positive for floaters.\n\u2022 Cardiovascular: Positive for leg swelling.\n\u2022 Respiratory: Positive for shortness of breath.\n\u2022 Gastrointestinal: Positive for excessive hunger and bloating.\n\u2022 Musculoskeletal: Positive for gout and muscle pain.\n\u2022 Integumentary: Positive for nail bed changes, dryness, and itching.\n\u2022 Neurological: Positive for bilateral paresthesia of hands.\n\u2022 Endocrine: Positive prediabetes and excessive hunger.\n\nPAST MEDICAL HISTORY\n\nChronic kidney disease (CKD).\nPrediabetes, diet controlled.\nHypertension.\nGastric esophageal reflux disorder (GERD)\n\nCURRENT MEDICATIONS\n\nCarvedilol 25 mg twice daily.\nLexapro 10 mg daily.\n\nALLERGIES\n\nSulfa, causes rash.\n\nPHYSICAL EXAM\n\nNeurological Exam\nSensation is normal except pinprick sensation diminished in the 3rd and 4th fingers on the right and the 4th and 5th fingers on the left. 1+ and symmetric, 2+ knees. Toes are downgoing bilaterally. Tinel's sign positive at both wrists and both elbows.\n\nRESULTS\n\nCT brain with and without contrast, 02/05/2021\nImpression: No metastatic disease. No acute intracranial abnormalities. I personally reviewed the report and images.\n\nASSESSMENT\n\n\u2022 Bilateral carpal tunnel syndrome, question of bilateral cubital tunnel syndrome.\n\nPLAN\n\nI discussed my impression with the patient. I will schedule her for EMG/NCV. If her symptoms do not resolve, we can consider Hand Clinic referral for possibly symptomatic injections or carpal tunnel release surgery, although she can also pursue these through her current orthopedist. I encouraged her to wear her splints.\n\nINSTRUCTIONS\n\nReturn for EMG/NCV.",
+  "gold_sections": {
+    "CC": "Upper extremity tingling",
+    "HPI": "The patient is a 60-year-old female referred today for evaluation of numbness and tingling.\n\nThe patient complains of numbness, tingling, and pain in both hands which began last December after she broke both wrists in an MVA and which has progressively worsened since then. She continues to wear a splint on the right wrist all the time and on the left only intermittently, which she states is because the right wrist was injured more severely in the MVA. The sensation radiates from the hands into the forearms and is equal bilaterally. The 4th and 5th fingers in the left hand and 3rd and 4th on the right-hand tingle. She states that her fingers are sore with palpation and seem weaker than before. Any exertion exacerbates the tingling, and after something exacerbates the pain, the tingling seems \"dull\". The symptoms come and go and seem to occur mostly at night. She denies complete loss of sensation in any of her fingers, but states that they seem less sensitive than they should be. she reports mild stiffness in her neck. She notes that she did hit her head during the MVA and was diagnosed with a contusion. She states that she has been given \"nerve pain medicine\u201d but has not been taking it.\n\nThe patient takes carvedilol for her hypertension and Lexapro for her anxiety. She reports a history of prediabetes, which she has brought under control via dietary changes. She denies any history of thyroid issues.",
+    "REVIEW_OF_SYMPTOMS": "\u2022 Constitutional Symptoms: The patient reports increased fatigue and weight gain.\n\u2022 Eyes: Positive for floaters.\n\u2022 Cardiovascular: Positive for leg swelling.\n\u2022 Respiratory: Positive for shortness of breath.\n\u2022 Gastrointestinal: Positive for excessive hunger and bloating.\n\u2022 Musculoskeletal: Positive for gout and muscle pain.\n\u2022 Integumentary: Positive for nail bed changes, dryness, and itching.\n\u2022 Neurological: Positive for bilateral paresthesia of hands.\n\u2022 Endocrine: Positive prediabetes and excessive hunger.",
+    "PMH": "Chronic kidney disease (CKD).\nPrediabetes, diet controlled.\nHypertension.\nGastric esophageal reflux disorder (GERD)",
+    "CURRENT_MEDICATIONS": "Carvedilol 25 mg twice daily.\nLexapro 10 mg daily.",
+    "ALLERGIES": "Sulfa, causes rash.",
+    "PHYSICAL_EXAM": "Neurological Exam\nSensation is normal except pinprick sensation diminished in the 3rd and 4th fingers on the right and the 4th and 5th fingers on the left. 1+ and symmetric, 2+ knees. Toes are downgoing bilaterally. Tinel's sign positive at both wrists and both elbows.",
+    "RESULTS": "CT brain with and without contrast, 02/05/2021\nImpression: No metastatic disease. No acute intracranial abnormalities. I personally reviewed the report and images.",
+    "ASSESSMENT": "\u2022 Bilateral carpal tunnel syndrome, question of bilateral cubital tunnel syndrome.",
+    "PLAN": "I discussed my impression with the patient. I will schedule her for EMG/NCV. If her symptoms do not resolve, we can consider Hand Clinic referral for possibly symptomatic injections or carpal tunnel release surgery, although she can also pursue these through her current orthopedist. I encouraged her to wear her splints.",
+    "INSTRUCTIONS": "Return for EMG/NCV."
+  },
+  "n_patient_turns": 11,
+  "n_clinician_turns": 15,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 24493.596099317074,
+      "response_text": "Thank you for sharing all of that with me, Ms. Taylor. I can tell this has been a challenging situation for you, especially after everything you\u2019ve been through with the car accident. It\u2019s important to acknowledge how frustrating and uncomfortable these symptoms must be, and I want to make sure we work together to get you feeling better.\n\nGiven your history and the symptoms you\u2019re describing, it sounds like we may need to explore further what\u2019s causing the numbness and tingling in your hands. This could be related to nerve irritation or compression, possibly from the wrist injuries you sustained in the accident. The neck stiffness could also play a role, as it might be affecting the nerves in your upper extremities.\n\nI\u2019ll review your medication and consider whether adjusting your nerve pain medication might help, or if there are other treatments we can try, like physical therapy or further diagnostic tests, such as nerve conduction studies or imaging. Let\u2019s also make sure you\u2019re taking your medication as prescribed and that it\u2019s working well for you. If you\u2019re having any issues with it, we can address those too.\n\nWe\u2019ll take this step by step, and I\u2019ll be here to answer your questions and support you through this process. Your health and comfort are my priority, and I\u2019m here to help you feel your best.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 23142.259053885937,
+      "response_text": "Thank you for sharing all of this with me, Ms. Taylor. It sounds like you're feeling a bit frustrated and worried about the ongoing numbness and tingling in your hands, especially since it's been getting worse despite your efforts. I can understand how that would be concerning, especially after the car accident you had last December. It's important that we work together to figure out what's going on and how to help you feel better.\n\nGiven your history of broken wrists and the ongoing symptoms, there are a few possibilities we should consider. The numbness and tingling could be related to nerve irritation or ongoing recovery from the injury. It might also be worth checking for conditions like carpal tunnel syndrome or peripheral neuropathy, especially since you have a history of diabetes, which can sometimes affect nerve function [PMID ?]. We'll need to do a thorough exam and possibly some imaging or blood tests to get a clearer picture.\n\nIn the meantime, let's plan to do a physical exam today to assess your nerve function and range of motion. Depending on what we find, we might recommend imaging, like an MRI, or some blood work to rule out other causes. I'll also look into the nerve pain medication you mentioned to see if it could help. We'll check in in about a week to see how you're doing and to review the results together.\n\nBefore you leave, could you summarize what you think we discussed today? That way, I can make sure everything is clear and that you feel comfortable with the plan.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 8892.07573980093,
+      "response_text": "It sounds like you've been having a tough time with the numbness and tingling in your hands, especially since your car accident last December. I understand how frustrating and concerning that must be.\n\nWe'll need to schedule a follow-up visit to better assess your symptoms and discuss any necessary treatments or adjustments to your current care plan.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if the numbness and tingling gets worse or you experience any new symptoms, please call us so we can address them promptly.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you've been having a tough time with the numbness and tingling in your hands, especially since your car accident last December. I understand how frustrating and concerning that must be.",
+        "clinical_information_per_concern": [],
+        "next_steps": [
+          "We'll need to schedule a follow-up visit to better assess your symptoms and discuss any necessary treatments or adjustments to your current care plan."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if the numbness and tingling gets worse or you experience any new symptoms, please call us so we can address them promptly.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 124783.19889307022,
+      "response_text": "Thank you for sharing your concerns about the numbness and tingling since your car accident and the recent stiffness in your neck. I understand how these symptoms might be affecting your daily life.\n\nThe numbness and tingling you're experiencing, especially since the car accident, could be related to nerve issues or injuries. It's important to monitor these symptoms and see if they improve or worsen over time.\n\nMild stiffness in your neck, especially if it's been happening over the last month, might be due to muscle tension or something else. We'll keep an eye on it to see if it gets better or if it's linked to other symptoms.\n\nWe'll keep monitoring your symptoms over the next few weeks to see if there's any improvement or if new symptoms appear.\n\nIf the numbness and tingling worsen or if you experience any new symptoms like severe pain or weakness, please let us know right away.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 4 weeks. In the meantime, if you get new symptoms like severe pain, weakness, or if the numbness and tingling get much worse, please call us right away \u2014 don't wait for the appointment.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns about the numbness and tingling since your car accident and the recent stiffness in your neck. I understand how these symptoms might be affecting your daily life.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "numbness and tingling",
+            "profile_path": "problems[0]",
+            "explanation": "The numbness and tingling you're experiencing, especially since the car accident, could be related to nerve issues or injuries. It's important to monitor these symptoms and see if they improve or worsen over time.",
+            "citations": []
+          },
+          {
+            "concern_label": "mild stiffness in neck",
+            "profile_path": "problems[1]",
+            "explanation": "Mild stiffness in your neck, especially if it's been happening over the last month, might be due to muscle tension or something else. We'll keep an eye on it to see if it gets better or if it's linked to other symptoms.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll keep monitoring your symptoms over the next few weeks to see if there's any improvement or if new symptoms appear.",
+          "If the numbness and tingling worsen or if you experience any new symptoms like severe pain or weakness, please let us know right away."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 4 weeks. In the meantime, if you get new symptoms like severe pain, weakness, or if the numbness and tingling get much worse, please call us right away \u2014 don't wait for the appointment.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 2,
+        "n_medications": 2,
+        "n_allergies": 1,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "numbness and tingling",
+          "mild stiffness in neck"
+        ],
+        "medications": [
+          "carvedilol 25 mg twice daily",
+          "lexapro 10 mg daily"
+        ],
+        "allergies": [
+          "sulfa drugs (causes rash)"
+        ]
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 168150.2894386649,
+      "response_text": "It sounds like the numbness and tingling in your wrists has been getting worse, especially at night and throughout the day. I understand how that must be affecting your daily life.\n\nThe numbness and tingling in your wrists, especially since your car accident, could be related to nerve issues. We'll need to look into this further to understand what's causing it.\n\nWe'll schedule a follow-up visit to check on your wrists and discuss any tests that might help us figure out what's going on.\n\nIn the meantime, if the numbness or tingling gets worse or if you experience any new symptoms, please let us know right away.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if you notice any changes in your symptoms or if they get worse, please call us so we can address them promptly.",
+      "structured_response": {
+        "acknowledgment": "It sounds like the numbness and tingling in your wrists has been getting worse, especially at night and throughout the day. I understand how that must be affecting your daily life.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "numbness and tingling",
+            "profile_path": "problems[0]",
+            "explanation": "The numbness and tingling in your wrists, especially since your car accident, could be related to nerve issues. We'll need to look into this further to understand what's causing it.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[0]::31237649_0",
+                "primary_assertion_id": "31237649_0",
+                "pmids": [
+                  "31237649"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll schedule a follow-up visit to check on your wrists and discuss any tests that might help us figure out what's going on.",
+          "In the meantime, if the numbness or tingling gets worse or if you experience any new symptoms, please let us know right away."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if you notice any changes in your symptoms or if they get worse, please call us so we can address them promptly.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[0]::31237649_0"
+        ],
+        "all_pmids_used": [
+          "31237649"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 3,
+        "n_allergies": 1,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "numbness and tingling"
+        ],
+        "medications": [
+          "nerve pain medicine",
+          "carvedilol 25 mg twice daily",
+          "lexapro 10 mg daily"
+        ],
+        "allergies": [
+          "sulfa drugs (causes rash)"
+        ]
+      },
+      "pmids_used": [
+        "31237649"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[0]::31237649_0"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 93077.73930579424,
+        "module_2_retrieval": 1118.0504262447357,
+        "module_3_reasoning": 57079.91924136877,
+        "module_4_response": 16873.243048787117,
+        "total_ms": 168148.95202219486
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

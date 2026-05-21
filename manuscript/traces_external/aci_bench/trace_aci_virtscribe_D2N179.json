@@ -1,0 +1,362 @@
+{
+  "transcript_id": "aci_virtscribe_D2N179",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "hi , dr. martinez . this weekend was a bit rough . i've had this numbness and tingling for a few weeks now .",
+  "patient_utterances": [
+    "[Clinician asked: \"hello , mr. cook . how are you doing this morning ?\"] hi , dr. martinez . this weekend was a bit rough . i've had this numbness and tingling for a few weeks now .",
+    "[Clinician asked: \"so it's in both of your hands ?\"] yes , ever since my car wreck last december when i broke them ... well , once they healed , i mean , i noticed it more , the tingling and the numbness .",
+    "[Clinician asked: \"and you still wear the splint only on the right wrist ?\"] no , i also wear the left sometimes . the right is just worse , but the splint helps . both have really gotten worse over the last month . when i broke them , my right wrist was definitely in worse shape . i've also been having some s- mild stiffness in my neck too . i hit my head during the accident , and they told me it was a contusion .",
+    "[Clinician asked: \"and where would you say the tingling and numbness is ?\"] on this side , it goes from here and here up to about here . on the other side , it's from here to here .",
+    "[Clinician asked: \"i see . so on the right side , you're pointing from the middle and ring finger , all the way up the forearm . and on the left , the symptoms extend from the pinky and ring finger . and is there any pain or just tingling and numbness ?\"] eh , it's mainly just sore . sometimes they throb , but overall , they feel weaker too , especially when i'm using them . the tingling happens more when they hurt , but when it goes away , the tingling is dull .",
+    "[Clinician asked: \"and when do you feel these symptoms ?\"] well , really , i guess , just more so at night , and they come and go throughout the day .",
+    "[Clinician asked: \"okay . and do you experience any loss of sensation in your hands or fingers ?\"] like , feeling something ? no , not that i can really think of . though , in general , they may be less sensitive than they should be , but i can still feel . they also gave me some nerve pain medicine , but i have n't been taking it like i should .",
+    "[Clinician asked: \"and are you still on the coreg for hypertension and the lexapro for anxiety ?\"] yes , i'm still taking those . i had prediabetes too , but i got it under control by changing my diet .",
+    "[Clinician asked: \"and no history of thyroid issues , correct ?\"] nope .",
+    "[Clinician asked: \"constitutional , you have fatigue and weight gain ; gi , you have excessive appetite and bloating ; eyes have floaters ; cardiovascular shows shortness of breath and leg swelling ; endocrine , you're always hungry ; skin , you have some nail bed changes , dryness , itching ; musculoskeletal , you ha\"] yep , that's all correct .",
+    "[Clinician asked: \"all right , we're going to go ahead and do the neurologic examination . let's look at the right hand first . can you feel this ?\"] yeah , but a little less on these two fingers .",
+    "[Clinician asked: \"and how about on the left ?\"] um , yeah , but these two a little less .",
+    "[Clinician asked: \"all right , i'm going to tap on your right wrist . do you feel anything ?\"] yeah , it feels like a zing up my wrist and something into my elbow too .",
+    "[Clinician asked: \"and how about the left side ?\"] yeah , same on that side too .",
+    "[Clinician asked: \"all right , so what i am seeing today is bilateral carpal tunnel syndrome or , potentially , this could also be bilateral cubital tunnel syndrome . however , your symptom presentation suggests car- bilateral carpal syndrome , as the nerve in your wrists are aggravated by your past trauma . this is c\"] okay , so how do we make it better ?",
+    "[Clinician asked: \"first , i want to determine exactly where the nerve irritation is coming from . we'll need to schedule you for a nerve test , which is called an emg test . they will measure the responsiveness of your nerves to truly pinpoint where you are having your issues .\"] that sounds fine to me .",
+    "[Clinician asked: \"great . after the tests are complete , you can return here for a follow-up visit . if you're still having symptoms , we can consider a referral to our hand clinic , possibly for injections or carpal tunnel release se- surgery . you could also refer ... we could also refer you to an orthopedist for t\"] sounds good , doc .",
+    "[Clinician asked: \"all right , keep wearing your splints , and i will see you after those studies .\"] thank you ."
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nNumbness and tingling of both hands.\n\nHISTORY OF PRESENT ILLNESS\n\nElijah Cook is a 60-year-old male referred today for evaluation of numbness and tingling of both hands.\n\nThe patient complains of numbness, tingling, and pain in both hands which began in 12/2019 after he broke both wrists in a motor vehicle accident and which has progressively worsened since then. He continues to wear a splint on the right wrist all the time and on the left only intermittently, which he states is because the right wrist was injured more severely in the accident. The sensation radiates from the hands into the forearms and is equal bilaterally. The 4th and 5th fingers in the left hand and 3rd and 4th on the right-hand tingle. He states that his fingers are sore with palpation and seem weaker than before. Any exertion exacerbates the tingling, and after something exacerbates the pain, the tingling seems \"dull\". The symptoms come and go and seem to occur mostly at night. He denies complete loss of sensation in any of his fingers, but states that they seem less sensitive than they should be. He reports mild stiffness in his neck. He notes that he did hit his head during the car accident and was diagnosed with a contusion. He states that he has been given \"nerve pain medicine\u201d but has not been taking it.\n\nHe currently takes Coreg for his hypertension and Lexapro for his anxiety. He reports a history of prediabetes, which he has brought under control via dietary changes. He denies any history of thyroid issues.\n\nREVIEW OF SYSTEMS\n\n\u2022 Constitutional Symptoms: Easily fatigued, weight gain.\n\u2022 Eyes: Floaters.\n\u2022 Cardiovascular: Bilateral peripheral edema.\n\u2022 Respiratory: Shortness of breath.\n\u2022 Gastrointestinal: Excessive appetite, abdominal bloating.\n\u2022 Musculoskeletal: Gout, muscle pain.\n\u2022 Integumentary: Dry itchy skin, nail bed changes.\n\u2022 Endocrine: Excessive hunger.\n\nPHYSICAL EXAM\n\nNeurological\nPinprick sensation intact in the 3rd and 4th fingers on the right hand and 4th and 5th fingers on the left hand. Reflexes are 1+ and symmetric, 2+ knees. Toes down going bilaterally. Tinel\u2019s sign positive at both wrists and elbows.\n\nASSESSMENT\n\n\u2022 Bilateral carpal tunnel syndrome\nMr. Cook is a 60-year-old male referred today for evaluation of numbness and tingling of both hands. His symptom presentation and exam findings today suggest this is bilateral carpal tunnel syndrome or, potentially, this could also be bilateral cubital tunnel syndrome.\n\nPLAN\n\nDiagnosis discussed with patient, I explained that the nerves in his wrists are aggravated by the past trauma causing the pain and tingling. Further testing is indicated to measure the responsiveness of the nerves to determine exactly where the nerve irritation is coming from. We will plan for a follow-up visit after the EMG testing is performed. If still symptomatic, we can consider a referral to our Hand Clinic possibly for injections or carpal tunnel release surgery. We could also refer to an orthopedist for the same treatment.\n\nINSTRUCTIONS\n\nFollow-up after EMG testing.",
+  "gold_sections": {
+    "CC": "Numbness and tingling of both hands.",
+    "HPI": "Elijah Cook is a 60-year-old male referred today for evaluation of numbness and tingling of both hands.\n\nThe patient complains of numbness, tingling, and pain in both hands which began in 12/2019 after he broke both wrists in a motor vehicle accident and which has progressively worsened since then. He continues to wear a splint on the right wrist all the time and on the left only intermittently, which he states is because the right wrist was injured more severely in the accident. The sensation radiates from the hands into the forearms and is equal bilaterally. The 4th and 5th fingers in the left hand and 3rd and 4th on the right-hand tingle. He states that his fingers are sore with palpation and seem weaker than before. Any exertion exacerbates the tingling, and after something exacerbates the pain, the tingling seems \"dull\". The symptoms come and go and seem to occur mostly at night. He denies complete loss of sensation in any of his fingers, but states that they seem less sensitive than they should be. He reports mild stiffness in his neck. He notes that he did hit his head during the car accident and was diagnosed with a contusion. He states that he has been given \"nerve pain medicine\u201d but has not been taking it.\n\nHe currently takes Coreg for his hypertension and Lexapro for his anxiety. He reports a history of prediabetes, which he has brought under control via dietary changes. He denies any history of thyroid issues.",
+    "ROS": "\u2022 Constitutional Symptoms: Easily fatigued, weight gain.\n\u2022 Eyes: Floaters.\n\u2022 Cardiovascular: Bilateral peripheral edema.\n\u2022 Respiratory: Shortness of breath.\n\u2022 Gastrointestinal: Excessive appetite, abdominal bloating.\n\u2022 Musculoskeletal: Gout, muscle pain.\n\u2022 Integumentary: Dry itchy skin, nail bed changes.\n\u2022 Endocrine: Excessive hunger.",
+    "PHYSICAL_EXAM": "Neurological\nPinprick sensation intact in the 3rd and 4th fingers on the right hand and 4th and 5th fingers on the left hand. Reflexes are 1+ and symmetric, 2+ knees. Toes down going bilaterally. Tinel\u2019s sign positive at both wrists and elbows.",
+    "ASSESSMENT": "\u2022 Bilateral carpal tunnel syndrome\nMr. Cook is a 60-year-old male referred today for evaluation of numbness and tingling of both hands. His symptom presentation and exam findings today suggest this is bilateral carpal tunnel syndrome or, potentially, this could also be bilateral cubital tunnel syndrome.",
+    "PLAN": "Diagnosis discussed with patient, I explained that the nerves in his wrists are aggravated by the past trauma causing the pain and tingling. Further testing is indicated to measure the responsiveness of the nerves to determine exactly where the nerve irritation is coming from. We will plan for a follow-up visit after the EMG testing is performed. If still symptomatic, we can consider a referral to our Hand Clinic possibly for injections or carpal tunnel release surgery. We could also refer to an orthopedist for the same treatment.",
+    "INSTRUCTIONS": "Follow-up after EMG testing."
+  },
+  "n_patient_turns": 18,
+  "n_clinician_turns": 24,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 18873.697370290756,
+      "response_text": "I understand how frustrating and uncomfortable the numbness and tingling in your hands must be, especially since it started after your accident. It\u2019s important that we get to the bottom of this, so we\u2019ve planned an EMG test to better understand what\u2019s going on with your nerves. This will help us tailor the best treatment plan for you.\n\nIn the meantime, please keep wearing your splints as they seem to help. We\u2019ll explore all options together, whether it\u2019s adjusting your medication, therapy, or possibly other treatments. If you have any questions or concerns before your test, feel free to reach out. Let\u2019s work on getting you back to feeling your best.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 22154.392041265965,
+      "response_text": "Thank you for sharing all of this with me, Mr. Cook. It sounds like the numbness and tingling in your hands have been quite bothersome, especially since your car accident last December. I can understand how frustrating it must be to deal with these symptoms, especially when they interfere with your daily activities and haven't improved as you hoped.\n\nGiven your history and the examination findings, we're considering that you might have bilateral carpal tunnel syndrome or cubital tunnel syndrome. To get a clearer picture, we'll schedule you for an EMG test, which will help us pinpoint exactly where the nerve irritation is occurring [PMID ?]. This is an important step to guide the next steps in your care.\n\nIn the meantime, please continue wearing your splints as they provide some support. After the EMG results are in, we'll discuss further options, which may include seeing a specialist or exploring treatment options like injections or surgery. We'll also review your nerve pain medication to see if adjusting it might help alleviate your symptoms.\n\nBefore you leave today, could you summarize what we've discussed so far? This will help ensure you understand the plan and feel comfortable moving forward. We'll follow up in about two weeks to check in on your progress and go from there.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 10330.986358225346,
+      "response_text": "It sounds like you've been having a tough time with the numbness and tingling in your hands, especially since your car accident last December. I understand how frustrating and uncomfortable that must be.\n\nWe'll schedule a nerve test, called an EMG, to figure out exactly where the nerve irritation is coming from. This will help us determine the best next steps for your treatment.\n\nPlease continue wearing your splints as instructed and keep track of how your symptoms change in the meantime.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again after the EMG results are in. In the meantime, if the numbness or tingling gets worse or if you experience any new symptoms like severe pain or weakness, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you've been having a tough time with the numbness and tingling in your hands, especially since your car accident last December. I understand how frustrating and uncomfortable that must be.",
+        "clinical_information_per_concern": [],
+        "next_steps": [
+          "We'll schedule a nerve test, called an EMG, to figure out exactly where the nerve irritation is coming from. This will help us determine the best next steps for your treatment.",
+          "Please continue wearing your splints as instructed and keep track of how your symptoms change in the meantime."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again after the EMG results are in. In the meantime, if the numbness or tingling gets worse or if you experience any new symptoms like severe pain or weakness, please call us right away.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 574480.0963923335,
+      "response_text": "Thank you for sharing all these concerns with me. It sounds like you're experiencing a lot of different symptoms since the car accident, and I want to make sure we address each one carefully.\n\nNumbness and tingling can be caused by various issues, and since it started after the car accident, we should consider it carefully. We'll need to look into possible causes together.\n\nWrist pain that's worse at night and hasn't improved with the splint might need further evaluation. We'll work on understanding what's causing it.\n\nNeck stiffness can be related to many things, including muscle tension or something more serious. We'll keep an eye on it as we go through other symptoms.\n\nFatigue can be a sign of many different health issues. We'll explore possible causes together to figure out what's going on.\n\nUnexplained weight gain can be concerning. We'll look into potential causes, especially since it's been a noticeable change.\n\nFeeling hungry all the time might be related to your hormones or other underlying issues. We'll investigate this as part of our evaluation.\n\nBloating can be caused by a variety of factors, including dietary issues or gastrointestinal problems. We'll keep track of how this progresses.\n\nFloaters in the eyes can sometimes indicate a serious condition, so it's important to monitor and discuss any changes you notice.\n\nShortness of breath can be a sign of heart or lung issues. We'll assess this symptom carefully as part of your overall health evaluation.\n\nSwelling in the legs could be related to heart, kidney, or circulatory issues. We'll need to look into this further.\n\nFeeling hungry all the time might be linked to hormonal changes or other health conditions. We'll explore this as part of our assessment.\n\nChanges in your nail beds can sometimes indicate underlying health issues. We'll keep an eye on this and discuss any new developments.\n\nDryness can be a symptom of various conditions, including skin issues or dehydration. We'll address this as we go through your concerns.\n\nItching can be caused by skin conditions, allergies, or other systemic issues. We'll work on identifying the cause together.\n\nImproving your symptoms is our main goal. We'll create a plan together to address each concern step by step.\n\nWe'll start by scheduling some tests to get a better understanding of what's going on with your numbness and tingling.\n\nWe'll also look into your wrist pain further and see if we need additional imaging or specialist consultation.\n\nFor your neck stiffness, we'll monitor it and consider physical therapy options if needed.\n\nWe'll assess your fatigue and explore possible causes, including reviewing your current medications.\n\nYour weight gain and excessive appetite will be evaluated to rule out any hormonal imbalances or other conditions.\n\nWe'll keep track of your bloating and floaters in your eyes, and let me know if they worsen or change.\n\nWe'll evaluate your shortness of breath and leg swelling to ensure there are no serious underlying issues.\n\nWe'll address your always hungry feeling and nail bed changes as part of our comprehensive assessment.\n\nWe'll work on improving your dryness and itching with appropriate skincare recommendations.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 2 weeks. In the meantime, keep track of any new symptoms or changes in your current symptoms and let me know if anything gets worse.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing all these concerns with me. It sounds like you're experiencing a lot of different symptoms since the car accident, and I want to make sure we address each one carefully.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "numbness and tingling",
+            "profile_path": "problems[0]",
+            "explanation": "Numbness and tingling can be caused by various issues, and since it started after the car accident, we should consider it carefully. We'll need to look into possible causes together.",
+            "citations": []
+          },
+          {
+            "concern_label": "wrist pain",
+            "profile_path": "problems[1]",
+            "explanation": "Wrist pain that's worse at night and hasn't improved with the splint might need further evaluation. We'll work on understanding what's causing it.",
+            "citations": []
+          },
+          {
+            "concern_label": "mild stiffness in neck",
+            "profile_path": "problems[2]",
+            "explanation": "Neck stiffness can be related to many things, including muscle tension or something more serious. We'll keep an eye on it as we go through other symptoms.",
+            "citations": []
+          },
+          {
+            "concern_label": "fatigue",
+            "profile_path": "problems[3]",
+            "explanation": "Fatigue can be a sign of many different health issues. We'll explore possible causes together to figure out what's going on.",
+            "citations": []
+          },
+          {
+            "concern_label": "weight gain",
+            "profile_path": "problems[4]",
+            "explanation": "Unexplained weight gain can be concerning. We'll look into potential causes, especially since it's been a noticeable change.",
+            "citations": []
+          },
+          {
+            "concern_label": "excessive appetite",
+            "profile_path": "problems[5]",
+            "explanation": "Feeling hungry all the time might be related to your hormones or other underlying issues. We'll investigate this as part of our evaluation.",
+            "citations": []
+          },
+          {
+            "concern_label": "bloating",
+            "profile_path": "problems[6]",
+            "explanation": "Bloating can be caused by a variety of factors, including dietary issues or gastrointestinal problems. We'll keep track of how this progresses.",
+            "citations": []
+          },
+          {
+            "concern_label": "floaters in eyes",
+            "profile_path": "problems[7]",
+            "explanation": "Floaters in the eyes can sometimes indicate a serious condition, so it's important to monitor and discuss any changes you notice.",
+            "citations": []
+          },
+          {
+            "concern_label": "shortness of breath",
+            "profile_path": "problems[8]",
+            "explanation": "Shortness of breath can be a sign of heart or lung issues. We'll assess this symptom carefully as part of your overall health evaluation.",
+            "citations": []
+          },
+          {
+            "concern_label": "leg swelling",
+            "profile_path": "problems[9]",
+            "explanation": "Swelling in the legs could be related to heart, kidney, or circulatory issues. We'll need to look into this further.",
+            "citations": []
+          },
+          {
+            "concern_label": "always hungry",
+            "profile_path": "problems[10]",
+            "explanation": "Feeling hungry all the time might be linked to hormonal changes or other health conditions. We'll explore this as part of our assessment.",
+            "citations": []
+          },
+          {
+            "concern_label": "nail bed changes",
+            "profile_path": "problems[11]",
+            "explanation": "Changes in your nail beds can sometimes indicate underlying health issues. We'll keep an eye on this and discuss any new developments.",
+            "citations": []
+          },
+          {
+            "concern_label": "dryness",
+            "profile_path": "problems[12]",
+            "explanation": "Dryness can be a symptom of various conditions, including skin issues or dehydration. We'll address this as we go through your concerns.",
+            "citations": []
+          },
+          {
+            "concern_label": "itching",
+            "profile_path": "problems[13]",
+            "explanation": "Itching can be caused by skin conditions, allergies, or other systemic issues. We'll work on identifying the cause together.",
+            "citations": []
+          },
+          {
+            "concern_label": "improve symptoms",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Improving your symptoms is our main goal. We'll create a plan together to address each concern step by step.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll start by scheduling some tests to get a better understanding of what's going on with your numbness and tingling.",
+          "We'll also look into your wrist pain further and see if we need additional imaging or specialist consultation.",
+          "For your neck stiffness, we'll monitor it and consider physical therapy options if needed.",
+          "We'll assess your fatigue and explore possible causes, including reviewing your current medications.",
+          "Your weight gain and excessive appetite will be evaluated to rule out any hormonal imbalances or other conditions.",
+          "We'll keep track of your bloating and floaters in your eyes, and let me know if they worsen or change.",
+          "We'll evaluate your shortness of breath and leg swelling to ensure there are no serious underlying issues.",
+          "We'll address your always hungry feeling and nail bed changes as part of our comprehensive assessment.",
+          "We'll work on improving your dryness and itching with appropriate skincare recommendations."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 2 weeks. In the meantime, keep track of any new symptoms or changes in your current symptoms and let me know if anything gets worse.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 15,
+        "n_medications": 2,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 1,
+        "problems": [
+          "numbness and tingling",
+          "wrist pain",
+          "mild stiffness in neck",
+          "fatigue",
+          "weight gain",
+          "excessive appetite",
+          "bloating",
+          "floaters in eyes",
+          "shortness of breath",
+          "leg swelling",
+          "always hungry",
+          "nail bed changes",
+          "dryness",
+          "itching",
+          "mild stiffness in neck"
+        ],
+        "medications": [
+          "Coreg",
+          "Lexapro"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 350095.2277556062,
+      "response_text": "Thank you for sharing all these concerns with me. It sounds like you're experiencing a variety of symptoms that are affecting your daily life.\n\nNumbness and tingling can be caused by various issues, including nerve-related problems or circulation concerns. We'll need to look into this further to understand what's going on.\n\nWrist pain can be due to repetitive strain or underlying issues like arthritis. Since you've tried wearing a splint without much improvement, we should consider other possible causes.\n\nNeck stiffness might be related to muscle tension or could indicate a problem with your posture or alignment. It's important to assess this to see if it's connected to your other symptoms.\n\nArm weakness and soreness could be linked to nerve compression or muscle issues. We'll need to evaluate this to determine the best course of action.\n\nNerve pain can be challenging to manage, and it's important to identify the root cause. The medication you're taking might help, but we should monitor its effectiveness.\n\nWe'll schedule some tests to get a better understanding of what's causing these symptoms.\n\nWe'll also review your current medications to see if they're effectively managing your pain.\n\nA follow-up appointment is planned to discuss the results and next steps.\n\nI want to make sure I've explained everything clearly. Can you summarize what we'll be doing next?\n\nLet's plan to meet again in two weeks to review the test results. If any symptoms worsen or if you experience anything new, please reach out sooner.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing all these concerns with me. It sounds like you're experiencing a variety of symptoms that are affecting your daily life.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "numbness and tingling",
+            "profile_path": "problems[0]",
+            "explanation": "Numbness and tingling can be caused by various issues, including nerve-related problems or circulation concerns. We'll need to look into this further to understand what's going on.",
+            "citations": []
+          },
+          {
+            "concern_label": "wrist pain",
+            "profile_path": "problems[1]",
+            "explanation": "Wrist pain can be due to repetitive strain or underlying issues like arthritis. Since you've tried wearing a splint without much improvement, we should consider other possible causes.",
+            "citations": []
+          },
+          {
+            "concern_label": "neck stiffness",
+            "profile_path": "problems[2]",
+            "explanation": "Neck stiffness might be related to muscle tension or could indicate a problem with your posture or alignment. It's important to assess this to see if it's connected to your other symptoms.",
+            "citations": []
+          },
+          {
+            "concern_label": "arm weakness and soreness",
+            "profile_path": "problems[3]",
+            "explanation": "Arm weakness and soreness could be linked to nerve compression or muscle issues. We'll need to evaluate this to determine the best course of action.",
+            "citations": []
+          },
+          {
+            "concern_label": "nerve pain",
+            "profile_path": "problems[4]",
+            "explanation": "Nerve pain can be challenging to manage, and it's important to identify the root cause. The medication you're taking might help, but we should monitor its effectiveness.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll schedule some tests to get a better understanding of what's causing these symptoms.",
+          "We'll also review your current medications to see if they're effectively managing your pain.",
+          "A follow-up appointment is planned to discuss the results and next steps."
+        ],
+        "teach_back_prompt": "I want to make sure I've explained everything clearly. Can you summarize what we'll be doing next?",
+        "follow_up_invitation": "Let's plan to meet again in two weeks to review the test results. If any symptoms worsen or if you experience anything new, please reach out sooner.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 5,
+        "n_medications": 2,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "numbness and tingling",
+          "wrist pain",
+          "neck stiffness",
+          "arm weakness and soreness",
+          "nerve pain"
+        ],
+        "medications": [
+          "Coreg",
+          "Lexapro"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 292291.6091606021,
+        "module_2_retrieval": 1522.7173790335655,
+        "module_3_reasoning": 34555.805906653404,
+        "module_4_response": 21723.790615797043,
+        "total_ms": 350093.9230620861
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

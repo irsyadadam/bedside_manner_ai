@@ -1,0 +1,280 @@
+{
+  "transcript_id": "aci_virtscribe_D2N184",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "hi , how are you doing ?",
+  "patient_utterances": [
+    "[Clinician asked: \"hello !\"] hi , how are you doing ?",
+    "[Clinician asked: \"good , how are you ?\"] i'm all right .",
+    "[Clinician asked: \"how's the knee treating you ?\"] it's good .",
+    "[Clinician asked: \"good . any problems ?\"] no , no problems , uh , just still the numbness on this side .",
+    "[Clinician asked: \"okay . that area of numbness will get smaller as the nerves that innervate the skin across the knee heal .\"] right . okay .",
+    "[Clinician asked: \"so lem me take a look at your right knee .\"] sure .",
+    "[Clinician asked: \"all right , and relax for me . good . all right , and bend . good . that looks good . um , the incision looks nice .\"] mm-hmm .",
+    "[Clinician asked: \"let's look at your x-rays . uh , they look good . so here's what you got going on in there . uh , it looks good . everything's lined up nicely . um , that's looking at it from the front . and this is looking at it from the side . and then this was underneath your kneecap , but we did n't do anything\"] okay . i'm so happy with how the surgery went . i have no pain .",
+    "[Clinician asked: \"yeah , you know , you're still early in your recovery , so i expect you to get even better than what you are now . um , so keep doing your pt to work on your strength , range of motion , and endurance .\"] okay , will do .",
+    "[Clinician asked: \"you're probably still gon na have aches and pains occasionally . i usually tell people it's two or three months before you feel like you're back to yourself again , so you're doing really well .\"] okay . that's really good to know . thank you .",
+    "[Clinician asked: \"yeah , let's plan to talk again in six weeks . so if you stop at the desk on your way out today , they're going to get you set up for a telemedicine visit . and that visit'll just be to check in and see how you're doing and make sure things are progressing okay .\"] sure , okay . and can i ask you about work before i go ?",
+    "[Clinician asked: \"sure .\"] well , as you know , i work for ups , and i'm not able to go back yet because of going up and down steps with the position i have . however , they're asking me to come back to work where i can sit for the shift with breaks .",
+    "[Clinician asked: \"okay . i , i do n't want you lifting greater than five or 10 pounds , and no standing or sitting longer than a half an hour . uh , usually that means you ca n't do a ups job .\"] all right . so would you write a note to excuse me for another six weeks ?",
+    "[Clinician asked: \"sure . i'll have my nurse anna give it to you .\"] that's great . thank you .",
+    "[Clinician asked: \"okay , so we'll talk again in six weeks , and we can discuss your job again at that time .\"] sounds good .",
+    "[Clinician asked: \"yeah , those , um , are the types of , of jobs that take a good three months until you're kind of ready to get back to doing that kind of labor-intensive work .\"] okay , and driving now ?",
+    "[Clinician asked: \"uh , we have plenty of data that says normal reflex time is returned at six weeks , and then your return to driving is determined by when you're ready and feel safe to be driving .\"] okay .",
+    "[Clinician asked: \"yeah . so hang tight . anna will bring that note back in to you , and we'll talk in six weeks .\"] all right , that sounds good .",
+    "[Clinician asked: \"uh , but keep working hard on , on pt in the meantime though .\"] i definitely will . thank you .",
+    "[Clinician asked: \"all right , have a good rest of your day .\"] you as well ."
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\n6 weeks postoperative follow up.\n\nHISTORY OF PRESENT ILLNESS\n\nMs. Stephanie Morales is a 44-year-old female seen in clinic today in postoperative follow up, 6 weeks status post right medial knee unicompartmental arthroplasty.\n\nOverall, the patient reports that she is doing well but does experience some numbness on the lateral aspect of her knee. She states she participates in home physical therapy. The patient denies any pain but does not feel she is able to return to work just yet, due to her physical job requirements at UPS.\n\nPHYSICAL EXAM\n\nDetailed Exam:\nGait: Antalgic.\nLimp: Slight.\nVelocity of gait: Slight.\nAssistive Device: None.\n\nRIGHT Knee Evaluation\nSkin: Healed surgical scar.\nSwelling: Mild swelling.\nMaximum Tenderness: Along incision.\nExtension: 0 degrees.\nFlexion: 120 degrees.\n\nRESULTS\n\nRadiographs taken today, 3 views of the right knee, demonstrate implants in stable position without evidence of loosening or early complication.\n\nASSESSMENT\n\n\u2022 Status post right medial knee unicompartmental arthroplasty.\n\nMs. Stephanie Morales is a 44-year-old female seen in clinic today in postoperative follow up, 6 weeks status post right medial knee unicompartmental arthroplasty. Overall, the patient is healing well and will continue to improve as she heals.\n\nPLAN\n\nThe patient and I reviewed their imaging and clinical findings today. I had a discussion with Ms. Morales regarding her right knee and answered all of her questions. I explained the numbness she experiences is normal and will improve over time. I encouraged the patient to continue attending physical therapy, improving her strength, range of motion, and endurance. I noted it may take 2 to 3 months for her to feel like she is back to herself. All questions and concerns were answered during today's visit.\n\nNote provided for her employer stating: She is unable to return to work for another 6 weeks due to restrictions in lifting greater than 5 or 10 pounds and standing or sitting longer than half an hour. I explained it takes 3 months to return to a labor-intensive job.\n\nINSTRUCTIONS\n\nResume driving when feel ready to do so.\nFollow up with me in 6 weeks for a telemedicine visit.",
+  "gold_sections": {
+    "CC": "6 weeks postoperative follow up.",
+    "HPI": "Ms. Stephanie Morales is a 44-year-old female seen in clinic today in postoperative follow up, 6 weeks status post right medial knee unicompartmental arthroplasty.\n\nOverall, the patient reports that she is doing well but does experience some numbness on the lateral aspect of her knee. She states she participates in home physical therapy. The patient denies any pain but does not feel she is able to return to work just yet, due to her physical job requirements at UPS.",
+    "PHYSICAL_EXAM": "Detailed Exam:\nGait: Antalgic.\nLimp: Slight.\nVelocity of gait: Slight.\nAssistive Device: None.\n\nRIGHT Knee Evaluation\nSkin: Healed surgical scar.\nSwelling: Mild swelling.\nMaximum Tenderness: Along incision.\nExtension: 0 degrees.\nFlexion: 120 degrees.",
+    "RESULTS": "Radiographs taken today, 3 views of the right knee, demonstrate implants in stable position without evidence of loosening or early complication.",
+    "ASSESSMENT": "\u2022 Status post right medial knee unicompartmental arthroplasty.\n\nMs. Stephanie Morales is a 44-year-old female seen in clinic today in postoperative follow up, 6 weeks status post right medial knee unicompartmental arthroplasty. Overall, the patient is healing well and will continue to improve as she heals.",
+    "PLAN": "The patient and I reviewed their imaging and clinical findings today. I had a discussion with Ms. Morales regarding her right knee and answered all of her questions. I explained the numbness she experiences is normal and will improve over time. I encouraged the patient to continue attending physical therapy, improving her strength, range of motion, and endurance. I noted it may take 2 to 3 months for her to feel like she is back to herself. All questions and concerns were answered during today's visit.\n\nNote provided for her employer stating: She is unable to return to work for another 6 weeks due to restrictions in lifting greater than 5 or 10 pounds and standing or sitting longer than half an hour. I explained it takes 3 months to return to a labor-intensive job.",
+    "INSTRUCTIONS": "Resume driving when feel ready to do so.\nFollow up with me in 6 weeks for a telemedicine visit."
+  },
+  "n_patient_turns": 20,
+  "n_clinician_turns": 24,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 22082.83956348896,
+      "response_text": "Hi [Patient's Name],\n\nI hope you're doing well today. It sounds like your knee surgery is healing nicely, and I'm glad to hear you're experiencing no pain. The numbness you're feeling is normal as the nerves continue to heal, and it\u2019s great that you\u2019re noticing improvements.\n\nRegarding your work, I completely understand your concerns. Given the restrictions we discussed, such as avoiding lifting heavy items and limiting prolonged sitting or standing, it\u2019s important to take it slow. I\u2019ve already noted your request for an extension, and I\u2019ll make sure to provide that. As for driving, while your reflexes may return around six weeks, it\u2019s crucial to feel fully ready and comfortable before getting back behind the wheel.\n\nPlease keep up the excellent progress with your physical therapy. It\u2019s a key part of your recovery. Take it one day at a time and celebrate each small victory. I\u2019m looking forward to seeing you in six weeks and discussing your progress then.\n\nWishing you all the best,\n\n[Your Name]  \n[Your Title]",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 22652.411550283432,
+      "response_text": "Thank you for sharing your concerns and progress with me. It's clear how relieved and happy you are with your surgery results, and it's great to hear that you're managing well without pain. I can understand your concerns about returning to work too soon, especially given the physical demands of your job at UPS. It's important to take the necessary precautions to ensure a full recovery.\n\nGiven the data we have [PMID ?], it's recommended to avoid lifting more than 5-10 pounds and limit standing or sitting for extended periods. These restrictions are in place to protect your knee during the healing phase. I understand this must be challenging, and I want to make sure you have the support you need. That's why I'll have Anna provide a note excusing you for another six weeks, allowing you to focus on your recovery without work-related strain.\n\nIn the meantime, continue your physical therapy to build strength and range of motion. At your next visit in six weeks, we can reassess your progress and discuss your return to work. Before you leave, could you summarize our plan for me? This will help ensure you're clear on the next steps.\n\nPlease take care and let us know if you have any further questions or concerns. Drive safely, and when you feel ready, return to driving, keeping in mind your reflex times should be back to normal by six weeks [PMID ?]. We're here to support you through this recovery journey.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7467.698872089386,
+      "response_text": "It sounds like your surgery went well, and you're doing well with no pain. That's great to hear!\n\nWe'll schedule a follow-up visit in six weeks to check on your progress and discuss any questions you might have in the meantime.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in six weeks. In the meantime, if you have any new concerns or questions, please reach out.",
+      "structured_response": {
+        "acknowledgment": "It sounds like your surgery went well, and you're doing well with no pain. That's great to hear!",
+        "clinical_information_per_concern": [],
+        "next_steps": [
+          "We'll schedule a follow-up visit in six weeks to check on your progress and discuss any questions you might have in the meantime."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in six weeks. In the meantime, if you have any new concerns or questions, please reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 152665.2267947793,
+      "response_text": "It sounds like you're here because you're experiencing numbness that's been ongoing, and you're aiming to return to work. I want to understand how this numbness is affecting your daily life and your ability to work.\n\nNumbness can be caused by a variety of issues, and it's important to figure out what's going on. Since we don't have specific guidelines for this exact situation, we'll work together to explore possible causes and next steps.\n\nWe'll focus on understanding how your current symptoms are impacting your ability to work and what steps we can take to help you get back to your normal routine.\n\nWe'll start by gathering more information about your symptoms and medical history to better understand what might be causing the numbness.\n\nOnce we have a clearer picture, we'll discuss a plan to address your symptoms and support your goal of returning to work.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to check in again in a week. If your symptoms change or worsen in the meantime, please reach out so we can adjust our approach.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're here because you're experiencing numbness that's been ongoing, and you're aiming to return to work. I want to understand how this numbness is affecting your daily life and your ability to work.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "numbness",
+            "profile_path": "problems[0]",
+            "explanation": "Numbness can be caused by a variety of issues, and it's important to figure out what's going on. Since we don't have specific guidelines for this exact situation, we'll work together to explore possible causes and next steps.",
+            "citations": []
+          },
+          {
+            "concern_label": "return to work",
+            "profile_path": "patient_goals[0]",
+            "explanation": "We'll focus on understanding how your current symptoms are impacting your ability to work and what steps we can take to help you get back to your normal routine.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll start by gathering more information about your symptoms and medical history to better understand what might be causing the numbness.",
+          "Once we have a clearer picture, we'll discuss a plan to address your symptoms and support your goal of returning to work."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to check in again in a week. If your symptoms change or worsen in the meantime, please reach out so we can adjust our approach.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 1,
+        "problems": [
+          "numbness"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 224666.4412766695,
+      "response_text": "Thank you for your gratitude. I understand that you're dealing with numbness that's been continuing, and you have goals to return to work and seek an excuse for additional time off.\n\nNumbness can be caused by various issues, and it's important to identify the underlying cause. We'll need to explore this further to understand what might be contributing to it.\n\nTo help you return to work, we'll need to address the numbness and any underlying health issues that might be affecting your ability to work. This might involve further evaluation and a tailored plan.\n\nWe'll work with you to provide the necessary documentation for your request. This may involve confirming your condition and treatment plan with your employer.\n\nWe'll schedule a follow-up visit to discuss the numbness and explore potential causes.\n\nWe'll work together to create a plan to help you return to work in a modified capacity.\n\nWe'll prepare the necessary documentation for your request for an excuse from work.\n\nCan you summarize what we discussed today and what we'll do next?\n\nLet's plan to meet again in two weeks to review your progress and any new developments. In the meantime, if your symptoms change or worsen, please reach out as soon as possible.",
+      "structured_response": {
+        "acknowledgment": "Thank you for your gratitude. I understand that you're dealing with numbness that's been continuing, and you have goals to return to work and seek an excuse for additional time off.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "numbness",
+            "profile_path": "problems[0]",
+            "explanation": "Numbness can be caused by various issues, and it's important to identify the underlying cause. We'll need to explore this further to understand what might be contributing to it.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[2]::41092546_0",
+                "primary_assertion_id": "41092546_0",
+                "pmids": [
+                  "41092546"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "return to work in a modified capacity",
+            "profile_path": "patient_goals[0]",
+            "explanation": "To help you return to work, we'll need to address the numbness and any underlying health issues that might be affecting your ability to work. This might involve further evaluation and a tailored plan.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::sub_query[2]::41092546_1",
+                "primary_assertion_id": "41092546_1",
+                "pmids": [
+                  "41092546"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "excuse from work for another six weeks",
+            "profile_path": "patient_goals[1]",
+            "explanation": "We'll work with you to provide the necessary documentation for your request. This may involve confirming your condition and treatment plan with your employer.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[3]::40155879_0",
+                "primary_assertion_id": "40155879_0",
+                "pmids": [
+                  "40155879"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll schedule a follow-up visit to discuss the numbness and explore potential causes.",
+          "We'll work together to create a plan to help you return to work in a modified capacity.",
+          "We'll prepare the necessary documentation for your request for an excuse from work."
+        ],
+        "teach_back_prompt": "Can you summarize what we discussed today and what we'll do next?",
+        "follow_up_invitation": "Let's plan to meet again in two weeks to review your progress and any new developments. In the meantime, if your symptoms change or worsen, please reach out as soon as possible.",
+        "nurse_elements_applied": [
+          "Name",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[2]::41092546_0",
+          "recommendation::sub_query[2]::41092546_1",
+          "finding::sub_query[3]::40155879_0"
+        ],
+        "all_pmids_used": [
+          "41092546",
+          "40155879"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 2,
+        "problems": [
+          "numbness"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "41092546",
+        "40155879"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[2]::41092546_0",
+        "recommendation::sub_query[2]::41092546_1",
+        "finding::sub_query[3]::40155879_0"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 145144.31038498878,
+        "module_2_retrieval": 996.4349046349525,
+        "module_3_reasoning": 50004.27585840225,
+        "module_4_response": 28520.30935883522,
+        "total_ms": 224665.3305068612
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

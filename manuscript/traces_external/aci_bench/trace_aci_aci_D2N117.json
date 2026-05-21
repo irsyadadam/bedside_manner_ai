@@ -1,0 +1,201 @@
+{
+  "transcript_id": "aci_aci_D2N117",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "yeah that sounds great",
+  "patient_utterances": [
+    "[Clinician asked: \"mister jackson is a 45 -year-old male who has a history of diabetes type two and mild intermittent asthma and he is here today with right elbow pain so hey there mark nice to see you again listen sorry you're having some elbow pain let's talk about it but i would like to record this conversation wit\"] yeah that sounds great",
+    "[Clinician asked: \"okay great so mark tell me about your right elbow pain what's been happening\"] so yeah i've been playing a lot of tennis recently buddy of mine you know you're always telling me to get off the couch and be more active so a buddy of mine asked me if i wanted to go play tennis he just joined a country club i've been hitting hitting the cord a lot more and it's just been killing me for the last three weeks or so",
+    "[Clinician asked: \"okay alright and where in your elbow is it hurting\"] outside part",
+    "[Clinician asked: \"hmmm okay does the pain radiate anywhere like down to your arm up to your shoulder or anywhere else\"] no it does n't",
+    "[Clinician asked: \"okay and what would you say the pain is you know on a scale of zero to ten\"] it's probably an eight when i'm just when i'm using it even if it's to get something out of the cupboard and it's a three when i'm just kinda resting",
+    "[Clinician asked: \"hmmm okay and do you would you say it's a sharp pain stabbing pain aching throbbing how would you describe it\"] all of the above shooting stabbing very sharp",
+    "[Clinician asked: \"okay alright and you let's see other than the the tennis you know increase in tennis activity you have n't had any trauma recently falling on it or you know felt a pop anywhere or anything like that have you\"] not that i can recall",
+    "[Clinician asked: \"okay and and you said it's it's worse with movement better with rest is there anything else that makes it makes it worse or makes it better\"] i've taken some tylenol and ibuprofen but as soon as those wear off it it comes right back so they do n't really help",
+    "[Clinician asked: \"okay\"] and i did try a little ice i probably should ice it more but i did n't notice it helping much",
+    "[Clinician asked: \"okay okay alright yeah well i definitely i'm glad you're getting some exercise now that's good for your diabetes and all that and out there playing tennis kinda back back to the back to the old days for you right did do i recall that were n't you a big tennis player back in the day like state champ \"] yeah yeah that was a hundred years ago i ca n't i i try to play like that and i ca n't i ca n't do that anymore but yeah a good memory that's a that's a good memory",
+    "[Clinician asked: \"now\"] kind of a tennis guy too right did you see the the australia open",
+    "[Clinician asked: \"i did i did yeah that was that was crazy that was a great tournament what a what a finish unbelievable\"] yeah hey did you see the masters i know you're a golfer",
+    "[Clinician asked: \"yeah yeah yeah i do n't get out as often as i as as i like to but but the masters yeah that was that was amazing that was lot of fun to lot of fun did you catch it too\"] i did",
+    "[Clinician asked: \"yeah\"] yeah",
+    "[Clinician asked: \"yeah\"] but that's it was i i could n't believe tiger went out there of course he did",
+    "[Clinician asked: \"right\"] it was cool to see nothing",
+    "[Clinician asked: \"yep yep agreed agreed and so well listen we'll we'll hopefully get you feeling better here and get you back out on the court and out on the course and we'll talk about that but let's let me ask you about your diabetes a little bit a little bit here so how have your blood sugars been running mark hav\"] they are like one fifty one sixty you know we just had easter and my kids got a whole bunch of candies so i keep eating that",
+    "[Clinician asked: \"hmmm okay yeah yeah understood so those cadboy eggs they'll get you every time too right\"] yes",
+    "[Clinician asked: \"boy my gosh yeah those are the best so those are those are deadly do n't tell my cardiologist so okay so listen you know i see that we have you on metformin five hundred milligrams once a day no actually last visit we increased it so i've got you on metformin five hundred milligrams twice a day corr\"] yes twice a day",
+    "[Clinician asked: \"okay and but your blood sugars are a bit off you know maybe those the cadberry eggs so how about your asthma how has that been doing you know have you had any asthma attacks you're still taking flovent twice a day and the albuterol as needed\"] yeah knock on wood i my asthma is pretty much under control",
+    "[Clinician asked: \"okay excellent excellent alright and i recall you know just kinda review a few things i i think you've got an allergy to penicillin is that correct\"] that's correct yes",
+    "[Clinician asked: \"okay and then you you know your surgical history you had your your gallbladder out what about ten years ago i think by doctor nelson correct\"] yes that's right",
+    "[Clinician asked: \"okay and then let's go ahead and examine you alright so mark your exam is pretty much you know for the most part normal with a few exceptions on your heart exam you still have a grade three out of six systolic ejection murmur and that's unchanged from prior exam we're watching that and so that just \"] kills",
+    "[Clinician asked: \"okay sorry about that so you've got moderate pain with passive range of motion of the right elbow there is no palpable joint effusion and now what if i press against your wrist like so does that hurt you\"] yeah it hurts a little bit",
+    "[Clinician asked: \"okay alright sorry so that's you have mild pain with resisted extension of the right wrist as well okay otherwise normal unremarkable exam and let's talk about your results now so your right elbow x-ray today shows no acute fracture or other bony abnormality so that's good there's no malalignment or\"] no i do n't think so",
+    "[Clinician asked: \"okay great excellent alright so tell you what let's let's talk about my assessment and your plan here so for your first problem my assessment is is that you have acute lateral epicondylitis of your right elbow and this is also known as tennis elbow go figure right so this is due to overuse likely th\"] it sounds pretty good i ca n't believe it's just tennis elbow feel like a looser coming in here but it's okay i get it",
+    "[Clinician asked: \"yeah yeah well\"] i'm not i'm not young anymore",
+    "[Clinician asked: \"yeah well let's let's keep you active but take a break for a bit and let's ease back into it okay so it's great to see you and i'll see you back in four weeks let me know if you have other problems in the meantime\"] okay"
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nRight elbow pain.\n\nMEDICAL HISTORY\n\nPatient reports history of type 2 diabetes and mild intermittent asthma.\n\nSURGICAL HISTORY\n\nPatient reports history of cholecystectomy 10 years ago by Dr. Nelson.\n\nSOCIAL HISTORY\n\nPatient reports he has been playing tennis since high school.\n\nALLERGIES\n\nPatient reports that he has an allergy to PENICILLIN.\n\nMEDICATIONS\n\nPatient reports taking metformin 500 mg twice a day, Flovent twice a day and albuterol as needed.\n\nREVIEW OF SYSTEMS\n\nConstitutional: Denies fever.\nMusculoskeletal: Reports right elbow pain.\n\nPHYSICAL EXAM\n\nCardiovascular\n- Auscultation of Heart: Grade 3 out of 6 systolic ejection murmur, unchanged from prior exam.\n\nMusculoskeletal\n- Examination of the right upper extremity: Moderate lateral epicondylar tenderness. Moderate pain with passive range of motion. No palpable joint effusion. Mild pain with resisted extension of the right wrist.\n\nRESULTS\n\nX-ray of the right elbow taken today is reviewed and shows no acute fracture or other bony abnormality. There is no malalignment or joint effusion. Otherwise normal right elbow x-ray.\n\nASSESSMENT AND PLAN\n\n1. Acute lateral epicondylitis of right elbow.\n- Medical Reasoning: Patient presents today with symptoms consistent with lateral epicondylitis secondary to overuse.\n- Patient Education and Counseling: The nature of the diagnosis was discussed. He was advised that this is like due to increased tennis activity and was encouraged to rest as much as possible. - Medical Treatment: Patient will discontinue playing tennis for the next 4 to 6 weeks, as well as avoid repetitive stress with the right arm. He will apply ice to the elbow for at least 20 minutes 3 times per day to reduce pain and inflammation. Right forearm brace was provided today to help with discomfort. Prescription for Ultram 50 mg once per day was also provided for pain.\n\n2. Diabetes type 2.\n- Medical Reasoning: His blood sugar today is not controlled.\n- Patient Education and Counseling: We discussed that I would like him to take his blood sugars twice a day for the next 2 weeks and to let me know how they are running so we can make additional adjustments if needed.\n- Medical Treatment: He will increase his metformin to 1000 mg twice a day. He will begin home blood sugar monitoring twice a day for the next 2 weeks. Hemoglobin A1c, CBC, and a Chem-12 test were ordered today.\n\n3. Mild acute intermittent asthma.\n- Medical Reasoning: This remains well-controlled.\n- Medical Treatment: The patient will continue his Flovent twice a day. Refill of albuterol provided today to be used as needed.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.\n\nINSTRUCTIONS\n\nThe patient will follow-up in 4 weeks to assess his elbow and to determine if additional imaging or physical therapy is needed.",
+  "gold_sections": {
+    "CC": "Right elbow pain.",
+    "MEDICAL_HISTORY": "Patient reports history of type 2 diabetes and mild intermittent asthma.",
+    "SURGICAL_HISTORY": "Patient reports history of cholecystectomy 10 years ago by Dr. Nelson.",
+    "SOCIAL_HISTORY": "Patient reports he has been playing tennis since high school.",
+    "ALLERGIES": "Patient reports that he has an allergy to PENICILLIN.",
+    "MEDICATIONS": "Patient reports taking metformin 500 mg twice a day, Flovent twice a day and albuterol as needed.",
+    "ROS": "Constitutional: Denies fever.\nMusculoskeletal: Reports right elbow pain.",
+    "PHYSICAL_EXAM": "Cardiovascular\n- Auscultation of Heart: Grade 3 out of 6 systolic ejection murmur, unchanged from prior exam.\n\nMusculoskeletal\n- Examination of the right upper extremity: Moderate lateral epicondylar tenderness. Moderate pain with passive range of motion. No palpable joint effusion. Mild pain with resisted extension of the right wrist.",
+    "RESULTS": "X-ray of the right elbow taken today is reviewed and shows no acute fracture or other bony abnormality. There is no malalignment or joint effusion. Otherwise normal right elbow x-ray.",
+    "ASSESSMENT_PLAN": "1. Acute lateral epicondylitis of right elbow.\n- Medical Reasoning: Patient presents today with symptoms consistent with lateral epicondylitis secondary to overuse.\n- Patient Education and Counseling: The nature of the diagnosis was discussed. He was advised that this is like due to increased tennis activity and was encouraged to rest as much as possible. - Medical Treatment: Patient will discontinue playing tennis for the next 4 to 6 weeks, as well as avoid repetitive stress with the right arm. He will apply ice to the elbow for at least 20 minutes 3 times per day to reduce pain and inflammation. Right forearm brace was provided today to help with discomfort. Prescription for Ultram 50 mg once per day was also provided for pain.\n\n2. Diabetes type 2.\n- Medical Reasoning: His blood sugar today is not controlled.\n- Patient Education and Counseling: We discussed that I would like him to take his blood sugars twice a day for the next 2 weeks and to let me know how they are running so we can make additional adjustments if needed.\n- Medical Treatment: He will increase his metformin to 1000 mg twice a day. He will begin home blood sugar monitoring twice a day for the next 2 weeks. Hemoglobin A1c, CBC, and a Chem-12 test were ordered today.\n\n3. Mild acute intermittent asthma.\n- Medical Reasoning: This remains well-controlled.\n- Medical Treatment: The patient will continue his Flovent twice a day. Refill of albuterol provided today to be used as needed.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.",
+    "INSTRUCTIONS": "The patient will follow-up in 4 weeks to assess his elbow and to determine if additional imaging or physical therapy is needed."
+  },
+  "n_patient_turns": 28,
+  "n_clinician_turns": 28,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 20928.459733724594,
+      "response_text": "Mark, I understand how frustrating it must be to experience this elbow pain, especially when you're trying to stay active and enjoy your hobbies. It's completely understandable that you're concerned, and I want to reassure you that we're on the right track with the diagnosis of tennis elbow. Given your recent increase in tennis activity, it's likely that overuse has strained the tendons in your elbow, leading to this discomfort.\n\nThe plan we've discussed\u2014rest, ice, possibly a brace, and avoiding aggravating activities\u2014is a solid approach to help your elbow heal. It's important to give it the time it needs, especially since you're not as young as you used to be. I know how much you value being active, so taking a brief break now will help you get back to the game you love sooner.\n\nIn the meantime, let's also keep an eye on your blood sugars, given the recent indulgence with the Easter candies. And it's great to hear that your asthma is well-controlled. We'll continue to monitor everything to ensure you're in the best shape possible.\n\nTake care of yourself, and don't hesitate to reach out if you have any concerns before our follow-up in four weeks. You've got this, and I'm confident you'll be back on the court soon.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 24313.796997070312,
+      "response_text": "Mark, I can understand how frustrating this must be for you. Being active and playing tennis is something you enjoy, and having this pain interfere with that can be really disheartening. It\u2019s completely reasonable to feel that way, especially when you were able to play at a high level before.\n\nFrom what you\u2019ve described, it sounds like you have acute lateral epicondylitis, commonly known as tennis elbow. This is a common overuse injury, often caused by repetitive motions like those in tennis. Studies have shown that rest and physical therapy are effective in treating this condition [PMID ?]. I recommend taking a break from tennis for a few weeks to allow your elbow to heal. During this time, focus on gentle stretching and strengthening exercises, and avoid any activities that make the pain worse. Applying ice can also help reduce inflammation.\n\nWe\u2019ll schedule a follow-up in four weeks to reassess your progress. In the meantime, if the pain worsens or if you develop any new symptoms, please don\u2019t hesitate to reach out. I want to make sure you\u2019re on the right track to getting back to your active lifestyle. Could you summarize the plan in your own words so I can ensure you understand everything we discussed?",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6956.786930561066,
+      "response_text": "It sounds like the elbow pain has been quite uncomfortable for you, especially with your increased tennis activity.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 4 weeks. In the meantime, if you get new symptoms like severe pain or if the pain doesn't improve with rest, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "It sounds like the elbow pain has been quite uncomfortable for you, especially with your increased tennis activity.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 4 weeks. In the meantime, if you get new symptoms like severe pain or if the pain doesn't improve with rest, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "error": "1 validation error for PatientConcernProfile\nproblems.0.description\n  Extra inputs are not permitted [type=extra_forbidden, input_value='shooting, stabbing, very sharp', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/extra_forbidden"
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 216305.62536418438,
+      "response_text": "I can hear how much this has been weighing on you \u2014 you said, \"yeah yeah that was a hundred years ago i can't i i try to play like that and i can't i can't do that anymore but yeah a good memory that's a that's a good memory.\" It sounds like this elbow pain is making it hard for you to enjoy the activities you used to love.\n\nThe pain you're experiencing is common, especially with increased activity. We'll focus on managing it with what's been shown to work best, like avoiding things that make it worse and trying gentle exercises to keep your elbow moving.\n\nWe'll start with some simple steps to manage the pain, like avoiding activities that make it worse and trying ice or heat.\n\nIf those don't help, we can explore other options together, like physical therapy or further evaluation.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to check in again in a week or two. If the pain gets worse or you notice anything unusual, like swelling or inability to move your elbow, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this has been weighing on you \u2014 you said, \"yeah yeah that was a hundred years ago i can't i i try to play like that and i can't i can't do that anymore but yeah a good memory that's a that's a good memory.\" It sounds like this elbow pain is making it hard for you to enjoy the activities you used to love.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "right elbow pain",
+            "profile_path": "problems[0]",
+            "explanation": "The pain you're experiencing is common, especially with increased activity. We'll focus on managing it with what's been shown to work best, like avoiding things that make it worse and trying gentle exercises to keep your elbow moving.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[0]::36252245_0",
+                "primary_assertion_id": "36252245_0",
+                "pmids": [
+                  "36252245"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll start with some simple steps to manage the pain, like avoiding activities that make it worse and trying ice or heat.",
+          "If those don't help, we can explore other options together, like physical therapy or further evaluation."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to check in again in a week or two. If the pain gets worse or you notice anything unusual, like swelling or inability to move your elbow, please call us right away.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[0]::36252245_0"
+        ],
+        "all_pmids_used": [
+          "36252245"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 1,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 0,
+        "problems": [
+          "right elbow pain"
+        ],
+        "medications": [
+          "metformin 500 mg twice a day"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [
+        "36252245"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[0]::36252245_0"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 166350.70396214724,
+        "module_2_retrieval": 1011.3036036491394,
+        "module_3_reasoning": 30683.020919561386,
+        "module_4_response": 18259.8979473114,
+        "total_ms": 216304.92643266916
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

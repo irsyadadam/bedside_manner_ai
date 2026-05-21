@@ -1,0 +1,256 @@
+{
+  "transcript_id": "aci_virtassist_D2N134",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "i'm good . how are you ?",
+  "patient_utterances": [
+    "[Clinician asked: \"we're gon na go right to the front- . so when you touch that- hi , michelle , how are you ?\"] i'm good . how are you ?",
+    "[Clinician asked: \"i'm good . so i know the nurse told you about dax . i'd like to dax a little bit about you , okay ?\"] okay .",
+    "[Clinician asked: \"all right . so , michelle is a 31-year-old female with a past medical history of type 2 diabetes and hypertension who presents with abnormal lab finding . so , michelle , it came back to me that you had had a positive long ... lyme titer .\"] yeah .",
+    "[Clinician asked: \"and so , uh , can you , you , you know , can you tell me a little bit about it ? i know the last time i saw you , you had had an insect bite , and you know , it came back positive for lyme . so how are you feeling ?\"] i've been feeling ... i could feel better . um ... i've been feeling tired , um , really lacking a lot of energy , and i have swollen joints in my elbows , just really hurts .",
+    "[Clinician asked: \"okay . all right . and have you had any , any body aches ?\"] yeah , i have .",
+    "[Clinician asked: \"okay . all right . um , and i know that you were out hiking in the woods and , and that type of thing a couple of weeks ago , and we thought that that's where you got the bite . so , um , how's your , how's your appetite ? have you been okay ? a little nauseous ?\"] yeah , i've been a little nauseous . i have n't been able to eat much . i've been trying just to keep , you know , toast and crackers and that's all about i've been able to stomach , really .",
+    "[Clinician asked: \"okay , and , and i know that you had had that , that , uh , bite there . have you noticed any other rash anywhere else ?\"] yeah , i have .",
+    "[Clinician asked: \"okay . all right . sometimes they kind of describe it as looking as like a bull's-eye .\"] yes .",
+    "[Clinician asked: \"is that what it looked like ?\"] mm-hmm .",
+    "[Clinician asked: \"okay . all right . well , um , have you had any , any high fevers ?\"] uh , no , not that i've noticed .",
+    "[Clinician asked: \"all right . um , and how about from a diabetes standpoint ? how ... how's your blood sugar been running ? especially now that you kind of have this , like , acute thing going on ? have your blood sugars been okay ?\"] they've been okay . i've noticed that they sometimes get a little high and a little low . um , but nothing too far out of range .",
+    "[Clinician asked: \"okay . all right . um , and you're still taking the metformin ?\"] yes .",
+    "[Clinician asked: \"okay . all right . good . and then in terms of your high blood pressure , are you monitoring the blood pressures at home ?\"] yeah , i , i have a ... i bought a cuff last year , and i've been , um , taking it myself at home . those have looked good . i've been staying away from the salty foods .",
+    "[Clinician asked: \"mm-hmm .\"] um , so that's been good .",
+    "[Clinician asked: \"okay . and , um , so you're still taking the lisinopril ?\"] yes .",
+    "[Clinician asked: \"okay , great . all right , well , you know , i know that you did the review of systems sheet when you checked in , and i know that you're endorsing some nausea and some joint pain and some body aches . any other symptoms ? abdominal pain ? diarrhea ? anything like that ?\"] no , nothing like that .",
+    "[Clinician asked: \"okay . um , so let's go ahead , and we'll ... i'm gon na do a quick physical exam .\"] okay .",
+    "[Clinician asked: \"hey , dragon , show me the vital signs . so i'm looking here at your vital signs . they look great . you do n't have a fever at that ... at this time , so that's really encouraging . i'm just gon na check you out , and , uh , i'm gon na listen to your heart and lungs and look for any rashes and let \"] okay .",
+    "[Clinician asked: \"okay , so on physical examination , you know , you do have some swelling of your , uh , elbow joints bilaterally . um , does it hurt when i touch them ?\"] yeah , it does .",
+    "[Clinician asked: \"okay , so she has pain to palpation to both elbow joints . um , and on your skin examination , you do have a bull's-eye rash on your , um , abdomen on the left-hand side . um , it's , it's warm to palpation . any pain with that ?\"] no , no pain for that .",
+    "[Clinician asked: \"non-tender to palpation , no evidence of cellulitis . um , and the rest of , you know , the rest of your exam is pretty normal , okay ? so let me just go over some of the results with you , okay ?\"] okay .",
+    "[Clinician asked: \"hey , dragon , show me the lyme titer . so you can see here , you know , in reviewing the results of your lyme titer , it is elevated . so we're gon na go ahead and do some further testing , but we're gon na , you know , we're gon na look into that , okay ?\"] okay .",
+    "[Clinician asked: \"hey , dragon , show me the labs . and in reviewing the results of your labs , everything else looks good . so again , you know , you do n't have an elevated white blood cell count or anything like that . so i think we got this early enough , and we can go ahead and , and treat it , okay ?\"] okay .",
+    "[Clinician asked: \"so i wan na talk a little bit about , you know , my assessment and my plan for you . so for your first problem , this newly diagnosed lyme disease , i wan na go ahead and prescribe you doxycycline , 100 milligrams twice a day . you have to take it for three weeks , okay ?\"] okay .",
+    "[Clinician asked: \"i'm gon na just touch base with an infectious disease doctor to make sure that there's not anything else that we need to do , okay ? and i wan na see you again next week for a follow-up for this , okay ?\"] okay . so for your second problem , your type 2 diabetes , i wan na go ahead and order a hemoglobin a1c and just this ... make sure we do n't have to make any changes to the metformin , okay ?",
+    "okay .",
+    "[Clinician asked: \"hey , dragon , order a hemoglobin a1c . and for your last problem , your high blood pressure . it looks today like everything is fine . i think you're doing a really good job of managing your hypertension , and i'm going to continue you on the lisinopril , 10 milligrams a day , and i'm gon na go ahe\"] okay .",
+    "[Clinician asked: \"all right . do you need a refill of that ?\"] uh , yes , i do .",
+    "[Clinician asked: \"okay . hey , dragon , order lisinopril , 10 milligrams daily . do you have any questions ?\"] no , i do n't .",
+    "[Clinician asked: \"okay , so i'm gon na , you know , the nurse is gon na come in , and she's gon na check you out , and then we'll make a follow-up appointment for you , okay ?\"] okay ."
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nAbnormal labs.\n\nHISTORY OF PRESENT ILLNESS\n\nThe patient is a 31-year-old female with a past medical history significant for type 2 diabetes, and hypertension who presents with abnormal labs. She had an insect bite at her last visit after hiking in the woods. We drew a Lyme titer which came back positive.\n\nThe patient reports she has been feeling tired and lacking a lot of energy. She also notes swollen elbow joints, body aches, bullseye rash, and nausea. She states she has not been able to eat much. What she does eat has been bland foods such as crackers. She denies any high fevers.\n\nRegarding her type 2 diabetes, she states her blood sugars have been okay. She notes they are sometimes a little high or low, but nothing too far out of range. She is still taking metformin.\n\nRegarding her hypertension, she is monitoring her blood pressure at home and it has been good. She is avoiding salty foods and is still taking lisinopril.\n\nThe patient denies abdominal pain and diarrhea.\n\nREVIEW OF SYSTEMS\n\n\u2022 Constitutional: Denies fevers. Endorses fatigue.\n\u2022 Gastrointestinal: Denies abdominal pain and diarrhea. Endorses nausea.\n\u2022 Musculoskeletal: Endorses bilateral elbow joint swelling, pain. Endorses body aches.\n\u2022 Integumentary: Endorses a rash.\n\nPHYSICAL EXAMINATION\n\n\u2022 Gastrointestinal: Examination of her abdomen reveals warmth to palpation. Nontender to palpation. No evidence of cellulitis.\n\u2022 Musculoskeletal: Swelling and pain to palpation of elbow joints bilaterally.\n\u2022 Integumentary: Small bullseye rash on the left abdominal quadrant.\n\nRESULTS\n\nLyme titer: elevated.\n\nLabs: WBC is within normal limits. All other labs are normal as well.\n\nASSESSMENT AND PLAN\n\nThe patient is a 31-year-old female with a past medical history significant for type 2 diabetes, and hypertension who presents with abnormal labs.\n\nNewly diagnosed Lyme disease.\n\u2022 Medical Reasoning: This is a new issue for her. She presented with an insect bite at her last visit, and her subsequent lyme titer was elevated.\n\u2022 Medical Treatment: I am going to prescribe doxycycline 100 mg twice a day for 3 weeks. I am going to touch base with an infectious disease doctor to ensure nothing else that needs to be done. I want to see her again next week for follow-up for this.\n\nHypertension.\n\u2022 Medical Reasoning: This has been well-controlled based on home monitoring. She has been compliant with dietary modifications including limiting her sodium intake.\n\u2022 Additional Testing: I am going to order a lipid panel.\n\u2022 Medical Treatment: She will continue lisinopril 10 mg a day. This was refilled today.\n\u2022 Patient Education and Counseling: I advised the patient to continue to regularly monitor her blood pressures at home.\n\nDiabetes type 2.\n\u2022 Medical Reasoning: She has noticed intermittent elevations of her blood glucose levels but has been compliant with the use of metformin. Her diet has been limited due to nausea in the setting of Lyme disease.\n\u2022 Additional Testing: I am going to order a hemoglobin A1c to ensure no medication changes are needed.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.",
+  "gold_sections": {
+    "CC": "Abnormal labs.",
+    "HPI": "The patient is a 31-year-old female with a past medical history significant for type 2 diabetes, and hypertension who presents with abnormal labs. She had an insect bite at her last visit after hiking in the woods. We drew a Lyme titer which came back positive.\n\nThe patient reports she has been feeling tired and lacking a lot of energy. She also notes swollen elbow joints, body aches, bullseye rash, and nausea. She states she has not been able to eat much. What she does eat has been bland foods such as crackers. She denies any high fevers.\n\nRegarding her type 2 diabetes, she states her blood sugars have been okay. She notes they are sometimes a little high or low, but nothing too far out of range. She is still taking metformin.\n\nRegarding her hypertension, she is monitoring her blood pressure at home and it has been good. She is avoiding salty foods and is still taking lisinopril.\n\nThe patient denies abdominal pain and diarrhea.",
+    "ROS": "\u2022 Constitutional: Denies fevers. Endorses fatigue.\n\u2022 Gastrointestinal: Denies abdominal pain and diarrhea. Endorses nausea.\n\u2022 Musculoskeletal: Endorses bilateral elbow joint swelling, pain. Endorses body aches.\n\u2022 Integumentary: Endorses a rash.",
+    "PHYSICAL_EXAMINATION": "\u2022 Gastrointestinal: Examination of her abdomen reveals warmth to palpation. Nontender to palpation. No evidence of cellulitis.\n\u2022 Musculoskeletal: Swelling and pain to palpation of elbow joints bilaterally.\n\u2022 Integumentary: Small bullseye rash on the left abdominal quadrant.",
+    "RESULTS": "Lyme titer: elevated.\n\nLabs: WBC is within normal limits. All other labs are normal as well.",
+    "ASSESSMENT_PLAN": "The patient is a 31-year-old female with a past medical history significant for type 2 diabetes, and hypertension who presents with abnormal labs.\n\nNewly diagnosed Lyme disease.\n\u2022 Medical Reasoning: This is a new issue for her. She presented with an insect bite at her last visit, and her subsequent lyme titer was elevated.\n\u2022 Medical Treatment: I am going to prescribe doxycycline 100 mg twice a day for 3 weeks. I am going to touch base with an infectious disease doctor to ensure nothing else that needs to be done. I want to see her again next week for follow-up for this.\n\nHypertension.\n\u2022 Medical Reasoning: This has been well-controlled based on home monitoring. She has been compliant with dietary modifications including limiting her sodium intake.\n\u2022 Additional Testing: I am going to order a lipid panel.\n\u2022 Medical Treatment: She will continue lisinopril 10 mg a day. This was refilled today.\n\u2022 Patient Education and Counseling: I advised the patient to continue to regularly monitor her blood pressures at home.\n\nDiabetes type 2.\n\u2022 Medical Reasoning: She has noticed intermittent elevations of her blood glucose levels but has been compliant with the use of metformin. Her diet has been limited due to nausea in the setting of Lyme disease.\n\u2022 Additional Testing: I am going to order a hemoglobin A1c to ensure no medication changes are needed.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan."
+  },
+  "n_patient_turns": 30,
+  "n_clinician_turns": 30,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 19954.950407147408,
+      "response_text": "Michelle, thank you for sharing how you've been feeling. I understand that you're experiencing fatigue, joint pain, and nausea, and I'm here to help you through this. Based on your symptoms and the test results, we've confirmed that you have Lyme disease, which is good we caught early. \n\nTo treat this, I'm prescribing doxycycline for three weeks, and I'll consult with an infectious disease specialist to ensure we're covering all bases. We'll schedule a follow-up in a week to monitor your progress. In the meantime, keep taking your metformin and lisinopril as we discussed, and your blood pressure and blood sugar levels look well-managed.\n\nPlease don't hesitate to ask any questions you might have about the treatment or how you're feeling. The nurse will assist with refills and appointments. You're doing the right things, and together, we'll get you feeling better soon.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 25928.080067038536,
+      "response_text": "Michelle, I can understand how concerning your symptoms must be, especially with the fatigue and joint pain you've been experiencing. It's completely valid to feel worried about your health, and I'm glad we were able to catch this early with the Lyme disease diagnosis.\n\nWe've started you on doxycycline, which is a standard treatment for Lyme disease, and I've consulted with an infectious disease specialist to ensure we're covering all bases. For your diabetes, we're keeping a close eye on your blood sugar levels, as infections can sometimes affect them. Your blood pressure management seems on track, which is great.\n\nIn the coming week, we'll monitor how you're feeling and adjust any treatments if needed. Please take the doxycycline as prescribed and let us know if you experience any side effects. Before you leave, can you summarize the treatment plan in your own words so I can make sure everything is clear?\n\nWe'll schedule a follow-up in a week to check on your progress. If you have any questions or concerns before then, don't hesitate to reach out. My team and I are here to support you through this.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7124.6432736516,
+      "response_text": "It sounds like you're feeling a bit tired and your joints are bothering you. I understand how that can make daily life harder.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 4 weeks. In the meantime, if you get new symptoms like severe pain or your fatigue gets much worse, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're feeling a bit tired and your joints are bothering you. I understand how that can make daily life harder.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 4 weeks. In the meantime, if you get new symptoms like severe pain or your fatigue gets much worse, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 163025.1178741455,
+      "response_text": "Thank you for sharing your concerns about your recent positive Lyme titer. I understand that you're experiencing fatigue, swollen elbows, joint pain, body aches, nausea, loss of appetite, and a rash.\n\nA positive Lyme titer suggests exposure to the Lyme bacteria. To confirm the diagnosis, we'll need to conduct further tests, such as a Western blot, to check for specific antibodies. This will help us determine if you have Lyme disease and guide the appropriate treatment.\n\nWe'll schedule additional tests to confirm the Lyme diagnosis.\n\nOnce we have the results, we'll discuss the next steps for treatment and management.\n\nCan you tell me in your own words what we're going to do next and why it's important?\n\nLet's plan to follow up in two weeks to review the test results. If you experience any severe symptoms or if your condition worsens, please contact us immediately.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns about your recent positive Lyme titer. I understand that you're experiencing fatigue, swollen elbows, joint pain, body aches, nausea, loss of appetite, and a rash.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "positive Lyme titer",
+            "profile_path": "problems[0]",
+            "explanation": "A positive Lyme titer suggests exposure to the Lyme bacteria. To confirm the diagnosis, we'll need to conduct further tests, such as a Western blot, to check for specific antibodies. This will help us determine if you have Lyme disease and guide the appropriate treatment.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll schedule additional tests to confirm the Lyme diagnosis.",
+          "Once we have the results, we'll discuss the next steps for treatment and management."
+        ],
+        "teach_back_prompt": "Can you tell me in your own words what we're going to do next and why it's important?",
+        "follow_up_invitation": "Let's plan to follow up in two weeks to review the test results. If you experience any severe symptoms or if your condition worsens, please contact us immediately.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 2,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "positive Lyme titer"
+        ],
+        "medications": [
+          "metformin",
+          "lisinopril"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 209186.39604002237,
+      "response_text": "It sounds like you're concerned about your recent positive Lyme titer and the symptoms you're experiencing, like fatigue and joint pain. I want to make sure I understand how this is affecting your daily life.\n\nA positive Lyme titer suggests exposure to the bacteria that causes Lyme disease. However, it's important to confirm this with further testing, like a Western blot, to ensure it's not a false positive. Your symptoms, such as fatigue and joint pain, are common in Lyme disease but can also be caused by other conditions. We'll need to do more tests to pinpoint the exact cause.\n\nWe'll order additional tests to confirm the Lyme titer result and rule out other conditions that might be causing your symptoms.\n\nBased on the results, we'll discuss the next steps, which may include antibiotics or other treatments.\n\nWe'll schedule a follow-up appointment in about 2 weeks to review the test results and plan the next steps together.\n\nI want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 2 weeks. In the meantime, if your symptoms get worse or you develop any new ones like severe headaches or confusion, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're concerned about your recent positive Lyme titer and the symptoms you're experiencing, like fatigue and joint pain. I want to make sure I understand how this is affecting your daily life.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "positive Lyme titer",
+            "profile_path": "problems[0]",
+            "explanation": "A positive Lyme titer suggests exposure to the bacteria that causes Lyme disease. However, it's important to confirm this with further testing, like a Western blot, to ensure it's not a false positive. Your symptoms, such as fatigue and joint pain, are common in Lyme disease but can also be caused by other conditions. We'll need to do more tests to pinpoint the exact cause.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[0]::41759242_0",
+                "primary_assertion_id": "41759242_0",
+                "pmids": [
+                  "41759242"
+                ]
+              },
+              {
+                "cluster_id": "finding::sub_query[0]::41759242_3",
+                "primary_assertion_id": "41759242_3",
+                "pmids": [
+                  "41759242"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll order additional tests to confirm the Lyme titer result and rule out other conditions that might be causing your symptoms.",
+          "Based on the results, we'll discuss the next steps, which may include antibiotics or other treatments.",
+          "We'll schedule a follow-up appointment in about 2 weeks to review the test results and plan the next steps together."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 2 weeks. In the meantime, if your symptoms get worse or you develop any new ones like severe headaches or confusion, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[0]::41759242_0",
+          "finding::sub_query[0]::41759242_3"
+        ],
+        "all_pmids_used": [
+          "41759242"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 2,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "positive Lyme titer"
+        ],
+        "medications": [
+          "metformin",
+          "lisinopril"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [
+        "41759242"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[0]::41759242_0",
+        "finding::sub_query[0]::41759242_3"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 149228.49126905203,
+        "module_2_retrieval": 1201.3204172253609,
+        "module_3_reasoning": 36632.87904858589,
+        "module_4_response": 22122.636415064335,
+        "total_ms": 209185.32714992762
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

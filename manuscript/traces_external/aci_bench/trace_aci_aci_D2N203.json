@@ -1,0 +1,281 @@
+{
+  "transcript_id": "aci_aci_D2N203",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "i'm okay",
+  "patient_utterances": [
+    "[Clinician asked: \"good afternoon matthew how are you\"] i'm okay",
+    "[Clinician asked: \"it looks like here that the that you've been brought in for some vision changes and looks like you're having trouble with your right eye can you tell me a little bit about what brought you in to see me today\"] yeah you know i started noticing my wife and i we we eat out almost every night and it's when especially when we go to fancy place",
+    "[Clinician asked: \"mm-hmm\"] i have trouble adjusting in the that dark dim environment",
+    "[Clinician asked: \"okay and i reviewed my technician's notes before i came in to see you and it says you know you you've been having that decreased vision when you're reading especially in dark place like you just said but it also mentions here that it looks like you told her that when you look at straight lines like \"] well you know it's been going on a little while probably getting worse over the last three to four months and you know my my office has paneling and you know how that paneling has that dark grooves in it those straight lines well they always look wavy to me",
+    "[Clinician asked: \"okay alright so it's been going on a few months now you mentioned that you and your wife go out to eat every night have you tried the new the new italium place over there on main street\"] my gosh yes we were just there the other night down in the it's down in the basement of that big building yeah we went there the other night and i got ta tell you it was like the saprano family was sitting across from us there was this bunch of old guys that had bottles of of red wine all over the table and they were my gosh it was so good and the food i mean i mean i ca n't tell you how great the food was",
+    "[Clinician asked: \"it was\"] it was just phenomenal",
+    "[Clinician asked: \"it was amazing my wife and i went over there the other day and when we walked downstairs it was like i was walking into a scene out of saprano's\"] mm-hmm",
+    "[Clinician asked: \"but the food was amazing it was the best egg plant parmer's john i've i've ever had where really super excited about going back there here very very soon\"] yeah i had the bio marsal and it was my gosh it was to die for",
+    "[Clinician asked: \"i'll have to get that next time i go so in reviewing your paperwork here it looks like you made mention that you smoke are you still smoking about a pack a day\"] yeah i i tried i've tried i've done hypnosis i've done lozenges i've done chewing gum and i get real close but you know i'll just go out one evening without the wife and and the next thing i know i'm i'm you know buying a cigarette off of somebody and it's it's really hard for me to get that stopped",
+    "[Clinician asked: \"yeah i i appreciate that but it's really gon na be important that you try to to either cut back or quit smoking altogether now that leads me into my next concern here it looks like you have a history of high blood pressure and i'm just wondering are you are you taking your blood pressure medication \"] i'm glad you just mentioned that because i have n't taken my blood pressure pill for a while it's up in the cupboard and it's back in that corner and i just i ca n't forget to take it",
+    "[Clinician asked: \"okay it's really gon na be important that you take your medication for your blood pressure as prescribed i'd really like to see you start doing that today and then let's let's go ahead and and let's set that that pill bottle down on the counter and see if that does n't help you remember to take that\"] okay that's a bright light",
+    "[Clinician asked: \"yeah i'm sorry about that it it's just gon na help me check the lenses in both of your eyes so it looks like the anterior segment examination reveals posterior chamber intraocular lenses in both eyes for the right eye the cornea is clear no nvi peak hole cup to disc is . two fundus examination of th\"] have you ever somebody stick a needle in your eye",
+    "[Clinician asked: \"well\"] what i mean not not yeah literally stick a needle in your eye",
+    "[Clinician asked: \"yeah literally yeah\"] yeah",
+    "[Clinician asked: \"the good news is injection given over time can slow the rate of the vision decline and maybe even stop it however i also have to let you know that there could be a situation where you may still note a small amount of vision loss but this is your best chance of maintaining that vision for as long as \"] no i'm i mean as as long as you think it wo n't hurt a lot that will be good",
+    "[Clinician asked: \"okay i think it's gon na be our best plan to help slow this disease process\"] okay",
+    "[Clinician asked: \"alright so i'm gon na have the nurse come in and get you prepped and we're gon na go ahead and do the first injection today\"] okay okay",
+    "[Clinician asked: \"sounds good i'll be back in a couple of minutes\"] okay thank you very much"
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nVision changes in the right eye.\n\nMEDICAL HISTORY\n\nPatient reports history of high blood pressure.\n\nSOCIAL HISTORY\n\nPatient reports he is smoking 1 pack of cigarettes daily.\n\nREVIEW OF SYSTEMS\n\nEyes: Reports right eye vision changes.\n\nPHYSICAL EXAM\n\nEyes\n- Examination of the right eye: Posterior chamber intraocular lenses present bilaterally. Right eye cornea is clear without NVI and cup-disc ratio is 0.2. Fundus of right eye shows retina is intact 360 degrees without holes or tears noted, and RPE changes in fovea. Posterior segment shows drusen of the macula, retinal thickening, and presence of subretinal fluid and exudate accumulation. Positive hemorrhage\nExamination of the left eye: Cornea is clear. No NVI. Cup-disc ration is 0.3. RPE changes in fovea. No hemorrhage noted or subretinal fluid noted. Retina is attached appropriately.\n\nRESULTS\n\nOTC:\nDrusen deposits under the RPE. SRF accumulation and choroidal neovascular membrane can also be visualized.\n\nFluorescein angiography:\nReveals that the focal area of the leakage in the right eye is consistent with neovascular age related macular degeneration.\n\nASSESSMENT AND PLAN\n\n1. Wet macular degeneration.\n- Medical Reasoning: The diagnostic test and eye exams are consistent with neovascular age-related macular degeneration, also called wet macular degeneration.\n- Patient Education and Counseling: I explained the nature of the diagnosis and that this is advanced to a stage that usually leads to more severe vision loss happening. We discussed this happens when those abnormal blood vessels start to grow beneath the retina leaking fluid and blood. Secondary to that, it creates a large blind spot in the center of his visual field. He was advised that this is the most common cause of severe vision loss. I explained the treatment plan at length. He understands he is going to be injected in the vitreous portion of the eye after we numb the eye, so he is not going to feel any pain. I advised injections given over time can slow the rate of the vision decline and maybe even stop it. However, I also have to let him know that there could be a situation where he may still note a small amount of vision loss, but this is his best chance of maintaining that vision for as long as he can. Additionally, patient was counseled on the importance of taking his blood pressure medication. Questions were invited and answered today.\n- Medical Treatment: Lucentis injections once a month with his first being performed today.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.",
+  "gold_sections": {
+    "CC": "Vision changes in the right eye.",
+    "MEDICAL_HISTORY": "Patient reports history of high blood pressure.",
+    "SOCIAL_HISTORY": "Patient reports he is smoking 1 pack of cigarettes daily.",
+    "ROS": "Eyes: Reports right eye vision changes.",
+    "PHYSICAL_EXAM": "Eyes\n- Examination of the right eye: Posterior chamber intraocular lenses present bilaterally. Right eye cornea is clear without NVI and cup-disc ratio is 0.2. Fundus of right eye shows retina is intact 360 degrees without holes or tears noted, and RPE changes in fovea. Posterior segment shows drusen of the macula, retinal thickening, and presence of subretinal fluid and exudate accumulation. Positive hemorrhage\nExamination of the left eye: Cornea is clear. No NVI. Cup-disc ration is 0.3. RPE changes in fovea. No hemorrhage noted or subretinal fluid noted. Retina is attached appropriately.",
+    "RESULTS": "OTC:\nDrusen deposits under the RPE. SRF accumulation and choroidal neovascular membrane can also be visualized.\n\nFluorescein angiography:\nReveals that the focal area of the leakage in the right eye is consistent with neovascular age related macular degeneration.",
+    "ASSESSMENT_PLAN": "1. Wet macular degeneration.\n- Medical Reasoning: The diagnostic test and eye exams are consistent with neovascular age-related macular degeneration, also called wet macular degeneration.\n- Patient Education and Counseling: I explained the nature of the diagnosis and that this is advanced to a stage that usually leads to more severe vision loss happening. We discussed this happens when those abnormal blood vessels start to grow beneath the retina leaking fluid and blood. Secondary to that, it creates a large blind spot in the center of his visual field. He was advised that this is the most common cause of severe vision loss. I explained the treatment plan at length. He understands he is going to be injected in the vitreous portion of the eye after we numb the eye, so he is not going to feel any pain. I advised injections given over time can slow the rate of the vision decline and maybe even stop it. However, I also have to let him know that there could be a situation where he may still note a small amount of vision loss, but this is his best chance of maintaining that vision for as long as he can. Additionally, patient was counseled on the importance of taking his blood pressure medication. Questions were invited and answered today.\n- Medical Treatment: Lucentis injections once a month with his first being performed today.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan."
+  },
+  "n_patient_turns": 18,
+  "n_clinician_turns": 19,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 21255.710676312447,
+      "response_text": "Thank you for sharing your concerns with me, Matthew. I understand how frustrating and worrying it must be to deal with these vision changes, especially in settings like restaurants where lighting can make things harder. The wavy lines and difficulty seeing in dim environments are symptoms we need to address. The injection we discussed today is a common treatment that can help slow down the progression of the condition. I know it might seem daunting, but many patients find it manageable, and it\u2019s a proven way to preserve vision.\n\nIt\u2019s important to tackle your blood pressure and smoking as well. I know quitting smoking is tough, and I\u2019m here to support you. Maybe we can explore some strategies or resources together. In the meantime, let\u2019s set up a system to help you remember your medication, like a pill organizer. You\u2019re not alone in this, and we\u2019ll work together to keep your eyes healthy and support your overall well-being. Please feel free to ask any questions or share any concerns you have about today\u2019s procedure or anything else.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 21922.723658382893,
+      "response_text": "Thank you for sharing your concerns with me, Matthew. It makes sense that you're feeling worried about your vision changes, especially since they've been happening gradually over the past few months. I can understand how frustrating it must be to struggle with adjusting in dim environments and seeing wavy lines, especially in places like your office or restaurants. It\u2019s important that we address this together to help slow down any potential vision decline.\n\nBased on what you\u2019ve described, the best approach to manage your condition is to proceed with the eye injection we discussed. Studies have shown that these injections can effectively slow the progression of vision loss over time [PMID ?]. While you may still experience some vision changes, this treatment offers the most promising way to maintain your vision for as long as possible. I know this might feel overwhelming, but we\u2019re here to support you through each step.\n\nTo help ensure we\u2019re on the same page, let\u2019s focus on a few key goals: managing your blood pressure with medication as prescribed, continuing your efforts to quit smoking, and keeping track of any changes in your vision. I\u2019ll be back in a few minutes to go over the next steps and make sure you\u2019re comfortable with the plan. Before I leave, could you summarize what we\u2019ve agreed on today? That way, I can make sure everything is clear. We\u2019ll also schedule a follow-up appointment in about six weeks to monitor your progress.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7559.71659719944,
+      "response_text": "It sounds like you're here mainly because of some vision changes, especially in low-light settings. I understand that this has been a concern for you for the past few months, and it's important we address it together.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if you notice any sudden changes in your vision or if it gets worse, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're here mainly because of some vision changes, especially in low-light settings. I understand that this has been a concern for you for the past few months, and it's important we address it together.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if you notice any sudden changes in your vision or if it gets worse, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 144723.90223294497,
+      "response_text": "I can hear how frustrating this must be for you \u2014 you said, \"it's really hard for me to get that stopped.\" I understand how vision changes can make daily life more challenging.\n\nVision changes like seeing wavy lines in dark places can be concerning. Based on what we know, it's important to get your vision checked to understand what might be causing this. We'll make sure to address this thoroughly during your visit.\n\nWe'll schedule a comprehensive eye exam to check your vision and see what might be causing these changes.\n\nWe'll also review your current medications to make sure they're not contributing to your vision issues.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to follow up in two weeks to see how you're doing and to go over the results of the tests we ordered.",
+      "structured_response": {
+        "acknowledgment": "I can hear how frustrating this must be for you \u2014 you said, \"it's really hard for me to get that stopped.\" I understand how vision changes can make daily life more challenging.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "vision changes",
+            "profile_path": "problems[0]",
+            "explanation": "Vision changes like seeing wavy lines in dark places can be concerning. Based on what we know, it's important to get your vision checked to understand what might be causing this. We'll make sure to address this thoroughly during your visit.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll schedule a comprehensive eye exam to check your vision and see what might be causing these changes.",
+          "We'll also review your current medications to make sure they're not contributing to your vision issues."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to follow up in two weeks to see how you're doing and to go over the results of the tests we ordered.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 1,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 0,
+        "problems": [
+          "vision changes"
+        ],
+        "medications": [
+          "blood pressure medication"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 275196.05792313814,
+      "response_text": "It sounds like this has been really frustrating for you, especially with trying to quit smoking. You mentioned, \"it's really hard for me to get that stopped,\" and I can understand how challenging that must be.\n\nIt's been getting harder for you to adjust to dim environments over the past few months. While we don't have specific guidelines for this exact situation, we'll work together to explore possible causes and solutions.\n\nSmoking cessation can be supported with cost-free medications and counseling. The USPSTF recommends these approaches to help people quit smoking.\n\nNot taking blood pressure medication regularly can increase the risk of complications. We'll discuss ways to help you stay on track with your medication.\n\nWe'll focus on helping you with smoking cessation first. This includes providing medications and counseling to support your efforts to quit.\n\nFor your difficulty adjusting to dim environments, we'll explore possible causes and discuss ways to manage this issue.\n\nWe'll also work on strategies to help you adhere to your blood pressure medication routine.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if you experience any severe symptoms like chest pain or your blood pressure spikes, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "It sounds like this has been really frustrating for you, especially with trying to quit smoking. You mentioned, \"it's really hard for me to get that stopped,\" and I can understand how challenging that must be.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "difficulty adjusting to dark dim environment",
+            "profile_path": "problems[0]",
+            "explanation": "It's been getting harder for you to adjust to dim environments over the past few months. While we don't have specific guidelines for this exact situation, we'll work together to explore possible causes and solutions.",
+            "citations": []
+          },
+          {
+            "concern_label": "tobacco use",
+            "profile_path": "problems[1]",
+            "explanation": "Smoking cessation can be supported with cost-free medications and counseling. The USPSTF recommends these approaches to help people quit smoking.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::problems[1]::33464343_0",
+                "primary_assertion_id": "33464343_0",
+                "pmids": [
+                  "33464343"
+                ]
+              },
+              {
+                "cluster_id": "recommendation::problems[1]::34693994_1",
+                "primary_assertion_id": "34693994_1",
+                "pmids": [
+                  "34693994"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "non-adherence to blood pressure medication",
+            "profile_path": "problems[2]",
+            "explanation": "Not taking blood pressure medication regularly can increase the risk of complications. We'll discuss ways to help you stay on track with your medication.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::sub_query[0]::40983262_0",
+                "primary_assertion_id": "40983262_0",
+                "pmids": [
+                  "40983262"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll focus on helping you with smoking cessation first. This includes providing medications and counseling to support your efforts to quit.",
+          "For your difficulty adjusting to dim environments, we'll explore possible causes and discuss ways to manage this issue.",
+          "We'll also work on strategies to help you adhere to your blood pressure medication routine."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if you experience any severe symptoms like chest pain or your blood pressure spikes, please call us right away.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "recommendation::problems[1]::33464343_0",
+          "recommendation::problems[1]::34693994_1",
+          "recommendation::sub_query[0]::40983262_0"
+        ],
+        "all_pmids_used": [
+          "33464343",
+          "34693994",
+          "40983262"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 3,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 0,
+        "problems": [
+          "difficulty adjusting to dark dim environment",
+          "tobacco use",
+          "non-adherence to blood pressure medication"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "33464343",
+        "34693994",
+        "40983262"
+      ],
+      "cluster_ids_used": [
+        "recommendation::problems[1]::33464343_0",
+        "recommendation::problems[1]::34693994_1",
+        "recommendation::sub_query[0]::40983262_0"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 197922.62390255928,
+        "module_2_retrieval": 2073.280841112137,
+        "module_3_reasoning": 45433.22151899338,
+        "module_4_response": 29765.64958691597,
+        "total_ms": 275194.77584958076
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

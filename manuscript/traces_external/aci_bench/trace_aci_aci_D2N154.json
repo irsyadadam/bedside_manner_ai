@@ -1,0 +1,249 @@
+{
+  "transcript_id": "aci_aci_D2N154",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "good",
+  "patient_utterances": [
+    "[Clinician asked: \"hi dennis how are you today\"] good",
+    "[Clinician asked: \"so what what brings you into the office i do n't believe i have ever seen you before here\"] the i'm training for a triathlon and the back of my heel hurts typically after a workout or when i first get up in the morning it will really hurt in the back of my heel all the way up into my calf",
+    "[Clinician asked: \"okay now tell me a little bit about this triathlon training what do you are you are you running far are you tell me kind of how you work out for that today\"] i i will run about ten klometers",
+    "[Clinician asked: \"okay\"] in the morning at lunchtime i try to get on the bike for about forty five minutes to an hour",
+    "[Clinician asked: \"okay\"] and then in the evening i go to the aquatic center and i jump in the pool and swim for about another thirty minutes to an hour",
+    "[Clinician asked: \"wow that's that's a that's an aggressive campaign to get there so really hope you get that triathlon in so you're how many days a week does this occur that you're training\"] i i do that five days a week on the weekends i kinda alternate between you know a long run and a long bike do n't really do a long swim but",
+    "[Clinician asked: \"okay\"] i i just swimming on those other five days and i take one day off",
+    "[Clinician asked: \"okay on your running days or when you do the running tell me a little bit about your stretching routine do you are you aggressive stretchers you do not stretch at all i know people that do both\"] yeah i do n't i do n't stretch at all i do n't have time for that",
+    "[Clinician asked: \"okay and i'm assuming that with the bicycle either you do n't really work the lower legs to get them stretched out you just jump on and go correct\"] yeah",
+    "[Clinician asked: \"okay\"] yeah you know i you know when i first start off i go slow until i'm warmed up and then i",
+    "[Clinician asked: \"okay tell me a little bit about the pain is you said it it's after the activity but it you when you first wake up in the morning it it's it's there also\"] yeah when i first get out of bed it's just it just feels really tight and almost like it's tearing and i after i been walking around for about ten or fifteen minutes it eases up a little bit but if if i ever sit down for any extended period of time and then try to get back up it's really sore again",
+    "[Clinician asked: \"okay\"] or",
+    "[Clinician asked: \"no go ahead go ahead\"] or after a lot of activity it'll get sore too",
+    "[Clinician asked: \"okay okay i'm sure this is impacting that ability to to really focus on your training uh as you're going with that with that type of a pain so lem me go ahead and let's let's take a look at your your and your lower extremities here and yeah okay so roll up your pants yeah okay good now does your lef\"] no it's mainly just on the right",
+    "[Clinician asked: \"okay okay so i'm gon na just hold your leg here and i want you to take your your foot and ankle and i want you to go ahead and just pull your your toes up towards you does that create some pain when you do that\"] yeah a little bit",
+    "[Clinician asked: \"a little bit okay now i'm just gon na hold your foot up and i want you to push against me and does that hurt\"] yeah that hurts a little bit too",
+    "[Clinician asked: \"yeah okay okay roll over here on my my stretcher for me and i want you to dangle your your feet over the edge and what i wan na do is i just wan na i'm gon na squeeze your left calf first and when i do that does that hurt on your left side\"] no",
+    "[Clinician asked: \"okay\"] no",
+    "[Clinician asked: \"and i'm gon na squeeze on the right side anything there\"] no",
+    "[Clinician asked: \"okay okay well that's good your your thompson test is negative that's a really good finding and i just wan na continue pressing here on your right from your heel when i squeeze your heel does that cause significant pain at all\"] yeah",
+    "[Clinician asked: \"yeah okay and if i come up a little bit further as i i run up that achilles tendon does that hurt\"] that's real tender",
+    "[Clinician asked: \"yeah okay okay great not great so yeah go ahead and sit up for me so dennis my diagnosis is achilles tendinitis and it's really from overuse when we see this frequently when somebody starts to you know get in and train aggressively for an event i'm unfortunately i'm gon na have to ask you to stop tr\"] sounds good",
+    "[Clinician asked: \"okay hey did you happen to catch that pittsburgh pang one hockey game last night\"] no i i was watching the track meet",
+    "[Clinician asked: \"my gosh the the pang ones are on fire you know they beat up on new york seven to two i mean the hockey's just an amazing sport i i just do you guy do you do a lot of hockey down there in town here\"] used to when i lived in detroit",
+    "[Clinician asked: \"oh\"] hockey town but not so much anymore",
+    "[Clinician asked: \"no yeah detroit is a hockey town yeah the red wings okay well i'm gon na go ahead and i'll send my nurse in and go ahead and get you discharged and like i said i'd like to see you back here in seven to ten days after that first physical therapy appointment i've got a great phenomenal office staff yo\"] thanks"
+  ],
+  "gold_note": "HISTORY OF PRESENT ILLNESS\n\nDennis Martin is a pleasant 46-year-old male who presents to the clinic today for the evaluation of right heel pain. The onset of his pain began 10 days ago while training for a triathlon. He locates his pain to the posterior aspect of his heel, which radiates proximally into his calf. His pain is aggravated by working out and when he first gets up in the morning. If he sits for a long period, his pain will return upon standing. The patient states that he runs 10 kilometers in the morning. At lunchtime, he tries to get on a bike for about 45 minutes to an hour. In the evening, he goes to the aquatic center and swims for 30 minutes to 1 hour. The patient states that he runs 5 days per week. He adds that he alternates between a long run and a long bike ride on weekends. He currently takes one day off from his exercises. The patient states that he does not stretch at all. He denies any left leg pain.\n\nREVIEW OF SYSTEMS\n\nMusculoskeletal: Reports right heel pain. Denies left leg pain.\n\nPHYSICAL EXAM\n\nMSK: Examination of the right heel: Pain with resisted extension. Mild pain with flexion. Positive calcaneal squeeze test. Severe tenderness to the Achilles tendon. Thompson test is negative, bilaterally.\n\nRESULTS\n\nNo new imaging was obtained today\n\nASSESSMENT\n\nRight Achilles tendinitis.\n\nPLAN\n\nAfter reviewing the patient's examination today, I had a lengthy discussion with the patient regarding his current symptoms. I have explained to him that his symptoms are likely secondary to overuse. I have recommended that we treat the patient conservatively. The patient was instructed to take at least 1 week off from his training to recover from this. I will provide him with a referral for formal physical therapy to strengthen his right lower extremities. I have advised him to take 3 tablets of ibuprofen every 6 hours for pain. If his pain does not improve with physical therapy, I will recommend obtaining an x-ray.\n\nINSTRUCTIONS\n\nThe patient will follow up with me in 7 to 10 days to check on his progress.",
+  "gold_sections": {
+    "HPI": "Dennis Martin is a pleasant 46-year-old male who presents to the clinic today for the evaluation of right heel pain. The onset of his pain began 10 days ago while training for a triathlon. He locates his pain to the posterior aspect of his heel, which radiates proximally into his calf. His pain is aggravated by working out and when he first gets up in the morning. If he sits for a long period, his pain will return upon standing. The patient states that he runs 10 kilometers in the morning. At lunchtime, he tries to get on a bike for about 45 minutes to an hour. In the evening, he goes to the aquatic center and swims for 30 minutes to 1 hour. The patient states that he runs 5 days per week. He adds that he alternates between a long run and a long bike ride on weekends. He currently takes one day off from his exercises. The patient states that he does not stretch at all. He denies any left leg pain.",
+    "ROS": "Musculoskeletal: Reports right heel pain. Denies left leg pain.",
+    "PHYSICAL_EXAM": "MSK: Examination of the right heel: Pain with resisted extension. Mild pain with flexion. Positive calcaneal squeeze test. Severe tenderness to the Achilles tendon. Thompson test is negative, bilaterally.",
+    "RESULTS": "No new imaging was obtained today",
+    "ASSESSMENT": "Right Achilles tendinitis.",
+    "PLAN": "After reviewing the patient's examination today, I had a lengthy discussion with the patient regarding his current symptoms. I have explained to him that his symptoms are likely secondary to overuse. I have recommended that we treat the patient conservatively. The patient was instructed to take at least 1 week off from his training to recover from this. I will provide him with a referral for formal physical therapy to strengthen his right lower extremities. I have advised him to take 3 tablets of ibuprofen every 6 hours for pain. If his pain does not improve with physical therapy, I will recommend obtaining an x-ray.",
+    "INSTRUCTIONS": "The patient will follow up with me in 7 to 10 days to check on his progress."
+  },
+  "n_patient_turns": 26,
+  "n_clinician_turns": 26,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 19971.50382399559,
+      "response_text": "I understand how frustrating this must be, especially when you're training for a triathlon. Based on your symptoms and the physical exam, it seems like you have Achilles tendinitis, which is an overuse injury causing inflammation in the Achilles tendon. This is common in athletes who increase their training intensity quickly.\n\nTo help with your recovery, I recommend resting from running and biking to avoid further strain. Applying ice to the area can reduce inflammation. We'll set you up with physical therapy to focus on stretching and strengthening your calf muscles, which will help reduce the strain on your Achilles tendon. Proper footwear and possibly orthotics might also be beneficial. Once healed, you can gradually return to training. Let's monitor your progress over the next few weeks. I'm confident that with rest and therapy, you'll recover and get back to your training soon.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 22855.85343837738,
+      "response_text": "Dennis, I can understand how frustrating it must be to deal with this heel pain while training for your triathlon. It\u2019s clear how committed you are to your goal, and experiencing discomfort every morning and after workouts must be really disheartening. I appreciate your honesty about your training routine\u2014it sounds like you\u2019re putting in a lot of effort, which is impressive.\n\nFrom what you\u2019ve described, the pain in the back of your heel, especially after activity or in the morning, points towards an overuse injury, possibly Achilles tendinitis. This is common when someone intensifies their training, as your body might not have enough time to heal between sessions [PMID ?]. The tenderness when I pressed on your Achilles tendon supports this idea.\n\nTo help you get back on track, I recommend starting physical therapy to strengthen and stretch your calves and Achilles. It\u2019s important to rest and avoid activities that worsen the pain. We\u2019ll also monitor your progress closely. Before you leave, could you summarize our plan for me? That way, I can ensure you\u2019re clear on the next steps.\n\nLet\u2019s plan to see you back in seven to ten days after your first physical therapy session. If the pain doesn\u2019t improve, we can explore other options together. Keep up the positive attitude, and I\u2019m confident we\u2019ll get you back to training soon.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7536.653332412243,
+      "response_text": "Thank you for sharing your training routine and the discomfort you're experiencing in your heel and calf. It sounds like this is impacting your ability to train effectively for your triathlon.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 4 weeks. In the meantime, if you get new symptoms like severe pain or if the discomfort worsens, please call us right away \u2014 don't wait for the appointment.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your training routine and the discomfort you're experiencing in your heel and calf. It sounds like this is impacting your ability to train effectively for your triathlon.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 4 weeks. In the meantime, if you get new symptoms like severe pain or if the discomfort worsens, please call us right away \u2014 don't wait for the appointment.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 165175.34270882607,
+      "response_text": "It sounds like you're dealing with some heel pain that's been bothering you, especially after workouts or in the morning. I want to understand how this is affecting your daily life.\n\nHeel pain can have several causes, and it's important to figure out what's triggering yours. Given the location and timing of your pain, we'll focus on common causes like plantar fasciitis or Achilles tendinitis. We'll start with a physical exam and possibly some imaging to get a clearer picture.\n\nWe'll begin with a physical exam to assess the heel pain and determine the next appropriate steps.\n\nDepending on the findings, we may recommend imaging or specific exercises to help alleviate the pain.\n\nCan you tell me, in your own words, what we're going to do next to address your heel pain?\n\nLet's plan to follow up in a week to see how you're doing and adjust the plan if needed. In the meantime, if the pain gets worse or you experience any new symptoms, please reach out.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're dealing with some heel pain that's been bothering you, especially after workouts or in the morning. I want to understand how this is affecting your daily life.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "heel pain",
+            "profile_path": "problems[0]",
+            "explanation": "Heel pain can have several causes, and it's important to figure out what's triggering yours. Given the location and timing of your pain, we'll focus on common causes like plantar fasciitis or Achilles tendinitis. We'll start with a physical exam and possibly some imaging to get a clearer picture.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll begin with a physical exam to assess the heel pain and determine the next appropriate steps.",
+          "Depending on the findings, we may recommend imaging or specific exercises to help alleviate the pain."
+        ],
+        "teach_back_prompt": "Can you tell me, in your own words, what we're going to do next to address your heel pain?",
+        "follow_up_invitation": "Let's plan to follow up in a week to see how you're doing and adjust the plan if needed. In the meantime, if the pain gets worse or you experience any new symptoms, please reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "heel pain"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 215854.30651903152,
+      "response_text": "It sounds like you're experiencing heel pain that's particularly bothersome after workouts or when you first get up in the morning. I want to understand how this is affecting your daily life.\n\nHeel pain can have several causes, and it's important to identify the right one so we can treat it effectively. The timing and location of your pain suggest we should consider common issues like plantar fasciitis or Achilles tendinitis. We'll need to do some tests to pinpoint the exact cause.\n\nWe'll schedule an imaging test to get a better look at your heel and surrounding tissues.\n\nI'll recommend some stretching exercises and suggest wearing supportive footwear to help alleviate the pain in the meantime.\n\nWe'll follow up in two weeks to see how these steps are working and adjust the plan as needed.\n\nCan you tell me, in your own words, what we're going to do next and why it's important?\n\nLet's plan to check in again in two weeks. If the pain gets worse or if you notice any swelling, please call us right away so we can address it promptly.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're experiencing heel pain that's particularly bothersome after workouts or when you first get up in the morning. I want to understand how this is affecting your daily life.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "heel pain",
+            "profile_path": "problems[0]",
+            "explanation": "Heel pain can have several causes, and it's important to identify the right one so we can treat it effectively. The timing and location of your pain suggest we should consider common issues like plantar fasciitis or Achilles tendinitis. We'll need to do some tests to pinpoint the exact cause.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[1]::39366124_0",
+                "primary_assertion_id": "39366124_0",
+                "pmids": [
+                  "39366124"
+                ]
+              },
+              {
+                "cluster_id": "finding::sub_query[1]::40155879_0",
+                "primary_assertion_id": "40155879_0",
+                "pmids": [
+                  "40155879"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll schedule an imaging test to get a better look at your heel and surrounding tissues.",
+          "I'll recommend some stretching exercises and suggest wearing supportive footwear to help alleviate the pain in the meantime.",
+          "We'll follow up in two weeks to see how these steps are working and adjust the plan as needed."
+        ],
+        "teach_back_prompt": "Can you tell me, in your own words, what we're going to do next and why it's important?",
+        "follow_up_invitation": "Let's plan to check in again in two weeks. If the pain gets worse or if you notice any swelling, please call us right away so we can address it promptly.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[1]::39366124_0",
+          "finding::sub_query[1]::40155879_0"
+        ],
+        "all_pmids_used": [
+          "39366124",
+          "40155879"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "heel pain"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "39366124",
+        "40155879"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[1]::39366124_0",
+        "finding::sub_query[1]::40155879_0"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 148974.52431172132,
+        "module_2_retrieval": 1379.4741705060005,
+        "module_3_reasoning": 45163.03547471762,
+        "module_4_response": 20336.45934611559,
+        "total_ms": 215853.49330306053
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

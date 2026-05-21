@@ -1,0 +1,285 @@
+{
+  "transcript_id": "aci_virtassist_D2N129",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "nice to see you too .",
+  "patient_utterances": [
+    "[Clinician asked: \"good afternoon , beverly . good to see you .\"] nice to see you too .",
+    "[Clinician asked: \"so , i know my nurse told you a little bit about dax . um , now , if you do n't mind , i'd like to tell dax a little bit about you .\"] go for it .",
+    "[Clinician asked: \"great . um , beverly's a 24 year old female patient , and i know you have a history of type 2 diabetes and high blood pressure . correct ?\"] yep .",
+    "[Clinician asked: \"okay . so , you're here today for your yearly exam . have n't seen you in a year . how're you doing ?\"] i've been doing well . i began working in a bakery this summer which has been super fun. i have really been enjoying working there, but i find myself, since i am so close to so many delicious treats, snacking a lot during shifts and eating a lot more desserts than i normally would.",
+    "[Clinician asked: \"okay , so , that brings me to your diabetes . so , how have your blood sugars been ?\"] uh , not so good .",
+    "[Clinician asked: \"okay .\"] so , they've been up and down because of my diet , i think , because i've been taking my medication as prescribed . um , so , i have n't missed anything there , but my diet has been pretty bad lately .",
+    "[Clinician asked: \"pretty bad lately ?\"] yeah .",
+    "[Clinician asked: \"okay . and , that's really the only thing that's different is your diet , pretty much ?\"] yeah .",
+    "[Clinician asked: \"and , that's because of the new job and all that ?\"] yeah. it has been really challenging to resist the temptation.",
+    "[Clinician asked: \"it's hard to ignore those desserts , are n't they ?\"] yeah .",
+    "[Clinician asked: \"no willpower like me ?\"] no , no willpower .",
+    "[Clinician asked: \"okay . all right . and , and then , um , i know you've had high blood pressure , hypertension . how is , how have your blood sugars been ? have you been checking them ?\"] so , my blood pressure's been good . um , despite my , um , my diabetes levels being up and down .",
+    "[Clinician asked: \"okay .\"] so , that's been good .",
+    "[Clinician asked: \"okay , so , your blood pressures have been normal . you've been sleeping well ?\"] yep , getting a full eight hours .",
+    "[Clinician asked: \"no concerns about hurting yourself or anything like that ?\"] no .",
+    "[Clinician asked: \"okay , good . okay , and i know my , um , nurse did a review of systems . other than what we've talked about so far , is there anything else that you needed to add ?\"] no .",
+    "[Clinician asked: \"good . so , pretty much status quo except for those things that we've been working on , right ?\"] yep .",
+    "[Clinician asked: \"okay , good . all right . well , let me do a quick physical exam , okay ?\"] okay .",
+    "[Clinician asked: \"okay , squeeze my finger here . good . can you feel me touch out here ?\"] yep .",
+    "[Clinician asked: \"okay . and , can you feel me touch you down here ?\"] yep .",
+    "[Clinician asked: \"okay . no swelling . push your leg out . good . pull it back . mm-hmm . go . good . okay . so , on my exam , um , essentially , your exam is normal . your , um , heart is regular . you do have that grade 2 , um , systolic ejection fraction back ejection murmur that you , um , that we've heard in the\"] okay .",
+    "[Clinician asked: \"hey , dragon , show me the hemoglobin a1c . okay , so , blood sugars have been elevated . your hemoglobin a1c is elevated as well , so that tells me your blood sugars have been a little bit out of control . you're still taking the metformin , correct ?\"] yes , i am .",
+    "[Clinician asked: \"okay , and you take that twice a day ?\"] yep .",
+    "[Clinician asked: \"okay . um , uh , hey , dragon ? show me the vital signs . okay , good news here is your blood pressure's good . everything , um , there is fine . so , um , so , my assessment is , is , um , your first problem is diabetes . it's a little out of control . we'd like that hemoglobin a1c to be under seve\"] mm-hmm .",
+    "[Clinician asked: \"so , um , uh , i'm not gon na change your medication . i think this is diet related , so i want you to try to cut down on the snacking and additional sweets , okay ?\"] yeah .",
+    "[Clinician asked: \"and , i want you to check your blood sugars in the morning . i want you to call them in in about two weeks so we know what your first , um , fasting blood sugar was in the morning , and then , we'll come back and see you in about two months and see if everything has straightened out . if it has n't \"] okay .",
+    "[Clinician asked: \"your second problem is your hypertension . that seems to be relatively stable . i want you to stay on your current medication . you're on li- lisinopril 10 mg once a day . just stay right on that medication . no changes at this point . seems to be doing well , okay ?\"] okay .",
+    "[Clinician asked: \"good . anything else i can do for you today ?\"] no . that's it .",
+    "[Clinician asked: \"good . come with me , we'll get you checked out .\"] thank you ."
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nAnnual exam.\n\nHISTORY OF PRESENT ILLNESS\n\nBeverly Ortiz is a 24-year-old female patient with a history of type 2 diabetes and high blood pressure. She is here today for her yearly exam.\n\nThe patient states she has been doing well. She has recently began working at a bakery this summer.\n\nThe patient states her diabetes is uncontrolled. Her blood sugars have fluctuated recently, which she attributes to her change in diet due to work. She is trying to improve her diet by removing additional sweets. She has been taking her medication as prescribed and has not missed any doses.\n\nThe patient states her blood pressure has been good despite her blood sugar levels being up and down. She has continued taking metformin twice a day.\n\nShe has been sleeping well and is able to sleep a full 8 hours. She denies thoughts of self-harm or suicidal ideations.\n\nPHYSICAL EXAMINATION\n\n\u2022 Neurological/Psychological: Grip strength equal bilaterally. Neurologically intact.\n\u2022 Neck: Supple without thyromegaly or lymphadenopathy. No carotid bruits appreciable.\nLungs are clear to auscultation bilaterally. No wheezes, rales, or rhonchi.\n\u2022 Cardiovascular: Regular rate. Grade 2/6 systolic ejection fraction murmur. No gallops or rubs. No extra heart sounds. Good pulses.\n\nRESULTS\n\nHemoglobin A1c is elevated.\n\nASSESSMENT AND PLAN\n\nBeverly Ortiz is a 24-year-old female patient with a history of type 2 diabetes and high blood pressure. She is here today for her yearly exam.\n\nDiabetes mellitus type 2.\n\u2022 Medical Reasoning: Her blood glucose levels have been uncontrolled. She is still taking metformin twice a day, but does admit to dietary indiscretion with an increase in her sweets intake.. Her most recent hemoglobin A1c was elevated.\n\u2022 Medical Treatment: Continue metformin twice a day.\n\u2022 Patient Education and Counseling: I encouraged her to check her fasting blood glucose levels each morning and call them in about 2 weeks. She will follow up in about 2 months, at which time we will discuss further treatment recommendations.\n\nHypertension.\n\u2022 Medical Reasoning: Appears to be relatively stable.\n\u2022 Medical Treatment: Continue lisinopril 10 mg once daily.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.",
+  "gold_sections": {
+    "CC": "Annual exam.",
+    "HPI": "Beverly Ortiz is a 24-year-old female patient with a history of type 2 diabetes and high blood pressure. She is here today for her yearly exam.\n\nThe patient states she has been doing well. She has recently began working at a bakery this summer.\n\nThe patient states her diabetes is uncontrolled. Her blood sugars have fluctuated recently, which she attributes to her change in diet due to work. She is trying to improve her diet by removing additional sweets. She has been taking her medication as prescribed and has not missed any doses.\n\nThe patient states her blood pressure has been good despite her blood sugar levels being up and down. She has continued taking metformin twice a day.\n\nShe has been sleeping well and is able to sleep a full 8 hours. She denies thoughts of self-harm or suicidal ideations.",
+    "PHYSICAL_EXAMINATION": "\u2022 Neurological/Psychological: Grip strength equal bilaterally. Neurologically intact.\n\u2022 Neck: Supple without thyromegaly or lymphadenopathy. No carotid bruits appreciable.\nLungs are clear to auscultation bilaterally. No wheezes, rales, or rhonchi.\n\u2022 Cardiovascular: Regular rate. Grade 2/6 systolic ejection fraction murmur. No gallops or rubs. No extra heart sounds. Good pulses.",
+    "RESULTS": "Hemoglobin A1c is elevated.",
+    "ASSESSMENT_PLAN": "Beverly Ortiz is a 24-year-old female patient with a history of type 2 diabetes and high blood pressure. She is here today for her yearly exam.\n\nDiabetes mellitus type 2.\n\u2022 Medical Reasoning: Her blood glucose levels have been uncontrolled. She is still taking metformin twice a day, but does admit to dietary indiscretion with an increase in her sweets intake.. Her most recent hemoglobin A1c was elevated.\n\u2022 Medical Treatment: Continue metformin twice a day.\n\u2022 Patient Education and Counseling: I encouraged her to check her fasting blood glucose levels each morning and call them in about 2 weeks. She will follow up in about 2 months, at which time we will discuss further treatment recommendations.\n\nHypertension.\n\u2022 Medical Reasoning: Appears to be relatively stable.\n\u2022 Medical Treatment: Continue lisinopril 10 mg once daily.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan."
+  },
+  "n_patient_turns": 29,
+  "n_clinician_turns": 30,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 23357.722260057926,
+      "response_text": "Beverly, I understand how challenging it must be to resist the temptation of all those delicious treats at work, especially when you're enjoying your job at the bakery. It's completely normal to struggle in such an environment, and I want you to know that I'm here to support you every step of the way. Small changes can make a big difference, so maybe try keeping some healthy snacks at work or finding alternative ways to cope with cravings. Remember, it's okay to slip up occasionally; what matters is that you keep moving forward. You're doing great, and I'm confident that with time and effort, you'll see positive changes. Let's look forward to your next appointment and celebrating your progress together. You've got this!",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 22720.97271680832,
+      "response_text": "Thank you for sharing your concerns with me, Beverly. It\u2019s clear that you\u2019re feeling a bit overwhelmed with managing your diabetes, especially with the tempting treats at work. I completely understand how challenging it can be to resist when you\u2019re surrounded by delicious desserts. It\u2019s important to acknowledge how hard you\u2019re trying, and I respect the effort you\u2019re putting in, even with these obstacles.\n\nGiven the elevated hemoglobin A1c, it seems like the recent changes in your diet have impacted your blood sugar levels. It\u2019s common for stress or a change in environment to affect eating habits, and I know how tough it must be to stay on track. We\u2019ll focus on small, manageable changes to help you get back on track. For instance, mindful eating and portion control can make a big difference without feeling deprived. I\u2019ll also review your current medication to ensure it\u2019s the right fit for you.\n\nMoving forward, I\u2019d like you to monitor your fasting blood sugar levels daily and call in the readings every few days. We\u2019ll schedule a follow-up in about two months to reassess your levels and adjust the plan if needed. Before you leave, could you summarize the steps we discussed? This will help ensure you\u2019re clear on the plan and any questions you have are addressed. Let\u2019s work together to support your health and keep you feeling your best.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7058.297120034695,
+      "response_text": "Nice to see you too, Beverly. It sounds like this has been a busy and exciting time for you with the new job at the bakery.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in two months. In the meantime, if you have any concerns about your blood sugar levels or need support with your diet, please call us.",
+      "structured_response": {
+        "acknowledgment": "Nice to see you too, Beverly. It sounds like this has been a busy and exciting time for you with the new job at the bakery.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in two months. In the meantime, if you have any concerns about your blood sugar levels or need support with your diet, please call us.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 132925.27943104506,
+      "response_text": "It sounds like this increased snacking has been a challenge for you, especially during your shifts.\n\nIncreased snacking, particularly during shifts, can be linked to various factors such as stress, boredom, or underlying health conditions. While we don't have specific guidelines for this exact situation, understanding the triggers can help address the issue.\n\nWe'll work together to explore what might be causing the increased snacking and discuss strategies to manage it.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to check in again soon. If you notice any changes or have more questions, please reach out.",
+      "structured_response": {
+        "acknowledgment": "It sounds like this increased snacking has been a challenge for you, especially during your shifts.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "increased snacking",
+            "profile_path": "problems[0]",
+            "explanation": "Increased snacking, particularly during shifts, can be linked to various factors such as stress, boredom, or underlying health conditions. While we don't have specific guidelines for this exact situation, understanding the triggers can help address the issue.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll work together to explore what might be causing the increased snacking and discuss strategies to manage it."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to check in again soon. If you notice any changes or have more questions, please reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "increased snacking"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 256224.13383424282,
+      "response_text": "I can hear how frustrating this must be for you \u2014 you said, \"no , no willpower .\" I understand how hard it can be to manage these health issues, and I want to work with you to figure out the best way forward.\n\nResearch shows that general-practice patients with type 2 diabetes are often older and have different characteristics compared to those in clinical trials. This means our approach needs to be tailored to your specific situation.\n\nThe VA/DoD guideline provides clear recommendations for managing high blood pressure in primary care, which we can apply to your situation.\n\nWe'll review the VA/DoD guidelines for high blood pressure management to tailor a plan specifically for you.\n\nWe'll discuss how to address the challenges you're facing with managing these conditions.\n\nWe'll schedule a follow-up to monitor your progress and adjust the plan as needed.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if you have any questions or concerns, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "I can hear how frustrating this must be for you \u2014 you said, \"no , no willpower .\" I understand how hard it can be to manage these health issues, and I want to work with you to figure out the best way forward.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "type 2 diabetes",
+            "profile_path": "problems[0]",
+            "explanation": "Research shows that general-practice patients with type 2 diabetes are often older and have different characteristics compared to those in clinical trials. This means our approach needs to be tailored to your specific situation.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::problems[0]::38604640_7",
+                "primary_assertion_id": "38604640_7",
+                "pmids": [
+                  "38604640"
+                ]
+              },
+              {
+                "cluster_id": "finding::problems[0]::38604640_0",
+                "primary_assertion_id": "38604640_0",
+                "pmids": [
+                  "38604640"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "high blood pressure",
+            "profile_path": "problems[1]",
+            "explanation": "The VA/DoD guideline provides clear recommendations for managing high blood pressure in primary care, which we can apply to your situation.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[1]::32866417_0",
+                "primary_assertion_id": "32866417_0",
+                "pmids": [
+                  "32866417"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll review the VA/DoD guidelines for high blood pressure management to tailor a plan specifically for you.",
+          "We'll discuss how to address the challenges you're facing with managing these conditions.",
+          "We'll schedule a follow-up to monitor your progress and adjust the plan as needed."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if you have any questions or concerns, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "recommendation::problems[0]::38604640_7",
+          "finding::problems[0]::38604640_0",
+          "finding::sub_query[1]::32866417_0"
+        ],
+        "all_pmids_used": [
+          "38604640",
+          "32866417"
+        ],
+        "glossary_substitutions": [
+          {
+            "field": "next_steps[0]",
+            "original": "hypertension",
+            "plain": "high blood pressure",
+            "count": 1
+          },
+          {
+            "field": "clinical_information_per_concern[1].explanation",
+            "original": "hypertension",
+            "plain": "high blood pressure",
+            "count": 1
+          }
+        ]
+      },
+      "profile_summary": {
+        "n_problems": 2,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 0,
+        "problems": [
+          "type 2 diabetes",
+          "high blood pressure"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "38604640",
+        "32866417"
+      ],
+      "cluster_ids_used": [
+        "recommendation::problems[0]::38604640_7",
+        "finding::problems[0]::38604640_0",
+        "finding::sub_query[1]::32866417_0"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 169869.3712055683,
+        "module_2_retrieval": 1011.5490183234215,
+        "module_3_reasoning": 58833.40968936682,
+        "module_4_response": 26508.800581097603,
+        "total_ms": 256223.13049435616
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

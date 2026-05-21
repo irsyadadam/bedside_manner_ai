@@ -1,0 +1,311 @@
+{
+  "transcript_id": "aci_virtscribe_D2N139",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "i'm fine , thank you .",
+  "patient_utterances": [
+    "[Clinician asked: \"hello mr. roberts , how are you doing today ?\"] i'm fine , thank you .",
+    "[Clinician asked: \"good . good . so , i saw you were recently in the emergency room with high blood pressure and some palpitations .\"] yeah . that was back in march i think , but my girlfriend and i , we talked about it , and on that day i had a few cups of coffee , and no breakfast . so , i think it was probably more of a panic attack than anything else .",
+    "[Clinician asked: \"yeah . have you , uh , have you felt it again since ?\"] uh , no .",
+    "[Clinician asked: \"okay . uh , so tell me about the blood pressure then .\"] well , i've had issues with my blood pressure since i was young .",
+    "[Clinician asked: \"do you have a family history of this ?\"] yeah . a lot of my family does have high blood pressure .",
+    "[Clinician asked: \"i see .\"] yeah , i thought it was getting better , and , uh , i have a new primary doctor , and she put me on a new medication about a month ago .",
+    "[Clinician asked: \"uh , can you tell me which medications you're taking ?\"] my new med is , uh , a combo med , something 40-25 .",
+    "[Clinician asked: \"okay . um . yes , i see that in your chart . the benicar hct . it has hydrochlorothiazide in it .\"] yeah , that's it . my water pill i call it .",
+    "[Clinician asked: \"okay . are you still taking the amlodipine , 10 milligrams daily ?\"] uh , yes i am .",
+    "[Clinician asked: \"that's- that's a good start on a regimen . are you checking your blood pressure at home , and if yes , what numbers are you seeing ?\"] um , every day .",
+    "[Clinician asked: \"awesome .\"] yeah . every morning , i take it when i get up , and it's been running at about , uh , 146 to 155 lately .",
+    "[Clinician asked: \"so you're not down in the 120s yet ?\"] no , not yet . well , we're trying to get there though .",
+    "[Clinician asked: \"okay . uh , how are you doing with your salt intake ?\"] i'm trying to back off of it . i think i'm doing good with it , not eating too much .",
+    "[Clinician asked: \"good , uh , it plays a huge part in lowering your pressure and , uh , staying away from salt is important . um , i'll give you some information on the dash eating plan , which is the only eating plan that has been shown to lower blood pressure .\"] sounds good .",
+    "[Clinician asked: \"are you doing any exercise ?\"] i do try to walk on the treadmill when i can .",
+    "[Clinician asked: \"okay , great . um , all right . so , let's take a look .\"] all right .",
+    "[Clinician asked: \"uh , you're gon na hear me talk throughout your exam , just so i can make sure i get everything documented .\"] okay .",
+    "[Clinician asked: \"so , use my general physical exam template . let me take a listen to you and make sure everything sounds good .\"] all right .",
+    "[Clinician asked: \"your heart and lungs sound good , so that's great .\"] good to hear .",
+    "[Clinician asked: \"all right . go ahead and lie down . uh , and let me know if anywhere i press hurts .\"] nope . nowhere .",
+    "[Clinician asked: \"all right . so , i'm gon na take a look at your ankles and feet . i'm just gon na look for some swelling .\"] all right .",
+    "[Clinician asked: \"all right . it all looks good . go ahead and sit up . so , in terms of getting that pressure down , you're on three meds that are maxed out and your blood pressure is still not down . and , the question is what do we need to do to get your- to get it down . uh , your potassium one week ago was 4.0 .\"] uh , no .",
+    "[Clinician asked: \"okay . uh , four is good for your potassium level , some people have what is called resistant hypertension that is driven by something else in their body , uh , often it is a form , uh , hormonal response . if i were to take 10 people under the age of 50 who have high blood pressure who developed it\"] okay . so , is there something we can do about it ?",
+    "[Clinician asked: \"um , in these cases , there's medicine called , uh , spironolactone , that is very effective at dropping the ald- aldosterone level , and your blood pressure , and i think we should give that a try .\"] all right . i mean , i'm willing to give it a try .",
+    "[Clinician asked: \"okay . so , let's discuss the piss- the possible risk of , uh , being on hydrochlorothiazide , which is the fluid med that you're now on . and , the spironolactone . one issue is that they can affect your electrolyte balance . um , they can also cause dehydration . so , when ... so , you got ta make\"] all right . i guess that makes me feel a little bit better .",
+    "[Clinician asked: \"yeah . and then the third thing is that spironolactone combined with hydrocholorozide- chlorothiazide can cause your sodium levels to go down . now , this does not mean- mean that you need to be eating more salt , okay ? but , it does mean that you will need to do blood tests in two weeks to make su\"] all right . no , that i can do . um , are there any other side effects i need to worry about ?",
+    "[Clinician asked: \"uh , dizziness possibly , as well as , uh , one in 100 guys might develop tenderness in their chest , swollen breasts , or enlarged breasts . this is a rare side effect , um , called gynecomastia , and if it happens , you just cut the medication and you let me know , but it is very uncommon .\"] i'll definitely let you know if that happens .",
+    "[Clinician asked: \"okay . uh , we'll keep working at it until your blood pressure gets better . um , it can be tricky when your blood pressure starts to go up at a young age though , it is important to get it under control because it can lead to your heart getting bigger or enlarged . um , same thing that happens when\"] i understand .",
+    "[Clinician asked: \"yeah , so getting that under control is really important to help prevent kidney failure , strokes , and- and things like that- that you're at high risk for with high blood pressure .\"] okay .",
+    "[Clinician asked: \"um , the american heart association has a website called heart.org , it has a lot of really good information about blood pressure to teach- to teach you about it and how to control your diet with exercise . um , if you do your treadmill routinely for 30 minutes or so most days , that could be seven \"] really ? i did n't realize that .",
+    "[Clinician asked: \"yeah , yeah . it's very important to be active , lower your salt , and increase your potassium . um , the goal is to keep your salt under 2000 milligrams a day , the actual recommendation is- is 1500 milligrams per day , but most people have a hard time with that . um , so just take a look at the we\"] okay . i'll definitely check that out .",
+    "[Clinician asked: \"all right . so , we'll try the spironolactone and schedule a followup in two weeks to check your blood pressure and electrolytes . uh , if the new med does n't work , the next up is going to be the resistant hypertension clinic .\"] all right .",
+    "[Clinician asked: \"all right . so , there they will look into secondary causes of your hypertension . they have access to newer procedure based technologies that can lower your blood pressure without medication , uh , for example , there is something called a renal , uh , denervation , uh , where they go inside the ar\"] that's interesting .",
+    "[Clinician asked: \"yeah . so , that procedure has been shown to lower blood pressure by 10 points . um , there are of course some risks , so not everyone is a candidate . uh , but we'll cross that road , uh , when we need to , and let's just- let's just see how you do with the addition of the medication .\"] sounds good to me .",
+    "[Clinician asked: \"all right . so , we will see you in two weeks then .\"] sounds good . thanks doc .",
+    "[Clinician asked: \"yeah , you're welcome . let me know if you have any questions .\"] will do .",
+    "[Clinician asked: \"all right . have a great day mr. roberts .\"] you too ."
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nHigh blood pressure and palpitations.\n\nHISTORY OF PRESENT ILLNESS\n\nJordan Roberts is a 49-year-old with a long history of hypertension and an acute episode of palpitations.\n\nIn March, Mr. Roberts went to the emergency room for palpitations and hypertension. He attributed this to a panic attack, but also stated he consumed several cups of coffee on an empty stomach the morning of. He denies additional episodes of palpitations.\n\nHe has been monitoring his blood pressure at home daily, obtaining systolic blood pressure readings of 146 to 155. He does report a family history of hypertension. Additionally, he has been monitoring his salt intake and feels he is doing well at reducing it. He also walks on his treadmill as often as he can.\n\nHe has a new primary care physician who started him on a new medication Benicar HCT, which he has been using for the past month.\n\nPAST HISTORY\n\nMedical\nHypertension.\n\nFAMILY HISTORY\n\nSeveral family members positive for hypertension.\n\nCURRENT MEDICATIONS\n\nBenicar HCT 40 mg/25 mg\nAmlodipine 10 mg daily.\n\nPhysical Examination\n\nCardiovascular\nNormal rate, regular rhythm, S2 normal, normal heart sounds, and normal pulses.\n\nPulmonary/Chest\nBreath sounds normal. \n\nAbdominal\nThere is no tenderness.\n\nMusculoskeletal\nThere is no edema.\n\nRESULTS\n\nThyroid profile 03/01/2021.\n\nASSESSMENT\n\n\u2022 Resistant hypertension.\n\nMr. Roberts presents with resistant hypertension, with systolic blood pressure readings between 146-155. He is currently on maximal doses for 3 medications.\n\nPLAN\n\nI have added spironolactone to his regimen which will require monitoring of his potassium and sodium. We will schedule him for a follow up in 2 weeks to complete a basic metabolic panel and check his blood pressure. Next medication to consider adding is carvedilol. I have tried to avoid this, given the potential for issues with erectile dysfunction. I counseled the patient about spironolactone side effects, including gynecomastia and electrolyte disturbances, as well as his increased risk of dehydration, with one sign to watch for being dizziness. If we are not able to improve his blood pressure with spironolactone, the next step would be sending him to the resistant hypertension clinic.\n\nI provided and reviewed with Mr. Roberts the American Heart association website (heart.org) and encouraged him to access for tips on lowering his salt intake and increasing his potassium intake. His maximum salt intake should be 1500 to <2000 mg per day. He was provided materials to follow the DASH diet and encouraged to meet 30-min of walking most days.\n\nINSTRUCTIONS\n\nSchedule follow up appointment in 2 weeks for blood pressure check and basic metabolic panel. Reduce sodium intake to 1500 to <2000 mg per day. Follow DASH diet.",
+  "gold_sections": {
+    "CC": "High blood pressure and palpitations.",
+    "HPI": "Jordan Roberts is a 49-year-old with a long history of hypertension and an acute episode of palpitations.\n\nIn March, Mr. Roberts went to the emergency room for palpitations and hypertension. He attributed this to a panic attack, but also stated he consumed several cups of coffee on an empty stomach the morning of. He denies additional episodes of palpitations.\n\nHe has been monitoring his blood pressure at home daily, obtaining systolic blood pressure readings of 146 to 155. He does report a family history of hypertension. Additionally, he has been monitoring his salt intake and feels he is doing well at reducing it. He also walks on his treadmill as often as he can.\n\nHe has a new primary care physician who started him on a new medication Benicar HCT, which he has been using for the past month.",
+    "PAST_HISTORY": "Medical\nHypertension.",
+    "FAMILY_HISTORY": "Several family members positive for hypertension.",
+    "CURRENT_MEDICATIONS": "Benicar HCT 40 mg/25 mg\nAmlodipine 10 mg daily.\n\nPhysical Examination\n\nCardiovascular\nNormal rate, regular rhythm, S2 normal, normal heart sounds, and normal pulses.\n\nPulmonary/Chest\nBreath sounds normal. \n\nAbdominal\nThere is no tenderness.\n\nMusculoskeletal\nThere is no edema.",
+    "RESULTS": "Thyroid profile 03/01/2021.",
+    "ASSESSMENT": "\u2022 Resistant hypertension.\n\nMr. Roberts presents with resistant hypertension, with systolic blood pressure readings between 146-155. He is currently on maximal doses for 3 medications.",
+    "PLAN": "I have added spironolactone to his regimen which will require monitoring of his potassium and sodium. We will schedule him for a follow up in 2 weeks to complete a basic metabolic panel and check his blood pressure. Next medication to consider adding is carvedilol. I have tried to avoid this, given the potential for issues with erectile dysfunction. I counseled the patient about spironolactone side effects, including gynecomastia and electrolyte disturbances, as well as his increased risk of dehydration, with one sign to watch for being dizziness. If we are not able to improve his blood pressure with spironolactone, the next step would be sending him to the resistant hypertension clinic.\n\nI provided and reviewed with Mr. Roberts the American Heart association website (heart.org) and encouraged him to access for tips on lowering his salt intake and increasing his potassium intake. His maximum salt intake should be 1500 to <2000 mg per day. He was provided materials to follow the DASH diet and encouraged to meet 30-min of walking most days.",
+    "INSTRUCTIONS": "Schedule follow up appointment in 2 weeks for blood pressure check and basic metabolic panel. Reduce sodium intake to 1500 to <2000 mg per day. Follow DASH diet."
+  },
+  "n_patient_turns": 37,
+  "n_clinician_turns": 39,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 20445.830151438713,
+      "response_text": "Thank you, Mr. Roberts, for taking the time to share your concerns and treatment journey with me. I truly appreciate your openness and the efforts you're making to manage your health, especially with your busy schedule. It's clear you're committed to improving your blood pressure, and that's commendable.\n\nMoving forward, let's focus on the next steps. We've added spironolactone to your medication regimen, which should help lower your blood pressure. It's important to continue monitoring your readings at home and keep track of any changes. Remember to stay hydrated and maintain a balanced diet, keeping an eye on your salt intake. Please don't hesitate to reach out if you experience any side effects or have questions. We'll schedule a follow-up in two weeks to check your progress and adjust your treatment plan as needed. Together, we'll work towards getting your blood pressure under control and ensuring your long-term health. Keep up the great work, and take care of yourself.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 24021.028645336628,
+      "response_text": "Thank you for sharing your concerns, Mr. Roberts. It makes sense that you're feeling worried about your blood pressure and the incident in March. High blood pressure can be challenging to manage, especially when it runs in the family. I understand how important it is to get this under control to prevent future health issues.\n\nWe discussed adding spironolactone to your current medication regimen. This medication can help lower your blood pressure by affecting your body's hormonal response. It's important to monitor your electrolytes, as this combination can sometimes affect potassium and sodium levels. We'll schedule a follow-up in two weeks to check these levels and see how your blood pressure is responding.\n\nIn the meantime, continue monitoring your blood pressure daily and keep up the good work with your diet and exercise. The Dash eating plan and regular treadmill walks are excellent steps towards improving your health. If you experience any side effects like dizziness or chest tenderness, please let me know immediately.\n\nBefore you leave, could you summarize our plan? This will help ensure you're clear on the next steps. We'll see you in two weeks for a follow-up. If needed, we'll explore further options together. Please don't hesitate to reach out if you have any questions or concerns in the meantime.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7942.234389483929,
+      "response_text": "I understand you're here to discuss your blood pressure management. You mentioned that despite your efforts, your readings have been around 146 to 155 recently, and you're trying to get them down to a healthier range.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in two weeks. In the meantime, if you experience any severe symptoms like dizziness or chest tenderness, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I understand you're here to discuss your blood pressure management. You mentioned that despite your efforts, your readings have been around 146 to 155 recently, and you're trying to get them down to a healthier range.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in two weeks. In the meantime, if you experience any severe symptoms like dizziness or chest tenderness, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 210043.6074435711,
+      "response_text": "Thank you for sharing your concerns about your blood pressure and the palpitations you've been experiencing. It's important that we work together to understand what's going on and how to manage it effectively.\n\nHigh blood pressure can sometimes be managed with medication, and it's good that you're already on a combination medication. However, since you've recently switched doctors, it's important to monitor how well this new treatment is working for you.\n\nPalpitations can be unsettling, and they often occur alongside high blood pressure. It's important to track when they happen and how they feel, so we can better understand what might be causing them.\n\nSetting a clear goal for your blood pressure is a great step. We'll work together to adjust your treatment plan to help you reach this target safely.\n\nWe'll schedule a follow-up appointment in 2 weeks to check your blood pressure readings and discuss any changes in your symptoms.\n\nIn the meantime, keep track of your blood pressure readings and note any patterns or changes in your palpitations. Bring this information to our next appointment so we can review it together.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 2 weeks. In the meantime, if you notice any new symptoms or if your current symptoms worsen, please call us so we can address them promptly.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns about your blood pressure and the palpitations you've been experiencing. It's important that we work together to understand what's going on and how to manage it effectively.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "high blood pressure",
+            "profile_path": "problems[0]",
+            "explanation": "High blood pressure can sometimes be managed with medication, and it's good that you're already on a combination medication. However, since you've recently switched doctors, it's important to monitor how well this new treatment is working for you.",
+            "citations": []
+          },
+          {
+            "concern_label": "palpitations",
+            "profile_path": "problems[1]",
+            "explanation": "Palpitations can be unsettling, and they often occur alongside high blood pressure. It's important to track when they happen and how they feel, so we can better understand what might be causing them.",
+            "citations": []
+          },
+          {
+            "concern_label": "get blood pressure into 120s",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Setting a clear goal for your blood pressure is a great step. We'll work together to adjust your treatment plan to help you reach this target safely.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll schedule a follow-up appointment in 2 weeks to check your blood pressure readings and discuss any changes in your symptoms.",
+          "In the meantime, keep track of your blood pressure readings and note any patterns or changes in your palpitations. Bring this information to our next appointment so we can review it together."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 2 weeks. In the meantime, if you notice any new symptoms or if your current symptoms worsen, please call us so we can address them promptly.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 2,
+        "n_medications": 2,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 1,
+        "problems": [
+          "high blood pressure",
+          "palpitations"
+        ],
+        "medications": [
+          "combo med 40-25",
+          "amlodipine 10 mg daily"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 260305.21067231894,
+      "response_text": "Thank you for sharing your concerns about your blood pressure and palpitations. I understand how important it is to get these under control.\n\nHigh blood pressure that's been present since childhood can sometimes be tricky to manage, especially when it's running in the 140s and 150s. The good news is that there are effective ways to address this. One approach is to make sure we're on the right medication and dosage for you.\n\nPalpitations that started back in March are something we need to look into. They could be related to your high blood pressure or something else. It's important to figure out what's causing them so we can address them properly.\n\nSetting a goal to get your blood pressure down to the 120s is a realistic and important step. We'll work together to adjust your treatment plan to help you reach this goal.\n\nWe'll review your current medications, including amlodipine and hydrochlorothiazide, to make sure they're the best fit for you.\n\nWe'll schedule a follow-up appointment in 4 weeks to check your blood pressure and discuss any changes.\n\nIn the meantime, keep track of your blood pressure readings and let me know if you notice any changes or if your palpitations become more frequent or severe.\n\nI want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 4 weeks. In the meantime, if you experience any severe symptoms like chest pain or fainting, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns about your blood pressure and palpitations. I understand how important it is to get these under control.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "high blood pressure",
+            "profile_path": "problems[0]",
+            "explanation": "High blood pressure that's been present since childhood can sometimes be tricky to manage, especially when it's running in the 140s and 150s. The good news is that there are effective ways to address this. One approach is to make sure we're on the right medication and dosage for you.",
+            "citations": [
+              {
+                "cluster_id": "finding::global::32866417_0",
+                "primary_assertion_id": "32866417_0",
+                "pmids": [
+                  "32866417"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "palpitations",
+            "profile_path": "problems[1]",
+            "explanation": "Palpitations that started back in March are something we need to look into. They could be related to your high blood pressure or something else. It's important to figure out what's causing them so we can address them properly.",
+            "citations": [
+              {
+                "cluster_id": "finding::problems[0]::38533994_0",
+                "primary_assertion_id": "38533994_0",
+                "pmids": [
+                  "38533994"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "get blood pressure down to 120s",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Setting a goal to get your blood pressure down to the 120s is a realistic and important step. We'll work together to adjust your treatment plan to help you reach this goal.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::sub_query[2]::33658141_0",
+                "primary_assertion_id": "33658141_0",
+                "pmids": [
+                  "33658141"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll review your current medications, including amlodipine and hydrochlorothiazide, to make sure they're the best fit for you.",
+          "We'll schedule a follow-up appointment in 4 weeks to check your blood pressure and discuss any changes.",
+          "In the meantime, keep track of your blood pressure readings and let me know if you notice any changes or if your palpitations become more frequent or severe."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 4 weeks. In the meantime, if you experience any severe symptoms like chest pain or fainting, please call us right away.",
+        "nurse_elements_applied": [
+          "Support",
+          "Respect"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::global::32866417_0",
+          "finding::problems[0]::38533994_0",
+          "recommendation::sub_query[2]::33658141_0"
+        ],
+        "all_pmids_used": [
+          "32866417",
+          "38533994",
+          "33658141"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 2,
+        "n_medications": 2,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 1,
+        "problems": [
+          "high blood pressure",
+          "palpitations"
+        ],
+        "medications": [
+          "amlodipine 10 mg daily",
+          "hydrochlorothiazide"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [
+        "32866417",
+        "38533994",
+        "33658141"
+      ],
+      "cluster_ids_used": [
+        "finding::global::32866417_0",
+        "finding::problems[0]::38533994_0",
+        "recommendation::sub_query[2]::33658141_0"
+      ],
+      "nurse_elements_applied": [
+        "Support",
+        "Respect"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 186404.0670618415,
+        "module_2_retrieval": 1439.9572014808655,
+        "module_3_reasoning": 41517.94518530369,
+        "module_4_response": 30942.22890585661,
+        "total_ms": 260304.19835448265
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

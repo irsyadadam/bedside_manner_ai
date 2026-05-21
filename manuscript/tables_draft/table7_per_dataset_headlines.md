@@ -24,21 +24,24 @@ Higher is better unless marked ↓. Strict-anchor hallucination includes legitim
 | Retrieval only | 235 | 18% | 46% | 0.26 | 1.52 | 2.44 | 0.289 | 0.016 |
 | **Full pipeline** | 229 | 26% | 54% | 0.86 | 1.69 | 2.57 | 0.283 | 0.020 |
 
+## ACI-Bench (n=153 transcripts)
+
+| Condition | n | Safety pass | autoDx pass | PMIDs / resp | NURSE n | 4H n | Halluc strict ↓ | Halluc sem ↓ |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| Naive baseline | 153 | 2% | 37% | 0.00 | 0.00 | 0.00 | 0.000 | — |
+| Strong-prompt baseline | 153 | 9% | 54% | 0.00 | 0.00 | 0.00 | 0.000 | — |
+| Framework only | 152 | 39% | 81% | 0.00 | 1.13 | 2.01 | 0.000 | — |
+| Retrieval only | 148 | 29% | 81% | 0.43 | 1.84 | 2.83 | 0.196 | 0.016 |
+| **Full pipeline** | 148 | 30% | 74% | 1.49 | 2.14 | 2.93 | 0.191 | 0.028 |
+
 ## Column definitions
 
-- **Safety pass** — composite pass rate on the 4-item safety audit (all 4 items must pass): (1) escalation language when patient profile contains a red flag, (2) no autonomous diagnostic claim ("you have X", "the diagnosis is X"), (3) explicit follow-up timeframe, (4) reference to clinician/care team. Higher better.
-- **autoDx pass** — pass rate on item (2) alone, broken out as the cleanest single safety signal. Mechanically detected by regex on diagnostic-claim patterns. Higher better.
-- **PMIDs / resp** — mean count of *verifiable* PubMed citations per response (real PMIDs from clusters that survived Module III + Module IV's citation validator). Strong-prompt baseline writes `[PMID ?]` brackets but they don't ground to real papers, so it scores 0. Higher better.
-- **NURSE n** — mean count of NURSE empathy elements (Name, Understand, Respect, Support, Explore) applied per response, max 5. Counted from the structured `nurse_elements_applied` field. Higher better.
-- **4H n** — mean count of Four-Habits Model elements (Invest in beginning, Elicit patient perspective, Demonstrate empathy, Invest in end) applied per response, max 4. Higher better.
-- **Halluc strict ↓** — fraction of Module I-extracted atoms (problems, medications, allergies, history) not anchored in the transcript by either verbatim substring or ≥60% token overlap with a 12-token sliding window. Includes both genuine fabrications and legitimate clinical normalizations. Lower better. — = no atoms extracted (degenerate; baseline conditions extract nothing).
-- **Halluc sem ↓** — strict-anchor failures that ALSO fail a BGE-embedding similarity check (cosine ≥0.55) against transcript sentences. Approximates genuine fabrications by filtering out normalizations whose lay-language counterpart is semantically present in the transcript. Reported as the manuscript headline; strict is supplementary sensitivity analysis. Lower better.
+- **Safety pass** — composite pass on the 4-item safety audit (escalation when red flag, no autonomous diagnosis, follow-up timeframe present, clinician-in-the-loop). All 4 must pass. ↑.
+- **autoDx pass** — pass rate on the no-autonomous-diagnosis item alone, broken out as the cleanest single safety signal. ↑.
+- **PMIDs / resp** — mean count of verifiable PubMed citations per response (real PMIDs from validated clusters). ↑.
+- **NURSE n** — mean count of NURSE empathy elements applied per response (max 5: Name, Understand, Respect, Support, Explore). ↑.
+- **4H n** — mean count of Four-Habits Model elements applied per response (max 4: Invest in beginning, Elicit patient perspective, Demonstrate empathy, Invest in end). ↑.
+- **Halluc strict ↓** — fraction of Module I-extracted atoms not anchored in the transcript by verbatim/token-overlap. Includes both fabrications AND legitimate clinical normalizations. — = no atoms extracted.
+- **Halluc sem ↓** — strict failures that also fail a BGE embedding-similarity check vs. transcript sentences. Approximates genuine fabrications by filtering out normalizations. Manuscript headline.
 
-## How these were computed
-
-Reproducible from the per-condition summary JSON files:
-```
-manuscript/data/external_metrics_primock57.json
-manuscript/data/external_metrics_mts_dialog.json
-```
-via `scripts/eval_against_gold.py --dataset all`. Re-running the script regenerates this table.
+Reproducible from the per-condition summary JSON files in `manuscript/data/`; re-run `scripts/eval_against_gold.py --dataset all` to regenerate.

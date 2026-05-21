@@ -1,0 +1,242 @@
+{
+  "transcript_id": "aci_aci_D2N114",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "good morning Julie how are you doing today",
+  "patient_utterances": [
+    "[Clinician asked: \"alright\"] good morning Julie how are you doing today",
+    "[Clinician asked: \"i'm doing okay i'm just a little nervous about what's been going on with my headaches\"] okay so i know you were sent here by your your pcp what was your understanding of why you were sent here",
+    "[Clinician asked: \"yeah so i actually have been someone who been struggling with headaches for years now ever since i was a teenager and they used to be around my when i would have my menstrual my menses but as i got older i noticed that it has been with that and also i can get it when i'm really stressed but recently\"] okay can you tell me a little bit about them what how do they how do they feel when they come on",
+    "[Clinician asked: \"so they say mostly on my right side and it even seems like it's like behind my eye and it just like this pulsing like this really bad pulsing sensation\"] okay do you notice these any activities or time of the day that makes them worse i know you said they they seem to get worse around your menstrual periods but is there any time of the day or that makes them worse",
+    "[Clinician asked: \"i i have noticed that you know i've been trying to exercise more in order to lose weight but i ca n't even really exercise for very long because i start of as soon as i start to jog i my headaches the headaches come back on a lot worse so i notice it when i'm exercising\"] okay and do you seem to have any other symptoms when you get these headaches i've been having a ringing in my ears for a few months now and then what really scared me is that now i'm starting to get some blurred vision it's not all the time but it it will come and go but some blurred like on the",
+    "[Clinician asked: \"in my on the side of my vision\"] okay okay and have you experienced any numbness or tingling to your hands or feet or your face",
+    "[Clinician asked: \"no i have n't\"] okay so you you like to run a lot what kind of do you do you use a a good shoe you know what kind of shoes do you use for your running",
+    "[Clinician asked: \"yeah i yeah i i'm starting to get back into it i'm a big new balance person in asics so yeah those are the two brands i like to wear yeah so right now i'm using asics\"] okay yeah i like to run too and i use nike",
+    "[Clinician asked: \"okay\"] i used to get tumor guy but i i really kinda moved over to nike",
+    "[Clinician asked: \"hmmm\"] that's good you know it is running is a great exercise",
+    "[Clinician asked: \"it is\"] so have you had any let's get back to the exam here have you had a recent mri of your brain i saw one from a few years ago but as doctor white said anything about getting a more a recent mri",
+    "[Clinician asked: \"yeah she was gon na put one in but she wanted me to see you first and urgently so they have n't called me yet for the mri\"] okay so that's good we i think we'll we will follow up with that mri but let's go ahead and take a do a quick physical exam here i reviewed your vitals that the the assistant collected when you came in and everything there looks good including your blood pressure you know with symptoms like that that's one of those things that i'd be concerned about",
+    "[Clinician asked: \"okay\"] now on your heart exam it sounds like it's normal sinus rhythm with no murmurs rubs or gallops so that's good as i listen i'm gon na go ahead and look here in your eyes the funduscopic exam shows papilledema and that's just some of swelling behind there in the eye and this let me do a a neurological exam this will take a few minutes you get up to follow my instructions as we go through that okay on neurological exam your cranial nerves one through twelve are intact including a normal cranial reflex and just went to watch you walk across the room here",
+    "[Clinician asked: \"okay go ahead sorry\"] that's okay for your first problem your headaches your symptoms are concerning for what we call idiopathic intracranial hypertension and this is a condition that that you have increased pressure in the in your head in your brain without any known cause for it now patient also presents with often present with symptoms such as yours you know headaches worsening with activity ringing in the ears changes in your vision so i'm i'm pretty confident that that's what we're having here now why we get concerned is if the pressure continues to increase this can lead to some permanent changes in your vision so i i do wan na get a a few more tests just so we can confirm that diagnosis and the first one that we just talked about is an mri i think it's really important to get that to check for any other condition that could be contributing to your symptoms now once i have that result i'm gon na be doing also doing a spinal tap which will help me evaluate the pressure in the brain and it can also help you feel better if you do have an increased pressure by taking the decreasing the amount of that pressure just by taking a a a little bit of fluid off of that and lastly i want you to be seen by a neuro-ophthalmologist for a complete eye exam now i i know that sounds like a lot of information but i think it's really important we get that accomplished do you have any questions for me",
+    "[Clinician asked: \"yeah that is a lot and so i i'm sure i'll have more that comes up but so let's say we do all this test and it confirms what you're saying does that mean was i referred to you because that means i will need surgery\"] not necessarily if you have idiopathic intracranial hypertension there are number of medications that we can try to help decrease that pressure in your brain and this will also help you have less headaches when you exercise as exercise and weight loss are also an important part of the treatment",
+    "[Clinician asked: \"okay alright alright and i'll probably add something about so is this something i'll be doing soon is this all things i'll be doing this week\"] yeah that's a great question here i i'm gon na go ahead and we're gon na for the mri i'll have to get a preapproval from your insurance company i will work on that my my my team in the front office will get that preapproved and then once that's done we'll call you to help schedule that mri",
+    "[Clinician asked: \"okay alright thank you bye\"] bye sorry"
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nHeadaches.\n\nHISTORY OF PRESENT ILLNESS\n\nJulie Jenkins is a pleasant 33-year-old female who presents to the clinic today for the evaluation of headaches. The patient was referred from her primary care physician. The patient states that she was seen by Dr. White a few years ago and was going to obtain an MRI; however, Dr. White wanted her to see me first and urgently.\n\nThe onset of her headaches began when she was a teenager. Initially, her headaches appeared during menses, however she now experiences them more frequently and with more severity. Her pain is aggravated by physical activities. The patient states that she has been trying to exercise more in order to lose weight, however she is unable to exercise for prolonged periods of time secondary to the headaches. The patient locates her pain to the right side of her head and behind her eye. She describes her pain as a pulsing sensation. She also reports intermittent ringing in her ears for the last few months. Additionally, she reports intermittent blurred vision on the lateral aspect of her vision. She denies any numbness or tingling in her hands, feet, or face.\n\nThe patient enjoys running and wears either New Balance or Asics shoes.\n\nREVIEW OF SYSTEMS\n\nNeurological: Reports headaches. Denies numbness or tingling in her hands, feet, or face.\n\nVITALS\n\nVitals are within normal limits.\n\nPHYSICAL EXAM\n\nCV: Normal head rhythm with no murmurs, rubs, or gallops.\nNEURO: Cranial nerves I through XII are intact distally, including a normal cranial reflex.\nMSK: Gait is normal.\nFunduscopic exam: Positive for papilledema.\n\nASSESSMENT\n\nHeadaches, concern for idiopathic intracranial hypertension.\n\nPLAN\n\nAfter reviewing the patient's examination today, I have had a lengthy discussion with the patient in regard to her current symptoms. I have recommended that we obtain an urgent MRI of the brain to evaluate for any other condition that could be contributing to her symptoms. We will contact her to schedule this after approved by insurance. Once the MRI results are available for review and further discussion, I will also perform a spinal tap to evaluate the pressure in the brain. I have also advised her to be seen by a neuro ophthalmologist for a complete eye exam. Questions were invited and answered today. The patient agrees to the treatment plan.\n\nINSTRUCTIONS\n\nThe patient will follow up with me once the MRI results are available for review and further recommendations.",
+  "gold_sections": {
+    "CC": "Headaches.",
+    "HPI": "Julie Jenkins is a pleasant 33-year-old female who presents to the clinic today for the evaluation of headaches. The patient was referred from her primary care physician. The patient states that she was seen by Dr. White a few years ago and was going to obtain an MRI; however, Dr. White wanted her to see me first and urgently.\n\nThe onset of her headaches began when she was a teenager. Initially, her headaches appeared during menses, however she now experiences them more frequently and with more severity. Her pain is aggravated by physical activities. The patient states that she has been trying to exercise more in order to lose weight, however she is unable to exercise for prolonged periods of time secondary to the headaches. The patient locates her pain to the right side of her head and behind her eye. She describes her pain as a pulsing sensation. She also reports intermittent ringing in her ears for the last few months. Additionally, she reports intermittent blurred vision on the lateral aspect of her vision. She denies any numbness or tingling in her hands, feet, or face.\n\nThe patient enjoys running and wears either New Balance or Asics shoes.",
+    "ROS": "Neurological: Reports headaches. Denies numbness or tingling in her hands, feet, or face.",
+    "VITALS": "Vitals are within normal limits.",
+    "PHYSICAL_EXAM": "CV: Normal head rhythm with no murmurs, rubs, or gallops.\nNEURO: Cranial nerves I through XII are intact distally, including a normal cranial reflex.\nMSK: Gait is normal.\nFunduscopic exam: Positive for papilledema.",
+    "ASSESSMENT": "Headaches, concern for idiopathic intracranial hypertension.",
+    "PLAN": "After reviewing the patient's examination today, I have had a lengthy discussion with the patient in regard to her current symptoms. I have recommended that we obtain an urgent MRI of the brain to evaluate for any other condition that could be contributing to her symptoms. We will contact her to schedule this after approved by insurance. Once the MRI results are available for review and further discussion, I will also perform a spinal tap to evaluate the pressure in the brain. I have also advised her to be seen by a neuro ophthalmologist for a complete eye exam. Questions were invited and answered today. The patient agrees to the treatment plan.",
+    "INSTRUCTIONS": "The patient will follow up with me once the MRI results are available for review and further recommendations."
+  },
+  "n_patient_turns": 17,
+  "n_clinician_turns": 18,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 18789.042346179485,
+      "response_text": "I understand how overwhelming this must feel, and I\u2019m here to help you through it. Based on what you\u2019ve described, we\u2019re considering a condition called idiopathic intracranial hypertension, which means there\u2019s increased pressure in your brain without a clear cause. This can explain the headaches, ringing in your ears, and blurred vision you\u2019re experiencing. \n\nThe next steps are important to confirm this diagnosis and ensure we\u2019re on the right track. We\u2019ll start with an MRI to check for any other possible causes of your symptoms. After that, we may do a spinal tap to measure the pressure in your brain and possibly relieve some of that pressure, which can also help with your symptoms. I\u2019ll also arrange for you to see a specialist to thoroughly check your vision.\n\nIt\u2019s understandable to worry about surgery, but rest assured, we\u2019ll explore all treatment options, starting with medications to reduce the pressure. We\u2019ll work closely with your insurance to get the MRI approved and scheduled as soon as possible. Please don\u2019t hesitate to ask any questions you have\u2014I\u2019m here to support you through this.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 24119.43332105875,
+      "response_text": "Thank you for sharing all of that with me, Julie. It makes sense that you're feeling nervous and overwhelmed with these symptoms\u2014it\u2019s a lot to deal with, especially when it\u2019s been going on for so long. I can see how the headaches, blurred vision, and ringing in your ears would be concerning, and I\u2019m glad you\u2019re taking it seriously by seeking answers.\n\nBased on what you\u2019ve described, we\u2019re looking at a few possibilities, but the most concerning one is something called idiopathic intracranial hypertension. This means there\u2019s increased pressure in your brain without a clear cause, and it can sometimes lead to vision problems if not treated. The good news is that we can manage this with medications and other treatments, and surgery isn\u2019t always necessary. Studies show that early diagnosis and treatment can help prevent vision loss and reduce symptoms [PMID ?].\n\nOur next steps are to confirm this diagnosis. We\u2019ll start with an MRI to check for any other issues that might be causing your symptoms. After that, we\u2019ll do a spinal tap to measure the pressure in your brain directly. I\u2019ll also arrange for you to see a neuro-ophthalmologist to make sure your vision is stable and to monitor it closely.\n\nI know this is a lot to process, so let me know if you have any questions or if anything isn\u2019t clear. We\u2019ll schedule the MRI as soon as possible, and my team will handle the insurance preapproval. I\u2019ll follow up with you within a week to check in on how you\u2019re feeling and to answer any questions that come up in the meantime.\n\nBefore we finish, could you just recap for me what you understand about the plan? That way I can make sure I\u2019ve explained everything clearly.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7539.341665804386,
+      "response_text": "Thank you for sharing your concerns about your headaches, Julie. I understand how frustrating and overwhelming it must be to deal with these symptoms, especially when they interfere with your daily activities like exercise and sleep.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if your symptoms get worse or if you notice anything new, please call us so we can address it promptly.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns about your headaches, Julie. I understand how frustrating and overwhelming it must be to deal with these symptoms, especially when they interfere with your daily activities like exercise and sleep.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if your symptoms get worse or if you notice anything new, please call us so we can address it promptly.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 130030.49466013908,
+      "response_text": "It sounds like you've been dealing with headaches for a long time, especially around your periods and when you're stressed. I want to understand how this has been affecting your daily life.\n\nHeadaches that come with ringing in your ears and blurred vision can be concerning. We'll need to look into these symptoms together to figure out the best way to manage them.\n\nWe'll work together to understand your headaches better and explore possible causes and treatments.\n\nPlease keep track of when your headaches happen, what they feel like, and any other symptoms you notice. This will help us make sense of what's going on.\n\nLet's plan to follow up in a week to see how you're doing and go over any questions or concerns you have in the meantime.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a week. In the meantime, if your headaches get worse or you notice anything new, please call us so we can address it right away.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you've been dealing with headaches for a long time, especially around your periods and when you're stressed. I want to understand how this has been affecting your daily life.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "headaches",
+            "profile_path": "problems[0]",
+            "explanation": "Headaches that come with ringing in your ears and blurred vision can be concerning. We'll need to look into these symptoms together to figure out the best way to manage them.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll work together to understand your headaches better and explore possible causes and treatments.",
+          "Please keep track of when your headaches happen, what they feel like, and any other symptoms you notice. This will help us make sense of what's going on.",
+          "Let's plan to follow up in a week to see how you're doing and go over any questions or concerns you have in the meantime."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a week. In the meantime, if your headaches get worse or you notice anything new, please call us so we can address it right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "headaches"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 179503.83931398392,
+      "response_text": "It sounds like you've been dealing with headaches for a long time, especially around your menstrual periods, stress, or recent changes. I want to understand how this has been affecting your daily life.\n\nHeadaches that come with ringing in the ears and blurred vision can be linked to various causes. Since your headaches have been ongoing since your teenage years, we'll need to explore different possibilities to find the right approach for you.\n\nWe'll schedule a follow-up visit to discuss the results of any necessary tests and plan the next steps together.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if your headaches get worse or you notice any new symptoms, please call us so we can address them promptly.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you've been dealing with headaches for a long time, especially around your menstrual periods, stress, or recent changes. I want to understand how this has been affecting your daily life.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "headaches",
+            "profile_path": "problems[0]",
+            "explanation": "Headaches that come with ringing in the ears and blurred vision can be linked to various causes. Since your headaches have been ongoing since your teenage years, we'll need to explore different possibilities to find the right approach for you.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[1]::40471580_0",
+                "primary_assertion_id": "40471580_0",
+                "pmids": [
+                  "40471580"
+                ]
+              },
+              {
+                "cluster_id": "finding::sub_query[1]::40155879_0",
+                "primary_assertion_id": "40155879_0",
+                "pmids": [
+                  "40155879"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll schedule a follow-up visit to discuss the results of any necessary tests and plan the next steps together."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if your headaches get worse or you notice any new symptoms, please call us so we can address them promptly.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[1]::40471580_0",
+          "finding::sub_query[1]::40155879_0"
+        ],
+        "all_pmids_used": [
+          "40471580",
+          "40155879"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "headaches"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "40471580",
+        "40155879"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[1]::40471580_0",
+        "finding::sub_query[1]::40155879_0"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 111501.53587758541,
+        "module_2_retrieval": 1469.436526298523,
+        "module_3_reasoning": 47752.53954529762,
+        "module_4_response": 18778.995618224144,
+        "total_ms": 179502.5075674057
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

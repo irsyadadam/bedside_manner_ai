@@ -1,0 +1,263 @@
+{
+  "transcript_id": "aci_aci_D2N202",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "hi i'm i'm okay today i'm having some shoulder pain",
+  "patient_utterances": [
+    "[Clinician asked: \"good morning sharon how you doing\"] hi i'm i'm okay today i'm having some shoulder pain",
+    "[Clinician asked: \"i see that i see that here in the nurse's notes it looks like you're having some right shoulder pain says here that you've guys have been remodeling your house what do you do you remember what you were doing when that right shoulder pain started\"] yeah i was up on a ladder painting and kinda reaching out and fell took a fall and kinda braced myself but i i was painting",
+    "[Clinician asked: \"okay so it does sound like there might have been some direct trauma to that area now it says here that this happened about three weeks ago were you able it sounds like you were able to get up and continue but you were having some pain did you take anything at that time to help with that shoulder pai\"] yeah i i iced the arm and then i also i also took some advil",
+    "[Clinician asked: \"okay now have you had any shoulder pain before of that right shoulder or is this the first time or or the first insult to that area\"] first time",
+    "[Clinician asked: \"okay and now are you able to move that right arm for me\"] yes i'm able to move but i do have some pain lifting overhead raising my arm overhead",
+    "[Clinician asked: \"okay alright now do you have pain all the time or does it come and go\"] it is some pain is all the time but it some is intermittent",
+    "[Clinician asked: \"okay now i you mentioned that you had taken some ibuprofen for that pain now let's talk a little bit about your pain rating okay zero being none ten being the worst pain you've ever felt in your life can you rate your pain for me without any tylenol or advil or any nsaid can you rate your pain for m\"] about a six",
+    "[Clinician asked: \"okay now when you take that medication can you rate your pain for me what what's that pain level get to\"] it goes down to about a four",
+    "[Clinician asked: \"okay so it does help take the edge off of that pain and and you're able to kinda move around a little bit then\"] yes",
+    "[Clinician asked: \"okay so the remodel tell me a little bit about that my wife and i were working on our remodel and we went they just built the brand-new lowe's here in town have you guys been there yet\"] no we have not",
+    "[Clinician asked: \"well i did n't know if you know this or not but you can save big money there that's the rumor\"] okay",
+    "[Clinician asked: \"so yeah we we've been down there we got some pain we we got went and got some samples and then hey while we were there we ended up deciding to put down a bunch of flooring too so i really recommend you guys if you get a chance go over there and take a look at their sales and and see if you ca n't fi\"] that sounds great i'll have to take a look at the flooring as well",
+    "[Clinician asked: \"that sounds good so now just out of curiosity are you experiencing any numbness or tingling in in your arm or hand\"] i did when i initially hurt it but i'm not no longer having any numbness or tingling",
+    "[Clinician asked: \"okay so a little bit about my physical exam i'm gon na do a quick physical exam on you today now your vitals look good but specifically on your right shoulder exam you do have limited active and passive range of motion and there is tenderness to the greater tuberosity of the humerus now there is no \"] no i think it sounds good ca n't wait to to get some relief",
+    "[Clinician asked: \"okay so i know we ordered it for six to eight weeks but i wan na see you again in two weeks and we'll evaluate how you're doing and make some additional treatment plan at that at that time okay\"] okay",
+    "[Clinician asked: \"alright sounds good we will get the nurse come in and she will take care of you and i will see you in two weeks\"] thank you"
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nRight shoulder pain.\n\nHISTORY OF PRESENT ILLNESS\n\nSharon Wright is a pleasant 36-year-old female who presents to the clinic today for the evaluation of right shoulder pain. The onset of her pain began 3 weeks ago, when she was painting on a ladder when she reached out to catch herself because she fell. She states that she braced herself with her right arm. The patient reports that she was able to get up and continue painting. She states that she experienced numbness and tingling in her arm and hand when she initially injured her right shoulder, however this has resolved. She states that she iced her arm and took Advil for pain. The patient denies any previous shoulder pain. She reports constant pain with lifting her arm overhead. The patient rates her pain level as a 6 out of 10 without medication and a 4 out of 10 with medication.\n\nREVIEW OF SYSTEMS\n\nMusculoskeletal: Positive right shoulder pain.\nNeurological: Denies numbness and tingling.\n\nVITALS\n\nVitals look good today.\n\nPHYSICAL EXAM\n\nCV: Brisk capillary refill of less than 3 seconds.\nNEURO: Normal strength and sensation. Neurovascularly intact distally. Equal bilateral response to sensation and touch.\nMSK: Examination of the right shoulder reveals limited active and passive ROM. Tenderness over the greater tuberosity of the humerus. No tenderness over the sternoclavicular joint. Good strong bilateral hand grips.\n\nRESULTS\n\nX-ray of the right shoulder taken today reveals no fracture or bony abnormality.\n\nASSESSMENT\n\nRight shoulder rotator cuff tendinopathy.\n\nPLAN\n\nAfter reviewing the patient's examination and radiographic findings today, I have had a lengthy discussion with the patient in regards to her current symptoms. I have explained to her that her symptoms are likely due to rotator cuff tendinopathy. I have recommended that we obtain an MRI of the right shoulder. I referred her to formal physical therapy to strengthen her right shoulder. She will continue to take Advil as needed for pain.\n\nINSTRUCTIONS\n\nThe patient will follow up with me in 2 weeks for re-evaluation.",
+  "gold_sections": {
+    "CC": "Right shoulder pain.",
+    "HPI": "Sharon Wright is a pleasant 36-year-old female who presents to the clinic today for the evaluation of right shoulder pain. The onset of her pain began 3 weeks ago, when she was painting on a ladder when she reached out to catch herself because she fell. She states that she braced herself with her right arm. The patient reports that she was able to get up and continue painting. She states that she experienced numbness and tingling in her arm and hand when she initially injured her right shoulder, however this has resolved. She states that she iced her arm and took Advil for pain. The patient denies any previous shoulder pain. She reports constant pain with lifting her arm overhead. The patient rates her pain level as a 6 out of 10 without medication and a 4 out of 10 with medication.",
+    "ROS": "Musculoskeletal: Positive right shoulder pain.\nNeurological: Denies numbness and tingling.",
+    "VITALS": "Vitals look good today.",
+    "PHYSICAL_EXAM": "CV: Brisk capillary refill of less than 3 seconds.\nNEURO: Normal strength and sensation. Neurovascularly intact distally. Equal bilateral response to sensation and touch.\nMSK: Examination of the right shoulder reveals limited active and passive ROM. Tenderness over the greater tuberosity of the humerus. No tenderness over the sternoclavicular joint. Good strong bilateral hand grips.",
+    "RESULTS": "X-ray of the right shoulder taken today reveals no fracture or bony abnormality.",
+    "ASSESSMENT": "Right shoulder rotator cuff tendinopathy.",
+    "PLAN": "After reviewing the patient's examination and radiographic findings today, I have had a lengthy discussion with the patient in regards to her current symptoms. I have explained to her that her symptoms are likely due to rotator cuff tendinopathy. I have recommended that we obtain an MRI of the right shoulder. I referred her to formal physical therapy to strengthen her right shoulder. She will continue to take Advil as needed for pain.",
+    "INSTRUCTIONS": "The patient will follow up with me in 2 weeks for re-evaluation."
+  },
+  "n_patient_turns": 16,
+  "n_clinician_turns": 17,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 12454.736091196537,
+      "response_text": "Sharon, I understand how frustrating and uncomfortable this shoulder pain must be, especially with everything you\u2019re trying to accomplish with the remodeling. It\u2019s good that you\u2019ve been icing and taking ibuprofen, as that seems to help a bit. Based on what you\u2019ve described and the physical exam, it sounds like you have a shoulder injury that\u2019s likely from the fall. The limited range of motion and tenderness we noted are consistent with that.\n\nWe\u2019ve started you on some physical therapy exercises to help strengthen and stretch your shoulder, which should help improve your mobility and reduce the pain over time. In the meantime, try to avoid heavy lifting or repetitive overhead movements if possible. We\u2019ll check in with you in two weeks to see how things are progressing and adjust your treatment plan as needed. In the meantime, take it easy and give yourself some time to heal. You\u2019ve been through a lot, and I\u2019m confident we\u2019ll get you back to feeling like yourself again soon.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 21945.783734321594,
+      "response_text": "Thank you for sharing all the details about your shoulder pain, Sharon. It makes sense that you're concerned, especially after the fall during the remodeling project. Dealing with pain for three weeks while trying to continue your activities is tough, and I can see how it might be affecting your daily life and your ability to keep up with the remodel.\n\nFrom what you've described, it sounds like you might have a muscle strain or possibly an issue with the rotator cuff, which are common injuries after a fall. The fact that the pain improves with ibuprofen suggests it's likely inflammatory, but I want to make sure we're covering all bases. We'll monitor your progress over the next two weeks, and if things don't improve, we can explore other options like physical therapy or further imaging.\n\nTo help you get back on your feet, we'll continue with the current treatment plan: rest, ice, and ibuprofen for now. I'll see you in two weeks to check on your progress and adjust the plan as needed. Before you leave, could you summarize what we've discussed so far? That way, I can ensure everything is clear and you feel confident about the next steps.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7360.49485206604,
+      "response_text": "It sounds like you're dealing with some shoulder pain from your recent fall while remodeling your house. I understand how that can be concerning.\n\nWe'll monitor your progress and schedule a follow-up in two weeks to reassess your shoulder pain and adjust treatment as needed.\n\nCan you tell me, in your own words, what we discussed today regarding your shoulder pain and the plan moving forward?\n\nLet's plan to see each other again in two weeks. In the meantime, if your pain worsens or you experience any new symptoms, please reach out.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're dealing with some shoulder pain from your recent fall while remodeling your house. I understand how that can be concerning.",
+        "clinical_information_per_concern": [],
+        "next_steps": [
+          "We'll monitor your progress and schedule a follow-up in two weeks to reassess your shoulder pain and adjust treatment as needed."
+        ],
+        "teach_back_prompt": "Can you tell me, in your own words, what we discussed today regarding your shoulder pain and the plan moving forward?",
+        "follow_up_invitation": "Let's plan to see each other again in two weeks. In the meantime, if your pain worsens or you experience any new symptoms, please reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 118481.58156126738,
+      "response_text": "I can hear how much this has been bothering you \u2014 you said, \"can't wait to to get some relief.\" That makes sense after everything you've been through.\n\nThe right shoulder pain you're experiencing, especially after an activity like painting, can be addressed with a few key steps. We'll start by understanding the pattern of your pain and how it's affecting your daily life.\n\nOur goal is to help you find relief as soon as possible. We'll work together to figure out the best way to manage your pain and get you back to doing the things you enjoy.\n\nWe'll schedule a follow-up visit to discuss your pain in more detail and explore treatment options together.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again soon. In the meantime, if your pain gets worse or you experience any new symptoms, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this has been bothering you \u2014 you said, \"can't wait to to get some relief.\" That makes sense after everything you've been through.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "right shoulder pain",
+            "profile_path": "problems[0]",
+            "explanation": "The right shoulder pain you're experiencing, especially after an activity like painting, can be addressed with a few key steps. We'll start by understanding the pattern of your pain and how it's affecting your daily life.",
+            "citations": []
+          },
+          {
+            "concern_label": "get some relief",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Our goal is to help you find relief as soon as possible. We'll work together to figure out the best way to manage your pain and get you back to doing the things you enjoy.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll schedule a follow-up visit to discuss your pain in more detail and explore treatment options together."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again soon. In the meantime, if your pain gets worse or you experience any new symptoms, please call us right away.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 1,
+        "problems": [
+          "right shoulder pain"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 175632.54968822002,
+      "response_text": "I can see you're really looking forward to getting some relief from your shoulder pain. You mentioned, \"can't wait to to get some relief,\" which shows how much this is affecting your daily life.\n\nYour shoulder pain, especially after an incident like being on a ladder, should be evaluated. We'll check for common causes like muscle strains or possible injuries that need attention.\n\nOur goal is to help you find relief quickly. We'll work together to figure out the best way to manage your pain and get you back to your normal activities.\n\nWe'll schedule an imaging study to get a better look at your shoulder and check for any injuries or issues that might be causing the pain.\n\nWe'll also review your current treatment plan to see if there are any adjustments we can make to help relieve your discomfort faster.\n\nPlease keep track of your pain levels and any activities that make it better or worse, so we can discuss them during your next visit.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 2 weeks. In the meantime, if your pain gets worse or you experience any new symptoms, please call us right away so we can address them promptly.",
+      "structured_response": {
+        "acknowledgment": "I can see you're really looking forward to getting some relief from your shoulder pain. You mentioned, \"can't wait to to get some relief,\" which shows how much this is affecting your daily life.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "shoulder pain",
+            "profile_path": "problems[0]",
+            "explanation": "Your shoulder pain, especially after an incident like being on a ladder, should be evaluated. We'll check for common causes like muscle strains or possible injuries that need attention.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[2]::39366124_0",
+                "primary_assertion_id": "39366124_0",
+                "pmids": [
+                  "39366124"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "to get some relief",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Our goal is to help you find relief quickly. We'll work together to figure out the best way to manage your pain and get you back to your normal activities.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[2]::39366124_0",
+                "primary_assertion_id": "39366124_0",
+                "pmids": [
+                  "39366124"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll schedule an imaging study to get a better look at your shoulder and check for any injuries or issues that might be causing the pain.",
+          "We'll also review your current treatment plan to see if there are any adjustments we can make to help relieve your discomfort faster.",
+          "Please keep track of your pain levels and any activities that make it better or worse, so we can discuss them during your next visit."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 2 weeks. In the meantime, if your pain gets worse or you experience any new symptoms, please call us right away so we can address them promptly.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[2]::39366124_0"
+        ],
+        "all_pmids_used": [
+          "39366124"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 1,
+        "problems": [
+          "shoulder pain"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "39366124"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[2]::39366124_0"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 102918.8377931714,
+        "module_2_retrieval": 1058.2456812262535,
+        "module_3_reasoning": 48487.916223704815,
+        "module_4_response": 23166.00476205349,
+        "total_ms": 175631.00446015596
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

@@ -1,0 +1,267 @@
+{
+  "transcript_id": "aci_aci_D2N187",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "good morning",
+  "patient_utterances": [
+    "[Clinician asked: \"well good morning emily how are you\"] good morning",
+    "[Clinician asked: \"how are you doing\"] doing okay i'm okay",
+    "[Clinician asked: \"i understand you're having some sudden visual distortions and some blurring of your vision is that right\"] it is yes",
+    "[Clinician asked: \"okay so what's going on\"] sorry to put you off i do n't think i have that script",
+    "[Clinician asked: \"oh\"] maybe a different one i wonder if patient has history of",
+    "[Clinician asked: \"macular degeneration yeah yeah i was because we do n't we do n't to do the intro anymore i was just going with that you you're coming in with sudden visual distortion and blurring of vision so i'll just you know i'll just say i'll just go ahead and go into this technician part so it looks like the t\"] it is yes",
+    "[Clinician asked: \"okay what kind of venture are we gon na go into do you do you have the the script or no it it just talks\"] but it's it's not presenting like like how you're reading it like how you're talking about it is it kinda what i'm saying because like after that i'm supposed to say yeah whenever i take my husband out to like a nice restaurant i have trouble adjusting to those dim lights but i'm not really getting the question of like so what's causing it or where do you have this happening stuff like that so i'm a little confused",
+    "[Clinician asked: \"okay i mean i can just straight out follow the script just so we can kinda get it rolling so so i said so hi so it looks like the technician noticed that you've been having a decrease in vision when reading and straight lines in your door frames have been looking crooked to you\"] yeah and whenever i take my husband out to a nice restaurant i have trouble adjusting to those dim lights",
+    "[Clinician asked: \"uh okay so do you have a favorite restaurant you like to go to\"] i do mcdonalds is one of my favorite here in arlington",
+    "[Clinician asked: \"that sounds good what what do you what's your favorite there\"] they have a great egg plant parmajon one of my favorite so i just go ahead and go with that",
+    "[Clinician asked: \"that sounds really nice very good\"] it's just",
+    "[Clinician asked: \"yeah okay well so it looks like you're still smoking a pack of cigarettes a day\"] yes i tried to stop smoking every now and then but it's still been hard to totally stop",
+    "[Clinician asked: \"okay and how is your blood pressure been doing are you keeping up with your medication\"] i take my blood pressure when i can remember to do so",
+    "[Clinician asked: \"okay yeah it's really important to keep up with your blood pressure check that regularly i'm totally going off script and you know might want to keep a log of that as well and check your blood pressures regularly so okay well let me do a just a quick exam of your eyes if you can take off your glasse\"] i do not no that sounds great"
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nChanges in vision.\n\nSOCIAL HISTORY\n\nPatient smokes approximately 1 pack of cigarettes per day.\n\nREVIEW OF SYSTEMS\n\nEyes: Reports visual distortions and blurred vision.\n\nPHYSICAL EXAM\n\nEyes\n- Examination: Anterior segment examination reveals posterior chamber intraocular lenses in both eyes.\nRight eye: The cornea is clear. No MVI. PCIOL cup to disc is 0.2. Fundus examination of the right eye shows the retina to be attached 360 degrees without any tears or holes. RPE changes in the fovea. Posterior segment exam shows drusen in the macula, thickening of the retina, presence of subretinal fluid and exudates accumulation. Positive for hemorrhage.\nLeft eye: The cornea is clear. No MVI. Cup to disc is 0.3. RPE changes in the fovea. No hemorrhage or subretinal fluid. Retina is attached.\n\nRESULTS\n\nOptical coherence tomography shows drusen deposit. Retinal pigment epithelium with subretinal fluid accumulation. The choroidal neovascular membrane can be visualized. Fluorescein angiography reveals focal areas of leakage in the right eye consistent with neovascular age-related macular degeneration.\n\nASSESSMENT AND PLAN\n\n1. Neovascular age-related macular degeneration.\n- Medical Reasoning: Based on her diagnostic testing and eye exam, this is at an advanced stage.\n- Patient Education and Counseling: We discussed the nature of the condition, as well as the recommendation for Lucentis injections. I explained the procedure in detail and advised the patient of the potential outcomes.\n- Medical Treatment: We will proceed with a once-monthly Lucenti's injections.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.",
+  "gold_sections": {
+    "CC": "Changes in vision.",
+    "SOCIAL_HISTORY": "Patient smokes approximately 1 pack of cigarettes per day.",
+    "ROS": "Eyes: Reports visual distortions and blurred vision.",
+    "PHYSICAL_EXAM": "Eyes\n- Examination: Anterior segment examination reveals posterior chamber intraocular lenses in both eyes.\nRight eye: The cornea is clear. No MVI. PCIOL cup to disc is 0.2. Fundus examination of the right eye shows the retina to be attached 360 degrees without any tears or holes. RPE changes in the fovea. Posterior segment exam shows drusen in the macula, thickening of the retina, presence of subretinal fluid and exudates accumulation. Positive for hemorrhage.\nLeft eye: The cornea is clear. No MVI. Cup to disc is 0.3. RPE changes in the fovea. No hemorrhage or subretinal fluid. Retina is attached.",
+    "RESULTS": "Optical coherence tomography shows drusen deposit. Retinal pigment epithelium with subretinal fluid accumulation. The choroidal neovascular membrane can be visualized. Fluorescein angiography reveals focal areas of leakage in the right eye consistent with neovascular age-related macular degeneration.",
+    "ASSESSMENT_PLAN": "1. Neovascular age-related macular degeneration.\n- Medical Reasoning: Based on her diagnostic testing and eye exam, this is at an advanced stage.\n- Patient Education and Counseling: We discussed the nature of the condition, as well as the recommendation for Lucentis injections. I explained the procedure in detail and advised the patient of the potential outcomes.\n- Medical Treatment: We will proceed with a once-monthly Lucenti's injections.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan."
+  },
+  "n_patient_turns": 14,
+  "n_clinician_turns": 15,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 24991.87471717596,
+      "response_text": "Thank you for sharing your concerns with me, Emily. I can understand how frustrating it must be to experience sudden visual distortions and difficulty adjusting to dim lighting, especially in social settings like dining out. It\u2019s important that we address these issues together.\n\nI want to encourage you to continue monitoring your blood pressure regularly and consider keeping a log to track your readings. This can help us better understand any patterns and ensure we\u2019re managing your health effectively. Additionally, while I understand smoking can be challenging, it\u2019s important to note that it can impact eye health. If you\u2019re interested, I can provide resources or discuss methods to help you quit. \n\nLet\u2019s schedule a follow-up exam to further assess your vision and consider if a referral to an eye specialist would be beneficial. We\u2019re here to support you in taking positive steps toward your health. Please feel free to reach out if you have any questions or concerns in the meantime.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 23304.187156260014,
+      "response_text": "Thank you for sharing your concerns with me, Emily. It makes sense that you're feeling worried about your sudden visual distortions and blurred vision, especially since it's affecting your ability to enjoy dining out with your husband. I can understand how confusing this must be, and I want to work together to get a clearer picture of what's going on.\n\nGiven your symptoms, such as difficulty adjusting to dim lights and the visual distortions you're experiencing, it's important to consider potential causes like age-related macular degeneration (AMD), which can cause trouble seeing in low-light conditions [PMID ?]. Additionally, your smoking history is a known risk factor for AMD, so we'll want to address that as part of your care plan.\n\nWe'll start with a thorough eye exam to assess your vision and possibly refer you to an ophthalmologist for further evaluation. In the meantime, I recommend keeping track of your blood pressure regularly, as high blood pressure can also impact vision health [PMID ?]. If you're interested, we can discuss strategies to help you quit smoking, as this could improve your overall health and vision outcomes.\n\nLet's plan to follow up in 2-4 weeks to review your progress and adjust our approach as needed. Before you leave, could you summarize what we've discussed so far? That way, I can ensure you're clear on the next steps.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 8054.532490670681,
+      "response_text": "It sounds like you're having some trouble with your vision, especially in dim lighting, and you mentioned having trouble adjusting to restaurant lighting. I'm here to help figure this out.\n\nWe'll need to schedule a comprehensive eye exam to better understand what's going on with your vision. This will help us identify any issues and plan the next steps together.\n\nCan you tell me, in your own words, what we're going to do next and why it's important?\n\nLet's plan to follow up in a week to review the exam results. If you experience any sudden changes in your vision or worsening symptoms, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're having some trouble with your vision, especially in dim lighting, and you mentioned having trouble adjusting to restaurant lighting. I'm here to help figure this out.",
+        "clinical_information_per_concern": [],
+        "next_steps": [
+          "We'll need to schedule a comprehensive eye exam to better understand what's going on with your vision. This will help us identify any issues and plan the next steps together."
+        ],
+        "teach_back_prompt": "Can you tell me, in your own words, what we're going to do next and why it's important?",
+        "follow_up_invitation": "Let's plan to follow up in a week to review the exam results. If you experience any sudden changes in your vision or worsening symptoms, please call us right away.",
+        "nurse_elements_applied": [
+          "Name",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 124014.80484008789,
+      "response_text": "I understand you're having trouble with your vision, especially when reading and in dim lighting, and noticing crooked lines in door frames. This sounds concerning, and I want to take it seriously.\n\nChanges in vision, especially sudden ones like seeing crooked lines or trouble adjusting to dim lighting, can be signs of serious eye health issues. It's important to get this checked out to rule out conditions that might need prompt attention.\n\nGiven the sudden changes in your vision, we'll schedule an eye exam to thoroughly check your vision and eye health.\n\nWe'll also review any medications you're taking that might be affecting your vision.\n\nIf any concerning findings are identified, we may need to refer you to a specialist for further evaluation.\n\nI want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to follow up in two weeks to review the results of the eye exam. In the meantime, if your vision changes suddenly or you experience any severe symptoms, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I understand you're having trouble with your vision, especially when reading and in dim lighting, and noticing crooked lines in door frames. This sounds concerning, and I want to take it seriously.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "decrease in vision",
+            "profile_path": "problems[0]",
+            "explanation": "Changes in vision, especially sudden ones like seeing crooked lines or trouble adjusting to dim lighting, can be signs of serious eye health issues. It's important to get this checked out to rule out conditions that might need prompt attention.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::35608838",
+                "primary_assertion_id": "35608838_retr",
+                "pmids": [
+                  "35608838"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "Given the sudden changes in your vision, we'll schedule an eye exam to thoroughly check your vision and eye health.",
+          "We'll also review any medications you're taking that might be affecting your vision.",
+          "If any concerning findings are identified, we may need to refer you to a specialist for further evaluation."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to follow up in two weeks to review the results of the eye exam. In the meantime, if your vision changes suddenly or you experience any severe symptoms, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Demonstrate empathy",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "retrieval_only::35608838"
+        ],
+        "all_pmids_used": [
+          "35608838"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 1,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "decrease in vision"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "35608838"
+      ],
+      "cluster_ids_used": [
+        "retrieval_only::35608838"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Demonstrate empathy",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 209863.2972240448,
+      "response_text": "I understand you're experiencing difficulty with your vision, including seeing crooked lines and trouble reading in dim lighting. This must be concerning for you.\n\nChanges in vision, especially sudden ones, can be serious. The patterns you're describing could relate to issues like refractive errors or other eye conditions that affect how you see. We'll need to look into this carefully.\n\nSeeing crooked lines can sometimes be a sign of eye alignment issues or other visual disturbances. It's important to get this checked out to understand the underlying cause.\n\nGiven the red flag of sudden vision changes, we need to prioritize your eye health. We'll schedule an urgent eye exam to assess your vision and rule out serious conditions.\n\nWe'll also review your symptoms in detail during the exam to understand how they're affecting your daily life.\n\nAfter the exam, we'll discuss the findings and next steps together.\n\nI want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why it's important?\n\nLet's plan to follow up within a week after the exam. If you experience any worsening symptoms, like sudden blindness or severe pain, please call us immediately.",
+      "structured_response": {
+        "acknowledgment": "I understand you're experiencing difficulty with your vision, including seeing crooked lines and trouble reading in dim lighting. This must be concerning for you.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "decrease in vision",
+            "profile_path": "problems[0]",
+            "explanation": "Changes in vision, especially sudden ones, can be serious. The patterns you're describing could relate to issues like refractive errors or other eye conditions that affect how you see. We'll need to look into this carefully.",
+            "citations": [
+              {
+                "cluster_id": "finding::global::38808577_0",
+                "primary_assertion_id": "38808577_0",
+                "pmids": [
+                  "38808577"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "crooked lines in door frames",
+            "profile_path": "problems[1]",
+            "explanation": "Seeing crooked lines can sometimes be a sign of eye alignment issues or other visual disturbances. It's important to get this checked out to understand the underlying cause.",
+            "citations": [
+              {
+                "cluster_id": "finding::global::38808577_0",
+                "primary_assertion_id": "38808577_0",
+                "pmids": [
+                  "38808577"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "Given the red flag of sudden vision changes, we need to prioritize your eye health. We'll schedule an urgent eye exam to assess your vision and rule out serious conditions.",
+          "We'll also review your symptoms in detail during the exam to understand how they're affecting your daily life.",
+          "After the exam, we'll discuss the findings and next steps together."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why it's important?",
+        "follow_up_invitation": "Let's plan to follow up within a week after the exam. If you experience any worsening symptoms, like sudden blindness or severe pain, please call us immediately.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Demonstrate empathy",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::global::38808577_0"
+        ],
+        "all_pmids_used": [
+          "38808577"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 2,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 1,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "decrease in vision",
+          "crooked lines in door frames"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "38808577"
+      ],
+      "cluster_ids_used": [
+        "finding::global::38808577_0"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Demonstrate empathy",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 144405.35443276167,
+        "module_2_retrieval": 961.2398818135262,
+        "module_3_reasoning": 42548.980973660946,
+        "module_4_response": 21946.493670344353,
+        "total_ms": 209862.0689585805
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

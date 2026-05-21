@@ -1,0 +1,314 @@
+{
+  "transcript_id": "aci_aci_D2N192",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "sure that's fine",
+  "patient_utterances": [
+    "[Clinician asked: \"karen is a 34 -year-old female with a history of chronic migraines and hypertension who is here today with abdominal pain so hi there karen it's nice to see you again listen i'm sorry you're not feeling well and you've got abdominal pain like to talk about that in some detail with you but hey i wan \"] sure that's fine",
+    "[Clinician asked: \"okay great so so karen tell me about your abdominal pain what's been happening\"] well it started about ten days ago with just some mild discomfort in on my right side and it seems to be getting worse over the last couple of days especially",
+    "[Clinician asked: \"okay and how bad would you say the pain is like it's a zero to ten on a scale today\"] yeah it it waxes and wanes in severity it it's in general probably around a four or a five but sometimes it gets up as high as a seven or eight",
+    "[Clinician asked: \"okay is there anything that you notice that makes that pain worse or better like rest or movement or eating or anything else\"] it's usually a little worse after a meal",
+    "[Clinician asked: \"hmmm okay\"] in the morning before i've eaten it's it's not too bad but during the day after a meal it gets worse",
+    "[Clinician asked: \"okay alright and do you notice that pain radiates anywhere or moves you know any or anywhere\"] it's pretty low it might radiate a little bit to the left but otherwise it's pretty localized to the right side",
+    "[Clinician asked: \"okay and have you had any nausea or vomiting along with the pain\"] i've had some nausea and a little bit of heartburn but no vomiting",
+    "[Clinician asked: \"okay and and this is this is this is worse with you said worse worse with meals and is there anything else anything else that that makes it worse\"] it is a little tender if i if i press on it and certain positions seem to make it a little worse when i'm most when it's the highest",
+    "[Clinician asked: \"okay\"] pain",
+    "[Clinician asked: \"okay sure any pain with urination or any blood in your urine\"] no no urinary symptoms",
+    "[Clinician asked: \"okay and how about any diarrhea and any of that or blood in your stool no\"] no change in bowels",
+    "[Clinician asked: \"okay alright and so would you say that your appetite has been normal or decreased or any different\"] well since i'm a little nauseated i'm not quite as hungry and i feel just kind of a little overall a little more fatigued over the last week",
+    "[Clinician asked: \"okay okay you did n't overeat you know during the super bowl last weekend did you that was i know probably lots of junk food floating around if your house is anything like mine\"] well once the packers are out of the playoffs i do n't watch the super bowl so nothing i have n't eaten anything unusual",
+    "[Clinician asked: \"okay well that's good that's good and and no no travel i know you're a big big travel travel fan you know i remember you telling me about your trip to europe last summer that sounded amazing have you been traveling outside of the country again recently\"] not recently just back to wisconsin but no unusual travel or other exposures",
+    "[Clinician asked: \"okay alright great and okay so so tell me about your migraines how have they been are you still taking the sumatriptan you know as needed when when you developed migraine you have have you had a migraine recently\"] i have not usually they are responsive to just excedrin migraine i use the sumatriptan when i need to if it if it does n't respond to the over the counter analgesic",
+    "[Clinician asked: \"okay\"] so",
+    "[Clinician asked: \"okay\"] it's it's been it they've been pretty rare",
+    "[Clinician asked: \"okay okay great yeah you've learned a lot about it and and the treatments including the the term analgesic and all of that that's pretty impressive you've been you've been through the ringer i think with with those so okay and so you're taking excedrin when you get a migraine and then sort of would \"] yeah",
+    "[Clinician asked: \"okay got it and how about your blood pressure how has that been running at home are you checking your blood pressures daily still and how how your how how have your blood pressures been\"] i have not been checking them daily i i probably check it about two or three times a week",
+    "[Clinician asked: \"hmmm\"] and they're pretty good the upper number is usually around in the one twenties or low one thirties and the lower number usually in the seventies",
+    "[Clinician asked: \"okay okay not not too bad it does look like you're a little bit elevated today i i maybe i'm just making you nervous though so i hope not so are you but you're still on lisinopril twenty milligrams per day correct it looks like you might be running low do you need a refill of that\"] yeah actually i was going to ask you about that if i could get a refill that would be great",
+    "[Clinician asked: \"sure we can do that and so okay but you are still taking that twenty milligrams per day correct\"] correct",
+    "[Clinician asked: \"okay and alright fair enough so so let's go ahead and and examine you now karen so on your physical exam pretty normal and and unremarkable for the most part on your on your heart exam i do hear that grade three out of six systolic ejection murmur that you've still got that's unchanged from prior ex\"] yes",
+    "[Clinician asked: \"okay yeah you have i would call an equivocal murphy's sign in the right upper quadrant on your abdominal examination as well the rest of your abdomen is soft and no significant tenderness you have no tenderness in the right lower quadrant with deep palpation and you have no cva tenderness on your ba\"] i've had some chills but no documented fevers",
+    "[Clinician asked: \"okay alright alright good yeah i i see you do n't have a fever today so that's that's good and so alright now for your second problem the migraine headaches you you do have a history of chronic migraines and and you have occasional bouts of of migraines nothing recent so let's continue the excedrin \"] i actually do need a refill on my sumatriptan as well",
+    "[Clinician asked: \"okay alright sure yeah no problem so for your migraines the migraine problem i'm also gon na write you that that refill prescription for sumatriptan and anything else you can think of\"] no the plan sounds good",
+    "[Clinician asked: \"alright sounds good we'll see you back in about four weeks or so and actually i am gon na follow up on your results today before i let you go but i'll check on those and and we'll we'll see how how you do and and hopefully be able to get you home today so we'll go from there i'll i'll see you shortl\"] thank you"
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nAbdominal pain.\n\nMEDICAL HISTORY\n\nPatient reports history of chronic migraines and hypertension.\n\nSOCIAL HISTORY\n\nPatient reports enjoyment in traveling and notes that she has not had any big trips since visiting Europe last summer.\n\nMEDICATIONS\n\nPatient reports use of Excedrin Migraine when needed and occasionally sumatriptan. She also takes lisinopril 20 mg per day.\n\nREVIEW OF SYSTEMS\n\nConstitutional: Reports fatigue, chills, and decreased appetite. Denies fever.\nGastrointestinal: Reports abdominal pain, nausea, and heartburn. Denies vomiting, diarrhea, and hematochezia.\nGenitourinary: Denies dysuria and hematuria.\n\nVITALS\n\nBlood pressure is slightly elevated.\n\nPHYSICAL EXAM\n\nRespiratory\n- Auscultation of Lungs: No wheezes, rales, or rhonchi.\nCardiovascular\n\nCardiovascular\n- Auscultation of Heart: Grade 3 out of 6 systolic ejection murmur, unchanged from prior exam.\nGastrointestinal\n\nGastrointestinal\n- Examination of Abdomen: Soft, no masses. Mild to moderate tenderness to palpation in right upper quadrant. Equivocal Murphy's sign in right upper quadrant. Nontender right lower quadrant with deep palpation. No CVA tenderness.\n\nASSESSMENT AND PLAN\n\n1. Abdominal pain.\n- Medical Reasoning: Patient presents with acute abdominal pain with right upper quadrant tenderness concerning for cholelithiasis or cholecystitis.\n- Patient Education and Counseling: Patient was advised to remain NPO pending her results in case surgery is needed.\n- Medical treatment: CBC, chem 12, urinalysis, HCG qualitative, and right upper quadrant ultrasound were all ordered and will be performed today.\n\n2. Migraine headaches.\n- Medical Reasoning: Patient has a history of chronic migraines with occasional bouts of migraines, but no recent issues.\n- Patient Education and Counseling: Patient counseled on avoidance of alcohol binges and caffeine binges. We also discussed trying to get enough sleep.\n- Medical Treatment: She will continue to use Excedrin as needed. Refill for sumatriptan was provided today which she can take as needed for breakthrough migraine pain.\n\n3. Hypertension.\n- Medical Reasoning: Patient has been monitoring her blood pressure at home which has been under adequate control. Her blood pressure was only slightly elevated today in office.\n- Patient Education and Counseling: Patient encouraged to continue with her daily blood pressure monitoring.\n- Medical Treatment: Refill for lisinopril 20 mg per day was provided today.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.\n\nINSTRUCTIONS\n\nWe will follow up with the patient regarding her results today. If she is cleared to return home, we will see her back for follow-up in 4 weeks.",
+  "gold_sections": {
+    "CC": "Abdominal pain.",
+    "MEDICAL_HISTORY": "Patient reports history of chronic migraines and hypertension.",
+    "SOCIAL_HISTORY": "Patient reports enjoyment in traveling and notes that she has not had any big trips since visiting Europe last summer.",
+    "MEDICATIONS": "Patient reports use of Excedrin Migraine when needed and occasionally sumatriptan. She also takes lisinopril 20 mg per day.",
+    "ROS": "Constitutional: Reports fatigue, chills, and decreased appetite. Denies fever.\nGastrointestinal: Reports abdominal pain, nausea, and heartburn. Denies vomiting, diarrhea, and hematochezia.\nGenitourinary: Denies dysuria and hematuria.",
+    "VITALS": "Blood pressure is slightly elevated.",
+    "PHYSICAL_EXAM": "Respiratory\n- Auscultation of Lungs: No wheezes, rales, or rhonchi.\nCardiovascular\n\nCardiovascular\n- Auscultation of Heart: Grade 3 out of 6 systolic ejection murmur, unchanged from prior exam.\nGastrointestinal\n\nGastrointestinal\n- Examination of Abdomen: Soft, no masses. Mild to moderate tenderness to palpation in right upper quadrant. Equivocal Murphy's sign in right upper quadrant. Nontender right lower quadrant with deep palpation. No CVA tenderness.",
+    "ASSESSMENT_PLAN": "1. Abdominal pain.\n- Medical Reasoning: Patient presents with acute abdominal pain with right upper quadrant tenderness concerning for cholelithiasis or cholecystitis.\n- Patient Education and Counseling: Patient was advised to remain NPO pending her results in case surgery is needed.\n- Medical treatment: CBC, chem 12, urinalysis, HCG qualitative, and right upper quadrant ultrasound were all ordered and will be performed today.\n\n2. Migraine headaches.\n- Medical Reasoning: Patient has a history of chronic migraines with occasional bouts of migraines, but no recent issues.\n- Patient Education and Counseling: Patient counseled on avoidance of alcohol binges and caffeine binges. We also discussed trying to get enough sleep.\n- Medical Treatment: She will continue to use Excedrin as needed. Refill for sumatriptan was provided today which she can take as needed for breakthrough migraine pain.\n\n3. Hypertension.\n- Medical Reasoning: Patient has been monitoring her blood pressure at home which has been under adequate control. Her blood pressure was only slightly elevated today in office.\n- Patient Education and Counseling: Patient encouraged to continue with her daily blood pressure monitoring.\n- Medical Treatment: Refill for lisinopril 20 mg per day was provided today.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.",
+    "INSTRUCTIONS": "We will follow up with the patient regarding her results today. If she is cleared to return home, we will see her back for follow-up in 4 weeks."
+  },
+  "n_patient_turns": 27,
+  "n_clinician_turns": 27,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 22936.529770493507,
+      "response_text": "Thank you, Karen, for sharing your symptoms with me. I understand how uncomfortable this abdominal pain must be, and I\u2019m here to help you through it. Based on what you\u2019ve described and the findings from your exam, we\u2019re considering a few possible causes, such as gallbladder issues or heart-related concerns. We\u2019ll keep a close eye on this and explore further if needed.\n\nIn the meantime, I\u2019ve provided the necessary refills for your lisinopril and sumatriptan. Please make sure to continue managing your blood pressure at home as we discussed. We\u2019ll follow up in four weeks to see how you\u2019re doing and adjust our plan as needed. If you experience any severe symptoms before then, don\u2019t hesitate to reach out.\n\nTake care, and remember, we\u2019re here to support you through this. Feel free to contact me if you have any questions or concerns in the meantime.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 35742.556028068066,
+      "response_text": "Karen, thank you for sharing all this with me. It sounds like you're feeling quite uncomfortable with this abdominal pain, and I can understand why you're concerned. Having pain for over a week, especially when it's getting worse after meals, must be frustrating and affecting your daily life.\n\nFrom what you've described, the pain starting on your right side and worsening after meals makes me think of a few possibilities. One common cause could be gallbladder issues, like inflammation or stones, which often cause pain after eating fatty foods [PMID ?]. Another possibility is irritable bowel syndrome, though the meal-related pain leans more towards gallbladder concerns. I'll order an ultrasound to check your gallbladder and run some blood tests to rule out other issues.\n\nIn the meantime, I recommend avoiding fatty or spicy foods to ease the discomfort. If the pain becomes severe or you experience fever, vomiting, or yellowing of your skin, please go to the ER immediately.\n\nWe'll schedule a follow-up in 2-4 weeks to review the test results and adjust your treatment plan. Before you leave, could you summarize what we discussed today so I can ensure everything is clear? I'll also refill your medications and discuss managing your migraines alongside this issue.\n\nTake care, and let me know if you have any questions or concerns in the meantime.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7097.559005022049,
+      "response_text": "It sounds like you're experiencing some abdominal pain that started about ten days ago and has been getting worse, especially after meals. I want to understand how this has been affecting your daily life.\n\nCan you tell me, in your own words, what we discussed today and what you feel we should do next?\n\nLet's plan to see each other again in about four weeks. If your symptoms get worse or if you experience severe pain, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're experiencing some abdominal pain that started about ten days ago and has been getting worse, especially after meals. I want to understand how this has been affecting your daily life.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "Can you tell me, in your own words, what we discussed today and what you feel we should do next?",
+        "follow_up_invitation": "Let's plan to see each other again in about four weeks. If your symptoms get worse or if you experience severe pain, please call us right away.",
+        "nurse_elements_applied": [
+          "Invest in the beginning"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Invest in the beginning"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 189609.0287193656,
+      "response_text": "It sounds like you're dealing with some concerning symptoms. You mentioned having abdominal pain that's been getting worse over the past ten days, especially after meals, with nausea and fatigue.\n\nAbdominal pain that worsens after meals and is accompanied by nausea and fatigue could indicate several possible causes. Given your history of chronic migraines and high blood pressure, we'll consider both gastrointestinal and cardiovascular sources of your pain.\n\nWe'll start with some basic tests to check for common causes of your symptoms, including blood work and imaging if needed.\n\nGiven your history of high blood pressure, we'll also monitor your cardiovascular health closely.\n\nWe'll schedule a follow-up appointment in two weeks to review the results and adjust our plan accordingly.\n\nI want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in two weeks. In the meantime, if your symptoms worsen or if you experience severe pain, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're dealing with some concerning symptoms. You mentioned having abdominal pain that's been getting worse over the past ten days, especially after meals, with nausea and fatigue.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "abdominal pain",
+            "profile_path": "problems[0]",
+            "explanation": "Abdominal pain that worsens after meals and is accompanied by nausea and fatigue could indicate several possible causes. Given your history of chronic migraines and high blood pressure, we'll consider both gastrointestinal and cardiovascular sources of your pain.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::37567752",
+                "primary_assertion_id": "37567752_retr",
+                "pmids": [
+                  "37567752"
+                ]
+              },
+              {
+                "cluster_id": "retrieval_only::31237649",
+                "primary_assertion_id": "31237649_retr",
+                "pmids": [
+                  "31237649"
+                ]
+              },
+              {
+                "cluster_id": "retrieval_only::40720582",
+                "primary_assertion_id": "40720582_retr",
+                "pmids": [
+                  "40720582"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll start with some basic tests to check for common causes of your symptoms, including blood work and imaging if needed.",
+          "Given your history of high blood pressure, we'll also monitor your cardiovascular health closely.",
+          "We'll schedule a follow-up appointment in two weeks to review the results and adjust our plan accordingly."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in two weeks. In the meantime, if your symptoms worsen or if you experience severe pain, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "retrieval_only::37567752",
+          "retrieval_only::31237649",
+          "retrieval_only::40720582"
+        ],
+        "all_pmids_used": [
+          "37567752",
+          "31237649",
+          "40720582"
+        ],
+        "glossary_substitutions": [
+          {
+            "field": "next_steps[1]",
+            "original": "hypertension",
+            "plain": "high blood pressure",
+            "count": 1
+          },
+          {
+            "field": "clinical_information_per_concern[0].explanation",
+            "original": "hypertension",
+            "plain": "high blood pressure",
+            "count": 1
+          }
+        ]
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "abdominal pain"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "37567752",
+        "31237649",
+        "40720582"
+      ],
+      "cluster_ids_used": [
+        "retrieval_only::37567752",
+        "retrieval_only::31237649",
+        "retrieval_only::40720582"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 290640.2576863766,
+      "response_text": "It sounds like you're dealing with some concerning symptoms, especially the abdominal pain that's been going on for about ten days. I want to make sure I understand how this is affecting your daily life.\n\nAbdominal pain that comes and goes, especially after meals, along with symptoms like nausea and heartburn, can be linked to several possible causes. The current guidance suggests looking into common gastrointestinal issues first, such as acid reflux or gastritis, before considering more serious conditions.\n\nMigraines can sometimes be unpredictable, and it's important to keep track of when they occur and what might be triggering them. Since you've already tried Excedrin Migraine and Sumatriptan, we can explore other options or lifestyle changes that might help reduce their frequency or severity.\n\nWe'll start with some basic tests, like blood work and imaging, to rule out any serious causes of the abdominal pain.\n\nWe'll schedule a follow-up visit in about four weeks to review the results and discuss any further steps.\n\nIn the meantime, keep track of when your migraines occur and what might be triggering them, so we can adjust your treatment plan as needed.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in four weeks. In the meantime, if the abdominal pain gets worse or you experience any new symptoms like severe nausea or vomiting, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're dealing with some concerning symptoms, especially the abdominal pain that's been going on for about ten days. I want to make sure I understand how this is affecting your daily life.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "abdominal pain",
+            "profile_path": "problems[0]",
+            "explanation": "Abdominal pain that comes and goes, especially after meals, along with symptoms like nausea and heartburn, can be linked to several possible causes. The current guidance suggests looking into common gastrointestinal issues first, such as acid reflux or gastritis, before considering more serious conditions.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[0]::33285618_0",
+                "primary_assertion_id": "33285618_0",
+                "pmids": [
+                  "33285618"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "migraine",
+            "profile_path": "problems[1]",
+            "explanation": "Migraines can sometimes be unpredictable, and it's important to keep track of when they occur and what might be triggering them. Since you've already tried Excedrin Migraine and Sumatriptan, we can explore other options or lifestyle changes that might help reduce their frequency or severity.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::sub_query[1]::35190445_0",
+                "primary_assertion_id": "35190445_0",
+                "pmids": [
+                  "35190445"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll start with some basic tests, like blood work and imaging, to rule out any serious causes of the abdominal pain.",
+          "We'll schedule a follow-up visit in about four weeks to review the results and discuss any further steps.",
+          "In the meantime, keep track of when your migraines occur and what might be triggering them, so we can adjust your treatment plan as needed."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in four weeks. In the meantime, if the abdominal pain gets worse or you experience any new symptoms like severe nausea or vomiting, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[0]::33285618_0",
+          "recommendation::sub_query[1]::35190445_0"
+        ],
+        "all_pmids_used": [
+          "33285618",
+          "35190445"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 2,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "abdominal pain",
+          "migraine"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "33285618",
+        "35190445"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[0]::33285618_0",
+        "recommendation::sub_query[1]::35190445_0"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 185903.76076102257,
+        "module_2_retrieval": 1185.424268245697,
+        "module_3_reasoning": 78197.68811017275,
+        "module_4_response": 25352.534413337708,
+        "total_ms": 290639.4075527787
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

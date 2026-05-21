@@ -1,0 +1,294 @@
+{
+  "transcript_id": "aci_virtscribe_D2N030",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "i'm good . how about you ?",
+  "patient_utterances": [
+    "[Clinician asked: \"hi donna ! how are you ?\"] i'm good . how about you ?",
+    "[Clinician asked: \"i'm doing well , thank you . and so , i saw that dr. brown put you on buspar . have you been on that before ?\"] no , that's new .",
+    "[Clinician asked: \"okay . how is it working for you ?\"] my anxiety is going good now , thankfully . i'm serious , it was brutal in november and december . finally , i was like , \" i can not do this . \" i have no idea why it happened . dr. ward did put me on singulair , and she did say we need to be careful because singulair can cause anxiety . so i'm not sure if that was the issue or what .",
+    "[Clinician asked: \"mm . okay .\"] and it would , um , start usually during the day , at work .",
+    "[Clinician asked: \"i see .\"] i mean , i'm fine now .",
+    "[Clinician asked: \"well , that's good , that things have settled . i do wonder if some of what you are dealing with is hormonal , and that's why i was asking . 'cause you were on the progesterone , and i feel like you were having some irritability back then too .\"] i did .",
+    "[Clinician asked: \"and that was before we started the progesterone .\"] yes .",
+    "[Clinician asked: \"so i know we started it for regulating your periods , but perhaps it helped with this also .\"] yeah . and before , in november and december , i noticed that the week before my period , my anxiety would go through the roof . which then , i knew my period was coming . then it turned into my anxiety spiking just at random times .",
+    "[Clinician asked: \"hmm , okay .\"] and it seemed like it was for no reason .",
+    "[Clinician asked: \"but november and december you were on the progesterone at that time .\"] yes .",
+    "[Clinician asked: \"all right . so not really a link there , all right .\"] yeah , i do n't know .",
+    "[Clinician asked: \"yeah , i do n't know either . um , sometimes with the aging process , that can happen too .\"] i figured maybe that's what it was .",
+    "[Clinician asked: \"and we did go through the golive in november and december , so that can be pretty stressful also .\"] yeah , and at work , that's when i first started to lead the process of delivering the results to patients with covid . in the beginning of the whole pandemic , patients would have to wait nine days before they'd get their results . and then we opened the evaluation centers and the covid clinic . so i think it just took a toll on me .",
+    "[Clinician asked: \"yeah , i can absolutely see that .\"] yeah , and then i was feeling selfish because i was n't even on the front lines . i mean , i was supporting people , sure , but i was n't in the icu . so i felt selfish and guilty . i mean , hands down , the physicians and nurses were in the thick of it and there i was , having anxiety . and it felt ridiculous .",
+    "[Clinician asked: \"well , honestly , you feel how you feel and what you were doing was n't easy as well , so ... but let's see . i need to just put this dax back to work . all right , so no other issues whatsoever ?\"] no .",
+    "[Clinician asked: \"have you lost weight ?\"] no , but i stopped taking the camila birth control . my hunger level was at a new high . i mean , i was eating constantly . i felt like , \" what is going on ? \"",
+    "[Clinician asked: \"all right .\"] and now i am feeling better .",
+    "[Clinician asked: \"okay , that's good . and your masked face , though , it does look thinner .\"] well , the past six months i have lost some weight .",
+    "[Clinician asked: \"okay , good . um , anything else going on ?\"] no .",
+    "[Clinician asked: \"all right . so your pap was in 2019 . i do n't think that we need to repeat that because it was negative/negative . um , have you ever had an abnormal pap ?\"] not with you , but i did around 2009 , and then i had to be seen every six months for a while . and then i had a normal pap .",
+    "[Clinician asked: \"all right , well , let's just repeat it then .\"] yeah , that's fine with me , to be safe .",
+    "[Clinician asked: \"okay . i know it sounds superstitious , but i feel like with all the immunocompromising , the pressure , the stress that people's bodies have been under , and the potential for getting covid or the vaccine ... i have actually seen some , um , an increase in abnormal paps in people who have been fine\"] okay . i fight the vaccine fight every day at home because my husband is n't ready to get it . same with my daughter . she shares the same worries as her dad in how it'll impact her when she gets older .",
+    "[Clinician asked: \"have you had the vaccine ?\"] yes , i have . and so has my son . he , um , has had his first already .",
+    "[Clinician asked: \"okay . well , you know , you can only do what you can do .\"] yeah , i agree .",
+    "[Clinician asked: \"all right . well , let's complete your exam .\"] all right .",
+    "[Clinician asked: \"so let's take a deep breath . and again . all right , you can breathe normally . all right , and take one more deep breath . okay , now i'm gon na touch your neck . go ahead and swallow . perfect . and just place your hand above your head . okay , i do feel some little bumps .\"] yeah , but they're not as big as they were .",
+    "[Clinician asked: \"mm-hmm . okay , in this breast it does feel a little bit denser . does it hurt at all ?\"] it does , where your left hand just was .",
+    "[Clinician asked: \"okay , right here ?\"] yeah , down here . but whenever i breastfed , it was always sore there too . i had a clog and something else . the lumps do feel smaller , but they are still there , unfortunately .",
+    "[Clinician asked: \"yeah , they are . uh , well now i do n't know , because if it was the progesterone , they would've gone away .\"] yeah .",
+    "[Clinician asked: \"all right , well just let your knees just op- relax and open . how's the itching or discomfort ? are you still using the cream ?\"] yes , and i actually need to get that refilled for the first time ever .",
+    "[Clinician asked: \"okay .\"] uh , but yeah , i use it once a week and it does help .",
+    "[Clinician asked: \"okay , great . all right , looks good .\"] good .",
+    "[Clinician asked: \"you can go ahead and sit up .\"] thank you .",
+    "[Clinician asked: \"all right , so typically the lumps would often just shrink up pretty quickly after you've had one or two cycles , and you've had two cycles so far . so i think let's just keep monitoring them for now .\"] okay . and what could that mean ?",
+    "[Clinician asked: \"well , so just like people have an increased risk of breast cancer , there's also an increased risk for breast issues . you know what i mean ? so for example , cysts and lumps and fibroadenomas , those are all benign things . they're annoying and require some workup , but they're all benign .\"] and i'm- i'm just worried because i'm almost 40 and my mom was almost 45 when she was diagnosed with breast cancer . so i mean , i know there's nothing i can do about it , but it's just i feel like , uh , we had it under control and now it is n't .",
+    "[Clinician asked: \"well , i would n't say that . i mean , i feel like we're at a point where we have a good cadence for you having surveillance on things , and i think you are more aware of your breasts than ever before , and things actually have n't changed .\"] yeah .",
+    "[Clinician asked: \"so those are all good things .\"] okay .",
+    "[Clinician asked: \"because , um , if it was cancer , we'd actually , we would see some change .\"] we would ? okay , thank you for explaining that .",
+    "[Clinician asked: \"yeah . so i know it's annoying and distressing , but i think that's where we're at . it's annoying that you have the breast issue , and it's annoying that we have to follow them .\"] yeah , i agree there .",
+    "[Clinician asked: \"um , but the only extra that i could po- , uh , potentially do , is we could get a breast specialist on the team and have you start to follow with them . and one of the advantages there is that they sometimes will do an ultrasound as an extension of their physical exam , in the office , to check out\"] okay . i'll do whatever you think i should .",
+    "[Clinician asked: \"all right . well , i think since you're feeling worried , let's go ahead and we can get them on board . i'll send out a referral and they will call you within the next couple of business days to schedule .\"] okay , i think that sounds great .",
+    "[Clinician asked: \"all right . i do too . all right , well any questions or anything else we can discuss today ?\"] no , i think i'm all set .",
+    "[Clinician asked: \"all right , good . all right , well have a good rest of your day and just give us a call if you need anything else .\"] all right , thank you . you have a good day too ."
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nFollow-up bilateral breast cysts.\n\nHISTORY OF PRESENT ILLNESS\n\nDonna Torres is a 40-year-old female who presents for follow-up surveillance of bilateral breast cysts.\n\nThe patient reports continual presence of \u201clumps\u201d in bilateral breasts with some soreness. She is being seen today for surveillance of the cysts. The patient is taking progesterone, which was initially prescribed to support normalization of menstruation, which was effective. She is also still using vaginal cream one time per week which has improved symptoms of itching and discomfort.\n\nHer last pap smear was in 2019, with negative/negative results. She did have an abnormal pap smear in 2009, which resulted in repeat pap smears per 6 months until her results normalized.\n\nMrs. Torres experienced increased anxiety in 11/2021 and 12/2021, stating \u201cit was brutal\u201d and felt she could not manage her symptoms and sought treatment. Dr. Brown started the patient on Buspar, which has successfully controlled her anxiety. The patient relates her anxiety to work related stress and possibly aging. Her work involves supporting Covid evaluation centers and clinics. She confirms receiving both Covid vaccinations. Initially, she was experiencing spikes in anxiety prior to menstruation, but her anxiety then became more random with an unclear cause. To note, the patient was started on Singulair, which the patient was told could also cause anxiety.\n\nThe patient discontinued Camila birth control, which did result in a significant increase in appetite. This has resolved and she reports she has lost weight in the past 6 months.\n\nGynecologic History\nLast pap smear: 2019.\nHistory of abnormal pap smear: 2009.\n\nPAST HISTORY\n\nMedical\nBilateral breast cysts.\nAnxiety.\n\nSOCIAL HISTORY\n\nEmployed in healthcare, supports Covid evaluation centers and clinics.\n\nFAMILY HISTORY\n\nMother, deceased age 45, from complications of breast cancer.\n\nCURRENT MEDICATIONS\n\nBuspar.\nSingulair.\n\nPHYSICAL EXAM\n\nGenitourinary\nBreast: Breast density.\n\nASSESSMENT\n\n\u2022 Follow-up bilateral breast cysts.\n\u2022 Pap smear.\n\nPLAN\n\nFollow-up bilateral breast cysts\nPhysical exam indicated stable breast density bilaterally. The patient is being seen regularly for monitoring. The plan is to continue close monitoring and the patient will be referred to breast specialist for additional review. The patient agreed to this plan.\n\nPap smear\nExam was normal. No additional treatment needed at this time.\n\nINSTRUCTIONS\n\nSchedule appointment with breast specialist. Call clinic with any additional concerns.",
+  "gold_sections": {
+    "CC": "Follow-up bilateral breast cysts.",
+    "HPI": "Donna Torres is a 40-year-old female who presents for follow-up surveillance of bilateral breast cysts.\n\nThe patient reports continual presence of \u201clumps\u201d in bilateral breasts with some soreness. She is being seen today for surveillance of the cysts. The patient is taking progesterone, which was initially prescribed to support normalization of menstruation, which was effective. She is also still using vaginal cream one time per week which has improved symptoms of itching and discomfort.\n\nHer last pap smear was in 2019, with negative/negative results. She did have an abnormal pap smear in 2009, which resulted in repeat pap smears per 6 months until her results normalized.\n\nMrs. Torres experienced increased anxiety in 11/2021 and 12/2021, stating \u201cit was brutal\u201d and felt she could not manage her symptoms and sought treatment. Dr. Brown started the patient on Buspar, which has successfully controlled her anxiety. The patient relates her anxiety to work related stress and possibly aging. Her work involves supporting Covid evaluation centers and clinics. She confirms receiving both Covid vaccinations. Initially, she was experiencing spikes in anxiety prior to menstruation, but her anxiety then became more random with an unclear cause. To note, the patient was started on Singulair, which the patient was told could also cause anxiety.\n\nThe patient discontinued Camila birth control, which did result in a significant increase in appetite. This has resolved and she reports she has lost weight in the past 6 months.\n\nGynecologic History\nLast pap smear: 2019.\nHistory of abnormal pap smear: 2009.",
+    "PAST_HISTORY": "Medical\nBilateral breast cysts.\nAnxiety.",
+    "SOCIAL_HISTORY": "Employed in healthcare, supports Covid evaluation centers and clinics.",
+    "FAMILY_HISTORY": "Mother, deceased age 45, from complications of breast cancer.",
+    "CURRENT_MEDICATIONS": "Buspar.\nSingulair.",
+    "PHYSICAL_EXAM": "Genitourinary\nBreast: Breast density.",
+    "ASSESSMENT": "\u2022 Follow-up bilateral breast cysts.\n\u2022 Pap smear.",
+    "PLAN": "Follow-up bilateral breast cysts\nPhysical exam indicated stable breast density bilaterally. The patient is being seen regularly for monitoring. The plan is to continue close monitoring and the patient will be referred to breast specialist for additional review. The patient agreed to this plan.\n\nPap smear\nExam was normal. No additional treatment needed at this time.",
+    "INSTRUCTIONS": "Schedule appointment with breast specialist. Call clinic with any additional concerns."
+  },
+  "n_patient_turns": 43,
+  "n_clinician_turns": 45,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 16929.112523794174,
+      "response_text": "Donna, I want to acknowledge how much you\u2019ve been through and how brave you\u2019ve been in navigating all of this. It\u2019s completely understandable that the stress of the pandemic, along with everything else on your plate, would take a toll on your mental and physical health. I\u2019m so glad that your anxiety has improved with Buspar\u2014it sounds like you\u2019ve been through a lot, and it\u2019s important to give yourself credit for getting through it.\n\nRegarding the breast lumps, I know this has been worrying for you, especially with your family history. While breast cancer is something we all worry about, it\u2019s important to remember that many breast issues, like cysts or fibroadenomas, are benign. The fact that the lumps haven\u2019t changed much since we started monitoring them is actually a good sign. I think it\u2019s a good step that we\u2019re referring you to a breast specialist to get further evaluation, and I\u2019m confident that this will help ease your mind.\n\nPlease don\u2019t hesitate to reach out if you have any more questions or concerns\u2014I\u2019m here for you. You\u2019ve been doing a great job taking care of yourself, and I\u2019m here to support you every step of the way.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 30965.882390737534,
+      "response_text": "Thank you for sharing all of that with me, Donna. It sounds like you've been through a lot, and it's completely understandable that you're feeling this way. Managing anxiety, dealing with breast lumps, and worrying about your health can be really overwhelming, especially when you're also supporting others during such a stressful time. I can see how all of this would take a toll on you, and I want to acknowledge how strong you've been in handling it all.\n\nI can see that the stress from work during the pandemic, along with the ongoing concerns about the vaccine and your family's worries, might have contributed to both your anxiety and the breast lumps you're experiencing. It's not uncommon for physical symptoms to surface when we're under a lot of emotional or psychological strain [PMID ?]. I also notice how proactive you've been in monitoring your health, which is really commendable.\n\nWe'll focus on addressing your concerns about your breast lumps and your anxiety today. I think it's important to get clarity on what's going on with the lumps, and I want to make sure you feel reassured about your health. Given that the lumps haven't changed much since you started tracking them, they're likely benign, but we'll keep monitoring them to be safe. For now, I'll refer you to a breast specialist to get an ultrasound, just to be thorough.\n\nAs for your anxiety, it's clear that stress has been a big factor, and I want to make sure you have the support you need. We'll keep an eye on things and adjust your treatment as needed. Let's plan to follow up in 2-4 weeks to see how you're doing and to go over the results from the specialist. Before you leave, could you just recap what we've discussed so far in your own words? That way, I can make sure everything makes sense to you.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7878.888987004757,
+      "response_text": "I understand you're feeling worried about your breast lumps and your family history of breast cancer. It's important to stay vigilant, and I'm here to help you through this.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 4 weeks. In the meantime, if you notice any changes in your breast lumps or if you develop new symptoms like unusual pain or swelling, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I understand you're feeling worried about your breast lumps and your family history of breast cancer. It's important to stay vigilant, and I'm here to help you through this.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 4 weeks. In the meantime, if you notice any changes in your breast lumps or if you develop new symptoms like unusual pain or swelling, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 213942.82406568527,
+      "response_text": "I can see how much this has been affecting you. You mentioned feeling 'selfish and guilty' about your anxiety during the pandemic, especially while supporting others. That must have been really tough to handle.\n\nIt's important to address your anxiety, especially since it's been getting worse. We can explore ways to manage it together, like finding the right support and strategies.\n\nUnexplained weight loss can be a sign of various health issues, so it's good we're looking into it. We'll make sure to monitor your progress and check for any underlying causes.\n\nWe'll keep track of your anxiety and weight loss to understand what's going on. If anything changes or if you notice new symptoms, let us know right away.\n\nI want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to check in again soon. If you experience any severe symptoms or if your anxiety gets worse, please reach out to us immediately.",
+      "structured_response": {
+        "acknowledgment": "I can see how much this has been affecting you. You mentioned feeling 'selfish and guilty' about your anxiety during the pandemic, especially while supporting others. That must have been really tough to handle.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "anxiety",
+            "profile_path": "problems[0]",
+            "explanation": "It's important to address your anxiety, especially since it's been getting worse. We can explore ways to manage it together, like finding the right support and strategies.",
+            "citations": []
+          },
+          {
+            "concern_label": "weight loss",
+            "profile_path": "problems[1]",
+            "explanation": "Unexplained weight loss can be a sign of various health issues, so it's good we're looking into it. We'll make sure to monitor your progress and check for any underlying causes.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll keep track of your anxiety and weight loss to understand what's going on. If anything changes or if you notice new symptoms, let us know right away."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to check in again soon. If you experience any severe symptoms or if your anxiety gets worse, please reach out to us immediately.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 2,
+        "n_medications": 1,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 4,
+        "n_goals": 0,
+        "problems": [
+          "anxiety",
+          "weight loss"
+        ],
+        "medications": [
+          "Singulair"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 239241.3671463728,
+      "response_text": "I can hear how much this has been weighing on you \u2014 you said, \"i was feeling selfish because i wasn't even on the front lines\" and \"so i felt selfish and guilty\". That's a real burden to carry, and I want to make sure we address it together.\n\nAnxiety can feel overwhelming, especially when it's getting worse. There are effective tools to assess and manage anxiety, like questionnaires that help identify how it's impacting your daily life.\n\nChanges in hunger can happen for many reasons, especially after stopping a medication like Camila. It's important to track when this happens and how it makes you feel.\n\nWeight loss over time can be a sign of various health issues. We'll keep an eye on this and see how it connects with your other symptoms.\n\nWe'll start by assessing your anxiety using a brief questionnaire to understand how it's affecting your daily life.\n\nWe'll monitor your increased hunger and weight loss over the next few weeks and see how they might be connected.\n\nIf you notice any new symptoms or changes, let us know so we can adjust our approach.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to check in again in a few weeks. If your symptoms change or get worse in the meantime, please reach out so we can address them promptly.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this has been weighing on you \u2014 you said, \"i was feeling selfish because i wasn't even on the front lines\" and \"so i felt selfish and guilty\". That's a real burden to carry, and I want to make sure we address it together.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "anxiety",
+            "profile_path": "problems[0]",
+            "explanation": "Anxiety can feel overwhelming, especially when it's getting worse. There are effective tools to assess and manage anxiety, like questionnaires that help identify how it's impacting your daily life.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[0]::41466386_0",
+                "primary_assertion_id": "41466386_1",
+                "pmids": [
+                  "41466386"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "increased hunger",
+            "profile_path": "problems[1]",
+            "explanation": "Changes in hunger can happen for many reasons, especially after stopping a medication like Camila. It's important to track when this happens and how it makes you feel.",
+            "citations": []
+          },
+          {
+            "concern_label": "weight loss",
+            "profile_path": "problems[2]",
+            "explanation": "Weight loss over time can be a sign of various health issues. We'll keep an eye on this and see how it connects with your other symptoms.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll start by assessing your anxiety using a brief questionnaire to understand how it's affecting your daily life.",
+          "We'll monitor your increased hunger and weight loss over the next few weeks and see how they might be connected.",
+          "If you notice any new symptoms or changes, let us know so we can adjust our approach."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to check in again in a few weeks. If your symptoms change or get worse in the meantime, please reach out so we can address them promptly.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[0]::41466386_0"
+        ],
+        "all_pmids_used": [
+          "41466386"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 3,
+        "n_medications": 1,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 4,
+        "n_goals": 0,
+        "problems": [
+          "anxiety",
+          "increased hunger",
+          "weight loss"
+        ],
+        "medications": [
+          "Singulair"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [
+        "41466386"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[0]::41466386_0"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 190315.73946028948,
+        "module_2_retrieval": 1231.5071746706963,
+        "module_3_reasoning": 25457.912676036358,
+        "module_4_response": 22235.496699810028,
+        "total_ms": 239240.65601080656
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

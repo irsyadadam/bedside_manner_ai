@@ -1,0 +1,421 @@
+{
+  "transcript_id": "aci_aci_D2N205",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "i'm good how are you",
+  "patient_utterances": [
+    "[Clinician asked: \"hey angela how are you\"] i'm good how are you",
+    "[Clinician asked: \"i'm good so i see we are here you had a recent diagnosis of stage three nonsmol cell lung cancer and so we are following up on your neo adevant chemotherapy so you can you tell me how you're doing today\"] yeah you know i'm i'm doing okay i have a little bit of some shortness of breath that i noticed over the weekend and you know i i'm i considered myself pretty active before this i would walk my dog around the block and now i i ca n't even walk you know down the street without being short of breath",
+    "[Clinician asked: \"okay yeah yeah i mean that's that's definitely understandable it says you had a four point four centimeter left upper lobe nodule in there so it's kinda big but that's understandable and we're doing the chemo to try to reduce that that that tumor that you do have so how often do you normally run wit\"] i mean i would i would take them for i would normally take them for like mile long walks everyday and just this weekend i could only walk down to the end of the street i had to have my husband take the dog fit walk",
+    "[Clinician asked: \"man okay what kind of dog do you have\"] i have a dobrman",
+    "[Clinician asked: \"yeah they are pretty active that makes sense alright so have you been coughing have you had any phlegm\"] i've been having a dry cough no phlegm",
+    "[Clinician asked: \"okay have you noticed any fever\"] no fever",
+    "[Clinician asked: \"no fever alright what about any other symptoms like any body aches any sore throat sinus pain\"] well i mean now that you mentioned it like every time i swallow it hurts it does n't feel like i have a cold because it hurts down here more in my chest but every time i swallow it it's really painful",
+    "[Clinician asked: \"okay so when you are swallowing i know some of my patients feel this do you feel like the food is getting stuck\"] no the food is not getting stuck it just hurts",
+    "[Clinician asked: \"okay what about when you're you're taking liquids are you able to take in both hydrocort liquids\"] i mean i definitely feel like over the weekend i have n't been taking it as much because it hurt so much but i i am able to i am able to drink and i've been taking ensure and things like that i had a milk shake",
+    "[Clinician asked: \"okay that's that's that's that's good yeah we we definitely want you to to take in as much liquid as possible best especially since you're on the chemotherapy and the radiation just so you wo n't get dehydrated because that will make you feel a lot worse if you are dehydrated okay so on a on a menta\"] it's very helpful you know as you can understand i'm just like devastated when i got this diagnosis and i'm just i'm just trying to figure everything out and but he is very good and my daughter is is very helpful too and i you know i think for the most part i'm very fortunate to have them",
+    "[Clinician asked: \"okay so how how are you feeling on your chemo see you're on a combination of sysplatin and a topicide you had your last dose a few days ago any nausea any fatigue from that\"] i was a little nauseated and tired but i took the zofran that you prescribed and that seemed to help and you know i i got some rest it's it's it's been okay",
+    "[Clinician asked: \"okay that's good so let me do a quick physical exam on you just gon na check your vitals here so your vitals are normal your pulse ox is okay so everything's good with that so i'm gon na feel your neck on your neck exam i do n't appreciate any cervical lymphadenopathy no subclavicular adenopathy you\"] no i've only ever heard bad things about them they make people jittery and gain weight",
+    "[Clinician asked: \"i mean and and i for you that's that that's for patients that you know who are on them for a a long period of time right you're only gon na be on it for five days that should n't affect you too bad you might feel when you coming off of it after the five days a few muscle aches other than that you sh\"] okay",
+    "[Clinician asked: \"alright so do you have any questions for me\"] no",
+    "[Clinician asked: \"alright so we will get you those medications those prescriptions and then we will see you back in two weeks\"] okay great thank you"
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nFollow-up of stage III non-small cell lung cancer.\n\nMEDICAL HISTORY\n\nPatient reports recent diagnosis of stage III non-small cell lung cancer.\n\nSOCIAL HISTORY\n\nPatient reports she was previously active taking mile long walks with her doberman. She states her husband is her support system and has been helpful with this new diagnosis. Her daughter has also been helpful.\n\nMEDICATIONS\n\nPatient reports receiving chemotherapy consisting of Cisplatin and etoposide. She is also taking Zofran.\n\nREVIEW OF SYSTEMS\n\nConstitutional: Reports fatigue. Denies fever.\nHENT: Reports odynophagia.\nRespiratory: Reports dyspnea and dry cough.\nGastrointestinal: Reports nausea.\n\nVITALS\n\nVitals are normal including pulse oximetry.\n\nPHYSICAL EXAM\n\nNeck\n- General Examination: Neck is supple without cervical lymphadenopathy, or subclavicular adenopathy.\n\nRespiratory\n- Auscultation of Lungs: Rales in the lungs bilaterally.\n\nCardiovascular\n- Auscultation of Heart: Regular rate and rhythm. No murmurs.\n\nMusculoskeletal\n- Examination: No edema.\n\nIntegumentary\n- Examination: Some erythema on the left anterior aspect of the chest.\n\nHematology/Lymphatic/Immunology\n- Palpation: No enlarged lymph nodes.\n\nRESULTS\n\nPathology report is reviewed and shows evidence of a 4.4 cm left upper lobe nodule.\n\nChest x-ray is reviewed and shows evidence of mild radiation pneumonitis.\n\nASSESSMENT AND PLAN\n\n1. Stage III non-small cell lung cancer.\n- Medical Reasoning: This is a new diagnosis for this patient. Recent pathology report showed evidence of a 4.4 cm left upper lobe nodule.\n- Patient Education and Counseling: We discussed that once her treatment regimen is complete we will proceed with further testing and hopefully tumor resection.\n- Medical Treatment: Patient will continue on current regimen consisting of Cisplatin and etoposide. Her radiation will remain at 45 Gy.\n\n2. Radiation pneumonitis.\n- Medical Reasoning: Recent chest x-ray showed evidence of mild radiation pneumonitis.\n- Patient Education and Counseling: We discussed she is experiencing inflammation of the lungs secondary to her radiation treatment. The risks and benefits of prednisone were also discussed.\n- Medical treatment: A prescription for prednisone 40 mg 1 tablet a day for 5 days was provided.\n\n3. Odynophagia.\n- Medical Reasoning: Patient reports symptoms of painful swallowing.\n- Patient Education and Counseling: I advised her that her radiation pneumonitis is also affecting her esophagus which is resulting in her painful swallowing. We discussed the importance of nutrition and hydration while undergoing chemotherapy.\n- Medical treatment: Prescription for lidocaine viscous solution to be completed 4 times a day was provided.\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.\n\nINSTRUCTIONS\n\nPatient will return for follow-up in 2 weeks.",
+  "gold_sections": {
+    "CC": "Follow-up of stage III non-small cell lung cancer.",
+    "MEDICAL_HISTORY": "Patient reports recent diagnosis of stage III non-small cell lung cancer.",
+    "SOCIAL_HISTORY": "Patient reports she was previously active taking mile long walks with her doberman. She states her husband is her support system and has been helpful with this new diagnosis. Her daughter has also been helpful.",
+    "MEDICATIONS": "Patient reports receiving chemotherapy consisting of Cisplatin and etoposide. She is also taking Zofran.",
+    "ROS": "Constitutional: Reports fatigue. Denies fever.\nHENT: Reports odynophagia.\nRespiratory: Reports dyspnea and dry cough.\nGastrointestinal: Reports nausea.",
+    "VITALS": "Vitals are normal including pulse oximetry.",
+    "PHYSICAL_EXAM": "Neck\n- General Examination: Neck is supple without cervical lymphadenopathy, or subclavicular adenopathy.\n\nRespiratory\n- Auscultation of Lungs: Rales in the lungs bilaterally.\n\nCardiovascular\n- Auscultation of Heart: Regular rate and rhythm. No murmurs.\n\nMusculoskeletal\n- Examination: No edema.\n\nIntegumentary\n- Examination: Some erythema on the left anterior aspect of the chest.\n\nHematology/Lymphatic/Immunology\n- Palpation: No enlarged lymph nodes.",
+    "RESULTS": "Pathology report is reviewed and shows evidence of a 4.4 cm left upper lobe nodule.\n\nChest x-ray is reviewed and shows evidence of mild radiation pneumonitis.",
+    "ASSESSMENT_PLAN": "1. Stage III non-small cell lung cancer.\n- Medical Reasoning: This is a new diagnosis for this patient. Recent pathology report showed evidence of a 4.4 cm left upper lobe nodule.\n- Patient Education and Counseling: We discussed that once her treatment regimen is complete we will proceed with further testing and hopefully tumor resection.\n- Medical Treatment: Patient will continue on current regimen consisting of Cisplatin and etoposide. Her radiation will remain at 45 Gy.\n\n2. Radiation pneumonitis.\n- Medical Reasoning: Recent chest x-ray showed evidence of mild radiation pneumonitis.\n- Patient Education and Counseling: We discussed she is experiencing inflammation of the lungs secondary to her radiation treatment. The risks and benefits of prednisone were also discussed.\n- Medical treatment: A prescription for prednisone 40 mg 1 tablet a day for 5 days was provided.\n\n3. Odynophagia.\n- Medical Reasoning: Patient reports symptoms of painful swallowing.\n- Patient Education and Counseling: I advised her that her radiation pneumonitis is also affecting her esophagus which is resulting in her painful swallowing. We discussed the importance of nutrition and hydration while undergoing chemotherapy.\n- Medical treatment: Prescription for lidocaine viscous solution to be completed 4 times a day was provided.\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.",
+    "INSTRUCTIONS": "Patient will return for follow-up in 2 weeks."
+  },
+  "n_patient_turns": 15,
+  "n_clinician_turns": 16,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 17339.019931852818,
+      "response_text": "Angela, I truly understand how challenging this situation must be for you. Facing a diagnosis like stage three non-small cell lung cancer is incredibly tough, and I want you to know that I'm here to support you every step of the way. It's completely understandable that you're feeling overwhelmed, and I admire your strength in handling this with such resilience.\n\nRegarding your symptoms, the shortness of breath and dry cough are common in this situation, and I'm glad your physical exam didn't show any immediate concerns. If the swallowing pain worsens or if you notice any other worrying signs like unexplained weight loss, please don't hesitate to reach out. Staying hydrated is crucial, especially with chemotherapy, so keep taking those liquids. If the medications are causing discomfort, we can explore adjustments to make it easier for you. Remember, you're not alone in this\u2014I'm here to answer any questions you have and to support you through this journey. Together, we'll get through this.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 25952.91166752577,
+      "response_text": "Angela, I can see how overwhelming this situation must be for you. It's completely understandable that you're feeling devastated with a diagnosis like this. I want you to know that I'm here to support you through this journey. It's impressive how you're managing your symptoms and staying active despite everything you're going through.\n\nGiven your stage three non-small cell lung cancer and the chemotherapy you're receiving, it's common to experience symptoms like shortness of breath and fatigue. The shortness of breath could be due to the tumor's size or treatment effects, and the pain when swallowing might be related to the esophagus. I'll make sure to review these symptoms to see if we need to adjust your treatment plan or provide additional relief.\n\nWe'll continue with your current chemotherapy regimen, and I'll prescribe medications to help manage your symptoms, such as pain when swallowing. Please take your medications as directed and stay hydrated. In two weeks, we'll check in to see how you're doing and make any necessary adjustments. If you have any questions or concerns before then, don't hesitate to reach out.\n\nBefore you leave, could you summarize what we discussed today? This will help ensure you understand the plan. We'll see you in two weeks for your follow-up. You're doing a great job, and I'm here to help you every step of the way.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7079.354614019394,
+      "response_text": "Thank you for sharing your experience with me. I understand that dealing with a diagnosis like stage three nonsmall cell lung cancer can be overwhelming, and I'm here to support you through this journey.\n\nPlease summarize the plan in your own words so I can make sure I've explained everything clearly.\n\nLet's plan to see each other again in two weeks. In the meantime, if you experience any severe symptoms like increased shortness of breath, chest pain, or difficulty swallowing, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your experience with me. I understand that dealing with a diagnosis like stage three nonsmall cell lung cancer can be overwhelming, and I'm here to support you through this journey.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "Please summarize the plan in your own words so I can make sure I've explained everything clearly.",
+        "follow_up_invitation": "Let's plan to see each other again in two weeks. In the meantime, if you experience any severe symptoms like increased shortness of breath, chest pain, or difficulty swallowing, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 277464.0594795346,
+      "response_text": "I can hear how much this has been weighing on you. You mentioned feeling 'devastated' when you got the diagnosis, and I want to acknowledge how tough that must be for you.\n\nGiven your recent diagnosis and the severity of your shortness of breath, it's important to rule out serious causes like respiratory issues. We'll need to do some tests to understand what's going on.\n\nA dry cough can be a symptom of many things, especially with your history of lung cancer. We'll keep an eye on it as we do further tests.\n\nPainful swallowing can be concerning, especially given your cancer history. We'll need to look into this carefully to rule out any serious causes.\n\nSince you're on chemotherapy, nausea is a common side effect. The Zofran you're taking should help, but let us know if it's not enough.\n\nFatigue is a common experience during chemotherapy. Rest is important, but let us know if it gets worse or doesn't improve.\n\nOur goal is to figure everything out together. We'll work step by step to address each concern and make sure you understand what's happening.\n\nGiven the severity of your shortness of breath, we'll prioritize tests to rule out serious respiratory issues.\n\nWe'll monitor your dysphagia closely and schedule a follow-up to assess any changes.\n\nContinue taking Zofran for nausea and let us know if you need adjustments.\n\nRest as much as possible to manage fatigue, and we'll keep an eye on your progress.\n\nI want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if your symptoms get worse or you notice anything new, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this has been weighing on you. You mentioned feeling 'devastated' when you got the diagnosis, and I want to acknowledge how tough that must be for you.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "shortness of breath",
+            "profile_path": "problems[0]",
+            "explanation": "Given your recent diagnosis and the severity of your shortness of breath, it's important to rule out serious causes like respiratory issues. We'll need to do some tests to understand what's going on.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::38719772",
+                "primary_assertion_id": "38719772_retr",
+                "pmids": [
+                  "38719772"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "dry cough",
+            "profile_path": "problems[1]",
+            "explanation": "A dry cough can be a symptom of many things, especially with your history of lung cancer. We'll keep an eye on it as we do further tests.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::38521534",
+                "primary_assertion_id": "38521534_retr",
+                "pmids": [
+                  "38521534"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "dysphagia (painful swallowing)",
+            "profile_path": "problems[2]",
+            "explanation": "Painful swallowing can be concerning, especially given your cancer history. We'll need to look into this carefully to rule out any serious causes.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::37567752",
+                "primary_assertion_id": "37567752_retr",
+                "pmids": [
+                  "37567752"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "nausea",
+            "profile_path": "problems[3]",
+            "explanation": "Since you're on chemotherapy, nausea is a common side effect. The Zofran you're taking should help, but let us know if it's not enough.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::35833228",
+                "primary_assertion_id": "35833228_retr",
+                "pmids": [
+                  "35833228"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "fatigue",
+            "profile_path": "problems[4]",
+            "explanation": "Fatigue is a common experience during chemotherapy. Rest is important, but let us know if it gets worse or doesn't improve.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::35709018",
+                "primary_assertion_id": "35709018_retr",
+                "pmids": [
+                  "35709018"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "figure everything out",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Our goal is to figure everything out together. We'll work step by step to address each concern and make sure you understand what's happening.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "Given the severity of your shortness of breath, we'll prioritize tests to rule out serious respiratory issues.",
+          "We'll monitor your dysphagia closely and schedule a follow-up to assess any changes.",
+          "Continue taking Zofran for nausea and let us know if you need adjustments.",
+          "Rest as much as possible to manage fatigue, and we'll keep an eye on your progress."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if your symptoms get worse or you notice anything new, please call us right away.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Demonstrate empathy",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "retrieval_only::38719772",
+          "retrieval_only::38521534",
+          "retrieval_only::37567752",
+          "retrieval_only::35833228",
+          "retrieval_only::35709018"
+        ],
+        "all_pmids_used": [
+          "38719772",
+          "38521534",
+          "37567752",
+          "35833228",
+          "35709018"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 5,
+        "n_medications": 1,
+        "n_allergies": 0,
+        "n_red_flags": 2,
+        "n_emotional": 2,
+        "n_goals": 1,
+        "problems": [
+          "shortness of breath",
+          "dry cough",
+          "dysphagia (painful swallowing)",
+          "nausea",
+          "fatigue"
+        ],
+        "medications": [
+          "zofran"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [
+        "38719772",
+        "38521534",
+        "37567752",
+        "35833228",
+        "35709018"
+      ],
+      "cluster_ids_used": [
+        "retrieval_only::38719772",
+        "retrieval_only::38521534",
+        "retrieval_only::37567752",
+        "retrieval_only::35833228",
+        "retrieval_only::35709018"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Demonstrate empathy",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 406184.8363727331,
+      "response_text": "I can hear how much this is weighing on you. You mentioned, \"I'm just like devastated when I got this diagnosis,\" and I want to make sure I understand how you're feeling. It sounds like this has been really tough for you.\n\nGiven your recent diagnosis of stage three nonsmall cell lung cancer and the symptoms you're experiencing, it's important to address the shortness of breath. We should focus on symptom management strategies that can help you feel more comfortable.\n\nThe pain you're experiencing when swallowing is concerning. Given your cancer diagnosis, we need to rule out specific causes and ensure you're comfortable.\n\nNausea is a common side effect of chemotherapy. We can review your current treatment plan to see if adjustments can help manage this symptom better.\n\nFatigue is another common side effect, especially with chemotherapy. We can explore additional strategies to help you manage this.\n\nOur goal is to figure everything out together. We'll work on a plan to address your symptoms and ensure you have the support you need.\n\nGiven the severity of your symptoms, we'll prioritize addressing your shortness of breath and dysphagia first. This includes ordering specific tests to rule out potential causes and starting symptom management strategies.\n\nWe'll schedule a follow-up visit in two weeks to review the results and adjust your care plan as needed.\n\nIn the meantime, if your symptoms worsen or if you experience any new issues, please call us immediately.\n\nI want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in two weeks. If you have any concerns or your symptoms get worse before then, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this is weighing on you. You mentioned, \"I'm just like devastated when I got this diagnosis,\" and I want to make sure I understand how you're feeling. It sounds like this has been really tough for you.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "shortness of breath",
+            "profile_path": "problems[0]",
+            "explanation": "Given your recent diagnosis of stage three nonsmall cell lung cancer and the symptoms you're experiencing, it's important to address the shortness of breath. We should focus on symptom management strategies that can help you feel more comfortable.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::problems[0]::38719772_0",
+                "primary_assertion_id": "38719772_0",
+                "pmids": [
+                  "38719772"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "dysphagia (painful swallowing)",
+            "profile_path": "problems[1]",
+            "explanation": "The pain you're experiencing when swallowing is concerning. Given your cancer diagnosis, we need to rule out specific causes and ensure you're comfortable.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[1]::37567752_0",
+                "primary_assertion_id": "37567752_0",
+                "pmids": [
+                  "37567752"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "nausea",
+            "profile_path": "problems[2]",
+            "explanation": "Nausea is a common side effect of chemotherapy. We can review your current treatment plan to see if adjustments can help manage this symptom better.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::problems[0]::38719772_0",
+                "primary_assertion_id": "38719772_0",
+                "pmids": [
+                  "38719772"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "fatigue",
+            "profile_path": "problems[3]",
+            "explanation": "Fatigue is another common side effect, especially with chemotherapy. We can explore additional strategies to help you manage this.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::problems[0]::38719772_0",
+                "primary_assertion_id": "38719772_0",
+                "pmids": [
+                  "38719772"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "figure everything out",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Our goal is to figure everything out together. We'll work on a plan to address your symptoms and ensure you have the support you need.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::sub_query[4]::33658141_0",
+                "primary_assertion_id": "33658141_0",
+                "pmids": [
+                  "33658141"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "Given the severity of your symptoms, we'll prioritize addressing your shortness of breath and dysphagia first. This includes ordering specific tests to rule out potential causes and starting symptom management strategies.",
+          "We'll schedule a follow-up visit in two weeks to review the results and adjust your care plan as needed.",
+          "In the meantime, if your symptoms worsen or if you experience any new issues, please call us immediately."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in two weeks. If you have any concerns or your symptoms get worse before then, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Demonstrate empathy",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "recommendation::problems[0]::38719772_0",
+          "finding::sub_query[1]::37567752_0",
+          "recommendation::sub_query[4]::33658141_0"
+        ],
+        "all_pmids_used": [
+          "38719772",
+          "37567752",
+          "33658141"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 4,
+        "n_medications": 1,
+        "n_allergies": 1,
+        "n_red_flags": 2,
+        "n_emotional": 2,
+        "n_goals": 1,
+        "problems": [
+          "shortness of breath",
+          "dysphagia (painful swallowing)",
+          "nausea",
+          "fatigue"
+        ],
+        "medications": [
+          "zofran"
+        ],
+        "allergies": [
+          "allergic to doberman"
+        ]
+      },
+      "pmids_used": [
+        "38719772",
+        "37567752",
+        "33658141"
+      ],
+      "cluster_ids_used": [
+        "recommendation::problems[0]::38719772_0",
+        "finding::sub_query[1]::37567752_0",
+        "recommendation::sub_query[4]::33658141_0"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Demonstrate empathy",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 237995.8811700344,
+        "module_2_retrieval": 1830.632671713829,
+        "module_3_reasoning": 124786.4768281579,
+        "module_4_response": 41570.13491541147,
+        "total_ms": 406183.1255853176
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

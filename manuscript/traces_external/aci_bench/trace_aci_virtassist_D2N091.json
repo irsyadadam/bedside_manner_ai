@@ -1,0 +1,266 @@
+{
+  "transcript_id": "aci_virtassist_D2N091",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "hi , good to see you .",
+  "patient_utterances": [
+    "[Clinician asked: \"hi jerry , how are you doing ?\"] hi , good to see you .",
+    "[Clinician asked: \"good to see you as well . um , so i know that the nurse told you about dax . i'd like to tell dax about you .\"] sure .",
+    "[Clinician asked: \"jerry is a 54 year old male with a past medical history , significant for osteoporosis and multiple sclerosis who presents for an annual exam . so jerry , what's been going on since the last time i saw you ?\"] uh , we have been traveling all over the country . it's been kind of a stressful summer . kinda adjusting to everything in the fall and so far it's been good , but ah , lack of sleep , it's been really getting to me .",
+    "[Clinician asked: \"okay . all right . and have you taken anything for the insomnia . have you tried any strategies for it .\"] i've tried everything from melatonin to meditation to , uh , t- stretching out every morning when i get up . nothing really seems to help though .",
+    "[Clinician asked: \"in terms of your osteoporosis , i know we have you on fosamax , any issues with your joints , any issues like-\"] no .",
+    "[Clinician asked: \"no broken bones recently ?\"] no .",
+    "[Clinician asked: \"no , nothing like that ?\"] no .",
+    "[Clinician asked: \"okay . and then in terms of your multiple sclerosis , when was the last time you saw the neurologist ?\"] uh , about six months ago .",
+    "[Clinician asked: \"okay and you're taking the medication ?\"] yes .",
+    "[Clinician asked: \"okay . and any issues with that ?\"] none whatsoever .",
+    "[Clinician asked: \"and any additional weakness ? i know you were having some issues with your right leg , but that seems to have improved or ?\"] yes a lingering issue with my knee surgery . but other than that it's been fine .",
+    "[Clinician asked: \"okay .\"] pretty , pretty strong , n- nothing , nothing out of the ordinary .",
+    "[Clinician asked: \"okay . all right , well i know you did a review of systems sheet when you checked in .\"] mm-hmm .",
+    "[Clinician asked: \"and you were endorsing that insomnia . any other issues , chest pain , shortness of breath , anything ?\"] no .",
+    "[Clinician asked: \"all right . well lets go ahead and do a quick physical exam .\"] mm-hmm .",
+    "[Clinician asked: \"hey dragon , show me the vital signs . so your vital signs here in the office they look really good . i'm just going to listen to your heart and lungs and let you know what i find .\"] sure .",
+    "[Clinician asked: \"okay . on physical examination everything looks good . you know your lungs are nice and clear . your heart sounds good . you know you do have some weakness of your lower extremities . the right is about 4 out of 5 , the left is about 3 out of 5 . but you reflexes are really good so i'm , i'm encoura\"] mm-hmm .",
+    "[Clinician asked: \"um , so let's go over some of your results , okay ?\"] sure .",
+    "[Clinician asked: \"hey dragon , show me the right knee x-ray . and here's the x-ray of your right knee , which shows some changes from arthritis , but otherwise that looks good . so let's talk a little bit about my assessment and plan . from an osteoporosis standpoint , we'll go ahead and order , you know , re- contin\"] actually i do .",
+    "[Clinician asked: \"hey dragon , order a refill of fosamax 1 tab per week , 11 refills . and then in t- , for your second problem , your multiple sclerosis i want you to go ahead and continue to see the neurologist and continue on those medications . and let me know if you need anything from that standpoint , okay ?\"] you got it .",
+    "[Clinician asked: \"any questions ?\"] not at this point , no ."
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nAnnual exam.\n\nHISTORY OF PRESENT ILLNESS\n\nJerry Nguyen a 54-year-old male with a past medical history significant for osteoporosis, and multiple sclerosis, who presents for an annual exam.\n\nThe patient states he has been traveling all over the country. He notes it has been a stressful summer and adjusting to everything in the fall.\n\nThe patient reports a lack of sleep. He has tried melatonin, meditation, and stretching every morning, but nothing has helped.\n\nFor treatment of his osteoporosis, he is on Fosamax. He denies any issues with his joints. He denies any recent broken bones.\n\nRegarding his multiple sclerosis, he last saw the neurologist 6 months ago. He is taking his medication and denies any issues with this. Previously, he experienced right leg weakness, however, this has resolved.\n\nHe does have some lingering issues with his right knee after previous surgery, but nothing out of the ordinary.\n\nThe patient denies any chest pain or shortness of breath.\n\nREVIEW OF SYSTEMS\n\n\u2022 Cardiovascular: Denies chest pain or dyspnea.\n\u2022 Respiratory: Denies shortness of breath.\n\u2022 Musculoskeletal: Endorses right knee discomfort.\n\u2022 Neurological: Endorses insomnia.\n\nPHYSICAL EXAMINATION\n\n\u2022 Respiratory: Lungs are clear to auscultation bilaterally. No wheezes, rales, or rhonchi.\n\u2022 Musculoskeletal: Weakness in the lower extremities, 4/5 on the right and 3/5 on the left. Reflexes are good. Arthritic changes in the right knee.\n\nRESULTS\n\nX-ray of the right knee demonstrates some arthritic changes.\n\nASSESSMENT\n\nJerry Nguyen a 54-year-old male with a past medical history significant for osteoporosis, and multiple sclerosis, who presents for an annual exam.\n\nPLAN\n\nOsteoporosis.\n\u2022 Medical Reasoning: The patient is doing well with Fosamax.\n\u2022 Medical Treatment: Continue Fosamax 1 tab per week. Eleven refills were ordered today.\n\nMultiple Sclerosis.\n\u2022 Medical Reasoning: The patient is experiencing weakness of the bilateral lower extremities. He has been seeing his neurologist on a consistent basis and has been compliant with medication.\n\u2022 Medical Treatment: He will continue to follow up with his neurologist and comply with his medication regimen.\n\nRight knee arthritis.\n\u2022 Medical Reasoning: The patient recently underwent knee surgery. A recent right knee x-ray demonstrated some arthritic changes.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.",
+  "gold_sections": {
+    "CC": "Annual exam.",
+    "HPI": "Jerry Nguyen a 54-year-old male with a past medical history significant for osteoporosis, and multiple sclerosis, who presents for an annual exam.\n\nThe patient states he has been traveling all over the country. He notes it has been a stressful summer and adjusting to everything in the fall.\n\nThe patient reports a lack of sleep. He has tried melatonin, meditation, and stretching every morning, but nothing has helped.\n\nFor treatment of his osteoporosis, he is on Fosamax. He denies any issues with his joints. He denies any recent broken bones.\n\nRegarding his multiple sclerosis, he last saw the neurologist 6 months ago. He is taking his medication and denies any issues with this. Previously, he experienced right leg weakness, however, this has resolved.\n\nHe does have some lingering issues with his right knee after previous surgery, but nothing out of the ordinary.\n\nThe patient denies any chest pain or shortness of breath.",
+    "ROS": "\u2022 Cardiovascular: Denies chest pain or dyspnea.\n\u2022 Respiratory: Denies shortness of breath.\n\u2022 Musculoskeletal: Endorses right knee discomfort.\n\u2022 Neurological: Endorses insomnia.",
+    "PHYSICAL_EXAMINATION": "\u2022 Respiratory: Lungs are clear to auscultation bilaterally. No wheezes, rales, or rhonchi.\n\u2022 Musculoskeletal: Weakness in the lower extremities, 4/5 on the right and 3/5 on the left. Reflexes are good. Arthritic changes in the right knee.",
+    "RESULTS": "X-ray of the right knee demonstrates some arthritic changes.",
+    "ASSESSMENT": "Jerry Nguyen a 54-year-old male with a past medical history significant for osteoporosis, and multiple sclerosis, who presents for an annual exam.",
+    "PLAN": "Osteoporosis.\n\u2022 Medical Reasoning: The patient is doing well with Fosamax.\n\u2022 Medical Treatment: Continue Fosamax 1 tab per week. Eleven refills were ordered today.\n\nMultiple Sclerosis.\n\u2022 Medical Reasoning: The patient is experiencing weakness of the bilateral lower extremities. He has been seeing his neurologist on a consistent basis and has been compliant with medication.\n\u2022 Medical Treatment: He will continue to follow up with his neurologist and comply with his medication regimen.\n\nRight knee arthritis.\n\u2022 Medical Reasoning: The patient recently underwent knee surgery. A recent right knee x-ray demonstrated some arthritic changes.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan."
+  },
+  "n_patient_turns": 21,
+  "n_clinician_turns": 23,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 17980.965338647366,
+      "response_text": "I understand that the stress from traveling and adjusting can really take a toll on your sleep and overall well-being, Jerry. It's completely valid to feel overwhelmed, and I'm here to support you. If you're open to it, we could explore some additional strategies to help with your sleep, like establishing a consistent bedtime routine or reducing screen time before bed. Your health and comfort are important to me, so please don't hesitate to reach out if you need more support.\n\nOn a positive note, it's reassuring to see that your osteoporosis and multiple sclerosis are stable, and your neurology appointments are on track. I'm glad your knee is improving, but if you ever feel like the lingering issues are getting you down, we can certainly discuss further options. You're not alone in this journey, and I'm here to help in any way I can. Let me know if there's anything else on your mind.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 17103.977471590042,
+      "response_text": "Thanks for sharing everything with me, Jerry. It sounds like you've been through a lot this summer with all the traveling and adjusting, and I can see how the lack of sleep has been taking a toll on you. It\u2019s completely understandable that you\u2019re feeling stressed and frustrated, especially when trying so many strategies without relief. I want to make sure we address this together and find something that works for you.\n\nGiven your osteoporosis and multiple sclerosis, it\u2019s important to consider how lack of sleep might be affecting your overall health. Insomnia can sometimes be linked to underlying symptoms or medications, so we\u2019ll want to explore whether adjustments could help. I\u2019m going to review your current medications to see if any might be contributing to your sleep issues [PMID ?]. Additionally, I\u2019ll refer you to a sleep specialist to get a comprehensive evaluation and personalized recommendations [PMID ?].\n\nWe\u2019ll plan to check in with you in 2-4 weeks to see how you\u2019re doing and adjust our approach as needed. Before you leave, could you summarize what we\u2019ve discussed today? That way, I can ensure I\u2019ve covered everything clearly.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6941.173292696476,
+      "response_text": "It sounds like you're having a tough time with your sleep, especially with all the traveling and adjusting to the new season.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 4 weeks. In the meantime, if you get new symptoms like severe fatigue or trouble breathing, please call us right away \u2014 don't wait for the appointment.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're having a tough time with your sleep, especially with all the traveling and adjusting to the new season.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 4 weeks. In the meantime, if you get new symptoms like severe fatigue or trouble breathing, please call us right away \u2014 don't wait for the appointment.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 210063.62323462963,
+      "response_text": "I can hear how much this has been weighing on you \u2014 you mentioned, \"stressful summer\" and added, \"nothing really seems to help though.\" That sounds really frustrating.\n\nTrouble sleeping can be linked to stress, and the steps you've already tried, like melatonin and meditation, are good starting points. We'll look into how to adjust these approaches or explore other options to help you get better rest.\n\nFor lingering issues after knee surgery, it's important to monitor your progress and ensure that any persistent symptoms are properly evaluated. We'll keep track of your recovery and adjust care as needed.\n\nWe'll monitor your sleep patterns and the effectiveness of your current interventions. If needed, we can explore additional strategies to improve your sleep quality.\n\nWe'll keep a close eye on your knee recovery and address any lingering issues as they arise.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to check in again in a few weeks. If your sleep problems get worse or you experience any new symptoms related to your knee, please reach out sooner.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this has been weighing on you \u2014 you mentioned, \"stressful summer\" and added, \"nothing really seems to help though.\" That sounds really frustrating.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "lack of sleep",
+            "profile_path": "problems[0]",
+            "explanation": "Trouble sleeping can be linked to stress, and the steps you've already tried, like melatonin and meditation, are good starting points. We'll look into how to adjust these approaches or explore other options to help you get better rest.",
+            "citations": []
+          },
+          {
+            "concern_label": "lingering knee surgery issue",
+            "profile_path": "problems[1]",
+            "explanation": "For lingering issues after knee surgery, it's important to monitor your progress and ensure that any persistent symptoms are properly evaluated. We'll keep track of your recovery and adjust care as needed.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll monitor your sleep patterns and the effectiveness of your current interventions. If needed, we can explore additional strategies to improve your sleep quality.",
+          "We'll keep a close eye on your knee recovery and address any lingering issues as they arise."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to check in again in a few weeks. If your sleep problems get worse or you experience any new symptoms related to your knee, please reach out sooner.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 2,
+        "n_medications": 1,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 2,
+        "n_goals": 0,
+        "problems": [
+          "lack of sleep",
+          "lingering knee surgery issue"
+        ],
+        "medications": [
+          "Fosamax 1 tab per week"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 206909.9675193429,
+      "response_text": "It sounds like you're really struggling with your sleep and the lingering effects of your knee surgery. I want to understand how these issues are impacting your daily life.\n\nTrouble sleeping can be linked to stress, and interventions like telephone support can help manage symptoms like fatigue and emotional distress.\n\nAfter knee surgery, some patients experience lingering issues, and interventions to address these can be effective.\n\nWe'll explore some telephone support options to help manage your sleep and emotional well-being.\n\nWe'll review your knee surgery recovery and discuss any lingering issues you're experiencing.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to check in again in two weeks. If you experience any severe symptoms or your condition worsens, please reach out sooner.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're really struggling with your sleep and the lingering effects of your knee surgery. I want to understand how these issues are impacting your daily life.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "lack of sleep",
+            "profile_path": "problems[0]",
+            "explanation": "Trouble sleeping can be linked to stress, and interventions like telephone support can help manage symptoms like fatigue and emotional distress.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[0]::32483832_0",
+                "primary_assertion_id": "32483832_0",
+                "pmids": [
+                  "32483832"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "lingering knee surgery issue",
+            "profile_path": "problems[1]",
+            "explanation": "After knee surgery, some patients experience lingering issues, and interventions to address these can be effective.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[0]::32483832_0",
+                "primary_assertion_id": "32483832_0",
+                "pmids": [
+                  "32483832"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll explore some telephone support options to help manage your sleep and emotional well-being.",
+          "We'll review your knee surgery recovery and discuss any lingering issues you're experiencing."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to check in again in two weeks. If you experience any severe symptoms or your condition worsens, please reach out sooner.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[0]::32483832_0"
+        ],
+        "all_pmids_used": [
+          "32483832"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 2,
+        "n_medications": 1,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "lack of sleep",
+          "lingering knee surgery issue"
+        ],
+        "medications": [
+          "Fosamax 1 tab per week"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [
+        "32483832"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[0]::32483832_0"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 168635.36996394396,
+        "module_2_retrieval": 1135.9540671110153,
+        "module_3_reasoning": 18400.07109940052,
+        "module_4_response": 18737.69599199295,
+        "total_ms": 206909.09112244844
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

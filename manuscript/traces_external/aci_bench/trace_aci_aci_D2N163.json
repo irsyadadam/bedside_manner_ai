@@ -1,0 +1,256 @@
+{
+  "transcript_id": "aci_aci_D2N163",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "i'm okay",
+  "patient_utterances": [
+    "[Clinician asked: \"julie cruz is a 17 -year-old non- binary immensipated minor with no significant past medical history presents for evaluation of newly diagnosed hypercholesterolemia patient is here at the clinic hi julie how're you doing\"] i'm okay",
+    "[Clinician asked: \"so i now i know you're worried about you know what's been happening with your with your you know with your blood cholesterol so can you tell me a little bit more about what's going on\"] yeah i mean i'm worried about this finding i went for my annual checkup and they checked my cholesterol one of those finger prick tests and it came back elevated and they told me i should come and see you",
+    "[Clinician asked: \"okay alright well i think it's a good thing that you know we're aware of this elevated cholesterol at a young age and that we can do something about it so lem me ask you julie a couple of questions here okay so what kind of activities do you like to do\"] well i really like to go outside i ride my bicycle a lot",
+    "[Clinician asked: \"okay\"] which is it's a lot of fun i ride the trails",
+    "[Clinician asked: \"that's fun very nice so you stay pretty active it sounds like\"] well i keep pretty active during the week yeah",
+    "[Clinician asked: \"okay very good good for you now tell me what what kind of foods do you like to eat\"] well i mean i really like chocolate chip cookies",
+    "[Clinician asked: \"yeah\"] i mean i i try to cook pretty much everything is fresh but i i really do like like cookies and i i mean but even after that i mean i i try to eat pretty clean diet most days",
+    "[Clinician asked: \"yeah\"] that's why i was really surprised my cholesterol was high",
+    "[Clinician asked: \"yeah okay well we will we will try to look check and see what's going on there okay so so what kind of so have you you've done any fun activities that now that you know it's getting warm out\"] yeah i went for a bike ride over the weekend and some friends have morning we we went for a bike ride and then we had a pick",
+    "[Clinician asked: \"that's fun\"] it was pretty nice it was a little chilly but it's nice now that it's springtime",
+    "[Clinician asked: \"yeah but yeah that sounds like fun\"] it was fun",
+    "[Clinician asked: \"techniques are fun so tell me do you do you have any history at all of you know hypercholesterol serol anemia on the like at a early age any other you know family members that that you remember that may have that problem\"] well i do n't really think so i do n't really talk to my parents too much",
+    "[Clinician asked: \"i know\"] but i i have a pretty good relationship with my grandparents",
+    "[Clinician asked: \"okay\"] you know and i remember talking to my grandmother and my grandfather both and they do n't they said that when they were young they did n't have anything like that so i had mine checked last year and the doctor said it was a little borderline",
+    "[Clinician asked: \"okay\"] but it was n't anything to be worried about that time it kinda just blew it off just told me to watch what i was eating and now they say it's really hot and i do n't understand what's going on",
+    "[Clinician asked: \"okay alright okay we'll we'll we'll we'll take a look at that okay now tell me have you had any issues you know with growing growing up bones are feeling okay you feel like you're growing okay\"] i i guess so i mean when i met with my doctor i they talked about making health goals and making sure that that i i feel okay and i i decided about two years ago that i i do n't feel much like a girl i it's it's more of just kind of a nongender and that's how i've been living",
+    "[Clinician asked: \"yeah\"] and but i mean i thought i was healthy",
+    "[Clinician asked: \"yeah okay well you know we can get you there too you know we can work on that so we we'll take we'll talk more about some tips to help achieve those goals okay\"] okay",
+    "[Clinician asked: \"okay and tell me does anyone at home smoke\"] well when i used to live with my parents they did but i live on my own now",
+    "[Clinician asked: \"right\"] nobody smokes my apartment",
+    "[Clinician asked: \"okay you know if your friends come over if they smoke too or what okay\"] nope",
+    "[Clinician asked: \"okay\"] no nobody that i spend time with smoke",
+    "[Clinician asked: \"okay now tell me is there any history at all of like maybe heart disease or sudden death you know like early early in those your family's years\"] well come to think of it i did have my my grandparents told me that that i had a cousin that died and and he was only like forty four or forty five",
+    "[Clinician asked: \"okay\"] they they think that he had a heart attack",
+    "[Clinician asked: \"okay well i'm sorry to hear that okay so that's that's helpful information though okay let's go ahead and do physical exam on you there julie i'm gon na go ahead and take a look at your vital signs looks like your blood pressure looks good so that's good now on your heart exam i do n't appreciate an\"] okay",
+    "[Clinician asked: \"alright now i do want you to continue to be active and exercise so that's great especially that you know your bike riding so you keep that up that's a great thing and you're doing well with that so keep that up for you okay and then i wan na follow up with another cholesterol level in three to six m\"] okay it sounds good",
+    "[Clinician asked: \"okay good well take care julie i'll talk to you soon\"] alright thanks document"
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nHypercholesterolemia.\n\nSOCIAL HISTORY\n\nPatient denies any history of smoking; however, they note that their parents smoked when they lived with them. They enjoy being outside and riding their bike on trails.\n\nFAMILY HISTORY\n\nPatient reports a cousin who died of a heart attack in their 40's. but denies any family history of hypercholesterolemia.\n\nVITALS\n\nBlood pressure looks good.\n\nPHYSICAL EXAM\n\nEyes\n- Examination: No xanthomas noted.\n\nNeck\n- General Examination: Neck is supple without thyromegaly.\n\nRespiratory\n- Auscultation of Lungs: Clear bilaterally.\n\nCardiovascular\n- Auscultation of Heart: No murmurs, gallops or rubs.\n\nGastrointestinal\n- Examination of Abdomen: No hepatomegaly or splenomegaly.\n\nRESULTS\n\nRecent cholesterol level is reviewed and shows patient is elevated at 210.\n\nASSESSMENT AND PLAN\n\n1. Elevated cholesterol.\n- Medical Reasoning: The patient's previous tests are consistent with hypercholesterolemia.\n- Patient Education and Counseling: We discussed that the American Academy of Pediatrics recommends children between the ages of 9 to 11 years old and again between 17 to 20 years old be screened for their cholesterol. We also discussed that studies link high cholesterol to pre-mature heart attacks. I advised the patient that genetic testing can be done to see if the problem is genetic or a secondary cause. They were also advised to follow a balanced diet with a variety of foods that are low in saturated fat and sugars, as well as remain active.\n- Medical Treatment: Full cholesterol panel ordered. Hemoglobin A1c, CMP, thyroid study, and liver panel were also ordered. Genetic testing ordered. Referral to nutritionist provided.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.\n\nINSTRUCTIONS\n\nThe patient will follow-up in 3 to 6 months after meeting the nutritionist for another cholesterol level.",
+  "gold_sections": {
+    "CC": "Hypercholesterolemia.",
+    "SOCIAL_HISTORY": "Patient denies any history of smoking; however, they note that their parents smoked when they lived with them. They enjoy being outside and riding their bike on trails.",
+    "FAMILY_HISTORY": "Patient reports a cousin who died of a heart attack in their 40's. but denies any family history of hypercholesterolemia.",
+    "VITALS": "Blood pressure looks good.",
+    "PHYSICAL_EXAM": "Eyes\n- Examination: No xanthomas noted.\n\nNeck\n- General Examination: Neck is supple without thyromegaly.\n\nRespiratory\n- Auscultation of Lungs: Clear bilaterally.\n\nCardiovascular\n- Auscultation of Heart: No murmurs, gallops or rubs.\n\nGastrointestinal\n- Examination of Abdomen: No hepatomegaly or splenomegaly.",
+    "RESULTS": "Recent cholesterol level is reviewed and shows patient is elevated at 210.",
+    "ASSESSMENT_PLAN": "1. Elevated cholesterol.\n- Medical Reasoning: The patient's previous tests are consistent with hypercholesterolemia.\n- Patient Education and Counseling: We discussed that the American Academy of Pediatrics recommends children between the ages of 9 to 11 years old and again between 17 to 20 years old be screened for their cholesterol. We also discussed that studies link high cholesterol to pre-mature heart attacks. I advised the patient that genetic testing can be done to see if the problem is genetic or a secondary cause. They were also advised to follow a balanced diet with a variety of foods that are low in saturated fat and sugars, as well as remain active.\n- Medical Treatment: Full cholesterol panel ordered. Hemoglobin A1c, CMP, thyroid study, and liver panel were also ordered. Genetic testing ordered. Referral to nutritionist provided.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.",
+    "INSTRUCTIONS": "The patient will follow-up in 3 to 6 months after meeting the nutritionist for another cholesterol level."
+  },
+  "n_patient_turns": 27,
+  "n_clinician_turns": 28,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 16200.246222317219,
+      "response_text": "I understand this news about your cholesterol might be concerning, but it\u2019s actually a good thing we caught it early. You\u2019re already doing a lot right by staying active and eating well, which are great habits. Let\u2019s work together to make some small changes to help manage your cholesterol. We\u2019ll keep an eye on it and adjust as needed. Your family history gives us motivation to take action now to keep you healthy in the long run. You\u2019re on the right track, and I\u2019m here to support you every step of the way. Keep up the fantastic work!",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 19636.233389377594,
+      "response_text": "Julie, thank you for sharing your concerns and the details about your health. It\u2019s completely understandable that you\u2019re feeling surprised and worried about your elevated cholesterol, especially since you\u2019re young and take good care of yourself. I can see how unexpected this news must be, and I want to make sure we work together to understand and manage this.\n\nGiven your family history, including your cousin who had a heart attack at a young age, it\u2019s important we pay attention to your cholesterol levels. While your active lifestyle and efforts to eat well are commendable, we might need to make a few small adjustments to help keep your cholesterol in a healthy range. I\u2019ll suggest some dietary tweaks that are simple to incorporate, focusing on foods that can support your heart health [PMID ?].\n\nWe\u2019ll plan to check your cholesterol again in four weeks to see how these changes are working. Before you leave, could you summarize what we discussed today? That way, I can ensure you\u2019re clear on the next steps. Please feel free to reach out if you have any questions or concerns in the meantime. We\u2019re here to support you through this.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 8379.383966326714,
+      "response_text": "It sounds like you're here because of the surprising news about your cholesterol levels. You mentioned being surprised when your annual checkup showed elevated cholesterol, even though you try to eat a clean diet and stay active.\n\nWe'll review your lab results together and discuss next steps based on your lifestyle and health history.\n\nWe'll schedule a follow-up appointment to monitor your cholesterol levels and provide guidance tailored to your needs.\n\nCan you tell me in your own words what we discussed today and what you plan to do next?\n\nLet's plan to meet again in a few weeks to review your results. If you have any concerns or questions before then, feel free to reach out.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're here because of the surprising news about your cholesterol levels. You mentioned being surprised when your annual checkup showed elevated cholesterol, even though you try to eat a clean diet and stay active.",
+        "clinical_information_per_concern": [],
+        "next_steps": [
+          "We'll review your lab results together and discuss next steps based on your lifestyle and health history.",
+          "We'll schedule a follow-up appointment to monitor your cholesterol levels and provide guidance tailored to your needs."
+        ],
+        "teach_back_prompt": "Can you tell me in your own words what we discussed today and what you plan to do next?",
+        "follow_up_invitation": "Let's plan to meet again in a few weeks to review your results. If you have any concerns or questions before then, feel free to reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 174266.25840365887,
+      "response_text": "I can tell you're feeling a bit confused about what's going on, as you mentioned, 'I don't understand what's going on.' That makes sense, especially when dealing with something like elevated cholesterol.\n\nElevated cholesterol can be managed with lifestyle changes and, if needed, medication. We'll focus on understanding your current health and the best steps for you.\n\nOur goal is to help you understand and manage your cholesterol to reduce future health risks.\n\nWe'll work together to create a plan to manage your cholesterol, starting with lifestyle changes and monitoring your progress.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to review your progress in a few weeks. If you have any questions or concerns in the meantime, please reach out.",
+      "structured_response": {
+        "acknowledgment": "I can tell you're feeling a bit confused about what's going on, as you mentioned, 'I don't understand what's going on.' That makes sense, especially when dealing with something like elevated cholesterol.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "elevated cholesterol",
+            "profile_path": "problems[0]",
+            "explanation": "Elevated cholesterol can be managed with lifestyle changes and, if needed, medication. We'll focus on understanding your current health and the best steps for you.",
+            "citations": []
+          },
+          {
+            "concern_label": "address elevated cholesterol",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Our goal is to help you understand and manage your cholesterol to reduce future health risks.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll work together to create a plan to manage your cholesterol, starting with lifestyle changes and monitoring your progress."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to review your progress in a few weeks. If you have any questions or concerns in the meantime, please reach out.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 2,
+        "n_goals": 1,
+        "problems": [
+          "elevated cholesterol"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 169279.80870753527,
+      "response_text": "It sounds like you're feeling confused and down about what's going on. You mentioned, \"I don't understand what's going on\" and \"I don't feel much like a girl,\" which I can really hear how that might be affecting you.\n\nTo help manage elevated cholesterol, it's important to focus on lifestyle changes like diet and exercise. Guidelines suggest that starting with these changes can make a big difference, especially for people in midlife.\n\nWe'll work together on a plan to manage your cholesterol, starting with lifestyle changes like diet and exercise.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to check in again in a few weeks. If you have any questions or concerns in the meantime, please reach out.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're feeling confused and down about what's going on. You mentioned, \"I don't understand what's going on\" and \"I don't feel much like a girl,\" which I can really hear how that might be affecting you.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "elevated cholesterol",
+            "profile_path": "problems[0]",
+            "explanation": "To help manage elevated cholesterol, it's important to focus on lifestyle changes like diet and exercise. Guidelines suggest that starting with these changes can make a big difference, especially for people in midlife.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::sub_query[0]::40983262_0",
+                "primary_assertion_id": "40983262_0",
+                "pmids": [
+                  "40983262"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll work together on a plan to manage your cholesterol, starting with lifestyle changes like diet and exercise."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to check in again in a few weeks. If you have any questions or concerns in the meantime, please reach out.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "recommendation::sub_query[0]::40983262_0"
+        ],
+        "all_pmids_used": [
+          "40983262"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 2,
+        "n_goals": 0,
+        "problems": [
+          "elevated cholesterol"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "40983262"
+      ],
+      "cluster_ids_used": [
+        "recommendation::sub_query[0]::40983262_0"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 146073.1616616249,
+        "module_2_retrieval": 888.4878978133202,
+        "module_3_reasoning": 7438.384503126144,
+        "module_4_response": 14878.735460340977,
+        "total_ms": 169278.76952290535
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

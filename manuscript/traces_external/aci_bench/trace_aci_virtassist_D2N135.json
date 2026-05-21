@@ -1,0 +1,335 @@
+{
+  "transcript_id": "aci_virtassist_D2N135",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "um , i have high blood sugar . yeah , osteoarthritis , arterial fibrillation , and reflux .",
+  "patient_utterances": [
+    "um , i have high blood sugar . yeah , osteoarthritis , arterial fibrillation , and reflux .",
+    "[Clinician asked: \"hi , hannah . how are you ?\"] good , how are you ?",
+    "[Clinician asked: \"i'm good . you ready to get started ?\"] yes , i am .",
+    "[Clinician asked: \"so , hannah is a , uh , 52-year-old female here for evaluation of a high blood sugar . so , hannah , what ha- what happened ? i heard you were in the emergency room with a high blood sugar .\"] yes . so , i've been eating a ton of sweets recently . with the holidays it just feels like there is always something sweet available. whether i am at work and there are holiday gift baskets or clients bringing in treats or when i visit my family for the holidays and there is every baked good imaginable, there is always something sweet i can be eating. in the beginning i felt fine, but i have started to feel it after a couple of weeks, and this past week i just felt really light-headed and i could ... was seeing spots , really dizzy . so i went into the emergency room and they said i had a high blood sugar . um , so i wanted to come in and follow up with you to get that , um , get checked out .",
+    "[Clinician asked: \"okay . all right . and how , how are you feeling now ? did they , did , did they treat you in the emergency room ? did they gi- they give you some iv fluids and things like that ?\"] yeah . they gave me some fluids and they told me just to try to really cut out eating any extra sweets and get back into my normal routine and diet, but i am still staying with my family, and my mom and grandmother are big bakers so i think it will be really hard to get into a routine there so i just want to make sure i am nipping this high blood sugar thing in the bud.",
+    "[Clinician asked: \"okay . and i saw you went through a review of systems sheet with a nurse . i just want to ask you a few more questions from that standpoint . so you have had any fever or chills ?\"] no .",
+    "[Clinician asked: \"any chest pain or shortness of breath ?\"] n- uh , no .",
+    "[Clinician asked: \"abdominal pain ?\"] no .",
+    "[Clinician asked: \"any burning when you urinate ?\"] no .",
+    "[Clinician asked: \"any joint pain or muscle aches ?\"] no .",
+    "[Clinician asked: \"okay .\"] i do have osteoarthritis though , so that , when i say , \" no , \" it's not , like , nothing out of the norm-",
+    "[Clinician asked: \"okay .\"] for me .",
+    "[Clinician asked: \"perfect . um , and then , i know that you have this history of a-fib , atrial fibrillation . have you felt your heart racing at all , recently ?\"] only when i'm really anxious . i , i feel it , um , pumping a little bit . but other than that i have n't .",
+    "[Clinician asked: \"okay . all right . and how are you doing with your reflux ?\"] i've been doing well . i've been taking the medication that you prescribed to me and that's been helping a lot .",
+    "[Clinician asked: \"okay , yeah . i see here you're on the protonix , 40 milligrams , once a day .\"] yes .",
+    "[Clinician asked: \"so that's , you're doing well with that ?\"] yep .",
+    "[Clinician asked: \"okay . all right . so let's go ahead and do a quick physical exam . so , listening to you , um , look , or looking at you , you appear in no distress . your thyroid is a little enlarged , but non-tender . there's no carotid bruits , your heart is in irregular rate and rhythm , and your lungs are cle\"] okay .",
+    "[Clinician asked: \"hey , dragon ? show me the blood sugar . hey , dragon ? show me the blood glucose . hey , dragon ? show me the hemoglobin a1c . okay , so i see here that both your blood sugar and your hemoglobin a1c are elevated . so your blood sugars have probably been running high for probably a few months . okay\"] okay .",
+    "[Clinician asked: \"hey , dragon ? order metformin , 500 milligrams , twice a day . and then if some of the autoimmune labs that come back show that you have an autoimmune disorder , meaning that you would have type i diabetes , then we would have to go ahead and put you on insulin . but i'm gon na hold off until we ha\"] okay .",
+    "[Clinician asked: \"but in the meantime , i really want you to avoid , uh , foods high in sugar . um , and the , the nurse will come in and she'll give you a glucometer and teach you how to do blood sugar testing . okay ?\"] okay .",
+    "[Clinician asked: \"and then , from an atrial fibrillation standpoint , your heart , even though you're in atrial fibrillation right now , is in a good rate . and we'll just continue you on your metoprolol , 25 milligrams , twice a day . do you need a refill on that ?\"] yes , i do .",
+    "[Clinician asked: \"hey , dragon ? order a refill on metoprolol , 25 milligrams , twice a day . and for your reflux , we'll just continue you on the protonix , okay ?\"] okay .",
+    "[Clinician asked: \"do you have any questions , hannah ?\"] no , not at this time .",
+    "[Clinician asked: \"okay , so the nurse will come in and she'll go over all that stuff with you .\"] okay .",
+    "[Clinician asked: \"take care .\"] thank you ."
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nEvaluation of high blood sugar.\n\nHISTORY OF PRESENT ILLNESS\n\nMs. Hannah Phillips is a 52-year-old female who presents for evaluation of high blood sugar. The patient admits to dietary indiscretion. She notes that she has been eating more sweets during the holidays. She reports that this past week, she felt really lightheaded, was seeing spots in her vision, and was really dizzy. She went to the emergency room and was told that she had high blood sugar. Ms. Phillips was given IV fluids. The patient was also instructed to get into a routine and watch her diet. She states that she is staying with family during the holidays and having trouble returning to her routine diet, but wants to make sure that her high blood sugar is not an issue.\n\nThe patient denies any fever or chills. She denies chest pain or shortness of breath. She denies abdominal pain or burning when she urinates. She denies joint pain or muscle aches.\n\nShe notes that she has osteoarthritis, and that nothing seems out of the ordinary for her joint pain.\n\nThe patient has a history of atrial fibrillation. She states that she has felt her heart racing when she is anxious; however, other than that, she has not experienced any issues. She is currently taking metoprolol 25 mg 2 times per day.\n\nRegarding her acid reflux, she states that she has been doing well. She has been taking the medication that was prescribed to her, and it has been very helpful. She is on the Protonix 40 mg once daily, and she is doing well with that\n\nREVIEW OF SYSTEMS\n\n\u2022 Constitutional: Negative for fever, chills\n\u2022 Cardiovascular: Negative for chest pain\n\u2022 Respiratory: Negative for shortness of breath.\n\u2022 Gastrointestinal: Negative for abdominal pain.\n\u2022 Genitourinary: No dysuria.\n\u2022 Musculoskeletal: No Arthralgias, Myalgias.\n\nPHYSICAL EXAMINATION\n\nConstitutional\n\u2022 General Appearance: appear in no distress.\n\nNeck\n\u2022 General Examination: Her thyroid is a little enlarged but nontender. There are no carotid bruits. Respiratory\n\u2022 Auscultation of Lungs: Clear bilaterally. Cardiovascular\n\u2022 Auscultation of Heart: Irregular rate and rhythm. Musculoskeletal\n\u2022 Examination of Abdomen: Nice soft and have no edema in lower extremities.\n\nRESULTS\n\nGlucose: elevated.\nHbA1c: elevated.\n\nASSESSMENT AND PLAN\n\nMs. Hannah Phillips is a 52-year-old female who presents for evaluation of high blood sugar.\n\nDiabetes.\n\u2022 Medical Reasoning: Elevated blood glucose and hemoglobin A1c levels based on recent labs.\n\u2022 Additional Testing: We will order a complete metabolic panel for further evaluation.\n\u2022 Medical Treatment: Initiate metformin 500 mg twice daily. Encouraged dietary modifications. The patient will be given a glucometer to monitor her glucose levels at home.\n\nAtrial Fibrillation.\n\n\u2022 Medical Reasoning: Asymptomatic and well-controlled at this time.\n\u2022 Medical Treatment: Continue metoprolol 25 mg twice daily. Refilled today.\n\nHistory of Reflux.\n\n\u2022 Medical Reasoning: Well-controlled on current regimen.\n\u2022 Medical Treatment: Continue Protonix 40 mg daily.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.",
+  "gold_sections": {
+    "CC": "Evaluation of high blood sugar.",
+    "HPI": "Ms. Hannah Phillips is a 52-year-old female who presents for evaluation of high blood sugar. The patient admits to dietary indiscretion. She notes that she has been eating more sweets during the holidays. She reports that this past week, she felt really lightheaded, was seeing spots in her vision, and was really dizzy. She went to the emergency room and was told that she had high blood sugar. Ms. Phillips was given IV fluids. The patient was also instructed to get into a routine and watch her diet. She states that she is staying with family during the holidays and having trouble returning to her routine diet, but wants to make sure that her high blood sugar is not an issue.\n\nThe patient denies any fever or chills. She denies chest pain or shortness of breath. She denies abdominal pain or burning when she urinates. She denies joint pain or muscle aches.\n\nShe notes that she has osteoarthritis, and that nothing seems out of the ordinary for her joint pain.\n\nThe patient has a history of atrial fibrillation. She states that she has felt her heart racing when she is anxious; however, other than that, she has not experienced any issues. She is currently taking metoprolol 25 mg 2 times per day.\n\nRegarding her acid reflux, she states that she has been doing well. She has been taking the medication that was prescribed to her, and it has been very helpful. She is on the Protonix 40 mg once daily, and she is doing well with that",
+    "ROS": "\u2022 Constitutional: Negative for fever, chills\n\u2022 Cardiovascular: Negative for chest pain\n\u2022 Respiratory: Negative for shortness of breath.\n\u2022 Gastrointestinal: Negative for abdominal pain.\n\u2022 Genitourinary: No dysuria.\n\u2022 Musculoskeletal: No Arthralgias, Myalgias.",
+    "PHYSICAL_EXAMINATION": "Constitutional\n\u2022 General Appearance: appear in no distress.\n\nNeck\n\u2022 General Examination: Her thyroid is a little enlarged but nontender. There are no carotid bruits. Respiratory\n\u2022 Auscultation of Lungs: Clear bilaterally. Cardiovascular\n\u2022 Auscultation of Heart: Irregular rate and rhythm. Musculoskeletal\n\u2022 Examination of Abdomen: Nice soft and have no edema in lower extremities.",
+    "RESULTS": "Glucose: elevated.\nHbA1c: elevated.",
+    "ASSESSMENT_PLAN": "Ms. Hannah Phillips is a 52-year-old female who presents for evaluation of high blood sugar.\n\nDiabetes.\n\u2022 Medical Reasoning: Elevated blood glucose and hemoglobin A1c levels based on recent labs.\n\u2022 Additional Testing: We will order a complete metabolic panel for further evaluation.\n\u2022 Medical Treatment: Initiate metformin 500 mg twice daily. Encouraged dietary modifications. The patient will be given a glucometer to monitor her glucose levels at home.\n\nAtrial Fibrillation.\n\n\u2022 Medical Reasoning: Asymptomatic and well-controlled at this time.\n\u2022 Medical Treatment: Continue metoprolol 25 mg twice daily. Refilled today.\n\nHistory of Reflux.\n\n\u2022 Medical Reasoning: Well-controlled on current regimen.\n\u2022 Medical Treatment: Continue Protonix 40 mg daily.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan."
+  },
+  "n_patient_turns": 25,
+  "n_clinician_turns": 25,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 20770.796701312065,
+      "response_text": "Hannah, I understand how challenging it must be to manage your health, especially with the added temptation of sweets during the holidays. It\u2019s completely understandable that you\u2019re finding it hard to avoid them, especially with family members who bake. I want you to know that we\u2019re here to support you in making positive changes and managing your blood sugar levels effectively.\n\nStarting you on metformin is an important step to help regulate your blood sugar and prevent future episodes. It\u2019s a positive move towards better management of your condition. I\u2019m also glad to see that your atrial fibrillation and reflux are stable with your current medications. Let\u2019s continue to monitor these conditions closely.\n\nRemember, you\u2019re not alone in this journey. We\u2019re here to help you navigate these challenges, and I encourage you to reach out if you have any questions or concerns. Together, we can work towards a healthier you. Keep up the great work, and don\u2019t hesitate to ask if you need any further assistance.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 23036.892861127853,
+      "response_text": "Hannah, thank you for sharing all of this with me. It sounds like you're feeling overwhelmed, especially with the holidays and being around all those sweets. I can understand how challenging it must be to manage your blood sugar when there's always something tempting around. It's completely reasonable to be concerned, given what happened in the ER.\n\nGiven your history of high blood sugar and the recent spike, we should consider several possibilities. Your diet, particularly the increased sugar intake, could be contributing. Additionally, we'll want to rule out conditions like type 2 diabetes or even autoimmune diabetes, though the latter is less likely given your age and current symptoms. We'll start you on metformin, which is a standard treatment for type 2 diabetes, and monitor your blood sugar levels closely.\n\nIn the meantime, I want to make sure you have the tools to manage your condition. The nurse will provide you with a glucometer so you can check your blood sugar at home. We'll also continue your current medications for atrial fibrillation and reflux, as they seem to be well-controlled.\n\nBefore you leave, could you walk me through your understanding of the plan? That way, I can ensure you're clear on what to do next. We'll schedule a follow-up in about four weeks to review your progress and adjust treatment as needed.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7684.626154601574,
+      "response_text": "Thank you for sharing your concerns with me. I understand that managing your blood sugar levels during the holidays can be challenging, especially with all the tempting treats available.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 4 weeks. In the meantime, if you get new symptoms like severe dizziness, blurred vision, or if your blood sugar levels remain high, please call us right away \u2014 don't wait for the appointment.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns with me. I understand that managing your blood sugar levels during the holidays can be challenging, especially with all the tempting treats available.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 4 weeks. In the meantime, if you get new symptoms like severe dizziness, blurred vision, or if your blood sugar levels remain high, please call us right away \u2014 don't wait for the appointment.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 384444.1024363041,
+      "response_text": "I can understand how concerning this must be for you. You mentioned, \"I just want to make sure I am nipping this high blood sugar thing in the bud,\" and I want to acknowledge how important that is to you.\n\nHigh blood sugar can lead to serious health issues, and it's important to monitor and manage it effectively. We'll focus on understanding your symptoms better and developing a plan to keep your blood sugar under control.\n\nOsteoarthritis is a common condition that can be managed with appropriate care. We'll work together to find ways to help you manage this condition effectively.\n\nAtrial fibrillation requires careful monitoring. We'll discuss how to manage this condition and reduce any associated risks.\n\nYour reflux is improving with the medication you're taking. We'll continue to monitor this and adjust treatment as needed.\n\nFollowing up on your high blood sugar is a priority. We'll ensure that this issue is addressed thoroughly during your visit.\n\nManaging your blood sugar effectively is crucial for your long-term health. We'll create a plan tailored to your needs to help you achieve this goal.\n\nWe'll start by reviewing your current blood sugar readings and the steps you've taken so far.\n\nWe'll discuss your medications and any adjustments that might be necessary.\n\nWe'll schedule a follow-up appointment to monitor your progress and make any needed changes to your treatment plan.\n\nI want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if you experience any severe symptoms like extreme dizziness or vision problems, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I can understand how concerning this must be for you. You mentioned, \"I just want to make sure I am nipping this high blood sugar thing in the bud,\" and I want to acknowledge how important that is to you.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "high blood sugar",
+            "profile_path": "problems[0]",
+            "explanation": "High blood sugar can lead to serious health issues, and it's important to monitor and manage it effectively. We'll focus on understanding your symptoms better and developing a plan to keep your blood sugar under control.",
+            "citations": []
+          },
+          {
+            "concern_label": "osteoarthritis",
+            "profile_path": "problems[1]",
+            "explanation": "Osteoarthritis is a common condition that can be managed with appropriate care. We'll work together to find ways to help you manage this condition effectively.",
+            "citations": []
+          },
+          {
+            "concern_label": "atrial fibrillation",
+            "profile_path": "problems[2]",
+            "explanation": "Atrial fibrillation requires careful monitoring. We'll discuss how to manage this condition and reduce any associated risks.",
+            "citations": []
+          },
+          {
+            "concern_label": "reflux",
+            "profile_path": "problems[3]",
+            "explanation": "Your reflux is improving with the medication you're taking. We'll continue to monitor this and adjust treatment as needed.",
+            "citations": []
+          },
+          {
+            "concern_label": "follow up on high blood sugar",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Following up on your high blood sugar is a priority. We'll ensure that this issue is addressed thoroughly during your visit.",
+            "citations": []
+          },
+          {
+            "concern_label": "manage high blood sugar effectively",
+            "profile_path": "patient_goals[1]",
+            "explanation": "Managing your blood sugar effectively is crucial for your long-term health. We'll create a plan tailored to your needs to help you achieve this goal.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll start by reviewing your current blood sugar readings and the steps you've taken so far.",
+          "We'll discuss your medications and any adjustments that might be necessary.",
+          "We'll schedule a follow-up appointment to monitor your progress and make any needed changes to your treatment plan."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if you experience any severe symptoms like extreme dizziness or vision problems, please call us right away.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 4,
+        "n_medications": 2,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 2,
+        "problems": [
+          "high blood sugar",
+          "osteoarthritis",
+          "atrial fibrillation",
+          "reflux"
+        ],
+        "medications": [
+          "Protonix 40 mg once daily",
+          "Metformin 500 mg twice daily"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 411172.04494029284,
+      "response_text": "Thank you for sharing your concerns about your high blood sugar and other health issues. I understand that you're feeling light-headed, seeing spots, and really dizzy, which are worrying symptoms.\n\nHigh blood sugar can cause symptoms like light-headedness, dizziness, and vision issues. It's important to monitor and manage it to prevent complications.\n\nOsteoarthritis is a common condition that affects joints, but it's important to monitor its progression and manage any symptoms that arise.\n\nAtrial fibrillation is a heart condition that can cause irregular heartbeats. It's important to follow up to ensure it's properly managed.\n\nReflux can cause discomfort and is typically managed with lifestyle changes and medications. Let's keep an eye on it to ensure it doesn't worsen.\n\nFollowing up on your high blood sugar is crucial to prevent complications. We'll work together to manage it effectively.\n\nAddressing high blood sugar early can help prevent it from becoming a more serious issue. We'll focus on strategies to keep it under control.\n\nWe'll schedule a follow-up appointment to monitor your high blood sugar and discuss any changes in your symptoms.\n\nWe'll review your current medications and treatment plan to ensure they're effective for managing your high blood sugar.\n\nFor your osteoarthritis, we'll keep an eye on any changes and discuss appropriate management strategies as needed.\n\nWe'll monitor your atrial fibrillation and ensure it's properly managed to prevent complications.\n\nWe'll check in on your reflux symptoms and adjust your treatment plan if necessary.\n\nI want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if your high blood sugar symptoms get worse or you experience any new symptoms, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns about your high blood sugar and other health issues. I understand that you're feeling light-headed, seeing spots, and really dizzy, which are worrying symptoms.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "high blood sugar",
+            "profile_path": "problems[0]",
+            "explanation": "High blood sugar can cause symptoms like light-headedness, dizziness, and vision issues. It's important to monitor and manage it to prevent complications.",
+            "citations": [
+              {
+                "cluster_id": "finding::problems[0]::38604640_0",
+                "primary_assertion_id": "38604640_0",
+                "pmids": [
+                  "38604640"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "osteoarthritis",
+            "profile_path": "problems[1]",
+            "explanation": "Osteoarthritis is a common condition that affects joints, but it's important to monitor its progression and manage any symptoms that arise.",
+            "citations": []
+          },
+          {
+            "concern_label": "atrial fibrillation",
+            "profile_path": "problems[2]",
+            "explanation": "Atrial fibrillation is a heart condition that can cause irregular heartbeats. It's important to follow up to ensure it's properly managed.",
+            "citations": []
+          },
+          {
+            "concern_label": "reflux",
+            "profile_path": "problems[3]",
+            "explanation": "Reflux can cause discomfort and is typically managed with lifestyle changes and medications. Let's keep an eye on it to ensure it doesn't worsen.",
+            "citations": []
+          },
+          {
+            "concern_label": "follow up on high blood sugar",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Following up on your high blood sugar is crucial to prevent complications. We'll work together to manage it effectively.",
+            "citations": [
+              {
+                "cluster_id": "finding::problems[0]::38604640_0",
+                "primary_assertion_id": "38604640_0",
+                "pmids": [
+                  "38604640"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "nipping high blood sugar in the bud",
+            "profile_path": "patient_goals[1]",
+            "explanation": "Addressing high blood sugar early can help prevent it from becoming a more serious issue. We'll focus on strategies to keep it under control.",
+            "citations": [
+              {
+                "cluster_id": "finding::problems[0]::38604640_0",
+                "primary_assertion_id": "38604640_0",
+                "pmids": [
+                  "38604640"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll schedule a follow-up appointment to monitor your high blood sugar and discuss any changes in your symptoms.",
+          "We'll review your current medications and treatment plan to ensure they're effective for managing your high blood sugar.",
+          "For your osteoarthritis, we'll keep an eye on any changes and discuss appropriate management strategies as needed.",
+          "We'll monitor your atrial fibrillation and ensure it's properly managed to prevent complications.",
+          "We'll check in on your reflux symptoms and adjust your treatment plan if necessary."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if your high blood sugar symptoms get worse or you experience any new symptoms, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::problems[0]::38604640_0"
+        ],
+        "all_pmids_used": [
+          "38604640"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 4,
+        "n_medications": 2,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 2,
+        "problems": [
+          "high blood sugar",
+          "osteoarthritis",
+          "atrial fibrillation",
+          "reflux"
+        ],
+        "medications": [
+          "Protonix 40 mg once daily",
+          "Metformin 500 mg twice daily"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [
+        "38604640"
+      ],
+      "cluster_ids_used": [
+        "finding::problems[0]::38604640_0"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 327653.7366807461,
+        "module_2_retrieval": 2751.728378236294,
+        "module_3_reasoning": 46366.58447980881,
+        "module_4_response": 34394.88337934017,
+        "total_ms": 411166.93291813135
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

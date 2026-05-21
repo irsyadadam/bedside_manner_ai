@@ -1,0 +1,244 @@
+{
+  "transcript_id": "aci_virtscribe_D2N024",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "good . how are you ?",
+  "patient_utterances": [
+    "[Clinician asked: \"hey , how are you ?\"] good . how are you ?",
+    "[Clinician asked: \"i'm doing well . it's good to see you . how have you been ?\"] i've been doing good .",
+    "[Clinician asked: \"great . how about your breasts , are they doing all right ?\"] great .",
+    "[Clinician asked: \"are you having any chills , fever , nausea , or vomiting ?\"] no .",
+    "[Clinician asked: \"good . all right . let's take a peek real quick .\"] sure .",
+    "[Clinician asked: \"how's life otherwise ? pretty good ? nothing new ?\"] no , just enjoying summertime .",
+    "[Clinician asked: \"okay . how's your family ?\"] they're good .",
+    "[Clinician asked: \"everything looks good .\"] yeah .",
+    "[Clinician asked: \"how's your back pain ?\"] i'm not really having any more .",
+    "[Clinician asked: \"any hard spots , lumps , or bumps that you've noticed ?\"] i did when i came in last time when i saw your pa , ruth sanchez in march . she said i , she said she found a lump right here under my left breast , but i have n't felt it since then . but i did the massages .",
+    "[Clinician asked: \"okay , well . that that's good . uh , it's probably just the scar tissue , but everything looks good and you're healing wonderful , so .\"] i told her that the scars here was kind of bothering me and i got scar gel . i was using it everyday , but i do n't think i need it now .",
+    "[Clinician asked: \"yeah , that scar did widen a little bit . let me take a closer look , hang on . this one widened a little too , ? the incisions are well healed though with no signs of infection or any redness on either breast , so i'm not concerned .\"] yeah , but this one just bothered me a little bit more .",
+    "[Clinician asked: \"and you do n't want that , ?\"] i mean , not right now .",
+    "[Clinician asked: \"um , you want to come back and revisit um , maybe six months ?\"] yeah , i will do that . i still have n't , i still have some more of the gel and i can try using that again .",
+    "[Clinician asked: \"okay . keep doing that twice a day . the gel is going to lighten the color a little bit , which is already pretty light . um , but , just in that area , and it's high tension , so it's going to rub a little bit .\"] yeah , but it kind of bothers me a little bit .",
+    "[Clinician asked: \"uh , i do see that . like i said , the only way to really fix that is to cut it out .\"] uh- .",
+    "[Clinician asked: \"um , let's take a look in six months and then we'll go from there . sound like a plan ?\"] but we have n't hit a full year yet .",
+    "[Clinician asked: \"i know . um , i would n't do any revisions anyway for scar tissue until we're at least a year out anyway .\"] okay .",
+    "[Clinician asked: \"so let's wait those six months . you can keep using uh , the mederma scar gel twice a day . massage and scar gel will help for the scars . um , you can put it on other scars too , if you need .\"] okay .",
+    "[Clinician asked: \"um , so that's what i would do . let's just get some pictures today so we can keep up um , with them . and keep an eye on these scars and then we'll go from there .\"] sounds good .",
+    "[Clinician asked: \"all right , well it's good to see you . i'm glad you're doing well .\"] yeah , same here .",
+    "[Clinician asked: \"all right . well , i'm going to tell the front desk six months and we'll revisit those scars .\"] all right .",
+    "[Clinician asked: \"thank you . they're gon na come get your photos now , okay ?\"] okay ."
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nFollow up bilateral reduction mammoplasty.\n\nHISTORY OF PRESENT ILLNESS\n\nPamela Cook is a 36-year-old female who is returning for a postoperative visit. Status post bilateral reduction mammaplasty 10/10/2020.\n\nThe patient was last seen in clinic by Ruth Sanchez, PA in 03/2021 at which time there was a lump along the left breast, and she was advised to perform massages.\n\nToday, Ms. Cook reports she is doing well and that her breasts feel great. She is no longer suffering from back pain. The left breast lower incisional lump from last visit has resolved with massaging and use of scar gel. She reports that the scar on her breast has been bothersome. The patient denies fever, chills, nausea, or vomiting.\n\nCURRENT MEDICATIONS\n\nMederma scar gel to incision.\n\nPHYSICAL EXAM\n\nBreast\nBilateral breast incisions well healed with widening of the scar tissue. No signs of infection or erythema.\n\nASSESSMENT\n\n\u2022 Status post bilateral reduction mammoplasty.\n\nPamela Cook is a 36-year-old female who is status post bilateral reduction mammaplasty on 10/10/2020. There is some widening of the scar tissue bilaterally.\n\nPLAN\n\n- Obtain bilateral breast photos today to monitor scarring.\n- Continue Mederma scar gel and incisional scar massage twice daily.\n\nINSTRUCTIONS\n\nFollow up in 6 months to reevaluate scars.",
+  "gold_sections": {
+    "CC": "Follow up bilateral reduction mammoplasty.",
+    "HPI": "Pamela Cook is a 36-year-old female who is returning for a postoperative visit. Status post bilateral reduction mammaplasty 10/10/2020.\n\nThe patient was last seen in clinic by Ruth Sanchez, PA in 03/2021 at which time there was a lump along the left breast, and she was advised to perform massages.\n\nToday, Ms. Cook reports she is doing well and that her breasts feel great. She is no longer suffering from back pain. The left breast lower incisional lump from last visit has resolved with massaging and use of scar gel. She reports that the scar on her breast has been bothersome. The patient denies fever, chills, nausea, or vomiting.",
+    "CURRENT_MEDICATIONS": "Mederma scar gel to incision.",
+    "PHYSICAL_EXAM": "Breast\nBilateral breast incisions well healed with widening of the scar tissue. No signs of infection or erythema.",
+    "ASSESSMENT": "\u2022 Status post bilateral reduction mammoplasty.\n\nPamela Cook is a 36-year-old female who is status post bilateral reduction mammaplasty on 10/10/2020. There is some widening of the scar tissue bilaterally.",
+    "PLAN": "- Obtain bilateral breast photos today to monitor scarring.\n- Continue Mederma scar gel and incisional scar massage twice daily.",
+    "INSTRUCTIONS": "Follow up in 6 months to reevaluate scars."
+  },
+  "n_patient_turns": 24,
+  "n_clinician_turns": 27,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 24041.757434606552,
+      "response_text": "Thank you for coming in today. I'm glad to hear that you're feeling well overall. I understand your concerns about the scar and how it's been bothering you a little. It's completely normal for scars to change and widen as they heal, especially within the first year after a procedure. \n\nPlease continue using the scar gel and massaging the area as we discussed. These practices will help with the healing process. We'll keep an eye on the scar during your next visit in six months. If you notice any changes or if the scar becomes more bothersome before then, don't hesitate to reach out. Take care and I'll see you in six months.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 22410.96542775631,
+      "response_text": "Thank you for sharing your concerns about your scars. It's understandable that you're focused on their appearance and how they feel. I can see that you've been diligent with the scar gel and massage, which are important steps in healing. It's completely valid to feel concerned about the scars, especially when they're a visible part of your recovery.\n\nWe discussed that waiting six months is standard to ensure the scars are fully healed before considering any revisions. This approach is common because it allows the body more time to settle into its final scar appearance. The scar gel and massage are helping, and it's okay if you're not seeing immediate changes. Healing is a process, and patience is key.\n\nLet's continue with the scar gel and massage as we've planned. We'll schedule a follow-up in six months to reassess. Before you leave, could you summarize our plan in your own words so I can make sure everything is clear?",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7036.358051002026,
+      "response_text": "It sounds like you're doing well overall, and you mentioned that your back pain has improved. I'm glad to hear that you're feeling better and enjoying summertime.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in six months. In the meantime, if you notice any new changes in your scars or if the back pain returns, please call us.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're doing well overall, and you mentioned that your back pain has improved. I'm glad to hear that you're feeling better and enjoying summertime.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in six months. In the meantime, if you notice any new changes in your scars or if the back pain returns, please call us.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 173739.73152041435,
+      "response_text": "It sounds like you're dealing with a few things, like some back pain and a lump under your left breast. I want to make sure I understand what's been going on.\n\nBack pain can be caused by a variety of issues, and it's important to figure out what's causing yours. Since your back pain is improving, we'll keep track of how it progresses.\n\nA lump under the breast can be concerning, but many are not serious. We'll monitor it and see if there are any changes over time.\n\nScar tissue discomfort is common, and using scar gel can help manage it. We'll continue to monitor how this affects you.\n\nWe'll keep an eye on your back pain as it improves.\n\nWe'll monitor the lump under your left breast and check for any changes.\n\nWe'll continue to use scar gel for the discomfort from the scar tissue.\n\nCan you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to follow up in a few weeks. If anything changes or gets worse, please let us know.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're dealing with a few things, like some back pain and a lump under your left breast. I want to make sure I understand what's been going on.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "back pain",
+            "profile_path": "problems[0]",
+            "explanation": "Back pain can be caused by a variety of issues, and it's important to figure out what's causing yours. Since your back pain is improving, we'll keep track of how it progresses.",
+            "citations": []
+          },
+          {
+            "concern_label": "lump under left breast",
+            "profile_path": "problems[1]",
+            "explanation": "A lump under the breast can be concerning, but many are not serious. We'll monitor it and see if there are any changes over time.",
+            "citations": []
+          },
+          {
+            "concern_label": "scar tissue discomfort",
+            "profile_path": "problems[2]",
+            "explanation": "Scar tissue discomfort is common, and using scar gel can help manage it. We'll continue to monitor how this affects you.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll keep an eye on your back pain as it improves.",
+          "We'll monitor the lump under your left breast and check for any changes.",
+          "We'll continue to use scar gel for the discomfort from the scar tissue."
+        ],
+        "teach_back_prompt": "Can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to follow up in a few weeks. If anything changes or gets worse, please let us know.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 3,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "back pain",
+          "lump under left breast",
+          "scar tissue discomfort"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 228822.49145954847,
+      "response_text": "I understand you're here to talk about your back pain, the lump under your left breast, and the discomfort from your scar tissue. Let's go through each of these one by one.\n\nWe'll start by reviewing your back pain. It's important to understand how this has been affecting you and what steps we've already taken to address it.\n\nNext, let's discuss the lump under your left breast. We'll need to understand when it first appeared and how it's been affecting you.\n\nFinally, we'll talk about the discomfort from your scar tissue. It's good that you've already tried the scar gel, and we can explore other options together.\n\nWe'll schedule a follow-up visit to discuss your concerns in more detail and plan the next steps together.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again soon to go over everything. In the meantime, if anything changes or if you have more questions, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "I understand you're here to talk about your back pain, the lump under your left breast, and the discomfort from your scar tissue. Let's go through each of these one by one.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "back pain",
+            "profile_path": "problems[0]",
+            "explanation": "We'll start by reviewing your back pain. It's important to understand how this has been affecting you and what steps we've already taken to address it.",
+            "citations": []
+          },
+          {
+            "concern_label": "lump under left breast",
+            "profile_path": "problems[1]",
+            "explanation": "Next, let's discuss the lump under your left breast. We'll need to understand when it first appeared and how it's been affecting you.",
+            "citations": []
+          },
+          {
+            "concern_label": "scar tissue discomfort",
+            "profile_path": "problems[2]",
+            "explanation": "Finally, we'll talk about the discomfort from your scar tissue. It's good that you've already tried the scar gel, and we can explore other options together.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll schedule a follow-up visit to discuss your concerns in more detail and plan the next steps together."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again soon to go over everything. In the meantime, if anything changes or if you have more questions, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 3,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "back pain",
+          "lump under left breast",
+          "scar tissue discomfort"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 162675.99473893642,
+        "module_2_retrieval": 1188.2989257574081,
+        "module_3_reasoning": 48308.00137668848,
+        "module_4_response": 16649.118036031723,
+        "total_ms": 228821.41307741404
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

@@ -1,0 +1,402 @@
+{
+  "transcript_id": "aci_aci_D2N035",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "well i'm doing better now but i just started having problems that my ankles were swelling and could n't get them to go down even when i went",
+  "patient_utterances": [
+    "[Clinician asked: \"well hello christina so how are you doing i was notified you were in the hospital for some heart failure what happened\"] well i'm doing better now but i just started having problems that my ankles were swelling and could n't get them to go down even when i went to bed and could n't breathe very good had to get propped up in bed so i could breathe at night and so i just really got to feeling bad i called my friend diane and she said i probably ought to call nine one one since i was having a hard time talking and so i called nine one one and they sent out an ambulance and they took me into the er on the it was quite an experience",
+    "[Clinician asked: \"yeah\"] having an ambulance ride and and i've never done that before so not an experience i wan na do again either",
+    "[Clinician asked: \"i'm sure you do n't yeah i see that your blood pressure was high also it was two hundred over ninety have you been\"] yeah i guess is that really high",
+    "[Clinician asked: \"yeah that's\"] i feel really bad",
+    "[Clinician asked: \"yeah that's pretty high are you taking your medications or you missing some doses\"] i do n't know i might miss one now but i try to take them all time",
+    "[Clinician asked: \"yeah yeah you really need to take them very consistently now you also said you were watching your diet did you did you have some slips with that you said your ankles were swelling\"] no i yeah i do i like to i like to eat",
+    "[Clinician asked: \"are you eating a lot of salty foods and pizza or\"] i like potato chips",
+    "[Clinician asked: \"yeah\"] i like the salt and vinegar potato chips they're really good so",
+    "[Clinician asked: \"well so do you do you go out to eat a lot or do you where you where where are you eating those potato chips or is that just the home snacking or\"] that's home snacking i buy the the the the brand name salt and vinitive because brand wo n't taste real good but the the brand names really tastes good",
+    "[Clinician asked: \"oh\"] so i eat those probably everyday",
+    "[Clinician asked: \"goodness well you know you we need to probably stop eating those now\"] yeah well i hate to hate to give those up but i guess i might have to",
+    "[Clinician asked: \"well since you've been in the hospital and and they've helped you out with some with all that how are you feeling now\"] well i'm i'm doing better",
+    "[Clinician asked: \"mm-hmm and they\"] i do n't do n't have quite as much shortness of breath i think maybe getting up and walking a little more is helping",
+    "[Clinician asked: \"and they gave you a water pill and is that is that helping is that making you pee a lot\"] yeah yeah i have almost incontinence so",
+    "[Clinician asked: \"goodness\"] yes that's not very pleasant at all",
+    "[Clinician asked: \"and so they added another blood pressure medication also how are you doing with that are you feeling a little bit better\"] yeah i think so",
+    "[Clinician asked: \"okay\"] if i can remember to take the pills",
+    "[Clinician asked: \"yeah\"] that seems to be a sticky point",
+    "[Clinician asked: \"well a a pill box or maybe setting an alarm on your phone might really help\"] okay i'll i'll give that a try anything that will help",
+    "[Clinician asked: \"yeah okay well that's good to hear so now have you bought a blood pressure cuff to have at home now\"] yes i already had one but i very failed if i ever used it",
+    "[Clinician asked: \"okay\"] but",
+    "[Clinician asked: \"got it\"] i'll i'll try to use it everyday now",
+    "[Clinician asked: \"okay and you might even just keep a log of what your blood pressures are and when it's up think about you know what you've eaten if you've done something different because that may help you to figure out what you need to cut back on or how you might need to change your your eating habits a little bi\"] okay okay",
+    "[Clinician asked: \"have you been short of breath or any problems sleeping since you've been home\"] no i've been sleeping like a log",
+    "[Clinician asked: \"okay good alright have you had any chest pain\"] no no chest pain",
+    "[Clinician asked: \"okay alright well let's do a quick physical exam here so your vital signs your blood pressure looks pretty good today at one twenty eight over seventy two your temperature is ninety eight . seven and your heart rate is seventy two your respirations are eighteen your oxygen saturation looks pretty go\"] okay",
+    "[Clinician asked: \"and i also want you to see a nutritionist to give you some education about what foods you can eat okay now for your second problem for i know this sounds like this is just for you and so for your second problem for your hypertension i want you to continue on the cozaar one hundred milligrams daily c\"] no i do n't think so not today",
+    "[Clinician asked: \"alright it's good to see you and i hope we'll just keep getting you feeling better\"] okay"
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nEmergency department follow up.\n\nMEDICAL HISTORY\n\nPatient reports history of hypertension.\n\nMEDICATIONS\n\nPatient reports taking Bumex 2 mg once daily, Cozaar 100 mg daily, and Norvasc 5 mg once daily.\n\nREVIEW OF SYSTEMS\n\nConstitutional: Denies sleep disturbance.\nCardiovascular: Denies chest pain.\nRespiratory: Denies dyspnea.\nGenitourinary: Reports urinary incontinence in the setting of diuretic medication.\n\nVITALS\n\nBlood Pressure: 128/72 mmHg\nTemperature: 98.7 degrees F\nHeart Rate: 72 bpm\nOxygen Saturation: 96%\n\nPHYSICAL EXAM\n\nNeck\n- General Examination: No jugular venous distention.\n\nCardiovascular\n- Auscultation of Heart: Stable 2/6 systolic ejection murmur.\n\nMusculoskeletal\n- Examination: Trace lower extremity edema.\n\nRESULTS\n\nEchocardiogram reveals a preserved ejection fraction of 55%, abnormal diastolic filling, and mild-to-moderate mitral regurgitation.\n\nASSESSMENT AND PLAN\n\n1. Congestive heart failure.\n- Medical Reasoning: This appears to have been caused by dietary indiscretion and uncontrolled hypertension.\n- Patient Education and Counseling: I encouraged the patient to continue making dietary modifications, including limiting her sodium intake. She could try keeping a food diary, as previously discussed, to log her diet and associated blood pressure readings. I also advised her to monitor her weight daily and contact me if she gains 3 pounds in 2 days.\n- Medical Treatment: Continue with Bumex 2 mg once daily. Referral placed for consult with a nutritionist for education and recommendations regarding her diet.\n\n2. Hypertension.\n- Medical Reasoning: This has been poorly controlled due to inconsistent compliance with medication and dietary indiscretion.\n- Patient Education and Counseling: We discussed dietary modifications as noted above.\n- Medical Treatment: She can continue on Cozaar 100 mg daily and Norvasc 5 mg once daily. Renal artery ultrasound ordered to rule out any issues such as renal artery stenosis.\n\n3. Kidney disease.\n- Medical Treatment: Labs will be ordered to assess her response to new medications.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.\n\nINSTRUCTIONS\n\nThe patient will follow up in 3 months.",
+  "gold_sections": {
+    "CC": "Emergency department follow up.",
+    "MEDICAL_HISTORY": "Patient reports history of hypertension.",
+    "MEDICATIONS": "Patient reports taking Bumex 2 mg once daily, Cozaar 100 mg daily, and Norvasc 5 mg once daily.",
+    "ROS": "Constitutional: Denies sleep disturbance.\nCardiovascular: Denies chest pain.\nRespiratory: Denies dyspnea.\nGenitourinary: Reports urinary incontinence in the setting of diuretic medication.",
+    "VITALS": "Blood Pressure: 128/72 mmHg\nTemperature: 98.7 degrees F\nHeart Rate: 72 bpm\nOxygen Saturation: 96%",
+    "PHYSICAL_EXAM": "Neck\n- General Examination: No jugular venous distention.\n\nCardiovascular\n- Auscultation of Heart: Stable 2/6 systolic ejection murmur.\n\nMusculoskeletal\n- Examination: Trace lower extremity edema.",
+    "RESULTS": "Echocardiogram reveals a preserved ejection fraction of 55%, abnormal diastolic filling, and mild-to-moderate mitral regurgitation.",
+    "ASSESSMENT_PLAN": "1. Congestive heart failure.\n- Medical Reasoning: This appears to have been caused by dietary indiscretion and uncontrolled hypertension.\n- Patient Education and Counseling: I encouraged the patient to continue making dietary modifications, including limiting her sodium intake. She could try keeping a food diary, as previously discussed, to log her diet and associated blood pressure readings. I also advised her to monitor her weight daily and contact me if she gains 3 pounds in 2 days.\n- Medical Treatment: Continue with Bumex 2 mg once daily. Referral placed for consult with a nutritionist for education and recommendations regarding her diet.\n\n2. Hypertension.\n- Medical Reasoning: This has been poorly controlled due to inconsistent compliance with medication and dietary indiscretion.\n- Patient Education and Counseling: We discussed dietary modifications as noted above.\n- Medical Treatment: She can continue on Cozaar 100 mg daily and Norvasc 5 mg once daily. Renal artery ultrasound ordered to rule out any issues such as renal artery stenosis.\n\n3. Kidney disease.\n- Medical Treatment: Labs will be ordered to assess her response to new medications.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.",
+    "INSTRUCTIONS": "The patient will follow up in 3 months."
+  },
+  "n_patient_turns": 28,
+  "n_clinician_turns": 28,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 22304.798737168312,
+      "response_text": "I understand how overwhelming your recent experience must have been, especially with the ambulance ride and the sudden health issues. It\u2019s completely normal to feel scared and unsure, but I\u2019m glad you\u2019re feeling better now. Struggling with medication routines and dietary changes can be tough, but you\u2019re already taking positive steps by recognizing the need to make adjustments.\n\nTo help manage your health, consider using a pill box or setting reminders on your phone to stay consistent with your medications. Tracking your blood pressure daily and noting what you eat can provide valuable insights and help you identify triggers. While giving up those salty snacks might be hard, your health is worth the effort. Remember, small changes can lead to significant improvements. You\u2019re doing great, and I\u2019m here to support you every step of the way. Keep up the good work, and let me know if you need any further assistance.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 24243.168637156487,
+      "response_text": "Thank you for sharing all of that with me, Christina. It sounds like you've been through a lot, and I can tell how relieved you are to be feeling better now. Having an ambulance ride must have been quite stressful, and I understand why you wouldn't want to repeat that experience. It's important to acknowledge how brave you were to take those steps to get help when you needed it.\n\nGiven your history of heart failure and the recent episode where your ankles were swelling and you had trouble breathing, it's crucial to keep a close eye on your symptoms. High blood pressure, especially readings as high as 200 over 90, can put extra strain on your heart and blood vessels. I know it's challenging, but consistently taking your medications is key to managing your condition effectively. The salt and vinegar potato chips are a treat, but cutting back on high-sodium foods can really make a difference in reducing fluid retention and helping your heart work more efficiently [PMID ?].\n\nWe'll set up a plan to help you stay on track. I recommend using a pill organizer or setting reminders on your phone to help with medication adherence. Tracking your blood pressure at home and keeping a log of your readings can also provide valuable insights into how your lifestyle changes are affecting your health. Let me know if you'd like some tips on healthier snack options to replace those potato chips.\n\nWe'll check in again in two weeks to see how you're doing and adjust your plan as needed. Before you leave, could you summarize what we discussed today? That way, I can ensure everything makes sense and you feel confident in the steps we're taking together.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7722.437530755997,
+      "response_text": "It sounds like you're doing better now, but I understand how scary and overwhelming that experience must have been for you. I'm glad you're feeling a bit better now.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 4 weeks. In the meantime, if you get new symptoms like chest pain, severe shortness of breath, or your ankles start swelling again, please call us right away \u2014 don't wait for the appointment.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're doing better now, but I understand how scary and overwhelming that experience must have been for you. I'm glad you're feeling a bit better now.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 4 weeks. In the meantime, if you get new symptoms like chest pain, severe shortness of breath, or your ankles start swelling again, please call us right away \u2014 don't wait for the appointment.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 395482.976898551,
+      "response_text": "I can hear how much this is weighing on you \u2014 you mentioned, \"I hate to hate to give those up,\" and \"Yes, that's not very pleasant at all.\" I understand how frustrating and difficult this must be.\n\nAnkle swelling, especially when it's persistent even when lying down, can be a sign of heart failure getting worse. Given your history of heart failure, it's important to monitor this closely.\n\nShortness of breath, especially at night and requiring propping up, is a key sign of worsening heart failure. This needs careful monitoring and management.\n\nMaking changes to your diet can be tough, especially when it feels like it's affecting your overall well-being. It's important to approach this step by step.\n\nRemembering to take medications can be challenging, but finding systems like a pill box or alarms on your phone can really help. It's a small step that makes a big difference.\n\nUsing a pill box or setting alarms on your phone can help you stay on track with your medications. It's a practical way to manage your treatment effectively.\n\nGiven the severity of your symptoms, we need to prioritize addressing your heart failure. This includes monitoring your ankle swelling and shortness of breath closely.\n\nWe'll review your current medications and ensure you're taking them as prescribed.\n\nWe'll work together on strategies to help you remember to take your pills, such as using a pill box or alarms on your phone.\n\nLet's discuss a plan to manage your diet changes in a way that supports your overall health and treatment goals.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to follow up in a week to review your symptoms and treatment progress. If your symptoms worsen or if you have any concerns before then, please reach out.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this is weighing on you \u2014 you mentioned, \"I hate to hate to give those up,\" and \"Yes, that's not very pleasant at all.\" I understand how frustrating and difficult this must be.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "ankle swelling",
+            "profile_path": "problems[0]",
+            "explanation": "Ankle swelling, especially when it's persistent even when lying down, can be a sign of heart failure getting worse. Given your history of heart failure, it's important to monitor this closely.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::38719772",
+                "primary_assertion_id": "38719772_retr",
+                "pmids": [
+                  "38719772"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "shortness of breath",
+            "profile_path": "problems[1]",
+            "explanation": "Shortness of breath, especially at night and requiring propping up, is a key sign of worsening heart failure. This needs careful monitoring and management.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::38719772",
+                "primary_assertion_id": "38719772_retr",
+                "pmids": [
+                  "38719772"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "give up eating certain foods",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Making changes to your diet can be tough, especially when it feels like it's affecting your overall well-being. It's important to approach this step by step.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::33658141",
+                "primary_assertion_id": "33658141_retr",
+                "pmids": [
+                  "33658141"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "remember to take pills",
+            "profile_path": "patient_goals[1]",
+            "explanation": "Remembering to take medications can be challenging, but finding systems like a pill box or alarms on your phone can really help. It's a small step that makes a big difference.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::33658141",
+                "primary_assertion_id": "33658141_retr",
+                "pmids": [
+                  "33658141"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "try pill box or alarm on phone",
+            "profile_path": "patient_goals[2]",
+            "explanation": "Using a pill box or setting alarms on your phone can help you stay on track with your medications. It's a practical way to manage your treatment effectively.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::33658141",
+                "primary_assertion_id": "33658141_retr",
+                "pmids": [
+                  "33658141"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "Given the severity of your symptoms, we need to prioritize addressing your heart failure. This includes monitoring your ankle swelling and shortness of breath closely.",
+          "We'll review your current medications and ensure you're taking them as prescribed.",
+          "We'll work together on strategies to help you remember to take your pills, such as using a pill box or alarms on your phone.",
+          "Let's discuss a plan to manage your diet changes in a way that supports your overall health and treatment goals."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to follow up in a week to review your symptoms and treatment progress. If your symptoms worsen or if you have any concerns before then, please reach out.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Demonstrate empathy",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "retrieval_only::38719772",
+          "retrieval_only::33658141"
+        ],
+        "all_pmids_used": [
+          "38719772",
+          "33658141"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 2,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 2,
+        "n_emotional": 2,
+        "n_goals": 3,
+        "problems": [
+          "ankle swelling",
+          "shortness of breath"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "38719772",
+        "33658141"
+      ],
+      "cluster_ids_used": [
+        "retrieval_only::38719772",
+        "retrieval_only::33658141"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Demonstrate empathy",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 563774.0425765514,
+      "response_text": "I can hear how frustrating this must be for you. You mentioned, \"yes that's not very pleasant at all,\" and I want to acknowledge how tough it is to deal with these symptoms.\n\nAnkle swelling can be caused by a variety of issues, including heart or kidney problems, or even standing too long. Since it's persistent and you've had trouble breathing, we'll need to look into these symptoms together.\n\nShortness of breath can be related to heart or lung conditions. Given that you've had to prop yourself up at night, it's important we monitor this closely.\n\nChanging your diet can help manage certain health conditions. We'll work together to identify which foods might be helpful for you.\n\nTaking medications as prescribed is important for managing your health. We'll find strategies to help you remember.\n\nWe'll explore different options together to find what works best for you, whether it's lifestyle changes, medications, or other support.\n\nWe'll schedule a follow-up visit to monitor your symptoms and discuss any changes in your condition.\n\nWe'll review your medications and create a plan to help you remember to take them.\n\nWe'll work together on identifying foods that might help improve your symptoms.\n\nI want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if your symptoms get worse or you have any concerns, please call us.",
+      "structured_response": {
+        "acknowledgment": "I can hear how frustrating this must be for you. You mentioned, \"yes that's not very pleasant at all,\" and I want to acknowledge how tough it is to deal with these symptoms.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "ankle swelling",
+            "profile_path": "problems[0]",
+            "explanation": "Ankle swelling can be caused by a variety of issues, including heart or kidney problems, or even standing too long. Since it's persistent and you've had trouble breathing, we'll need to look into these symptoms together.",
+            "citations": [
+              {
+                "cluster_id": "finding::global::41324410_0",
+                "primary_assertion_id": "41324410_0",
+                "pmids": [
+                  "41324410"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "shortness of breath",
+            "profile_path": "problems[1]",
+            "explanation": "Shortness of breath can be related to heart or lung conditions. Given that you've had to prop yourself up at night, it's important we monitor this closely.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::global::38719772_0",
+                "primary_assertion_id": "38719772_0",
+                "pmids": [
+                  "38719772"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "stop eating certain foods",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Changing your diet can help manage certain health conditions. We'll work together to identify which foods might be helpful for you.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::global::41324410_1",
+                "primary_assertion_id": "41324410_1",
+                "pmids": [
+                  "41324410"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "remember to take pills",
+            "profile_path": "patient_goals[1]",
+            "explanation": "Taking medications as prescribed is important for managing your health. We'll find strategies to help you remember.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::global::38719772_4",
+                "primary_assertion_id": "38719772_4",
+                "pmids": [
+                  "38719772"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "anything that will help",
+            "profile_path": "patient_goals[2]",
+            "explanation": "We'll explore different options together to find what works best for you, whether it's lifestyle changes, medications, or other support.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::global::38719772_1",
+                "primary_assertion_id": "38719772_1",
+                "pmids": [
+                  "38719772"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll schedule a follow-up visit to monitor your symptoms and discuss any changes in your condition.",
+          "We'll review your medications and create a plan to help you remember to take them.",
+          "We'll work together on identifying foods that might help improve your symptoms."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if your symptoms get worse or you have any concerns, please call us.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::global::41324410_0",
+          "recommendation::global::38719772_0",
+          "recommendation::global::41324410_1",
+          "recommendation::global::38719772_4",
+          "recommendation::global::38719772_1"
+        ],
+        "all_pmids_used": [
+          "41324410",
+          "38719772"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 2,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 3,
+        "problems": [
+          "ankle swelling",
+          "shortness of breath"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "41324410",
+        "38719772"
+      ],
+      "cluster_ids_used": [
+        "finding::global::41324410_0",
+        "recommendation::global::38719772_0",
+        "recommendation::global::41324410_1",
+        "recommendation::global::38719772_4",
+        "recommendation::global::38719772_1"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 402070.524148643,
+        "module_2_retrieval": 1581.0324624180794,
+        "module_3_reasoning": 86742.44157969952,
+        "module_4_response": 73379.23791259527,
+        "total_ms": 563773.2361033559
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

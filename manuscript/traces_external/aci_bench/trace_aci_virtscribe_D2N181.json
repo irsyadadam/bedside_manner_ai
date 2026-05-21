@@ -1,0 +1,275 @@
+{
+  "transcript_id": "aci_virtscribe_D2N181",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "i am .",
+  "patient_utterances": [
+    "[Clinician asked: \"hello , are you mrs. king ?\"] i am .",
+    "[Clinician asked: \"i'm dr. phillips . very nice to meet you .\"] you as well .",
+    "[Clinician asked: \"how can i help you today ?\"] well , my primary doctor , dr. scott , he referred me here .",
+    "[Clinician asked: \"okay .\"] i've just got really bad acid reflux .",
+    "[Clinician asked: \"okay . can you tell me more about it ?\"] yeah . though i mean i ... right now , i take 40 milligrams of omeprazole twice a day . some days , it is fine , but others are just really bad .",
+    "[Clinician asked: \"what do you feel ?\"] it feels like burning .",
+    "[Clinician asked: \"in your chest ?\"] yes , in my chest and also in my throat .",
+    "[Clinician asked: \"in your throat and chest . all right . any difficulty with swallowing ? feels like food or liquids kinda get stuck ?\"] no .",
+    "[Clinician asked: \"okay . that's good . any abdominal pain ?\"] no , not really .",
+    "[Clinician asked: \"nausea or vomiting , changes in bowel movements ?\"] no .",
+    "[Clinician asked: \"constipation , diarrhea , rectal bleeding ?\"] nope .",
+    "[Clinician asked: \"okay . very good . and how long have you had this problem ?\"] i've had acid reflux since i was around 12 , but it has gotten worse over the past few years .",
+    "[Clinician asked: \"okay . and how long have you been on the omeprazole ?\"] on the way , it is now i think about a year .",
+    "[Clinician asked: \"okay . do you find that it's done anything for you in the past ?\"] i mean , i can tell it's helped because some days , i'll be fine , and then some days , i eat something and it feels terrible .",
+    "[Clinician asked: \"are there any things that make your symptoms worse that you can pinpoint , like food choices or stress ?\"] sure . probably stress and food choices sometimes .",
+    "[Clinician asked: \"okay . what things bother you ?\"] spicy foods , um , so i try not to eat them too often , but sometimes even drinking a soda can cause it .",
+    "[Clinician asked: \"we do know that caffeine and caffeinated beverages will do that , even sodas . um , even just the carbonation can cause that . how about tomato-based products or citrus products ?\"] yeah , sometimes , but i still eat them .",
+    "[Clinician asked: \"okay . it's reassuring that you are n't having any difficulty swallowing , though . how's your weight been ? pretty stable ?\"] i'd say pretty stable , although i have n't had much of an appetite for the past two months . i have been under a lot of work stress .",
+    "[Clinician asked: \"what do you do for work ?\"] i'm a paralegal .",
+    "[Clinician asked: \"okay . and any family history of gi issues ?\"] um , my grandmother had esophageal cancer .",
+    "[Clinician asked: \"on your mom or dad's side ?\"] mom's side . and my mom had some issues like acid reflux , and she was taking some medication that coats the lining of your stomach .",
+    "[Clinician asked: \"okay . have you ever had an upper endoscopy ?\"] i think maybe when i was younger .",
+    "[Clinician asked: \"but not in the last 10 years ?\"] no .",
+    "[Clinician asked: \"have you ever tried any medication other than omeprazole ?\"] um , at one point i was on omeprazole and ranititine -dine . it did help . but other than that , those are the only medications i have taken .",
+    "[Clinician asked: \"okay . have a seat here , and let me listen to your heart and lungs , and then we can talk about a plan for you .\"] okay .",
+    "[Clinician asked: \"so normal physical exam per my new patient template , except for well-healed abdominal surgical scars noted . what's the surgical scar here on your abdomen from ?\"] i always forget about that surgery . i had it when i was a baby . my mom said my intestines were twisted , so i had to have surgery when i was around one month old .",
+    "[Clinician asked: \"hm , gotcha . okay . so let's talk about what you have going on . from what you've told me , it sounds like you've had a several-year history of gerd , which is the medical term for acid reflux . and recently your symptoms have been poorly controlled with the omeprazole , 40 milligrams twice daily .\"] yes .",
+    "[Clinician asked: \"and you've identified trigger foods like spicy foods , carbonated bev- beverages , citrus , and tomato-based foods , but you have n't cut these foods out of your diet completely yet . so the first thing i'd try is changing your diet because these foods can exacerbate your gerd , even though you're t\"] okay , yeah , i could definitely do a better job of avoiding those foods .",
+    "[Clinician asked: \"great . so stress is another trigger that we need to address . high stress can cause worsening of your symptoms .\"] yeah , stress and anxiety are definitely big problems for me .",
+    "[Clinician asked: \"so working on that may help with your gerd . additionally , we can consider trying a different ppi since the only one you've tried up to this point is omeprazole . if you're okay with this , we can switch your omeprazole to nexium .\"] that's fine with me . i'm definitely open to trying whatever .",
+    "[Clinician asked: \"perfect . i will send a prescription for nexium 40 milligrams twice daily to your pharmacy on file . i'll also recommend that you have a procedure called a egd , or upper endoscopy , to look for potential causes of the gerd . we'd sedate you and then pass a small camera through your mouth , down you\"] okay . can i schedule that today ?",
+    "[Clinician asked: \"yeah . you can get scheduled at checkout desk . i'll have you follow up with me in the office for the egd so we can discuss the results and talk about how you're doing with the dietary , stress , and medication changes . how does all of that sound ?\"] that sounds good ."
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nAcid reflux.\n\nHISTORY OF PRESENT ILLNESS\n\nMichelle King is a 35 y.o. female who presents to clinic today for a new patient evaluation of acid reflux. She was referred by her primary care physician, Dr. Scott.\n\nThe patient reports severe acid reflux that has increased in severity in recent years. She explains that she has struggled with acid reflux since approximately age 12 and she describes a burning sensation in her chest that travels up her esophagus. She denies any dysphagia, abdominal pain, nausea/vomiting, changes in bowel movements, constipation, diarrhea, and rectal bleeding. She also denies any unintentional weight loss, although she admits to having a poor appetite due to her being under immense stress for the past 2 months. She has identified triggers for her symptoms, including stress, spicy foods, soda, and citrus or tomato-based products. She admits that she does still eat her trigger foods sometimes despite the exacerbation of her symptoms.\n\nMs. King has been taking omeprazole 40 mg twice daily for approximately 1 year. She believes that the use of omeprazole provides some relief of her symptoms as there are some days when she is asymptomatic. The only other medication she has tried is ranitidine which she took concurrently with omeprazole and she believes this helped. The patient denies undergoing an EGD within the last 10 years.\n\nPAST HISTORY\n\nMedical\nAnxiety.\n\nSurgical\nSurgery as an infant for \u201ctwisted intestines.\u201d\n\nProcedures\nPossible EGD in youth, but none in the last 10 years.\n\nSOCIAL HISTORY\n\nWorks as a paralegal.\n\nFAMILY HISTORY\n\nMaternal grandmother with esophageal cancer.\n\nCURRENT MEDICATIONS\n\nOmeprazole 40 mg twice daily.\n\nALLERGIES\n\nSeasonal environmental allergies.\n\nREVIEW OF SYSTEMS\n\n\u2022\u202fConstitutional Symptoms:\u202f Positive for loss of appetite.\n\u2022\u202fGastrointestinal:\u202fNegative for constipation, diarrhea, abdominal pain, difficulty swallowing, nausea, vomiting, blood in stools, unexplained change in bowel habits. Positive for heartburn.\n\u2022\u202fPsychiatric:\u202f Positive for stress and anxiety.\n\u2022\u202fAllergic/Immunologic:\u202f Positive for seasonal allergies.\n\nPHYSICAL EXAM\n\nGastrointestinal\nThere is a well-healed abdominal surgical scar.\n\nASSESSMENT\n\nThe patient presents today with a several year history of GERD that primarily manifests as heartburn and has been poorly controlled with omeprazole 40 mg twice daily. I suspect that she likely has GERD with underlying functional etiology as well. Reassuringly, she has no unintentional weight loss and denies any dysphagia. The patient has been able to identify triggers of her symptoms, including stress, spicy foods, carbonated beverages, citrus, and tomato-based foods.\n\n\u2022 GERD\n\u2022 Suspected underlying functional etiology of heartburn.\n\nPLAN\n\n\u2022 I recommended dietary and lifestyle modifications like cutting out her known trigger foods and trying to reduce her stress levels to help with her symptoms.\n\u2022 I prescribed Nexium 40 mg twice daily to replace her current omeprazole 40 mg twice daily. I sent this prescription to her pharmacy.\n\u2022 I also recommended she undergo an EGD. We discussed the potential risks of an endoscopic procedure. The patient understands the risks and is agreeable with the plan. She scheduled this procedure today.\n\u2022 If her EGD is normal and her symptoms persist despite a trial of Nexium, we can consider a trial of Protonix and obtain a pH impedance study. This will allow us to rule out abnormal acid reflux exposure and to decipher between a functional etiology and hypersensitivity.\n\u2022 The patient was counselled to call my office if anything changes or if she has any problems before her EGD or follow-up appointment.\n\u2022 She will follow up with me in clinic after her EGD to discussed results and provide an update on the Nexium.\n\nINSTRUCTIONS\n\n\u2022 Avoid trigger foods and try to reduce stress levels.\n\u2022 Stop omeprazole 40 mg twice daily and start Nexium 40 mg twice daily instead.\n\u2022 Schedule EGD.\n\u2022 Call with any changes or problems.\n\u2022 Schedule a follow up visit after the EGD.",
+  "gold_sections": {
+    "CC": "Acid reflux.",
+    "HPI": "Michelle King is a 35 y.o. female who presents to clinic today for a new patient evaluation of acid reflux. She was referred by her primary care physician, Dr. Scott.\n\nThe patient reports severe acid reflux that has increased in severity in recent years. She explains that she has struggled with acid reflux since approximately age 12 and she describes a burning sensation in her chest that travels up her esophagus. She denies any dysphagia, abdominal pain, nausea/vomiting, changes in bowel movements, constipation, diarrhea, and rectal bleeding. She also denies any unintentional weight loss, although she admits to having a poor appetite due to her being under immense stress for the past 2 months. She has identified triggers for her symptoms, including stress, spicy foods, soda, and citrus or tomato-based products. She admits that she does still eat her trigger foods sometimes despite the exacerbation of her symptoms.\n\nMs. King has been taking omeprazole 40 mg twice daily for approximately 1 year. She believes that the use of omeprazole provides some relief of her symptoms as there are some days when she is asymptomatic. The only other medication she has tried is ranitidine which she took concurrently with omeprazole and she believes this helped. The patient denies undergoing an EGD within the last 10 years.",
+    "PAST_HISTORY": "Medical\nAnxiety.\n\nSurgical\nSurgery as an infant for \u201ctwisted intestines.\u201d\n\nProcedures\nPossible EGD in youth, but none in the last 10 years.",
+    "SOCIAL_HISTORY": "Works as a paralegal.",
+    "FAMILY_HISTORY": "Maternal grandmother with esophageal cancer.",
+    "CURRENT_MEDICATIONS": "Omeprazole 40 mg twice daily.",
+    "ALLERGIES": "Seasonal environmental allergies.",
+    "ROS": "\u2022\u202fConstitutional Symptoms:\u202f Positive for loss of appetite.\n\u2022\u202fGastrointestinal:\u202fNegative for constipation, diarrhea, abdominal pain, difficulty swallowing, nausea, vomiting, blood in stools, unexplained change in bowel habits. Positive for heartburn.\n\u2022\u202fPsychiatric:\u202f Positive for stress and anxiety.\n\u2022\u202fAllergic/Immunologic:\u202f Positive for seasonal allergies.",
+    "PHYSICAL_EXAM": "Gastrointestinal\nThere is a well-healed abdominal surgical scar.",
+    "ASSESSMENT": "The patient presents today with a several year history of GERD that primarily manifests as heartburn and has been poorly controlled with omeprazole 40 mg twice daily. I suspect that she likely has GERD with underlying functional etiology as well. Reassuringly, she has no unintentional weight loss and denies any dysphagia. The patient has been able to identify triggers of her symptoms, including stress, spicy foods, carbonated beverages, citrus, and tomato-based foods.\n\n\u2022 GERD\n\u2022 Suspected underlying functional etiology of heartburn.",
+    "PLAN": "\u2022 I recommended dietary and lifestyle modifications like cutting out her known trigger foods and trying to reduce her stress levels to help with her symptoms.\n\u2022 I prescribed Nexium 40 mg twice daily to replace her current omeprazole 40 mg twice daily. I sent this prescription to her pharmacy.\n\u2022 I also recommended she undergo an EGD. We discussed the potential risks of an endoscopic procedure. The patient understands the risks and is agreeable with the plan. She scheduled this procedure today.\n\u2022 If her EGD is normal and her symptoms persist despite a trial of Nexium, we can consider a trial of Protonix and obtain a pH impedance study. This will allow us to rule out abnormal acid reflux exposure and to decipher between a functional etiology and hypersensitivity.\n\u2022 The patient was counselled to call my office if anything changes or if she has any problems before her EGD or follow-up appointment.\n\u2022 She will follow up with me in clinic after her EGD to discussed results and provide an update on the Nexium.",
+    "INSTRUCTIONS": "\u2022 Avoid trigger foods and try to reduce stress levels.\n\u2022 Stop omeprazole 40 mg twice daily and start Nexium 40 mg twice daily instead.\n\u2022 Schedule EGD.\n\u2022 Call with any changes or problems.\n\u2022 Schedule a follow up visit after the EGD."
+  },
+  "n_patient_turns": 32,
+  "n_clinician_turns": 35,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 17634.071983397007,
+      "response_text": "Thank you for sharing all the details about your condition and concerns. It sounds like you've been dealing with this for a long time, and I understand how frustrating it must be when the symptoms aren't well controlled. We'll work together to address this.\n\nFirst, I've prescribed Nexium, which is similar to omeprazole but may offer better relief for some people. I've also recommended scheduling an EGD to ensure there are no underlying issues. In the meantime, please continue to manage your diet and stress, as these play a significant role in managing GERD. We'll follow up after the procedure to discuss the results and adjust your treatment plan as needed. Let's keep working together to get this under control.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 24408.565796911716,
+      "response_text": "It sounds like this acid reflux has been a challenging issue for you for quite some time, and I can understand how frustrating it must be when it flares up despite your efforts to manage it. It\u2019s important that we work together to find a solution that brings you more relief.\n\nGiven that your current treatment with omeprazole isn\u2019t fully controlling your symptoms, we\u2019ll explore other options. I recommend switching to Nexium, which is another proton pump inhibitor, as it can sometimes provide better relief for people with persistent symptoms [PMID ?]. Additionally, it\u2019s crucial that we schedule an upper endoscopy (EGD) to ensure there are no other underlying issues, such as Barrett\u2019s esophagus, especially considering your family history of GI problems [PMID ?].\n\nI\u2019ll prescribe Nexium and arrange for the EGD. Please schedule this procedure as soon as possible. After the procedure, we\u2019ll review the results and adjust your treatment plan accordingly. In the meantime, continue to avoid trigger foods and manage stress, as these can significantly impact your symptoms.\n\nBefore you leave, could you summarize the plan in your own words to ensure you understand everything we discussed? We\u2019ll follow up in a few weeks to see how you\u2019re doing and make any necessary adjustments. Please don\u2019t hesitate to reach out if you have any questions or concerns in the meantime.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7300.341933965683,
+      "response_text": "Thank you for sharing your concerns about your acid reflux. I understand how frustrating it must be when your symptoms aren't well controlled, especially with how it affects your daily life.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in the near future. In the meantime, if your symptoms get worse or you experience any new issues, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns about your acid reflux. I understand how frustrating it must be when your symptoms aren't well controlled, especially with how it affects your daily life.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in the near future. In the meantime, if your symptoms get worse or you experience any new issues, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 154789.1718223691,
+      "response_text": "I can hear how much this has been weighing on you \u2014 you said, \"I have been under a lot of work stress.\" That sounds really tough, and I want to make sure we address it as part of your care.\n\nAcid reflux can get worse with stress, and it's important to manage both to find relief. We'll focus on managing your symptoms and checking for any underlying issues that might need attention.\n\nWe'll adjust your omeprazole dosage and monitor your symptoms over the next few weeks.\n\nIf things don't improve, we might consider other treatments or tests to rule out any other causes.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to follow up in 2 weeks. If your symptoms get worse or you have new symptoms like difficulty swallowing, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this has been weighing on you \u2014 you said, \"I have been under a lot of work stress.\" That sounds really tough, and I want to make sure we address it as part of your care.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "acid reflux",
+            "profile_path": "problems[0]",
+            "explanation": "Acid reflux can get worse with stress, and it's important to manage both to find relief. We'll focus on managing your symptoms and checking for any underlying issues that might need attention.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll adjust your omeprazole dosage and monitor your symptoms over the next few weeks.",
+          "If things don't improve, we might consider other treatments or tests to rule out any other causes."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to follow up in 2 weeks. If your symptoms get worse or you have new symptoms like difficulty swallowing, please call us right away.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 1,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 0,
+        "problems": [
+          "acid reflux"
+        ],
+        "medications": [
+          "omeprazole (40 mg, twice a day)"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 185341.07177704573,
+      "response_text": "I can hear how much this has been weighing on you \u2014 you said, \"I have been under a lot of work stress.\" That sounds really tough, and I want to make sure we address it together.\n\nYour acid reflux symptoms, like burning in your chest and throat, could be linked to stress. Stress can make acid reflux worse by increasing stomach acid and slowing digestion. We should also consider other possible causes, like heartburn from certain foods or medications.\n\nWe'll adjust your omeprazole dosage and recommend lifestyle changes to manage acid reflux and stress.\n\nIf symptoms don't improve, we'll consider other treatments or further testing.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to follow up in two weeks. If your symptoms get worse or you have new symptoms like difficulty swallowing, call us right away.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this has been weighing on you \u2014 you said, \"I have been under a lot of work stress.\" That sounds really tough, and I want to make sure we address it together.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "acid reflux",
+            "profile_path": "problems[0]",
+            "explanation": "Your acid reflux symptoms, like burning in your chest and throat, could be linked to stress. Stress can make acid reflux worse by increasing stomach acid and slowing digestion. We should also consider other possible causes, like heartburn from certain foods or medications.",
+            "citations": [
+              {
+                "cluster_id": "finding::global::37567752_0",
+                "primary_assertion_id": "37567752_0",
+                "pmids": [
+                  "37567752"
+                ]
+              },
+              {
+                "cluster_id": "finding::global::40720582_1",
+                "primary_assertion_id": "40720582_1",
+                "pmids": [
+                  "40720582"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll adjust your omeprazole dosage and recommend lifestyle changes to manage acid reflux and stress.",
+          "If symptoms don't improve, we'll consider other treatments or further testing."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to follow up in two weeks. If your symptoms get worse or you have new symptoms like difficulty swallowing, call us right away.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::global::37567752_0",
+          "finding::global::40720582_1"
+        ],
+        "all_pmids_used": [
+          "37567752",
+          "40720582"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 1,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 0,
+        "problems": [
+          "acid reflux"
+        ],
+        "medications": [
+          "omeprazole 40 mg twice a day"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [
+        "37567752",
+        "40720582"
+      ],
+      "cluster_ids_used": [
+        "finding::global::37567752_0",
+        "finding::global::40720582_1"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 128978.04407030344,
+        "module_2_retrieval": 1917.849488556385,
+        "module_3_reasoning": 35510.65515726805,
+        "module_4_response": 18933.665804564953,
+        "total_ms": 185340.21452069283
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

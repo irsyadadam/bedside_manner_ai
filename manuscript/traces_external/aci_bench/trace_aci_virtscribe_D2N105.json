@@ -1,0 +1,319 @@
+{
+  "transcript_id": "aci_virtscribe_D2N105",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "i'm good , thank you .",
+  "patient_utterances": [
+    "[Clinician asked: \"good afternoon . how are you today ?\"] i'm good , thank you .",
+    "[Clinician asked: \"good . well , what brings you in to see me today ?\"] well , my doctor says that i have a heart murmur .",
+    "[Clinician asked: \"okay .\"] so i do n't know how big a heart murmur i have , or really even what it is .",
+    "[Clinician asked: \"okay . so how long have you had that for ? do you have any idea , or is that completely new as far as you know ?\"] yeah , she said it's a new worrisome heart murmur . so of course , i'm worried as well .",
+    "[Clinician asked: \"got it . okay . and are you having any symptoms at all ?\"] i do n't think so . i do n't know what symptoms i should be having .",
+    "[Clinician asked: \"okay . well , so you are 100 , so we ca n't really get around that one . so i expect that you probably do n't move quite as fast as maybe you used to ?\"] no , i definitely do n't .",
+    "[Clinician asked: \"okay . and do you notice that you have any chest pain or f- feel shortness of breath ?\"] no , i do n't have any chest pain . um , my problem is i have severe pains in my legs , and so she had me going for a chest x-ray , and that was just last week .",
+    "[Clinician asked: \"okay .\"] and so i started taking pain pills for my legs .",
+    "[Clinician asked: \"okay , got it , for the legs . and do you feel short of breath at all ?\"] if i walk too fast or too long , or if i tried to drink a whole glass of water without stopping , then yeah , i do get short of breath that way .",
+    "[Clinician asked: \"okay . and how far can you walk before you feel short of breath or sort of overly fatigued ?\"] well , i do have a walker now , so i do n't know . maybe when i walk to the end of the driveway or i walk around the culdesac .",
+    "[Clinician asked: \"got it . all right .\"] so it is n't that bothersome to me at all . um , maybe more if i try to overdo it .",
+    "[Clinician asked: \"okay .\"] then i , um , i get short of breath if i do overdo it though .",
+    "[Clinician asked: \"okay , got it . and so how different would you say , um , that the symptoms are now compared to like six months ago or a year ago ?\"] i would say probably 70 to 80 % from about six months ago . before that i did n't notice anything at all .",
+    "[Clinician asked: \"okay . so do you feel like it's mainly the leg pain that seems to limit you ?\"] my legs have been severe for about a month now .",
+    "[Clinician asked: \"okay . and how about , do you feel lightheaded or dizzy at all ?\"] yeah . so i do take a pill for that when it does get bad .",
+    "[Clinician asked: \"okay .\"] yeah , and i do n't take it every day , only when i do feel dizzy .",
+    "[Clinician asked: \"okay . and so how about any passing out at all ?\"] no .",
+    "[Clinician asked: \"okay , good . and how about irregular heartbeats ? do you ever feel like your heart is going too fast or like it skips a beat ?\"] i do n't notice it at all .",
+    "[Clinician asked: \"okay , great . and how about any swelling in the legs at all ?\"] yeah , my ankles swell .",
+    "[Clinician asked: \"okay . and how long has this been going on ?\"] um , i would say for probably six months . but it goes up and down , and sometimes it's worse than other times .",
+    "[Clinician asked: \"okay . and how about any recent weight gain or anything else like that ?\"] um , i lost a little bit of weight , but i still weigh a 120 pounds , but i normally weigh about 130 pounds .",
+    "[Clinician asked: \"mm-hmm . okay .\"] um , but that's been going down gradually for about a year .",
+    "[Clinician asked: \"okay . and then how about any fevers , chills or anything else that's , that's going on that you can think of ?\"] no .",
+    "[Clinician asked: \"good . so mainly it sounds like you came in , um , mostly because of the murmur . is that right ? and sort of just kind of seeing what things look like ?\"] yeah , that and i feel overly tired because i take all that medication .",
+    "[Clinician asked: \"okay . and so fatigue as well . and have you ever had any testing of your heart done ?\"] i'm not really sure .",
+    "[Clinician asked: \"okay . it does look like you've had a decent number of sh- , uh , surgeries here , ?\"] yeah , you name it .",
+    "[Clinician asked: \"all right . well , i wo n't make you repeat them since i do have a good record . um , but just give me just a second and i'm going to enter the ones we need , okay ? all right . got them . and then , are you taking all the medicines that you went through with madison ?\"] yes .",
+    "[Clinician asked: \"okay , good . and looking at your family history , it looks like maybe your brother had a heart attack . is that correct ?\"] it was actually my son , not my brother .",
+    "[Clinician asked: \"okay , i'll make that adjustment .\"] um , but my brother did have a stroke . but that was because he had gotten sugar diabetes , and my eldest sister did have a heart problem as well .",
+    "[Clinician asked: \"okay , i see .\"] yeah , so heart problems kinda run in the family .",
+    "[Clinician asked: \"okay . all right . well , it looks like also that you never smoked . that's excellent . and then no allergies to medicines that you know of , is that correct ?\"] correct .",
+    "[Clinician asked: \"all right . well , let's do a quick exam .\"] all right . sounds good .",
+    "[Clinician asked: \"all right . well , for physical exam , please use the regular template . all right , please just breathe normally . great . and now take a few deep breaths for me . all right . do you feel okay ? are you feeling any dizziness or anything ?\"] no , i feel fine .",
+    "[Clinician asked: \"okay , great . all right . well , that is it for the exam .\"] okay .",
+    "[Clinician asked: \"all right . so what i'm thinking is , let's go ahead and schedule you for an echocardiogram . it's a very common test and it just takes a picture of your heart . and it'll let me see how well your heart is actually working .\"] okay .",
+    "[Clinician asked: \"and i can order that for today . um , do you have time to complete that ? it should n't take too long .\"] yes , that's fine . i have time .",
+    "[Clinician asked: \"okay , great . so we will complete that today , um , to assess your overall cardiac structure and function , as well as , uh , the valve view of where diseased .\"] okay .",
+    "[Clinician asked: \"and some hospital outcomes and what we might suggest to fix that out , i'll go over that . so one possible suspicion i'm having is it's called , um , aortic stenosis , and that just means that one of your main valves of your heart has narrowed a bit and the valve does n't really open , um , quite fu\"] okay .",
+    "[Clinician asked: \"and if this is severe , then we might wan na perform a procedure called the transcatheter aortic valve replacement , or we just call it tavr . and it is a minimally invasive procedure to replace the valve .\"] well , i would have to think about that . i'm not too sure i'd wan na do that , given my age of all .",
+    "[Clinician asked: \"yeah , sure , no problem . and we do n't have to make any decisions today , just , you know , wanted to go over a couple of these things . um , but sometimes we can also perform a surgical aortic valve replacement , or it's called an savr . but really , because of your age and medical history , um ,\"] i see . okay . well , i guess we'll see , um , what you see from , from the , um , test .",
+    "[Clinician asked: \"yeah , agreed . okay . and , um , so couple other things real quick . so it looked like your blood pressure looked really good today . so we're not going to change your amlodipine or lisinopril . so just continue taking those as you are currently .\"] okay , good .",
+    "[Clinician asked: \"and then , it also looks like you're taking about 20 milligrams of simvastatin for your lipids . and i will pr- , um , defer to your pcp . however , given you are having leg pain in both your legs , and given your age and no history of coronary artery d- , artery disease , it is possible that you mi\"] really ?",
+    "[Clinician asked: \"yeah , um , possibly . he would have to evaluate you , but it is certainly something to discuss with him . so i will send over the results of the echocardiogram and also my recommendations and then you guys can talk about the statin .\"] okay , that sounds great . thank you .",
+    "[Clinician asked: \"you're welcome . and then , um , lastly , your hyperthyroidism , uh , i see you're taking levothyroxine . and again , no change here and you can just keep taking that as you have them .\"] okay , i will .",
+    "[Clinician asked: \"all right . so we will see you back here in about three or four weeks to discuss the results and your next steps . um , and we'll , uh , take care of your echocardiogram today . um , any questions ?\"] not that i can think of . thank you so much . and i think it looks good ."
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nHeart murmur.\n\nHISTORY OF PRESENT ILLNESS\n\nDiana Scott is a 100-year-old female who presents today for evaluation of a heart murmur.\n\nMs. Scott has been recently diagnosed with a \u201cnew, worrisome\u201d heart murmur. She denies chest pain, syncope, palpitations, fevers, or chills. She reports shortness of breath if she walks too fast, too long, or tries to drink a whole glass of water without stopping. The patient requires a walker and can walk around her cul-de-sac or to the end of the driveway without shortness of breath. Compared to 6 months ago, her functioning has declined 20-30%. Prior to 6 months, symptoms were absent. For the past month she has been experiencing severe, bilateral leg pain, which was limiting her mobility. She did see her doctor last week who completed a chest x-ray and prescribed pain medicine. Occasionally, she feels dizzy but takes medication for this and it subsides. Her ankles have been swelling for the past 6 months, but the swelling fluctuates day to day. Her weight has been slowly decreasing over the past year, with her current weight at 120 pounds, previous weight was 130 pounds. She also reports feeling \u201coverly tired\u201d but attributes this to her polypharmacy.\n\nThe patient is unsure if she has completed any cardiovascular testing.\n\nPAST HISTORY\n\nMedical\nHyperlipidemia.\nHypertension.\nHypothyroid.\n\nSOCIAL HISTORY\n\nRequires a walker to ambulate.\n\nFAMILY HISTORY\n\nSon had a myocardial infarction.\nBrother had a stroke and has diabetes.\nOlder sister has an unknown heart problem.\nFamily is positive for heart disease.\n\nCURRENT MEDICATIONS\n\nLevothyroxine.\nLisinopril.\nSimvastatin 20 mg.\nMeclizine.\nAmlodipine.\n\nALLERGIES\n\nNo known drug allergies.\n\nPHYSICAL EXAM\n\nConstitutional\nElderly, no acute distress.\n\nCardiovascular\nNormal S1, S2 preserved, irregular rhythm and normal rate. 4/6 systolic murmur at the RUSB with mild radiation to the carotids.\n\nMusculoskeletal\nLower extremity edema\n\nNeurologic\nGait normal for age.\n\nRESULTS\n\nEKG\nImpression: Sinus rhythm with frequent PVCs as well as anterior septal infarct pattern.\n\nASSESSMENT\n\n\u2022 Cardiac murmur.\n\u2022 PVCs.\n\u2022 Hypertension.\n\u2022 Hyperlipidemia.\n\u2022 Hypothyroid.\n\u2022 Lightheadedness/dizziness.\n\nPLAN\n\nCardiac murmur\nDiana has a 4/6 systolic murmur at the RUSB with mild radiation to the carotids. This is most likely representative of aortic stenosis. She does have symptoms including a significant increase in fatigue over the last 6 months, shortness of breath, and some lightheadedness. This could be due to severe aortic stenosis, however, her S2 is relatively preserved which would be more consistent with moderate. She is unsure if she has had an echocardiogram, although some of her outside records do note diastolic dysfunction, so it is possible that she had one as some point in the past. We will order a repeat echocardiogram today to assess overall cardiac structure and function as well as valvular disease. If she does truly have severe aortic stenosis, I briefly discussed a TAVR procedure today as she is not a candidate for a surgical AVR given her age co-morbidities and frailty. She is unsure if she would be interested in this, but we will assess first with the echocardiogram and then discuss further at follow-up. She does not appear significantly volume overloaded today.\n\nPVCs\nHer referral mentions tachycardia. Her EKG today shows sinus rhythm with frequent PVCs as well as anterior septal infarct pattern. She does not have any significant palpitations. We will check an echocardiogram to assess overall cardiac structure and function. Depending on results as well as the severity of her aortic stenosis, we will need to consider an ischemic evaluation or possibly a heart monitor to assess the overall burden of PVCs. At this point, she is asymptomatic, so we will start with the echocardiogram only.\n\nHypertension\nShe is taking amlodipine and lisinopril. We will continue these as is.\n\nHyperlipidemia\nThis is managed by her PCP. She is on simvastatin 20 mg. She is having bilateral leg pain over the past month. This could be related to the simvastatin possibly and given her age, it would not be unreasonable to stop the simvastatin, but I will defer to her PCP. She has no known CAD but if we were to do a TAVR evaluation and this was discovered, a statin would be indicated.\n\nHypothyroidism\nShe takes levothyroxine for supplementation and will continue this as is.\n\nLightheadedness/dizziness\nShe is on meclizine for this. It is possible that some of her lightheadedness and dizziness are related to the aortic stenosis, and we will do an echocardiogram as noted above. She is also having some PVCs on her EKG, which could be contributing, but she does not feel palpitations. We will consider a monitor but start with the echocardiogram first as noted above.\n\nINSTRUCTIONS\n\nFollow-up in 3 to 4 weeks after her echocardiogram is done to discuss results and next steps.",
+  "gold_sections": {
+    "CC": "Heart murmur.",
+    "HPI": "Diana Scott is a 100-year-old female who presents today for evaluation of a heart murmur.\n\nMs. Scott has been recently diagnosed with a \u201cnew, worrisome\u201d heart murmur. She denies chest pain, syncope, palpitations, fevers, or chills. She reports shortness of breath if she walks too fast, too long, or tries to drink a whole glass of water without stopping. The patient requires a walker and can walk around her cul-de-sac or to the end of the driveway without shortness of breath. Compared to 6 months ago, her functioning has declined 20-30%. Prior to 6 months, symptoms were absent. For the past month she has been experiencing severe, bilateral leg pain, which was limiting her mobility. She did see her doctor last week who completed a chest x-ray and prescribed pain medicine. Occasionally, she feels dizzy but takes medication for this and it subsides. Her ankles have been swelling for the past 6 months, but the swelling fluctuates day to day. Her weight has been slowly decreasing over the past year, with her current weight at 120 pounds, previous weight was 130 pounds. She also reports feeling \u201coverly tired\u201d but attributes this to her polypharmacy.\n\nThe patient is unsure if she has completed any cardiovascular testing.",
+    "PAST_HISTORY": "Medical\nHyperlipidemia.\nHypertension.\nHypothyroid.",
+    "SOCIAL_HISTORY": "Requires a walker to ambulate.",
+    "FAMILY_HISTORY": "Son had a myocardial infarction.\nBrother had a stroke and has diabetes.\nOlder sister has an unknown heart problem.\nFamily is positive for heart disease.",
+    "CURRENT_MEDICATIONS": "Levothyroxine.\nLisinopril.\nSimvastatin 20 mg.\nMeclizine.\nAmlodipine.",
+    "ALLERGIES": "No known drug allergies.",
+    "PHYSICAL_EXAM": "Constitutional\nElderly, no acute distress.\n\nCardiovascular\nNormal S1, S2 preserved, irregular rhythm and normal rate. 4/6 systolic murmur at the RUSB with mild radiation to the carotids.\n\nMusculoskeletal\nLower extremity edema\n\nNeurologic\nGait normal for age.",
+    "EKG": "Impression: Sinus rhythm with frequent PVCs as well as anterior septal infarct pattern.",
+    "ASSESSMENT": "\u2022 Cardiac murmur.\n\u2022 PVCs.\n\u2022 Hypertension.\n\u2022 Hyperlipidemia.\n\u2022 Hypothyroid.\n\u2022 Lightheadedness/dizziness.",
+    "PLAN": "Cardiac murmur\nDiana has a 4/6 systolic murmur at the RUSB with mild radiation to the carotids. This is most likely representative of aortic stenosis. She does have symptoms including a significant increase in fatigue over the last 6 months, shortness of breath, and some lightheadedness. This could be due to severe aortic stenosis, however, her S2 is relatively preserved which would be more consistent with moderate. She is unsure if she has had an echocardiogram, although some of her outside records do note diastolic dysfunction, so it is possible that she had one as some point in the past. We will order a repeat echocardiogram today to assess overall cardiac structure and function as well as valvular disease. If she does truly have severe aortic stenosis, I briefly discussed a TAVR procedure today as she is not a candidate for a surgical AVR given her age co-morbidities and frailty. She is unsure if she would be interested in this, but we will assess first with the echocardiogram and then discuss further at follow-up. She does not appear significantly volume overloaded today.\n\nPVCs\nHer referral mentions tachycardia. Her EKG today shows sinus rhythm with frequent PVCs as well as anterior septal infarct pattern. She does not have any significant palpitations. We will check an echocardiogram to assess overall cardiac structure and function. Depending on results as well as the severity of her aortic stenosis, we will need to consider an ischemic evaluation or possibly a heart monitor to assess the overall burden of PVCs. At this point, she is asymptomatic, so we will start with the echocardiogram only.\n\nHypertension\nShe is taking amlodipine and lisinopril. We will continue these as is.\n\nHyperlipidemia\nThis is managed by her PCP. She is on simvastatin 20 mg. She is having bilateral leg pain over the past month. This could be related to the simvastatin possibly and given her age, it would not be unreasonable to stop the simvastatin, but I will defer to her PCP. She has no known CAD but if we were to do a TAVR evaluation and this was discovered, a statin would be indicated.\n\nHypothyroidism\nShe takes levothyroxine for supplementation and will continue this as is.\n\nLightheadedness/dizziness\nShe is on meclizine for this. It is possible that some of her lightheadedness and dizziness are related to the aortic stenosis, and we will do an echocardiogram as noted above. She is also having some PVCs on her EKG, which could be contributing, but she does not feel palpitations. We will consider a monitor but start with the echocardiogram first as noted above.",
+    "INSTRUCTIONS": "Follow-up in 3 to 4 weeks after her echocardiogram is done to discuss results and next steps."
+  },
+  "n_patient_turns": 45,
+  "n_clinician_turns": 52,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 20355.602130293846,
+      "response_text": "I understand that hearing about a heart murmur can be worrying, and I want to assure you that we're taking it seriously. The echocardiogram will give us a clear picture of your heart's condition, and we'll discuss the results with you in a few weeks. It's important to stay informed, and I'm here to address any concerns you have along the way. We'll also keep your primary care provider updated so they can continue to support you.\n\nRegarding your leg pain and fatigue, we'll keep an eye on those symptoms as well. They could be related to various factors, and we'll explore those possibilities together. Your health and well-being are our top priorities, and I'm here to help you navigate this journey. Please don't hesitate to reach out if you have any questions or need further assistance. Thank you for your cooperation, and I look forward to seeing you in a few weeks.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 21605.903066694736,
+      "response_text": "Thank you for sharing all of this with me. It makes sense that you're feeling worried about the new heart murmur\u2014especially with a family history of heart issues. I can understand how that might be concerning, and I want to make sure we address it together.\n\nWe\u2019ve agreed to start with an echocardiogram to get a clearer picture of your heart\u2019s structure and function. This is a common first step to evaluate conditions like aortic stenosis, which can sometimes require procedures like TAVR if it\u2019s severe. However, we\u2019ll wait for the results before making any decisions.\n\nIn the meantime, we\u2019ll keep you on your current medications, including your statin, unless your primary care provider advises otherwise. It\u2019s important to monitor your leg pain and shortness of breath, as these could also be related to other issues, especially given your age and mobility challenges.\n\nWe\u2019ll schedule a follow-up in about three to four weeks to discuss the echocardiogram results and next steps. Before you leave, could you summarize what we\u2019ve agreed on today? That way, I can ensure you understand the plan.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 9793.790079653263,
+      "response_text": "Thank you for sharing your concerns about your heart murmur and how it's making you feel. I understand that this must be worrying for you, and I want to make sure we address it carefully.\n\nWe'll schedule an echocardiogram for you today to get a clear picture of your heart's structure and function. This will help us better understand what's going on and guide the next steps in your care.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in three to four weeks to discuss the results and your next steps. In the meantime, if you experience any new symptoms like chest pain, severe fatigue, or worsening leg pain, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns about your heart murmur and how it's making you feel. I understand that this must be worrying for you, and I want to make sure we address it carefully.",
+        "clinical_information_per_concern": [],
+        "next_steps": [
+          "We'll schedule an echocardiogram for you today to get a clear picture of your heart's structure and function. This will help us better understand what's going on and guide the next steps in your care."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in three to four weeks to discuss the results and your next steps. In the meantime, if you experience any new symptoms like chest pain, severe fatigue, or worsening leg pain, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 272149.9087512493,
+      "response_text": "I can hear how much this has been weighing on you \u2014 you said, \"so it is n't that bothersome to me at all\" and \"maybe more if i try to overdo it.\" That shows how frustrating it must be to deal with these symptoms.\n\nA heart murmur can be concerning, but it's important to determine its cause. We'll need to do some tests to understand what's going on.\n\nLeg pain can have many causes, and since you've already tried pain pills without much relief, we should look into other possible reasons.\n\nShortness of breath can be related to heart or lung issues. We'll need to assess this further to find the underlying cause.\n\nLightheadedness can be caused by various factors, including dehydration or low blood pressure. We'll monitor this symptom closely.\n\nAnkle swelling might indicate fluid retention or an underlying medical condition. We'll check this as part of our evaluation.\n\nWe'll schedule some tests to get a better understanding of your heart murmur.\n\nWe'll evaluate the cause of your severe leg pain with further assessment.\n\nWe'll assess your shortness of breath to determine the underlying cause.\n\nWe'll monitor your lightheadedness and check for any contributing factors.\n\nWe'll look into the cause of your ankle swelling and address it accordingly.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to follow up in a week. If any symptoms worsen or if you experience severe pain, please call us immediately.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this has been weighing on you \u2014 you said, \"so it is n't that bothersome to me at all\" and \"maybe more if i try to overdo it.\" That shows how frustrating it must be to deal with these symptoms.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "heart murmur",
+            "profile_path": "problems[0]",
+            "explanation": "A heart murmur can be concerning, but it's important to determine its cause. We'll need to do some tests to understand what's going on.",
+            "citations": []
+          },
+          {
+            "concern_label": "severe leg pain",
+            "profile_path": "problems[1]",
+            "explanation": "Leg pain can have many causes, and since you've already tried pain pills without much relief, we should look into other possible reasons.",
+            "citations": []
+          },
+          {
+            "concern_label": "shortness of breath",
+            "profile_path": "problems[2]",
+            "explanation": "Shortness of breath can be related to heart or lung issues. We'll need to assess this further to find the underlying cause.",
+            "citations": []
+          },
+          {
+            "concern_label": "lightheadedness",
+            "profile_path": "problems[3]",
+            "explanation": "Lightheadedness can be caused by various factors, including dehydration or low blood pressure. We'll monitor this symptom closely.",
+            "citations": []
+          },
+          {
+            "concern_label": "ankle swelling",
+            "profile_path": "problems[4]",
+            "explanation": "Ankle swelling might indicate fluid retention or an underlying medical condition. We'll check this as part of our evaluation.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll schedule some tests to get a better understanding of your heart murmur.",
+          "We'll evaluate the cause of your severe leg pain with further assessment.",
+          "We'll assess your shortness of breath to determine the underlying cause.",
+          "We'll monitor your lightheadedness and check for any contributing factors.",
+          "We'll look into the cause of your ankle swelling and address it accordingly."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to follow up in a week. If any symptoms worsen or if you experience severe pain, please call us immediately.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 5,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 2,
+        "n_goals": 0,
+        "problems": [
+          "heart murmur",
+          "severe leg pain",
+          "shortness of breath",
+          "lightheadedness",
+          "ankle swelling"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 234144.70851421356,
+      "response_text": "It sounds like you're dealing with a few things that are concerning you right now.\n\nA heart murmur can be a sign of various conditions, so it's important to get it checked out. We'll need to do some tests to understand what's going on.\n\nSevere leg pain, especially with symptoms like shortness of breath and ankle swelling, can indicate several issues. We'll need to look into this further to determine the best course of action.\n\nWe'll schedule some tests to look into both the heart murmur and the leg pain.\n\nOnce we have the results, we'll be able to discuss the next steps in more detail.\n\nI want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next?\n\nLet's plan to follow up in a couple of weeks once we have the test results. In the meantime, if anything changes or gets worse, please reach out.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're dealing with a few things that are concerning you right now.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "heart murmur",
+            "profile_path": "problems[0]",
+            "explanation": "A heart murmur can be a sign of various conditions, so it's important to get it checked out. We'll need to do some tests to understand what's going on.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[2]::39366124_0",
+                "primary_assertion_id": "39366124_0",
+                "pmids": [
+                  "39366124",
+                  "40155879"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "severe leg pain",
+            "profile_path": "problems[1]",
+            "explanation": "Severe leg pain, especially with symptoms like shortness of breath and ankle swelling, can indicate several issues. We'll need to look into this further to determine the best course of action.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[2]::39366124_0",
+                "primary_assertion_id": "39366124_0",
+                "pmids": [
+                  "39366124",
+                  "40155879"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll schedule some tests to look into both the heart murmur and the leg pain.",
+          "Once we have the results, we'll be able to discuss the next steps in more detail."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next?",
+        "follow_up_invitation": "Let's plan to follow up in a couple of weeks once we have the test results. In the meantime, if anything changes or gets worse, please reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[2]::39366124_0"
+        ],
+        "all_pmids_used": [
+          "39366124",
+          "40155879"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 2,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "heart murmur",
+          "severe leg pain"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "39366124",
+        "40155879"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[2]::39366124_0"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 158953.6940008402,
+        "module_2_retrieval": 1040.9821942448616,
+        "module_3_reasoning": 53723.67186099291,
+        "module_4_response": 20425.297364592552,
+        "total_ms": 234143.6454206705
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

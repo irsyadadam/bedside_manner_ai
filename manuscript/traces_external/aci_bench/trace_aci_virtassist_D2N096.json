@@ -1,0 +1,272 @@
+{
+  "transcript_id": "aci_virtassist_D2N096",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "yeah . yes , doctor .",
+  "patient_utterances": [
+    "[Clinician asked: \"um , hi mrs. anderson . right ?\"] yeah . yes , doctor .",
+    "[Clinician asked: \"what brings you here today ?\"] hi , doctor . um , i'm having this left shoulder pain lately , uh , and it's paining a lot .",
+    "[Clinician asked: \"okay . all right . hey , dragon . i am seeing mrs. anderson , a 44-years-old female , uh , complaining to check the left shoulder pain . um , so how long how has this lasted ?\"] it's been a week , doctor . yeah .",
+    "[Clinician asked: \"a week .\"] yeah .",
+    "[Clinician asked: \"um , did you take any medication yourself ?\"] no , i did not take any pain medications . actually , i did . i did take a tylenol for two or three days , but then that did n't help at all . so , uh , the reason why it started or when it started to happen is-",
+    "[Clinician asked: \"yeah .\"] i was actually in gymnastics class .",
+    "[Clinician asked: \"yeah , okay .\"] and , uh , i do n't know . maybe i must have toppled over into some weird position , so it started to pain since then , uh , because of a certain move .",
+    "[Clinician asked: \"okay , uh-\"] i went overboard , i think . yeah .",
+    "[Clinician asked: \"all right , lem me , uh , take a quick look . uh , can you move up a little bit ? yeah .\"] uh , yeah . in fact , that's hurts .",
+    "[Clinician asked: \"does that- does it hurt ?\"] yeah , it does .",
+    "[Clinician asked: \"what if you move back a little bit ?\"] uh , that also hurts , doctor .",
+    "[Clinician asked: \"yeah , okay .\"] any kind of movement on my left shoulder actually hurts .",
+    "[Clinician asked: \"okay . all right , um , so let's ... hey , dragon . show me the last x-ray . all right , from the x-ray , it does n't look like there is any , uh , broken bone or fracture . my guess is you probably , um , hurt your joint , uh-\"] uh- .",
+    "[Clinician asked: \"a little bit .\"] mm-hmm .",
+    "[Clinician asked: \"so i would , uh , suggest you continue using the pain reliever , maybe just like 600 milligram of ibuprofen three times a day and use it for a week .\"] and for how long ? yes .",
+    "[Clinician asked: \"for a week .\"] a week , okay .",
+    "[Clinician asked: \"and then if you ... if it's still painful , you can use , uh , ice or , um , heat pad-\"] okay .",
+    "[Clinician asked: \"'cause that might help relieve your pain .\"] okay .",
+    "[Clinician asked: \"um ...\"] but i wanted you to know that i did have past surgery on my , um , left arm-",
+    "[Clinician asked: \"mm-hmm .\"] so , um , i hope that should n't matter , right ?",
+    "[Clinician asked: \"um , that does n't seem related to your pain .\"] okay .",
+    "[Clinician asked: \"so ... but i would try to rest my , your left arm-\"] okay .",
+    "[Clinician asked: \"while it's healing .\"] okay .",
+    "[Clinician asked: \"so , um-\"] can i , uh , carry any heavy weights or-",
+    "[Clinician asked: \"no , no . definitely not .\"] anything like that ?",
+    "[Clinician asked: \"definitely not .\"] okay . okay .",
+    "[Clinician asked: \"yeah , use , um , right hand-\"] okay .",
+    "[Clinician asked: \"instead-\"] mm-hmm .",
+    "[Clinician asked: \"for the next , uh , at least just three to four weeks .\"] mm-hmm .",
+    "[Clinician asked: \"uh , come back to see me if the pain , you know , still there after maybe three weeks-\"] sure .",
+    "[Clinician asked: \"so we can take a further look .\"] okay . sure .",
+    "[Clinician asked: \"but you should be fine-\"] yeah .",
+    "[Clinician asked: \"after just resting and regular pain reliever .\"] okay . all right .",
+    "[Clinician asked: \"um-\"] should we take another x-ray when i come back , if the pain does n't improve ?",
+    "[Clinician asked: \"um , maybe . let's see how you're doing in the next three weeks .\"] uh .",
+    "[Clinician asked: \"hey , dragon . um , order medications and procedures as discussed . all right .\"] okay .",
+    "[Clinician asked: \"um , i think that's good for today . hope you feel better soon .\"] okay . thank you , doctor .",
+    "[Clinician asked: \"yeah .\"] hopefully , the pain reliever , uh , ibuprofen actually helps .",
+    "[Clinician asked: \"yeah .\"] yeah , and if i have more pain , can i call you ? can i fix up another appointment earlier than three weeks ?",
+    "[Clinician asked: \"um , you can also try advil .\"] okay .",
+    "[Clinician asked: \"yeah , so , um ...\"] yeah .",
+    "[Clinician asked: \"ale- , aleve . i mean , aleve .\"] i see . okay , thank you , doctor ."
+  ],
+  "gold_note": "CC:\n\nLeft shoulder pain.\n\nHPI:\n\nMs. Anderson is a 44-year-old female who presents today for an evaluation of the left shoulder. She states that she was in gymnastics 1 week ago. The pain has been present since that time. She has pain with any type of movement of her left shoulder. She had taken Tylenol for 2 to 3 days with no improvement in her symptoms.\n\nShe has a surgical history significant for prior left upper extremity surgery.\n\nEXAM\n\nExamination of the left shoulder shows pain with range of motion.\n\nRESULTS\n\nX-rays of the left shoulder, 3 views obtained on today's visit show no obvious signs of fracture.\n\nPLAN\n\nAt this point, I discussed the diagnosis and treatment options with the patient. I have recommended taking ibuprofen 600 mg three times per day for one week. If the patient does not have relief from the ibuprofen she will take Aleve. The patient may also utilize ice or heat packs. She should rest her left arm and may not lift or carry heavy objects with her left arm. The patient should follow up in three to four weeks if the pain persists. We may repeat the left shoulder x-ray at that time.",
+  "gold_sections": {
+    "PHYSICAL_EXAM": "Examination of the left shoulder shows pain with range of motion.",
+    "RESULTS": "X-rays of the left shoulder, 3 views obtained on today's visit show no obvious signs of fracture.",
+    "PLAN": "At this point, I discussed the diagnosis and treatment options with the patient. I have recommended taking ibuprofen 600 mg three times per day for one week. If the patient does not have relief from the ibuprofen she will take Aleve. The patient may also utilize ice or heat packs. She should rest her left arm and may not lift or carry heavy objects with her left arm. The patient should follow up in three to four weeks if the pain persists. We may repeat the left shoulder x-ray at that time."
+  },
+  "n_patient_turns": 42,
+  "n_clinician_turns": 43,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 17742.50776320696,
+      "response_text": "I'm really sorry to hear about your shoulder pain, Mrs. Anderson. It sounds like it's been quite uncomfortable, especially after your gymnastics class. From what I understand, you twisted your shoulder into an awkward position, which can definitely cause some inflammation or strain. The X-ray didn't show any broken bones, so it's likely just a soft tissue injury. That's good news because with some rest and care, you should start feeling better soon.\n\nFor now, I recommend taking ibuprofen as directed to help reduce the pain and inflammation. Try to avoid using your left arm for heavy lifting or any activities that might strain it further. Give it a few weeks of rest, and if you're still in pain, we can revisit your progress. If anything feels worse or if you have more questions before then, please don't hesitate to reach out. I'm here to help, and I want you to feel as comfortable as possible during this healing process.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 16963.450826704502,
+      "response_text": "Thank you for sharing your concerns with me, Mrs. Anderson. It makes sense that you're feeling worried about your shoulder pain, especially after it hasn't improved with Tylenol. I can understand how frustrating it must be to deal with this discomfort, especially if it's affecting your daily activities or hobbies like gymnastics.\n\nFrom what you've described, it sounds like you might have a soft tissue injury, such as a strain or sprain, since the x-ray didn't show any fractures. The first step is to continue using ibuprofen as prescribed to help reduce both the pain and inflammation. Resting your shoulder and avoiding heavy lifting for the next few weeks is also important to allow it to heal properly.\n\nIf the pain persists after three weeks, we can revisit your care and consider further imaging or treatment options. In the meantime, feel free to call the office if you need an earlier appointment or have any questions about your care. I'll make sure to follow up with you in about three weeks to check on your progress. Take care, and I hope you start feeling better soon.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7052.401483058929,
+      "response_text": "It sounds like your left shoulder pain has been quite uncomfortable, especially since it started after a gymnastics class. I understand how that can be concerning.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 3 weeks. In the meantime, if the pain doesn't improve or gets worse, please call us so we can check in earlier.",
+      "structured_response": {
+        "acknowledgment": "It sounds like your left shoulder pain has been quite uncomfortable, especially since it started after a gymnastics class. I understand how that can be concerning.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 3 weeks. In the meantime, if the pain doesn't improve or gets worse, please call us so we can check in earlier.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 158206.90751820803,
+      "response_text": "I can hear how much this has been worrying you \u2014 you said, \"I hope that shouldn't matter, right?\" That makes sense, and I want to make sure we address it.\n\nThe pain in your left shoulder, especially with movement, and the fact that it's been bothering you a lot for the past week, means we should look into it carefully. We'll consider how to manage it while we figure out the cause.\n\nWe'll schedule a follow-up visit to check on your shoulder pain and see how the current treatments are working for you.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again soon. In the meantime, if the pain gets worse or you notice anything new, please call us.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this has been worrying you \u2014 you said, \"I hope that shouldn't matter, right?\" That makes sense, and I want to make sure we address it.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "left shoulder pain",
+            "profile_path": "problems[0]",
+            "explanation": "The pain in your left shoulder, especially with movement, and the fact that it's been bothering you a lot for the past week, means we should look into it carefully. We'll consider how to manage it while we figure out the cause.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll schedule a follow-up visit to check on your shoulder pain and see how the current treatments are working for you."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again soon. In the meantime, if the pain gets worse or you notice anything new, please call us.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Demonstrate empathy",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 0,
+        "problems": [
+          "left shoulder pain"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Demonstrate empathy",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 198676.50248855352,
+      "response_text": "I can hear how much this has been worrying you \u2014 you said, \"I hope that shouldn't matter, right?\" That makes sense to feel that way, especially with the left shoulder pain you've been having for a week.\n\nThe pain in your left shoulder, especially with movement, and the fact that you've tried Tylenol without full relief, suggests we should look into possible causes. Research shows that for shoulder pain, it's important to consider both the effectiveness of treatments and potential risks. For example, while NSAIDs can be effective, they might not be the best choice for everyone, and opioids are generally recommended only when other options aren't working well.\n\nWe'll schedule an imaging study to get a better look at your shoulder and see if there's any structural issue causing the pain.\n\nIn the meantime, we'll recommend continuing with non-opioid pain relievers and possibly adding some physical therapy exercises to help manage the discomfort.\n\nWe'll follow up in two weeks to review the imaging results and adjust your care plan accordingly.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to check in again in two weeks. If the pain gets worse or you experience any new symptoms, please call us right away so we can address them promptly.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this has been worrying you \u2014 you said, \"I hope that shouldn't matter, right?\" That makes sense to feel that way, especially with the left shoulder pain you've been having for a week.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "left shoulder pain",
+            "profile_path": "problems[0]",
+            "explanation": "The pain in your left shoulder, especially with movement, and the fact that you've tried Tylenol without full relief, suggests we should look into possible causes. Research shows that for shoulder pain, it's important to consider both the effectiveness of treatments and potential risks. For example, while NSAIDs can be effective, they might not be the best choice for everyone, and opioids are generally recommended only when other options aren't working well.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[0]::36252245_0",
+                "primary_assertion_id": "36252245_0",
+                "pmids": [
+                  "36252245"
+                ]
+              },
+              {
+                "cluster_id": "finding::sub_query[0]::36252245_1",
+                "primary_assertion_id": "36252245_1",
+                "pmids": [
+                  "36252245"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll schedule an imaging study to get a better look at your shoulder and see if there's any structural issue causing the pain.",
+          "In the meantime, we'll recommend continuing with non-opioid pain relievers and possibly adding some physical therapy exercises to help manage the discomfort.",
+          "We'll follow up in two weeks to review the imaging results and adjust your care plan accordingly."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to check in again in two weeks. If the pain gets worse or you experience any new symptoms, please call us right away so we can address them promptly.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[0]::36252245_0",
+          "finding::sub_query[0]::36252245_1"
+        ],
+        "all_pmids_used": [
+          "36252245"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 0,
+        "problems": [
+          "left shoulder pain"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "36252245"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[0]::36252245_0",
+        "finding::sub_query[0]::36252245_1"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 140812.24343925714,
+        "module_2_retrieval": 949.32621717453,
+        "module_3_reasoning": 34115.36046117544,
+        "module_4_response": 22798.320174217224,
+        "total_ms": 198675.25029182434
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

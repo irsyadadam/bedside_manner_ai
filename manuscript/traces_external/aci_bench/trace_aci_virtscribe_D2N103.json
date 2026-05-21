@@ -1,0 +1,254 @@
+{
+  "transcript_id": "aci_virtscribe_D2N103",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "yeah , it's good seeing you too dr. hughes . you look like you're doing well .",
+  "patient_utterances": [
+    "[Clinician asked: \"ms. sanchez , it's good to see you again .\"] yeah , it's good seeing you too dr. hughes . you look like you're doing well .",
+    "[Clinician asked: \"i am , thank you . you too . you're looking great . how have you been feeling ?\"] pretty good . i'm definitely feeling better , thank goodness . i was having a rough time before surgery , um , but i think i'm overall pretty good now though .",
+    "[Clinician asked: \"okay . well , that's really good to hear . i'm glad . are you having any new symptoms right now ?\"] no , not really . but , you know , i'm still getting some chest pains sometimes , and my breathing gets shallow . but , i guess i'm learning what i can and ca n't do . uh , so if i feel like that , if i'm , like , exerting myself , i slow down a bit which helps , and then when i go back to it later , i can usually finish whatever i was doing .",
+    "[Clinician asked: \"okay . so , it does go away though ? how long does an episode seem to last ?\"] uh , only a few minutes i guess . then it disappears for a while . it's weird .",
+    "[Clinician asked: \"what is a while ?\"] it goes away for a couple weeks . um , so when it happens , i just take the day nice and slow , i do n't push myself .",
+    "[Clinician asked: \"okay . so , maybe it's a couple times a month you feel this way ?\"] yeah , just often enough for me to notice .",
+    "[Clinician asked: \"understood . okay . are you taking your medications regularly ?\"] uh- . i've been trying to keep up with that . there's a lot of extra pills now , but i have a reminder app , so i do pretty well .",
+    "[Clinician asked: \"okay . that's great . and so , you're taking coumadin , right ?\"] yeah , also lasix and the atenolol .",
+    "[Clinician asked: \"are you having any side effects from the medications at all ?\"] not really . uh , i notice that the atenolol is making me irritable in the beginning , but i guess i've gotten used to it , does n't seem to bother me as much now .",
+    "[Clinician asked: \"okay . well , that sounds good . sounds like you're well on the mend . so , why do n't i start out , um , with the physical exam , and just check you out .\"] okay .",
+    "[Clinician asked: \"you're going to hear me describe things in detail or repeat things as i go to reference later for my notes .\"] okay .",
+    "[Clinician asked: \"okay then . i'm going to be using my status post template , ms. sanchez , please lie down on the table here and we'll get started . all right . can you turn your head to the left . head and neck no jvd detected . you can turn back now and just take a couple of deep breaths for me please . okay , tha\"] that's a funny statement . what does that mean ?",
+    "[Clinician asked: \"yeah , it does sounds kind of weird , right ? it's when your heart does n't beat with the correct rhythm , and whatever rhythm it does n't have a pattern to it . so , it's part of the atrial fibrillation .\"] wow , that sounds like a mess .",
+    "[Clinician asked: \"yeah , it's not ideal . but , many people have a-fib are able to keep it under control with medicine and lifestyle changes .\"] agh , i see . that's good to know .",
+    "[Clinician asked: \"okay . so , s1 slightly accentuated , no s3 . i'm going to touch your belly , and does any of that hurt .\"] nope .",
+    "[Clinician asked: \"how about there ? and your feet ?\"] no , not really .",
+    "[Clinician asked: \"okay , great . and trace peripheral edema on extremities . all right ms. sanchez , you can sit up now . so , it looks like your heart valves are working well and you are recovering from the surgery nicely .\"] good .",
+    "[Clinician asked: \"yes . we are , we looked at your ecg taken earlier today , and we are seeing the a-fib , but it's being well controlled with the medicine , and you're taking coumadin , four milligrams , lasix at four milligrams a day , and the atenolol , you're taking that every day as well , right ?\"] yes . the 50 milligrams every day .",
+    "[Clinician asked: \"great . it sounds like you're well on your way to recovery .\"] great .",
+    "[Clinician asked: \"so , let's continue on your current meds . i'm glad that you're figuring out what your body can handle . definitely try to keep active as that will certainly help .\"] i'll do my best .",
+    "[Clinician asked: \"and that's about it . do you have any questions for me ?\"] um , i do . when do i need to come back and get checked out ?",
+    "[Clinician asked: \"well , i do n't think you need to come back soon . everything from a cardio perspective is fine . so , i think let's do a followup in about six to nine months .\"] all right , thank you . it was good to see you again dr. hughes .",
+    "[Clinician asked: \"you as well ms. sanchez , do take care .\"] you too ."
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nStatus post mitral valve repair.\n\nHISTORY OF PRESENT ILLNESS\n\nMrs. Melissa Sanchez is a 58-year-old female being seen today for a status post mitral valve repair, completed on 08/03/2020.\n\nOn 09/17/20 we saw Mrs. Sanchez in office, and she was doing well and thus we recommended maintaining her current medications, she is using a reminder app to stay compliant with medications.\n\nThe patient reports feeling better and overall, pretty good. She denies experiencing new symptoms. She is still having chest pain intermittently, and her breathing \u201cgets shallow\u201d which results in her \u201cslowing down\u201d and decreasing her exertion. An episode of shortness of breath and chest pains may last a few minutes and will not recur for a few weeks.\n\nPAST HISTORY\n\nMedical\nMitral regurgitation.\nAtrial fibrillation.\nDiabetes Type II.\nAsthma.\n\nSurgical\nMitral valve repair 08/03/2020.\n\nCURRENT MEDICATIONS\n\nCoumadin 4 mg daily.\nLasix 40 mg daily.\nAtenolol 50 mg daily.\n\nPHYSICAL EXAM\n\nHead and Neck\nNo JVD detected.\n\nRespiratory\nLungs have reduced breath, but auscultation and percussion are clear.\n\nCardiovascular\nRhythm is irregularly irregular, S1 slightly accentuated, no S3.\n\nMusculoskeletal\nTrace peripheral edema on extremities.\n\nRESULTS\n\nECG, 12/26/2020.\nImpression: Atrial fibrillation with a controlled ventricular response, t-wave inversion anteriorly. Compared to the previous study, there are no significant changes. I also recommended that the patient continues to be active within her limits.\n\nASSESSMENT\n\n\u2022 Status post mitral valve repair\n\nMrs. Melissa Sanchez is a 58-year-old female being seen today for a status post mitral valve repair, completed on 08/03/2020.\n\nPLAN\n\nContinue with current medications. Coumadin 4 mg daily, Lasix 40 mg daily, and Atenolol 50 mg daily.\n\nINSTRUCTIONS\n\nReturn to clinic in 6-9 months.",
+  "gold_sections": {
+    "CC": "Status post mitral valve repair.",
+    "HPI": "Mrs. Melissa Sanchez is a 58-year-old female being seen today for a status post mitral valve repair, completed on 08/03/2020.\n\nOn 09/17/20 we saw Mrs. Sanchez in office, and she was doing well and thus we recommended maintaining her current medications, she is using a reminder app to stay compliant with medications.\n\nThe patient reports feeling better and overall, pretty good. She denies experiencing new symptoms. She is still having chest pain intermittently, and her breathing \u201cgets shallow\u201d which results in her \u201cslowing down\u201d and decreasing her exertion. An episode of shortness of breath and chest pains may last a few minutes and will not recur for a few weeks.",
+    "PAST_HISTORY": "Medical\nMitral regurgitation.\nAtrial fibrillation.\nDiabetes Type II.\nAsthma.\n\nSurgical\nMitral valve repair 08/03/2020.",
+    "CURRENT_MEDICATIONS": "Coumadin 4 mg daily.\nLasix 40 mg daily.\nAtenolol 50 mg daily.",
+    "PHYSICAL_EXAM": "Head and Neck\nNo JVD detected.\n\nRespiratory\nLungs have reduced breath, but auscultation and percussion are clear.\n\nCardiovascular\nRhythm is irregularly irregular, S1 slightly accentuated, no S3.\n\nMusculoskeletal\nTrace peripheral edema on extremities.",
+    "RESULTS": "ECG, 12/26/2020.\nImpression: Atrial fibrillation with a controlled ventricular response, t-wave inversion anteriorly. Compared to the previous study, there are no significant changes. I also recommended that the patient continues to be active within her limits.",
+    "ASSESSMENT": "\u2022 Status post mitral valve repair\n\nMrs. Melissa Sanchez is a 58-year-old female being seen today for a status post mitral valve repair, completed on 08/03/2020.",
+    "PLAN": "Continue with current medications. Coumadin 4 mg daily, Lasix 40 mg daily, and Atenolol 50 mg daily.",
+    "INSTRUCTIONS": "Return to clinic in 6-9 months."
+  },
+  "n_patient_turns": 23,
+  "n_clinician_turns": 24,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 19945.07522135973,
+      "response_text": "Ms. Sanchez, I'm really glad to hear that you're feeling better and making such positive progress since your surgery. It's completely understandable that you're experiencing some chest pains and shallow breathing, especially when you exert yourself. These episodes sound manageable, and it's good that you're adjusting your activities to listen to your body. Remember, it's all part of the recovery process, and what you're doing to slow down and take care of yourself is exactly what we want to see.\n\nYour medications are working well, and it's great that you're handling them without major issues. The slight edema we noticed is normal during recovery, and your heart valves are functioning as they should. Keep up the good work with your lifestyle changes and staying active, as this will continue to support your healing. Please don't hesitate to reach out if you have any questions or concerns in the meantime. We'll schedule your next check-up in about six to nine months, but until then, focus on taking care of yourself and enjoying the progress you've made. You're doing wonderfully, and I'm here if you need anything.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 25730.930045247078,
+      "response_text": "Thank you for sharing your concerns, Ms. Sanchez. It's clear that you're making a strong effort to manage your health, and I appreciate your openness in discussing your symptoms and how you're handling them. It's understandable that you'd feel concerned about occasional chest pains and shallow breathing, especially after surgery. Your approach to slowing down when needed shows your proactive involvement in your recovery, which is commendable.\n\nGiven your symptoms and the medications you're taking, including Coumadin, Lasix, and atenolol, it's important to monitor your condition. The chest pains and shallow breathing you experience, lasting a few minutes and then subsiding, could be related to your recovery process. While your heart is recovering, such symptoms can sometimes occur, but they should be evaluated to ensure they don't indicate a more serious issue [PMID ?].\n\nWe'll continue with your current medication regimen, which seems to be effective in managing your condition. It's important to maintain your activity levels as they contribute to your recovery, but listen to your body and adjust as needed. I encourage you to ask any questions you may have about your medications or symptoms to ensure you're comfortable with your care plan.\n\nTo summarize, we'll schedule a follow-up appointment in six to nine months to reassess your progress. Before you leave, could you please explain in your own words what we've discussed today? This will help ensure you understand the plan and any next steps. Please don't hesitate to reach out if you experience any concerning symptoms or have further questions. Take care, Ms. Sanchez, and I'm here to support you through this recovery journey.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6833.30562710762,
+      "response_text": "It sounds like you're doing well overall, and I'm glad to hear that you're feeling better since your surgery.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in six to nine months. In the meantime, if you experience any severe symptoms like chest pain or difficulty breathing, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're doing well overall, and I'm glad to hear that you're feeling better since your surgery.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in six to nine months. In the meantime, if you experience any severe symptoms like chest pain or difficulty breathing, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 250521.52325212955,
+      "response_text": "It sounds like you're dealing with several things, like feeling better before surgery, occasional chest pain with shallow breathing, and some irritability when you first started taking Atenolol. I want to make sure I understand how all these are affecting you.\n\nIt's good to hear that you're improving, but we should keep track of how you're feeling to make sure everything is on the right track.\n\nChest pain can be concerning, especially when it happens sometimes. We'll want to look into this to make sure it's not something serious.\n\nIt's understandable to feel irritable when starting a new medication. We'll monitor how this affects you and adjust if needed.\n\nWe'll schedule a follow-up to check on your progress and address any concerns you have.\n\nIf your symptoms change or get worse, please reach out as soon as possible.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again soon. In the meantime, if you notice any new symptoms or if your current ones get worse, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're dealing with several things, like feeling better before surgery, occasional chest pain with shallow breathing, and some irritability when you first started taking Atenolol. I want to make sure I understand how all these are affecting you.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "feeling better",
+            "profile_path": "problems[0]",
+            "explanation": "It's good to hear that you're improving, but we should keep track of how you're feeling to make sure everything is on the right track.",
+            "citations": []
+          },
+          {
+            "concern_label": "chest pain",
+            "profile_path": "problems[1]",
+            "explanation": "Chest pain can be concerning, especially when it happens sometimes. We'll want to look into this to make sure it's not something serious.",
+            "citations": []
+          },
+          {
+            "concern_label": "irritability",
+            "profile_path": "problems[2]",
+            "explanation": "It's understandable to feel irritable when starting a new medication. We'll monitor how this affects you and adjust if needed.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll schedule a follow-up to check on your progress and address any concerns you have.",
+          "If your symptoms change or get worse, please reach out as soon as possible."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again soon. In the meantime, if you notice any new symptoms or if your current ones get worse, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 3,
+        "n_medications": 3,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "feeling better",
+          "chest pain",
+          "irritability"
+        ],
+        "medications": [
+          "Coumadin",
+          "Lasix",
+          "Atenolol"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 327819.3666562438,
+      "response_text": "It sounds like you're dealing with a few things since your surgery. I want to make sure I understand what's been on your mind.\n\nIt's good to hear that you're improving, but let's keep an eye on how you're feeling overall.\n\nChest pain can be concerning, so we'll monitor it closely. Let me know if it gets worse or happens more often.\n\nIt's understandable to feel irritable, especially with the changes from starting a new medication. We'll keep track of how you're feeling as part of your care.\n\nWe'll check in on your progress and adjust any medications if needed.\n\nIf you notice any new symptoms or your current ones change, please let us know right away.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if anything changes or gets worse, please call us.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're dealing with a few things since your surgery. I want to make sure I understand what's been on your mind.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "feeling better",
+            "profile_path": "problems[0]",
+            "explanation": "It's good to hear that you're improving, but let's keep an eye on how you're feeling overall.",
+            "citations": []
+          },
+          {
+            "concern_label": "chest pain",
+            "profile_path": "problems[1]",
+            "explanation": "Chest pain can be concerning, so we'll monitor it closely. Let me know if it gets worse or happens more often.",
+            "citations": []
+          },
+          {
+            "concern_label": "irritability",
+            "profile_path": "problems[2]",
+            "explanation": "It's understandable to feel irritable, especially with the changes from starting a new medication. We'll keep track of how you're feeling as part of your care.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll check in on your progress and adjust any medications if needed.",
+          "If you notice any new symptoms or your current ones change, please let us know right away."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if anything changes or gets worse, please call us.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 3,
+        "n_medications": 3,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "feeling better",
+          "chest pain",
+          "irritability"
+        ],
+        "medications": [
+          "Coumadin",
+          "Lasix",
+          "Atenolol (50 mg daily)"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 249880.14071434736,
+        "module_2_retrieval": 1233.204685151577,
+        "module_3_reasoning": 60544.3911999464,
+        "module_4_response": 16160.363540053368,
+        "total_ms": 327818.1001394987
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

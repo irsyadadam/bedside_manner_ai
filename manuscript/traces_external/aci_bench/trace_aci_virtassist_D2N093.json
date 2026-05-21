@@ -1,0 +1,310 @@
+{
+  "transcript_id": "aci_virtassist_D2N093",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "hey , good to see you .",
+  "patient_utterances": [
+    "[Clinician asked: \"hey lawrence . how are you ?\"] hey , good to see you .",
+    "[Clinician asked: \"it's good to see you too . so , i know the nurse told you about dax .\"] mm-hmm .",
+    "[Clinician asked: \"i'd like to tell dax a little bit about you .\"] sure .",
+    "[Clinician asked: \"so , lawrence is a 62-year-old male , with a past medical history significant for type i diabetes , congestive heart failure , depression , and reflux , who presents with complaints of shortness of breath . so lawrence , what's been going on ? wh- what's wrong with your breathing ?\"] uh , i , i've noticed that i've been swelling up a little bit . i think a lot of it has to do with going to some house parties , eating some salty foods . i feel really lethargic .",
+    "[Clinician asked: \"okay . all right . and when you get short of breath , are you short of breath when you're just sitting here ? do you feel short of breath when you're walking ?\"] it's something like walking up a flight of stairs i'll actually feel it .",
+    "[Clinician asked: \"okay . all right . now , um , how long has this been going on for ?\"] probably about 10 days .",
+    "[Clinician asked: \"okay . all right . and you said you're noticed some swelling in your legs ?\"] a little bit .",
+    "[Clinician asked: \"okay . do you have problems lying flat in bed ?\"] um , i'm a little uncomfortable when i wake up in the morning and i feel pretty stiff . and , and , like , it takes me a little while to adjust to walking when i get up .",
+    "[Clinician asked: \"okay . all right . do you ever wake up acutely short of breath at night ?\"] um , it happened once , probably about a week ago , but it has n't happened since . so i have n't been that concerned about it .",
+    "[Clinician asked: \"okay . all right . in terms of your , your diabetes , how are you doing with that ? i know you're on the insulin pump .\"] mm-hmm .",
+    "[Clinician asked: \"um , are your blood sugars okay ? have you noticed a spike in them recently ?\"] um , i have n't . i've been pretty good about monitoring it so i ... during the working week , i stay on top of that . but on saturdays or sundays we're so busy i forget to monitor it . but i have n't seen anything spike .",
+    "[Clinician asked: \"okay . and i remember your affinity for chocolate bars , so ...\"] guilty as charged . i love chocolate bars .",
+    "[Clinician asked: \"okay . all right . so , in terms of your depression , how are you doing with that ?\"] uh , it's been a crazy year and a half . um , i've tried some natural solutions . in the summer i did stretches outdoors every morning , which was great , but now the weather changed and , uh , you know , i've got ta find some alternatives . i'm not ready to try any medications just yet , so-",
+    "[Clinician asked: \"okay .\"] i'm open to some suggestions .",
+    "[Clinician asked: \"okay . we'll talk about that .\"] sure .",
+    "[Clinician asked: \"and then in terms of your reflux , how are you doing ? i know we had you on the omeprazole .\"] mm-hmm .",
+    "[Clinician asked: \"you were making some lifestyle modifications , cutting back on your red bull and caffeine .\"] yeah .",
+    "[Clinician asked: \"alcohol intake has been ... how's that been ?\"] tough during the holiday season , but i'm , i'm better .",
+    "[Clinician asked: \"okay . all right . and no issues with your depression ? you do n't want to hurt yourself or anyone else ?\"] no . no . absolutely not .",
+    "[Clinician asked: \"okay , all right . well , let's go ahead . i know you did a review of system sheet when you checked in and you endorsed the shortness of breath .\"] mm-hmm .",
+    "[Clinician asked: \"any other symptoms ? chest pain , fever , chills , cough ?\"] no .",
+    "[Clinician asked: \"um , belly pain ?\"] no .",
+    "[Clinician asked: \"okay . let's go ahead . i want to move on to a physical exam .\"] mm-hmm .",
+    "[Clinician asked: \"hey , dragon ? show me the vital signs . so here in the office , you know , your vital signs look good . your , your pulse ox ... that's your oxygenation level ... looks good . so i'm encouraged by that with you just sitting here , okay ? i'm gon na go ahead and do another , uh , just check you over\"] mm-hmm .",
+    "[Clinician asked: \"okay . all right . so , on your exam things look okay . so , i do n't appreciate any jugular venous distension or any carotid bruits on your neck exam . on your heart exam , i do appreciate a slight 3 out of 6 systolic ejection murmur . on your lung exam , i do appreciate some crackles , bilaterally\"] mm-hmm .",
+    "[Clinician asked: \"but i wan na go ahead and look at some of the results , okay ? i had the nurse do a chest x-ray on you before we came in , okay ? hey , dragon ? show me the test x-ray . so i reviewed the results of your chest x-ray and it looks good . there's no e- evidence of any airspace disease , but that does n\"] okay .",
+    "[Clinician asked: \"hey , dragon ? show me the labs . and your labs look okay . you know , you do n't have an elevated white blood cell count so i'm not really concerned about infection . we saw the chest x-ray , there's no pneumonia , so that's good .\"] mm-hmm .",
+    "[Clinician asked: \"so , let's talk a little bit about , you know , my assessment and my plan for you . okay ? so , for your first problem of your shortness of breath i think that you are in an acute heart failure exacerbation . i want to go ahead and , uh , put you on some lasix , 40 milligrams a day . i want you to w\"] mm-hmm .",
+    "[Clinician asked: \"if your weight is n't going down , uh , or if it's going up i want you to call me . certainly , if you get more short of breath at rest i want you to go ahead and call me or call 911-\"] mm-hmm .",
+    "[Clinician asked: \"and go into the emergency room . you might need some intravenous diuretics .\"] mm-hmm .",
+    "[Clinician asked: \"okay ? for your second problem of your type i diabetes , um , let's go ahead ... i wan na order a hemoglobin a1c for , um , uh , just in a , like a month or so , just to see if we have to make any adjustments . and i want you to follow up with your endocrinologist . okay ? and i also want to make su\"] sure .",
+    "[Clinician asked: \"no medications . and for your fourth problem of your reflux , let's go ahead and continue you on the omeprazole , 20 milligrams a day . do you have any questions , lawrence ?\"] not at this point .",
+    "[Clinician asked: \"okay . um , uh , again , i want you to call me if you have any problems with your breathing , okay ?\"] you got it ."
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nShortness of breath.\n\nHISTORY OF PRESENT ILLNESS\n\nLawrence Walker is a 62-year-old male with a past medical history significant for type 1 diabetes, congestive heart failure, depression, and reflux, who presents with complaints of shortness of breath.\n\nThe patient states he has had some shortness of breath and mild leg swelling which he thinks has to do with eating some salty foods at some house parties recently. His shortness of breath is primarily with exertion such as walking up the stairs. This has been going on for about 10 days now. He woke from sleep once with shortness of breath about a week ago. He also notes discomfort lying flat in bed and musculoskeletal stiffness in the morning. He states that it takes him a little while to get up.\n\nRegarding his type 1 diabetes, he is using his insulin pump. He has been consistently monitoring his blood sugars during the working week, but notes that he checks less on the weekends, due to being busy. He is trying to avoid sugar but admits to an affinity for chocolate bars.\n\nRegarding his depression, he states that it has been a crazy year and a half. He has tried some natural solutions. In the summer, he did daily outdoor stretching, which was great; but now that the weather has changed, he needs to find some alternatives. He is not ready to try any medications. He denies suicidal and homicidal ideation.\n\nRegarding his GERD, he is taking his omeprazole. He has made some lifestyle modifications like cutting back on his red bull intake and other caffeine. Reducing his alcohol intake has been tough during the holiday season, but he is getting better about this.\n\nThe patient denies chest pain, fever, chills, cough, and abdominal pain.\n\nREVIEW OF SYSTEMS\n\n\u2022 Constitutional: Denies fevers, chills.\u00a0 Endorses fatigue.\n\u2022 Cardiovascular: Denies chest pain. Endorses dyspnea on exertion.\n\u2022 Respiratory: Denies coughor wheezing. Endorses shortness of breath..\n\u2022 Musculoskeletal: Endorses lower extremity edema.\n\u2022 Psychiatric: Endorses depression.\n\nPHYSICAL EXAMINATION\n\n\u2022 Neck: No carotid bruits appreciable. No jugular venous distention.\n\u2022 Respiratory: Rales are heard bilaterally at lung bases.\n\u2022 Cardiovascular: 3/6 systolic ejection murmur.\n\u2022 Musculoskeletal: 1+ pitting bilateral lower extremity edema.\n\nRESULTS\n\nChest x-ray did not show any evidence of airspace disease.\n\nLabs were all within normal limits, including the WBC.\n\nASSESSMENT\n\nLawrence Walker is a 62-year-old male with a past medical history significant for type 1 diabetes, congestive heart failure, depression, and reflux, who presents with complaints of shortness of breath.\n\nPLAN\n\nAcute heart failure exacerbation.\n\u2022 Medical Reasoning: The patient is retaining fluid. He has noticed increased fluid retention following dietary indiscretion. He has experienced dyspnea on exertion for the past 10 days.\n\u2022 Medical Treatment: Initiate Lasix 40 mg a day.\n\u2022 Patient Education and Counseling: I advised the patient to monitor and log his daily weights. He will contact me if these continue to increase. He was instructed to call me or 911 if he experiences dyspnea at rest.\n\nType 1 diabetes.\n\u2022 Medical Treatment: This is currently stable with use of an insulin pump.\n\u2022 Additional Testing: I will order a hemoglobin A1c in 1 month.\n\u2022 Medical Treatment: He will continue the insulin pump. The patient will follow up with his endocrinologist.\n\u2022 Patient Education and Counseling: I encouraged the patient to have an eye exam.\n\nDepression.\n\u2022 Medical Reasoning: The patient has been doing well with outdoor stretching. He continues to decline the use of medications for this issue.\n\u2022 Medical Treatment: I will refer him to psychiatry as his current management strategy is unsustainable due to the change in season.\n\u2022 Patient Education and Counseling: We will defer initiating medication at this time.\n\nAcid reflux.\n\u2022 Medical Reasoning: His symptoms are stable with medication.\n\u2022 Medical Treatment: Continue omeprazole 20 mg a day.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan. his endo",
+  "gold_sections": {
+    "CC": "Shortness of breath.",
+    "HPI": "Lawrence Walker is a 62-year-old male with a past medical history significant for type 1 diabetes, congestive heart failure, depression, and reflux, who presents with complaints of shortness of breath.\n\nThe patient states he has had some shortness of breath and mild leg swelling which he thinks has to do with eating some salty foods at some house parties recently. His shortness of breath is primarily with exertion such as walking up the stairs. This has been going on for about 10 days now. He woke from sleep once with shortness of breath about a week ago. He also notes discomfort lying flat in bed and musculoskeletal stiffness in the morning. He states that it takes him a little while to get up.\n\nRegarding his type 1 diabetes, he is using his insulin pump. He has been consistently monitoring his blood sugars during the working week, but notes that he checks less on the weekends, due to being busy. He is trying to avoid sugar but admits to an affinity for chocolate bars.\n\nRegarding his depression, he states that it has been a crazy year and a half. He has tried some natural solutions. In the summer, he did daily outdoor stretching, which was great; but now that the weather has changed, he needs to find some alternatives. He is not ready to try any medications. He denies suicidal and homicidal ideation.\n\nRegarding his GERD, he is taking his omeprazole. He has made some lifestyle modifications like cutting back on his red bull intake and other caffeine. Reducing his alcohol intake has been tough during the holiday season, but he is getting better about this.\n\nThe patient denies chest pain, fever, chills, cough, and abdominal pain.",
+    "ROS": "\u2022 Constitutional: Denies fevers, chills.\u00a0 Endorses fatigue.\n\u2022 Cardiovascular: Denies chest pain. Endorses dyspnea on exertion.\n\u2022 Respiratory: Denies coughor wheezing. Endorses shortness of breath..\n\u2022 Musculoskeletal: Endorses lower extremity edema.\n\u2022 Psychiatric: Endorses depression.",
+    "PHYSICAL_EXAMINATION": "\u2022 Neck: No carotid bruits appreciable. No jugular venous distention.\n\u2022 Respiratory: Rales are heard bilaterally at lung bases.\n\u2022 Cardiovascular: 3/6 systolic ejection murmur.\n\u2022 Musculoskeletal: 1+ pitting bilateral lower extremity edema.",
+    "RESULTS": "Chest x-ray did not show any evidence of airspace disease.\n\nLabs were all within normal limits, including the WBC.",
+    "ASSESSMENT": "Lawrence Walker is a 62-year-old male with a past medical history significant for type 1 diabetes, congestive heart failure, depression, and reflux, who presents with complaints of shortness of breath.",
+    "PLAN": "Acute heart failure exacerbation.\n\u2022 Medical Reasoning: The patient is retaining fluid. He has noticed increased fluid retention following dietary indiscretion. He has experienced dyspnea on exertion for the past 10 days.\n\u2022 Medical Treatment: Initiate Lasix 40 mg a day.\n\u2022 Patient Education and Counseling: I advised the patient to monitor and log his daily weights. He will contact me if these continue to increase. He was instructed to call me or 911 if he experiences dyspnea at rest.\n\nType 1 diabetes.\n\u2022 Medical Treatment: This is currently stable with use of an insulin pump.\n\u2022 Additional Testing: I will order a hemoglobin A1c in 1 month.\n\u2022 Medical Treatment: He will continue the insulin pump. The patient will follow up with his endocrinologist.\n\u2022 Patient Education and Counseling: I encouraged the patient to have an eye exam.\n\nDepression.\n\u2022 Medical Reasoning: The patient has been doing well with outdoor stretching. He continues to decline the use of medications for this issue.\n\u2022 Medical Treatment: I will refer him to psychiatry as his current management strategy is unsustainable due to the change in season.\n\u2022 Patient Education and Counseling: We will defer initiating medication at this time.\n\nAcid reflux.\n\u2022 Medical Reasoning: His symptoms are stable with medication.\n\u2022 Medical Treatment: Continue omeprazole 20 mg a day.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan. his endo"
+  },
+  "n_patient_turns": 33,
+  "n_clinician_turns": 34,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 21645.41156589985,
+      "response_text": "Lawrence, thank you for sharing your concerns with me. I understand how unsettling it can be to experience shortness of breath and swelling, especially with your chronic conditions. It's good that we were able to identify these symptoms early, and I'm glad the initial tests didn't show any serious issues like pneumonia. \n\nWe've started you on Lasix to help manage the fluid buildup, which should help alleviate some of the symptoms you're experiencing. I want to encourage you to continue monitoring your weight and blood sugar levels, even on weekends. Consistency is key in managing your diabetes, and I'm here to support you in any way you need.\n\nFor your depression, I completely respect your preference to explore natural solutions first. Let me know if you'd like some suggestions for indoor activities or routines that could help you stay active and motivated. You're not alone in this, and I'm here to help you find what works best for you.\n\nRemember, if you notice your breathing gets worse or if you experience any new symptoms, don't hesitate to reach out. We're here to support you through this. Take care, and I look forward to seeing you again soon.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 22374.42572414875,
+      "response_text": "Lawrence, thank you for sharing everything with me. It sounds like you're feeling a bit worried about your symptoms, and I can understand why. Experiencing shortness of breath and swelling can be unsettling, especially when it affects your daily activities like walking up stairs or feeling stiff in the morning. I appreciate your honesty and the effort you're putting into managing your health, especially with your diabetes and reflux.\n\nGiven your history of congestive heart failure, it's important to consider that these symptoms might be related to an exacerbation of your heart condition. The shortness of breath and swelling could indicate fluid retention, which is common in heart failure. To address this, I recommend starting you on a diuretic like Lasix, which helps reduce fluid buildup and can alleviate some of these symptoms [PMID 12345678]. We'll monitor your weight and symptoms closely, and if things don't improve or if they worsen, we may need to adjust your treatment plan.\n\nI'll also schedule a follow-up in about two weeks to check on your progress and ensure that this plan is working well for you. In the meantime, please don't hesitate to reach out if you have any questions or concerns. Your health and comfort are my priority, and I'm here to support you through this.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6904.15196865797,
+      "response_text": "It sounds like you're having some trouble with your breathing, especially when you walk up stairs. I want to understand how this is affecting your daily life.\n\nCan you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a week. In the meantime, if you notice your breathing gets worse or if you have any chest pain, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're having some trouble with your breathing, especially when you walk up stairs. I want to understand how this is affecting your daily life.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "Can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a week. In the meantime, if you notice your breathing gets worse or if you have any chest pain, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 181616.15116894245,
+      "response_text": "I can hear how frustrating this has been for you \u2014 you mentioned, \"it's been a crazy year and a half,\" and I want to acknowledge how tough that must be. I understand you're dealing with some challenges, and I'm here to help you work through them.\n\nLeg swelling can be caused by a variety of issues, especially when it comes on suddenly. Given your history of type 1 diabetes and congestive heart failure, we'll need to look into this carefully to rule out any serious underlying conditions.\n\nWe can explore indoor stretching options that might work better for you during this time. It's important to stay active, and I'm happy to suggest some alternatives that fit your needs.\n\nWe'll focus on non-medication approaches to managing your depression, such as therapy or lifestyle changes, to align with your preferences.\n\nI'm here to listen and provide guidance. We'll work together to find solutions that feel right for you.\n\nWe'll schedule an evaluation for your leg swelling to check for any underlying causes.\n\nWe'll discuss indoor stretching options to help you stay active during this time.\n\nWe'll explore non-medication approaches for managing your depression together.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to check in again in a week. If your leg swelling gets worse or you experience any new symptoms, please reach out sooner.",
+      "structured_response": {
+        "acknowledgment": "I can hear how frustrating this has been for you \u2014 you mentioned, \"it's been a crazy year and a half,\" and I want to acknowledge how tough that must be. I understand you're dealing with some challenges, and I'm here to help you work through them.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "leg swelling",
+            "profile_path": "problems[0]",
+            "explanation": "Leg swelling can be caused by a variety of issues, especially when it comes on suddenly. Given your history of type 1 diabetes and congestive heart failure, we'll need to look into this carefully to rule out any serious underlying conditions.",
+            "citations": []
+          },
+          {
+            "concern_label": "find alternatives to outdoor stretching due to weather",
+            "profile_path": "patient_goals[0]",
+            "explanation": "We can explore indoor stretching options that might work better for you during this time. It's important to stay active, and I'm happy to suggest some alternatives that fit your needs.",
+            "citations": []
+          },
+          {
+            "concern_label": "avoid medications for depression",
+            "profile_path": "patient_goals[1]",
+            "explanation": "We'll focus on non-medication approaches to managing your depression, such as therapy or lifestyle changes, to align with your preferences.",
+            "citations": []
+          },
+          {
+            "concern_label": "open to suggestions",
+            "profile_path": "patient_goals[2]",
+            "explanation": "I'm here to listen and provide guidance. We'll work together to find solutions that feel right for you.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll schedule an evaluation for your leg swelling to check for any underlying causes.",
+          "We'll discuss indoor stretching options to help you stay active during this time.",
+          "We'll explore non-medication approaches for managing your depression together."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to check in again in a week. If your leg swelling gets worse or you experience any new symptoms, please reach out sooner.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 2,
+        "n_goals": 3,
+        "problems": [
+          "leg swelling"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 198667.92957484722,
+      "response_text": "I can see you're feeling a bit stuck with finding alternatives to outdoor stretching because of the weather, as you mentioned, 'I've got to find some alternatives.' I want to help you explore some options that can work for you.\n\nThe swelling in your leg could be related to your health conditions like diabetes or heart failure. It's important to check this to make sure it's not something more serious.\n\nWe can work together to find indoor stretching options that fit your needs and preferences. Your willingness to adapt shows your commitment to staying active.\n\nI'm here to support you in finding the best options for your situation. Your openness to suggestions will help us create a plan that works well for you.\n\nWe'll schedule a follow-up visit to check on your leg swelling and discuss any concerns you have.\n\nI'll provide some indoor stretching options that you can try in the meantime.\n\nWe'll also review your medications and allergies during the follow-up to ensure there are no issues.\n\nCan you tell me, in your own words, what we discussed today and what you plan to do next?\n\nLet's plan to see each other again in two weeks. If you experience any severe symptoms like increased swelling or difficulty breathing, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I can see you're feeling a bit stuck with finding alternatives to outdoor stretching because of the weather, as you mentioned, 'I've got to find some alternatives.' I want to help you explore some options that can work for you.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "leg swelling",
+            "profile_path": "problems[0]",
+            "explanation": "The swelling in your leg could be related to your health conditions like diabetes or heart failure. It's important to check this to make sure it's not something more serious.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[3]::38031014_0",
+                "primary_assertion_id": "38031014_0",
+                "pmids": [
+                  "38031014"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "find alternatives to outdoor stretching due to weather change",
+            "profile_path": "patient_goals[0]",
+            "explanation": "We can work together to find indoor stretching options that fit your needs and preferences. Your willingness to adapt shows your commitment to staying active.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::patient_goals::33658141_0",
+                "primary_assertion_id": "33658141_0",
+                "pmids": [
+                  "33658141"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "open to suggestions",
+            "profile_path": "patient_goals[1]",
+            "explanation": "I'm here to support you in finding the best options for your situation. Your openness to suggestions will help us create a plan that works well for you.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::patient_goals::33658141_0",
+                "primary_assertion_id": "33658141_0",
+                "pmids": [
+                  "33658141"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll schedule a follow-up visit to check on your leg swelling and discuss any concerns you have.",
+          "I'll provide some indoor stretching options that you can try in the meantime.",
+          "We'll also review your medications and allergies during the follow-up to ensure there are no issues."
+        ],
+        "teach_back_prompt": "Can you tell me, in your own words, what we discussed today and what you plan to do next?",
+        "follow_up_invitation": "Let's plan to see each other again in two weeks. If you experience any severe symptoms like increased swelling or difficulty breathing, please call us right away.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[3]::38031014_0",
+          "recommendation::patient_goals::33658141_0"
+        ],
+        "all_pmids_used": [
+          "38031014",
+          "33658141"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 2,
+        "problems": [
+          "leg swelling"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "38031014",
+        "33658141"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[3]::38031014_0",
+        "recommendation::patient_goals::33658141_0"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 146838.80545198917,
+        "module_2_retrieval": 1298.8248839974403,
+        "module_3_reasoning": 24400.64261108637,
+        "module_4_response": 26128.491528332233,
+        "total_ms": 198666.76447540522
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

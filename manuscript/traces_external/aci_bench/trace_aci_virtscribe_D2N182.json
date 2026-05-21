@@ -1,0 +1,281 @@
+{
+  "transcript_id": "aci_virtscribe_D2N182",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "not too bad . and yourself ?",
+  "patient_utterances": [
+    "[Clinician asked: \"next patient is michelle king . date of birth : 05/07/1982 . please use toc template . she was admitted to district regional hospital on 06/29/2021 , and was discharged on 07/02/2021 . the patient is a 39-year-old female with history of quadriplegia due to , uh , prior spinal cord injury . she was e\"] not too bad . and yourself ?",
+    "[Clinician asked: \"i'm good , thanks . so , it looks like you had an infection , right ?\"] yeah . but you know , i really do n't think it was a uti .",
+    "[Clinician asked: \"okay .\"] i told them when i went to the er ... is that your phone ?",
+    "[Clinician asked: \"it is , yeah . it listens to you and me and it does all of my documentation . it's pretty good stuff . um , tell me what's going on .\"] it is , in my humble opinion , that i was just constipated and that was what was causing my blood pressure to be so high . and i hardly pooped when i was there . then when i got home i had a massive poop and i felt much better . i told them that when i was admitted , and they did x-rays and everything , but they said , \" no , \" as they did n't think that was n't ... that was it . but you know , i felt so much better when i got home and finally pooped .",
+    "[Clinician asked: \"okay . um , and the white cell count was the only thing that i think they were kind of concerned about because it was a little high .\"] so i wondered if automatic dysreflexia can affect the white count ?",
+    "[Clinician asked: \"typically , it does n't .\"] okay .",
+    "[Clinician asked: \"but , i mean , when i looked at the urine cultures that they checked , the cultures are not very impressive .\"] yeah , that's what they said .",
+    "[Clinician asked: \"and when i go back and look , sometimes your white count is just elevated a little bit , and last year it was normal , so ...\"] hm .",
+    "[Clinician asked: \"but in saying that , you know , inflammation can do that . so , yeah , you could be backed up and inflamed .\"] yeah .",
+    "[Clinician asked: \"uh , they did n't do a cat scan , they just did an x-ray . but you feel like you're back to your normal self now ?\"] yeah . i mean , i went in because i knew my blood pressure was out of control .",
+    "[Clinician asked: \"mm-hmm .\"] it was giving me a headache and making me throw up . and i know , at that point , i'm at the loss of what i can do at home .",
+    "[Clinician asked: \"yeah , it was good that you went in .\"] so i went in and they made me feel better , and then i went home , as you know .",
+    "[Clinician asked: \"well , maybe that's all it was .\"] yeah .",
+    "[Clinician asked: \"so you're doing good otherwise ?\"] yes , i am .",
+    "[Clinician asked: \"good . let me take a quick listen to you .\"] okay .",
+    "[Clinician asked: \"all right . go ahead and take a few deep breaths . and breathe normally . now take several deep breaths . and two more . okay , good . you can relax . any pain or discomfort anywhere ?\"] nope .",
+    "[Clinician asked: \"great . so here are my thoughts .\"] okay .",
+    "[Clinician asked: \"you may recall it was extremely hot during that period leading up to you going to the hospital . i do n't know if you were inside for the most part ?\"] yeah , it was pretty hot , was n't it ? and i go out a bit , but i do tend to stay in more when it's hot .",
+    "[Clinician asked: \"okay . well , if you do get dehydrated even just a little bit it can lead to further , um , or worsening constipation issues .\"] mm-hmm .",
+    "[Clinician asked: \"i've had a lot of patients over the last couple of weeks coming in with just weird stuff , and i blame that a little bit on how hot and humid it was the last two weeks of june . so what i would do is wait a couple of weeks and then , if you could , come back in and we could do some , uh , complete b\"] okay .",
+    "[Clinician asked: \"and it should normalize , but it's too soon to do it now . um , but maybe if i put some labs in you could come in in two to three weeks ?\"] sure , i can do that .",
+    "[Clinician asked: \"great . so that appointment will let us kill a bird ... two birds with one stone since you're due to get blood work anyways for cholesterol .\"] okay .",
+    "[Clinician asked: \"and then , i just wanted to make sure that the white count is okay , because if it remains elevated then that means there's something else going on with your bowels .\"] mm-hmm .",
+    "[Clinician asked: \"i do n't think that's what we'll find , but we'll see .\"] i mean , i knew going in that i had n't had a regular bowel movement in a while , even though i drink the miralax every day .",
+    "[Clinician asked: \"yeah .\"] when i do n't go , i double up on that .",
+    "[Clinician asked: \"have i ever given you lactulose ? it would be a medicine you use in , um , conjunction with miralax . sort of a rescue type thing .\"] is that the stuff that comes in a bottle ?",
+    "[Clinician asked: \"yes .\"] then , yes . i have it . it takes about two days to work and then it's a brutal two days .",
+    "[Clinician asked: \"got it . yeah , it can be a little rough , but it works .\"] yeah .",
+    "[Clinician asked: \"all right . so we have our plan . any questions ?\"] yeah , well , i would like to talk to you about covid , if we can .",
+    "[Clinician asked: \"sure . so where are you at when it comes to the vaccine ?\"] i am unvaccinated .",
+    "[Clinician asked: \"so what are your concerns about the vaccine ?\"] well , we do n't know the side effects .",
+    "[Clinician asked: \"correct , we do n't .\"] it's too soon to tell the side effects , and i'm hearing more and more reports of people getting what's now termed as \" vaccine injury \" .",
+    "[Clinician asked: \"right .\"] which i had never heard of before . i do n't know if it is a new term or not , but my take on the whole thing is that i'm young and healthy enough to beat it , even if my respiratory is limited . i also take a lot of vitamin c.",
+    "[Clinician asked: \"okay .\"] i also take multivitamins and i'm closely monitored . so i guess i do n't feel as though i really the vaccine .",
+    "[Clinician asked: \"well , my thoughts are that you actually should be vaccinated . i think you are high risk . if you get covid it's not going to be good for you .\"] okay .",
+    "[Clinician asked: \"and i think it's safe . i mean , i understand and hear you . all of these stories out there about this , uh , regarding the vaccine . but i've seen all the bad things that could happen from covid . people have died in my practice , and i do n't disagree that if you got covid you'd probably be okay .\"] yeah .",
+    "[Clinician asked: \"but i would consider you as someone that would make me a little bit concerned . i have had healthy people die from covid .\"] mm-hmm .",
+    "[Clinician asked: \"i've had some people get really , really sick from it . so personally , i believe that this vaccine is completely safe . i really think that .\"] all of them ?",
+    "[Clinician asked: \"yeah , i do , i do . i think there are side effects from all vaccines , so you have to go back and think about it . do you get flu shot every year ?\"] no , i do n't .",
+    "[Clinician asked: \"right , well , it's hard for me to convince you because you're making a consistent viewpoint .\"] well , i am open-minded to this .",
+    "[Clinician asked: \"mm-hmm . to me , it's , you know , a lot of the stuff out there is fear and most of us health providers have gotten the vaccine . we've seen what the virus can do . i also have gotten all of my kids vaccinated .\"] okay .",
+    "[Clinician asked: \"so i'm not concerned about the side effects of this . i do n't think it does anything . um , and we have vaccinated 50 % of the country .\"] mm-hmm .",
+    "[Clinician asked: \"the er is full of these vaccines .\"] i understand .",
+    "[Clinician asked: \"so there are definitely potential side effects to the vaccine . i mean , there's guillain-barre , and all these things that could happen from the vaccine , but they're just very rare . my thing for you is i'm not convinced that there's alternative stuff or even the treatment we have , like the monoc\"] well , that's what i'm here for .",
+    "[Clinician asked: \"yeah . right now the numbers are low . even with the delta variant , when it starts mutating , it's actually good because it becomes more contagious , but less deadly .\"] okay .",
+    "[Clinician asked: \"so that's what's gon na happen with covid . that's what's mo- most of the science supports and this is how most pandemics end , is that the virus starts losing its potency .\"] sure .",
+    "[Clinician asked: \"but think about it , and if you have any more questions you can certainly let me know , okay ?\"] will do .",
+    "[Clinician asked: \"all right . anything else we can discuss today ?\"] nope . i think i'm all set . thank you .",
+    "[Clinician asked: \"you're welcome . so we'll see you in two to three weeks . have a good rest of your day .\"] thanks , you too ."
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nTransition of care visit.\n\nHISTORY OF PRESENT ILLNESS\n\nMichelle King is a 39-year-old female who presents for a transition care visit. She was admitted to District Regional Hospital on 06/29/2021 and discharged on 07/02/2021.\n\nThe patient has a history quadriplegia from a prior spinal cord injury. She reported an increased concern for spasms, lightheadedness, headaches, significant constipation, and diaphoresis. Due to her uncontrolled blood pressure, headaches, and vomiting, she was evaluated in the emergency department. She was noted to be febrile, had a significantly elevated white blood cell count of 23,000, and labile blood pressure. Cultures were obtained and reviewed, with a urinary tract infection suspected. To note, the patient does require use of a suprapubic catheter. She was provided IV antibiotic therapy and was discharged after clinical improvement of her symptoms.\n\nToday, the patient states she is feeling good and claims that she does not think she had an infection. Instead, she believes she was just constipated and that was the cause of her elevated blood pressure. She states she did not have a bowel movement in the hospital and when she got home, she had a large bowel movement and felt better. She states that she told the medical team in the emergency room that she was constipated, but they did not feel that was the causative agent, although they did complete x-rays and additional tests. The patient reports taking MiraLAX consistently for her constipation and Lactulose as needed, which takes 2 days produce a bowel movement.\n\nThe patient has not received the COVID-19 vaccinations because she does not know the side effects. She reports taking vitamin C and a multivitamin and she does not feel the need for the vaccine even though her \u201crespiratory status is limited\u201d. The patient also denies receiving the flu vaccine.\n\nPAST HISTORY\n\nMedical\nQuadriplegia.\nSpinal cord injury.\nHypertension.\nChronic constipation.\nAutomatic dysreflexia.\n\nCURRENT MEDICATIONS\n\nMiraLAX as needed by mouth.\nLactulose as needed by mouth.\n\nASSESSMENT\n\n\u2022 Acute to chronic constipation.\n\u2022 Quadriplegia.\n\nPLAN\n\nAcute to chronic constipation\nShe believes that her hospitalization was more likely due to her constipation and dysreflexia from her quadriplegia. She had a lot of vital sign changes including blood pressure fluctuations. She feels like she has got a good bowel regimen. She does take MiraLAX consistently, and Lactulose for severe constipation. She feels like this was less likely a true urinary tract infection. However, we did have a good discussion regarding her leukocytosis. I would recommend in the next 3 or 4 weeks to come back in for some updated fasting labs and we will repeat the CBC and ensure that trends downwards.\n\nCOVID vaccine status\nAgain, she is hesitant. We had a good discussion. I recommend that the only real, true preventative mechanism for COVID is the vaccine. I do not believe that supplements are necessarily going to help stave this off. I would be concerned that she does not get vaccinated, I would consider her at high risk based on her quadriplegia status. She does not want to get COVID. However, she needs to make these decisions. She is somewhat homeopathic in some of her viewpoints.\n\nINSTRUCTIONS\n\nLabs pending at the time of discharge have been reviewed. Follow-up labs and appointments have been ordered.",
+  "gold_sections": {
+    "CC": "Transition of care visit.",
+    "HPI": "Michelle King is a 39-year-old female who presents for a transition care visit. She was admitted to District Regional Hospital on 06/29/2021 and discharged on 07/02/2021.\n\nThe patient has a history quadriplegia from a prior spinal cord injury. She reported an increased concern for spasms, lightheadedness, headaches, significant constipation, and diaphoresis. Due to her uncontrolled blood pressure, headaches, and vomiting, she was evaluated in the emergency department. She was noted to be febrile, had a significantly elevated white blood cell count of 23,000, and labile blood pressure. Cultures were obtained and reviewed, with a urinary tract infection suspected. To note, the patient does require use of a suprapubic catheter. She was provided IV antibiotic therapy and was discharged after clinical improvement of her symptoms.\n\nToday, the patient states she is feeling good and claims that she does not think she had an infection. Instead, she believes she was just constipated and that was the cause of her elevated blood pressure. She states she did not have a bowel movement in the hospital and when she got home, she had a large bowel movement and felt better. She states that she told the medical team in the emergency room that she was constipated, but they did not feel that was the causative agent, although they did complete x-rays and additional tests. The patient reports taking MiraLAX consistently for her constipation and Lactulose as needed, which takes 2 days produce a bowel movement.\n\nThe patient has not received the COVID-19 vaccinations because she does not know the side effects. She reports taking vitamin C and a multivitamin and she does not feel the need for the vaccine even though her \u201crespiratory status is limited\u201d. The patient also denies receiving the flu vaccine.",
+    "PAST_HISTORY": "Medical\nQuadriplegia.\nSpinal cord injury.\nHypertension.\nChronic constipation.\nAutomatic dysreflexia.",
+    "CURRENT_MEDICATIONS": "MiraLAX as needed by mouth.\nLactulose as needed by mouth.",
+    "ASSESSMENT": "\u2022 Acute to chronic constipation.\n\u2022 Quadriplegia.",
+    "PLAN": "Acute to chronic constipation\nShe believes that her hospitalization was more likely due to her constipation and dysreflexia from her quadriplegia. She had a lot of vital sign changes including blood pressure fluctuations. She feels like she has got a good bowel regimen. She does take MiraLAX consistently, and Lactulose for severe constipation. She feels like this was less likely a true urinary tract infection. However, we did have a good discussion regarding her leukocytosis. I would recommend in the next 3 or 4 weeks to come back in for some updated fasting labs and we will repeat the CBC and ensure that trends downwards.\n\nCOVID vaccine status\nAgain, she is hesitant. We had a good discussion. I recommend that the only real, true preventative mechanism for COVID is the vaccine. I do not believe that supplements are necessarily going to help stave this off. I would be concerned that she does not get vaccinated, I would consider her at high risk based on her quadriplegia status. She does not want to get COVID. However, she needs to make these decisions. She is somewhat homeopathic in some of her viewpoints.",
+    "INSTRUCTIONS": "Labs pending at the time of discharge have been reviewed. Follow-up labs and appointments have been ordered."
+  },
+  "n_patient_turns": 49,
+  "n_clinician_turns": 51,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 19939.10052627325,
+      "response_text": "Thank you for sharing your concerns with me, Michelle. I understand how frustrating it must have been to feel unwell and not immediately get the answers you needed. It\u2019s good to hear that you\u2019re feeling better now after being able to manage your constipation at home. We\u2019ll keep an eye on your health and schedule another check-up in a few weeks to ensure everything is on track.\n\nRegarding the COVID-19 vaccine, I completely understand your concerns. However, as someone who works closely with patients, I\u2019ve seen firsthand how serious the virus can be, even for those who are generally healthy. Given your situation, I believe the vaccine is especially important for you to protect against severe illness. I encourage you to consider the benefits and discuss any questions you have with your healthcare provider. We\u2019re here to support you in making the best decision for your health. Take care, and I look forward to seeing you soon.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 30922.761499881744,
+      "response_text": "Thank you for sharing your concerns and experiences, Michelle. It makes sense that you're feeling this way, especially after dealing with such high blood pressure and the constipation issues that impacted your health. I can understand how frustrating it must have been to feel unwell and not immediately get the answers you needed. It's commendable that you were able to improve once you got home and had a bowel movement, which shows how proactive you are in managing your health.\n\nI hear your concerns about the COVID-19 vaccine, and I appreciate you sharing your thoughts. It's completely valid to have questions and fears, especially with so much information out there. I want to address these concerns with the same care and empathy. While side effects can occur, they are generally rare, and the evidence strongly supports that the benefits of vaccination, particularly for someone with respiratory limitations like yours, far outweigh the risks. Many healthcare providers, including myself, have chosen to get vaccinated, and we believe it's a safe and effective way to protect yourself and others.\n\nLet's plan to check in with you in two to three weeks for your labs and blood work. This will help us monitor your health and address any lingering concerns. Before you leave, could you summarize our plan so I can ensure everything is clear? Also, feel free to ask any questions you have about the vaccine or your health during this visit. We're here to support you and address any concerns you may have.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7488.620139658451,
+      "response_text": "Thank you for sharing your concerns and experiences. It sounds like you've been through a lot, especially with the recent hospital stay and the challenges you faced.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in two to three weeks. In the meantime, if you experience any severe symptoms like difficulty breathing or a high fever, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns and experiences. It sounds like you've been through a lot, especially with the recent hospital stay and the challenges you faced.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in two to three weeks. In the meantime, if you experience any severe symptoms like difficulty breathing or a high fever, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 233855.387493968,
+      "response_text": "Thank you for sharing your concerns with me today. It sounds like you're dealing with a few different issues, and I want to make sure we address each one properly.\n\nTo determine the cause of your infection, we'll need to look into your symptoms and medical history. This will help us identify the appropriate treatment plan.\n\nConstipation can be managed with dietary changes and staying hydrated. Since it's resolved now, we'll keep an eye on it to prevent future occurrences.\n\nHeadaches can have various causes. We'll monitor your symptoms and consider further evaluation if they persist or worsen.\n\nWe'll schedule some tests to better understand the infection and its cause.\n\nSince your constipation is resolved, we'll focus on maintaining regular bowel movements through diet and hydration.\n\nWe'll keep track of your headaches and address them if they become more frequent or severe.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if you experience any severe symptoms or if your headaches get worse, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns with me today. It sounds like you're dealing with a few different issues, and I want to make sure we address each one properly.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "infection",
+            "profile_path": "problems[0]",
+            "explanation": "To determine the cause of your infection, we'll need to look into your symptoms and medical history. This will help us identify the appropriate treatment plan.",
+            "citations": []
+          },
+          {
+            "concern_label": "constipation",
+            "profile_path": "problems[1]",
+            "explanation": "Constipation can be managed with dietary changes and staying hydrated. Since it's resolved now, we'll keep an eye on it to prevent future occurrences.",
+            "citations": []
+          },
+          {
+            "concern_label": "headache",
+            "profile_path": "problems[2]",
+            "explanation": "Headaches can have various causes. We'll monitor your symptoms and consider further evaluation if they persist or worsen.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll schedule some tests to better understand the infection and its cause.",
+          "Since your constipation is resolved, we'll focus on maintaining regular bowel movements through diet and hydration.",
+          "We'll keep track of your headaches and address them if they become more frequent or severe."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if you experience any severe symptoms or if your headaches get worse, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 3,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "infection",
+          "constipation",
+          "headache"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 236084.81186628342,
+      "response_text": "I can see you're feeling frustrated about managing your situation at home. You mentioned, \"I'm at the loss of what I can do at home,\" which shows how challenging this must be for you.\n\nConstipation during your hospital stay can be linked to several factors, including limited mobility. The interventions you've tried at home, like pooping at home leading to improvement, suggest that changes in routine or environment can help manage this issue.\n\nWe'll review your interventions to better understand what works for you and develop a plan tailored to your needs.\n\nWe'll also discuss strategies to manage constipation more effectively in the future.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to review your progress in 2 weeks. If you experience any severe symptoms like increased pain or constipation getting worse, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I can see you're feeling frustrated about managing your situation at home. You mentioned, \"I'm at the loss of what I can do at home,\" which shows how challenging this must be for you.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "constipation",
+            "profile_path": "problems[0]",
+            "explanation": "Constipation during your hospital stay can be linked to several factors, including limited mobility. The interventions you've tried at home, like pooping at home leading to improvement, suggest that changes in routine or environment can help manage this issue.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::sub_query[1]::40074630_1",
+                "primary_assertion_id": "40074630_1",
+                "pmids": [
+                  "40074630"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll review your interventions to better understand what works for you and develop a plan tailored to your needs.",
+          "We'll also discuss strategies to manage constipation more effectively in the future."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to review your progress in 2 weeks. If you experience any severe symptoms like increased pain or constipation getting worse, please call us right away.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "recommendation::sub_query[1]::40074630_1"
+        ],
+        "all_pmids_used": [
+          "40074630"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 0,
+        "problems": [
+          "constipation"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "40074630"
+      ],
+      "cluster_ids_used": [
+        "recommendation::sub_query[1]::40074630_1"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 165888.58690857887,
+        "module_2_retrieval": 855.5488511919975,
+        "module_3_reasoning": 52569.228768348694,
+        "module_4_response": 16770.46575397253,
+        "total_ms": 236083.8302820921
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

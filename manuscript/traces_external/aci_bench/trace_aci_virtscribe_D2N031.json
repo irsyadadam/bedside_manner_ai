@@ -1,0 +1,124 @@
+{
+  "transcript_id": "aci_virtscribe_D2N031",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "hi . yes , that's me .",
+  "patient_utterances": [
+    "[Clinician asked: \"hello , ms. brown .\"] hi . yes , that's me .",
+    "[Clinician asked: \"wonderful . i'm doctor stewart . it's lovely to meet you .\"] you as well .",
+    "[Clinician asked: \"so , you've come to see me today because you had a right breast lumpectomy last year . is that right ?\"] yes . on january 20th , 2020 .",
+    "[Clinician asked: \"okay . and how have you been since then ? any problems or concerns ?\"] no , i'm feeling good . i do my self breast exams religiously now and have n't felt anything since .",
+    "[Clinician asked: \"perfect . i want to back up and go over your history so i can make sure everything in your chart is correct and i do n't miss anything . so , i'll tell you what we have in your chart from your other providers and you tell me if anything is wrong or missing . sound good ?\"] sounds good .",
+    "[Clinician asked: \"great . so , i have that you were found to have a calcification in your right breast during a mammogram in october 2019 . was that just a normal screening mammogram , or was it done because you felt a lump ?\"] it was just a normal one you're supposed to get every so often .",
+    "[Clinician asked: \"i see . and then it looks like you had an ultrasound of your right breast on november 3rd , 2019 , which revealed a mass at the two o'clock position , 11 centimeters from the nipple in the retroareolar region . the report states the mass was point four by two by three centimeters .\"] yes , that sounds right . hard to remember now , though .",
+    "[Clinician asked: \"based on those results , they decided to do an ultrasound-guided core needle biopsy on december 5th , 2019 . pathology results during that biopsy came back as grade two , er positive , pr positive , dcis , or ductal carcinoma in situ .\"] yes . unfortunately .",
+    "[Clinician asked: \"i know . scary stuff . but you had a lumpectomy on january 20th , 2020 , which removed the eight millimeter tumor and margins were negative . the pathology confirmed dcis . looks like they also removed 5 lymph nodes , which , thankfully , were negative for malignancy . that's great !\"] yeah , i was definitely very relieved .",
+    "[Clinician asked: \"and your last mammogram was in january 2021 ? and that was normal .\"] yes .",
+    "[Clinician asked: \"okay . so , i feel like i have a good grasp of what's been going on with you now . and you're here today to establish care with me so i can continue to follow you and make sure you're doing well , right ?\"] yes . fingers crossed .",
+    "[Clinician asked: \"definitely . we'll keep a close eye on you and take good care of you .\"] okay , sounds good .",
+    "[Clinician asked: \"i have a few more questions for you . when was your last colonoscopy ?\"] i had one in 2018 and , if i remember correctly , i had one polyp and that was removed and it was n't cancerous .",
+    "[Clinician asked: \"okay , yes , i see that report now . one polyp in the sigmoid colon which had a benign tubular adenoma . okay . and when was your last menstrual period ?\"] gosh . it was probably around 30 years ago .",
+    "[Clinician asked: \"okay . do you have children ?\"] i do . i have five .",
+    "[Clinician asked: \"ah , big family then . that's nice .\"] yes . and they're all having kids of their own now , so it's getting even bigger .",
+    "[Clinician asked: \"i bet . sounds like fun .\"] it is .",
+    "[Clinician asked: \"did you have any other pregnancies that were miscarriages or terminations ?\"] really , i did not .",
+    "[Clinician asked: \"okay . so for the record , that's g5 p5 . and now that you're post-menopausal , are you currently or have you ever been on hormone replacement therapy ?\"] my primary care doctor gave me the option years ago but i decided against it .",
+    "[Clinician asked: \"okay . and on your review systems form , you indicated that you've not had any recent weight loss or gain , headaches , bone pain , urinary symptoms , or blood in the stools . but you did indicate that you have some back pain , joint pain , and high cholesterol . tell me some more about those .\"] okay . so i've seen doctors for all of those . they've said , excuse me , the back and knee pain are age-related . and the cholesterol is a fairly new diagnosis , but i am working on exercise and cutting back on fatty foods to see if i can get it lower without any medication .",
+    "[Clinician asked: \"okay . and your primary care doctor is following you for that , right ?\"] that's correct .",
+    "[Clinician asked: \"okay . for medications , i have that you take coq10 , vitamin d , vitamin c , fish oil , and elderberry fruit . is that all right ?\"] yes , and that's all .",
+    "[Clinician asked: \"okay . so for your medical history , it's high cholesterol and stage 0 er/pr positive invasive ductal carcinoma of the right breast . any surgeries other than the lumpectomy ?\"] i did have my tubes tied after my last baby , but that's all .",
+    "[Clinician asked: \"okay . and how about family history ?\"] my mom had non-hodgkin's lymphoma and my dad had prostate cancer and heart disease , but i think that's it .",
+    "[Clinician asked: \"all right . any family history of breast cancer ?\"] none .",
+    "[Clinician asked: \"did any of your children have medical issues or siblings with medical problems ?\"] i do not have any siblings and , thankfully , my children are all healthy .",
+    "[Clinician asked: \"wonderful . do you have any history of smoking , illicit drug use , heavy alcohol consumption ?\"] no drugs . i do drink socially , but never more than that . and i used to smoke , but really , everybody did back then and i probably quit about 30 years ago .",
+    "[Clinician asked: \"excellent . i have that you're allergic to penicillin . any other allergies ?\"] nope , just penicillin .",
+    "[Clinician asked: \"do you have ... did you have radiation after the lumpectomy ?\"] i did . we also talked about endocrine therapy , but i decided against that .",
+    "[Clinician asked: \"okay . so your exam looks good , no masses , just some skin changes from that radiation . now , let's go over the plan for you .\"] okay , sounds good .",
+    "[Clinician asked: \"so , based on all of that , we can just continue to observe you .\"] okay . that sounds great . and when do i come back in to see you ?",
+    "[Clinician asked: \"in a year , but you should have another mammogram in april of 2022 before you come back to see me .\"] okay , i can do that .",
+    "[Clinician asked: \"wonderful . i'm glad to see you doing so well . do you have any questions or concerns i can address for you today ?\"] i do n't think so .",
+    "[Clinician asked: \"okay , great . my nurse will be in shortly to discharge you . take care !\"] you as well ."
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nHistory of right ductal carcinoma in situ (DCIS).\n\nHISTORY OF PRESENT ILLNESS\n\nSophia Brown is a 75 y.o. female who presents today for a new patient evaluation due to her history of right DCIS. She is doing well but wishes to establish care today for continued monitoring.\n\nThe patient underwent a screening mammogram in 10/2019 and was found to have a calcification in the right breast. She then had a right breast ultrasound on 11/03/2019 which revealed a mass at the 2 o\u2019clock position, 11 cm from the nipple, in the retroareolar region. The report states the mass was 0.4 by 2.0 by 3.0 centimeters. She subsequently had an ultrasound-guided core needle biopsy on 12/05/2019 and pathology results revealed grade 2 ER-positive, PR-positive DCIS. The patient then had a lumpectomy with lymphadenectomy performed on 01/20/2020. The tumor was 8 mm with negative margins and the 5 lymph nodes removed were all benign. Pathology from the tumor confirmed DCIS. Her lumpectomy was followed by adjuvant radiation therapy. Endocrine therapy was also offered but the patient declined. She has since had a mammogram in 01/2021 which was normal. The patient also reports that she performs self-breast exams regularly at home.\n\nMrs. Brown is a G5P5 female and estimates that her last menstrual period was approximately 30 years ago. She is not currently and has never been on hormone replacement therapy.\n\nThe patient\u2019s last colonoscopy was done in 2018. She had a sigmoid polypectomy at that time and pathology showed a tubular adenoma.\n\nHer cholesterol was recently noted to be elevated and the patient reports that she is exercising and reducing fatty food intake accordingly. This is being followed by her primary care provider.\n\nPAST HISTORY\n\nMedical\nHypercholesterolemia.\nStage 0 ER/PR-positive invasive ductal carcinoma of the right breast, status post lumpectomy and adjuvant radiation therapy.\n\nSurgical\nRight lumpectomy, lymphadenectomy x5, 01/20/2020.\nBilateral tubal ligation.\n\nSOCIAL HISTORY\n\nAlcohol: Socially. No history of heavier consumption.\nIllicit drug use: Never.\nTobacco: Former smoker. Quit approximately 30 years ago.\nPatient has 5 children and multiple grandchildren.\n\nFAMILY HISTORY\n\nMother: Non-Hodgkin\u2019s lymphoma.\nFather: Prostate cancer, heart disease.\nHer children are healthy. She has no siblings. Denies family history of breast cancer.\n\nCURRENT MEDICATIONS\n\nCo-Q 10.\nVitamin D.\nVitamin C.\nFish oil.\nElderberry fruit.\n\nALLERGIES\n\nPenicillin.\n\nREVIEW OF SYSTEMS\n\nNegative for weight loss, weight gain, headaches, bone pain, urinary symptoms, blood in the stools.\nPositive for back pain, joint pain, high cholesterol. Patient has sought care for these complaints. She reports that she was told the back pain and joint pain (knee) are age-related. She is being followed for the high cholesterol by her primary care provider.\n\nPHYSICAL EXAM\n\nThe ECOG performance status today is grade 0.\nBreast: There are no palpable masses; however, there is some skin thickening at the medial inferior aspect of the right breast which may be radiation skin changes.\n\nASSESSMENT\n\nStage 0 ER/PR-positive invasive ductal carcinoma of the right breast.\nThe patient is status post lumpectomy with removal of 5 lymph nodes which were benign. She also underwent adjuvant radiation therapy but declined endocrine therapy. Today\u2019s clinical examination shows no evidence of recurrent disease or other malignancy. She also had a negative mammogram in 01/2021.\n\nPLAN\n\n1. We will continue to observe the patient.\n2. She is due for a mammogram in 04/2022.\n3. She should follow up with me in 1 year after the mammogram.",
+  "gold_sections": {
+    "CC": "History of right ductal carcinoma in situ (DCIS).",
+    "HPI": "Sophia Brown is a 75 y.o. female who presents today for a new patient evaluation due to her history of right DCIS. She is doing well but wishes to establish care today for continued monitoring.\n\nThe patient underwent a screening mammogram in 10/2019 and was found to have a calcification in the right breast. She then had a right breast ultrasound on 11/03/2019 which revealed a mass at the 2 o\u2019clock position, 11 cm from the nipple, in the retroareolar region. The report states the mass was 0.4 by 2.0 by 3.0 centimeters. She subsequently had an ultrasound-guided core needle biopsy on 12/05/2019 and pathology results revealed grade 2 ER-positive, PR-positive DCIS. The patient then had a lumpectomy with lymphadenectomy performed on 01/20/2020. The tumor was 8 mm with negative margins and the 5 lymph nodes removed were all benign. Pathology from the tumor confirmed DCIS. Her lumpectomy was followed by adjuvant radiation therapy. Endocrine therapy was also offered but the patient declined. She has since had a mammogram in 01/2021 which was normal. The patient also reports that she performs self-breast exams regularly at home.\n\nMrs. Brown is a G5P5 female and estimates that her last menstrual period was approximately 30 years ago. She is not currently and has never been on hormone replacement therapy.\n\nThe patient\u2019s last colonoscopy was done in 2018. She had a sigmoid polypectomy at that time and pathology showed a tubular adenoma.\n\nHer cholesterol was recently noted to be elevated and the patient reports that she is exercising and reducing fatty food intake accordingly. This is being followed by her primary care provider.",
+    "PAST_HISTORY": "Medical\nHypercholesterolemia.\nStage 0 ER/PR-positive invasive ductal carcinoma of the right breast, status post lumpectomy and adjuvant radiation therapy.\n\nSurgical\nRight lumpectomy, lymphadenectomy x5, 01/20/2020.\nBilateral tubal ligation.",
+    "SOCIAL_HISTORY": "Alcohol: Socially. No history of heavier consumption.\nIllicit drug use: Never.\nTobacco: Former smoker. Quit approximately 30 years ago.\nPatient has 5 children and multiple grandchildren.",
+    "FAMILY_HISTORY": "Mother: Non-Hodgkin\u2019s lymphoma.\nFather: Prostate cancer, heart disease.\nHer children are healthy. She has no siblings. Denies family history of breast cancer.",
+    "CURRENT_MEDICATIONS": "Co-Q 10.\nVitamin D.\nVitamin C.\nFish oil.\nElderberry fruit.",
+    "ALLERGIES": "Penicillin.",
+    "ROS": "Negative for weight loss, weight gain, headaches, bone pain, urinary symptoms, blood in the stools.\nPositive for back pain, joint pain, high cholesterol. Patient has sought care for these complaints. She reports that she was told the back pain and joint pain (knee) are age-related. She is being followed for the high cholesterol by her primary care provider.",
+    "PHYSICAL_EXAM": "The ECOG performance status today is grade 0.\nBreast: There are no palpable masses; however, there is some skin thickening at the medial inferior aspect of the right breast which may be radiation skin changes.",
+    "ASSESSMENT": "Stage 0 ER/PR-positive invasive ductal carcinoma of the right breast.\nThe patient is status post lumpectomy with removal of 5 lymph nodes which were benign. She also underwent adjuvant radiation therapy but declined endocrine therapy. Today\u2019s clinical examination shows no evidence of recurrent disease or other malignancy. She also had a negative mammogram in 01/2021.",
+    "PLAN": "1. We will continue to observe the patient.\n2. She is due for a mammogram in 04/2022.\n3. She should follow up with me in 1 year after the mammogram."
+  },
+  "n_patient_turns": 34,
+  "n_clinician_turns": 40,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 14692.065320909023,
+      "response_text": "Thank you, Ms. Brown, for sharing your detailed history with me. I can tell how much courage and resilience you\u2019ve shown through all of this. It\u2019s understandable that going through a breast cancer diagnosis and treatment can be very scary, but I\u2019m glad to hear that you\u2019re doing well now and that your margins and lymph nodes were negative. That\u2019s great news.\n\nMoving forward, we\u2019ll keep a close watch on your health. You should continue with your self-breast exams and make sure to have your mammogram in April 2022, as planned. I\u2019ll see you again in a year for a follow-up, but don\u2019t hesitate to reach out if you notice any changes or have any concerns in the meantime. You\u2019re doing a wonderful job taking care of yourself, and I\u2019m here to support you every step of the way. Take care, and I\u2019ll see you soon!",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 18576.39905810356,
+      "response_text": "Thank you for sharing your health journey with me. It\u2019s clear how diligent you\u2019ve been with your self-breast exams since your lumpectomy, which is a great proactive step. I can understand how relieved you must have felt after the negative margins and lymph nodes, knowing that everything was taken care of.\n\nGiven your history of ductal carcinoma in situ and your current health status, our focus will be on monitoring for any recurrence and maintaining your overall well-being. The plan is for you to have a mammogram in April 2022, followed by a visit with me a year from now. This approach aligns with standard surveillance practices for breast cancer survivors [PMID ?].\n\nBefore you leave, could you summarize what we discussed today? This will help ensure you understand the next steps and that I\u2019ve covered all your concerns. I\u2019m here if you have any questions or concerns in the meantime, and my nurse will be with you shortly to coordinate your discharge.\n\nTake care, and I look forward to seeing you in a year. You\u2019ve been through a lot, and it\u2019s wonderful to hear about your growing family. Keep up the great work with your health!",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7314.199484884739,
+      "response_text": "Thank you for sharing your health history with me. It sounds like you're doing well since your lumpectomy and that your recent mammogram was normal. I'm glad you're feeling good and continuing to do your self breast exams.\n\nCan you tell me, in your own words, what we discussed today and what you plan to do next?\n\nLet's plan to see each other again in a year. In the meantime, if you have any concerns or if your symptoms change, please reach out.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your health history with me. It sounds like you're doing well since your lumpectomy and that your recent mammogram was normal. I'm glad you're feeling good and continuing to do your self breast exams.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "Can you tell me, in your own words, what we discussed today and what you plan to do next?",
+        "follow_up_invitation": "Let's plan to see each other again in a year. In the meantime, if you have any concerns or if your symptoms change, please reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "error": "1 validation error for PatientConcernProfile\nproblems.0.associated_symptoms\n  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.13/v/list_type"
+    },
+    "full": {
+      "condition": "full",
+      "error": "1 validation error for PatientConcernProfile\nproblems.0.associated_symptoms\n  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.13/v/list_type"
+    }
+  },
+  "schema_version": "phase13.v1"
+}

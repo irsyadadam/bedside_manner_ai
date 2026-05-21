@@ -1,0 +1,413 @@
+{
+  "transcript_id": "aci_aci_D2N113",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "i'm doing okay i'm just really anxious about my recent blood work that my pcp did and said that i have hepatitis c i'm just really surprised",
+  "patient_utterances": [
+    "[Clinician asked: \"hi jacqueline how are you doing today\"] i'm doing okay i'm just really anxious about my recent blood work that my pcp did and said that i have hepatitis c i'm just really surprised because i've been feeling fine",
+    "[Clinician asked: \"okay so were you ever told in the past that you have hepatitis c\"] no never",
+    "[Clinician asked: \"okay and do do you have any history like iv drug use known that you know or do you have any known to have any like hepatitis c positive partners\"] i mean like years ago i used to party a lot and even use iv drugs but i've been clean for over fifteen years now",
+    "[Clinician asked: \"okay well very good you know congratulations on that that's that's a great great achievement so tell me though how about alcohol use\"] i used to drink a lot a lot more alcohol now i probably would say i drink about a beer a day",
+    "[Clinician asked: \"okay\"] and maybe slightly more on the weekends but nothing like how i used to",
+    "[Clinician asked: \"okay alright how about smoking have you ever smoked\"] i do smoke i'm down to one to two cigarettes a day it's just really been tough to just get rid of those two but i've cut down a lot i used to i was up to one point or a pack and a half a day",
+    "[Clinician asked: \"wow okay alright so yeah you you definitely have decreased that so that's again good for you on that one so hopefully you keep you keep that up\"] thing",
+    "[Clinician asked: \"so tell me do you have any other medication conditions\"] do i do i no otherwise i'm i'm feel pretty good i had my physical there was nothing else the the only thing i was telling my pcp is i do feel like tend to be really tired at the end of the day after working but otherwise i've been good",
+    "[Clinician asked: \"okay and and has work been not hard lately you've been busy it sounds like\"] i know i have been busy but not really much more than usual",
+    "[Clinician asked: \"okay\"] so that's why i was kind of marking because i mean i used to you know be able and be fine but i just lately have been feeling like i'm getting enough sleep but i still get very tired at the end of the day",
+    "[Clinician asked: \"okay alright well i hope you're not working too much and then you'll able to at least find some time with the family\"] yeah i'm i yeah i tend to be a workaholic but yes i i am working on that",
+    "[Clinician asked: \"okay well i hope kids are doing okay\"] they are thank you",
+    "[Clinician asked: \"okay good so tell me what conditions what kind of conditions run in your family like is there do you have hypertension diabetes or\"] yeah all of all of the above",
+    "[Clinician asked: \"okay\"] hypertension diabetes and also depression",
+    "[Clinician asked: \"okay and depression okay alright well let's go ahead and do a quick physical exam on you here i reviewed your vitals and everything there looks good so that's good and now on general appearance you appear in no distress and no jaundice on skin exam let me go ahead and listen to your heart here great\"] okay",
+    "[Clinician asked: \"alright now let me listen to your lungs here very good so your your lungs are clear with no wheezes rales or rhonchi and let me go ahead and listen to your abdomen great your bowel sounds are present your abdomen is soft with no hepatospleno splenomegaly ca n't talk to appreciated so let me now chec\"] okay",
+    "[Clinician asked: \"alright now i know that was a lot of information do you have any questions for me\"] yeah so should i be worried about my wife and my kids should they be tested as well",
+    "[Clinician asked: \"yes so we can start with the same screening that you have had for you for all of them first okay\"] okay alright so i'll make sure i'll have them set up an appointment with our our family doctor",
+    "[Clinician asked: \"okay great so if you do n't have any other questions i'm gon na have the nurse check you out and get all that scheduled and i'm gon na see you in about three weeks\"] alright perfect",
+    "[Clinician asked: \"alright\"] thank you",
+    "[Clinician asked: \"take care jacqueline\"] okay bye"
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nHepatitis C.\n\nSOCIAL HISTORY\n\nPatient reports personal history of intravenous drug use over 15 years ago. She is currently smoking 1-2 cigarettes per day, previously 1 to 1.5 packs per day. She also has a history of heavy alcohol use, but now drinks approximately 1 beer per day, more on the weekends.\n\nFAMILY HISTORY\n\nPatient reports family history significant for hypertension, diabetes, and depression.\n\nREVIEW OF SYSTEMS\n\nConstitutional: Reports fatigue.\n\nAll other systems were reviewed and are negative.\n\nVITALS\n\nVitals look good today.\n\nPHYSICAL EXAM\n\nConstitutional\n- General Appearance: in no apparent distress.\n\nRespiratory\n- Auscultation of Lungs: No wheezes, rales, or rhonchi.\n\nCardiovascular\n- Auscultation of Heart: Regular rate. 2/6 systolic ejection murmur, unchanged.\n\nGastrointestinal\n- Examination of Abdomen: No masses or tenderness. No hepatosplenomegaly.\n- Auscultation: Bowel sounds normal.\n\nMusculoskeletal\n- Examination: No edema.\n\nIntegumentary\n- Examination: No signs of jaundice.\n\nRESULTS\n\nHCV antibody: Positive\nAST: 39\nALT: Within normal limits\nAlbumin: Within normal limits\nBilirubin, total: Within normal limits\n\nASSESSMENT AND PLAN\n\n1. Hepatitis C.\n- Medical Reasoning: Her recent blood work revealed a positive HCV antibody. She does have a history of intravenous drug use, but she has not used drugs in over 15 years.\n- Patient Education and Counseling: We discussed the nature of hepatitis C in detail. I advised the patient to have her spouse and children tested for hepatitis C as well.\n- Medical Treatment: I'm going to order additional labs including a hepatitis C RNA and HCV genotype to confirm the diagnosis, as well as a Fibroscan to assess the severity of the condition.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.\n\nINSTRUCTIONS\n\nThe patient will follow up in 3 weeks.",
+  "gold_sections": {
+    "CC": "Hepatitis C.",
+    "SOCIAL_HISTORY": "Patient reports personal history of intravenous drug use over 15 years ago. She is currently smoking 1-2 cigarettes per day, previously 1 to 1.5 packs per day. She also has a history of heavy alcohol use, but now drinks approximately 1 beer per day, more on the weekends.",
+    "FAMILY_HISTORY": "Patient reports family history significant for hypertension, diabetes, and depression.",
+    "ROS": "Constitutional: Reports fatigue.\n\nAll other systems were reviewed and are negative.",
+    "VITALS": "Vitals look good today.",
+    "PHYSICAL_EXAM": "Constitutional\n- General Appearance: in no apparent distress.\n\nRespiratory\n- Auscultation of Lungs: No wheezes, rales, or rhonchi.\n\nCardiovascular\n- Auscultation of Heart: Regular rate. 2/6 systolic ejection murmur, unchanged.\n\nGastrointestinal\n- Examination of Abdomen: No masses or tenderness. No hepatosplenomegaly.\n- Auscultation: Bowel sounds normal.\n\nMusculoskeletal\n- Examination: No edema.\n\nIntegumentary\n- Examination: No signs of jaundice.",
+    "RESULTS": "HCV antibody: Positive\nAST: 39\nALT: Within normal limits\nAlbumin: Within normal limits\nBilirubin, total: Within normal limits",
+    "ASSESSMENT_PLAN": "1. Hepatitis C.\n- Medical Reasoning: Her recent blood work revealed a positive HCV antibody. She does have a history of intravenous drug use, but she has not used drugs in over 15 years.\n- Patient Education and Counseling: We discussed the nature of hepatitis C in detail. I advised the patient to have her spouse and children tested for hepatitis C as well.\n- Medical Treatment: I'm going to order additional labs including a hepatitis C RNA and HCV genotype to confirm the diagnosis, as well as a Fibroscan to assess the severity of the condition.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.",
+    "INSTRUCTIONS": "The patient will follow up in 3 weeks."
+  },
+  "n_patient_turns": 21,
+  "n_clinician_turns": 22,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 14912.021324038506,
+      "response_text": "Hello Jacqueline,\n\nI understand how surprised and concerned you must be after learning about your Hepatitis C diagnosis. It\u2019s natural to feel this way, but please know that many people live with this virus without experiencing symptoms, especially if it\u2019s been inactive for a long time. Your past efforts to lead a healthy lifestyle, like staying clean for over fifteen years, are commendable and can positively influence your health.\n\nYour family\u2019s health is important, and I recommend they get tested as well. Treatment options are available and effective, so there\u2019s no need to feel overwhelmed. I encourage you to take care of yourself and consider any necessary lifestyle adjustments at your own pace. If you have any questions or need support, please don\u2019t hesitate to reach out. We\u2019re here to help you through this.\n\nTake care, Jacqueline.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 24365.174286067486,
+      "response_text": "Jacqueline, I understand how surprised and worried you must be after learning about the Hepatitis C diagnosis. It\u2019s completely valid to feel this way, especially since you\u2019ve been feeling fine. I want to acknowledge your feelings and assure you that we\u2019re here to navigate this together.\n\nWe\u2019ll start by focusing on your health. It\u2019s good that you\u2019ve been honest about your past and current habits. While your lifestyle has improved, we\u2019ll keep an eye on your alcohol use and encourage you to continue reducing smoking. Regarding your family, it\u2019s wise to have them tested, especially if there\u2019s a possibility of exposure. Early detection is key for effective management.\n\nAs for your condition, Hepatitis C is treatable with modern antiviral therapies, which can clear the virus effectively [PMID ?]. We\u2019ll monitor your health closely and discuss the best treatment options for you. I\u2019ll schedule a follow-up in three weeks to check in on your progress and answer any questions you may have in the meantime.\n\nBefore you leave, could you summarize what we\u2019ve discussed today? This will help ensure you\u2019re clear on the next steps and that I\u2019ve addressed all your concerns.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6024.64047819376,
+      "response_text": "I'm here to help you with your concerns about your recent blood work and hepatitis C. It sounds like you're feeling surprised and anxious about this news.\n\nCan you tell me, in your own words, what we discussed today and what you plan to do next?\n\nLet's plan to check in again in a few weeks. If you have any new concerns or questions before then, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "I'm here to help you with your concerns about your recent blood work and hepatitis C. It sounds like you're feeling surprised and anxious about this news.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "Can you tell me, in your own words, what we discussed today and what you plan to do next?",
+        "follow_up_invitation": "Let's plan to check in again in a few weeks. If you have any new concerns or questions before then, please don't hesitate to reach out.",
+        "nurse_elements_applied": [],
+        "four_habits_elements_applied": [],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 318607.25735872984,
+      "response_text": "I can hear how much this has been weighing on you \u2014 you said, \"Should I be worried about my wife and my kids should they be tested as well.\" That's a real concern, and I want to make sure we address it properly.\n\nGiven your recent diagnosis and concerns about your family, we should consider screening your wife and children for hepatitis C, especially if they may have been exposed through shared needles or other risk factors.\n\nFatigue can be caused by many things, including stress or underlying health issues. We'll look into possible causes together.\n\nHigh blood pressure is a common condition, and we'll monitor it alongside your other concerns.\n\nDiabetes management is important, and we'll ensure it's addressed in your care plan.\n\nWe'll assess your mental health to provide appropriate support.\n\nYour concerns about your family's health are valid, and we'll address them as part of your care plan.\n\nWe'll schedule a time to discuss your concerns about your family's health and determine the appropriate next steps for screening.\n\nWe'll monitor your fatigue and other symptoms to identify any underlying causes.\n\nWe'll review your high blood pressure and diabetes management plans together.\n\nWe'll assess your mental health to provide the necessary support.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if you have any new concerns or symptoms, please reach out.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this has been weighing on you \u2014 you said, \"Should I be worried about my wife and my kids should they be tested as well.\" That's a real concern, and I want to make sure we address it properly.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "hepatitis C",
+            "profile_path": "problems[0]",
+            "explanation": "Given your recent diagnosis and concerns about your family, we should consider screening your wife and children for hepatitis C, especially if they may have been exposed through shared needles or other risk factors.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::41466386",
+                "primary_assertion_id": "41466386_retr",
+                "pmids": [
+                  "41466386"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "fatigue",
+            "profile_path": "problems[1]",
+            "explanation": "Fatigue can be caused by many things, including stress or underlying health issues. We'll look into possible causes together.",
+            "citations": []
+          },
+          {
+            "concern_label": "hypertension",
+            "profile_path": "problems[2]",
+            "explanation": "High blood pressure is a common condition, and we'll monitor it alongside your other concerns.",
+            "citations": []
+          },
+          {
+            "concern_label": "diabetes",
+            "profile_path": "problems[3]",
+            "explanation": "Diabetes management is important, and we'll ensure it's addressed in your care plan.",
+            "citations": []
+          },
+          {
+            "concern_label": "depression",
+            "profile_path": "problems[4]",
+            "explanation": "We'll assess your mental health to provide appropriate support.",
+            "citations": []
+          },
+          {
+            "concern_label": "worry about wife and kids' health",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Your concerns about your family's health are valid, and we'll address them as part of your care plan.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::41466386",
+                "primary_assertion_id": "41466386_retr",
+                "pmids": [
+                  "41466386"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll schedule a time to discuss your concerns about your family's health and determine the appropriate next steps for screening.",
+          "We'll monitor your fatigue and other symptoms to identify any underlying causes.",
+          "We'll review your high blood pressure and diabetes management plans together.",
+          "We'll assess your mental health to provide the necessary support."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if you have any new concerns or symptoms, please reach out.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "retrieval_only::41466386"
+        ],
+        "all_pmids_used": [
+          "41466386"
+        ],
+        "glossary_substitutions": [
+          {
+            "field": "next_steps[2]",
+            "original": "hypertension",
+            "plain": "high blood pressure",
+            "count": 1
+          },
+          {
+            "field": "clinical_information_per_concern[2].explanation",
+            "original": "hypertension",
+            "plain": "high blood pressure",
+            "count": 1
+          }
+        ]
+      },
+      "profile_summary": {
+        "n_problems": 5,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 1,
+        "problems": [
+          "hepatitis C",
+          "fatigue",
+          "hypertension",
+          "diabetes",
+          "depression"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "41466386"
+      ],
+      "cluster_ids_used": [
+        "retrieval_only::41466386"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 409682.2218596935,
+      "response_text": "I can hear how much this has been on your mind. You mentioned, \"Should I be worried about my wife and my kids should they be tested as well.\" That's a valid concern, and I want to make sure we address it properly.\n\nHepatitis C can sometimes be passed to others, especially through blood contact. Given your history of IV drug use, it's important to consider how this might affect your family. We'll need to discuss testing options for your wife and kids based on their potential exposure.\n\nFatigue can be a sign of many things, including infections like hepatitis C. We'll look into this further to see if there's an underlying cause that needs attention.\n\nHigh blood pressure is a common condition, and while it doesn't directly relate to your concerns about hepatitis C or fatigue, it's still important to monitor and manage. We'll check your current blood pressure readings and adjust your treatment plan if needed.\n\nDiabetes management is crucial, especially considering your family history. We'll review your current glucose levels and ensure your treatment is aligned with your overall health goals.\n\nDepression can affect your overall well-being, and there are effective tools to assess and manage it. We'll use some quick questionnaires to gauge your mood and discuss any support you might need.\n\nTaking time for yourself is important for your health. We'll work together to set realistic goals and find ways to balance your work and personal life.\n\nWe'll schedule a time to discuss your concerns about your family's health and how we can approach testing.\n\nWe'll review your current medications and ensure they're appropriate for managing your conditions.\n\nWe'll check your blood pressure and blood sugar levels during this visit to monitor your high blood pressure and diabetes.\n\nWe'll use some quick questionnaires to assess your mood and discuss any support you might need for depression.\n\nWe'll set some realistic goals to help you balance your work and personal life.\n\nI want to make sure I explained everything clearly. Can you tell me, in your own words, what we're going to do next and why it's important?\n\nLet's plan to see each other again in 4 weeks. In the meantime, if you have any new concerns or symptoms, please call us so we can address them promptly.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this has been on your mind. You mentioned, \"Should I be worried about my wife and my kids should they be tested as well.\" That's a valid concern, and I want to make sure we address it properly.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "hepatitis C",
+            "profile_path": "problems[0]",
+            "explanation": "Hepatitis C can sometimes be passed to others, especially through blood contact. Given your history of IV drug use, it's important to consider how this might affect your family. We'll need to discuss testing options for your wife and kids based on their potential exposure.",
+            "citations": [
+              {
+                "cluster_id": "finding::global::38521534_0",
+                "primary_assertion_id": "38521534_0",
+                "pmids": [
+                  "38521534"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "fatigue",
+            "profile_path": "problems[1]",
+            "explanation": "Fatigue can be a sign of many things, including infections like hepatitis C. We'll look into this further to see if there's an underlying cause that needs attention.",
+            "citations": [
+              {
+                "cluster_id": "finding::global::38521534_0",
+                "primary_assertion_id": "38521534_0",
+                "pmids": [
+                  "38521534"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "hypertension",
+            "profile_path": "problems[2]",
+            "explanation": "High blood pressure is a common condition, and while it doesn't directly relate to your concerns about hepatitis C or fatigue, it's still important to monitor and manage. We'll check your current blood pressure readings and adjust your treatment plan if needed.",
+            "citations": [
+              {
+                "cluster_id": "finding::global::38604640_0",
+                "primary_assertion_id": "38604640_0",
+                "pmids": [
+                  "38604640"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "diabetes",
+            "profile_path": "problems[3]",
+            "explanation": "Diabetes management is crucial, especially considering your family history. We'll review your current glucose levels and ensure your treatment is aligned with your overall health goals.",
+            "citations": [
+              {
+                "cluster_id": "finding::global::38604640_0",
+                "primary_assertion_id": "38604640_0",
+                "pmids": [
+                  "38604640"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "depression",
+            "profile_path": "problems[4]",
+            "explanation": "Depression can affect your overall well-being, and there are effective tools to assess and manage it. We'll use some quick questionnaires to gauge your mood and discuss any support you might need.",
+            "citations": [
+              {
+                "cluster_id": "finding::problems[4]::41466386_0",
+                "primary_assertion_id": "41466386_1",
+                "pmids": [
+                  "41466386"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "working on being less of a workaholic",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Taking time for yourself is important for your health. We'll work together to set realistic goals and find ways to balance your work and personal life.",
+            "citations": [
+              {
+                "cluster_id": "finding::global::41092546_0",
+                "primary_assertion_id": "41092546_0",
+                "pmids": [
+                  "41092546"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll schedule a time to discuss your concerns about your family's health and how we can approach testing.",
+          "We'll review your current medications and ensure they're appropriate for managing your conditions.",
+          "We'll check your blood pressure and blood sugar levels during this visit to monitor your high blood pressure and diabetes.",
+          "We'll use some quick questionnaires to assess your mood and discuss any support you might need for depression.",
+          "We'll set some realistic goals to help you balance your work and personal life."
+        ],
+        "teach_back_prompt": "I want to make sure I explained everything clearly. Can you tell me, in your own words, what we're going to do next and why it's important?",
+        "follow_up_invitation": "Let's plan to see each other again in 4 weeks. In the meantime, if you have any new concerns or symptoms, please call us so we can address them promptly.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::global::38521534_0",
+          "finding::global::38604640_0",
+          "finding::problems[4]::41466386_0",
+          "finding::global::41092546_0"
+        ],
+        "all_pmids_used": [
+          "38521534",
+          "38604640",
+          "41466386",
+          "41092546"
+        ],
+        "glossary_substitutions": [
+          {
+            "field": "next_steps[2]",
+            "original": "hypertension",
+            "plain": "high blood pressure",
+            "count": 1
+          },
+          {
+            "field": "clinical_information_per_concern[2].explanation",
+            "original": "hypertension",
+            "plain": "high blood pressure",
+            "count": 1
+          }
+        ]
+      },
+      "profile_summary": {
+        "n_problems": 5,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 1,
+        "problems": [
+          "hepatitis C",
+          "fatigue",
+          "hypertension",
+          "diabetes",
+          "depression"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "38521534",
+        "38604640",
+        "41466386",
+        "41092546"
+      ],
+      "cluster_ids_used": [
+        "finding::global::38521534_0",
+        "finding::global::38604640_0",
+        "finding::problems[4]::41466386_0",
+        "finding::global::41092546_0"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 251926.55058950186,
+        "module_2_retrieval": 2620.6528916954994,
+        "module_3_reasoning": 106963.37442100048,
+        "module_4_response": 48170.61661183834,
+        "total_ms": 409681.1945140362
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

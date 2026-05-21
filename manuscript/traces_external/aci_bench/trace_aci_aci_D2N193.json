@@ -1,0 +1,377 @@
+{
+  "transcript_id": "aci_aci_D2N193",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "i'm doing well",
+  "patient_utterances": [
+    "[Clinician asked: \"good alright hello hannah how are you today\"] i'm doing well",
+    "[Clinician asked: \"you're doing well\"] i did have this this hacking cough for about three days now",
+    "[Clinician asked: \"okay tell me more about that cough\"] it started three days ago i was around my sister and she has been sick with the same kind of symptoms and so this cough has just started off with like a gradual cough and now i've just been coughing up some green phlegm here",
+    "[Clinician asked: \"okay okay so you you started having some mucus with it\"] yes",
+    "[Clinician asked: \"okay and how about any other symptoms with your cough\"] i'm having a little bit of a sore throat here and then a little bit of a some nasal congestion as well",
+    "[Clinician asked: \"okay okay and how about any fevers\"] i have n't had a fever yet",
+    "[Clinician asked: \"no fever okay and then any shortness of breath\"] no shortness of breath",
+    "[Clinician asked: \"no shortness of breath okay and what have you been doing for your cough\"] i've just been kinda drinking lots of water taking some cough medication over the counter and it seems like it's not really working",
+    "[Clinician asked: \"it's not helping okay and tell me do you have any history of any seasonal allergies\"] right around spring time i get a little bit of sneezing and the runny runny nose",
+    "[Clinician asked: \"okay okay and then any how about any body aches for you\"] no body aches",
+    "[Clinician asked: \"nausea or vomiting\"] no",
+    "[Clinician asked: \"okay alright so we will definitely examine you and talk more about that and as far as your diabetes how has everything been going with that checking your sugars how has that been going\"] i've been pretty good at checking my blood sugars they've been running around one twenty range",
+    "[Clinician asked: \"okay okay and i know the metformin is a we started you on a lower dose it's the five hundred milligrams it's a new medication for you you've been tolerating it okay\"] yes i have n't had any problems",
+    "[Clinician asked: \"okay good any diarrhea sometimes patients will say that\"] no diarrhea",
+    "[Clinician asked: \"no diarrhea okay and then how about as far as your blood pressure\"] blood pressure has been a little bit high i've noticed",
+    "[Clinician asked: \"okay\"] kind of one forties the top number",
+    "[Clinician asked: \"okay\"] and the lower numbers seems like it's been okay around seventies",
+    "[Clinician asked: \"seventy okay so a bit high and the hydrochlorothiazide have you been able to take that everyday\"] yes i've been taking it everyday",
+    "[Clinician asked: \"okay and how about your diet how's been thing as far as salty foods\"] i've been trying to stay away from the salty foods but sugar intake i'm having a little bit of trouble with that",
+    "[Clinician asked: \"okay okay but it seems like you've been making good progress and that could be difficult sometimes and you mentioned being around i think you said your sister a few days ago or a family member\"] yeah she was just kinda sick with similar symptoms and i noticed i started to developed a little bit of a cough right after",
+    "[Clinician asked: \"after that okay and how is your family doing how is everyone doing other than that other than being sick for your sister how is everyone going\"] everyone's doing great",
+    "[Clinician asked: \"okay\"] working busy with life yeah",
+    "[Clinician asked: \"okay and for you too were you on vacation last week and a lot of people had vacation last week\"] yes i was on vacation last week actually",
+    "[Clinician asked: \"okay hopefully you were n't sick for too much of it\"] no i was feeling okay",
+    "[Clinician asked: \"okay okay\"] got back and started feeling poorly",
+    "[Clinician asked: \"sorry about that alright so what i'm gon na do now is i'm gon na go ahead and start your physical exam i looking at your vitals vitals look overall pretty good i do see your blood pressure is elevated at here it's one forty four over seventy two otherwise everything else looks good so let's check yo\"] no",
+    "[Clinician asked: \"no okay so no frontal sinus tenderness how about when i press on the on your cheeks here\"] maybe a little bit just a little bit",
+    "[Clinician asked: \"on both sides\"] yes",
+    "[Clinician asked: \"okay so bilateral maxillary sinus tenderness alright and i'm just gon na take a look at in your mouth if you can open up okay so i do see some do have some erythema of the pharynx and the tonsils are symmetrical i do n't appreciate any exudates now i'm just checking your neck and i do appreciate som\"] yes i'm okay with that",
+    "[Clinician asked: \"okay so we will check you for that today and see how you're doing with that and then we will give you those results okay any questions about that\"] no questions",
+    "[Clinician asked: \"no okay so for problem number two the type two diabetes so we'll continue you on your metformin five hundred milligrams daily or twice a day you had blood work at your last visit so you'll be due at your next visit for your hemoglobin a1c and that's the check the sugars on your red blood cells so we\"] okay alright that sounds",
+    "[Clinician asked: \"alright any questions for me\"] no questions",
+    "[Clinician asked: \"okay\"] thank you"
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nCough.\n\nMEDICAL HISTORY\n\nPatient reports history of seasonal allergies, diabetes type 2, and hypertension.\n\nMEDICATIONS\n\nPatient reports taking metformin 500 mg as well as hydrochlorothiazide every day.\n\nREVIEW OF SYSTEMS\n\nConstitutional: Denies any fever or body aches.\nHENT: Reports sore throat and nasal congestion.\nRespiratory: Reports productive cough with green phlegm. Denies any shortness of breath.\nGastrointestinal: Denies nausea, vomiting, or diarrhea.\n\nVITALS\n\nBlood Pressure: Elevated at 144/72 mm Hg. The remainder of the vital signs look good.\n\nPHYSICAL EXAM\n\nHead and Face\n- Examination: No frontal sinus tenderness. Bilateral maxillary sinus tenderness.\n\nEars, Nose, Mouth, and Throat\n- Examination of Mouth:\n- Examination of Throat: Erythema of the pharynx. Tonsils are symmetrical. No exudates.\n\nNeck\n- General Examination: Anterior cervical adenopathy.\n\nRespiratory\n- Auscultation of Lungs: Clear bilaterally. No wheezes, rales, or rhonchi.\n\nCardiovascular\n- Auscultation of Heart: Regular rate and rhythm. 2 out of 6 systolic ejection murmur at the left base.\n\nMusculoskeletal\n- Examination: No edema.\n\nASSESSMENT AND PLAN\n\n1. Cough.\n- Medical Reasoning: The patient presents with symptoms similar to an upper respiratory infection. Most likely it is a virus that is causing her symptoms, especially as she reports being around some else with similar symptoms.\n- Patient Education and Counseling: I explained that we often let the virus run its course while we treat her symptoms. I advised her to be cautious with over-the-counter cough medicines as certain ones can affect her blood pressure and diabetes.\n- Medical Treatment: She increase her fluid intake. I recommended she try Coricidin HBP as a safer alternative to her cough medicine. The patient should rest frequently. I will order a COVID-19 test.\n\n2. Type 2 diabetes.\n- Medical Reasoning: Stable with medication.\n- Patient Education and Counseling: I encouraged the patient to continue with dietary restrictions.\n- Medical Treatment: We will continue her on her metformin 500 mg twice a day. Repeat hemoglobin A1c will be due at her next visit.\n\n3. Hypertension.\n- Medical Reasoning: Her blood pressure is elevated today, and it sounds like it has been trending higher at home as well.\n- Patient Education and Counseling: I encouraged the patient to continue limiting her intake of salty foods. >I recommend that she take her hydrochlorothiazide in the morning because it can result in more frequent urination.\n- Medical Treatment: We will increase her dose of hydrochlorothiazide to 25 mg once a day. She will continue checking her blood pressure a few times a week at different times of the day.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.",
+  "gold_sections": {
+    "CC": "Cough.",
+    "MEDICAL_HISTORY": "Patient reports history of seasonal allergies, diabetes type 2, and hypertension.",
+    "MEDICATIONS": "Patient reports taking metformin 500 mg as well as hydrochlorothiazide every day.",
+    "ROS": "Constitutional: Denies any fever or body aches.\nHENT: Reports sore throat and nasal congestion.\nRespiratory: Reports productive cough with green phlegm. Denies any shortness of breath.\nGastrointestinal: Denies nausea, vomiting, or diarrhea.",
+    "VITALS": "Blood Pressure: Elevated at 144/72 mm Hg. The remainder of the vital signs look good.",
+    "PHYSICAL_EXAM": "Head and Face\n- Examination: No frontal sinus tenderness. Bilateral maxillary sinus tenderness.\n\nEars, Nose, Mouth, and Throat\n- Examination of Mouth:\n- Examination of Throat: Erythema of the pharynx. Tonsils are symmetrical. No exudates.\n\nNeck\n- General Examination: Anterior cervical adenopathy.\n\nRespiratory\n- Auscultation of Lungs: Clear bilaterally. No wheezes, rales, or rhonchi.\n\nCardiovascular\n- Auscultation of Heart: Regular rate and rhythm. 2 out of 6 systolic ejection murmur at the left base.\n\nMusculoskeletal\n- Examination: No edema.",
+    "ASSESSMENT_PLAN": "1. Cough.\n- Medical Reasoning: The patient presents with symptoms similar to an upper respiratory infection. Most likely it is a virus that is causing her symptoms, especially as she reports being around some else with similar symptoms.\n- Patient Education and Counseling: I explained that we often let the virus run its course while we treat her symptoms. I advised her to be cautious with over-the-counter cough medicines as certain ones can affect her blood pressure and diabetes.\n- Medical Treatment: She increase her fluid intake. I recommended she try Coricidin HBP as a safer alternative to her cough medicine. The patient should rest frequently. I will order a COVID-19 test.\n\n2. Type 2 diabetes.\n- Medical Reasoning: Stable with medication.\n- Patient Education and Counseling: I encouraged the patient to continue with dietary restrictions.\n- Medical Treatment: We will continue her on her metformin 500 mg twice a day. Repeat hemoglobin A1c will be due at her next visit.\n\n3. Hypertension.\n- Medical Reasoning: Her blood pressure is elevated today, and it sounds like it has been trending higher at home as well.\n- Patient Education and Counseling: I encouraged the patient to continue limiting her intake of salty foods. >I recommend that she take her hydrochlorothiazide in the morning because it can result in more frequent urination.\n- Medical Treatment: We will increase her dose of hydrochlorothiazide to 25 mg once a day. She will continue checking her blood pressure a few times a week at different times of the day.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan."
+  },
+  "n_patient_turns": 33,
+  "n_clinician_turns": 35,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 19982.161208987236,
+      "response_text": "I understand you've been dealing with a cough for the past three days, which started after being around your sister who was sick. It's not uncommon to catch something after being exposed, especially with your seasonal allergies. The green phlegm suggests it might be a bacterial infection, but it could also be viral. I recommend staying hydrated, using a humidifier, and maybe trying honey or lozenges for your sore throat. If your symptoms don't improve or get worse, please come back for a check-up.\n\nRegarding your blood pressure, it's a bit elevated, so keep monitoring it and continue taking your hydrochlorothiazide. I know you're already managing your sodium intake well. You're doing a great job with your blood sugars, so keep up the good work. Let me know if you have any questions or concerns. You're not alone in this, and I'm here to help.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 31778.935849666595,
+      "response_text": "Thank you for sharing all this with me, Hannah. It sounds like you're feeling a bit worried about your cough, especially since it's been lingering and isn't getting better with the usual remedies. I can understand why you'd be concerned, given that it started after being around your sister who was sick. It's important to pay attention to how you're feeling, and I appreciate your efforts in managing your symptoms and keeping track of your health.\n\nFrom what you've described, it seems like you might be dealing with a viral infection, which could also explain the green phlegm and sinus tenderness. Sometimes, these infections can lead to sinusitis, especially if you have a history of seasonal allergies. I'll make sure to check for any signs of sinus issues during the exam. Additionally, I want to ensure that your blood pressure is well-managed, as high readings can sometimes be related to stress or illness. Your blood sugars have been stable, which is good, but let's keep an eye on them as stress can sometimes affect blood sugar levels.\n\nWe'll proceed with a physical exam to assess your lungs and sinuses. Depending on the findings, we might consider a chest X-ray to rule out any bacterial infection. In the meantime, I recommend continuing to stay hydrated, using over-the-counter cough medicine as directed, and monitoring your symptoms. If your cough worsens, you develop a fever, or you experience shortness of breath, please come back for a follow-up. I'll also review your blood pressure management and adjust your medication if necessary to help bring your readings down.\n\nBefore you leave, could you summarize what we discussed today? This will help ensure you understand the plan and any next steps. We'll schedule a follow-up in a couple of weeks to check on your progress and adjust your treatment as needed. Let me know if you have any questions or concerns in the meantime.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 9556.516952812672,
+      "response_text": "It sounds like you're here mainly because of the hacking cough you've had for the past three days. I understand that it's been concerning, especially since your sister was also sick with similar symptoms.\n\nWe'll take a closer look at your symptoms today, including checking for any signs of infection or allergies. We'll also monitor your blood pressure, which has been a bit high recently.\n\nIf your cough doesn't improve or gets worse, or if you develop a fever, please reach out to us sooner than your next appointment.\n\nCan you tell me, in your own words, what we're planning to do next and why it's important?\n\nLet's plan to follow up in a week. If you notice any new symptoms like increased coughing, fever, or shortness of breath, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're here mainly because of the hacking cough you've had for the past three days. I understand that it's been concerning, especially since your sister was also sick with similar symptoms.",
+        "clinical_information_per_concern": [],
+        "next_steps": [
+          "We'll take a closer look at your symptoms today, including checking for any signs of infection or allergies. We'll also monitor your blood pressure, which has been a bit high recently.",
+          "If your cough doesn't improve or gets worse, or if you develop a fever, please reach out to us sooner than your next appointment."
+        ],
+        "teach_back_prompt": "Can you tell me, in your own words, what we're planning to do next and why it's important?",
+        "follow_up_invitation": "Let's plan to follow up in a week. If you notice any new symptoms like increased coughing, fever, or shortness of breath, please call us right away.",
+        "nurse_elements_applied": [
+          "Name",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 260248.4613135457,
+      "response_text": "It sounds like you're dealing with a few things right now, including a hacking cough, seasonal allergies, managing diabetes, and high blood pressure. Let's take a closer look at each of these to understand what's going on.\n\nA hacking cough that's been going on for three days with green phlegm, sore throat, and nasal congestion could be due to a respiratory infection. We should consider checking for bacterial or viral causes to guide treatment.\n\nSeasonal allergies often cause symptoms like sneezing and a runny nose. Since you mentioned it's around spring time, we can work on strategies to manage these symptoms during peak allergy seasons.\n\nChecking blood sugars regularly is a good step. We can review your current management plan to ensure it's tailored to your needs and address any challenges you're facing.\n\nHigh blood pressure that's recently been noticed should be monitored. We'll aim to understand your current readings and discuss lifestyle changes or medications that could help manage it.\n\nWe'll schedule a follow-up to review your symptoms and test results.\n\nWe'll discuss strategies to manage your seasonal allergies during peak times.\n\nWe'll review your diabetes management plan together.\n\nWe'll monitor your blood pressure and discuss lifestyle changes or medications as needed.\n\nI want to make sure I explained everything clearly. Can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a couple of weeks. In the meantime, if your symptoms get worse or you have any concerns, please reach out.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're dealing with a few things right now, including a hacking cough, seasonal allergies, managing diabetes, and high blood pressure. Let's take a closer look at each of these to understand what's going on.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "hacking cough",
+            "profile_path": "problems[0]",
+            "explanation": "A hacking cough that's been going on for three days with green phlegm, sore throat, and nasal congestion could be due to a respiratory infection. We should consider checking for bacterial or viral causes to guide treatment.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::35593186",
+                "primary_assertion_id": "35593186_retr",
+                "pmids": [
+                  "35593186"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "seasonal allergies",
+            "profile_path": "problems[1]",
+            "explanation": "Seasonal allergies often cause symptoms like sneezing and a runny nose. Since you mentioned it's around spring time, we can work on strategies to manage these symptoms during peak allergy seasons.",
+            "citations": []
+          },
+          {
+            "concern_label": "diabetes management",
+            "profile_path": "problems[2]",
+            "explanation": "Checking blood sugars regularly is a good step. We can review your current management plan to ensure it's tailored to your needs and address any challenges you're facing.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::36355789",
+                "primary_assertion_id": "36355789_retr",
+                "pmids": [
+                  "36355789"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "high blood pressure",
+            "profile_path": "problems[3]",
+            "explanation": "High blood pressure that's recently been noticed should be monitored. We'll aim to understand your current readings and discuss lifestyle changes or medications that could help manage it.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::32866417",
+                "primary_assertion_id": "32866417_retr",
+                "pmids": [
+                  "32866417"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll schedule a follow-up to review your symptoms and test results.",
+          "We'll discuss strategies to manage your seasonal allergies during peak times.",
+          "We'll review your diabetes management plan together.",
+          "We'll monitor your blood pressure and discuss lifestyle changes or medications as needed."
+        ],
+        "teach_back_prompt": "I want to make sure I explained everything clearly. Can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a couple of weeks. In the meantime, if your symptoms get worse or you have any concerns, please reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "retrieval_only::35593186",
+          "retrieval_only::36355789",
+          "retrieval_only::32866417"
+        ],
+        "all_pmids_used": [
+          "35593186",
+          "36355789",
+          "32866417"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 4,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "hacking cough",
+          "seasonal allergies",
+          "diabetes management",
+          "high blood pressure"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "35593186",
+        "36355789",
+        "32866417"
+      ],
+      "cluster_ids_used": [
+        "retrieval_only::35593186",
+        "retrieval_only::36355789",
+        "retrieval_only::32866417"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 308999.0743920207,
+      "response_text": "It sounds like you're dealing with a few things, like a hacking cough, seasonal allergies, managing diabetes, and high blood pressure. Let's take a closer look at each of these to figure out the best way to address them.\n\nFor a hacking cough that's been going on for three days, it's important to manage symptoms without overusing cough medications. Graded exercise therapy and breathing techniques can help reduce discomfort.\n\nSeasonal allergies can be managed with avoidance strategies and medications. Since you mentioned it's around spring time, we can focus on reducing your exposure to allergens during this period.\n\nEffective management of Type 2 Diabetes often involves community-based approaches and regular monitoring. We'll work on a plan that fits your lifestyle and needs.\n\nTo manage high blood pressure, we'll focus on lifestyle changes and regular monitoring. This approach has been shown to be effective in reducing blood pressure levels over time.\n\nWe'll start with some basic tests to better understand your hacking cough and high blood pressure.\n\nFor your seasonal allergies, we'll discuss specific strategies to help reduce your symptoms during this time.\n\nWe'll review your diabetes management plan together to make sure it's tailored to your needs.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to check in again in a few weeks. If any symptoms get worse or if you have new concerns, please reach out sooner.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're dealing with a few things, like a hacking cough, seasonal allergies, managing diabetes, and high blood pressure. Let's take a closer look at each of these to figure out the best way to address them.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "hacking cough",
+            "profile_path": "problems[0]",
+            "explanation": "For a hacking cough that's been going on for three days, it's important to manage symptoms without overusing cough medications. Graded exercise therapy and breathing techniques can help reduce discomfort.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::problems[0]::38719772_0",
+                "primary_assertion_id": "38719772_0",
+                "pmids": [
+                  "38719772"
+                ]
+              },
+              {
+                "cluster_id": "recommendation::problems[0]::38719772_1",
+                "primary_assertion_id": "38719772_1",
+                "pmids": [
+                  "38719772"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "seasonal allergies",
+            "profile_path": "problems[1]",
+            "explanation": "Seasonal allergies can be managed with avoidance strategies and medications. Since you mentioned it's around spring time, we can focus on reducing your exposure to allergens during this period.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[0]::36250577_0",
+                "primary_assertion_id": "36250577_0",
+                "pmids": [
+                  "36250577"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "diabetes management",
+            "profile_path": "problems[2]",
+            "explanation": "Effective management of Type 2 Diabetes often involves community-based approaches and regular monitoring. We'll work on a plan that fits your lifestyle and needs.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[2]::36355789_0",
+                "primary_assertion_id": "36355789_0",
+                "pmids": [
+                  "36355789"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "high blood pressure",
+            "profile_path": "problems[3]",
+            "explanation": "To manage high blood pressure, we'll focus on lifestyle changes and regular monitoring. This approach has been shown to be effective in reducing blood pressure levels over time.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[2]::36355789_0",
+                "primary_assertion_id": "36355789_0",
+                "pmids": [
+                  "36355789"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll start with some basic tests to better understand your hacking cough and high blood pressure.",
+          "For your seasonal allergies, we'll discuss specific strategies to help reduce your symptoms during this time.",
+          "We'll review your diabetes management plan together to make sure it's tailored to your needs."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to check in again in a few weeks. If any symptoms get worse or if you have new concerns, please reach out sooner.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "recommendation::problems[0]::38719772_0",
+          "recommendation::problems[0]::38719772_1",
+          "finding::sub_query[0]::36250577_0",
+          "finding::sub_query[2]::36355789_0"
+        ],
+        "all_pmids_used": [
+          "38719772",
+          "36250577",
+          "36355789"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 4,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "hacking cough",
+          "seasonal allergies",
+          "diabetes management",
+          "high blood pressure"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "38719772",
+        "36250577",
+        "36355789"
+      ],
+      "cluster_ids_used": [
+        "recommendation::problems[0]::38719772_0",
+        "recommendation::problems[0]::38719772_1",
+        "finding::sub_query[0]::36250577_0",
+        "finding::sub_query[2]::36355789_0"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 223379.60681319237,
+        "module_2_retrieval": 1407.1538969874382,
+        "module_3_reasoning": 47296.92891985178,
+        "module_4_response": 36914.36030715704,
+        "total_ms": 308998.0499371886
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

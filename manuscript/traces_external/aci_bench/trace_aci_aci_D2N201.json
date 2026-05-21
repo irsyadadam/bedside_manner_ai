@@ -1,0 +1,280 @@
+{
+  "transcript_id": "aci_aci_D2N201",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "yeah it's been back has been hurting for a while",
+  "patient_utterances": [
+    "[Clinician asked: \"hey steven so i see that you're here and you've been experiencing some back pain for a while could you tell me a bit about that\"] yeah it's been back has been hurting for a while",
+    "[Clinician asked: \"mm-hmm\"] for about a couple of years and tried a couple things but nothing seems to work",
+    "[Clinician asked: \"okay so let's start start with what happened did something cause the pain\"] i think well i played basketball and i bumped one time and i fell and i hit i think i fell on my back got fell real hard",
+    "[Clinician asked: \"mm-hmm\"] so it's been hurting after ever since that",
+    "[Clinician asked: \"okay and then how severe is the pain on a scale of like one to ten\"] i think it's around a seven",
+    "[Clinician asked: \"wow okay could you describe it for me is it like sharp is it throbbing\"] it it hurts pretty bad it's it's sharp",
+    "[Clinician asked: \"okay\"] throbs sometimes",
+    "[Clinician asked: \"and does it radiate\"] sometimes it hurts more than others and i'm not sure why",
+    "[Clinician asked: \"and does it radiate anywhere\"] yeah it goes down my leg my left leg",
+    "[Clinician asked: \"okay alright\"] like my toes get numb a little sometimes",
+    "[Clinician asked: \"wow okay and how about like so hmmm you said it goes down your left leg how about any like are you experiencing any loss of sensation in like the genital or rectal area\"] i hope not",
+    "[Clinician asked: \"that's okay i i it's gon na help me isolate like what's what exactly is going on so please do n't feel embarrassed to answer the questions do you have any weakness\"] yeah sometimes i try to stand up and and and like i i ca n't go get weak or if i'm standing up for too long",
+    "[Clinician asked: \"okay so would you would you say that there are certain positions that make you feel better or worse\"] yeah like lying on my side makes me feel better",
+    "[Clinician asked: \"okay\"] yeah",
+    "[Clinician asked: \"and then you said that standing also makes it worse right\"] yeah if i stand for a while",
+    "[Clinician asked: \"okay and then have you experienced any like loss of control of like your bladder or your bowels\"] yeah i pooped myself once",
+    "[Clinician asked: \"okay so incontinence just once though like over the last two years right it's not like a consistent thing\"] no it's not consistent i think i stood up for too long i think i was drinking too",
+    "[Clinician asked: \"okay okay you mentioned earlier that you tried some things in the past like what were they\"] so i i had a doc gave me some injections before i'm not sure what they were though",
+    "[Clinician asked: \"okay alright and i see in your chart here that you had physical therapy did you feel that that was effective\"] no i feel like i could do them the same exercises at my house like they charged me and like it",
+    "[Clinician asked: \"okay but did the did the exercises help\"] i mean i guess a little",
+    "[Clinician asked: \"okay not a so not as effective as we would have liked did they put you on any pain medications\"] yeah it was just a white pill i'm not sure what it was",
+    "[Clinician asked: \"okay do n't worry i think i can look that up in your chart i just wan na make sure that we have the story straight alright so i know that you said that you mentioned that you played basketball you know before how how like what's your activity like now\"] i mean i sit at home all day",
+    "[Clinician asked: \"okay\"] watch tv",
+    "[Clinician asked: \"okay\"] so not very active i've gained about eighty pounds the past year",
+    "[Clinician asked: \"okay that's a pretty okay that's a pretty significant weight gain well i i just have a few more questions have you do you know if any of your family members have spine conditions\"] i think my fourth cousin has scoliosis",
+    "[Clinician asked: \"okay okay but that's that's a little distant but anybody direct like sister brother mom dad\"] i do n't think so i mean i do n't even my dad though",
+    "[Clinician asked: \"okay okay and then do you have a personal history of smoking\"] what type of smoking",
+    "[Clinician asked: \"any smoke you do n't have to tell me exactly but\"] okay",
+    "[Clinician asked: \"have you smoked\"] next maybe that i have n't",
+    "[Clinician asked: \"are you it's okay i'm your doctor i'm not here to judge you i just want to make sure that i'm like you know when the conclusions that we come to and like my assessment and plan for you i need to know this information so one more time do you smoke or have you smoked before\"] okay i smoked",
+    "[Clinician asked: \"okay that's fine how much and how often and what was it\"] i'm not telling you all that i'm just telling you i smoked",
+    "[Clinician asked: \"okay you have\"] too many questions are you the fit",
+    "[Clinician asked: \"i'm your doctor i have to\"] are you the fence you sound like the fence next question",
+    "[Clinician asked: \"i'm not a op i promise alright that's fine but let me know are you currently like smoking\"] no",
+    "[Clinician asked: \"okay okay i just have to ask alright so i do wan na do a quick physical exam i did review your vitals and like part of why i wan na know about your smoking history is that you are stating kind of low like it looks like you are might be in the ninety five percentile range and so we might need to expl\"] sent them off yeah",
+    "[Clinician asked: \"pardon\"] because i'm fat my cousin was fat too and and he gained a bunch of weight he he had to have oxygen",
+    "[Clinician asked: \"you know honestly there are a few other factors weight gain does n't necessarily help you're right but like smoking has like a stronger impact so but it's okay we can explore like you know other options here i as i listen to your heart you have a regular rate and rhythm i do n't appreciate any murmu\"] yeah it hurts",
+    "[Clinician asked: \"okay and when you bend backward does it hurt\"] a little bit",
+    "[Clinician asked: \"okay so pain with lumbar flexion and extension alright and as i raise your leg does this hurt when i raise your leg up\"] stop",
+    "[Clinician asked: \"okay so supine straight leg test positive alright just a couple more things on neurological examination there is decreased sensation to light touch at the right lateral thigh at l4 dermatome patella and achilles reflexes are symmetrical so i just wanted to make sure that i documented all of that in \"] what does that mean like am i dying",
+    "[Clinician asked: \"no no no you're not dying but i think we have i think i have a good idea of what's causing your back pain so first let's talk about the mri that you had the results show a disk desiccation a disk bulge with parison paracentral disk herniation resulting in moderate right for neural foraminal stenosis\"] that's a big word",
+    "[Clinician asked: \"those are huge words it's okay so let me tell you what like what all this means and what we're gon na do like for my assessment and plan so for your problem of chronic lumbar back pain based on your symptoms your exam and reviewing your mri that's consistent with a herniated disk at the l4 l5 with r\"] i had to have someone hold me down i do n't like needles so do you can i take a pill i do n't want that",
+    "[Clinician asked: \"we could yeah we could give you something to help calm down like the anxiety i would just write you a prescription for one and you would take that maybe three hours before you came in for your appointment and then you should feel calm enough to be able to do the injection\"] okay",
+    "[Clinician asked: \"alright\"] can i get pain pills too",
+    "[Clinician asked: \"can you\"] for pain",
+    "[Clinician asked: \"can you get what now\"] pain pills",
+    "[Clinician asked: \"so once i inject the cotocoid steroid in the in your spine it's gon na happen under fluoroscopy right and it's going to be it's a it's just a type of of like x-ray sorry to because i need to be very specific in where i do this injection so i say this because you should n't need anymore pain pills af\"] i'd say it was n't effective",
+    "[Clinician asked: \"okay sorry i i i saw that they gave you strong pain meds but remember you said the white one did you say it was effective\"] yeah i said i said the white ones i said they worked",
+    "[Clinician asked: \"okay i'm sorry so alright so maybe when let's okay so what we're still gon na do though we're gon na do the injection and then if it still hurts after that then we can explore that pain medication i do n't want you to have to consistently be on pain medication it's not necessarily like a good long t\"] i do n't want i know",
+    "[Clinician asked: \"right and so this is we're just gon na try everything that we can before you know before we get to that place\"] mm-hmm",
+    "[Clinician asked: \"do you have any questions\"] no",
+    "[Clinician asked: \"alright\"] when it when is it when am i having this this when do you want me to get this injection",
+    "[Clinician asked: \"okay so you're gon na go to the front and schedule it this is a very quick and common procedure it should only take about an hour we will need to do this note like if this if this is successful we would only maybe do this four times a year so whenever at the front desk go ahead and schedule i think \"] no"
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nBack pain.\n\nHISTORY OF PRESENT ILLNESS\n\nSteven Reed is a pleasant 60-year-old male who presents to the clinic today for evaluation of back pain. The onset of his pain began 2 years ago after he fell and landed onto his back while playing basketball. His pain is rated at 7 out of 10 and is described a sharp with occasional throbbing. At times his pain will radiate down his left lower extremity. He also reports experiencing intermittent numbness in his toes. Prolonged standing exacerbates his pain and makes him feel weak. He is able to get some pain relief when laying on his side. In terms of his bowel and bladder habits, he reports 1 episode of incontinence over the last 2 years which he believes was due to prolonged standing and possible alcohol consumption. He other denies any other changes and denies loss of sensation in the genital or rectal area. He has tried an injection in the past, but notes that he does not like needles and had to be held down. Pain medication was tried but he is unable to recall the name of the medication. He also attended physical therapy with minimal relief. Currently he states that he is not very active and tends to watch tv all day. He has gained 80 lbs over the last year.\n\nSOCIAL HISTORY\n\nPatient reports previously playing basketball, but he is now not very active and sits at home all day. He has a history of smoking, but denies smoking currently.\n\nFAMILY HISTORY\n\nPatient reports his 4th cousin has scoliosis.\n\nREVIEW OF SYSTEMS\n\nGenitourinary: Denies bowel or bladder changes.\nMusculoskeletal: Reports back pain.\n\nVITALS\n\nOxygen saturation is in 95 percentile range.\n\nPHYSICAL EXAM\n\nCV: Regular rate and rhythm. No Murmur.\nNEURO: Decreased sensation to light touch at the right lateral thigh at the L4 dermatome. Patella and Achilles reflexes are symmetrical.\nMSK: Examination of the lumbar spine: No overlying erythema or ecchymosis. Midline tenderness along the L4-5 disc space with right-sided lumbar paravertebral tenderness. Pain with lumbar flexion and extension. Positive supine straight leg raise.\n\nRESULTS\n\nThe MRI of the lumbar spine was reviewed. This shows evidence of disc desiccation and a disc bulge with a paracentral disc herniation resulting in moderate right neural foraminal stenosis.\n\nASSESSMENT\n\nChronic lumbar back pain.\n\nPLAN\n\nAfter reviewing the patient's examination and MRI findings today, I explained to the patient that he has a herniated disc at L4-5 with radiculopathy. We discussed the nature of the diagnosis as well as treatment options. I have recommended that we start with a spinal corticosteroid injection under fluoroscopy. The nature of the procedure was discussed. A prescription was given today to help with his anxiety during the injection as he states he does not tolerate needles. We also had a long discussion regarding pain medication. I advised him that we can do up to 4 injections per year and that we need to hold off on proceeding with pain medication until we assess his progress. I also explained to him that pain medication is not a long term solution and that if he remains symptomatic, it is possible surgery would be recommended.\n\nINSTRUCTIONS\n\nThe patient will return for follow-up after to assess his progress after his spinal injection.",
+  "gold_sections": {
+    "CC": "Back pain.",
+    "HPI": "Steven Reed is a pleasant 60-year-old male who presents to the clinic today for evaluation of back pain. The onset of his pain began 2 years ago after he fell and landed onto his back while playing basketball. His pain is rated at 7 out of 10 and is described a sharp with occasional throbbing. At times his pain will radiate down his left lower extremity. He also reports experiencing intermittent numbness in his toes. Prolonged standing exacerbates his pain and makes him feel weak. He is able to get some pain relief when laying on his side. In terms of his bowel and bladder habits, he reports 1 episode of incontinence over the last 2 years which he believes was due to prolonged standing and possible alcohol consumption. He other denies any other changes and denies loss of sensation in the genital or rectal area. He has tried an injection in the past, but notes that he does not like needles and had to be held down. Pain medication was tried but he is unable to recall the name of the medication. He also attended physical therapy with minimal relief. Currently he states that he is not very active and tends to watch tv all day. He has gained 80 lbs over the last year.",
+    "SOCIAL_HISTORY": "Patient reports previously playing basketball, but he is now not very active and sits at home all day. He has a history of smoking, but denies smoking currently.",
+    "FAMILY_HISTORY": "Patient reports his 4th cousin has scoliosis.",
+    "ROS": "Genitourinary: Denies bowel or bladder changes.\nMusculoskeletal: Reports back pain.",
+    "VITALS": "Oxygen saturation is in 95 percentile range.",
+    "PHYSICAL_EXAM": "CV: Regular rate and rhythm. No Murmur.\nNEURO: Decreased sensation to light touch at the right lateral thigh at the L4 dermatome. Patella and Achilles reflexes are symmetrical.\nMSK: Examination of the lumbar spine: No overlying erythema or ecchymosis. Midline tenderness along the L4-5 disc space with right-sided lumbar paravertebral tenderness. Pain with lumbar flexion and extension. Positive supine straight leg raise.",
+    "RESULTS": "The MRI of the lumbar spine was reviewed. This shows evidence of disc desiccation and a disc bulge with a paracentral disc herniation resulting in moderate right neural foraminal stenosis.",
+    "ASSESSMENT": "Chronic lumbar back pain.",
+    "PLAN": "After reviewing the patient's examination and MRI findings today, I explained to the patient that he has a herniated disc at L4-5 with radiculopathy. We discussed the nature of the diagnosis as well as treatment options. I have recommended that we start with a spinal corticosteroid injection under fluoroscopy. The nature of the procedure was discussed. A prescription was given today to help with his anxiety during the injection as he states he does not tolerate needles. We also had a long discussion regarding pain medication. I advised him that we can do up to 4 injections per year and that we need to hold off on proceeding with pain medication until we assess his progress. I also explained to him that pain medication is not a long term solution and that if he remains symptomatic, it is possible surgery would be recommended.",
+    "INSTRUCTIONS": "The patient will return for follow-up after to assess his progress after his spinal injection."
+  },
+  "n_patient_turns": 53,
+  "n_clinician_turns": 54,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 16751.479759812355,
+      "response_text": "I understand how frustrating and debilitating this back pain must be for you, especially after trying different treatments without relief. The injury from your basketball fall sounds like it contributed to the ongoing issue, and the MRI results help pinpoint what's going on\u2014a herniated disk at L4-L5. This explains the sharp pain, radiating down your leg, and the numbness you're experiencing.\n\nWe'll start with the injection under fluoroscopy, which is a common procedure to help reduce inflammation and pain. I know you're concerned about the process, but it's a quick procedure and we'll make sure you're comfortable. If needed, we can also discuss pain management options. Let's schedule this at the front desk, and we'll take it step by step. We'll keep you comfortable and monitor your progress closely. Together, we'll work on finding the right solution for your pain.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 36028.511472046375,
+      "response_text": "Thank you for sharing all of that with me, Steven. It sounds like you've been through a lot with your back pain, and I can tell it's been really challenging for you. It's understandable that you're frustrated after trying different treatments without consistent relief. I want to make sure we work together to find something that can help you feel better.\n\nFrom what you've described, the injury from your basketball fall a couple of years ago seems to have triggered your back pain. The sharp, throbbing pain and the fact that it radiates down your left leg, along with the numbness in your toes, are concerning. The MRI results showing a herniated disk at L4-L5 with right foraminal stenosis aligns with these symptoms. This means the disk is pressing on the nerve, which can cause the pain and numbness you're experiencing.\n\nWe discussed the epidural steroid injection as a next step. I understand you're concerned about the procedure, but it's a common treatment for herniated disks and can help reduce inflammation and pain. We'll schedule this at the front desk, and it should only take about an hour. After the injection, we'll follow up in a few weeks to see how you're feeling. If the pain persists, we can explore other options together.\n\nI also mentioned the importance of managing your weight, as weight gain can contribute to back pain. We might look into tailored physical therapy exercises you can do at home to strengthen your core and improve flexibility. It's important to set realistic expectations that the injection is a step toward relief, not a permanent solution.\n\nPlease let me know if you have any questions or concerns about the procedure or your condition. I'm here to support you through this process, and I want to make sure you feel heard and understood. Before you leave, could you summarize what we've agreed on so I can ensure everything is clear?",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6721.509084105492,
+      "response_text": "Thank you for sharing your concerns about your back pain. It sounds like this has been going on for a while and is impacting your daily life.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 4 weeks. In the meantime, if you get new symptoms like severe pain, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns about your back pain. It sounds like this has been going on for a while and is impacting your daily life.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 4 weeks. In the meantime, if you get new symptoms like severe pain, please call us right away.",
+        "nurse_elements_applied": [],
+        "four_habits_elements_applied": [],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 155277.1471068263,
+      "response_text": "I understand you're experiencing back pain that's been going on for a couple of years, along with some concerning symptoms like leg pain, numbness in your toes, weakness when standing too long, and even some incontinence. It sounds like this is having a significant impact on your daily life.\n\nThe back pain you're experiencing, along with the associated symptoms like leg pain and numbness, could be related to issues such as nerve compression or other spinal conditions. Given the duration and severity, it's important to further evaluate these symptoms to determine the appropriate course of action.\n\nGiven the concerning symptoms you've described, including incontinence, we need to prioritize evaluating these to rule out any serious underlying conditions. We'll arrange for you to have a comprehensive neurological evaluation and imaging studies to better understand what's going on.\n\nBased on the evaluation, we'll discuss the next steps and any necessary treatments or referrals to specialists.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to follow up in two weeks to review the results of the evaluations and discuss any further steps. In the meantime, if your symptoms worsen or if you experience any new concerning signs, please reach out immediately.",
+      "structured_response": {
+        "acknowledgment": "I understand you're experiencing back pain that's been going on for a couple of years, along with some concerning symptoms like leg pain, numbness in your toes, weakness when standing too long, and even some incontinence. It sounds like this is having a significant impact on your daily life.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "back pain",
+            "profile_path": "problems[0]",
+            "explanation": "The back pain you're experiencing, along with the associated symptoms like leg pain and numbness, could be related to issues such as nerve compression or other spinal conditions. Given the duration and severity, it's important to further evaluate these symptoms to determine the appropriate course of action.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "Given the concerning symptoms you've described, including incontinence, we need to prioritize evaluating these to rule out any serious underlying conditions. We'll arrange for you to have a comprehensive neurological evaluation and imaging studies to better understand what's going on.",
+          "Based on the evaluation, we'll discuss the next steps and any necessary treatments or referrals to specialists."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to follow up in two weeks to review the results of the evaluations and discuss any further steps. In the meantime, if your symptoms worsen or if you experience any new concerning signs, please reach out immediately.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Demonstrate empathy",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 1,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "back pain"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Demonstrate empathy",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 218303.77785861492,
+      "response_text": "I understand you're experiencing back pain that's been going on for a couple of years, and it's pretty bad. You've tried a few things like injections and physical therapy, but it's still an issue.\n\nBased on the findings, we should focus on specific tests to determine the cause of your back pain. These tests can help us identify if it's related to your hip or other issues.\n\nGiven the neurological red flag you mentioned, we'll prioritize certain tests to rule out more serious conditions.\n\nWe'll schedule a follow-up visit in 4 weeks to review the results and plan the next steps together.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 4 weeks. In the meantime, if you experience severe pain, loss of movement, or any new symptoms, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I understand you're experiencing back pain that's been going on for a couple of years, and it's pretty bad. You've tried a few things like injections and physical therapy, but it's still an issue.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "back pain",
+            "profile_path": "problems[0]",
+            "explanation": "Based on the findings, we should focus on specific tests to determine the cause of your back pain. These tests can help us identify if it's related to your hip or other issues.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[0]::31846019_0",
+                "primary_assertion_id": "31846019_0",
+                "pmids": [
+                  "31846019"
+                ]
+              },
+              {
+                "cluster_id": "finding::sub_query[0]::31846019_2",
+                "primary_assertion_id": "31846019_2",
+                "pmids": [
+                  "31846019"
+                ]
+              },
+              {
+                "cluster_id": "finding::sub_query[0]::31846019_4",
+                "primary_assertion_id": "31846019_4",
+                "pmids": [
+                  "31846019"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "Given the neurological red flag you mentioned, we'll prioritize certain tests to rule out more serious conditions.",
+          "We'll schedule a follow-up visit in 4 weeks to review the results and plan the next steps together."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 4 weeks. In the meantime, if you experience severe pain, loss of movement, or any new symptoms, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[0]::31846019_0",
+          "finding::sub_query[0]::31846019_2",
+          "finding::sub_query[0]::31846019_4"
+        ],
+        "all_pmids_used": [
+          "31846019"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 1,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "back pain"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "31846019"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[0]::31846019_0",
+        "finding::sub_query[0]::31846019_2",
+        "finding::sub_query[0]::31846019_4"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 142260.3840827942,
+        "module_2_retrieval": 1462.3792320489883,
+        "module_3_reasoning": 52261.209920048714,
+        "module_4_response": 22318.719632923603,
+        "total_ms": 218302.6928678155
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

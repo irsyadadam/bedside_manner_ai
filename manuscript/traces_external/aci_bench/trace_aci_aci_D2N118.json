@@ -1,0 +1,407 @@
+{
+  "transcript_id": "aci_aci_D2N118",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "i'm doing pretty well",
+  "patient_utterances": [
+    "[Clinician asked: \"alright so how're you doing today angela\"] i'm doing pretty well",
+    "[Clinician asked: \"alright so looking here at your appointment notes it says you're you're here you think you have a kidney stone you had some in the past so we're gon na take a look at that and then you also have a past medical history of hypertension and diabetes we want to take a look at those as well so first thin\"] pain's been up and down i went to the emergency room last week but now i think i'm doing a little bit better",
+    "[Clinician asked: \"okay so the case of kidney stones so have you had you said you've had them in the past and how often would you say\"] i do n't know i this is probably like my seventh or eighth kidney stone",
+    "[Clinician asked: \"seven or eight kidney stones so do you think you passed it yet or is it still in the\"] i think this one passed yeah",
+    "[Clinician asked: \"this one passed how long would you say it took to\"] well i went last week and then i think it passed about three days ago",
+    "[Clinician asked: \"okay so are you still noticing any blood in your urine\"] no no more blood",
+    "[Clinician asked: \"alright are you still having pain\"] nope",
+    "[Clinician asked: \"yeah\"] the pain's gone",
+    "[Clinician asked: \"okay that that's that's that's really good did they do anything for you at the hospital giving you any medications\"] they gave me some pain medicine",
+    "[Clinician asked: \"okay do you remember what it was\"] i think it was percocet",
+    "[Clinician asked: \"okay well that's good i'm very glad to see that you were able to pass that stone have you seen a urologist before about this\"] i have n't seen one in a while but yes i saw someone maybe a year ago",
+    "[Clinician asked: \"okay so yeah i know you keep having these recurrent kidney stones so i definitely think we can get you a referral to urology just to check up on that and also wan na do some labs as well\"] okay",
+    "[Clinician asked: \"so i also see you're here for you have a past medical history of of hypertension and when you came in today your blood pressure was a little bit high it was a one fifty over ninety i'm reading here in your chart you're on two point five of norvasc\"] hmmm",
+    "[Clinician asked: \"now have you been taking that regularly\"] i have but at home my blood pressure is always great",
+    "[Clinician asked: \"okay maybe you have a little white coat syndrome some of my patients do have it i have it myself and i'm a provider so i definitely understand yeah i know we we talked about last time you getting a blood pressure cuff and taking those about two to three times a week so what have those readings been \"] okay",
+    "[Clinician asked: \"that's that's that's not too bad i think when you first came in you were around like one eighty so it seems to be that that norvasc is is working for you how about your diet i know you were having a little issue eating some fast food and and cakes and cookies and have you been able to get that under\"] yeah it's hard to give up the fast food altogether because it's a lot of on the go you know",
+    "[Clinician asked: \"okay so do you think you would be able to get that under control by yourself or would you do you think you would need help with that maybe a dietitian be able to help you out\"] yeah i do n't know i do n't know if i can make another appointment i just add to the extra",
+    "[Clinician asked: \"okay\"] less time to make food so",
+    "[Clinician asked: \"yeah yeah definitely understand\"] mm-hmm",
+    "[Clinician asked: \"alright yeah so i mean that's one thing we just got ta work one is your diet we try to keep you at least just twenty three hundred milligrams or less of sodium per day i know that's hard for a lot of salads and stuff i know it's hard for lot of people especially with all like the the prepackage food\"] mm-hmm",
+    "[Clinician asked: \"so let's also look here you have a history of diabetes and so you're on that five hundred milligrams of metformin daily now have you been taking that as well\"] yeah i take my metformin",
+    "[Clinician asked: \"okay\"] yeah",
+    "[Clinician asked: \"so what have your blood sugars been running daily\"] well i do n't check it very often",
+    "[Clinician asked: \"okay\"] but i think they've been pretty good",
+    "[Clinician asked: \"okay so i'm looking here i think last after your last visit you got a1c now was six . seven so it's a little bit high it's gone down a little bit since you were first diagnosed with the type two diabetes a year ago so i'm glad we're making progress with that as well alright so i'm just gon na do a q\"] no",
+    "[Clinician asked: \"alright any any belly pain\"] no",
+    "[Clinician asked: \"alright so i'm gon na listen to your lungs your lungs are clear bilaterally i do n't hear any crackles listen to your heart so on your heart exam i do hear that grade two out of six systolic ejection murmur and we already knew about that previously so it has n't gotten any worse so that's good so i'\"] no",
+    "[Clinician asked: \"alright i'm gon na press here on your back\"] no pain",
+    "[Clinician asked: \"okay so on your abdomen exam of your abdomen i'm showing no tenderness to palpation of the abdomen or tenderness of the the cva either on the right side so that that's good i think that's pretty much cleared up so let's we'll talk a little bit about my assessment and plan for you and so my assessmen\"] okay",
+    "[Clinician asked: \"alright we'll get a urine culture just to make sure everything is is cleared up i also want to give you a referral to referral referral to urology\"] okay",
+    "[Clinician asked: \"because you do keep having these all the time and so maybe there's something else going wrong and so they can help get that under control\"] can i see doctor harris",
+    "[Clinician asked: \"of course yeah we can we can get you that road to doctor harris and\"] he's not like",
+    "[Clinician asked: \"he's great he's he's he he he's great i've heard he does really good work so that'll be good so for the hypertension you seem to be doing well on the two . five of norvasc so we are not gon na make any changes to that do you need any refills right now\"] no usually the pharmacy just sends them through when i call",
+    "[Clinician asked: \"okay great so we we wo n't we gave you refills with that i do wan na give you a consult to nutrition\"] okay",
+    "[Clinician asked: \"just to help you with that diet\"] okay",
+    "[Clinician asked: \"because i think that's a major factor of us eventually getting you off of all medications\"] hmmm",
+    "[Clinician asked: \"and then for your diabetes i'm just keep you on that on that five hundred of metformin okay i think you're doing well with that as well also but i do want you to start taking your blood sugars if you can take them before every meal\"] okay",
+    "[Clinician asked: \"just to gauge where you are so you can tell how much food you should actually be be eating\"] okay",
+    "[Clinician asked: \"alright\"] i can try that",
+    "[Clinician asked: \"so how does that that sound\"] that sounds like a plan when should i come back and see you",
+    "[Clinician asked: \"so you can you can come back in three months and we'll check up again i forgot you did tell me last time that you were having some issues with insomnia\"] hmmm",
+    "[Clinician asked: \"how is that going for you is it still happening\"] i mean sometimes i stay awake just kinda worrying about things but but i've tried some meditation apps and that helps",
+    "[Clinician asked: \"okay alright and i know we talked a little bit before about practicing proper sleep hygiene you know just making sure that all of your electronics are off you know dark room\"] yeah",
+    "[Clinician asked: \"cool room have you been doing that\"] well i do like to sleep with the tv on and my phone is right by my bed because i never know if someone's gon na call me you know",
+    "[Clinician asked: \"yeah i i know i'm like apple i do n't know if you have an iphone or not but i know apple has this the the sleep mode now do that disturbance so you put that on\"] it's a good idea",
+    "[Clinician asked: \"interrupt you\"] yeah",
+    "[Clinician asked: \"okay have you tried taking melatonin to sleep\"] i used it a couple times but but it did n't seem to help that much",
+    "[Clinician asked: \"okay how about i do n't think i've prescribed you anything yet do you think you would need anything\"] hmmm i do n't really wan na take any sleeping pills",
+    "[Clinician asked: \"okay that's understandable alright so for the last issue for the insomnia i'm just gon na have you take ten milligrams of melatonin as needed\"] okay",
+    "[Clinician asked: \"and just try i guess the best as possible to practice the proper sleep hygiene so you can get to sleep at night and and feel pretty rested\"] okay",
+    "[Clinician asked: \"alright\"] mm-hmm",
+    "[Clinician asked: \"so do you have anything any other questions for me\"] no that's all",
+    "[Clinician asked: \"alright so we will see you in three months\"] okay sounds good",
+    "[Clinician asked: \"alright\"] like"
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nKidney stone.\n\nMEDICAL HISTORY\n\nPatient reports history of hypertension, diabetes, and kidney stones.\n\nMEDICATIONS\n\nPatient reports taking Norvasc 2.5 mg and metformin 500 mg.\n\nREVIEW OF SYSTEMS\n\nConstitutional: Reports insomnia.\nCardiovascular: Denies chest pain.\nGastrointestinal: Denies abdominal pain.\nGenitourinary: Denies hematuria.\n\nVITALS\n\nBlood pressure: 150/90 mm Hg\n\nPHYSICAL EXAM\n\nRespiratory\n- Auscultation of Lungs: Clear bilaterally. No wheezes, rales, or rhonchi.\n\nCardiovascular\n- Auscultation of Heart: Grade 2/6 systolic ejection murmur, unchanged.\n\nGastrointestinal\n- Examination of Abdomen: No masses or tenderness. No tenderness of the CVA.\n\nRESULTS\n\nA1c: 6.7\n\nASSESSMENT AND PLAN\n\n1. Kidney stones.\n- Medical Reasoning: Patient recently experience an episode of kidney stones which is her 7th or 8th episode. Based on the patient's symptoms and exam today, I think she has likely passed her kidney stones.\n- Patient Education and Counseling: I advised the patient that we will obtain further testing, however, based on her recurrent episodes a referral to urology is necessary.\n- Medical Treatment: Urine culture and urinalysis were ordered. She will be referred to Dr. Harris in urology.\n\n2. Hypertension.\n- Medical Reasoning: Patient is currently stable and doing well on Norvasc 2.5 mg.\n- Medical Treatment: Continue Norvasc 2.5 mg. Referral to nutrition provided.\n\n3. Diabetes.\n- Medical Reasoning: Patient is currently stable and compliant with her metformin.\n- Patient Education and Counseling: She was advised to start checking her blood sugar prior to every meal.\n- Medical Treatment: Continue metformin 500 mg daily. Start daily blood sugar monitoring before each meal.\n\n4. Insomnia.\n- Medical Reasoning: The patient has a history of insomnia.\n- Patient Education and Counseling: We discussed proper sleep hygiene.\n- Medical Treatment: I have recommended she take 10 mg of melatonin as needed.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.\n\nINSTRUCTIONS\n\nPatient will return for follow-up in 3 months.",
+  "gold_sections": {
+    "CC": "Kidney stone.",
+    "MEDICAL_HISTORY": "Patient reports history of hypertension, diabetes, and kidney stones.",
+    "MEDICATIONS": "Patient reports taking Norvasc 2.5 mg and metformin 500 mg.",
+    "ROS": "Constitutional: Reports insomnia.\nCardiovascular: Denies chest pain.\nGastrointestinal: Denies abdominal pain.\nGenitourinary: Denies hematuria.",
+    "VITALS": "Blood pressure: 150/90 mm Hg",
+    "PHYSICAL_EXAM": "Respiratory\n- Auscultation of Lungs: Clear bilaterally. No wheezes, rales, or rhonchi.\n\nCardiovascular\n- Auscultation of Heart: Grade 2/6 systolic ejection murmur, unchanged.\n\nGastrointestinal\n- Examination of Abdomen: No masses or tenderness. No tenderness of the CVA.",
+    "RESULTS": "A1c: 6.7",
+    "ASSESSMENT_PLAN": "1. Kidney stones.\n- Medical Reasoning: Patient recently experience an episode of kidney stones which is her 7th or 8th episode. Based on the patient's symptoms and exam today, I think she has likely passed her kidney stones.\n- Patient Education and Counseling: I advised the patient that we will obtain further testing, however, based on her recurrent episodes a referral to urology is necessary.\n- Medical Treatment: Urine culture and urinalysis were ordered. She will be referred to Dr. Harris in urology.\n\n2. Hypertension.\n- Medical Reasoning: Patient is currently stable and doing well on Norvasc 2.5 mg.\n- Medical Treatment: Continue Norvasc 2.5 mg. Referral to nutrition provided.\n\n3. Diabetes.\n- Medical Reasoning: Patient is currently stable and compliant with her metformin.\n- Patient Education and Counseling: She was advised to start checking her blood sugar prior to every meal.\n- Medical Treatment: Continue metformin 500 mg daily. Start daily blood sugar monitoring before each meal.\n\n4. Insomnia.\n- Medical Reasoning: The patient has a history of insomnia.\n- Patient Education and Counseling: We discussed proper sleep hygiene.\n- Medical Treatment: I have recommended she take 10 mg of melatonin as needed.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.",
+    "INSTRUCTIONS": "Patient will return for follow-up in 3 months."
+  },
+  "n_patient_turns": 54,
+  "n_clinician_turns": 54,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 23796.375051140785,
+      "response_text": "Angela, it's great to hear that you're feeling better after passing the kidney stone. I understand how challenging recurrent stones can be, and I'm confident that the referral to the urologist will help us address this issue more effectively. I'm glad you're managing your blood pressure well at home and that we could discuss strategies to support your diet and diabetes management. Your commitment to monitoring your blood sugars and working towards healthier eating habits is commendable. \n\nRegarding your sleep, I appreciate that you're trying different approaches like meditation and melatonin. It's important to create a restful environment, and I encourage you to explore any additional tools that might help, such as white noise machines or consistent sleep schedules. Remember, it's okay to start small and build up these changes over time.\n\nPlease don't hesitate to reach out if you have any questions or concerns before our next appointment in three months. You're doing a lot to take care of yourself, and I'm here to support you every step of the way. Take care, and I look forward to seeing you soon.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 25007.222905755043,
+      "response_text": "Thanks for sharing all of that with me, Angela. It sounds like you've been through a lot with these kidney stones, and I can see how that would be frustrating, especially with how often they've come up. I'm glad you were able to pass this latest one, and it's good to hear the pain has subsided. Managing chronic conditions like hypertension and diabetes must also feel overwhelming at times, but I'm impressed with how you're handling it all.\n\nWe'll start by getting a referral to urology to look into those recurrent kidney stones. It's important to understand why they keep happening and how we can prevent them. For your blood pressure, since it's better at home, we'll keep you on the same medication but encourage you to continue monitoring it with that cuff. For your diabetes, let's keep you on the metformin and work on tracking your blood sugars more regularly to see how we can fine-tune your management.\n\nWe'll also schedule a follow-up in three months to check in on everything. Before you leave, could you tell me in your own words what you think we've agreed on today? That way, I can make sure everything is clear.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7397.5686356425285,
+      "response_text": "It sounds like you're doing well overall, and I'm glad to hear that the pain from the kidney stone has subsided and there's no more blood in your urine.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in three months. In the meantime, if you have any concerns or if your blood pressure spikes again, please reach out.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're doing well overall, and I'm glad to hear that the pain from the kidney stone has subsided and there's no more blood in your urine.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in three months. In the meantime, if you have any concerns or if your blood pressure spikes again, please reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 277149.7977152467,
+      "response_text": "Thank you for sharing your concerns about your recent kidney stone and your other health issues. I understand that these can be worrying, and I'm here to help address them.\n\nGiven that you recently had a kidney stone and have already visited the emergency room and tried pain medicine, it's important to monitor your condition. We'll keep track of how you're improving and adjust any necessary interventions.\n\nHigh blood pressure is a common condition that requires careful management. Since we don't have specific information about your history, we'll focus on general guidelines for managing high blood pressure.\n\nDiabetes management is crucial, especially for indigenous populations, where access to appropriate care can be a challenge. We'll work together to tailor a management plan that suits your needs.\n\nWe'll monitor your kidney stone condition closely and adjust care as needed.\n\nFor high blood pressure, we'll follow general management guidelines to keep your blood pressure under control.\n\nWe'll tailor a diabetes management plan focusing on your specific needs and ensuring appropriate care.\n\nI want to make sure I explained everything clearly. Can you summarize the plan we discussed today in your own words?\n\nLet's plan to follow up in a month. If you experience any severe symptoms or if your condition changes, please reach out sooner.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns about your recent kidney stone and your other health issues. I understand that these can be worrying, and I'm here to help address them.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "kidney stone",
+            "profile_path": "problems[0]",
+            "explanation": "Given that you recently had a kidney stone and have already visited the emergency room and tried pain medicine, it's important to monitor your condition. We'll keep track of how you're improving and adjust any necessary interventions.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::35833228",
+                "primary_assertion_id": "35833228_retr",
+                "pmids": [
+                  "35833228"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "hypertension",
+            "profile_path": "problems[1]",
+            "explanation": "High blood pressure is a common condition that requires careful management. Since we don't have specific information about your history, we'll focus on general guidelines for managing high blood pressure.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::32866417",
+                "primary_assertion_id": "32866417_retr",
+                "pmids": [
+                  "32866417"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "diabetes",
+            "profile_path": "problems[2]",
+            "explanation": "Diabetes management is crucial, especially for indigenous populations, where access to appropriate care can be a challenge. We'll work together to tailor a management plan that suits your needs.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::36355789",
+                "primary_assertion_id": "36355789_retr",
+                "pmids": [
+                  "36355789"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll monitor your kidney stone condition closely and adjust care as needed.",
+          "For high blood pressure, we'll follow general management guidelines to keep your blood pressure under control.",
+          "We'll tailor a diabetes management plan focusing on your specific needs and ensuring appropriate care."
+        ],
+        "teach_back_prompt": "I want to make sure I explained everything clearly. Can you summarize the plan we discussed today in your own words?",
+        "follow_up_invitation": "Let's plan to follow up in a month. If you experience any severe symptoms or if your condition changes, please reach out sooner.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "retrieval_only::35833228",
+          "retrieval_only::32866417",
+          "retrieval_only::36355789"
+        ],
+        "all_pmids_used": [
+          "35833228",
+          "32866417",
+          "36355789"
+        ],
+        "glossary_substitutions": [
+          {
+            "field": "next_steps[1]",
+            "original": "hypertension",
+            "plain": "high blood pressure",
+            "count": 1
+          },
+          {
+            "field": "clinical_information_per_concern[1].explanation",
+            "original": "hypertension",
+            "plain": "high blood pressure",
+            "count": 1
+          }
+        ]
+      },
+      "profile_summary": {
+        "n_problems": 3,
+        "n_medications": 2,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "kidney stone",
+          "hypertension",
+          "diabetes"
+        ],
+        "medications": [
+          "Percocet (unknown dose, frequency)",
+          "Norvasc (2.5 mg, daily)"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [
+        "35833228",
+        "32866417",
+        "36355789"
+      ],
+      "cluster_ids_used": [
+        "retrieval_only::35833228",
+        "retrieval_only::32866417",
+        "retrieval_only::36355789"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 351732.3446199298,
+      "response_text": "I can hear how uncertain you are about making another appointment \u2014 you said, \"Yeah, I don't know if I can make another appointment.\" I want to help clarify things for you so you feel more confident about moving forward.\n\nSince you're improving after the emergency room visit and the pain medicine is helping, we'll focus on preventing future kidney stones. This might involve some changes to your diet and maybe some medications to keep stones from forming again.\n\nFor high blood pressure, we'll start by reviewing your current blood pressure readings and see if adjustments to your Norvasc dose are needed. It's important to monitor this closely to prevent complications down the line.\n\nWith diabetes, we'll check your current medications and see if any changes are needed. Managing diabetes is all about balancing medications, diet, and regular monitoring to keep you healthy.\n\nTo help you control your health issues, we'll work together on a plan that includes regular check-ups and monitoring of your conditions. This will help us catch any changes early and adjust your care as needed.\n\nWe'll set up a schedule that works best for you to manage your appointments. This way, we can ensure you stay on top of your care without feeling overwhelmed.\n\nWe'll schedule a follow-up appointment for you to review your kidney stone prevention plan and check in on your high blood pressure and diabetes management.\n\nWe'll also set up a medication review to ensure everything you're taking is appropriate and safe.\n\nIn the meantime, keep track of how you're feeling and let us know if anything changes.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if you have any concerns or need to adjust your appointments, please reach out.",
+      "structured_response": {
+        "acknowledgment": "I can hear how uncertain you are about making another appointment \u2014 you said, \"Yeah, I don't know if I can make another appointment.\" I want to help clarify things for you so you feel more confident about moving forward.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "kidney stone",
+            "profile_path": "problems[0]",
+            "explanation": "Since you're improving after the emergency room visit and the pain medicine is helping, we'll focus on preventing future kidney stones. This might involve some changes to your diet and maybe some medications to keep stones from forming again.",
+            "citations": []
+          },
+          {
+            "concern_label": "hypertension",
+            "profile_path": "problems[1]",
+            "explanation": "For high blood pressure, we'll start by reviewing your current blood pressure readings and see if adjustments to your Norvasc dose are needed. It's important to monitor this closely to prevent complications down the line.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::problems[1]::32866417_0",
+                "primary_assertion_id": "32866417_0",
+                "pmids": [
+                  "32866417"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "diabetes",
+            "profile_path": "problems[2]",
+            "explanation": "With diabetes, we'll check your current medications and see if any changes are needed. Managing diabetes is all about balancing medications, diet, and regular monitoring to keep you healthy.",
+            "citations": []
+          },
+          {
+            "concern_label": "control health issues",
+            "profile_path": "patient_goals[0]",
+            "explanation": "To help you control your health issues, we'll work together on a plan that includes regular check-ups and monitoring of your conditions. This will help us catch any changes early and adjust your care as needed.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::global::38604640_7",
+                "primary_assertion_id": "38604640_7",
+                "pmids": [
+                  "38604640"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "manage appointments",
+            "profile_path": "patient_goals[1]",
+            "explanation": "We'll set up a schedule that works best for you to manage your appointments. This way, we can ensure you stay on top of your care without feeling overwhelmed.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::global::38604640_7",
+                "primary_assertion_id": "38604640_7",
+                "pmids": [
+                  "38604640"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll schedule a follow-up appointment for you to review your kidney stone prevention plan and check in on your high blood pressure and diabetes management.",
+          "We'll also set up a medication review to ensure everything you're taking is appropriate and safe.",
+          "In the meantime, keep track of how you're feeling and let us know if anything changes."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if you have any concerns or need to adjust your appointments, please reach out.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "recommendation::problems[1]::32866417_0",
+          "recommendation::global::38604640_7"
+        ],
+        "all_pmids_used": [
+          "32866417",
+          "38604640"
+        ],
+        "glossary_substitutions": [
+          {
+            "field": "next_steps[0]",
+            "original": "hypertension",
+            "plain": "high blood pressure",
+            "count": 1
+          },
+          {
+            "field": "clinical_information_per_concern[1].explanation",
+            "original": "hypertension",
+            "plain": "high blood pressure",
+            "count": 1
+          }
+        ]
+      },
+      "profile_summary": {
+        "n_problems": 3,
+        "n_medications": 2,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 2,
+        "problems": [
+          "kidney stone",
+          "hypertension",
+          "diabetes"
+        ],
+        "medications": [
+          "Percocet",
+          "Norvasc 2.5 mg daily"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [
+        "32866417",
+        "38604640"
+      ],
+      "cluster_ids_used": [
+        "recommendation::problems[1]::32866417_0",
+        "recommendation::global::38604640_7"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 251772.70013093948,
+        "module_2_retrieval": 1448.1921717524529,
+        "module_3_reasoning": 58519.26512271166,
+        "module_4_response": 39991.30076915026,
+        "total_ms": 351731.45819455385
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

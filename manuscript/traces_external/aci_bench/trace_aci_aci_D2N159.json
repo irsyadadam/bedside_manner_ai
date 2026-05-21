@@ -1,0 +1,286 @@
+{
+  "transcript_id": "aci_aci_D2N159",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "yes i sit at the keyboard all day long and recently i've been having some numbness and tingling in my right hand",
+  "patient_utterances": [
+    "[Clinician asked: \"good afternoon alexis i understand you're having some issues with your hand\"] yes i sit at the keyboard all day long and recently i've been having some numbness and tingling in my right hand",
+    "[Clinician asked: \"okay how long has that been going on\"] i do n't know probably on and off for six months but over the last month or so it's been a little more persistent",
+    "[Clinician asked: \"okay okay and when does that numbness and tingling do you get a lot of pain with it first let me ask that question\"] some pain",
+    "[Clinician asked: \"some pain\"] mostly when i'm actually typing on the keyboard is when i experience the pain",
+    "[Clinician asked: \"okay\"] but the numbness and tingling is all the time now",
+    "[Clinician asked: \"okay and when you get this pain what makes it better is it stopping and just resting for a while or do you take medications or try other\"] i've been taking ibuprofen so ibuprofen and seem like not typing on the keyboard helps the most",
+    "[Clinician asked: \"okay\"] the other thing that makes it hurt is my mouse",
+    "[Clinician asked: \"your mouth okay\"] wow",
+    "[Clinician asked: \"yeah when you're moving that around okay\"] yeah",
+    "[Clinician asked: \"does this pain ever wake you up in the middle of the night or the pain or the tingling\"] no",
+    "[Clinician asked: \"no okay\"] not affecting my sleep hmmm",
+    "[Clinician asked: \"okay so and you're using motrin for for ibuprofen for for the pain well let me go ahead and take a take a look here at your is it both hands or just your right hand\"] mostly my right hand",
+    "[Clinician asked: \"mostly your right hand okay so let's go ahead and take a look at that right hand when i bend your wrist does that cause any pain\"] yes",
+    "[Clinician asked: \"it does okay and so you do have some pain on extension and if you pull your your hand wrist up towards you does that cause the pain also\"] yes",
+    "[Clinician asked: \"yeah okay so you do have pain on flexion and extension and when i touch the fingertips here now you said you had some numbness in your thumb and your index finger and a little bit in your your middle finger the other two fingers they feel okay or do you think that there is different than the other h\"] yeah for some reason it really is just that the thumb the pointer in the middle finger that i experience the most symptoms with",
+    "[Clinician asked: \"okay\"] not why that is",
+    "[Clinician asked: \"okay so i i want you to grip my hands here and just squeeze tight okay so you do have a a little bit of a less grip strength on the right and that's typical that we would see with this type of pain and and numbness that you have going on now i want you to turn your arm over for me and i'm gon na tou\"] i was afraid of",
+    "[Clinician asked: \"yeah you see this frequently but people who are doing data entry spend a lot of time on keyboards or you know some a lotta manufacturing people who do a repetitive procedure again and again will get that type of pain so here is my plan i'd like to put you in a splint and it's it's it's kind of a wri\"] okay",
+    "[Clinician asked: \"we're gon na do that now i am going to order some a a outpatient test called an emg where we look at that nerve conduction study in that wrist and that's really what's happening here is you've got some thickening in the the in the wrist and the the the membranes of the wrist that are just pressing d\"] that sounds like a good plan i was hoping maybe i could get some relief with some therapy rather than having to go to surgery so i like that plan very much",
+    "[Clinician asked: \"yeah we'll start with the the wrist splint and once i get the nerve conduction studies that will give me another idea whether or not i need to send you some physical therapy in addition or if we need to go directly to surgery but that will all hinge on that nerve conduction test do you so do you hav\"] no that's great thank you so much"
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nRight hand pain.\n\nHISTORY OF PRESENT ILLNESS\n\nAlexis Gutierrez is a pleasant 33-year-old female who presents to the clinic today for the evaluation of right hand pain.\n\nApproximately 6 months ago, the patient began experiencing intermittent episodes of numbness and tingling in the 1st, 2nd, and 3rd digits on her right hand. The numbness and tingling has become constant over the past month or so and is accompanied by pain with typing and using a mouse, which she does all day while working on a keyboard. She denies any sleep disturbance associated with her symptoms. Rest and ibuprofen have been the most helpful at providing symptomatic relief.\n\nSOCIAL HISTORY\n\nThe patient reports that she works on a keyboard all day.\n\nMEDICATIONS\n\nThe patient reports that she has been taking ibuprofen.\n\nREVIEW OF SYSTEMS\n\nConstitutional: Denies sleep disturbance.\nMusculoskeletal: Reports pain in the 1st, 2nd, and 3rd digits on the right hand.\nNeurological: Reports numbness and tingling in the 1st, 2nd, and 3rd digits on the right hand.\n\nPHYSICAL EXAM\n\nMSK: Examination of the right hand: Pain with flexion and extension of the wrist.. Decreased grip strength on the right compared to the left. Positive Tinel's sign.\n\nASSESSMENT\n\nRight carpal tunnel syndrome.\n\nPLAN\n\nAfter reviewing her symptoms and exam findings, I believe her symptoms are secondary to carpal tunnel syndrome. We discussed the nature of this condition, as well as her treatment options, in detail. I recommend we treat this conservatively with nighttime wrist splinting and ibuprofen, but I want to increase her dose to 600 mg 4 times daily. I'm also going to order an EMG/Nerve conduction study for further evaluation. If this is positive, we can consider additional treatment with physical therapy or surgical intervention with carpal tunnel release.",
+  "gold_sections": {
+    "CC": "Right hand pain.",
+    "HPI": "Alexis Gutierrez is a pleasant 33-year-old female who presents to the clinic today for the evaluation of right hand pain.\n\nApproximately 6 months ago, the patient began experiencing intermittent episodes of numbness and tingling in the 1st, 2nd, and 3rd digits on her right hand. The numbness and tingling has become constant over the past month or so and is accompanied by pain with typing and using a mouse, which she does all day while working on a keyboard. She denies any sleep disturbance associated with her symptoms. Rest and ibuprofen have been the most helpful at providing symptomatic relief.",
+    "SOCIAL_HISTORY": "The patient reports that she works on a keyboard all day.",
+    "MEDICATIONS": "The patient reports that she has been taking ibuprofen.",
+    "ROS": "Constitutional: Denies sleep disturbance.\nMusculoskeletal: Reports pain in the 1st, 2nd, and 3rd digits on the right hand.\nNeurological: Reports numbness and tingling in the 1st, 2nd, and 3rd digits on the right hand.",
+    "PHYSICAL_EXAM": "MSK: Examination of the right hand: Pain with flexion and extension of the wrist.. Decreased grip strength on the right compared to the left. Positive Tinel's sign.",
+    "ASSESSMENT": "Right carpal tunnel syndrome.",
+    "PLAN": "After reviewing her symptoms and exam findings, I believe her symptoms are secondary to carpal tunnel syndrome. We discussed the nature of this condition, as well as her treatment options, in detail. I recommend we treat this conservatively with nighttime wrist splinting and ibuprofen, but I want to increase her dose to 600 mg 4 times daily. I'm also going to order an EMG/Nerve conduction study for further evaluation. If this is positive, we can consider additional treatment with physical therapy or surgical intervention with carpal tunnel release."
+  },
+  "n_patient_turns": 20,
+  "n_clinician_turns": 21,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 12228.14492881298,
+      "response_text": "Alexis, I understand how frustrating and uncomfortable this must be for you, especially since it's affecting your daily work. It's good that you've noticed some relief when resting and using ibuprofen, which shows that conservative measures can help. The splint will provide support and reduce strain on your wrist, allowing it to rest and heal. The EMG test is important to understand the extent of the nerve involvement, which will guide us on the best next steps, whether it's physical therapy or further treatment. I'm glad you're open to starting with therapy, as it's often effective. We'll monitor your progress closely and adjust the plan based on the test results. Please feel free to ask any questions or share any concerns you have about the plan.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 21672.95740544796,
+      "response_text": "Alexis, I can understand how frustrating it must be to deal with this numbness and tingling in your right hand for so long. It\u2019s completely reasonable to feel concerned, especially when it\u2019s affecting your ability to work. I can see why you\u2019d want some relief without having to go through surgery, and I\u2019m glad you\u2019re hoping for therapy instead.\n\nWe\u2019ll start with a wrist splint to help reduce the strain on your hand and see how that goes. I\u2019ve also ordered an EMG test to get a better idea of what\u2019s happening with your nerves. This will help us decide if physical therapy or further treatment is needed. In the meantime, avoiding repetitive motions and taking breaks to rest your hand can make a big difference.\n\nWe\u2019ll follow up in about two weeks to see how you\u2019re doing with the splint and to discuss the results of the EMG. Before you leave, could you summarize what we\u2019ve agreed on? That way, I can make sure everything is clear. Let me know if you have any questions or concerns in the meantime.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7539.34346139431,
+      "response_text": "It sounds like you're having some discomfort and trouble with your right hand, especially when typing and using the mouse. I understand how frustrating that must be, especially since it's affecting your work.\n\nCan you tell me, in your own words, what you understand about what we discussed today and what you plan to do next?\n\nLet's plan to check in again in a week or so. If the pain or numbness gets worse or if you notice any new symptoms, please reach out sooner.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're having some discomfort and trouble with your right hand, especially when typing and using the mouse. I understand how frustrating that must be, especially since it's affecting your work.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "Can you tell me, in your own words, what you understand about what we discussed today and what you plan to do next?",
+        "follow_up_invitation": "Let's plan to check in again in a week or so. If the pain or numbness gets worse or if you notice any new symptoms, please reach out sooner.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 150572.18334823847,
+      "response_text": "I can hear how much this has been bothering you \u2014 you mentioned, \"that sounds like a good plan i was hoping maybe i could get some relief with some therapy rather than having to go to surgery so i like that plan very much.\" It's great that you're open to therapy as a way to find relief.\n\nNumbness and tingling in your right hand, especially when sitting at the keyboard for long periods, could be linked to repetitive strain or other nerve-related issues. To address this, we'll focus on finding the right approach to manage your symptoms and prevent them from getting worse.\n\nTherapy can be a great way to find relief without surgery. We'll explore therapy options that can help you manage your symptoms and improve your daily life.\n\nWe'll schedule an evaluation to better understand the cause of the numbness and tingling in your hand.\n\nBased on the evaluation, we'll recommend therapy options tailored to your needs to help you find relief without surgery.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to check in again in a few weeks. If you experience any new symptoms or if your current symptoms worsen, please reach out sooner.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this has been bothering you \u2014 you mentioned, \"that sounds like a good plan i was hoping maybe i could get some relief with some therapy rather than having to go to surgery so i like that plan very much.\" It's great that you're open to therapy as a way to find relief.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "numbness and tingling in right hand",
+            "profile_path": "problems[0]",
+            "explanation": "Numbness and tingling in your right hand, especially when sitting at the keyboard for long periods, could be linked to repetitive strain or other nerve-related issues. To address this, we'll focus on finding the right approach to manage your symptoms and prevent them from getting worse.",
+            "citations": []
+          },
+          {
+            "concern_label": "get some relief with therapy rather than surgery",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Therapy can be a great way to find relief without surgery. We'll explore therapy options that can help you manage your symptoms and improve your daily life.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll schedule an evaluation to better understand the cause of the numbness and tingling in your hand.",
+          "Based on the evaluation, we'll recommend therapy options tailored to your needs to help you find relief without surgery."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to check in again in a few weeks. If you experience any new symptoms or if your current symptoms worsen, please reach out sooner.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 1,
+        "problems": [
+          "numbness and tingling in right hand"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 214385.03202050924,
+      "response_text": "Thank you so much for your gratitude \u2014 I can see how much this means to you. You said, \"Thank you so much,\" which shows how much you appreciate the care you're receiving.\n\nThe numbness and tingling in your right hand, especially since it's been getting worse over time, suggests we should explore potential causes together. We'll focus on understanding your symptoms better and finding ways to manage them effectively.\n\nWe'll work together to find therapy options that can help you achieve your goal of getting relief without surgery. This approach aligns with patient-centered communication and goal setting, as recommended by clinical guidelines.\n\nWe'll schedule a follow-up appointment to discuss your symptoms in more detail and explore therapy options that align with your goals.\n\nWe'll review your current medications and see if any adjustments can help alleviate your symptoms.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to meet again in two weeks. If your symptoms worsen or if you experience any new issues, please reach out sooner.",
+      "structured_response": {
+        "acknowledgment": "Thank you so much for your gratitude \u2014 I can see how much this means to you. You said, \"Thank you so much,\" which shows how much you appreciate the care you're receiving.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "numbness and tingling in right hand",
+            "profile_path": "problems[0]",
+            "explanation": "The numbness and tingling in your right hand, especially since it's been getting worse over time, suggests we should explore potential causes together. We'll focus on understanding your symptoms better and finding ways to manage them effectively.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::sub_query[1]::33658141_0",
+                "primary_assertion_id": "33658141_0",
+                "pmids": [
+                  "33658141"
+                ]
+              },
+              {
+                "cluster_id": "recommendation::sub_query[1]::33658141_1",
+                "primary_assertion_id": "33658141_1",
+                "pmids": [
+                  "33658141"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "get some relief with therapy rather than surgery",
+            "profile_path": "patient_goals[0]",
+            "explanation": "We'll work together to find therapy options that can help you achieve your goal of getting relief without surgery. This approach aligns with patient-centered communication and goal setting, as recommended by clinical guidelines.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::sub_query[1]::33658141_0",
+                "primary_assertion_id": "33658141_0",
+                "pmids": [
+                  "33658141"
+                ]
+              },
+              {
+                "cluster_id": "recommendation::sub_query[1]::33658141_1",
+                "primary_assertion_id": "33658141_1",
+                "pmids": [
+                  "33658141"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll schedule a follow-up appointment to discuss your symptoms in more detail and explore therapy options that align with your goals.",
+          "We'll review your current medications and see if any adjustments can help alleviate your symptoms."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to meet again in two weeks. If your symptoms worsen or if you experience any new issues, please reach out sooner.",
+        "nurse_elements_applied": [
+          "Name",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "recommendation::sub_query[1]::33658141_0",
+          "recommendation::sub_query[1]::33658141_1"
+        ],
+        "all_pmids_used": [
+          "33658141"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 1,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 1,
+        "problems": [
+          "numbness and tingling in right hand"
+        ],
+        "medications": [
+          "ibuprofen"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [
+        "33658141"
+      ],
+      "cluster_ids_used": [
+        "recommendation::sub_query[1]::33658141_0",
+        "recommendation::sub_query[1]::33658141_1"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 135060.85827946663,
+        "module_2_retrieval": 1218.8642919063568,
+        "module_3_reasoning": 50904.771484434605,
+        "module_4_response": 27199.64575767517,
+        "total_ms": 214384.13981348276
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

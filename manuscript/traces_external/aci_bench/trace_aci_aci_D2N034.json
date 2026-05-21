@@ -1,0 +1,329 @@
+{
+  "transcript_id": "aci_aci_D2N034",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "hey alan i good to see you today so i looked here my appointment notes and i see that you're coming in you had some shoulder pain left shoul",
+  "patient_utterances": [
+    "[Clinician asked: \"alright you can go ahead\"] hey alan i good to see you today so i looked here my appointment notes and i see that you're coming in you had some shoulder pain left shoulder pain for the last three weeks so",
+    "[Clinician asked: \"how you doing is it is it gotten any better\"] yeah yeah i've been having a lot of pain of my shoulder for the last three weeks now and it's not getting better okay do you remember what you were doing when the pain first started",
+    "[Clinician asked: \"so i i was thinking that i i ca n't recall like falling on it injuring it getting hit\"] hmmm",
+    "[Clinician asked: \"i have been doing a lot of work in my basement and i even i put in a new ceiling so i do n't know if it's from all that activity doing that but otherwise that's that's all i can think of\"] okay so do you remember hitting it or anything like that",
+    "[Clinician asked: \"no nothing at all\"] okay alright did you fall do you remember doing that",
+    "[Clinician asked: \"no\"] okay hmmm so like a little mystery so have you had pain in that shoulder before",
+    "[Clinician asked: \"i mean i'm very active so i can get pains in my shoulders but it's nothing that sometime some tylenol can help\"] okay and are you able to move the arm or is it kinda just stuck",
+    "[Clinician asked: \"i'm having a lot of pain like i can move it but you know when i try to reach for something lifting anything and even like i do n't even try to put my hands over my head because it causes so much pain\"] alright so does that pain radiate anywhere or like where would you say it is in your shoulder",
+    "[Clinician asked: \"it actually it stays pretty much just right at the shoulder it does n't go down anywhere\"] okay and the pain is it is it all the time or does it come and go",
+    "[Clinician asked: \"it's pretty much all the time anytime i put any pressure on it like when i'm trying to sleep it hurts even more so it's been affecting my sleep as well\"] okay so i know you mentioned tylenol so this time i have n't taken anything for it",
+    "[Clinician asked: \"yeah i i do the tylenol which usually works for me and it does take the edge off but i still have pain okay did you try icing it at all\"] i iced it initially but i have n't iced it at all recently",
+    "[Clinician asked: \"alright\"] and so with your shoulder have you experienced any numbness in your arm or in your fingers",
+    "[Clinician asked: \"no numbness or tingling\"] okay good so i'm gon na go ahead and do a quick physical exam and take a look at your your shoulder so i reviewed your your vitals everything looks good with that so touch here in your shoulder so your left shoulder exam you have limited active and passive range of motion so pressure here so that there is tenderness of the greater",
+    "[Clinician asked: \"okay\"] tuberosity of the humerus let's see there is no tenderness at the sternoclavicular or acro",
+    "[Clinician asked: \"yeah\"] acromioclavicular joints",
+    "[Clinician asked: \"yeah yeah\"] and looks like you have good hand grip let me see so on the neurovascular exam of your left arm your capillary refill is less than three seconds and your sensation is is intact to light touch",
+    "[Clinician asked: \"yes thank you yep\"] so you did get a we get we had to get a x-ray of your shoulder before you came in and so it's normal so that's really good so there is no fractures no bony abnormalities so let's talk a little bit about my assessment and plan for you so you you do have that left shoulder pain so your symptoms are",
+    "[Clinician asked: \"most likely due to a rotator cuff tendinopathy so this means that you injured tendon you have injured tendons and muscles that make up your shoulder and make up your shoulder muscles so what i'm gon na do is i'm gon na order an mri of your left shoulder\"] and so we're gon na begin with that just to make sure nothing else is going on have you done physical therapy before",
+    "[Clinician asked: \"i have n't\"] okay so what i'm gon na do i'm going to refer you to physical therapy for approximately six to eight weeks and so they can help you strengthen those muscles around your shoulder and that should definitely help with the pain during that time you can also continue to take tylenol i do n't think i need to prescribe anything else for the pain you said as it's working pretty good for you so if your symptoms do n't improve we can consider a steroid injection of your shoulder which should provide some relief but i think right now we can just go with the the pt and hopefully that works to alleviate your injury so do you have any questions about the plan",
+    "[Clinician asked: \"so like i said i'm really active do you think that this pain will ever go away\"] yeah so many patients are very successful with rehab and so we'll start with that and see how you do most most of the time once we build up those muscles around that shoulder you know things things the pain alleviates itself and and and you will be good to go back to working on your basement and running and jogging and lifting weights all all the active things people do these days",
+    "[Clinician asked: \"okay alright thank you\"] bye"
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nLeft shoulder pain.\n\nHISTORY OF PRESENT ILLNESS\n\nAlan Mitchell is a pleasant 69-year-old male who presents to the clinic today for the evaluation of left shoulder pain. The onset of his pain began 3 weeks ago, without any improvement. He denies any specific injury; however, he has been renovating his basement and putting in a new ceiling. He does not recall hitting or falling onto the left shoulder. The patient states he is very active and has experienced left shoulder pain before that usually resolves with Tylenol.\n\nThe patient reports significant pain with reaching, lifting, and overhead activities. The pain is constant. He states the pain is primarily located in the left shoulder and denies it radiates down into the left arm. The patient also reports difficulty sleeping secondary to the pain. He denies any numbness or tingling in his left arm or fingers. He has been taking Tylenol for pain, which provides partial relief. He initially iced his shoulder but has not iced it recently. The patient denies he has done any physical therapy.\n\nREVIEW OF SYSTEMS\n\nMusculoskeletal: Reports left shoulder pain. Neurological: Denies numbness or tingling.\n\nVITALS\n\nAll vital signs are within the normal limits.\n\nPHYSICAL EXAM\n\nMSK: Examination of the left shoulder: Limited active and passive ROM. Tenderness over the greater tuberosity of the humerus. No tenderness at the sternoclavicular or AC joints. Good hand grip. Neurovascularly intact distally. Capillary refill is less than 3 seconds. Sensation is intact to light touch distally.\n\nRESULTS\n\nX-rays of the left shoulder were obtained and reviewed today. These are normal and reveal no fracture or bony abnormalities.\n\nASSESSMENT\n\nLeft shoulder pain, likely rotator cuff tendinopathy.\n\nPLAN\n\nAfter reviewing the patient's examination and radiographic findings today, I have had a lengthy discussion with him regarding his current symptoms. I have explained that his x-rays did not reveal any signs of a fracture. I have recommended that we obtain an MRI of the left shoulder to evaluate for possible rotator cuff tendinopathy. The patient was provided with a referral to formal physical therapy. He will engage in a 6-to-8-week course in order to strengthen his left shoulder. I have also advised him to take Tylenol as needed for pain. If his symptoms do not improve, we may consider a steroid injection to the left shoulder.\n\nINSTRUCTIONS\n\nThe patient will follow up with me once the MRI results are available for review and further discussion.",
+  "gold_sections": {
+    "CC": "Left shoulder pain.",
+    "HPI": "Alan Mitchell is a pleasant 69-year-old male who presents to the clinic today for the evaluation of left shoulder pain. The onset of his pain began 3 weeks ago, without any improvement. He denies any specific injury; however, he has been renovating his basement and putting in a new ceiling. He does not recall hitting or falling onto the left shoulder. The patient states he is very active and has experienced left shoulder pain before that usually resolves with Tylenol.\n\nThe patient reports significant pain with reaching, lifting, and overhead activities. The pain is constant. He states the pain is primarily located in the left shoulder and denies it radiates down into the left arm. The patient also reports difficulty sleeping secondary to the pain. He denies any numbness or tingling in his left arm or fingers. He has been taking Tylenol for pain, which provides partial relief. He initially iced his shoulder but has not iced it recently. The patient denies he has done any physical therapy.",
+    "ROS": "Musculoskeletal: Reports left shoulder pain. Neurological: Denies numbness or tingling.",
+    "VITALS": "All vital signs are within the normal limits.",
+    "PHYSICAL_EXAM": "MSK: Examination of the left shoulder: Limited active and passive ROM. Tenderness over the greater tuberosity of the humerus. No tenderness at the sternoclavicular or AC joints. Good hand grip. Neurovascularly intact distally. Capillary refill is less than 3 seconds. Sensation is intact to light touch distally.",
+    "RESULTS": "X-rays of the left shoulder were obtained and reviewed today. These are normal and reveal no fracture or bony abnormalities.",
+    "ASSESSMENT": "Left shoulder pain, likely rotator cuff tendinopathy.",
+    "PLAN": "After reviewing the patient's examination and radiographic findings today, I have had a lengthy discussion with him regarding his current symptoms. I have explained that his x-rays did not reveal any signs of a fracture. I have recommended that we obtain an MRI of the left shoulder to evaluate for possible rotator cuff tendinopathy. The patient was provided with a referral to formal physical therapy. He will engage in a 6-to-8-week course in order to strengthen his left shoulder. I have also advised him to take Tylenol as needed for pain. If his symptoms do not improve, we may consider a steroid injection to the left shoulder.",
+    "INSTRUCTIONS": "The patient will follow up with me once the MRI results are available for review and further discussion."
+  },
+  "n_patient_turns": 21,
+  "n_clinician_turns": 22,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 19089.76224809885,
+      "response_text": "I understand how frustrating and limiting this shoulder pain must be, especially since it\u2019s been affecting your sleep and daily activities. Based on what we\u2019ve discussed and the exam findings, it seems like the pain is likely due to a rotator cuff issue, which is common, especially with increased activity. The normal X-rays suggest no fractures, so we\u2019re focusing on the soft tissues, which is why I\u2019m ordering an MRI to get a clearer picture.\n\nStarting physical therapy is a great step because it will help strengthen the muscles around your shoulder, which should reduce the pain over time. Continuing with Tylenol as needed is fine for now. If the physical therapy doesn\u2019t provide enough relief, we can explore other options like a steroid injection. I\u2019m confident that with this plan, we can help you get back to your active lifestyle. Please let me know if you have any questions or concerns\u2014I\u2019m here to support you through this.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 20878.50560992956,
+      "response_text": "Thank you for sharing your concerns with me. It makes sense that you're feeling frustrated and worried about your shoulder pain, especially since it's been affecting your sleep and daily activities for three weeks. I can understand how this must be impacting your active lifestyle, and I want to work together to help you feel better.\n\nBased on your description and the physical exam, it seems like your shoulder pain is likely due to rotator cuff tendinopathy, which is a common issue involving inflammation of the tendons in the shoulder. This can happen from overuse or repetitive activities, especially in an active person like yourself. To confirm this, I've ordered an MRI to rule out any other issues and get a clearer picture of what's going on with your shoulder.\n\nWe'll start with physical therapy, which is great because you haven't done it before. PT can help strengthen the muscles around your shoulder, improve your range of motion, and reduce pain. I recommend committing to the PT sessions for the next six to eight weeks, as this is a proven approach to managing shoulder pain [PMID ?]. You can continue taking Tylenol as it's helping, but if the pain doesn't improve, we can consider a steroid injection as an option [PMID ?].\n\nBefore you leave, could you tell me in your own words what we've agreed on? That way, I can make sure everything is clear. We'll follow up in four weeks to see how things are progressing and adjust the plan if needed.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 8145.290441811085,
+      "response_text": "It sounds like your shoulder pain has been a real challenge for the past three weeks. I understand how frustrating it must be when the pain doesn't improve despite trying things like ice and over-the-counter pain relievers.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if your pain gets worse or you experience any new symptoms like numbness or tingling, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "It sounds like your shoulder pain has been a real challenge for the past three weeks. I understand how frustrating it must be when the pain doesn't improve despite trying things like ice and over-the-counter pain relievers.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if your pain gets worse or you experience any new symptoms like numbness or tingling, please call us right away.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 172548.6101731658,
+      "response_text": "I understand you're experiencing pain in your left shoulder for the past three weeks, which has been worsening. You mentioned trying Tylenol, icing, and physical therapy, but the pain continues.\n\nPersistent shoulder pain, especially when it's getting worse, can be concerning. Given your symptoms and the interventions you've tried, it's important to rule out serious causes. We'll need to conduct a thorough evaluation to determine the best course of action.\n\nTo help you return to working on your basement, we'll need to address your shoulder pain effectively. Once we understand the cause of your pain, we can create a plan tailored to your goals.\n\nYour goal to continue running and jogging is important. We'll work together to ensure your shoulder pain doesn't interfere with your ability to stay active.\n\nLifting weights is a goal you want to maintain. We'll assess how your shoulder pain affects this activity and develop strategies to help you continue safely.\n\nGiven the red flag of neurological symptoms, we'll prioritize conducting a comprehensive evaluation to rule out serious conditions. This may include imaging or other tests to understand the cause of your shoulder pain.\n\nWe'll schedule a follow-up visit to review the results and discuss next steps in managing your pain and achieving your goals.\n\nI want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again soon to review the results. In the meantime, if your pain worsens or you experience any new symptoms, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I understand you're experiencing pain in your left shoulder for the past three weeks, which has been worsening. You mentioned trying Tylenol, icing, and physical therapy, but the pain continues.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "left shoulder pain",
+            "profile_path": "problems[0]",
+            "explanation": "Persistent shoulder pain, especially when it's getting worse, can be concerning. Given your symptoms and the interventions you've tried, it's important to rule out serious causes. We'll need to conduct a thorough evaluation to determine the best course of action.",
+            "citations": []
+          },
+          {
+            "concern_label": "return to working on basement",
+            "profile_path": "patient_goals[0]",
+            "explanation": "To help you return to working on your basement, we'll need to address your shoulder pain effectively. Once we understand the cause of your pain, we can create a plan tailored to your goals.",
+            "citations": []
+          },
+          {
+            "concern_label": "continue running and jogging",
+            "profile_path": "patient_goals[1]",
+            "explanation": "Your goal to continue running and jogging is important. We'll work together to ensure your shoulder pain doesn't interfere with your ability to stay active.",
+            "citations": []
+          },
+          {
+            "concern_label": "continue lifting weights",
+            "profile_path": "patient_goals[2]",
+            "explanation": "Lifting weights is a goal you want to maintain. We'll assess how your shoulder pain affects this activity and develop strategies to help you continue safely.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "Given the red flag of neurological symptoms, we'll prioritize conducting a comprehensive evaluation to rule out serious conditions. This may include imaging or other tests to understand the cause of your shoulder pain.",
+          "We'll schedule a follow-up visit to review the results and discuss next steps in managing your pain and achieving your goals."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again soon to review the results. In the meantime, if your pain worsens or you experience any new symptoms, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 1,
+        "n_emotional": 0,
+        "n_goals": 3,
+        "problems": [
+          "left shoulder pain"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 231652.61460840702,
+      "response_text": "I can hear how much you're hoping for a successful rehab experience \u2014 you mentioned, \"Yeah, so many patients are very successful with rehab and so we'll start with that and see how you do.\" That gives me hope too, and I want to make sure we're on the right track together.\n\nThe pain in your left shoulder, especially since it's been getting worse over the past three weeks, suggests we should explore treatment options carefully. Research shows that while opioids can help with short-term pain relief, they aren't always better than other options like paracetamol or NSAIDs, and they might carry higher risks.\n\nTo help you get back to working on your basement, we should focus on finding the right approach for your shoulder. Studies suggest that active participation in shared decision-making can help set realistic goals and find the best treatment plan for your situation.\n\nFor continuing your running and jogging, we'll need to address your shoulder pain first. The evidence shows that while opioids can provide short-term relief, they may not be the best option due to potential risks compared to other pain relievers.\n\nRegarding continuing with lifting weights, we'll work on a plan that supports your shoulder health. Research indicates that setting realistic goals through shared decision-making can make a big difference in achieving your fitness goals safely.\n\nWe'll start with a structured rehab program to address your shoulder pain and help you return to your activities.\n\nWe'll monitor your progress over the next 4 weeks and adjust the plan as needed.\n\nIf the pain doesn't improve with rehab, we'll explore other options together.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to check in again in 4 weeks. If you experience increased pain or any new symptoms, please call us right away so we can address them promptly.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much you're hoping for a successful rehab experience \u2014 you mentioned, \"Yeah, so many patients are very successful with rehab and so we'll start with that and see how you do.\" That gives me hope too, and I want to make sure we're on the right track together.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "left shoulder pain",
+            "profile_path": "problems[0]",
+            "explanation": "The pain in your left shoulder, especially since it's been getting worse over the past three weeks, suggests we should explore treatment options carefully. Research shows that while opioids can help with short-term pain relief, they aren't always better than other options like paracetamol or NSAIDs, and they might carry higher risks.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[4]::36252245_0",
+                "primary_assertion_id": "36252245_0",
+                "pmids": [
+                  "36252245"
+                ]
+              },
+              {
+                "cluster_id": "finding::sub_query[4]::36252245_1",
+                "primary_assertion_id": "36252245_1",
+                "pmids": [
+                  "36252245"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "return to working on basement",
+            "profile_path": "patient_goals[0]",
+            "explanation": "To help you get back to working on your basement, we should focus on finding the right approach for your shoulder. Studies suggest that active participation in shared decision-making can help set realistic goals and find the best treatment plan for your situation.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::global::33658141_0",
+                "primary_assertion_id": "33658141_0",
+                "pmids": [
+                  "33658141"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "continue running and jogging",
+            "profile_path": "patient_goals[1]",
+            "explanation": "For continuing your running and jogging, we'll need to address your shoulder pain first. The evidence shows that while opioids can provide short-term relief, they may not be the best option due to potential risks compared to other pain relievers.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[4]::36252245_0",
+                "primary_assertion_id": "36252245_0",
+                "pmids": [
+                  "36252245"
+                ]
+              },
+              {
+                "cluster_id": "finding::sub_query[4]::36252245_1",
+                "primary_assertion_id": "36252245_1",
+                "pmids": [
+                  "36252245"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "continue lifting weights",
+            "profile_path": "patient_goals[2]",
+            "explanation": "Regarding continuing with lifting weights, we'll work on a plan that supports your shoulder health. Research indicates that setting realistic goals through shared decision-making can make a big difference in achieving your fitness goals safely.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::global::33658141_0",
+                "primary_assertion_id": "33658141_0",
+                "pmids": [
+                  "33658141"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll start with a structured rehab program to address your shoulder pain and help you return to your activities.",
+          "We'll monitor your progress over the next 4 weeks and adjust the plan as needed.",
+          "If the pain doesn't improve with rehab, we'll explore other options together."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to check in again in 4 weeks. If you experience increased pain or any new symptoms, please call us right away so we can address them promptly.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[4]::36252245_0",
+          "finding::sub_query[4]::36252245_1",
+          "recommendation::global::33658141_0"
+        ],
+        "all_pmids_used": [
+          "36252245",
+          "33658141"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 3,
+        "problems": [
+          "left shoulder pain"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "36252245",
+        "33658141"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[4]::36252245_0",
+        "finding::sub_query[4]::36252245_1",
+        "recommendation::global::33658141_0"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 160756.9900751114,
+        "module_2_retrieval": 1712.0268866419792,
+        "module_3_reasoning": 29039.99286144972,
+        "module_4_response": 40142.59498566389,
+        "total_ms": 231651.60480886698
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

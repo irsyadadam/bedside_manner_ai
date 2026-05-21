@@ -1,0 +1,373 @@
+{
+  "transcript_id": "aci_virtassist_D2N088",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "hey , good to see you .",
+  "patient_utterances": [
+    "[Clinician asked: \"hi , andrew . how are you ?\"] hey , good to see you .",
+    "[Clinician asked: \"i'm doing well , i'm doing well .\"] good .",
+    "[Clinician asked: \"so , i know the nurse told you about dax . i'd like to tell dax a little bit about you .\"] sure .",
+    "[Clinician asked: \"uh , so , andrew is a 59-year-old male with a past medical history , significant for depression , type two diabetes , and hypertension who presents today with an upper respiratory infection . so , andrew , what's going on ?\"] yeah . we were doing a bit of work out in the yard in the last week or so and i started to feel really tired , was short of breath . um , we- we're not wearing masks as much at the end of the summer and i think i caught my first cold and i think it just got worse .",
+    "[Clinician asked: \"okay . all right . um , now , have you had your covid vaccines ?\"] yeah , both .",
+    "[Clinician asked: \"okay . all right . and , um , do you have any history of any seasonal allergies at all ?\"] none whatsoever .",
+    "[Clinician asked: \"okay . all right . and when you say you're having some shortness of breath , did you feel short of breath walking around or at rest ?\"] uh , usually , it was lifting or carrying something . we were doing some landscaping , so i was carrying some heavy bags of soil and i , i got really winded . it really surprised me .",
+    "[Clinician asked: \"okay . and are you coughing up anything ?\"] not yet , but i feel like that's next .",
+    "[Clinician asked: \"okay . and fevers ?\"] uh , i felt a little warm , but i , i just thought it was because i was exerting myself .",
+    "[Clinician asked: \"okay . all right . and any other symptoms like muscle aches , joint pain , fatigue ?\"] my elbows hurt quite a bit and my knees were pretty tired . l- like i said , i really felt some tension around my knees , but , uh , i think that was a lot to do with , uh , lifting the bags .",
+    "[Clinician asked: \"okay . all right . um , so , you know , how about , how are you doing in terms of your other medical problems , like your depression ? how are you doing with that ? i know we've , you know , talked about not putting you on medication for it because you're on medication for other things . what's goin\"] i- it's been kind of a crazy year and a half . i was a little concerned about that but , for the most part , i've been , been doing well with it . my , my wife got me into barre classes , to help me relax and i think it's working .",
+    "[Clinician asked: \"okay . all right , great . and , and in terms of your diabetes , how are you doing watching your , your diet and your sugar intake ?\"] uh , i've been monitoring my sugar levels while i am going to work during the week . uh , not so , uh , if its saturday or sunday i usually don't remember . uh , the diet's been pretty good for the most part , except for , you know , some house parties and things like that . but , uh , been good for the most part .",
+    "[Clinician asked: \"okay and have they been elevated at all since this episode of your-\"] no .",
+    "[Clinician asked: \"okay . and then , how , lastly , for your high blood pressure , have you been monitoring your blood pressures at home ? did you buy the cuff like i suggested ?\"] uh , same thing . during the while i'm going to work, i'm regular about monitoring it, but if its a saturday or sunday, not so much . but , uh , it's , it's been under control .",
+    "[Clinician asked: \"but you're taking your medication ?\"] yes .",
+    "[Clinician asked: \"okay . all right . well , you know , i know that , you know , you've endorsed , you know , the shortness of breath and some joint pain . um , how about any other symptoms ? nausea or vomiting ? diarrhea ?\"] no .",
+    "[Clinician asked: \"anything like that ?\"] no .",
+    "[Clinician asked: \"okay . all right . well , i wan na go ahead and do a quick physical exam , all right ? hey , dragon , show me the vital signs . so , your vital signs here in the office look quite good .\"] mm-hmm .",
+    "[Clinician asked: \"you know , everything's looking normal , you do n't have a fever , which is really good . um , i'm just gon na go ahead and listen to your heart and your lungs and , kind of , i'll let you know what i hear , okay ?\"] sure .",
+    "[Clinician asked: \"okay . so , on your physical exam , you know , your heart sounds nice and strong . your lungs , you do have scattered ronchi bilaterally on your lung exam . uh , it clears with cough . um , i do notice a little bit of , um , some edema of your lower extremities and you do have some pain to palpation\"] mm-hmm .",
+    "[Clinician asked: \"so , i reviewed the results of your chest x-ray and everything looks good . there's no airspace disease , there's no pneumonia , so that's all very , very good , okay ?\"] good .",
+    "[Clinician asked: \"and here , looking at your diabetic labs , you know , your hemoglobin a1c is a little elevated at eight .\"] mm-hmm .",
+    "[Clinician asked: \"i'd like to see that a little bit better , around six or seven , if possible .\"] mm-hmm .",
+    "[Clinician asked: \"um , so let's talk a little bit about my assessment and my plan for you .\"] mm-hmm .",
+    "[Clinician asked: \"so , for your first problem , this upper respiratory infection , i believe you , you have a viral syndrome , okay ? we'll go ahead and we'll send a covid test , just to make sure that you do n't have covid .\"] mm-hmm .",
+    "[Clinician asked: \"uh , but overall , i think that , um , you know , this will resolve in a couple of days . i do n't think you have covid , you do n't have any exposures , that type of thing .\"] mm-hmm .",
+    "[Clinician asked: \"so , i think that this will improve . i'll give you some robitussin for your cough and i would encourage you take some ibuprofen , tylenol for any fever , okay ?\"] you got it .",
+    "[Clinician asked: \"for your next problem , your depression , you know , it sounds like you're doing well with that , but again , i'm happy to start on a med- , a medical regiment or ...\"] mm-hmm .",
+    "[Clinician asked: \"refer you to psychotherapy , if you think that that would be helpful .\"] mm-hmm .",
+    "[Clinician asked: \"would you like that ?\"] u- u- um , maybe not necessarily . maybe in a , uh , few months we'll check on that .",
+    "[Clinician asked: \"for your third problem , your type two diabetes , i want to go ahead and increase your metformin to 1000 milligrams , twice daily .\"] mm-hmm .",
+    "[Clinician asked: \"and i'm gon na get an- another hemoglobin a1c in four months , okay ?\"] okay , sure .",
+    "[Clinician asked: \"and lastly , for your high blood pressure , it looks like you're doing a really good job managing that . i want to go ahead and continue you on the , um , lisinopril , 20 milligrams a day .\"] mm-hmm .",
+    "[Clinician asked: \"and i'm gon na go ahead and order a lipid panel , okay ?\"] sure .",
+    "[Clinician asked: \"do you need a refill of the lisinopril ?\"] actually , i do .",
+    "[Clinician asked: \"so , the nurse will be in , she'll help you , uh , make a follow-up appointment with me . i want to see you again in about four months .\"] okay .",
+    "[Clinician asked: \"let me know if your symptoms worsen and we can talk more about it , okay ?\"] you got it ."
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nUpper respiratory infection.\n\nHISTORY OF PRESENT ILLNESS\n\nAndrew Campbell is a 59-year-old male with a past medical history significant for depression, type 2 diabetes, and hypertension. He presents today with an upper respiratory infection.\n\nThe patient reports that he has been doing a bit of work out in the yard in the last week or so. He started to feel really tired and short of breath. The patient denies coughing up anything, but he feels like he will soon be coughing up phlegm. He denies having a fever, but he felt a little warm. He attributed this to exerting himself. He reports that his elbows hurt quite a bit. He notes his knees were pretty tired and he felt some tension around his knees. The patient attributes these symptoms to lifting heavy bags. He has not been wearing a mask as much recently. He believes that he caught his first cold and his symptoms have worsened. He has had both of his COVID vaccinations.\n\nHe denies any history of seasonal allergies.\n\nRegarding his depression, he states it has been a crazy year and a half. He was a little concerned about that, but for the most part, he has been doing well with it. His wife got him into barre classes and this has been relaxing.\n\nRegarding his diabetes, he has been monitoring his sugar levels while he is at work, but is not as consistent on Saturdays and Sundays. His diet has been pretty good for the most part, except for some house parties. They have not been elevated since his respiratory symptoms began.\n\nThe patient has been monitoring his blood pressure at home. He reports that he is very regular with monitoring his blood pressure during the week, though less consistently on weekends. He reports his blood pressure has been under control. He has continued to utilize lisinopril 20 mg, daily.\n\nThe patient denies nausea, vomiting, diarrhea.\n\nREVIEW OF SYSTEMS\n\n\u2022 Constitutional: Denies fever.\n\u2022 Cardiovascular: Endorses dyspnea on exertion.\n\u2022 Respiratory: Endorses shortness of breath and cough.\n\u2022 Gastrointestinal: Denies nausea or diarrhea.\n\u2022 Musculoskeletal: Endorses bilateral elbow and knee pain.\n\u2022 Psychiatric: Endorses depression.\n\nPHYSICAL EXAMINATION\n\n\u2022 Respiratory: Scattered rhonchi bilaterally, clears with cough.\n\u2022 Cardiovascular: No murmurs, gallops, or rubs. No extra heart sounds.\n\u2022 Musculoskeletal: Edema in the bilateral lower extremities. Pain to palpation of the bilateral elbows.\n\nRESULTS\n\nX-ray of the chest is unremarkable. No airspace disease. No signs of pneumonia.\n\nHemoglobin A1c is elevated at 8.\n\nASSESSMENT AND PLAN\n\nAndrew Campbell is a 59-year-old male with a past medical history significant for depression, type 2 diabetes, and hypertension. He presents today with an upper respiratory infection.\n\nUpper respiratory infection.\n\u2022 Medical Reasoning: I believe he has contracted a viral syndrome. His chest x-ray was unremarkable and he has received both doses of the COVID-19 vaccination.\n\u2022 Additional Testing: We will obtain a COVID-19 test to rule this out.\n\u2022 Medical Treatment: I recommend he use Robitussin for cough, as well as ibuprofen or Tylenol if he develops a fever.\n\nDepression.\n\u2022 Medical Reasoning: He has been practicing barre classes and is doing well overall.\n\u2022 Medical Treatment: I offered medication or psychotherapy, but the patient opted to defer at this time.\n\nDiabetes type 2.\n\u2022 Medical Reasoning: His blood glucose levels have been well controlled based on home monitoring, but his recent hemoglobin A1c was elevated.\n\u2022 Additional Testing: We will repeat a hemoglobin A1c in 4 months.\n\u2022 Medical Treatment: We will increase his metformin to 1000 mg twice daily.\n\nHypertension.\n\u2022 Medical Reasoning: He has been compliant with lisinopril and his blood pressures have been well controlled based on home monitoring.\n\u2022 Additional Testing: We will order a lipid panel.\n\u2022 Medical Treatment: He will continue on lisinopril 20 mg once daily. This was refilled today.\n\nFollow up: I would like to see him back in approximately 4 months.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.",
+  "gold_sections": {
+    "CC": "Upper respiratory infection.",
+    "HPI": "Andrew Campbell is a 59-year-old male with a past medical history significant for depression, type 2 diabetes, and hypertension. He presents today with an upper respiratory infection.\n\nThe patient reports that he has been doing a bit of work out in the yard in the last week or so. He started to feel really tired and short of breath. The patient denies coughing up anything, but he feels like he will soon be coughing up phlegm. He denies having a fever, but he felt a little warm. He attributed this to exerting himself. He reports that his elbows hurt quite a bit. He notes his knees were pretty tired and he felt some tension around his knees. The patient attributes these symptoms to lifting heavy bags. He has not been wearing a mask as much recently. He believes that he caught his first cold and his symptoms have worsened. He has had both of his COVID vaccinations.\n\nHe denies any history of seasonal allergies.\n\nRegarding his depression, he states it has been a crazy year and a half. He was a little concerned about that, but for the most part, he has been doing well with it. His wife got him into barre classes and this has been relaxing.\n\nRegarding his diabetes, he has been monitoring his sugar levels while he is at work, but is not as consistent on Saturdays and Sundays. His diet has been pretty good for the most part, except for some house parties. They have not been elevated since his respiratory symptoms began.\n\nThe patient has been monitoring his blood pressure at home. He reports that he is very regular with monitoring his blood pressure during the week, though less consistently on weekends. He reports his blood pressure has been under control. He has continued to utilize lisinopril 20 mg, daily.\n\nThe patient denies nausea, vomiting, diarrhea.",
+    "ROS": "\u2022 Constitutional: Denies fever.\n\u2022 Cardiovascular: Endorses dyspnea on exertion.\n\u2022 Respiratory: Endorses shortness of breath and cough.\n\u2022 Gastrointestinal: Denies nausea or diarrhea.\n\u2022 Musculoskeletal: Endorses bilateral elbow and knee pain.\n\u2022 Psychiatric: Endorses depression.",
+    "PHYSICAL_EXAMINATION": "\u2022 Respiratory: Scattered rhonchi bilaterally, clears with cough.\n\u2022 Cardiovascular: No murmurs, gallops, or rubs. No extra heart sounds.\n\u2022 Musculoskeletal: Edema in the bilateral lower extremities. Pain to palpation of the bilateral elbows.",
+    "RESULTS": "X-ray of the chest is unremarkable. No airspace disease. No signs of pneumonia.\n\nHemoglobin A1c is elevated at 8.",
+    "ASSESSMENT_PLAN": "Andrew Campbell is a 59-year-old male with a past medical history significant for depression, type 2 diabetes, and hypertension. He presents today with an upper respiratory infection.\n\nUpper respiratory infection.\n\u2022 Medical Reasoning: I believe he has contracted a viral syndrome. His chest x-ray was unremarkable and he has received both doses of the COVID-19 vaccination.\n\u2022 Additional Testing: We will obtain a COVID-19 test to rule this out.\n\u2022 Medical Treatment: I recommend he use Robitussin for cough, as well as ibuprofen or Tylenol if he develops a fever.\n\nDepression.\n\u2022 Medical Reasoning: He has been practicing barre classes and is doing well overall.\n\u2022 Medical Treatment: I offered medication or psychotherapy, but the patient opted to defer at this time.\n\nDiabetes type 2.\n\u2022 Medical Reasoning: His blood glucose levels have been well controlled based on home monitoring, but his recent hemoglobin A1c was elevated.\n\u2022 Additional Testing: We will repeat a hemoglobin A1c in 4 months.\n\u2022 Medical Treatment: We will increase his metformin to 1000 mg twice daily.\n\nHypertension.\n\u2022 Medical Reasoning: He has been compliant with lisinopril and his blood pressures have been well controlled based on home monitoring.\n\u2022 Additional Testing: We will order a lipid panel.\n\u2022 Medical Treatment: He will continue on lisinopril 20 mg once daily. This was refilled today.\n\nFollow up: I would like to see him back in approximately 4 months.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan."
+  },
+  "n_patient_turns": 37,
+  "n_clinician_turns": 43,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 31107.06090182066,
+      "response_text": "Andrew, thank you for sharing your concerns with me. It sounds like you've been dealing with a lot, especially with the recent upper respiratory infection and the tiredness and shortness of breath it brought on. I understand how that can take a toll, especially after doing some physical work like yard work. I'm glad to hear you're vaccinated against COVID-19, which is reassuring.\n\nFrom what I gather, your symptoms point to a viral infection, which should improve with rest and the medications I've prescribed, like Robitussin for your cough and some over-the-counter pain relievers if needed. It's good that your chest X-ray came back normal, so we don't have to worry about anything more serious there.\n\nI also want to touch on your diabetes management. Your A1C level is a bit elevated, so we're adjusting your metformin dosage to help bring that down. It's important to continue monitoring your blood sugar, especially on weekends, and keep up the good diet habits you've been maintaining. Your blood pressure is well-controlled, so keep up the great work with Lisinopril.\n\nRemember to rest and take care of yourself as you recover from this infection. If your symptoms get worse or if you have any concerns, don't hesitate to reach out. We'll follow up in four months to check on your progress and adjust anything as needed. Take care, and here's hoping you feel better soon.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 26940.848894417286,
+      "response_text": "Thank you for sharing all that with me, Andrew. It makes sense that you're feeling concerned, especially with how suddenly the fatigue and shortness of breath came on after lifting heavy bags. Managing multiple chronic conditions like depression, diabetes, and hypertension can be challenging, and I appreciate your efforts in taking care of yourself.\n\nFrom what you've described and the tests we've done, it seems like you're dealing with a viral upper respiratory infection, which can cause fatigue and shortness of breath, especially with exertion. The scattered ronchi in your lungs support this, and it's good that your chest X-ray came back normal. I also noted the mild edema in your legs, which could be related to your diabetes or hypertension, so we'll keep an eye on that.\n\nWe'll start you on some cough medicine and suggest over-the-counter pain relievers for any discomfort. For your diabetes, we're increasing your metformin dosage to help bring your HbA1c down, and we'll recheck it in four months. Your blood pressure management is on track, so we'll continue with the lisinopril and add a lipid panel to assess your cholesterol levels.\n\nPlease let me know if you experience any worsening symptoms or if you have any questions. I'm here to support you through this, and we'll check in again in four months to review your progress. If you notice anything unusual, like difficulty breathing or increased fatigue, don't hesitate to reach out.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7507.009528577328,
+      "response_text": "It sounds like you're doing well with managing your health, despite the challenges of the past year and a half. I'm glad to hear that your barre classes are helping you relax and stay active.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in about four months. In the meantime, if your symptoms worsen or if you have any concerns, please reach out.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're doing well with managing your health, despite the challenges of the past year and a half. I'm glad to hear that your barre classes are helping you relax and stay active.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in about four months. In the meantime, if your symptoms worsen or if you have any concerns, please reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 187053.67227643728,
+      "response_text": "I can hear how much this has been affecting you \u2014 you mentioned, \"i've been , been doing well with it,\" which shows that you're managing your depression effectively. I also understand that you felt a little concerned about that.\n\nFor an upper respiratory infection, it's important to focus on symptom management and rest. The current guidelines suggest using over-the-counter medications to relieve symptoms like fatigue and shortness of breath.\n\nInterprofessional collaboration in primary care can help support your goal of managing depression effectively. This approach involves working together with different healthcare professionals to tailor a treatment plan that meets your needs.\n\nWe'll focus on managing your symptoms of the upper respiratory infection with appropriate medications and rest.\n\nWe'll continue to support your goal of managing depression effectively through interprofessional collaboration.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to follow up in a week to review how you're feeling and adjust your treatment as needed.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this has been affecting you \u2014 you mentioned, \"i've been , been doing well with it,\" which shows that you're managing your depression effectively. I also understand that you felt a little concerned about that.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "upper respiratory infection",
+            "profile_path": "problems[0]",
+            "explanation": "For an upper respiratory infection, it's important to focus on symptom management and rest. The current guidelines suggest using over-the-counter medications to relieve symptoms like fatigue and shortness of breath.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::38719772",
+                "primary_assertion_id": "38719772_retr",
+                "pmids": [
+                  "38719772"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "manage depression effectively",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Interprofessional collaboration in primary care can help support your goal of managing depression effectively. This approach involves working together with different healthcare professionals to tailor a treatment plan that meets your needs.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::38031014",
+                "primary_assertion_id": "38031014_retr",
+                "pmids": [
+                  "38031014"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll focus on managing your symptoms of the upper respiratory infection with appropriate medications and rest.",
+          "We'll continue to support your goal of managing depression effectively through interprofessional collaboration."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to follow up in a week to review how you're feeling and adjust your treatment as needed.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "retrieval_only::38719772",
+          "retrieval_only::38031014"
+        ],
+        "all_pmids_used": [
+          "38719772",
+          "38031014"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 2,
+        "n_goals": 1,
+        "problems": [
+          "upper respiratory infection"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "38719772",
+        "38031014"
+      ],
+      "cluster_ids_used": [
+        "retrieval_only::38719772",
+        "retrieval_only::38031014"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 349014.12995159626,
+      "response_text": "It sounds like this has been worrying you, especially with how you've been feeling. You mentioned, \"I've been, been doing well with it,\" which shows that you're managing things as best as you can.\n\nFor an upper respiratory infection that's been going on for a week or more, it's important to focus on symptom management. Graded exercise therapy can help reduce symptoms and improve your overall well-being.\n\nMuscle aches can be managed with a combination of approaches, including multicomponent services, handheld fans, and breathing techniques, which have been shown to help reduce symptoms.\n\nJoint pain can be addressed using similar strategies as muscle aches, focusing on symptom relief through recommended techniques.\n\nSwelling can sometimes be related to underlying conditions like diabetes or high blood pressure. We'll monitor this and address it as needed during follow-ups.\n\nManaging depression effectively is a key goal. We'll work together to ensure you have the support you need to maintain your mental health.\n\nWe'll start with graded exercise therapy to help manage your symptoms from the upper respiratory infection.\n\nWe'll monitor your muscle aches and joint pain and adjust the approach as needed.\n\nWe'll keep an eye on your swelling and address any underlying conditions that might be contributing to it.\n\nLet's schedule a follow-up in 2 weeks to review your progress and make any necessary adjustments to your care plan.\n\nCan you tell me, in your own words, what we're going to do next and why it's important?\n\nPlease call us right away if your symptoms worsen or if you experience any new issues like increased fatigue or difficulty breathing.",
+      "structured_response": {
+        "acknowledgment": "It sounds like this has been worrying you, especially with how you've been feeling. You mentioned, \"I've been, been doing well with it,\" which shows that you're managing things as best as you can.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "upper respiratory infection",
+            "profile_path": "problems[0]",
+            "explanation": "For an upper respiratory infection that's been going on for a week or more, it's important to focus on symptom management. Graded exercise therapy can help reduce symptoms and improve your overall well-being.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::problems[0]::38719772_0",
+                "primary_assertion_id": "38719772_0",
+                "pmids": [
+                  "38719772"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "muscle aches",
+            "profile_path": "problems[1]",
+            "explanation": "Muscle aches can be managed with a combination of approaches, including multicomponent services, handheld fans, and breathing techniques, which have been shown to help reduce symptoms.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::problems[0]::38719772_1",
+                "primary_assertion_id": "38719772_1",
+                "pmids": [
+                  "38719772"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "joint pain",
+            "profile_path": "problems[2]",
+            "explanation": "Joint pain can be addressed using similar strategies as muscle aches, focusing on symptom relief through recommended techniques.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::problems[0]::38719772_1",
+                "primary_assertion_id": "38719772_1",
+                "pmids": [
+                  "38719772"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "edema",
+            "profile_path": "problems[3]",
+            "explanation": "Swelling can sometimes be related to underlying conditions like diabetes or high blood pressure. We'll monitor this and address it as needed during follow-ups.",
+            "citations": [
+              {
+                "cluster_id": "finding::problems[0]::38521534_0",
+                "primary_assertion_id": "38521534_0",
+                "pmids": [
+                  "38521534"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "manage depression effectively",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Managing depression effectively is a key goal. We'll work together to ensure you have the support you need to maintain your mental health.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll start with graded exercise therapy to help manage your symptoms from the upper respiratory infection.",
+          "We'll monitor your muscle aches and joint pain and adjust the approach as needed.",
+          "We'll keep an eye on your swelling and address any underlying conditions that might be contributing to it.",
+          "Let's schedule a follow-up in 2 weeks to review your progress and make any necessary adjustments to your care plan."
+        ],
+        "teach_back_prompt": "Can you tell me, in your own words, what we're going to do next and why it's important?",
+        "follow_up_invitation": "Please call us right away if your symptoms worsen or if you experience any new issues like increased fatigue or difficulty breathing.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "recommendation::problems[0]::38719772_0",
+          "recommendation::problems[0]::38719772_1",
+          "finding::problems[0]::38521534_0"
+        ],
+        "all_pmids_used": [
+          "38719772",
+          "38521534"
+        ],
+        "glossary_substitutions": [
+          {
+            "field": "next_steps[2]",
+            "original": "edema",
+            "plain": "swelling",
+            "count": 1
+          },
+          {
+            "field": "clinical_information_per_concern[3].explanation",
+            "original": "hypertension",
+            "plain": "high blood pressure",
+            "count": 1
+          },
+          {
+            "field": "clinical_information_per_concern[3].explanation",
+            "original": "edema",
+            "plain": "swelling",
+            "count": 1
+          }
+        ]
+      },
+      "profile_summary": {
+        "n_problems": 4,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 1,
+        "problems": [
+          "upper respiratory infection",
+          "muscle aches",
+          "joint pain",
+          "edema"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "38719772",
+        "38521534"
+      ],
+      "cluster_ids_used": [
+        "recommendation::problems[0]::38719772_0",
+        "recommendation::problems[0]::38719772_1",
+        "finding::problems[0]::38521534_0"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 224499.58077073097,
+        "module_2_retrieval": 1624.756708741188,
+        "module_3_reasoning": 85362.75659501553,
+        "module_4_response": 37526.15484595299,
+        "total_ms": 349013.2489204407
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

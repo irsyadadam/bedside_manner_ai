@@ -1,0 +1,326 @@
+{
+  "transcript_id": "aci_aci_D2N156",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "well i mean it was a real shock for me i thought everything was fine after my last heart attack and then i just started having this horrible",
+  "patient_utterances": [
+    "[Clinician asked: \"alright julia so you've been coming to see me for a while now ever since you had an rca stent placed back in twenty eighteen but i see you're here for follow-up after an interior stemi where we had to put in another stent right so like how are you doing\"] well i mean it was a real shock for me i thought everything was fine after my last heart attack and then i just started having this horrible chest pain and it would n't go away so i went to the emergency room and yeah they told me i needed another stent",
+    "[Clinician asked: \"wow so you were experiencing similar symptoms similar to what you had the first time\"] yeah yeah it was yeah it was bad it was just like the last time",
+    "[Clinician asked: \"okay have you had any chest pain or shortness of breath\"] no i think i saw you about six months ago and and i was doing fine",
+    "[Clinician asked: \"okay have you been able to like exercise at all since since you last saw me\"] yeah you know i walk my dog everyday and you know we go like a mile and a half or two miles",
+    "[Clinician asked: \"awesome okay yeah you know because like fall is setting in like are you excited\"] yeah yeah i'm excited",
+    "[Clinician asked: \"do you have any like plans for the holiday\"] no mm-hmm no i'm just you know looking forward to seeing family and having some nice weather and yeah",
+    "[Clinician asked: \"okay so i do wan na ask i know that you have a history of coronary artery disease hypertension and diabetes so i wan na get an idea of like where you stand with those have you been experiencing any kind of leg swelling\"] i have noticed that my legs are a little swollen since they sent me home from the hospital",
+    "[Clinician asked: \"okay are you able to lie flat at night when you sleep\"] yeah i mean i always use a couple of pillows you know i maybe i've had to sit up a little bit more but i mean for the most part i think it's pretty normal",
+    "[Clinician asked: \"okay and then have you been able to afford your medications and are you taking them like your like you were prescribed\"] yeah i'm able to afford afford them i have good insurance i am taking them they told me it's really important to take them so so yeah",
+    "[Clinician asked: \"yeah that's very accurate you know like there are huge consequences to not taking them so if you are noticing any problems please please please please let us know how about your diet are you watching your salt intake\"] i mean i'm not i i i have n't really adjusted i mean i tried to watch it after the last heart attack and now you know i i've kind of been less strict with my diet but i'll have to go back to watching the salt intake",
+    "[Clinician asked: \"mm-hmm\"] i love pizza it's my favorite food",
+    "[Clinician asked: \"yeah\"] my tries are probably my second favorite food",
+    "[Clinician asked: \"what are you for her toppings on pizza\"] pepperoni occasionally vegetables",
+    "[Clinician asked: \"mm-hmm alright but you know that pepperoni is pretty high in salt on top of a cheesy pizza right\"] i know i know i'm gon na work on it",
+    "[Clinician asked: \"okay so we are we are gon na have to negotiate some of these diet things and then especially since you have diabetes like have you been managing that well\"] my i've been watching my sugars yep because i do n't wan na go on insulin so i'm taking that metformin that's why i've been walking my dog i'm trying to stay active",
+    "[Clinician asked: \"okay okay so you know maybe this is just a situation of like where we are on the right path but probably need to step up a few things okay\"] okay",
+    "[Clinician asked: \"alright so i do want to do a quick physical exam so you are aware i'm going to be calling out my findings as i run through it alright\"] okay",
+    "[Clinician asked: \"alright so your vital signs look good you know so i'm glad that it looks like you're tolerating your medication pretty well on your neck exam i do n't appreciate any jugular venous distention so and then on top of that i'm not i do n't appreciate any carotid bruits so i'm not feeling anything like t\"] that sounds good yeah so i'm yeah as long as you tell me i'm gon na get better i believe you",
+    "[Clinician asked: \"yes yeah i i strongly believe this is our best course of action and that you will get better given enough time i i see that you are making efforts i'm really glad that you are out there walking and that you're cognizant of your diet and willing to make changes we will just you know monitor it over t\"] okay"
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nFollow up status post inferior STEMI.\n\nSURGICAL HISTORY\n\nRCA stent 2018\n\nMEDICATIONS\n\naspirin 81 mg daily\nBrilinta 90 mg twice daily\nLipitor 80 mg daily\nToprol 50 mg daily\nlisinopril 20 mg daily\nmetformin\n\nREVIEW OF SYSTEMS\n\nCardiovascular: Denies chest pain.\nRespiratory: Denies shortness of breath.\nMusculoskeletal: Reports bilateral leg swelling.\n\nVITALS\n\nWithin normal limits\n\nPHYSICAL EXAM\n\nNeck\n- General Examination: No jugular venous distention.\n\nRespiratory\n- Auscultation of Lungs: Clear bilaterally.\n\nCardiovascular\n- Auscultation of Heart: No carotid bruits. A 3/6 systolic ejection murmur is heard at the left base.\n- Examination: Right radial artery cath site is clean, dry, and intact without hematoma. Radial artery pulses are palpable.\n\nMusculoskeletal\n- Examination: Bilateral lower limb edema. Pitting 1+.\n\nRESULTS\n\nEKG is reviewed and demonstrates a normal sinus rhythm. Good R wave progression. Evolutionary changes that are anticipated after a STEMI.\n\nEchocardiogram is reviewed and demonstrates a reduced ejection fraction of 35%.\n\nASSESSMENT AND PLAN\n\n1. Coronary artery disease.\n- Medical Reasoning: The patient has a history of coronary artery disease that we will continue to monitor.\n- Medical Treatment: She will continue aspirin 81 mg daily and Brilinta 90 mg twice daily. She will continue Lipitor 80 mg a day and Toprol 50 mg daily. I am going to refer her to cardiac rehab for education and to gain confidence to resume exercising regularly.\n\n2. Newly reduced left ventricular dysfunction and moderate mitral regurgitation.\n- Medical Reasoning: A recent echocardiogram revealed a reduced ejection fraction of 35%. She was able to be treated in the cath lab in a timely manner, so I think that the muscle is just stunned. Given her history. it will improve over time.\n- Patient Education and Counseling: I advised the patient that she will recover since she is compliant with her medications.\n- Medical Treatment: Continue lisinopril 20 mg daily.\n\n3. Acute heart failure.\n- Medical Reasoning: The patient is retaining fluid.\n- Medical Treatment: I am going to prescribe Lasix 40 mg once a day. I want to add Aldactone 12.5 mg daily. I will order lab work. We will obtain a repeat echo in approximately 2 months.\n\n4. Hypertension.\n- Medical Reasoning: Blood pressure is well controlled. She will tolerate the Aldactone well.\n- Patient Education and Counseling: I encouraged the patient to continue exercising and to be cognizant of her diet. I explained that there are healthier alternatives available to reduce the amount of preserved meats she consumes.\n- Medical Treatment: Continue lisinopril 20 mg daily. The patient received a referral to nutrition counseling to consider what other diet options might be available to her.\n\n5. Type 2 diabetes.\n- Medical Reasoning: Stable.\n- Patient Education and Counseling: I encouraged the patient to continue monitoring her blood glucose levels.\n- Medical Treatment: Continue metformin as prescribed.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.\n\nINSTRUCTIONS\n\nThe patient will follow up as instructed.",
+  "gold_sections": {
+    "CC": "Follow up status post inferior STEMI.",
+    "SURGICAL_HISTORY": "RCA stent 2018",
+    "MEDICATIONS": "aspirin 81 mg daily\nBrilinta 90 mg twice daily\nLipitor 80 mg daily\nToprol 50 mg daily\nlisinopril 20 mg daily\nmetformin",
+    "ROS": "Cardiovascular: Denies chest pain.\nRespiratory: Denies shortness of breath.\nMusculoskeletal: Reports bilateral leg swelling.",
+    "VITALS": "Within normal limits",
+    "PHYSICAL_EXAM": "Neck\n- General Examination: No jugular venous distention.\n\nRespiratory\n- Auscultation of Lungs: Clear bilaterally.\n\nCardiovascular\n- Auscultation of Heart: No carotid bruits. A 3/6 systolic ejection murmur is heard at the left base.\n- Examination: Right radial artery cath site is clean, dry, and intact without hematoma. Radial artery pulses are palpable.\n\nMusculoskeletal\n- Examination: Bilateral lower limb edema. Pitting 1+.",
+    "RESULTS": "EKG is reviewed and demonstrates a normal sinus rhythm. Good R wave progression. Evolutionary changes that are anticipated after a STEMI.\n\nEchocardiogram is reviewed and demonstrates a reduced ejection fraction of 35%.",
+    "ASSESSMENT_PLAN": "1. Coronary artery disease.\n- Medical Reasoning: The patient has a history of coronary artery disease that we will continue to monitor.\n- Medical Treatment: She will continue aspirin 81 mg daily and Brilinta 90 mg twice daily. She will continue Lipitor 80 mg a day and Toprol 50 mg daily. I am going to refer her to cardiac rehab for education and to gain confidence to resume exercising regularly.\n\n2. Newly reduced left ventricular dysfunction and moderate mitral regurgitation.\n- Medical Reasoning: A recent echocardiogram revealed a reduced ejection fraction of 35%. She was able to be treated in the cath lab in a timely manner, so I think that the muscle is just stunned. Given her history. it will improve over time.\n- Patient Education and Counseling: I advised the patient that she will recover since she is compliant with her medications.\n- Medical Treatment: Continue lisinopril 20 mg daily.\n\n3. Acute heart failure.\n- Medical Reasoning: The patient is retaining fluid.\n- Medical Treatment: I am going to prescribe Lasix 40 mg once a day. I want to add Aldactone 12.5 mg daily. I will order lab work. We will obtain a repeat echo in approximately 2 months.\n\n4. Hypertension.\n- Medical Reasoning: Blood pressure is well controlled. She will tolerate the Aldactone well.\n- Patient Education and Counseling: I encouraged the patient to continue exercising and to be cognizant of her diet. I explained that there are healthier alternatives available to reduce the amount of preserved meats she consumes.\n- Medical Treatment: Continue lisinopril 20 mg daily. The patient received a referral to nutrition counseling to consider what other diet options might be available to her.\n\n5. Type 2 diabetes.\n- Medical Reasoning: Stable.\n- Patient Education and Counseling: I encouraged the patient to continue monitoring her blood glucose levels.\n- Medical Treatment: Continue metformin as prescribed.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.",
+    "INSTRUCTIONS": "The patient will follow up as instructed."
+  },
+  "n_patient_turns": 19,
+  "n_clinician_turns": 20,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 16388.155706226826,
+      "response_text": "Julia, I understand how shocking and overwhelming it must have been to experience another heart attack after already having one in the past. It\u2019s clear you\u2019ve been through a lot, but I\u2019m impressed by how proactive you\u2019ve been in managing your health, especially with your medications and regular walks with your dog. Your efforts are commendable and are definitely helping you stay on the right track.\n\nLet\u2019s work together to make some small, manageable changes to your diet, especially cutting back on high-sodium foods like pizza, which you love. We can find healthier alternatives that still satisfy your cravings. Since you\u2019re already active, we can explore ways to maintain and even increase your exercise routine. Remember, every step you take is a step towards better health. You\u2019re doing great, and with time and continued effort, I\u2019m confident you\u2019ll continue to improve. Please don\u2019t hesitate to reach out if you have any questions or concerns\u2014I\u2019m here to support you every step of the way.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 28319.513246417046,
+      "response_text": "Thank you for sharing all this with me, Julia. It sounds like this recent heart attack and the need for another stent must have been incredibly stressful and concerning for you. I can understand how shocking it must have been to experience chest pain again after you thought things were improving. It\u2019s important to acknowledge how tough this must be for you and to validate your feelings.\n\nGiven your history of coronary artery disease, hypertension, and diabetes, it\u2019s crucial to monitor your symptoms closely. The chest pain you experienced could be related to your heart condition, and the swelling in your legs might indicate fluid retention, which can sometimes happen with heart issues. I\u2019m glad you\u2019re staying active by walking your dog, as regular exercise is beneficial for your heart health and diabetes management. However, it\u2019s also important to keep an eye on your diet, especially your salt intake, as high levels can contribute to fluid retention and blood pressure spikes [PMID ?].\n\nWe\u2019ll continue to monitor your condition closely. I recommend keeping track of any leg swelling and reporting it to us promptly, as it could signal fluid overload. Let\u2019s also focus on adjusting your diet, especially cutting back on high-salt foods like pizza, to help manage your blood pressure and reduce the risk of further heart issues. Your commitment to managing your diabetes with metformin and staying active is commendable and supports your overall health.\n\nWe\u2019ll schedule a follow-up appointment in 4-6 weeks to reassess your symptoms and treatment plan. Before you leave, could you summarize what we discussed today? This will help ensure you\u2019re clear on the next steps and any changes we agreed upon. I\u2019m confident that with your efforts and our continued support, we can manage your health effectively.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7020.60616761446,
+      "response_text": "Thank you for sharing your experiences and concerns with me. I understand that dealing with multiple health issues can be overwhelming, and I'm here to help navigate through them together.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if you notice any new symptoms or concerns, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your experiences and concerns with me. I understand that dealing with multiple health issues can be overwhelming, and I'm here to help navigate through them together.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if you notice any new symptoms or concerns, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 260434.5936924219,
+      "response_text": "I can hear how much this has been worrying you \u2014 you said, \"i thought everything was fine after my last heart attack and then i just started having this horrible chest pain and it would n't go away.\" That's a real shock to deal with, and I want to make sure we're taking it very seriously.\n\nGiven your history of heart issues, including prior heart attacks and stents, the persistent chest pain is a significant concern. We'll need to rule out serious causes like blood clots or other cardiac issues.\n\nReducing salt intake is an important step in managing your overall health, particularly for someone with a history of heart problems. This can help lower blood pressure and reduce the risk of further heart issues.\n\nManaging diabetes without insulin is a common goal, but it depends on your specific situation. We'll work together to find the best approach for you, considering your other health conditions.\n\nYour desire to get better is very important. We'll focus on addressing your chest pain and other health concerns to help you feel better overall.\n\nGiven the severity of your chest pain and your history of heart issues, we'll prioritize evaluating this first. We'll order some tests to rule out serious causes like blood clots or other cardiac problems.\n\nWe'll schedule a follow-up visit to review the test results and discuss next steps.\n\nIn the meantime, continue to monitor your symptoms and let us know if they worsen.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. If your chest pain gets worse or you experience any new symptoms like dizziness or shortness of breath, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this has been worrying you \u2014 you said, \"i thought everything was fine after my last heart attack and then i just started having this horrible chest pain and it would n't go away.\" That's a real shock to deal with, and I want to make sure we're taking it very seriously.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "persistent chest pain",
+            "profile_path": "problems[0]",
+            "explanation": "Given your history of heart issues, including prior heart attacks and stents, the persistent chest pain is a significant concern. We'll need to rule out serious causes like blood clots or other cardiac issues.",
+            "citations": []
+          },
+          {
+            "concern_label": "work on reducing salt intake",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Reducing salt intake is an important step in managing your overall health, particularly for someone with a history of heart problems. This can help lower blood pressure and reduce the risk of further heart issues.",
+            "citations": []
+          },
+          {
+            "concern_label": "manage diabetes without insulin",
+            "profile_path": "patient_goals[1]",
+            "explanation": "Managing diabetes without insulin is a common goal, but it depends on your specific situation. We'll work together to find the best approach for you, considering your other health conditions.",
+            "citations": []
+          },
+          {
+            "concern_label": "get better",
+            "profile_path": "patient_goals[2]",
+            "explanation": "Your desire to get better is very important. We'll focus on addressing your chest pain and other health concerns to help you feel better overall.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "Given the severity of your chest pain and your history of heart issues, we'll prioritize evaluating this first. We'll order some tests to rule out serious causes like blood clots or other cardiac problems.",
+          "We'll schedule a follow-up visit to review the test results and discuss next steps.",
+          "In the meantime, continue to monitor your symptoms and let us know if they worsen."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. If your chest pain gets worse or you experience any new symptoms like dizziness or shortness of breath, please call us right away.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Demonstrate empathy",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 1,
+        "n_allergies": 0,
+        "n_red_flags": 1,
+        "n_emotional": 3,
+        "n_goals": 3,
+        "problems": [
+          "persistent chest pain"
+        ],
+        "medications": [
+          "metformin"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Demonstrate empathy",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 319570.95097750425,
+      "response_text": "I can hear how much this chest pain is worrying you. You mentioned, \"I thought everything was fine after my last heart attack and then I just started having this horrible chest pain and it wouldn't go away.\" That sounds really tough to deal with, and I want to make sure we address it properly.\n\nGiven your history of heart attack and the severity of your chest pain, it's important to rule out serious causes. We'll need to do some tests to check for issues like blood clots or other heart-related concerns.\n\nYour efforts to reduce salt intake are commendable. However, based on recent studies, interventions like social support can sometimes help with blood pressure management, but they may not always lead to significant changes in hospital admissions.\n\nWhile managing diabetes without insulin is a valid goal, it's important to note that patients in general practice may differ from those in clinical trials. This means that what works in trials might not always apply directly to your situation.\n\nCommunication about traumatic experiences can be beneficial, and it's important to approach these conversations with care and support. We'll make sure to allocate the necessary resources to help you through this.\n\nGiven the severity of your chest pain, we'll prioritize ruling out serious causes. This includes ordering specific tests to check for blood clots or heart-related issues.\n\nWe'll schedule a follow-up visit in 2 weeks to review the test results and discuss next steps.\n\nIf any test results come back early, I'll contact you immediately to avoid unnecessary waiting.\n\nI want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to meet again in 2 weeks. If you experience any severe symptoms like chest pain getting worse, difficulty breathing, or leg swelling, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this chest pain is worrying you. You mentioned, \"I thought everything was fine after my last heart attack and then I just started having this horrible chest pain and it wouldn't go away.\" That sounds really tough to deal with, and I want to make sure we address it properly.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "persistent chest pain",
+            "profile_path": "problems[0]",
+            "explanation": "Given your history of heart attack and the severity of your chest pain, it's important to rule out serious causes. We'll need to do some tests to check for issues like blood clots or other heart-related concerns.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[0]::37378598_2",
+                "primary_assertion_id": "37378598_2",
+                "pmids": [
+                  "37378598"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "work on reducing salt intake",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Your efforts to reduce salt intake are commendable. However, based on recent studies, interventions like social support can sometimes help with blood pressure management, but they may not always lead to significant changes in hospital admissions.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[0]::37378598_0",
+                "primary_assertion_id": "37378598_0",
+                "pmids": [
+                  "37378598"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "manage diabetes without insulin",
+            "profile_path": "patient_goals[1]",
+            "explanation": "While managing diabetes without insulin is a valid goal, it's important to note that patients in general practice may differ from those in clinical trials. This means that what works in trials might not always apply directly to your situation.",
+            "citations": [
+              {
+                "cluster_id": "finding::global::38604640_0",
+                "primary_assertion_id": "38604640_0",
+                "pmids": [
+                  "38604640"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "get better",
+            "profile_path": "patient_goals[2]",
+            "explanation": "Communication about traumatic experiences can be beneficial, and it's important to approach these conversations with care and support. We'll make sure to allocate the necessary resources to help you through this.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::sub_query[3]::41092546_1",
+                "primary_assertion_id": "41092546_1",
+                "pmids": [
+                  "41092546"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "Given the severity of your chest pain, we'll prioritize ruling out serious causes. This includes ordering specific tests to check for blood clots or heart-related issues.",
+          "We'll schedule a follow-up visit in 2 weeks to review the test results and discuss next steps.",
+          "If any test results come back early, I'll contact you immediately to avoid unnecessary waiting."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to meet again in 2 weeks. If you experience any severe symptoms like chest pain getting worse, difficulty breathing, or leg swelling, please call us right away.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Demonstrate empathy",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[0]::37378598_2",
+          "finding::sub_query[0]::37378598_0",
+          "finding::global::38604640_0",
+          "recommendation::sub_query[3]::41092546_1"
+        ],
+        "all_pmids_used": [
+          "37378598",
+          "38604640",
+          "41092546"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 1,
+        "n_allergies": 0,
+        "n_red_flags": 1,
+        "n_emotional": 3,
+        "n_goals": 3,
+        "problems": [
+          "persistent chest pain"
+        ],
+        "medications": [
+          "metformin"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [
+        "37378598",
+        "38604640",
+        "41092546"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[0]::37378598_2",
+        "finding::sub_query[0]::37378598_0",
+        "finding::global::38604640_0",
+        "recommendation::sub_query[3]::41092546_1"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Demonstrate empathy",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 242261.16397231817,
+        "module_2_retrieval": 2109.4655096530914,
+        "module_3_reasoning": 38398.901879787445,
+        "module_4_response": 36799.61972683668,
+        "total_ms": 319569.1510885954
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

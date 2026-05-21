@@ -1,0 +1,314 @@
+{
+  "transcript_id": "aci_virtassist_D2N006",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "i'm doing okay . how are you ?",
+  "patient_utterances": [
+    "[Clinician asked: \"hi , anna . how are you ?\"] i'm doing okay . how are you ?",
+    "[Clinician asked: \"i'm doing okay . so i know the nurse told you about dax . i'd like to tell dax a little bit about you .\"] all right .",
+    "[Clinician asked: \"so , anna , it's been probably about six months since i've seen you . how are you doing ?\"] i'm doing okay . um , my arthritis is starting to get better . um , i've been trying to move my body , doing pilates , lifting weights , um , and that's , kind of , helped me build up some muscle , so the joint pain is , has been going away .",
+    "[Clinician asked: \"okay . yeah . i know you were having , you know , some problems with your right knee , uh , and we sent you for physical therapy . so , so that's going well ?\"] yeah . the physical therapy's gone really well . i've built up my strength back and it's been really great .",
+    "[Clinician asked: \"okay . so you feel like you're able to walk a little bit further now ?\"] yup . i'm walking about a mile , a mile and a half a day .",
+    "[Clinician asked: \"and then , in terms of your gout , um , how are you doing with that ? i know you had an episode of gout of your , your right first big toe , um , about two months ago . how are you doing with that ?\"] i'm doing , doing well . the medication helped it , you know , go down and go away . hopefully , , it does n't come back .",
+    "[Clinician asked: \"okay . and are you taking the allopurinol that i prescribed ?\"] yes .",
+    "[Clinician asked: \"okay . and no issues with that ?\"] nope .",
+    "[Clinician asked: \"okay . great . um , no further flare ups ?\"] no .",
+    "[Clinician asked: \"and then , you know , how about your reflux ? we had placed you on , um , omeprazole , you know , to help with some of those symptoms and i know that you were gon na do some dietary modifications . how are you doing with that ?\"] so , i started to make some dietary modifications . unfortunately , i have n't cut the stone out quite yet . um , i've still been having some episodes and , and throwing up in the mornings , um , things like that .",
+    "[Clinician asked: \"you're throwing up in the morning ?\"] yup .",
+    "[Clinician asked: \"like , just , like , reflux into your throat or are you actually vomiting ?\"] um , actually vomiting .",
+    "[Clinician asked: \"okay . that's a problem .\"] yup .",
+    "[Clinician asked: \"all right . well , um , let's talk about any other symptoms that you might have . have you had any abdominal pain ? um , diarrhea ? um , do you feel like your belly's bigger than usual ?\"] um , the , the first and the last . so , i've been having some abdominal pain and then i feel like i'm bloated all the time .",
+    "[Clinician asked: \"okay . and when was your last bowel movement ?\"] uh , probably two days ago .",
+    "[Clinician asked: \"okay . was it normal ?\"] yes .",
+    "[Clinician asked: \"okay . any blood ?\"] no .",
+    "[Clinician asked: \"okay . all right . and any weight loss ? anything like that ?\"] no , not that i've noticed .",
+    "[Clinician asked: \"okay . and any fever or chills ?\"] no .",
+    "[Clinician asked: \"okay . all right . uh , well , sounds like we just did the review of systems with you . it sounds like you're endorsing this , you know , nausea , vomiting , abdominal distension . um , any other symptoms ?\"] no .",
+    "[Clinician asked: \"hey , dragon , show me the vital signs . all right . well , your , your vital signs here look quite good . all right . so , i'm , i'm reassured by that . i'm just gon na check out your heart and lungs and your belly and , and l- let you know what i find , okay ?\"] okay .",
+    "[Clinician asked: \"so what does that mean , you know ? that means that you have some findings on your belly exam that concern me about your gall bladder , okay ? so , we'll have to look into that and then , um , your right knee looks a little swollen , but you know , we know you have some arthritis there , okay ?\"] okay .",
+    "[Clinician asked: \"okay . so looking at your autoimmune panel here , you know , we sent that because , you know , you're young and you have , you know , arthritis and gout and that type of thing and everything seemed to be fine .\"] okay .",
+    "[Clinician asked: \"so , looking here at your right knee x-ray , you know , there's no fracture or anything , but you know , it does show that you do have that residual arthritis there , um , that we're , you know , we're working on improving so that we do n't have to do some type of surgery or intervention , okay ?\"] okay .",
+    "[Clinician asked: \"so let's talk a little bit about my assessment and plan for you , okay ? so , for your first problem , um , your reflux and your nausea and vomiting , uh , i wan na go ahead and get a right upper quadrant ultrasound to rule out any gallstones , okay ? um , and then i'm gon na check some labs on you \"] okay .",
+    "[Clinician asked: \"um , for your second problem , your gout , um , you know , everything seems controlled right now . let's continue you on the allopurinol , 100 milligrams , once a day . um , do you need a refill of that ?\"] yes , i do actually .",
+    "[Clinician asked: \"and then from your last problem , your arthritis , i'm very pleased with how your right knee is doing and i want you to continue pilates and using the knee and let me know if you have any issues and we can , and we can talk about further imaging or intervention at that time , okay ?\"] okay .",
+    "[Clinician asked: \"any questions ?\"] uh , no . that's it ."
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nFollow-up of chronic problems.\n\nHISTORY OF PRESENT ILLNESS\n\nAnna Mitchell is a 44-year-old female with a past medical history significant for arthritis, gout, and reflux, who presents today for follow-up of her chronic problems. It has been about 6 months since I last saw the patient.\n\nThe patient reports her arthritis is starting to get better. She has been trying to move her body with pilates and lifting weights. This has helped build up some muscles and her joint pain has reduced. The patient has also continued to attend physical therapy, which she feels has been beneficial.\n\nMs. Mitchell had an episode of gout of her right first big toe about 2 months ago. She states she is doing well on the allopurinol 100 mg once daily and has had no further flare ups.\n\nRegarding her acid reflux, she was placed on omeprazole 40 mg once a day to help with some of the symptoms she was having. She started to make some dietary modifications, but she still needs to make more progress. She reports episodes of vomiting in the morning. The patient also has abdominal pain and bloating. Her last bowel movement was 2 days ago, and it was normal. She denies blood in her stool.\n\nThe patient denies unexplained weight gain or loss, fevers, chills.\n\nREVIEW OF SYSTEMS\n\n\u2022 Constitutional: Denies fevers, chills, or weight loss.\n\u2022 Gastrointestinal: Denies hematochezia, melena. Endorses vomiting, abdominal pain, and bloating.\n\u2022 Musculoskeletal: Endorses joint pain.\n\nPHYSICAL EXAMINATION\n\n\u2022 Respiratory: Lungs are clear to auscultation bilaterally. No wheezes, rales, or rhonchi.\n\u2022 Cardiovascular: No murmurs, gallops, or rubs. No extra heart sounds.\n\u2022 Gastrointestinal: Pain to palpation of the right upper quadrant. No rebound or guarding. No peritoneal signs.\n\u2022 Musculoskeletal: Right knee shows a little effusion. Slight pain to palpation. Some decreased range of motion.\n\nRESULTS\n\nAutoimmune panel is within normal limits.\n\nX-ray of the right knee demonstrates residual arthritis. No fractures noted.\n\nASSESSMENT AND PLAN\n\nAnna Mitchell is a 44-year-old female with a past medical history significant for arthritis, gout, and reflux, who presents today for follow-up of her chronic problems.\n\nAcid reflux with nausea and vomiting.\n\u2022 Medical Reasoning: She reports episodes of vomiting in the morning, as well as abdominal pain and bloating. She has been compliant with omeprazole and has made a few dietary modifications.\n\u2022 Additional Testing: We will order an ultrasound of her right upper quadrant, as well as additional labs, to rule out biliary etiology.\n\u2022 Medical Treatment: Continue omeprazole 40 mg once daily.\n\u2022 Patient Education and Counseling: I encouraged her to continue with dietary modifications.\n\nGout.\n\u2022 Medical Reasoning: Her flares are well controlled on allopurinol.\n\u2022 Medical Treatment: Continue allopurinol 100 mg once daily. This was refilled today.\n\nArthritis.\n\u2022 Medical Reasoning: She is doing well and has remained active since her last visit. Physical therapy has also been beneficial for her. Her right knee x-ray demonstrated residual arthritis but was otherwise normal.\n\u2022 Patient Education and Counseling: I advised her to continue pilates and using the knee. She will contact me if she has any issues and we can consider further imaging or intervention at that time.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.",
+  "gold_sections": {
+    "CC": "Follow-up of chronic problems.",
+    "HPI": "Anna Mitchell is a 44-year-old female with a past medical history significant for arthritis, gout, and reflux, who presents today for follow-up of her chronic problems. It has been about 6 months since I last saw the patient.\n\nThe patient reports her arthritis is starting to get better. She has been trying to move her body with pilates and lifting weights. This has helped build up some muscles and her joint pain has reduced. The patient has also continued to attend physical therapy, which she feels has been beneficial.\n\nMs. Mitchell had an episode of gout of her right first big toe about 2 months ago. She states she is doing well on the allopurinol 100 mg once daily and has had no further flare ups.\n\nRegarding her acid reflux, she was placed on omeprazole 40 mg once a day to help with some of the symptoms she was having. She started to make some dietary modifications, but she still needs to make more progress. She reports episodes of vomiting in the morning. The patient also has abdominal pain and bloating. Her last bowel movement was 2 days ago, and it was normal. She denies blood in her stool.\n\nThe patient denies unexplained weight gain or loss, fevers, chills.",
+    "ROS": "\u2022 Constitutional: Denies fevers, chills, or weight loss.\n\u2022 Gastrointestinal: Denies hematochezia, melena. Endorses vomiting, abdominal pain, and bloating.\n\u2022 Musculoskeletal: Endorses joint pain.",
+    "PHYSICAL_EXAMINATION": "\u2022 Respiratory: Lungs are clear to auscultation bilaterally. No wheezes, rales, or rhonchi.\n\u2022 Cardiovascular: No murmurs, gallops, or rubs. No extra heart sounds.\n\u2022 Gastrointestinal: Pain to palpation of the right upper quadrant. No rebound or guarding. No peritoneal signs.\n\u2022 Musculoskeletal: Right knee shows a little effusion. Slight pain to palpation. Some decreased range of motion.",
+    "RESULTS": "Autoimmune panel is within normal limits.\n\nX-ray of the right knee demonstrates residual arthritis. No fractures noted.",
+    "ASSESSMENT_PLAN": "Anna Mitchell is a 44-year-old female with a past medical history significant for arthritis, gout, and reflux, who presents today for follow-up of her chronic problems.\n\nAcid reflux with nausea and vomiting.\n\u2022 Medical Reasoning: She reports episodes of vomiting in the morning, as well as abdominal pain and bloating. She has been compliant with omeprazole and has made a few dietary modifications.\n\u2022 Additional Testing: We will order an ultrasound of her right upper quadrant, as well as additional labs, to rule out biliary etiology.\n\u2022 Medical Treatment: Continue omeprazole 40 mg once daily.\n\u2022 Patient Education and Counseling: I encouraged her to continue with dietary modifications.\n\nGout.\n\u2022 Medical Reasoning: Her flares are well controlled on allopurinol.\n\u2022 Medical Treatment: Continue allopurinol 100 mg once daily. This was refilled today.\n\nArthritis.\n\u2022 Medical Reasoning: She is doing well and has remained active since her last visit. Physical therapy has also been beneficial for her. Her right knee x-ray demonstrated residual arthritis but was otherwise normal.\n\u2022 Patient Education and Counseling: I advised her to continue pilates and using the knee. She will contact me if she has any issues and we can consider further imaging or intervention at that time.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan."
+  },
+  "n_patient_turns": 28,
+  "n_clinician_turns": 38,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 20496.284499764442,
+      "response_text": "Anna, it's wonderful to hear about the progress you've made with your arthritis and gout. Your commitment to pilates and weight lifting is really paying off, and it's great to see you walking longer distances. I'm glad the physical therapy has been so effective for your knee.\n\nHowever, I'm concerned about your reflux symptoms, especially the vomiting and bloating. To better understand what's going on, we'll do an ultrasound to check for gallstones, which could be contributing to your discomfort. We'll also run some labs to get a clearer picture of your health.\n\nIn the meantime, continue managing your gout with allopurinol as prescribed. Please let me know if you need a refill. For your knee, keep up the good work with pilates and let me know if you experience any issues.\n\nWe'll keep you updated as we get results from the tests. If you have any questions or concerns in the meantime, feel free to reach out. I'm here to support you through this.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 26359.326370060444,
+      "response_text": "Anna, I can see how frustrating it must be to continue experiencing these reflux symptoms despite your efforts. It\u2019s understandable that you\u2019re concerned, especially with the vomiting and abdominal discomfort. I want to make sure we\u2019re addressing these issues effectively.\n\nWe\u2019ve discussed the possibility of gallstones, which can contribute to your symptoms. To explore this, we\u2019ll schedule an ultrasound to check your gallbladder. Additionally, some blood tests will help us rule out other causes. It\u2019s important to get clarity on what\u2019s causing your discomfort, so we can tailor our approach better.\n\nFor your gout, it\u2019s good to see that your medication is working well. We\u2019ll continue with the allopurinol and ensure you have a refill. Regarding your knee, your progress with physical therapy is impressive, and I encourage you to keep up the pilates and strength training. Let me know if you encounter any issues, and we can discuss further steps if needed.\n\nWe\u2019ll follow up in two weeks to review the results and adjust your plan as necessary. Before you leave, could you summarize what we\u2019ve agreed on? This will help ensure you\u2019re clear on the next steps and that I\u2019ve explained everything effectively.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7178.852334618568,
+      "response_text": "It sounds like you're doing well with managing your arthritis and gout, and it's great to hear that the physical therapy has been helping you regain strength and reduce joint pain.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in the near future. In the meantime, if you experience any severe symptoms or if your condition changes, please reach out.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're doing well with managing your arthritis and gout, and it's great to hear that the physical therapy has been helping you regain strength and reduce joint pain.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in the near future. In the meantime, if you experience any severe symptoms or if your condition changes, please reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 236192.8226351738,
+      "response_text": "It sounds like you're dealing with several concerns, from arthritis to reflux and other symptoms. I want to make sure I understand what's been on your mind and how we can address each of these together.\n\nThe joint pain you're experiencing could be related to your arthritis. We'll need to monitor how it's improving over time to better understand the best approach for managing it.\n\nThe episodes of morning vomiting could be related to your reflux. We'll keep an eye on how the dietary modifications are working and consider other possible causes.\n\nThe occasional abdominal pain and bloating might be connected. We'll track these symptoms to see if there's a pattern or if they're linked to other issues.\n\nConstipation can be influenced by various factors. We'll monitor how it progresses and see if there are any underlying causes that need attention.\n\nYour goal to prevent the return of symptoms is important. We'll work together to manage your health in a way that supports this wish.\n\nWe'll monitor your arthritis to see how the current interventions like pilates and allopurinol are working.\n\nWe'll keep an eye on your reflux and see if adjusting your diet further helps reduce the episodes of morning vomiting.\n\nWe'll track your abdominal pain and bloating to identify any patterns or possible causes.\n\nWe'll monitor your constipation to see if there are any underlying issues that need to be addressed.\n\nWe'll work together to ensure we're doing everything we can to help your goals, like preventing symptoms from returning.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to check in again in a few weeks. If any of your symptoms get worse or if you notice anything new, please reach out sooner.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're dealing with several concerns, from arthritis to reflux and other symptoms. I want to make sure I understand what's been on your mind and how we can address each of these together.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "arthritis",
+            "profile_path": "problems[0]",
+            "explanation": "The joint pain you're experiencing could be related to your arthritis. We'll need to monitor how it's improving over time to better understand the best approach for managing it.",
+            "citations": []
+          },
+          {
+            "concern_label": "reflux",
+            "profile_path": "problems[1]",
+            "explanation": "The episodes of morning vomiting could be related to your reflux. We'll keep an eye on how the dietary modifications are working and consider other possible causes.",
+            "citations": []
+          },
+          {
+            "concern_label": "abdominal pain",
+            "profile_path": "problems[2]",
+            "explanation": "The occasional abdominal pain and bloating might be connected. We'll track these symptoms to see if there's a pattern or if they're linked to other issues.",
+            "citations": []
+          },
+          {
+            "concern_label": "constipation",
+            "profile_path": "problems[3]",
+            "explanation": "Constipation can be influenced by various factors. We'll monitor how it progresses and see if there are any underlying causes that need attention.",
+            "citations": []
+          },
+          {
+            "concern_label": "hope it doesn't come back",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Your goal to prevent the return of symptoms is important. We'll work together to manage your health in a way that supports this wish.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll monitor your arthritis to see how the current interventions like pilates and allopurinol are working.",
+          "We'll keep an eye on your reflux and see if adjusting your diet further helps reduce the episodes of morning vomiting.",
+          "We'll track your abdominal pain and bloating to identify any patterns or possible causes.",
+          "We'll monitor your constipation to see if there are any underlying issues that need to be addressed.",
+          "We'll work together to ensure we're doing everything we can to help your goals, like preventing symptoms from returning."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to check in again in a few weeks. If any of your symptoms get worse or if you notice anything new, please reach out sooner.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 4,
+        "n_medications": 2,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 1,
+        "problems": [
+          "arthritis",
+          "reflux",
+          "abdominal pain",
+          "constipation"
+        ],
+        "medications": [
+          "allopurinol",
+          "omeprazole"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 262795.67048698664,
+      "response_text": "It sounds like you're dealing with a few things that are affecting your daily life. I want to make sure I understand what's most concerning to you.\n\nThe joint pain you're experiencing could be related to your arthritis. We'll look into ways to manage this, possibly adjusting your current treatment or adding new exercises to help reduce the pain.\n\nThe episodes of reflux and vomiting you're having in the morning could be linked to your reflux. We might need to adjust your current medication or explore other treatments to help control these symptoms better.\n\nThe abdominal pain and bloating you're experiencing might be related to a variety of causes. We'll need to do some tests to figure out what's going on and how best to treat it.\n\nWe'll schedule some tests to get a better understanding of what's causing your symptoms.\n\nWe'll review your current treatment plan for arthritis and reflux to see if any adjustments are needed.\n\nWe'll discuss lifestyle changes that might help reduce your symptoms and improve your overall comfort.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if your symptoms get worse or you experience anything unusual, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're dealing with a few things that are affecting your daily life. I want to make sure I understand what's most concerning to you.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "arthritis",
+            "profile_path": "problems[0]",
+            "explanation": "The joint pain you're experiencing could be related to your arthritis. We'll look into ways to manage this, possibly adjusting your current treatment or adding new exercises to help reduce the pain.",
+            "citations": [
+              {
+                "cluster_id": "finding::global::39232663_3",
+                "primary_assertion_id": "39232663_3",
+                "pmids": [
+                  "39232663"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "reflux",
+            "profile_path": "problems[1]",
+            "explanation": "The episodes of reflux and vomiting you're having in the morning could be linked to your reflux. We might need to adjust your current medication or explore other treatments to help control these symptoms better.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[3]::40577011_0",
+                "primary_assertion_id": "40577011_0",
+                "pmids": [
+                  "40577011"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "abdominal pain",
+            "profile_path": "problems[2]",
+            "explanation": "The abdominal pain and bloating you're experiencing might be related to a variety of causes. We'll need to do some tests to figure out what's going on and how best to treat it.",
+            "citations": [
+              {
+                "cluster_id": "finding::global::37567752_0",
+                "primary_assertion_id": "37567752_0",
+                "pmids": [
+                  "37567752"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll schedule some tests to get a better understanding of what's causing your symptoms.",
+          "We'll review your current treatment plan for arthritis and reflux to see if any adjustments are needed.",
+          "We'll discuss lifestyle changes that might help reduce your symptoms and improve your overall comfort."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if your symptoms get worse or you experience anything unusual, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::global::39232663_3",
+          "finding::sub_query[3]::40577011_0",
+          "finding::global::37567752_0"
+        ],
+        "all_pmids_used": [
+          "39232663",
+          "40577011",
+          "37567752"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 3,
+        "n_medications": 1,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "arthritis",
+          "reflux",
+          "abdominal pain"
+        ],
+        "medications": [
+          "omeprazole"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [
+        "39232663",
+        "40577011",
+        "37567752"
+      ],
+      "cluster_ids_used": [
+        "finding::global::39232663_3",
+        "finding::sub_query[3]::40577011_0",
+        "finding::global::37567752_0"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 176301.18091404438,
+        "module_2_retrieval": 1280.4938107728958,
+        "module_3_reasoning": 57022.652089595795,
+        "module_4_response": 28190.237544476986,
+        "total_ms": 262794.56435889006
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

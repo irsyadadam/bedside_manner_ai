@@ -1,0 +1,272 @@
+{
+  "transcript_id": "aci_virtassist_D2N131",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "good . how are you ?",
+  "patient_utterances": [
+    "good . how are you ?",
+    "[Clinician asked: \"good . are you ready to get started ?\"] yes , i am .",
+    "[Clinician asked: \"so , susan is a 26-year-old female here for a high blood pressure check . susan , what's going on with your blood pressure ?\"] so , i've always struggled with , um , high blood pressure , but it's seeming to get really out of control lately . so , i wanted to come in and see if there's any type of new medication i can be on to help it get steady or if there is diet restrictions i should take , um , things like that .",
+    "[Clinician asked: \"okay . so , i know that we've had you on the norvasc and we had to increase your dose , so you're on 10 milligrams a day now . and what are your blood pressures running at home ? you c- ... like , have they been like over 150 ?\"] yeah , they have been .",
+    "[Clinician asked: \"okay . all right . and , have you had any headaches ?\"] i have had some headaches . i do n't know if that's just because of more stress at work or , um , because of the high blood pressure .",
+    "[Clinician asked: \"okay . all right . so , you've had some headaches . have you had any chest pain , shortness of breath , anything like that ?\"] no , nothing like that .",
+    "[Clinician asked: \"okay . um , and , you know , i know that you've had a kidney transplant a few years ago .\"] yes .",
+    "[Clinician asked: \"everything is okay with that ?\"] everything's been good and solid there .",
+    "[Clinician asked: \"and you're taking all of your auto , um , i- um , your immunosuppression medications ?\"] yes , i am .",
+    "[Clinician asked: \"all right . so , let's go ahead and we'll do a quick physical exam . so , looking at you , you do n't appear any distress . your neck is nice and supple . your heart is irregular rate and rhythm . i do hear a slight , uh , two out of six systolic ejection murmur . your lungs are clear . i do see the\"] okay .",
+    "[Clinician asked: \"hey , dragon , show me the creatinine . so , your kidney function looks really good . so , that's really promising after your transplant . hey , dragon , show me the ekg . and your ekg looks great , uh , perfectly normal , so that's good . um , so , my impression of you at this time ... , let me see\"] okay .",
+    "[Clinician asked: \"hey , dragon , show me the blood pressure . yeah , and you're right , it-\"] hm .",
+    "[Clinician asked: \"it is high . so , there is something that we can do for that . so , let's go ahead and we'll put you on ... so , my impression of you is that your , your blood pressure is high and the norvasc is n't controlling it . and , you know , we can definitely get it under better control . so , what i would \"] okay .",
+    "[Clinician asked: \"hey , dragon , order carvedilol 25 milligrams , twice a day . uh , i'd also like to go ahead and , uh , get a lipid panel and some routine labs on you just to make sure that everything is okay .\"] yeah .",
+    "[Clinician asked: \"hey , dragon , order a lipid panel . hey , dragon , order a complete metabolic panel . all right . and then , um , from a transplant standpoint , everything looks fine . your kidney function looks great , so we're just gon na continue you on all of those medications . so , the nurse will come in soo\"] okay .",
+    "[Clinician asked: \"all right . thanks , susan .\"] thank you ."
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nHigh blood pressure check.\n\nHISTORY OF PRESENT ILLNESS\n\nMs. Susan Watson is a 26-year-old female who presents to the clinic today for a high blood pressure check.\n\nThe patient reports she has always struggled with high blood pressure, but it is seems out of control recently. She notes that she has interest in new medication or diet changes to help. She is currently on Norvasc 10 mg daily. Her blood pressure at home has been over 150. She notes she has had some headaches, but she is unsure if it is due to stress at work or her high blood pressure. She denies chest pain or shortness of breath.\n\nThe patient underwent a kidney transplant a few years ago, and everything is going well. She is taking all of her immunosuppression medication.\n\nREVIEW OF SYSTEMS\n\n\u2022 Cardiovascular: Denies chest pain or dyspnea on exertion.\n\u2022 Respiratory: Denies shortness of breath\n\u2022 Neurological: Endorses headaches.\n\nPHYSICAL EXAMINATION\n\n\u2022 Constitutional: in no apparent distress.\n\u2022 Neck: Supple without thyromegaly or lymphadenopathy.\n\u2022 Respiratory: Lungs are clear to auscultation bilaterally. No wheezes, rales, or rhonchi.\n\u2022 Cardiovascular: 2/6 systolic ejection murmur.\n\u2022 Musculoskeletal: No edema.\n\u2022 Integumentary: Scar on left flank from kidney transplant, healed.\n\nRESULTS\n\nCreatinine: normal.\n\nElectrocardiogram: normal.\n\nASSESSMENT AND PLAN\n\nMs. Susan Watson is a 26-year-old female who is here today for a high blood pressure check.\n\nHypertension.\n\u2022 Medical Reasoning: Her blood pressure is elevated today and based on her recent home monitoring.\n\u2022 Additional Testing: I would like to get a lipid panel and metabolic panel.\n\u2022 Medical Treatment: carvedilol 25 mg twice a day to help bring her blood pressure down.\n\nStatus post kidney transplant.\n\u2022 Medical Reasoning: Doing well.\nKidney function stable.\n\u2022 Medical Treatment: Continue current medications.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.",
+  "gold_sections": {
+    "CC": "High blood pressure check.",
+    "HPI": "Ms. Susan Watson is a 26-year-old female who presents to the clinic today for a high blood pressure check.\n\nThe patient reports she has always struggled with high blood pressure, but it is seems out of control recently. She notes that she has interest in new medication or diet changes to help. She is currently on Norvasc 10 mg daily. Her blood pressure at home has been over 150. She notes she has had some headaches, but she is unsure if it is due to stress at work or her high blood pressure. She denies chest pain or shortness of breath.\n\nThe patient underwent a kidney transplant a few years ago, and everything is going well. She is taking all of her immunosuppression medication.",
+    "ROS": "\u2022 Cardiovascular: Denies chest pain or dyspnea on exertion.\n\u2022 Respiratory: Denies shortness of breath\n\u2022 Neurological: Endorses headaches.",
+    "PHYSICAL_EXAMINATION": "\u2022 Constitutional: in no apparent distress.\n\u2022 Neck: Supple without thyromegaly or lymphadenopathy.\n\u2022 Respiratory: Lungs are clear to auscultation bilaterally. No wheezes, rales, or rhonchi.\n\u2022 Cardiovascular: 2/6 systolic ejection murmur.\n\u2022 Musculoskeletal: No edema.\n\u2022 Integumentary: Scar on left flank from kidney transplant, healed.",
+    "RESULTS": "Creatinine: normal.\n\nElectrocardiogram: normal.",
+    "ASSESSMENT_PLAN": "Ms. Susan Watson is a 26-year-old female who is here today for a high blood pressure check.\n\nHypertension.\n\u2022 Medical Reasoning: Her blood pressure is elevated today and based on her recent home monitoring.\n\u2022 Additional Testing: I would like to get a lipid panel and metabolic panel.\n\u2022 Medical Treatment: carvedilol 25 mg twice a day to help bring her blood pressure down.\n\nStatus post kidney transplant.\n\u2022 Medical Reasoning: Doing well.\nKidney function stable.\n\u2022 Medical Treatment: Continue current medications.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan."
+  },
+  "n_patient_turns": 16,
+  "n_clinician_turns": 16,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 35736.586689949036,
+      "response_text": "Thank you for sharing your concerns with me, Susan. I completely understand how overwhelming it can feel when your blood pressure isn't under control, and I'm here to help you manage it. It's reassuring to see that your kidney function and EKG results are normal, which is a positive sign, especially considering your transplant history.\n\nWe've added Carvedilol to your medication regimen to better control your blood pressure. This medication can help us achieve that goal, and the additional labs we've ordered will ensure that everything is functioning well. Regarding your headaches, they could be linked to your blood pressure or stress levels. Let's discuss some lifestyle adjustments, such as diet and stress management techniques, that could help alleviate these symptoms.\n\nPlease continue taking all your medications as prescribed, including your immunosuppressants, which are crucial for your transplant. We'll keep a close eye on your blood pressure and adjust your treatment as needed. If you have any questions or concerns in the meantime, don't hesitate to reach out. Together, we'll work towards improving your health and well-being.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 22579.465195536613,
+      "response_text": "Thank you for sharing your concerns with me, Susan. It\u2019s clear that you\u2019re feeling overwhelmed by your high blood pressure, and I completely understand why that would be worrying. Managing blood pressure can be challenging, especially when it feels like it\u2019s getting out of control, but we\u2019re here to work through this together.\n\nGiven that your Norvasc isn\u2019t controlling your blood pressure effectively anymore, we\u2019ve added Carvedilol to help bring it under better control. This change, along with the routine labs we\u2019ve ordered, will help us monitor your health closely and ensure everything is in check. It\u2019s also important to continue taking your immunosuppression medications as prescribed, as they\u2019re crucial for maintaining your kidney transplant\u2019s success.\n\nIn the coming weeks, we\u2019ll be closely tracking your blood pressure readings and the results of your labs. If you notice any changes in how you\u2019re feeling, especially regarding your headaches or any new symptoms, please let us know right away. We\u2019ll schedule a follow-up in about four weeks to review your progress and adjust your treatment plan as needed.\n\nBefore you leave, could you summarize what we discussed today? This will help ensure you understand the next steps and feel confident in the plan we\u2019ve set up together.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6828.680537641048,
+      "response_text": "It sounds like you're ready to get started.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 4 weeks. In the meantime, if you get new symptoms like blood in your stool, severe pain, fevers, or the fatigue getting much worse, please call us right away \u2014 don't wait for the appointment.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're ready to get started.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 4 weeks. In the meantime, if you get new symptoms like blood in your stool, severe pain, fevers, or the fatigue getting much worse, please call us right away \u2014 don't wait for the appointment.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 155547.50046879053,
+      "response_text": "Thank you for sharing your concerns about your high blood pressure and headaches. I understand that these symptoms have been bothering you lately, especially with your history of a kidney transplant.\n\nHigh blood pressure can be tricky, especially with a history of kidney transplant. We'll need to monitor it closely and explore treatment options tailored to your situation.\n\nHeadaches can be caused by many things, including high blood pressure. We'll keep an eye on them as we work through your blood pressure concerns.\n\nWe'll look into different medication options that could help manage your blood pressure more effectively.\n\nMaking changes to your diet can really impact your blood pressure. We'll provide guidance on healthy eating habits that fit your needs.\n\nWe'll monitor your blood pressure and headaches closely at your next visit.\n\nWe'll discuss different medication options for managing your blood pressure.\n\nWe'll provide dietary recommendations to help control your blood pressure.\n\nCan you tell me, in your own words, what we discussed today and what steps we'll be taking next?\n\nLet's plan to see each other again in a few weeks. In the meantime, keep track of your symptoms and let us know if anything changes.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns about your high blood pressure and headaches. I understand that these symptoms have been bothering you lately, especially with your history of a kidney transplant.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "high blood pressure",
+            "profile_path": "problems[0]",
+            "explanation": "High blood pressure can be tricky, especially with a history of kidney transplant. We'll need to monitor it closely and explore treatment options tailored to your situation.",
+            "citations": []
+          },
+          {
+            "concern_label": "headaches",
+            "profile_path": "problems[1]",
+            "explanation": "Headaches can be caused by many things, including high blood pressure. We'll keep an eye on them as we work through your blood pressure concerns.",
+            "citations": []
+          },
+          {
+            "concern_label": "find new medication to help control blood pressure",
+            "profile_path": "patient_goals[0]",
+            "explanation": "We'll look into different medication options that could help manage your blood pressure more effectively.",
+            "citations": []
+          },
+          {
+            "concern_label": "diet restrictions",
+            "profile_path": "patient_goals[1]",
+            "explanation": "Making changes to your diet can really impact your blood pressure. We'll provide guidance on healthy eating habits that fit your needs.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll monitor your blood pressure and headaches closely at your next visit.",
+          "We'll discuss different medication options for managing your blood pressure.",
+          "We'll provide dietary recommendations to help control your blood pressure."
+        ],
+        "teach_back_prompt": "Can you tell me, in your own words, what we discussed today and what steps we'll be taking next?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, keep track of your symptoms and let us know if anything changes.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 2,
+        "n_medications": 1,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 2,
+        "problems": [
+          "high blood pressure",
+          "headaches"
+        ],
+        "medications": [
+          "carvedilol 25 mg twice a day"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 194869.87660080194,
+      "response_text": "Thank you for sharing your concerns about your high blood pressure and headaches. I understand that managing these can be challenging, especially with your history of a kidney transplant.\n\nHigh blood pressure can be tricky to manage, especially with a history of a kidney transplant. While mobile phone text messaging may not have a significant effect on blood pressure compared to usual care, there are other effective strategies we can explore together.\n\nHeadaches can be linked to stress at work or high blood pressure. We can work together to identify the triggers and find ways to manage them effectively.\n\nWe can explore different medication options to help control your blood pressure better. It's important to find a solution that works well for you.\n\nI'll provide you with dietary recommendations to support your blood pressure management. Together, we can create a plan that fits your lifestyle.\n\nWe'll review your current medications and discuss potential alternatives for managing your blood pressure.\n\nWe'll schedule a follow-up visit to monitor your progress and adjust your treatment plan as needed.\n\nI'll provide you with dietary guidelines to help control your blood pressure.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if you experience severe headaches or your blood pressure doesn't improve with the current plan, please call us so we can address it promptly.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns about your high blood pressure and headaches. I understand that managing these can be challenging, especially with your history of a kidney transplant.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "high blood pressure",
+            "profile_path": "problems[0]",
+            "explanation": "High blood pressure can be tricky to manage, especially with a history of a kidney transplant. While mobile phone text messaging may not have a significant effect on blood pressure compared to usual care, there are other effective strategies we can explore together.",
+            "citations": [
+              {
+                "cluster_id": "finding::problems[0]::38533994_0",
+                "primary_assertion_id": "38533994_0",
+                "pmids": [
+                  "38533994"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "headaches",
+            "profile_path": "problems[1]",
+            "explanation": "Headaches can be linked to stress at work or high blood pressure. We can work together to identify the triggers and find ways to manage them effectively.",
+            "citations": []
+          },
+          {
+            "concern_label": "find a new medication to help control blood pressure",
+            "profile_path": "patient_goals[0]",
+            "explanation": "We can explore different medication options to help control your blood pressure better. It's important to find a solution that works well for you.",
+            "citations": []
+          },
+          {
+            "concern_label": "diet restrictions advice",
+            "profile_path": "patient_goals[1]",
+            "explanation": "I'll provide you with dietary recommendations to support your blood pressure management. Together, we can create a plan that fits your lifestyle.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll review your current medications and discuss potential alternatives for managing your blood pressure.",
+          "We'll schedule a follow-up visit to monitor your progress and adjust your treatment plan as needed.",
+          "I'll provide you with dietary guidelines to help control your blood pressure."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if you experience severe headaches or your blood pressure doesn't improve with the current plan, please call us so we can address it promptly.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::problems[0]::38533994_0"
+        ],
+        "all_pmids_used": [
+          "38533994"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 2,
+        "n_medications": 1,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 2,
+        "problems": [
+          "high blood pressure",
+          "headaches"
+        ],
+        "medications": [
+          "Carvedilol 25 mg twice a day"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [
+        "38533994"
+      ],
+      "cluster_ids_used": [
+        "finding::problems[0]::38533994_0"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 148966.76950901747,
+        "module_2_retrieval": 1213.1169512867928,
+        "module_3_reasoning": 21509.96132940054,
+        "module_4_response": 23178.802356123924,
+        "total_ms": 194868.65014582872
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

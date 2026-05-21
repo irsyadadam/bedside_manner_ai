@@ -1,0 +1,288 @@
+{
+  "transcript_id": "aci_virtscribe_D2N142",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "hi , i'm- i'm good , thank you .",
+  "patient_utterances": [
+    "[Clinician asked: \"hi miss taylor , how are you today ?\"] hi , i'm- i'm good , thank you .",
+    "[Clinician asked: \"thanks for coming in today .\"] yeah , no problem .",
+    "[Clinician asked: \"so how have things been going for you ?\"] uh , they've been all right . i'm struggling with not drinking . i wanted to discuss that , uh , shot that you had mentioned last time , but we did n't get to discuss it too much .",
+    "[Clinician asked: \"okay , well i'll be happy to provide you with more information . so tell me when did you last have a drink ?\"] on monday .",
+    "[Clinician asked: \"okay , so you've gone a couple days without it ?\"] yeah , yeah i have .",
+    "[Clinician asked: \"yeah , and had you been drinking for a while ?\"] yep .",
+    "[Clinician asked: \"how much had- how much had you been drinking ?\"] um , four or five times a week hard alcohol , so , you know .",
+    "[Clinician asked: \"okay . well it will certainly help your blood pressure if you're able to stop drinking .\"] yeah , yeah i- i- i agree with you .",
+    "[Clinician asked: \"okay . are you taking your blood pressure medications ?\"] yeah , but i'm only taking half of the lisinopril .",
+    "[Clinician asked: \"okay .\"] i- b- well , the first time i took it i felt lethargic and tired , so i only took a half dose the next time . i felt much better and i did n't have the headaches or the swooshing that started in my left ear . so i feel like it's definitely helping but i do n't know ... i know it's not gon na be okay until i stop drinking .",
+    "[Clinician asked: \"and are you also taking the full dose of the hydrochlorothiazide ? do you have any , um , chest tightness or pressure or any shortness of breath ?\"] yeah i'm taking the full dose of that medicine too , and no none of those symptoms .",
+    "[Clinician asked: \"okay . anything else i should be aware of or that we should be checking ?\"] mm , no .",
+    "[Clinician asked: \"okay , good . are you doing the blood pressure checks at home ?\"] yes . yes i am .",
+    "[Clinician asked: \"okay good . what kind of numbers are you seeing ?\"] well , in the morning i'm seeing lower numbers than in the evening , um , where i run anywhere from like 130 to 145 or 150 over 95 to 100 on the bottom .",
+    "[Clinician asked: \"okay .\"] but in the evenings if i sit there for a while and then take it , it goes down . kind of like when i come here it's always high but then it goes down . in the mornings it's generally more normal where it's supposed to be .",
+    "[Clinician asked: \"uh- .\"] mm , also i'm taking my medicine in the morning when i get up instead of in the evening .",
+    "[Clinician asked: \"yeah , so it sounds like we are not too far out of where we wan na be .\"] right , mm-hmm .",
+    "[Clinician asked: \"okay . well let me get a listen to your heart , go ahead and hop up here .\"] okay .",
+    "[Clinician asked: \"use my general exam template . all right , go ahead and take some deep breaths . okay , good . any fever , cough , shortness of breath or sore throat ?\"] no .",
+    "[Clinician asked: \"any recent travel or contact or exposure to the coronavirus ?\"] nope .",
+    "[Clinician asked: \"have you received your coronavirus vaccine ?\"] yes , on february 9th .",
+    "[Clinician asked: \"okay , great . all right well i'm just going to look at your ankles and feet , i'm looking for any signs of swelling .\"] okay .",
+    "[Clinician asked: \"all right , well everything looks good . you can go ahead and sit up miss taylor . all right , so the good news is everything is looking okay . i think we both agree if you were able to stop drinking your blood pressure would cease to be an issue for you .\"] yeah i agree with that .",
+    "[Clinician asked: \"so let us discuss the potential medicine to help you with that . what it does is it blocks some of the brain receptors that alcohol stimulates and it tricks the brain into thinking it does not need alcohol , thereby cutting down the urges .\"] the urge to drink or the constant thinking about it ?",
+    "[Clinician asked: \"it actually will help with both .\"] okay . so is it like a one-time thing ?",
+    "[Clinician asked: \"generally the shot is given about once a month , it can also be given as a daily pill , but the shot does tend to work a bit better .\"] yeah i've taken things like this in the past and if it is a pill , i know i wo n't take it . with a shot , it's not like you can un-take it .",
+    "[Clinician asked: \"yeah that's true . and the shot has been shown to work , it is more just a matter of getting you in to get your shot a month later with the nurse .\"] yeah , sure , sure .",
+    "[Clinician asked: \"okay , so it's called naltrexone . i think the other name might be vivitrol . like i've said , the research on it is pretty good .\"] i think i may have taken the naltrexone before .",
+    "[Clinician asked: \"okay , yeah , maybe you have .\"] yeah , if it was available in a pill form then i'm almost certain i've tried it b- before .",
+    "[Clinician asked: \"okay . if this sounds good though , we can go ahead get you started with the shot . i am looking and it looks like we have you coming back in on may 17th for your first shot , does that sound good ?\"] yeah , yeah , that sounds great . are there any possible side effects ?",
+    "[Clinician asked: \"yeah , some people will experience some nausea , headache , dizziness , anxi- anxiety , tiredness and trouble sleeping , but generally the side effects are mild and should go away within a few days .\"] okay .",
+    "[Clinician asked: \"then we can schedule you for a follow-up in june to see how you are doing .\"] all right that sounds good .",
+    "[Clinician asked: \"all right great . well otherwise stay with your current medicines , keep checking your blood pressure , and let's see if we can stop the alcohol for good . let us know if you have any questions or any issues come up after you receive the first dose .\"] all right , sounds good , thank you .",
+    "[Clinician asked: \"you are welcome , have a good rest of your day .\"] you too ."
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nHypertension.\nAlcohol use disorder.\n\nHISTORY OF PRESENT ILLNESS\n\nAmanda Taylor is an 72-year-old woman who presents for a follow-up for hypertension. History includes significant alcohol use disorder and mild hypercholesterolemia. At last visit on April 16, BP was 130/90. After presenting at 150/100 she was prescribed hydrochlorothiazide 12.5 mg by mouth once daily and lisinopril 20 mg by mouth once daily. CMP and CBC were essentially unremarkable.\n\nMrs. Taylor admits to consuming alcohol 4-5 times a week and is interested in Naltrexone injections. She acknowledges that her blood pressure would likely improve if she stopped alcohol consumption. She is checking her blood pressure in the morning and evening, stating it is higher at night but will improve after sitting for a few minutes. She is averaged 135-145 or 150 over 95-110.\n\nShe experienced side effects from lisinopril, such as headaches, \u201cswooshing\u201d in her left ear, and lethargy. She took half a dose and did not experience the side effects.\n\nPAST HISTORY\n\nMedical\nHypertension.\nHypercholesterolemia.\nAlcohol use disorder.\n\nCURRENT MEDICATIONS\n\nLisinopril 20 mg tablet once daily.\nHydrochlorothiazide 12.5 mg once daily.\n\nPHYSICAL EXAM\n\nConstitutional\nNo distress. No fever. No tobacco or other substance use.\n\nNeurological\nAlert.\n\nPsychological\nShe does not appear anxious, agitated or depressed.\n\nNeck\nJVP flat with a head at 90 degrees.\n\nRespiratory\nNo cough or shortness of breath. Chest clear to percussion and auscultation. Unlabored breathing.\n\nCardiovascular\nNo CVA tenderness. Cardiac rhythm regular. No murmur. No gallop.\n\nMusculoskeletal\nNo ankle edema.\n\nIntegumentary\nSkin is moist. Good trigger.\n\nASSESSMENT\n\n\u2022 Alcohol use disorder.\n\u2022 Hypertension.\n\nMrs. Taylor presents for a follow-up for hypertension. History includes significant alcohol use disorder and mild hypercholesterolemia. At last visit on April 16, BP was 130/90. After presenting at 150/100 she was prescribed hydrochlorothiazide 12.5 mg by mouth once daily and lisinopril 20 mg by mouth once daily. CMP and CBC were essentially unremarkable.\n\nPLAN\n\nAlcohol use disorder\nI will start her on naltrexone which we have previously discussed. She will take the injectable form and start on May 17. We reviewed side effects and risks. The potential benefit of alcohol cessation would be highly beneficial to the patient.\n\nHypertension\nShe will continue taking lisinopril 10 mg/day and hydrochlorothiazide 12.5 mg daily. Quite possibly her blood pressure will improve significantly if she is able to completely stop consuming alcohol. Target BP is 130-140/70-80. I will see her back week of June 14 which likely will be the time of her second naltrexone injection.\n\nRecommend upgrading influenza vaccination and Shingrix #2, she defers this.\n\nINSTRUCTIONS\n\nCall the clinic with any questions. Make follow up appointment week of June 14th.",
+  "gold_sections": {
+    "CC": "Hypertension.\nAlcohol use disorder.",
+    "HPI": "Amanda Taylor is an 72-year-old woman who presents for a follow-up for hypertension. History includes significant alcohol use disorder and mild hypercholesterolemia. At last visit on April 16, BP was 130/90. After presenting at 150/100 she was prescribed hydrochlorothiazide 12.5 mg by mouth once daily and lisinopril 20 mg by mouth once daily. CMP and CBC were essentially unremarkable.\n\nMrs. Taylor admits to consuming alcohol 4-5 times a week and is interested in Naltrexone injections. She acknowledges that her blood pressure would likely improve if she stopped alcohol consumption. She is checking her blood pressure in the morning and evening, stating it is higher at night but will improve after sitting for a few minutes. She is averaged 135-145 or 150 over 95-110.\n\nShe experienced side effects from lisinopril, such as headaches, \u201cswooshing\u201d in her left ear, and lethargy. She took half a dose and did not experience the side effects.",
+    "PAST_HISTORY": "Medical\nHypertension.\nHypercholesterolemia.\nAlcohol use disorder.",
+    "CURRENT_MEDICATIONS": "Lisinopril 20 mg tablet once daily.\nHydrochlorothiazide 12.5 mg once daily.",
+    "PHYSICAL_EXAM": "Constitutional\nNo distress. No fever. No tobacco or other substance use.\n\nNeurological\nAlert.\n\nPsychological\nShe does not appear anxious, agitated or depressed.\n\nNeck\nJVP flat with a head at 90 degrees.\n\nRespiratory\nNo cough or shortness of breath. Chest clear to percussion and auscultation. Unlabored breathing.\n\nCardiovascular\nNo CVA tenderness. Cardiac rhythm regular. No murmur. No gallop.\n\nMusculoskeletal\nNo ankle edema.\n\nIntegumentary\nSkin is moist. Good trigger.",
+    "ASSESSMENT": "\u2022 Alcohol use disorder.\n\u2022 Hypertension.\n\nMrs. Taylor presents for a follow-up for hypertension. History includes significant alcohol use disorder and mild hypercholesterolemia. At last visit on April 16, BP was 130/90. After presenting at 150/100 she was prescribed hydrochlorothiazide 12.5 mg by mouth once daily and lisinopril 20 mg by mouth once daily. CMP and CBC were essentially unremarkable.",
+    "PLAN": "Alcohol use disorder\nI will start her on naltrexone which we have previously discussed. She will take the injectable form and start on May 17. We reviewed side effects and risks. The potential benefit of alcohol cessation would be highly beneficial to the patient.\n\nHypertension\nShe will continue taking lisinopril 10 mg/day and hydrochlorothiazide 12.5 mg daily. Quite possibly her blood pressure will improve significantly if she is able to completely stop consuming alcohol. Target BP is 130-140/70-80. I will see her back week of June 14 which likely will be the time of her second naltrexone injection.\n\nRecommend upgrading influenza vaccination and Shingrix #2, she defers this.",
+    "INSTRUCTIONS": "Call the clinic with any questions. Make follow up appointment week of June 14th."
+  },
+  "n_patient_turns": 34,
+  "n_clinician_turns": 36,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 21472.363114356995,
+      "response_text": "Miss Taylor, I want to commend you on your strength for going a few days without drinking\u2014it\u2019s a great start. I understand how challenging this can be, and I\u2019m here to support you every step of the way. The shot we discussed, naltrexone (Vivitrol), is a reliable option to help reduce your urge to drink. Since you\u2019ve mentioned that pills are difficult for you, the monthly shot is a solid choice because it removes the daily hassle and ensures you get the medication consistently.\n\nIt\u2019s important to note that some people experience mild side effects like nausea or dizziness, but these usually pass within a few days. We\u2019ll keep an eye on how you\u2019re feeling after the first dose. Your follow-up appointment in June will allow us to check in on your progress and make any necessary adjustments. Remember, you\u2019re not alone in this journey. Please don\u2019t hesitate to reach out if you have any questions or concerns between now and your appointment. You\u2019ve already shown such determination, and I\u2019m confident we can work through this together. Keep up the fantastic work!",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 22540.704749524593,
+      "response_text": "Thank you for sharing your progress and concerns with me. It\u2019s clear that you\u2019re putting in a lot of effort to stop drinking, and that\u2019s commendable. I understand how challenging it can be to manage both your drinking and your blood pressure, especially when the medication makes you feel tired. It\u2019s important to recognize the steps you\u2019ve taken, like not drinking for a couple of days and monitoring your blood pressure at home.\n\nWe\u2019ve discussed the naltrexone shot, which can help reduce your cravings and urges to drink. This medication works by blocking brain receptors that alcohol affects, making it less rewarding and easier to resist. Many people find that the shot is more effective than the pill because it eliminates the risk of forgetting to take it. Research shows that naltrexone can be quite helpful in managing alcohol use [PMID ?]. \n\nIt\u2019s worth noting that some people experience mild side effects like nausea or dizziness, but these usually go away within a few days. If you notice anything unusual after the first shot, let us know so we can address it. We\u2019ve scheduled your first shot for May 17th, and a follow-up in June to check how you\u2019re doing. \n\nBefore you leave, could you summarize what we\u2019ve agreed on today? This will help ensure you understand the plan and feel confident moving forward. Together, let\u2019s work on this step by step.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7335.880234837532,
+      "response_text": "Thank you for coming in today and sharing your experiences. I understand that stopping drinking is something you're working on, and you mentioned that you're interested in the shot we discussed last time.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 4 weeks. In the meantime, if you have any questions or issues after receiving the first dose, please reach out.",
+      "structured_response": {
+        "acknowledgment": "Thank you for coming in today and sharing your experiences. I understand that stopping drinking is something you're working on, and you mentioned that you're interested in the shot we discussed last time.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 4 weeks. In the meantime, if you have any questions or issues after receiving the first dose, please reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 175936.36389821768,
+      "response_text": "I can hear how frustrating this must be for you. You mentioned, \"I don't know ... I know it's not going to be okay until I stop drinking,\" and I want to acknowledge how tough that must feel.\n\nIt's important to approach this step by step. We'll work together to understand what's been making it hard to stop and find strategies that can help you succeed.\n\nWe'll make sure to address the shot you mentioned last time and how it fits into your overall care plan.\n\nStopping drinking is a significant goal, and we'll explore resources and support systems that can help you achieve this.\n\nWe'll schedule some time to talk about your goals and the challenges you're facing in more detail.\n\nTogether, we'll create a plan that supports your efforts to stop drinking and address any other concerns you have.\n\nPlease let us know if there are any immediate needs or questions you have before our next meeting.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to meet again soon to review your progress and any questions you may have. In the meantime, if you need support or have any concerns, please reach out.",
+      "structured_response": {
+        "acknowledgment": "I can hear how frustrating this must be for you. You mentioned, \"I don't know ... I know it's not going to be okay until I stop drinking,\" and I want to acknowledge how tough that must feel.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "struggling with not drinking",
+            "profile_path": "problems[0]",
+            "explanation": "It's important to approach this step by step. We'll work together to understand what's been making it hard to stop and find strategies that can help you succeed.",
+            "citations": []
+          },
+          {
+            "concern_label": "discuss the shot mentioned last time",
+            "profile_path": "patient_goals[0]",
+            "explanation": "We'll make sure to address the shot you mentioned last time and how it fits into your overall care plan.",
+            "citations": []
+          },
+          {
+            "concern_label": "stop drinking",
+            "profile_path": "patient_goals[1]",
+            "explanation": "Stopping drinking is a significant goal, and we'll explore resources and support systems that can help you achieve this.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll schedule some time to talk about your goals and the challenges you're facing in more detail.",
+          "Together, we'll create a plan that supports your efforts to stop drinking and address any other concerns you have.",
+          "Please let us know if there are any immediate needs or questions you have before our next meeting."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to meet again soon to review your progress and any questions you may have. In the meantime, if you need support or have any concerns, please reach out.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 3,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 2,
+        "problems": [
+          "struggling with not drinking"
+        ],
+        "medications": [
+          "lisinopril (unknown dose, frequency)",
+          "hydrochlorothiazide (unknown dose, frequency)",
+          "medication change: taking in the morning"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 203032.08102285862,
+      "response_text": "It sounds like you're trying to stop drinking, and that's a big step. I want to support you in this journey.\n\nStopping drinking can be really tough, and there are things we can do to help. Research shows that cost-free medications and counseling can make it easier to quit.\n\nWe can talk about the shot you mentioned last time and see how it fits into your plan to stop drinking.\n\nIt's important to have a plan for stopping drinking, and I'm here to help you work through any challenges you're facing.\n\nWe'll discuss the shot you mentioned last time and how it can help with your goal to stop drinking.\n\nWe'll also talk about other options, like medications and counseling, that can make it easier to quit drinking.\n\nLet's set up a follow-up plan to check in on your progress and provide support as needed.\n\nCan you tell me, in your own words, what we discussed today and what steps we're going to take next?\n\nLet's plan to check in again in a week. If you have any questions or need support before then, please reach out.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're trying to stop drinking, and that's a big step. I want to support you in this journey.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "struggling with not drinking",
+            "profile_path": "problems[0]",
+            "explanation": "Stopping drinking can be really tough, and there are things we can do to help. Research shows that cost-free medications and counseling can make it easier to quit.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[0]::34693994_1",
+                "primary_assertion_id": "34693994_1",
+                "pmids": [
+                  "34693994"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "discuss the shot mentioned last time",
+            "profile_path": "patient_goals[0]",
+            "explanation": "We can talk about the shot you mentioned last time and see how it fits into your plan to stop drinking.",
+            "citations": []
+          },
+          {
+            "concern_label": "stop drinking",
+            "profile_path": "patient_goals[1]",
+            "explanation": "It's important to have a plan for stopping drinking, and I'm here to help you work through any challenges you're facing.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll discuss the shot you mentioned last time and how it can help with your goal to stop drinking.",
+          "We'll also talk about other options, like medications and counseling, that can make it easier to quit drinking.",
+          "Let's set up a follow-up plan to check in on your progress and provide support as needed."
+        ],
+        "teach_back_prompt": "Can you tell me, in your own words, what we discussed today and what steps we're going to take next?",
+        "follow_up_invitation": "Let's plan to check in again in a week. If you have any questions or need support before then, please reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[0]::34693994_1"
+        ],
+        "all_pmids_used": [
+          "34693994"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 3,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 2,
+        "problems": [
+          "struggling with not drinking"
+        ],
+        "medications": [
+          "lisinopril (unknown dose, frequency)",
+          "hydrochlorothiazide (unknown dose, frequency)",
+          "medication change: taking in the morning"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [
+        "34693994"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[0]::34693994_1"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 146254.76419180632,
+        "module_2_retrieval": 984.7926571965218,
+        "module_3_reasoning": 35497.231498360634,
+        "module_4_response": 20294.22964900732,
+        "total_ms": 203031.0179963708
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

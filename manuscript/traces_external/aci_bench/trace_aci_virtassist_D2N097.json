@@ -1,0 +1,290 @@
+{
+  "transcript_id": "aci_virtassist_D2N097",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "i'm doing okay . how are you ?",
+  "patient_utterances": [
+    "[Clinician asked: \"elizabeth , how are you ?\"] i'm doing okay . how are you ?",
+    "[Clinician asked: \"doing okay . so i know the nurse told you about dax . i'd like to tell dax a little bit about you , okay ?\"] okay .",
+    "[Clinician asked: \"all right . elizabeth is a 66-year-old female with a past medical history of significant for depression and hypertension who presents for her annual exam . so elizabeth , it's been a year since i've seen you .\"] mm-hmm .",
+    "[Clinician asked: \"how are you doing ?\"] i'm doing well . there's been so many events now that we've been able to get vaccinated , i've been able to see my grandkids again , go to more birthday parties , it's been fantastic .",
+    "[Clinician asked: \"yeah , i know . i've ... i mean , we've had some communication over telehealth and that type of thing , but it's not the same as being in-person , so i'm happy to see you today . now tell me a little bit about , you know , we have n't really got a chance to talk about your depression . how are you .\"] so i've been going to therapy once a week for the past year . um , mostly virtually , um , but starting to get in-person . virtual was a bit of a struggle , but i feel like being in-person with someone really helps me .",
+    "[Clinician asked: \"okay . and do y- do you have a good support system at home ?\"] yes , i do . i have my husband and , uh , my kids are right down the street from me , so i'm very lucky .",
+    "[Clinician asked: \"how about your blood pressure ? did you buy the blood pressure cuff that i-\"] yes .",
+    "[Clinician asked: \"told you to ? okay . i know that we've been in communication and your blood pressures have been running okay . the last time i spoke with you , how are they doing since we last spoke ?\"] they've been doing well . i've been using the cuff , um , once a day , and they seem pretty normal .",
+    "[Clinician asked: \"okay . and are you taking the lisinopril that i prescribed ?\"] yes .",
+    "[Clinician asked: \"okay . great . all right . so i know that you did a review of systems sheet with the nurse when you checked in . you know , i know that you were talking about some nasal congestion . do you have any other symptoms , chest pain , shortness of breath , abdominal pain , nausea or vomiting , anything li\"] no .",
+    "[Clinician asked: \"no ? okay . all right . well , i wan na go ahead and do a quick physical exam , okay ?\"] okay .",
+    "[Clinician asked: \"hey , dragon , show me the vital signs . so here in the office , you know , your blood pressure looks really good , as does your heart rate . so you are doing a good job managing your blood pressure . so i'm gon na take a listen to your heart and lungs , okay ?\"] okay .",
+    "[Clinician asked: \"okay . so on physical examination , i do n't appreciate any carotid bruits in your neck . on your heart exam i do notice a slight 2/6 systolic ejection murmur , which we've heard in the past , so i think that's stable . your lungs in- are nice and clear , and you have some trace lower extremity edem\"] okay .",
+    "[Clinician asked: \"all right . hey , dragon , show me the ekg . and the nurses did an ekg before you came in , and that looks perfectly fine , okay ? so i wan na just go ahead and talk a little about your assessment and my plan for you . so for your first problem , your depression , i think you're doing a really good \"] no , i'm , i'm , good in that department .",
+    "[Clinician asked: \"for your second problem , your high blood pressure , i agree , everything looks fine here now . i wan na just continue on the lisinopril , 20 milligrams a day . and i want you to continue to watch your blood pressures as well , and if they start rising , i want you to contact me , okay ?\"] okay .",
+    "[Clinician asked: \"and for your third problem , for an annual exam maintenance , you know , you're due for a mammogram , so we'll go ahead and schedule that , okay ?\"] all right .",
+    "[Clinician asked: \"all right . do you have any questions ?\"] um , can i take all my medicine at the same time ? does it matter ?",
+    "[Clinician asked: \"yeah . you can set an alarm so that it reminds you to take your medication . but yeah , you can , you can take them altogether .\"] okay ."
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nAnnual exam.\n\nHISTORY OF PRESENT ILLNESS\n\nElizabeth Peterson is a 66-year-old female with a past medical history significant for depression and hypertension, who presents for her annual exam. It has been a year since I last saw the patient.\n\nThe patient reports that she is doing well. She has been to multiple events now that she has been able to get vaccinated for COVID-19. She reports that she has been able to see her grandchildren again and attend birthday parties.\n\nRegarding her depression, she has been going to therapy once a week for the past year. She reports that she is starting to go in person rather than virtual, which has helped even more. The patient has a good support system at home with her husband and her children live down the street.\n\nThe patient reports that her blood pressure has been doing well. She has been using the blood pressure cuff once a day and her readings seem normal. She has continued to utilize Lisinopril 20 mg daily, as prescribed.\n\nThe patient endorses nasal congestion. She denies any other symptoms of chest pain, shortness of breath, abdominal pain, nausea, or vomiting.\n\nREVIEW OF SYSTEMS\n\n\u2022 Ears, Nose, Mouth and Throat: Endorses nasal congestion.\n\u2022 Cardiovascular: Denies chest pain or dyspnea.\n\u2022 Respiratory: Denies shortness of breath.\n\u2022 Psychiatric: Endorses depression.\n\nPHYSICAL EXAMINATION\n\n\u2022 Neck: No carotid bruits appreciable.\n\u2022 Respiratory: Lungs are clear to auscultation bilaterally. No wheezes, rales, or rhonchi.\n\u2022 Cardiovascular: Slight 2/6 systolic ejection murmur, stable.\n\u2022 Musculoskeletal: Trace lower extremity edema bilaterally.\n\nRESULTS\n\nElectrocardiogram stable in comparison to last year.\n\nASSESSMENT AND PLAN\n\nElizabeth Peterson is a 66-year-old female with a past medical history significant for depression and hypertension. She presents today for her annual exam.\n\nDepression.\n\u2022 Medical Reasoning: She is doing well with weekly therapy. She also has a solid support system at home.\n\u2022 Medical Treatment: Continue with therapy and current management strategies. We will defer medication at this time.\n\nHypertension.\n\u2022 Medical Reasoning: This is well controlled based on daily home monitoring. She has been compliant with lisinopril.\n\u2022 Medical Treatment: Continue lisinopril 20 mg daily.\n\u2022 Patient Education and Counseling: I advised her to continue with daily home monitoring of her blood pressures. She will contact me via the patient portal for any elevation in these readings.\n\nHealthcare maintenance.\n\u2022 Medical Reasoning: She is due for her annual mammogram.\n\u2022 Additional Testing: We will order a mammogram for her.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.",
+  "gold_sections": {
+    "CC": "Annual exam.",
+    "HPI": "Elizabeth Peterson is a 66-year-old female with a past medical history significant for depression and hypertension, who presents for her annual exam. It has been a year since I last saw the patient.\n\nThe patient reports that she is doing well. She has been to multiple events now that she has been able to get vaccinated for COVID-19. She reports that she has been able to see her grandchildren again and attend birthday parties.\n\nRegarding her depression, she has been going to therapy once a week for the past year. She reports that she is starting to go in person rather than virtual, which has helped even more. The patient has a good support system at home with her husband and her children live down the street.\n\nThe patient reports that her blood pressure has been doing well. She has been using the blood pressure cuff once a day and her readings seem normal. She has continued to utilize Lisinopril 20 mg daily, as prescribed.\n\nThe patient endorses nasal congestion. She denies any other symptoms of chest pain, shortness of breath, abdominal pain, nausea, or vomiting.",
+    "ROS": "\u2022 Ears, Nose, Mouth and Throat: Endorses nasal congestion.\n\u2022 Cardiovascular: Denies chest pain or dyspnea.\n\u2022 Respiratory: Denies shortness of breath.\n\u2022 Psychiatric: Endorses depression.",
+    "PHYSICAL_EXAMINATION": "\u2022 Neck: No carotid bruits appreciable.\n\u2022 Respiratory: Lungs are clear to auscultation bilaterally. No wheezes, rales, or rhonchi.\n\u2022 Cardiovascular: Slight 2/6 systolic ejection murmur, stable.\n\u2022 Musculoskeletal: Trace lower extremity edema bilaterally.",
+    "RESULTS": "Electrocardiogram stable in comparison to last year.",
+    "ASSESSMENT_PLAN": "Elizabeth Peterson is a 66-year-old female with a past medical history significant for depression and hypertension. She presents today for her annual exam.\n\nDepression.\n\u2022 Medical Reasoning: She is doing well with weekly therapy. She also has a solid support system at home.\n\u2022 Medical Treatment: Continue with therapy and current management strategies. We will defer medication at this time.\n\nHypertension.\n\u2022 Medical Reasoning: This is well controlled based on daily home monitoring. She has been compliant with lisinopril.\n\u2022 Medical Treatment: Continue lisinopril 20 mg daily.\n\u2022 Patient Education and Counseling: I advised her to continue with daily home monitoring of her blood pressures. She will contact me via the patient portal for any elevation in these readings.\n\nHealthcare maintenance.\n\u2022 Medical Reasoning: She is due for her annual mammogram.\n\u2022 Additional Testing: We will order a mammogram for her.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan."
+  },
+  "n_patient_turns": 18,
+  "n_clinician_turns": 20,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 15912.170931696892,
+      "response_text": "Elizabeth, it's wonderful to hear how well you're doing, especially with all the positive changes you've experienced since getting vaccinated. It's great that you're able to see your grandkids and enjoy more family events\u2014it really shows how much impact those connections can have on your well-being.\n\nYour progress with therapy, both virtually and now in-person, is commendable. It's clear that the in-person sessions are beneficial for you, and that's a fantastic step forward. I'm also glad to hear that your blood pressure is well-managed and that you're using the cuff regularly. Regarding your medication, it's perfectly fine to take them all at the same time, and setting an alarm can be a helpful reminder.\n\nRemember, we're here to support you, so if you ever have any questions or need further assistance, please don't hesitate to reach out. Keep up the great work!",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 18709.402233362198,
+      "response_text": "Elizabeth, it's wonderful to hear how much joy you've found in reconnecting with your grandkids and attending those special events. It speaks volumes about how important these moments are to you, and I'm so glad you're able to enjoy them now.\n\nYour commitment to managing your blood pressure has been impressive, and I'm pleased to see that your heart condition remains stable. It's great that you're finding in-person therapy beneficial\u2014it can make such a difference to have that face-to-face connection.\n\nRegarding your medication, it's generally safe to take all your medications at the same time, provided there are no specific instructions to the contrary. Setting an alarm can be a helpful reminder, as consistency is key to maintaining effectiveness.\n\nWe'll schedule your mammogram soon. If you have any questions or concerns in the meantime, please don't hesitate to reach out. I'm here to support you, and let's continue to monitor your health together.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6952.689595520496,
+      "response_text": "It sounds like you're doing well overall, especially with the positive changes since getting vaccinated and seeing your grandkids. That's great to hear.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again at your next annual exam. In the meantime, if you have any concerns or questions about your health, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're doing well overall, especially with the positive changes since getting vaccinated and seeing your grandkids. That's great to hear.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again at your next annual exam. In the meantime, if you have any concerns or questions about your health, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 142767.24871993065,
+      "response_text": "Thank you for sharing your concerns and goals. It sounds like you've been dealing with these issues for a while, and I'm here to help you work through them together.\n\nIt's important to understand how you've been feeling and managing your depression. We'll work together to review your current treatment and see what adjustments might help.\n\nWe'll check how well your current blood pressure medication is working and make sure you're taking it consistently.\n\nIt's good that you're taking your lisinopril daily. We'll ensure you're on the right dose and schedule.\n\nTaking all medications at the same time can help you stay consistent and avoid missing doses.\n\nWe'll review your current treatments and discuss any adjustments that might be needed.\n\nWe'll schedule a follow-up visit to monitor your progress and address any concerns you have.\n\nPlease keep taking your medications as prescribed and let us know if you experience any side effects or changes in how you're feeling.\n\nI want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if you have any questions or concerns, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns and goals. It sounds like you've been dealing with these issues for a while, and I'm here to help you work through them together.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "depression",
+            "profile_path": "problems[0]",
+            "explanation": "It's important to understand how you've been feeling and managing your depression. We'll work together to review your current treatment and see what adjustments might help.",
+            "citations": []
+          },
+          {
+            "concern_label": "high blood pressure",
+            "profile_path": "problems[1]",
+            "explanation": "We'll check how well your current blood pressure medication is working and make sure you're taking it consistently.",
+            "citations": []
+          },
+          {
+            "concern_label": "continue on lisinopril 20 mg daily",
+            "profile_path": "patient_goals[0]",
+            "explanation": "It's good that you're taking your lisinopril daily. We'll ensure you're on the right dose and schedule.",
+            "citations": []
+          },
+          {
+            "concern_label": "take all medications at the same time",
+            "profile_path": "patient_goals[1]",
+            "explanation": "Taking all medications at the same time can help you stay consistent and avoid missing doses.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll review your current treatments and discuss any adjustments that might be needed.",
+          "We'll schedule a follow-up visit to monitor your progress and address any concerns you have.",
+          "Please keep taking your medications as prescribed and let us know if you experience any side effects or changes in how you're feeling."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if you have any questions or concerns, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 2,
+        "n_medications": 1,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 2,
+        "problems": [
+          "depression",
+          "high blood pressure"
+        ],
+        "medications": [
+          "Lisinopril 20 mg daily"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 241711.51879429817,
+      "response_text": "Thank you for sharing your concerns about your depression and high blood pressure. I understand that these issues have been affecting your daily life, and I'm here to help address them.\n\nIt's important to continue with the therapy you're receiving, as collaborative care has shown to be effective in managing depression. Regular follow-ups and monitoring of your symptoms will help us adjust your treatment plan as needed.\n\nYour current blood pressure readings seem normal, but it's good to keep monitoring them daily. If we notice any changes, we may need to adjust your lisinopril dosage or consider additional management strategies.\n\nWe'll schedule a follow-up appointment in a few weeks to review your progress and adjust your treatment plan as needed.\n\nContinue taking your lisinopril as prescribed and monitor your blood pressure readings daily.\n\nIf you notice any changes in your symptoms or blood pressure readings, please reach out to us as soon as possible.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 4 weeks. In the meantime, if you have any concerns or your symptoms change, please call us so we can address them promptly.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns about your depression and high blood pressure. I understand that these issues have been affecting your daily life, and I'm here to help address them.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "depression",
+            "profile_path": "problems[0]",
+            "explanation": "It's important to continue with the therapy you're receiving, as collaborative care has shown to be effective in managing depression. Regular follow-ups and monitoring of your symptoms will help us adjust your treatment plan as needed.",
+            "citations": [
+              {
+                "cluster_id": "finding::problems[0]::34546354_0",
+                "primary_assertion_id": "34546354_0",
+                "pmids": [
+                  "34546354"
+                ]
+              },
+              {
+                "cluster_id": "finding::problems[0]::34546354_1",
+                "primary_assertion_id": "34546354_1",
+                "pmids": [
+                  "34546354"
+                ]
+              },
+              {
+                "cluster_id": "finding::problems[0]::34546354_2",
+                "primary_assertion_id": "34546354_2",
+                "pmids": [
+                  "34546354"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "high blood pressure",
+            "profile_path": "problems[1]",
+            "explanation": "Your current blood pressure readings seem normal, but it's good to keep monitoring them daily. If we notice any changes, we may need to adjust your lisinopril dosage or consider additional management strategies.",
+            "citations": [
+              {
+                "cluster_id": "finding::global::38604640_0",
+                "primary_assertion_id": "38604640_0",
+                "pmids": [
+                  "38604640"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll schedule a follow-up appointment in a few weeks to review your progress and adjust your treatment plan as needed.",
+          "Continue taking your lisinopril as prescribed and monitor your blood pressure readings daily.",
+          "If you notice any changes in your symptoms or blood pressure readings, please reach out to us as soon as possible."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 4 weeks. In the meantime, if you have any concerns or your symptoms change, please call us so we can address them promptly.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::problems[0]::34546354_0",
+          "finding::problems[0]::34546354_1",
+          "finding::problems[0]::34546354_2",
+          "finding::global::38604640_0"
+        ],
+        "all_pmids_used": [
+          "34546354",
+          "38604640"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 2,
+        "n_medications": 1,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "depression",
+          "high blood pressure"
+        ],
+        "medications": [
+          "lisinopril 20 mg daily"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [
+        "34546354",
+        "38604640"
+      ],
+      "cluster_ids_used": [
+        "finding::problems[0]::34546354_0",
+        "finding::problems[0]::34546354_1",
+        "finding::problems[0]::34546354_2",
+        "finding::global::38604640_0"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 148703.3406049013,
+        "module_2_retrieval": 1339.2695039510727,
+        "module_3_reasoning": 62166.92604124546,
+        "module_4_response": 29500.575728714466,
+        "total_ms": 241710.1118788123
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

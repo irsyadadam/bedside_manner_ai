@@ -1,0 +1,246 @@
+{
+  "transcript_id": "aci_aci_D2N200",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "yeah i've had blood high blood pressure for a long time my provider gave me chlorthalidone i do n't really take it because it gives me a sto",
+  "patient_utterances": [
+    "[Clinician asked: \"alright okay theresa so i understand that you're you're having a bit of some headache here and then your blood pressure has been running high can you tell me a little bit about what's happening\"] yeah i've had blood high blood pressure for a long time my provider gave me chlorthalidone i do n't really take it because it gives me a stomachache but yeah i get headaches right here on the top of my head they kinda come and go they're throbbing tylenol helps the headache",
+    "[Clinician asked: \"okay alright and then so how long have you had this headache has this been recent or like acute or you've been having this for since you've had your blood pressures\"] hmmm it's been on and off for about a month",
+    "[Clinician asked: \"a month okay alright and then are you having any other kind of symptoms with that like are you having any kind of you know dizziness lightheadedness any nausea vomiting\"] yeah sometimes i feel dizzy and my vision gets a little blurry",
+    "[Clinician asked: \"okay alright how about like chest pain or shortness of breath are you experiencing any of that when you have these headaches in your blood pressure\"] chest pain or shortness of breath",
+    "[Clinician asked: \"okay very good alright and then you said you were you've taken some tylenol for that and you said it did help a little bit or did n't sorry\"] it does help",
+    "[Clinician asked: \"it does help good very good so how often are you taking your your medication are you taking that as prescribed like daily it sounds like you missed a few times but for the most part are you taking it\"] yeah i forget a lot so i probably take it like every other day",
+    "[Clinician asked: \"okay every other day alright and then are you also now i know you also have some diabetes so are you how are you doing with that one are you pretty much taking your metformin everyday\"] hmmm i probably take it when i take my other medicine like every other day",
+    "[Clinician asked: \"every other day okay so i do see that you know the nurse took your your vital signs this morning that your blood pressure is running quite a bit high it was like one seventy two over ninety eight so that's that's really a little higher than where we want it to be especially that you're on your medic\"] no i love mcdonald's i eat it all the time",
+    "[Clinician asked: \"i love mcdonald's too my favorite is big mac i do n't know about you but i got ta have my big mac with those large fries which you what's your favorite mcdonald's treat there\"] i need to think of what fully of fish i love flare of fish",
+    "[Clinician asked: \"well at least you're eating the fish but but they can be very high in sodium especially the fast foods so we'll have to talk about maybe they can look at you know some some diet changes as well so the other thing is for your for your blood sugar here i see that you know you're running a bit high as \"] they are good i did eat a lot of my kids easter candy over the weekend so maybe that's why my sugar is high",
+    "[Clinician asked: \"okay alright great alright alright just just around easter okay not not too much during the the year hopefully\"] yeah i try",
+    "[Clinician asked: \"well that's good so let's go ahead and do a physical exam on you real quick here okay and so i'm looking at your vital signs it looks like your blood pressure i we mentioned that today is pretty high your heart rate looks good it's with it's within normal limits here and then your oxygenation is fin\"] no",
+    "[Clinician asked: \"okay so i can recommend some really good ones nowadays that you can use at home and they're not that expensive and at least it'll give you some you know idea of what your blood pressure is running at and then i want you to come back like in a month because i wan na go ahead and see how your blood pr\"] okay sounds good",
+    "[Clinician asked: \"great and then for your diabetes i wan na go ahead and let's go ahead and increase your your metformin to fifteen hundred milligrams i think all for that too i want you to go ahead and continue taking your blood sugars to make sure as as you normally would to make sure that you know that change in m\"] nope",
+    "[Clinician asked: \"okay great well i'm gon na have the nurse check you out and and i'll have the scheduler schedule you for a one month follow-up we'll take a look and see how you're doing from there see if we have then we will move from there okay\"] sounds good thank you"
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nHeadache and high blood pressure.\n\nREVIEW OF SYSTEMS\n\nRespiratory: Denies shortness of breath.\nCardiovascular: Denies chest pain.\nNeurological: Reports blurry vision, dizziness, and headaches.\n\nVITALS\n\nBlood pressure today was 172/98. Oxygenation is within normal limits.\n\nPHYSICAL EXAM\n\nNeck\n- General Examination: No jugular venous distention. No carotid bruits.\n\nRespiratory\n- Auscultation of Lungs: Clear bilaterally.\n\nCardiovascular\n- Auscultation of Heart: Regular rate. Slight 2/6 systolic ejection murmur, unchanged from last year.\n\nMusculoskeletal\n- Examination: Slight edema to bilateral upper extremities. 1+ pitting edema noted in the bilateral lower extremities.\n\nASSESSMENT AND PLAN\n\n1. Hypertension, uncontrolled.\n- Medical Reasoning: The patient's blood pressure is is elevated.\n- Patient Education and Counseling: We discussed that this could be multifactorial; for example, her diet, her medications regimen, or the medication she is currently on could be a factor in her elevated blood pressure. I encouraged the patient to take her current medication regimen today. I encouraged her to monitor her blood pressure 3 times a week. We also discussed the patient speaking to our nutritionist to help her diet. I recommended a DASH diet.\n- Medical Treatment: She will continue her current medication regimen.\n\n2. Type 2 diabetes.\n- Medical Reasoning: The patient's diabetes is uncontrolled.\n- Patient Education and Counseling: I advised the patient to continue taking her blood sugars to make sure that the change in medication is effective.\n- Medical Treatment: Increase metformin to 1500 mg.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.\n\nINSTRUCTIONS\n\nThe patient will follow up in 4 weeks.",
+  "gold_sections": {
+    "CC": "Headache and high blood pressure.",
+    "ROS": "Respiratory: Denies shortness of breath.\nCardiovascular: Denies chest pain.\nNeurological: Reports blurry vision, dizziness, and headaches.",
+    "VITALS": "Blood pressure today was 172/98. Oxygenation is within normal limits.",
+    "PHYSICAL_EXAM": "Neck\n- General Examination: No jugular venous distention. No carotid bruits.\n\nRespiratory\n- Auscultation of Lungs: Clear bilaterally.\n\nCardiovascular\n- Auscultation of Heart: Regular rate. Slight 2/6 systolic ejection murmur, unchanged from last year.\n\nMusculoskeletal\n- Examination: Slight edema to bilateral upper extremities. 1+ pitting edema noted in the bilateral lower extremities.",
+    "ASSESSMENT_PLAN": "1. Hypertension, uncontrolled.\n- Medical Reasoning: The patient's blood pressure is is elevated.\n- Patient Education and Counseling: We discussed that this could be multifactorial; for example, her diet, her medications regimen, or the medication she is currently on could be a factor in her elevated blood pressure. I encouraged the patient to take her current medication regimen today. I encouraged her to monitor her blood pressure 3 times a week. We also discussed the patient speaking to our nutritionist to help her diet. I recommended a DASH diet.\n- Medical Treatment: She will continue her current medication regimen.\n\n2. Type 2 diabetes.\n- Medical Reasoning: The patient's diabetes is uncontrolled.\n- Patient Education and Counseling: I advised the patient to continue taking her blood sugars to make sure that the change in medication is effective.\n- Medical Treatment: Increase metformin to 1500 mg.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.",
+    "INSTRUCTIONS": "The patient will follow up in 4 weeks."
+  },
+  "n_patient_turns": 15,
+  "n_clinician_turns": 16,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 18482.223756611347,
+      "response_text": "I understand that managing your health can be challenging, especially with the demands of daily life. It's completely understandable that you're experiencing difficulties with your medication and diet. Let's work together to find a solution that suits you better. If the stomachache is a concern, we can explore other medications that might be more comfortable. Additionally, making small changes to your diet, like reducing fast food and added sugars, can have a significant impact on both your blood pressure and blood sugar levels. I recommend getting a home blood pressure monitor to track your readings, which can help you see how lifestyle changes affect your health. Remember, your well-being is important, and we're here to support you every step of the way. Let's schedule a follow-up to review your progress and adjust your plan as needed. You're not alone in this journey, and together, we'll find a path that works for you.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 21605.572417378426,
+      "response_text": "Thank you for sharing all this with me, Theresa. It sounds like you're dealing with a lot, and I can see why you're feeling overwhelmed. Managing both high blood pressure and diabetes isn't easy, especially when medications aren't sitting well with you. The headaches and dizziness you're experiencing are valid concerns, and it's understandable that you want to feel better.\n\nGiven your symptoms and the high blood pressure readings, we should explore a few possibilities. The headaches could be related to your blood pressure, and the dizziness and blurred vision might indicate that we need to monitor for more serious issues like hypertension-related changes in your eyes or brain. I recommend getting a home blood pressure monitor to track your readings regularly, which can help us adjust your treatment plan more effectively [PMID ?]. \n\nWe'll adjust your metformin dosage to better manage your blood sugar, and I encourage you to continue monitoring your levels as you normally would. For the blood pressure, we'll increase the chlorthalidone dosage a bit, but let's also talk about a medication that might cause fewer stomach issues. In the meantime, avoiding high-sodium foods like fast food can help reduce your blood pressure.\n\nLet's plan to check in with you in four weeks to see how these changes are working. Before you leave, can you summarize what we've discussed so far? This will help ensure you're clear on the next steps.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 3440.4804334044456,
+      "response_text": "Thank you for sharing your concerns with me today.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns with me today.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "",
+        "follow_up_invitation": "",
+        "nurse_elements_applied": [],
+        "four_habits_elements_applied": [],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 175543.9715012908,
+      "response_text": "It sounds like you're dealing with some concerning symptoms like headaches and high blood pressure that are making life a bit tough. I want to make sure I understand what's going on and help you feel better.\n\nHigh blood pressure can cause symptoms like headaches and dizziness. It's important to monitor and manage it to prevent more serious health issues.\n\nHeadaches can be caused by high blood pressure and other factors. We'll work together to figure out what's causing them and how to treat them effectively.\n\nWe'll monitor your high blood pressure and headaches closely to understand their causes and how best to manage them.\n\nWe'll keep track of your symptoms and adjust your treatment plan as needed.\n\nI want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to check in again in a few weeks. If your symptoms get worse or you notice anything new, please reach out sooner.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're dealing with some concerning symptoms like headaches and high blood pressure that are making life a bit tough. I want to make sure I understand what's going on and help you feel better.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "high blood pressure",
+            "profile_path": "problems[0]",
+            "explanation": "High blood pressure can cause symptoms like headaches and dizziness. It's important to monitor and manage it to prevent more serious health issues.",
+            "citations": []
+          },
+          {
+            "concern_label": "headaches",
+            "profile_path": "problems[1]",
+            "explanation": "Headaches can be caused by high blood pressure and other factors. We'll work together to figure out what's causing them and how to treat them effectively.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll monitor your high blood pressure and headaches closely to understand their causes and how best to manage them.",
+          "We'll keep track of your symptoms and adjust your treatment plan as needed."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to check in again in a few weeks. If your symptoms get worse or you notice anything new, please reach out sooner.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 2,
+        "n_medications": 3,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "high blood pressure",
+          "headaches"
+        ],
+        "medications": [
+          "Chlorthalidone",
+          "Tylenol",
+          "Metformin"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 242111.9298413396,
+      "response_text": "It sounds like you're dealing with some concerning symptoms, like headaches and high blood pressure. I want to make sure I understand what you're experiencing so we can address it properly.\n\nHigh blood pressure is defined as a reading of 130/80 mm Hg or higher. It's important to confirm this diagnosis and monitor it closely. We'll make sure your blood pressure is accurately measured and discuss the best way to manage it.\n\nHeadaches can be related to high blood pressure. We'll check your blood pressure and see if there are any other factors contributing to your headaches.\n\nWe'll schedule a follow-up appointment to monitor your blood pressure and discuss any changes in your symptoms.\n\nIn the meantime, keep track of your symptoms and let us know if they get worse or if you experience any new symptoms.\n\nI want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next?\n\nLet's plan to see each other again in a few weeks. If your symptoms get worse or you have any new concerns, please call us so we can address them promptly.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're dealing with some concerning symptoms, like headaches and high blood pressure. I want to make sure I understand what you're experiencing so we can address it properly.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "high blood pressure",
+            "profile_path": "problems[0]",
+            "explanation": "High blood pressure is defined as a reading of 130/80 mm Hg or higher. It's important to confirm this diagnosis and monitor it closely. We'll make sure your blood pressure is accurately measured and discuss the best way to manage it.",
+            "citations": [
+              {
+                "cluster_id": "finding::problems[0]::40419299_1",
+                "primary_assertion_id": "40419299_1",
+                "pmids": [
+                  "40419299"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "headaches",
+            "profile_path": "problems[1]",
+            "explanation": "Headaches can be related to high blood pressure. We'll check your blood pressure and see if there are any other factors contributing to your headaches.",
+            "citations": [
+              {
+                "cluster_id": "finding::problems[0]::40419299_1",
+                "primary_assertion_id": "40419299_1",
+                "pmids": [
+                  "40419299"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll schedule a follow-up appointment to monitor your blood pressure and discuss any changes in your symptoms.",
+          "In the meantime, keep track of your symptoms and let us know if they get worse or if you experience any new symptoms."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. If your symptoms get worse or you have any new concerns, please call us so we can address them promptly.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::problems[0]::40419299_1"
+        ],
+        "all_pmids_used": [
+          "40419299"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 2,
+        "n_medications": 2,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "high blood pressure",
+          "headaches"
+        ],
+        "medications": [
+          "metformin (daily)",
+          "Chlorthalidone (presumably)"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [
+        "40419299"
+      ],
+      "cluster_ids_used": [
+        "finding::problems[0]::40419299_1"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 163201.8297314644,
+        "module_2_retrieval": 1321.7019140720367,
+        "module_3_reasoning": 56130.037024617195,
+        "module_4_response": 21457.27577805519,
+        "total_ms": 242110.8444482088
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

@@ -1,0 +1,286 @@
+{
+  "transcript_id": "aci_aci_D2N116",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "i'm doing good how are you",
+  "patient_utterances": [
+    "[Clinician asked: \"hey hi bobby how are you doing\"] i'm doing good how are you",
+    "[Clinician asked: \"i'm doing fine so i understand you're here having some left or some right shoulder pain that you've had for a few weeks now\"] yeah it was i was doing some work in my backyard and a lot of different projects going on and you know i was obviously sore all over the next couple of days but my my right shoulder just keeps on bothering me and it keeps it's just really sore and it just has n't been going away",
+    "[Clinician asked: \"okay so have you had ever had any pain in that shoulder before\"] a little bit i you know i i hurt that same shoulder because it's my my dominant hand my right hand i hurt it playing baseball when i was younger",
+    "[Clinician asked: \"mm-hmm\"] so i've always had a little bit issues but this is it's does n't feel like it's in the rotator cuff it's it's kinda more on the outside and it's kinda like it's more tender on the outside when i raise my arm up so",
+    "[Clinician asked: \"okay yeah are you able to move your arm very well or not\"] yeah there is no restriction with my arm it just i definitely feel some pain on the outside of it",
+    "[Clinician asked: \"okay and are you having pain all the time or just or does it come and go\"] just whenever i move it if i'm sitting still i really do n't notice anything but whenever i move it then i can definitely feel some pain",
+    "[Clinician asked: \"okay how about at night is it bothering you at night also\"] a little bit because i sleep on that side so",
+    "[Clinician asked: \"okay\"] of course",
+    "[Clinician asked: \"okay and i may miss did you say what have you been taking for pain for that\"] i just been taking some advil and then icing as much as i can so that's about it",
+    "[Clinician asked: \"okay and does that seem to help or\"] a little bit yeah a little bit i mean it's it's still like you know sore to touch but it definitely dulls it a little bit",
+    "[Clinician asked: \"well sounds like you have quite a few projects going on what all what all are you doing for for your yard and\"] i well let's see i've been putting an outdoor shower in we're extending our patio putting making some flower boxes putting down some you know for stone and all the flower beds so my wife's really put me to work i got a laundry lift",
+    "[Clinician asked: \"wow it sounds like a variety of projects but if you're putting down stone you're probably lifting those as well and then\"] yeah",
+    "[Clinician asked: \"yeah i bet that is sore now tell me this have you experienced any numbness in your arm or your hands or\"] no not really no numbness that i can think of",
+    "[Clinician asked: \"okay alright so see i'm gon na i'd like to do just a quick physical exam and i've reviewed your vitals those look good your no fever so that's good you're ninety seven . eight and your heart rate looks good at sixty two respirations sixteen your blood pressures one sixteen over eighty four that look\"] no that sounds good",
+    "[Clinician asked: \"okay alright yeah a lot of patients it's very successful with the physical therapy so i really hope that will do it and so we'll just start there okay\"] sounds great",
+    "[Clinician asked: \"okay thanks\"] thanks",
+    "[Clinician asked: \"did you have any other any other problems any other injuries that that went along with this or\"] my both my my feet are actually really sore too i obviously have been doing a lot of other yard work so you know it's kinda it's really stiff and stuff and they you know my ankle joints as well my wife seems to think that i do n't drink enough water so it could be something along that lines but i do n't know they're kinda this they just they're really sore and stuff so i've been trying to put them up and kinda put ice on them keep them elevated and it seems to be helping out a little bit but",
+    "[Clinician asked: \"yeah so if you do n't feel that you did anything to injure it we might start just maybe do some epsom salts have you tried soaking your feet in epsom salts that will tend to kinda pull out what's going on in there and just help your those muscles to relax and the soreness to to go away you might try\"] okay that sounds like a plan that sounds good"
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nRight shoulder pain.\n\nHISTORY OF PRESENT ILLNESS\n\nBobby Flores is a 56-year-old male, right-hand-dominant, male who presents to the clinic today for the evaluation of right shoulder pain.\n\nThe onset of his pain began a few weeks ago, when he was performing different projects in his backyard. He states that he was sore all over the next couple of days. He locates his pain to the lateral aspect of his right shoulder. His pain is aggravated with movement. The patient denies any restriction with his arm. He also reports pain at night when he sleeps on his right side. The patient denies any numbness in his arm or hands. He has been taking Advil and icing his shoulder, which provides some relief. The patient reports a history of right shoulder pain when he was younger while playing baseball.\n\nThe patient also has complaints of bilateral foot and ankle pain. He attributes this pain to the yard work he has been doing. For treatment, he has iced and elevated them, which provided some relief.\n\nREVIEW OF SYSTEMS\n\nMusculoskeletal: Positive for right shoulder pain.\nNeurological: Negative for numbness in hands.\n\nVITALS\n\nTemperature: 97.8 degrees F.\nHeart Rate: 62 BPM.\nRespirations:16.\nBlood pressure: 116/84 mm Hg.\nOxygen saturation: 99 percent on room air.\n\nPHYSICAL EXAM\n\nCV: >Capillary refill is less than 3 seconds.\nNEURO: Normal sensation. Neurovascularly intact on the right. Sensation to touch is intact on the right shoulder.\nMSK: Examination of the right shoulder: Limited active and passive ROM. Tenderness at the greater tuberosity of the humerus. No tenderness at the sternoclavicular or AC joints. Good hand grip.\n\nRESULTS\n\n3 views of the right shoulder were taken. These reveal no fracture or dislocation. No abnormalities noted.\n\nASSESSMENT\n\n1. Right shoulder rotator cuff tendinopathy.\n2. Bilateral foot pain.\n\nPLAN\n\nAfter reviewing the patient's examination and radiographic findings today, I have had a lengthy discussion with the patient in regards to his current symptoms. I have explained to him that his x-rays did not reveal any signs of a fracture. I have recommended that we obtain an MRI of the right shoulder to evaluate for a possible rotator cuff tear. I have also recommended that the patient attend formal physical therapy for 6 to 8 weeks. He can continue taking Tylenol as needed for pain. If his symptoms do not improve with physical therapy, I will recommend a cortisone injection.\n\nIn regards to his bilateral feet pain, I have recommended that we treat the patient conservatively. I am recommending the patient soak his feet in an Epsom salt soak as well as elevate as needed.",
+  "gold_sections": {
+    "CC": "Right shoulder pain.",
+    "HPI": "Bobby Flores is a 56-year-old male, right-hand-dominant, male who presents to the clinic today for the evaluation of right shoulder pain.\n\nThe onset of his pain began a few weeks ago, when he was performing different projects in his backyard. He states that he was sore all over the next couple of days. He locates his pain to the lateral aspect of his right shoulder. His pain is aggravated with movement. The patient denies any restriction with his arm. He also reports pain at night when he sleeps on his right side. The patient denies any numbness in his arm or hands. He has been taking Advil and icing his shoulder, which provides some relief. The patient reports a history of right shoulder pain when he was younger while playing baseball.\n\nThe patient also has complaints of bilateral foot and ankle pain. He attributes this pain to the yard work he has been doing. For treatment, he has iced and elevated them, which provided some relief.",
+    "ROS": "Musculoskeletal: Positive for right shoulder pain.\nNeurological: Negative for numbness in hands.",
+    "VITALS": "Temperature: 97.8 degrees F.\nHeart Rate: 62 BPM.\nRespirations:16.\nBlood pressure: 116/84 mm Hg.\nOxygen saturation: 99 percent on room air.",
+    "PHYSICAL_EXAM": "CV: >Capillary refill is less than 3 seconds.\nNEURO: Normal sensation. Neurovascularly intact on the right. Sensation to touch is intact on the right shoulder.\nMSK: Examination of the right shoulder: Limited active and passive ROM. Tenderness at the greater tuberosity of the humerus. No tenderness at the sternoclavicular or AC joints. Good hand grip.",
+    "RESULTS": "3 views of the right shoulder were taken. These reveal no fracture or dislocation. No abnormalities noted.",
+    "ASSESSMENT": "1. Right shoulder rotator cuff tendinopathy.\n2. Bilateral foot pain.",
+    "PLAN": "After reviewing the patient's examination and radiographic findings today, I have had a lengthy discussion with the patient in regards to his current symptoms. I have explained to him that his x-rays did not reveal any signs of a fracture. I have recommended that we obtain an MRI of the right shoulder to evaluate for a possible rotator cuff tear. I have also recommended that the patient attend formal physical therapy for 6 to 8 weeks. He can continue taking Tylenol as needed for pain. If his symptoms do not improve with physical therapy, I will recommend a cortisone injection.\n\nIn regards to his bilateral feet pain, I have recommended that we treat the patient conservatively. I am recommending the patient soak his feet in an Epsom salt soak as well as elevate as needed."
+  },
+  "n_patient_turns": 18,
+  "n_clinician_turns": 18,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 16864.45554345846,
+      "response_text": "I understand how frustrating it must be to deal with this shoulder pain, especially when you're trying to keep up with all those yard projects. It sounds like you've been doing your best to manage it with Advil and ice, and I'm glad that's helping a little. Given your history of shoulder issues from baseball and the current tenderness, we'll focus on physical therapy to strengthen and improve the mobility in your shoulder. This should help reduce the pain over time.\n\nFor your feet and ankles, the soreness is likely due to all the hard work you've been putting in. Continuing with rest, ice, and maybe some stretching or Epsom salt soaks could provide additional relief. If the pain persists or gets worse, let me know so we can explore other options. In the meantime, take it easy and give yourself some breaks to avoid further strain. I'm here if you need anything else.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 22552.58234590292,
+      "response_text": "Thank you for sharing all of that with me, Bobby. It sounds like you've been through a lot with all those backyard projects, and I can see how frustrating it must be to have the shoulder pain persist despite your efforts. I understand why you're concerned\u2014it\u2019s been a few weeks, and the soreness hasn\u2019t gone away, which can be really bothersome.\n\nGiven the work you\u2019ve been doing, like lifting stones and working on the patio, it\u2019s likely that your shoulder is experiencing some muscle strain or possibly tendinitis. I\u2019ll check for signs of inflammation and range of motion issues during the exam. For the feet and ankles, the soreness could be from overuse or even dehydration, as your wife mentioned. We can explore that too.\n\nWe\u2019ll start with physical therapy to help strengthen the shoulder and improve mobility. Continuing with Advil and icing should help manage the pain. For your feet, trying Epsom salts might relieve the soreness. Before you leave, could you summarize our plan so I can ensure everything is clear? We\u2019ll follow up in a week or two to see how things are progressing.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 10688.648656010628,
+      "response_text": "It sounds like you're dealing with some discomfort from all the yard work you've been doing. I understand that you're experiencing pain in your right shoulder and feet, which has been affecting your daily activities.\n\nWe'll start with some physical therapy exercises to help alleviate the shoulder pain and recommend continuing with the ice and Advil as you've been doing. If the pain persists or worsens, we can explore further treatment options together.\n\nFor your feet, we suggest continuing to rest, elevate them, and try epsom salt soaks to help with the soreness. If the discomfort doesn't improve, we can discuss additional remedies.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to check in again in a week to see how the exercises and treatments are working. If you experience any severe pain or if the pain doesn't improve, please call us so we can address it promptly.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're dealing with some discomfort from all the yard work you've been doing. I understand that you're experiencing pain in your right shoulder and feet, which has been affecting your daily activities.",
+        "clinical_information_per_concern": [],
+        "next_steps": [
+          "We'll start with some physical therapy exercises to help alleviate the shoulder pain and recommend continuing with the ice and Advil as you've been doing. If the pain persists or worsens, we can explore further treatment options together.",
+          "For your feet, we suggest continuing to rest, elevate them, and try epsom salt soaks to help with the soreness. If the discomfort doesn't improve, we can discuss additional remedies."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to check in again in a week to see how the exercises and treatments are working. If you experience any severe pain or if the pain doesn't improve, please call us so we can address it promptly.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 178386.55773550272,
+      "response_text": "Thank you for sharing your concerns about your shoulder pain and feet soreness. I understand how these symptoms can affect your daily activities.\n\nThe pain in your right shoulder, especially when moving your arm, could be related to a past injury. We should consider how your history of shoulder injuries from baseball might be contributing to this.\n\nThe soreness in your feet and stiffness could be linked to the yard work you've been doing. It's important to address this to ensure it doesn't lead to more serious issues.\n\nWe'll schedule an evaluation to look into your shoulder pain and review your past injuries to better understand their impact.\n\nWe'll also assess your feet soreness to see if it's related to the yard work and recommend appropriate care.\n\nPlease keep track of any changes in your symptoms and let us know if anything worsens.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to follow up in two weeks. If your symptoms get worse or if you experience severe pain, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns about your shoulder pain and feet soreness. I understand how these symptoms can affect your daily activities.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "right shoulder pain",
+            "profile_path": "problems[0]",
+            "explanation": "The pain in your right shoulder, especially when moving your arm, could be related to a past injury. We should consider how your history of shoulder injuries from baseball might be contributing to this.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::31846019",
+                "primary_assertion_id": "31846019_retr",
+                "pmids": [
+                  "31846019"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "feet soreness",
+            "profile_path": "problems[1]",
+            "explanation": "The soreness in your feet and stiffness could be linked to the yard work you've been doing. It's important to address this to ensure it doesn't lead to more serious issues.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::34766330",
+                "primary_assertion_id": "34766330_retr",
+                "pmids": [
+                  "34766330"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll schedule an evaluation to look into your shoulder pain and review your past injuries to better understand their impact.",
+          "We'll also assess your feet soreness to see if it's related to the yard work and recommend appropriate care.",
+          "Please keep track of any changes in your symptoms and let us know if anything worsens."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to follow up in two weeks. If your symptoms get worse or if you experience severe pain, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "retrieval_only::31846019",
+          "retrieval_only::34766330"
+        ],
+        "all_pmids_used": [
+          "31846019",
+          "34766330"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 2,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "right shoulder pain",
+          "feet soreness"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "31846019",
+        "34766330"
+      ],
+      "cluster_ids_used": [
+        "retrieval_only::31846019",
+        "retrieval_only::34766330"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 168194.7928443551,
+      "response_text": "Thank you for sharing your concerns about the pain in your right shoulder and your foot and ankle. I understand how these symptoms must be affecting your daily activities, especially with all the yard work you've been doing.\n\nThe pain in your shoulder, especially considering your history of a shoulder injury from baseball, suggests we should explore how the recent yard work might have aggravated it. We'll want to monitor how the pain responds to the interventions you've already tried, like Advil and icing.\n\nThe foot and ankle pain that started around the same time as the shoulder pain could be related to the physical activity from the yard work. We'll keep an eye on how this progresses and whether it requires further evaluation.\n\nWe'll monitor the progress of both the shoulder and ankle pain over the next few weeks. If the pain doesn't improve with the current interventions, we may consider additional steps, such as physical therapy or further evaluation.\n\nPlease keep track of how the pain responds to the treatments you're using and let us know if there are any changes or if the pain becomes worse.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to check in again in 2 weeks. If you notice any significant changes in your symptoms or if they get worse, please reach out sooner.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns about the pain in your right shoulder and your foot and ankle. I understand how these symptoms must be affecting your daily activities, especially with all the yard work you've been doing.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "right shoulder pain",
+            "profile_path": "problems[0]",
+            "explanation": "The pain in your shoulder, especially considering your history of a shoulder injury from baseball, suggests we should explore how the recent yard work might have aggravated it. We'll want to monitor how the pain responds to the interventions you've already tried, like Advil and icing.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[2]::41092546_0",
+                "primary_assertion_id": "41092546_0",
+                "pmids": [
+                  "41092546"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "foot and ankle pain",
+            "profile_path": "problems[1]",
+            "explanation": "The foot and ankle pain that started around the same time as the shoulder pain could be related to the physical activity from the yard work. We'll keep an eye on how this progresses and whether it requires further evaluation.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[2]::41092546_0",
+                "primary_assertion_id": "41092546_0",
+                "pmids": [
+                  "41092546"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll monitor the progress of both the shoulder and ankle pain over the next few weeks. If the pain doesn't improve with the current interventions, we may consider additional steps, such as physical therapy or further evaluation.",
+          "Please keep track of how the pain responds to the treatments you're using and let us know if there are any changes or if the pain becomes worse."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to check in again in 2 weeks. If you notice any significant changes in your symptoms or if they get worse, please reach out sooner.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[2]::41092546_0"
+        ],
+        "all_pmids_used": [
+          "41092546"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 2,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "right shoulder pain",
+          "foot and ankle pain"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "41092546"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[2]::41092546_0"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 133215.56106954813,
+        "module_2_retrieval": 1121.162436902523,
+        "module_3_reasoning": 11789.618417620659,
+        "module_4_response": 22067.66477227211,
+        "total_ms": 168194.00669634342
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

@@ -1,0 +1,293 @@
+{
+  "transcript_id": "aci_virtscribe_D2N098",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "i'm okay . thank you .",
+  "patient_utterances": [
+    "[Clinician asked: \"hi mr . james , i'm doctor isabella . how are you doing ?\"] i'm okay . thank you .",
+    "[Clinician asked: \"that's good . that's good . tell me what's brings you in today .\"] sure . so i've been having constant pain in my left shoulder and left elbow for a while , about five months or so . hurts all the time . pretty bad at times .",
+    "[Clinician asked: \"mm . that does not sound like fun . it sounds like you injured it going up the stairs ?\"] yes , that's correct . it was icy , and i have to walk up a flight of stairs to my house . i stepped and my feet just went out . fell on my left side . seems like my shoulder and wrist took the brunt . it's been hurting since .",
+    "[Clinician asked: \"yeah , that does seem like a likely cause of your symptoms . anything seem to make the pain worse ?\"] well , i've always hit the gym and lifted weights . i've been trying to keep with my routine of two days a week , but it's been hard . the pain is worse when i lift , and i have n't been able to lift more than 15 or 20 pounds which is very frustrating .",
+    "[Clinician asked: \"mm-hmm . i can imagine it is when you're so accustomed to your routine .\"] exactly . i really enjoy my exercise , but over the past one to two weeks , i've stopped hitting the gym because the pain just was n't worth it honestly . i do keep up with my walking , though . my wife and i walk about 30 minutes almost every day . we have done this since i retired from my office job last year .",
+    "[Clinician asked: \"i do not blame you , mr . james . does anything seem to help the pain that you've tried ?\"] not too much . i have iced a bit , but i have not taken anything for the pain . stopping exercise and some ice has helped a bit , but it still hurts enough for me to come to see you .",
+    "[Clinician asked: \"yeah , okay . how about any numbness or tingling ? have you felt that at any point ?\"] no , doc . just pain . no tingling or numbless , numbness , thankfully .",
+    "[Clinician asked: \"understood . understood . all right . well , let's go ahead and take a look and see what's going on .\"] sounds good . thank you .",
+    "[Clinician asked: \"okay . use my general physical exam template . mr . james , i'm going to gently press around your shoulder and elbow here to see where your pain might be stemming from . just let me know when it hurts .\"] okay . it hurts when you press there on my elbow and here on my shoulder .",
+    "[Clinician asked: \"okay . left shoulder and elbow , tender sa space , no warmth , erythema or deformity . positive hawkins-kennedy and neer's test . normal proximal and distar , distal upper extremity strength . intact median radial ulnar sensation and abduction to 90 degrees . normal empty tan , can test . okay , mr \"] so what are the possible treatments ?",
+    "[Clinician asked: \"well , we have a few options you can try . first option would be to start with physical therapy . i would recommend two sessions per week as well as any other exercises they give you to do at home . we can start there and if that does n't improve your pain , then we could try a cortisone injection .\"] i like the idea of starting with the physical therapy and have a next step if it does n't help . i am not opposed to a shot but would like to try the therapy first .",
+    "[Clinician asked: \"all right . great . i'll get a referral order , and they will call you within the next day or two to get you scheduled .\"] okay .",
+    "[Clinician asked: \"mm-hmm . also , please continue to ice , especially your shoulder , and rest as much as you can .\"] okay . i will .",
+    "[Clinician asked: \"give us a call or email us if you have symptoms worsen , if your symptoms worsen or do not improve with the therapy .\"] will do . thank you . i appreciate your help .",
+    "[Clinician asked: \"you're welcome . have a great day .\"] you too ."
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nLeft shoulder and elbow pain.\n\nHISTORY OF PRESENT ILLNESS\n\nMr. Jose James is a 64-year-old male who presents for left shoulder and elbow pain.\n\nThe patient reports falling on his hand while going up stairs 5 months ago and has been experiencing constant pain since. He admits he was continuing to complete strength training exercises at least 2 times per week, however, he was unable to lift more than 15-20 pounds due to the pain.\n\nDuring the past 1-2 weeks, Mr. James has discontinued strength training activities. Additionally, he has iced the inflicted areas, denies taking any pain medications, and reports his pain has slightly improved but it is still rather constant. He denies tingling and numbness.\n\nThe patient walks 30-minutes most days of the week.\n\nSOCIAL HISTORY\n\nRetired last year, was an office worker.\n\nPHYSICAL EXAM\n\nMusculoskeletal\nLeft shoulder and elbow, tender subacromial space. No warmth, erythema, or deformity. Positive Hawkins-Kennedy and Neer\u2019s test. Normal proximal and distal upper extremity strength. Intact median, radial, ulnar sensation. Abduction to 90 degrees. Normal empty can test.\n\nASSESSMENT\n\n\u2022 Impingement syndrome of left shoulder\n\nJose is a 64-year-old male who was seen today for impingement syndrome of his left shoulder, likely related to a fall he incurred 5 months ago.\n\nPLAN\n\nToday I discussed conservative options for left shoulder impingement with the patient, who opted to try physical therapy 2 session per week. Cortisone injection was discussed as an option if the physical therapy does not successfully reduce his pain. Additionally, I recommended continued ice and rest.\n\nINSTRUCTIONS\n\nemail, or call if symptoms worsen or do not resolve.",
+  "gold_sections": {
+    "CC": "Left shoulder and elbow pain.",
+    "HPI": "Mr. Jose James is a 64-year-old male who presents for left shoulder and elbow pain.\n\nThe patient reports falling on his hand while going up stairs 5 months ago and has been experiencing constant pain since. He admits he was continuing to complete strength training exercises at least 2 times per week, however, he was unable to lift more than 15-20 pounds due to the pain.\n\nDuring the past 1-2 weeks, Mr. James has discontinued strength training activities. Additionally, he has iced the inflicted areas, denies taking any pain medications, and reports his pain has slightly improved but it is still rather constant. He denies tingling and numbness.\n\nThe patient walks 30-minutes most days of the week.",
+    "SOCIAL_HISTORY": "Retired last year, was an office worker.",
+    "PHYSICAL_EXAM": "Musculoskeletal\nLeft shoulder and elbow, tender subacromial space. No warmth, erythema, or deformity. Positive Hawkins-Kennedy and Neer\u2019s test. Normal proximal and distal upper extremity strength. Intact median, radial, ulnar sensation. Abduction to 90 degrees. Normal empty can test.",
+    "ASSESSMENT": "\u2022 Impingement syndrome of left shoulder\n\nJose is a 64-year-old male who was seen today for impingement syndrome of his left shoulder, likely related to a fall he incurred 5 months ago.",
+    "PLAN": "Today I discussed conservative options for left shoulder impingement with the patient, who opted to try physical therapy 2 session per week. Cortisone injection was discussed as an option if the physical therapy does not successfully reduce his pain. Additionally, I recommended continued ice and rest.",
+    "INSTRUCTIONS": "email, or call if symptoms worsen or do not resolve."
+  },
+  "n_patient_turns": 15,
+  "n_clinician_turns": 17,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 17947.428733110428,
+      "response_text": "I understand how frustrating this must be for you, especially since your regular exercise routine has been disrupted. The pain from your fall has been persistent, and I can see how it\u2019s affecting your daily life. Starting with physical therapy twice a week, along with any home exercises they provide, is a good first step. This approach can help strengthen your muscles and improve mobility without the need for injections right away. If the physical therapy doesn\u2019t provide relief, we can explore other options like a cortisone injection.\n\nIn the meantime, please continue icing your shoulder and resting as much as possible. It\u2019s great that you\u2019re still walking with your wife; staying active is beneficial, but do avoid heavy lifting for now. If your symptoms worsen or don\u2019t improve with therapy, don\u2019t hesitate to reach out. We\u2019re here to support you through this. Wishing you a good day and hoping you feel better soon.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 26222.926661372185,
+      "response_text": "Thank you for sharing your concerns with me, Mr. James. It's clear how frustrating this persistent pain must be, especially when it's affecting your ability to maintain your usual gym routine and daily activities. I can understand how challenging it is to deal with this for five months, and I appreciate your persistence in seeking help.\n\nFrom what you've described and the physical exam findings, it seems like the pain in your shoulder and elbow could be related to a shoulder impingement or possibly a rotator cuff issue. The positive Hawkins-Kennedy and Neer's tests support this possibility [PMID ?]. Given that you're still managing to walk daily, which is great, we want to explore the best way to address this pain so you can get back to your regular activities.\n\nStarting with physical therapy makes sense because it can help strengthen the muscles around your shoulder and improve your range of motion, which often alleviates the pain over time [PMID ?]. If the physical therapy doesn't provide enough relief, we can consider a cortisone injection, which can reduce inflammation and help manage the pain more effectively [PMID ?].\n\nWe'll schedule you for physical therapy twice a week, and they'll give you some exercises to do at home. In the meantime, continue icing your shoulder as needed. Please don't hesitate to reach out if your symptoms worsen or if the therapy isn't helping. We'll check in with you in about four weeks to see how things are progressing.\n\nBefore you leave, could you summarize what we've discussed today? That way, I can ensure I've explained everything clearly and you feel confident about the plan.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7549.220398068428,
+      "response_text": "It sounds like the pain in your left shoulder and elbow has been really affecting your daily life, especially your gym routine and walking.\n\nWe'll start with physical therapy sessions twice a week, along with any home exercises they provide. If the pain doesn't improve, we can consider a cortisone injection.\n\nCan you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to follow up in a few weeks after starting the physical therapy. If the pain gets worse or doesn't improve, please give us a call.",
+      "structured_response": {
+        "acknowledgment": "It sounds like the pain in your left shoulder and elbow has been really affecting your daily life, especially your gym routine and walking.",
+        "clinical_information_per_concern": [],
+        "next_steps": [
+          "We'll start with physical therapy sessions twice a week, along with any home exercises they provide. If the pain doesn't improve, we can consider a cortisone injection."
+        ],
+        "teach_back_prompt": "Can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to follow up in a few weeks after starting the physical therapy. If the pain gets worse or doesn't improve, please give us a call.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 146948.80712032318,
+      "response_text": "Thank you for sharing your concerns about the pain in your left shoulder and elbow. It sounds like this has been going on for a while and is impacting your daily life.\n\nThe pain you're experiencing could be related to several factors, including overuse or an underlying condition. Since you've already tried icing, rest, and physical therapy, we'll consider additional steps to better understand the cause.\n\nMaintaining regular exercise is important for overall health, but we'll need to adjust your routine to accommodate your current pain levels and treatment plan.\n\nFollowing your preference, we'll focus on physical therapy as the next step before moving on to cortisone injections, unless the situation changes.\n\nWe'll schedule a follow-up appointment to discuss the results of the imaging and any additional treatment options.\n\nIn the meantime, continue with your physical therapy exercises as recommended.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 4 weeks. In the meantime, if the pain worsens or you experience any new symptoms, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns about the pain in your left shoulder and elbow. It sounds like this has been going on for a while and is impacting your daily life.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "constant pain in left shoulder and elbow",
+            "profile_path": "problems[0]",
+            "explanation": "The pain you're experiencing could be related to several factors, including overuse or an underlying condition. Since you've already tried icing, rest, and physical therapy, we'll consider additional steps to better understand the cause.",
+            "citations": []
+          },
+          {
+            "concern_label": "continue exercising",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Maintaining regular exercise is important for overall health, but we'll need to adjust your routine to accommodate your current pain levels and treatment plan.",
+            "citations": []
+          },
+          {
+            "concern_label": "try physical therapy first before considering a cortisone injection",
+            "profile_path": "patient_goals[1]",
+            "explanation": "Following your preference, we'll focus on physical therapy as the next step before moving on to cortisone injections, unless the situation changes.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll schedule a follow-up appointment to discuss the results of the imaging and any additional treatment options.",
+          "In the meantime, continue with your physical therapy exercises as recommended."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 4 weeks. In the meantime, if the pain worsens or you experience any new symptoms, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 2,
+        "problems": [
+          "constant pain in left shoulder and elbow"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 203972.43031859398,
+      "response_text": "Thank you for sharing your concerns about your shoulder and elbow pain. It sounds like this has been going on for a while and is affecting your daily activities.\n\nThe persistent pain in your shoulder and elbow, especially when pressed, suggests we should explore possible causes like muscle strain, inflammation, or other issues. We'll start with a physical exam and imaging if needed to get a clearer picture.\n\nIt's great that you want to continue exercising. We'll work with you to ensure your exercises are safe and effective given your current condition.\n\nPhysical therapy can be very helpful for managing pain and improving mobility. We'll connect you with a therapist who specializes in musculoskeletal issues.\n\nIf physical therapy doesn't provide relief, we can explore options like cortisone injections to help manage the pain more effectively.\n\nWe'll schedule a physical exam to assess your shoulder and elbow pain in detail.\n\nBased on the exam, we may recommend imaging or refer you to a physical therapist.\n\nWe'll keep you updated on the next steps and ensure your exercise routine remains safe.\n\nCan you tell me, in your own words, what we're going to do next and how it will help your situation?\n\nLet's plan to check in again in two weeks. If your pain worsens or you experience any new symptoms, please reach out sooner.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns about your shoulder and elbow pain. It sounds like this has been going on for a while and is affecting your daily activities.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "constant pain in left shoulder and elbow",
+            "profile_path": "problems[0]",
+            "explanation": "The persistent pain in your shoulder and elbow, especially when pressed, suggests we should explore possible causes like muscle strain, inflammation, or other issues. We'll start with a physical exam and imaging if needed to get a clearer picture.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[4]::40155879_0",
+                "primary_assertion_id": "40155879_0",
+                "pmids": [
+                  "40155879"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "continue exercising",
+            "profile_path": "patient_goals[0]",
+            "explanation": "It's great that you want to continue exercising. We'll work with you to ensure your exercises are safe and effective given your current condition.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::patient_goals::33658141_0",
+                "primary_assertion_id": "33658141_0",
+                "pmids": [
+                  "33658141"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "try physical therapy",
+            "profile_path": "patient_goals[1]",
+            "explanation": "Physical therapy can be very helpful for managing pain and improving mobility. We'll connect you with a therapist who specializes in musculoskeletal issues.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::patient_goals::33658141_1",
+                "primary_assertion_id": "33658141_1",
+                "pmids": [
+                  "33658141"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "consider cortisone injection if therapy doesn't help",
+            "profile_path": "patient_goals[2]",
+            "explanation": "If physical therapy doesn't provide relief, we can explore options like cortisone injections to help manage the pain more effectively.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::patient_goals::33658141_0",
+                "primary_assertion_id": "33658141_0",
+                "pmids": [
+                  "33658141"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll schedule a physical exam to assess your shoulder and elbow pain in detail.",
+          "Based on the exam, we may recommend imaging or refer you to a physical therapist.",
+          "We'll keep you updated on the next steps and ensure your exercise routine remains safe."
+        ],
+        "teach_back_prompt": "Can you tell me, in your own words, what we're going to do next and how it will help your situation?",
+        "follow_up_invitation": "Let's plan to check in again in two weeks. If your pain worsens or you experience any new symptoms, please reach out sooner.",
+        "nurse_elements_applied": [
+          "Support",
+          "Respect"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[4]::40155879_0",
+          "recommendation::patient_goals::33658141_0",
+          "recommendation::patient_goals::33658141_1"
+        ],
+        "all_pmids_used": [
+          "40155879",
+          "33658141"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 3,
+        "problems": [
+          "constant pain in left shoulder and elbow"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "40155879",
+        "33658141"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[4]::40155879_0",
+        "recommendation::patient_goals::33658141_0",
+        "recommendation::patient_goals::33658141_1"
+      ],
+      "nurse_elements_applied": [
+        "Support",
+        "Respect"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 123795.10298371315,
+        "module_2_retrieval": 1471.0963442921638,
+        "module_3_reasoning": 47256.874084472656,
+        "module_4_response": 31448.09041917324,
+        "total_ms": 203971.1638316512
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

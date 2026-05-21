@@ -1,0 +1,278 @@
+{
+  "transcript_id": "aci_virtassist_D2N089",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "i'm doing well . how are you ?",
+  "patient_utterances": [
+    "[Clinician asked: \"hi andrea , how are you ?\"] i'm doing well . how are you ?",
+    "[Clinician asked: \"doing well . uh , so i know the nurse told you about dax . i'd like to tell dax a little bit about you . okay ?\"] okay .",
+    "[Clinician asked: \"so , andrea is a 52-year-old female with a past medical history significant for rheumatoid arthritis , atrial fibrillation , and reflux who presents today for her annual exam . so andrea , it's been a year since i saw you . how are you doing ?\"] i'm doing well . so , i've been walking like you told me to and , um , exercising and doing yoga , and that's actually helped with my arthritis a lot , just the- the constant movement . so , i have n't had any joint pain recently .",
+    "[Clinician asked: \"okay . good . so , no- no issues with any stiffness or pain or flare ups over the last year ?\"] no .",
+    "[Clinician asked: \"okay . and i know that we have you on the methotrexate , are you still taking that once a week ?\"] yes , i am .",
+    "[Clinician asked: \"okay . and any issues with that ?\"] no .",
+    "[Clinician asked: \"no . okay . and then in terms of your a-fib , how are you doing with that ? are you having any palpitations ? or , i know that you've kind of been in and out of it over the past , you know , year or so .\"] yeah . i've still been having palpitations . the- the last one i had was about a week ago . i've noticed that when i start to get stressed , um , they start to flare up again . so , i've been trying meditation , trying running with my dog to try and relieve the stress but it has n't really been working .",
+    "[Clinician asked: \"yeah . i- i know that you had called , um , last month and we- we did that event monitor for you , uh , which we'll take a look at in a few minutes . okay ?\"] okay .",
+    "[Clinician asked: \"um , how about um , your reflux ? you know , we had placed you on the protonix , uh , has that helped ? and i know that you were gon na do some dietary modifications .\"] yeah . i cut out soda and that- that's helped- seemed to help , and the medication's been helping too . i have n't had a flare up in over , i think , five months .",
+    "[Clinician asked: \"okay . all right . um , so , you know , i know that you did the review of systems sheet when you checked in and , you know , you had- you know , you endorsed the palpitations and you had some nasal congestion . any other symptoms ? you know , chest pain , shortness of breath , nausea or vomiting ?\"] no , nothing like that . just the nasal- nasal congestion because of my allergies .",
+    "[Clinician asked: \"okay . all right . okay . well , i'd like to go ahead and do a quick physical exam , okay ?\"] okay .",
+    "[Clinician asked: \"all right . hey dragon , show me the vital signs . okay . so , you're in- here in the office today , it looks like , you know , your heart rate's really good today . it's- it's nice and controlled so that's good . um , i'm just gon na take a look into your heart and lungs and- and i'll let you know \"] okay .",
+    "[Clinician asked: \"okay . so , on physical examination , um , you know , everything looks really good . on your heart examination , i do appreciate a slight 2/6 systolic- systolic ejection murmur , um , which we've heard in the past so i'm not worried at that . you're in the- a nice regular rate and rhythm at this tim\"] yeah , it does a bit .",
+    "[Clinician asked: \"okay . so , she has pain to palpation of the right elbow . um , and you have no lower extremity edema , okay ? um , so i wan na go ahead and just take a look at some of your results . okay ?\"] okay .",
+    "[Clinician asked: \"hey dragon , show me the event- event monitor results . okay . so , you know , this is the results of your event monitor which shows that , you know , you're in and out of a-fib , you have what we call a conversion pause . you know , you're in a-fib , you pause , and then you go back to regular rhyt\"] okay .",
+    "[Clinician asked: \"hey dragon , show me the autoimmune panel . so , looking here at your autoimmune panel , everything looks good , it looks like you're- you know , everything is well controlled with your rheumatoid arthritis on the methotrexate . okay ? so , let me just go over a little bit about my assessment and my\"] okay .",
+    "[Clinician asked: \"so for your first problem , your rheumatoid arthritis , again , everything looks good . i wan na just continue you on the methotrexate 2.5 mg , once weekly . um , and uh , if you need a referral back to see the rheumatologist , let me know , but i think everything seems stable now . do you need a re\"] yes , i do .",
+    "[Clinician asked: \"okay . hey dragon , order methotrexate , 2.5 mg once weekly . for your second problem , the atrial fibrillation . so , you're going in and out of a-fib and i'd like to just keep you in normal sinus rhythm . so , i wan na go ahead and refer you to cardiology for a cardiac ablation which just maps out\"] okay .",
+    "[Clinician asked: \"hey dragon , order a referral to cardiology . and for your last problem , the reflux , you know , i wanna- i want you to just continue on the protonix , 40 mg a day . continue with your dietary modifications , you know , avoiding coffee and spicy foods , that type of thing . okay ? and then let me k\"] will do .",
+    "[Clinician asked: \"any questions ?\"] no , i do n't .",
+    "[Clinician asked: \"okay . all right . it was good to see you .\"] good seeing you ."
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nAnnual exam.\n\nHISTORY OF PRESENT ILLNESS\n\nAndrea Roberts is a 52-year-old female with a past medical history significant for rheumatoid arthritis, atrial fibrillation, and reflux, who presents today for her annual exam. It has been a year since she was last seen.\n\nThe patient states she is doing well. She has been walking, exercising, and doing yoga, which has helped with her arthritis. She denies issues with stiffness, pain, or flare ups over the last year. The patient has continued utilizing methotrexate 2.5 mg once a week and denies issues with that.\n\nIn terms of her atrial fibrillation, she endorses continued palpitations. The last episode she had was about 1 week ago. She has noticed that when she starts to get stressed they start to flare up again. She has tried meditation and running with her dog for stress relief, however these have not been helpful. The patient had called last month and had an event monitor done.\n\nRegarding her GERD, she has continued to utilize Protonix 40 mg a day. The patient has cut out soda, which seemed to help. She has not had a flare up in over 5 months.\n\nThe patient endorses nasal congestion because of her allergies. She denies chest pain, shortness of breath, nausea, and vomitting.\n\nREVIEW OF SYSTEMS\n\n\u2022 Ears, Nose, Mouth and Throat: Endorses nasal congestion from allergies.\n\u2022 Cardiovascular: Denies chest pain or dyspnea. Endorses palpitations.\n\u2022 Respiratory: Denies shortness of breath.\n\u2022 Musculoskeletal: Denies joint pain.\n\nPHYSICAL EXAMINATION\n\n\u2022 Respiratory: Lungs are clear to auscultation bilaterally. No wheezes, rales, or rhonchi.\n\u2022 Cardiovascular: Regular rate and rhythm. Slight 2/6 systolic ejection murmur.\n\u2022 Musculoskeletal: No lower extremity edema. Edema and erythema of the right elbow. Pain to palpation of the right elbow.\n\nRESULTS\n\nEvent monitor: Positive for conversion pause.\n\nAutoimmune panel: Normal. Well controlled rheumatoid arthritis.\n\nASSESSMENT AND PLAN\n\nAndrea Roberts is a 52-year-old female with a past medical history significant for rheumatoid arthritis, atrial fibrillation, and reflux, who presents today for her annual exam. It has been a year since she was last seen.\n\nRheumatoid arthritis.\n\u2022 Medical Reasoning: The patient has remained active and has been compliant with methotrexate once weekly. Her recent autoimmune panel was normal.\n\u2022 Medical Treatment: She will continue on methotrexate 2.5 mg once weekly. This was refilled today.\n\u2022 Specialist Referrals: If she needs a referral back to the rheumatologist, she will let me know.\n\nAtrial fibrillation.\n\u2022 Medical Reasoning: She continues to experience episodes of palpitations. Her most recent episode was about 1 week ago. She is in normal sinus rhythm today, but her recent cardiac event monitor demonstrated a conversion pause.\n\u2022 Specialist Referrals: We will refer her to cardiology for a cardiac ablation.\n\nGERD.\n\u2022 Medical Reasoning: She has been compliant with dietary modifications and denies any episodes in approximately 5 months.\n\u2022 Medical Treatment: Continue on Protonix 40 mg daily.\n\u2022 Patient Education and Counseling: She could continue with dietary modifications and avoid known dietary triggers.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.",
+  "gold_sections": {
+    "CC": "Annual exam.",
+    "HPI": "Andrea Roberts is a 52-year-old female with a past medical history significant for rheumatoid arthritis, atrial fibrillation, and reflux, who presents today for her annual exam. It has been a year since she was last seen.\n\nThe patient states she is doing well. She has been walking, exercising, and doing yoga, which has helped with her arthritis. She denies issues with stiffness, pain, or flare ups over the last year. The patient has continued utilizing methotrexate 2.5 mg once a week and denies issues with that.\n\nIn terms of her atrial fibrillation, she endorses continued palpitations. The last episode she had was about 1 week ago. She has noticed that when she starts to get stressed they start to flare up again. She has tried meditation and running with her dog for stress relief, however these have not been helpful. The patient had called last month and had an event monitor done.\n\nRegarding her GERD, she has continued to utilize Protonix 40 mg a day. The patient has cut out soda, which seemed to help. She has not had a flare up in over 5 months.\n\nThe patient endorses nasal congestion because of her allergies. She denies chest pain, shortness of breath, nausea, and vomitting.",
+    "ROS": "\u2022 Ears, Nose, Mouth and Throat: Endorses nasal congestion from allergies.\n\u2022 Cardiovascular: Denies chest pain or dyspnea. Endorses palpitations.\n\u2022 Respiratory: Denies shortness of breath.\n\u2022 Musculoskeletal: Denies joint pain.",
+    "PHYSICAL_EXAMINATION": "\u2022 Respiratory: Lungs are clear to auscultation bilaterally. No wheezes, rales, or rhonchi.\n\u2022 Cardiovascular: Regular rate and rhythm. Slight 2/6 systolic ejection murmur.\n\u2022 Musculoskeletal: No lower extremity edema. Edema and erythema of the right elbow. Pain to palpation of the right elbow.",
+    "RESULTS": "Event monitor: Positive for conversion pause.\n\nAutoimmune panel: Normal. Well controlled rheumatoid arthritis.",
+    "ASSESSMENT_PLAN": "Andrea Roberts is a 52-year-old female with a past medical history significant for rheumatoid arthritis, atrial fibrillation, and reflux, who presents today for her annual exam. It has been a year since she was last seen.\n\nRheumatoid arthritis.\n\u2022 Medical Reasoning: The patient has remained active and has been compliant with methotrexate once weekly. Her recent autoimmune panel was normal.\n\u2022 Medical Treatment: She will continue on methotrexate 2.5 mg once weekly. This was refilled today.\n\u2022 Specialist Referrals: If she needs a referral back to the rheumatologist, she will let me know.\n\nAtrial fibrillation.\n\u2022 Medical Reasoning: She continues to experience episodes of palpitations. Her most recent episode was about 1 week ago. She is in normal sinus rhythm today, but her recent cardiac event monitor demonstrated a conversion pause.\n\u2022 Specialist Referrals: We will refer her to cardiology for a cardiac ablation.\n\nGERD.\n\u2022 Medical Reasoning: She has been compliant with dietary modifications and denies any episodes in approximately 5 months.\n\u2022 Medical Treatment: Continue on Protonix 40 mg daily.\n\u2022 Patient Education and Counseling: She could continue with dietary modifications and avoid known dietary triggers.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan."
+  },
+  "n_patient_turns": 21,
+  "n_clinician_turns": 22,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 20748.814649879932,
+      "response_text": "Andrea, thank you for taking the time to discuss your health with me today. I'm glad to hear that your rheumatoid arthritis has been well-managed with methotrexate and that your exercise routine has brought you so much relief. It's wonderful to see how much the regular movement has helped with your joint pain.\n\nI understand that dealing with atrial fibrillation can be stressful, especially when palpitations flare up. I want you to know that we're taking this seriously, and the referral to cardiology for a cardiac ablation is a positive step towards managing your condition. In the meantime, if you find yourself feeling overwhelmed, don't hesitate to reach out. We're here to support you. Keep up the good work with managing your reflux, and remember to continue your dietary changes and medication. You're doing a great job, and please let me know if you have any questions or concerns in the future.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 19198.829270899296,
+      "response_text": "Thanks for sharing everything with me today, Andrea. It makes sense that you\u2019re feeling a bit frustrated and concerned, especially with the ongoing palpitations and how stress seems to be triggering them. I can see how this has been affecting your daily life, and I want to make sure we\u2019re doing everything we can to help you feel more at ease.\n\nGiven the event monitor results showing you\u2019re in and out of atrial fibrillation, it\u2019s important we take this seriously. Stress can definitely play a role in triggering these episodes, and I know you\u2019ve been trying different techniques like meditation and running to manage it. While those are great efforts, it seems like we need to explore further options to help stabilize your heart rhythm. That\u2019s why I\u2019m referring you to cardiology for a cardiac ablation, which is a procedure that maps out the heart\u2019s electrical activity and can help reduce the recurrence of atrial fibrillation [PMID ?].\n\nFor now, let\u2019s keep you on your current medications and continue with the stress management techniques. If you notice any new symptoms like chest pain, severe dizziness, or shortness of breath, please reach out immediately. We\u2019ll also keep an eye on your rheumatoid arthritis and reflux, which are both well-managed at the moment.\n\nBefore you leave, could you summarize what we discussed today? That way, I can make sure everything is clear. Let\u2019s plan to check in in about a month to see how you\u2019re doing and adjust the plan as needed.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7224.83716905117,
+      "response_text": "It sounds like you're doing well overall, Andrea. You mentioned that your walking, exercising, and yoga have really helped with your arthritis, which is great to hear.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in the near future. In the meantime, if you have any concerns or if your symptoms change, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're doing well overall, Andrea. You mentioned that your walking, exercising, and yoga have really helped with your arthritis, which is great to hear.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in the near future. In the meantime, if you have any concerns or if your symptoms change, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 275500.2616047859,
+      "response_text": "Thank you for sharing your concerns about your health. I understand you're dealing with several issues, and I'm here to help address them.\n\nRheumatoid arthritis is an ongoing condition that can be managed with current treatments. It's important to continue with your current regimen and monitor any changes in symptoms.\n\nAtrial fibrillation is something we should keep an eye on. Since it's ongoing, we'll need to monitor its severity and see how it affects your overall health.\n\nGERD is a common condition that can be managed with lifestyle changes and medications. We'll keep track of how it progresses and adjust treatment as needed.\n\nAllergies can cause symptoms like nasal congestion. We'll work together to identify any specific allergens and manage your symptoms effectively.\n\nWe'll schedule follow-up appointments to monitor the severity and status of each of your conditions.\n\nWe'll also review your medications and allergies during these visits to ensure they're up to date and effective.\n\nPlease keep track of any new symptoms or changes in your health and bring them up during your next visit.\n\nI want to make sure I explained everything clearly. Can you summarize what we discussed today and what we'll do next?\n\nLet's plan to see each other again in a few weeks. If you experience any severe symptoms or significant changes in your health, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns about your health. I understand you're dealing with several issues, and I'm here to help address them.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "rheumatoid arthritis",
+            "profile_path": "problems[0]",
+            "explanation": "Rheumatoid arthritis is an ongoing condition that can be managed with current treatments. It's important to continue with your current regimen and monitor any changes in symptoms.",
+            "citations": []
+          },
+          {
+            "concern_label": "atrial fibrillation",
+            "profile_path": "problems[1]",
+            "explanation": "Atrial fibrillation is something we should keep an eye on. Since it's ongoing, we'll need to monitor its severity and see how it affects your overall health.",
+            "citations": []
+          },
+          {
+            "concern_label": "gastroesophageal reflux disease (GERD)",
+            "profile_path": "problems[2]",
+            "explanation": "GERD is a common condition that can be managed with lifestyle changes and medications. We'll keep track of how it progresses and adjust treatment as needed.",
+            "citations": []
+          },
+          {
+            "concern_label": "allergies",
+            "profile_path": "problems[3]",
+            "explanation": "Allergies can cause symptoms like nasal congestion. We'll work together to identify any specific allergens and manage your symptoms effectively.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll schedule follow-up appointments to monitor the severity and status of each of your conditions.",
+          "We'll also review your medications and allergies during these visits to ensure they're up to date and effective.",
+          "Please keep track of any new symptoms or changes in your health and bring them up during your next visit."
+        ],
+        "teach_back_prompt": "I want to make sure I explained everything clearly. Can you summarize what we discussed today and what we'll do next?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. If you experience any severe symptoms or significant changes in your health, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 4,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "rheumatoid arthritis",
+          "atrial fibrillation",
+          "gastroesophageal reflux disease (GERD)",
+          "allergies"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 238260.5822533369,
+      "response_text": "It sounds like you're managing several health issues, and I want to make sure I understand what's most concerning to you today.\n\nRheumatoid arthritis can sometimes be tricky to manage, especially if there are gaps in understanding the onset and severity. However, since your current status is noted as 'stable' and you're on methotrexate, we can focus on maintaining this stability.\n\nAtrial fibrillation can be associated with other heart-related issues, like cardiac fainting. Given your palpitations, it's important to monitor this condition closely.\n\nYour GERD is improving with protonix and dietary changes, which is great. However, there are still some unknowns about the onset and severity, which we can discuss further.\n\nWe'll review your current management plans for each condition to ensure they're aligned with your goals.\n\nFor atrial fibrillation, we'll focus on monitoring your symptoms and may consider additional evaluations if needed.\n\nWe'll also check in on your GERD management to make sure you're continuing to improve.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if you notice any changes in your symptoms or have any concerns, please reach out.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're managing several health issues, and I want to make sure I understand what's most concerning to you today.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "rheumatoid arthritis",
+            "profile_path": "problems[0]",
+            "explanation": "Rheumatoid arthritis can sometimes be tricky to manage, especially if there are gaps in understanding the onset and severity. However, since your current status is noted as 'stable' and you're on methotrexate, we can focus on maintaining this stability.",
+            "citations": []
+          },
+          {
+            "concern_label": "atrial fibrillation (a-fib)",
+            "profile_path": "problems[1]",
+            "explanation": "Atrial fibrillation can be associated with other heart-related issues, like cardiac fainting. Given your palpitations, it's important to monitor this condition closely.",
+            "citations": [
+              {
+                "cluster_id": "finding::problems[1]::31237649_0",
+                "primary_assertion_id": "31237649_0",
+                "pmids": [
+                  "31237649"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "gastroesophageal reflux disease (GERD)",
+            "profile_path": "problems[2]",
+            "explanation": "Your GERD is improving with protonix and dietary changes, which is great. However, there are still some unknowns about the onset and severity, which we can discuss further.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll review your current management plans for each condition to ensure they're aligned with your goals.",
+          "For atrial fibrillation, we'll focus on monitoring your symptoms and may consider additional evaluations if needed.",
+          "We'll also check in on your GERD management to make sure you're continuing to improve."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if you notice any changes in your symptoms or have any concerns, please reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::problems[1]::31237649_0"
+        ],
+        "all_pmids_used": [
+          "31237649"
+        ],
+        "glossary_substitutions": [
+          {
+            "field": "clinical_information_per_concern[1].explanation",
+            "original": "syncope",
+            "plain": "fainting",
+            "count": 1
+          }
+        ]
+      },
+      "profile_summary": {
+        "n_problems": 3,
+        "n_medications": 2,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "rheumatoid arthritis",
+          "atrial fibrillation (a-fib)",
+          "gastroesophageal reflux disease (GERD)"
+        ],
+        "medications": [
+          "methotrexate (once a week)",
+          "protonix (once a day)"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [
+        "31237649"
+      ],
+      "cluster_ids_used": [
+        "finding::problems[1]::31237649_0"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 184025.4352465272,
+        "module_2_retrieval": 2301.910914480686,
+        "module_3_reasoning": 29824.100852012634,
+        "module_4_response": 22107.887379825115,
+        "total_ms": 238259.33439284563
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

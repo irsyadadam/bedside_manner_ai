@@ -1,0 +1,352 @@
+{
+  "transcript_id": "aci_aci_D2N041",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "yeah my throat has been hurting me for like four four days now and i think i had a fever last night because i was really sweaty but i did n'",
+  "patient_utterances": [
+    "[Clinician asked: \"hi teresa what's going on i heard that i heard that you're having a sore throat you're not feeling well\"] yeah my throat has been hurting me for like four four days now and i think i had a fever last night because i was really sweaty but i did n't take my temperature because i was already in bed",
+    "[Clinician asked: \"okay alright so four days ago you started feeling badly okay now were you having chills\"] yeah last night i was chills and i had lot of sweating and it's really hard to swallow",
+    "[Clinician asked: \"it's really hard to swallow okay now do you have pain every time you swallow or is it just periodically\"] every time i swallow i'm even having trouble eating i can drink okay the like really cold water feels good",
+    "[Clinician asked: \"okay that's what i was gon na ask you okay so you're able to drink water and are you able to drink any other fluids have you been able to drink any you know i do n't know juices or milk shakes or anything like that\"] well besides my wine at night i really just drink water all day",
+    "[Clinician asked: \"okay well i like to drink wine too what's your favorite type of wine\"] peanut grooves yes",
+    "[Clinician asked: \"it's a good one i like that too i am also a pino navar fan so there you go alright well let's now do you feel sick to your stomach at all\"] no i have a little bit of a stuffy nose not too bad it's really just my throat but i think my tonsils are swollen too",
+    "[Clinician asked: \"and your tonsils are swollen too now has anyone else sick in your household\"] i do have little kids that go to school so they've always got you know those little runny noses or cough but nobody is really complaining of anything",
+    "[Clinician asked: \"okay alright now have you had strep throat in the past\"] when i was a kid i had strep throat but i have n't had anything like that as an adult",
+    "[Clinician asked: \"okay alright and what do you do for work\"] i i work as a cashier in a supermarket",
+    "[Clinician asked: \"okay alright and did you get your covid vaccine\"] yep i did get my covid vaccine but it really made me feel sick so i'm hoping i do n't have to get another one later this year",
+    "[Clinician asked: \"okay did so you just got the two vaccines you did n't get the booster\"] no i did n't get the booster because i really have n't had time to feel that sick again it really knocked me down for like two days and with the little kids it's really hard",
+    "[Clinician asked: \"okay alright well i saw that they did a rapid covid test when you came in here and that was negative so that's good so you do n't have covid which is which is good now let's talk a little bit about your hypertension and hypertension since i have you here did you ever buy that blood pressure cuff tha\"] yes i did i blood the blood pressure cuff and my blood pressure is like all over the place sometimes it could be like one twenty for the top number sometimes it could be one forty for the top number i i do n't really remember the bottom number though",
+    "[Clinician asked: \"okay that's okay are you taking the lisinopril i think we have you on twenty milligrams a day\"] yep i take it every morning with my multivitamin and my vitamin d",
+    "[Clinician asked: \"okay alright and are you watching your salt intake\"] i really like my chips with my wine",
+    "[Clinician asked: \"is n't that the best we we could get along really well outside of here alright and then tell me a little bit about your diabetes now are you are you watching your blood sugars are you taking them at home\"] sometimes i take that all that often again that could be all over the place sometimes i get if i take it first thing in the morning it'll be like eighty or ninety but at night sometimes it could be one forty",
+    "[Clinician asked: \"okay alright and i are you still taking the metformin we have you on a thousand milligrams twice a day\"] uh uh yes i do take it i take it with my breakfast and with my dinner",
+    "[Clinician asked: \"okay alright great alright now are you are you a meds fan or a yankie's fan or god for a bit of filly's fan\"] nope",
+    "[Clinician asked: \"no\"] no do n't do n't like sports",
+    "[Clinician asked: \"do n't like sports just the wine\"] no",
+    "[Clinician asked: \"okay alright well let's go ahead i wan na just do a quick physical exam now i'm gon na be calling out some of my findings and i'm gon na let you know what that means when i'm done okay so looking here first at your vital signs your vital signs look pretty good you do have a low-grade fever of about \"] no not no it does n't bother me",
+    "[Clinician asked: \"okay on facial examination the patient has no pain to palpation of the frontal or maxillary sinuses on nasal examination there is edema and erythema of the nasal turbinates bilaterally with associated clear discharge open up your mouth and say\"] ah",
+    "[Clinician asked: \"on throat examination there is bilateral erythema and edema of the peritonsillar space with exudates present bilaterally the uvula is midline on your neck exam i do appreciate some cervical lymphadenopathy on the right hand side on your lung exam your lungs you have some coarse rhonchi at the bases \"] no that sounds good i just wanted to be sure i was okay because of the little kids",
+    "[Clinician asked: \"sure now for your next problem of your hypertension i wan na go ahead and order a lipid panel on you and i think i do wan na increase i do wan na increase the lisinopril to forty milligrams once a day just to get your blood pressure under better control and we'll see how you do on the forty milligra\"] sounds good",
+    "[Clinician asked: \"any questions\"] nope that's everything"
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nSore throat.\n\nMEDICAL HISTORY\n\nPatient reports history of hypertension and diabetes.\n\nSOCIAL HISTORY\n\nPatient reports working as a cashier in a supermarket. She enjoys drinking wine.\n\nMEDICATIONS\n\nPatient reports taking lisinopril 20 mg daily, multi-vitamin, vitamin D, and metformin 1000 mg twice daily.\n\nREVIEW OF SYSTEMS\n\nConstitutional: Reports fever, chills, and profuse sweating.\nHENT: Reports sore throat, dysphagia, tonsil swelling, and congestion.\nGastrointestinal: Denies abdominal symptoms.\n\nVITALS\n\nTemperature: 100.4 degrees F.\nBlood pressure: 132/80 mm Hg.\nHeart rate: 84 BPM.\n\nPHYSICAL EXAM\n\nHead and Face\n- Examination: No pain to palpation of the frontal or maxillary sinuses.\n\nEars, Nose, Mouth, and Throat\n- Examination of Nose: Edema and erythema of the nasal turbinates noted bilaterally with associated clear discharge.\n- Examination of Throat: Erythema and edema of the peritonsillar space with exudates present bilaterally. The uvula is midline.\n\nNeck\n- General Examination: No thyromegaly, but there is some cervical lymphadenopathy on the right side.\n\nRespiratory\n- Auscultation of Lungs: Coarse rhonchi at the bases that clear with cough.\n\nCardiovascular\n- Auscultation of Heart: Regular rate and rhythm. No murmurs, gallops or rubs.\n\nRESULTS\n\nRapid COVID-19 test performed today in office is negative.\n\nASSESSMENT AND PLAN\n\n1. Sore throat.\n- Medical Reasoning: The patient has experienced sore throat, fever, chills, profuse sweating, and difficulty swallowing for 4 days. There is erythema and edema of the peritonsillar space with exudates present bilaterally as well as edema and erythema of her turbinates, bilaterally.\n- Patient Education and Counseling: We discussed treatment options today. I have stressed the importance of hydration.\n- Medical Treatment: We will perform a rapid strep test today. If she is positive for strep, I will prescribe amoxicillin 500 mg 3 times a day for 10 days. Prescription for lidocaine swish and swallow provided for pain relief. ibuprofen can also be taken for pain and fever relief.\n\n2. Hypertension.\n- Medical Reasoning: The patient states her blood pressure fluctuates often. Her blood pressure today in office was 132/80 mm Hg. - Patient Education and Counseling: We discussed treatment options including increasing her lisinopril and diet modifications.\n- Medical Treatment: Lipid panel ordered. Prescription for lisinopril 40 mg once a day is also provided.\n\n3. Diabetes.\n- Medical Reasoning: The patient\u2019s blood sugar fluctuates between 80 to 90 in the morning to 140 in the evening. She is already at 1000 mg of metformin twice a day, which she does take with meals.\n- Patient Education and Counseling: We discussed the importance of achieving a healthy lifestyle and what effects that can have on her diabetes.\n- Medical Treatment: I have placed an order a hemoglobin A1c.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.",
+  "gold_sections": {
+    "CC": "Sore throat.",
+    "MEDICAL_HISTORY": "Patient reports history of hypertension and diabetes.",
+    "SOCIAL_HISTORY": "Patient reports working as a cashier in a supermarket. She enjoys drinking wine.",
+    "MEDICATIONS": "Patient reports taking lisinopril 20 mg daily, multi-vitamin, vitamin D, and metformin 1000 mg twice daily.",
+    "ROS": "Constitutional: Reports fever, chills, and profuse sweating.\nHENT: Reports sore throat, dysphagia, tonsil swelling, and congestion.\nGastrointestinal: Denies abdominal symptoms.",
+    "VITALS": "Temperature: 100.4 degrees F.\nBlood pressure: 132/80 mm Hg.\nHeart rate: 84 BPM.",
+    "PHYSICAL_EXAM": "Head and Face\n- Examination: No pain to palpation of the frontal or maxillary sinuses.\n\nEars, Nose, Mouth, and Throat\n- Examination of Nose: Edema and erythema of the nasal turbinates noted bilaterally with associated clear discharge.\n- Examination of Throat: Erythema and edema of the peritonsillar space with exudates present bilaterally. The uvula is midline.\n\nNeck\n- General Examination: No thyromegaly, but there is some cervical lymphadenopathy on the right side.\n\nRespiratory\n- Auscultation of Lungs: Coarse rhonchi at the bases that clear with cough.\n\nCardiovascular\n- Auscultation of Heart: Regular rate and rhythm. No murmurs, gallops or rubs.",
+    "RESULTS": "Rapid COVID-19 test performed today in office is negative.",
+    "ASSESSMENT_PLAN": "1. Sore throat.\n- Medical Reasoning: The patient has experienced sore throat, fever, chills, profuse sweating, and difficulty swallowing for 4 days. There is erythema and edema of the peritonsillar space with exudates present bilaterally as well as edema and erythema of her turbinates, bilaterally.\n- Patient Education and Counseling: We discussed treatment options today. I have stressed the importance of hydration.\n- Medical Treatment: We will perform a rapid strep test today. If she is positive for strep, I will prescribe amoxicillin 500 mg 3 times a day for 10 days. Prescription for lidocaine swish and swallow provided for pain relief. ibuprofen can also be taken for pain and fever relief.\n\n2. Hypertension.\n- Medical Reasoning: The patient states her blood pressure fluctuates often. Her blood pressure today in office was 132/80 mm Hg. - Patient Education and Counseling: We discussed treatment options including increasing her lisinopril and diet modifications.\n- Medical Treatment: Lipid panel ordered. Prescription for lisinopril 40 mg once a day is also provided.\n\n3. Diabetes.\n- Medical Reasoning: The patient\u2019s blood sugar fluctuates between 80 to 90 in the morning to 140 in the evening. She is already at 1000 mg of metformin twice a day, which she does take with meals.\n- Patient Education and Counseling: We discussed the importance of achieving a healthy lifestyle and what effects that can have on her diabetes.\n- Medical Treatment: I have placed an order a hemoglobin A1c.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan."
+  },
+  "n_patient_turns": 24,
+  "n_clinician_turns": 25,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 24690.949723124504,
+      "response_text": "Teresa, I understand how uncomfortable you must be feeling with this sore throat and the other symptoms you're experiencing. Based on your exam and the details you've shared, it seems like you might have a throat infection, which could be either bacterial or viral. Given your history of swollen tonsils with exudates, I recommend we do a throat culture or rapid strep test to rule out strep throat, even though you haven't had it before as an adult.\n\nIn the meantime, stay hydrated, rest, and consider using over-the-counter pain relievers to help with your fever and discomfort. For your hypertension, adjusting your Lisinopril dosage to 40mg daily should help better control your blood pressure. I encourage you to monitor your BP regularly and make some dietary adjustments, like cutting back on salty snacks, to support your health.\n\nRegarding your diabetes, keeping track of your blood sugar levels more consistently will help us manage it effectively. While it's okay to enjoy wine and chips in moderation, focusing on healthier choices can make a positive difference in managing both your hypertension and diabetes. Let me know if you have any questions or concerns, and feel free to reach out if you need further assistance. Take care and feel better soon.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 21048.75735938549,
+      "response_text": "Teresa, I can understand how you're feeling with this sore throat and fever\u2014it's been four days, and it's taking a toll on you. It's completely reasonable to feel concerned, especially with the trouble swallowing and the fever. I want to make sure we address this properly.\n\nGiven your symptoms, we should consider possible causes like a bacterial or viral infection. Since you haven't had strep throat as an adult, we might explore other possibilities, such as infectious mononucleosis, which can present similarly [PMID ?]. We'll keep an eye on your symptoms and adjust your care plan accordingly.\n\nRegarding your hypertension and diabetes, we're increasing your lisinopril to help manage your blood pressure better. It's important to continue monitoring your blood sugar levels and keep up with your metformin. I'll check in with you in a week to see how you're doing and adjust anything as needed.\n\nBefore we wrap up, could you tell me in your own words what you think we discussed today? This will help ensure you're clear on the plan and any next steps. Feel free to ask any questions you might have.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7852.686934173107,
+      "response_text": "It sounds like you're feeling under the weather with that sore throat and fever. I want to make sure I understand how you're feeling so we can address it properly.\n\nWe'll start with some basic tests to check for infections like strep throat, and monitor your blood pressure to keep things under control.\n\nCan you tell me, in your own words, what we're going to do next and why it's important?\n\nLet's plan to check in again in a week. If your symptoms get worse or if you develop new ones like severe pain or difficulty breathing, please reach out sooner.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're feeling under the weather with that sore throat and fever. I want to make sure I understand how you're feeling so we can address it properly.",
+        "clinical_information_per_concern": [],
+        "next_steps": [
+          "We'll start with some basic tests to check for infections like strep throat, and monitor your blood pressure to keep things under control."
+        ],
+        "teach_back_prompt": "Can you tell me, in your own words, what we're going to do next and why it's important?",
+        "follow_up_invitation": "Let's plan to check in again in a week. If your symptoms get worse or if you develop new ones like severe pain or difficulty breathing, please reach out sooner.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 234254.27220016718,
+      "response_text": "I can understand your concern about needing another COVID-19 vaccine. You mentioned, \"I'm hoping I don't have to get another one later this year,\" which shows how important this is to you.\n\nA sore throat can be caused by many things, like infections or allergies. Since you've also been experiencing a fever and a stuffy nose, it might be part of a viral infection. We'll check for common causes to make sure there's nothing more serious.\n\nBlood pressure can fluctuate for many reasons, including stress or certain medications. Since you're already taking Lisinopril, we'll monitor it closely and adjust if needed to keep you healthy.\n\nUnderstanding your concerns about vaccines is important. We'll discuss the benefits and risks of future COVID-19 vaccines and explore options that align with your wishes.\n\nWe'll check your sore throat and other symptoms to see if it's part of a viral infection.\n\nMonitor your blood pressure closely and adjust your medication if needed.\n\nWe'll talk about your concerns regarding future COVID-19 vaccines to ensure your preferences are respected.\n\nCan you tell me, in your own words, what we discussed today and what we'll do next?\n\nLet's plan to follow up in a week. If your symptoms get worse or you have any concerns before then, please reach out.",
+      "structured_response": {
+        "acknowledgment": "I can understand your concern about needing another COVID-19 vaccine. You mentioned, \"I'm hoping I don't have to get another one later this year,\" which shows how important this is to you.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "sore throat",
+            "profile_path": "problems[0]",
+            "explanation": "A sore throat can be caused by many things, like infections or allergies. Since you've also been experiencing a fever and a stuffy nose, it might be part of a viral infection. We'll check for common causes to make sure there's nothing more serious.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::35593186",
+                "primary_assertion_id": "35593186_retr",
+                "pmids": [
+                  "35593186"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "unstable blood pressure",
+            "profile_path": "problems[1]",
+            "explanation": "Blood pressure can fluctuate for many reasons, including stress or certain medications. Since you're already taking Lisinopril, we'll monitor it closely and adjust if needed to keep you healthy.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::36250577",
+                "primary_assertion_id": "36250577_retr",
+                "pmids": [
+                  "36250577"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "hoping to avoid another COVID-19 vaccine",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Understanding your concerns about vaccines is important. We'll discuss the benefits and risks of future COVID-19 vaccines and explore options that align with your wishes.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::34282603",
+                "primary_assertion_id": "34282603_retr",
+                "pmids": [
+                  "34282603"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll check your sore throat and other symptoms to see if it's part of a viral infection.",
+          "Monitor your blood pressure closely and adjust your medication if needed.",
+          "We'll talk about your concerns regarding future COVID-19 vaccines to ensure your preferences are respected."
+        ],
+        "teach_back_prompt": "Can you tell me, in your own words, what we discussed today and what we'll do next?",
+        "follow_up_invitation": "Let's plan to follow up in a week. If your symptoms get worse or you have any concerns before then, please reach out.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "retrieval_only::35593186",
+          "retrieval_only::36250577",
+          "retrieval_only::34282603"
+        ],
+        "all_pmids_used": [
+          "35593186",
+          "36250577",
+          "34282603"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 2,
+        "n_medications": 4,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 1,
+        "problems": [
+          "sore throat",
+          "unstable blood pressure"
+        ],
+        "medications": [
+          "Lisinopril 20 mg daily",
+          "Metformin 500 mg twice a day",
+          "Multivitamin",
+          "Vitamin D"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [
+        "35593186",
+        "36250577",
+        "34282603"
+      ],
+      "cluster_ids_used": [
+        "retrieval_only::35593186",
+        "retrieval_only::36250577",
+        "retrieval_only::34282603"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 267990.9594133496,
+      "response_text": "I can hear how much this has been worrying you \u2014 you said, \"hoping I don't have to get another one later this year.\" That makes sense, given what you're dealing with.\n\nA sore throat alone isn't enough for PCR testing, but your symptoms like fever and stuffy nose might suggest COVID-19. However, without more specific signs like loss of smell or taste, we'll focus on managing your symptoms.\n\nWe'll need to monitor your blood pressure more closely to understand what's going on. This will help us figure out the best way to manage it.\n\nWe'll keep that in mind as we discuss your care. Our main focus right now is addressing your current symptoms and concerns.\n\nWe'll monitor your sore throat and other symptoms to see if further testing is needed.\n\nWe'll check your blood pressure more closely to understand what's going on.\n\nWe'll discuss your concerns about the COVID vaccine and make sure your preferences are considered in your care.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to check in again in a week. If your symptoms get worse or you have any new concerns, please call us so we can address them sooner.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this has been worrying you \u2014 you said, \"hoping I don't have to get another one later this year.\" That makes sense, given what you're dealing with.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "sore throat",
+            "profile_path": "problems[0]",
+            "explanation": "A sore throat alone isn't enough for PCR testing, but your symptoms like fever and stuffy nose might suggest COVID-19. However, without more specific signs like loss of smell or taste, we'll focus on managing your symptoms.",
+            "citations": [
+              {
+                "cluster_id": "contraindication::problems[0]::35593186_1",
+                "primary_assertion_id": "35593186_1",
+                "pmids": [
+                  "35593186"
+                ]
+              },
+              {
+                "cluster_id": "finding::problems[0]::35593186_2",
+                "primary_assertion_id": "35593186_2",
+                "pmids": [
+                  "35593186"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "unstable blood pressure",
+            "profile_path": "problems[1]",
+            "explanation": "We'll need to monitor your blood pressure more closely to understand what's going on. This will help us figure out the best way to manage it.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::sub_query[0]::38719772_0",
+                "primary_assertion_id": "38719772_0",
+                "pmids": [
+                  "38719772"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "hoping not to get another COVID vaccine",
+            "profile_path": "patient_goals[0]",
+            "explanation": "We'll keep that in mind as we discuss your care. Our main focus right now is addressing your current symptoms and concerns.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll monitor your sore throat and other symptoms to see if further testing is needed.",
+          "We'll check your blood pressure more closely to understand what's going on.",
+          "We'll discuss your concerns about the COVID vaccine and make sure your preferences are considered in your care."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to check in again in a week. If your symptoms get worse or you have any new concerns, please call us so we can address them sooner.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "contraindication::problems[0]::35593186_1",
+          "finding::problems[0]::35593186_2",
+          "recommendation::sub_query[0]::38719772_0"
+        ],
+        "all_pmids_used": [
+          "35593186",
+          "38719772"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 2,
+        "n_medications": 4,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 1,
+        "problems": [
+          "sore throat",
+          "unstable blood pressure"
+        ],
+        "medications": [
+          "Lisinopril (20 mg, daily)",
+          "Metformin (1000 mg, twice a day)",
+          "Multivitamin",
+          "Vitamin D"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [
+        "35593186",
+        "38719772"
+      ],
+      "cluster_ids_used": [
+        "contraindication::problems[0]::35593186_1",
+        "finding::problems[0]::35593186_2",
+        "recommendation::sub_query[0]::38719772_0"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 201165.87259620428,
+        "module_2_retrieval": 1136.1981183290482,
+        "module_3_reasoning": 37175.96969753504,
+        "module_4_response": 28511.915780603886,
+        "total_ms": 267989.95619267225
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

@@ -1,0 +1,319 @@
+{
+  "transcript_id": "aci_virtassist_D2N068",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "hi , good to see you .",
+  "patient_utterances": [
+    "[Clinician asked: \"hi , brian . how are you ?\"] hi , good to see you .",
+    "[Clinician asked: \"it's good to see you too . so , i know the nurse told you a little bit about dax .\"] mm-hmm .",
+    "[Clinician asked: \"i'd like to tell dax about you , okay ?\"] sure .",
+    "[Clinician asked: \"so , brian is a 58 year old male with a past medical history significant for congestive heart failure and hypertension , who presents today for follow-up of his chronic problems . so , brian , it's been a little while i've seen you .\"] mm-hmm .",
+    "[Clinician asked: \"whats , what's going on ?\"] i , i just feel out of sorts lately . i do n't know if it's the change in the seasons or if we're just doing a lot of projects around the house and , and some , some construction on our own . i'm just feeling out of it . lack of , uh , energy . i'm just so tired and fatigued , and i feel kinda ... i feel lightheaded every once in a while .",
+    "[Clinician asked: \"okay . all right . um , how long has that been going on for ?\"] uh , probably since labor day , so about five weeks or so .",
+    "[Clinician asked: \"okay . and , have you noticed any , like , symptoms of weight gain , like , like swollen legs , or , you know , your belly feels bloated and things like that ?\"] i feel , i feel bloated every once in a while .",
+    "[Clinician asked: \"okay . all right . um , and , are you taking your , your medications ?\"] uh , yes , i am .",
+    "[Clinician asked: \"okay . and , how about your diet ? are you watching your diet ?\"] uh , it's been a little bit of a struggle . we began construction on our kitchen over labor day weekend , and it was ... hard to cook or prepare meals so we ate out a lot, and not always the best food out. it , it , it kind of reeked havoc , uh , so it's been maybe off a little bit .",
+    "[Clinician asked: \"okay . all right . and , how about , you know , other symptoms , like , have you had a fever or chills ?\"] no .",
+    "[Clinician asked: \"okay , and any problems breathing ? do you feel short of breath ?\"] uh , just when i'm doing doing the projects . again , not even lifting anything really heavy , it's just that if i'm ex- exerting any energy , i , i kinda feel it at that point .",
+    "[Clinician asked: \"okay . do you have any chest pain ?\"] slight cramps . that seems to go away after about , maybe about an hour or so after i first feel it .",
+    "[Clinician asked: \"okay , and how about a cough ?\"] a , a slight cough , and again , i'm not sure if it's just the change of seasons and i'm getting a cold .",
+    "[Clinician asked: \"mm-hmm . okay . all right . well , you know , for the most part , how , you know , before all of this-\"] mm-hmm .",
+    "[Clinician asked: \"how were you doing with your heart failure ? i know that we've kinda talked about you being able to watch your healthy food intake and that's been kind of a struggle in the past .\"] i , i , i've actually been pretty good about that ever since . the , the , the last year , it's been a little chaotic , but i wanted to make sure i stayed on top of that .",
+    "[Clinician asked: \"okay . all right . are you excited for halloween ?\"] uh , ca n't wait .",
+    "[Clinician asked: \"okay .\"] our home renovations should be complete by then",
+    "[Clinician asked: \"all right , yeah , right .\"] yeah .",
+    "[Clinician asked: \"and , so , lastly , for your high blood pressure , how are you doing with that ? have , are , did you buy the blood pressure cuff like i asked ?\"] yeah , i , i did , and we do mon- , i , i monitor it regularly . my wife makes sure i stay on top of that , but it's been pretty good .",
+    "[Clinician asked: \"okay . all right . well , i know you did the review of systems sheet when you checked in , and you were endorsing this fatigue-\"] mm-hmm .",
+    "[Clinician asked: \"and a little dizziness and we just talked a lot about a lot of other symptoms .\"] mm-hmm .",
+    "[Clinician asked: \"any other symptoms i might be missing ? nausea or vomiting , diarrhea ?\"] no .",
+    "[Clinician asked: \"anything like that ?\"] no .",
+    "[Clinician asked: \"okay . all right . well , i just want to go ahead and do a quick physical exam .\"] mm-hmm .",
+    "[Clinician asked: \"hey , dragon ? show me the vital signs . so , looking at your vital signs here in the office , everything looks good . you know , your blood pressure and your heart rate and your oxygenation all look really good .\"] mm-hmm .",
+    "[Clinician asked: \"so , i'm gon na just take a listen to a few things and check some things out , and i'll let you know what i find , okay ?\"] perfect .",
+    "[Clinician asked: \"okay . so , on your physical examination , you know , i do appreciate some jugular venous distention to-\"] mm-hmm .",
+    "[Clinician asked: \"to about eight centimeters . on your heart exam , i do appreciate a three out of six systolic ejection murmur , which we've heard in the past . and , on your lung exam , i do appreciate some fine crackles at the bases bilaterally , and your lower extremities have , you know , 1+ pitting edema . so ,\"] mm-hmm .",
+    "[Clinician asked: \"okay ? i wan na just go ahead and look at some of your results , okay ?\"] sure .",
+    "[Clinician asked: \"hey , dragon ? show me the chest x-ray . so , looking here at the results of your chest x-ray , it does look like you have a little bit of fluid in your lungs there , and that can be just from , um , your heart failure , okay ? hey , dragon ? show me the echocardiogram . so , this is the echocardiog\"] mm-hmm .",
+    "[Clinician asked: \"okay ? so , for your first problem , your congestive heart failure , i think you're retaining fluid , and i wan na go ahead and increase your lasix to 80 mg once a day .\"] mm-hmm .",
+    "[Clinician asked: \"i want you to weigh yourself every day . i want you to call me if you're gaining more weight .\"] mm-hmm .",
+    "[Clinician asked: \"and , i certainly want you to call me if you have any other symptoms of shortness of breath , and i wan na go ahead and order another echocardiogram , okay ?\"] sure .",
+    "[Clinician asked: \"hey , dragon ? order an echocardiogram . lastly , for your high blood pressure , it looks like you're managing it well at this time , okay ? so , i wan na go ahead and continue with the lisinopril 20 mg a day . i want you to continue to record your blood pressures at home , and report them to me in \"] mm-hmm .",
+    "[Clinician asked: \"does that sound like a plan ?\"] that sounds fine .",
+    "[Clinician asked: \"okay . um , i'm gon na be in touch with you after we get your test results , and we'll go from there , okay ?\"] sure ."
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nFollow-up of chronic problems.\n\nHISTORY OF PRESENT ILLNESS\n\nBrian White is a 58-year-old male with a past medical history significant for congestive heart failure and hypertension, who presents today for follow-up of his chronic problems.\n\nThe patient states he has been feeling out of sorts lately. He is not sure if it is due to the change in the seasons or due to performing lots of projects and some construction on his home. He reports fatigue and lightheadedness. This has been going on for about 5 weeks. While exerting energy, he has experienced some shortness of breath and chest cramps. The patient also notes a slight cough, but he is not sure if it is just the change in seasons.\n\nHe feels bloated every once in a while. His diet has been a little bit of a struggle. They had construction on their kitchen begin over Labor Day weekend, and have been eating less healthy food as a result.\n\nRegarding his heart failure, he has been pretty good with his salt intake. He has been pretty good about his diet since the last year and is staying on top of that as much as possible. The patient has continued to utilize Lasix daily.\n\nFor his hypertension, this has been well controlled with lisinopril 20 mg a day. He has continued to monitor his blood pressure regularly.\n\nThe patient did the review of systems sheet when he checked in. He denies weight gain, swelling in the lower extremities, fevers, chills, dizziness, nausea, vomiting, and diarrhea.\n\nREVIEW OF SYSTEMS\n\n\u2022 Constitutional: Endorses fatigue. Denies fevers, chills, or weight loss.\n\u2022 Cardiovascular: Endorses chest pain or dyspnea on exertion.\n\u2022 Respiratory: Endorses cough and shortness of breath.\n\u2022 Gastrointestinal: Endorses bloating.\n\nPHYSICAL EXAMINATION\n\n\u2022 Neck: JVD 8 cm.\n\u2022 Respiratory: Rales bilateral bases.\n\u2022 Cardiovascular: 3/6 systolic ejection murmur.\n\u2022 Musculoskeletal: 1+ pitting edema bilateral lower extremities.\n\nRESULTS\n\nX-ray of the chest demonstrates a mild amount of fluid in the lungs.\n\nEchocardiogram demonstrates decreased ejection fraction of 45% and mild mitral regurgitation.\n\nASSESSMENT AND PLAN\n\nBrian White is a 58-year-old male with a past medical history significant for congestive heart failure and hypertension, who presents today for follow up of his chronic problems.\n\nCongestive heart failure.\n\u2022 Medical Reasoning: The patient reports increased fatigue, dizziness, and chest discomfort on exertion. He also exhibits some jugular venous distention, lung base crackles, and lower extremity edema on exam today. He has been compliant with his current medications but admits to dietary indiscretion lately. His recent echocardiogram demonstrated a reduced ejection fraction of 45%, as well as mitral regurgitation.\n\u2022 Additional Testing: We will order a repeat echocardiogram.\n\u2022 Medical Treatment: Increase Lasix to 80 mg daily.\n\u2022 Patient Education and Counseling: I advised the patient to monitor and record his daily weight and report those to me via the patient portal. He will contact me should he continue to experience any dyspnea.\n\nHypertension.\n\u2022 Medical Reasoning: This is well controlled based on home monitoring.\n\u2022 Medical Treatment: Continue lisinopril 20 mg daily.\n\u2022 Patient Education and Counseling: I advised him to monitor and record his blood pressures at home and report these to me via the patient portal.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.",
+  "gold_sections": {
+    "CC": "Follow-up of chronic problems.",
+    "HPI": "Brian White is a 58-year-old male with a past medical history significant for congestive heart failure and hypertension, who presents today for follow-up of his chronic problems.\n\nThe patient states he has been feeling out of sorts lately. He is not sure if it is due to the change in the seasons or due to performing lots of projects and some construction on his home. He reports fatigue and lightheadedness. This has been going on for about 5 weeks. While exerting energy, he has experienced some shortness of breath and chest cramps. The patient also notes a slight cough, but he is not sure if it is just the change in seasons.\n\nHe feels bloated every once in a while. His diet has been a little bit of a struggle. They had construction on their kitchen begin over Labor Day weekend, and have been eating less healthy food as a result.\n\nRegarding his heart failure, he has been pretty good with his salt intake. He has been pretty good about his diet since the last year and is staying on top of that as much as possible. The patient has continued to utilize Lasix daily.\n\nFor his hypertension, this has been well controlled with lisinopril 20 mg a day. He has continued to monitor his blood pressure regularly.\n\nThe patient did the review of systems sheet when he checked in. He denies weight gain, swelling in the lower extremities, fevers, chills, dizziness, nausea, vomiting, and diarrhea.",
+    "ROS": "\u2022 Constitutional: Endorses fatigue. Denies fevers, chills, or weight loss.\n\u2022 Cardiovascular: Endorses chest pain or dyspnea on exertion.\n\u2022 Respiratory: Endorses cough and shortness of breath.\n\u2022 Gastrointestinal: Endorses bloating.",
+    "PHYSICAL_EXAMINATION": "\u2022 Neck: JVD 8 cm.\n\u2022 Respiratory: Rales bilateral bases.\n\u2022 Cardiovascular: 3/6 systolic ejection murmur.\n\u2022 Musculoskeletal: 1+ pitting edema bilateral lower extremities.",
+    "RESULTS": "X-ray of the chest demonstrates a mild amount of fluid in the lungs.\n\nEchocardiogram demonstrates decreased ejection fraction of 45% and mild mitral regurgitation.",
+    "ASSESSMENT_PLAN": "Brian White is a 58-year-old male with a past medical history significant for congestive heart failure and hypertension, who presents today for follow up of his chronic problems.\n\nCongestive heart failure.\n\u2022 Medical Reasoning: The patient reports increased fatigue, dizziness, and chest discomfort on exertion. He also exhibits some jugular venous distention, lung base crackles, and lower extremity edema on exam today. He has been compliant with his current medications but admits to dietary indiscretion lately. His recent echocardiogram demonstrated a reduced ejection fraction of 45%, as well as mitral regurgitation.\n\u2022 Additional Testing: We will order a repeat echocardiogram.\n\u2022 Medical Treatment: Increase Lasix to 80 mg daily.\n\u2022 Patient Education and Counseling: I advised the patient to monitor and record his daily weight and report those to me via the patient portal. He will contact me should he continue to experience any dyspnea.\n\nHypertension.\n\u2022 Medical Reasoning: This is well controlled based on home monitoring.\n\u2022 Medical Treatment: Continue lisinopril 20 mg daily.\n\u2022 Patient Education and Counseling: I advised him to monitor and record his blood pressures at home and report these to me via the patient portal.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan."
+  },
+  "n_patient_turns": 36,
+  "n_clinician_turns": 37,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 28798.591166734695,
+      "response_text": "Brian, I understand how challenging it must be for you to feel fatigued and lightheaded, especially with all the construction and changes in your routine. It seems like your body is holding onto some fluid, which can happen with heart failure. To help manage this, we're increasing your diuretic medication. It's important to monitor your weight daily and keep track of how you feel. If you notice more swelling, shortness of breath, or if your symptoms worsen, please reach out to us right away. We've also scheduled another echocardiogram to check your heart function. In the meantime, try to maintain a balanced diet as much as possible. You're doing well by keeping up with your blood pressure checks and medications. We'll stay in touch and adjust your care as needed. Take care, and feel free to call if you have any questions or concerns.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 24121.307611465454,
+      "response_text": "Brian, thank you for sharing how you've been feeling. It's completely understandable that you're feeling out of sorts, especially with all the changes happening at home and the season shifting. Fatigue and lightheadedness over the past five weeks must be quite challenging, and I appreciate your honesty in discussing this with me.\n\nGiven your history of congestive heart failure, it's important to consider how fluid retention might be contributing to these symptoms. The recent changes in diet during the kitchen renovation could also be playing a role. I know it's been a bit of a struggle, but your commitment to managing your heart failure has been commendable. Let's work together to adjust your treatment plan to better manage these symptoms.\n\nDuring your physical exam, I noted some fluid retention, which is common in heart failure. To address this, we're increasing your lasix dosage to help reduce fluid buildup. I'll also be ordering another echocardiogram to monitor your heart function. It's crucial to weigh yourself daily and contact me if you notice significant weight gain or worsening symptoms like shortness of breath.\n\nMoving forward, I want you to continue monitoring your blood pressure at home as you've been doing. This will help us track any changes and ensure your hypertension remains well-managed. Please call me if you experience any new symptoms or if your current ones worsen.\n\nWe'll follow up once we receive the results of your echocardiogram. In the meantime, if you have any questions or concerns, don't hesitate to reach out. Let me know if you need any assistance with diet or medication adjustments. My goal is to support you in feeling your best and managing your health effectively.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 8759.586356580257,
+      "response_text": "It sounds like you've been feeling a bit out of sorts lately. You mentioned feeling tired and fatigued, and even experiencing some lightheadedness. I want to make sure I understand how this has been affecting your daily life.\n\nI want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if you notice any significant changes in how you're feeling, please call us.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you've been feeling a bit out of sorts lately. You mentioned feeling tired and fatigued, and even experiencing some lightheadedness. I want to make sure I understand how this has been affecting your daily life.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if you notice any significant changes in how you're feeling, please call us.",
+        "nurse_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Support",
+          "Invest in the end"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Support",
+        "Invest in the end"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 182783.7744653225,
+      "response_text": "It sounds like you're here to talk about your high blood pressure and how to manage it.\n\nHigh blood pressure is something we need to keep an eye on. Regular monitoring is a good first step to understand how it's affecting you and to see if any changes are needed in your care plan.\n\nWe'll continue to monitor your blood pressure regularly to see how it's responding to the current approach.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to check in again in a few weeks. If you notice any changes in your blood pressure readings or have any concerns in the meantime, please reach out.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're here to talk about your high blood pressure and how to manage it.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "high blood pressure",
+            "profile_path": "problems[0]",
+            "explanation": "High blood pressure is something we need to keep an eye on. Regular monitoring is a good first step to understand how it's affecting you and to see if any changes are needed in your care plan.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll continue to monitor your blood pressure regularly to see how it's responding to the current approach."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to check in again in a few weeks. If you notice any changes in your blood pressure readings or have any concerns in the meantime, please reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "high blood pressure"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 334378.13552469015,
+      "response_text": "Thank you for sharing all these concerns with me. It sounds like you're experiencing a range of symptoms that are impacting your daily life.\n\nFatigue can be caused by many different things, and since it's been ongoing for about five weeks, we'll want to look into possible causes. This might include checking your overall health and looking for any underlying issues that could be contributing to how you're feeling.\n\nShortness of breath can happen when you exert yourself, and it's something we should monitor. We'll want to see if there's an underlying cause, like heart or lung issues, that we need to address.\n\nChest pain can be concerning, and since it happens when you're exerting yourself, we'll need to evaluate it carefully. This could be related to your heart or other issues, so it's important to get it checked out.\n\nA cough can be a sign of many things, from a simple cold to something more serious. Given that it's recent and occasional, we'll keep an eye on it and see if it persists or changes.\n\nHigh blood pressure is something we're monitoring, and since you're already using a blood pressure cuff, we'll continue to track it. If it remains high, we may need to explore further management options.\n\nWe'll start by ordering some bloodwork to help identify any potential causes for your fatigue and other symptoms.\n\nA chest X-ray has been scheduled to check for any issues related to your shortness of breath and chest pain.\n\nWe'll monitor your high blood pressure with regular check-ups and adjust your management plan as needed.\n\nIf any of your symptoms worsen or if you experience new symptoms, please reach out to us as soon as possible.\n\nI want to make sure I've explained everything clearly. Can you tell me, in your own words, what we're going to do next and why it's important?\n\nLet's plan to follow up in four weeks to review the results and adjust our approach. In the meantime, if you notice any significant changes in your symptoms, like severe chest pain or difficulty breathing, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing all these concerns with me. It sounds like you're experiencing a range of symptoms that are impacting your daily life.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "fatigue",
+            "profile_path": "problems[0]",
+            "explanation": "Fatigue can be caused by many different things, and since it's been ongoing for about five weeks, we'll want to look into possible causes. This might include checking your overall health and looking for any underlying issues that could be contributing to how you're feeling.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::problems[0]::38719772_0",
+                "primary_assertion_id": "38719772_0",
+                "pmids": [
+                  "38719772"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "shortness of breath",
+            "profile_path": "problems[1]",
+            "explanation": "Shortness of breath can happen when you exert yourself, and it's something we should monitor. We'll want to see if there's an underlying cause, like heart or lung issues, that we need to address.",
+            "citations": [
+              {
+                "cluster_id": "finding::global::31237649_0",
+                "primary_assertion_id": "31237649_0",
+                "pmids": [
+                  "31237649"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "chest pain",
+            "profile_path": "problems[2]",
+            "explanation": "Chest pain can be concerning, and since it happens when you're exerting yourself, we'll need to evaluate it carefully. This could be related to your heart or other issues, so it's important to get it checked out.",
+            "citations": [
+              {
+                "cluster_id": "finding::global::31237649_0",
+                "primary_assertion_id": "31237649_0",
+                "pmids": [
+                  "31237649"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "cough",
+            "profile_path": "problems[3]",
+            "explanation": "A cough can be a sign of many things, from a simple cold to something more serious. Given that it's recent and occasional, we'll keep an eye on it and see if it persists or changes.",
+            "citations": [
+              {
+                "cluster_id": "finding::global::31237649_0",
+                "primary_assertion_id": "31237649_0",
+                "pmids": [
+                  "31237649"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "high blood pressure",
+            "profile_path": "problems[4]",
+            "explanation": "High blood pressure is something we're monitoring, and since you're already using a blood pressure cuff, we'll continue to track it. If it remains high, we may need to explore further management options.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::problems[0]::38719772_0",
+                "primary_assertion_id": "38719772_0",
+                "pmids": [
+                  "38719772"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll start by ordering some bloodwork to help identify any potential causes for your fatigue and other symptoms.",
+          "A chest X-ray has been scheduled to check for any issues related to your shortness of breath and chest pain.",
+          "We'll monitor your high blood pressure with regular check-ups and adjust your management plan as needed.",
+          "If any of your symptoms worsen or if you experience new symptoms, please reach out to us as soon as possible."
+        ],
+        "teach_back_prompt": "I want to make sure I've explained everything clearly. Can you tell me, in your own words, what we're going to do next and why it's important?",
+        "follow_up_invitation": "Let's plan to follow up in four weeks to review the results and adjust our approach. In the meantime, if you notice any significant changes in your symptoms, like severe chest pain or difficulty breathing, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "recommendation::problems[0]::38719772_0",
+          "finding::global::31237649_0"
+        ],
+        "all_pmids_used": [
+          "38719772",
+          "31237649"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 5,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "fatigue",
+          "shortness of breath",
+          "chest pain",
+          "cough",
+          "high blood pressure"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "38719772",
+        "31237649"
+      ],
+      "cluster_ids_used": [
+        "recommendation::problems[0]::38719772_0",
+        "finding::global::31237649_0"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 210372.34511226416,
+        "module_2_retrieval": 1490.1104122400284,
+        "module_3_reasoning": 81919.68373954296,
+        "module_4_response": 40595.13048827648,
+        "total_ms": 334377.2697523236
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

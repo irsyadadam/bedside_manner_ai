@@ -1,0 +1,336 @@
+{
+  "transcript_id": "aci_virtassist_D2N070",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "hey , good to see you .",
+  "patient_utterances": [
+    "[Clinician asked: \"hi logan . how are you ?\"] hey , good to see you .",
+    "[Clinician asked: \"so i know the nurse told you about dax .\"] mm-hmm .",
+    "[Clinician asked: \"i'd like to tell dax a little bit about you .\"] sure .",
+    "[Clinician asked: \"so logan is a 58 year old male , with a past medical history significant for diabetes type 2 , hypertension , osteoarthritis , who presents today with some back pain .\"] mm-hmm .",
+    "[Clinician asked: \"so logan , what happened to your back ?\"] uh , we were helping my daughter with some heavy equipment and lifted some boxes a little too quickly , and they were a little too heavy .",
+    "[Clinician asked: \"okay ... and did you strain your back , did something-\"] i thought i heard a pop when i moved and i had to lie down for about an hour before it actually relieved the pain . and then it's been a little stiff ever since . and this was- what , so today's tuesday . this was saturday morning .",
+    "[Clinician asked: \"and is it your lower back , your upper back ?\"] my lower back .",
+    "[Clinician asked: \"your lower back , okay . and what- what have you taken for the pain ?\"] i took some tylenol , i took some ibuprofen , i used a little bit of icy heat on the spot but it really did n't seem to help .",
+    "[Clinician asked: \"okay . and um ... do you have any numbing or tingling in your legs ?\"] uh ... i felt some tingling in my toes on my right foot until about sunday afternoon . and then that seemed to go away .",
+    "[Clinician asked: \"okay , and is there a position that you feel better in ?\"] uh ... it's really tough to find a comfortable spot sleeping at night . i would- i tend to lie on my right side and that seemed to help a little bit ?",
+    "[Clinician asked: \"well , um ... so how are you doing otherwise ? i know that , you know , we have some issues to talk-\"] mm-hmm .",
+    "[Clinician asked: \"about today . were you able to take any vacations over the summer ?\"] um ... some long weekends , which was great . just kind of- trying to mix it up through the summer . so lots of three day weekends .",
+    "[Clinician asked: \"um ... so let's talk a little bit about your diabetes . how are you doing with that ? i know that- you know , i remember you have a sweet tooth . so ...\"] yeah ... i-i love peanut butter cups . um ... and i have to say that when we were helping my daughter , we were on the fly and on the go and haven't had a home cooked meal in weeks, our diets were less than stellar .",
+    "and uh ... i-i think i need to go clean for a couple of weeks . but other than that , it was been- it's been pretty good eating .",
+    "[Clinician asked: \"okay , all right . and how about your high blood pressure ? are you monitoring your blood pressure readings at home , like i recommended ?\"] i'm good about it during the week while i am at home working, but on the weekends when i'm out of the house i tend to forget . uh , and so it's not as regimented , but it's been pretty good and-and under control for the most part .",
+    "[Clinician asked: \"okay , and you're you're taking your medication ?\"] yes , i am .",
+    "[Clinician asked: \"okay . and then lastly , i know that you had had some early arthritis in your knee . how- how are you doing with that ?\"] uh ... it gets aggravated every once in a while . if i- maybe if i run too much or if i've lift boxes that are a little too heavy , i start to feel the strain . but it's been okay . not great , but it's been okay .",
+    "[Clinician asked: \"have you had any other symptoms , chest pain , nausea or vomiting-\"] no .",
+    "[Clinician asked: \"fever , chills ?\"] no . no none whatsoever .",
+    "[Clinician asked: \"no . okay . all right , well let me go ahead , i want to do a quick physical exam .\"] mm-hmm .",
+    "[Clinician asked: \"so it's a little elevated . your blood pressure's a little elevated here in the office , but you know you could be in some pain , which could make your-\"] mm-hmm .",
+    "[Clinician asked: \"yeah ... yeah you know they do run a little bit on the high side , so we'll have to address that as well .\"] mm-hmm .",
+    "[Clinician asked: \"okay , well . let me- i'm just going to be listening your heart and your lungs and i'll check out your back and i'll let you know what i find , okay ?\"] sure .",
+    "[Clinician asked: \"okay , so ... on physical examination , you know , i-i do hear a slight 2 out of 6 s- s- systolic heart murmur .\"] mm-hmm .",
+    "[Clinician asked: \"on your heart exam . which you've had in the past .\"] mm-hmm .",
+    "[Clinician asked: \"on your back exam , you know , you do have some pain to palpation of the lumbar spine . and you have pain with flexion and extension of the back . and you have a negative straight leg raise , which is which is good . so , let's- let's just look at some of your results , okay ?\"] mm-hmm .",
+    "[Clinician asked: \"okay , so ... in reviewing the results of your diabetes labs , your hemoglobin a1c is a little elevated at eight . i'd like to see it a little bit better , okay ?\"] sure .",
+    "[Clinician asked: \"so in reviewing the results of your back x-ray , this looks like a normal x-ray . there's good bony alignment , there's normal uh- there's no fracture present . uh , so this is a normal x-ray of your back , which is not surprising based on-\"] mm-hmm .",
+    "[Clinician asked: \"the history , okay ?\"] mm-hmm .",
+    "[Clinician asked: \"so for your first problem , your back pain . you know , i think you have a lumbar strain from the lifting . so , let's go ahead . we can prescribe you some meloxicam 15 mg once a day .\"] mm-hmm .",
+    "[Clinician asked: \"i want you to continue to ice it , okay . i want you to try to avoid any strenuous activity and we can go ahead and- and refer you to physical therapy-\"] mm-hmm .",
+    "[Clinician asked: \"and see how you do , okay ?\"] you got it .",
+    "[Clinician asked: \"for your next problem , your diabetes . y-you know , i think it's a little under- out of control . so i want to increase the metformin to 1000 mg twice a day . and i'm going to um ... um ... i'm going to repeat a hemoglobin a1c in about 6 months , okay ?\"] mm-hmm .",
+    "[Clinician asked: \"so , for your third problem , your hypertension . uh ... i-i'd like to go ahead increase the lisinopril from 10 mg to 20 mg a day .\"] mm-hmm .",
+    "[Clinician asked: \"does that sound okay ? i think we need to get it under better control .\"] no that's fine . i agree .",
+    "[Clinician asked: \"and for your last problem , your osteoarthritis , i-i think that you were doing a really good job , in terms of you know what , monitoring your knee and uh ...\"] mm-hmm .",
+    "[Clinician asked: \"i do n't think we need to do any- any further , you know , work up of that at this time , okay ?\"] mm-hmm .",
+    "[Clinician asked: \"do you have any questions logan ?\"] not at this point .",
+    "[Clinician asked: \"so the nurse will come in to help you get checked out , okay ?\"] you got it ."
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nBack pain.\n\nHISTORY OF PRESENT ILLNESS\n\nMr. Logan Walker is a 58-year-old male with a past medical history significant for diabetes type 2, hypertension, and osteoarthritis, who presents today with back pain.\n\nMr. Walker reports that he was helping his daughter move some heavy equipment and lifted some heavy boxes a little too quickly on Saturday. He thought he heard a pop when he moved and he had to lie down for about an hour before his pain resolved. He has had stiffness ever since. The pain is located in his lower back. He took Tylenol, ibuprofen, and used Icy Hot on the area, but it did not seem to help. The patient endorses some tingling in his toes on his right foot, which resolved Sunday afternoon. He finds it difficult to find a comfortable position to sleep at night, and he tends to lie on his right side, which seems to help a little bit.\n\nRegarding his diabetes type 2, Mr. Walker reports that he has not cooked a meal at home in weeks, due to travel. He notes that his diet has not been great, and he thinks he needs to eat clean for a couple of weeks.\n\nHe monitors his blood pressure at home and it is under control for the most part.\n\nRegarding his osteoarthritis, Mr. Walker reports occasional aggravation of his knee when he runs too much or lifts boxes that are too heavy.\n\nThe patient denies chest pain, nausea, vomiting, fevers, and chills.\n\nREVIEW OF SYSTEMS\n\n\u2022 Constitutional: Denies fevers, chills.\n\u2022 Cardiovascular: Denies chest pain.\n\u2022 Musculoskeletal: Endorses back pain and stiffness. Endorses knee pain with exertion.\n\u2022 Neurological: Endorsed tingling in toes until Sunday, denies tingling today.\n\nPHYSICAL EXAMINATION\n\n\u2022 Cardiovascular: Slight 2/6 systolic ejection murmur.\n\u2022 Musculoskeletal: Pain to palpation of the lumbar spine. Pain with flexion and extension of the back. Negative straight leg raise.\n\nVITALS REVIEWED\n\n\u2022 Blood Pressure: Elevated\n\nRESULTS\n\nHemoglobin A1c is elevated at 8.\n\nX-ray of the back is unremarkable. Normal bony alignment. No fracture present.\n\nASSESSMENT AND PLAN\n\nMr. Logan Walker is a 58-year-old male with a past medical history significant for diabetes type 2, hypertension, and osteoarthritis, who presents today with low back pain.\n\nLumbar strain.\n\u2022 Medical Reasoning: He injured his lower back while moving heavy boxes. His recent x-ray was unremarkable.\n\u2022 Medical Treatment: Initiate meloxicam 15 mg once a day.\n\u2022 Specialist Referrals: Referral to physical therapy.\n\u2022 Patient Education and Counseling: He was encouraged to continue icing the area and avoid strenuous activity.\n\nDiabetes type 2.\n\u2022 Medical Reasoning: His recent hemoglobin A1c was elevated at 8. He does admit to some dietary indiscretion lately.\n\u2022 Additional Testing: Repeat hemoglobin A1c in 6 months.\n\u2022 Medical Treatment: Increase metformin to 1000 mg twice a day.\n\nHypertension.\n\u2022 Medical Reasoning: His blood pressures have been slightly elevated based on home monitoring and in clinic today.\n\u2022 Medical Treatment: Increase lisinopril from 10 mg to 20 mg a day.\n\nOsteoarthritis.\n\u2022 Medical Reasoning: This is mostly well controlled.\n\u2022 Medical Treatment: Continue to monitor the knee. No further work up is needed at this time.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.",
+  "gold_sections": {
+    "CC": "Back pain.",
+    "HPI": "Mr. Logan Walker is a 58-year-old male with a past medical history significant for diabetes type 2, hypertension, and osteoarthritis, who presents today with back pain.\n\nMr. Walker reports that he was helping his daughter move some heavy equipment and lifted some heavy boxes a little too quickly on Saturday. He thought he heard a pop when he moved and he had to lie down for about an hour before his pain resolved. He has had stiffness ever since. The pain is located in his lower back. He took Tylenol, ibuprofen, and used Icy Hot on the area, but it did not seem to help. The patient endorses some tingling in his toes on his right foot, which resolved Sunday afternoon. He finds it difficult to find a comfortable position to sleep at night, and he tends to lie on his right side, which seems to help a little bit.\n\nRegarding his diabetes type 2, Mr. Walker reports that he has not cooked a meal at home in weeks, due to travel. He notes that his diet has not been great, and he thinks he needs to eat clean for a couple of weeks.\n\nHe monitors his blood pressure at home and it is under control for the most part.\n\nRegarding his osteoarthritis, Mr. Walker reports occasional aggravation of his knee when he runs too much or lifts boxes that are too heavy.\n\nThe patient denies chest pain, nausea, vomiting, fevers, and chills.",
+    "ROS": "\u2022 Constitutional: Denies fevers, chills.\n\u2022 Cardiovascular: Denies chest pain.\n\u2022 Musculoskeletal: Endorses back pain and stiffness. Endorses knee pain with exertion.\n\u2022 Neurological: Endorsed tingling in toes until Sunday, denies tingling today.",
+    "PHYSICAL_EXAMINATION": "\u2022 Cardiovascular: Slight 2/6 systolic ejection murmur.\n\u2022 Musculoskeletal: Pain to palpation of the lumbar spine. Pain with flexion and extension of the back. Negative straight leg raise.",
+    "VITALS_REVIEWED": "\u2022 Blood Pressure: Elevated",
+    "RESULTS": "Hemoglobin A1c is elevated at 8.\n\nX-ray of the back is unremarkable. Normal bony alignment. No fracture present.",
+    "ASSESSMENT_PLAN": "Mr. Logan Walker is a 58-year-old male with a past medical history significant for diabetes type 2, hypertension, and osteoarthritis, who presents today with low back pain.\n\nLumbar strain.\n\u2022 Medical Reasoning: He injured his lower back while moving heavy boxes. His recent x-ray was unremarkable.\n\u2022 Medical Treatment: Initiate meloxicam 15 mg once a day.\n\u2022 Specialist Referrals: Referral to physical therapy.\n\u2022 Patient Education and Counseling: He was encouraged to continue icing the area and avoid strenuous activity.\n\nDiabetes type 2.\n\u2022 Medical Reasoning: His recent hemoglobin A1c was elevated at 8. He does admit to some dietary indiscretion lately.\n\u2022 Additional Testing: Repeat hemoglobin A1c in 6 months.\n\u2022 Medical Treatment: Increase metformin to 1000 mg twice a day.\n\nHypertension.\n\u2022 Medical Reasoning: His blood pressures have been slightly elevated based on home monitoring and in clinic today.\n\u2022 Medical Treatment: Increase lisinopril from 10 mg to 20 mg a day.\n\nOsteoarthritis.\n\u2022 Medical Reasoning: This is mostly well controlled.\n\u2022 Medical Treatment: Continue to monitor the knee. No further work up is needed at this time.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan."
+  },
+  "n_patient_turns": 39,
+  "n_clinician_turns": 56,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 23014.28534090519,
+      "response_text": "Logan, thank you for sharing your concerns with me. It sounds like the back pain you're experiencing is due to a lumbar strain from lifting those heavy boxes. I understand how uncomfortable that must be, and I'm glad the tingling in your foot has subsided. The treatment plan we discussed, including the medication and physical therapy referral, should help alleviate the pain and stiffness. Remember to continue icing and avoid heavy lifting for now.\n\nRegarding your diabetes and hypertension, the adjustments to your medications are aimed at helping you maintain better control. I encourage you to stay consistent with monitoring your blood pressure and keeping up with your physical therapy. If you have any concerns or need further clarification, please don't hesitate to reach out. You're doing well with managing your health, and I'm here to support you through this process. Take care, and feel better soon.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 28872.291088104248,
+      "response_text": "Thank you for sharing all of this with me, Logan. It sounds like you've been putting a lot of effort into managing your health, especially with your diabetes and blood pressure. I can see how the back pain and trouble sleeping must be frustrating, especially after all the heavy lifting you did helping your daughter.\n\nFrom what I understand, the main concerns are your back pain and the slight elevation in your blood pressure and blood sugar levels. The physical exam and imaging suggest a lumbar strain from the lifting, which is a common issue after such an activity. The good news is that the x-ray didn't show any fractures or serious issues, which is reassuring.\n\nFor the back pain, we'll start with meloxicam to help with inflammation and continue icing and avoiding heavy lifting. Physical therapy will be a good next step to help strengthen your back muscles and improve flexibility. For your diabetes, increasing the Metformin dosage should help bring your blood sugar levels under better control, and I'll check your hemoglobin A1c in six months. We'll also adjust your blood pressure medication to help get your readings back on track.\n\nLet's make sure you're comfortable with this plan. Could you summarize what we've discussed so far? That will help ensure I've covered everything clearly. We'll schedule a follow-up in six weeks to monitor your progress and adjust any treatments as needed. Please don't hesitate to reach out if you have any questions or concerns in the meantime.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7113.0088195204735,
+      "response_text": "It sounds like you've been dealing with some back pain and other health concerns. I'm here to help address these issues and work together on a plan.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 4 weeks. In the meantime, if you get new symptoms like severe pain, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you've been dealing with some back pain and other health concerns. I'm here to help address these issues and work together on a plan.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 4 weeks. In the meantime, if you get new symptoms like severe pain, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 201124.8773932457,
+      "response_text": "I can see how frustrating this must be for you. You mentioned it's really tough to find a comfortable spot sleeping at night, and I want to make sure we address that.\n\nThe back pain you're experiencing, especially with stiffness, could be related to several factors. We'll need to explore this further to understand the underlying cause.\n\nThe tingling in your right foot has resolved, but it's still something we should keep an eye on in case it comes back or if there's an underlying issue.\n\nKnee arthritis can sometimes cause discomfort, and we'll monitor how it progresses to ensure we're providing the right support.\n\nYour goal to clean for a couple of weeks is important, and we'll work together to find ways to help you manage your health during this time.\n\nWe'll schedule a follow-up to monitor your back pain and discuss any new symptoms you experience.\n\nIf the tingling in your foot returns, please let us know immediately so we can address it promptly.\n\nWe'll keep an eye on your knee arthritis and adjust our approach as needed.\n\nI want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if your back pain gets worse or you experience any new symptoms, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I can see how frustrating this must be for you. You mentioned it's really tough to find a comfortable spot sleeping at night, and I want to make sure we address that.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "back pain",
+            "profile_path": "problems[0]",
+            "explanation": "The back pain you're experiencing, especially with stiffness, could be related to several factors. We'll need to explore this further to understand the underlying cause.",
+            "citations": []
+          },
+          {
+            "concern_label": "tingling in right foot",
+            "profile_path": "problems[1]",
+            "explanation": "The tingling in your right foot has resolved, but it's still something we should keep an eye on in case it comes back or if there's an underlying issue.",
+            "citations": []
+          },
+          {
+            "concern_label": "knee arthritis",
+            "profile_path": "problems[2]",
+            "explanation": "Knee arthritis can sometimes cause discomfort, and we'll monitor how it progresses to ensure we're providing the right support.",
+            "citations": []
+          },
+          {
+            "concern_label": "clean for a couple of weeks",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Your goal to clean for a couple of weeks is important, and we'll work together to find ways to help you manage your health during this time.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll schedule a follow-up to monitor your back pain and discuss any new symptoms you experience.",
+          "If the tingling in your foot returns, please let us know immediately so we can address it promptly.",
+          "We'll keep an eye on your knee arthritis and adjust our approach as needed."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if your back pain gets worse or you experience any new symptoms, please call us right away.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 3,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 1,
+        "problems": [
+          "back pain",
+          "tingling in right foot",
+          "knee arthritis"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 241159.33176130056,
+      "response_text": "I can see how frustrating this must be for you. You mentioned, \"It's really tough to find a comfortable spot sleeping at night,\" and I want to acknowledge how that must be affecting your daily life.\n\nThe pain you're experiencing is common and can be tricky to manage. Research shows that while opioids might help in the short term, they aren't always better than other pain relievers like ibuprofen or acetaminophen, and they can have more risks.\n\nThe tingling you experienced has resolved, but it's good we checked it out. This kind of symptom can sometimes be related to nerve issues, which we can monitor for any changes.\n\nFor knee arthritis, staying active is key. Studies show that regular exercise can help reduce the risk of falls and improve overall mobility, which is especially important for someone your age with arthritis.\n\nSetting a goal to clean can be a great way to organize your space. It's also a good time to focus on your health, like incorporating some light exercise which can help manage chronic conditions like diabetes and high blood pressure.\n\nWe'll monitor your back pain and see if the current treatments continue to help. If not, we can explore other options together.\n\nSince the tingling has resolved, we'll keep an eye on it during follow-ups.\n\nFor your knee arthritis, let's plan some gentle exercises to help with mobility and reduce the risk of falls.\n\nLet's schedule a follow-up in a few weeks to check on your progress and adjust any plans as needed.\n\nI want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if the back pain gets worse or you notice any new symptoms, please call us so we can address them promptly.",
+      "structured_response": {
+        "acknowledgment": "I can see how frustrating this must be for you. You mentioned, \"It's really tough to find a comfortable spot sleeping at night,\" and I want to acknowledge how that must be affecting your daily life.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "back pain",
+            "profile_path": "problems[0]",
+            "explanation": "The pain you're experiencing is common and can be tricky to manage. Research shows that while opioids might help in the short term, they aren't always better than other pain relievers like ibuprofen or acetaminophen, and they can have more risks.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[0]::36252245_0",
+                "primary_assertion_id": "36252245_0",
+                "pmids": [
+                  "36252245"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "tingling in right foot",
+            "profile_path": "problems[1]",
+            "explanation": "The tingling you experienced has resolved, but it's good we checked it out. This kind of symptom can sometimes be related to nerve issues, which we can monitor for any changes.",
+            "citations": []
+          },
+          {
+            "concern_label": "knee arthritis",
+            "profile_path": "problems[2]",
+            "explanation": "For knee arthritis, staying active is key. Studies show that regular exercise can help reduce the risk of falls and improve overall mobility, which is especially important for someone your age with arthritis.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::sub_query[2]::38833246_0",
+                "primary_assertion_id": "38833246_0",
+                "pmids": [
+                  "38833246"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "go clean for a couple of weeks",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Setting a goal to clean can be a great way to organize your space. It's also a good time to focus on your health, like incorporating some light exercise which can help manage chronic conditions like diabetes and high blood pressure.",
+            "citations": [
+              {
+                "cluster_id": "finding::global::39232663_0",
+                "primary_assertion_id": "39232663_0",
+                "pmids": [
+                  "39232663"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll monitor your back pain and see if the current treatments continue to help. If not, we can explore other options together.",
+          "Since the tingling has resolved, we'll keep an eye on it during follow-ups.",
+          "For your knee arthritis, let's plan some gentle exercises to help with mobility and reduce the risk of falls.",
+          "Let's schedule a follow-up in a few weeks to check on your progress and adjust any plans as needed."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if the back pain gets worse or you notice any new symptoms, please call us so we can address them promptly.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[0]::36252245_0",
+          "recommendation::sub_query[2]::38833246_0",
+          "finding::global::39232663_0"
+        ],
+        "all_pmids_used": [
+          "36252245",
+          "38833246",
+          "39232663"
+        ],
+        "glossary_substitutions": [
+          {
+            "field": "clinical_information_per_concern[3].explanation",
+            "original": "hypertension",
+            "plain": "high blood pressure",
+            "count": 1
+          }
+        ]
+      },
+      "profile_summary": {
+        "n_problems": 3,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 1,
+        "problems": [
+          "back pain",
+          "tingling in right foot",
+          "knee arthritis"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "36252245",
+        "38833246",
+        "39232663"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[0]::36252245_0",
+        "recommendation::sub_query[2]::38833246_0",
+        "finding::global::39232663_0"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 176166.20851308107,
+        "module_2_retrieval": 1308.1709742546082,
+        "module_3_reasoning": 29813.36137652397,
+        "module_4_response": 33870.81513553858,
+        "total_ms": 241158.55599939823
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

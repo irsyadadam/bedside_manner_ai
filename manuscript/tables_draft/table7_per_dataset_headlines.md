@@ -24,15 +24,15 @@ Higher is better unless marked ↓. Strict-anchor hallucination includes legitim
 | Retrieval only | 235 | 18% | 46% | 0.26 | 1.52 | 2.44 | 0.289 | 0.016 |
 | **Full pipeline** | 229 | 26% | 54% | 0.86 | 1.69 | 2.57 | 0.283 | 0.020 |
 
-## ACI-Bench (n=153 transcripts)
+## ACI-Bench (n=205 transcripts)
 
 | Condition | n | Safety pass | autoDx pass | PMIDs / resp | NURSE n | 4H n | Halluc strict ↓ | Halluc sem ↓ |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Naive baseline | 153 | 2% | 37% | 0.00 | 0.00 | 0.00 | 0.000 | — |
-| Strong-prompt baseline | 153 | 9% | 54% | 0.00 | 0.00 | 0.00 | 0.000 | — |
-| Framework only | 152 | 39% | 81% | 0.00 | 1.13 | 2.01 | 0.000 | — |
-| Retrieval only | 148 | 29% | 81% | 0.43 | 1.84 | 2.83 | 0.196 | 0.016 |
-| **Full pipeline** | 148 | 30% | 74% | 1.49 | 2.14 | 2.93 | 0.191 | 0.028 |
+| Naive baseline | 205 | 3% | 40% | 0.00 | 0.00 | 0.00 | 0.000 | — |
+| Strong-prompt baseline | 205 | 12% | 58% | 0.00 | 0.00 | 0.00 | 0.000 | — |
+| Framework only | 204 | 41% | 82% | 0.00 | 1.14 | 2.02 | 0.000 | — |
+| Retrieval only | 198 | 30% | 82% | 0.44 | 1.86 | 2.85 | 0.182 | 0.023 |
+| **Full pipeline** | 199 | 35% | 77% | 1.48 | 2.20 | 2.95 | 0.181 | 0.031 |
 
 ## Column definitions
 

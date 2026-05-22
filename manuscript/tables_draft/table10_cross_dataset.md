@@ -8,5 +8,5 @@ Headline metrics for the Full pipeline vs. the Strong-prompt baseline across Pri
 | primock57 | Full pipeline | 55 | 0.096 | 0.137 | 0.325 | 0.000 | 0.58 | 2.2 | 3.3 |
 | mts_dialog | Strong-prompt baseline | 235 | 0.082 | 0.687 | 0.000 | — | 0.22 | 0.0 | 0.0 |
 | mts_dialog | Full pipeline | 229 | 0.079 | 0.656 | 0.283 | 0.020 | 0.26 | 1.7 | 2.6 |
-| aci_bench | Strong-prompt baseline | 153 | 0.130 | 0.198 | 0.000 | — | 0.09 | 0.0 | 0.0 |
-| aci_bench | Full pipeline | 148 | 0.117 | 0.140 | 0.191 | 0.028 | 0.30 | 2.1 | 2.9 |
+| aci_bench | Strong-prompt baseline | 205 | 0.132 | 0.200 | 0.000 | — | 0.12 | 0.0 | 0.0 |
+| aci_bench | Full pipeline | 199 | 0.119 | 0.140 | 0.181 | 0.031 | 0.35 | 2.2 | 3.0 |

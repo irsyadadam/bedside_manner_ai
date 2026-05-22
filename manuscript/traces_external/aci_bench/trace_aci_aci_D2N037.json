@@ -1,0 +1,307 @@
+{
+  "transcript_id": "aci_aci_D2N037",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "actually it's both my elbows but my right elbow is hurting me the most",
+  "patient_utterances": [
+    "[Clinician asked: \"hey dylan what's going on so i lift quite a bit of weights i try to stay in shape as much as i can i'm not like normal people i lift heavy weights and my elbow is extremely sore which elbow is it\"] actually it's both my elbows but my right elbow is hurting me the most",
+    "[Clinician asked: \"okay and you said you lift a lot of weights\"] mm-hmm",
+    "[Clinician asked: \"did you play any sports when you were younger\"] no anything you can think of primarily it was basketball baseball and football",
+    "[Clinician asked: \"okay and did your elbows hurt at that time or is this a a new injury\"] it's new",
+    "[Clinician asked: \"when did it start\"] probably year and a half ago",
+    "[Clinician asked: \"okay on both elbows about a year and a half ago\"] yeah",
+    "[Clinician asked: \"okay have you taken anything for the pain\"] ibuprofen eight hundred milligrams three times a day",
+    "[Clinician asked: \"okay and does anything make it better or worse\"] the more i use my hands or my arms the more it hurts",
+    "[Clinician asked: \"okay have you tried icing\"] yes",
+    "[Clinician asked: \"does that give you any relief\"] no",
+    "[Clinician asked: \"alright is it the inside or outside of your elbows\"] inside",
+    "[Clinician asked: \"inside okay let's just do a quick physical exam here i'll take a look at your right elbow first\"] mm-hmm",
+    "[Clinician asked: \"if i bend it this way up does it hurt it's your left does that hurt\"] yes",
+    "[Clinician asked: \"how about this\"] yes",
+    "[Clinician asked: \"okay so pain with both flexion and extension\"] mm-hmm",
+    "[Clinician asked: \"looks like you have little bit of limited range of motion on extension not on flexion though you said it hurts right here on the inside of your elbow\"] yes",
+    "[Clinician asked: \"okay so pain on the medial side with palpation\"] yes",
+    "[Clinician asked: \"alright how about the outside\"] no",
+    "[Clinician asked: \"no pain with palpation outside of the elbow you have do you have normal sensation in your fingers\"] i think so",
+    "[Clinician asked: \"yeah\"] yeah",
+    "[Clinician asked: \"okay great\"] good to go",
+    "[Clinician asked: \"sensation is normal to the touch\"] yes",
+    "[Clinician asked: \"pulses equal in all extremities how about the left elbow same thing if i bend it this way does that hurt\"] not as much",
+    "[Clinician asked: \"how about this way\"] not as much",
+    "[Clinician asked: \"alright so little bit of pain on flexion and extension little bit of limited range of motion on extension of the arm how about if you twist like you're opening a door\"] yes",
+    "[Clinician asked: \"okay so some pain with torsion and twisting supination what about pronation\"] no",
+    "[Clinician asked: \"no pain with pronation on the right side\"] mm-hmm",
+    "[Clinician asked: \"same thing on the left\"] yes",
+    "[Clinician asked: \"pain with supination no pain with pronation\"] correct",
+    "[Clinician asked: \"alright so dylan it took some x-rays coming in looks like you do n't have any any fractures or any bony misalignment which i expect with this kind of injury i do think that what you have is medial epicondylitis which is\"] is that golfer's elbow",
+    "[Clinician asked: \"yes same thing have you been golfing a lot\"] well not in the past year and a half i've had this for a long time",
+    "[Clinician asked: \"okay also known as pictures elbow\"] well i have n't been pitching either",
+    "[Clinician asked: \"hmmm well in any case what i'm gon na have to do is i'm gon na send you up for mri to take another look at this\"] mm-hmm",
+    "[Clinician asked: \"that will be our next step so we'll get you scheduled for the mri probably get you in pretty quick here since we're a private practice\"] thank god",
+    "[Clinician asked: \"yeah and once you get the mri i'll know a little bit more what i'd like to do is something called a whole blood transfusion have you heard of that before\"] no please tell me remind me",
+    "[Clinician asked: \"yeah it should help with the healing of your elbow it's just a procedure we'll stick a needle in your elbow\"] you do a stick needle in my elbow",
+    "[Clinician asked: \"mm-hmm and help with some of the healing of your elbow\"] so it's kinda like dry needling then",
+    "[Clinician asked: \"no\"] not at all",
+    "[Clinician asked: \"what is it\"] is it is that that thing where like you take the blood out of like say my my thigh",
+    "[Clinician asked: \"mm-hmm\"] and then you literally inject it into my tendon",
+    "[Clinician asked: \"yes\"] that it activates the healing",
+    "[Clinician asked: \"yeah that's exactly what it is\"] interesting cool",
+    "[Clinician asked: \"yeah\"] maybe i have heard about that",
+    "[Clinician asked: \"we've we've had some really good responses from other patients on it so hopefully i mean that should be a good solution for you since you've been having issues with this\"] i'm excited",
+    "[Clinician asked: \"yeah and we can hopefully get you scheduled for that in the next couple of weeks it's not not a major procedure and you should heal in the next two weeks so that wo n't be a problem especially considering that you're expecting a newborn soon we want to make sure you're all healed for that\"] wow i did n't even say that",
+    "[Clinician asked: \"i read it in your chart\"] man you doctors are good",
+    "[Clinician asked: \"yeah anything else going on today\"] just trying to figure out how you're doing",
+    "[Clinician asked: \"very good thank you\"] you're welcome",
+    "[Clinician asked: \"nice to see you\"] you have a good day"
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nBilateral elbow pain, right worse than left.\n\nHISTORY OF PRESENT ILLNESS\n\nDylan Bennett is a pleasant 53-year-old male who presents to the clinic today for the evaluation of bilateral elbow pain, right worse than left.\n\nThe patient has been experiencing bilateral elbow pain, right worse than left, for approximately 1.5 years. His pain is localized to the medial aspect of his elbows and is described as being extremely sore, worse with increased use of his upper extremities. Of note, he utilizes heavy weights for strength training and was very active in sports when he was younger, primarily playing basketball, baseball, and football, but he denies having any pain at that time. Applying ice to the area has not been helpful, but he does use ibuprofen 800 mg 3 times daily.\n\nSOCIAL HISTORY\n\nThe patient reports that utilizes heavy weights for strength training. He was also very active in sports when he was younger, primarily playing basketball, baseball, and football.\n\nHe is expecting a newborn baby in the near future.\n\nMEDICATIONS\n\nThe patient reports that he has been taking ibuprofen 800 mg 3 times daily.\n\nREVIEW OF SYSTEMS\n\nMusculoskeletal: Reports bilateral elbow pain, right worse than left.\n\nPHYSICAL EXAM\n\nCV: Pulses are equal in all extremities.\nNEURO: Sensation is normal to light touch distally.\nMSK: \nExamination of the right elbow: Limited range of motion with extension with pain. Full range of motion with flexion with pain. Pain to palpation along the medial aspect. No pain to palpation on the lateral aspect of the elbow. Pain with supination. No pain with pronation.\nExamination of the left elbow: minimal pain with flexion and extension Slight Limited ROM on extension of the arm. Pain with supination. No pain with pronation.\n\nRESULTS\n\nX-ray images of the bilateral elbows were obtained and review in office today. These reveal no evidence of fracture or bony misalignment.\n\nASSESSMENT\n\nBilateral medial epicondylitis.\n\nPLAN\n\nAfter reviewing the patient's examination and radiographic findings today, we had a lengthy discussion in regards to his current symptoms. I want to get an MRI of the bilateral elbows for further evaluation. We discussed the possibility of performing a whole blood transfusion to encourage healing, and the patient is already familiar with this procedure.",
+  "gold_sections": {
+    "CC": "Bilateral elbow pain, right worse than left.",
+    "HPI": "Dylan Bennett is a pleasant 53-year-old male who presents to the clinic today for the evaluation of bilateral elbow pain, right worse than left.\n\nThe patient has been experiencing bilateral elbow pain, right worse than left, for approximately 1.5 years. His pain is localized to the medial aspect of his elbows and is described as being extremely sore, worse with increased use of his upper extremities. Of note, he utilizes heavy weights for strength training and was very active in sports when he was younger, primarily playing basketball, baseball, and football, but he denies having any pain at that time. Applying ice to the area has not been helpful, but he does use ibuprofen 800 mg 3 times daily.",
+    "SOCIAL_HISTORY": "The patient reports that utilizes heavy weights for strength training. He was also very active in sports when he was younger, primarily playing basketball, baseball, and football.\n\nHe is expecting a newborn baby in the near future.",
+    "MEDICATIONS": "The patient reports that he has been taking ibuprofen 800 mg 3 times daily.",
+    "ROS": "Musculoskeletal: Reports bilateral elbow pain, right worse than left.",
+    "PHYSICAL_EXAM": "CV: Pulses are equal in all extremities.\nNEURO: Sensation is normal to light touch distally.\nMSK: \nExamination of the right elbow: Limited range of motion with extension with pain. Full range of motion with flexion with pain. Pain to palpation along the medial aspect. No pain to palpation on the lateral aspect of the elbow. Pain with supination. No pain with pronation.\nExamination of the left elbow: minimal pain with flexion and extension Slight Limited ROM on extension of the arm. Pain with supination. No pain with pronation.",
+    "RESULTS": "X-ray images of the bilateral elbows were obtained and review in office today. These reveal no evidence of fracture or bony misalignment.",
+    "ASSESSMENT": "Bilateral medial epicondylitis.",
+    "PLAN": "After reviewing the patient's examination and radiographic findings today, we had a lengthy discussion in regards to his current symptoms. I want to get an MRI of the bilateral elbows for further evaluation. We discussed the possibility of performing a whole blood transfusion to encourage healing, and the patient is already familiar with this procedure."
+  },
+  "n_patient_turns": 49,
+  "n_clinician_turns": 49,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 14347.84734249115,
+      "response_text": "I understand how frustrating it must be to deal with this elbow pain for so long, especially when it's affecting your ability to do the things you enjoy and stay active. It\u2019s good that we were able to identify the issue and that we have some next steps to address it. The MRI will give us a clearer picture, and the whole blood transfusion sounds like a promising approach to help your elbow heal. I know waiting for treatments can be tough, but I\u2019m confident this will help you get back to your routine, including welcoming your newborn soon. We\u2019ll be here every step of the way to support you. Let me know if you have any questions or concerns in the meantime.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 20095.337942242622,
+      "response_text": "Thanks for sharing all that, Dylan. It sounds like this elbow pain has been taking a toll on you, especially with how active you are and with the baby on the way. I can understand how frustrating it must be to deal with this for over a year and a half, especially when it\u2019s affecting your ability to lift weights and go about your daily routine.\n\nFrom what you\u2019ve described, the pain on the inside of your elbows, along with the limited range of motion and tenderness, points toward medial epicondylitis, also known as golfer\u2019s elbow. This is a common overuse injury that can develop from repetitive activities like lifting weights. The fact that the pain gets worse with hand and arm use, and that ibuprofen hasn\u2019t fully helped, makes me think we should explore further options to get you back to your normal activities.\n\nWe\u2019ll start with an MRI to get a clearer picture of what\u2019s going on. In the meantime, I\u2019d like to consider a treatment called platelet-rich plasma (PRP) therapy. This involves taking a small sample of your blood, concentrating the platelets, and then injecting it into the affected area to promote healing [PMID ?]. It\u2019s been effective for many patients with similar issues and could help reduce your pain and improve mobility.\n\nWe\u2019ll schedule the MRI and PRP procedure for you in the next couple of weeks. In the meantime, if you have any questions or concerns, please don\u2019t hesitate to reach out. I\u2019ll follow up with you in a week to check in on your progress and answer any questions you might have.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 8558.429382741451,
+      "response_text": "Thank you for sharing your concerns about your elbow pain. It sounds like this has been going on for a while and is affecting your ability to lift weights, which is an important part of your routine.\n\nWe'll schedule an MRI to get a better look at your elbow and discuss the next steps based on those results. We'll also explore other treatment options to help alleviate your pain and restore your mobility.\n\nCan you tell me in your own words what we're planning to do next to address your elbow pain?\n\nLet's plan to follow up in a week to review the MRI results and discuss your treatment options. If your pain worsens or you experience any new symptoms, please reach out sooner.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns about your elbow pain. It sounds like this has been going on for a while and is affecting your ability to lift weights, which is an important part of your routine.",
+        "clinical_information_per_concern": [],
+        "next_steps": [
+          "We'll schedule an MRI to get a better look at your elbow and discuss the next steps based on those results. We'll also explore other treatment options to help alleviate your pain and restore your mobility."
+        ],
+        "teach_back_prompt": "Can you tell me in your own words what we're planning to do next to address your elbow pain?",
+        "follow_up_invitation": "Let's plan to follow up in a week to review the MRI results and discuss your treatment options. If your pain worsens or you experience any new symptoms, please reach out sooner.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 172038.60945999622,
+      "response_text": "It sounds like your elbow pain has been going on for quite some time, and it's currently extremely sore. I want to understand how this is affecting your daily life.\n\nElbow pain that has lasted for a year and a half and is currently extremely sore can be due to several causes. The current guidance suggests evaluating the pain through a systematic approach to determine the best treatment options.\n\nWe'll schedule a follow-up visit to further assess your elbow pain and discuss the next steps for managing it.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if your elbow pain gets worse or you experience any new symptoms, please call us so we can address them promptly.",
+      "structured_response": {
+        "acknowledgment": "It sounds like your elbow pain has been going on for quite some time, and it's currently extremely sore. I want to understand how this is affecting your daily life.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "elbow pain",
+            "profile_path": "problems[0]",
+            "explanation": "Elbow pain that has lasted for a year and a half and is currently extremely sore can be due to several causes. The current guidance suggests evaluating the pain through a systematic approach to determine the best treatment options.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::31846019",
+                "primary_assertion_id": "31846019_retr",
+                "pmids": [
+                  "31846019"
+                ]
+              },
+              {
+                "cluster_id": "retrieval_only::39104080",
+                "primary_assertion_id": "39104080_retr",
+                "pmids": [
+                  "39104080"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll schedule a follow-up visit to further assess your elbow pain and discuss the next steps for managing it."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if your elbow pain gets worse or you experience any new symptoms, please call us so we can address them promptly.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "retrieval_only::31846019",
+          "retrieval_only::39104080"
+        ],
+        "all_pmids_used": [
+          "31846019",
+          "39104080"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 1,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "elbow pain"
+        ],
+        "medications": [
+          "ibuprofen (800 mg, three times a day)"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [
+        "31846019",
+        "39104080"
+      ],
+      "cluster_ids_used": [
+        "retrieval_only::31846019",
+        "retrieval_only::39104080"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 193085.88330447674,
+      "response_text": "It sounds like your elbow pain has been going on for quite some time, and it's been really bothering you. I want to understand how this has been affecting your daily life.\n\nBased on the information provided, it seems like your elbow pain has been persistent and severe. Research suggests that a combination of clinical evaluation and patient-reported outcomes can help assess and manage such pain effectively. Additionally, studies indicate that many individuals with chronic pain may benefit from patient-centered approaches that include exercise and psychological support.\n\nWe'll schedule a follow-up appointment to further assess your elbow pain and discuss appropriate management strategies.\n\nIn the meantime, continue monitoring your symptoms and let us know if there are any changes.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if your pain worsens or if you experience any new symptoms, please call us so we can address them promptly.",
+      "structured_response": {
+        "acknowledgment": "It sounds like your elbow pain has been going on for quite some time, and it's been really bothering you. I want to understand how this has been affecting your daily life.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "elbow pain",
+            "profile_path": "problems[0]",
+            "explanation": "Based on the information provided, it seems like your elbow pain has been persistent and severe. Research suggests that a combination of clinical evaluation and patient-reported outcomes can help assess and manage such pain effectively. Additionally, studies indicate that many individuals with chronic pain may benefit from patient-centered approaches that include exercise and psychological support.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::sub_query[0]::35190445_0",
+                "primary_assertion_id": "35190445_0",
+                "pmids": [
+                  "35190445"
+                ]
+              },
+              {
+                "cluster_id": "recommendation::sub_query[0]::39104080_2",
+                "primary_assertion_id": "39104080_2",
+                "pmids": [
+                  "39104080"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll schedule a follow-up appointment to further assess your elbow pain and discuss appropriate management strategies.",
+          "In the meantime, continue monitoring your symptoms and let us know if there are any changes."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if your pain worsens or if you experience any new symptoms, please call us so we can address them promptly.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "recommendation::sub_query[0]::35190445_0",
+          "recommendation::sub_query[0]::39104080_2"
+        ],
+        "all_pmids_used": [
+          "35190445",
+          "39104080"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 1,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "elbow pain"
+        ],
+        "medications": [
+          "ibuprofen (800 mg, three times a day)"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [
+        "35190445",
+        "39104080"
+      ],
+      "cluster_ids_used": [
+        "recommendation::sub_query[0]::35190445_0",
+        "recommendation::sub_query[0]::39104080_2"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 153274.43166077137,
+        "module_2_retrieval": 929.7870174050331,
+        "module_3_reasoning": 19095.611289143562,
+        "module_4_response": 19785.256035625935,
+        "total_ms": 193085.0860029459
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

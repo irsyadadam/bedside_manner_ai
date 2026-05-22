@@ -1,0 +1,236 @@
+{
+  "transcript_id": "aci_aci_D2N062",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "well i've been better for the last several weeks i've been noticing that it's been hard for me to swallow certain foods and i also have pain",
+  "patient_utterances": [
+    "[Clinician asked: \"okay raymond it looks like you've been having some difficulty swallowing over for a period of time could you tell me like what's going on\"] well i've been better for the last several weeks i've been noticing that it's been hard for me to swallow certain foods and i also have pain when i swallow down in my chest",
+    "[Clinician asked: \"okay and when does it does it happen every time you eat\"] it hurts not every time it hurts when i when i swallow most foods but it's really just the bigger pieces of food that seem like they're getting stuck",
+    "[Clinician asked: \"okay and what do you mean by bigger pieces of food like what's your diet like\"] well things have been stressed over the last couple of months so lacks a moving from the west coast of east coast so i've been drinking more eating things like pizza burgers i know it's not good but you know it's been pretty busy",
+    "[Clinician asked: \"wow that sounds kinda stressful like what are you moving for\"] well i'm stressed because what i'm moving because you know i i do n't like the west goes so i i decided to move but you know it's just stressful",
+    "[Clinician asked: \"uh uh\"] because i do n't know how my dog is gon na handle the travel but i do n't wan na put them into the carbo portion of the plane we fly out of her really bad stories of dogs got in the wreck",
+    "[Clinician asked: \"okay so are you thinking of driving\"] i i think so i think i'm i think i'm gon na end up driving but that's still a a long trip",
+    "[Clinician asked: \"yeah absolutely i can see how that would that would increase your stress but like with that have you lost any weight because of your symptoms\"] no i wish unfortunately i've gained some weight",
+    "[Clinician asked: \"okay and do you have any other symptoms like abdominal pain nausea vomiting diarrhea\"] sometime my belly hurts up here",
+    "[Clinician asked: \"okay alright so epigastric pain alright any blood in your stool or dark dark tarry stool\"] not that i noticed",
+    "[Clinician asked: \"okay alright so i'm gon na go ahead and do my physical exam i'll be calling up my findings as i run through it if you have any questions please let me know alright so with your vital signs your blood pressure looks pretty decent we have it like one thirty three over seventy so that's fine your heart\"] no i did that hurts",
+    "[Clinician asked: \"okay pain to palpation of epigastric area how about now\"] no",
+    "[Clinician asked: \"okay negative murphy's sign no peritoneal signs no rebound your on examination of the lungs they sound clear to auscultation bilaterally i do n't see any rash no lesion no bruising your eyes seem equal and reactive to light so all of these things sound pretty decent so let's talk about like the resu\"] no i think that's all good"
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nDifficulty swallowing.\n\nHISTORY OF PRESENT ILLNESS\n\nRaymond Taylor is a pleasant 67-year-old male who presents to the clinic today for difficulty swallowing. The patient notes that the pain has been occurring for the last several weeks. The pain radiates to his chest when he swallows. He notes that he does not have pain every time he eats but mostly when he has big pieces of food as they seem to get stuck. Mr. Taylor notes that it has been stressful for him the past couple of months as they moved from the West Coast to the East Coast, so he has been drinking more, and having pizza, and burgers more. He denies any weight loss, but endorses weight gain. The patient states that he has epigastric pain, but denies dark, tarry stools.\n\nREVIEW OF SYSTEMS\n\nConstitutional: Reports weight gain.\nHENT: Reports dysphagia.\nGastrointestinal: Reports epigastric pain. Denies dark, tarry stools.\nNeurological: Positive stress.\n\nVITALS\n\nBP: 133/70.\nHeart rate looks good.\nTemperature is within normal limits.\nSpO2: 100%.\nRespiratory rate: 19.\n\nPHYSICAL EXAM\n\nEYES: Equal and reactive to light.\nNECK: No adenopathy, thyromegaly.\nRESPIRATORY: Normal respiratory effort no respiratory distress\nGI/GU: Non-distended Active bowel sounds. Pain to palpation of epigastric area. Negative McMurphy's Sign. No peritoneal signs. No rebound.\nSKIN: No rash, no lesion, no bruising.\nMSK: Examination of the mouth reveals no obvious ulcers or evidence of thrush present. Tonsils are midline of the neck.\n\nRESULTS\n\nThe barium swallow study revealed two areas of mild narrowing in the mid and lower portions of your esophagus.\n\nASSESSMENT\n\nAcute esophagitis.\n\nPLAN\n\nAfter reviewing the patient's examination and barium swallow findings today, I have had a lengthy discussion with the patient in regards to his current symptoms. I have prescribed the patient Protonix 40 mg first thing in the morning to treat his acute esophagitis. I have also prescribed the patient Carafate 1 gram 4 times daily for 1 month to help coat the lining of his esophagus and stomach. I recommended a upper endoscopy for further evaluation. I have also advised him to change his diet, decrease alcohol, and caffeine. I have also advised him to avoid citrus foods, fruits, and spicy foods until his symptoms have improved. We discussed that he should eat slowly and chew his food thoroughly to avoid big pieces of food. All questions were answered.\n\nINSTRUCTIONS\n\nThe patient will follow up with me in 1 week for his endoscopy.",
+  "gold_sections": {
+    "CC": "Difficulty swallowing.",
+    "HPI": "Raymond Taylor is a pleasant 67-year-old male who presents to the clinic today for difficulty swallowing. The patient notes that the pain has been occurring for the last several weeks. The pain radiates to his chest when he swallows. He notes that he does not have pain every time he eats but mostly when he has big pieces of food as they seem to get stuck. Mr. Taylor notes that it has been stressful for him the past couple of months as they moved from the West Coast to the East Coast, so he has been drinking more, and having pizza, and burgers more. He denies any weight loss, but endorses weight gain. The patient states that he has epigastric pain, but denies dark, tarry stools.",
+    "ROS": "Constitutional: Reports weight gain.\nHENT: Reports dysphagia.\nGastrointestinal: Reports epigastric pain. Denies dark, tarry stools.\nNeurological: Positive stress.",
+    "VITALS": "BP: 133/70.\nHeart rate looks good.\nTemperature is within normal limits.\nSpO2: 100%.\nRespiratory rate: 19.",
+    "PHYSICAL_EXAM": "EYES: Equal and reactive to light.\nNECK: No adenopathy, thyromegaly.\nRESPIRATORY: Normal respiratory effort no respiratory distress\nGI/GU: Non-distended Active bowel sounds. Pain to palpation of epigastric area. Negative McMurphy's Sign. No peritoneal signs. No rebound.\nSKIN: No rash, no lesion, no bruising.\nMSK: Examination of the mouth reveals no obvious ulcers or evidence of thrush present. Tonsils are midline of the neck.",
+    "RESULTS": "The barium swallow study revealed two areas of mild narrowing in the mid and lower portions of your esophagus.",
+    "ASSESSMENT": "Acute esophagitis.",
+    "PLAN": "After reviewing the patient's examination and barium swallow findings today, I have had a lengthy discussion with the patient in regards to his current symptoms. I have prescribed the patient Protonix 40 mg first thing in the morning to treat his acute esophagitis. I have also prescribed the patient Carafate 1 gram 4 times daily for 1 month to help coat the lining of his esophagus and stomach. I recommended a upper endoscopy for further evaluation. I have also advised him to change his diet, decrease alcohol, and caffeine. I have also advised him to avoid citrus foods, fruits, and spicy foods until his symptoms have improved. We discussed that he should eat slowly and chew his food thoroughly to avoid big pieces of food. All questions were answered.",
+    "INSTRUCTIONS": "The patient will follow up with me in 1 week for his endoscopy."
+  },
+  "n_patient_turns": 12,
+  "n_clinician_turns": 13,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 16074.357897043228,
+      "response_text": "Raymond, I understand how stressful this situation must be for you, especially with everything you're going through with the move and concerns about your dog. It's completely valid to feel worried about your symptoms. Based on what you've described, the difficulty swallowing and chest pain could be related to things like a sore throat or acid reflux, which might be exacerbated by the stress and changes in your diet. The physical exam didn't show any severe issues, but it's good you came in to check things out.\n\nFor now, let's try to ease your symptoms by focusing on smaller, softer meals and avoiding spicy or heavy foods. This might help reduce the discomfort. If things don't improve or if you notice any new symptoms, like trouble breathing or severe pain, please don't hesitate to reach out. We'll keep an eye on this and consider further tests if needed. You're not alone in this, and I'm here to help. Feel free to ask any questions or share more if you need to.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 21282.3618799448,
+      "response_text": "Thanks for sharing all that with me, Raymond. It sounds like you're going through a lot with the move and worrying about your dog\u2014I can totally understand how stressful that must be. On top of that, dealing with swallowing difficulties and chest pain is adding another layer of concern. It\u2019s completely reasonable to feel worried, especially when it\u2019s affecting your daily life and diet.\n\nFrom what you\u2019ve described, the difficulty swallowing bigger pieces of food and the chest pain when swallowing could be linked to a few possible causes. Stress and an increased intake of fatty or spicy foods can sometimes irritate the esophagus, leading to symptoms like heartburn or dysphagia [PMID ?]. In some cases, this could be related to gastroesophageal reflux disease (GERD) or esophagitis, which are conditions that cause inflammation in the esophagus [PMID ?]. Another possibility could be a motility disorder, where the muscles in your esophagus don\u2019t move food properly, causing a sensation of food getting stuck [PMID ?].\n\nGiven your symptoms, I think it would be helpful to start with some lifestyle changes, like cutting back on spicy or fatty foods and reducing stress, which might help ease your symptoms. We could also consider a short trial of a proton-pump inhibitor to see if that helps with the swallowing issues and chest pain [PMID ?]. If things don\u2019t improve or if you develop new symptoms like trouble breathing or severe pain, we should seek immediate care.\n\nLet\u2019s plan to check in in 2-4 weeks to see how you\u2019re doing with these changes. Before you leave, could you summarize what we\u2019ve discussed so far? That way, I can make sure everything makes sense to you.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6643.9599841833115,
+      "response_text": "It sounds like you've been having some difficulty swallowing and pain in your chest when you eat certain foods. I understand how that must be concerning.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 4 weeks. In the meantime, if you get new symptoms like severe pain, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you've been having some difficulty swallowing and pain in your chest when you eat certain foods. I understand how that must be concerning.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 4 weeks. In the meantime, if you get new symptoms like severe pain, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 104353.42326015234,
+      "response_text": "It sounds like you're experiencing some difficulty with swallowing, along with chest and abdominal pain. I want to understand how this is affecting your daily life.\n\nDysphagia, or difficulty swallowing, can be caused by a variety of issues. Given the chest and abdominal pain you're experiencing when swallowing, it's important to explore potential causes carefully. This might include looking at how swallowing affects your daily life and comfort.\n\nWe'll schedule some tests to better understand what's causing your dysphagia and the associated pain.\n\nPlease keep track of when the symptoms occur and any other details that might help us pinpoint the cause.\n\nCan you tell me in your own words what we're going to do next to address your swallowing difficulties?\n\nLet's plan to follow up in two weeks to review the test results. In the meantime, if your symptoms worsen or you experience severe pain, please reach out sooner.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're experiencing some difficulty with swallowing, along with chest and abdominal pain. I want to understand how this is affecting your daily life.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "dysphagia",
+            "profile_path": "problems[0]",
+            "explanation": "Dysphagia, or difficulty swallowing, can be caused by a variety of issues. Given the chest and abdominal pain you're experiencing when swallowing, it's important to explore potential causes carefully. This might include looking at how swallowing affects your daily life and comfort.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll schedule some tests to better understand what's causing your dysphagia and the associated pain.",
+          "Please keep track of when the symptoms occur and any other details that might help us pinpoint the cause."
+        ],
+        "teach_back_prompt": "Can you tell me in your own words what we're going to do next to address your swallowing difficulties?",
+        "follow_up_invitation": "Let's plan to follow up in two weeks to review the test results. In the meantime, if your symptoms worsen or you experience severe pain, please reach out sooner.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "dysphagia"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 164590.5745923519,
+      "response_text": "I understand you're experiencing difficulty swallowing, chest pain when swallowing, and abdominal pain over the past several weeks. Let's work together to figure out what's going on.\n\nDifficulty swallowing, along with chest and abdominal pain, can be concerning. Research shows that when healthcare professionals consider the possibility of cancer in patients with these symptoms, they use certain guidelines to decide whether further tests are needed. Specifically, if the likelihood of cancer is high enough, they recommend urgent specialist care and investigations.\n\nWe'll schedule some tests to better understand what's causing these symptoms.\n\nBased on the guidelines, we'll assess whether further specialist care is needed.\n\nCan you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to follow up in a week to review the test results. If you experience any severe symptoms like difficulty breathing or worsening pain, please call us immediately.",
+      "structured_response": {
+        "acknowledgment": "I understand you're experiencing difficulty swallowing, chest pain when swallowing, and abdominal pain over the past several weeks. Let's work together to figure out what's going on.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "dysphagia",
+            "profile_path": "problems[0]",
+            "explanation": "Difficulty swallowing, along with chest and abdominal pain, can be concerning. Research shows that when healthcare professionals consider the possibility of cancer in patients with these symptoms, they use certain guidelines to decide whether further tests are needed. Specifically, if the likelihood of cancer is high enough, they recommend urgent specialist care and investigations.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[0]::37567752_0",
+                "primary_assertion_id": "37567752_0",
+                "pmids": [
+                  "37567752"
+                ]
+              },
+              {
+                "cluster_id": "finding::sub_query[0]::37567752_1",
+                "primary_assertion_id": "37567752_1",
+                "pmids": [
+                  "37567752"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll schedule some tests to better understand what's causing these symptoms.",
+          "Based on the guidelines, we'll assess whether further specialist care is needed."
+        ],
+        "teach_back_prompt": "Can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to follow up in a week to review the test results. If you experience any severe symptoms like difficulty breathing or worsening pain, please call us immediately.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[0]::37567752_0",
+          "finding::sub_query[0]::37567752_1"
+        ],
+        "all_pmids_used": [
+          "37567752"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "dysphagia"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "37567752"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[0]::37567752_0",
+        "finding::sub_query[0]::37567752_1"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 90349.52422231436,
+        "module_2_retrieval": 1120.6171214580536,
+        "module_3_reasoning": 54213.62680196762,
+        "module_4_response": 18905.64151108265,
+        "total_ms": 164589.40965682268
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

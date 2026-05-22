@@ -1,0 +1,280 @@
+{
+  "transcript_id": "aci_aci_D2N054",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "i'm doing okay",
+  "patient_utterances": [
+    "[Clinician asked: \"hey elijah how are you\"] i'm doing okay",
+    "[Clinician asked: \"so i see here that your primary care provider sent you over it looks like you were doing some yard work yesterday and dropped a landscape brick on your foot can what so what's going on with your right foot today\"] it's a little sore today but you know i hurt my foot before but this is the first time where i'm actually being seen for it",
+    "[Clinician asked: \"okay so you say you've injured your right foot before tell me a little bit about that injury\"] twenty years ago i broke my ankle i had to put in a cast but that seems to be okay but you know sometimes it'll give me trouble once in a while it feels a little sore it swells up at times",
+    "[Clinician asked: \"okay\"] and my other ankle too is sore sometimes and i've had surgery for that too and you know one of those things where you know it might give out once in a while but i'm not sure that's related to what the you know break dropping on my foot but you know either way my foot's a little sore",
+    "[Clinician asked: \"okay alright so when you dropped that brick on your foot were you able to get up and keep working or did you have to get off your you know not stop weightbearing and and get off that foot can you tell me a little bit about after the traumatic incident\"] i you know it was a little sore i called a few names you know god damn why is this in my foot but you know i kept working putting it around a little bit but now it's got swollen so i got to see my doctor he told me i had to go see you here i am so tell me what's going on with it",
+    "[Clinician asked: \"so what have you been doing for the pain since the initial insult\"] lucken it up",
+    "[Clinician asked: \"okay have you taken any medications safe for example tylenol or ibuprofen for the pain\"] no i feel like taking the medicine",
+    "[Clinician asked: \"okay and then just out of curiosity you said you were doing some landscaping have you been over to landscapes warehouse new here in town my wife and i were just over there this last weekend and picked up a whole bunch of stuff you had a chance to make it over there yet\"] no not yet i heard about it though i might have to make a trip once my foot heals",
+    "[Clinician asked: \"alright that sounds good now just out of curiosity can you rate your pain for me right now zero being none ten being the worst pain you've ever been in your life\"] eleven out of ten",
+    "[Clinician asked: \"okay and then have you experienced any numbness or tingling of that foot since the incident\"] yeah the whole foot is numb",
+    "[Clinician asked: \"okay\"] but been now for a long time",
+    "[Clinician asked: \"okay i'm gon na do a quick physical exam now your vitals look good and i would like to do a focused exam of your right foot the there is some bruising on the bottom part of your foot and on the top part as well and i do appreciate the associated swelling and i also recognize that you do have tendern\"] what about putting in a cast can i just stay in the cast",
+    "[Clinician asked: \"you could but what we found is the best outcome is aligning those bones with plates and screws to make sure that they heal properly so you have the best outcome possible\"] so if the surgery is going to be tomorrow when am i going to get my mri",
+    "[Clinician asked: \"so what what we will do is the good news is we have an outpatient mri facility downstairs and i'm going to send the order down and we'll get you your mri this afternoon\"] can i think about it and we have some time",
+    "[Clinician asked: \"sure\"] okay"
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nRight foot pain.\n\nHISTORY OF PRESENT ILLNESS\n\nElijah Reyes is a pleasant 45-year-old male who presents to the clinic today for the evaluation of right foot pain. The patient was referred by his primary care physician. He sustained an injury yesterday when he dropped a landscape brick on his right foot while doing yard work. He was able to get up and continue working after the injury. He rates his pain level as an 11 out of 10. The patient also reports numbness in his entire right foot, which has been present for a long time. The patient denies taking any medication for pain.\n\nThe patient reports he fractured his right ankle 20 years ago. He received non-operative treatment with casting. He has experienced intermittent soreness and swelling in his right ankle since then.\n\nThe patient reports surgical history of his left ankle. He continues to experience soreness and occasional giving way of the left ankle.\n\nMEDICAL HISTORY\n\nPatient reports history of a right ankle fracture 20 years ago.\n\nSURGICAL HISTORY\n\nPatient reports history of left ankle surgery.\n\nREVIEW OF SYSTEMS\n\nMusculoskeletal: Reports right foot pain, right ankle soreness and swelling, and left ankle soreness and instability.\nNeurological: Reports right foot numbness.\n\nVITALS\n\nAll vital signs are within the normal limits.\n\nPHYSICAL EXAM\n\nCV: Capillary refill is brisk in less than 3 seconds in the right foot. Strong bounding dorsalis pedis pulse.\nNEURO: Normal sensation. Right foot motor and sensation are intact and equal to the contralateral side.\nMSK: Examination of the right foot: Bruising on the plantar and dorsal aspects of the foot. I do appreciate associated swelling. Tenderness to palpation over the midfoot.\n\nRESULTS\n\nAn x-ray of the right foot was obtained and reviewed today. It demonstrates dorsal displacement of the base of the 2nd metatarsal with a 3 mm separation of the 1st and 2nd metatarsal bases and presence of bony fragments.\n\nASSESSMENT\n\nRight foot pain, due to a Lisfranc fracture.\n\nPLAN\n\nAfter reviewing the patient's examination and radiographic findings today, I have had a lengthy discussion with him regarding his current symptoms. We discussed treatment options and I have recommended that we proceed with a right foot ORIF and all indicated procedures. We reviewed the risks, benefits, and alternatives of the surgery. I advised him that this procedure will be performed in an outpatient setting and he will be discharged home that same evening. He will then follow up with me 24 hours post procedure, and again 2 weeks later. I explained that he will be placed in a cast and will remain non-weight-bearing for 6 to 8 weeks. He will use crutches while ambulating and we will advance his weight-bearing gradually based on how he tolerates the procedure.\n\nI have also recommended that we obtain an MRI of the right foot to further assess the ligaments. I explained to him that if he has poor bone alignment or ligament healing, this can lead to losing the arch in his foot causing pes planus and developing arthritis. I will send an order to the outpatient MRI facility downstairs for him to obtain the MRI this afternoon.\n\nThe patient wishes to think over his options before proceeding with the operation.",
+  "gold_sections": {
+    "CC": "Right foot pain.",
+    "HPI": "Elijah Reyes is a pleasant 45-year-old male who presents to the clinic today for the evaluation of right foot pain. The patient was referred by his primary care physician. He sustained an injury yesterday when he dropped a landscape brick on his right foot while doing yard work. He was able to get up and continue working after the injury. He rates his pain level as an 11 out of 10. The patient also reports numbness in his entire right foot, which has been present for a long time. The patient denies taking any medication for pain.\n\nThe patient reports he fractured his right ankle 20 years ago. He received non-operative treatment with casting. He has experienced intermittent soreness and swelling in his right ankle since then.\n\nThe patient reports surgical history of his left ankle. He continues to experience soreness and occasional giving way of the left ankle.",
+    "MEDICAL_HISTORY": "Patient reports history of a right ankle fracture 20 years ago.",
+    "SURGICAL_HISTORY": "Patient reports history of left ankle surgery.",
+    "ROS": "Musculoskeletal: Reports right foot pain, right ankle soreness and swelling, and left ankle soreness and instability.\nNeurological: Reports right foot numbness.",
+    "VITALS": "All vital signs are within the normal limits.",
+    "PHYSICAL_EXAM": "CV: Capillary refill is brisk in less than 3 seconds in the right foot. Strong bounding dorsalis pedis pulse.\nNEURO: Normal sensation. Right foot motor and sensation are intact and equal to the contralateral side.\nMSK: Examination of the right foot: Bruising on the plantar and dorsal aspects of the foot. I do appreciate associated swelling. Tenderness to palpation over the midfoot.",
+    "RESULTS": "An x-ray of the right foot was obtained and reviewed today. It demonstrates dorsal displacement of the base of the 2nd metatarsal with a 3 mm separation of the 1st and 2nd metatarsal bases and presence of bony fragments.",
+    "ASSESSMENT": "Right foot pain, due to a Lisfranc fracture.",
+    "PLAN": "After reviewing the patient's examination and radiographic findings today, I have had a lengthy discussion with him regarding his current symptoms. We discussed treatment options and I have recommended that we proceed with a right foot ORIF and all indicated procedures. We reviewed the risks, benefits, and alternatives of the surgery. I advised him that this procedure will be performed in an outpatient setting and he will be discharged home that same evening. He will then follow up with me 24 hours post procedure, and again 2 weeks later. I explained that he will be placed in a cast and will remain non-weight-bearing for 6 to 8 weeks. He will use crutches while ambulating and we will advance his weight-bearing gradually based on how he tolerates the procedure.\n\nI have also recommended that we obtain an MRI of the right foot to further assess the ligaments. I explained to him that if he has poor bone alignment or ligament healing, this can lead to losing the arch in his foot causing pes planus and developing arthritis. I will send an order to the outpatient MRI facility downstairs for him to obtain the MRI this afternoon.\n\nThe patient wishes to think over his options before proceeding with the operation."
+  },
+  "n_patient_turns": 15,
+  "n_clinician_turns": 16,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 16542.17930883169,
+      "response_text": "I understand how painful and concerning this must be for you, Elijah. Dropping that brick on your foot has caused significant discomfort, and I can tell you're in a lot of distress. The numbness you're experiencing is something we need to take seriously, so we're moving forward with getting you an MRI to ensure we're addressing any potential issues like fractures or nerve damage. I know you're considering your options, and I want to make sure you're comfortable with the plan we're outlining. We'll get the MRI scheduled soon and take it from there. In the meantime, please let us know if there's anything else we can do to help you feel more at ease. We're here to support you through this.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 19117.813132703304,
+      "response_text": "Thanks for sharing all that with me, Elijah. It sounds like you're in a lot of discomfort, and I can understand why you're feeling this way. Dealing with pain and uncertainty about your foot must be really challenging, especially after such a traumatic incident. I appreciate your honesty and the effort you're putting into managing this.\n\nGiven the numbness and swelling, it\u2019s important we get a clearer picture of what\u2019s going on. I think an MRI would be the best next step to check for any fractures or nerve damage [PMID ?]. Once we have those results, we can discuss whether surgery is the right path for you. In the meantime, let\u2019s focus on keeping your foot elevated and comfortable.\n\nBefore you leave, could you tell me in your own words what we\u2019ve agreed on today? That way, I can make sure everything is clear. We\u2019ll follow up within a day or two after the MRI results are in.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 11137.788034975529,
+      "response_text": "It sounds like you're in a lot of pain with your foot injury. I understand how frustrating it must be when something like this happens, especially when it's affecting your ability to work and enjoy your day.\n\nWe'll schedule an MRI for you today to get a better understanding of the injury. Based on the results, we'll discuss the next steps, which may include surgery or other treatments to help you heal properly and get back to your activities as soon as possible.\n\nPlease take care of your foot in the meantime and avoid putting too much weight on it to prevent further injury.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to follow up in a week to review the MRI results and discuss your treatment options. In the meantime, if your pain worsens or you experience any new symptoms like severe swelling or inability to move your foot, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're in a lot of pain with your foot injury. I understand how frustrating it must be when something like this happens, especially when it's affecting your ability to work and enjoy your day.",
+        "clinical_information_per_concern": [],
+        "next_steps": [
+          "We'll schedule an MRI for you today to get a better understanding of the injury. Based on the results, we'll discuss the next steps, which may include surgery or other treatments to help you heal properly and get back to your activities as soon as possible.",
+          "Please take care of your foot in the meantime and avoid putting too much weight on it to prevent further injury."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to follow up in a week to review the MRI results and discuss your treatment options. In the meantime, if your pain worsens or you experience any new symptoms like severe swelling or inability to move your foot, please call us right away.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 197766.41180366278,
+      "response_text": "I can hear how frustrating this must be for you. You mentioned, \"I called a few names you know, god damn why is this in my foot,\" which shows how much this is affecting you.\n\nThe injury to your foot from the dropped brick is causing swelling and numbness. Given the severity and recent onset, it's important to assess it properly.\n\nThe foot pain that has been recurring for twenty years is something we should look into further, especially since it occasionally causes swelling.\n\nUnderstanding the cause of your foot injury is a key goal. We'll work together to figure this out.\n\nWe'll start by examining your foot to assess the injury and swelling.\n\nBased on the findings, we may recommend imaging or other tests to determine the best course of action.\n\nWe'll also review your history of foot injuries and surgeries to better understand the recurring pain.\n\nI want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to follow up in a week to review the results and any new developments. In the meantime, if the pain or swelling gets worse, or if you experience any new symptoms, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I can hear how frustrating this must be for you. You mentioned, \"I called a few names you know, god damn why is this in my foot,\" which shows how much this is affecting you.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "foot injury from dropped brick",
+            "profile_path": "problems[0]",
+            "explanation": "The injury to your foot from the dropped brick is causing swelling and numbness. Given the severity and recent onset, it's important to assess it properly.",
+            "citations": []
+          },
+          {
+            "concern_label": "recurrent foot pain",
+            "profile_path": "problems[1]",
+            "explanation": "The foot pain that has been recurring for twenty years is something we should look into further, especially since it occasionally causes swelling.",
+            "citations": []
+          },
+          {
+            "concern_label": "find out what's going on with foot injury",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Understanding the cause of your foot injury is a key goal. We'll work together to figure this out.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll start by examining your foot to assess the injury and swelling.",
+          "Based on the findings, we may recommend imaging or other tests to determine the best course of action.",
+          "We'll also review your history of foot injuries and surgeries to better understand the recurring pain."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to follow up in a week to review the results and any new developments. In the meantime, if the pain or swelling gets worse, or if you experience any new symptoms, please call us right away.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 2,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 1,
+        "problems": [
+          "foot injury from dropped brick",
+          "recurrent foot pain"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 241471.71164304018,
+      "response_text": "I can hear how frustrating this must be for you. You mentioned, \"i called a few names you know god damn why is this in my foot,\" which shows how much this is affecting you.\n\nGiven the severity of your foot injury and the symptoms like swelling and numbness, it's important to assess the extent of the injury. The primary step is to evaluate the injury to rule out any serious damage that might require specific treatment.\n\nFor your recurrent foot pain, we should consider evaluating any underlying issues that might be contributing to the pain. This could include looking into your history of ankle injuries and surgeries to understand how they might be affecting your current pain.\n\nWe'll start with an evaluation of your foot injury to assess the severity and determine the appropriate treatment plan.\n\nGiven your history of ankle injuries and surgeries, we'll also look into your recurrent foot pain to see if there are any underlying issues that need attention.\n\nWe'll schedule a follow-up appointment to review the results and discuss the next steps together.\n\nI want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if the pain gets worse or if you experience any new symptoms like increased swelling or inability to bear weight on your foot, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I can hear how frustrating this must be for you. You mentioned, \"i called a few names you know god damn why is this in my foot,\" which shows how much this is affecting you.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "foot injury from dropped brick",
+            "profile_path": "problems[0]",
+            "explanation": "Given the severity of your foot injury and the symptoms like swelling and numbness, it's important to assess the extent of the injury. The primary step is to evaluate the injury to rule out any serious damage that might require specific treatment.",
+            "citations": [
+              {
+                "cluster_id": "finding::problems[0]::37721752_0",
+                "primary_assertion_id": "37721752_0",
+                "pmids": [
+                  "37721752"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "recurrent foot pain",
+            "profile_path": "problems[1]",
+            "explanation": "For your recurrent foot pain, we should consider evaluating any underlying issues that might be contributing to the pain. This could include looking into your history of ankle injuries and surgeries to understand how they might be affecting your current pain.",
+            "citations": [
+              {
+                "cluster_id": "finding::problems[0]::37721752_0",
+                "primary_assertion_id": "37721752_0",
+                "pmids": [
+                  "37721752"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll start with an evaluation of your foot injury to assess the severity and determine the appropriate treatment plan.",
+          "Given your history of ankle injuries and surgeries, we'll also look into your recurrent foot pain to see if there are any underlying issues that need attention.",
+          "We'll schedule a follow-up appointment to review the results and discuss the next steps together."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if the pain gets worse or if you experience any new symptoms like increased swelling or inability to bear weight on your foot, please call us right away.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::problems[0]::37721752_0"
+        ],
+        "all_pmids_used": [
+          "37721752"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 2,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 0,
+        "problems": [
+          "foot injury from dropped brick",
+          "recurrent foot pain"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "37721752"
+      ],
+      "cluster_ids_used": [
+        "finding::problems[0]::37721752_0"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 182586.35826408863,
+        "module_2_retrieval": 1822.5159347057343,
+        "module_3_reasoning": 33781.393721699715,
+        "module_4_response": 23280.415035784245,
+        "total_ms": 241470.68295627832
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

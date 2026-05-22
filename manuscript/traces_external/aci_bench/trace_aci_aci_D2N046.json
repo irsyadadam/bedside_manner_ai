@@ -1,0 +1,264 @@
+{
+  "transcript_id": "aci_aci_D2N046",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "i do n't hear the question but i'm assuming that you when you say batcher so when i start talking about my dog and my three cats and all tha",
+  "patient_utterances": [
+    "[Clinician asked: \"okay so we are recording okay so okay so i understand you've so you've got a past medical history of type two diabetes and you're coming in and for evaluation of a newly diagnosed ovarian cancer so how are you doing today\"] i do n't hear the question but i'm assuming that you when you say batcher so when i start talking about my dog and my three cats and all that those sort of things are not going to be included in the in the note",
+    "[Clinician asked: \"right i want you you can talk about those things yes\"] okay",
+    "[Clinician asked: \"okay so with your newly diagnosed ovarian cancer so how are you feeling today how are you doing\"] i'm doing pretty good depressed",
+    "[Clinician asked: \"little depressed i can understand it's a lot to take on is n't it\"] yes",
+    "[Clinician asked: \"okay okay so lem me ask you some questions so what kind of symptoms were you having that prompted you your doctor to do the tests\"] i was having severe pain and bleeding",
+    "[Clinician asked: \"okay now do you have other symptoms such as weight loss constipation vomiting or issues with urination\"] no vomiting but constipation and weight loss",
+    "[Clinician asked: \"okay yeah that's understandable so do you have any children or have you ever been pregnant\"] i'm sorry i did n't hear that part",
+    "[Clinician asked: \"do you have any children or have you ever been pregnant\"] no to either one of those",
+    "[Clinician asked: \"okay so and do you know at what age you got your period and when you started menopause\"] thirteen for my period and twenty eighth for menopause",
+    "[Clinician asked: \"okay do you take any oral hormone replacement therapy\"] no",
+    "[Clinician asked: \"okay any history of endometriosis\"] any history of what",
+    "[Clinician asked: \"endometriosis\"] no",
+    "[Clinician asked: \"okay how about any family history of any gynecological cancers\"] i was adopted",
+    "[Clinician asked: \"okay okay so i'm just gon na do a quick exam of your abdomen and then perform a vaginal exam okay\"] okay",
+    "[Clinician asked: \"alright okay so i do feel the mass on the where to go here okay\"] i did n't know you're gon na play a doctor today",
+    "[Clinician asked: \"i did okay okay so i do feel the mass on the left side but everything else looks good and on abdominal exam there is slight tenderness to palpation of the left lower quadrant no rebounding or guarding on vaginal exam there are no external lesions on the labia the vaginal vault is within normal limit\"] am i gon na die",
+    "[Clinician asked: \"well that's a good question so based on what i see at this time i will we believe you have a favorable diagnosis prognosis and you're also still young and healthy which makes your prognosis even better and we do need to see a final pathology report to give you a definitive answer though okay\"] alright alright"
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nNew patient evaluation of newly diagnosed ovarian cancer.\n\nFAMILY HISTORY\n\nThe patient was adopted and has no knowledge of any family history.\n\nREVIEW OF SYSTEMS\n\nConstitutional: Reports unintentional weight loss\nGastrointestinal: Reports abdominal pain and constipation. Denies vomiting.\nGenitourinary: Reports abnormal vaginal bleeding. Denies urinary issues.\nPsychiatric: Reports depression\n\nPHYSICAL EXAM\n\nGastrointestinal\n- Examination of Abdomen: There is slight tenderness to palpation of the left lower quadrant. No rebounding or guarding.\n\nPelvic\n- Examination: There are no external lesions on the labia. The vaginal vault is within normal limits. The cervix is pink without lesions. On bimanual exam, I appreciate a left adnexal mass. No masses on the right.\n\nRESULTS\n\nCT scan of the abdomen was reviewed and demonstrated a 3 cm left ovarian mass with associated localized lymph node involvement. There is no evidence of gross peritoneal or metastatic disease.\n\nASSESSMENT AND PLAN\n\n1. Ovarian cancer.\n- Medical Reasoning: Looking at her abdominal CT results, it appears to be stage IIIA disease based on the lymph node involvement.\n- Patient Education and Counseling: I explained to the patient that the typical approach to treating this stage of cancer is surgical intervention followed by adjunct chemotherapy. The procedure and subsequent chemotherapy plans were discussed in detail. Given that she is young and otherwise healthy, I reassured her that I believe her prognosis is favorable based on her current status, however, this is dependent on the final pathology report. All of her questions were answered.\n- Medical Treatment: I want to start by ordering several blood tests including a CA-125, hCG, AFP, and LDH. I also want her to undergo genetic counseling and testing to see if she has a genetic predisposition for developing ovarian cancer. I recommend we perform a hysterectomy and oophorectomy, as well as a lymph node dissection to remove any involved lymph nodes. Any concerning tissue will be biopsied and sent to pathology for staging. After she has recovered from surgery, she will start chemotherapy treatment with cisplatin and Taxol. We may also consider intraperitoneal chemotherapy.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.",
+  "gold_sections": {
+    "CC": "New patient evaluation of newly diagnosed ovarian cancer.",
+    "FAMILY_HISTORY": "The patient was adopted and has no knowledge of any family history.",
+    "ROS": "Constitutional: Reports unintentional weight loss\nGastrointestinal: Reports abdominal pain and constipation. Denies vomiting.\nGenitourinary: Reports abnormal vaginal bleeding. Denies urinary issues.\nPsychiatric: Reports depression",
+    "PHYSICAL_EXAM": "Gastrointestinal\n- Examination of Abdomen: There is slight tenderness to palpation of the left lower quadrant. No rebounding or guarding.\n\nPelvic\n- Examination: There are no external lesions on the labia. The vaginal vault is within normal limits. The cervix is pink without lesions. On bimanual exam, I appreciate a left adnexal mass. No masses on the right.",
+    "RESULTS": "CT scan of the abdomen was reviewed and demonstrated a 3 cm left ovarian mass with associated localized lymph node involvement. There is no evidence of gross peritoneal or metastatic disease.",
+    "ASSESSMENT_PLAN": "1. Ovarian cancer.\n- Medical Reasoning: Looking at her abdominal CT results, it appears to be stage IIIA disease based on the lymph node involvement.\n- Patient Education and Counseling: I explained to the patient that the typical approach to treating this stage of cancer is surgical intervention followed by adjunct chemotherapy. The procedure and subsequent chemotherapy plans were discussed in detail. Given that she is young and otherwise healthy, I reassured her that I believe her prognosis is favorable based on her current status, however, this is dependent on the final pathology report. All of her questions were answered.\n- Medical Treatment: I want to start by ordering several blood tests including a CA-125, hCG, AFP, and LDH. I also want her to undergo genetic counseling and testing to see if she has a genetic predisposition for developing ovarian cancer. I recommend we perform a hysterectomy and oophorectomy, as well as a lymph node dissection to remove any involved lymph nodes. Any concerning tissue will be biopsied and sent to pathology for staging. After she has recovered from surgery, she will start chemotherapy treatment with cisplatin and Taxol. We may also consider intraperitoneal chemotherapy.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan."
+  },
+  "n_patient_turns": 17,
+  "n_clinician_turns": 17,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 14919.786848127842,
+      "response_text": "Dear Patient,\n\nI understand how overwhelming and scary this must be for you. It's completely normal to feel depressed and anxious after such a diagnosis, and I want you to know that your feelings are valid. However, based on what I see so far, your prognosis appears to be favorable, especially considering your age and overall health. While we wait for the final pathology report, please know that our team is here to support you every step of the way.\n\nIt's okay to feel scared, and I encourage you to ask any questions or share any concerns you have. We are here to help you navigate this journey and to provide the care and support you need. Together, we will work on a plan that is right for you.\n\nTake care, and please don\u2019t hesitate to reach out if you need anything.\n\nSincerely,  \n[Your Name]",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 16523.4182998538,
+      "response_text": "Thank you for sharing how you're feeling. It's completely understandable that you're feeling depressed after such a diagnosis. Facing ovarian cancer is incredibly challenging, and it's important to acknowledge how strong you are for handling this with such resilience.\n\nBased on what I understand, the next steps will focus on confirming the diagnosis and developing a treatment plan tailored to your situation. Given that you're young and otherwise healthy, this can influence a more favorable prognosis, but it's crucial to wait for the final pathology report to provide a clearer picture.\n\nWe'll schedule a follow-up in one week to review the results and discuss the next steps in detail. Before you leave, could you summarize what we've discussed so far? This will help ensure you feel confident in the plan and address any questions you may have.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6069.267772138119,
+      "response_text": "Thank you for sharing your concerns with me today.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 4 weeks. In the meantime, if you get new symptoms like severe pain or bleeding, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your concerns with me today.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 4 weeks. In the meantime, if you get new symptoms like severe pain or bleeding, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 196606.0398593545,
+      "response_text": "I understand you're dealing with severe pain and some concerning symptoms like bleeding, constipation, and weight loss. Let's focus on getting to the bottom of these issues.\n\nIt's important to check for mood and anxiety issues since they can affect how you handle your pain and other health concerns. We'll use some screening tools to see if there's a need for additional support.\n\nFor severe pain, especially with symptoms like bleeding and weight loss, we need to rule out serious causes. We'll start with some tests to understand what's going on better.\n\nGiven the red flag of GI bleeding, we'll prioritize some tests to rule out serious causes. This includes bloodwork and imaging to get a clearer picture of what's happening.\n\nWe'll also check in on your mental health to ensure we're addressing all aspects of your well-being.\n\nPlease let us know if your pain gets worse or if you experience any new symptoms in the meantime.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if you notice any new symptoms or if your pain becomes unmanageable, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I understand you're dealing with severe pain and some concerning symptoms like bleeding, constipation, and weight loss. Let's focus on getting to the bottom of these issues.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "depression",
+            "profile_path": "problems[0]",
+            "explanation": "It's important to check for mood and anxiety issues since they can affect how you handle your pain and other health concerns. We'll use some screening tools to see if there's a need for additional support.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::41466386",
+                "primary_assertion_id": "41466386_retr",
+                "pmids": [
+                  "41466386"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "severe pain",
+            "profile_path": "problems[1]",
+            "explanation": "For severe pain, especially with symptoms like bleeding and weight loss, we need to rule out serious causes. We'll start with some tests to understand what's going on better.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "Given the red flag of GI bleeding, we'll prioritize some tests to rule out serious causes. This includes bloodwork and imaging to get a clearer picture of what's happening.",
+          "We'll also check in on your mental health to ensure we're addressing all aspects of your well-being.",
+          "Please let us know if your pain gets worse or if you experience any new symptoms in the meantime."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if you notice any new symptoms or if your pain becomes unmanageable, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Demonstrate empathy",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "retrieval_only::41466386"
+        ],
+        "all_pmids_used": [
+          "41466386"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 2,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 1,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "depression",
+          "severe pain"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "41466386"
+      ],
+      "cluster_ids_used": [
+        "retrieval_only::41466386"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Demonstrate empathy",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 262996.4836910367,
+      "response_text": "I can hear how much this is worrying you \u2014 you said, \"am i gon na die.\" That fear is completely understandable, especially with all these symptoms.\n\nSevere pain can be a sign of many things, and when it's combined with bleeding, constipation, and weight loss, it's important to figure out what's causing it. We'll need to do some tests to understand what's going on.\n\nBleeding can be a serious symptom, and it often happens alongside other issues like pain. We'll look into this carefully to make sure we understand how it's connected to the other symptoms.\n\nConstipation can be uncomfortable and might be linked to other symptoms you're experiencing. We'll keep this in mind as we work through the other issues.\n\nUnexplained weight loss can be a sign of several health issues. We'll make sure to check this as part of our evaluation.\n\nWe'll start by doing some tests to understand what's causing the severe pain, bleeding, constipation, and weight loss.\n\nOnce we have the results, we'll be able to create a clearer plan for next steps.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to check in again in a week. If anything changes or if you have more symptoms, please call us so we can address them promptly.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this is worrying you \u2014 you said, \"am i gon na die.\" That fear is completely understandable, especially with all these symptoms.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "severe pain",
+            "profile_path": "problems[0]",
+            "explanation": "Severe pain can be a sign of many things, and when it's combined with bleeding, constipation, and weight loss, it's important to figure out what's causing it. We'll need to do some tests to understand what's going on.",
+            "citations": []
+          },
+          {
+            "concern_label": "bleeding",
+            "profile_path": "problems[1]",
+            "explanation": "Bleeding can be a serious symptom, and it often happens alongside other issues like pain. We'll look into this carefully to make sure we understand how it's connected to the other symptoms.",
+            "citations": []
+          },
+          {
+            "concern_label": "constipation",
+            "profile_path": "problems[2]",
+            "explanation": "Constipation can be uncomfortable and might be linked to other symptoms you're experiencing. We'll keep this in mind as we work through the other issues.",
+            "citations": []
+          },
+          {
+            "concern_label": "weight loss",
+            "profile_path": "problems[3]",
+            "explanation": "Unexplained weight loss can be a sign of several health issues. We'll make sure to check this as part of our evaluation.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll start by doing some tests to understand what's causing the severe pain, bleeding, constipation, and weight loss.",
+          "Once we have the results, we'll be able to create a clearer plan for next steps."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to check in again in a week. If anything changes or if you have more symptoms, please call us so we can address them promptly.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 4,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 0,
+        "problems": [
+          "severe pain",
+          "bleeding",
+          "constipation",
+          "weight loss"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 206255.01100718975,
+        "module_2_retrieval": 1204.588770866394,
+        "module_3_reasoning": 35399.071387946606,
+        "module_4_response": 20136.711195111275,
+        "total_ms": 262995.382361114
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

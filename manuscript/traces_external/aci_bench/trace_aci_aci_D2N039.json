@@ -1,0 +1,377 @@
+{
+  "transcript_id": "aci_aci_D2N039",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "i'm doing alright i started seeing this new pcp last year and you know she has been doing a lot of changes to my medication and making sure ",
+  "patient_utterances": [
+    "[Clinician asked: \"hi virginia how are you today what brings you in\"] i'm doing alright i started seeing this new pcp last year and you know she has been doing a lot of changes to my medication and making sure everything is up to date and she my noticed that my blood pressure has been quite high so she added to medications but and but i you know i've been taking them i've been really good and i i before i was n't but now i am and we're still having a hard time controlling my blood pressure so she thought it would be a good idea for me to see you especially since she noted some on my last blood work she said something about my kidneys",
+    "[Clinician asked: \"okay yeah so okay let's before i dive into a lot of that tell me a little bit about how you've been feeling\"] i would say you know most of the days i feel fine i'm still busy at work i definitely can tell though when my blood pressure is high",
+    "[Clinician asked: \"okay you measure it at home you you you measure your blood pressure at home\"] yeah i she wanted me to get a blood pressure cuff so i did start getting checking my blood pressures probably like a few times a week",
+    "[Clinician asked: \"okay\"] and so then i noticed that it has been getting higher the other day was even as high as one seventy over ninety",
+    "[Clinician asked: \"wow\"] so i did call my pcp and she increased the meds again",
+    "[Clinician asked: \"yeah okay now i i just have a couple questions about that are you using a an electronic blood pressure recorder or do you have somebody help you at home\"] yeah she i have a a electronic one an electronic arm one",
+    "[Clinician asked: \"okay okay yeah that's good that's good and have you ever tried do you go to cvs at all\"] yeah i i do but i've noticed like since the pandemic i do n't see the blood pressures anymore",
+    "[Clinician asked: \"okay okay yeah i i thought the one down on main street they i thought they just brought that one back so\"] did they",
+    "[Clinician asked: \"yeah\"] that's good to know",
+    "[Clinician asked: \"you may wan na check that but okay so that's good but i what i'd like you to do with that is i'd like you to keep a record of them for me for my next visit with you so let's talk a little bit about your diet tell me how how is your diet what what are the what kind of foods do you like what do you ea\"] alright do you want the honest answer",
+    "[Clinician asked: \"well yeah that would be better\"] so i really you know with everything going on i really been trying to get better but i mean during football season it's really difficult i really love watching my games so have a lot of pizza wings subs like i said i've been trying to cut down especially on days where there is no games but it probably could be better",
+    "[Clinician asked: \"okay i think we all can say that but i do wan na just hey i do n't know that if you've tried it or not but there is a new restaurant down on fifth street and it is nothing but solids and i you know when i heard this i was like okay yeah it's just another these solids are absolutely amazing so if you\"] really just when my blood pressure gets really high i have some mild headaches but otherwise i do n't have it on a regular basis",
+    "[Clinician asked: \"okay what about chest pain\"] no chest pain",
+    "[Clinician asked: \"shortness of breath\"] no shortness of breath",
+    "[Clinician asked: \"even with exertion\"] even with exertion",
+    "[Clinician asked: \"okay do you have any swelling in your lower extremities at all that you noticed\"] not if i'm on my feet for a long time i'll notice a little bit of swelling but otherwise no",
+    "[Clinician asked: \"okay and then a couple other family history questions anybody in the family have kidney disease or significant high blood pressure\"] both my parents do have high blood pressure and one of them did have kidney disease",
+    "[Clinician asked: \"okay okay and in the the the form that you filled out when you came in it says that you are on ten milligrams of norvasc daily and carvedilol twenty five milligrams twice a day is those the medicines you're on\"] yes i was also on lisinopril before but with the adjustments yeah those are the ones i'm on",
+    "[Clinician asked: \"okay and so here's where i think we are going to go do you take any nonsteroidals like advil or motrin or aleve\"] yeah just once in a while for my like any knee pain or back pain that i have but again not like everyday",
+    "[Clinician asked: \"okay and then lastly what kind of alcohol intake do you have you know do you consider how many drinks a week is really what i'm looking for\"] i'll have a couple of beers during the week and like one or two on the weekends",
+    "[Clinician asked: \"okay okay so lem me do a quick physical examination so i looked at your vitals when you came in today and your blood pressure it's still high it's one sixty nine over seventy four your heart rate was eighty eight and your oxygenation was ninety eight percent so those are all fairly good except that \"] no i i just it's a lot so i i'm hoping this will work and this will get it under control",
+    "[Clinician asked: \"yeah i i think you know this will be you know this we're gon na spend some time together so i'm glad to have you as a patient but you know we got ta try to get this under control and i'm gon na i'll be talking to your pcp just to let them know that you know what my plans are and we'll stay real in s\"] that sounds good thank you",
+    "[Clinician asked: \"okay take care i'll talk to you later\"] okay alright bye"
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nHigh blood pressure.\n\nSOCIAL HISTORY\n\nPatient reports drinking a couple of beers during the week and approximately 1 to 2 on the weekend. She is employed.\n\nFAMILY HISTORY\n\nPatient reports both of her parents have hypertension and one also had kidney disease.\n\nMEDICATIONS\n\nPatient reports taking Norvasc 10 mg daily and carvedilol 25 mg twice daily. She occasionally takes anti-inflammatories.\n\nREVIEW OF SYSTEMS\n\nCardiovascular: Denies chest pain or dyspnea on exertion.\nRespiratory: Denies shortness of breath.\nMusculoskeletal: Denies bilateral lower extremity edema.\nNeurological: Reports headaches.\n\nVITALS\n\nBP: 169/74.\nHR: 88 bpm.\nSpO2: 98%.\n\nPHYSICAL EXAM\n\nNeck\n- General Examination: No jugular vein distension. No carotid bruits.\n\nCardiovascular\n- Auscultation of Heart: Grade 2/6 systolic ejection murmur.\n\nMusculoskeletal\n- Examination: 1+pitting edema in the bilateral lower extremities.\n\nASSESSMENT AND PLAN\n\n1. Hypertension, uncontrolled.\n- Medical Reasoning: The patient's elevated blood pressure is consistent with uncontrolled hypertension.\n- Patient Education and Counseling: We discussed the nature of the diagnosis and that this is typically multifactorial. I advised the patient that further testing should reveal additional information. She was encouraged to reduce her intake of alcohol as well as her salt intake. I recommended that she stop taking anti-inflammatories and use Tylenol as needed for pain. We also discussed the importance of home blood pressure monitoring of the next 3 weeks to see if the medication is beneficial.\n- Medical Treatment: Renal artery ultrasound ordered. Urine collection, morning aldosterone levels, renal levels, and a 24-hour urine were also ordered. Referral to nutritionist provided. Prescription for Cardura 4 mg once a day provided as well.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.\n\nINSTRUCTIONS\n\nThe patient will follow-up in 3 weeks and will bring her blood pressure log with her.",
+  "gold_sections": {
+    "CC": "High blood pressure.",
+    "SOCIAL_HISTORY": "Patient reports drinking a couple of beers during the week and approximately 1 to 2 on the weekend. She is employed.",
+    "FAMILY_HISTORY": "Patient reports both of her parents have hypertension and one also had kidney disease.",
+    "MEDICATIONS": "Patient reports taking Norvasc 10 mg daily and carvedilol 25 mg twice daily. She occasionally takes anti-inflammatories.",
+    "ROS": "Cardiovascular: Denies chest pain or dyspnea on exertion.\nRespiratory: Denies shortness of breath.\nMusculoskeletal: Denies bilateral lower extremity edema.\nNeurological: Reports headaches.",
+    "VITALS": "BP: 169/74.\nHR: 88 bpm.\nSpO2: 98%.",
+    "PHYSICAL_EXAM": "Neck\n- General Examination: No jugular vein distension. No carotid bruits.\n\nCardiovascular\n- Auscultation of Heart: Grade 2/6 systolic ejection murmur.\n\nMusculoskeletal\n- Examination: 1+pitting edema in the bilateral lower extremities.",
+    "ASSESSMENT_PLAN": "1. Hypertension, uncontrolled.\n- Medical Reasoning: The patient's elevated blood pressure is consistent with uncontrolled hypertension.\n- Patient Education and Counseling: We discussed the nature of the diagnosis and that this is typically multifactorial. I advised the patient that further testing should reveal additional information. She was encouraged to reduce her intake of alcohol as well as her salt intake. I recommended that she stop taking anti-inflammatories and use Tylenol as needed for pain. We also discussed the importance of home blood pressure monitoring of the next 3 weeks to see if the medication is beneficial.\n- Medical Treatment: Renal artery ultrasound ordered. Urine collection, morning aldosterone levels, renal levels, and a 24-hour urine were also ordered. Referral to nutritionist provided. Prescription for Cardura 4 mg once a day provided as well.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.",
+    "INSTRUCTIONS": "The patient will follow-up in 3 weeks and will bring her blood pressure log with her."
+  },
+  "n_patient_turns": 23,
+  "n_clinician_turns": 23,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 23614.76144939661,
+      "response_text": "Hi Virginia, thank you for sharing all that with me. I can tell you're putting in a lot of effort to manage your blood pressure, and that's really commendable. It's tough when things don't improve as quickly as we'd like, but let's work together to get this under control.\n\nI understand how much you enjoy football and the temptation to indulge in those snacks. Small, gradual changes can make a big difference without making you feel deprived. Let's explore some healthier options that still let you enjoy the game. \n\nYour blood pressure readings are definitely something we need to address. We might need to tweak your medications or look into other factors like kidney function. I'll keep you informed every step of the way. \n\nPlease keep logging your readings and check in at CVS if you can. Let's also talk about your exercise routine and stress levels. We'll make sure to address any concerns about your medications and explore other lifestyle factors, like alcohol intake.\n\nYou're not alone in this, Virginia. We'll tackle this together, and I'm confident we can make progress. Let's stay positive and keep moving forward.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 31102.735921740532,
+      "response_text": "Thank you for sharing your concerns with me. It's completely understandable that you're feeling frustrated, especially after making such efforts to manage your blood pressure. High blood pressure can be challenging, and it's commendable that you've been adhering to your medication and monitoring your levels at home. I appreciate your honesty about your diet and lifestyle, and I'm here to support you in making small, manageable changes.\n\nGiven your blood pressure readings and the mention of kidney concerns from your PCP, it's important to explore potential causes for resistant hypertension. Conditions like kidney issues can sometimes contribute to high blood pressure, so further evaluation may be necessary. I'll be in touch with your PCP to discuss possible adjustments to your treatment plan, which might include additional tests or medication tweaks.\n\nTo help us better understand your situation, I'd like you to keep a detailed record of your blood pressure readings and bring them to our next visit. We'll also focus on lifestyle adjustments, starting with mindful eating, especially during football season. Reducing sodium intake and portion sizes can make a difference. Additionally, I'll check in on your alcohol consumption and NSAID use, as these can impact blood pressure and kidney health.\n\nWe'll schedule a follow-up in about four weeks to review your progress and adjust our approach as needed. Before you leave, could you summarize our plan in your own words to ensure clarity? I'm looking forward to working together to get your blood pressure under control.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7670.358389616013,
+      "response_text": "It sounds like you're doing your best to manage your blood pressure, even with the challenges of your busy schedule and enjoying football games. I understand how important it is to keep your blood pressure under control to protect your health.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again soon. In the meantime, if you notice your blood pressure getting significantly higher or if you experience any severe symptoms like headaches, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're doing your best to manage your blood pressure, even with the challenges of your busy schedule and enjoying football games. I understand how important it is to keep your blood pressure under control to protect your health.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again soon. In the meantime, if you notice your blood pressure getting significantly higher or if you experience any severe symptoms like headaches, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 309279.59010750055,
+      "response_text": "I can hear how frustrating this must be for you. You mentioned, \"I really been trying to get better but I mean during football season it's really difficult,\" and I understand how challenging it can be to manage your health amidst the excitement of the games.\n\nHigh blood pressure can be tricky to manage, especially with lifestyle factors like football season gatherings. The good news is that there are effective ways to monitor and control it, such as regular blood pressure checks and adjusting your diet.\n\nGiven your family history of kidney disease and high blood pressure, it's important to monitor your kidney health closely. Regular check-ups and managing your blood pressure can help protect your kidneys.\n\nControlling blood pressure is a key goal, and strategies like medication adherence and lifestyle changes can make a big difference. Using a home blood pressure monitor and tracking your readings can help you and your doctor manage your condition better.\n\nAddressing kidney concerns involves regular monitoring and managing related conditions like high blood pressure. Your family history highlights the importance of staying proactive about your kidney health.\n\nMaking healthier choices, especially on game days, can support your overall health goals. Even small changes can add up over time.\n\nWe'll review your current medications and see if any adjustments are needed to better control your blood pressure.\n\nWe'll schedule a follow-up visit to monitor your kidney health and discuss any concerns you have.\n\nLet's talk about strategies to make healthier choices during football season, like opting for healthier appetizers and portion control.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if you notice your blood pressure getting significantly higher than usual or any new symptoms, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I can hear how frustrating this must be for you. You mentioned, \"I really been trying to get better but I mean during football season it's really difficult,\" and I understand how challenging it can be to manage your health amidst the excitement of the games.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "high blood pressure",
+            "profile_path": "problems[0]",
+            "explanation": "High blood pressure can be tricky to manage, especially with lifestyle factors like football season gatherings. The good news is that there are effective ways to monitor and control it, such as regular blood pressure checks and adjusting your diet.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::32866417",
+                "primary_assertion_id": "32866417_retr",
+                "pmids": [
+                  "32866417"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "kidney concerns",
+            "profile_path": "problems[1]",
+            "explanation": "Given your family history of kidney disease and high blood pressure, it's important to monitor your kidney health closely. Regular check-ups and managing your blood pressure can help protect your kidneys.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::32866417",
+                "primary_assertion_id": "32866417_retr",
+                "pmids": [
+                  "32866417"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "control blood pressure",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Controlling blood pressure is a key goal, and strategies like medication adherence and lifestyle changes can make a big difference. Using a home blood pressure monitor and tracking your readings can help you and your doctor manage your condition better.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::32866417",
+                "primary_assertion_id": "32866417_retr",
+                "pmids": [
+                  "32866417"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "address kidney concerns",
+            "profile_path": "patient_goals[1]",
+            "explanation": "Addressing kidney concerns involves regular monitoring and managing related conditions like high blood pressure. Your family history highlights the importance of staying proactive about your kidney health.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::32866417",
+                "primary_assertion_id": "32866417_retr",
+                "pmids": [
+                  "32866417"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "reduce pizza, wings, and subs intake, especially on game days",
+            "profile_path": "patient_goals[2]",
+            "explanation": "Making healthier choices, especially on game days, can support your overall health goals. Even small changes can add up over time.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll review your current medications and see if any adjustments are needed to better control your blood pressure.",
+          "We'll schedule a follow-up visit to monitor your kidney health and discuss any concerns you have.",
+          "Let's talk about strategies to make healthier choices during football season, like opting for healthier appetizers and portion control."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if you notice your blood pressure getting significantly higher than usual or any new symptoms, please call us right away.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "retrieval_only::32866417"
+        ],
+        "all_pmids_used": [
+          "32866417"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 2,
+        "n_medications": 4,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 3,
+        "problems": [
+          "high blood pressure",
+          "kidney concerns"
+        ],
+        "medications": [
+          "Norvasc 10 mg daily",
+          "Carvedilol 25 mg twice a day",
+          "Lisinopril",
+          "NSAIDs (occasional use)"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [
+        "32866417"
+      ],
+      "cluster_ids_used": [
+        "retrieval_only::32866417"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 294831.2523290515,
+      "response_text": "I can see how frustrating this must be for you. You mentioned, \"I really been trying to get better but during football season it's really difficult,\" and also shared, \"I really love watching my games.\" I understand how important it is for you to feel well so you can enjoy the things you love.\n\nYour high blood pressure has been getting worse, and it's important we address this to prevent further complications. The guidelines suggest that mobile phone text messaging may not be very effective for managing blood pressure, so we'll focus on other strategies.\n\nIt's great that you're trying to get better. The guidelines suggest that patient-centered communication can help identify realistic goals for daily life.\n\nWe understand how important it is for you to enjoy watching football. The guidelines suggest that communication about your goals can help us tailor our approach to support you better.\n\nMaking changes to your diet is an important step in managing your blood pressure. The guidelines suggest that intensive behavioral therapy combined with certain medications can be effective in managing blood pressure and weight.\n\nGiven the unilateral leg swelling you mentioned, we'll need to monitor your condition closely. We'll schedule a follow-up visit to review your blood pressure readings and discuss any changes in your symptoms.\n\nWe'll continue to work together on managing your blood pressure through diet, medications, and regular monitoring.\n\nIf you experience severe symptoms like chest pain or significant swelling, please call us immediately.\n\nI want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if you notice any significant changes in your blood pressure readings or if your symptoms worsen, please reach out to us right away.",
+      "structured_response": {
+        "acknowledgment": "I can see how frustrating this must be for you. You mentioned, \"I really been trying to get better but during football season it's really difficult,\" and also shared, \"I really love watching my games.\" I understand how important it is for you to feel well so you can enjoy the things you love.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "high blood pressure",
+            "profile_path": "problems[0]",
+            "explanation": "Your high blood pressure has been getting worse, and it's important we address this to prevent further complications. The guidelines suggest that mobile phone text messaging may not be very effective for managing blood pressure, so we'll focus on other strategies.",
+            "citations": [
+              {
+                "cluster_id": "finding::problems[0]::38533994_0",
+                "primary_assertion_id": "38533994_0",
+                "pmids": [
+                  "38533994"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "trying to get better",
+            "profile_path": "patient_goals[0]",
+            "explanation": "It's great that you're trying to get better. The guidelines suggest that patient-centered communication can help identify realistic goals for daily life.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::global::33658141_1",
+                "primary_assertion_id": "33658141_1",
+                "pmids": [
+                  "33658141"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "watching football games",
+            "profile_path": "patient_goals[1]",
+            "explanation": "We understand how important it is for you to enjoy watching football. The guidelines suggest that communication about your goals can help us tailor our approach to support you better.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::global::33658141_1",
+                "primary_assertion_id": "33658141_1",
+                "pmids": [
+                  "33658141"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "cutting down on pizza, wings, and subs",
+            "profile_path": "patient_goals[2]",
+            "explanation": "Making changes to your diet is an important step in managing your blood pressure. The guidelines suggest that intensive behavioral therapy combined with certain medications can be effective in managing blood pressure and weight.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::global::41324410_1",
+                "primary_assertion_id": "41324410_1",
+                "pmids": [
+                  "41324410"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "Given the unilateral leg swelling you mentioned, we'll need to monitor your condition closely. We'll schedule a follow-up visit to review your blood pressure readings and discuss any changes in your symptoms.",
+          "We'll continue to work together on managing your blood pressure through diet, medications, and regular monitoring.",
+          "If you experience severe symptoms like chest pain or significant swelling, please call us immediately."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if you notice any significant changes in your blood pressure readings or if your symptoms worsen, please reach out to us right away.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::problems[0]::38533994_0",
+          "recommendation::global::33658141_1",
+          "recommendation::global::41324410_1"
+        ],
+        "all_pmids_used": [
+          "38533994",
+          "33658141",
+          "41324410"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 4,
+        "n_allergies": 0,
+        "n_red_flags": 1,
+        "n_emotional": 2,
+        "n_goals": 3,
+        "problems": [
+          "high blood pressure"
+        ],
+        "medications": [
+          "Norvasc 10 mg daily",
+          "Carvedilol 25 mg twice a day",
+          "Lisinopril",
+          "NSAIDs (as needed)"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [
+        "38533994",
+        "33658141",
+        "41324410"
+      ],
+      "cluster_ids_used": [
+        "finding::problems[0]::38533994_0",
+        "recommendation::global::33658141_1",
+        "recommendation::global::41324410_1"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 195949.74306970835,
+        "module_2_retrieval": 1905.9544429183006,
+        "module_3_reasoning": 60825.001917779446,
+        "module_4_response": 36149.702213704586,
+        "total_ms": 294830.4016441107
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

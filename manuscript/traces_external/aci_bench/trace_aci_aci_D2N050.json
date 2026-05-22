@@ -1,0 +1,257 @@
+{
+  "transcript_id": "aci_aci_D2N050",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "yeah it was about you know about a week ago and i was working down in the the barn with the horses and you know i was moving some hay but i ",
+  "patient_utterances": [
+    "[Clinician asked: \"hey mason good to see you today so let's see you here in my notes for evaluation of kidney stones your your pcp said you had some kidney stones so you got a referral over so can you tell me a little bit about that you know what happened when did you first notice them\"] yeah it was about you know about a week ago and i was working down in the the barn with the horses and you know i was moving some hay but i developed this real sudden onset of pain in my right back and i thought it initially it was from throwing hay but it i broke out into a sweat i got real nauseated and that's when i went and saw my doctor and he ordered a cat scan and said that i had a kidney stone but you know that's i i've never had that before my father's had them in the past but yeah so that's that's how that all happened",
+    "[Clinician asked: \"okay so you said you had the pain on the right hand side does it move anywhere or radiate\"] well when i had it it would it radiated almost down to my groin",
+    "[Clinician asked: \"okay\"] not the whole way down but almost to the groin and since then i have n't had any more pain and it's just been right about there",
+    "[Clinician asked: \"okay and is the pain constant or does it come and go\"] well when i you know after i found out i had a disk a kidney stone it came a couple times but it did n't last as long no i've been i've been straining my urine they told me to pee in this little cup",
+    "[Clinician asked: \"mm-hmm\"] and i've been straining my urine and you know i do n't see anything in there",
+    "[Clinician asked: \"okay have you noticed any blood in your urine i know you've been draining probably take a good look at it has it been darker than usual\"] no not really not really darker",
+    "[Clinician asked: \"okay so have you had kidney stones before and then you said your father had them but\"] i've never had a kidney stone my dad had them a lot but i've never had one",
+    "[Clinician asked: \"okay alright so let me do a quick exam of you your vital signs look good i do n't see any fever or your blood pressure and heart rate are fine so let me do a quick physical exam let me press here on your belly so on your examination of your abdomen there is no tenderness to to pain to palpation of t\"] i have a stroke",
+    "[Clinician asked: \"can you repeat that\"] i did i have a stroke",
+    "[Clinician asked: \"no no no no no so that means like everything is normal right but i feel like you you you have some tenderness and inflammation over your kidney so that has to be expected because you do have a kidney stone so i did review the results of your ct and it does show a stone that's measuring point five ce\"] that sounds perfect dear too",
+    "[Clinician asked: \"alright\"] thank you document",
+    "[Clinician asked: \"so i will see you in a week or so and hopefully you've passed that stone and i'll send my nurse in with that prescription\"] okay thank you"
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nKidney stones.\n\nHISTORY OF PRESENT ILLNESS\n\nMason Ward is a pleasant 80-year-old male who presents to the clinic today for the evaluation of kidney stones. The patient was referred from his primary care physician. The onset of his pain began 1 week ago when he was in his barn moving hay when he had a sudden onset of right back pain. The patient initially thought his pain was due to throwing hay; however, he broke out into a sweat and became nauseated. He was seen by his primary care physician, who ordered a CT scan and told him that he had a kidney stone. He denies having kidney stones before, but states that his father has a history of kidney stones in the past. He explains that when he had pain, which has now resolved, it would radiate almost to his groin. The patient describes the pain as intermittent after he found out it was a kidney stone. He explains that he has been straining his urine, but has not seen anything. He denies any hematuria.\n\nREVIEW OF SYSTEMS\n\nMusculoskeletal: Reports right back pain.\n\nVITALS\n\nVitals look good, blood pressure and hear rate are within normal limits. Temperature is within normal limits.\n\nPHYSICAL EXAM\n\nMSK: Examination of the abdomen: No pain with palpation of the abdomen. No rebound or guarding. There is CVA tenderness on the right side.\n\nRESULTS\n\nThe CT scan of the abdomen revealed a stone that is measuring 0.5 cm located in the proximal right ureter. There is no evidence of hydronephrosis.\n\nASSESSMENT\n\nRight kidney stone.\n\nPLAN\n\nWe reviewed the patient's CT results in detail today. I have recommended that we treat the patient conservatively. I have prescribed the patient oxycodone 5 mg every 6 to 8 hours for pain. He may continue to take Tylenol between the oxycodone doses for any breakthrough pain. The patient should continue to use the strainer when he urinates until the stone passes. I have also recommended that we obtain a BMP, urinalysis, and urine culture to evaluate for any signs of infection.\n\nINSTRUCTIONS\n\nThe patient will follow up with me in 1 to 2 weeks to check on his progress. If his symptoms have not improved, we will discuss further treatment options including lithotripsy.",
+  "gold_sections": {
+    "CC": "Kidney stones.",
+    "HPI": "Mason Ward is a pleasant 80-year-old male who presents to the clinic today for the evaluation of kidney stones. The patient was referred from his primary care physician. The onset of his pain began 1 week ago when he was in his barn moving hay when he had a sudden onset of right back pain. The patient initially thought his pain was due to throwing hay; however, he broke out into a sweat and became nauseated. He was seen by his primary care physician, who ordered a CT scan and told him that he had a kidney stone. He denies having kidney stones before, but states that his father has a history of kidney stones in the past. He explains that when he had pain, which has now resolved, it would radiate almost to his groin. The patient describes the pain as intermittent after he found out it was a kidney stone. He explains that he has been straining his urine, but has not seen anything. He denies any hematuria.",
+    "ROS": "Musculoskeletal: Reports right back pain.",
+    "VITALS": "Vitals look good, blood pressure and hear rate are within normal limits. Temperature is within normal limits.",
+    "PHYSICAL_EXAM": "MSK: Examination of the abdomen: No pain with palpation of the abdomen. No rebound or guarding. There is CVA tenderness on the right side.",
+    "RESULTS": "The CT scan of the abdomen revealed a stone that is measuring 0.5 cm located in the proximal right ureter. There is no evidence of hydronephrosis.",
+    "ASSESSMENT": "Right kidney stone.",
+    "PLAN": "We reviewed the patient's CT results in detail today. I have recommended that we treat the patient conservatively. I have prescribed the patient oxycodone 5 mg every 6 to 8 hours for pain. He may continue to take Tylenol between the oxycodone doses for any breakthrough pain. The patient should continue to use the strainer when he urinates until the stone passes. I have also recommended that we obtain a BMP, urinalysis, and urine culture to evaluate for any signs of infection.",
+    "INSTRUCTIONS": "The patient will follow up with me in 1 to 2 weeks to check on his progress. If his symptoms have not improved, we will discuss further treatment options including lithotripsy."
+  },
+  "n_patient_turns": 12,
+  "n_clinician_turns": 13,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 22217.009969055653,
+      "response_text": "Dear Mason,\n\nI understand how alarming and uncomfortable the sudden pain you experienced must have been. It\u2019s completely normal to feel worried when something like this happens, especially if it\u2019s your first time dealing with a kidney stone. I\u2019m glad we were able to identify the issue through the CT scan, and it\u2019s good to know the stone is 0.5 cm in size.\n\nThe tenderness we found during the exam is expected given the stone\u2019s presence, and it\u2019s a positive sign that your vital signs are stable. I\u2019ve prescribed some medication to help manage any discomfort, and I\u2019ll send that along with some instructions for at-home care, like staying well-hydrated. We\u2019ll follow up in a week to see how you\u2019re doing and check if the stone has passed.\n\nIn the meantime, if you experience any severe pain, fever, or notice blood in your urine, please don\u2019t hesitate to reach out. You\u2019re doing the right things by staying attentive to your symptoms, and I\u2019m confident we\u2019re on the right track together.\n\nTake care, and I\u2019ll see you in a week.\n\nWarm regards,  \n[Your Name]",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 26014.29370045662,
+      "response_text": "Thank you for sharing your concerns, Mason. It's completely understandable that you're worried about the kidney stone, especially given the sudden and intense pain you experienced. Your father's history adds to your concern, which is valid. I can see how this must be unsettling, but please know that we're here to help you through it.\n\nFrom what you've described, the CT scan showed a small kidney stone, which is a good sign. The pain you felt was likely due to the stone moving, which can be quite intense. I'll prescribe some pain medication to help manage any discomfort you might have. It's also important to stay well-hydrated to encourage the stone to pass on its own, which is often the case with smaller stones [PMID ?].\n\nIn the coming week, I'll monitor your progress. If the pain returns or worsens, or if you notice any blood in your urine, please come back in or go to the ER immediately. I want to make sure you're comfortable and that we're on the right track.\n\nBefore you leave, could you summarize the plan in your own words? That way, I can ensure you understand what to do next. We'll check in again in a week to see how you're doing.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7250.502824783325,
+      "response_text": "It sounds like you're here because of the kidney stone you had a week ago. You mentioned the sudden pain in your right back when you were moving hay, which led to a CT scan confirming the stone.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a week. In the meantime, if you experience any severe pain or notice blood in your urine, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're here because of the kidney stone you had a week ago. You mentioned the sudden pain in your right back when you were moving hay, which led to a CT scan confirming the stone.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a week. In the meantime, if you experience any severe pain or notice blood in your urine, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 122265.35262167454,
+      "response_text": "It sounds like you're concerned about having a stroke. That's a serious concern, and I want to make sure we address it right away.\n\nSudden back pain, especially when it's severe and comes on quickly, can be caused by a number of things. Given that it happened while moving hay, it might be related to muscle strain or something more serious. We'll need to look into this carefully.\n\nA stroke is a medical emergency, and your concern about having one is very serious. We'll need to evaluate this immediately to rule out any stroke-related issues.\n\nGiven your concern about a stroke, we'll prioritize evaluating this first. We'll do a thorough assessment to check for any signs of stroke or other serious conditions.\n\nWe'll also look into the sudden back pain to understand what might be causing it and how it relates to your overall health.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again soon to review the results. In the meantime, if you experience any severe symptoms like a severe headache, confusion, or trouble moving part of your body, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're concerned about having a stroke. That's a serious concern, and I want to make sure we address it right away.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "sudden onset back pain",
+            "profile_path": "problems[0]",
+            "explanation": "Sudden back pain, especially when it's severe and comes on quickly, can be caused by a number of things. Given that it happened while moving hay, it might be related to muscle strain or something more serious. We'll need to look into this carefully.",
+            "citations": []
+          },
+          {
+            "concern_label": "stroke",
+            "profile_path": "problems[1]",
+            "explanation": "A stroke is a medical emergency, and your concern about having one is very serious. We'll need to evaluate this immediately to rule out any stroke-related issues.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "Given your concern about a stroke, we'll prioritize evaluating this first. We'll do a thorough assessment to check for any signs of stroke or other serious conditions.",
+          "We'll also look into the sudden back pain to understand what might be causing it and how it relates to your overall health."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again soon to review the results. In the meantime, if you experience any severe symptoms like a severe headache, confusion, or trouble moving part of your body, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Demonstrate empathy",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 2,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 1,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "sudden onset back pain",
+          "stroke"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Demonstrate empathy",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 224344.94534134865,
+      "response_text": "I understand you're concerned about having a stroke. This is a serious situation, and I want to make sure we address it carefully.\n\nThe sudden pain in your right back, along with nausea, could be related to several conditions. Given your father's history of kidney stones, we should consider this as a possible cause. We'll need to do some tests to figure out what's going on.\n\nStroke is a critical concern. The findings suggest that certain symptoms, like coma or vomiting, are more indicative of hemorrhagic stroke. However, without specific symptoms present, we need to gather more information through tests to confirm the diagnosis.\n\nGiven the concern about stroke, we'll prioritize conducting tests to assess your current condition and determine the appropriate next steps.\n\nWe'll schedule a follow-up appointment to review the test results and discuss any necessary treatment or monitoring.\n\nI want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a week. In the meantime, if you experience any severe symptoms like a sudden loss of strength or confusion, please call us immediately.",
+      "structured_response": {
+        "acknowledgment": "I understand you're concerned about having a stroke. This is a serious situation, and I want to make sure we address it carefully.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "sudden onset of pain in right back",
+            "profile_path": "problems[0]",
+            "explanation": "The sudden pain in your right back, along with nausea, could be related to several conditions. Given your father's history of kidney stones, we should consider this as a possible cause. We'll need to do some tests to figure out what's going on.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[0]::37567752_0",
+                "primary_assertion_id": "37567752_0",
+                "pmids": [
+                  "37567752"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "stroke",
+            "profile_path": "problems[1]",
+            "explanation": "Stroke is a critical concern. The findings suggest that certain symptoms, like coma or vomiting, are more indicative of hemorrhagic stroke. However, without specific symptoms present, we need to gather more information through tests to confirm the diagnosis.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[1]::40759192_0",
+                "primary_assertion_id": "40759192_0",
+                "pmids": [
+                  "40759192"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "Given the concern about stroke, we'll prioritize conducting tests to assess your current condition and determine the appropriate next steps.",
+          "We'll schedule a follow-up appointment to review the test results and discuss any necessary treatment or monitoring."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly. Can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a week. In the meantime, if you experience any severe symptoms like a sudden loss of strength or confusion, please call us immediately.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Demonstrate empathy",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[0]::37567752_0",
+          "finding::sub_query[1]::40759192_0"
+        ],
+        "all_pmids_used": [
+          "37567752",
+          "40759192"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 2,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 1,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "sudden onset of pain in right back",
+          "stroke"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "37567752",
+        "40759192"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[0]::37567752_0",
+        "finding::sub_query[1]::40759192_0"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Demonstrate empathy",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 105027.77153253555,
+        "module_2_retrieval": 1210.394263267517,
+        "module_3_reasoning": 94922.91402816772,
+        "module_4_response": 23182.943485677242,
+        "total_ms": 224344.02330964804
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

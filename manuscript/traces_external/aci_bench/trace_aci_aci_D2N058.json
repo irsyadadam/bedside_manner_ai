@@ -1,0 +1,375 @@
+{
+  "transcript_id": "aci_aci_D2N058",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "hey document i i do n't know i'm doing alright i guess",
+  "patient_utterances": [
+    "[Clinician asked: \"russell ramirez is a 45 -year-old male with past medical history significant for cad status post prior status post prior rca stent in twenty eighteen hypertension and diabetes mellitus who presents for hospital follow-up after an anterior stemi now status post drug-eluting stent and lad and newly re\"] hey document i i do n't know i'm doing alright i guess",
+    "[Clinician asked: \"just alright how's it\"] well",
+    "[Clinician asked: \"how's it been since you've had your heart attack have you been have you been doing alright\"] no i've been seeing you for years since i had my last heart attack in two thousand eighteen but i've been doing pretty good i ca n't believe this happened again i mean i'm doing okay i guess i just feel tired every now and then and but overall i mean i guess i feel pretty well",
+    "[Clinician asked: \"okay good were you able to enjoy the spring weather\"] yeah some i mean i'm hoping now that i've had my little procedure that i'll feel better and feel like getting back out and and maybe doing some walking there is some new trails here behind the rex center and maybe get out and walk those trails",
+    "[Clinician asked: \"that will be fine i know you love walking the trails i know you like looking at the flowers because i think you you plant a lot of flowers as well do n't you especially around this time\"] yeah i do some gardening around the house",
+    "[Clinician asked: \"yeah\"] and you know i really like photography too being able to go out and take nature pictures",
+    "[Clinician asked: \"yeah\"] so i'm hoping to be able to go out and do that",
+    "[Clinician asked: \"okay well we'll we'll do what we can here to get you out and going doing all those fun activities again now tell me have you had any chest pain or any shortness of breath\"] no not really no chest pain or shortness of breath i've been doing some short walks right around the house so like around the block",
+    "[Clinician asked: \"okay\"] but i stay pretty close to the house i've been doing some light housekeeping and i do n't know i seem to be doing okay i think",
+    "[Clinician asked: \"okay alright now tell me are you able to lay flat at night when you sleep or\"] well i mean i i never have truly laid flat on my back i've always slept with two pillows which is normal for me",
+    "[Clinician asked: \"okay\"] so i mean i guess i really do n't have any troubles with my sleeping",
+    "[Clinician asked: \"okay good how about are your legs swelling up\"] nope i've always i always had skinny ankles like like i got dawn knots legs",
+    "[Clinician asked: \"well that's cute were you able to afford your medications and are you taking them as prescribed\"] yeah i've been taking my medicine i got pretty good insurance there through the plant and and so the co-pay is n't too bad",
+    "[Clinician asked: \"okay\"] and i've been taking them because i do n't want my sense to close up and they told me that that to take them this you know all the time and and i've been taking them since i got out of the hospital",
+    "[Clinician asked: \"okay well very good i'm glad you're doing that good for you russell and and then please keep that up now tell me are you watching your salt intake and trying to change your diet\"] yeah so when i was in the hospital they said something about my way my heart pumps now",
+    "[Clinician asked: \"mm-hmm\"] it it's it's a little low and i might keep fluid on my legs if i'm not careful",
+    "[Clinician asked: \"right\"] and it's gon na be hard because you know i i really do like pizza and and they told me that i'm really gon na have to watch salt and they said that there is a lot of salt and pizza",
+    "[Clinician asked: \"there is a lot of salt and pizza and you know and you're gon na have to be able to avoid all the other salty foods as well so and i know that's hard but it's very important for your heart to be able to function at it's best right and you wan na be able to get out and walk you know walk take those wa\"] well",
+    "[Clinician asked: \"alright so why do n't we go ahead and do a quick physical exam on you here i just want to take a look at you your vital signs look good i'm glad to see you're tolerating the medication well i'm gon na go ahead and feel your neck here i do n't appreciate any jugular venous distention and there are no\"] that sounds good document",
+    "[Clinician asked: \"alright so for your second diagnosis here the newly reduced left ventricular dysfunction and moderate mitral regurgitation i think your pumping function will improve in time you know they got you to the lab quickly so i think that heart muscle is just stunned and you're very compliant you're very go\"] okay",
+    "[Clinician asked: \"okay and then for your hypertension your third diagnosis of hypertension i want your to take your blood pressure just like you would you know every so often and then because your blood pressures actually seem fine at this time so we will continue to monitor that and i think you will tolerate the ald\"] alright sounds good document",
+    "[Clinician asked: \"okay well you take care and you have a good evening\"] yeah you too"
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nHospital follow-up after an anterior STEMI.\n\nMEDICAL HISTORY\n\nPatient reports history of CAD status post prior RCA stent in 2018, hypertension, and diabetes mellitus.\n\nSURGICAL HISTORY\n\nPatient reports history of RCA stent in 2018 and most recently underwent drug-eluting stent placement in the LAD.\n\nSOCIAL HISTORY\n\nPatient reports enjoying walking outside, gardening, and nature photography.\n\nMEDICATIONS\n\nPatient reports taking aspirin 81 mg daily, Brilinta 90 mg twice a day, Lipitor 80 mg daily, Toprol 50 mg daily, and lisinopril 20 mg a day.\n\nREVIEW OF SYSTEMS\n\nConstitutional: Reports fatigue. Denies changes in sleep.\nCardiovascular: Denies chest pain.\nRespiratory: Denies shortness of breath.\nMusculoskeletal: Denies lower extremity swelling.\n\nVITALS\n\nVital signs look good today.\n\nPHYSICAL EXAM\n\nNeck\n- General Examination: No carotid bruits.\n\nRespiratory\n- Auscultation of Lungs: Clear bilaterally.\n\nCardiovascular\n- Auscultation of Heart: Grade 3/6 systolic ejection murmur, heard at the left base.\n\nMusculoskeletal\n- Examination of the right upper extremity reveals no swelling or edema on the right radial artery. Cath site is clean, dry, and intact. No hematoma. Palpable right radial artery pulse.\n\nRESULTS\n\nElectrocardiogram is reviewed and revealed normal sinus rhythm with good R wave progression and evolutionary changes, which are anticipated.\n\nASSESSMENT AND PLAN\n\n1. Coronary artery disease.\n- Medical Reasoning: The patient's exam is consistent with coronary artery disease.\n- Patient Education and Counseling: We discussed that he should continue to watch his diet and salt intake. We also discussed that the cardiac rehab should help with his confidence with exercising regularly and for his education.\n- Medical Treatment: Continue taking aspirin 81 mg daily Continue taking Brilinta 90 mg twice a day. Continue taking Lipitor 80 mg daily. Continue taking Toprol 50 mg daily. I will refer him to cardiac rehab.\n\n2. Newly reduced left ventricular dysfunction and moderate mitral regurgitation.\n- Medical Reasoning: The patient's physical exam is consistent with this diagnosis.\n- Patient Education and Counseling: We discussed that his pumping function should improve in time. We also discussed that since he is compliant with his medications and presented to the cardiac cath lab quickly, he should recover. I advised the patient that he does not need to start a diuretic at this time.\n- Medical Treatment: Continue taking lisinopril 20 mg a day. Prescription for Aldactone 12.5 mg daily provided. Order for labs provided. Repeat echocardiogram ordered to be completed in 2 months.\n\n3. Hypertension.\n- Medical Reasoning: This seems stable at this time.\n- Medical Treatment: Continue home blood pressure monitoring.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.",
+  "gold_sections": {
+    "CC": "Hospital follow-up after an anterior STEMI.",
+    "MEDICAL_HISTORY": "Patient reports history of CAD status post prior RCA stent in 2018, hypertension, and diabetes mellitus.",
+    "SURGICAL_HISTORY": "Patient reports history of RCA stent in 2018 and most recently underwent drug-eluting stent placement in the LAD.",
+    "SOCIAL_HISTORY": "Patient reports enjoying walking outside, gardening, and nature photography.",
+    "MEDICATIONS": "Patient reports taking aspirin 81 mg daily, Brilinta 90 mg twice a day, Lipitor 80 mg daily, Toprol 50 mg daily, and lisinopril 20 mg a day.",
+    "ROS": "Constitutional: Reports fatigue. Denies changes in sleep.\nCardiovascular: Denies chest pain.\nRespiratory: Denies shortness of breath.\nMusculoskeletal: Denies lower extremity swelling.",
+    "VITALS": "Vital signs look good today.",
+    "PHYSICAL_EXAM": "Neck\n- General Examination: No carotid bruits.\n\nRespiratory\n- Auscultation of Lungs: Clear bilaterally.\n\nCardiovascular\n- Auscultation of Heart: Grade 3/6 systolic ejection murmur, heard at the left base.\n\nMusculoskeletal\n- Examination of the right upper extremity reveals no swelling or edema on the right radial artery. Cath site is clean, dry, and intact. No hematoma. Palpable right radial artery pulse.",
+    "RESULTS": "Electrocardiogram is reviewed and revealed normal sinus rhythm with good R wave progression and evolutionary changes, which are anticipated.",
+    "ASSESSMENT_PLAN": "1. Coronary artery disease.\n- Medical Reasoning: The patient's exam is consistent with coronary artery disease.\n- Patient Education and Counseling: We discussed that he should continue to watch his diet and salt intake. We also discussed that the cardiac rehab should help with his confidence with exercising regularly and for his education.\n- Medical Treatment: Continue taking aspirin 81 mg daily Continue taking Brilinta 90 mg twice a day. Continue taking Lipitor 80 mg daily. Continue taking Toprol 50 mg daily. I will refer him to cardiac rehab.\n\n2. Newly reduced left ventricular dysfunction and moderate mitral regurgitation.\n- Medical Reasoning: The patient's physical exam is consistent with this diagnosis.\n- Patient Education and Counseling: We discussed that his pumping function should improve in time. We also discussed that since he is compliant with his medications and presented to the cardiac cath lab quickly, he should recover. I advised the patient that he does not need to start a diuretic at this time.\n- Medical Treatment: Continue taking lisinopril 20 mg a day. Prescription for Aldactone 12.5 mg daily provided. Order for labs provided. Repeat echocardiogram ordered to be completed in 2 months.\n\n3. Hypertension.\n- Medical Reasoning: This seems stable at this time.\n- Medical Treatment: Continue home blood pressure monitoring.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan."
+  },
+  "n_patient_turns": 22,
+  "n_clinician_turns": 23,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 21322.655737400055,
+      "response_text": "Russell, I understand how challenging this situation must be for you, especially after everything you've been through. It's completely understandable to feel surprised and frustrated after experiencing another heart event. I'm glad you're feeling okay overall and that you're motivated to get back to your hobbies like walking the trails, gardening, and photography. These are great goals, and I encourage you to take gradual steps to increase your activity as you recover.\n\nIt's wonderful that you're being so compliant with your medications and managing your diet, even though cutting back on salt can be tough, especially with a love for pizza. Keep up the great work, and remember, we're here to support you if you need help or resources. I'm confident that with the right approach, you'll continue to improve. Please don't hesitate to ask any questions you might have. Take care, and I look forward to seeing you back in better health soon. Wishing you all the best.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 29939.818292856216,
+      "response_text": "Thank you for sharing your feelings and concerns, Russell. It's understandable that you're feeling a bit down, especially after everything you've been through. Your recent heart attack and the lifestyle changes it entails, like managing your diet, must be challenging, especially with your love for pizza. I can see how frustrating it might be to limit yourself, but your commitment to your health is commendable.\n\nYou've been doing an excellent job staying compliant with your medications and adjusting your diet, which is a great effort. Let's work together to find ways to enjoy your meals without feeling overly restricted. Maybe we can explore alternatives or strategies to make your diet more enjoyable while still being heart-healthy.\n\nI understand your eagerness to return to your hobbies, like walking and photography. Our shared goal is to help you regain your strength so you can get back to doing what you love. It's important to monitor your health closely, and I'll explain the reasons behind your treatment plan in simple terms to ensure you understand why each step is crucial.\n\nTo move forward, let's schedule a follow-up appointment in a few weeks to assess your progress. In the meantime, please keep an eye on your symptoms and let me know if anything changes. Before we wrap up, could you summarize our discussion in your own words? This will help ensure you're clear on the plan and any next steps.\n\nTake care, Russell, and I look forward to seeing you in a few weeks. You're doing great, and I'm confident we'll get you back to enjoying life soon.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7372.154541313648,
+      "response_text": "It sounds like you're doing your best to manage everything, and I'm glad you're taking your medications as prescribed. Let's focus on helping you get back to enjoying your photography and walking the trails.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 4 weeks. In the meantime, if you have any chest pain or shortness of breath, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're doing your best to manage everything, and I'm glad you're taking your medications as prescribed. Let's focus on helping you get back to enjoying your photography and walking the trails.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 4 weeks. In the meantime, if you have any chest pain or shortness of breath, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 227442.46723502874,
+      "response_text": "I can hear how frustrating this must be for you. You mentioned, \"it's gon na be hard because you know I I really do like pizza and and they told me that I'm really gon na have to watch salt and they said that there is a lot of salt and pizza,\" which shows how much this dietary change is affecting your daily life.\n\nChest pain can be caused by various factors, including heart-related issues or other conditions. Given your history of a prior heart attack in 2018, it's important to carefully evaluate the cause of your chest pain. This evaluation may include reviewing your current medications and any possible interactions that could be contributing to your symptoms.\n\nTo help you feel better after a procedure, we'll need to ensure that any medications or treatments prescribed are tailored to your specific needs. This may involve adjusting your current medication regimen to minimize side effects and improve your overall recovery experience.\n\nGetting back to walking is an important goal. Your progress will depend on several factors, including your overall health and the results of any upcoming tests or procedures. We'll work together to create a plan that supports your recovery and helps you resume your walking routine safely.\n\nExploring new trails is something you enjoy, and we want to help you get back to it as soon as possible. This will require careful management of your health, including any necessary treatments and monitoring to ensure you're ready for physical activities like hiking.\n\nWe'll review your current medications to see if any adjustments are needed to help manage your chest pain and improve your overall health.\n\nWe'll schedule a follow-up appointment to discuss the results of any necessary tests and create a plan to help you achieve your goals of feeling better after the procedure, getting back to walking, and exploring new trails.\n\nIn the meantime, if you experience any severe symptoms or your chest pain worsens, please contact us immediately.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if you have any questions or concerns, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "I can hear how frustrating this must be for you. You mentioned, \"it's gon na be hard because you know I I really do like pizza and and they told me that I'm really gon na have to watch salt and they said that there is a lot of salt and pizza,\" which shows how much this dietary change is affecting your daily life.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "recurrent chest pain",
+            "profile_path": "problems[0]",
+            "explanation": "Chest pain can be caused by various factors, including heart-related issues or other conditions. Given your history of a prior heart attack in 2018, it's important to carefully evaluate the cause of your chest pain. This evaluation may include reviewing your current medications and any possible interactions that could be contributing to your symptoms.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::41092546",
+                "primary_assertion_id": "41092546_retr",
+                "pmids": [
+                  "41092546"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "feel better after procedure",
+            "profile_path": "patient_goals[0]",
+            "explanation": "To help you feel better after a procedure, we'll need to ensure that any medications or treatments prescribed are tailored to your specific needs. This may involve adjusting your current medication regimen to minimize side effects and improve your overall recovery experience.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::38533994",
+                "primary_assertion_id": "38533994_retr",
+                "pmids": [
+                  "38533994"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "get back to walking",
+            "profile_path": "patient_goals[1]",
+            "explanation": "Getting back to walking is an important goal. Your progress will depend on several factors, including your overall health and the results of any upcoming tests or procedures. We'll work together to create a plan that supports your recovery and helps you resume your walking routine safely.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::34448868",
+                "primary_assertion_id": "34448868_retr",
+                "pmids": [
+                  "34448868"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "explore new trails",
+            "profile_path": "patient_goals[2]",
+            "explanation": "Exploring new trails is something you enjoy, and we want to help you get back to it as soon as possible. This will require careful management of your health, including any necessary treatments and monitoring to ensure you're ready for physical activities like hiking.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::33658141",
+                "primary_assertion_id": "33658141_retr",
+                "pmids": [
+                  "33658141"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll review your current medications to see if any adjustments are needed to help manage your chest pain and improve your overall health.",
+          "We'll schedule a follow-up appointment to discuss the results of any necessary tests and create a plan to help you achieve your goals of feeling better after the procedure, getting back to walking, and exploring new trails.",
+          "In the meantime, if you experience any severe symptoms or your chest pain worsens, please contact us immediately."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if you have any questions or concerns, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "retrieval_only::41092546",
+          "retrieval_only::38533994",
+          "retrieval_only::34448868",
+          "retrieval_only::33658141"
+        ],
+        "all_pmids_used": [
+          "41092546",
+          "38533994",
+          "34448868",
+          "33658141"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 2,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 3,
+        "problems": [
+          "recurrent chest pain"
+        ],
+        "medications": [
+          "medication name (dose, frequency)",
+          "medication name (dose, frequency)"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [
+        "41092546",
+        "38533994",
+        "34448868",
+        "33658141"
+      ],
+      "cluster_ids_used": [
+        "retrieval_only::41092546",
+        "retrieval_only::38533994",
+        "retrieval_only::34448868",
+        "retrieval_only::33658141"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 322287.02042251825,
+      "response_text": "I can hear how frustrating this must be for you \u2014 you said, \"I can't believe this happened again.\" It sounds like this chest pain is really getting in the way of your life, especially since you've been doing so well since your last heart attack.\n\nGiven your history of a heart attack and the recent recurrence of chest pain, it's important to rule out serious causes. We'll start with some tests to check for issues like blood clots or inflammation.\n\nTo help you feel better, we'll focus on managing your symptoms and understanding what's causing the chest pain. This approach has been shown to improve patients' well-being.\n\nOnce we have a clearer picture of what's causing the chest pain, we can work on a safe plan to help you get back to walking and your other activities. This is a common goal for people in your situation.\n\nOur main focus right now is to address the chest pain so you can get back to enjoying activities like exploring new trails. We'll make sure your treatment plan supports your goal of returning to these activities safely.\n\nGiven your history of heart attack and the recent chest pain, we'll order some tests to rule out serious issues like blood clots or inflammation.\n\nWe'll schedule a follow-up visit in 2 weeks to review the results and discuss next steps.\n\nIn the meantime, if you experience severe pain or any new symptoms like shortness of breath, please call us immediately.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 2 weeks. In the meantime, if you have any new symptoms or concerns, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "I can hear how frustrating this must be for you \u2014 you said, \"I can't believe this happened again.\" It sounds like this chest pain is really getting in the way of your life, especially since you've been doing so well since your last heart attack.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "recurrent chest pain",
+            "profile_path": "problems[0]",
+            "explanation": "Given your history of a heart attack and the recent recurrence of chest pain, it's important to rule out serious causes. We'll start with some tests to check for issues like blood clots or inflammation.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[0]::33952533_0",
+                "primary_assertion_id": "33952533_0",
+                "pmids": [
+                  "33952533"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "feel better",
+            "profile_path": "patient_goals[0]",
+            "explanation": "To help you feel better, we'll focus on managing your symptoms and understanding what's causing the chest pain. This approach has been shown to improve patients' well-being.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::global::33658141_0",
+                "primary_assertion_id": "33658141_0",
+                "pmids": [
+                  "33658141"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "get back out and walking",
+            "profile_path": "patient_goals[1]",
+            "explanation": "Once we have a clearer picture of what's causing the chest pain, we can work on a safe plan to help you get back to walking and your other activities. This is a common goal for people in your situation.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::global::33658141_0",
+                "primary_assertion_id": "33658141_0",
+                "pmids": [
+                  "33658141"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "explore new trails",
+            "profile_path": "patient_goals[2]",
+            "explanation": "Our main focus right now is to address the chest pain so you can get back to enjoying activities like exploring new trails. We'll make sure your treatment plan supports your goal of returning to these activities safely.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::global::33658141_0",
+                "primary_assertion_id": "33658141_0",
+                "pmids": [
+                  "33658141"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "Given your history of heart attack and the recent chest pain, we'll order some tests to rule out serious issues like blood clots or inflammation.",
+          "We'll schedule a follow-up visit in 2 weeks to review the results and discuss next steps.",
+          "In the meantime, if you experience severe pain or any new symptoms like shortness of breath, please call us immediately."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 2 weeks. In the meantime, if you have any new symptoms or concerns, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Demonstrate empathy",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[0]::33952533_0",
+          "recommendation::global::33658141_0"
+        ],
+        "all_pmids_used": [
+          "33952533",
+          "33658141"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 1,
+        "n_allergies": 0,
+        "n_red_flags": 1,
+        "n_emotional": 2,
+        "n_goals": 3,
+        "problems": [
+          "recurrent chest pain"
+        ],
+        "medications": [
+          "medication name (dose, frequency)"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [
+        "33952533",
+        "33658141"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[0]::33952533_0",
+        "recommendation::global::33658141_0"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Demonstrate empathy",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 245566.7250007391,
+        "module_2_retrieval": 1351.818785071373,
+        "module_3_reasoning": 40376.28151476383,
+        "module_4_response": 34991.37872457504,
+        "total_ms": 322286.20402514935
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

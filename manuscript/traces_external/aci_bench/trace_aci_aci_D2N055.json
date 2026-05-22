@@ -1,0 +1,293 @@
+{
+  "transcript_id": "aci_aci_D2N055",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "i'm okay i guess",
+  "patient_utterances": [
+    "[Clinician asked: \"karen nelson is a 3 -year-old female with no significant past medical history who comes in for evaluation of a new right eye twitch karen is accompanied by her father hi karen how are you\"] i'm okay i guess",
+    "[Clinician asked: \"hey dad how are you doing\"] hey doc i am okay yeah karen has been having this eye twitch i noticed a couple of weeks ago when i talked to her pediatrician and they told me to come see you",
+    "[Clinician asked: \"okay alright so karen have you felt the twitch\"] yeah well i mean i feel my face sometimes",
+    "[Clinician asked: \"yeah and do you have any pain when it happens\"] no it it does n't really hurt but i noticed that dad looks real nervous when it happens",
+    "[Clinician asked: \"yeah i i i can understand that's because he loves you do you feel the urge to move your face\"] sometimes and then it moves and then i feel better",
+    "[Clinician asked: \"okay okay and so so dad how often are you seeing the twitch on karen\"] i do n't know i mean it varies sometimes i see it several times an hour and there is other days we do n't see it at all until sometimes late afternoon but we definitely notice it you know everyday for the last several weeks",
+    "[Clinician asked: \"okay so karen how is how is how is soccer\"] i like soccer",
+    "[Clinician asked: \"yeah\"] yeah dad dad takes me to play every saturday",
+    "[Clinician asked: \"okay\"] it's it's pretty fun but there's this girl named isabella she she plays rough",
+    "[Clinician asked: \"does she\"] she yeah she tries to kick me and she pulls my hair and",
+    "[Clinician asked: \"oh\"] sometimes she's not very nice",
+    "[Clinician asked: \"that is n't very nice you gon na have to show her that that's not very nice you're gon na have to teach her a lesson\"] yeah and and then sometimes after soccer we we go and i get mcdugge's and it and it's it makes for a nice day with dad",
+    "[Clinician asked: \"is that your favorite at mcdonald's in the the mcnuggates\"] not not really but they are cheap so",
+    "[Clinician asked: \"okay alright well you you made dad happy at least right\"] yeah that's what he says because i'm expensive because i want dresses and dogs and stuff all the time",
+    "[Clinician asked: \"yeah well yeah who does n't well okay well hopefully we will get you you know squared away here so you can you know play your soccer and go shopping for dresses with dad so so dad tell me does the karen seem bothered or any other and have any other issues when this happens\"] no i mean when it happens she just continues playing or doing whatever she was doing when it happens",
+    "[Clinician asked: \"okay alright has she has she otherwise been feeling okay since this started has she been acting normally\"] i i'd say she seems fine i mean she has been eating well and playing with her friends and she goes about her normal activities really",
+    "[Clinician asked: \"okay good\"] never even though anything was going on",
+    "[Clinician asked: \"okay alright good so has has karen had any seizures in the past\"] no",
+    "[Clinician asked: \"no okay and then so tell me when the twitch occurs do you ever notice any you know parts of her like moving or twitching\"] well no uh it's just her face",
+    "[Clinician asked: \"okay\"] i mean the whole side of her face moves when it happens it seems like it several seconds and then it finally stops and she just seems to be blinking frequently and and and you know wait a minute i i did make a video so you can see just in case it does n't do it during the visit",
+    "[Clinician asked: \"okay okay yeah that would be great to see that because i wan na see what's going on so thank you for that tell me is there any family history of seizures or like tourette's syndrome\"] well no history of seizures but i i i never heard of that tourette thing",
+    "[Clinician asked: \"yeah so so toret is that it's a nervous system disorder that you know involves like repetitive movements or like unwanted sounds and it typically begins in childhood and i do n't know have you noticed anything like that with her when she was younger\"] really i had nobody in our family got anything like that",
+    "[Clinician asked: \"okay now tell me have you noticed any other symptoms how about like fever or chills\"] no",
+    "[Clinician asked: \"okay coughing headache\"] ma'am",
+    "[Clinician asked: \"okay how about any problems with karen's sleep\"] nope",
+    "[Clinician asked: \"okay okay good let's go ahead and do physical exam on karen here alright karen i'm just gon na take a look at you and and ask you to follow some commands okay\"] okay",
+    "[Clinician asked: \"alright can you follow my finger with your eyes good now can you do me a favor walk across the room for me great job okay now i want you to close your eyes and reach out your arms in front of you good now keep your eyes closed can you feel me touch you here how about okay how about there\"] mm-hmm",
+    "[Clinician asked: \"does that feel the same\"] yeah",
+    "[Clinician asked: \"okay alright so i'm just gon na check your reflexes okay alright now on your on the neurological exam the patient is awake alert and oriented times three speech is clear and fluent gait is steady heel toe walking is normal and the cranial nerves are intact without focal neurologic findings there is \"] that's great",
+    "[Clinician asked: \"good alright so i'm gon na go ahead and tell you what we're gon na do so i'm gon na tell you my assessment and plan here so dad so for the first problem i do believe that karen does have a tick eye tics are very common in children and as many as you know one in five children have a tick during their\"] so you mean you're telling me you do n't think he had a seizure or a bit or nothing",
+    "[Clinician asked: \"yeah i do n't think it's i do n't think so because it's it is the same part of her body that's moving every time that and she reports that it's somewhat of an there is an urge to blink her eye and some relief afterwards\"] so you're not recommending any kind of treatment there is no pill or cream or nothing",
+    "[Clinician asked: \"not at this time because she seems to be doing well overall and the tic has n't impacted her school or her activities but if it worsens then we can consider some treatment okay\"] alright alright sounds good",
+    "[Clinician asked: \"alright thank you you guys have a good day\"] doctor"
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nRight eye twitch.\n\nSOCIAL HISTORY\n\nThe patient plays soccer every Saturday, however she has noted that there is a girl that tries to kick her and pulls her hair.\n\nFAMILY HISTORY\n\nPatient's father reports that they do not have a family history of seizures or Tourette's syndrome.\n\nREVIEW OF SYSTEMS\n\nConstitutional: Denies fever, chills, or changes in appetite.\nEyes: Reports right eye twitch. Denies right eye pain.\nRespiratory: Denies cough.\nNeurological: Denies headaches or sleep disturbances.\n\nPHYSICAL EXAM\n\nNeurological\n- Orientation: Alert and oriented x3. Speech is clear and fluent. Gait is steady. Heel toe walking is normal. Cranial nerves grossly intact without focal neurologic findings. No pronator drift. Sensation is intact. Reflexes are 2+ and symmetric at the biceps, triceps, knees, and ankles.\n\nASSESSMENT AND PLAN\n\n1. Transient tics.\n- Medical Reasoning: The patient's father provided a video today as she did not have a twitch in office. It appears the patient is experiencing a tic.\n- Patient Education and Counseling: Nature of the diagnosis was discussed today with the patient and her father. I advised eye tics are very common in children and as many as 1 in 5 children have a tick during their school years. We discussed tics can also include things like shoulder shrugging, facial grimacing, sniffling, excessive throat clearing, and uncontrolled vocalization. I explained that essentially they are brief, sudden and involuntary motor movements and that we do not have a full understanding of the cause. We also discussed that they typically occur around 5 to 10 years of age and mostly resolve on their own within a year. Dad was advised that treatment is not recommended as they do not appear to be bothering Karen and she continues to do well in school and activities. Additionally, we discussed avoiding drawing attention to the tic as it may cause Karen to feel self-conscious and increase the severity of the tic.\n- Medical Treatment: None at this time.\n\nPatient Agreements: The patient's parent understands and agrees with the recommended medical treatment plan. \nAll questions were answered.",
+  "gold_sections": {
+    "CC": "Right eye twitch.",
+    "SOCIAL_HISTORY": "The patient plays soccer every Saturday, however she has noted that there is a girl that tries to kick her and pulls her hair.",
+    "FAMILY_HISTORY": "Patient's father reports that they do not have a family history of seizures or Tourette's syndrome.",
+    "ROS": "Constitutional: Denies fever, chills, or changes in appetite.\nEyes: Reports right eye twitch. Denies right eye pain.\nRespiratory: Denies cough.\nNeurological: Denies headaches or sleep disturbances.",
+    "PHYSICAL_EXAM": "Neurological\n- Orientation: Alert and oriented x3. Speech is clear and fluent. Gait is steady. Heel toe walking is normal. Cranial nerves grossly intact without focal neurologic findings. No pronator drift. Sensation is intact. Reflexes are 2+ and symmetric at the biceps, triceps, knees, and ankles.",
+    "ASSESSMENT_PLAN": "1. Transient tics.\n- Medical Reasoning: The patient's father provided a video today as she did not have a twitch in office. It appears the patient is experiencing a tic.\n- Patient Education and Counseling: Nature of the diagnosis was discussed today with the patient and her father. I advised eye tics are very common in children and as many as 1 in 5 children have a tick during their school years. We discussed tics can also include things like shoulder shrugging, facial grimacing, sniffling, excessive throat clearing, and uncontrolled vocalization. I explained that essentially they are brief, sudden and involuntary motor movements and that we do not have a full understanding of the cause. We also discussed that they typically occur around 5 to 10 years of age and mostly resolve on their own within a year. Dad was advised that treatment is not recommended as they do not appear to be bothering Karen and she continues to do well in school and activities. Additionally, we discussed avoiding drawing attention to the tic as it may cause Karen to feel self-conscious and increase the severity of the tic.\n- Medical Treatment: None at this time.\n\nPatient Agreements: The patient's parent understands and agrees with the recommended medical treatment plan. \nAll questions were answered."
+  },
+  "n_patient_turns": 33,
+  "n_clinician_turns": 34,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 22215.36937355995,
+      "response_text": "Thank you for sharing your concerns with me. I understand how worrying it must be to see Karen experiencing this eye twitch, especially when it\u2019s something new and persistent. From what I gather, Karen is otherwise doing well, playing normally, and there\u2019s no indication of any serious underlying issues like seizures or other neurological concerns. \n\nWhat Karen is experiencing sounds like a tic, which is actually quite common in children. Tics can be caused by stress, fatigue, or even excitement, and they often come and go over time. The fact that Karen feels an urge to blink and it seems to make her feel better suggests it\u2019s a simple tic that\u2019s not causing her any pain or discomfort. \n\nFor now, I recommend keeping an eye on how often the tic occurs and whether it interferes with her daily activities or play. If it becomes more frequent or starts to bother her, we can explore further options, but for now, let\u2019s focus on monitoring it. Please don\u2019t hesitate to reach out if you have any more questions or concerns\u2014I\u2019m here to help. Wishing you both a good day!",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 29454.30739223957,
+      "response_text": "Thank you for sharing your concerns with me. It's completely understandable that both of you are worried about Karen's eye twitch. It must be unsettling to see, especially since it's been happening for a few weeks. Karen seems to be handling it well, but I can tell it's something you're both keeping an eye on.\n\nFrom what I gather, Karen's symptoms point towards a benign eye tic, which is actually quite common in children. According to studies [PMID ?], many children experience such tics, which are usually harmless and tend to resolve on their own over time. The fact that Karen isn't experiencing pain or other concerning symptoms, and her neurological exam came back normal, suggests that this is likely a simple tic rather than something more serious like a seizure.\n\nFor now, our plan is to monitor the situation. I recommend continuing to track the frequency of the tics using the video you took, as this can help us assess any changes. If the tics become more frequent, severe, or start to interfere with Karen's daily activities or focus, we can explore treatment options together.\n\nWe'll schedule a follow-up in about four weeks to check in on how things are going. In the meantime, please don't hesitate to reach out if you notice any changes or if you have any questions or concerns. Your partnership in Karen's care is invaluable, and I'm here to support both of you through this.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7615.009672939777,
+      "response_text": "It sounds like Karen has been experiencing some eye twitching, and you're concerned about it. I understand how that might be worrying for you and your dad.\n\nWe'll review Karen's symptoms together and discuss the next steps based on the evaluation.\n\nIf any concerning symptoms arise, please reach out immediately.\n\nCan you tell me, in your own words, what we discussed about Karen's eye twitching and what we'll do next?\n\nLet's plan to follow up in a week to see how Karen is doing and to review any new information.",
+      "structured_response": {
+        "acknowledgment": "It sounds like Karen has been experiencing some eye twitching, and you're concerned about it. I understand how that might be worrying for you and your dad.",
+        "clinical_information_per_concern": [],
+        "next_steps": [
+          "We'll review Karen's symptoms together and discuss the next steps based on the evaluation.",
+          "If any concerning symptoms arise, please reach out immediately."
+        ],
+        "teach_back_prompt": "Can you tell me, in your own words, what we discussed about Karen's eye twitching and what we'll do next?",
+        "follow_up_invitation": "Let's plan to follow up in a week to see how Karen is doing and to review any new information.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 169863.16893994808,
+      "response_text": "I can see you're feeling frustrated about wanting to buy dresses and dogs while dealing with your eye twitch. You mentioned, \"I'm expensive because I want dresses and dogs and stuff all the time,\" and I understand how that must feel overwhelming.\n\nAn eye twitch can be caused by many things, including stress, lack of sleep, or even certain medications. Since it's been happening for a couple of weeks and varies in frequency, we'll want to look into possible triggers and see if there's anything we can do to help reduce it.\n\nIt's important to balance your goals and your health. We can work together to find ways to achieve your goals while also managing your eye twitch and any other concerns you might have.\n\nWe'll start by discussing your eye twitch and any possible triggers. We'll also talk about how your goals might be affected by your health and vice versa.\n\nIf we need more information, we might ask some follow-up questions or suggest some resources to help you manage your symptoms.\n\nWe'll schedule a follow-up visit to check on your progress and adjust our plan as needed.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if your eye twitch gets worse or you notice any new symptoms, please call us so we can address them promptly.",
+      "structured_response": {
+        "acknowledgment": "I can see you're feeling frustrated about wanting to buy dresses and dogs while dealing with your eye twitch. You mentioned, \"I'm expensive because I want dresses and dogs and stuff all the time,\" and I understand how that must feel overwhelming.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "eye twitch",
+            "profile_path": "problems[0]",
+            "explanation": "An eye twitch can be caused by many things, including stress, lack of sleep, or even certain medications. Since it's been happening for a couple of weeks and varies in frequency, we'll want to look into possible triggers and see if there's anything we can do to help reduce it.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::40155879",
+                "primary_assertion_id": "40155879_retr",
+                "pmids": [
+                  "40155879"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "wants to buy dresses and dogs",
+            "profile_path": "patient_goals[0]",
+            "explanation": "It's important to balance your goals and your health. We can work together to find ways to achieve your goals while also managing your eye twitch and any other concerns you might have.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::39366124",
+                "primary_assertion_id": "39366124_retr",
+                "pmids": [
+                  "39366124"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll start by discussing your eye twitch and any possible triggers. We'll also talk about how your goals might be affected by your health and vice versa.",
+          "If we need more information, we might ask some follow-up questions or suggest some resources to help you manage your symptoms.",
+          "We'll schedule a follow-up visit to check on your progress and adjust our plan as needed."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if your eye twitch gets worse or you notice any new symptoms, please call us so we can address them promptly.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "retrieval_only::40155879",
+          "retrieval_only::39366124"
+        ],
+        "all_pmids_used": [
+          "40155879",
+          "39366124"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 1,
+        "problems": [
+          "eye twitch"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "40155879",
+        "39366124"
+      ],
+      "cluster_ids_used": [
+        "retrieval_only::40155879",
+        "retrieval_only::39366124"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 190824.33526217937,
+      "response_text": "I can hear how frustrating this must be \u2014 you mentioned, \"[Clinician asked: 'okay good'] never even though anything was going on.\" I understand how that can feel overwhelming.\n\nAn eye twitch can sometimes be linked to stress or lack of sleep, but it's also something we should monitor to make sure there's no underlying issue. We'll keep an eye on it and see if it changes over time.\n\nWe'll schedule a follow-up appointment in 30 days to check in on how the eye twitch is doing and see if anything has changed.\n\nIf it gets worse or starts happening more often, let us know right away so we can adjust our plan.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 30 days. In the meantime, if the eye twitch gets worse or happens more often, please call us so we can check in sooner.",
+      "structured_response": {
+        "acknowledgment": "I can hear how frustrating this must be \u2014 you mentioned, \"[Clinician asked: 'okay good'] never even though anything was going on.\" I understand how that can feel overwhelming.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "eye twitch",
+            "profile_path": "problems[0]",
+            "explanation": "An eye twitch can sometimes be linked to stress or lack of sleep, but it's also something we should monitor to make sure there's no underlying issue. We'll keep an eye on it and see if it changes over time.",
+            "citations": [
+              {
+                "cluster_id": "finding::global::41186947_0",
+                "primary_assertion_id": "41186947_0",
+                "pmids": [
+                  "41186947"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll schedule a follow-up appointment in 30 days to check in on how the eye twitch is doing and see if anything has changed.",
+          "If it gets worse or starts happening more often, let us know right away so we can adjust our plan."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 30 days. In the meantime, if the eye twitch gets worse or happens more often, please call us so we can check in sooner.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::global::41186947_0"
+        ],
+        "all_pmids_used": [
+          "41186947"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 0,
+        "problems": [
+          "eye twitch"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "41186947"
+      ],
+      "cluster_ids_used": [
+        "finding::global::41186947_0"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 136513.64667713642,
+        "module_2_retrieval": 1470.507651567459,
+        "module_3_reasoning": 36639.690577983856,
+        "module_4_response": 16199.69480484724,
+        "total_ms": 190823.53971153498
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

@@ -1,0 +1,281 @@
+{
+  "transcript_id": "aci_aci_D2N048",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "yeah well i was playing tennis and i was trying to you know volley the ball",
+  "patient_utterances": [
+    "[Clinician asked: \"alright brittany so i see that you are experiencing some right foot pain could you tell me what happened\"] yeah well i was playing tennis and i was trying to you know volley the ball",
+    "[Clinician asked: \"mm-hmm\"] it was like a double game and i was trying to volley the ball and i got in front of another player and actually ended up falling on top of my foot",
+    "[Clinician asked: \"alright\"] and then yeah it kinda hurt i quickly then twisted my myself around her because i was trying to catch myself but then i started to feel some pain in my foot",
+    "[Clinician asked: \"mm-hmm okay have you ever injured that foot before\"] yeah no sorry i injured my other foot before not this foot",
+    "[Clinician asked: \"okay so right now you're experiencing right leg pain but you have injured your your left leg before is that what i'm hearing\"] yeah that's fine",
+    "[Clinician asked: \"alright were you able to continue playing\"] no i had to stop i actually it was like i had to be held from the field because i could n't put weight on my foot",
+    "[Clinician asked: \"i'm sorry okay so what have you been doing for the pain since then\"] i wrapped it after a the game they had some ace wraps in their clubhouse and so i wrapped it up and then i iced it last night and i just kept it up on a pillow and then i took some ibuprofen",
+    "[Clinician asked: \"okay could you one more time when did this injury happen\"] this happened about couple days ago",
+    "[Clinician asked: \"okay so did you say whether does the ibuprofen help at all\"] yeah it helps a little bit but then you know it it you know after a while it wears out",
+    "[Clinician asked: \"okay and then have you experienced any numb numbness or tingling\"] no no numbness",
+    "[Clinician asked: \"okay alright any loss in sensation\"] no i mean i i can still feel like i can still feel my foot",
+    "[Clinician asked: \"okay alright that's good to hear so you were playing tennis is that what you normally do to work out\"] i do i'm trying to learn but i can not afford tennis less lessons so me and my friends just hit the balls back and forth i do sleep",
+    "[Clinician asked: \"i love it absolutely yeah my dad one time took me to play racquet ball and i learned the very bruisy way that that was n't for me yeah\"] that scares me",
+    "[Clinician asked: \"it's it they they move pretty fast i'm not gon na lie alright so if you do n't mind i'm gon na go ahead and do my my physical exam i'm gon na be calling out some of my findings but if you have any questions go ahead stop me let me know but i will be explaining along the way okay\"] okay",
+    "[Clinician asked: \"alright so i've looked at your vitals and honestly they look great you know your blood pressure i see is one twenty five over seventy that's almost textbook respiratory rate we are seeing you at a smooth eighteen excuse me your temperature you're running normal ninety seven . one you're you're satti\"] no uh uh",
+    "[Clinician asked: \"okay alright tenderness to palpation of the midfoot and positive piano key test of the first and second metatarsals alright it's also warm to touch alright so on your neurovascular exam of your right foot your capillary refill is less than three seconds strong dorsalis pedis pulse and your sensation\"] yeah do i have to do the surgery",
+    "[Clinician asked: \"so i'm recommending it as there can be significant complications to your foot if you do n't it can lead to poor bone alignment or poor ligament healing which can lead to you losing the arch of your foot and becoming flat-footed you can also develop arthritis in that foot so yes i i i highly recommen\"] i just hate that word surgery doc",
+    "[Clinician asked: \"i know\"] you know it scares me every time i mean especially with my foot i want to be able to walk again and so i just get really worried i mean how long is the procedure usually too",
+    "[Clinician asked: \"so it's actually\"] have to be in the hospital",
+    "[Clinician asked: \"no no no no no it's actually a day surgery and you'll be able to go home the same day and then you will follow up with me here in the clinic in about a week you'll be in a cast and you will use crutches as you will not be able to use that foot for six to eight weeks after that you'll start gradually\"] i'm right handed",
+    "[Clinician asked: \"yeah so your your right foot is probably your dominant one and the also the one you're supposed to drive with so no you're gon na you're gon na need somebody to take you home but what\"] i mean",
+    "[Clinician asked: \"uh uh\"] does that mean i'm out for the rest of the season i mean i wan na be able to get back and play again i really am i'm getting a little better so i",
+    "[Clinician asked: \"mm-hmm\"] i really wan na keep on playing my tennis with my friends but",
+    "[Clinician asked: \"yeah so unfortunately yes it does mean that you're out for the rest of the season but hopefully we can get you a great get you to a set up well for next season and in the meantime i think i'm gon na recommend after surgery that we get you to physical therapy i think that that's gon na be a really gr\"] i suppose so",
+    "[Clinician asked: \"yeah\"] okay",
+    "[Clinician asked: \"alright\"] thank you",
+    "[Clinician asked: \"no problem so i do wan na let you know that there are some risks associated with any kind of surgical procedure i'm gon na bring you some paperwork and that my ma is gon na go over with you such as like risks of bleeding loss of sensation nerve damage all those things will be discussed with you and \"] okay",
+    "[Clinician asked: \"alright\"] good",
+    "[Clinician asked: \"thank you\"] thank you"
+  ],
+  "gold_note": "HISTORY OF PRESENT ILLNESS\n\nBrittany Edwards is a 76-year-old female, right-hand-dominant, female who presents to the clinic today for the evaluation of right foot pain. The onset of her pain began 2 days ago, when she was playing tennis and was trying to volley the ball when she got in front of another player and fell on the dorsal aspect of her right foot. She states that she quickly twisted her foot because she was trying to catch herself. The patient reports that she was unable to continue playing secondary to the pain. She states that she wrapped her foot after the game and iced it last night. The patient adds that she kept her foot up on a pillow and took ibuprofen for pain. She denies any numbness. The patient denies any loss of sensation.\n\nThe patient has a history of a left leg injury.\n\nREVIEW OF SYSTEMS\n\nMusculoskeletal: Reports right foot pain.\nNeurological: Denies numbness in the right foot.\n\nPHYSICAL EXAM\n\nSKIN: Warm\nNEURO: Normal sensation.\nMSK:\nExamination of the right foot: Bruising of the plantar and dorsal aspects of the foot. Associated swelling. Tenderness to palpation of the midfoot. Positive piano key test of the 1st and 2nd metatarsals. Warm to touch. Neurovascular intact distally. Capillary refill is less than 3 seconds. Strong dorsalis pedis pulse.\nExamination of the left foot: Brisk capillary refill to all digits and light touch intact.\n\nRESULTS\n\n3 views of the right foot were taken. These reveal subtle dorsal displacement of the base of the 2nd metatarsal with a 3 mm separation of the 1st and 2nd metatarsal bases. There is the presence of a bony fragment in the Lisfranc joint space.\n\nASSESSMENT\n\nRight foot pain, consistent with a Lisfranc fracture.\n\nPLAN\n\nAfter reviewing the patient's examination and radiographic findings today, I have had a lengthy discussion with the patient in regards to her current symptoms. I have explained to her that her x-rays revealed a Lisfranc fracture. We discussed treatment options for this and I have recommended that we proceed with surgical intervention. The plan is to proceed with a right foot ORIF and all indicated procedures. We went over the risk, benefits, and alternatives of the surgery. The risk include but not limited to continued pain, swelling, damage to surrounding tissue including nerves and blood vessels, numbness that could be permanent, infection, nonunion, malunion, failure of hardware, and need for further surgery. There is always a risk of amputation, heart attack, stroke, blood clots, pulmonary embolism, and death. There is a possibility of chronic pain and the inability to get back to the previous level of function. The patient wishes to proceed with the operation and she will follow up with me on the day of surgery. In the meantime, I have recommended that the patient attend formal physical therapy to strengthen her right foot.",
+  "gold_sections": {
+    "HPI": "Brittany Edwards is a 76-year-old female, right-hand-dominant, female who presents to the clinic today for the evaluation of right foot pain. The onset of her pain began 2 days ago, when she was playing tennis and was trying to volley the ball when she got in front of another player and fell on the dorsal aspect of her right foot. She states that she quickly twisted her foot because she was trying to catch herself. The patient reports that she was unable to continue playing secondary to the pain. She states that she wrapped her foot after the game and iced it last night. The patient adds that she kept her foot up on a pillow and took ibuprofen for pain. She denies any numbness. The patient denies any loss of sensation.\n\nThe patient has a history of a left leg injury.",
+    "ROS": "Musculoskeletal: Reports right foot pain.\nNeurological: Denies numbness in the right foot.",
+    "PHYSICAL_EXAM": "SKIN: Warm\nNEURO: Normal sensation.\nMSK:\nExamination of the right foot: Bruising of the plantar and dorsal aspects of the foot. Associated swelling. Tenderness to palpation of the midfoot. Positive piano key test of the 1st and 2nd metatarsals. Warm to touch. Neurovascular intact distally. Capillary refill is less than 3 seconds. Strong dorsalis pedis pulse.\nExamination of the left foot: Brisk capillary refill to all digits and light touch intact.",
+    "RESULTS": "3 views of the right foot were taken. These reveal subtle dorsal displacement of the base of the 2nd metatarsal with a 3 mm separation of the 1st and 2nd metatarsal bases. There is the presence of a bony fragment in the Lisfranc joint space.",
+    "ASSESSMENT": "Right foot pain, consistent with a Lisfranc fracture.",
+    "PLAN": "After reviewing the patient's examination and radiographic findings today, I have had a lengthy discussion with the patient in regards to her current symptoms. I have explained to her that her x-rays revealed a Lisfranc fracture. We discussed treatment options for this and I have recommended that we proceed with surgical intervention. The plan is to proceed with a right foot ORIF and all indicated procedures. We went over the risk, benefits, and alternatives of the surgery. The risk include but not limited to continued pain, swelling, damage to surrounding tissue including nerves and blood vessels, numbness that could be permanent, infection, nonunion, malunion, failure of hardware, and need for further surgery. There is always a risk of amputation, heart attack, stroke, blood clots, pulmonary embolism, and death. There is a possibility of chronic pain and the inability to get back to the previous level of function. The patient wishes to proceed with the operation and she will follow up with me on the day of surgery. In the meantime, I have recommended that the patient attend formal physical therapy to strengthen her right foot."
+  },
+  "n_patient_turns": 29,
+  "n_clinician_turns": 29,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 15802.727214992046,
+      "response_text": "I understand how frustrating and scary this must be for you, Brittany. Dealing with an injury, especially one that affects your ability to play tennis, can be really tough. I want to assure you that I fully understand your concerns about surgery and your desire to get back to playing with your friends. The recommendation for surgery is to help prevent more serious long-term issues like arthritis or a flat foot, which could make it harder for you to return to your activities.\n\nWhile the recovery process will take some time\u2014about 6-8 weeks with crutches and physical therapy afterward\u2014we'll work together to make sure you're well-prepared for the surgery and supported through your healing. You'll have a detailed plan, including physical therapy, to help you get back on your feet and playing tennis again as soon as possible. We'll also discuss any risks and ensure you're fully informed every step of the way. You're not alone in this, and I'm here to help you through it.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 23638.698510825634,
+      "response_text": "Brittany, I can understand how concerning this injury must be for you, especially with the upcoming tennis season. It\u2019s completely valid to feel anxious about surgery and being sidelined. Your passion for the game and your desire to return to playing with your friends is clear, and I want to make sure we address this thoroughly to get you back on your feet.\n\nFrom what I gather, the injury occurred during a game, leading to pain and the need for immediate attention. The physical exam findings suggest a possible fracture or ligament injury, which is why surgery is being considered. I know this is daunting, but the goal is to ensure proper healing to prevent long-term issues like arthritis or a flat foot. We\u2019ll proceed with surgery as a day procedure, allowing you to recover at home, followed by physical therapy to aid your recovery.\n\nIn the meantime, we\u2019ll discuss the risks and benefits of surgery, and I\u2019ll provide you with all necessary paperwork. After the procedure, you\u2019ll need to use crutches for about six to eight weeks. While this means you\u2019re out for the season, our focus is on ensuring a full recovery so you can return to your activities stronger. Let\u2019s go over the plan again to make sure everything is clear, and feel free to ask any questions you have. Your health and getting back to what you love is our priority.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6732.446774840355,
+      "response_text": "Thank you for sharing your experience with the foot pain. It sounds like this has been a tough situation, especially with your upcoming tennis season.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a week. In the meantime, if you have any new symptoms or concerns, please call us.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing your experience with the foot pain. It sounds like this has been a tough situation, especially with your upcoming tennis season.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a week. In the meantime, if you have any new symptoms or concerns, please call us.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 181079.20271903276,
+      "response_text": "I can hear how much this has been worrying you \u2014 you said, \"do i have to do the surgery\" and \"i just hate that word surgery doc.\" That kind of fear is totally understandable, especially when you're worried about being able to walk again.\n\nFoot pain that's gotten worse in just a couple of days and now makes it hard to put weight on your foot needs careful attention. We'll focus on managing your pain and finding the cause without rushing into surgery.\n\nWe'll work together to explore treatment options that avoid surgery, focusing on pain management and healing strategies.\n\nOur goal is to help you get back to walking as soon as possible, using approaches that align with your preferences and avoid surgery.\n\nWe'll start with pain management and imaging to understand the cause of your foot pain better.\n\nWe'll monitor your progress closely and adjust the plan as needed.\n\nWe'll keep you informed every step of the way and make sure you're comfortable with any next steps.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to check in again in a week. If the pain gets worse or you notice anything unusual, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this has been worrying you \u2014 you said, \"do i have to do the surgery\" and \"i just hate that word surgery doc.\" That kind of fear is totally understandable, especially when you're worried about being able to walk again.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "right foot pain",
+            "profile_path": "problems[0]",
+            "explanation": "Foot pain that's gotten worse in just a couple of days and now makes it hard to put weight on your foot needs careful attention. We'll focus on managing your pain and finding the cause without rushing into surgery.",
+            "citations": []
+          },
+          {
+            "concern_label": "avoid surgery",
+            "profile_path": "patient_goals[0]",
+            "explanation": "We'll work together to explore treatment options that avoid surgery, focusing on pain management and healing strategies.",
+            "citations": []
+          },
+          {
+            "concern_label": "be able to walk again",
+            "profile_path": "patient_goals[1]",
+            "explanation": "Our goal is to help you get back to walking as soon as possible, using approaches that align with your preferences and avoid surgery.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll start with pain management and imaging to understand the cause of your foot pain better.",
+          "We'll monitor your progress closely and adjust the plan as needed.",
+          "We'll keep you informed every step of the way and make sure you're comfortable with any next steps."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to check in again in a week. If the pain gets worse or you notice anything unusual, please call us right away.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 3,
+        "n_goals": 2,
+        "problems": [
+          "right foot pain"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 225850.20501166582,
+      "response_text": "I can understand how worried you must be about your foot pain. You mentioned, \"I mean, how long is the procedure usually too?\" That shows you're concerned about the timeline and the process.\n\nThe pain in your right foot, especially since you've tried wrapping it, icing, and taking ibuprofen without improvement, suggests we need to look into it further. We'll focus on finding the cause and getting you moving again.\n\nOur goal is to help you walk again, and we'll work together to make that happen. We'll start by understanding the cause of your foot pain and then plan the next steps.\n\nWe'll schedule an imaging study to get a better look at your foot and identify the cause of the pain.\n\nWe'll also review your current treatments and see if there's anything else we can add to help you feel better.\n\nOnce we have the results, we'll discuss the next steps and how we can help you get back to walking.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to follow up in a week to review the imaging results and adjust our plan as needed. In the meantime, if the pain gets worse or you develop any new symptoms, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I can understand how worried you must be about your foot pain. You mentioned, \"I mean, how long is the procedure usually too?\" That shows you're concerned about the timeline and the process.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "right foot pain",
+            "profile_path": "problems[0]",
+            "explanation": "The pain in your right foot, especially since you've tried wrapping it, icing, and taking ibuprofen without improvement, suggests we need to look into it further. We'll focus on finding the cause and getting you moving again.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::patient_goals[0]::33658141_0",
+                "primary_assertion_id": "33658141_0",
+                "pmids": [
+                  "33658141"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "be able to walk again",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Our goal is to help you walk again, and we'll work together to make that happen. We'll start by understanding the cause of your foot pain and then plan the next steps.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::patient_goals[0]::33658141_0",
+                "primary_assertion_id": "33658141_0",
+                "pmids": [
+                  "33658141"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll schedule an imaging study to get a better look at your foot and identify the cause of the pain.",
+          "We'll also review your current treatments and see if there's anything else we can add to help you feel better.",
+          "Once we have the results, we'll discuss the next steps and how we can help you get back to walking."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to follow up in a week to review the imaging results and adjust our plan as needed. In the meantime, if the pain gets worse or you develop any new symptoms, please call us right away.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "recommendation::patient_goals[0]::33658141_0"
+        ],
+        "all_pmids_used": [
+          "33658141"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 1,
+        "n_goals": 1,
+        "problems": [
+          "right foot pain"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "33658141"
+      ],
+      "cluster_ids_used": [
+        "recommendation::patient_goals[0]::33658141_0"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 152693.28858703375,
+        "module_2_retrieval": 1000.8391961455345,
+        "module_3_reasoning": 48897.67252653837,
+        "module_4_response": 23257.312886416912,
+        "total_ms": 225849.11319613457
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

@@ -1,0 +1,288 @@
+{
+  "transcript_id": "aci_aci_D2N063",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "i i i'm having a lot of trouble sleeping",
+  "patient_utterances": [
+    "[Clinician asked: \"so gloria is a 46 -year-old female today with past medical history of diabetes and back pain and today here for shortness of breath with chf and copd also so gloria tell me what's going on\"] i i i'm having a lot of trouble sleeping",
+    "[Clinician asked: \"okay and and how long has this been going on for\"] really just for about the past two weeks i i just ca n't ca n't get comfortable you know when i when i lay down in bed i just ca n't ca n't fall",
+    "[Clinician asked: \"is it because you're having you ca n't sleep or you're having shortness of breath or difficulty breathing or what's going on with that\"] yeah i i feel like i'm just i'm just choking a few minutes after i i lay down to sleep i just ca n't catch my breath",
+    "[Clinician asked: \"okay and are you and how has your pulse ox been your oxygen level been at home i know you your oxygen level here is like ninety two right now in the office which is a little bit on the low side how is how has that been at home\"] i can breathe fine",
+    "[Clinician asked: \"just when you lay down you get short of breath okay and is it worse when you have you noticed any shortness of breath during the day when you exert yourself when you climb stairs or do other stuff\"] i do n't i do n't do any of that usually i just i i sit on the couch and watch my shows",
+    "[Clinician asked: \"okay fair enough and how about have you noticed any weight gain or swelling in your legs or calves or anything like that\"] yeah i i ca n't see my ankles anymore and and yeah i i do n't know what's going on with the scale i think the numbers are off because you know suddenly i gained about ten pounds",
+    "[Clinician asked: \"wow okay alright and are you taking i know you were supposed to be taking lasix and we had you on you know diet control to to prevent to limit your salt intake how is that going\"] i i i do n't know how much salt is in freedoes but you know i i i'm really enjoying those in last weekend we got this really big party and yeah which color is that lasix pill",
+    "[Clinician asked: \"yeah it's it's the white one the round one so it sounds like you're not maybe not taking it as regularly as you should\"] no sir i i do n't think i am",
+    "[Clinician asked: \"okay alright and are you having any chest pain or tightness in your chest or anything like that or not really\"] no not really",
+    "[Clinician asked: \"okay\"] just just when i ca n't breathe good at night you know",
+    "[Clinician asked: \"okay got it\"] yeah",
+    "[Clinician asked: \"so i'll examine you in a second so it's been a couple of weeks are you coughing up anything any fevers with this at all\"] no no fever kinda feel like i'm just bringing a whole bunch of yuck up once in a while though especially first thing in the morning",
+    "[Clinician asked: \"okay alright and how have your blood sugars been doing this time i know you're taking the metformin are you checking your accu-cheks how has that been going\"] i i'm sorry what's an accu-chek",
+    "[Clinician asked: \"for your blood sugar check are you checking that or not really\"] i i i did it a couple of weeks ago",
+    "[Clinician asked: \"okay\"] and it was about it i i think about two thirty it was okay",
+    "[Clinician asked: \"okay so your hemoglobin a1c last time was seven . five and we had talked about you know trying to improve your diet we had talked about you know we wan na avoid going to insulin but it sounds like it's been a challenge to kinda control the diet and also your blood sugars have been running a little b\"] yeah",
+    "[Clinician asked: \"okay alright\"] yeah it's it's been a challenge",
+    "[Clinician asked: \"alright and any nausea vomiting or diarrhea or anything like that are you peeing a whole lot or anything like that no\"] yeah i'm feeling like crazy",
+    "[Clinician asked: \"okay alright\"] ca n't figure out why because i'm not drinking very much",
+    "[Clinician asked: \"alright and how is your back then has that been okay i know you're sitting you said you're sitting on the couch a lot watching tv but\"] yeah",
+    "[Clinician asked: \"besides that anything else\"] yeah you know it it just it just really hurts so you know and so that's why i sit on the couch so much",
+    "[Clinician asked: \"okay alright no weakness or numbness in your legs right now\"] no",
+    "[Clinician asked: \"okay\"] no",
+    "[Clinician asked: \"so let me examine you now gloria i'm gon na go ahead and do an exam and let's pretend i did my exam i'm just gon na verbalize some of my findings just so i can record this and put it into my my into my chart so neck exam you do have a little bit of swelling in your neck little bit of jvd no bruits y\"] i do n't want to go to the hospital doctor",
+    "[Clinician asked: \"yeah so let's try to let's try to use the lasix and let's try to let's try to you know use the breathing treatments and and do that for the second problem the diabetes that we just talked about i like to go ahead and order another blood test another hemoglobin a1c i think we need to your blood sugar\"] so i had a piece of cake before i came in here is that gon na affect the the lab work",
+    "[Clinician asked: \"yeah we'll probably do a fasting blood sugar we'll we'll order the hemoglobin a1c that should n't be actually matter because that checks long term but if we need your blood sugar may be elevated today i i would n't be surprised alright and i forgot to examine your back by the way so on your back exa\"] okay",
+    "[Clinician asked: \"any questions about that\"] i do n't think so which color pills",
+    "[Clinician asked: \"i think it's a white pill and it's round\"] okay",
+    "[Clinician asked: \"about this big\"] alright sounds good",
+    "[Clinician asked: \"anything else gloria\"] no that's it"
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nDyspnea.\n\nMEDICAL HISTORY\n\nPatient reports history of diabetes, back pain, congestive heart failure, and chronic obstructive pulmonary disease.\n\nSOCIAL HISTORY\n\nPatient reports living a sedentary lifestyle.\n\nMEDICATIONS\n\nPatient reports she is not consistent with taking Lasix and metformin.\n\nREVIEW OF SYSTEMS\n\nConstitutional: Reports 10 pound weight gain. Denies fever.\nCardiovascular: Denies chest pain or tightness.\nRespiratory: Reports orthopnea and productive cough. Denies dyspnea on exertion.\nGastrointestinal: Denies nausea, vomiting, or diarrhea.\nGenitourinary: Reports polyuria.\nMusculoskeletal: Reports back pain and lower extremity edema.\nNeurological: Denies lower extremity weakness or numbness.\n\nVITALS\n\nOxygen saturation: 92%\n\nPHYSICAL EXAM\n\nNeck\n- General Examination: Slight swelling. Mild JVD. No bruits.\n\nRespiratory\n- Auscultation of Lungs: Mild rales heard at the base bilaterally and slight intermittent wheezing.\n\nCardiovascular\n- Auscultation of Heart: 2 out of 6 systolic ejection murmur, otherwise regular rate and rhythm.\n\nGastrointestinal\n- Examination of Abdomen: Slightly distended. No tenderness or guarding.\n\nMusculoskeletal\n- Examination: 1.5+ pitting edema in the ankles bilaterally. No calf tenderness. Negative Homan's sign. Slight tenderness in the paraspinal area, mostly in the lower back. No midline tenderness. Good reflexes.\n\nRESULTS\n\nHemoglobin A1c: 7.5\n\nASSESSMENT AND PLAN\n\n1. Shortness of breath.\n- Medical Reasoning: I believe this is an exacerbation of her congestive heart failure.\n- Patient Education and Counseling: I advised the patient to monitor her weight daily.\n- Medical Treatment: She will increase her dose of Lasix from 20 mg to 60 mg for the next 4 days. She should also use her albuterol and Atrovent inhalers as needed. If her symptoms don't improve in the next couple of days, we will either increase her doses or have her go to the hospital.\n\n2. Diabetes type 2.\n- Medical Reasoning: Her recent blood glucose levels have been elevated.\n- Patient Education and Counseling: We discussed the possibility of needing to add another medication to her regimen.\n- Medical Treatment: We are going to order a repeat hemoglobin A1c and adjust her dose of metformin accordingly.\n\n3. Back pain.\n- Medical Reasoning: This appears to be all muscular pain.\n- Patient Education and Counseling: We discussed exercises she can do to help her pain and that ff this doesn't help we can consider physical therapy.\n- Medical Treatment: Prescriptions provided for Naprosyn and Flexeril.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.\n\nINSTRUCTIONS\n\nWe will have her follow up in a couple of days.",
+  "gold_sections": {
+    "CC": "Dyspnea.",
+    "MEDICAL_HISTORY": "Patient reports history of diabetes, back pain, congestive heart failure, and chronic obstructive pulmonary disease.",
+    "SOCIAL_HISTORY": "Patient reports living a sedentary lifestyle.",
+    "MEDICATIONS": "Patient reports she is not consistent with taking Lasix and metformin.",
+    "ROS": "Constitutional: Reports 10 pound weight gain. Denies fever.\nCardiovascular: Denies chest pain or tightness.\nRespiratory: Reports orthopnea and productive cough. Denies dyspnea on exertion.\nGastrointestinal: Denies nausea, vomiting, or diarrhea.\nGenitourinary: Reports polyuria.\nMusculoskeletal: Reports back pain and lower extremity edema.\nNeurological: Denies lower extremity weakness or numbness.",
+    "VITALS": "Oxygen saturation: 92%",
+    "PHYSICAL_EXAM": "Neck\n- General Examination: Slight swelling. Mild JVD. No bruits.\n\nRespiratory\n- Auscultation of Lungs: Mild rales heard at the base bilaterally and slight intermittent wheezing.\n\nCardiovascular\n- Auscultation of Heart: 2 out of 6 systolic ejection murmur, otherwise regular rate and rhythm.\n\nGastrointestinal\n- Examination of Abdomen: Slightly distended. No tenderness or guarding.\n\nMusculoskeletal\n- Examination: 1.5+ pitting edema in the ankles bilaterally. No calf tenderness. Negative Homan's sign. Slight tenderness in the paraspinal area, mostly in the lower back. No midline tenderness. Good reflexes.",
+    "RESULTS": "Hemoglobin A1c: 7.5",
+    "ASSESSMENT_PLAN": "1. Shortness of breath.\n- Medical Reasoning: I believe this is an exacerbation of her congestive heart failure.\n- Patient Education and Counseling: I advised the patient to monitor her weight daily.\n- Medical Treatment: She will increase her dose of Lasix from 20 mg to 60 mg for the next 4 days. She should also use her albuterol and Atrovent inhalers as needed. If her symptoms don't improve in the next couple of days, we will either increase her doses or have her go to the hospital.\n\n2. Diabetes type 2.\n- Medical Reasoning: Her recent blood glucose levels have been elevated.\n- Patient Education and Counseling: We discussed the possibility of needing to add another medication to her regimen.\n- Medical Treatment: We are going to order a repeat hemoglobin A1c and adjust her dose of metformin accordingly.\n\n3. Back pain.\n- Medical Reasoning: This appears to be all muscular pain.\n- Patient Education and Counseling: We discussed exercises she can do to help her pain and that ff this doesn't help we can consider physical therapy.\n- Medical Treatment: Prescriptions provided for Naprosyn and Flexeril.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.",
+    "INSTRUCTIONS": "We will have her follow up in a couple of days."
+  },
+  "n_patient_turns": 30,
+  "n_clinician_turns": 31,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 36299.11683499813,
+      "response_text": "Thank you, Gloria, for sharing all of this with me. I understand how challenging it must be to deal with these symptoms, especially when they interfere with your daily life and sleep. Let\u2019s address each concern step by step.\n\nFirst, the shortness of breath and trouble sleeping could be related to your heart failure. The weight gain and swelling in your legs suggest possible fluid retention, which is common in CHF. I recommend continuing to monitor your weight daily and taking your Lasix as prescribed to help manage this. If you\u2019re having trouble remembering, we can discuss strategies to make it easier, like setting reminders.\n\nRegarding your blood sugar, it\u2019s important to monitor it regularly to prevent complications. I\u2019ll provide you with information on how to use an Accu-Check so you can track your levels at home. We\u2019ll also schedule a follow-up to check your hemoglobin A1c and fasting blood sugar to ensure your diabetes is under control.\n\nYour back pain is another priority. I\u2019ll ask some detailed questions about the nature of the pain to better understand its cause and explore treatment options, possibly including imaging or a referral if needed.\n\nThe cough and mucus you\u2019re experiencing could be related to your heart or lung condition. We\u2019ll monitor this closely and may order some tests to rule out infections or other issues.\n\nI understand your concerns about the hospital, and we\u2019ll work together to manage your symptoms with medications and close monitoring. Let\u2019s set up a follow-up plan to adjust your treatment as needed and provide you with a care plan to refer back to.\n\nPlease feel free to ask any questions you have, and let me know if there\u2019s anything else on your mind. We\u2019re here to support you and help you feel your best.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 29589.77599442005,
+      "response_text": "Thank you for sharing all of this with me, Gloria. It sounds like you're going through a tough time with your breathing and sleep, and I can tell it's been really frustrating and worrying for you. I understand how hard it must be to deal with these symptoms, especially when you're trying to manage your health on your own.\n\nLet's talk about what's been going on. Your shortness of breath when lying down and the weight gain could be signs that your heart and lungs are working harder than they should. The fluid retention might be related to your heart failure, and not taking the Lasix regularly could be making things worse. I also want to make sure your blood sugar is under control since high blood sugar can make you feel more tired and unwell.\n\nWe'll adjust your medications to help with your breathing and fluid retention. I'll check your blood sugar more closely and make sure you have the tools you need to monitor it at home. We'll also keep an eye on your heart and lung function.\n\nIn two weeks, let's check in to see how you're doing and adjust your treatment if needed. Before you leave, can you tell me in your own words what we've agreed to do? That way I can make sure everything makes sense to you.\n\nPlease remember, if you start having more severe symptoms like chest pain, worsening shortness of breath, or if you feel like you're drowning, go to the ER right away. We're starting with outpatient care, but it's important to know when we might need to step things up.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7177.391819655895,
+      "response_text": "It sounds like you're having a tough time sleeping and catching your breath, especially when lying down. I want to understand how this has been affecting your daily life.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again soon. In the meantime, if you notice any new symptoms like chest pain or worsening shortness of breath, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're having a tough time sleeping and catching your breath, especially when lying down. I want to understand how this has been affecting your daily life.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again soon. In the meantime, if you notice any new symptoms like chest pain or worsening shortness of breath, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 187280.74348717928,
+      "response_text": "I can hear how frustrating this has been for you \u2014 you mentioned, \"Yeah, it's been a challenge\" and \"I'm feeling like crazy.\" I want to make sure we address these symptoms properly.\n\nTrouble sleeping along with symptoms like shortness of breath, coughing up yuck, and feeling like bringing up yuck could be linked to underlying respiratory issues. We should look into these symptoms to understand what's going on.\n\nGiven the severe trouble breathing you're experiencing, we'll prioritize addressing these symptoms first. We'll schedule additional tests to better understand what's causing them.\n\nWe'll follow up within the next two weeks to review the results and plan the next steps together.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to check in again in two weeks. If your symptoms get worse or if you experience anything new like increased difficulty breathing, please reach out sooner.",
+      "structured_response": {
+        "acknowledgment": "I can hear how frustrating this has been for you \u2014 you mentioned, \"Yeah, it's been a challenge\" and \"I'm feeling like crazy.\" I want to make sure we address these symptoms properly.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "trouble sleeping",
+            "profile_path": "problems[0]",
+            "explanation": "Trouble sleeping along with symptoms like shortness of breath, coughing up yuck, and feeling like bringing up yuck could be linked to underlying respiratory issues. We should look into these symptoms to understand what's going on.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::38719772",
+                "primary_assertion_id": "38719772_retr",
+                "pmids": [
+                  "38719772"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "Given the severe trouble breathing you're experiencing, we'll prioritize addressing these symptoms first. We'll schedule additional tests to better understand what's causing them.",
+          "We'll follow up within the next two weeks to review the results and plan the next steps together."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to check in again in two weeks. If your symptoms get worse or if you experience anything new like increased difficulty breathing, please reach out sooner.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Demonstrate empathy",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "retrieval_only::38719772"
+        ],
+        "all_pmids_used": [
+          "38719772"
+        ],
+        "glossary_substitutions": [
+          {
+            "field": "next_steps[0]",
+            "original": "dyspnea",
+            "plain": "trouble breathing",
+            "count": 1
+          }
+        ]
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 2,
+        "n_emotional": 2,
+        "n_goals": 0,
+        "problems": [
+          "trouble sleeping"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "38719772"
+      ],
+      "cluster_ids_used": [
+        "retrieval_only::38719772"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Demonstrate empathy",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 220737.94914782047,
+      "response_text": "I can hear how frustrating this has been for you \u2014 you mentioned, \"Yeah, it's been a challenge\" and \"I'm feeling like crazy.\" I want to make sure we address these concerns together.\n\nTrouble sleeping can be linked to issues like shortness of breath, swelling in your legs, or feeling unwell. Based on the evidence, we should consider checking for heart-related causes since difficulty sleeping is often seen in heart failure patients.\n\nGiven the severe trouble breathing and leg swelling, we need to act quickly. We'll order some tests to rule out heart issues and schedule a follow-up visit within 4 weeks.\n\nIf the test results come back early and are reassuring, I'll call you right away.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 4 weeks. If you experience severe symptoms like worsening shortness of breath or chest pain, please call us immediately.",
+      "structured_response": {
+        "acknowledgment": "I can hear how frustrating this has been for you \u2014 you mentioned, \"Yeah, it's been a challenge\" and \"I'm feeling like crazy.\" I want to make sure we address these concerns together.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "trouble sleeping",
+            "profile_path": "problems[0]",
+            "explanation": "Trouble sleeping can be linked to issues like shortness of breath, swelling in your legs, or feeling unwell. Based on the evidence, we should consider checking for heart-related causes since difficulty sleeping is often seen in heart failure patients.",
+            "citations": [
+              {
+                "cluster_id": "finding::problems[0]::40720582_0",
+                "primary_assertion_id": "40720582_0",
+                "pmids": [
+                  "40720582"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "Given the severe trouble breathing and leg swelling, we need to act quickly. We'll order some tests to rule out heart issues and schedule a follow-up visit within 4 weeks.",
+          "If the test results come back early and are reassuring, I'll call you right away."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 4 weeks. If you experience severe symptoms like worsening shortness of breath or chest pain, please call us immediately.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Demonstrate empathy",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::problems[0]::40720582_0"
+        ],
+        "all_pmids_used": [
+          "40720582"
+        ],
+        "glossary_substitutions": [
+          {
+            "field": "next_steps[0]",
+            "original": "dyspnea",
+            "plain": "trouble breathing",
+            "count": 1
+          }
+        ]
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 2,
+        "n_emotional": 2,
+        "n_goals": 0,
+        "problems": [
+          "trouble sleeping"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "40720582"
+      ],
+      "cluster_ids_used": [
+        "finding::problems[0]::40720582_0"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Demonstrate empathy",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 169668.0852174759,
+        "module_2_retrieval": 1056.2281906604767,
+        "module_3_reasoning": 32866.51162803173,
+        "module_4_response": 17146.17095142603,
+        "total_ms": 220736.99598759413
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

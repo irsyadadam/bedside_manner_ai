@@ -1,0 +1,237 @@
+{
+  "transcript_id": "aci_aci_D2N059",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "good morning",
+  "patient_utterances": [
+    "[Clinician asked: \"okay\"] good morning",
+    "[Clinician asked: \"good morning thanks doctor doctor cooper i'm i'm you know i'm a little i'm sad to be in here but you know thanks for taking me in i appreciate it\"] sure absolutely what can i help you with today",
+    "[Clinician asked: \"so you know i've been dealing with my asthma and like i tried to join sports but it's really kind of it's getting hard you know and i i i just wonder if there's something that can be done because i really do like playing water polo\"] but i'm having difficulty breathing sometimes i've had to like you know stop matches and sit on the side just to kind of like catch my breath and use my inhaler so i was wondering if there was something we could do about it",
+    "[Clinician asked: \"and then like i'm kind of a little bit worried i think my mood is getting a little a little worrisome and i i wanted to explore like what my options were\"] okay let's talk about the asthma first so what inhaler are you using now",
+    "[Clinician asked: \"i have an albuterol inhaler\"] okay and when when you're having trouble it's usually just around sports that is it keeping you up at night",
+    "[Clinician asked: \"so i do n't really like wake up at night a lot typically like it's sports like you know if i'm doing anything like crazy aerobic or like running or anything i do notice that if any if i'm around smoke i do start coughing a little bit but most of the time it's sports\"] okay and can you describe a little bit for me what happens",
+    "[Clinician asked: \"i start to yeah no so i start to feel like there is like some phlegm building up in my in my throat and i start coughing like my chest gets tight i start wheezing and i just have to sit down or else i'm gon na get like lightheaded too\"] okay and then when you use your inhaler",
+    "[Clinician asked: \"mm-hmm\"] does it does it alleviate the problem",
+    "[Clinician asked: \"so yeah it helps with that like phlegm feeling you know but i still i still have to sit down you know and like breathe and then the thing that i hate about that inhaler is i start getting like shaky is that supposed to be happening\"] yes that is unfortunately normal and a side effect with the inhaler",
+    "[Clinician asked: \"okay\"] so you use you're using two puffs of the inhaler",
+    "[Clinician asked: \"mm-hmm\"] for the symptoms",
+    "[Clinician asked: \"yes\"] and then you sit down and does it does it get better within about fifteen minutes or so",
+    "[Clinician asked: \"yeah yeah it does but you know i had to like step out of the the pool to make that happen i'm hoping that there is something else we can do okay have you ever taken any daily medications for your asthma an inhaler or singulair or anything like that no i i just use my inhaler whenever i have an attac\"] okay so that's something we might wan na consider but how often is it happening",
+    "[Clinician asked: \"pretty much every time i do any kind of aerobic workout\"] okay and outside of physical activity you're not having any problems",
+    "[Clinician asked: \"yeah there's that part where like if i'm around somebody who has been smoking a lot or is currently smoking but i usually just step away i do n't even like to be around them you know that makes sense\"] alright well we will look at that tell me about the mood issues you are having",
+    "[Clinician asked: \"yeah so one of the reasons i got into like trying to get into sports is like i feel like you know you you feel a lot more energized and a lot you know happier but like lately i've just been kinda stressed out you know like i have i have like sats that i need to study for i've got like all these ap c\"] okay that makes sense any any difficulty with focusing or you're having difficulty retaining information or is it more feeling sad not having motivation",
+    "[Clinician asked: \"so i think it's like a lot of sadness a lot of like you know i do n't really i kinda feel like you know i do n't really like want to do anything you know my friends will go out and i'll just be like i'd rather be at home i am really tired a lot too\"] okay alright well let me let me go ahead and check you out",
+    "[Clinician asked: \"mm-hmm\"] and then we can talk a little bit more",
+    "[Clinician asked: \"okay\"] i'm gon na take a listen to your heart and lungs",
+    "[Clinician asked: \"mm-hmm\"] and everything sounds good",
+    "[Clinician asked: \"let me take a look at your eyes\"] mm-hmm and in your ears everything looks okay have you had any problems with allergies you have seasonal allergies or anything like that",
+    "[Clinician asked: \"yeah i think so yeah\"] i do see just a little bit of fluid in the ears",
+    "[Clinician asked: \"mm-hmm\"] and i'm gon na look in your mouth too",
+    "[Clinician asked: \"okay\"] and throat looks fine no tonsils",
+    "[Clinician asked: \"mm-hmm\"] lem me go ahead and have you lay back on the table and i'll take a listen to your stomach",
+    "[Clinician asked: \"okay\"] everything sounds okay i'm gon na feel around just to make sure everything feels normal",
+    "[Clinician asked: \"mm-hmm\"] everything feels fine and i'm gon na check reflexes and they're all normal",
+    "[Clinician asked: \"awesome\"] it's really hard to do with actual patient so in terms of the asthma i think we could try a daily medication since it looks like you might be having a little bit of allergies maybe we can try some singulair",
+    "[Clinician asked: \"mm-hmm\"] and start with that once you are on that daily and you can continue to use the albuterol inhaler those side effects unfortunately you're right it's it's just one of the expected side effects with an albuterol inhaler i would recommend just what you're doing just sit down for a little bit after you take it",
+    "[Clinician asked: \"and we will get you started on the singulair probably within about a month you should see a difference so i will have you come back in about six weeks and follow up and see how you're doing with that\"] in terms of the mood is this new for you",
+    "[Clinician asked: \"yeah i think so like when i started this year\"] and it sounds like related to school expectations and the stress with saps and all of that",
+    "[Clinician asked: \"yeah\"] okay let's consider having you start seeing a therapist i think that would be a good place to start",
+    "[Clinician asked: \"mm-hmm\"] and we will do some screening questionnaires and and then follow up in a couple weeks on that too",
+    "[Clinician asked: \"okay alright sounds like a plan okay\"] thank you"
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nAsthma.\n\nMEDICAL HISTORY\n\nPatient reports history of asthma.\n\nSURGICAL HISTORY\n\nPatient reports history of tonsillectomy.\n\nSOCIAL HISTORY\n\nPatient reports she is a student and enjoys playing water polo as well as being active with aerobics and running.\n\nALLERGIES\n\nPatient reports history of seasonal allergies.\n\nMEDICATIONS\n\nPatient reports using an albuterol inhaler, 2 puffs as needed.\n\nREVIEW OF SYSTEMS\n\nConstitutional: Reports fatigue.\nRespiratory: Reports shortness of breath.\nPsychiatric: Reports mood changes.\n\nPHYSICAL EXAM\n\nEars, Nose, Mouth, and Throat\n- Examination of Ears: Mild fluid in ears.\n- Examination of Mouth: Normal.\n- Examination of Throat: Tonsils have been previously removed.\n\nGastrointestinal\n- Auscultation: Bowel sounds normal in all 4 quadrants.\n\nIntegumentary\n- Examination: No rash or lesions. Normal capillary refill and perfusion.\n- Palpation: No enlarged lymph nodes.\n\nASSESSMENT AND PLAN\n\n1. Asthma.\n- Medical Reasoning: The patient has experienced an increased need to use her albuterol inhaler. She is not currently utilizing a daily medication. At this time, we will try a daily medication since it looks like she might be having some allergies.\n- Patient Education and Counseling: I explained the side effects of albuterol to the patient. We also discussed Singulair and that she should start to see a difference in her breathing within approximately 1 month.\n- Medical Treatment: We will start her on a daily asthma medication. She can continue to use the albuterol inhaler. We will start her on Singulair in about a month.\n\n2. Mood.\n- Medical Reasoning: The patient reports being under a lot of stress with school. I believe this may be attributing to her mood.\n- Medical Treatment: I would like for the patient to be seen by a therapist. She will also complete our screening questionnaire.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.\n\nINSTRUCTIONS\n\nThe patient will follow up in 6 weeks for recheck.",
+  "gold_sections": {
+    "CC": "Asthma.",
+    "MEDICAL_HISTORY": "Patient reports history of asthma.",
+    "SURGICAL_HISTORY": "Patient reports history of tonsillectomy.",
+    "SOCIAL_HISTORY": "Patient reports she is a student and enjoys playing water polo as well as being active with aerobics and running.",
+    "ALLERGIES": "Patient reports history of seasonal allergies.",
+    "MEDICATIONS": "Patient reports using an albuterol inhaler, 2 puffs as needed.",
+    "ROS": "Constitutional: Reports fatigue.\nRespiratory: Reports shortness of breath.\nPsychiatric: Reports mood changes.",
+    "PHYSICAL_EXAM": "Ears, Nose, Mouth, and Throat\n- Examination of Ears: Mild fluid in ears.\n- Examination of Mouth: Normal.\n- Examination of Throat: Tonsils have been previously removed.\n\nGastrointestinal\n- Auscultation: Bowel sounds normal in all 4 quadrants.\n\nIntegumentary\n- Examination: No rash or lesions. Normal capillary refill and perfusion.\n- Palpation: No enlarged lymph nodes.",
+    "ASSESSMENT_PLAN": "1. Asthma.\n- Medical Reasoning: The patient has experienced an increased need to use her albuterol inhaler. She is not currently utilizing a daily medication. At this time, we will try a daily medication since it looks like she might be having some allergies.\n- Patient Education and Counseling: I explained the side effects of albuterol to the patient. We also discussed Singulair and that she should start to see a difference in her breathing within approximately 1 month.\n- Medical Treatment: We will start her on a daily asthma medication. She can continue to use the albuterol inhaler. We will start her on Singulair in about a month.\n\n2. Mood.\n- Medical Reasoning: The patient reports being under a lot of stress with school. I believe this may be attributing to her mood.\n- Medical Treatment: I would like for the patient to be seen by a therapist. She will also complete our screening questionnaire.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.",
+    "INSTRUCTIONS": "The patient will follow up in 6 weeks for recheck."
+  },
+  "n_patient_turns": 34,
+  "n_clinician_turns": 34,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 16330.302573740482,
+      "response_text": "Thank you for sharing your concerns with me. It sounds like you're dealing with a lot, especially with your asthma impacting your ability to play water polo and your mood feeling low. I understand how important it is for you to stay active and how frustrating it must be when your asthma gets in the way.\n\nWe\u2019re starting you on Singulair to help reduce inflammation and prevent asthma attacks, which should make it easier for you to enjoy your sport. It might take a few weeks to notice the difference, but please keep using your inhaler as directed. For your mood, I can see how stress and sadness might be taking a toll, especially with exams approaching. Let\u2019s explore therapy options to help you manage these feelings and develop coping strategies. We\u2019ll monitor your progress together.\n\nPlease don\u2019t hesitate to ask any questions you might have. We\u2019re here to support you and help you feel better.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 27820.516042411327,
+      "response_text": "Thank you for sharing your concerns with me. It sounds like you're feeling both frustrated and sad about how your asthma is affecting your ability to play water polo, which is something you clearly enjoy and find energizing. I can understand how disheartening it must be to have to step out of matches and sit on the sidelines, especially when you're putting in the effort to stay active. It's also concerning to hear that you're feeling down and lacking motivation, especially with the added stress of school and exams. I want to work together to address both your asthma and your mood concerns.\n\nFor the asthma, since it's flaring up during physical activity, we might consider adding a daily medication like Singulair to help reduce inflammation and prevent symptoms. This could potentially help you stay on the field longer without needing to sit out. I know the side effects of the albuterol inhaler can be bothersome, but it's important to continue using it as prescribed for quick relief. We'll start you on Singulair and monitor how it goes over the next six weeks. In the meantime, if you experience any severe symptoms like trouble swallowing, chest pain, or unintended weight loss, please seek immediate care.\n\nRegarding your mood, it's clear that the stress from school and the limitations your asthma has placed on your activities is taking a toll. I recommend starting therapy to help you navigate these feelings and develop coping strategies. We'll also use screening tools to better understand what you're going through. I'll have you follow up in a couple of weeks to see how you're feeling and adjust the plan as needed.\n\nLet me know if you have any questions about the plan, and please take a moment to repeat back what we've discussed so I can ensure everything is clear. You can expect to hear from us in six weeks for the asthma update and sooner for the mood concerns. Together, we'll work to help you feel better and get back to the activities you enjoy.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7514.222294092178,
+      "response_text": "Good morning and thank you for coming in today. I understand you're dealing with some challenges related to your asthma and how it's affecting your ability to participate in sports. Let's work together to address these concerns.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if you experience any severe symptoms like difficulty breathing, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "Good morning and thank you for coming in today. I understand you're dealing with some challenges related to your asthma and how it's affecting your ability to participate in sports. Let's work together to address these concerns.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if you experience any severe symptoms like difficulty breathing, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "error": "Unterminated string starting at: line 593 column 3 (char 13782)"
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 295656.423099339,
+      "response_text": "I can hear how much this has been affecting you. You mentioned, \"it's really kind of it's getting hard you know,\" and I want to acknowledge how frustrating it must be to feel like your asthma is getting in the way of your life.\n\nBased on your symptoms, we should focus on finding a treatment plan that works better for you. This might include adjusting your current medications or adding new ones to help control your asthma.\n\nTo help you continue playing water polo, we'll work on finding asthma treatments that fit your active lifestyle. This might involve strategies to manage symptoms during and after physical activity.\n\nWe'll explore different treatment options together to find what works best for you. This might include reviewing your current medications or trying new ones to better manage your asthma symptoms.\n\nWe'll review your current asthma treatment plan and make adjustments as needed to better manage your symptoms.\n\nWe'll schedule a follow-up appointment in 2 weeks to check on your progress and make any necessary changes to your treatment plan.\n\nIn the meantime, keep track of your symptoms and how your asthma is affecting your daily activities, especially during water polo practice and matches.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 2 weeks. In the meantime, if your asthma symptoms get worse or if you have trouble breathing during any activity, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this has been affecting you. You mentioned, \"it's really kind of it's getting hard you know,\" and I want to acknowledge how frustrating it must be to feel like your asthma is getting in the way of your life.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "asthma",
+            "profile_path": "problems[0]",
+            "explanation": "Based on your symptoms, we should focus on finding a treatment plan that works better for you. This might include adjusting your current medications or adding new ones to help control your asthma.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::problems[0]::38719772_0",
+                "primary_assertion_id": "38719772_0",
+                "pmids": [
+                  "38719772"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "continue playing water polo",
+            "profile_path": "patient_goals[0]",
+            "explanation": "To help you continue playing water polo, we'll work on finding asthma treatments that fit your active lifestyle. This might involve strategies to manage symptoms during and after physical activity.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::patient_goals::33658141_0",
+                "primary_assertion_id": "33658141_0",
+                "pmids": [
+                  "33658141"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "find a better treatment for asthma",
+            "profile_path": "patient_goals[1]",
+            "explanation": "We'll explore different treatment options together to find what works best for you. This might include reviewing your current medications or trying new ones to better manage your asthma symptoms.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::patient_goals::33658141_0",
+                "primary_assertion_id": "33658141_0",
+                "pmids": [
+                  "33658141"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll review your current asthma treatment plan and make adjustments as needed to better manage your symptoms.",
+          "We'll schedule a follow-up appointment in 2 weeks to check on your progress and make any necessary changes to your treatment plan.",
+          "In the meantime, keep track of your symptoms and how your asthma is affecting your daily activities, especially during water polo practice and matches."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 2 weeks. In the meantime, if your asthma symptoms get worse or if you have trouble breathing during any activity, please call us right away.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "recommendation::problems[0]::38719772_0",
+          "recommendation::patient_goals::33658141_0"
+        ],
+        "all_pmids_used": [
+          "38719772",
+          "33658141"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 3,
+        "n_goals": 2,
+        "problems": [
+          "asthma"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "38719772",
+        "33658141"
+      ],
+      "cluster_ids_used": [
+        "recommendation::problems[0]::38719772_0",
+        "recommendation::patient_goals::33658141_0"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 220025.97216516733,
+        "module_2_retrieval": 2460.783079266548,
+        "module_3_reasoning": 43881.04037940502,
+        "module_4_response": 29287.59105503559,
+        "total_ms": 295655.3866788745
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

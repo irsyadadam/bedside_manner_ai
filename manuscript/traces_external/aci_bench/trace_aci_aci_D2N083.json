@@ -1,0 +1,237 @@
+{
+  "transcript_id": "aci_aci_D2N083",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "i'm doing alright aside from this elbow pain",
+  "patient_utterances": [
+    "[Clinician asked: \"hey lawrence how're you doing\"] i'm doing alright aside from this elbow pain",
+    "[Clinician asked: \"so it looks like here that you came in to see us today for an evaluation of that right elbow pain can you tell me can you can you tell me well first of all what do you think has been causing that pain\"] so i really during this pandemic i really got into ceramics and doing pottery so i've been doing a lot of pottery and over the past week i then started to develop this elbow pain",
+    "[Clinician asked: \"okay and then so tell me a little bit more about that elbow pain where does it hurt exactly\"] you know it hurts a lot in the inside of my elbow",
+    "[Clinician asked: \"okay so the inside of your right elbow okay\"] yeah",
+    "[Clinician asked: \"and then does the pain radiate down your arm or up into your shoulder or anything like that\"] it does n't go into my shoulder it's it stays mostly at my elbow but it can go down a bit into my forearm",
+    "[Clinician asked: \"okay and then do you remember any trauma did you hit your arm or elbow or any on anything\"] no nothing i i really was trying to think if there is anything else and i ca n't think of anything",
+    "[Clinician asked: \"okay and you've never injured that right elbow before\"] no",
+    "[Clinician asked: \"alright so now let's talk a little bit about your pain and how bad it how bad is that pain on a scale from zero to ten ten being the worst pain you've ever felt in your life\"] i would say probably a six",
+    "[Clinician asked: \"okay and does that pain keep you up at night\"] it does",
+    "[Clinician asked: \"okay and when you have that kind of pain does it keep you from doing other type of activities\"] yeah i mean i still try to like work through with using my arm but yeah it's it's it's difficult for me sometimes to lift and do things because of that pain",
+    "[Clinician asked: \"okay and then and how long has this pain been going on\"] about four days now",
+    "[Clinician asked: \"alright and anything you've done to help relieve or alleviate that pain any anything that that's giving you relief\"] i've tried ibuprofen that helps a little but not much",
+    "[Clinician asked: \"okay so if it's okay with you i would like to do a a quick physical exam your vitals look good and i'm gon na do a focused exam on that right elbow i'm gon na go ahead and and and press here do you do you have any pain when i press here\"] yes i do",
+    "[Clinician asked: \"okay so you are positive for pain to palpation you do note that moderate tenderness of the medial epicondyle now i'm gon na have you turn your wrist as if you're turning a door knob do you have any pain when you do that\"] not really",
+    "[Clinician asked: \"okay now turn your wrist in so do you have any pain when you do that\"] yeah that hurts",
+    "[Clinician asked: \"okay so you do have pain you were positive for pain when you pronate that that that forearm okay i'm gon na go ahead and have you rest your arm on the table here palm side up now i want you to raise your hand by bending at the wrist and i'm gon na put some resistance against it do you have any pain \"] yes i do",
+    "[Clinician asked: \"that that bend the wrist towards the palm now i want you to rest it i'm gon na order a sling and i want you to wear the sling while you're awake now we're also gon na have you apply ice to the elbow for twenty minutes three times a day and i want you to take ibuprofen that's gon na be six hundred mi\"] alrighty",
+    "[Clinician asked: \"alrighty so i'll have the nurse come in and get you set up with that sling and i will see you again in about a week\"] alright thank you"
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nRight elbow pain.\n\nHISTORY OF PRESENT ILLNESS\n\nLawrence Butler is a pleasant 45-year-old male who presents to the clinic today for the evaluation of right elbow pain.\n\nOver the past week, the patient has developed 6/10 pain in the \"inside\" of his right elbow. The pain may radiate into his forearm on occasion, but does not extend up to his shoulder. He denies any history of trauma or injury, but he did start making pottery during the COVID-19 pandemic and suspects that his symptoms could be related to that. His symptoms affect his ability to lift objects or perform his typical activities of daily living. Ibuprofen provides minimal symptomatic relief.\n\nSOCIAL HISTORY\n\nThe patient reports that he began making pottery during the COVID-19 pandemic.\n\nMEDICATIONS\n\nThe patient reports that he has been taking ibuprofen.\n\nREVIEW OF SYSTEMS\n\nMusculoskeletal: Reports right elbow pain.\n\nVITALS\n\nNormal\n\nPHYSICAL EXAM\n\nMSK: Examination of the right elbow: Moderate tenderness at the medial epicondyle. No pain with supination of the forearm. Pain with pronation of the forearm. Pain with resistance against flexion of the wrist.\n\nRESULTS\n\nX-ray imaging of the right elbow was obtained and reviewed in office today. These reveal no evidence of fracture or bony abnormality.\n\nASSESSMENT\n\nRight medial epicondylitis.\n\nPLAN\n\nThe patient and I discussed his diagnosis in detail, and I explained that his symptoms are likely caused by overuse and potential damage of the tendons. We will provide him with sling to be worn during the day while he is awake. I want him to take ibuprofen 600 mg every 6 hours with food for a full week and ice the elbow for 20 minutes, 3 times daily. Finally, I advised the patient to rest his elbow and avoid doing any pottery for the next couple of weeks.\n\nINSTRUCTIONS\n\nThe patient will follow up in 1 week.",
+  "gold_sections": {
+    "CC": "Right elbow pain.",
+    "HPI": "Lawrence Butler is a pleasant 45-year-old male who presents to the clinic today for the evaluation of right elbow pain.\n\nOver the past week, the patient has developed 6/10 pain in the \"inside\" of his right elbow. The pain may radiate into his forearm on occasion, but does not extend up to his shoulder. He denies any history of trauma or injury, but he did start making pottery during the COVID-19 pandemic and suspects that his symptoms could be related to that. His symptoms affect his ability to lift objects or perform his typical activities of daily living. Ibuprofen provides minimal symptomatic relief.",
+    "SOCIAL_HISTORY": "The patient reports that he began making pottery during the COVID-19 pandemic.",
+    "MEDICATIONS": "The patient reports that he has been taking ibuprofen.",
+    "ROS": "Musculoskeletal: Reports right elbow pain.",
+    "VITALS": "Normal",
+    "PHYSICAL_EXAM": "MSK: Examination of the right elbow: Moderate tenderness at the medial epicondyle. No pain with supination of the forearm. Pain with pronation of the forearm. Pain with resistance against flexion of the wrist.",
+    "RESULTS": "X-ray imaging of the right elbow was obtained and reviewed in office today. These reveal no evidence of fracture or bony abnormality.",
+    "ASSESSMENT": "Right medial epicondylitis.",
+    "PLAN": "The patient and I discussed his diagnosis in detail, and I explained that his symptoms are likely caused by overuse and potential damage of the tendons. We will provide him with sling to be worn during the day while he is awake. I want him to take ibuprofen 600 mg every 6 hours with food for a full week and ice the elbow for 20 minutes, 3 times daily. Finally, I advised the patient to rest his elbow and avoid doing any pottery for the next couple of weeks.",
+    "INSTRUCTIONS": "The patient will follow up in 1 week."
+  },
+  "n_patient_turns": 18,
+  "n_clinician_turns": 20,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 16860.03466695547,
+      "response_text": "Thank you for sharing your concerns with me, Lawrence. It sounds like your elbow pain has been quite bothersome, especially with your passion for ceramics. Based on your symptoms and the physical exam, it seems like you might have medial epicondylitis, which is often related to repetitive activities. \n\nTo help alleviate the pain, I recommend resting your elbow with a sling, applying ice several times a day, and continuing with ibuprofen as prescribed. These steps should help reduce the discomfort. Please make sure to follow the treatment plan and let me know if you experience any changes or if the pain doesn't improve. We'll check in again in a week to monitor your progress. Take care and feel better soon.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 20375.87434798479,
+      "response_text": "Thanks for sharing all that, Lawrence. It sounds like the elbow pain has been pretty frustrating, especially since it\u2019s come on so suddenly after picking up ceramics. I can understand how concerning this must be, especially when it\u2019s affecting your ability to do the things you enjoy and even keeping you up at night.\n\nFrom what we saw during the exam, it looks like there\u2019s some tenderness around the medial epicondyle, and the pain seems to get worse when you pronate your forearm. This points to a possible case of medial epicondylitis, commonly known as \"golfer's elbow,\" which is often caused by repetitive activities like the pottery work you\u2019ve been doing. We\u2019re going to take a conservative approach with rest, ice, and a sling to help reduce the inflammation and give your elbow time to heal. The ibuprofen should help with the pain and swelling, and we\u2019ll keep an eye on things over the next week.\n\nBefore you leave, could you tell me in your own words what you think we\u2019ve agreed on for your care? That way I can make sure everything\u2019s clear and you\u2019re comfortable with the plan. We\u2019ll check in again in about a week to see how things are progressing and adjust the plan as needed.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 9867.103844881058,
+      "response_text": "It sounds like you're experiencing some elbow pain that's been affecting your daily activities and even keeping you up at night. I understand how frustrating and limiting that can be.\n\nWe'll provide you with a sling to rest your elbow and recommend applying ice several times a day. Taking ibuprofen as directed can help with the pain and inflammation. Please wear the sling and follow these instructions while we monitor your progress.\n\nWe'll schedule a follow-up appointment in about a week to reassess your elbow and adjust the treatment plan as needed.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what you'll do next and how we'll monitor your progress?\n\nLet's plan to see each other again in about a week. In the meantime, if the pain worsens or if there's any swelling, please call us so we can address it promptly.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're experiencing some elbow pain that's been affecting your daily activities and even keeping you up at night. I understand how frustrating and limiting that can be.",
+        "clinical_information_per_concern": [],
+        "next_steps": [
+          "We'll provide you with a sling to rest your elbow and recommend applying ice several times a day. Taking ibuprofen as directed can help with the pain and inflammation. Please wear the sling and follow these instructions while we monitor your progress.",
+          "We'll schedule a follow-up appointment in about a week to reassess your elbow and adjust the treatment plan as needed."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what you'll do next and how we'll monitor your progress?",
+        "follow_up_invitation": "Let's plan to see each other again in about a week. In the meantime, if the pain worsens or if there's any swelling, please call us so we can address it promptly.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 138873.05710464716,
+      "response_text": "It sounds like your elbow pain has been getting worse over the past four days, and you're experiencing some discomfort in your forearm and wrist. How has this been affecting your daily activities, especially with your ceramics work?\n\nElbow pain, especially when it radiates into the forearm and wrist, can be concerning. Given the recent onset and worsening severity, it's important to consider potential causes such as overuse, injury, or underlying conditions. We'll work together to explore these possibilities and determine the best course of action.\n\nWe'll schedule a follow-up visit to further assess your elbow pain and explore possible causes. In the meantime, if the pain worsens or you experience any new symptoms, please reach out.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a week. In the meantime, if the pain gets much worse or you develop any new symptoms, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "It sounds like your elbow pain has been getting worse over the past four days, and you're experiencing some discomfort in your forearm and wrist. How has this been affecting your daily activities, especially with your ceramics work?",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "elbow pain",
+            "profile_path": "problems[0]",
+            "explanation": "Elbow pain, especially when it radiates into the forearm and wrist, can be concerning. Given the recent onset and worsening severity, it's important to consider potential causes such as overuse, injury, or underlying conditions. We'll work together to explore these possibilities and determine the best course of action.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll schedule a follow-up visit to further assess your elbow pain and explore possible causes. In the meantime, if the pain worsens or you experience any new symptoms, please reach out."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a week. In the meantime, if the pain gets much worse or you develop any new symptoms, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "elbow pain"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 181221.67190164328,
+      "response_text": "It sounds like your elbow pain has been getting worse over the past four days, with pain radiating into your forearm and wrist. That must be uncomfortable.\n\nGiven that your elbow pain has worsened over the past four days and is now rated at 6/10, it's important to monitor your symptoms. We'll focus on understanding your pain better and determining the best approach to manage it.\n\nWe'll schedule a follow-up visit to discuss your pain in more detail and explore possible treatment options.\n\nIn the meantime, keep track of your pain levels and any changes in your symptoms.\n\nCan you summarize what we discussed today about your elbow pain and the next steps we're planning to take?\n\nLet's plan to see each other again in a week. If your pain worsens or if you experience any new symptoms, please call us so we can address them promptly.",
+      "structured_response": {
+        "acknowledgment": "It sounds like your elbow pain has been getting worse over the past four days, with pain radiating into your forearm and wrist. That must be uncomfortable.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "elbow pain",
+            "profile_path": "problems[0]",
+            "explanation": "Given that your elbow pain has worsened over the past four days and is now rated at 6/10, it's important to monitor your symptoms. We'll focus on understanding your pain better and determining the best approach to manage it.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[1]::40155879_4",
+                "primary_assertion_id": "40155879_4",
+                "pmids": [
+                  "40155879"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll schedule a follow-up visit to discuss your pain in more detail and explore possible treatment options.",
+          "In the meantime, keep track of your pain levels and any changes in your symptoms."
+        ],
+        "teach_back_prompt": "Can you summarize what we discussed today about your elbow pain and the next steps we're planning to take?",
+        "follow_up_invitation": "Let's plan to see each other again in a week. If your pain worsens or if you experience any new symptoms, please call us so we can address them promptly.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[1]::40155879_4"
+        ],
+        "all_pmids_used": [
+          "40155879"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "elbow pain"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "40155879"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[1]::40155879_4"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 119749.06380474567,
+        "module_2_retrieval": 969.0248742699623,
+        "module_3_reasoning": 45184.631645679474,
+        "module_4_response": 15317.776821553707,
+        "total_ms": 181220.49714624882
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

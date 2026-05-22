@@ -1,0 +1,297 @@
+{
+  "transcript_id": "aci_aci_D2N086",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "yeah i've had the boot for about six weeks i first noticed it when i put on a pair of shoes that were little bit too tight i felt some burni",
+  "patient_utterances": [
+    "[Clinician asked: \"hey nicholas nice to see you today your pcp looks like he sent you over for a nonhealing foot ulcer on your right foot can you tell me about how long you've had that\"] yeah i've had the boot for about six weeks i first noticed it when i put on a pair of shoes that were little bit too tight i felt some burning and some stinging and looked down and saw a blister i did n't think too much of it because it was on the pad of the bottom of my foot around my heel and i just had been walking on the front part of my foot i started to notice a foul smell and my wife mentioned something to me the other day and i noticed my dog was also smelling my socks a lot and so we looked and saw that the blister had become unroofed or the the top part of the skin of the blister became undone and then underneath it was just this really thick soft mushy skin that had a bad smell with some yellow drainage and so and barbara called the primary care doctor who then got me in to see you he started me on some antibiotics about six days ago and i never had any nausea or vomiting but my wife checked my temperature it was about ninety nine point seven and then at one point i had to put on an extra blanket in bed because i had some chills and when i started the antibiotics it started to feel pretty good but we've now noticed that it has turned black around the outside of the wound and i'm getting some cramping in my calf muscle as well and so there was a red streak also that was coming up the front part of my my ankle along the inside portion of my calf muscle and it's super super hot and so they wanted me to take a have have you look at it",
+    "[Clinician asked: \"okay thank you for sharing that history with me and did you complete that course of antibiotics\"] i think he called in ten days' worth and i'm on day six or seven right now i know i've got about two or three days left",
+    "[Clinician asked: \"okay and you mentioned that it had some stinging and it was a bit uncomfortable are you experiencing any pain right now\"] yeah it was it was stinging initially like i had just done something small but at this point it's it's really like throbbing it's almost like there is a fire poker in the bottom of my foot now and then the inside of my calf muscle is really hard and i've noticed that every time that i push that i feel it all the way up to my knee behind my kneecap and then noticed that i've been coughing a lot the last two days and then i've noticed that i've had like difficult time catching my breath when i'm walking around the house and so it's almost like two different things going on at this point",
+    "[Clinician asked: \"okay so now i see here in your record that you have some that you're diabetic and have some diabetic neuropathy as well how's your blood sugars been running i'm i'm assuming kind of all over the place over the last i'm gon na say probably three or four weeks can you tell me about that\"] yeah my my a1c is six point seven it's pretty well controlled",
+    "[Clinician asked: \"okay\"] i used to be on an insulin pump and i had an a1c that at one point was like thirteen but we worked with an endocrinologist to get it down to where it's at now i've been six point seven for probably two years now and i rarely have a blood sugar that goes over two hundred i check two or three times a day if i feel weird i'll check it again but i noticed my sugars have probably been trending in the three to four hundreds the last two weeks and then i had one spike at one point at like five or six hundred that got our attention and i think that's also what made my wife call the primary care doc",
+    "[Clinician asked: \"okay now i know this was caused by a new pair of shoes you had mentioned before to your pcp and he relayed this to me that you really like to go on hikes you and your wife have been hiking have you gone to the new trails that that were just opened up here behind the park\"] yeah we actually hiked to charlie's bunion about a week before this i've had a new pair of diabetic shoes and inserts i get those every year i changed the inserts every three or four months i mean i've been in cruise control as far as that goes for some time i did get a new pair of shoes the prosthetist told me to check my feet every day for the first week or two which we did i did go hiking about the third or fourth day and i think that might be what caused it as i just went too far when we were hiking but yeah the trails are the trails are gorgeous they're open it's time to to be outside and i'm sorta stuck with this right now",
+    "[Clinician asked: \"absolutely yeah my wife and i like to go back there and and hike those trails as well so i'm gon na do a quick physical exam for your vital signs i do recognize a slight fever however your vitals themselves look good now on your foot exam i do recognize the necrotic wound on your heel as you mention\"] i do n't feel that right there",
+    "[Clinician asked: \"okay i'm gon na review the results of your right foot x-ray that we did when you came in today the good news is i do n't see any evidence of osteomyelitis meaning that there is no infection of the bone so let's talk a little bit about my assessment and plan for this nonhealing diabetic foot ulcer i'\"] no not really so you're gon na continue the antibiotics that i'm on and possibly extend or call in a new antibiotic depending on the culture",
+    "[Clinician asked: \"correct\"] if i heard",
+    "[Clinician asked: \"yep that's correct so what we're gon na do is you said you're six days in do a ten or twelve day course so we're gon na go ahead and continue your antibiotics therapy that your pcp put you on i do want to get the culture back and then we'll make the determination as far as additional or changing tha\"] okay sounds good"
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nNon-healing ulcer on his right foot.\n\nHISTORY OF PRESENT ILLNESS\n\nNicholas Gutierrez is a pleasant 45-year-old male who presents to the clinic today for the evaluation of a non-healing ulcer on his right foot. The patient was referred from his primary care physician. The onset of his pain began 6 weeks ago, after wearing a pair of shoes that were too tight.\n\nToday, he describes a burning, stinging, and throbbing sensation. The patient reports a blister on the pad of the plantar aspect of his foot around his heel. He explains that he has been ambulating on the anterior aspect of his foot. He explains that the top part of the skin of the blister detached, which revealed a thick, soft, mushy skin associated with unpleasant smell and yellow drainage. The patient called his primary care physician, who referred him to our office. He was prescribed a 10-day course of antibiotics approximately 6 days ago. He experienced chills and a fever of 99.7 degrees Fahrenheit. The patient denies any nausea or vomiting. He states that when he started the antibiotics, his foot began to feel pretty good. However, he has now noticed that his foot has turned black around the outside of the wound, and he is experiencing cramping in his calf muscle as well. He also reports a burning red streak that was coming up the front part of his ankle along the inside portion of his calf muscle. While palpating his calf, he has noted stiffness in the muscle that is now up to the patella. The patient reports that he has been coughing a lot over the last 2 days. He has experienced shortness of breath with ambulation around the house. He reports that he purchases new diabetic shoes yearly and changes the inserts every 3 to 4 months.\n\nThe patient is diabetic and has diabetic neuropathy. He explains that his blood sugar has been trending in the 300 to 400's over the last 2 weeks. At one point, he had a blood sugar spike to either 500 or 600. He states that his last hemoglobin A1c was 6.7, which has been his average for approximately 2 years. The patient checks his blood sugar 2 to 3 times per day and rarely has a blood sugar that goes over 200. He explains that he used to be on an insulin pump and had an A1c that at one point was 13. He states that he worked with an endocrinologist to get it down to where it is now.\n\nMEDICAL HISTORY\n\nThe patient reports a history of diabetic neuropathy.\n\nSOCIAL HISTORY\n\nThe patient enjoys hiking.\n\nREVIEW OF SYSTEMS\n\nConstitutional: Reports subjective fever and chills\nRespiratory: Reports cough and shortness of breath with ambulation.\nGastrointestinal: Denies nausea and vomiting.\nMusculoskeletal: Reports right foot pain and right calf cramping.\nSkin: Reports right foot ulcer with yellow foul smelling drainage, and red streaking coming up the front part of his ankle along the inside portion of his calf muscle.\n\nVITALS\n\nTemperature is slightly elevated.\nVitals are otherwise good.\n\nPHYSICAL EXAM\n\nCV: Edema and pain in calf. Bilateral palpable femoral and papiteal pulses are present. I do not recognize a palpable dorsalis pedis or posterior tibial pulse; however, they are present via Doppler.\nMSK: Examination of the right foot: The necrotic wound on his heel is present. It is approximately 2 cm x 2 cm. I do recognize the sloughing of the tissue, as well as what looks like cellulitis around the area, and erythema. An odor is present from the wound. I do not appreciate any bony exposure now. No pain to palpation in the effected area.\n\nRESULTS\n\n3 views of the right foot were taken today. These reveal no evidence of osteomyelitis or infection.\n\nASSESSMENT\n\nRight non-healing diabetic foot ulcer.\nDiabetes.\n\nPLAN\n\nAfter reviewing the patient's examination and radiographic findings today, I have had a lengthy discussion with the patient in regard to his current symptoms. I have explained to him that I do not see any evidence of osteomyelitis. I am concerned about the redness that is moving up his leg, as well as the swelling, and pain that he has in his calf. I have recommended that we obtain a venous ultrasound to check his blood supply for the wound. I have also recommended that we perform a debridement of the wound today. We may have to obtain a culture and look at different antibiotic therapy. I am recommending that he continue with antibiotics that his primary care physician prescribed.\n\nIn regard to his diabetes, I have advised him to follow up with his endocrinologist to ensure that we do continue to keep his hemoglobin A1c below 7. We will need to closely monitor his blood sugar since we are going to be doing some medication therapy with antibiotics and potentially some other medications depending on the culture results.\n\nINSTRUCTIONS\n\nThe patient will follow up with me in 7 days to check on his progress.",
+  "gold_sections": {
+    "CC": "Non-healing ulcer on his right foot.",
+    "HPI": "Nicholas Gutierrez is a pleasant 45-year-old male who presents to the clinic today for the evaluation of a non-healing ulcer on his right foot. The patient was referred from his primary care physician. The onset of his pain began 6 weeks ago, after wearing a pair of shoes that were too tight.\n\nToday, he describes a burning, stinging, and throbbing sensation. The patient reports a blister on the pad of the plantar aspect of his foot around his heel. He explains that he has been ambulating on the anterior aspect of his foot. He explains that the top part of the skin of the blister detached, which revealed a thick, soft, mushy skin associated with unpleasant smell and yellow drainage. The patient called his primary care physician, who referred him to our office. He was prescribed a 10-day course of antibiotics approximately 6 days ago. He experienced chills and a fever of 99.7 degrees Fahrenheit. The patient denies any nausea or vomiting. He states that when he started the antibiotics, his foot began to feel pretty good. However, he has now noticed that his foot has turned black around the outside of the wound, and he is experiencing cramping in his calf muscle as well. He also reports a burning red streak that was coming up the front part of his ankle along the inside portion of his calf muscle. While palpating his calf, he has noted stiffness in the muscle that is now up to the patella. The patient reports that he has been coughing a lot over the last 2 days. He has experienced shortness of breath with ambulation around the house. He reports that he purchases new diabetic shoes yearly and changes the inserts every 3 to 4 months.\n\nThe patient is diabetic and has diabetic neuropathy. He explains that his blood sugar has been trending in the 300 to 400's over the last 2 weeks. At one point, he had a blood sugar spike to either 500 or 600. He states that his last hemoglobin A1c was 6.7, which has been his average for approximately 2 years. The patient checks his blood sugar 2 to 3 times per day and rarely has a blood sugar that goes over 200. He explains that he used to be on an insulin pump and had an A1c that at one point was 13. He states that he worked with an endocrinologist to get it down to where it is now.",
+    "MEDICAL_HISTORY": "The patient reports a history of diabetic neuropathy.",
+    "SOCIAL_HISTORY": "The patient enjoys hiking.",
+    "ROS": "Constitutional: Reports subjective fever and chills\nRespiratory: Reports cough and shortness of breath with ambulation.\nGastrointestinal: Denies nausea and vomiting.\nMusculoskeletal: Reports right foot pain and right calf cramping.\nSkin: Reports right foot ulcer with yellow foul smelling drainage, and red streaking coming up the front part of his ankle along the inside portion of his calf muscle.",
+    "VITALS": "Temperature is slightly elevated.\nVitals are otherwise good.",
+    "PHYSICAL_EXAM": "CV: Edema and pain in calf. Bilateral palpable femoral and papiteal pulses are present. I do not recognize a palpable dorsalis pedis or posterior tibial pulse; however, they are present via Doppler.\nMSK: Examination of the right foot: The necrotic wound on his heel is present. It is approximately 2 cm x 2 cm. I do recognize the sloughing of the tissue, as well as what looks like cellulitis around the area, and erythema. An odor is present from the wound. I do not appreciate any bony exposure now. No pain to palpation in the effected area.",
+    "RESULTS": "3 views of the right foot were taken today. These reveal no evidence of osteomyelitis or infection.",
+    "ASSESSMENT": "Right non-healing diabetic foot ulcer.\nDiabetes.",
+    "PLAN": "After reviewing the patient's examination and radiographic findings today, I have had a lengthy discussion with the patient in regard to his current symptoms. I have explained to him that I do not see any evidence of osteomyelitis. I am concerned about the redness that is moving up his leg, as well as the swelling, and pain that he has in his calf. I have recommended that we obtain a venous ultrasound to check his blood supply for the wound. I have also recommended that we perform a debridement of the wound today. We may have to obtain a culture and look at different antibiotic therapy. I am recommending that he continue with antibiotics that his primary care physician prescribed.\n\nIn regard to his diabetes, I have advised him to follow up with his endocrinologist to ensure that we do continue to keep his hemoglobin A1c below 7. We will need to closely monitor his blood sugar since we are going to be doing some medication therapy with antibiotics and potentially some other medications depending on the culture results.",
+    "INSTRUCTIONS": "The patient will follow up with me in 7 days to check on his progress."
+  },
+  "n_patient_turns": 10,
+  "n_clinician_turns": 11,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 15506.04698061943,
+      "response_text": "Nicholas, I understand how concerning and uncomfortable this situation must be for you. It\u2019s clear how much this foot ulcer is affecting your daily life, especially with the added symptoms like the calf cramping and difficulty breathing. I want to reassure you that we\u2019re taking this seriously and are closely monitoring your condition.\n\nWe\u2019ll continue with the current antibiotic treatment and wait for the culture results to guide any necessary changes. It\u2019s also important to manage your blood sugar levels, as fluctuations can impact wound healing. Please keep the wound clean, monitor your symptoms, and let us know immediately if anything changes. We\u2019re here to support you and ensure we address any complications promptly. Your health and comfort are our top priorities.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 24813.764236867428,
+      "response_text": "Nicholas, thank you for sharing all the details about your foot ulcer and how it's been affecting you. It's clear that you're concerned about the progression of the ulcer and the new symptoms you're experiencing, like the black discoloration and red streaks. I can understand why you're feeling frustrated and worried, especially given how long this has been going on and the systemic symptoms you're experiencing. Managing a condition like this must be challenging, and I appreciate your efforts in taking care of your feet and monitoring your blood sugars.\n\nWe've discussed the importance of continuing the antibiotic therapy to address the infection, and we'll monitor the culture results to determine if any adjustments are needed. It's also crucial to keep an eye on your systemic symptoms, as they could indicate a more serious infection. We'll schedule a follow-up in about a week to reassess your progress and adjust treatment as necessary.\n\nBefore you leave, could you summarize what we've agreed on today? This will help ensure you understand the plan and feel confident moving forward. Remember, if you experience severe symptoms like high fever or worsening pain, seek immediate care. Let's work together to get you back on track and healing.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7585.248552262783,
+      "response_text": "Thank you for sharing all the details about your foot ulcer and how it's been affecting you. It sounds like you've been through a lot with this, and I'm here to help figure out the next steps.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a week. In the meantime, if you notice any worsening symptoms like increased redness, swelling, or fever, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "Thank you for sharing all the details about your foot ulcer and how it's been affecting you. It sounds like you've been through a lot with this, and I'm here to help figure out the next steps.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a week. In the meantime, if you notice any worsening symptoms like increased redness, swelling, or fever, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 160616.89695715904,
+      "response_text": "I understand you're concerned about the red streak on your ankle and calf, which you described as 'super super hot.' This looks serious, and I want to make sure we address it right away.\n\nThe red streak and warmth suggest an infection that might be spreading. Given your history of diabetes and neuropathy, we need to act quickly to prevent it from getting worse.\n\nKeeping your blood sugar in check is crucial for healing. Your recent readings in the 300s and up to 600 are concerning, and we need to adjust your management plan.\n\nWe'll work together to manage your blood sugar to prevent future spikes, which can affect your healing and overall health.\n\nWe'll start antibiotics immediately to tackle the infection.\n\nWe'll schedule a follow-up appointment in the next few days to reassess your condition and adjust your treatment plan.\n\nIn the meantime, keep the area clean and monitor any changes in redness, warmth, or pain. If it gets worse, go to the ER.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few days. In the meantime, if the red streak gets worse or you develop a high fever, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I understand you're concerned about the red streak on your ankle and calf, which you described as 'super super hot.' This looks serious, and I want to make sure we address it right away.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "nonhealing foot ulcer",
+            "profile_path": "problems[0]",
+            "explanation": "The red streak and warmth suggest an infection that might be spreading. Given your history of diabetes and neuropathy, we need to act quickly to prevent it from getting worse.",
+            "citations": []
+          },
+          {
+            "concern_label": "maintain blood sugar control",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Keeping your blood sugar in check is crucial for healing. Your recent readings in the 300s and up to 600 are concerning, and we need to adjust your management plan.",
+            "citations": []
+          },
+          {
+            "concern_label": "prevent future blood sugar spikes",
+            "profile_path": "patient_goals[1]",
+            "explanation": "We'll work together to manage your blood sugar to prevent future spikes, which can affect your healing and overall health.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll start antibiotics immediately to tackle the infection.",
+          "We'll schedule a follow-up appointment in the next few days to reassess your condition and adjust your treatment plan.",
+          "In the meantime, keep the area clean and monitor any changes in redness, warmth, or pain. If it gets worse, go to the ER."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few days. In the meantime, if the red streak gets worse or you develop a high fever, please call us right away.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Demonstrate empathy",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 2,
+        "n_emotional": 0,
+        "n_goals": 2,
+        "problems": [
+          "nonhealing foot ulcer"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Demonstrate empathy",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 212341.54644608498,
+      "response_text": "I can hear how frustrating this must be for you \u2014 you mentioned, \"I'm sorta stuck with this right now.\" That makes sense given how much this foot ulcer has been affecting your life.\n\nThe ongoing pain and signs like the foul smell, blackened tissue, and red streak suggest the ulcer is getting worse. We need to act quickly to prevent it from leading to more serious infections.\n\nKeeping your blood sugar levels in check is crucial, especially since they've been in the 3-400s range recently. This can affect how your body heals and fights infections.\n\nManaging your blood sugar and foot care properly can help prevent more serious complications down the line.\n\nOnce we get your foot ulcer under control and your blood sugar levels stabilized, we can work on getting you back to enjoying your hikes with your wife.\n\nGiven the signs of worsening infection, we need to act immediately. We'll schedule you for an urgent follow-up visit today to assess the ulcer and start appropriate antibiotics.\n\nWe'll also review your blood sugar management plan to ensure it's optimized for healing and infection control.\n\nIn the meantime, keep the area clean, avoid walking barefoot, and monitor any changes in pain or redness. If you notice spreading of the red streak or increased fever, call us right away.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a week for the follow-up visit. In the meantime, if you experience severe pain, increased redness, or any signs of spreading infection, please call us immediately.",
+      "structured_response": {
+        "acknowledgment": "I can hear how frustrating this must be for you \u2014 you mentioned, \"I'm sorta stuck with this right now.\" That makes sense given how much this foot ulcer has been affecting your life.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "nonhealing foot ulcer",
+            "profile_path": "problems[0]",
+            "explanation": "The ongoing pain and signs like the foul smell, blackened tissue, and red streak suggest the ulcer is getting worse. We need to act quickly to prevent it from leading to more serious infections.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[2]::33285618_0",
+                "primary_assertion_id": "33285618_0",
+                "pmids": [
+                  "33285618"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "manage blood glucose levels",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Keeping your blood sugar levels in check is crucial, especially since they've been in the 3-400s range recently. This can affect how your body heals and fights infections.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::global::33658141_0",
+                "primary_assertion_id": "33658141_0",
+                "pmids": [
+                  "33658141"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "prevent further complications",
+            "profile_path": "patient_goals[1]",
+            "explanation": "Managing your blood sugar and foot care properly can help prevent more serious complications down the line.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::global::33658141_0",
+                "primary_assertion_id": "33658141_0",
+                "pmids": [
+                  "33658141"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "continue hiking with wife",
+            "profile_path": "patient_goals[2]",
+            "explanation": "Once we get your foot ulcer under control and your blood sugar levels stabilized, we can work on getting you back to enjoying your hikes with your wife.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::global::33658141_0",
+                "primary_assertion_id": "33658141_0",
+                "pmids": [
+                  "33658141"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "Given the signs of worsening infection, we need to act immediately. We'll schedule you for an urgent follow-up visit today to assess the ulcer and start appropriate antibiotics.",
+          "We'll also review your blood sugar management plan to ensure it's optimized for healing and infection control.",
+          "In the meantime, keep the area clean, avoid walking barefoot, and monitor any changes in pain or redness. If you notice spreading of the red streak or increased fever, call us right away."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a week for the follow-up visit. In the meantime, if you experience severe pain, increased redness, or any signs of spreading infection, please call us immediately.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Respect",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Demonstrate empathy",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[2]::33285618_0",
+          "recommendation::global::33658141_0"
+        ],
+        "all_pmids_used": [
+          "33285618",
+          "33658141"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 2,
+        "n_emotional": 1,
+        "n_goals": 3,
+        "problems": [
+          "nonhealing foot ulcer"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "33285618",
+        "33658141"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[2]::33285618_0",
+        "recommendation::global::33658141_0"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Respect",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Demonstrate empathy",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 148861.7924451828,
+        "module_2_retrieval": 2039.6010428667068,
+        "module_3_reasoning": 27339.686386287212,
+        "module_4_response": 34099.36395287514,
+        "total_ms": 212340.44382721186
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

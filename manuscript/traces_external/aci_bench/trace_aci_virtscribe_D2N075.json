@@ -1,0 +1,313 @@
+{
+  "transcript_id": "aci_virtscribe_D2N075",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "good morning . yes . that's me .",
+  "patient_utterances": [
+    "[Clinician asked: \"next is betty hill , uh , date of birth is 2/21/1968 . she has a past medical history of uterine fibroids and anemia . she's a new patient with a referral from the er of esophagitis . um , i reviewed our records from the er , including the normal cardiac workup , and we're about to go in and see her\"] good morning . yes . that's me .",
+    "[Clinician asked: \"hey , i'm dr. sanders . it's nice to meet you .\"] nice to meet you too .",
+    "[Clinician asked: \"so tell me about what brings you in today ?\"] well , i really needed to see you three months ... three months ago , but this was your first available appointment . when i called to make the appointment , i was having chest pains , but it stopped after four days , and i have n't had any since then .",
+    "[Clinician asked: \"okay . when did these four days of chest pain occur ?\"] um , early october .",
+    "[Clinician asked: \"of 2020 , correct ?\"] yes .",
+    "[Clinician asked: \"okay . can you think of anything that might have caused the chest pain ? did you wake up with it ?\"] no . it just it randomly . i tolerated it for four days but then had to go to the emergency room because nothing i did relieved it . they did a bunch of testing and did n't find anything .",
+    "[Clinician asked: \"okay . can you point to the area of your chest where the pain was located ?\"] well , it was here in the center of my chest , right behind my breastbone . it felt like i was having a heart attack . the pain was really sharp .",
+    "[Clinician asked: \"did they prescribe you any medications in the er ?\"] no . they ran an ekg and did blood tests , but like i said , everything was normal .",
+    "[Clinician asked: \"okay . i see .\"] they thought it was something to do with the gi system , so that's why they referred me here .",
+    "[Clinician asked: \"interesting . uh , do you remember having any heartburn or indigestion at , at the time ?\"] uh , maybe . i do n't think i've ever had heartburn , so i'm not sure what that feels like .",
+    "[Clinician asked: \"was the pain worse with eating or exercise ?\"] yes . with eating .",
+    "[Clinician asked: \"okay . any difficulty swallowing ?\"] mm-hmm . i did .",
+    "[Clinician asked: \"okay . and that's also resolved since the initial episode three months ago ?\"] yes . thankfully . the chest pain and swallowing problem got better about three days after i went to the er . but i just feel like there's something wrong .",
+    "[Clinician asked: \"okay . so how has your weight been .\"] i've been trying to lose weight .",
+    "[Clinician asked: \"that's good . any in- ... issues with abdominal pain ?\"] uh , no .",
+    "[Clinician asked: \"okay . good . and how about your bowel movements ; are they okay ?\"] they're normal .",
+    "[Clinician asked: \"all right . are you aware of any family history of gi problems ?\"] i do n't think so .",
+    "[Clinician asked: \"have had you had any surgeries on your abdomen , or gall bladder , or appendix ?\"] yes . they took my gall bladder out several years ago .",
+    "[Clinician asked: \"okay . if you wan na lay down here on the table for me and lets take a look at you .\"] okay .",
+    "[Clinician asked: \"so when i push on your lower belly , do you have any pain , or does it feel tender ?\"] no .",
+    "[Clinician asked: \"okay . how about up here in your upper abdomen ?\"] yes . it , it hurts a little .",
+    "[Clinician asked: \"okay . and even when i press lightly like this ?\"] yes . uh , just a little uncomfortable .",
+    "[Clinician asked: \"okay . does it hurt more when i press over here on the left or over here on the right ? or is it about the same ?\"] i'd say it's about the same .",
+    "[Clinician asked: \"okay . so we'll say you have some mild tenderness to light palpation in the upper abdominal quadrants , but everything on your exam looks normal and looks good .\"] okay . good .",
+    "[Clinician asked: \"so let's talk about your symptoms real quick . obviously , with the chest discomfort , we worry about heart issues , but i'm reassured that those were ruled out with all the testing they did in the er . um , other potential causes could be anxiety , esophagitis , which is irritation of the esophagus\"] well , since you mention anxiety , i was going through a really stressful job transition right around the time this happened .",
+    "[Clinician asked: \"okay . that's good to know . so stress from this could be , um ... could be , uh ... could be very well have contributed to your condition .\"] okay .",
+    "[Clinician asked: \"so we could do an , uh , egd or upper endoscopy to take a look at your esophagus and stomach . this would allow us to look for esophagitis . but your symptoms occurred three months ago and you have n't had any additional episodes , so likely if it were esophagitis , it's already healed by the point \"] i'd like to hold off on the egd and wait to see if i have more symptoms .",
+    "[Clinician asked: \"that sounds good . um , so you can call the office if you have any additional episodes of pain or any other symptoms you're concerned about . if that happens , we'll get you scheduled for an egd to take a look . if not , you can follow up with me ... follow up with me as needed for any other gi comp\"] okay .",
+    "[Clinician asked: \"all right ? if you do n't have any questions for me , i'll walk you out to the check-out desk .\"] no . that's it . thank you ."
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nEsophagitis.\n\nHISTORY OF PRESENT ILLNESS\n\nBetty Hill is a 53 y.o. female who presents to clinic today for a new patient evaluation of suspected esophagitis. The patient was referred from the emergency department where she was seen in early 10/2020 following 4 days of chest pain. The pain has resolved but she kept this appointment to discuss the original 4-day episode.\n\nThe patient describes her chest pain in early 10/2020 as sharp and localized behind the sternum. She states that it felt like a heart attack and the onset was sudden. The pain was exacerbated by eating and accompanied by dysphagia. The patient is not able to say whether she had heartburn as she has never experienced heartburn before and is unsure what it feels like. When asked about potential triggers, the patient identifies that she was experiencing a lot of stress at that time due to a job transition. She was able to tolerate the chest pain and dysphagia for 4 days but reports that nothing she tried relieved her symptoms. She then presented to the emergency department and underwent labs and EKG. All results came back normal from these tests. She was not prescribed any medications in the emergency department but was given a referral to me for suspected esophagitis. Her chest pain and dysphagia resolved spontaneously approximately 3 days after her emergency department visit and has not recurred.\n\nThe patient denies unintentional weight loss, weight gain, abdominal pain, constipation, and diarrhea. She states she is trying to lose weight.\n\nPAST HISTORY\n\nMedical\nUterine fibroids.\nAnemia.\n\nSurgical\nCholecystectomy.\n\nFAMILY HISTORY\n\nNone reported.\n\nREVIEW OF SYSTEMS\n\n\u2022\u202fCardiovascular:\u202f Positive for chest pain.\n\u2022\u202fGastrointestinal:\u202f Positive for difficulty swallowing.\n\u2022\u202fPsychiatric:\u202f Positive for stress.\n\nPHYSICAL EXAM\n\nGastrointestinal\nMild tenderness to light palpation in the upper abdominal quadrants.\n\nRESULTS\n\nThe patient\u2019s emergency department records from her 10/2020 visit were reviewed, including the normal cardiac workup.\n\nASSESSMENT\n\nThe patient presents today following a visit to the emergency department in early 10/2020 for 4-days of sharp chest pain, made worse by eating, and dysphagia. Notably, the patient was experiencing higher levels of stress than normal for her at that time due to a job transition. Her cardiac evaluation in the emergency department was normal and she was referred to me for suspected esophagitis. The patient\u2019s pain and associated dysphagia spontaneously resolved 3 days after her emergency department visit and has not recurred. Possible etiologies of her chest pain and dysphagia include GERD, dyspepsia, esophagitis, musculoskeletal etiologies, and anxiety. Based on her history today, I suspect she had an anxiety attack related to her job transition, plus or minus a contribution from musculoskeletal etiologies.\n\nNon-cardiac chest pain.\n\nSuspected etiology of anxiety with or without underlying musculoskeletal etiology.\n\nPLAN\n\n\u2022 We discussed the role of an EGD in evaluating her prior symptoms. Given her current asymptomatic status, I am comfortable foregoing the EGD for now in lieu of continued monitoring for symptom recurrence. The patient agreed to notify my office if her symptoms return at which time, we could schedule the EGD. The patient is agreeable to this plan.\n\nINSTRUCTIONS\n\n\u2022 Self-monitor for symptom recurrence and notify my office if this occurs.\n\u2022 Follow up as needed.",
+  "gold_sections": {
+    "CC": "Esophagitis.",
+    "HPI": "Betty Hill is a 53 y.o. female who presents to clinic today for a new patient evaluation of suspected esophagitis. The patient was referred from the emergency department where she was seen in early 10/2020 following 4 days of chest pain. The pain has resolved but she kept this appointment to discuss the original 4-day episode.\n\nThe patient describes her chest pain in early 10/2020 as sharp and localized behind the sternum. She states that it felt like a heart attack and the onset was sudden. The pain was exacerbated by eating and accompanied by dysphagia. The patient is not able to say whether she had heartburn as she has never experienced heartburn before and is unsure what it feels like. When asked about potential triggers, the patient identifies that she was experiencing a lot of stress at that time due to a job transition. She was able to tolerate the chest pain and dysphagia for 4 days but reports that nothing she tried relieved her symptoms. She then presented to the emergency department and underwent labs and EKG. All results came back normal from these tests. She was not prescribed any medications in the emergency department but was given a referral to me for suspected esophagitis. Her chest pain and dysphagia resolved spontaneously approximately 3 days after her emergency department visit and has not recurred.\n\nThe patient denies unintentional weight loss, weight gain, abdominal pain, constipation, and diarrhea. She states she is trying to lose weight.",
+    "PAST_HISTORY": "Medical\nUterine fibroids.\nAnemia.\n\nSurgical\nCholecystectomy.",
+    "FAMILY_HISTORY": "None reported.",
+    "ROS": "\u2022\u202fCardiovascular:\u202f Positive for chest pain.\n\u2022\u202fGastrointestinal:\u202f Positive for difficulty swallowing.\n\u2022\u202fPsychiatric:\u202f Positive for stress.",
+    "PHYSICAL_EXAM": "Gastrointestinal\nMild tenderness to light palpation in the upper abdominal quadrants.",
+    "RESULTS": "The patient\u2019s emergency department records from her 10/2020 visit were reviewed, including the normal cardiac workup.",
+    "ASSESSMENT": "The patient presents today following a visit to the emergency department in early 10/2020 for 4-days of sharp chest pain, made worse by eating, and dysphagia. Notably, the patient was experiencing higher levels of stress than normal for her at that time due to a job transition. Her cardiac evaluation in the emergency department was normal and she was referred to me for suspected esophagitis. The patient\u2019s pain and associated dysphagia spontaneously resolved 3 days after her emergency department visit and has not recurred. Possible etiologies of her chest pain and dysphagia include GERD, dyspepsia, esophagitis, musculoskeletal etiologies, and anxiety. Based on her history today, I suspect she had an anxiety attack related to her job transition, plus or minus a contribution from musculoskeletal etiologies.\n\nNon-cardiac chest pain.\n\nSuspected etiology of anxiety with or without underlying musculoskeletal etiology.",
+    "PLAN": "\u2022 We discussed the role of an EGD in evaluating her prior symptoms. Given her current asymptomatic status, I am comfortable foregoing the EGD for now in lieu of continued monitoring for symptom recurrence. The patient agreed to notify my office if her symptoms return at which time, we could schedule the EGD. The patient is agreeable to this plan.",
+    "INSTRUCTIONS": "\u2022 Self-monitor for symptom recurrence and notify my office if this occurs.\n\u2022 Follow up as needed."
+  },
+  "n_patient_turns": 29,
+  "n_clinician_turns": 30,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 20017.5826177001,
+      "response_text": "Thank you for sharing your concerns with me, Betty. I understand how unsettling it must be to experience those symptoms, especially when they come on suddenly. It\u2019s good that the tests in the ER didn\u2019t show any serious issues, but I completely get why you still feel like something\u2019s not quite right. The chest pain and difficulty swallowing were scary, and I\u2019m glad they\u2019ve since resolved.\n\nWe\u2019ll keep a close eye on how you\u2019re feeling. Given that everything checked out in the ER and your symptoms haven\u2019t returned, it\u2019s possible that any irritation, like esophagitis, has already healed. However, if you ever experience those symptoms again, or if anything else feels off, please don\u2019t hesitate to reach out. We can always revisit the option of an EGD if needed. In the meantime, let\u2019s monitor your health and address any concerns as they arise. You\u2019re not alone in this, and I\u2019m here to support you.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 21001.400366425514,
+      "response_text": "It sounds like you're still feeling uneasy, and that's completely understandable. Having chest pain and difficulty swallowing, even if it resolved, can leave anyone feeling like something's not quite right. I can see how the uncertainty might be unsettling, especially after going through all that testing and not finding a clear answer.\n\nGiven your symptoms and the tests you've had, we're considering possibilities like esophagitis or maybe even anxiety, especially since you were going through a stressful job transition around the time this happened. Esophagitis can sometimes cause chest pain and swallowing issues, and it's something we can look into with an EGD if your symptoms come back. But since everything has been normal so far, it might be best to hold off on that for now unless things change.\n\nIn the meantime, if you experience any chest pain, difficulty swallowing, or other concerning symptoms again, please don't hesitate to call us. We can get you in for an EGD if needed. If not, we can schedule a follow-up in a few months to check in and see how you're doing. Before you leave, could you just recap what we discussed today in your own words? That way I can make sure everything makes sense to you.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 7170.5353781580925,
+      "response_text": "Thank you for coming in today. I understand you've been dealing with some concerns related to your health, and I'm here to help address them.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if you experience any new symptoms or if your current ones worsen, please don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "Thank you for coming in today. I understand you've been dealing with some concerns related to your health, and I'm here to help address them.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if you experience any new symptoms or if your current ones worsen, please don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 238452.11797952652,
+      "response_text": "I can hear how much this has been worrying you \u2014 you said, \"but i just feel like there's something wrong.\" That kind of worry is completely valid, especially after experiencing that sharp chest pain.\n\nThe sharp chest pain you described, located in the center of your chest behind the breastbone, is something we need to take seriously. While it's resolved now, the pattern and description suggest we should look into possible causes.\n\nEsophagitis is inflammation of the esophagus, which can cause discomfort or pain. However, without specific symptoms or severity details, it's hard to provide targeted advice at this time.\n\nLosing weight is an important goal, and there are effective strategies to help with this. Guidelines suggest that weight loss can be achieved through a combination of diet, exercise, and sometimes medications.\n\nGiven the chest pain, we'll need to do some tests to rule out serious causes. This might include blood work and imaging studies.\n\nWe'll schedule a follow-up visit to discuss the results and address any remaining concerns about your esophagitis.\n\nFor weight loss, we'll create a personalized plan together, focusing on diet and lifestyle changes.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a few weeks. In the meantime, if you experience any new symptoms like chest pain returning or severe discomfort, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this has been worrying you \u2014 you said, \"but i just feel like there's something wrong.\" That kind of worry is completely valid, especially after experiencing that sharp chest pain.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "chest pain",
+            "profile_path": "problems[0]",
+            "explanation": "The sharp chest pain you described, located in the center of your chest behind the breastbone, is something we need to take seriously. While it's resolved now, the pattern and description suggest we should look into possible causes.",
+            "citations": []
+          },
+          {
+            "concern_label": "esophagitis",
+            "profile_path": "problems[1]",
+            "explanation": "Esophagitis is inflammation of the esophagus, which can cause discomfort or pain. However, without specific symptoms or severity details, it's hard to provide targeted advice at this time.",
+            "citations": []
+          },
+          {
+            "concern_label": "lose weight",
+            "profile_path": "patient_goals[0]",
+            "explanation": "Losing weight is an important goal, and there are effective strategies to help with this. Guidelines suggest that weight loss can be achieved through a combination of diet, exercise, and sometimes medications.",
+            "citations": [
+              {
+                "cluster_id": "retrieval_only::41324410",
+                "primary_assertion_id": "41324410_retr",
+                "pmids": [
+                  "41324410"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "Given the chest pain, we'll need to do some tests to rule out serious causes. This might include blood work and imaging studies.",
+          "We'll schedule a follow-up visit to discuss the results and address any remaining concerns about your esophagitis.",
+          "For weight loss, we'll create a personalized plan together, focusing on diet and lifestyle changes."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a few weeks. In the meantime, if you experience any new symptoms like chest pain returning or severe discomfort, please call us right away.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Demonstrate empathy",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "retrieval_only::41324410"
+        ],
+        "all_pmids_used": [
+          "41324410"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 2,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 1,
+        "n_emotional": 1,
+        "n_goals": 1,
+        "problems": [
+          "chest pain",
+          "esophagitis"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "41324410"
+      ],
+      "cluster_ids_used": [
+        "retrieval_only::41324410"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Demonstrate empathy",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 342274.5727747679,
+      "response_text": "I can hear how much this has been worrying you \u2014 you mentioned, \"I just feel like there's something wrong.\" That kind of concern is valid, and I want to make sure we address it carefully.\n\nThe sharp chest pain you described, especially in the center of your chest, is something we need to take seriously. Based on clinical guidelines, this could be a sign of several conditions that require evaluation. We'll need to do some tests to figure out what's going on.\n\nEsophagitis can cause discomfort and other symptoms, but we don't have specific information about your severity or timing. Once we have more details, we can better understand how to manage it.\n\nFor weight loss, current guidelines suggest using medications like GLP-1 therapies along with intensive behavioral therapy to achieve and maintain your goals. This approach has been shown to be effective for many people.\n\nGiven the chest pain, we'll prioritize evaluating that first. This may include blood tests and imaging to rule out serious causes.\n\nWe'll schedule a follow-up visit within 4 weeks to review the results and discuss next steps for both your chest pain and esophagitis.\n\nIf any symptoms worsen or if you experience new concerns, please reach out immediately.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in 4 weeks. In the meantime, if you have any severe symptoms like chest pain returning or new issues, please call us right away.",
+      "structured_response": {
+        "acknowledgment": "I can hear how much this has been worrying you \u2014 you mentioned, \"I just feel like there's something wrong.\" That kind of concern is valid, and I want to make sure we address it carefully.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "chest pain",
+            "profile_path": "problems[0]",
+            "explanation": "The sharp chest pain you described, especially in the center of your chest, is something we need to take seriously. Based on clinical guidelines, this could be a sign of several conditions that require evaluation. We'll need to do some tests to figure out what's going on.",
+            "citations": [
+              {
+                "cluster_id": "finding::sub_query[0]::38521534_0",
+                "primary_assertion_id": "38521534_0",
+                "pmids": [
+                  "38521534"
+                ]
+              }
+            ]
+          },
+          {
+            "concern_label": "esophagitis",
+            "profile_path": "problems[1]",
+            "explanation": "Esophagitis can cause discomfort and other symptoms, but we don't have specific information about your severity or timing. Once we have more details, we can better understand how to manage it.",
+            "citations": []
+          },
+          {
+            "concern_label": "lose weight",
+            "profile_path": "patient_goals[0]",
+            "explanation": "For weight loss, current guidelines suggest using medications like GLP-1 therapies along with intensive behavioral therapy to achieve and maintain your goals. This approach has been shown to be effective for many people.",
+            "citations": [
+              {
+                "cluster_id": "recommendation::patient_goals[0]::41324410_1",
+                "primary_assertion_id": "41324410_1",
+                "pmids": [
+                  "41324410"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "Given the chest pain, we'll prioritize evaluating that first. This may include blood tests and imaging to rule out serious causes.",
+          "We'll schedule a follow-up visit within 4 weeks to review the results and discuss next steps for both your chest pain and esophagitis.",
+          "If any symptoms worsen or if you experience new concerns, please reach out immediately."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in 4 weeks. In the meantime, if you have any severe symptoms like chest pain returning or new issues, please call us right away.",
+        "nurse_elements_applied": [
+          "Name",
+          "Understand",
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Demonstrate empathy",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::sub_query[0]::38521534_0",
+          "recommendation::patient_goals[0]::41324410_1"
+        ],
+        "all_pmids_used": [
+          "38521534",
+          "41324410"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 2,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 1,
+        "n_emotional": 2,
+        "n_goals": 1,
+        "problems": [
+          "chest pain",
+          "esophagitis"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "38521534",
+        "41324410"
+      ],
+      "cluster_ids_used": [
+        "finding::sub_query[0]::38521534_0",
+        "recommendation::patient_goals[0]::41324410_1"
+      ],
+      "nurse_elements_applied": [
+        "Name",
+        "Understand",
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Demonstrate empathy",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 206864.63142186403,
+        "module_2_retrieval": 1159.8502844572067,
+        "module_3_reasoning": 106148.80991727114,
+        "module_4_response": 28100.3742441535,
+        "total_ms": 342273.6658677459
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

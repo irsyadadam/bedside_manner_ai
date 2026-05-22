@@ -1,0 +1,234 @@
+{
+  "transcript_id": "aci_aci_D2N040",
+  "dataset": "aci_bench",
+  "mode": "real",
+  "speaker_strategy": "middle",
+  "scenario": "yes that's okay",
+  "patient_utterances": [
+    "[Clinician asked: \"carolyn is a 34 -year-old female with a history of diabetes mellitus type two who is here today with a headache so hi there carolyn it's nice to see you again listen i'm sorry you're having headaches well let's talk about it but i would like to record this conversation with this app that's gon na he\"] yes that's okay",
+    "[Clinician asked: \"okay great thanks so carolyn tell me about your headache and headache or headaches when did when did they start and and what symptoms are you having\"] my headache started about a week ago it's feeling like a dull pain in the back of my head i have flushing in my ears they get really red and hot and sometimes i just feel a little bit dizzy when i get these headaches but i've taken tylenol and advil and it's not really going away it just keeps coming back",
+    "[Clinician asked: \"okay and alright and so this started about a week ago has it been fairly constant since it started or does it come and go does it come and go or what\"] it comes and goes i it it's relieved when i take my tylenol or advil but then it comes right back",
+    "[Clinician asked: \"hmmm okay and do you notice any any timing difference you know is it is it worse in the morning worse in the evening is there anything else that makes it better or worse\"] it's definitely worse in the evening",
+    "[Clinician asked: \"okay and do you feel any sort of tightness in the back of your neck or in your shoulders or you know you said it's in the back of your head primarily any discomfort anywhere else\"] yes no just in the back of my head",
+    "[Clinician asked: \"okay and did the headache start all of a sudden carolyn or has it been gradual or what\"] i've been under a lot of stress lately so maybe about when some stress started occurring",
+    "[Clinician asked: \"okay okay and alright and have you noticed any fever along with the headache\"] no no fever",
+    "[Clinician asked: \"okay and any visual changes you know wavy lines in your vision spots in your vision or anything like that\"] no",
+    "[Clinician asked: \"okay and have you had headaches like this before\"] i have",
+    "[Clinician asked: \"okay so this is n't the worst headache you've ever had what did you say\"] no it's not",
+    "[Clinician asked: \"okay alright and so okay fair enough now how's your diabetes been been been doing lately have you what have your blood sugars been running in the low one hundreds or two hundreds or what\"] i have n't been checking my blood sugars",
+    "[Clinician asked: \"really okay well we will get you back on that and and we can talk about that but how about your metformin are you still taking the five hundred milligrams once a day no actually it looks like we increased your metformin to five hundred milligrams twice a day last visit are you still taking that\"] yes",
+    "[Clinician asked: \"okay great and okay you're still watching your diet and getting some exercise\"] i have not been eating well because i've been stressed over the last week but i have n't been exercising for maybe the past week but generally i've been doing better",
+    "[Clinician asked: \"okay the headache has has maybe made you feel uncomfortable and prevented your your exercise would you say or what\"] yes it has",
+    "[Clinician asked: \"okay okay so you probably have n't been out golfing i remember you're a big golfer so not not lately uh so you know being\"] not lately",
+    "[Clinician asked: \"being down being down here in florida we got ta get get some golf in so hey did you see the masters by the way a few weeks ago was n't that i do n't know did you happen to catch it\"] i did",
+    "[Clinician asked: \"yeah that was crazy what a what a finish what an amazing what an amazing tournament right what do you think yeah yeah that's great well we'll we'll get you feeling better and get you back out there and now are you still working a lot on the computer ac or\"] i am",
+    "[Clinician asked: \"carolyn okay yeah you're still working a lot on the computer for work okay are you taking breaks every hour or so you know get up stand around walk stand walk around that can be helpful\"] no i really do n't get the opportunity to",
+    "[Clinician asked: \"hmmm okay understood alright well listen let's go ahead and examine you okay so so on your physical exam your physical exam is pretty normal unremarkable for the most part and you know few things a few exceptions so first of all on your heent exam your eye exam your extraocular motions are intact wi\"] well would it so only call if if it gets worse or not any better",
+    "[Clinician asked: \"yeah that that just right but also let's set up an appointment in four weeks and i wan na see you back in four weeks if it's not if the headache is not better within the next few days with this flexeril then you can give us a call and and get back in later this week or early next but definitely if t\"] no no i think it's just stress",
+    "[Clinician asked: \"okay alright understood okay great well then i'll see you back in a month if not before okay you take care of yourself nice seeing you\"] thank you"
+  ],
+  "gold_note": "CHIEF COMPLAINT\n\nHeadache.\n\nMEDICAL HISTORY\n\nPatient reports history of diabetes mellitus type 2.\n\nSOCIAL HISTORY\n\nPatient reports she enjoys golfing.\n\nMEDICATIONS\n\nPatient reports taking metformin 500 mg twice a day.\n\nREVIEW OF SYSTEMS\n\nConstitutional: Denies fever.\nEyes: Denies vision changes.\nHENT: Reports ear flushing.\nNeurological: Reports headaches and dizziness.\n\nPHYSICAL EXAM\n\nEyes\n- Examination: No papilledema.\n- Extraocular Muscles: Grossly Intact without pain.\n\nNeck\n- General Examination: Mild posterior paraspinal muscular tenderness in the cervical spine and bilateral trapezius musculature as well tightness.\n\nCardiovascular\n- Auscultation of Heart: Grade 3 out of 6 systolic ejection murmur that is unchanged from prior exam.\n\nASSESSMENT AND PLAN\n\n1. Headache.\n- Medical Reasoning: Patient presents with symptoms similar to a tension headache. On exam she has tension and tightness in her paraspinal muscles as well likely due to working at the computer. Additionally, I think her stress level is also a contributing factor.\n- Patient Education and Counseling: I discussed the diagnosis with the patient today. I explained that her headaches may be caused by tension around the muscles around her neck and shoulders. I advised her that her symptoms do not appear related to signs of a stroke or brain bleeding. Questions were asked and answered today.\n- Medical Treatment: She can continue to take Tylenol for the pain. Prescription for Flexeril 5 mg 3 times a day is provided as well.\n\n2. Diabetes mellitus.\n- Medical Reasoning: Due to her headaches, she has been inconsistent with her exercise and checking her blood sugar.\n- Patient Education and Counseling: We discussed the importance of maintaining a healthy lifestyle. We also discussed the importance of keeping a watchful eye on her blood sugar levels.\n- Medical Treatment: She will continue taking metformin 500 mg daily. Order for hemoglobin A1c, CBC, and CMP provided today. She will check her blood sugar daily and will bring that information in on her next visit.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.\n\nINSTRUCTIONS\n\nThe patient will follow up in 1 month. She can follow up or call sooner if her headaches become more severe or suddenly worsen or she develops a fever.",
+  "gold_sections": {
+    "CC": "Headache.",
+    "MEDICAL_HISTORY": "Patient reports history of diabetes mellitus type 2.",
+    "SOCIAL_HISTORY": "Patient reports she enjoys golfing.",
+    "MEDICATIONS": "Patient reports taking metformin 500 mg twice a day.",
+    "ROS": "Constitutional: Denies fever.\nEyes: Denies vision changes.\nHENT: Reports ear flushing.\nNeurological: Reports headaches and dizziness.",
+    "PHYSICAL_EXAM": "Eyes\n- Examination: No papilledema.\n- Extraocular Muscles: Grossly Intact without pain.\n\nNeck\n- General Examination: Mild posterior paraspinal muscular tenderness in the cervical spine and bilateral trapezius musculature as well tightness.\n\nCardiovascular\n- Auscultation of Heart: Grade 3 out of 6 systolic ejection murmur that is unchanged from prior exam.",
+    "ASSESSMENT_PLAN": "1. Headache.\n- Medical Reasoning: Patient presents with symptoms similar to a tension headache. On exam she has tension and tightness in her paraspinal muscles as well likely due to working at the computer. Additionally, I think her stress level is also a contributing factor.\n- Patient Education and Counseling: I discussed the diagnosis with the patient today. I explained that her headaches may be caused by tension around the muscles around her neck and shoulders. I advised her that her symptoms do not appear related to signs of a stroke or brain bleeding. Questions were asked and answered today.\n- Medical Treatment: She can continue to take Tylenol for the pain. Prescription for Flexeril 5 mg 3 times a day is provided as well.\n\n2. Diabetes mellitus.\n- Medical Reasoning: Due to her headaches, she has been inconsistent with her exercise and checking her blood sugar.\n- Patient Education and Counseling: We discussed the importance of maintaining a healthy lifestyle. We also discussed the importance of keeping a watchful eye on her blood sugar levels.\n- Medical Treatment: She will continue taking metformin 500 mg daily. Order for hemoglobin A1c, CBC, and CMP provided today. She will check her blood sugar daily and will bring that information in on her next visit.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.",
+    "INSTRUCTIONS": "The patient will follow up in 1 month. She can follow up or call sooner if her headaches become more severe or suddenly worsen or she develops a fever."
+  },
+  "n_patient_turns": 21,
+  "n_clinician_turns": 22,
+  "conditions": {
+    "naive": {
+      "condition": "naive",
+      "timings_ms": 24814.963467419147,
+      "response_text": "Carolyn, I understand how frustrating and uncomfortable these headaches must be, especially with everything else going on in your life. It\u2019s good you came in to check things out, and I\u2019m glad we could rule out more serious causes. Stress can definitely take a toll on both your body and mind, and it\u2019s clear it\u2019s been a factor here.\n\nMoving forward, let\u2019s focus on giving those muscles some relief with the Flexeril. Make sure to take it as prescribed, and if it helps, that\u2019s great. If not, don\u2019t hesitate to reach out sooner. Managing stress is key, so maybe try some deep breathing or relaxation techniques. Keep an eye on your blood sugars, as they can affect how you feel. Try to fit in some light exercise and healthy meals when you can\u2014every little bit helps. We\u2019ll keep an eye on things with your follow-up in four weeks, but if you feel things aren\u2019t improving, give us a call. You\u2019ve got this, Carolyn, and I\u2019m here to help. Let\u2019s get you feeling like yourself again so you can get back to those rounds of golf\u2014I heard the Masters was something else!",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "strong_prompt": {
+      "condition": "strong_prompt",
+      "timings_ms": 28220.03123164177,
+      "response_text": "Carolyn, thank you for sharing your concerns with me. It sounds like you're experiencing a lot, especially with the headaches persisting despite your efforts to manage them. I can understand how stressful this must be, especially with everything else you're dealing with, like managing your diabetes and work.\n\nGiven your symptoms\u2014dull headaches at the back of your head, ear flushing, and occasional dizziness\u2014it's possible these could be related to tension headaches or migraines, which are often linked to stress. Your recent increase in computer use without breaks might also be contributing, as eye strain can sometimes trigger headaches. Additionally, stress can impact your blood sugar levels, which might be exacerbating your symptoms. I'll check for any connection between your headaches and your diabetes management.\n\nFor now, let's schedule a follow-up in four weeks to monitor your progress. In the meantime, I encourage you to keep track of your symptoms and blood sugar levels. Try to incorporate some stress-relief techniques and ensure you're taking regular breaks from the computer. If your symptoms worsen or if you experience severe pain, vision changes, or fever, please reach out immediately.\n\nBefore you leave, could you summarize our plan in your own words? That way, I can ensure you're clear on the next steps. I'm here to help, and we'll work through this together.",
+      "structured_response": null,
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [],
+      "four_habits_elements_applied": []
+    },
+    "framework_only": {
+      "condition": "framework_only",
+      "timings_ms": 6716.893389821053,
+      "response_text": "It sounds like you're having some headaches that are concerning you, and I'm here to help figure out what's going on.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to see each other again in a month. In the meantime, if your headaches get worse or don't improve, please give us a call.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're having some headaches that are concerning you, and I'm here to help figure out what's going on.",
+        "clinical_information_per_concern": [],
+        "next_steps": [],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to see each other again in a month. In the meantime, if your headaches get worse or don't improve, please give us a call.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {},
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "retrieval_only": {
+      "condition": "retrieval_only",
+      "timings_ms": 156287.5430881977,
+      "response_text": "It sounds like you're dealing with headaches that started when stress kicked in. I want to make sure I understand how this is affecting your daily life.\n\nHeadaches that come with symptoms like flushing in the ears, dizziness, and tightness in the back of your head can sometimes point to specific causes. The current guidance suggests looking into these symptoms together to figure out the best next steps.\n\nWe'll work together to figure out what's causing your headaches and how to address them. This might include some tests or adjustments to your current approach.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to check in again soon. If your headaches get worse or you notice any new symptoms, please reach out so we can address them promptly.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're dealing with headaches that started when stress kicked in. I want to make sure I understand how this is affecting your daily life.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "headache",
+            "profile_path": "problems[0]",
+            "explanation": "Headaches that come with symptoms like flushing in the ears, dizziness, and tightness in the back of your head can sometimes point to specific causes. The current guidance suggests looking into these symptoms together to figure out the best next steps.",
+            "citations": []
+          }
+        ],
+        "next_steps": [
+          "We'll work together to figure out what's causing your headaches and how to address them. This might include some tests or adjustments to your current approach."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to check in again soon. If your headaches get worse or you notice any new symptoms, please reach out so we can address them promptly.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [],
+        "all_pmids_used": [],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 1,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "headache"
+        ],
+        "medications": [
+          "metformin 500 mg twice a day"
+        ],
+        "allergies": []
+      },
+      "pmids_used": [],
+      "cluster_ids_used": [],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Invest in the end"
+      ]
+    },
+    "full": {
+      "condition": "full",
+      "timings_ms": 203540.6163483858,
+      "response_text": "It sounds like you're dealing with headaches that started when stress kicked in, and they're happening every day with some other symptoms like flushing in your ears and dizziness.\n\nHeadaches that come with flushing in the ears and dizziness could be linked to various causes. Given your history of type 2 diabetes, we'll consider how stress and other factors might be contributing to your symptoms.\n\nWe'll monitor your symptoms over the next few weeks to see if there's a pattern or if anything changes.\n\nIf the headaches get worse or you notice new symptoms like severe pain or vision changes, let us know right away.\n\nI want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?\n\nLet's plan to check in again in a few weeks. If anything new comes up in the meantime, don't hesitate to reach out.",
+      "structured_response": {
+        "acknowledgment": "It sounds like you're dealing with headaches that started when stress kicked in, and they're happening every day with some other symptoms like flushing in your ears and dizziness.",
+        "clinical_information_per_concern": [
+          {
+            "concern_label": "headache",
+            "profile_path": "problems[0]",
+            "explanation": "Headaches that come with flushing in the ears and dizziness could be linked to various causes. Given your history of type 2 diabetes, we'll consider how stress and other factors might be contributing to your symptoms.",
+            "citations": [
+              {
+                "cluster_id": "finding::relevant_history::36355789_0",
+                "primary_assertion_id": "36355789_0",
+                "pmids": [
+                  "36355789"
+                ]
+              }
+            ]
+          }
+        ],
+        "next_steps": [
+          "We'll monitor your symptoms over the next few weeks to see if there's a pattern or if anything changes.",
+          "If the headaches get worse or you notice new symptoms like severe pain or vision changes, let us know right away."
+        ],
+        "teach_back_prompt": "I want to make sure I explained this clearly \u2014 can you tell me, in your own words, what we're going to do next and why?",
+        "follow_up_invitation": "Let's plan to check in again in a few weeks. If anything new comes up in the meantime, don't hesitate to reach out.",
+        "nurse_elements_applied": [
+          "Support"
+        ],
+        "four_habits_elements_applied": [
+          "Invest in the beginning",
+          "Elicit the patient's perspective",
+          "Invest in the end"
+        ],
+        "all_cluster_ids_used": [
+          "finding::relevant_history::36355789_0"
+        ],
+        "all_pmids_used": [
+          "36355789"
+        ],
+        "glossary_substitutions": []
+      },
+      "profile_summary": {
+        "n_problems": 1,
+        "n_medications": 0,
+        "n_allergies": 0,
+        "n_red_flags": 0,
+        "n_emotional": 0,
+        "n_goals": 0,
+        "problems": [
+          "headache"
+        ],
+        "medications": [],
+        "allergies": []
+      },
+      "pmids_used": [
+        "36355789"
+      ],
+      "cluster_ids_used": [
+        "finding::relevant_history::36355789_0"
+      ],
+      "nurse_elements_applied": [
+        "Support"
+      ],
+      "four_habits_elements_applied": [
+        "Invest in the beginning",
+        "Elicit the patient's perspective",
+        "Invest in the end"
+      ],
+      "module_timings_ms": {
+        "module_1_intake": 141201.98258012533,
+        "module_2_retrieval": 887.2091248631477,
+        "module_3_reasoning": 46098.177671432495,
+        "module_4_response": 15352.485321462154,
+        "total_ms": 203539.85469788313
+      }
+    }
+  },
+  "schema_version": "phase13.v1"
+}

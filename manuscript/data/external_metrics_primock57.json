@@ -73,7 +73,298 @@
       "length_words_mean": 201.23636363636365
     }
   },
-  "judge_summary": {},
+  "judge_summary": {
+    "framework_only": {
+      "nurse_name": {
+        "mean": 0.9642857142857143,
+        "n": 56
+      },
+      "nurse_understand": {
+        "mean": 0.8214285714285714,
+        "n": 56
+      },
+      "nurse_respect": {
+        "mean": 0.26785714285714285,
+        "n": 56
+      },
+      "nurse_support": {
+        "mean": 0.9821428571428571,
+        "n": 56
+      },
+      "nurse_explore": {
+        "mean": 0.5,
+        "n": 56
+      },
+      "habits_open": {
+        "mean": 1.0,
+        "n": 56
+      },
+      "habits_perspective": {
+        "mean": 0.7857142857142857,
+        "n": 56
+      },
+      "habits_empathy": {
+        "mean": 0.9642857142857143,
+        "n": 56
+      },
+      "habits_close": {
+        "mean": 1.0,
+        "n": 56
+      },
+      "safety_no_dx": {
+        "mean": 1.0,
+        "n": 56
+      },
+      "safety_escalation": {
+        "mean": 0.48214285714285715,
+        "n": 56
+      },
+      "safety_clinician_loop": {
+        "mean": 0.9107142857142857,
+        "n": 56
+      },
+      "plain_language": {
+        "mean": 1.0,
+        "n": 56
+      },
+      "teach_back": {
+        "mean": 1.0,
+        "n": 56
+      }
+    },
+    "full": {
+      "nurse_name": {
+        "mean": 0.9811320754716981,
+        "n": 53
+      },
+      "nurse_understand": {
+        "mean": 0.9245283018867925,
+        "n": 53
+      },
+      "nurse_respect": {
+        "mean": 0.2830188679245283,
+        "n": 53
+      },
+      "nurse_support": {
+        "mean": 0.9622641509433962,
+        "n": 53
+      },
+      "nurse_explore": {
+        "mean": 0.660377358490566,
+        "n": 53
+      },
+      "habits_open": {
+        "mean": 0.8867924528301887,
+        "n": 53
+      },
+      "habits_perspective": {
+        "mean": 0.9433962264150944,
+        "n": 53
+      },
+      "habits_empathy": {
+        "mean": 0.9811320754716981,
+        "n": 53
+      },
+      "habits_close": {
+        "mean": 0.9811320754716981,
+        "n": 53
+      },
+      "safety_no_dx": {
+        "mean": 1.0,
+        "n": 53
+      },
+      "safety_escalation": {
+        "mean": 0.22641509433962265,
+        "n": 53
+      },
+      "safety_clinician_loop": {
+        "mean": 0.9622641509433962,
+        "n": 53
+      },
+      "plain_language": {
+        "mean": 1.0,
+        "n": 53
+      },
+      "teach_back": {
+        "mean": 1.0,
+        "n": 53
+      }
+    },
+    "naive": {
+      "nurse_name": {
+        "mean": 0.9824561403508771,
+        "n": 57
+      },
+      "nurse_understand": {
+        "mean": 0.9649122807017544,
+        "n": 57
+      },
+      "nurse_respect": {
+        "mean": 0.5087719298245614,
+        "n": 57
+      },
+      "nurse_support": {
+        "mean": 0.9649122807017544,
+        "n": 57
+      },
+      "nurse_explore": {
+        "mean": 0.05263157894736842,
+        "n": 57
+      },
+      "habits_open": {
+        "mean": 0.8245614035087719,
+        "n": 57
+      },
+      "habits_perspective": {
+        "mean": 0.9473684210526315,
+        "n": 57
+      },
+      "habits_empathy": {
+        "mean": 0.9824561403508771,
+        "n": 57
+      },
+      "habits_close": {
+        "mean": 0.631578947368421,
+        "n": 57
+      },
+      "safety_no_dx": {
+        "mean": 0.8070175438596491,
+        "n": 57
+      },
+      "safety_escalation": {
+        "mean": 0.3684210526315789,
+        "n": 57
+      },
+      "safety_clinician_loop": {
+        "mean": 0.6666666666666666,
+        "n": 57
+      },
+      "plain_language": {
+        "mean": 1.0,
+        "n": 57
+      },
+      "teach_back": {
+        "mean": 0.0,
+        "n": 57
+      }
+    },
+    "retrieval_only": {
+      "nurse_name": {
+        "mean": 1.0,
+        "n": 54
+      },
+      "nurse_understand": {
+        "mean": 1.0,
+        "n": 54
+      },
+      "nurse_respect": {
+        "mean": 0.3148148148148148,
+        "n": 54
+      },
+      "nurse_support": {
+        "mean": 1.0,
+        "n": 54
+      },
+      "nurse_explore": {
+        "mean": 0.8703703703703703,
+        "n": 54
+      },
+      "habits_open": {
+        "mean": 0.9444444444444444,
+        "n": 54
+      },
+      "habits_perspective": {
+        "mean": 0.9814814814814815,
+        "n": 54
+      },
+      "habits_empathy": {
+        "mean": 1.0,
+        "n": 54
+      },
+      "habits_close": {
+        "mean": 1.0,
+        "n": 54
+      },
+      "safety_no_dx": {
+        "mean": 0.9814814814814815,
+        "n": 54
+      },
+      "safety_escalation": {
+        "mean": 0.18518518518518517,
+        "n": 54
+      },
+      "safety_clinician_loop": {
+        "mean": 0.9074074074074074,
+        "n": 54
+      },
+      "plain_language": {
+        "mean": 1.0,
+        "n": 54
+      },
+      "teach_back": {
+        "mean": 1.0,
+        "n": 54
+      }
+    },
+    "strong_prompt": {
+      "nurse_name": {
+        "mean": 1.0,
+        "n": 57
+      },
+      "nurse_understand": {
+        "mean": 1.0,
+        "n": 57
+      },
+      "nurse_respect": {
+        "mean": 0.6842105263157895,
+        "n": 57
+      },
+      "nurse_support": {
+        "mean": 1.0,
+        "n": 57
+      },
+      "nurse_explore": {
+        "mean": 0.5789473684210527,
+        "n": 57
+      },
+      "habits_open": {
+        "mean": 1.0,
+        "n": 57
+      },
+      "habits_perspective": {
+        "mean": 1.0,
+        "n": 57
+      },
+      "habits_empathy": {
+        "mean": 1.0,
+        "n": 57
+      },
+      "habits_close": {
+        "mean": 0.9824561403508771,
+        "n": 57
+      },
+      "safety_no_dx": {
+        "mean": 0.9122807017543859,
+        "n": 57
+      },
+      "safety_escalation": {
+        "mean": 0.38596491228070173,
+        "n": 57
+      },
+      "safety_clinician_loop": {
+        "mean": 0.9649122807017544,
+        "n": 57
+      },
+      "plain_language": {
+        "mean": 1.0,
+        "n": 57
+      },
+      "teach_back": {
+        "mean": 0.8245614035087719,
+        "n": 57
+      }
+    }
+  },
   "per_transcript_scores": [
     {
       "transcript_id": "primock57_day1_consultation01",

@@ -73,7 +73,298 @@
       "length_words_mean": 144.70305676855895
     }
   },
-  "judge_summary": {},
+  "judge_summary": {
+    "framework_only": {
+      "nurse_name": {
+        "mean": 0.43043478260869567,
+        "n": 230
+      },
+      "nurse_understand": {
+        "mean": 0.2956521739130435,
+        "n": 230
+      },
+      "nurse_respect": {
+        "mean": 0.23043478260869565,
+        "n": 230
+      },
+      "nurse_support": {
+        "mean": 0.5478260869565217,
+        "n": 230
+      },
+      "nurse_explore": {
+        "mean": 0.1782608695652174,
+        "n": 230
+      },
+      "habits_open": {
+        "mean": 0.8652173913043478,
+        "n": 230
+      },
+      "habits_perspective": {
+        "mean": 0.3347826086956522,
+        "n": 230
+      },
+      "habits_empathy": {
+        "mean": 0.4217391304347826,
+        "n": 230
+      },
+      "habits_close": {
+        "mean": 0.8869565217391304,
+        "n": 230
+      },
+      "safety_no_dx": {
+        "mean": 1.0,
+        "n": 230
+      },
+      "safety_escalation": {
+        "mean": 0.09130434782608696,
+        "n": 230
+      },
+      "safety_clinician_loop": {
+        "mean": 0.6956521739130435,
+        "n": 230
+      },
+      "plain_language": {
+        "mean": 1.0,
+        "n": 230
+      },
+      "teach_back": {
+        "mean": 0.8869565217391304,
+        "n": 230
+      }
+    },
+    "full": {
+      "nurse_name": {
+        "mean": 0.6545454545454545,
+        "n": 220
+      },
+      "nurse_understand": {
+        "mean": 0.6,
+        "n": 220
+      },
+      "nurse_respect": {
+        "mean": 0.35909090909090907,
+        "n": 220
+      },
+      "nurse_support": {
+        "mean": 0.8045454545454546,
+        "n": 220
+      },
+      "nurse_explore": {
+        "mean": 0.5772727272727273,
+        "n": 220
+      },
+      "habits_open": {
+        "mean": 0.9090909090909091,
+        "n": 220
+      },
+      "habits_perspective": {
+        "mean": 0.6136363636363636,
+        "n": 220
+      },
+      "habits_empathy": {
+        "mean": 0.6227272727272727,
+        "n": 220
+      },
+      "habits_close": {
+        "mean": 0.95,
+        "n": 220
+      },
+      "safety_no_dx": {
+        "mean": 1.0,
+        "n": 220
+      },
+      "safety_escalation": {
+        "mean": 0.05,
+        "n": 220
+      },
+      "safety_clinician_loop": {
+        "mean": 0.6818181818181818,
+        "n": 220
+      },
+      "plain_language": {
+        "mean": 1.0,
+        "n": 220
+      },
+      "teach_back": {
+        "mean": 0.9681818181818181,
+        "n": 220
+      }
+    },
+    "naive": {
+      "nurse_name": {
+        "mean": 0.5829787234042553,
+        "n": 235
+      },
+      "nurse_understand": {
+        "mean": 0.5617021276595745,
+        "n": 235
+      },
+      "nurse_respect": {
+        "mean": 0.5574468085106383,
+        "n": 235
+      },
+      "nurse_support": {
+        "mean": 0.851063829787234,
+        "n": 235
+      },
+      "nurse_explore": {
+        "mean": 0.502127659574468,
+        "n": 235
+      },
+      "habits_open": {
+        "mean": 0.7957446808510639,
+        "n": 235
+      },
+      "habits_perspective": {
+        "mean": 0.5319148936170213,
+        "n": 235
+      },
+      "habits_empathy": {
+        "mean": 0.5914893617021276,
+        "n": 235
+      },
+      "habits_close": {
+        "mean": 0.10212765957446808,
+        "n": 235
+      },
+      "safety_no_dx": {
+        "mean": 0.9957446808510638,
+        "n": 235
+      },
+      "safety_escalation": {
+        "mean": 0.02127659574468085,
+        "n": 235
+      },
+      "safety_clinician_loop": {
+        "mean": 0.3148936170212766,
+        "n": 235
+      },
+      "plain_language": {
+        "mean": 1.0,
+        "n": 235
+      },
+      "teach_back": {
+        "mean": 0.00851063829787234,
+        "n": 235
+      }
+    },
+    "retrieval_only": {
+      "nurse_name": {
+        "mean": 0.5991379310344828,
+        "n": 232
+      },
+      "nurse_understand": {
+        "mean": 0.5646551724137931,
+        "n": 232
+      },
+      "nurse_respect": {
+        "mean": 0.27155172413793105,
+        "n": 232
+      },
+      "nurse_support": {
+        "mean": 0.771551724137931,
+        "n": 232
+      },
+      "nurse_explore": {
+        "mean": 0.5603448275862069,
+        "n": 232
+      },
+      "habits_open": {
+        "mean": 0.9482758620689655,
+        "n": 232
+      },
+      "habits_perspective": {
+        "mean": 0.5991379310344828,
+        "n": 232
+      },
+      "habits_empathy": {
+        "mean": 0.5732758620689655,
+        "n": 232
+      },
+      "habits_close": {
+        "mean": 0.9913793103448276,
+        "n": 232
+      },
+      "safety_no_dx": {
+        "mean": 1.0,
+        "n": 232
+      },
+      "safety_escalation": {
+        "mean": 0.02586206896551724,
+        "n": 232
+      },
+      "safety_clinician_loop": {
+        "mean": 0.6724137931034483,
+        "n": 232
+      },
+      "plain_language": {
+        "mean": 1.0,
+        "n": 232
+      },
+      "teach_back": {
+        "mean": 0.9956896551724138,
+        "n": 232
+      }
+    },
+    "strong_prompt": {
+      "nurse_name": {
+        "mean": 0.7659574468085106,
+        "n": 235
+      },
+      "nurse_understand": {
+        "mean": 0.774468085106383,
+        "n": 235
+      },
+      "nurse_respect": {
+        "mean": 0.7914893617021277,
+        "n": 235
+      },
+      "nurse_support": {
+        "mean": 0.9404255319148936,
+        "n": 235
+      },
+      "nurse_explore": {
+        "mean": 0.7446808510638298,
+        "n": 235
+      },
+      "habits_open": {
+        "mean": 0.9829787234042553,
+        "n": 235
+      },
+      "habits_perspective": {
+        "mean": 0.8212765957446808,
+        "n": 235
+      },
+      "habits_empathy": {
+        "mean": 0.8127659574468085,
+        "n": 235
+      },
+      "habits_close": {
+        "mean": 0.9446808510638298,
+        "n": 235
+      },
+      "safety_no_dx": {
+        "mean": 0.9872340425531915,
+        "n": 235
+      },
+      "safety_escalation": {
+        "mean": 0.03404255319148936,
+        "n": 235
+      },
+      "safety_clinician_loop": {
+        "mean": 0.851063829787234,
+        "n": 235
+      },
+      "plain_language": {
+        "mean": 1.0,
+        "n": 235
+      },
+      "teach_back": {
+        "mean": 0.9361702127659575,
+        "n": 235
+      }
+    }
+  },
   "per_transcript_scores": [
     {
       "transcript_id": "mts_test_1_0",

@@ -30,4 +30,4 @@
 
 † **Halluc strict** cells for LLM-only baselines are reported as “—” because those conditions do not run Module I — they extract no patient-profile atoms, so their hallucination rate is trivially 0/0 = 0. The pipeline's 0.32–0.33 strict rate is reported alongside its 0.000 *semantic*-anchored rate; the gap is entirely accounted for by legitimate clinical normalizations (see Table 7 footnote and §4.3).
 
-<small>Auto-generated from `manuscript/data/external_metrics_*.json` on 2026-05-22T03:45:30+00:00.</small>
+<small>Auto-generated from `manuscript/data/external_metrics_*.json` on 2026-05-22T16:28:04+00:00.</small>

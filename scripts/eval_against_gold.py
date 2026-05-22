@@ -686,7 +686,22 @@ def _process_one_dataset(
     if run_bertscore:
         _add_bertscore(scored, records)
 
+    # PRESERVE existing judge_summary from disk when --llm-judge is NOT set.
+    # Without this guard, calling eval_against_gold to refresh strict metrics
+    # would silently wipe the judge data from a prior --llm-judge run, which
+    # is expensive to regenerate (hours of LLM calls).
     judge_summary: dict = {}
+    existing_path = data_out / f"external_metrics_{dataset}.json"
+    if not run_llm_judge and existing_path.exists():
+        try:
+            existing = json.loads(existing_path.read_text(encoding="utf-8"))
+            judge_summary = existing.get("judge_summary") or {}
+            if judge_summary:
+                log.info("preserving existing judge_summary (%d conditions) from %s",
+                         len(judge_summary), existing_path.name)
+        except (json.JSONDecodeError, OSError):
+            judge_summary = {}
+
     if run_llm_judge:
         all_conditions_seen = set()
         for s in scored:

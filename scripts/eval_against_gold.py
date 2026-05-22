@@ -585,6 +585,94 @@ def table10_cross_dataset(all_summaries: dict[str, dict], out_dir: Path) -> None
     log.info("wrote %s", out_dir / "table10_cross_dataset.md")
 
 
+def table11b_per_dataset(out_dir: Path, data_root: Path) -> None:
+    """Table 11b — per-dataset rubric scores from LLM judge.
+
+    Mirrors Table 11's pooled view with one section per external dataset.
+    Reads each dataset's judge_summary from manuscript/data/external_metrics_*.json
+    and renders a 14-row × 5-condition table per dataset.
+    """
+    datasets = [
+        ('PriMock57',  'external_metrics_primock57.json'),
+        ('MTS-Dialog', 'external_metrics_mts_dialog.json'),
+        ('ACI-Bench',  'external_metrics_aci_bench.json'),
+    ]
+    cond_order = ['naive', 'strong_prompt', 'framework_only', 'retrieval_only', 'full']
+    cond_display = {
+        'naive': 'Naive',
+        'strong_prompt': 'Strong-prompt',
+        'framework_only': 'Framework only',
+        'retrieval_only': 'Retrieval only',
+        'full': 'Full pipeline',
+    }
+
+    lines: list[str] = []
+    lines.append("# Table 11b — LLM-judge rubric scoring, per dataset")
+    lines.append("")
+    lines.append("Per-item mean rubric score broken out by external dataset. "
+                 "Reveals the deployment-context dependence of each condition's "
+                 "rubric-item performance that Table 11's pooled view averages "
+                 "away.")
+    lines.append("")
+
+    any_data = False
+    for ds_name, ds_fname in datasets:
+        ds_path = data_root / ds_fname
+        if not ds_path.exists():
+            continue
+        try:
+            d = json.loads(ds_path.read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            continue
+        js = d.get('judge_summary') or {}
+        if not js:
+            continue
+        any_data = True
+
+        lines.append(f"## {ds_name} (n={d['n_transcripts']} transcripts)")
+        lines.append("")
+        header = "| Rubric item | Element | "
+        header += " | ".join(cond_display[c] for c in cond_order) + " |"
+        lines.append(header)
+        lines.append("|---|---|" + "---:|" * len(cond_order))
+
+        item_lookup = {it["id"]: it for it in RUBRIC_ITEMS}
+        for it in RUBRIC_ITEMS:
+            iid = it["id"]
+            cells = []
+            for c in cond_order:
+                entry = js.get(c, {}).get(iid, {})
+                mean = entry.get('mean', 0.0)
+                n = entry.get('n', 0)
+                cells.append(f"{mean:.2f} (n={n})")
+            lines.append(f"| `{iid}` | {it['element']} | " + " | ".join(cells) + " |")
+        lines.append("")
+
+    if not any_data:
+        log.info("table11b: no judge data found across datasets; skipping")
+        return
+
+    lines.append("## Reading")
+    lines.append("")
+    lines.append("- The 0/1 scoring is anchored by positive + negative example "
+                 "for each item (see `clinicomm.external_metrics.RUBRIC_ITEMS`). "
+                 "Same rubric goes to human raters via "
+                 "`scripts/gen_clinician_forms.py`.")
+    lines.append("- Each row's column-to-column delta isolates how much that "
+                 "condition's design contributes to the rubric item's "
+                 "behavior, within that deployment context.")
+    lines.append("- Items where ALL conditions score near 1.00 (e.g., "
+                 "plain_language) reflect free LLM behavior, not framework "
+                 "contribution.")
+    lines.append("- Items where the naive baseline scores near 0 but pipeline "
+                 "conditions score >0.9 (e.g., teach_back, habits_close on "
+                 "PriMock+ACI) are the framework's clearest contributions.")
+    lines.append("")
+    path = out_dir / "table11b_llm_judge_per_dataset.md"
+    path.write_text("\n".join(lines), encoding="utf-8")
+    log.info("wrote %s", path)
+
+
 def table11_llm_judge(judge_summary: dict, out_dir: Path) -> None:
     """Table 11 — LLM-judge mean per rubric item, with κ column placeholder."""
     if not judge_summary:
@@ -839,6 +927,7 @@ def main() -> int:
             for cond, items in combined_judge.items()
         }
         table11_llm_judge(judge_summary_combined, tables_out)
+        table11b_per_dataset(tables_out, data_out)
 
     log.info("eval_against_gold done — see %s/", tables_out)
     return 0
